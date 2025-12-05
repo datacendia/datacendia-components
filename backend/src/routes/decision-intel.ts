@@ -1,10 +1,12 @@
 // =============================================================================
 // DECISION INTELLIGENCE API ROUTES
 // Chronos, Ghost Board, Pre-Mortem, Regulatory
+// With AI-Powered Analysis via Ollama
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
 import { PrismaClient } from '@prisma/client';
+import { chronosAIService } from '../services/ChronosAIService.js';
 
 const router = Router();
 const prisma = new PrismaClient();
@@ -48,6 +50,131 @@ router.post('/chronos/snapshots', async (req: Request, res: Response) => {
   } catch (error) {
     console.error('[Chronos] Snapshot create error:', error);
     res.status(500).json({ success: false, error: 'Failed to create snapshot' });
+  }
+});
+
+// =============================================================================
+// CHRONOS AI - AI-Powered Analysis via Ollama
+// =============================================================================
+
+// AI Pivotal Moment Detection
+router.post('/chronos/ai/pivotal-moments', async (req: Request, res: Response) => {
+  try {
+    const { organization_id, events, limit } = req.body;
+    
+    if (!events || !Array.isArray(events)) {
+      return res.status(400).json({ success: false, error: 'Events array required' });
+    }
+
+    const pivotalMoments = await chronosAIService.detectPivotalMoments(
+      organization_id || 'default',
+      events.map((e: any) => ({
+        ...e,
+        timestamp: new Date(e.timestamp)
+      })),
+      limit || 5
+    );
+
+    res.json({ success: true, data: pivotalMoments });
+  } catch (error) {
+    console.error('[ChronosAI] Pivotal moments error:', error);
+    res.status(500).json({ success: false, error: 'AI analysis failed' });
+  }
+});
+
+// AI Causal Chain Analysis
+router.post('/chronos/ai/causal-chain', async (req: Request, res: Response) => {
+  try {
+    const { organization_id, root_event, all_events } = req.body;
+    
+    if (!root_event) {
+      return res.status(400).json({ success: false, error: 'Root event required' });
+    }
+
+    const causalLinks = await chronosAIService.analyzeCausalChain(
+      organization_id || 'default',
+      { ...root_event, timestamp: new Date(root_event.timestamp) },
+      (all_events || []).map((e: any) => ({
+        ...e,
+        timestamp: new Date(e.timestamp)
+      }))
+    );
+
+    res.json({ success: true, data: causalLinks });
+  } catch (error) {
+    console.error('[ChronosAI] Causal chain error:', error);
+    res.status(500).json({ success: false, error: 'AI analysis failed' });
+  }
+});
+
+// AI Future Scenario Generation
+router.post('/chronos/ai/future-scenarios', async (req: Request, res: Response) => {
+  try {
+    const { organization_id, current_metrics, recent_events, time_horizon } = req.body;
+
+    const scenarios = await chronosAIService.generateFutureScenarios(
+      organization_id || 'default',
+      current_metrics || {},
+      (recent_events || []).map((e: any) => ({
+        ...e,
+        timestamp: new Date(e.timestamp)
+      })),
+      time_horizon || '12 months'
+    );
+
+    res.json({ success: true, data: scenarios });
+  } catch (error) {
+    console.error('[ChronosAI] Scenario generation error:', error);
+    res.status(500).json({ success: false, error: 'AI analysis failed' });
+  }
+});
+
+// AI Timeline Insight
+router.post('/chronos/ai/timeline-insight', async (req: Request, res: Response) => {
+  try {
+    const { organization_id, start_date, end_date, events, metrics } = req.body;
+    
+    if (!start_date || !end_date) {
+      return res.status(400).json({ success: false, error: 'Start and end dates required' });
+    }
+
+    const insight = await chronosAIService.getTimelineInsight(
+      organization_id || 'default',
+      new Date(start_date),
+      new Date(end_date),
+      (events || []).map((e: any) => ({
+        ...e,
+        timestamp: new Date(e.timestamp)
+      })),
+      metrics
+    );
+
+    res.json({ success: true, data: insight });
+  } catch (error) {
+    console.error('[ChronosAI] Timeline insight error:', error);
+    res.status(500).json({ success: false, error: 'AI analysis failed' });
+  }
+});
+
+// AI "What If" Analysis
+router.post('/chronos/ai/what-if', async (req: Request, res: Response) => {
+  try {
+    const { organization_id, event, alternative_action } = req.body;
+    
+    if (!event || !alternative_action) {
+      return res.status(400).json({ success: false, error: 'Event and alternative action required' });
+    }
+
+    const analysis = await chronosAIService.analyzeWhatIf(
+      organization_id || 'default',
+      { ...event, timestamp: new Date(event.timestamp) },
+      alternative_action
+    );
+
+    res.json({ success: true, data: analysis });
+  } catch (error) {
+    console.error('[ChronosAI] What-if analysis error:', error);
+    res.status(500).json({ success: false, error: 'AI analysis failed' });
   }
 });
 

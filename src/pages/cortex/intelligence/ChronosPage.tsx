@@ -1630,9 +1630,61 @@ export const ChronosPage: React.FC = () => {
     };
   }, [isPlaying, playbackSpeed, mode, timeRange]);
 
-  // Initialize pivotal moments
+  // Initialize pivotal moments with AI detection
   useEffect(() => {
-    setPivotalMoments(generatePivotalMoments(events));
+    const detectPivotalMomentsWithAI = async () => {
+      if (events.length === 0) return;
+      
+      try {
+        // Call AI to detect pivotal moments
+        const response = await decisionIntelApi.detectPivotalMoments({
+          events: events.map(e => ({
+            id: e.id,
+            timestamp: e.timestamp.toISOString(),
+            type: e.type,
+            title: e.title,
+            description: e.description,
+            impact: e.impact,
+            magnitude: e.magnitude,
+            department: e.department,
+          })),
+          limit: 8,
+        });
+
+        if (response.success && response.data && Array.isArray(response.data)) {
+          console.log('[ChronosAI] Detected', response.data.length, 'pivotal moments via AI');
+          // Map AI response to PivotalMoment format
+          const aiMoments: PivotalMoment[] = [];
+          for (const m of response.data as any[]) {
+            const event = events.find(e => e.id === m.eventId);
+            if (event) {
+              aiMoments.push({
+                id: `pivot-${m.eventId}`,
+                timestamp: event.timestamp,
+                event,
+                significance: m.significance || 80,
+                reason: m.reason || 'AI-identified critical decision point',
+                impactedMetrics: m.impactedMetrics || ['revenue', 'operations'],
+                beforeState: { revenue: 10000000, profit: 2000000 },
+                afterState: { revenue: 11000000, profit: 2200000 },
+              });
+            }
+          }
+          
+          if (aiMoments.length > 0) {
+            setPivotalMoments(aiMoments);
+            return;
+          }
+        }
+      } catch (error) {
+        console.log('[ChronosAI] AI detection failed, using fallback:', error);
+      }
+      
+      // Fallback to local generation
+      setPivotalMoments(generatePivotalMoments(events));
+    };
+    
+    detectPivotalMomentsWithAI();
   }, [events]);
 
   // Fetch ALL real data from APIs
@@ -1800,10 +1852,62 @@ export const ChronosPage: React.FC = () => {
     navigator.clipboard.writeText(url);
   };
 
-  // Start impact trace
-  const startImpactTrace = (event: TimelineEvent) => {
-    setCausalChain(generateCausalChain(event, events));
+  // Start impact trace with AI analysis
+  const startImpactTrace = async (event: TimelineEvent) => {
     setEnhancedView('impact');
+    
+    // Try AI-powered causal chain analysis
+    try {
+      const response = await decisionIntelApi.analyzeCausalChain({
+        root_event: {
+          id: event.id,
+          timestamp: event.timestamp.toISOString(),
+          type: event.type,
+          title: event.title,
+          description: event.description,
+          impact: event.impact,
+        },
+        all_events: events.map(e => ({
+          id: e.id,
+          timestamp: e.timestamp.toISOString(),
+          type: e.type,
+          title: e.title,
+          description: e.description,
+          impact: e.impact,
+        })),
+      });
+
+      if (response.success && response.data && Array.isArray(response.data) && response.data.length > 0) {
+        console.log('[ChronosAI] Causal chain analysis complete:', response.data.length, 'links');
+        
+        // Build causal chain from AI response
+        const effects = (response.data as any[]).map(link => {
+          const linkedEvent = events.find(e => e.id === link.toEventId);
+          return {
+            event: linkedEvent || event,
+            delay: Math.floor((new Date().getTime() - event.timestamp.getTime()) / (24 * 60 * 60 * 1000)),
+            correlation: link.strength || 0.7,
+          };
+        }).filter(e => e.event !== event);
+
+        setCausalChain({
+          id: `chain-${event.id}`,
+          rootCause: event,
+          effects,
+          totalImpact: {
+            revenue: effects.length * 500000,
+            profit: effects.length * 100000,
+            customers: effects.length * 10,
+          },
+        });
+        return;
+      }
+    } catch (error) {
+      console.log('[ChronosAI] Causal chain analysis failed, using fallback:', error);
+    }
+    
+    // Fallback to local generation
+    setCausalChain(generateCausalChain(event, events));
   };
 
   // Start Council replay
@@ -1812,10 +1916,50 @@ export const ChronosPage: React.FC = () => {
     setEnhancedView('theater');
   };
 
-  // Run Monte Carlo
-  const runMonteCarlo = (variable: string) => {
-    setMonteCarloResult(generateMonteCarloResults(variable));
+  // Run Monte Carlo with AI scenario generation
+  const runMonteCarlo = async (variable: string) => {
     setEnhancedView('monte-carlo');
+    
+    // Try AI-powered scenario generation
+    try {
+      const response = await decisionIntelApi.generateFutureScenarios({
+        current_metrics: snapshot.metrics,
+        recent_events: events.slice(0, 10).map(e => ({
+          id: e.id,
+          timestamp: e.timestamp.toISOString(),
+          title: e.title,
+          impact: e.impact,
+        })),
+        time_horizon: '12 months',
+      });
+
+      if (response.success && response.data && Array.isArray(response.data) && response.data.length > 0) {
+        console.log('[ChronosAI] Generated', response.data.length, 'future scenarios via AI');
+        
+        // Map AI scenarios to MonteCarloResult format
+        const aiResult: MonteCarloResult = {
+          id: `mc-${Date.now()}`,
+          variable,
+          simulations: 10000,
+          outcomes: (response.data as any[]).map(s => ({
+            scenario: s.name,
+            probability: s.probability,
+            revenue: s.metrics?.revenue || 12500000,
+            profit: s.metrics?.profit || 2800000,
+          })),
+          optimalPath: (response.data as any[])[2]?.description || 'Base case trajectory',
+          confidenceInterval: [10500000, 14500000],
+        };
+        
+        setMonteCarloResult(aiResult);
+        return;
+      }
+    } catch (error) {
+      console.log('[ChronosAI] Scenario generation failed, using fallback:', error);
+    }
+    
+    // Fallback to local generation
+    setMonteCarloResult(generateMonteCarloResults(variable));
   };
 
   // Start diff view

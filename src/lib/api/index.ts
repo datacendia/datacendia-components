@@ -502,6 +502,27 @@ export const decisionIntelApi = {
     return api.post<unknown>('/decision-intel/chronos/snapshots', data);
   },
 
+  // Chronos AI - Powered by Ollama
+  async detectPivotalMoments(data: { organization_id?: string; events: unknown[]; limit?: number }) {
+    return api.post<unknown[]>('/decision-intel/chronos/ai/pivotal-moments', data);
+  },
+
+  async analyzeCausalChain(data: { organization_id?: string; root_event: unknown; all_events: unknown[] }) {
+    return api.post<unknown[]>('/decision-intel/chronos/ai/causal-chain', data);
+  },
+
+  async generateFutureScenarios(data: { organization_id?: string; current_metrics: Record<string, number>; recent_events: unknown[]; time_horizon?: string }) {
+    return api.post<unknown[]>('/decision-intel/chronos/ai/future-scenarios', data);
+  },
+
+  async getTimelineInsight(data: { organization_id?: string; start_date: string; end_date: string; events: unknown[]; metrics?: Record<string, number> }) {
+    return api.post<unknown>('/decision-intel/chronos/ai/timeline-insight', data);
+  },
+
+  async analyzeWhatIf(data: { organization_id?: string; event: unknown; alternative_action: string }) {
+    return api.post<unknown>('/decision-intel/chronos/ai/what-if', data);
+  },
+
   // Ghost Board
   async getGhostBoardSessions(params?: { organization_id?: string; status?: string }) {
     return api.get<unknown[]>('/decision-intel/ghost-board/sessions', params);
