@@ -25,7 +25,7 @@
 
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { decisionIntelApi } from '../../../lib/api';
+import { decisionIntelApi, metricsApi, councilApi, alertsApi } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -1468,8 +1468,11 @@ export const ChronosPage: React.FC = () => {
   const [currentDate, setCurrentDate] = useState(new Date());
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
-  const [events] = useState(generateEvents);
+  const [events, setEvents] = useState<TimelineEvent[]>([]);
   const [snapshot, setSnapshot] = useState<StateSnapshot>(() => generateSnapshot(new Date(), 'rewind'));
+  const [realMetrics, setRealMetrics] = useState<any[]>([]);
+  const [realDeliberations, setRealDeliberations] = useState<any[]>([]);
+  const [isLoadingData, setIsLoadingData] = useState(true);
   
   // Enhanced State
   const [enhancedView, setEnhancedView] = useState<EnhancedView>('standard');
@@ -1559,11 +1562,49 @@ export const ChronosPage: React.FC = () => {
     }
   }, [mode]);
 
-  // Update snapshot when date changes
+  // Update snapshot when date changes - use real metrics when available
   useEffect(() => {
-    setSnapshot(generateSnapshot(currentDate, mode));
+    // Try to build snapshot from real metrics
+    if (realMetrics.length > 0) {
+      const getMetricValue = (code: string): number => {
+        const metric = realMetrics.find((m: any) => 
+          m.code?.toLowerCase().includes(code.toLowerCase()) ||
+          m.name?.toLowerCase().includes(code.toLowerCase())
+        );
+        return metric?.current_value || metric?.value || 0;
+      };
+
+      const realSnapshot: StateSnapshot = {
+        timestamp: currentDate,
+        metrics: {
+          revenue: getMetricValue('revenue') || getMetricValue('arr') || 12500000,
+          profit: getMetricValue('profit') || getMetricValue('ebitda') || 2800000,
+          employees: getMetricValue('headcount') || getMetricValue('employees') || 156,
+          customers: getMetricValue('customers') || getMetricValue('accounts') || 847,
+          satisfaction: getMetricValue('satisfaction') || getMetricValue('csat') || 87,
+          marketShare: getMetricValue('market') || getMetricValue('share') || 12.4,
+          burnRate: getMetricValue('burn') || 850000,
+          runway: getMetricValue('runway') || 18,
+        },
+        council: {
+          activeAgents: ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'].slice(0, Math.floor(Math.random() * 2) + 4),
+          pendingDecisions: realDeliberations.filter((d: any) => d.status === 'PENDING' || d.status === 'IN_PROGRESS').length,
+          totalDeliberations: realDeliberations.length,
+          consensusRate: 78,
+        },
+        graph: {
+          entities: getMetricValue('entities') || 15420,
+          relationships: getMetricValue('relationships') || 48930,
+          dataPoints: getMetricValue('datapoints') || 2340000,
+          freshness: 95,
+        },
+      };
+      setSnapshot(realSnapshot);
+    } else {
+      setSnapshot(generateSnapshot(currentDate, mode));
+    }
     setErpSnapshot(generateERPSnapshot(currentDate));
-  }, [currentDate, mode]);
+  }, [currentDate, mode, realMetrics, realDeliberations]);
 
   // Playback logic
   useEffect(() => {
@@ -1594,21 +1635,110 @@ export const ChronosPage: React.FC = () => {
     setPivotalMoments(generatePivotalMoments(events));
   }, [events]);
 
-  // Fetch real Chronos snapshots from API
+  // Fetch ALL real data from APIs
   useEffect(() => {
-    const fetchChronosData = async () => {
+    const fetchAllChronosData = async () => {
+      setIsLoadingData(true);
       try {
-        const snapshotsResponse = await decisionIntelApi.getChronosSnapshots();
-        if (snapshotsResponse.success && snapshotsResponse.data && Array.isArray(snapshotsResponse.data)) {
-          console.log('[Chronos] Loaded', snapshotsResponse.data.length, 'snapshots from database');
-          // Snapshots loaded - can be used to enhance timeline
-          // For now, we log success - full integration would replace generateSnapshot
+        // Fetch all data sources in parallel
+        const [snapshotsRes, metricsRes, deliberationsRes, alertsRes, decisionsRes] = await Promise.all([
+          decisionIntelApi.getChronosSnapshots(),
+          metricsApi.getMetrics(),
+          councilApi.getActiveDeliberations(),
+          alertsApi.getAlerts(),
+          councilApi.getRecentDecisions(50),
+        ]);
+
+        // Process snapshots
+        if (snapshotsRes.success && snapshotsRes.data) {
+          console.log('[Chronos] Loaded', (snapshotsRes.data as any[]).length, 'snapshots');
         }
+
+        // Process metrics into timeline events
+        if (metricsRes.success && metricsRes.data) {
+          setRealMetrics(metricsRes.data as any[]);
+          console.log('[Chronos] Loaded', (metricsRes.data as any[]).length, 'metrics');
+        }
+
+        // Process deliberations into timeline events  
+        if (deliberationsRes.success && deliberationsRes.data) {
+          setRealDeliberations(deliberationsRes.data as any[]);
+          console.log('[Chronos] Loaded', (deliberationsRes.data as any[]).length, 'deliberations');
+        }
+
+        // Build real timeline events from all sources
+        const realEvents: TimelineEvent[] = [];
+
+        // Add deliberation events
+        if (deliberationsRes.success && deliberationsRes.data) {
+          (deliberationsRes.data as any[]).forEach((d: any) => {
+            realEvents.push({
+              id: d.id,
+              timestamp: new Date(d.created_at),
+              type: 'decision',
+              title: d.question?.substring(0, 50) || 'Council Deliberation',
+              description: d.question || 'AI Council deliberation',
+              impact: d.status === 'COMPLETED' ? 'positive' : 'neutral',
+              department: 'Executive',
+              magnitude: d.confidence ? Math.round(d.confidence / 10) : 7,
+              deliberationId: d.id,
+            });
+          });
+        }
+
+        // Add alert events
+        if (alertsRes.success && alertsRes.data) {
+          (alertsRes.data as any[]).forEach((a: any) => {
+            realEvents.push({
+              id: a.id,
+              timestamp: new Date(a.created_at),
+              type: 'system',
+              title: a.title || 'System Alert',
+              description: a.message || a.description || 'Alert triggered',
+              impact: a.severity === 'CRITICAL' ? 'negative' : a.severity === 'WARNING' ? 'neutral' : 'positive',
+              department: 'Operations',
+              magnitude: a.severity === 'CRITICAL' ? 9 : a.severity === 'HIGH' ? 7 : 5,
+            });
+          });
+        }
+
+        // Add recent decisions as events
+        if (decisionsRes.success && decisionsRes.data) {
+          (decisionsRes.data as any[]).forEach((d: any) => {
+            realEvents.push({
+              id: `decision-${d.id}`,
+              timestamp: new Date(d.created_at || d.timestamp || Date.now()),
+              type: 'decision',
+              title: d.query?.substring(0, 50) || d.title || 'Council Decision',
+              description: d.query || d.description || 'Council decision made',
+              impact: 'positive',
+              department: 'Executive',
+              magnitude: 8,
+              deliberationId: d.deliberation_id,
+            });
+          });
+        }
+
+        // Sort by timestamp and set
+        realEvents.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+        
+        // If we have real events, use them; otherwise fall back to generated
+        if (realEvents.length > 0) {
+          setEvents(realEvents);
+          console.log('[Chronos] Using', realEvents.length, 'real events');
+        } else {
+          setEvents(generateEvents());
+          console.log('[Chronos] No real events, using generated fallback');
+        }
+
       } catch (error) {
-        console.log('[Chronos] Using local generators (API unavailable)');
+        console.log('[Chronos] API error, using generated fallback:', error);
+        setEvents(generateEvents());
+      } finally {
+        setIsLoadingData(false);
       }
     };
-    fetchChronosData();
+    fetchAllChronosData();
   }, []);
 
   // Generate animated graph nodes
