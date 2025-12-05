@@ -78,6 +78,8 @@ import personaRoutes from './routes/persona.js';
 import governRoutes from './routes/govern.js';
 import autopilotRoutes from './routes/autopilot.js';
 import decisionIntelRoutes from './routes/decision-intel.js';
+import errorRoutes from './routes/errors.js';
+import contactRoutes from './routes/contact.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -225,6 +227,8 @@ app.use('/api/v1/persona', personaRoutes);
 app.use('/api/v1/govern', governRoutes);
 app.use('/api/v1/autopilot', autopilotRoutes);
 app.use('/api/v1/decision-intel', decisionIntelRoutes);
+app.use('/api/v1/errors', errorRoutes);
+app.use('/api/v1/contact', contactRoutes);
 
 // 404 handler
 app.use((req, res) => {

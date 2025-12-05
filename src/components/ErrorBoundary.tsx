@@ -1,6 +1,7 @@
 import React, { Component, ErrorInfo, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { AlertTriangle, RefreshCw, Home } from 'lucide-react';
+import { logComponentError } from '../lib/errorTracking';
 
 interface Props {
   children: ReactNode;
@@ -28,8 +29,8 @@ class ErrorBoundary extends Component<Props, State> {
     console.error('Uncaught error:', error, errorInfo);
     this.setState({ errorInfo });
     
-    // TODO: Send to error tracking service (Sentry, etc.)
-    // logErrorToService(error, errorInfo);
+    // Send to error tracking service
+    logComponentError(error, { componentStack: errorInfo.componentStack || undefined });
   }
 
   private handleReload = (): void => {

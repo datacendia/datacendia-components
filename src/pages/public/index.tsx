@@ -800,11 +800,42 @@ export const ContactPage: React.FC = () => {
     type: 'general',
   });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Integrate with backend
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setError(null);
+
+    try {
+      // Submit to backend contact API
+      const response = await fetch('/api/v1/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          message: formData.message,
+          inquiry_type: formData.type,
+          source: 'contact_page',
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        console.log('[Contact] Form submitted successfully');
+      } else {
+        const data = await response.json();
+        setError(data.error || 'Failed to submit. Please try again.');
+      }
+    } catch (err) {
+      console.error('[Contact] Submission error:', err);
+      setError('Network error. Please try again later.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactMethods = [
