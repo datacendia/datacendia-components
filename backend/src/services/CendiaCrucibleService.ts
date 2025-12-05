@@ -202,6 +202,8 @@ export interface UniverseSummary {
 
 export interface DigitalTwin {
   organizationId: string;
+  organizationName?: string;
+  industry?: string;
   snapshotTime: Date;
   departments: Department[];
   systems: System[];
@@ -209,32 +211,43 @@ export interface DigitalTwin {
   employees: EmployeeMetrics;
   financials: FinancialSnapshot;
   relationships: Relationship[];
+  // Real-time status from database
+  activeAlerts?: number;
+  activeWorkflows?: number;
+  dataSourceCount?: number;
+  healthScore?: number;
 }
 
 interface Department {
-  id: string;
   name: string;
   headcount: number;
-  budget: number;
-  efficiency: number;
-  dependencies: string[];
+  budget?: number;
+  workflows?: number;
+  dataSources?: number;
+  efficiency?: number;
+  riskLevel?: 'low' | 'medium' | 'high' | 'critical';
+  dependencies?: string[];
 }
 
 interface System {
   id: string;
   name: string;
   type: string;
-  criticality: number;
-  uptime: number;
-  dependencies: string[];
+  status?: string;
+  criticality?: number;
+  uptime?: number;
+  lastSync?: Date;
+  dependencies?: string[];
 }
 
 interface KPI {
   code: string;
   name: string;
   value: number;
-  target: number;
-  trend: number;
+  target?: number;
+  trend?: number;
+  unit?: string;
+  category?: string;
 }
 
 interface EmployeeMetrics {
@@ -243,6 +256,10 @@ interface EmployeeMetrics {
   turnoverRate: number;
   engagementScore: number;
   productivityIndex: number;
+  // Extended real metrics
+  hiringRate?: number;
+  trainingHours?: number;
+  satisfactionScore?: number;
 }
 
 interface FinancialSnapshot {
@@ -251,13 +268,19 @@ interface FinancialSnapshot {
   cashFlow: number;
   burnRate: number;
   runway: number;
+  // Extended real metrics
+  grossMargin?: number;
+  customerAcquisitionCost?: number;
+  lifetimeValue?: number;
+  churnRate?: number;
 }
 
 interface Relationship {
-  fromId: string;
-  toId: string;
   type: string;
+  source: string;
+  target: string;
   strength: number;
+  critical?: boolean;
 }
 
 // Scenario Templates
@@ -499,14 +522,17 @@ class CendiaCrucibleService {
   }
 
   /**
-   * Capture current state as digital twin
+   * Capture current state as digital twin - ALL REAL DATA
    */
   private async captureDigitalTwin(organizationId: string): Promise<DigitalTwin> {
-    // Fetch real data from various sources
-    const [metrics, dataSources, healthScores] = await Promise.all([
+    // Fetch ALL real data from database
+    const [organization, metrics, dataSources, healthScores, users, workflows, alerts] = await Promise.all([
+      prisma.organizations.findUnique({
+        where: { id: organizationId },
+      }),
       prisma.metric_definitions.findMany({
         where: { organization_id: organizationId },
-        include: { metric_values: { take: 1, orderBy: { timestamp: 'desc' } } },
+        include: { metric_values: { take: 12, orderBy: { timestamp: 'desc' } } },
       }),
       prisma.data_sources.findMany({
         where: { organization_id: organizationId },
@@ -516,32 +542,266 @@ class CendiaCrucibleService {
         take: 1,
         orderBy: { calculated_at: 'desc' },
       }),
+      prisma.users.findMany({
+        where: { organization_id: organizationId },
+      }),
+      prisma.workflows.findMany({
+        where: { organization_id: organizationId },
+      }),
+      prisma.alerts.findMany({
+        where: { organization_id: organizationId, status: 'ACTIVE' },
+      }),
     ]);
 
     const latestHealth = healthScores[0];
+    
+    // Extract financial metrics from real metric data
+    const financialMetrics = this.extractFinancialMetrics(metrics);
+    
+    // Extract employee metrics from real data
+    const employeeMetrics = this.extractEmployeeMetrics(metrics, users, latestHealth);
+    
+    // Build departments from real users and workflows
+    const departments = this.buildDepartmentsFromData(users, workflows, dataSources);
+    
+    // Build relationships from real data connections
+    const relationships = this.buildRelationshipsFromData(dataSources, workflows, alerts);
 
     return {
       organizationId,
       snapshotTime: new Date(),
-      departments: this.generateDepartments(),
+      organizationName: organization?.name || 'Unknown',
+      industry: organization?.industry || 'Technology',
+      departments,
       systems: this.mapDataSourcesToSystems(dataSources),
       kpis: this.mapMetricsToKPIs(metrics),
-      employees: {
-        totalHeadcount: 150,
-        averageTenure: 3.2,
-        turnoverRate: 0.12,
-        engagementScore: latestHealth?.people_score || 75,
-        productivityIndex: 0.85,
-      },
-      financials: {
-        revenue: 15000000,
-        ebitda: 2500000,
-        cashFlow: 1200000,
-        burnRate: 800000,
-        runway: 18,
-      },
-      relationships: this.generateRelationships(),
+      employees: employeeMetrics,
+      financials: financialMetrics,
+      relationships,
+      activeAlerts: alerts.length,
+      activeWorkflows: workflows.filter(w => w.status === 'ACTIVE').length,
+      dataSourceCount: dataSources.length,
+      healthScore: latestHealth?.overall_score || 0,
     };
+  }
+
+  /**
+   * Extract financial metrics from real metric definitions
+   */
+  private extractFinancialMetrics(metrics: any[]): DigitalTwin['financials'] {
+    const getMetricValue = (code: string): number => {
+      const metric = metrics.find(m => 
+        m.code?.toLowerCase().includes(code.toLowerCase()) ||
+        m.name?.toLowerCase().includes(code.toLowerCase())
+      );
+      if (metric?.metric_values?.[0]) {
+        return metric.metric_values[0].value;
+      }
+      return 0;
+    };
+
+    const revenue = getMetricValue('revenue') || getMetricValue('arr') || getMetricValue('mrr') * 12;
+    const costs = getMetricValue('cost') || getMetricValue('opex') || getMetricValue('expenses');
+    const ebitda = revenue > 0 && costs > 0 ? revenue - costs : getMetricValue('ebitda') || getMetricValue('profit');
+    const cashFlow = getMetricValue('cash') || getMetricValue('cashflow');
+    const burnRate = getMetricValue('burn') || (costs > 0 ? costs / 12 : 0);
+    const runway = burnRate > 0 && cashFlow > 0 ? Math.round(cashFlow / burnRate) : 0;
+
+    return {
+      revenue,
+      ebitda,
+      cashFlow,
+      burnRate,
+      runway,
+      // Additional real metrics
+      grossMargin: getMetricValue('margin') || (revenue > 0 ? ((revenue - costs) / revenue) * 100 : 0),
+      customerAcquisitionCost: getMetricValue('cac'),
+      lifetimeValue: getMetricValue('ltv') || getMetricValue('clv'),
+      churnRate: getMetricValue('churn'),
+    };
+  }
+
+  /**
+   * Extract employee metrics from real data
+   */
+  private extractEmployeeMetrics(metrics: any[], users: any[], healthScore: any): DigitalTwin['employees'] {
+    const getMetricValue = (code: string): number => {
+      const metric = metrics.find(m => 
+        m.code?.toLowerCase().includes(code.toLowerCase()) ||
+        m.name?.toLowerCase().includes(code.toLowerCase())
+      );
+      return metric?.metric_values?.[0]?.value || 0;
+    };
+
+    const totalHeadcount = users.length || getMetricValue('headcount') || getMetricValue('employees');
+    
+    // Calculate average tenure from user created_at dates
+    const now = new Date();
+    const tenures = users.map(u => {
+      const created = new Date(u.created_at);
+      return (now.getTime() - created.getTime()) / (1000 * 60 * 60 * 24 * 365);
+    });
+    const averageTenure = tenures.length > 0 
+      ? tenures.reduce((a, b) => a + b, 0) / tenures.length 
+      : 0;
+
+    return {
+      totalHeadcount,
+      averageTenure: Math.round(averageTenure * 10) / 10,
+      turnoverRate: getMetricValue('turnover') || getMetricValue('attrition') || 0,
+      engagementScore: healthScore?.people_score || getMetricValue('engagement') || 0,
+      productivityIndex: getMetricValue('productivity') || (healthScore?.operations_score || 0) / 100,
+      // Additional real metrics
+      hiringRate: getMetricValue('hiring') || 0,
+      trainingHours: getMetricValue('training') || 0,
+      satisfactionScore: getMetricValue('satisfaction') || getMetricValue('enps') || 0,
+    };
+  }
+
+  /**
+   * Build departments from real user and workflow data
+   */
+  private buildDepartmentsFromData(users: any[], workflows: any[], dataSources: any[]): Department[] {
+    // Group users by role to infer departments
+    const roleGroups: Record<string, any[]> = {};
+    users.forEach(user => {
+      const dept = this.inferDepartmentFromRole(user.role);
+      if (!roleGroups[dept]) roleGroups[dept] = [];
+      roleGroups[dept].push(user);
+    });
+
+    // Map workflow categories to departments
+    const workflowsByDept: Record<string, number> = {};
+    workflows.forEach(wf => {
+      const dept = wf.category || 'Operations';
+      workflowsByDept[dept] = (workflowsByDept[dept] || 0) + 1;
+    });
+
+    // Map data sources to departments
+    const dataSourcesByDept: Record<string, number> = {};
+    dataSources.forEach(ds => {
+      const dept = this.inferDepartmentFromDataSource(ds.type);
+      dataSourcesByDept[dept] = (dataSourcesByDept[dept] || 0) + 1;
+    });
+
+    // Build department list from real data
+    const allDepts = new Set([
+      ...Object.keys(roleGroups),
+      ...Object.keys(workflowsByDept),
+      ...Object.keys(dataSourcesByDept),
+    ]);
+
+    return Array.from(allDepts).map(name => ({
+      name,
+      headcount: roleGroups[name]?.length || 0,
+      workflows: workflowsByDept[name] || 0,
+      dataSources: dataSourcesByDept[name] || 0,
+      budget: 0, // Would need budget table
+      riskLevel: this.calculateDeptRiskLevel(roleGroups[name]?.length || 0, workflowsByDept[name] || 0),
+    }));
+  }
+
+  /**
+   * Build relationships from real data connections
+   */
+  private buildRelationshipsFromData(dataSources: any[], workflows: any[], alerts: any[]): Relationship[] {
+    const relationships: Relationship[] = [];
+
+    // Data source dependencies
+    dataSources.forEach(ds => {
+      if (ds.status === 'CONNECTED') {
+        relationships.push({
+          type: 'data_dependency',
+          source: ds.name,
+          target: 'Analytics',
+          strength: ds.sync_frequency === 'real-time' ? 1.0 : 0.7,
+          critical: ds.type === 'database' || ds.type === 'erp',
+        });
+      }
+    });
+
+    // Workflow connections
+    workflows.forEach(wf => {
+      const definition = wf.definition as any;
+      if (definition?.nodes) {
+        definition.nodes.forEach((node: any, idx: number) => {
+          if (idx > 0) {
+            relationships.push({
+              type: 'workflow',
+              source: definition.nodes[idx - 1].id || `step_${idx - 1}`,
+              target: node.id || `step_${idx}`,
+              strength: 0.9,
+              critical: wf.status === 'ACTIVE',
+            });
+          }
+        });
+      }
+    });
+
+    // Alert correlations
+    const alertsByType: Record<string, number> = {};
+    alerts.forEach(alert => {
+      alertsByType[alert.type] = (alertsByType[alert.type] || 0) + 1;
+    });
+
+    Object.entries(alertsByType).forEach(([type, count]) => {
+      if (count > 1) {
+        relationships.push({
+          type: 'alert_correlation',
+          source: type,
+          target: 'Risk',
+          strength: Math.min(count / 10, 1.0),
+          critical: count >= 3,
+        });
+      }
+    });
+
+    return relationships;
+  }
+
+  /**
+   * Infer department from user role
+   */
+  private inferDepartmentFromRole(role: string): string {
+    const roleMap: Record<string, string> = {
+      'SUPER_ADMIN': 'Executive',
+      'ADMIN': 'IT',
+      'ANALYST': 'Analytics',
+      'VIEWER': 'Operations',
+      'DEVELOPER': 'Engineering',
+      'FINANCE': 'Finance',
+      'HR': 'Human Resources',
+      'SALES': 'Sales',
+      'MARKETING': 'Marketing',
+      'SUPPORT': 'Customer Success',
+    };
+    return roleMap[role] || 'Operations';
+  }
+
+  /**
+   * Infer department from data source type
+   */
+  private inferDepartmentFromDataSource(type: string): string {
+    const typeMap: Record<string, string> = {
+      'database': 'Engineering',
+      'api': 'Engineering',
+      'file': 'Operations',
+      'erp': 'Finance',
+      'crm': 'Sales',
+      'hris': 'Human Resources',
+      'analytics': 'Analytics',
+    };
+    return typeMap[type?.toLowerCase()] || 'Operations';
+  }
+
+  /**
+   * Calculate department risk level based on data
+   */
+  private calculateDeptRiskLevel(headcount: number, workflows: number): 'low' | 'medium' | 'high' | 'critical' {
+    if (headcount === 0 && workflows > 0) return 'high'; // Understaffed
+    if (headcount === 1 && workflows > 3) return 'high'; // Single point of failure
+    if (workflows === 0) return 'medium'; // No automation
+    return 'low';
   }
 
   /**
@@ -901,47 +1161,41 @@ Respond with: 1) Key finding, 2) Main recommendation, 3) Primary risk, 4) Confid
     return SCENARIO_TEMPLATES;
   }
 
-  // Helper methods
-  private generateDepartments(): Department[] {
-    return [
-      { id: 'eng', name: 'Engineering', headcount: 50, budget: 5000000, efficiency: 0.85, dependencies: ['it', 'product'] },
-      { id: 'sales', name: 'Sales', headcount: 30, budget: 3000000, efficiency: 0.78, dependencies: ['marketing', 'product'] },
-      { id: 'marketing', name: 'Marketing', headcount: 15, budget: 2000000, efficiency: 0.82, dependencies: ['sales', 'product'] },
-      { id: 'ops', name: 'Operations', headcount: 25, budget: 2500000, efficiency: 0.88, dependencies: ['it', 'finance'] },
-      { id: 'finance', name: 'Finance', headcount: 10, budget: 1000000, efficiency: 0.92, dependencies: [] },
-      { id: 'hr', name: 'Human Resources', headcount: 8, budget: 800000, efficiency: 0.85, dependencies: [] },
-      { id: 'it', name: 'IT', headcount: 12, budget: 1500000, efficiency: 0.80, dependencies: ['eng'] },
-    ];
-  }
-
+  // Helper methods for mapping database data to simulation structures
   private mapDataSourcesToSystems(dataSources: any[]): System[] {
     return dataSources.map(ds => ({
       id: ds.id,
       name: ds.name,
       type: ds.type,
-      criticality: ds.type === 'POSTGRESQL' ? 0.95 : 0.7,
+      status: ds.status,
+      criticality: ds.type === 'database' || ds.type === 'erp' ? 0.95 : 0.7,
       uptime: ds.status === 'CONNECTED' ? 99.9 : 0,
+      lastSync: ds.last_sync_at,
       dependencies: [],
     }));
   }
 
   private mapMetricsToKPIs(metrics: any[]): KPI[] {
-    return metrics.map(m => ({
-      code: m.code,
-      name: m.name,
-      value: m.metric_values?.[0]?.value || 100,
-      target: 100,
-      trend: 0,
-    }));
-  }
+    return metrics.map(m => {
+      // Calculate trend from historical values
+      const values = m.metric_values || [];
+      let trend = 0;
+      if (values.length >= 2) {
+        const current = values[0]?.value || 0;
+        const previous = values[1]?.value || 0;
+        trend = previous !== 0 ? ((current - previous) / previous) * 100 : 0;
+      }
 
-  private generateRelationships(): Relationship[] {
-    return [
-      { fromId: 'eng', toId: 'it', type: 'depends_on', strength: 0.9 },
-      { fromId: 'sales', toId: 'marketing', type: 'collaborates', strength: 0.85 },
-      { fromId: 'ops', toId: 'it', type: 'depends_on', strength: 0.8 },
-      { fromId: 'finance', toId: 'ops', type: 'monitors', strength: 0.7 },
-    ];
+      return {
+        code: m.code,
+        name: m.name,
+        value: values[0]?.value || 0,
+        target: (m.thresholds as any)?.target || 100,
+        trend: Math.round(trend * 10) / 10,
+        unit: m.unit,
+        category: m.category,
+      };
+    });
   }
 
   private shockAffectsKPI(shockTarget: string, kpiCode: string): boolean {
@@ -1144,19 +1398,19 @@ Risk levels: ${JSON.stringify(riskScores)}`;
       if (visited.has(nodeId) || depth > 5) return;
       visited.add(nodeId);
 
-      const dept = digitalTwin.departments.find(d => d.id === nodeId);
+      const dept = digitalTwin.departments.find(d => d.name === nodeId);
       if (dept) {
         nodes.push({
-          nodeId: dept.id,
+          nodeId: dept.name,
           nodeName: dept.name,
           nodeType: 'department',
           impactLevel: impactMultiplier * 100 / (depth + 1),
           timeToImpact: depth * 24,
-          dependencies: dept.dependencies,
+          dependencies: dept.dependencies || [],
         });
 
-        for (const depId of dept.dependencies) {
-          propagate(depId, depth + 1, impactMultiplier * 0.7);
+        for (const depName of (dept.dependencies || [])) {
+          propagate(depName, depth + 1, impactMultiplier * 0.7);
         }
       }
     };
@@ -1164,7 +1418,7 @@ Risk levels: ${JSON.stringify(riskScores)}`;
     // Start propagation from affected area
     for (const dept of digitalTwin.departments) {
       if (dept.name.toLowerCase().includes(triggerTarget.toLowerCase())) {
-        propagate(dept.id, 0, 1);
+        propagate(dept.name, 0, 1);
       }
     }
 
@@ -1215,11 +1469,11 @@ Risk levels: ${JSON.stringify(riskScores)}`;
       case 'OPERATIONAL':
         for (const dept of digitalTwin.departments) {
           entities.push({
-            id: dept.id,
+            id: dept.name, // Use name as id
             name: dept.name,
             type: 'department',
-            baseline: dept.efficiency * 100,
-            dependencies: dept.dependencies,
+            baseline: (dept.efficiency || 0.75) * 100,
+            dependencies: dept.dependencies || [],
           });
         }
         break;
@@ -1229,8 +1483,8 @@ Risk levels: ${JSON.stringify(riskScores)}`;
             id: sys.id,
             name: sys.name,
             type: 'system',
-            baseline: sys.uptime,
-            dependencies: sys.dependencies,
+            baseline: sys.uptime || 99,
+            dependencies: sys.dependencies || [],
           });
         }
         break;
