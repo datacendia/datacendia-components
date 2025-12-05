@@ -404,4 +404,143 @@ router.get('/search', async (req: Request, res: Response, next: NextFunction) =>
   }
 });
 
+/**
+ * GET /api/v1/graph/stats
+ * Get real-time knowledge graph statistics from Neo4j
+ */
+router.get('/stats', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const orgId = req.organizationId;
+    
+    // Query Neo4j for real statistics
+    const [entitiesResult, relationshipsResult, labelsResult, propertiesResult] = await Promise.all([
+      // Count all entities
+      graph.read<{ count: unknown }>(
+        orgId 
+          ? 'MATCH (n) WHERE n.organizationId = $orgId RETURN count(n) as count'
+          : 'MATCH (n) RETURN count(n) as count',
+        { orgId }
+      ),
+      // Count all relationships
+      graph.read<{ count: unknown }>(
+        orgId
+          ? 'MATCH (n)-[r]->(m) WHERE n.organizationId = $orgId OR m.organizationId = $orgId RETURN count(r) as count'
+          : 'MATCH ()-[r]->() RETURN count(r) as count',
+        { orgId }
+      ),
+      // Get distinct labels (entity types)
+      graph.read<{ labels: string[] }>(
+        'CALL db.labels() YIELD label RETURN collect(label) as labels',
+        {}
+      ),
+      // Count total properties (data points)
+      graph.read<{ count: unknown }>(
+        orgId
+          ? 'MATCH (n) WHERE n.organizationId = $orgId RETURN sum(size(keys(n))) as count'
+          : 'MATCH (n) RETURN sum(size(keys(n))) as count',
+        { orgId }
+      ),
+    ]);
+
+    // Extract counts (handle BigInt from Neo4j)
+    const toNumber = (val: unknown): number => {
+      if (typeof val === 'bigint') return Number(val);
+      if (typeof val === 'number') return val;
+      if (val && typeof val === 'object' && 'low' in val) {
+        return Number((val as { low: number }).low);
+      }
+      return 0;
+    };
+
+    const entities = toNumber(entitiesResult[0]?.count);
+    const relationships = toNumber(relationshipsResult[0]?.count);
+    const labels = labelsResult[0]?.labels || [];
+    const dataPoints = toNumber(propertiesResult[0]?.count);
+
+    // Calculate freshness based on most recent update
+    const freshnessResult = await graph.read<{ latest: unknown }>(
+      orgId
+        ? 'MATCH (n) WHERE n.organizationId = $orgId AND n.updatedAt IS NOT NULL RETURN max(n.updatedAt) as latest'
+        : 'MATCH (n) WHERE n.updatedAt IS NOT NULL RETURN max(n.updatedAt) as latest',
+      { orgId }
+    );
+
+    let freshness = 100;
+    const latestUpdate = freshnessResult[0]?.latest;
+    if (latestUpdate) {
+      const updateTime = new Date(latestUpdate as string).getTime();
+      const now = Date.now();
+      const hoursSinceUpdate = (now - updateTime) / (1000 * 60 * 60);
+      // Freshness decays: 100% at 0h, ~95% at 24h, ~85% at 1 week
+      freshness = Math.max(0, Math.min(100, 100 - (hoursSinceUpdate / 24) * 5));
+    }
+
+    // Get entity type breakdown
+    const typeBreakdownResult = await graph.read<{ label: string; count: unknown }>(
+      orgId
+        ? `MATCH (n) WHERE n.organizationId = $orgId 
+           UNWIND labels(n) as label 
+           RETURN label, count(*) as count 
+           ORDER BY count DESC LIMIT 10`
+        : `MATCH (n) 
+           UNWIND labels(n) as label 
+           RETURN label, count(*) as count 
+           ORDER BY count DESC LIMIT 10`,
+      { orgId }
+    );
+
+    const entityTypes = typeBreakdownResult.map(r => ({
+      type: r.label,
+      count: toNumber(r.count),
+    }));
+
+    logger.info('[Graph Stats] Retrieved:', { entities, relationships, dataPoints, freshness });
+
+    res.json({
+      success: true,
+      data: {
+        entities,
+        relationships,
+        dataPoints,
+        freshness: Math.round(freshness * 10) / 10,
+        labels,
+        entityTypes,
+        timestamp: new Date().toISOString(),
+      },
+    });
+  } catch (error) {
+    logger.error('[Graph Stats] Failed:', error);
+    
+    // Return fallback data if Neo4j is unavailable
+    res.json({
+      success: true,
+      data: {
+        entities: 0,
+        relationships: 0,
+        dataPoints: 0,
+        freshness: 0,
+        labels: [],
+        entityTypes: [],
+        timestamp: new Date().toISOString(),
+        note: 'Neo4j unavailable - showing zero state',
+      },
+    });
+  }
+});
+
+/**
+ * GET /api/v1/graph/stats/history
+ * Get historical graph statistics (for Chronos time-travel)
+ * Note: Historical snapshots would be stored by a scheduled job
+ */
+router.get('/stats/history', async (_req: Request, res: Response, _next: NextFunction) => {
+  // Historical snapshots would be captured by a scheduled job
+  // For now, return empty array - real implementation would query a snapshots table
+  res.json({
+    success: true,
+    data: [],
+    note: 'Historical snapshots require scheduled capture job',
+  });
+});
+
 export default router;

@@ -25,7 +25,7 @@
 
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { decisionIntelApi, metricsApi, councilApi, alertsApi } from '../../../lib/api';
+import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -1485,6 +1485,12 @@ export const ChronosPage: React.FC = () => {
   const [monteCarloResult, setMonteCarloResult] = useState<MonteCarloResult | null>(null);
   const [showBookmarkModal, setShowBookmarkModal] = useState(false);
   const [graphNodes, setGraphNodes] = useState<Array<{x: number; y: number; size: number}>>([]);
+  const [realGraphStats, setRealGraphStats] = useState<{
+    entities: number;
+    relationships: number;
+    dataPoints: number;
+    freshness: number;
+  } | null>(null);
   const [branches, setBranches] = useState<BranchTimeline[]>([]);
   const [selectedBranch, setSelectedBranch] = useState<string | null>(null);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
@@ -1618,16 +1624,17 @@ export const ChronosPage: React.FC = () => {
         consensusRate: Math.min(100, Math.max(50, projectValue(78))),
       },
       graph: {
-        entities: projectValue(getMetricValue('entities', 15420), true),
-        relationships: projectValue(getMetricValue('relationships', 48930), true),
-        dataPoints: projectValue(getMetricValue('datapoints', 2340000), true),
-        freshness: Math.max(0, Math.min(100, 95 - (isPast ? daysDiff * 0.1 : -daysDiff * 0.02))),
+        // Use real Neo4j stats if available, otherwise fallback
+        entities: projectValue(realGraphStats?.entities || getMetricValue('entities', 15420), true),
+        relationships: projectValue(realGraphStats?.relationships || getMetricValue('relationships', 48930), true),
+        dataPoints: projectValue(realGraphStats?.dataPoints || getMetricValue('datapoints', 2340000), true),
+        freshness: realGraphStats?.freshness ?? Math.max(0, Math.min(100, 95 - (isPast ? daysDiff * 0.1 : -daysDiff * 0.02))),
       },
     };
     
     setSnapshot(projectedSnapshot);
     setErpSnapshot(generateERPSnapshot(currentDate));
-  }, [currentDate, mode, realMetrics, realDeliberations]);
+  }, [currentDate, mode, realMetrics, realDeliberations, realGraphStats]);
 
   // Playback logic
   useEffect(() => {
@@ -1716,17 +1723,29 @@ export const ChronosPage: React.FC = () => {
       setIsLoadingData(true);
       try {
         // Fetch all data sources in parallel
-        const [snapshotsRes, metricsRes, deliberationsRes, alertsRes, decisionsRes] = await Promise.all([
+        const [snapshotsRes, metricsRes, deliberationsRes, alertsRes, decisionsRes, graphStatsRes] = await Promise.all([
           decisionIntelApi.getChronosSnapshots(),
           metricsApi.getMetrics(),
           councilApi.getActiveDeliberations(),
           alertsApi.getAlerts(),
           councilApi.getRecentDecisions(50),
+          graphApi.getStats(),
         ]);
 
         // Process snapshots
         if (snapshotsRes.success && snapshotsRes.data) {
           console.log('[Chronos] Loaded', (snapshotsRes.data as any[]).length, 'snapshots');
+        }
+
+        // Process real graph stats from Neo4j
+        if (graphStatsRes.success && graphStatsRes.data) {
+          setRealGraphStats({
+            entities: graphStatsRes.data.entities,
+            relationships: graphStatsRes.data.relationships,
+            dataPoints: graphStatsRes.data.dataPoints,
+            freshness: graphStatsRes.data.freshness,
+          });
+          console.log('[Chronos] Loaded real graph stats:', graphStatsRes.data);
         }
 
         // Process metrics into timeline events

@@ -89,6 +89,21 @@ export const graphApi = {
   async executeQuery(cypher: string, parameters?: Record<string, unknown>) {
     return api.post<unknown>('/graph/query', { query: cypher, parameters });
   },
+
+  /**
+   * Get real-time knowledge graph statistics from Neo4j
+   */
+  async getStats() {
+    return api.get<{
+      entities: number;
+      relationships: number;
+      dataPoints: number;
+      freshness: number;
+      labels: string[];
+      entityTypes: Array<{ type: string; count: number }>;
+      timestamp: string;
+    }>('/graph/stats');
+  },
 };
 
 // ============================================================================
