@@ -1562,47 +1562,70 @@ export const ChronosPage: React.FC = () => {
     }
   }, [mode]);
 
-  // Update snapshot when date changes - use real metrics when available
+  // Update snapshot when date changes - apply time-based projection to metrics
   useEffect(() => {
-    // Try to build snapshot from real metrics
-    if (realMetrics.length > 0) {
-      const getMetricValue = (code: string): number => {
+    // Calculate time-based factor for projecting metrics forward/backward
+    const now = new Date();
+    const daysDiff = (now.getTime() - currentDate.getTime()) / (24 * 60 * 60 * 1000);
+    const isPast = daysDiff > 0;
+    
+    // Growth/decay factor based on time distance
+    // Past: values were lower, Future: values projected higher (with uncertainty)
+    const growthRate = 0.0008; // ~30% annual growth rate
+    const factor = isPast 
+      ? Math.pow(1 - growthRate, daysDiff) 
+      : Math.pow(1 + growthRate, -daysDiff);
+    
+    // Add some volatility for future projections
+    const volatility = mode === 'fastforward' ? 0.15 : 0.05;
+    const randomFactor = 1 + (Math.random() - 0.5) * volatility;
+    
+    // Apply time-based transformation
+    const projectValue = (baseValue: number, isWholeNumber: boolean = false): number => {
+      const projected = baseValue * factor * randomFactor;
+      return isWholeNumber ? Math.round(projected) : Math.round(projected * 100) / 100;
+    };
+
+    // Try to use real metrics as base values
+    const getMetricValue = (code: string, fallback: number): number => {
+      if (realMetrics.length > 0) {
         const metric = realMetrics.find((m: any) => 
           m.code?.toLowerCase().includes(code.toLowerCase()) ||
           m.name?.toLowerCase().includes(code.toLowerCase())
         );
-        return metric?.current_value || metric?.value || 0;
-      };
+        return metric?.current_value || metric?.value || fallback;
+      }
+      return fallback;
+    };
 
-      const realSnapshot: StateSnapshot = {
-        timestamp: currentDate,
-        metrics: {
-          revenue: getMetricValue('revenue') || getMetricValue('arr') || 12500000,
-          profit: getMetricValue('profit') || getMetricValue('ebitda') || 2800000,
-          employees: getMetricValue('headcount') || getMetricValue('employees') || 156,
-          customers: getMetricValue('customers') || getMetricValue('accounts') || 847,
-          satisfaction: getMetricValue('satisfaction') || getMetricValue('csat') || 87,
-          marketShare: getMetricValue('market') || getMetricValue('share') || 12.4,
-          burnRate: getMetricValue('burn') || 850000,
-          runway: getMetricValue('runway') || 18,
-        },
-        council: {
-          activeAgents: ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'].slice(0, Math.floor(Math.random() * 2) + 4),
-          pendingDecisions: realDeliberations.filter((d: any) => d.status === 'PENDING' || d.status === 'IN_PROGRESS').length,
-          totalDeliberations: realDeliberations.length,
-          consensusRate: 78,
-        },
-        graph: {
-          entities: getMetricValue('entities') || 15420,
-          relationships: getMetricValue('relationships') || 48930,
-          dataPoints: getMetricValue('datapoints') || 2340000,
-          freshness: 95,
-        },
-      };
-      setSnapshot(realSnapshot);
-    } else {
-      setSnapshot(generateSnapshot(currentDate, mode));
-    }
+    // Build snapshot with time-projected values
+    const projectedSnapshot: StateSnapshot = {
+      timestamp: currentDate,
+      metrics: {
+        revenue: projectValue(getMetricValue('revenue', 12500000)),
+        profit: projectValue(getMetricValue('profit', 2800000)),
+        employees: projectValue(getMetricValue('headcount', 156), true),
+        customers: projectValue(getMetricValue('customers', 847), true),
+        satisfaction: Math.min(100, Math.max(0, projectValue(getMetricValue('satisfaction', 87)))),
+        marketShare: Math.max(0, projectValue(getMetricValue('market', 12.4))),
+        burnRate: projectValue(getMetricValue('burn', 850000)),
+        runway: Math.max(0, projectValue(getMetricValue('runway', 18), true)),
+      },
+      council: {
+        activeAgents: ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'].slice(0, Math.floor(Math.random() * 2) + 4),
+        pendingDecisions: Math.max(0, Math.floor(realDeliberations.filter((d: any) => d.status === 'PENDING' || d.status === 'IN_PROGRESS').length * factor)),
+        totalDeliberations: Math.max(0, Math.floor(realDeliberations.length * factor)),
+        consensusRate: Math.min(100, Math.max(50, projectValue(78))),
+      },
+      graph: {
+        entities: projectValue(getMetricValue('entities', 15420), true),
+        relationships: projectValue(getMetricValue('relationships', 48930), true),
+        dataPoints: projectValue(getMetricValue('datapoints', 2340000), true),
+        freshness: Math.max(0, Math.min(100, 95 - (isPast ? daysDiff * 0.1 : -daysDiff * 0.02))),
+      },
+    };
+    
+    setSnapshot(projectedSnapshot);
     setErpSnapshot(generateERPSnapshot(currentDate));
   }, [currentDate, mode, realMetrics, realDeliberations]);
 
