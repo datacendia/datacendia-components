@@ -165,6 +165,10 @@ const enterpriseFeatures = [
   { id: 'veto', label: 'CendiaVeto™', icon: '🚫', path: '/cortex/enterprise/veto', description: 'Adversarial Governance Engine', valuation: '+$800M' },
   { id: 'union', label: 'CendiaUnion™', icon: '🤝', path: '/cortex/enterprise/union', description: 'Employee Rights & Wellness Engine', valuation: '+$600M' },
   { id: 'ledger', label: 'CendiaLedger™', icon: '📒', path: '/cortex/enterprise/ledger', description: 'Immutable Decision Blockchain', valuation: '+$1B' },
+  // Strategic Intelligence Services
+  { id: 'echo', label: 'CendiaEcho™', icon: '📊', path: '/cortex/crown/echo', description: 'Decision Outcome Engine - Measure ROI', valuation: '$5-15M/yr' },
+  { id: 'redteam', label: 'CendiaRedTeam™', icon: '💀', path: '/cortex/crown/redteam', description: 'Adversarial Security Testing', valuation: '$8-20M/yr' },
+  { id: 'gnosis', label: 'CendiaGnosis™', icon: '🎓', path: '/cortex/crown/gnosis', description: 'AI-Powered Learning Paths', valuation: '$25-150M/yr' },
 ];
 
 // Sovereign Tier (Premium Enterprise - Regulation, Defense, Long-Horizon)
@@ -177,12 +181,6 @@ const sovereignFeatures = [
   { id: 'vox', label: 'CendiaVox™', icon: '🗣️', path: '/cortex/sovereign/vox', description: 'Stakeholder Voice Assembly', valuation: '+$900M' },
 ];
 
-// Crown Jewels - The Final Three (Highest Value Services)
-const crownJewelsFeatures = [
-  { id: 'echo', label: 'CendiaEcho™', icon: '📊', path: '/cortex/crown/echo', description: 'Decision Outcome Engine - Measure ROI of every decision', valuation: '$5M-$15M/yr' },
-  { id: 'redteam', label: 'CendiaRedTeam™', icon: '💀', path: '/cortex/crown/redteam', description: 'Adversarial Security - Evil Twin stress-tests your org', valuation: '$8M-$20M/yr' },
-  { id: 'gnosis', label: 'CendiaGnosis™', icon: '🎓', path: '/cortex/crown/gnosis', description: 'Education Engine - AI-generated learning paths', valuation: '$25M-$150M/yr' },
-];
 
 // Inner layout component that can use translations
 const CortexLayoutInner: React.FC = () => {
@@ -191,7 +189,6 @@ const CortexLayoutInner: React.FC = () => {
   const [isPremiumDropdownOpen, setIsPremiumDropdownOpen] = useState(false);
   const [isEnterpriseDropdownOpen, setIsEnterpriseDropdownOpen] = useState(false);
   const [isSovereignDropdownOpen, setIsSovereignDropdownOpen] = useState(false);
-  const [isCrownJewelsDropdownOpen, setIsCrownJewelsDropdownOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const { t } = useLanguage();
@@ -622,63 +619,6 @@ const CortexLayoutInner: React.FC = () => {
                     </div>
                     <div className="p-3 bg-gradient-to-r from-emerald-50 to-teal-50 border-t border-neutral-100">
                       <p className="text-xs text-neutral-600 text-center font-medium">👑 $7B+ Valuation Potential</p>
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
-
-            {/* Crown Jewels Dropdown */}
-            <div className="relative">
-              <button
-                onClick={() => setIsCrownJewelsDropdownOpen(!isCrownJewelsDropdownOpen)}
-                className={cn(
-                  'flex items-center gap-2 px-4 py-2 rounded-lg font-medium text-sm',
-                  'bg-gradient-to-r from-amber-500 to-orange-500 text-white',
-                  'hover:from-amber-600 hover:to-orange-600 transition-all shadow-md'
-                )}
-              >
-                <span>💎</span>
-                <span className="hidden md:inline">Crown Jewels</span>
-                <svg className={cn('w-4 h-4 transition-transform', isCrownJewelsDropdownOpen && 'rotate-180')} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-              </button>
-              
-              {isCrownJewelsDropdownOpen && (
-                <>
-                  <div className="fixed inset-0 z-40" onClick={() => setIsCrownJewelsDropdownOpen(false)} />
-                  <div className="absolute right-0 mt-2 w-96 bg-white rounded-xl shadow-xl border border-neutral-200 z-50 overflow-hidden">
-                    <div className="p-3 bg-gradient-to-r from-amber-50 to-orange-50 border-b border-neutral-100">
-                      <h3 className="font-semibold text-neutral-900">💎 Crown Jewels</h3>
-                      <p className="text-xs text-neutral-500">The Final Three - Highest Value Services</p>
-                    </div>
-                    <div className="py-2">
-                      {crownJewelsFeatures.map((feature) => (
-                        <button
-                          key={feature.id}
-                          onClick={() => {
-                            navigate(feature.path);
-                            setIsCrownJewelsDropdownOpen(false);
-                          }}
-                          className={cn(
-                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-neutral-50 transition-colors',
-                            location.pathname === feature.path && 'bg-amber-50'
-                          )}
-                        >
-                          <span className="text-xl">{feature.icon}</span>
-                          <div className="text-left flex-1">
-                            <div className="flex items-center justify-between">
-                              <p className="font-medium text-neutral-900 text-sm">{feature.label}</p>
-                              <span className="text-xs px-2 py-0.5 bg-gradient-to-r from-amber-100 to-orange-100 text-amber-700 rounded-full">{feature.valuation}</span>
-                            </div>
-                            <p className="text-xs text-neutral-500">{feature.description}</p>
-                          </div>
-                        </button>
-                      ))}
-                    </div>
-                    <div className="p-3 bg-gradient-to-r from-amber-50 to-orange-50 border-t border-neutral-100">
-                      <p className="text-xs text-neutral-600 text-center font-medium">💎 $38M-$185M Annual Revenue Potential</p>
                     </div>
                   </div>
                 </>
