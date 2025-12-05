@@ -138,6 +138,9 @@ import { EternalPage } from './pages/sovereign/EternalPage';
 import { SymbiontPage } from './pages/sovereign/SymbiontPage';
 import { VoxPage } from './pages/sovereign/VoxPage';
 
+// Crown Jewels - Premium Enterprise Services
+import { EchoPage, RedTeamPage, GnosisPage } from './pages/cortex/crown';
+
 // Data Pages
 import {
   DataSourcesPage,
@@ -572,6 +575,20 @@ export const router = createBrowserRouter([
       {
         path: 'sovereign/vox',
         element: <VoxPage />,
+      },
+
+      // Crown Jewels - Premium Enterprise Services ($5M-$150M tier)
+      {
+        path: 'crown/echo',
+        element: <EchoPage />,
+      },
+      {
+        path: 'crown/redteam',
+        element: <RedTeamPage />,
+      },
+      {
+        path: 'crown/gnosis',
+        element: <GnosisPage />,
       },
 
       // 8 Pillars (Foundational Data Layers)
