@@ -301,11 +301,12 @@ export const BridgePage: React.FC = () => {
   const { t } = useLanguage();
   
   // State
-  const [selectedWorkflow, setSelectedWorkflow] = useState(activeWorkflows[0]);
+  const [workflows, setWorkflows] = useState<ActiveWorkflow[]>(activeWorkflows);
+  const [selectedWorkflow, setSelectedWorkflow] = useState<ActiveWorkflow>(activeWorkflows[0]);
   const [isLoading, setIsLoading] = useState(false);
   
   // Integrations
-  const [integrations] = useState<Integration[]>([
+  const [integrations, setIntegrations] = useState<Integration[]>([
     { id: '1', name: 'Salesforce', icon: '☁️', status: 'connected' },
     { id: '2', name: 'SAP', icon: '📊', status: 'connected' },
     { id: '3', name: 'Slack', icon: '💬', status: 'connected' },
@@ -314,7 +315,7 @@ export const BridgePage: React.FC = () => {
   ]);
   
   // Activity events
-  const [activityEvents] = useState<ActivityEvent[]>([
+  const [activityEvents, setActivityEvents] = useState<ActivityEvent[]>([
     { id: '1', type: 'approval', message: 'Budget reallocation approved', workflow: 'FIN_REALLOC_03', timestamp: new Date() },
     { id: '2', type: 'trigger', message: 'Invoice received, workflow initiated', workflow: 'VENDOR_PAY_01', timestamp: new Date() },
     { id: '3', type: 'execution', message: 'AI analysis completed', workflow: 'CAP_EX_APPROVAL', timestamp: new Date() },
@@ -322,7 +323,7 @@ export const BridgePage: React.FC = () => {
   ]);
   
   // Execution history
-  const [executionHistory] = useState<ExecutionHistory[]>([
+  const [executionHistory, setExecutionHistory] = useState<ExecutionHistory[]>([
     { id: '1', workflowCode: 'VENDOR_PAY_01', status: 'success', duration: '2m 34s', timestamp: new Date() },
     { id: '2', workflowCode: 'FIN_REALLOC_03', status: 'success', duration: '45s', timestamp: new Date() },
     { id: '3', workflowCode: 'HR_ONBOARD_02', status: 'failed', duration: '1m 12s', timestamp: new Date() },
@@ -334,9 +335,56 @@ export const BridgePage: React.FC = () => {
     const loadData = async () => {
       try {
         setIsLoading(true);
-        await workflowsApi.getWorkflows();
+        
+        // Fetch real workflows from API
+        const [workflowsRes, executionsRes] = await Promise.all([
+          workflowsApi.getWorkflows(),
+          workflowsApi.getExecutions({ page: 1 }),
+        ]);
+
+        // Map real workflows
+        if (workflowsRes.success && workflowsRes.data && Array.isArray(workflowsRes.data)) {
+          const realWorkflows: ActiveWorkflow[] = (workflowsRes.data as any[]).map((wf, idx) => ({
+            id: wf.id,
+            name: wf.name,
+            code: wf.id.substring(0, 8).toUpperCase(),
+            status: wf.status === 'PENDING' ? 'awaiting_human' : 
+                   wf.status === 'RUNNING' ? 'running' : 
+                   wf.status === 'FAILED' ? 'failed' : 'completed',
+            nodes: [
+              { id: 'n1', type: 'trigger' as const, label: `Trigger: ${wf.trigger_type || 'Manual'}`, status: 'completed' as const },
+              { id: 'n2', type: 'ai' as const, label: 'AI Processing', status: wf.status === 'RUNNING' ? 'active' : 'completed' as const },
+              { id: 'n3', type: 'action' as const, label: 'Execute Actions', status: wf.status === 'COMPLETED' ? 'completed' : 'pending' as const },
+            ],
+            slaDeadline: wf.sla_deadline ? new Date(wf.sla_deadline) : undefined,
+          }));
+          
+          if (realWorkflows.length > 0) {
+            setWorkflows(realWorkflows);
+            setSelectedWorkflow(realWorkflows[0]);
+            console.log('[Bridge] Loaded', realWorkflows.length, 'workflows from API');
+          }
+        }
+
+        // Map real executions to history
+        if (executionsRes.success && executionsRes.data && Array.isArray(executionsRes.data)) {
+          const realHistory: ExecutionHistory[] = (executionsRes.data as any[]).map(exec => ({
+            id: exec.id,
+            workflowCode: exec.workflow_id?.substring(0, 8).toUpperCase() || 'UNKNOWN',
+            status: exec.status === 'COMPLETED' ? 'success' : 
+                   exec.status === 'FAILED' ? 'failed' : 'cancelled',
+            duration: exec.duration_ms ? `${Math.round(exec.duration_ms / 1000)}s` : 'N/A',
+            timestamp: new Date(exec.started_at || exec.created_at),
+          }));
+          
+          if (realHistory.length > 0) {
+            setExecutionHistory(realHistory);
+            console.log('[Bridge] Loaded', realHistory.length, 'executions from API');
+          }
+        }
+        
       } catch (err) {
-        console.error('Bridge load error:', err);
+        console.error('[Bridge] Load error, using fallback:', err);
       } finally {
         setIsLoading(false);
       }
@@ -369,12 +417,12 @@ export const BridgePage: React.FC = () => {
             <select
               value={selectedWorkflow.id}
               onChange={(e) => {
-                const wf = activeWorkflows.find(w => w.id === e.target.value);
+                const wf = workflows.find(w => w.id === e.target.value);
                 if (wf) setSelectedWorkflow(wf);
               }}
               className="bg-transparent text-white font-mono text-lg border-none focus:ring-0 cursor-pointer"
             >
-              {activeWorkflows.map(wf => (
+              {workflows.map(wf => (
                 <option key={wf.id} value={wf.id} className="bg-neutral-800">
                   {wf.code}
                 </option>
