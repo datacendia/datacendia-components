@@ -123,6 +123,11 @@ const EternalPage = lazy(() => import('./pages/sovereign/EternalPage').then(m =>
 const SymbiontPage = lazy(() => import('./pages/sovereign/SymbiontPage').then(m => ({ default: m.SymbiontPage })));
 const VoxPage = lazy(() => import('./pages/sovereign/VoxPage').then(m => ({ default: m.VoxPage })));
 
+// Crown Jewels - Premium Enterprise Services
+const EchoPage = lazy(() => import('./pages/cortex/crown').then(m => ({ default: m.EchoPage })));
+const RedTeamPage = lazy(() => import('./pages/cortex/crown').then(m => ({ default: m.RedTeamPage })));
+const GnosisPage = lazy(() => import('./pages/cortex/crown').then(m => ({ default: m.GnosisPage })));
+
 // Data Pages
 const DataSourcesPage = lazy(() => import('./pages/cortex/data').then(m => ({ default: m.DataSourcesPage })));
 const DataCatalogPage = lazy(() => import('./pages/cortex/data').then(m => ({ default: m.DataCatalogPage })));
@@ -431,6 +436,11 @@ export const router = createBrowserRouter([
       { path: 'sovereign/eternal', element: <SuspenseWrapper><EternalPage /></SuspenseWrapper> },
       { path: 'sovereign/symbiont', element: <SuspenseWrapper><SymbiontPage /></SuspenseWrapper> },
       { path: 'sovereign/vox', element: <SuspenseWrapper><VoxPage /></SuspenseWrapper> },
+      
+      // Crown Jewels - Premium Enterprise Services ($5M-$150M tier)
+      { path: 'crown/echo', element: <SuspenseWrapper><EchoPage /></SuspenseWrapper> },
+      { path: 'crown/redteam', element: <SuspenseWrapper><RedTeamPage /></SuspenseWrapper> },
+      { path: 'crown/gnosis', element: <SuspenseWrapper><GnosisPage /></SuspenseWrapper> },
       
       // Pillars
       { path: 'pillars', element: <Navigate to="/cortex/pillars/helm" replace /> },
