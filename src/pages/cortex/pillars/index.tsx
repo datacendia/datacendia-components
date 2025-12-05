@@ -64,80 +64,125 @@ const MetricCard: React.FC<{
 // THE HELM - Metrics & KPIs
 // =============================================================================
 
+interface HelmDashboard {
+  totalMetrics: number;
+  onTarget: number;
+  atRisk: number;
+  critical: number;
+  categories: Array<{
+    id: string;
+    name: string;
+    icon: string;
+    metrics: Array<{
+      id: string;
+      name: string;
+      value: number;
+      unit: string;
+      status: 'on_track' | 'at_risk' | 'critical' | 'stable';
+      trend: number;
+    }>;
+  }>;
+}
+
 export const HelmPage: React.FC = () => {
-  const [metrics, setMetrics] = useState<any[]>([]);
+  const [dashboard, setDashboard] = useState<HelmDashboard | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const loadMetrics = async () => {
+    const loadHelmData = async () => {
       try {
-        const res = await metricsApi.getMetrics();
-        if (res.success && res.data) {
-          setMetrics(res.data);
+        setIsLoading(true);
+        const res = await fetch('/api/v1/pillars/helm/dashboard?organizationId=demo');
+        const data = await res.json();
+        if (data.success) {
+          setDashboard(data.data);
         }
       } catch (err) {
-        console.error('Failed to load metrics:', err);
+        console.error('Failed to load helm data:', err);
       } finally {
         setIsLoading(false);
       }
     };
-    loadMetrics();
+    loadHelmData();
   }, []);
 
-  const categories = [
-    { id: 'financial', name: 'Financial', icon: '💰', metrics: ['Revenue', 'EBITDA', 'Cash Flow', 'Burn Rate'] },
-    { id: 'operational', name: 'Operational', icon: '⚙️', metrics: ['Throughput', 'Cycle Time', 'Utilization', 'Efficiency'] },
-    { id: 'customer', name: 'Customer', icon: '👥', metrics: ['NPS', 'Churn Rate', 'LTV', 'CAC'] },
-    { id: 'people', name: 'People', icon: '🧑‍💼', metrics: ['Headcount', 'Turnover', 'Engagement', 'Productivity'] },
-  ];
+  const getStatusStyle = (status: string) => {
+    switch (status) {
+      case 'on_track': return 'bg-success-light text-success-dark';
+      case 'at_risk': return 'bg-warning-light text-warning-dark';
+      case 'critical': return 'bg-error-light text-error-dark';
+      default: return 'bg-neutral-100 text-neutral-600';
+    }
+  };
+
+  const getStatusLabel = (status: string) => {
+    switch (status) {
+      case 'on_track': return 'On Track';
+      case 'at_risk': return 'At Risk';
+      case 'critical': return 'Critical';
+      default: return 'Stable';
+    }
+  };
+
+  if (isLoading) {
+    return (
+      <div className="p-6">
+        <PillarHeader icon="🎯" name="The Helm" tagline="Single source of truth for organizational metrics" color="#6366F1" />
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-500"></div>
+          <span className="ml-3 text-neutral-500">Loading metrics data...</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="p-6">
-      <PillarHeader
-        icon="🎯"
-        name="The Helm"
-        tagline="Single source of truth for organizational metrics"
-        color="#6366F1"
-      />
+      <PillarHeader icon="🎯" name="The Helm" tagline="Single source of truth for organizational metrics" color="#6366F1" />
 
-      {/* KPI Overview */}
+      {/* KPI Overview - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Total Metrics" value={metrics.length || 47} />
-        <MetricCard label="On Target" value="38" change={5} trend="up" />
-        <MetricCard label="At Risk" value="6" change={-2} trend="down" />
-        <MetricCard label="Critical" value="3" />
+        <MetricCard label="Total Metrics" value={dashboard?.totalMetrics ?? 0} />
+        <MetricCard label="On Target" value={dashboard?.onTarget ?? 0} trend="up" />
+        <MetricCard label="At Risk" value={dashboard?.atRisk ?? 0} trend="down" />
+        <MetricCard label="Critical" value={dashboard?.critical ?? 0} />
       </div>
 
-      {/* Metric Categories */}
+      {/* Metric Categories - REAL DATA */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {categories.map(cat => (
-          <div key={cat.id} className="bg-white rounded-xl border border-neutral-200 p-6">
+        {(dashboard?.categories || []).map((cat: any, idx: number) => {
+          const key = cat.id || cat.name || cat.category || idx;
+          const displayName = cat.name || cat.category || 'Category';
+          return (
+          <div key={key} className="bg-white rounded-xl border border-neutral-200 p-6">
             <div className="flex items-center gap-3 mb-4">
               <span className="text-2xl">{cat.icon}</span>
-              <h3 className="text-lg font-semibold text-neutral-900">{cat.name}</h3>
+              <h3 className="text-lg font-semibold text-neutral-900">{displayName}</h3>
             </div>
             <div className="space-y-3">
-              {cat.metrics.map((metric, idx) => (
-                <div key={idx} className="flex items-center justify-between py-2 border-b border-neutral-100 last:border-0">
-                  <span className="text-neutral-700">{metric}</span>
+              {(cat.metrics || []).map((metric: any) => (
+                <div key={metric.id} className="flex items-center justify-between py-2 border-b border-neutral-100 last:border-0">
+                  <span className="text-neutral-700">{metric.name}</span>
                   <div className="flex items-center gap-3">
                     <span className="font-medium text-neutral-900">
-                      {Math.floor(Math.random() * 100)}%
+                      {typeof metric.value === 'number' ? metric.value.toFixed(1) : metric.value}{metric.unit}
                     </span>
-                    <span className={cn(
-                      'text-xs px-2 py-0.5 rounded-full',
-                      idx % 3 === 0 ? 'bg-success-light text-success-dark' :
-                      idx % 3 === 1 ? 'bg-warning-light text-warning-dark' :
-                      'bg-neutral-100 text-neutral-600'
-                    )}>
-                      {idx % 3 === 0 ? 'On Track' : idx % 3 === 1 ? 'At Risk' : 'Stable'}
+                    <span className={cn('text-xs px-2 py-0.5 rounded-full', getStatusStyle(metric.status))}>
+                      {getStatusLabel(metric.status)}
                     </span>
                   </div>
                 </div>
               ))}
+              {(!cat.metrics || cat.metrics.length === 0) && (
+                <p className="text-neutral-500 text-center py-2">No metrics in this category</p>
+              )}
             </div>
           </div>
-        ))}
+          );
+        })}
+        {(!dashboard?.categories || dashboard.categories.length === 0) && (
+          <p className="col-span-2 text-neutral-500 text-center py-8">No metrics configured</p>
+        )}
       </div>
     </div>
   );
@@ -147,92 +192,140 @@ export const HelmPage: React.FC = () => {
 // THE LINEAGE - Data Provenance
 // =============================================================================
 
+interface LineageEntity {
+  id: string;
+  name: string;
+  type: string;
+  upstreamCount: number;
+  downstreamCount: number;
+  qualityScore: number;
+  lastUpdated: string;
+}
+
+interface QualityOverview {
+  totalEntities: number;
+  totalSources: number;
+  totalRelationships: number;
+  avgQualityScore: number;
+  sourceQuality: Array<{ name: string; quality: number; recordCount: number }>;
+}
+
 export const LineagePage: React.FC = () => {
   const navigate = useNavigate();
+  const [entities, setEntities] = useState<LineageEntity[]>([]);
+  const [qualityOverview, setQualityOverview] = useState<QualityOverview | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const lineageItems = [
-    { id: 'l1', name: 'Revenue Report', type: 'report', sources: 5, lastUpdated: '2 hours ago' },
-    { id: 'l2', name: 'Customer 360', type: 'dataset', sources: 12, lastUpdated: '1 hour ago' },
-    { id: 'l3', name: 'Sales Pipeline', type: 'metric', sources: 3, lastUpdated: '15 min ago' },
-    { id: 'l4', name: 'Churn Model', type: 'model', sources: 8, lastUpdated: '4 hours ago' },
-  ];
+  useEffect(() => {
+    const loadLineageData = async () => {
+      try {
+        setIsLoading(true);
+        const [entitiesRes, qualityRes] = await Promise.all([
+          fetch('/api/v1/pillars/lineage/entities?organizationId=demo'),
+          fetch('/api/v1/pillars/lineage/quality?organizationId=demo'),
+        ]);
+        
+        const entitiesData = await entitiesRes.json();
+        const qualityData = await qualityRes.json();
+        
+        if (entitiesData.success) setEntities(entitiesData.data || []);
+        if (qualityData.success) setQualityOverview(qualityData.data);
+      } catch (err) {
+        console.error('Failed to load lineage data:', err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadLineageData();
+  }, []);
+
+  const formatRelativeTime = (dateStr: string) => {
+    const date = new Date(dateStr);
+    const now = new Date();
+    const diffMs = now.getTime() - date.getTime();
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMs / 3600000);
+    if (diffMins < 60) return `${diffMins} min ago`;
+    if (diffHours < 24) return `${diffHours} hours ago`;
+    return `${Math.floor(diffMs / 86400000)} days ago`;
+  };
+
+  if (isLoading) {
+    return (
+      <div className="p-6">
+        <PillarHeader icon="🔗" name="The Lineage" tagline="Complete data provenance and dependency tracking" color="#10B981" />
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-emerald-500"></div>
+          <span className="ml-3 text-neutral-500">Loading lineage data...</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="p-6">
-      <PillarHeader
-        icon="🔗"
-        name="The Lineage"
-        tagline="Complete data provenance and dependency tracking"
-        color="#10B981"
-      />
+      <PillarHeader icon="🔗" name="The Lineage" tagline="Complete data provenance and dependency tracking" color="#10B981" />
 
-      {/* Stats */}
+      {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Tracked Entities" value="1,247" />
-        <MetricCard label="Data Sources" value="34" />
-        <MetricCard label="Relationships" value="3,891" />
-        <MetricCard label="Quality Score" value="94" unit="%" />
+        <MetricCard label="Tracked Entities" value={qualityOverview?.totalEntities ?? entities.length} />
+        <MetricCard label="Data Sources" value={qualityOverview?.totalSources ?? 0} />
+        <MetricCard label="Relationships" value={qualityOverview?.totalRelationships ?? 0} />
+        <MetricCard label="Quality Score" value={Math.round(qualityOverview?.avgQualityScore ?? 0)} unit="%" />
       </div>
 
-      {/* Lineage Explorer */}
+      {/* Lineage Explorer - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-neutral-900">Recent Lineage Views</h3>
-          <button
-            onClick={() => navigate('/cortex/graph')}
-            className="text-sm text-primary-600 hover:text-primary-700"
-          >
+          <button onClick={() => navigate('/cortex/graph')} className="text-sm text-primary-600 hover:text-primary-700">
             Open Graph Explorer →
           </button>
         </div>
         <div className="space-y-3">
-          {lineageItems.map(item => (
+          {entities.length > 0 ? entities.slice(0, 6).map(entity => (
             <div
-              key={item.id}
+              key={entity.id}
               className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg hover:bg-neutral-100 cursor-pointer"
-              onClick={() => navigate(`/cortex/graph?entity=${item.id}`)}
+              onClick={() => navigate(`/cortex/graph?entity=${entity.id}`)}
             >
               <div className="flex items-center gap-3">
                 <span className="text-xl">
-                  {item.type === 'report' ? '📄' : item.type === 'dataset' ? '📊' : item.type === 'metric' ? '📈' : '🤖'}
+                  {entity.type === 'report' ? '📄' : entity.type === 'dataset' ? '📊' : entity.type === 'metric' ? '📈' : entity.type === 'model' ? '🤖' : '📁'}
                 </span>
                 <div>
-                  <p className="font-medium text-neutral-900">{item.name}</p>
-                  <p className="text-sm text-neutral-500">{item.sources} upstream sources</p>
+                  <p className="font-medium text-neutral-900">{entity.name}</p>
+                  <p className="text-sm text-neutral-500">{entity.upstreamCount} upstream sources</p>
                 </div>
               </div>
-              <span className="text-sm text-neutral-500">{item.lastUpdated}</span>
+              <span className="text-sm text-neutral-500">{formatRelativeTime(entity.lastUpdated)}</span>
             </div>
-          ))}
+          )) : (
+            <p className="text-neutral-500 text-center py-4">No entities tracked yet</p>
+          )}
         </div>
       </div>
 
-      {/* Data Quality */}
+      {/* Data Quality - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Data Quality by Source</h3>
         <div className="space-y-4">
-          {[
-            { name: 'Salesforce', quality: 98, records: '2.3M' },
-            { name: 'Snowflake', quality: 96, records: '45M' },
-            { name: 'SAP', quality: 92, records: '12M' },
-            { name: 'Manual Uploads', quality: 78, records: '15K' },
-          ].map((source, idx) => (
+          {(qualityOverview?.sourceQuality || []).map((source, idx) => (
             <div key={idx} className="flex items-center gap-4">
               <span className="w-32 text-neutral-700">{source.name}</span>
               <div className="flex-1 h-2 bg-neutral-200 rounded-full overflow-hidden">
                 <div
-                  className={cn(
-                    'h-full rounded-full',
-                    source.quality >= 95 ? 'bg-success-main' :
-                    source.quality >= 85 ? 'bg-warning-main' : 'bg-error-main'
-                  )}
+                  className={cn('h-full rounded-full', source.quality >= 95 ? 'bg-success-main' : source.quality >= 85 ? 'bg-warning-main' : 'bg-error-main')}
                   style={{ width: `${source.quality}%` }}
                 />
               </div>
               <span className="w-12 text-sm font-medium text-neutral-900">{source.quality}%</span>
-              <span className="w-20 text-sm text-neutral-500">{source.records}</span>
+              <span className="w-20 text-sm text-neutral-500">{source.recordCount.toLocaleString()}</span>
             </div>
           ))}
+          {(!qualityOverview?.sourceQuality || qualityOverview.sourceQuality.length === 0) && (
+            <p className="text-neutral-500 text-center py-4">No quality data available</p>
+          )}
         </div>
       </div>
     </div>
@@ -243,40 +336,89 @@ export const LineagePage: React.FC = () => {
 // THE PREDICT - Forecasting
 // =============================================================================
 
+interface PredictModel {
+  id: string;
+  name: string;
+  type: string;
+  accuracy: number;
+  status: 'active' | 'training' | 'inactive';
+  predictions: number;
+  lastTrained: string;
+}
+
+interface PredictInsight {
+  feature: string;
+  importance: number;
+}
+
 export const PredictPage: React.FC = () => {
+  const [models, setModels] = useState<PredictModel[]>([]);
+  const [insights, setInsights] = useState<PredictInsight[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadPredictData = async () => {
+      try {
+        setIsLoading(true);
+        const [modelsRes, insightsRes] = await Promise.all([
+          fetch('/api/v1/pillars/predict/models?organizationId=demo'),
+          fetch('/api/v1/pillars/predict/insights?organizationId=demo'),
+        ]);
+        
+        const modelsData = await modelsRes.json();
+        const insightsData = await insightsRes.json();
+        
+        if (modelsData.success) setModels(modelsData.data || []);
+        if (insightsData.success) setInsights(insightsData.data?.features || []);
+      } catch (err) {
+        console.error('Failed to load predict data:', err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadPredictData();
+  }, []);
+
+  const activeModels = models.filter(m => m.status === 'active').length;
+  const avgAccuracy = models.length > 0 ? models.reduce((sum, m) => sum + m.accuracy, 0) / models.length : 0;
+  const totalPredictions = models.reduce((sum, m) => sum + (m.predictions || 0), 0);
+
+  if (isLoading) {
+    return (
+      <div className="p-6">
+        <PillarHeader icon="🔮" name="The Predict" tagline="AI-powered forecasting and predictive analytics" color="#8B5CF6" />
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-500"></div>
+          <span className="ml-3 text-neutral-500">Loading prediction models...</span>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="p-6">
-      <PillarHeader
-        icon="🔮"
-        name="The Predict"
-        tagline="AI-powered forecasting and predictive analytics"
-        color="#8B5CF6"
-      />
+      <PillarHeader icon="🔮" name="The Predict" tagline="AI-powered forecasting and predictive analytics" color="#8B5CF6" />
 
-      {/* Active Models */}
+      {/* Active Models - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Active Models" value="12" />
-        <MetricCard label="Avg Accuracy" value="94.2" unit="%" />
-        <MetricCard label="Predictions Today" value="847" />
-        <MetricCard label="Alerts Generated" value="3" />
+        <MetricCard label="Active Models" value={activeModels} />
+        <MetricCard label="Avg Accuracy" value={avgAccuracy.toFixed(1)} unit="%" />
+        <MetricCard label="Predictions Today" value={totalPredictions} />
+        <MetricCard label="Models Training" value={models.filter(m => m.status === 'training').length} />
       </div>
 
-      {/* Forecast Models */}
+      {/* Forecast Models - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Forecast Models</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {[
-            { name: 'Revenue Forecast', type: 'Time Series', accuracy: 96.3, status: 'active' },
-            { name: 'Churn Prediction', type: 'Classification', accuracy: 92.1, status: 'active' },
-            { name: 'Demand Planning', type: 'Time Series', accuracy: 89.7, status: 'training' },
-            { name: 'Lead Scoring', type: 'Regression', accuracy: 87.4, status: 'active' },
-          ].map((model, idx) => (
-            <div key={idx} className="p-4 bg-neutral-50 rounded-lg">
+          {models.length > 0 ? models.map((model) => (
+            <div key={model.id} className="p-4 bg-neutral-50 rounded-lg">
               <div className="flex items-center justify-between mb-2">
                 <h4 className="font-medium text-neutral-900">{model.name}</h4>
                 <span className={cn(
                   'text-xs px-2 py-1 rounded-full',
-                  model.status === 'active' ? 'bg-success-light text-success-dark' : 'bg-warning-light text-warning-dark'
+                  model.status === 'active' ? 'bg-success-light text-success-dark' : 
+                  model.status === 'training' ? 'bg-warning-light text-warning-dark' : 'bg-neutral-100 text-neutral-600'
                 )}>
                   {model.status}
                 </span>
@@ -286,24 +428,20 @@ export const PredictPage: React.FC = () => {
                 <div className="flex-1 h-1.5 bg-neutral-200 rounded-full">
                   <div className="h-full bg-primary-500 rounded-full" style={{ width: `${model.accuracy}%` }} />
                 </div>
-                <span className="text-sm font-medium text-neutral-900">{model.accuracy}%</span>
+                <span className="text-sm font-medium text-neutral-900">{model.accuracy.toFixed(1)}%</span>
               </div>
             </div>
-          ))}
+          )) : (
+            <p className="col-span-2 text-neutral-500 text-center py-4">No models configured</p>
+          )}
         </div>
       </div>
 
-      {/* Feature Importance */}
+      {/* Feature Importance - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Top Predictive Features</h3>
         <div className="space-y-3">
-          {[
-            { feature: 'Historical Revenue', importance: 0.34 },
-            { feature: 'Customer Tenure', importance: 0.22 },
-            { feature: 'Product Usage', importance: 0.18 },
-            { feature: 'Support Tickets', importance: 0.14 },
-            { feature: 'Contract Value', importance: 0.12 },
-          ].map((f, idx) => (
+          {insights.length > 0 ? insights.slice(0, 5).map((f, idx) => (
             <div key={idx} className="flex items-center gap-4">
               <span className="w-40 text-neutral-700">{f.feature}</span>
               <div className="flex-1 h-3 bg-neutral-100 rounded-full overflow-hidden">
@@ -311,7 +449,9 @@ export const PredictPage: React.FC = () => {
               </div>
               <span className="w-12 text-sm text-neutral-600">{(f.importance * 100).toFixed(0)}%</span>
             </div>
-          ))}
+          )) : (
+            <p className="text-neutral-500 text-center py-4">No feature insights available</p>
+          )}
         </div>
       </div>
     </div>
@@ -322,80 +462,135 @@ export const PredictPage: React.FC = () => {
 // THE FLOW - Workflow Automation
 // =============================================================================
 
+interface FlowStats {
+  activeWorkflows: number;
+  executionsToday: number;
+  successRate: number;
+  timeSavedHours: number;
+  pendingApprovals: number;
+}
+
+interface FlowExecution {
+  id: string;
+  workflowName: string;
+  status: 'success' | 'running' | 'failed' | 'pending';
+  startedAt: string;
+  duration: number | null;
+}
+
 export const FlowPage: React.FC = () => {
   const navigate = useNavigate();
+  const [stats, setStats] = useState<FlowStats | null>(null);
+  const [executions, setExecutions] = useState<FlowExecution[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadFlowData = async () => {
+      try {
+        setIsLoading(true);
+        const [statsRes, execRes] = await Promise.all([
+          fetch('/api/v1/pillars/flow/stats?organizationId=demo'),
+          fetch('/api/v1/pillars/flow/executions?organizationId=demo&limit=10'),
+        ]);
+        
+        const statsData = await statsRes.json();
+        const execData = await execRes.json();
+        
+        if (statsData.success) setStats(statsData.data);
+        if (execData.success) setExecutions(execData.data || []);
+      } catch (err) {
+        console.error('Failed to load flow data:', err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadFlowData();
+  }, []);
+
+  const formatDuration = (ms: number | null) => {
+    if (ms === null) return '—';
+    if (ms < 1000) return `${ms}ms`;
+    if (ms < 60000) return `${(ms / 1000).toFixed(0)}s`;
+    return `${Math.floor(ms / 60000)}m ${Math.floor((ms % 60000) / 1000)}s`;
+  };
+
+  const formatRelativeTime = (dateStr: string) => {
+    const date = new Date(dateStr);
+    const now = new Date();
+    const diffMs = now.getTime() - date.getTime();
+    if (diffMs < 60000) return 'Now';
+    const diffMins = Math.floor(diffMs / 60000);
+    if (diffMins < 60) return `${diffMins} min ago`;
+    return `${Math.floor(diffMs / 3600000)} hours ago`;
+  };
+
+  if (isLoading) {
+    return (
+      <div className="p-6">
+        <PillarHeader icon="🌊" name="The Flow" tagline="Intelligent workflow automation and orchestration" color="#06B6D4" />
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-cyan-500"></div>
+          <span className="ml-3 text-neutral-500">Loading workflow data...</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="p-6">
-      <PillarHeader
-        icon="🌊"
-        name="The Flow"
-        tagline="Intelligent workflow automation and orchestration"
-        color="#06B6D4"
-      />
+      <PillarHeader icon="🌊" name="The Flow" tagline="Intelligent workflow automation and orchestration" color="#06B6D4" />
 
-      {/* Stats */}
+      {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Active Workflows" value="23" />
-        <MetricCard label="Executions Today" value="156" />
-        <MetricCard label="Success Rate" value="98.4" unit="%" />
-        <MetricCard label="Time Saved" value="47" unit="hrs" />
+        <MetricCard label="Active Workflows" value={stats?.activeWorkflows ?? 0} />
+        <MetricCard label="Executions Today" value={stats?.executionsToday ?? 0} />
+        <MetricCard label="Success Rate" value={(stats?.successRate ?? 0).toFixed(1)} unit="%" />
+        <MetricCard label="Pending Approvals" value={stats?.pendingApprovals ?? 0} />
       </div>
 
       {/* Quick Actions */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-        <button
-          onClick={() => navigate('/cortex/bridge')}
-          className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left"
-        >
+        <button onClick={() => navigate('/cortex/bridge')} className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left">
           <span className="text-3xl mb-3 block">🔧</span>
           <h3 className="font-semibold text-neutral-900 mb-1">Workflow Builder</h3>
           <p className="text-sm text-neutral-500">Create and edit automation workflows</p>
         </button>
-        <button
-          onClick={() => navigate('/cortex/bridge?tab=executions')}
-          className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left"
-        >
+        <button onClick={() => navigate('/cortex/bridge?tab=executions')} className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left">
           <span className="text-3xl mb-3 block">📊</span>
           <h3 className="font-semibold text-neutral-900 mb-1">Execution History</h3>
           <p className="text-sm text-neutral-500">View past runs and logs</p>
         </button>
-        <button
-          onClick={() => navigate('/cortex/bridge?tab=approvals')}
-          className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left"
-        >
+        <button onClick={() => navigate('/cortex/bridge?tab=approvals')} className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left">
           <span className="text-3xl mb-3 block">✅</span>
           <h3 className="font-semibold text-neutral-900 mb-1">Pending Approvals</h3>
           <p className="text-sm text-neutral-500">Review human-in-the-loop tasks</p>
         </button>
       </div>
 
-      {/* Recent Activity */}
+      {/* Recent Activity - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Recent Flow Executions</h3>
         <div className="space-y-3">
-          {[
-            { name: 'Daily Revenue Sync', status: 'success', time: '5 min ago', duration: '12s' },
-            { name: 'Customer Onboarding', status: 'running', time: 'Now', duration: '—' },
-            { name: 'Month-End Close', status: 'success', time: '1 hour ago', duration: '4m 32s' },
-            { name: 'Anomaly Detection', status: 'failed', time: '2 hours ago', duration: '8s' },
-          ].map((exec, idx) => (
-            <div key={idx} className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg">
+          {executions.length > 0 ? executions.map((exec) => (
+            <div key={exec.id} className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg">
               <div className="flex items-center gap-3">
                 <span className={cn(
                   'w-2 h-2 rounded-full',
                   exec.status === 'success' && 'bg-success-main',
                   exec.status === 'running' && 'bg-primary-500 animate-pulse',
-                  exec.status === 'failed' && 'bg-error-main'
+                  exec.status === 'failed' && 'bg-error-main',
+                  exec.status === 'pending' && 'bg-warning-main'
                 )} />
-                <span className="font-medium text-neutral-900">{exec.name}</span>
+                <span className="font-medium text-neutral-900">{exec.workflowName}</span>
               </div>
               <div className="flex items-center gap-4 text-sm text-neutral-500">
-                <span>{exec.duration}</span>
-                <span>{exec.time}</span>
+                <span>{formatDuration(exec.duration)}</span>
+                <span>{formatRelativeTime(exec.startedAt)}</span>
               </div>
             </div>
-          ))}
+          )) : (
+            <p className="text-neutral-500 text-center py-4">No recent executions</p>
+          )}
         </div>
       </div>
     </div>
@@ -406,26 +601,89 @@ export const FlowPage: React.FC = () => {
 // THE HEALTH - Organizational Health
 // =============================================================================
 
+interface SystemHealth {
+  overallScore: number;
+  dimensions: Array<{ name: string; score: number; color: string }>;
+  status: 'healthy' | 'degraded' | 'critical';
+}
+
+interface HealthAlert {
+  id: string;
+  severity: 'critical' | 'warning' | 'info';
+  title: string;
+  description: string;
+  source: string;
+  createdAt: string;
+  acknowledged: boolean;
+}
+
 export const HealthPage: React.FC = () => {
   const navigate = useNavigate();
+  const [health, setHealth] = useState<SystemHealth | null>(null);
+  const [alerts, setAlerts] = useState<HealthAlert[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadHealthData = async () => {
+      try {
+        setIsLoading(true);
+        const [healthRes, alertsRes] = await Promise.all([
+          fetch('/api/v1/pillars/health/status?organizationId=demo'),
+          fetch('/api/v1/pillars/health/alerts?organizationId=demo'),
+        ]);
+        
+        const healthData = await healthRes.json();
+        const alertsData = await alertsRes.json();
+        
+        if (healthData.success) setHealth(healthData.data);
+        if (alertsData.success) setAlerts(alertsData.data || []);
+      } catch (err) {
+        console.error('Failed to load health data:', err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadHealthData();
+  }, []);
+
+  const formatRelativeTime = (dateStr: string) => {
+    const date = new Date(dateStr);
+    const now = new Date();
+    const diffMs = now.getTime() - date.getTime();
+    const diffMins = Math.floor(diffMs / 60000);
+    if (diffMins < 60) return `${diffMins} min ago`;
+    return `${Math.floor(diffMs / 3600000)} hours ago`;
+  };
+
+  const getScoreColor = (score: number) => {
+    if (score >= 90) return '#10B981';
+    if (score >= 70) return '#F59E0B';
+    return '#EF4444';
+  };
+
+  if (isLoading) {
+    return (
+      <div className="p-6">
+        <PillarHeader icon="💓" name="The Health" tagline="Real-time organizational health monitoring" color="#EF4444" />
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-red-500"></div>
+          <span className="ml-3 text-neutral-500">Loading health data...</span>
+        </div>
+      </div>
+    );
+  }
+
+  const overallScore = health?.overallScore ?? 0;
 
   return (
     <div className="p-6">
-      <PillarHeader
-        icon="💓"
-        name="The Health"
-        tagline="Real-time organizational health monitoring"
-        color="#EF4444"
-      />
+      <PillarHeader icon="💓" name="The Health" tagline="Real-time organizational health monitoring" color="#EF4444" />
 
-      {/* Health Score */}
+      {/* Health Score - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <div className="flex items-center justify-between mb-6">
           <h3 className="text-lg font-semibold text-neutral-900">Overall Health Score</h3>
-          <button
-            onClick={() => navigate('/cortex/pulse')}
-            className="text-sm text-primary-600 hover:text-primary-700"
-          >
+          <button onClick={() => navigate('/cortex/pulse')} className="text-sm text-primary-600 hover:text-primary-700">
             View Details →
           </button>
         </div>
@@ -434,53 +692,49 @@ export const HealthPage: React.FC = () => {
             <svg className="w-full h-full transform -rotate-90">
               <circle cx="64" cy="64" r="56" fill="none" stroke="#E5E7EB" strokeWidth="12" />
               <circle
-                cx="64" cy="64" r="56" fill="none" stroke="#10B981" strokeWidth="12"
-                strokeDasharray={`${87 * 3.52} 352`}
+                cx="64" cy="64" r="56" fill="none" stroke={getScoreColor(overallScore)} strokeWidth="12"
+                strokeDasharray={`${overallScore * 3.52} 352`}
                 strokeLinecap="round"
               />
             </svg>
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-3xl font-bold text-neutral-900">87</span>
+              <span className="text-3xl font-bold text-neutral-900">{Math.round(overallScore)}</span>
             </div>
           </div>
           <div className="flex-1 grid grid-cols-2 gap-4">
-            {[
-              { name: 'Data Health', score: 92, color: '#10B981' },
-              { name: 'Operations', score: 88, color: '#3B82F6' },
-              { name: 'Security', score: 85, color: '#8B5CF6' },
-              { name: 'People', score: 83, color: '#F59E0B' },
-            ].map((dim, idx) => (
+            {(health?.dimensions || []).map((dim, idx) => (
               <div key={idx} className="flex items-center gap-3">
-                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: dim.color }} />
+                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: dim.color || getScoreColor(dim.score) }} />
                 <span className="text-neutral-600">{dim.name}</span>
-                <span className="font-medium text-neutral-900 ml-auto">{dim.score}</span>
+                <span className="font-medium text-neutral-900 ml-auto">{Math.round(dim.score)}</span>
               </div>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Active Alerts */}
+      {/* Active Alerts - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Active Alerts</h3>
         <div className="space-y-3">
-          {[
-            { severity: 'critical', title: 'Database latency spike', time: '5 min ago' },
-            { severity: 'warning', title: 'API rate limit approaching', time: '15 min ago' },
-            { severity: 'info', title: 'Scheduled maintenance tonight', time: '1 hour ago' },
-          ].map((alert, idx) => (
-            <div key={idx} className={cn(
+          {alerts.length > 0 ? alerts.map((alert) => (
+            <div key={alert.id} className={cn(
               'p-4 rounded-lg border-l-4',
               alert.severity === 'critical' && 'bg-error-light border-error-main',
               alert.severity === 'warning' && 'bg-warning-light border-warning-main',
               alert.severity === 'info' && 'bg-primary-50 border-primary-500'
             )}>
               <div className="flex items-center justify-between">
-                <span className="font-medium text-neutral-900">{alert.title}</span>
-                <span className="text-sm text-neutral-500">{alert.time}</span>
+                <div>
+                  <span className="font-medium text-neutral-900">{alert.title}</span>
+                  {alert.description && <p className="text-sm text-neutral-600 mt-1">{alert.description}</p>}
+                </div>
+                <span className="text-sm text-neutral-500">{formatRelativeTime(alert.createdAt)}</span>
               </div>
             </div>
-          ))}
+          )) : (
+            <p className="text-neutral-500 text-center py-4">No active alerts - all systems healthy</p>
+          )}
         </div>
       </div>
     </div>
@@ -491,7 +745,99 @@ export const HealthPage: React.FC = () => {
 // THE GUARD - Security Posture
 // =============================================================================
 
+interface SecurityPosture {
+  securityScore: number;
+  openVulnerabilities: number;
+  complianceScore: number;
+  daysSinceIncident: number;
+  frameworks: Array<{
+    id: string;
+    name: string;
+    status: 'compliant' | 'in_progress' | 'non_compliant';
+    implementedControls: number;
+    totalControls: number;
+  }>;
+}
+
+interface SecurityThreat {
+  id: string;
+  type: string;
+  severity: 'critical' | 'high' | 'medium' | 'low';
+  source: string;
+  detectedAt: string;
+  status: string;
+}
+
 export const GuardPage: React.FC = () => {
+  const [posture, setPosture] = useState<SecurityPosture | null>(null);
+  const [threats, setThreats] = useState<SecurityThreat[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const loadSecurityData = async () => {
+      try {
+        setIsLoading(true);
+        setError(null);
+        
+        // Fetch security posture and threats from backend
+        const [postureRes, threatsRes] = await Promise.all([
+          fetch('/api/v1/pillars/guard/posture?organizationId=demo'),
+          fetch('/api/v1/pillars/guard/threats?organizationId=demo'),
+        ]);
+        
+        const postureData = await postureRes.json();
+        const threatsData = await threatsRes.json();
+        
+        if (postureData.success && postureData.data) {
+          setPosture(postureData.data);
+        }
+        
+        if (threatsData.success && threatsData.data) {
+          setThreats(threatsData.data);
+        }
+      } catch (err) {
+        console.error('Failed to load security data:', err);
+        setError('Failed to load security data');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    loadSecurityData();
+  }, []);
+
+  // Format relative time
+  const formatRelativeTime = (dateStr: string) => {
+    const date = new Date(dateStr);
+    const now = new Date();
+    const diffMs = now.getTime() - date.getTime();
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMs / 3600000);
+    const diffDays = Math.floor(diffMs / 86400000);
+    
+    if (diffMins < 60) return `${diffMins} minutes ago`;
+    if (diffHours < 24) return `${diffHours} hours ago`;
+    return `${diffDays} days ago`;
+  };
+
+  if (isLoading) {
+    return (
+      <div className="p-6">
+        <PillarHeader
+          icon="🛡️"
+          name="The Guard"
+          tagline="Proactive security posture and compliance monitoring"
+          color="#F59E0B"
+        />
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-amber-500"></div>
+          <span className="ml-3 text-neutral-500">Loading security data...</span>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="p-6">
       <PillarHeader
@@ -501,53 +847,71 @@ export const GuardPage: React.FC = () => {
         color="#F59E0B"
       />
 
-      {/* Security Stats */}
+      {error && (
+        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">
+          {error}
+        </div>
+      )}
+
+      {/* Security Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Security Score" value="94" unit="/100" />
-        <MetricCard label="Open Vulnerabilities" value="3" />
-        <MetricCard label="Compliance Status" value="98" unit="%" />
-        <MetricCard label="Days Since Incident" value="127" />
+        <MetricCard 
+          label="Security Score" 
+          value={Math.round(posture?.securityScore ?? 0)} 
+          unit="/100" 
+        />
+        <MetricCard 
+          label="Open Vulnerabilities" 
+          value={posture?.openVulnerabilities ?? 0} 
+        />
+        <MetricCard 
+          label="Compliance Status" 
+          value={Math.round(posture?.complianceScore ?? 0)} 
+          unit="%" 
+        />
+        <MetricCard 
+          label="Days Since Incident" 
+          value={posture?.daysSinceIncident ?? 0} 
+        />
       </div>
 
-      {/* Compliance Frameworks */}
+      {/* Compliance Frameworks - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Compliance Status</h3>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          {[
-            { name: 'SOC 2', status: 'compliant', controls: '89/89' },
-            { name: 'GDPR', status: 'compliant', controls: '45/45' },
-            { name: 'HIPAA', status: 'in_progress', controls: '38/42' },
-            { name: 'ISO 27001', status: 'compliant', controls: '114/114' },
-          ].map((fw, idx) => (
+          {(posture?.frameworks || []).map((fw, idx) => (
             <div key={idx} className="p-4 bg-neutral-50 rounded-lg">
               <div className="flex items-center justify-between mb-2">
                 <span className="font-semibold text-neutral-900">{fw.name}</span>
                 <span className={cn(
                   'text-xs px-2 py-1 rounded-full',
-                  fw.status === 'compliant' ? 'bg-success-light text-success-dark' : 'bg-warning-light text-warning-dark'
+                  fw.status === 'compliant' ? 'bg-success-light text-success-dark' : 
+                  fw.status === 'in_progress' ? 'bg-warning-light text-warning-dark' :
+                  'bg-error-light text-error-dark'
                 )}>
-                  {fw.status === 'compliant' ? 'Compliant' : 'In Progress'}
+                  {fw.status === 'compliant' ? 'Compliant' : 
+                   fw.status === 'in_progress' ? 'In Progress' : 'Non-Compliant'}
                 </span>
               </div>
-              <p className="text-sm text-neutral-500">{fw.controls} controls</p>
+              <p className="text-sm text-neutral-500">{fw.implementedControls}/{fw.totalControls} controls</p>
             </div>
           ))}
+          {(!posture?.frameworks || posture.frameworks.length === 0) && (
+            <p className="col-span-4 text-neutral-500 text-center py-4">No compliance frameworks configured</p>
+          )}
         </div>
       </div>
 
-      {/* Threats */}
+      {/* Threats - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Threat Detection</h3>
         <div className="space-y-3">
-          {[
-            { type: 'Anomalous Login', severity: 'medium', source: 'Identity', time: '2 hours ago' },
-            { type: 'Unusual Data Access', severity: 'low', source: 'Data Layer', time: '4 hours ago' },
-            { type: 'Config Change', severity: 'low', source: 'Infrastructure', time: '1 day ago' },
-          ].map((threat, idx) => (
-            <div key={idx} className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg">
+          {threats.length > 0 ? threats.map((threat) => (
+            <div key={threat.id} className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg">
               <div className="flex items-center gap-3">
                 <span className={cn(
                   'w-2 h-2 rounded-full',
+                  threat.severity === 'critical' && 'bg-error-main',
                   threat.severity === 'high' && 'bg-error-main',
                   threat.severity === 'medium' && 'bg-warning-main',
                   threat.severity === 'low' && 'bg-neutral-400'
@@ -557,9 +921,21 @@ export const GuardPage: React.FC = () => {
                   <p className="text-sm text-neutral-500">{threat.source}</p>
                 </div>
               </div>
-              <span className="text-sm text-neutral-500">{threat.time}</span>
+              <div className="text-right">
+                <span className={cn(
+                  'text-xs px-2 py-1 rounded-full',
+                  threat.status === 'resolved' ? 'bg-success-light text-success-dark' :
+                  threat.status === 'investigating' ? 'bg-warning-light text-warning-dark' :
+                  'bg-neutral-100 text-neutral-600'
+                )}>
+                  {threat.status}
+                </span>
+                <p className="text-xs text-neutral-500 mt-1">{formatRelativeTime(threat.detectedAt)}</p>
+              </div>
             </div>
-          ))}
+          )) : (
+            <p className="text-neutral-500 text-center py-4">No active threats detected</p>
+          )}
         </div>
       </div>
     </div>
@@ -570,71 +946,137 @@ export const GuardPage: React.FC = () => {
 // THE ETHICS - Ethical Guardrails
 // =============================================================================
 
+interface EthicsStats {
+  policyCompliance: number;
+  biasChecks: number;
+  flaggedDecisions: number;
+  humanOverrides: number;
+}
+
+interface EthicsPrinciple {
+  id: string;
+  name: string;
+  description: string;
+  status: 'active' | 'inactive';
+  checksThisWeek: number;
+}
+
+interface EthicsReview {
+  id: string;
+  decisionName: string;
+  result: 'approved' | 'flagged' | 'rejected';
+  reviewedBy: string;
+  reviewedAt: string;
+}
+
 export const EthicsPage: React.FC = () => {
+  const [stats, setStats] = useState<EthicsStats | null>(null);
+  const [principles, setPrinciples] = useState<EthicsPrinciple[]>([]);
+  const [reviews, setReviews] = useState<EthicsReview[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadEthicsData = async () => {
+      try {
+        setIsLoading(true);
+        const [statsRes, principlesRes, reviewsRes] = await Promise.all([
+          fetch('/api/v1/pillars/ethics/stats?organizationId=demo'),
+          fetch('/api/v1/pillars/ethics/principles?organizationId=demo'),
+          fetch('/api/v1/pillars/ethics/reviews?organizationId=demo'),
+        ]);
+        
+        const statsData = await statsRes.json();
+        const principlesData = await principlesRes.json();
+        const reviewsData = await reviewsRes.json();
+        
+        if (statsData.success) setStats(statsData.data);
+        if (principlesData.success) setPrinciples(principlesData.data || []);
+        if (reviewsData.success) setReviews(reviewsData.data || []);
+      } catch (err) {
+        console.error('Failed to load ethics data:', err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadEthicsData();
+  }, []);
+
+  const formatDate = (dateStr: string) => {
+    return new Date(dateStr).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  };
+
+  if (isLoading) {
+    return (
+      <div className="p-6">
+        <PillarHeader icon="⚖️" name="The Ethics" tagline="Built-in ethical guardrails and governance" color="#EC4899" />
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-pink-500"></div>
+          <span className="ml-3 text-neutral-500">Loading ethics data...</span>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="p-6">
-      <PillarHeader
-        icon="⚖️"
-        name="The Ethics"
-        tagline="Built-in ethical guardrails and governance"
-        color="#EC4899"
-      />
+      <PillarHeader icon="⚖️" name="The Ethics" tagline="Built-in ethical guardrails and governance" color="#EC4899" />
 
-      {/* Ethics Stats */}
+      {/* Ethics Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Policy Compliance" value="99.2" unit="%" />
-        <MetricCard label="Bias Checks" value="1,247" />
-        <MetricCard label="Flagged Decisions" value="12" />
-        <MetricCard label="Human Overrides" value="3" />
+        <MetricCard label="Policy Compliance" value={(stats?.policyCompliance ?? 0).toFixed(1)} unit="%" />
+        <MetricCard label="Bias Checks" value={stats?.biasChecks ?? 0} />
+        <MetricCard label="Flagged Decisions" value={stats?.flaggedDecisions ?? 0} />
+        <MetricCard label="Human Overrides" value={stats?.humanOverrides ?? 0} />
       </div>
 
-      {/* Ethical Principles */}
+      {/* Ethical Principles - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Active Ethical Principles</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {[
-            { name: 'Fairness', desc: 'Ensure equitable treatment across demographics', status: 'active', checks: 342 },
-            { name: 'Transparency', desc: 'Explainable AI decisions with clear reasoning', status: 'active', checks: 567 },
-            { name: 'Privacy', desc: 'Data minimization and purpose limitation', status: 'active', checks: 234 },
-            { name: 'Accountability', desc: 'Clear ownership and audit trails', status: 'active', checks: 104 },
-          ].map((principle, idx) => (
-            <div key={idx} className="p-4 bg-neutral-50 rounded-lg">
+          {principles.length > 0 ? principles.map((principle) => (
+            <div key={principle.id} className="p-4 bg-neutral-50 rounded-lg">
               <div className="flex items-center justify-between mb-2">
                 <h4 className="font-semibold text-neutral-900">{principle.name}</h4>
-                <span className="text-xs px-2 py-1 rounded-full bg-success-light text-success-dark">Active</span>
+                <span className={cn(
+                  'text-xs px-2 py-1 rounded-full',
+                  principle.status === 'active' ? 'bg-success-light text-success-dark' : 'bg-neutral-100 text-neutral-600'
+                )}>
+                  {principle.status}
+                </span>
               </div>
-              <p className="text-sm text-neutral-600 mb-2">{principle.desc}</p>
-              <p className="text-xs text-neutral-500">{principle.checks} checks this week</p>
+              <p className="text-sm text-neutral-600 mb-2">{principle.description}</p>
+              <p className="text-xs text-neutral-500">{principle.checksThisWeek} checks this week</p>
             </div>
-          ))}
+          )) : (
+            <p className="col-span-2 text-neutral-500 text-center py-4">No ethical principles configured</p>
+          )}
         </div>
       </div>
 
-      {/* Recent Reviews */}
+      {/* Recent Reviews - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Recent Ethics Reviews</h3>
         <div className="space-y-3">
-          {[
-            { decision: 'Customer segmentation model', result: 'approved', reviewer: 'Ethics Board', date: 'Nov 25' },
-            { decision: 'Automated pricing algorithm', result: 'flagged', reviewer: 'CendiaRisk', date: 'Nov 24' },
-            { decision: 'Employee performance scoring', result: 'approved', reviewer: 'HR Committee', date: 'Nov 22' },
-          ].map((review, idx) => (
-            <div key={idx} className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg">
+          {reviews.length > 0 ? reviews.map((review) => (
+            <div key={review.id} className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg">
               <div>
-                <p className="font-medium text-neutral-900">{review.decision}</p>
-                <p className="text-sm text-neutral-500">Reviewed by {review.reviewer}</p>
+                <p className="font-medium text-neutral-900">{review.decisionName}</p>
+                <p className="text-sm text-neutral-500">Reviewed by {review.reviewedBy}</p>
               </div>
               <div className="text-right">
                 <span className={cn(
                   'text-xs px-2 py-1 rounded-full',
-                  review.result === 'approved' ? 'bg-success-light text-success-dark' : 'bg-warning-light text-warning-dark'
+                  review.result === 'approved' ? 'bg-success-light text-success-dark' : 
+                  review.result === 'flagged' ? 'bg-warning-light text-warning-dark' : 'bg-error-light text-error-dark'
                 )}>
                   {review.result}
                 </span>
-                <p className="text-xs text-neutral-500 mt-1">{review.date}</p>
+                <p className="text-xs text-neutral-500 mt-1">{formatDate(review.reviewedAt)}</p>
               </div>
             </div>
-          ))}
+          )) : (
+            <p className="text-neutral-500 text-center py-4">No recent reviews</p>
+          )}
         </div>
       </div>
     </div>
@@ -645,47 +1087,96 @@ export const EthicsPage: React.FC = () => {
 // THE AGENTS - AI Advisors
 // =============================================================================
 
+interface AgentStats {
+  activeAgents: number;
+  queriesToday: number;
+  avgResponseTime: number;
+  satisfaction: number;
+}
+
+interface Agent {
+  id: string;
+  code: string;
+  name: string;
+  role: string;
+  description: string;
+  icon: string;
+  status: 'online' | 'busy' | 'offline';
+  queriesToday: number;
+}
+
 export const AgentsPage: React.FC = () => {
   const navigate = useNavigate();
+  const [stats, setStats] = useState<AgentStats | null>(null);
+  const [agents, setAgents] = useState<Agent[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const agents = [
-    { code: 'chief', name: 'CendiaChief', role: 'Chief of Staff', icon: '👔', status: 'online', queries: 234 },
-    { code: 'cfo', name: 'CendiaCFO', role: 'Financial Intelligence', icon: '💰', status: 'online', queries: 189 },
-    { code: 'coo', name: 'CendiaCOO', role: 'Operations', icon: '⚙️', status: 'online', queries: 156 },
-    { code: 'ciso', name: 'CendiaCISO', role: 'Security', icon: '🔒', status: 'online', queries: 98 },
-    { code: 'cmo', name: 'CendiaCMO', role: 'Marketing', icon: '📢', status: 'busy', queries: 67 },
-    { code: 'cro', name: 'CendiaCRO', role: 'Revenue', icon: '📈', status: 'online', queries: 145 },
-    { code: 'cdo', name: 'CendiaCDO', role: 'Data Governance', icon: '📊', status: 'online', queries: 112 },
-    { code: 'risk', name: 'CendiaRisk', role: 'Risk Management', icon: '⚠️', status: 'online', queries: 78 },
-  ];
+  useEffect(() => {
+    const loadAgentsData = async () => {
+      try {
+        setIsLoading(true);
+        const [statsRes, agentsRes] = await Promise.all([
+          fetch('/api/v1/pillars/agents/stats?organizationId=demo'),
+          fetch('/api/v1/pillars/agents?organizationId=demo'),
+        ]);
+        
+        const statsData = await statsRes.json();
+        const agentsData = await agentsRes.json();
+        
+        if (statsData.success) setStats(statsData.data);
+        if (agentsData.success) setAgents(agentsData.data || []);
+      } catch (err) {
+        console.error('Failed to load agents data:', err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadAgentsData();
+  }, []);
+
+  const getAgentIcon = (code: string): string => {
+    const icons: Record<string, string> = {
+      'chief': '👔', 'cfo': '💰', 'coo': '⚙️', 'ciso': '🔒', 'cto': '💻',
+      'cmo': '📢', 'cro': '📈', 'cdo': '📊', 'risk': '⚠️', 'clo': '⚖️',
+      'chro': '👥', 'cso': '🌍', 'cco': '📰', 'caio': '🤖',
+    };
+    return icons[code.toLowerCase()] || '🤖';
+  };
+
+  if (isLoading) {
+    return (
+      <div className="p-6">
+        <PillarHeader icon="🤖" name="The Agents" tagline="AI advisors for every domain - The Pantheon" color="#6366F1" />
+        <div className="flex items-center justify-center h-64">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-500"></div>
+          <span className="ml-3 text-neutral-500">Loading agents data...</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="p-6">
-      <PillarHeader
-        icon="🤖"
-        name="The Agents"
-        tagline="AI advisors for every domain - The Pantheon"
-        color="#6366F1"
-      />
+      <PillarHeader icon="🤖" name="The Agents" tagline="AI advisors for every domain - The Pantheon" color="#6366F1" />
 
-      {/* Stats */}
+      {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Active Agents" value="8" />
-        <MetricCard label="Queries Today" value="1,079" />
-        <MetricCard label="Avg Response" value="2.3" unit="s" />
-        <MetricCard label="Satisfaction" value="4.8" unit="/5" />
+        <MetricCard label="Active Agents" value={stats?.activeAgents ?? agents.filter(a => a.status === 'online').length} />
+        <MetricCard label="Queries Today" value={stats?.queriesToday ?? agents.reduce((sum, a) => sum + a.queriesToday, 0)} />
+        <MetricCard label="Avg Response" value={(stats?.avgResponseTime ?? 0).toFixed(1)} unit="s" />
+        <MetricCard label="Satisfaction" value={(stats?.satisfaction ?? 0).toFixed(1)} unit="/5" />
       </div>
 
-      {/* Agent Grid */}
+      {/* Agent Grid - REAL DATA */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-        {agents.map(agent => (
+        {agents.length > 0 ? agents.map(agent => (
           <div
-            key={agent.code}
+            key={agent.id}
             onClick={() => navigate(`/cortex/council?agent=${agent.code}`)}
             className="p-4 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all cursor-pointer"
           >
             <div className="flex items-center justify-between mb-3">
-              <span className="text-3xl">{agent.icon}</span>
+              <span className="text-3xl">{agent.icon || getAgentIcon(agent.code)}</span>
               <span className={cn(
                 'w-2 h-2 rounded-full',
                 agent.status === 'online' && 'bg-success-main',
@@ -695,28 +1186,24 @@ export const AgentsPage: React.FC = () => {
             </div>
             <h4 className="font-semibold text-neutral-900">{agent.name}</h4>
             <p className="text-sm text-neutral-500">{agent.role}</p>
-            <p className="text-xs text-neutral-400 mt-2">{agent.queries} queries today</p>
+            <p className="text-xs text-neutral-400 mt-2">{agent.queriesToday} queries today</p>
           </div>
-        ))}
+        )) : (
+          <p className="col-span-4 text-neutral-500 text-center py-8">No agents configured</p>
+        )}
       </div>
 
       {/* Quick Actions */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Quick Actions</h3>
         <div className="flex flex-wrap gap-3">
-          <button
-            onClick={() => navigate('/cortex/council')}
-            className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
-          >
+          <button onClick={() => navigate('/cortex/council')} className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors">
             Ask The Council
           </button>
-          <button
-            onClick={() => navigate('/cortex/council?mode=deliberation')}
-            className="px-4 py-2 bg-neutral-100 text-neutral-700 rounded-lg hover:bg-neutral-200 transition-colors"
-          >
+          <button onClick={() => navigate('/cortex/council?mode=deliberation')} className="px-4 py-2 bg-neutral-100 text-neutral-700 rounded-lg hover:bg-neutral-200 transition-colors">
             Start Deliberation
           </button>
-          <button className="px-4 py-2 bg-neutral-100 text-neutral-700 rounded-lg hover:bg-neutral-200 transition-colors">
+          <button onClick={() => navigate('/cortex/council?tab=history')} className="px-4 py-2 bg-neutral-100 text-neutral-700 rounded-lg hover:bg-neutral-200 transition-colors">
             View Decision History
           </button>
         </div>

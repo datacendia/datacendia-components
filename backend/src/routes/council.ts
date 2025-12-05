@@ -412,7 +412,7 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
     // Create query record
     const councilQuery = await prisma.councilQuery.create({
       data: {
-        organizationId: orgId,
+        organization_id: orgId,
         userId,
         query,
         context: (context || {}) as Prisma.InputJsonValue,
@@ -601,7 +601,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
     // Create query record
     const councilQuery = await prisma.councilQuery.create({
       data: {
-        organizationId: orgId,
+        organization_id: orgId,
         userId,
         query,
         context: JSON.parse(JSON.stringify({
@@ -785,7 +785,7 @@ router.post('/deliberations', async (req: Request, res: Response, next: NextFunc
     // Create deliberation record
     const deliberation = await prisma.deliberation.create({
       data: {
-        organizationId: orgId,
+        organization_id: orgId,
         question,
         config: config || {},
         status: 'IN_PROGRESS',
@@ -825,7 +825,7 @@ router.get('/deliberations/:id', async (req: Request, res: Response, next: NextF
       include: {
         messages: {
           include: { agent: true },
-          orderBy: { createdAt: 'asc' },
+          orderBy: { created_at: 'asc' },
         },
       },
     });
@@ -856,7 +856,7 @@ router.get('/deliberations/:id/transcript', async (req: Request, res: Response, 
     const messages = await prisma.deliberationMessage.findMany({
       where: { deliberationId: req.params.id },
       include: { agent: true },
-      orderBy: { createdAt: 'asc' },
+      orderBy: { created_at: 'asc' },
     });
 
     // Group by phase
@@ -900,7 +900,7 @@ router.get('/decisions/recent', async (req: Request, res: Response, next: NextFu
   try {
     const queries = await prisma.councilQuery.findMany({
       where: {
-        organizationId: req.organizationId!,
+        organization_id: req.organizationId!,
         status: 'COMPLETED',
       },
       orderBy: { completedAt: 'desc' },
@@ -935,10 +935,10 @@ async function getRelevantContext(query: string, orgId: string) {
     });
 
     // Get recent alerts
-    const recentAlerts = await prisma.alert.findMany({
-      where: { organizationId: orgId, status: 'ACTIVE' },
+    const recentAlerts = await prisma.alerts.findMany({
+      where: { organization_id: orgId, status: 'ACTIVE' },
       take: 10,
-      orderBy: { createdAt: 'desc' },
+      orderBy: { created_at: 'desc' },
     });
 
     return {

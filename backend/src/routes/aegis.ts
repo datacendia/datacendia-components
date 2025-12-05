@@ -1,0 +1,169 @@
+/**
+ * CendiaAegis™ API Routes
+ * Strategic Defense Intelligence
+ */
+
+import { Router, Request, Response } from 'express';
+import { cendiaAegisService } from '../services/CendiaAegisService.js';
+import { devAuth } from '../middleware/auth.js';
+
+const router = Router();
+router.use(devAuth);
+
+// ===========================================================================
+// SIGNALS
+// ===========================================================================
+
+router.post('/signals', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const signal = await cendiaAegisService.ingestSignal(orgId, req.body);
+    res.json({ success: true, data: signal });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/signals', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { signalType, severity, limit } = req.query;
+    const signals = await cendiaAegisService.getRecentSignals(orgId, {
+      signalType: signalType as any,
+      severity: severity as any,
+      limit: limit ? parseInt(limit as string) : undefined,
+    });
+    res.json({ success: true, data: signals });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// THREATS
+// ===========================================================================
+
+router.post('/threats', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const threat = await cendiaAegisService.createThreat(orgId, req.body);
+    res.json({ success: true, data: threat });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/threats', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const threats = await cendiaAegisService.getActiveThreats(orgId);
+    res.json({ success: true, data: threats });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.patch('/threats/:id/status', async (req: Request, res: Response) => {
+  try {
+    const { status } = req.body;
+    const threat = await cendiaAegisService.updateThreatStatus(req.params.id, status);
+    res.json({ success: true, data: threat });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// SCENARIOS
+// ===========================================================================
+
+router.post('/threats/:id/scenarios', async (req: Request, res: Response) => {
+  try {
+    const scenarios = await cendiaAegisService.generateScenarios(req.params.id);
+    res.json({ success: true, data: scenarios });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/threats/:id/scenarios', async (req: Request, res: Response) => {
+  try {
+    const scenarios = await cendiaAegisService.getThreatScenarios(req.params.id);
+    res.json({ success: true, data: scenarios });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// COUNTERMEASURES
+// ===========================================================================
+
+router.post('/threats/:id/countermeasures', async (req: Request, res: Response) => {
+  try {
+    const countermeasures = await cendiaAegisService.generateCountermeasures(req.params.id);
+    res.json({ success: true, data: countermeasures });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/threats/:id/countermeasures', async (req: Request, res: Response) => {
+  try {
+    const countermeasures = await cendiaAegisService.getThreatCountermeasures(req.params.id);
+    res.json({ success: true, data: countermeasures });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.post('/countermeasures/:id/implement', async (req: Request, res: Response) => {
+  try {
+    const cm = await cendiaAegisService.implementCountermeasure(req.params.id);
+    res.json({ success: true, data: cm });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// BRIEFINGS
+// ===========================================================================
+
+router.post('/briefings', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { threatId, briefingType } = req.body;
+    const briefing = await cendiaAegisService.generateBriefing(orgId, threatId, briefingType);
+    res.json({ success: true, data: briefing });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/briefings', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const limit = req.query.limit ? parseInt(req.query.limit as string) : 10;
+    const briefings = await cendiaAegisService.getBriefings(orgId, limit);
+    res.json({ success: true, data: briefings });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// DASHBOARD
+// ===========================================================================
+
+router.get('/dashboard', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const dashboard = await cendiaAegisService.getDashboard(orgId);
+    res.json({ success: true, data: dashboard });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+export default router;

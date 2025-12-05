@@ -148,5 +148,102 @@
     "terms": "Termos de Serviço",
     "copyright": "© {{year}} Datacendia. Todos os direitos reservados.",
     "tagline": "Inteligência Empresarial Soberana"
+  },
+  "tooltips": {
+    "pillars": {
+      "helm": {
+        "title": "O Leme - Centro de Comando Estratégico",
+        "summary": "O sistema de suporte a decisões estratégicas da sua organização. Monitore, analise e conduza com confiança.",
+        "features": ["Dashboards KPI em tempo real com análise de tendências", "Rastreamento e alinhamento de objetivos estratégicos", "Benchmarking de desempenho contra padrões da indústria", "Limiares de alerta com notificações automáticas", "Geração de resumo executivo"],
+        "guidance": "Comece definindo suas métricas-chave. O Leme funciona melhor quando você tem objetivos claros e mensuráveis alinhados com a estratégia da sua organização."
+      },
+      "lineage": {
+        "title": "A Linhagem - Rastreador de Proveniência de Dados",
+        "summary": "Visibilidade completa da jornada dos seus dados. Saiba de onde cada número vem e para onde vai.",
+        "features": ["Mapeamento visual de fluxo de dados", "Rastreabilidade de origem a relatório", "Análise de impacto para mudanças de dados", "Pontuação de qualidade de dados em cada estágio", "Geração automatizada de documentação"],
+        "guidance": "Conecte suas fontes de dados primeiro. A Linhagem descobre automaticamente relacionamentos e constrói seu mapa de dados."
+      },
+      "predict": {
+        "title": "A Previsão - Motor de Previsões com IA",
+        "summary": "Modelos de machine learning que veem além. Preveja tendências antes de se tornarem óbvias.",
+        "features": ["Previsões de séries temporais com intervalos de confiança", "Detecção de anomalias e sistema de alerta antecipado", "Modelagem de cenários hipotéticos", "Análise de importância de características", "Monitoramento de desempenho do modelo"],
+        "guidance": "Previsões de qualidade requerem dados de qualidade. Comece com dados históricos limpos e deixe A Previsão aprender seus padrões."
+      },
+      "guard": {
+        "title": "O Guardião - Escudo de Segurança e Conformidade",
+        "summary": "Proteção automatizada para seus dados. Aplique políticas, rastreie acessos e mantenha a conformidade.",
+        "features": ["Motor de aplicação de políticas", "Registro de auditoria de acesso", "Detecção de ameaças e alertas", "Mapeamento de frameworks de conformidade", "Pontuação de postura de segurança"],
+        "guidance": "Defina suas políticas de segurança e requisitos de conformidade. O Guardião monitora continuamente e alerta sobre violações."
+      },
+      "ethics": {
+        "title": "A Ética - Centro de Governança de IA",
+        "summary": "IA responsável integrada. Garanta justiça, transparência e responsabilidade em cada decisão.",
+        "features": ["Detecção e monitoramento de viés", "Ferramentas de explicabilidade de modelo", "Fluxos de revisão ética", "Rastreamento de métricas de justiça", "Trilhas de auditoria de decisões"],
+        "guidance": "Estabeleça seus princípios éticos primeiro. A Ética ajuda você a operacionalizá-los em todos os sistemas de IA."
+      }
+    },
+    "spaces": {
+      "graph": {
+        "title": "O Grafo - Navegador de Conhecimento",
+        "summary": "Navegue pelo universo de conhecimento da sua organização. Veja conexões que outros perdem.",
+        "guidance": "Explore clicando em qualquer nó. O Grafo revela conexões e permite aprofundar nos detalhes."
+      },
+      "council": {
+        "title": "O Conselho - Câmara de Colaboração de IA",
+        "summary": "Onde conselheiros de IA deliberam juntos. Problemas complexos precisam de múltiplas perspectivas.",
+        "guidance": "Apresente sua pergunta ao Conselho. Observe como diferentes perspectivas emergem e se sintetizam em recomendações."
+      },
+      "pulse": {
+        "title": "O Pulso - Centro de Operações em Tempo Real",
+        "summary": "Visão ao vivo do batimento cardíaco da sua organização. Cada métrica, cada momento.",
+        "guidance": "Configure suas métricas-chave para aparecer no Pulso. Defina limiares de alerta para ser notificado de mudanças."
+      }
+    }
+  },
+  "narratives": {
+    "welcome": {
+      "title": "Bem-vindo ao Datacendia",
+      "subtitle": "Sua jornada para a inteligência soberana começa aqui",
+      "steps": [
+        {"title": "Conheça Seu Centro de Comando", "description": "O Cortex é sua visão unificada da inteligência organizacional.", "action": "Explorar o Cortex"},
+        {"title": "Entenda os 8 Pilares", "description": "Cada pilar fornece capacidades essenciais - de métricas estratégicas à governança de IA.", "action": "Ver Visão dos Pilares"},
+        {"title": "Conecte Sua Primeira Fonte de Dados", "description": "Inteligência requer dados. Conecte um banco de dados, API ou fonte de arquivos.", "action": "Adicionar Fonte de Dados"},
+        {"title": "Defina Suas Métricas-Chave", "description": "O que mais importa para sua organização? Defina os KPIs para seu dashboard executivo.", "action": "Criar Primeira Métrica"}
+      ]
+    },
+    "quickStart": {
+      "title": "Início Rápido de 5 Minutos",
+      "subtitle": "Oriente-se e veja valor imediatamente",
+      "duration": "5 minutos",
+      "steps": [
+        {"title": "Ver Seu Dashboard", "description": "Seu centro de comando personalizado mostra o que mais importa.", "action": "Abrir Dashboard"},
+        {"title": "Verificar Saúde da Organização", "description": "Um número diz como está sua organização. Verde é bom.", "action": "Ver Pontuação de Saúde"},
+        {"title": "Fazer uma Pergunta", "description": "Digite qualquer pergunta sobre sua organização. Nossos agentes de IA encontrarão a resposta.", "action": "Abrir Assistente de IA"}
+      ]
+    },
+    "crisisResponse": {
+      "title": "Protocolo de Resposta a Crises",
+      "subtitle": "Quando algo dá errado, aja rápido com informação completa",
+      "persona": "Comandante de Incidente",
+      "duration": "Tempo real"
+    }
+  },
+  "accessibility": {
+    "skipToMain": "Pular para o conteúdo principal",
+    "skipToNav": "Pular para navegação",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "loading": "Carregando conteúdo",
+    "required": "Campo obrigatório",
+    "optional": "Opcional"
+  },
+  "time": {
+    "justNow": "Agora mesmo",
+    "minutesAgo": "há {{count}} minuto",
+    "minutesAgo_plural": "há {{count}} minutos",
+    "hoursAgo": "há {{count}} hora",
+    "hoursAgo_plural": "há {{count}} horas",
+    "daysAgo": "há {{count}} dia",
+    "daysAgo_plural": "há {{count}} dias"
   }
 }

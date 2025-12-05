@@ -75,6 +75,19 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'label.user': 'User',
   'label.lead': 'Lead',
   
+  // Common
+  'common.completed': 'completed',
+  'common.queried': 'queried',
+  'common.approved': 'approved',
+  'common.rejected': 'rejected',
+  'common.pending': 'pending',
+  'common.select': 'Select',
+  'common.search': 'Search',
+  'common.filter': 'Filter',
+  'common.sort': 'Sort',
+  'common.all': 'All',
+  'common.none': 'None',
+  
   // Sidebar Navigation
   'sidebar.dashboard': 'Dashboard',
   'sidebar.the_graph': 'The Graph',
@@ -248,14 +261,18 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   // Dashboard
   'dashboard.title': 'Dashboard',
   'dashboard.welcome': 'Welcome back',
+  'dashboard.subtitle': 'Here\'s what\'s happening at {{company}}',
   'dashboard.health_score': 'Health Score',
   'dashboard.alerts': 'Alerts',
   'dashboard.critical_alerts': 'Critical Alerts',
   'dashboard.pending_approvals': 'Pending Approvals',
   'dashboard.key_metrics': 'Key Metrics',
+  'dashboard.keyMetrics': 'Key Metrics',
   'dashboard.recent_activity': 'Recent Activity',
+  'dashboard.recentActivity': 'Recent Activity',
   'dashboard.quick_actions': 'Quick Actions',
   'dashboard.ask_council': 'Ask Council',
+  'dashboard.askTheCouncil': 'Ask the Council',
   'dashboard.view_health': 'View Health',
   'dashboard.explore_data': 'Explore Data',
   'dashboard.run_forecast': 'Run Forecast',
@@ -266,6 +283,36 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'dashboard.operations': 'Operations',
   'dashboard.security': 'Security',
   'dashboard.people': 'People',
+  'dashboard.fromLastWeek': 'from last week',
+  'dashboard.critical': 'Critical',
+  'dashboard.warning': 'Warning',
+  'dashboard.workflows': 'Workflows',
+  'dashboard.access': 'Access',
+  'dashboard.budget': 'Budget',
+  'dashboard.by': 'by',
+  'dashboard.approve': 'Approve',
+  'dashboard.viewFullLog': 'View Full Log',
+  'dashboard.recentQueries': 'Recent Queries',
+  // Dashboard Greetings
+  'dashboard.greetings.morning': 'Good morning',
+  'dashboard.greetings.afternoon': 'Good afternoon',
+  'dashboard.greetings.evening': 'Good evening',
+  // Dashboard Sample Alerts
+  'dashboard.sampleAlerts.databaseCpu': 'Database CPU usage exceeds 90%',
+  'dashboard.sampleAlerts.paymentLatency': 'Payment processing latency spike',
+  'dashboard.sampleAlerts.diskUsage': 'Storage approaching capacity',
+  // Dashboard Sample Approvals
+  'dashboard.sampleApprovals.monthlyClose': 'Q4 Financial Close Workflow',
+  'dashboard.sampleApprovals.prodDbAccess': 'Production Database Access',
+  // Dashboard Sample Metrics
+  'dashboard.sampleMetrics.revenue': 'Revenue',
+  'dashboard.sampleMetrics.pipeline': 'Pipeline',
+  'dashboard.sampleMetrics.burnRate': 'Burn Rate',
+  'dashboard.sampleMetrics.nps': 'NPS Score',
+  // Dashboard Sample Queries
+  'dashboard.sampleQueries.churnIncrease': 'Why did churn increase last month?',
+  'dashboard.sampleQueries.forecastRevenue': 'Forecast Q4 revenue scenarios',
+  'dashboard.sampleQueries.biggestRisk': 'What\'s our biggest operational risk?',
   
   // Graph
   'graph.title': 'Knowledge Graph',

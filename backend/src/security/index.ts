@@ -62,6 +62,10 @@ const securityConfig: SecurityConfig = {
       'http://localhost:5173',
       'http://localhost:5174',
       'http://localhost:3000',
+      'http://127.0.0.1:5173',
+      'http://127.0.0.1:5174',
+      'http://127.0.0.1:3000',
+      'http://127.0.0.1:54003',  // Windsurf browser preview proxy
       'https://app.datacendia.com',
       'https://datacendia.com',
     ],
@@ -127,6 +131,12 @@ export function applySecurityMiddleware(app: Express): void {
       // Allow requests with no origin (mobile apps, curl, etc.)
       if (!origin) return callback(null, true);
       
+      // In development, allow all localhost and 127.0.0.1 origins (any port)
+      const isDev = process.env.NODE_ENV !== 'production';
+      if (isDev && (origin.startsWith('http://localhost:') || origin.startsWith('http://127.0.0.1:'))) {
+        return callback(null, true);
+      }
+      
       if (securityConfig.cors.allowedOrigins.includes(origin)) {
         callback(null, true);
       } else {
@@ -134,6 +144,7 @@ export function applySecurityMiddleware(app: Express): void {
       }
     },
     methods: securityConfig.cors.allowedMethods,
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin', 'X-Request-Id'],
     credentials: securityConfig.cors.allowCredentials,
     maxAge: 86400, // 24 hours
     exposedHeaders: ['X-Request-Id', 'X-RateLimit-Remaining'],

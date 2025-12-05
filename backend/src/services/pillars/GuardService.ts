@@ -1,10 +1,13 @@
 // =============================================================================
 // DATACENDIA PLATFORM - THE GUARD SERVICE
 // Security Posture - Security controls and compliance monitoring
-// Enterprise Platinum Intelligence
+// Enterprise Platinum Intelligence - PostgreSQL Persistent Storage
 // =============================================================================
 
+import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -71,211 +74,277 @@ export interface AuditLogEntry {
   metadata?: Record<string, unknown>;
 }
 
+// Type mappings
+const threatTypeMap: Record<string, string> = {
+  'Anomalous Login': 'INSIDER_THREAT', 'Unusual Data Access': 'DATA_EXFILTRATION',
+  'Intrusion': 'INTRUSION', 'Malware': 'MALWARE', 'Policy Violation': 'POLICY_VIOLATION'
+};
+const severityMap: Record<ThreatSeverity, string> = { critical: 'CRITICAL', high: 'HIGH', medium: 'MEDIUM', low: 'LOW' };
+const reverseSeverityMap: Record<string, ThreatSeverity> = { CRITICAL: 'critical', HIGH: 'high', MEDIUM: 'medium', LOW: 'low', INFO: 'low' };
+const statusMap: Record<ThreatStatus, string> = { active: 'ACTIVE', investigating: 'INVESTIGATING', mitigated: 'MITIGATED', resolved: 'RESOLVED' };
+const reverseStatusMap: Record<string, ThreatStatus> = { ACTIVE: 'active', INVESTIGATING: 'investigating', CONTAINED: 'mitigated', MITIGATED: 'mitigated', RESOLVED: 'resolved', FALSE_POSITIVE: 'resolved' };
+
 // =============================================================================
-// THE GUARD SERVICE
+// THE GUARD SERVICE - PRISMA BACKED
 // =============================================================================
 
 export class GuardService extends BaseService {
-  private postureStore: Map<string, SecurityPosture> = new Map();
-  private threatsStore: Map<string, ThreatEvent> = new Map();
-  private policiesStore: Map<string, SecurityPolicy> = new Map();
-  private auditLogStore: Map<string, AuditLogEntry[]> = new Map();
-
   constructor(config?: Partial<ServiceConfig>) {
     super({
       name: 'guard-service',
-      version: '1.0.0',
-      dependencies: [],
+      version: '2.0.0',
+      dependencies: ['prisma'],
       ...config,
     });
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('The Guard service initializing...');
+    this.logger.info('The Guard service initializing with PostgreSQL...');
   }
 
   async shutdown(): Promise<void> {
     this.logger.info('The Guard service shutting down...');
-    this.postureStore.clear();
-    this.threatsStore.clear();
-    this.policiesStore.clear();
-    this.auditLogStore.clear();
   }
 
   async healthCheck(): Promise<ServiceHealth> {
+    const activeThreats = await prisma.security_threats.count({ where: { status: 'ACTIVE' } });
+    const activePolicies = await prisma.security_policies.count({ where: { enabled: true } });
     return {
       status: 'healthy',
       lastCheck: new Date(),
-      details: { 
-        activeThreats: Array.from(this.threatsStore.values()).filter(t => t.status === 'active').length,
-        activePolicies: Array.from(this.policiesStore.values()).filter(p => p.enabled).length,
-      },
+      details: { activeThreats, activePolicies },
     };
   }
 
   // ===========================================================================
-  // SECURITY POSTURE
+  // SECURITY POSTURE - PRISMA BACKED
   // ===========================================================================
 
   async getSecurityPosture(organizationId: string): Promise<SecurityPosture> {
-    let posture = this.postureStore.get(organizationId);
+    const threats = await this.getThreats(organizationId, false);
+    const policies = await this.getPolicies(organizationId);
     
-    if (!posture) {
-      posture = await this.assessSecurityPosture(organizationId);
-      this.postureStore.set(organizationId, posture);
-    }
-    
-    return posture;
-  }
+    // Calculate scores from real data
+    const enabledPolicies = policies.filter(p => p.enabled).length;
+    const complianceScore = policies.length > 0 ? Math.round((enabledPolicies / policies.length) * 100) : 0;
+    const securityScore = Math.max(0, 100 - (threats.length * 10));
 
-  private async assessSecurityPosture(organizationId: string): Promise<SecurityPosture> {
-    const frameworks: ComplianceFramework[] = [
-      { id: 'soc2', name: 'SOC 2 Type II', status: 'compliant', totalControls: 89, implementedControls: 89, lastAudit: new Date(Date.now() - 45 * 24 * 60 * 60 * 1000) },
-      { id: 'gdpr', name: 'GDPR', status: 'compliant', totalControls: 45, implementedControls: 45, lastAudit: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000) },
-      { id: 'hipaa', name: 'HIPAA', status: 'in_progress', totalControls: 42, implementedControls: 38 },
-      { id: 'iso27001', name: 'ISO 27001', status: 'compliant', totalControls: 114, implementedControls: 114, lastAudit: new Date(Date.now() - 100 * 24 * 60 * 60 * 1000) },
-      { id: 'pci', name: 'PCI-DSS', status: 'compliant', totalControls: 78, implementedControls: 78, lastAudit: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000) },
-    ];
-
-    const threats = Array.from(this.threatsStore.values())
-      .filter(t => t.organizationId === organizationId && t.status !== 'resolved');
-
-    const totalControls = frameworks.reduce((sum, f) => sum + f.totalControls, 0);
-    const implementedControls = frameworks.reduce((sum, f) => sum + f.implementedControls, 0);
-    const complianceScore = Math.round((implementedControls / totalControls) * 100);
+    // Get last resolved threat for days since incident
+    const lastIncident = await prisma.security_threats.findFirst({
+      where: { organization_id: organizationId, status: 'RESOLVED' },
+      orderBy: { resolved_at: 'desc' },
+    });
+    const daysSinceIncident = lastIncident?.resolvedAt 
+      ? Math.floor((Date.now() - lastIncident.resolvedAt.getTime()) / (24 * 60 * 60 * 1000))
+      : 365;
 
     return {
       organizationId,
-      securityScore: 85 + Math.random() * 12,
-      openVulnerabilities: Math.floor(Math.random() * 5),
+      securityScore,
+      openVulnerabilities: threats.filter(t => t.severity === 'critical' || t.severity === 'high').length,
       complianceScore,
-      daysSinceIncident: Math.floor(100 + Math.random() * 50),
-      frameworks,
+      daysSinceIncident,
+      frameworks: [], // Frameworks would come from separate compliance service
       threats,
       lastAssessment: new Date(),
     };
   }
 
   // ===========================================================================
-  // THREAT MANAGEMENT
+  // THREAT MANAGEMENT - PRISMA BACKED
   // ===========================================================================
 
   async reportThreat(threat: Omit<ThreatEvent, 'id' | 'detectedAt'>): Promise<ThreatEvent> {
-    const newThreat: ThreatEvent = {
-      ...threat,
-      id: `threat-${Date.now()}`,
-      detectedAt: new Date(),
-    };
-    this.threatsStore.set(newThreat.id, newThreat);
-    return newThreat;
+    const created = await prisma.security_threats.create({
+      data: {
+        organization_id: threat.organizationId,
+        threat_type: (threatTypeMap[threat.type] || 'POLICY_VIOLATION') as any,
+        severity: severityMap[threat.severity] as any,
+        status: statusMap[threat.status] as any,
+        title: threat.type,
+        description: threat.description,
+        source: threat.source,
+        indicators: threat.affectedAssets || [],
+        mitigations: threat.mitigationSteps || [],
+      },
+    });
+
+    return this.mapThreat(created);
   }
 
   async getThreats(organizationId: string, includeResolved: boolean = false): Promise<ThreatEvent[]> {
-    return Array.from(this.threatsStore.values())
-      .filter(t => t.organizationId === organizationId && (includeResolved || t.status !== 'resolved'))
-      .sort((a, b) => b.detectedAt.getTime() - a.detectedAt.getTime());
+    const where: any = { organization_id: organizationId };
+    if (!includeResolved) {
+      where.status = { notIn: ['RESOLVED', 'FALSE_POSITIVE'] };
+    }
+
+    const threats = await prisma.security_threats.findMany({
+      where,
+      orderBy: { detected_at: 'desc' },
+    });
+
+    return threats.map((t: any) => this.mapThreat(t));
   }
 
   async updateThreatStatus(threatId: string, status: ThreatStatus): Promise<ThreatEvent | null> {
-    const threat = this.threatsStore.get(threatId);
-    if (!threat) return null;
-    
-    threat.status = status;
-    if (status === 'resolved') threat.resolvedAt = new Date();
-    this.threatsStore.set(threatId, threat);
-    
-    // Refresh posture
-    this.postureStore.delete(threat.organizationId);
-    return threat;
+    const data: any = { status: statusMap[status] as any };
+    if (status === 'resolved') data.resolved_at = new Date();
+
+    const updated = await prisma.security_threats.update({
+      where: { id: threatId },
+      data,
+    });
+
+    return this.mapThreat(updated);
   }
 
   // ===========================================================================
-  // POLICIES
+  // POLICIES - PRISMA BACKED
   // ===========================================================================
 
   async createPolicy(policy: Omit<SecurityPolicy, 'id' | 'lastUpdated' | 'violations'>): Promise<SecurityPolicy> {
-    const newPolicy: SecurityPolicy = {
-      ...policy,
-      id: `policy-${Date.now()}`,
-      lastUpdated: new Date(),
-      violations: 0,
-    };
-    this.policiesStore.set(newPolicy.id, newPolicy);
-    return newPolicy;
+    const created = await prisma.security_policies.create({
+      data: {
+        organization_id: policy.organizationId,
+        name: policy.name,
+        policy_type: 'OPERATIONAL' as any,
+        description: policy.category,
+        enabled: policy.enabled,
+      },
+    });
+
+    return this.mapPolicy(created);
   }
 
   async getPolicies(organizationId: string): Promise<SecurityPolicy[]> {
-    return Array.from(this.policiesStore.values())
-      .filter(p => p.organizationId === organizationId);
+    const policies = await prisma.security_policies.findMany({
+      where: { organization_id: organizationId },
+    });
+
+    return policies.map((p: any) => this.mapPolicy(p));
   }
 
   async togglePolicy(policyId: string, enabled: boolean): Promise<SecurityPolicy | null> {
-    const policy = this.policiesStore.get(policyId);
-    if (!policy) return null;
-    policy.enabled = enabled;
-    policy.lastUpdated = new Date();
-    this.policiesStore.set(policyId, policy);
-    return policy;
+    const updated = await prisma.security_policies.update({
+      where: { id: policyId },
+      data: { enabled },
+    });
+
+    return this.mapPolicy(updated);
   }
 
   // ===========================================================================
-  // AUDIT LOGGING
+  // AUDIT LOGGING - PRISMA BACKED
   // ===========================================================================
 
   async logAuditEvent(entry: Omit<AuditLogEntry, 'id' | 'timestamp'>): Promise<AuditLogEntry> {
-    const newEntry: AuditLogEntry = {
-      ...entry,
-      id: `audit-${Date.now()}-${Math.random().toString(36).substr(2, 4)}`,
-      timestamp: new Date(),
+    const riskMap: Record<string, string> = { success: 'LOW', failure: 'MEDIUM', denied: 'HIGH' };
+    
+    const created = await prisma.security_audit_logs.create({
+      data: {
+        organization_id: entry.organizationId,
+        action: entry.action,
+        actor: entry.userId,
+        resource_type: entry.resource,
+        ip_address: entry.ipAddress,
+        details: entry.metadata || {},
+        risk_level: riskMap[entry.result] as any,
+      },
+    });
+
+    return {
+      id: created.id,
+      organizationId: created.organizationId,
+      userId: created.actor,
+      action: created.action,
+      resource: created.resourceType,
+      result: entry.result,
+      ipAddress: created.ipAddress || '',
+      timestamp: created.createdAt,
+      metadata: created.details as Record<string, unknown>,
     };
-    
-    const logs = this.auditLogStore.get(entry.organizationId) || [];
-    logs.push(newEntry);
-    if (logs.length > 10000) logs.shift(); // Keep last 10k entries
-    this.auditLogStore.set(entry.organizationId, logs);
-    
-    return newEntry;
   }
 
   async getAuditLogs(organizationId: string, limit: number = 100): Promise<AuditLogEntry[]> {
-    const logs = this.auditLogStore.get(organizationId) || [];
-    return logs.slice(-limit).reverse();
+    const logs = await prisma.security_audit_logs.findMany({
+      where: { organization_id: organizationId },
+      orderBy: { created_at: 'desc' },
+      take: limit,
+    });
+
+    return logs.map((l: any) => ({
+      id: l.id,
+      organizationId: l.organizationId,
+      userId: l.actor,
+      action: l.action,
+      resource: l.resourceType,
+      result: l.riskLevel === 'HIGH' ? 'denied' : 'success' as any,
+      ipAddress: l.ipAddress || '',
+      timestamp: l.createdAt,
+      metadata: l.details as Record<string, unknown>,
+    }));
   }
 
   // ===========================================================================
-  // SEED DATA
+  // HELPERS
   // ===========================================================================
 
-  async seedDefaultData(organizationId: string): Promise<void> {
-    // Create sample threats
-    await this.reportThreat({
-      organizationId, type: 'Anomalous Login', severity: 'medium', status: 'investigating',
-      source: 'Identity Provider', description: 'Multiple failed login attempts from unusual location',
-      affectedAssets: ['user-auth-service'],
-    });
+  private mapThreat(t: any): ThreatEvent {
+    return {
+      id: t.id,
+      organizationId: t.organizationId,
+      type: t.title || t.threatType,
+      severity: reverseSeverityMap[t.severity] || 'medium',
+      status: reverseStatusMap[t.status] || 'active',
+      source: t.source || 'unknown',
+      description: t.description,
+      detectedAt: t.detectedAt,
+      resolvedAt: t.resolvedAt,
+      affectedAssets: t.indicators as string[],
+      mitigationSteps: t.mitigations as string[],
+    };
+  }
 
-    await this.reportThreat({
-      organizationId, type: 'Unusual Data Access', severity: 'low', status: 'mitigated',
-      source: 'Data Layer', description: 'Large data export detected outside business hours',
-      mitigationSteps: ['Verified with user', 'Approved by manager'],
-    });
+  private mapPolicy(p: any): SecurityPolicy {
+    return {
+      id: p.id,
+      organizationId: p.organizationId,
+      name: p.name,
+      category: p.description || p.policyType,
+      enabled: p.enabled,
+      lastUpdated: p.updatedAt,
+      violations: 0,
+    };
+  }
 
-    // Create sample policies
-    await this.createPolicy({ organizationId, name: 'Password Policy', category: 'Authentication', enabled: true });
-    await this.createPolicy({ organizationId, name: 'MFA Requirement', category: 'Authentication', enabled: true });
-    await this.createPolicy({ organizationId, name: 'Data Encryption', category: 'Data Protection', enabled: true });
-    await this.createPolicy({ organizationId, name: 'Session Timeout', category: 'Access Control', enabled: true });
-    await this.createPolicy({ organizationId, name: 'IP Allowlist', category: 'Network', enabled: false });
+  // No seed method - Enterprise Platinum standard
 
-    // Create some audit logs
-    await this.logAuditEvent({ organizationId, userId: 'user-1', action: 'login', resource: 'auth', result: 'success', ipAddress: '10.0.1.50' });
-    await this.logAuditEvent({ organizationId, userId: 'user-2', action: 'export', resource: 'reports', result: 'success', ipAddress: '10.0.1.51' });
-    await this.logAuditEvent({ organizationId, userId: 'user-3', action: 'delete', resource: 'dataset', result: 'denied', ipAddress: '10.0.1.52' });
+  // ===========================================================================
+  // CLIENT API METHODS
+  // ===========================================================================
 
-    // Generate posture
-    await this.getSecurityPosture(organizationId);
+  async getSecurityDashboard(organizationId: string): Promise<any> {
+    const posture = await this.getSecurityPosture(organizationId);
+    const threats = await this.getThreats(organizationId);
+    const policies = await this.getPolicies(organizationId);
+    
+    return {
+      securityScore: posture.securityScore,
+      vulnerabilities: posture.openVulnerabilities,
+      activeThreats: threats.filter(t => t.status === 'active' || t.status === 'investigating').length,
+      totalPolicies: policies.length,
+      enabledPolicies: policies.filter(p => p.enabled).length,
+    };
+  }
 
-    this.logger.info(`Seeded security data for org ${organizationId}`);
+  async getAccessPolicies(organizationId: string): Promise<any[]> {
+    const policies = await this.getPolicies(organizationId);
+    return policies.map(p => ({
+      id: p.id,
+      name: p.name,
+      category: p.category,
+      enabled: p.enabled,
+    }));
   }
 }
 

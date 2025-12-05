@@ -1,0 +1,583 @@
+// =============================================================================
+// DATACENDIA - APPLICATION ROUTES WITH LAZY LOADING
+// Performance optimized - code splitting for all heavy components
+// =============================================================================
+
+import React, { Suspense, lazy } from 'react';
+import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { PageLoader } from './components/ui/PageLoader';
+
+// Helper for lazy loading with suspense
+const lazyLoad = (importFn: () => Promise<{ default: React.ComponentType<any> }>) => {
+  const LazyComponent = lazy(importFn);
+  return (
+    <Suspense fallback={<PageLoader />}>
+      <LazyComponent />
+    </Suspense>
+  );
+};
+
+// =============================================================================
+// LAYOUTS - Load immediately (critical for shell)
+// =============================================================================
+import { CortexLayout } from './layouts/CortexLayout';
+import { PublicLayout } from './layouts/PublicLayout';
+
+// Lazy load layout children
+const SettingsLayout = lazy(() => import('./pages/settings').then(m => ({ default: m.SettingsLayout })));
+const AdminLayout = lazy(() => import('./pages/admin').then(m => ({ default: m.AdminLayout })));
+
+// =============================================================================
+// LAZY LOADED PAGES
+// =============================================================================
+
+// Public Pages
+const LandingPage = lazy(() => import('./pages/marketing').then(m => ({ default: m.LandingPage })));
+const HomePage = lazy(() => import('./pages/public').then(m => ({ default: m.HomePage })));
+const ProductPage = lazy(() => import('./pages/public').then(m => ({ default: m.ProductPage })));
+const AboutPage = lazy(() => import('./pages/public').then(m => ({ default: m.AboutPage })));
+const ContactPage = lazy(() => import('./pages/public').then(m => ({ default: m.ContactPage })));
+const ManifestoPage = lazy(() => import('./pages/public').then(m => ({ default: m.ManifestoPage })));
+const DownloadsPage = lazy(() => import('./pages/public').then(m => ({ default: m.DownloadsPage })));
+const LicensePage = lazy(() => import('./pages/public').then(m => ({ default: m.LicensePage })));
+const DemoRequestPage = lazy(() => import('./pages/public').then(m => ({ default: m.DemoRequestPage })));
+const ShowcasesPage = lazy(() => import('./pages/public/ShowcasesPage'));
+const ServicesPage = lazy(() => import('./pages/public/services-packages').then(m => ({ default: m.ServicesPage })));
+const PackagesPage = lazy(() => import('./pages/public/services-packages').then(m => ({ default: m.PackagesPage })));
+
+// Legal
+const PrivacyPolicyPage = lazy(() => import('./pages/legal').then(m => ({ default: m.PrivacyPolicyPage })));
+const TermsPage = lazy(() => import('./pages/legal').then(m => ({ default: m.TermsPage })));
+
+// Pricing
+const PricingPage = lazy(() => import('./pages/pricing').then(m => ({ default: m.PricingPage })));
+
+// Auth Pages
+const LoginPage = lazy(() => import('./pages/auth').then(m => ({ default: m.LoginPage })));
+const RegisterPage = lazy(() => import('./pages/auth').then(m => ({ default: m.RegisterPage })));
+const ForgotPasswordPage = lazy(() => import('./pages/auth').then(m => ({ default: m.ForgotPasswordPage })));
+const ResetPasswordPage = lazy(() => import('./pages/auth').then(m => ({ default: m.ResetPasswordPage })));
+const VerifyEmailPage = lazy(() => import('./pages/auth').then(m => ({ default: m.VerifyEmailPage })));
+
+// Cortex Main Pages
+const DashboardPage = lazy(() => import('./pages/cortex/DashboardPage').then(m => ({ default: m.DashboardPage })));
+const GraphExplorerPage = lazy(() => import('./pages/cortex/graph/GraphExplorerPage').then(m => ({ default: m.GraphExplorerPage })));
+const CouncilPage = lazy(() => import('./pages/cortex/council/CouncilPage').then(m => ({ default: m.CouncilPage })));
+const PulsePage = lazy(() => import('./pages/cortex/pulse/PulsePage').then(m => ({ default: m.PulsePage })));
+const LensPage = lazy(() => import('./pages/cortex/lens/LensPage').then(m => ({ default: m.LensPage })));
+const BridgePage = lazy(() => import('./pages/cortex/bridge/BridgePage').then(m => ({ default: m.BridgePage })));
+
+// Cortex Sub-Pages
+const LineageViewPage = lazy(() => import('./pages/cortex/graph/subpages').then(m => ({ default: m.LineageViewPage })));
+const EntityDetailsPage = lazy(() => import('./pages/cortex/graph/subpages').then(m => ({ default: m.EntityDetailsPage })));
+const DeliberationViewPage = lazy(() => import('./pages/cortex/council/subpages').then(m => ({ default: m.DeliberationViewPage })));
+const AgentProfilePage = lazy(() => import('./pages/cortex/council/subpages').then(m => ({ default: m.AgentProfilePage })));
+const AlertsPage = lazy(() => import('./pages/cortex/pulse/subpages').then(m => ({ default: m.AlertsPage })));
+const MetricsPage = lazy(() => import('./pages/cortex/pulse/subpages').then(m => ({ default: m.MetricsPage })));
+const ForecastDetailsPage = lazy(() => import('./pages/cortex/lens/subpages').then(m => ({ default: m.ForecastDetailsPage })));
+const ScenarioDetailsPage = lazy(() => import('./pages/cortex/lens/subpages').then(m => ({ default: m.ScenarioDetailsPage })));
+const ScenarioBuilderPage = lazy(() => import('./pages/cortex/lens/subpages').then(m => ({ default: m.ScenarioBuilderPage })));
+const WorkflowsListPage = lazy(() => import('./pages/cortex/bridge/subpages').then(m => ({ default: m.WorkflowsListPage })));
+const WorkflowBuilderPage = lazy(() => import('./pages/cortex/bridge/subpages').then(m => ({ default: m.WorkflowBuilderPage })));
+const ApprovalsPage = lazy(() => import('./pages/cortex/bridge/subpages').then(m => ({ default: m.ApprovalsPage })));
+const BridgeIntegrationsPage = lazy(() => import('./pages/cortex/bridge/subpages').then(m => ({ default: m.BridgeIntegrationsPage })));
+
+// Pillar Pages
+const HelmPage = lazy(() => import('./pages/cortex/pillars').then(m => ({ default: m.HelmPage })));
+const LineagePage = lazy(() => import('./pages/cortex/pillars').then(m => ({ default: m.LineagePage })));
+const PredictPage = lazy(() => import('./pages/cortex/pillars').then(m => ({ default: m.PredictPage })));
+const FlowPage = lazy(() => import('./pages/cortex/pillars').then(m => ({ default: m.FlowPage })));
+const HealthPage = lazy(() => import('./pages/cortex/pillars').then(m => ({ default: m.HealthPage })));
+const GuardPage = lazy(() => import('./pages/cortex/pillars').then(m => ({ default: m.GuardPage })));
+const EthicsPage = lazy(() => import('./pages/cortex/pillars').then(m => ({ default: m.EthicsPage })));
+const AgentsPage = lazy(() => import('./pages/cortex/pillars').then(m => ({ default: m.AgentsPage })));
+
+// Decision Intelligence Pages
+const PreMortemPage = lazy(() => import('./pages/cortex/intelligence').then(m => ({ default: m.PreMortemPage })));
+const GhostBoardPage = lazy(() => import('./pages/cortex/intelligence').then(m => ({ default: m.GhostBoardPage })));
+const DecisionDebtPage = lazy(() => import('./pages/cortex/intelligence').then(m => ({ default: m.DecisionDebtPage })));
+const LiveDemoPage = lazy(() => import('./pages/cortex/intelligence').then(m => ({ default: m.LiveDemoPage })));
+const RegulatoryAbsorbPage = lazy(() => import('./pages/cortex/intelligence').then(m => ({ default: m.RegulatoryAbsorbPage })));
+const DecisionDNAPage = lazy(() => import('./pages/cortex/intelligence').then(m => ({ default: m.DecisionDNAPage })));
+const ChronosPage = lazy(() => import('./pages/cortex/intelligence').then(m => ({ default: m.ChronosPage })));
+
+// Enterprise Suite Pages
+const SovereignPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.SovereignPage })));
+const PersonaForgePage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.PersonaForgePage })));
+const MeshPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.MeshPage })));
+const GovernPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.GovernPage })));
+const VoicePage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.VoicePage })));
+const AutopilotPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.AutopilotPage })));
+const GenomicsPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.GenomicsPage })));
+const DefenseStackPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.DefenseStackPage })));
+const OmniTranslatePage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.OmniTranslatePage })));
+const VetoPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.VetoPage })));
+const UnionPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.UnionPage })));
+const LedgerPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.LedgerPage })));
+
+// Sovereign Tier Pages
+const CruciblePage = lazy(() => import('./pages/sovereign/CruciblePage').then(m => ({ default: m.CruciblePage })));
+const PanopticonPage = lazy(() => import('./pages/sovereign/PanopticonPage').then(m => ({ default: m.PanopticonPage })));
+const AegisPage = lazy(() => import('./pages/sovereign/AegisPage').then(m => ({ default: m.AegisPage })));
+const EternalPage = lazy(() => import('./pages/sovereign/EternalPage').then(m => ({ default: m.EternalPage })));
+const SymbiontPage = lazy(() => import('./pages/sovereign/SymbiontPage').then(m => ({ default: m.SymbiontPage })));
+const VoxPage = lazy(() => import('./pages/sovereign/VoxPage').then(m => ({ default: m.VoxPage })));
+
+// Data Pages
+const DataSourcesPage = lazy(() => import('./pages/cortex/data').then(m => ({ default: m.DataSourcesPage })));
+const DataCatalogPage = lazy(() => import('./pages/cortex/data').then(m => ({ default: m.DataCatalogPage })));
+const DataQualityPage = lazy(() => import('./pages/cortex/data').then(m => ({ default: m.DataQualityPage })));
+const DataImportExportPage = lazy(() => import('./pages/cortex/data').then(m => ({ default: m.DataImportExportPage })));
+
+// Security Pages
+const SecurityOverviewPage = lazy(() => import('./pages/cortex/security').then(m => ({ default: m.SecurityOverviewPage })));
+const AccessControlPage = lazy(() => import('./pages/cortex/security').then(m => ({ default: m.AccessControlPage })));
+const AuditLogPage = lazy(() => import('./pages/cortex/security').then(m => ({ default: m.AuditLogPage })));
+const SecurityPoliciesPage = lazy(() => import('./pages/cortex/security').then(m => ({ default: m.SecurityPoliciesPage })));
+
+// Settings Pages
+const OrganizationSettingsPage = lazy(() => import('./pages/settings').then(m => ({ default: m.OrganizationSettingsPage })));
+const UsersSettingsPage = lazy(() => import('./pages/settings').then(m => ({ default: m.UsersSettingsPage })));
+const TeamsSettingsPage = lazy(() => import('./pages/settings').then(m => ({ default: m.TeamsSettingsPage })));
+const RolesSettingsPage = lazy(() => import('./pages/settings').then(m => ({ default: m.RolesSettingsPage })));
+const BillingSettingsPage = lazy(() => import('./pages/settings').then(m => ({ default: m.BillingSettingsPage })));
+const ApiKeysSettingsPage = lazy(() => import('./pages/settings').then(m => ({ default: m.ApiKeysSettingsPage })));
+const IntegrationSettingsPage = lazy(() => import('./pages/settings').then(m => ({ default: m.IntegrationSettingsPage })));
+const PreferencesSettingsPage = lazy(() => import('./pages/settings').then(m => ({ default: m.PreferencesSettingsPage })));
+const SettingsSecurityPage = lazy(() => import('./pages/settings').then(m => ({ default: m.SecuritySettingsPage })));
+
+// Admin Pages
+const AdminDashboardPage = lazy(() => import('./pages/admin').then(m => ({ default: m.AdminDashboardPage })));
+const TenantsPage = lazy(() => import('./pages/admin').then(m => ({ default: m.TenantsPage })));
+const LicensesPage = lazy(() => import('./pages/admin').then(m => ({ default: m.LicensesPage })));
+const UsageAnalyticsPage = lazy(() => import('./pages/admin').then(m => ({ default: m.UsageAnalyticsPage })));
+const SystemHealthPage = lazy(() => import('./pages/admin').then(m => ({ default: m.SystemHealthPage })));
+const FeatureFlagsPage = lazy(() => import('./pages/admin').then(m => ({ default: m.FeatureFlagsPage })));
+const AdminDataSourcesPage = lazy(() => import('./pages/admin').then(m => ({ default: m.DataSourcesPage })));
+const ModeAnalytics = lazy(() => import('./pages/admin/ModeAnalytics'));
+const RDLabPage = lazy(() => import('./pages/admin/RDLabPage').then(m => ({ default: m.RDLabPage })));
+const CorePage = lazy(() => import('./pages/admin/CorePage'));
+const ControlCenterPage = lazy(() => import('./pages/admin/ControlCenterPage').then(m => ({ default: m.ControlCenterPage })));
+const AdminAIPage = lazy(() => import('./pages/admin/AdminAIPage').then(m => ({ default: m.AdminAIPage })));
+
+// Tools
+const ROICalculator = lazy(() => import('./pages/tools').then(m => ({ default: m.ROICalculator })));
+
+// Onboarding
+const OnboardingWizard = lazy(() => import('./pages/onboarding').then(m => ({ default: m.OnboardingWizard })));
+
+// Apex Package
+const CendiaForecastPage = lazy(() => import('./pages/apex').then(m => ({ default: m.CendiaForecastPage })));
+const CendiaSentryPage = lazy(() => import('./pages/apex').then(m => ({ default: m.CendiaSentryPage })));
+
+// Pitch
+const PitchDeck = lazy(() => import('./pages/pitch').then(m => ({ default: m.PitchDeck })));
+
+// Error Pages (keep non-lazy for fast 404)
+import { NotFoundPage } from './pages/NotFoundPage';
+
+// =============================================================================
+// SUSPENSE WRAPPER COMPONENT
+// =============================================================================
+const SuspenseWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <Suspense fallback={<PageLoader />}>{children}</Suspense>
+);
+
+// =============================================================================
+// ROUTE CONFIGURATION
+// =============================================================================
+
+export const router = createBrowserRouter([
+  // PUBLIC ROUTES
+  {
+    path: '/',
+    element: <SuspenseWrapper><LandingPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/home',
+    element: <SuspenseWrapper><LandingPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/old-home',
+    element: <SuspenseWrapper><HomePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/pricing',
+    element: <SuspenseWrapper><PricingPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/demo',
+    element: <SuspenseWrapper><DemoRequestPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/product',
+    element: <SuspenseWrapper><ProductPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/about',
+    element: <SuspenseWrapper><AboutPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/contact',
+    element: <SuspenseWrapper><ContactPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/contact-us',
+    element: <SuspenseWrapper><ContactPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/manifesto',
+    element: <SuspenseWrapper><ManifestoPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/downloads',
+    element: <SuspenseWrapper><DownloadsPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/license',
+    element: <SuspenseWrapper><LicensePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/licenses',
+    element: <SuspenseWrapper><LicensePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/services',
+    element: <SuspenseWrapper><ServicesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/packages',
+    element: <SuspenseWrapper><PackagesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/showcases',
+    element: <SuspenseWrapper><ShowcasesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/case-studies',
+    element: <SuspenseWrapper><ShowcasesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/customers',
+    element: <SuspenseWrapper><ShowcasesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/privacy',
+    element: <SuspenseWrapper><PrivacyPolicyPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/terms',
+    element: <SuspenseWrapper><TermsPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/terms-of-service',
+    element: <SuspenseWrapper><TermsPage /></SuspenseWrapper>,
+  },
+
+  // AUTH ROUTES
+  {
+    path: '/login',
+    element: <SuspenseWrapper><LoginPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/register',
+    element: <SuspenseWrapper><RegisterPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/forgot-password',
+    element: <SuspenseWrapper><ForgotPasswordPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/reset-password',
+    element: <SuspenseWrapper><ResetPasswordPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verify-email',
+    element: <SuspenseWrapper><VerifyEmailPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/auth/login',
+    element: <SuspenseWrapper><LoginPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/auth/register',
+    element: <SuspenseWrapper><RegisterPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/auth/forgot-password',
+    element: <SuspenseWrapper><ForgotPasswordPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/auth/reset-password',
+    element: <SuspenseWrapper><ResetPasswordPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/auth/verify-email',
+    element: <SuspenseWrapper><VerifyEmailPage /></SuspenseWrapper>,
+  },
+
+  // ONBOARDING
+  {
+    path: '/onboarding',
+    element: <SuspenseWrapper><OnboardingWizard /></SuspenseWrapper>,
+  },
+  {
+    path: '/welcome',
+    element: <SuspenseWrapper><OnboardingWizard /></SuspenseWrapper>,
+  },
+  {
+    path: '/get-started',
+    element: <SuspenseWrapper><OnboardingWizard /></SuspenseWrapper>,
+  },
+
+  // APEX PACKAGE
+  {
+    path: '/apex/forecast',
+    element: <SuspenseWrapper><CendiaForecastPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/apex/sentry',
+    element: <SuspenseWrapper><CendiaSentryPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/products/cendia-forecast',
+    element: <SuspenseWrapper><CendiaForecastPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/products/cendia-sentry',
+    element: <SuspenseWrapper><CendiaSentryPage /></SuspenseWrapper>,
+  },
+
+  // PITCH
+  {
+    path: '/pitch',
+    element: <SuspenseWrapper><PitchDeck /></SuspenseWrapper>,
+  },
+  {
+    path: '/investors',
+    element: <SuspenseWrapper><PitchDeck /></SuspenseWrapper>,
+  },
+  {
+    path: '/deck',
+    element: <SuspenseWrapper><PitchDeck /></SuspenseWrapper>,
+  },
+
+  // CORTEX APPLICATION
+  {
+    path: '/cortex',
+    element: <CortexLayout />,
+    children: [
+      { index: true, element: <SuspenseWrapper><DashboardPage /></SuspenseWrapper> },
+      { path: 'dashboard', element: <SuspenseWrapper><DashboardPage /></SuspenseWrapper> },
+      
+      // Graph
+      { path: 'graph', element: <SuspenseWrapper><GraphExplorerPage /></SuspenseWrapper> },
+      { path: 'graph/lineage/:entityId?', element: <SuspenseWrapper><LineageViewPage /></SuspenseWrapper> },
+      { path: 'graph/entity/:entityId', element: <SuspenseWrapper><EntityDetailsPage /></SuspenseWrapper> },
+      
+      // Council
+      { path: 'council', element: <SuspenseWrapper><CouncilPage /></SuspenseWrapper> },
+      { path: 'council/deliberation/:deliberationId', element: <SuspenseWrapper><DeliberationViewPage /></SuspenseWrapper> },
+      { path: 'council/agent/:agentId', element: <SuspenseWrapper><AgentProfilePage /></SuspenseWrapper> },
+      
+      // Pulse
+      { path: 'pulse', element: <SuspenseWrapper><PulsePage /></SuspenseWrapper> },
+      { path: 'pulse/alerts', element: <SuspenseWrapper><AlertsPage /></SuspenseWrapper> },
+      { path: 'pulse/metrics', element: <SuspenseWrapper><MetricsPage /></SuspenseWrapper> },
+      
+      // Lens
+      { path: 'lens', element: <SuspenseWrapper><LensPage /></SuspenseWrapper> },
+      { path: 'lens/forecast/:forecastId', element: <SuspenseWrapper><ForecastDetailsPage /></SuspenseWrapper> },
+      { path: 'lens/scenarios/:scenarioId', element: <SuspenseWrapper><ScenarioDetailsPage /></SuspenseWrapper> },
+      { path: 'lens/scenarios/:scenarioId/edit', element: <SuspenseWrapper><ScenarioBuilderPage /></SuspenseWrapper> },
+      { path: 'lens/scenarios/new', element: <SuspenseWrapper><ScenarioBuilderPage /></SuspenseWrapper> },
+      
+      // Bridge
+      { path: 'bridge', element: <SuspenseWrapper><BridgePage /></SuspenseWrapper> },
+      { path: 'bridge/workflows', element: <SuspenseWrapper><WorkflowsListPage /></SuspenseWrapper> },
+      { path: 'bridge/workflows/:workflowId', element: <SuspenseWrapper><WorkflowBuilderPage /></SuspenseWrapper> },
+      { path: 'bridge/workflows/new', element: <SuspenseWrapper><WorkflowBuilderPage /></SuspenseWrapper> },
+      { path: 'bridge/approvals', element: <SuspenseWrapper><ApprovalsPage /></SuspenseWrapper> },
+      { path: 'bridge/integrations', element: <SuspenseWrapper><BridgeIntegrationsPage /></SuspenseWrapper> },
+      
+      // Intelligence
+      { path: 'intelligence', element: <Navigate to="/cortex/intelligence/pre-mortem" replace /> },
+      { path: 'intelligence/pre-mortem', element: <SuspenseWrapper><PreMortemPage /></SuspenseWrapper> },
+      { path: 'intelligence/ghost-board', element: <SuspenseWrapper><GhostBoardPage /></SuspenseWrapper> },
+      { path: 'intelligence/decision-debt', element: <SuspenseWrapper><DecisionDebtPage /></SuspenseWrapper> },
+      { path: 'intelligence/live-demo', element: <SuspenseWrapper><LiveDemoPage /></SuspenseWrapper> },
+      { path: 'intelligence/regulatory', element: <SuspenseWrapper><RegulatoryAbsorbPage /></SuspenseWrapper> },
+      { path: 'intelligence/decision-dna', element: <SuspenseWrapper><DecisionDNAPage /></SuspenseWrapper> },
+      { path: 'intelligence/chronos', element: <SuspenseWrapper><ChronosPage /></SuspenseWrapper> },
+      
+      // Enterprise
+      { path: 'enterprise/sovereign', element: <SuspenseWrapper><SovereignPage /></SuspenseWrapper> },
+      { path: 'enterprise/persona-forge', element: <SuspenseWrapper><PersonaForgePage /></SuspenseWrapper> },
+      { path: 'enterprise/mesh', element: <SuspenseWrapper><MeshPage /></SuspenseWrapper> },
+      { path: 'enterprise/govern', element: <SuspenseWrapper><GovernPage /></SuspenseWrapper> },
+      { path: 'enterprise/voice', element: <SuspenseWrapper><VoicePage /></SuspenseWrapper> },
+      { path: 'enterprise/autopilot', element: <SuspenseWrapper><AutopilotPage /></SuspenseWrapper> },
+      { path: 'enterprise/genomics', element: <SuspenseWrapper><GenomicsPage /></SuspenseWrapper> },
+      { path: 'enterprise/defense-stack', element: <SuspenseWrapper><DefenseStackPage /></SuspenseWrapper> },
+      { path: 'enterprise/omni-translate', element: <SuspenseWrapper><OmniTranslatePage /></SuspenseWrapper> },
+      { path: 'enterprise/veto', element: <SuspenseWrapper><VetoPage /></SuspenseWrapper> },
+      { path: 'enterprise/union', element: <SuspenseWrapper><UnionPage /></SuspenseWrapper> },
+      { path: 'enterprise/ledger', element: <SuspenseWrapper><LedgerPage /></SuspenseWrapper> },
+      
+      // Sovereign
+      { path: 'sovereign/crucible', element: <SuspenseWrapper><CruciblePage /></SuspenseWrapper> },
+      { path: 'sovereign/panopticon', element: <SuspenseWrapper><PanopticonPage /></SuspenseWrapper> },
+      { path: 'sovereign/aegis', element: <SuspenseWrapper><AegisPage /></SuspenseWrapper> },
+      { path: 'sovereign/eternal', element: <SuspenseWrapper><EternalPage /></SuspenseWrapper> },
+      { path: 'sovereign/symbiont', element: <SuspenseWrapper><SymbiontPage /></SuspenseWrapper> },
+      { path: 'sovereign/vox', element: <SuspenseWrapper><VoxPage /></SuspenseWrapper> },
+      
+      // Pillars
+      { path: 'pillars', element: <Navigate to="/cortex/pillars/helm" replace /> },
+      { path: 'pillars/helm', element: <SuspenseWrapper><HelmPage /></SuspenseWrapper> },
+      { path: 'pillars/lineage', element: <SuspenseWrapper><LineagePage /></SuspenseWrapper> },
+      { path: 'pillars/predict', element: <SuspenseWrapper><PredictPage /></SuspenseWrapper> },
+      { path: 'pillars/flow', element: <SuspenseWrapper><FlowPage /></SuspenseWrapper> },
+      { path: 'pillars/health', element: <SuspenseWrapper><HealthPage /></SuspenseWrapper> },
+      { path: 'pillars/guard', element: <SuspenseWrapper><GuardPage /></SuspenseWrapper> },
+      { path: 'pillars/ethics', element: <SuspenseWrapper><EthicsPage /></SuspenseWrapper> },
+      { path: 'pillars/agents', element: <SuspenseWrapper><AgentsPage /></SuspenseWrapper> },
+      
+      // Data
+      { path: 'data', element: <Navigate to="/cortex/data/sources" replace /> },
+      { path: 'data/sources', element: <SuspenseWrapper><DataSourcesPage /></SuspenseWrapper> },
+      { path: 'data/catalog', element: <SuspenseWrapper><DataCatalogPage /></SuspenseWrapper> },
+      { path: 'data/quality', element: <SuspenseWrapper><DataQualityPage /></SuspenseWrapper> },
+      { path: 'data/import-export', element: <SuspenseWrapper><DataImportExportPage /></SuspenseWrapper> },
+      
+      // Security
+      { path: 'security', element: <SuspenseWrapper><SecurityOverviewPage /></SuspenseWrapper> },
+      { path: 'security/access', element: <SuspenseWrapper><AccessControlPage /></SuspenseWrapper> },
+      { path: 'security/audit', element: <SuspenseWrapper><AuditLogPage /></SuspenseWrapper> },
+      { path: 'security/policies', element: <SuspenseWrapper><SecurityPoliciesPage /></SuspenseWrapper> },
+      
+      // Settings
+      {
+        path: 'settings',
+        element: <SuspenseWrapper><SettingsLayout /></SuspenseWrapper>,
+        children: [
+          { index: true, element: <Navigate to="/cortex/settings/organization" replace /> },
+          { path: 'organization', element: <SuspenseWrapper><OrganizationSettingsPage /></SuspenseWrapper> },
+          { path: 'users', element: <SuspenseWrapper><UsersSettingsPage /></SuspenseWrapper> },
+          { path: 'teams', element: <SuspenseWrapper><TeamsSettingsPage /></SuspenseWrapper> },
+          { path: 'roles', element: <SuspenseWrapper><RolesSettingsPage /></SuspenseWrapper> },
+          { path: 'billing', element: <SuspenseWrapper><BillingSettingsPage /></SuspenseWrapper> },
+          { path: 'api-keys', element: <SuspenseWrapper><ApiKeysSettingsPage /></SuspenseWrapper> },
+          { path: 'integrations', element: <SuspenseWrapper><IntegrationSettingsPage /></SuspenseWrapper> },
+          { path: 'preferences', element: <SuspenseWrapper><PreferencesSettingsPage /></SuspenseWrapper> },
+          { path: 'security', element: <SuspenseWrapper><SettingsSecurityPage /></SuspenseWrapper> },
+        ],
+      },
+    ],
+  },
+
+  // ADMIN
+  {
+    path: '/admin',
+    element: <SuspenseWrapper><AdminLayout /></SuspenseWrapper>,
+    children: [
+      { index: true, element: <SuspenseWrapper><AdminDashboardPage /></SuspenseWrapper> },
+      { path: 'dashboard', element: <SuspenseWrapper><AdminDashboardPage /></SuspenseWrapper> },
+      { path: 'tenants', element: <SuspenseWrapper><TenantsPage /></SuspenseWrapper> },
+      { path: 'licenses', element: <SuspenseWrapper><LicensesPage /></SuspenseWrapper> },
+      { path: 'usage', element: <SuspenseWrapper><UsageAnalyticsPage /></SuspenseWrapper> },
+      { path: 'health', element: <SuspenseWrapper><SystemHealthPage /></SuspenseWrapper> },
+      { path: 'features', element: <SuspenseWrapper><FeatureFlagsPage /></SuspenseWrapper> },
+      { path: 'data-sources', element: <SuspenseWrapper><AdminDataSourcesPage /></SuspenseWrapper> },
+      { path: 'mode-analytics', element: <SuspenseWrapper><ModeAnalytics /></SuspenseWrapper> },
+      { path: 'rd-lab', element: <SuspenseWrapper><RDLabPage /></SuspenseWrapper> },
+      { path: 'core', element: <SuspenseWrapper><CorePage /></SuspenseWrapper> },
+      { path: 'control-center', element: <SuspenseWrapper><ControlCenterPage /></SuspenseWrapper> },
+      { path: 'ai', element: <SuspenseWrapper><AdminAIPage /></SuspenseWrapper> },
+    ],
+  },
+
+  // TOOLS
+  {
+    path: '/tools',
+    element: <CortexLayout />,
+    children: [
+      { path: 'roi-calculator', element: <SuspenseWrapper><ROICalculator /></SuspenseWrapper> },
+    ],
+  },
+
+  // 404
+  {
+    path: '*',
+    element: <NotFoundPage />,
+  },
+]);
+
+// Route helpers (same as before)
+export const routes = {
+  home: '/',
+  pricing: '/pricing',
+  demo: '/demo',
+  product: '/product',
+  about: '/about',
+  manifesto: '/manifesto',
+  downloads: '/downloads',
+  services: '/services',
+  packages: '/packages',
+  login: '/auth/login',
+  register: '/auth/register',
+  forgotPassword: '/auth/forgot-password',
+  resetPassword: '/auth/reset-password',
+  verifyEmail: '/auth/verify-email',
+  cortex: '/cortex',
+  dashboard: '/cortex/dashboard',
+  graph: '/cortex/graph',
+  lineage: (entityId?: string) => entityId ? `/cortex/graph/lineage/${entityId}` : '/cortex/graph/lineage',
+  entity: (entityId: string) => `/cortex/graph/entity/${entityId}`,
+  council: '/cortex/council',
+  deliberation: (id: string) => `/cortex/council/deliberation/${id}`,
+  agent: (id: string) => `/cortex/council/agent/${id}`,
+  pulse: '/cortex/pulse',
+  alerts: '/cortex/pulse/alerts',
+  metrics: '/cortex/pulse/metrics',
+  lens: '/cortex/lens',
+  forecast: (id: string) => `/cortex/lens/forecast/${id}`,
+  scenario: (id: string) => `/cortex/lens/scenarios/${id}`,
+  scenarioEdit: (id: string) => `/cortex/lens/scenarios/${id}/edit`,
+  newScenario: '/cortex/lens/scenarios/new',
+  bridge: '/cortex/bridge',
+  workflows: '/cortex/bridge/workflows',
+  workflow: (id: string) => `/cortex/bridge/workflows/${id}`,
+  newWorkflow: '/cortex/bridge/workflows/new',
+  approvals: '/cortex/bridge/approvals',
+  bridgeIntegrations: '/cortex/bridge/integrations',
+  data: '/cortex/data',
+  dataSources: '/cortex/data/sources',
+  dataCatalog: '/cortex/data/catalog',
+  dataQuality: '/cortex/data/quality',
+  dataImportExport: '/cortex/data/import-export',
+  security: '/cortex/security',
+  accessControl: '/cortex/security/access',
+  auditLog: '/cortex/security/audit',
+  securityPolicies: '/cortex/security/policies',
+  settings: '/cortex/settings',
+  settingsOrganization: '/cortex/settings/organization',
+  settingsUsers: '/cortex/settings/users',
+  settingsTeams: '/cortex/settings/teams',
+  settingsRoles: '/cortex/settings/roles',
+  settingsBilling: '/cortex/settings/billing',
+  settingsApiKeys: '/cortex/settings/api-keys',
+  settingsIntegrations: '/cortex/settings/integrations',
+  settingsPreferences: '/cortex/settings/preferences',
+  settingsSecurity: '/cortex/settings/security',
+  admin: '/admin',
+  adminDashboard: '/admin/dashboard',
+  adminTenants: '/admin/tenants',
+  adminLicenses: '/admin/licenses',
+  adminUsage: '/admin/usage',
+  adminHealth: '/admin/health',
+  adminFeatures: '/admin/features',
+  adminRDLab: '/admin/rd-lab',
+};
+
+export default router;

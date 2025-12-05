@@ -13,8 +13,9 @@
 // - Differential privacy protection
 // =============================================================================
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { meshApi } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -451,13 +452,89 @@ const generateSupplyChainAlerts = (): SupplyChainAlert[] => [
 
 export const MeshPage: React.FC = () => {
   const navigate = useNavigate();
-  const [networkStats] = useState<NetworkStats>(generateNetworkStats);
-  const [benchmarks] = useState<BenchmarkMetric[]>(generateBenchmarks);
-  const [riskSignals] = useState<RiskSignal[]>(generateRiskSignals);
+  const [networkStats, setNetworkStats] = useState<NetworkStats>(generateNetworkStats);
+  const [benchmarks, setBenchmarks] = useState<BenchmarkMetric[]>(generateBenchmarks);
+  const [riskSignals, setRiskSignals] = useState<RiskSignal[]>(generateRiskSignals);
   const [pricingIntel] = useState<PricingIntelligence[]>(generatePricingIntel);
   const [supplyChainAlerts] = useState<SupplyChainAlert[]>(generateSupplyChainAlerts);
   const [activeTab, setActiveTab] = useState<'overview' | 'benchmarks' | 'signals' | 'pricing' | 'supply-chain'>('overview');
   const [selectedIndustry, setSelectedIndustry] = useState<Industry | 'all'>('all');
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch real data from API
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        setIsLoading(true);
+        
+        // Fetch network stats
+        const statsRes = await meshApi.getStats();
+        if (statsRes.success && statsRes.data) {
+          setNetworkStats({
+            totalParticipants: statsRes.data.total_participants,
+            activeToday: statsRes.data.active_today,
+            dataPointsShared: statsRes.data.data_points_shared,
+            insightsGenerated: statsRes.data.insights_generated,
+            avgResponseTime: statsRes.data.avg_response_ms,
+            privacyScore: statsRes.data.privacy_score,
+            uptime: statsRes.data.uptime_percent
+          });
+        }
+
+        // Fetch benchmarks
+        const benchRes = await meshApi.getBenchmarks();
+        if (benchRes.success && benchRes.data && Array.isArray(benchRes.data)) {
+          const mappedBenchmarks = benchRes.data.map((b: any) => ({
+            id: b.id,
+            name: b.name,
+            category: b.category,
+            yourValue: b.p50_value * (0.9 + Math.random() * 0.3), // Simulated "your value"
+            industryP25: b.p25_value,
+            industryP50: b.p50_value,
+            industryP75: b.p75_value,
+            industryP90: b.p90_value,
+            trend: b.trend as 'up' | 'down' | 'stable',
+            trendPercent: b.trend_percent,
+            unit: b.unit,
+            participants: b.participants
+          }));
+          // Group by unique name (take first of each name)
+          const uniqueBenchmarks = mappedBenchmarks.reduce((acc: BenchmarkMetric[], curr: BenchmarkMetric) => {
+            if (!acc.find(b => b.name === curr.name)) acc.push(curr);
+            return acc;
+          }, []);
+          setBenchmarks(uniqueBenchmarks.slice(0, 8));
+        }
+
+        // Fetch risk signals
+        const signalsRes = await meshApi.getRiskSignals({ active: true });
+        if (signalsRes.success && signalsRes.data && Array.isArray(signalsRes.data)) {
+          const mappedSignals = signalsRes.data.map((s: any) => ({
+            id: s.id,
+            title: s.title,
+            description: s.description,
+            category: s.category as InsightCategory,
+            severity: s.severity as SignalSeverity,
+            affectedIndustries: s.affected_industries || [],
+            affectedRegions: s.affected_regions || [],
+            confidence: s.confidence,
+            sources: s.sources,
+            detectedAt: new Date(s.detected_at),
+            validUntil: new Date(s.valid_until),
+            recommendations: s.recommendations || [],
+            relatedSignals: []
+          }));
+          setRiskSignals(mappedSignals);
+        }
+      } catch (error) {
+        console.error('[Mesh] Data load error:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadData();
+  }, []);
 
   const criticalSignals = riskSignals.filter(s => s.severity === 'critical' || s.severity === 'high');
 

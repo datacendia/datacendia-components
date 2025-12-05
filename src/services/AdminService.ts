@@ -2,7 +2,8 @@
 // ADMIN SERVICE - Platform Owner Admin API Client
 // =============================================================================
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3001/api/v1';
+const API_BASE = import.meta.env.VITE_API_URL || 
+  (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
 
 // =============================================================================
 // TYPES

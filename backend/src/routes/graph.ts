@@ -5,6 +5,7 @@ import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
+import crypto from 'crypto';
 
 const router = Router();
 
@@ -66,15 +67,26 @@ router.get('/entities', async (req: Request, res: Response, next: NextFunction) 
     }
 
     // Get total count
-    const countResult = await graph.read<{ count: number }>(
+    const countResult = await graph.read<{ count: unknown }>(
       cypher + ' RETURN count(e) as count',
       params
     );
-    const total = countResult[0]?.count || 0;
+
+    const rawCount = countResult[0]?.count ?? 0;
+    let total: number;
+    if (typeof rawCount === 'bigint') {
+      total = Number(rawCount);
+    } else if (typeof rawCount === 'number') {
+      total = rawCount;
+    } else if (rawCount && typeof (rawCount as any).toNumber === 'function') {
+      total = (rawCount as any).toNumber();
+    } else {
+      total = Number(rawCount) || 0;
+    }
 
     // Get paginated results
-    cypher += ` RETURN e ORDER BY e.name SKIP $skip LIMIT $limit`;
-    params.skip = (page - 1) * pageSize;
+    cypher += ` RETURN e ORDER BY e.name SKIP toInteger($skip) LIMIT toInteger($limit)`;
+    params.skip = Math.max(0, (page - 1) * pageSize);
     params.limit = pageSize;
 
     const entities = await graph.read<{ e: Record<string, unknown> }>(cypher, params);
@@ -154,13 +166,14 @@ router.post('/entities', async (req: Request, res: Response, next: NextFunction)
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: orgId,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: orgId,
+        user_id: req.user!.id,
         action: 'entity.create',
-        resourceType: 'entity',
-        resourceId: id,
+        resource_type: 'entity',
+        resource_id: id,
         details: { type, name },
       },
     });
@@ -245,13 +258,14 @@ router.delete('/entities/:id', async (req: Request, res: Response, next: NextFun
     );
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId!,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId!,
+        user_id: req.user!.id,
         action: 'entity.delete',
-        resourceType: 'entity',
-        resourceId: req.params.id,
+        resource_type: 'entity',
+        resource_id: req.params.id,
       },
     });
 

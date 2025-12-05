@@ -37,24 +37,24 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
     const orgId = req.organizationId!;
 
     const where = {
-      organizationId: orgId,
+      organization_id: orgId,
       ...(severity && { severity }),
       ...(status && { status }),
       ...(source && { source: { contains: source } }),
     };
 
     const [alerts, total] = await Promise.all([
-      prisma.alert.findMany({
+      prisma.alerts.findMany({
         where,
         orderBy: [
           { severity: 'asc' }, // CRITICAL first
-          { createdAt: 'desc' },
+          { created_at: 'desc' },
         ],
         skip: (page - 1) * pageSize,
         take: pageSize,
-        include: { metric: true },
+        include: { metric_definitions: true },
       }),
-      prisma.alert.count({ where }),
+      prisma.alerts.count({ where }),
     ]);
 
     res.json({
@@ -80,9 +80,9 @@ router.get('/summary', async (req: Request, res: Response, next: NextFunction) =
   try {
     const orgId = req.organizationId!;
 
-    const counts = await prisma.alert.groupBy({
+    const counts = await prisma.alerts.groupBy({
       by: ['severity', 'status'],
-      where: { organizationId: orgId },
+      where: { organization_id: orgId },
       _count: true,
     });
 
@@ -122,14 +122,14 @@ router.get('/active', async (req: Request, res: Response, next: NextFunction) =>
   try {
     const orgId = req.organizationId!;
 
-    const alerts = await prisma.alert.findMany({
+    const alerts = await prisma.alerts.findMany({
       where: {
-        organizationId: orgId,
+        organization_id: orgId,
         status: 'ACTIVE',
       },
       orderBy: [
         { severity: 'asc' },
-        { createdAt: 'desc' },
+        { created_at: 'desc' },
       ],
       take: 50,
     });
@@ -149,16 +149,16 @@ router.get('/active', async (req: Request, res: Response, next: NextFunction) =>
  */
 router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const alert = await prisma.alert.findUnique({
+    const alert = await prisma.alerts.findUnique({
       where: { id: req.params.id },
-      include: { metric: true },
+      include: { metric_definitions: true },
     });
 
     if (!alert) {
       throw errors.notFound('Alert');
     }
 
-    if (alert.organizationId !== req.organizationId) {
+    if (alert.organization_id !== req.organization_id) {
       throw errors.forbidden();
     }
 
@@ -180,7 +180,7 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
     const { note } = acknowledgeSchema.parse(req.body);
     const userId = req.user!.id;
 
-    const alert = await prisma.alert.findUnique({
+    const alert = await prisma.alerts.findUnique({
       where: { id: req.params.id },
     });
 
@@ -188,7 +188,7 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
       throw errors.notFound('Alert');
     }
 
-    if (alert.organizationId !== req.organizationId) {
+    if (alert.organization_id !== req.organization_id) {
       throw errors.forbidden();
     }
 
@@ -196,12 +196,12 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
       throw errors.badRequest('Alert is not active');
     }
 
-    const updated = await prisma.alert.update({
+    const updated = await prisma.alerts.update({
       where: { id: req.params.id },
       data: {
         status: 'ACKNOWLEDGED',
-        acknowledgedAt: new Date(),
-        acknowledgedBy: userId,
+        acknowledged_at: new Date(),
+        acknowledged_by: userId,
         metadata: {
           ...(alert.metadata as object || {}),
           acknowledgeNote: note,
@@ -210,7 +210,7 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
     });
 
     // Publish event
-    await pubsub.publish(`alerts:${req.organizationId}`, {
+    await pubsub.publish(`alerts:${req.organization_id}`, {
       type: 'alert_acknowledged',
       alertId: alert.id,
       by: req.user!.name,
@@ -219,7 +219,7 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
     // Audit log
     await prisma.auditLog.create({
       data: {
-        organizationId: req.organizationId!,
+        organization_id: req.organizationId!,
         userId,
         action: 'alert.acknowledge',
         resourceType: 'alert',
@@ -246,7 +246,7 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
     const { resolution, rootCause } = resolveSchema.parse(req.body);
     const userId = req.user!.id;
 
-    const alert = await prisma.alert.findUnique({
+    const alert = await prisma.alerts.findUnique({
       where: { id: req.params.id },
     });
 
@@ -254,7 +254,7 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
       throw errors.notFound('Alert');
     }
 
-    if (alert.organizationId !== req.organizationId) {
+    if (alert.organization_id !== req.organization_id) {
       throw errors.forbidden();
     }
 
@@ -262,12 +262,12 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
       throw errors.badRequest('Alert is already resolved');
     }
 
-    const updated = await prisma.alert.update({
+    const updated = await prisma.alerts.update({
       where: { id: req.params.id },
       data: {
         status: 'RESOLVED',
-        resolvedAt: new Date(),
-        resolvedBy: userId,
+        resolved_at: new Date(),
+        resolved_by: userId,
         resolution,
         metadata: {
           ...(alert.metadata as object || {}),
@@ -277,7 +277,7 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
     });
 
     // Publish event
-    await pubsub.publish(`alerts:${req.organizationId}`, {
+    await pubsub.publish(`alerts:${req.organization_id}`, {
       type: 'alert_resolved',
       alertId: alert.id,
       by: req.user!.name,
@@ -286,7 +286,7 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
     // Audit log
     await prisma.auditLog.create({
       data: {
-        organizationId: req.organizationId!,
+        organization_id: req.organizationId!,
         userId,
         action: 'alert.resolve',
         resourceType: 'alert',
@@ -310,20 +310,20 @@ router.put('/:id/acknowledge', async (req: Request, res: Response, next: NextFun
     const { note } = acknowledgeSchema.parse(req.body);
     const userId = req.user!.id;
 
-    const alert = await prisma.alert.findUnique({
+    const alert = await prisma.alerts.findUnique({
       where: { id: req.params.id },
     });
 
     if (!alert) throw errors.notFound('Alert');
-    if (alert.organizationId !== req.organizationId) throw errors.forbidden();
+    if (alert.organization_id !== req.organization_id) throw errors.forbidden();
     if (alert.status !== 'ACTIVE') throw errors.badRequest('Alert is not active');
 
-    const updated = await prisma.alert.update({
+    const updated = await prisma.alerts.update({
       where: { id: req.params.id },
       data: {
         status: 'ACKNOWLEDGED',
-        acknowledgedAt: new Date(),
-        acknowledgedBy: userId,
+        acknowledged_at: new Date(),
+        acknowledged_by: userId,
       },
     });
 
@@ -338,20 +338,20 @@ router.put('/:id/resolve', async (req: Request, res: Response, next: NextFunctio
     const { resolution } = resolveSchema.parse(req.body);
     const userId = req.user!.id;
 
-    const alert = await prisma.alert.findUnique({
+    const alert = await prisma.alerts.findUnique({
       where: { id: req.params.id },
     });
 
     if (!alert) throw errors.notFound('Alert');
-    if (alert.organizationId !== req.organizationId) throw errors.forbidden();
+    if (alert.organization_id !== req.organization_id) throw errors.forbidden();
     if (alert.status === 'RESOLVED') throw errors.badRequest('Alert is already resolved');
 
-    const updated = await prisma.alert.update({
+    const updated = await prisma.alerts.update({
       where: { id: req.params.id },
       data: {
         status: 'RESOLVED',
-        resolvedAt: new Date(),
-        resolvedBy: userId,
+        resolved_at: new Date(),
+        resolved_by: userId,
         resolution,
       },
     });

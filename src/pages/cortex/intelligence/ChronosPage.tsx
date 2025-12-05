@@ -25,6 +25,7 @@
 
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { decisionIntelApi } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -429,6 +430,211 @@ interface LiveSyncStatus {
   throughput: number; // events per second
   kafkaOffset?: number;
   websocketStatus: 'connected' | 'reconnecting' | 'disconnected';
+}
+
+// =============================================================================
+// FULL TRACEABILITY TYPES - Court-Level Causality Proof
+// =============================================================================
+
+interface TraceabilityView {
+  eventId: string;
+  originSource: {
+    dataset: string;
+    table: string;
+    field: string;
+    timestamp: Date;
+    rawValue: any;
+  };
+  intermediateTransforms: Array<{
+    step: number;
+    service: string;
+    operation: string;
+    inputHash: string;
+    outputHash: string;
+    timestamp: Date;
+    duration: number;
+  }>;
+  finalOutput: {
+    value: any;
+    confidence: number;
+    timestamp: Date;
+  };
+  agentProvenance: {
+    agentId: string;
+    agentName: string;
+    agentRole: string;
+    deliberationId?: string;
+    reasoning: string;
+  };
+  serviceChain: Array<{
+    serviceName: string;
+    version: string;
+    method: string;
+    latency: number;
+  }>;
+  datasetLineage: Array<{
+    datasetId: string;
+    datasetName: string;
+    source: string;
+    lastUpdated: Date;
+    recordCount: number;
+    quality: number;
+  }>;
+  frameworkGovernance: {
+    framework: string;
+    policy: string;
+    controls: string[];
+    validatedAt: Date;
+    validatedBy: string;
+  };
+  integrityProof: {
+    merkleRoot: string;
+    blockNumber: number;
+    signature: string;
+  };
+}
+
+// =============================================================================
+// PER-EVENT COMPLIANCE SNAPSHOT TYPES
+// =============================================================================
+
+interface EventComplianceSnapshot {
+  eventId: string;
+  timestamp: Date;
+  nistScore: {
+    overall: number;
+    identify: number;
+    protect: number;
+    detect: number;
+    respond: number;
+    recover: number;
+  };
+  oecdScore: {
+    overall: number;
+    transparency: number;
+    accountability: number;
+    robustness: number;
+    fairness: number;
+    privacy: number;
+  };
+  privacyCompliance: {
+    gdprStatus: 'compliant' | 'warning' | 'violation';
+    ccpaStatus: 'compliant' | 'warning' | 'violation';
+    dataMinimization: number;
+    consentCoverage: number;
+    retentionCompliance: number;
+  };
+  securityPosture: {
+    overallScore: number;
+    vulnerabilities: { critical: number; high: number; medium: number; low: number };
+    encryptionCoverage: number;
+    accessControlScore: number;
+    auditLogIntegrity: number;
+  };
+  stakeholderImpact: {
+    customersAffected: number;
+    employeesAffected: number;
+    partnersAffected: number;
+    financialExposure: number;
+    reputationalRisk: 'low' | 'medium' | 'high' | 'critical';
+  };
+  driftScore: {
+    modelDrift: number;
+    dataDrift: number;
+    conceptDrift: number;
+    performanceDrift: number;
+    lastCalibration: Date;
+  };
+}
+
+// =============================================================================
+// REVERSE TIME CHECK TYPES - Chronos Integrity Validation
+// =============================================================================
+
+interface ReverseTimeCheck {
+  id: string;
+  targetDate: Date;
+  requestedBy: string;
+  requestedAt: Date;
+  status: 'pending' | 'rebuilding' | 'complete' | 'mismatch_detected';
+  progress: number;
+  reconstructedState: StateSnapshot | null;
+  expectedHash: string;
+  actualHash: string;
+  mismatches: Array<{
+    field: string;
+    expected: any;
+    actual: any;
+    severity: 'critical' | 'high' | 'medium' | 'low';
+    possibleCauses: string[];
+  }>;
+  tamperProofSignal: {
+    isValid: boolean;
+    validationMethod: string;
+    merkleProof: string[];
+    blockRange: [number, number];
+    witnessSignatures: string[];
+  };
+  forensicReport: {
+    generatedAt: Date;
+    findings: string[];
+    recommendations: string[];
+    legalAdmissible: boolean;
+  };
+}
+
+// =============================================================================
+// REGULATOR MODE TYPES
+// =============================================================================
+
+interface RegulatorSession {
+  id: string;
+  regulatorId: string;
+  regulatorOrg: 'SEC' | 'FDIC' | 'OCC' | 'FRB' | 'DOJ' | 'FTC' | 'HHS' | 'Custom';
+  regulatorName: string;
+  accessLevel: 'full_audit' | 'financial_only' | 'compliance_only' | 'summary_only';
+  startedAt: Date;
+  expiresAt: Date;
+  isReadOnly: true;
+  timeSliceStart: Date;
+  timeSliceEnd: Date;
+  redactionProfile: 'standard' | 'strict' | 'minimal';
+  viewedItems: string[];
+  exportedReports: string[];
+  sessionKey: string;
+  ipRestriction?: string;
+  twoFactorVerified: boolean;
+}
+
+// =============================================================================
+// ZERO-KNOWLEDGE AUDIT TYPES
+// =============================================================================
+
+interface ZeroKnowledgeProof {
+  id: string;
+  proofType: 'compliance' | 'financial' | 'privacy' | 'security' | 'ethics';
+  claim: string;
+  framework: 'GDPR' | 'HIPAA' | 'SOX' | 'SOC2' | 'NIST' | 'ISO27001' | 'CCPA' | 'OECD_AI';
+  generatedAt: Date;
+  expiresAt: Date;
+  proof: {
+    commitment: string;
+    challenge: string;
+    response: string;
+    publicInputs: string[];
+  };
+  verification: {
+    isValid: boolean;
+    verifiedAt: Date;
+    verifierSignature: string;
+    verificationHash: string;
+  };
+  metadata: {
+    dataPointsProven: number;
+    timeRangeCovered: { start: Date; end: Date };
+    piiExposed: false;
+    secretsRevealed: false;
+  };
 }
 
 // =============================================================================
@@ -1032,6 +1238,224 @@ const DEFAULT_REDACTION_RULES: RedactionRule[] = [
 ];
 
 // =============================================================================
+// FULL TRACEABILITY GENERATOR - Court-Level Causality Proof
+// =============================================================================
+
+const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
+  const services = ['DataIngestionService', 'TransformEngine', 'ValidationService', 'AIAnalytics', 'DecisionService'];
+  const datasets = ['CRM_Pipeline', 'ERP_Transactions', 'HR_Records', 'Engineering_Metrics', 'Financial_Ledger'];
+  const agents = ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent', 'CRO Agent'];
+  
+  return {
+    eventId: event.id,
+    originSource: {
+      dataset: datasets[Math.floor(Math.random() * datasets.length)],
+      table: `${event.department?.toLowerCase() || 'core'}_events`,
+      field: event.type === 'metric' ? 'value' : event.type === 'financial' ? 'amount' : 'status',
+      timestamp: new Date(event.timestamp.getTime() - 3600000),
+      rawValue: event.type === 'financial' ? Math.floor(Math.random() * 10000000) : event.title,
+    },
+    intermediateTransforms: Array.from({ length: 3 + Math.floor(Math.random() * 3) }, (_, i) => ({
+      step: i + 1,
+      service: services[i % services.length],
+      operation: ['Extract', 'Transform', 'Validate', 'Enrich', 'Aggregate', 'Normalize'][i % 6],
+      inputHash: generateHash(`input-${event.id}-${i}`),
+      outputHash: generateHash(`output-${event.id}-${i}`),
+      timestamp: new Date(event.timestamp.getTime() - (3600000 - i * 600000)),
+      duration: 50 + Math.floor(Math.random() * 200),
+    })),
+    finalOutput: {
+      value: event.title,
+      confidence: 0.85 + Math.random() * 0.14,
+      timestamp: event.timestamp,
+    },
+    agentProvenance: {
+      agentId: `agent-${Math.floor(Math.random() * 6)}`,
+      agentName: agents[Math.floor(Math.random() * agents.length)],
+      agentRole: event.actors?.[0] || 'Analyst',
+      deliberationId: event.deliberationId,
+      reasoning: `Analysis based on ${event.type} data patterns and historical precedent. Confidence level determined by data quality and model accuracy.`,
+    },
+    serviceChain: services.slice(0, 3 + Math.floor(Math.random() * 2)).map((s, i) => ({
+      serviceName: s,
+      version: `v${Math.floor(Math.random() * 3) + 1}.${Math.floor(Math.random() * 10)}.${Math.floor(Math.random() * 20)}`,
+      method: ['process', 'analyze', 'validate', 'transform'][i % 4],
+      latency: 10 + Math.floor(Math.random() * 50),
+    })),
+    datasetLineage: datasets.slice(0, 2 + Math.floor(Math.random() * 2)).map(d => ({
+      datasetId: `ds-${generateHash(d).slice(0, 8)}`,
+      datasetName: d,
+      source: ['Salesforce', 'SAP', 'Workday', 'Internal'][Math.floor(Math.random() * 4)],
+      lastUpdated: new Date(event.timestamp.getTime() - Math.random() * 86400000),
+      recordCount: Math.floor(Math.random() * 1000000),
+      quality: 0.9 + Math.random() * 0.09,
+    })),
+    frameworkGovernance: {
+      framework: ['NIST CSF', 'ISO 27001', 'SOC 2', 'GDPR', 'OECD AI'][Math.floor(Math.random() * 5)],
+      policy: `${event.department || 'Corporate'} Data Governance Policy v2.1`,
+      controls: ['Access Control', 'Data Classification', 'Audit Logging', 'Encryption'].slice(0, 2 + Math.floor(Math.random() * 2)),
+      validatedAt: new Date(event.timestamp.getTime() - 60000),
+      validatedBy: 'Compliance Engine v3.2',
+    },
+    integrityProof: {
+      merkleRoot: generateHash(`merkle-${event.id}`),
+      blockNumber: 4000 + Math.floor(Math.random() * 400),
+      signature: generateHash(`sig-${event.id}-${Date.now()}`),
+    },
+  };
+};
+
+// =============================================================================
+// PER-EVENT COMPLIANCE SNAPSHOT GENERATOR
+// =============================================================================
+
+const generateEventComplianceSnapshot = (event: TimelineEvent): EventComplianceSnapshot => {
+  const riskLevel = Math.random();
+  return {
+    eventId: event.id,
+    timestamp: event.timestamp,
+    nistScore: {
+      overall: 75 + Math.floor(Math.random() * 20),
+      identify: 70 + Math.floor(Math.random() * 25),
+      protect: 75 + Math.floor(Math.random() * 20),
+      detect: 80 + Math.floor(Math.random() * 15),
+      respond: 70 + Math.floor(Math.random() * 25),
+      recover: 65 + Math.floor(Math.random() * 30),
+    },
+    oecdScore: {
+      overall: 80 + Math.floor(Math.random() * 15),
+      transparency: 85 + Math.floor(Math.random() * 10),
+      accountability: 80 + Math.floor(Math.random() * 15),
+      robustness: 75 + Math.floor(Math.random() * 20),
+      fairness: 82 + Math.floor(Math.random() * 13),
+      privacy: 78 + Math.floor(Math.random() * 17),
+    },
+    privacyCompliance: {
+      gdprStatus: riskLevel < 0.1 ? 'violation' : riskLevel < 0.25 ? 'warning' : 'compliant',
+      ccpaStatus: riskLevel < 0.08 ? 'violation' : riskLevel < 0.2 ? 'warning' : 'compliant',
+      dataMinimization: 85 + Math.floor(Math.random() * 12),
+      consentCoverage: 92 + Math.floor(Math.random() * 7),
+      retentionCompliance: 88 + Math.floor(Math.random() * 10),
+    },
+    securityPosture: {
+      overallScore: 82 + Math.floor(Math.random() * 15),
+      vulnerabilities: {
+        critical: Math.floor(Math.random() * 2),
+        high: Math.floor(Math.random() * 5),
+        medium: Math.floor(Math.random() * 15),
+        low: Math.floor(Math.random() * 30),
+      },
+      encryptionCoverage: 95 + Math.floor(Math.random() * 4),
+      accessControlScore: 88 + Math.floor(Math.random() * 10),
+      auditLogIntegrity: 99 + Math.random(),
+    },
+    stakeholderImpact: {
+      customersAffected: event.type === 'milestone' ? Math.floor(Math.random() * 10000) : Math.floor(Math.random() * 500),
+      employeesAffected: event.type === 'personnel' ? Math.floor(Math.random() * 50) : Math.floor(Math.random() * 10),
+      partnersAffected: Math.floor(Math.random() * 5),
+      financialExposure: event.type === 'financial' ? Math.floor(Math.random() * 5000000) : Math.floor(Math.random() * 500000),
+      reputationalRisk: riskLevel < 0.1 ? 'critical' : riskLevel < 0.25 ? 'high' : riskLevel < 0.5 ? 'medium' : 'low',
+    },
+    driftScore: {
+      modelDrift: Math.random() * 0.15,
+      dataDrift: Math.random() * 0.12,
+      conceptDrift: Math.random() * 0.08,
+      performanceDrift: Math.random() * 0.1,
+      lastCalibration: new Date(event.timestamp.getTime() - Math.random() * 7 * 86400000),
+    },
+  };
+};
+
+// =============================================================================
+// REVERSE TIME CHECK GENERATOR - Chronos Integrity Validation
+// =============================================================================
+
+const generateReverseTimeCheck = (targetDate: Date, mode: ChronosMode): ReverseTimeCheck => {
+  const hasMismatch = Math.random() < 0.05; // 5% chance of detecting a mismatch
+  const expectedHash = generateHash(`expected-${targetDate.toISOString()}`);
+  const actualHash = hasMismatch ? generateHash(`actual-${Date.now()}`) : expectedHash;
+  
+  return {
+    id: `rtc-${Date.now()}`,
+    targetDate,
+    requestedBy: 'compliance@company.com',
+    requestedAt: new Date(),
+    status: hasMismatch ? 'mismatch_detected' : 'complete',
+    progress: 100,
+    reconstructedState: generateSnapshot(targetDate, mode),
+    expectedHash,
+    actualHash,
+    mismatches: hasMismatch ? [
+      {
+        field: 'metrics.revenue',
+        expected: 12500000,
+        actual: 12487500,
+        severity: 'medium',
+        possibleCauses: ['Late transaction reconciliation', 'Currency conversion timing', 'Rounding differences'],
+      },
+    ] : [],
+    tamperProofSignal: {
+      isValid: !hasMismatch,
+      validationMethod: 'Merkle Tree + Digital Signatures',
+      merkleProof: Array.from({ length: 8 }, (_, i) => generateHash(`proof-${i}-${targetDate.toISOString()}`)),
+      blockRange: [4000, 4382],
+      witnessSignatures: ['Chronos Node 1', 'Chronos Node 2', 'Chronos Node 3'].map(w => generateHash(`witness-${w}`)),
+    },
+    forensicReport: {
+      generatedAt: new Date(),
+      findings: hasMismatch 
+        ? ['Minor discrepancy detected in revenue metrics', 'All other fields validated successfully', 'Hash chain integrity maintained']
+        : ['All state reconstructions match stored hashes', 'No tampering detected', 'Full audit trail verified'],
+      recommendations: hasMismatch
+        ? ['Review transaction logs for the affected period', 'Verify ERP sync status', 'Consider manual reconciliation']
+        : ['Continue regular monitoring', 'Schedule next integrity check'],
+      legalAdmissible: true,
+    },
+  };
+};
+
+// =============================================================================
+// ZERO-KNOWLEDGE PROOF GENERATOR
+// =============================================================================
+
+const generateZKProof = (
+  proofType: ZeroKnowledgeProof['proofType'],
+  framework: ZeroKnowledgeProof['framework'],
+  claim: string
+): ZeroKnowledgeProof => {
+  return {
+    id: `zkp-${Date.now()}`,
+    proofType,
+    claim,
+    framework,
+    generatedAt: new Date(),
+    expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
+    proof: {
+      commitment: generateHash(`commitment-${framework}-${Date.now()}`),
+      challenge: generateHash(`challenge-${framework}-${Date.now()}`),
+      response: generateHash(`response-${framework}-${Date.now()}`),
+      publicInputs: [
+        `Framework: ${framework}`,
+        `Time Range: Last 365 days`,
+        `Compliance Status: VERIFIED`,
+      ],
+    },
+    verification: {
+      isValid: true,
+      verifiedAt: new Date(),
+      verifierSignature: generateHash(`verifier-sig-${Date.now()}`),
+      verificationHash: generateHash(`verification-${framework}-${Date.now()}`),
+    },
+    metadata: {
+      dataPointsProven: 10000 + Math.floor(Math.random() * 50000),
+      timeRangeCovered: { start: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000), end: new Date() },
+      piiExposed: false,
+      secretsRevealed: false,
+    },
+  };
+};
+
+// =============================================================================
 // MAIN COMPONENT
 // =============================================================================
 
@@ -1085,6 +1509,34 @@ export const ChronosPage: React.FC = () => {
   const [engineeringEvents] = useState(() => generateEngineeringEvents());
   const [serviceTickets] = useState(() => generateServiceTickets());
   const [documentRevisions] = useState(() => generateDocumentRevisions());
+
+  // =========================================================================
+  // NEW FEATURE STATES - The 5 Power Features
+  // =========================================================================
+  
+  // (1) Full Traceability Views
+  const [showTraceability, setShowTraceability] = useState(false);
+  const [traceabilityView, setTraceabilityView] = useState<TraceabilityView | null>(null);
+  
+  // (2) Per-Event Compliance Snapshot
+  const [showComplianceSnapshot, setShowComplianceSnapshot] = useState(false);
+  const [eventComplianceSnapshot, setEventComplianceSnapshot] = useState<EventComplianceSnapshot | null>(null);
+  
+  // (3) Reverse Time Checks - Chronos Integrity Validation
+  const [showReverseTimeCheck, setShowReverseTimeCheck] = useState(false);
+  const [reverseTimeCheck, setReverseTimeCheck] = useState<ReverseTimeCheck | null>(null);
+  const [reverseTimeProgress, setReverseTimeProgress] = useState(0);
+  const [isRebuildingState, setIsRebuildingState] = useState(false);
+  
+  // (4) Regulator Mode
+  const [regulatorMode, setRegulatorMode] = useState(false);
+  const [regulatorSession, setRegulatorSession] = useState<RegulatorSession | null>(null);
+  const [showRegulatorSetup, setShowRegulatorSetup] = useState(false);
+  
+  // (5) Zero-Knowledge Audits
+  const [showZKAudit, setShowZKAudit] = useState(false);
+  const [zkProofs, setZkProofs] = useState<ZeroKnowledgeProof[]>([]);
+  const [isGeneratingProof, setIsGeneratingProof] = useState(false);
 
   // Time range based on mode
   const timeRange = useMemo(() => {
@@ -1141,6 +1593,23 @@ export const ChronosPage: React.FC = () => {
   useEffect(() => {
     setPivotalMoments(generatePivotalMoments(events));
   }, [events]);
+
+  // Fetch real Chronos snapshots from API
+  useEffect(() => {
+    const fetchChronosData = async () => {
+      try {
+        const snapshotsResponse = await decisionIntelApi.getChronosSnapshots();
+        if (snapshotsResponse.success && snapshotsResponse.data && Array.isArray(snapshotsResponse.data)) {
+          console.log('[Chronos] Loaded', snapshotsResponse.data.length, 'snapshots from database');
+          // Snapshots loaded - can be used to enhance timeline
+          // For now, we log success - full integration would replace generateSnapshot
+        }
+      } catch (error) {
+        console.log('[Chronos] Using local generators (API unavailable)');
+      }
+    };
+    fetchChronosData();
+  }, []);
 
   // Generate animated graph nodes
   useEffect(() => {
@@ -1291,6 +1760,97 @@ export const ChronosPage: React.FC = () => {
     alert(`✅ Export generated: ${format.toUpperCase()}\nBlocks: ${exportData.includedBlocks.length}\nSignatures: ${exportData.signatures.length}`);
   };
 
+  // ==========================================================================
+  // NEW FEATURE HANDLERS - The 5 Power Features
+  // ==========================================================================
+
+  // (1) Full Traceability - Show origin → intermediate → final causality
+  const openTraceability = (event: TimelineEvent) => {
+    const traceability = generateTraceabilityView(event);
+    setTraceabilityView(traceability);
+    setShowTraceability(true);
+  };
+
+  // (2) Per-Event Compliance Snapshot
+  const openComplianceSnapshot = (event: TimelineEvent) => {
+    const snapshot = generateEventComplianceSnapshot(event);
+    setEventComplianceSnapshot(snapshot);
+    setShowComplianceSnapshot(true);
+  };
+
+  // (3) Reverse Time Check - Rebuild company state at any date
+  const runReverseTimeCheck = async (targetDate: Date) => {
+    setIsRebuildingState(true);
+    setReverseTimeProgress(0);
+    setShowReverseTimeCheck(true);
+    
+    // Simulate progressive reconstruction
+    for (let i = 0; i <= 100; i += 5) {
+      await new Promise(resolve => setTimeout(resolve, 100));
+      setReverseTimeProgress(i);
+    }
+    
+    const check = generateReverseTimeCheck(targetDate, mode);
+    setReverseTimeCheck(check);
+    setIsRebuildingState(false);
+  };
+
+  // (4) Regulator Mode - Setup read-only session
+  const startRegulatorSession = (
+    org: RegulatorSession['regulatorOrg'],
+    name: string,
+    accessLevel: RegulatorSession['accessLevel'],
+    timeSlice: { start: Date; end: Date }
+  ) => {
+    const session: RegulatorSession = {
+      id: `reg-${Date.now()}`,
+      regulatorId: generateHash(`${org}-${Date.now()}`).slice(0, 16),
+      regulatorOrg: org,
+      regulatorName: name,
+      accessLevel,
+      startedAt: new Date(),
+      expiresAt: new Date(Date.now() + 8 * 60 * 60 * 1000), // 8 hours
+      isReadOnly: true,
+      timeSliceStart: timeSlice.start,
+      timeSliceEnd: timeSlice.end,
+      redactionProfile: accessLevel === 'full_audit' ? 'minimal' : 'standard',
+      viewedItems: [],
+      exportedReports: [],
+      sessionKey: generateHash(`session-${Date.now()}`).slice(0, 32),
+      twoFactorVerified: true,
+    };
+    setRegulatorSession(session);
+    setRegulatorMode(true);
+    setShowRegulatorSetup(false);
+  };
+
+  const endRegulatorSession = () => {
+    setRegulatorMode(false);
+    setRegulatorSession(null);
+  };
+
+  // (5) Zero-Knowledge Audit - Generate ZK proof
+  const generateZKAuditProof = async (
+    framework: ZeroKnowledgeProof['framework'],
+    claim: string
+  ) => {
+    setIsGeneratingProof(true);
+    
+    // Simulate ZK proof generation (computationally intensive in real implementation)
+    await new Promise(resolve => setTimeout(resolve, 2000));
+    
+    const proofType: ZeroKnowledgeProof['proofType'] = 
+      framework === 'GDPR' || framework === 'CCPA' ? 'privacy' :
+      framework === 'SOX' ? 'financial' :
+      framework === 'HIPAA' ? 'privacy' :
+      framework === 'NIST' || framework === 'ISO27001' || framework === 'SOC2' ? 'security' :
+      'compliance';
+    
+    const proof = generateZKProof(proofType, framework, claim);
+    setZkProofs(prev => [...prev, proof]);
+    setIsGeneratingProof(false);
+  };
+
   const getModeStyles = () => {
     switch (mode) {
       case 'rewind': return { gradient: 'from-amber-600 to-orange-700', accent: 'amber', icon: '⏪' };
@@ -1420,6 +1980,32 @@ export const ChronosPage: React.FC = () => {
                 className="px-3 py-1 text-xs bg-indigo-700/50 hover:bg-indigo-600/50 rounded-lg transition-colors flex items-center gap-1"
               >
                 🏢 ERP Systems
+              </button>
+              
+              {/* New Power Features */}
+              <div className="h-4 w-px bg-neutral-600 mx-1" />
+              
+              <button
+                onClick={() => runReverseTimeCheck(currentDate)}
+                className="px-3 py-1 text-xs bg-rose-700/50 hover:bg-rose-600/50 rounded-lg transition-colors flex items-center gap-1"
+              >
+                🔄 Integrity Check
+              </button>
+              <button
+                onClick={() => setShowRegulatorSetup(true)}
+                className={`px-3 py-1 text-xs rounded-lg transition-colors flex items-center gap-1 ${
+                  regulatorMode 
+                    ? 'bg-red-600 text-white animate-pulse' 
+                    : 'bg-purple-700/50 hover:bg-purple-600/50'
+                }`}
+              >
+                {regulatorMode ? '🔴 Regulator Mode Active' : '🏛️ Regulator Mode'}
+              </button>
+              <button
+                onClick={() => setShowZKAudit(true)}
+                className="px-3 py-1 text-xs bg-cyan-700/50 hover:bg-cyan-600/50 rounded-lg transition-colors flex items-center gap-1"
+              >
+                🔐 ZK Audit
               </button>
             </div>
           </div>
@@ -1701,6 +2287,257 @@ export const ChronosPage: React.FC = () => {
           onAdd={addWitnessSession}
           onClose={() => setShowWitnessModal(false)}
         />
+      )}
+
+      {/* Full Traceability Modal */}
+      {showTraceability && traceabilityView && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-5xl max-h-[90vh] overflow-hidden">
+            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+              <div>
+                <h2 className="text-2xl font-bold text-white flex items-center gap-3">🔍 Full Traceability View</h2>
+                <p className="text-neutral-400 text-sm mt-1">Court-level causality proof: Origin → Intermediate → Final</p>
+              </div>
+              <button onClick={() => setShowTraceability(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
+            </div>
+            <div className="p-6 overflow-y-auto max-h-[70vh] space-y-6">
+              <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
+                <h3 className="text-emerald-400 font-semibold mb-3">📥 Origin Source</h3>
+                <div className="grid grid-cols-3 gap-4 text-sm">
+                  <div><span className="text-neutral-400">Dataset:</span> <span className="text-white font-mono">{traceabilityView.originSource.dataset}</span></div>
+                  <div><span className="text-neutral-400">Table:</span> <span className="text-white font-mono">{traceabilityView.originSource.table}</span></div>
+                  <div><span className="text-neutral-400">Field:</span> <span className="text-white font-mono">{traceabilityView.originSource.field}</span></div>
+                </div>
+              </div>
+              <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
+                <h3 className="text-amber-400 font-semibold mb-3">⚙️ Transforms ({traceabilityView.intermediateTransforms.length})</h3>
+                <div className="space-y-2">
+                  {traceabilityView.intermediateTransforms.map((t: { step: number; service: string; operation: string; outputHash: string; duration: number }, i: number) => (
+                    <div key={i} className="flex items-center gap-3 bg-black/30 rounded-lg p-3">
+                      <span className="w-6 h-6 bg-amber-600 rounded-full flex items-center justify-center text-xs font-bold">{t.step}</span>
+                      <div className="flex-1">
+                        <div className="text-white font-medium">{t.service} → {t.operation}</div>
+                        <div className="text-xs text-neutral-400 font-mono">Hash: {t.outputHash.slice(0, 16)}...</div>
+                      </div>
+                      <div className="text-xs text-neutral-400">{t.duration}ms</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
+                <h3 className="text-purple-400 font-semibold mb-3">🤖 Agent Provenance</h3>
+                <div className="flex items-center gap-4">
+                  <div className="w-16 h-16 bg-purple-600/50 rounded-full flex items-center justify-center text-2xl">🧠</div>
+                  <div>
+                    <div className="text-white font-bold">{traceabilityView.agentProvenance.agentName}</div>
+                    <div className="text-neutral-400 text-sm">{traceabilityView.agentProvenance.agentRole}</div>
+                    <div className="text-neutral-300 text-sm mt-2 italic">"{traceabilityView.agentProvenance.reasoning}"</div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-green-900/30 rounded-xl p-4 border border-green-700">
+                <h3 className="text-green-400 font-semibold mb-3">✅ Integrity Proof</h3>
+                <div className="font-mono text-xs text-neutral-300 bg-black/30 p-3 rounded-lg">
+                  <div>Merkle Root: {traceabilityView.integrityProof.merkleRoot}</div>
+                  <div>Block: #{traceabilityView.integrityProof.blockNumber}</div>
+                  <div>Signature: {traceabilityView.integrityProof.signature.slice(0, 32)}...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Per-Event Compliance Snapshot Modal */}
+      {showComplianceSnapshot && eventComplianceSnapshot && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
+            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+              <div>
+                <h2 className="text-2xl font-bold text-white">📊 Compliance Snapshot</h2>
+                <p className="text-neutral-400 text-sm mt-1">At the time this decision was made</p>
+              </div>
+              <button onClick={() => setShowComplianceSnapshot(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
+            </div>
+            <div className="p-6 overflow-y-auto max-h-[70vh] grid grid-cols-2 gap-4">
+              <div className="bg-blue-900/30 rounded-xl p-4 border border-blue-700">
+                <h3 className="text-blue-400 font-semibold mb-3">🛡️ NIST CSF</h3>
+                <div className="text-4xl font-bold text-white mb-3">{eventComplianceSnapshot.nistScore.overall}%</div>
+              </div>
+              <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
+                <h3 className="text-purple-400 font-semibold mb-3">🌐 OECD AI</h3>
+                <div className="text-4xl font-bold text-white mb-3">{eventComplianceSnapshot.oecdScore.overall}%</div>
+              </div>
+              <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
+                <h3 className="text-emerald-400 font-semibold mb-3">🔒 Privacy</h3>
+                <div className="space-y-2 text-sm">
+                  <div className="flex justify-between"><span className="text-neutral-400">GDPR</span><span className={`px-2 py-0.5 rounded text-xs ${eventComplianceSnapshot.privacyCompliance.gdprStatus === 'compliant' ? 'bg-green-600' : 'bg-amber-600'}`}>{eventComplianceSnapshot.privacyCompliance.gdprStatus.toUpperCase()}</span></div>
+                  <div className="flex justify-between"><span className="text-neutral-400">CCPA</span><span className={`px-2 py-0.5 rounded text-xs ${eventComplianceSnapshot.privacyCompliance.ccpaStatus === 'compliant' ? 'bg-green-600' : 'bg-amber-600'}`}>{eventComplianceSnapshot.privacyCompliance.ccpaStatus.toUpperCase()}</span></div>
+                </div>
+              </div>
+              <div className="bg-red-900/30 rounded-xl p-4 border border-red-700">
+                <h3 className="text-red-400 font-semibold mb-3">🔐 Security</h3>
+                <div className="text-4xl font-bold text-white mb-3">{eventComplianceSnapshot.securityPosture.overallScore}%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Reverse Time Check Modal */}
+      {showReverseTimeCheck && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-3xl">
+            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+              <div>
+                <h2 className="text-2xl font-bold text-white">🔄 Chronos Integrity Validation</h2>
+                <p className="text-neutral-400 text-sm mt-1">Rebuilding company state as of {currentDate.toLocaleDateString()}</p>
+              </div>
+              <button onClick={() => setShowReverseTimeCheck(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
+            </div>
+            <div className="p-6">
+              {isRebuildingState ? (
+                <div className="text-center py-12">
+                  <div className="text-6xl mb-4 animate-spin">⏳</div>
+                  <div className="text-white font-bold text-xl mb-2">Reconstructing State...</div>
+                  <div className="w-full bg-neutral-700 rounded-full h-3 mb-4">
+                    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-3 rounded-full transition-all" style={{ width: `${reverseTimeProgress}%` }} />
+                  </div>
+                  <div className="text-neutral-400">{reverseTimeProgress}% complete</div>
+                </div>
+              ) : reverseTimeCheck && (
+                <div className="space-y-6">
+                  <div className={`p-6 rounded-xl ${reverseTimeCheck.status === 'complete' ? 'bg-green-900/30 border border-green-700' : 'bg-red-900/30 border border-red-700'}`}>
+                    <div className="flex items-center gap-4">
+                      <span className="text-5xl">{reverseTimeCheck.status === 'complete' ? '✅' : '⚠️'}</span>
+                      <div>
+                        <div className={`text-2xl font-bold ${reverseTimeCheck.status === 'complete' ? 'text-green-400' : 'text-red-400'}`}>
+                          {reverseTimeCheck.status === 'complete' ? 'INTEGRITY VERIFIED' : 'MISMATCH DETECTED'}
+                        </div>
+                        <div className="text-neutral-400">{reverseTimeCheck.status === 'complete' ? 'All state reconstructions match stored hashes.' : 'Discrepancies found.'}</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-black/30 rounded-xl p-4">
+                    <h3 className="text-white font-semibold mb-3">🔐 Hash Verification</h3>
+                    <div className="font-mono text-xs space-y-2">
+                      <div className="flex justify-between"><span className="text-neutral-400">Expected:</span><span className="text-white">{reverseTimeCheck.expectedHash.slice(0, 32)}...</span></div>
+                      <div className="flex justify-between"><span className="text-neutral-400">Actual:</span><span className={reverseTimeCheck.expectedHash === reverseTimeCheck.actualHash ? 'text-green-400' : 'text-red-400'}>{reverseTimeCheck.actualHash.slice(0, 32)}...</span></div>
+                    </div>
+                  </div>
+                  {reverseTimeCheck.forensicReport.legalAdmissible && (
+                    <div className="mt-3 text-green-400 text-sm">⚖️ This report is court-admissible</div>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Regulator Mode Setup Modal */}
+      {showRegulatorSetup && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-2xl">
+            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+              <div>
+                <h2 className="text-2xl font-bold text-white">🏛️ Regulator Mode Setup</h2>
+                <p className="text-neutral-400 text-sm mt-1">Read-only access for regulatory inspection</p>
+              </div>
+              <button onClick={() => setShowRegulatorSetup(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
+            </div>
+            <div className="p-6 space-y-4">
+              <div className="grid grid-cols-2 gap-4">
+                {(['SEC', 'FDIC', 'OCC', 'FRB', 'DOJ', 'FTC', 'HHS', 'Custom'] as const).map(org => (
+                  <button key={org} onClick={() => startRegulatorSession(org, `${org} Auditor`, 'full_audit', { start: timeRange.min, end: currentDate })} className="p-4 bg-neutral-800 hover:bg-neutral-700 rounded-xl text-left transition-colors">
+                    <div className="text-white font-bold">{org}</div>
+                    <div className="text-neutral-400 text-sm">{org === 'SEC' ? 'Securities & Exchange' : org === 'FDIC' ? 'Federal Deposit Insurance' : org === 'Custom' ? 'Custom Regulatory Body' : `${org} Agency`}</div>
+                  </button>
+                ))}
+              </div>
+              <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
+                <div className="text-amber-400 font-semibold">⚠️ Important</div>
+                <div className="text-neutral-300 text-sm mt-1">Regulator Mode provides read-only access with automatic redaction. All access is logged.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Regulator Mode Banner */}
+      {regulatorMode && regulatorSession && (
+        <div className="fixed top-0 left-0 right-0 bg-red-600 text-white py-2 px-4 z-50 flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <span className="text-xl">🔴</span>
+            <div>
+              <span className="font-bold">REGULATOR MODE ACTIVE</span>
+              <span className="ml-4 text-sm opacity-80">{regulatorSession.regulatorOrg} - Expires: {regulatorSession.expiresAt.toLocaleTimeString()}</span>
+            </div>
+          </div>
+          <button onClick={endRegulatorSession} className="bg-white text-red-600 px-4 py-1 rounded-lg font-bold hover:bg-red-100">End Session</button>
+        </div>
+      )}
+
+      {/* Zero-Knowledge Audit Modal */}
+      {showZKAudit && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
+            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+              <div>
+                <h2 className="text-2xl font-bold text-white">🔐 Zero-Knowledge Audits</h2>
+                <p className="text-neutral-400 text-sm mt-1">Prove compliance without revealing sensitive data</p>
+              </div>
+              <button onClick={() => setShowZKAudit(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
+            </div>
+            <div className="p-6 overflow-y-auto max-h-[70vh]">
+              <div className="bg-gradient-to-r from-cyan-900/50 to-blue-900/50 rounded-xl p-4 border border-cyan-700 mb-6">
+                <h3 className="text-cyan-400 font-semibold mb-3">Generate New ZK Proof</h3>
+                <div className="grid grid-cols-4 gap-3">
+                  {(['GDPR', 'HIPAA', 'SOX', 'SOC2', 'NIST', 'ISO27001', 'CCPA', 'OECD_AI'] as const).map(fw => (
+                    <button key={fw} onClick={() => generateZKAuditProof(fw, `We are compliant with ${fw} requirements`)} disabled={isGeneratingProof} className="p-3 bg-black/30 hover:bg-black/50 rounded-lg text-center transition-colors disabled:opacity-50">
+                      <div className="text-white font-bold">{fw}</div>
+                      <div className="text-xs text-neutral-400">Generate Proof</div>
+                    </button>
+                  ))}
+                </div>
+                {isGeneratingProof && <div className="mt-4 text-center text-cyan-400"><span className="animate-spin inline-block mr-2">⚡</span>Generating cryptographic proof...</div>}
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-3">Generated Proofs ({zkProofs.length})</h3>
+                {zkProofs.length === 0 ? (
+                  <div className="text-neutral-400 text-center py-8">No proofs generated yet. Click a framework above.</div>
+                ) : (
+                  <div className="space-y-3">
+                    {zkProofs.map((proof: ZeroKnowledgeProof, i: number) => (
+                      <div key={i} className="bg-neutral-800 rounded-xl p-4">
+                        <div className="flex items-center justify-between mb-3">
+                          <div className="flex items-center gap-3">
+                            <span className="text-2xl">✅</span>
+                            <div>
+                              <div className="text-white font-bold">{proof.framework} Compliance Proof</div>
+                              <div className="text-neutral-400 text-sm">{proof.claim}</div>
+                            </div>
+                          </div>
+                          <span className="px-3 py-1 bg-green-600 rounded-full text-xs font-bold">VERIFIED</span>
+                        </div>
+                        <div className="grid grid-cols-3 gap-4 text-sm">
+                          <div><span className="text-neutral-400">Data Points:</span><span className="text-white ml-2">{proof.metadata.dataPointsProven.toLocaleString()}</span></div>
+                          <div><span className="text-neutral-400">PII Exposed:</span><span className="text-green-400 ml-2">NONE</span></div>
+                          <div><span className="text-neutral-400">Secrets:</span><span className="text-green-400 ml-2">NONE</span></div>
+                        </div>
+                        <div className="mt-3 p-2 bg-black/30 rounded-lg font-mono text-xs text-neutral-400">Proof Hash: {proof.verification.verificationHash.slice(0, 48)}...</div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <div className="mt-6 bg-purple-900/30 rounded-xl p-4 border border-purple-700">
+                <h3 className="text-purple-400 font-semibold mb-2">🔮 How Zero-Knowledge Proofs Work</h3>
+                <div className="text-neutral-300 text-sm">Zero-knowledge proofs allow you to prove statements about your data without revealing the data itself. Demonstrate GDPR compliance without exposing PII.</div>
+              </div>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

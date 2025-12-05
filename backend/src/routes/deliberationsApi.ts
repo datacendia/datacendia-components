@@ -37,25 +37,25 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
     const { status, page, limit } = querySchema.parse(req.query);
     const orgId = req.organizationId!;
 
-    const where: Prisma.DeliberationWhereInput = {
-      organizationId: orgId,
+    const where: Prisma.deliberationsWhereInput = {
+      organization_id: orgId,
       ...(status && { status }),
     };
 
     const [deliberations, total] = await Promise.all([
-      prisma.deliberation.findMany({
+      prisma.deliberations.findMany({
         where,
-        orderBy: { createdAt: 'desc' },
+        orderBy: { created_at: 'desc' },
         skip: (page - 1) * limit,
         take: limit,
         include: {
-          messages: {
+          deliberation_messages: {
             take: 1,
-            orderBy: { createdAt: 'desc' },
+            orderBy: { created_at: 'desc' },
           },
         },
       }),
-      prisma.deliberation.count({ where }),
+      prisma.deliberations.count({ where }),
     ]);
 
     res.json({
@@ -79,12 +79,12 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const deliberation = await prisma.deliberation.findUnique({
+    const deliberation = await prisma.deliberations.findUnique({
       where: { id: req.params.id },
       include: {
-        messages: {
-          include: { agent: true },
-          orderBy: { createdAt: 'asc' },
+        deliberation_messages: {
+          include: { agents: true },
+          orderBy: { created_at: 'asc' },
         },
       },
     });
@@ -93,7 +93,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organizationId !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -115,9 +115,10 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
     const data = createDeliberationSchema.parse(req.body);
     const orgId = req.organizationId!;
 
-    const deliberation = await prisma.deliberation.create({
+    const deliberation = await prisma.deliberations.create({
       data: {
-        organizationId: orgId,
+        id: crypto.randomUUID(),
+        organization_id: orgId,
         question: data.question,
         config: (data.config || { mode: 'war-room' }) as Prisma.InputJsonValue,
         status: 'PENDING',
@@ -126,13 +127,14 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: orgId,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: orgId,
+        user_id: req.user!.id,
         action: 'deliberation.create',
-        resourceType: 'deliberation',
-        resourceId: deliberation.id,
+        resource_type: 'deliberation',
+        resource_id: deliberation.id,
         details: { question: data.question } as Prisma.InputJsonValue,
       },
     });
@@ -152,7 +154,7 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.post('/:id/start', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const deliberation = await prisma.deliberation.findUnique({
+    const deliberation = await prisma.deliberations.findUnique({
       where: { id: req.params.id },
     });
 
@@ -160,7 +162,7 @@ router.post('/:id/start', async (req: Request, res: Response, next: NextFunction
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organizationId !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -169,12 +171,12 @@ router.post('/:id/start', async (req: Request, res: Response, next: NextFunction
     }
 
     // Update to IN_PROGRESS
-    const updated = await prisma.deliberation.update({
+    const updated = await prisma.deliberations.update({
       where: { id: req.params.id },
       data: {
         status: 'IN_PROGRESS',
-        startedAt: new Date(),
-        currentPhase: 'analysis',
+        started_at: new Date(),
+        current_phase: 'analysis',
         progress: 10,
       },
     });
@@ -183,13 +185,14 @@ router.post('/:id/start', async (req: Request, res: Response, next: NextFunction
     // For now, we just mark it as started
     
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId!,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId!,
+        user_id: req.user!.id,
         action: 'deliberation.start',
-        resourceType: 'deliberation',
-        resourceId: deliberation.id,
+        resource_type: 'deliberation',
+        resource_id: deliberation.id,
         details: {} as Prisma.InputJsonValue,
       },
     });
@@ -212,7 +215,7 @@ router.post('/:id/complete', async (req: Request, res: Response, next: NextFunct
   try {
     const { decision, confidence } = req.body;
 
-    const deliberation = await prisma.deliberation.findUnique({
+    const deliberation = await prisma.deliberations.findUnique({
       where: { id: req.params.id },
     });
 
@@ -220,15 +223,15 @@ router.post('/:id/complete', async (req: Request, res: Response, next: NextFunct
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organizationId !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
-    const updated = await prisma.deliberation.update({
+    const updated = await prisma.deliberations.update({
       where: { id: req.params.id },
       data: {
         status: 'COMPLETED',
-        completedAt: new Date(),
+        completed_at: new Date(),
         decision: decision as Prisma.InputJsonValue,
         confidence,
         progress: 100,
@@ -250,7 +253,7 @@ router.post('/:id/complete', async (req: Request, res: Response, next: NextFunct
  */
 router.delete('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const deliberation = await prisma.deliberation.findUnique({
+    const deliberation = await prisma.deliberations.findUnique({
       where: { id: req.params.id },
     });
 
@@ -258,11 +261,11 @@ router.delete('/:id', async (req: Request, res: Response, next: NextFunction) =>
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organizationId !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
-    await prisma.deliberation.update({
+    await prisma.deliberations.update({
       where: { id: req.params.id },
       data: { status: 'CANCELLED' },
     });

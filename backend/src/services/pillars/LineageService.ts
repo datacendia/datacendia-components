@@ -1,10 +1,13 @@
 // =============================================================================
 // DATACENDIA PLATFORM - THE LINEAGE SERVICE
 // Data Provenance - Track data origins and transformations
-// Enterprise Platinum Intelligence
+// Enterprise Platinum Intelligence - PostgreSQL Persistent Storage
 // =============================================================================
 
+import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -71,143 +74,182 @@ export interface DataQualityIssue {
   suggestedFix?: string;
 }
 
+// Prisma enum mapping
+const entityTypeMap: Record<EntityType, string> = {
+  dataset: 'DATASET', table: 'TABLE', column: 'COLUMN', report: 'REPORT',
+  metric: 'METRIC', model: 'MODEL', pipeline: 'PIPELINE', api: 'API'
+};
+const reverseEntityTypeMap: Record<string, EntityType> = Object.fromEntries(
+  Object.entries(entityTypeMap).map(([k, v]) => [v, k as EntityType])
+);
+const relTypeMap: Record<RelationshipType, string> = {
+  derives_from: 'DERIVES_FROM', transforms_to: 'TRANSFORMS_TO',
+  depends_on: 'DEPENDS_ON', feeds: 'FEEDS', uses: 'USES'
+};
+const reverseRelTypeMap: Record<string, RelationshipType> = Object.fromEntries(
+  Object.entries(relTypeMap).map(([k, v]) => [v, k as RelationshipType])
+);
+const qualityLevelMap: Record<DataQualityLevel, string> = {
+  excellent: 'EXCELLENT', good: 'GOOD', fair: 'FAIR', poor: 'POOR', unknown: 'UNKNOWN'
+};
+const reverseQualityLevelMap: Record<string, DataQualityLevel> = Object.fromEntries(
+  Object.entries(qualityLevelMap).map(([k, v]) => [v, k as DataQualityLevel])
+);
+
 // =============================================================================
-// THE LINEAGE SERVICE
+// THE LINEAGE SERVICE - PRISMA BACKED
 // =============================================================================
 
 export class LineageService extends BaseService {
-  private entitiesStore: Map<string, LineageEntity> = new Map();
-  private relationshipsStore: Map<string, LineageRelationship> = new Map();
-  private qualityReportsStore: Map<string, DataQualityReport> = new Map();
-
   constructor(config?: Partial<ServiceConfig>) {
     super({
       name: 'lineage-service',
-      version: '1.0.0',
-      dependencies: [],
+      version: '2.0.0',
+      dependencies: ['prisma'],
       ...config,
     });
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('The Lineage service initializing...');
+    this.logger.info('The Lineage service initializing with PostgreSQL...');
   }
 
   async shutdown(): Promise<void> {
     this.logger.info('The Lineage service shutting down...');
-    this.entitiesStore.clear();
-    this.relationshipsStore.clear();
   }
 
   async healthCheck(): Promise<ServiceHealth> {
+    const entityCount = await prisma.lineage_entities.count();
+    const relCount = await prisma.lineage_relationships.count();
     return {
       status: 'healthy',
       lastCheck: new Date(),
-      details: { 
-        entities: this.entitiesStore.size, 
-        relationships: this.relationshipsStore.size 
-      },
+      details: { entities: entityCount, relationships: relCount },
     };
   }
 
   // ===========================================================================
-  // ENTITY MANAGEMENT
+  // ENTITY MANAGEMENT - PRISMA BACKED
   // ===========================================================================
 
   async createEntity(entity: Omit<LineageEntity, 'id' | 'qualityLevel' | 'lastUpdated'>): Promise<LineageEntity> {
-    const id = `entity-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`;
     const qualityLevel = this.scoreToLevel(entity.qualityScore);
+    
+    const created = await prisma.lineage_entities.create({
+      data: {
+        organization_id: entity.organizationId,
+        name: entity.name,
+        entity_type: entityTypeMap[entity.type] as any,
+        description: entity.description || '',
+        source: entity.source,
+        schema_def: entity.schema || {},
+        quality_score: entity.qualityScore,
+        quality_level: qualityLevelMap[qualityLevel] as any,
+        record_count: entity.recordCount,
+        metadata: entity.metadata || {},
+      },
+    });
 
-    const newEntity: LineageEntity = {
-      ...entity,
-      id,
-      qualityLevel,
-      lastUpdated: new Date(),
-    };
-
-    this.entitiesStore.set(id, newEntity);
-    return newEntity;
+    return this.mapEntity(created);
   }
 
   async getEntity(entityId: string): Promise<LineageEntity | null> {
-    return this.entitiesStore.get(entityId) || null;
+    const entity = await prisma.lineage_entities.findUnique({
+      where: { id: entityId },
+    });
+    return entity ? this.mapEntity(entity) : null;
   }
 
   async getEntities(organizationId: string, type?: EntityType): Promise<LineageEntity[]> {
-    const entities = Array.from(this.entitiesStore.values())
-      .filter(e => e.organizationId === organizationId);
-    return type ? entities.filter(e => e.type === type) : entities;
+    const where: any = { organization_id: organizationId };
+    if (type) where.entity_type = entityTypeMap[type];
+
+    const entities = await prisma.lineage_entities.findMany({ where });
+    return entities.map((e: any) => this.mapEntity(e));
   }
 
   async updateEntity(entityId: string, updates: Partial<LineageEntity>): Promise<LineageEntity | null> {
-    const entity = this.entitiesStore.get(entityId);
-    if (!entity) return null;
-
-    const updated = { ...entity, ...updates, lastUpdated: new Date() };
+    const data: any = {};
+    if (updates.name) data.name = updates.name;
+    if (updates.description) data.description = updates.description;
+    if (updates.source) data.source = updates.source;
     if (updates.qualityScore !== undefined) {
-      updated.qualityLevel = this.scoreToLevel(updates.qualityScore);
+      data.quality_score = updates.qualityScore;
+      data.quality_level = qualityLevelMap[this.scoreToLevel(updates.qualityScore)] as any;
     }
-    this.entitiesStore.set(entityId, updated);
-    return updated;
+    if (updates.recordCount !== undefined) data.record_count = updates.recordCount;
+    if (updates.metadata) data.metadata = updates.metadata;
+
+    const updated = await prisma.lineage_entities.update({
+      where: { id: entityId },
+      data,
+    });
+
+    return this.mapEntity(updated);
   }
 
   // ===========================================================================
-  // RELATIONSHIP MANAGEMENT
+  // RELATIONSHIP MANAGEMENT - PRISMA BACKED
   // ===========================================================================
 
   async createRelationship(relationship: Omit<LineageRelationship, 'id' | 'createdAt'>): Promise<LineageRelationship> {
-    const id = `rel-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`;
+    const created = await prisma.lineage_relationships.create({
+      data: {
+        source_id: relationship.sourceId,
+        target_id: relationship.targetId,
+        relationship_type: relTypeMap[relationship.type] as any,
+        transformations: relationship.transformations || [],
+        confidence: relationship.confidence,
+      },
+    });
 
-    const newRelationship: LineageRelationship = {
-      ...relationship,
-      id,
-      createdAt: new Date(),
-    };
-
-    this.relationshipsStore.set(id, newRelationship);
-    return newRelationship;
+    return this.mapRelationship(created);
   }
 
   async getUpstream(entityId: string): Promise<LineageEntity[]> {
-    const relationships = Array.from(this.relationshipsStore.values())
-      .filter(r => r.targetId === entityId);
+    const relationships = await prisma.lineage_relationships.findMany({
+      where: { target_id: entityId },
+      include: { source_entity: true },
+    });
     
-    return relationships
-      .map(r => this.entitiesStore.get(r.sourceId))
-      .filter((e): e is LineageEntity => e !== undefined);
+    return relationships.map((r: any) => this.mapEntity(r.sourceEntity));
   }
 
   async getDownstream(entityId: string): Promise<LineageEntity[]> {
-    const relationships = Array.from(this.relationshipsStore.values())
-      .filter(r => r.sourceId === entityId);
+    const relationships = await prisma.lineage_relationships.findMany({
+      where: { source_id: entityId },
+      include: { target_entity: true },
+    });
     
-    return relationships
-      .map(r => this.entitiesStore.get(r.targetId))
-      .filter((e): e is LineageEntity => e !== undefined);
+    return relationships.map((r: any) => this.mapEntity(r.targetEntity));
   }
 
   // ===========================================================================
-  // LINEAGE GRAPH
+  // LINEAGE GRAPH - PRISMA BACKED
   // ===========================================================================
 
   async getLineageGraph(organizationId: string): Promise<LineageGraph> {
     const entities = await this.getEntities(organizationId);
-    const entityIds = new Set(entities.map(e => e.id));
+    const entityIds = entities.map(e => e.id);
     
-    const relationships = Array.from(this.relationshipsStore.values())
-      .filter(r => entityIds.has(r.sourceId) && entityIds.has(r.targetId));
+    const relationships = await prisma.lineage_relationships.findMany({
+      where: {
+        AND: [
+          { source_id: { in: entityIds } },
+          { target_id: { in: entityIds } },
+        ],
+      },
+    });
 
-    const targetIds = new Set(relationships.map(r => r.targetId));
-    const sourceIds = new Set(relationships.map(r => r.sourceId));
-
-    const rootEntities = entities.filter(e => !targetIds.has(e.id)).map(e => e.id);
-    const leafEntities = entities.filter(e => !sourceIds.has(e.id)).map(e => e.id);
+    const rels = relationships.map((r: any) => this.mapRelationship(r));
+    const targetIds = new Set(rels.map(r => r.targetId));
+    const sourceIds = new Set(rels.map(r => r.sourceId));
 
     return {
       entities,
-      relationships,
-      rootEntities,
-      leafEntities,
+      relationships: rels,
+      rootEntities: entities.filter(e => !targetIds.has(e.id)).map(e => e.id),
+      leafEntities: entities.filter(e => !sourceIds.has(e.id)).map(e => e.id),
     };
   }
 
@@ -224,12 +266,13 @@ export class LineageService extends BaseService {
       if (!entity) return;
       entities.push(entity);
 
-      const rels = Array.from(this.relationshipsStore.values())
-        .filter(r => dir === 'upstream' ? r.targetId === id : r.sourceId === id);
+      const rels = dir === 'upstream'
+        ? await prisma.lineage_relationships.findMany({ where: { target_id: id } })
+        : await prisma.lineage_relationships.findMany({ where: { source_id: id } });
 
       for (const rel of rels) {
-        relationships.push(rel);
-        const nextId = dir === 'upstream' ? rel.sourceId : rel.targetId;
+        relationships.push(this.mapRelationship(rel));
+        const nextId = dir === 'upstream' ? rel.source_id : rel.target_id;
         await traverse(nextId, dir);
       }
     };
@@ -244,64 +287,91 @@ export class LineageService extends BaseService {
       await traverse(entityId, 'downstream');
     }
 
-    return {
-      entities,
-      relationships,
-      rootEntities: [],
-      leafEntities: [],
-    };
+    return { entities, relationships, rootEntities: [], leafEntities: [] };
   }
 
   // ===========================================================================
-  // DATA QUALITY
+  // DATA QUALITY - PRISMA BACKED
   // ===========================================================================
 
   async checkDataQuality(entityId: string): Promise<DataQualityReport> {
     const entity = await this.getEntity(entityId);
     if (!entity) throw new Error('Entity not found');
 
-    // Simulate quality check (in production, would query actual data)
-    const completeness = 85 + Math.random() * 15;
-    const accuracy = 90 + Math.random() * 10;
-    const consistency = 88 + Math.random() * 12;
-    const timeliness = 75 + Math.random() * 25;
-    const validity = 92 + Math.random() * 8;
+    // Real quality check would analyze actual data
+    // For now, we compute based on entity metadata patterns
+    const hasSchema = entity.schema && Object.keys(entity.schema).length > 0;
+    const hasRecordCount = entity.recordCount && entity.recordCount > 0;
+    
+    const completeness = hasSchema ? 95 : 80;
+    const accuracy = hasRecordCount ? 92 : 85;
+    const consistency = 90;
+    const timeliness = entity.lastUpdated > new Date(Date.now() - 86400000) ? 95 : 75;
+    const validity = hasSchema ? 93 : 82;
 
     const overallScore = (completeness + accuracy + consistency + timeliness + validity) / 5;
-
     const issues: DataQualityIssue[] = [];
+
     if (completeness < 90) {
       issues.push({
         id: `issue-${Date.now()}-1`,
         type: 'missing',
-        severity: completeness < 80 ? 'high' : 'medium',
-        description: `${(100 - completeness).toFixed(1)}% of records have missing fields`,
-        affectedRecords: Math.floor((entity.recordCount || 1000) * (100 - completeness) / 100),
-        suggestedFix: 'Implement data validation at source',
+        severity: 'medium',
+        description: 'Schema definition incomplete',
+        affectedRecords: 0,
+        suggestedFix: 'Add schema definition to entity',
       });
     }
 
-    const report: DataQualityReport = {
+    // Store report in database
+    await prisma.data_quality_reports.upsert({
+      where: { entity_id: entityId },
+      update: {
+        overall_score: overallScore,
+        completeness, accuracy, consistency, timeliness, validity,
+        issues: issues as any,
+        checked_at: new Date(),
+      },
+      create: {
+        entity_id: entityId,
+        overall_score: overallScore,
+        completeness, accuracy, consistency, timeliness, validity,
+        issues: issues as any,
+      },
+    });
+
+    return {
       entityId,
       entityName: entity.name,
       overallScore: Math.round(overallScore),
-      dimensions: {
-        completeness: Math.round(completeness),
-        accuracy: Math.round(accuracy),
-        consistency: Math.round(consistency),
-        timeliness: Math.round(timeliness),
-        validity: Math.round(validity),
-      },
+      dimensions: { completeness, accuracy, consistency, timeliness, validity },
       issues,
       lastChecked: new Date(),
     };
-
-    this.qualityReportsStore.set(entityId, report);
-    return report;
   }
 
   async getQualityReport(entityId: string): Promise<DataQualityReport | null> {
-    return this.qualityReportsStore.get(entityId) || null;
+    const report = await prisma.data_quality_reports.findFirst({
+      where: { entity_id: entityId },
+      include: { entity: true },
+    });
+    
+    if (!report) return null;
+
+    return {
+      entityId: report.entity_id,
+      entityName: (report as any).entity?.name || 'Unknown',
+      overallScore: report.overall_score,
+      dimensions: {
+        completeness: report.completeness,
+        accuracy: report.accuracy,
+        consistency: report.consistency,
+        timeliness: report.timeliness,
+        validity: report.validity,
+      },
+      issues: (report.issues as any) || [],
+      lastChecked: report.checked_at,
+    };
   }
 
   async getQualityOverview(organizationId: string): Promise<{
@@ -321,11 +391,18 @@ export class LineageService extends BaseService {
     for (const entity of entities) {
       byLevel[entity.qualityLevel]++;
       totalScore += entity.qualityScore;
-      
-      const report = this.qualityReportsStore.get(entity.id);
-      if (report) {
-        recentIssues.push(...report.issues);
-      }
+    }
+
+    // Get recent quality reports with issues
+    const reports = await prisma.data_quality_reports.findMany({
+      where: { entity_id: { in: entities.map(e => e.id) } },
+      orderBy: { checked_at: 'desc' },
+      take: 10,
+    });
+
+    for (const report of reports) {
+      const issues = (report.issues as any[]) || [];
+      recentIssues.push(...issues);
     }
 
     return {
@@ -348,44 +425,50 @@ export class LineageService extends BaseService {
     return 'unknown';
   }
 
+  private mapEntity(e: any): LineageEntity {
+    return {
+      id: e.id,
+      organizationId: e.organizationId,
+      name: e.name,
+      type: reverseEntityTypeMap[e.entityType] || 'dataset',
+      description: e.description || '',
+      source: e.source,
+      schema: e.schemaDef as Record<string, string>,
+      qualityScore: e.qualityScore,
+      qualityLevel: reverseQualityLevelMap[e.qualityLevel] || 'unknown',
+      lastUpdated: e.updatedAt,
+      recordCount: e.recordCount,
+      metadata: e.metadata as Record<string, unknown>,
+    };
+  }
+
+  private mapRelationship(r: any): LineageRelationship {
+    return {
+      id: r.id,
+      sourceId: r.sourceId,
+      targetId: r.targetId,
+      type: reverseRelTypeMap[r.relationshipType] || 'depends_on',
+      transformations: r.transformations as string[],
+      confidence: r.confidence,
+      createdAt: r.createdAt,
+    };
+  }
+
+  // No seed method - Enterprise Platinum standard
+  // Data is created only through real API operations
+
   // ===========================================================================
-  // SEED DATA
+  // CLIENT API METHODS
   // ===========================================================================
 
-  async seedDefaultData(organizationId: string): Promise<void> {
-    // Create sample entities
-    const salesforce = await this.createEntity({
-      organizationId, name: 'Salesforce CRM', type: 'api', description: 'Customer data source',
-      source: 'external', qualityScore: 98, recordCount: 2300000, metadata: { connector: 'native' }
-    });
+  async getDataSources(organizationId: string): Promise<LineageEntity[]> {
+    return this.getEntities(organizationId, 'dataset');
+  }
 
-    const snowflake = await this.createEntity({
-      organizationId, name: 'Snowflake DW', type: 'dataset', description: 'Data warehouse',
-      source: 'internal', qualityScore: 96, recordCount: 45000000, metadata: { region: 'us-west-2' }
-    });
-
-    const customer360 = await this.createEntity({
-      organizationId, name: 'Customer 360', type: 'table', description: 'Unified customer view',
-      source: 'derived', qualityScore: 94, recordCount: 1500000, metadata: { refreshFrequency: 'hourly' }
-    });
-
-    const revenueReport = await this.createEntity({
-      organizationId, name: 'Revenue Report', type: 'report', description: 'Monthly revenue analysis',
-      source: 'derived', qualityScore: 92, metadata: { owner: 'finance' }
-    });
-
-    const churnModel = await this.createEntity({
-      organizationId, name: 'Churn Prediction Model', type: 'model', description: 'ML model for churn prediction',
-      source: 'derived', qualityScore: 89, metadata: { algorithm: 'XGBoost', accuracy: 0.92 }
-    });
-
-    // Create relationships
-    await this.createRelationship({ sourceId: salesforce.id, targetId: snowflake.id, type: 'feeds', confidence: 1 });
-    await this.createRelationship({ sourceId: snowflake.id, targetId: customer360.id, type: 'transforms_to', confidence: 0.95, transformations: ['join', 'aggregate', 'clean'] });
-    await this.createRelationship({ sourceId: customer360.id, targetId: revenueReport.id, type: 'derives_from', confidence: 0.9 });
-    await this.createRelationship({ sourceId: customer360.id, targetId: churnModel.id, type: 'uses', confidence: 0.88 });
-
-    this.logger.info(`Seeded lineage data for org ${organizationId}`);
+  async traceDataFlow(sourceId: string): Promise<{ upstream: LineageEntity[]; downstream: LineageEntity[] }> {
+    const upstream = await this.getUpstream(sourceId);
+    const downstream = await this.getDownstream(sourceId);
+    return { upstream, downstream };
   }
 }
 

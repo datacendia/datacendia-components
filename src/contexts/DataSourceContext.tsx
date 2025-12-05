@@ -103,10 +103,13 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       setIsLoading(true);
       try {
         // Fetch from API
+        const token = localStorage.getItem('accessToken');
+        const headers: Record<string, string> = {};
+        if (token) {
+          headers['Authorization'] = `Bearer ${token}`;
+        }
         const response = await fetch('/api/v1/data-sources', {
-          headers: {
-            'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
-          },
+          headers,
         });
         
         if (response.ok) {

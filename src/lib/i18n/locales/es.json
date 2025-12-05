@@ -39,7 +39,12 @@
     "showAll": "Mostrar Todo",
     "hideAll": "Ocultar Todo",
     "viewMore": "Ver Más",
-    "learnMore": "Saber Más"
+    "learnMore": "Saber Más",
+    "and": "y",
+    "or": "o",
+    "continue": "Continuar",
+    "completed": "completado",
+    "queried": "consultó"
   },
   "nav": {
     "home": "Inicio",
@@ -60,8 +65,8 @@
   },
   "auth": {
     "login": {
-      "title": "Inicia sesión en tu cuenta",
-      "subtitle": "¡Bienvenido de nuevo! Por favor ingresa tus credenciales.",
+      "title": "Bienvenido de nuevo",
+      "subtitle": "Inicia sesión en tu cuenta",
       "email": "Correo electrónico",
       "password": "Contraseña",
       "rememberMe": "Recordarme",
@@ -73,23 +78,45 @@
       "errors": {
         "invalidCredentials": "Correo o contraseña inválidos",
         "accountLocked": "La cuenta ha sido bloqueada",
-        "networkError": "Error de red. Por favor intenta de nuevo."
+        "networkError": "No se puede conectar al servidor. Por favor intenta de nuevo."
       }
     },
     "register": {
       "title": "Crea tu cuenta",
       "subtitle": "Comienza tu prueba gratuita de 14 días hoy.",
+      "headline": "Desbloquea la inteligencia de tu organización.",
+      "subheadline": "Únete a miles de empresas que usan Datacendia para tomar mejores decisiones con insights impulsados por IA.",
+      "step1Subtitle": "Ingresa tus datos para comenzar",
+      "step2Subtitle": "Configura tu contraseña",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
       "fullName": "Nombre completo",
       "email": "Correo de trabajo",
       "password": "Contraseña",
       "confirmPassword": "Confirmar contraseña",
-      "company": "Nombre de la empresa",
+      "passwordHint": "Al menos 8 caracteres",
+      "company": "Empresa (opcional)",
       "companySize": "Tamaño de la empresa",
       "industry": "Industria",
       "submitButton": "Crear Cuenta",
+      "signUpWith": "Registrarse con",
       "hasAccount": "¿Ya tienes una cuenta?",
       "signIn": "Inicia sesión",
-      "agreeToTerms": "Acepto los Términos de Servicio y la Política de Privacidad",
+      "agreeToTerms": "Acepto los",
+      "features": {
+        "council": "Consejo de IA - Obtén consejos estratégicos de agentes de IA especializados",
+        "graph": "Explorador de Grafos - Visualiza todas las relaciones de tus datos",
+        "lens": "La Lente - Pronostica resultados futuros con ML",
+        "bridge": "El Puente - Automatiza flujos de trabajo entre sistemas"
+      },
+      "errors": {
+        "fullNameRequired": "Por favor ingresa tu nombre completo",
+        "validEmailRequired": "Por favor ingresa un correo válido",
+        "passwordMinLength": "La contraseña debe tener al menos 8 caracteres",
+        "passwordMismatch": "Las contraseñas no coinciden",
+        "acceptTerms": "Debes aceptar los términos y condiciones",
+        "registrationFailed": "El registro falló. Por favor intenta de nuevo."
+      },
       "passwordRequirements": {
         "title": "La contraseña debe contener:",
         "minLength": "Al menos 12 caracteres",
@@ -100,11 +127,15 @@
       }
     },
     "forgotPassword": {
-      "title": "Restablece tu contraseña",
-      "subtitle": "Ingresa tu correo y te enviaremos un enlace de restablecimiento.",
+      "title": "Restablece Tu Contraseña",
+      "subtitle": "Ingresa tu correo y te enviaremos un enlace para restablecer tu contraseña.",
       "email": "Correo electrónico",
+      "sendResetLink": "Enviar Enlace",
       "submitButton": "Enviar Enlace",
-      "backToLogin": "Volver a iniciar sesión",
+      "backToLogin": "Volver a Iniciar Sesión",
+      "checkEmail": "Revisa Tu Correo",
+      "emailSentTo": "Si existe una cuenta para",
+      "linkExpiry": "El enlace expirará en 1 hora. Si no ves el correo, revisa tu carpeta de spam.",
       "success": "Si existe una cuenta, recibirás un correo pronto."
     },
     "mfa": {
@@ -247,6 +278,147 @@
       "playStore": "Google Play"
     }
   },
+  "dashboard": {
+    "title": "Panel",
+    "welcome": "Bienvenido de nuevo",
+    "subtitle": "Así está {{company}} hoy",
+    "health_score": "Salud de la Organización",
+    "data": "Datos",
+    "operations": "Operaciones",
+    "security": "Seguridad",
+    "people": "Personas",
+    "fromLastWeek": "desde la semana pasada",
+    "alerts": "Alertas Activas",
+    "critical": "Crítico",
+    "warning": "Advertencia",
+    "pending_approvals": "Aprobaciones Pendientes",
+    "workflows": "Flujos de trabajo",
+    "access": "Acceso",
+    "budget": "Presupuesto",
+    "by": "por",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "keyMetrics": "Métricas Clave",
+    "askTheCouncil": "Pregunta al Consejo",
+    "whatToKnow": "¿Qué te gustaría saber?",
+    "recentQueries": "Consultas recientes:",
+    "recentActivity": "Actividad Reciente",
+    "viewFullLog": "Ver Registro Completo",
+    "greetings": {
+      "morning": "Buenos días",
+      "afternoon": "Buenas tardes",
+      "evening": "Buenas noches"
+    },
+    "sampleAlerts": {
+      "databaseCpu": "CPU de base de datos > 90% por 15 min",
+      "paymentLatency": "Pico de latencia en procesamiento de pagos",
+      "diskUsage": "Uso de disco al 78% en prod-db-01",
+      "apiErrors": "Tasa de errores API sobre umbral",
+      "memoryLeak": "Fuga de memoria detectada en servicio de auth"
+    },
+    "sampleApprovals": {
+      "monthlyClose": "Proceso de Cierre Mensual",
+      "prodDbAccess": "Acceso a BD de Producción",
+      "budgetIncrease": "Aumento Presupuesto Marketing Q4",
+      "newHire": "Incorporación Nuevo Empleado: Equipo Dev"
+    },
+    "sampleMetrics": {
+      "revenue": "Ingresos",
+      "pipeline": "Pipeline",
+      "burnRate": "Tasa de Gasto",
+      "nps": "NPS",
+      "activeUsers": "Usuarios Activos",
+      "churnRate": "Tasa de Abandono"
+    },
+    "sampleActivity": {
+      "workflowCompleted": "Workflow \"{{name}}\" completado",
+      "userQueried": "{{user}} consultó {{topic}}",
+      "alertResolved": "Alerta \"{{alert}}\" resuelta",
+      "reportGenerated": "Informe \"{{report}}\" generado"
+    },
+    "sampleQueries": {
+      "churnIncrease": "¿Por qué aumentó la deserción?",
+      "forecastRevenue": "Pronóstico de ingresos Q4",
+      "biggestRisk": "¿Cuál es nuestro mayor riesgo?",
+      "customerSentiment": "¿Cuál es la tendencia del sentimiento del cliente?",
+      "competitorAnalysis": "Analizar precios de competidores"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Panel",
+    "the_council": "El Consejo",
+    "the_graph": "El Grafo",
+    "the_pulse": "El Pulso",
+    "the_lens": "La Lente",
+    "the_bridge": "El Puente",
+    "settings": "Configuración",
+    "help": "Ayuda y Soporte"
+  },
+  "button": {
+    "view_all": "Ver Todo",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "label": {
+    "online": "En línea",
+    "offline": "Desconectado",
+    "busy": "Ocupado",
+    "premium": "Premium",
+    "locked": "Bloqueado",
+    "custom": "Personalizado",
+    "unlock": "Desbloquear"
+  },
+  "council": {
+    "title": "El Consejo",
+    "agents": {
+      "domain": "Agentes de Dominio"
+    },
+    "modes": {
+      "title": "Biblioteca de Modos del Consejo",
+      "subtitle": "Los mismos 10 agentes con diferentes modos producen resultados radicalmente diferentes.",
+      "cultureNote": "El prompt ES la cultura de la empresa.",
+      "quickReference": "Referencia Rápida",
+      "mode": "Modo",
+      "primeDirective": "Directiva Principal",
+      "bestFor": "Mejor Para",
+      "agentBehavior": "Comportamiento del Agente"
+    },
+    "customAgent": {
+      "title": "Crear Agente Personalizado",
+      "editTitle": "Editar Agente Personalizado",
+      "subtitle": "Diseña tu propio agente de IA con experiencia especializada",
+      "avatar": "Avatar del Agente",
+      "color": "Color del Agente",
+      "name": "Nombre del Agente",
+      "role": "Rol / Título",
+      "description": "Descripción",
+      "expertise": "Experiencia e Instrucciones"
+    }
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Buscar comandos, páginas, agentes...",
+    "noResults": "Sin resultados para",
+    "navigate": "navegar",
+    "select": "seleccionar",
+    "toggle": "alternar",
+    "newQuery": "Nueva Consulta al Consejo",
+    "askCouncil": "Pregunta algo al Consejo",
+    "refresh": "Actualizar Datos",
+    "reloadPage": "Recargar datos de la página actual",
+    "fullscreen": "Pantalla Completa",
+    "toggleFullscreen": "Entrar/salir de pantalla completa",
+    "switchTo": "Cambiar a",
+    "changeLanguage": "Cambiar idioma a",
+    "categories": {
+      "navigation": "Navegación",
+      "actions": "Acciones",
+      "agents": "Agentes",
+      "modes": "Modos del Consejo",
+      "recent": "Reciente"
+    }
+  },
   "footer": {
     "company": "Empresa",
     "product": "Producto",
@@ -256,5 +428,324 @@
     "terms": "Términos de Servicio",
     "copyright": "© {{year}} Datacendia. Todos los derechos reservados.",
     "tagline": "Inteligencia Empresarial Soberana"
+  },
+  "tooltips": {
+    "pillars": {
+      "helm": {
+        "title": "El Timón - Centro de Comando Estratégico",
+        "summary": "El sistema de soporte para decisiones estratégicas de tu organización. Monitorea, analiza y dirige con confianza.",
+        "features": [
+          "Dashboards de KPIs en tiempo real con análisis de tendencias",
+          "Seguimiento y alineación de objetivos estratégicos",
+          "Benchmarking de rendimiento contra estándares de la industria",
+          "Umbrales de alerta con notificaciones automáticas",
+          "Generación de resumen ejecutivo"
+        ],
+        "useCases": [
+          "Seguimiento de objetivos trimestrales en todos los departamentos",
+          "Monitoreo de métricas de ingresos e indicadores de crecimiento",
+          "Establecer y rastrear hitos estratégicos"
+        ],
+        "guidance": "Comienza definiendo tus métricas clave. El Timón funciona mejor cuando tienes objetivos claros y medibles alineados con la estrategia de tu organización."
+      },
+      "lineage": {
+        "title": "El Linaje - Rastreador de Procedencia de Datos",
+        "summary": "Visibilidad completa del recorrido de tus datos. Sabe de dónde viene cada número y hacia dónde va.",
+        "features": [
+          "Mapeo visual del flujo de datos",
+          "Trazabilidad de origen a reporte",
+          "Análisis de impacto para cambios de datos",
+          "Puntuación de calidad de datos en cada etapa",
+          "Generación automatizada de documentación"
+        ],
+        "useCases": [
+          "Rastro de auditoría para cumplimiento regulatorio",
+          "Depurar discrepancias de datos entre sistemas",
+          "Planificar migraciones de sistema con visibilidad completa de impacto"
+        ],
+        "guidance": "Conecta tus fuentes de datos primero. El Linaje descubre automáticamente las relaciones y construye tu mapa de datos."
+      },
+      "predict": {
+        "title": "La Predicción - Motor de Pronósticos con IA",
+        "summary": "Modelos de aprendizaje automático que ven más allá. Pronostica tendencias antes de que sean obvias.",
+        "features": [
+          "Pronósticos de series temporales con intervalos de confianza",
+          "Detección de anomalías y sistema de alerta temprana",
+          "Modelado de escenarios hipotéticos",
+          "Análisis de importancia de características",
+          "Monitoreo de rendimiento del modelo"
+        ],
+        "useCases": [
+          "Pronosticar demanda y optimizar inventario",
+          "Predecir abandono de clientes antes de que suceda",
+          "Modelar escenarios financieros para planificación estratégica"
+        ],
+        "guidance": "Las predicciones de calidad requieren datos de calidad. Comienza con datos históricos limpios y deja que La Predicción aprenda tus patrones."
+      },
+      "flow": {
+        "title": "El Flujo - Automatización Inteligente",
+        "summary": "Flujos de trabajo que piensan. Conecta sistemas, automatiza decisiones y mantén el trabajo fluyendo.",
+        "features": [
+          "Constructor visual de flujos con arrastrar y soltar",
+          "Nodos de decisión potenciados por IA",
+          "Conectores de integración entre sistemas",
+          "Cadenas de aprobación con reglas de escalación",
+          "Analíticas y optimización de flujos"
+        ],
+        "useCases": [
+          "Automatizar orquestación de pipelines de datos",
+          "Crear flujos de aprobación inteligentes",
+          "Activar acciones basadas en insights de IA"
+        ],
+        "guidance": "Mapea tus procesos manuales actuales primero. El Flujo te ayuda a identificar oportunidades de automatización e implementarlas paso a paso."
+      },
+      "health": {
+        "title": "La Salud - Monitor de Vitalidad del Sistema",
+        "summary": "Pulso en tiempo real de los signos vitales de tu organización. Sabe cuando algo está mal antes de que se rompa.",
+        "features": [
+          "Dashboards de salud de componentes",
+          "Análisis de tendencias de rendimiento",
+          "Seguimiento de incidentes y resolución",
+          "Herramientas de planificación de capacidad",
+          "Monitoreo de tiempo de actividad y SLA"
+        ],
+        "useCases": [
+          "Monitorear salud del sistema en todas las plataformas",
+          "Rastrear tiempos de respuesta y resolución de incidentes",
+          "Planificar capacidad de infraestructura proactivamente"
+        ],
+        "guidance": "Configura verificaciones de salud para tus sistemas críticos. La Salud agrega señales para darte una vista unificada."
+      },
+      "guard": {
+        "title": "El Guardián - Escudo de Seguridad y Cumplimiento",
+        "summary": "Protección automatizada para tus datos. Aplica políticas, rastrea acceso y mantén el cumplimiento.",
+        "features": [
+          "Motor de aplicación de políticas",
+          "Registro de auditoría de accesos",
+          "Detección de amenazas y alertas",
+          "Mapeo de marcos de cumplimiento",
+          "Puntuación de postura de seguridad"
+        ],
+        "useCases": [
+          "Aplicar políticas de acceso a datos automáticamente",
+          "Generar informes de cumplimiento para auditores",
+          "Detectar y responder a amenazas de seguridad"
+        ],
+        "guidance": "Define tus políticas de seguridad y requisitos de cumplimiento. El Guardián monitorea continuamente y alerta sobre violaciones."
+      },
+      "ethics": {
+        "title": "La Ética - Centro de Gobernanza de IA",
+        "summary": "IA responsable incorporada. Asegura equidad, transparencia y responsabilidad en cada decisión.",
+        "features": [
+          "Detección y monitoreo de sesgos",
+          "Herramientas de explicabilidad del modelo",
+          "Flujos de revisión ética",
+          "Seguimiento de métricas de equidad",
+          "Rastros de auditoría de decisiones"
+        ],
+        "useCases": [
+          "Revisar modelos de IA por sesgos antes del despliegue",
+          "Documentar la justificación de decisiones para cumplimiento",
+          "Monitorear métricas de equidad en producción"
+        ],
+        "guidance": "Establece tus principios éticos primero. La Ética te ayuda a operacionalizarlos en todos los sistemas de IA."
+      },
+      "agents": {
+        "title": "Los Agentes - Consejo Asesor de IA",
+        "summary": "Asesores de IA especializados para cada dominio. Obtén orientación experta bajo demanda.",
+        "features": [
+          "Agentes de IA especializados por dominio",
+          "Colaboración multi-agente",
+          "Recomendaciones conscientes del contexto",
+          "Interacción en lenguaje natural",
+          "Aprendizaje continuo a partir de retroalimentación"
+        ],
+        "useCases": [
+          "Obtener asesoría estratégica de analistas de negocios",
+          "Consultar expertos técnicos para decisiones de arquitectura",
+          "Recibir orientación de cumplimiento de especialistas regulatorios"
+        ],
+        "guidance": "Elige el agente correcto para tu pregunta. Cada agente tiene conocimiento especializado - el Consejo sabe cuándo colaborar."
+      }
+    },
+    "spaces": {
+      "graph": {
+        "title": "El Grafo - Navegador de Conocimiento",
+        "summary": "Navega el universo de conocimiento de tu organización. Ve conexiones que otros no ven.",
+        "features": [
+          "Visualización interactiva del conocimiento",
+          "Búsqueda semántica en todos los datos",
+          "Descubrimiento de relaciones",
+          "Exploración consciente del contexto",
+          "Identificación de brechas de conocimiento"
+        ],
+        "guidance": "Explora haciendo clic en cualquier nodo. El Grafo revela conexiones y te permite profundizar en los detalles."
+      },
+      "council": {
+        "title": "El Consejo - Cámara de Colaboración de IA",
+        "summary": "Donde los asesores de IA deliberan juntos. Los problemas complejos necesitan múltiples perspectivas.",
+        "features": [
+          "Sesiones de razonamiento multi-agente",
+          "Marcos de deliberación estructurada",
+          "Protocolos de resolución de conflictos",
+          "Herramientas de construcción de consenso",
+          "Documentación de decisiones"
+        ],
+        "guidance": "Presenta tu pregunta al Consejo. Observa cómo emergen diferentes perspectivas y se sintetizan en recomendaciones."
+      },
+      "pulse": {
+        "title": "El Pulso - Centro de Operaciones en Tiempo Real",
+        "summary": "Vista en vivo del latido de tu organización. Cada métrica, cada momento.",
+        "features": [
+          "Transmisión de métricas en tiempo real",
+          "Umbrales de alerta personalizables",
+          "Visualización de tendencias",
+          "Resaltado de anomalías",
+          "Comparación histórica"
+        ],
+        "guidance": "Configura tus métricas clave para que aparezcan en El Pulso. Establece umbrales de alerta para ser notificado de cambios."
+      },
+      "lens": {
+        "title": "La Lente - Explorador de Escenarios Futuros",
+        "summary": "Ve futuros posibles antes de que lleguen. Modela escenarios y planifica en consecuencia.",
+        "features": [
+          "Motor de modelado de escenarios",
+          "Simulaciones de Monte Carlo",
+          "Análisis de sensibilidad",
+          "Visualización de árbol de decisiones",
+          "Mapeo de probabilidad de resultados"
+        ],
+        "guidance": "Define los parámetros de tu escenario. La Lente genera múltiples futuros y te muestra los resultados más probables."
+      },
+      "bridge": {
+        "title": "El Puente - Centro de Comando de Acciones",
+        "summary": "Convierte insights en acción. Ejecuta a través de todos tus sistemas conectados.",
+        "features": [
+          "Ejecución de acciones entre sistemas",
+          "Integración con flujos de aprobación",
+          "Vista previa de impacto de acciones",
+          "Capacidades de rollback",
+          "Rastro de auditoría de ejecución"
+        ],
+        "guidance": "Selecciona tu acción y previsualiza su impacto. El Puente asegura ejecución segura con trazabilidad completa."
+      }
+    }
+  },
+  "narratives": {
+    "welcome": {
+      "title": "Bienvenido a Datacendia",
+      "subtitle": "Tu viaje hacia la inteligencia soberana comienza aquí",
+      "steps": [
+        {
+          "title": "Conoce Tu Centro de Comando",
+          "description": "El Cortex es tu vista unificada de la inteligencia organizacional. Cinco espacios interconectados te dan visibilidad y control completos.",
+          "action": "Explorar el Cortex"
+        },
+        {
+          "title": "Entiende los 8 Pilares",
+          "description": "Cada pilar proporciona capacidades esenciales - desde métricas estratégicas (Timón) hasta gobernanza de IA (Ética). Trabajan juntos como un sistema.",
+          "action": "Ver Resumen de Pilares"
+        },
+        {
+          "title": "Conecta Tu Primera Fuente de Datos",
+          "description": "La inteligencia requiere datos. Conecta una base de datos, API o fuente de archivos para comenzar a construir tu base de conocimiento.",
+          "action": "Agregar Fuente de Datos"
+        },
+        {
+          "title": "Define Tus Métricas Clave",
+          "description": "¿Qué es lo más importante para tu organización? Define los KPIs que aparecerán en tu dashboard ejecutivo.",
+          "action": "Crear Primera Métrica"
+        }
+      ]
+    },
+    "executive": {
+      "title": "Viaje de Comando Ejecutivo",
+      "subtitle": "Toma de decisiones estratégicas con inteligencia completa",
+      "persona": "Ejecutivo C-Suite",
+      "duration": "15 minutos",
+      "steps": [
+        {
+          "title": "Comienza en El Pulso",
+          "description": "Comienza cada día con una vista en tiempo real de la salud organizacional. Los indicadores rojos necesitan atención inmediata.",
+          "space": "pulse",
+          "keyActions": ["Revisar puntuación de salud", "Verificar alertas activas", "Notar métricas en tendencia"]
+        },
+        {
+          "title": "Profundiza en El Timón",
+          "description": "Examina tus KPIs estratégicos. ¿Estás en camino para los objetivos trimestrales? ¿Dónde están las brechas?",
+          "pillar": "helm",
+          "keyActions": ["Revisar estado de KPIs", "Comparar contra metas", "Identificar objetivos en riesgo"]
+        },
+        {
+          "title": "Consulta El Consejo",
+          "description": "Para decisiones complejas, convoca a tus asesores de IA. Presenta la situación y escucha múltiples perspectivas.",
+          "space": "council",
+          "keyActions": ["Enmarcar tu pregunta", "Revisar perspectivas de agentes", "Solicitar síntesis"]
+        },
+        {
+          "title": "Explora con La Lente",
+          "description": "Modela diferentes escenarios. ¿Qué pasa si aumentas la inversión? ¿Retrasas un lanzamiento? La Lente muestra futuros posibles.",
+          "space": "lens",
+          "keyActions": ["Definir parámetros del escenario", "Ejecutar simulaciones", "Comparar resultados"]
+        },
+        {
+          "title": "Toma Acción vía El Puente",
+          "description": "Convierte decisiones en acción. El Puente ejecuta a través de sistemas con rastros de auditoría completos.",
+          "space": "bridge",
+          "keyActions": ["Seleccionar acciones", "Previsualizar impacto", "Aprobar ejecución"]
+        }
+      ]
+    },
+    "quickStart": {
+      "title": "Inicio Rápido de 5 Minutos",
+      "subtitle": "Oriéntate y ve valor inmediatamente",
+      "duration": "5 minutos",
+      "steps": [
+        {
+          "title": "Ve Tu Dashboard",
+          "description": "Tu centro de comando personalizado muestra lo que más importa. Métricas clave, alertas y actividad reciente de un vistazo.",
+          "action": "Abrir Dashboard"
+        },
+        {
+          "title": "Verifica la Salud de la Organización",
+          "description": "Un número te dice cómo va tu organización. Verde es bueno. Haz clic para ver detalles.",
+          "action": "Ver Puntuación de Salud"
+        },
+        {
+          "title": "Haz una Pregunta",
+          "description": "Escribe cualquier pregunta sobre tu organización. Nuestros agentes de IA encontrarán la respuesta.",
+          "action": "Abrir Asistente de IA"
+        },
+        {
+          "title": "Explora una Métrica",
+          "description": "Haz clic en cualquier métrica para profundizar. Ve historial, tendencias y qué está impulsando los cambios.",
+          "action": "Seleccionar una Métrica"
+        }
+      ]
+    }
+  },
+  "accessibility": {
+    "skipToMain": "Saltar al contenido principal",
+    "skipToNav": "Saltar a navegación",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "expandSection": "Expandir sección",
+    "collapseSection": "Colapsar sección",
+    "loading": "Cargando contenido",
+    "newWindow": "Abre en nueva ventana",
+    "externalLink": "Enlace externo",
+    "required": "Campo requerido",
+    "optional": "Opcional"
+  },
+  "time": {
+    "justNow": "Ahora mismo",
+    "minutesAgo": "hace {{count}} minuto",
+    "minutesAgo_plural": "hace {{count}} minutos",
+    "hoursAgo": "hace {{count}} hora",
+    "hoursAgo_plural": "hace {{count}} horas",
+    "daysAgo": "hace {{count}} día",
+    "daysAgo_plural": "hace {{count}} días",
+    "weeksAgo": "hace {{count}} semana",
+    "weeksAgo_plural": "hace {{count}} semanas"
   }
 }

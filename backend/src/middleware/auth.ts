@@ -123,45 +123,69 @@ export const devAuth = async (
     return authenticate(req, res, next);
   }
   
-  // In development, create demo user context
+  // In development, use real seeded organization
   if (process.env.NODE_ENV !== 'production') {
-    req.user = {
-      id: 'demo-user-id',
-      email: 'demo@datacendia.com',
-      firstName: 'Demo',
-      lastName: 'User',
-      role: 'ADMIN',
-      organizationId: 'demo-org-id',
-      status: 'ACTIVE',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      lastLoginAt: new Date(),
-      avatarUrl: null,
-      phoneNumber: null,
-      jobTitle: 'Demo User',
-      department: null,
-      preferences: {},
-      deletedAt: null,
-      organization: {
-        id: 'demo-org-id',
-        name: 'Demo Organization',
-        slug: 'demo',
-        plan: 'ENTERPRISE',
-        settings: {},
-        status: 'ACTIVE',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null,
-        ownerId: 'demo-user-id',
-        logoUrl: null,
-        domain: null,
-        industry: null,
-        size: null,
-        billingEmail: null,
-        trialEndsAt: null,
-      },
-    } as any;
-    req.organizationId = 'demo-org-id';
+    // Try to get the seeded admin user
+    const adminUser = await prisma.users.findUnique({
+      where: { email: 'admin@datacendia.com' },
+      include: { organizations: true },
+    });
+    
+    if (adminUser) {
+      req.user = {
+        id: adminUser.id,
+        email: adminUser.email,
+        name: adminUser.name,
+        role: adminUser.role,
+        organizationId: adminUser.organization_id,
+        status: adminUser.status,
+        createdAt: adminUser.created_at,
+        updatedAt: adminUser.updated_at,
+        organization: adminUser.organizations,
+      } as any;
+      req.organizationId = adminUser.organization_id;
+    } else {
+      const demoOrg = await prisma.organizations.upsert({
+        where: { slug: 'demo' },
+        update: {},
+        create: {
+          id: 'demo-org-id',
+          name: 'Demo Organization',
+          slug: 'demo',
+          settings: {},
+          updated_at: new Date(),
+        },
+      });
+
+      const demoUser = await prisma.users.upsert({
+        where: { email: 'demo@datacendia.com' },
+        update: {},
+        create: {
+          id: 'demo-user-id',
+          organization_id: demoOrg.id,
+          email: 'demo@datacendia.com',
+          password_hash: null,
+          name: 'Demo User',
+          role: 'ADMIN',
+          status: 'ACTIVE',
+          preferences: {},
+          updated_at: new Date(),
+        },
+      });
+
+      req.user = {
+        id: demoUser.id,
+        email: demoUser.email,
+        name: demoUser.name,
+        role: demoUser.role,
+        organizationId: demoUser.organization_id,
+        status: demoUser.status,
+        createdAt: demoUser.created_at,
+        updatedAt: demoUser.updated_at,
+        organization: demoOrg,
+      } as any;
+      req.organizationId = demoOrg.id;
+    }
     return next();
   }
   

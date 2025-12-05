@@ -3,6 +3,7 @@ import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { devAuth } from '../middleware/auth.js';
+import crypto from 'crypto';
 
 const router = Router();
 
@@ -22,7 +23,7 @@ router.get('/score', async (req: Request, res: Response, next: NextFunction) => 
     let healthData = await cache.get<{
       overall: number;
       dimensions: Record<string, { score: number; trend: string; change: number }>;
-      calculatedAt: string;
+      calculated_at: string;
     }>(cacheKey);
 
     if (!healthData) {
@@ -73,12 +74,12 @@ router.get('/trend', async (req: Request, res: Response, next: NextFunction) => 
     const startDate = new Date();
     startDate.setDate(startDate.getDate() - days);
 
-    const scores = await prisma.healthScore.findMany({
+    const scores = await prisma.health_scores.findMany({
       where: {
-        organizationId: orgId,
-        calculatedAt: { gte: startDate },
+        organization_id: orgId,
+        calculated_at: { gte: startDate },
       },
-      orderBy: { calculatedAt: 'asc' },
+      orderBy: { calculated_at: 'asc' },
     });
 
     res.json({
@@ -87,11 +88,11 @@ router.get('/trend', async (req: Request, res: Response, next: NextFunction) => 
         period: `${days} days`,
         scores: scores.map(s => ({
           overall: s.overall,
-          data: s.dataScore,
-          ops: s.opsScore,
-          security: s.securityScore,
-          people: s.peopleScore,
-          date: s.calculatedAt,
+          data: s.data_score,
+          ops: s.ops_score,
+          security: s.security_score,
+          people: s.people_score,
+          date: s.calculated_at,
         })),
       },
     });
@@ -124,35 +125,35 @@ async function calculateHealthScore(orgId: string) {
   const weekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
 
   // Get active alerts
-  const alerts = await prisma.alert.findMany({
-    where: { organizationId: orgId, status: 'ACTIVE' },
+  const alerts = await prisma.alerts.findMany({
+    where: { organization_id: orgId, status: 'ACTIVE' },
   });
 
   const criticalAlerts = alerts.filter(a => a.severity === 'CRITICAL').length;
   const warningAlerts = alerts.filter(a => a.severity === 'WARNING').length;
 
   // Get recent metric values
-  const metricValues = await prisma.metricValue.findMany({
+  const metricValues = await prisma.metric_values.findMany({
     where: {
-      metric: { organizationId: orgId },
+      metric_definitions: { organization_id: orgId },
       timestamp: { gte: weekAgo },
     },
-    include: { metric: true },
+    include: { metric_definitions: true },
   });
 
   // Get data sources status
-  const dataSources = await prisma.dataSource.findMany({
-    where: { organizationId: orgId },
+  const dataSources = await prisma.data_sources.findMany({
+    where: { organization_id: orgId },
   });
 
   const connectedSources = dataSources.filter(ds => ds.status === 'CONNECTED').length;
   const totalSources = dataSources.length || 1;
 
   // Get workflow success rate
-  const executions = await prisma.workflowExecution.findMany({
+  const executions = await prisma.workflow_executions.findMany({
     where: {
-      workflow: { organizationId: orgId },
-      createdAt: { gte: weekAgo },
+      workflows: { organization_id: orgId },
+      created_at: { gte: weekAgo },
     },
   });
 
@@ -179,9 +180,9 @@ async function calculateHealthScore(orgId: string) {
   const overall = Math.round((dataScore + opsScore + securityScore + peopleScore) / 4);
 
   // Get previous score for trend
-  const previousScore = await prisma.healthScore.findFirst({
-    where: { organizationId: orgId },
-    orderBy: { calculatedAt: 'desc' },
+  const previousScore = await prisma.health_scores.findFirst({
+    where: { organization_id: orgId },
+    orderBy: { calculated_at: 'desc' },
   });
 
   const getTrend = (current: number, previous: number | undefined) => {
@@ -197,38 +198,39 @@ async function calculateHealthScore(orgId: string) {
     dimensions: {
       data: {
         score: dataScore,
-        trend: getTrend(dataScore, previousScore?.dataScore),
-        change: dataScore - (previousScore?.dataScore || dataScore),
+        trend: getTrend(dataScore, previousScore?.data_score),
+        change: dataScore - (previousScore?.data_score || dataScore),
       },
       operations: {
         score: opsScore,
-        trend: getTrend(opsScore, previousScore?.opsScore),
-        change: opsScore - (previousScore?.opsScore || opsScore),
+        trend: getTrend(opsScore, previousScore?.ops_score),
+        change: opsScore - (previousScore?.ops_score || opsScore),
       },
       security: {
         score: securityScore,
-        trend: getTrend(securityScore, previousScore?.securityScore),
-        change: securityScore - (previousScore?.securityScore || securityScore),
+        trend: getTrend(securityScore, previousScore?.security_score),
+        change: securityScore - (previousScore?.security_score || securityScore),
       },
       people: {
         score: peopleScore,
-        trend: getTrend(peopleScore, previousScore?.peopleScore),
-        change: peopleScore - (previousScore?.peopleScore || peopleScore),
+        trend: getTrend(peopleScore, previousScore?.people_score),
+        change: peopleScore - (previousScore?.people_score || peopleScore),
       },
     },
-    calculatedAt: now.toISOString(),
+    calculated_at: now.toISOString(),
   };
 
   // Store health score
-  await prisma.healthScore.create({
+  await prisma.health_scores.create({
     data: {
-      organizationId: orgId,
+      id: crypto.randomUUID(),
+      organization_id: orgId,
       overall,
-      dataScore,
-      opsScore,
-      securityScore,
-      peopleScore,
-      calculatedAt: now,
+      data_score: dataScore,
+      ops_score: opsScore,
+      security_score: securityScore,
+      people_score: peopleScore,
+      calculated_at: now,
       details: result,
     },
   });

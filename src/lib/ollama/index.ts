@@ -82,6 +82,9 @@ export interface OllamaChatResponse {
 // DOMAIN AGENT DEFINITIONS
 // =============================================================================
 
+// Personality trait type for type safety
+export type PersonalityTraitId = string;
+
 export interface DomainAgent {
   id: string;
   code: string;
@@ -94,6 +97,9 @@ export interface DomainAgent {
   capabilities: string[];
   systemPrompt: string;
   model: string; // Ollama model to use
+  // Personality configuration (all OFF by default)
+  defaultPersonality?: PersonalityTraitId[]; // Suggested traits for this agent type
+  enabledTraits?: PersonalityTraitId[]; // Currently active traits (empty = default behavior)
   // Premium add-on features
   premium?: boolean;
   premiumPackage?: string;

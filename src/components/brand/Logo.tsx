@@ -12,6 +12,9 @@ interface LogoProps {
   className?: string;
 }
 
+// Logo aspect ratio: 746x182 = ~4.1:1
+const LOGO_ASPECT_RATIO = 746 / 182;
+
 const sizes = {
   sm: { height: 32 },
   md: { height: 40 },
@@ -25,13 +28,15 @@ export const Logo: React.FC<LogoProps> = ({
   className = '',
 }) => {
   const { height } = sizes[size];
+  const width = Math.round(height * LOGO_ASPECT_RATIO);
 
   return (
     <img
       src="/logo.png"
       alt="Datacendia"
+      width={width}
       height={height}
-      style={{ height: `${height}px`, width: 'auto' }}
+      style={{ height: `${height}px`, width: `${width}px` }}
       className={className}
     />
   );
@@ -42,12 +47,14 @@ export const LogoSimple: React.FC<{ size?: number; className?: string }> = ({
   size = 40,
   className = '',
 }) => {
+  const width = Math.round(size * LOGO_ASPECT_RATIO);
   return (
     <img
       src="/logo.png"
       alt="Datacendia"
+      width={width}
       height={size}
-      style={{ height: `${size}px`, width: 'auto' }}
+      style={{ height: `${size}px`, width: `${width}px` }}
       className={className}
     />
   );

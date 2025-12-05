@@ -64,6 +64,20 @@ import enterpriseRoutes from './routes/enterprise.js';
 import adminRoutes from './routes/admin.js';
 import settingsRoutes from './routes/settings.js';
 import pillarsRoutes from './routes/pillars.js';
+import complianceRoutes from './routes/compliance.js';
+import crucibleRoutes from './routes/crucible.js';
+import panopticonRoutes from './routes/panopticon.js';
+import aegisRoutes from './routes/aegis.js';
+import eternalRoutes from './routes/eternal.js';
+import symbiontRoutes from './routes/symbiont.js';
+import voxRoutes from './routes/vox.js';
+import sovereignOrgansRoutes from './routes/sovereign-organs.js';
+import sovereignSecurityRoutes from './routes/sovereign-security.js';
+import meshRoutes from './routes/mesh.js';
+import personaRoutes from './routes/persona.js';
+import governRoutes from './routes/govern.js';
+import autopilotRoutes from './routes/autopilot.js';
+import decisionIntelRoutes from './routes/decision-intel.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -95,9 +109,26 @@ app.use(helmet({
   },
 }));
 
-// CORS configuration
+// CORS configuration - allow any localhost/127.0.0.1 origin in development
 app.use(cors({
-  origin: config.corsOrigins,
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+    
+    // In development, allow any localhost or 127.0.0.1 origin
+    if (config.nodeEnv === 'development') {
+      if (origin.includes('localhost') || origin.includes('127.0.0.1')) {
+        return callback(null, true);
+      }
+    }
+    
+    // Check against configured origins
+    if (config.corsOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+    
+    callback(new Error('Not allowed by CORS'));
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID'],
@@ -180,6 +211,20 @@ app.use('/api/v1/enterprise', enterpriseRoutes);
 app.use('/api/v1/admin', adminRoutes);
 app.use('/api/v1/settings', settingsRoutes);
 app.use('/api/v1/pillars', pillarsRoutes);
+app.use('/api/v1/compliance', complianceRoutes);
+app.use('/api/v1/crucible', crucibleRoutes);
+app.use('/api/v1/panopticon', panopticonRoutes);
+app.use('/api/v1/aegis', aegisRoutes);
+app.use('/api/v1/eternal', eternalRoutes);
+app.use('/api/v1/symbiont', symbiontRoutes);
+app.use('/api/v1/vox', voxRoutes);
+app.use('/api/v1/sovereign', sovereignOrgansRoutes);
+app.use('/api/v1/security', sovereignSecurityRoutes);
+app.use('/api/v1/mesh', meshRoutes);
+app.use('/api/v1/persona', personaRoutes);
+app.use('/api/v1/govern', governRoutes);
+app.use('/api/v1/autopilot', autopilotRoutes);
+app.use('/api/v1/decision-intel', decisionIntelRoutes);
 
 // 404 handler
 app.use((req, res) => {

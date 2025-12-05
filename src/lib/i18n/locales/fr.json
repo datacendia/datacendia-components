@@ -139,6 +139,131 @@
     "desktop": { "title": "Application de Bureau", "download": "Télécharger" },
     "mobile": { "title": "Applications Mobiles" }
   },
+  "dashboard": {
+    "title": "Tableau de Bord",
+    "welcome": "Bienvenue",
+    "subtitle": "Voici comment {{company}} se porte aujourd'hui",
+    "health_score": "Santé de l'Organisation",
+    "data": "Données",
+    "operations": "Opérations",
+    "security": "Sécurité",
+    "people": "Personnel",
+    "fromLastWeek": "depuis la semaine dernière",
+    "alerts": "Alertes Actives",
+    "critical": "Critique",
+    "warning": "Avertissement",
+    "pending_approvals": "Approbations en Attente",
+    "workflows": "Flux de travail",
+    "access": "Accès",
+    "budget": "Budget",
+    "by": "par",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "keyMetrics": "Métriques Clés",
+    "askTheCouncil": "Interroger le Conseil",
+    "whatToKnow": "Que souhaitez-vous savoir?",
+    "recentQueries": "Requêtes récentes:",
+    "recentActivity": "Activité Récente",
+    "viewFullLog": "Voir le Journal Complet",
+    "greetings": {
+      "morning": "Bonjour",
+      "afternoon": "Bon après-midi",
+      "evening": "Bonsoir"
+    },
+    "sampleAlerts": {
+      "databaseCpu": "CPU base de données > 90% depuis 15 min",
+      "paymentLatency": "Pic de latence du traitement des paiements",
+      "diskUsage": "Utilisation disque à 78% sur prod-db-01"
+    },
+    "sampleApprovals": {
+      "monthlyClose": "Processus de Clôture Mensuelle",
+      "prodDbAccess": "Accès BD Production"
+    },
+    "sampleMetrics": {
+      "revenue": "Revenus",
+      "pipeline": "Pipeline",
+      "burnRate": "Taux de Consommation",
+      "nps": "NPS"
+    },
+    "sampleQueries": {
+      "churnIncrease": "Pourquoi le taux d'attrition a augmenté?",
+      "forecastRevenue": "Prévision revenus T4",
+      "biggestRisk": "Quel est notre plus grand risque?"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Tableau de Bord",
+    "the_council": "Le Conseil",
+    "the_graph": "Le Graphe",
+    "the_pulse": "Le Pouls",
+    "the_lens": "La Lentille",
+    "the_bridge": "Le Pont",
+    "settings": "Paramètres",
+    "help": "Aide et Support"
+  },
+  "button": {
+    "view_all": "Voir Tout",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "save": "Enregistrer",
+    "cancel": "Annuler"
+  },
+  "label": {
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "busy": "Occupé",
+    "premium": "Premium",
+    "locked": "Verrouillé",
+    "custom": "Personnalisé",
+    "unlock": "Déverrouiller"
+  },
+  "council": {
+    "title": "Le Conseil",
+    "agents": { "domain": "Agents de Domaine" },
+    "modes": {
+      "title": "Bibliothèque des Modes du Conseil",
+      "subtitle": "Les mêmes 10 agents avec différents modes produisent des résultats radicalement différents.",
+      "cultureNote": "Le prompt EST la culture d'entreprise.",
+      "quickReference": "Référence Rapide",
+      "mode": "Mode",
+      "primeDirective": "Directive Principale",
+      "bestFor": "Idéal Pour",
+      "agentBehavior": "Comportement de l'Agent"
+    },
+    "customAgent": {
+      "title": "Créer un Agent Personnalisé",
+      "editTitle": "Modifier l'Agent Personnalisé",
+      "subtitle": "Concevez votre propre agent IA avec une expertise spécialisée",
+      "avatar": "Avatar de l'Agent",
+      "color": "Couleur de l'Agent",
+      "name": "Nom de l'Agent",
+      "role": "Rôle / Titre",
+      "description": "Description",
+      "expertise": "Expertise et Instructions"
+    }
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Rechercher commandes, pages, agents...",
+    "noResults": "Aucun résultat pour",
+    "navigate": "naviguer",
+    "select": "sélectionner",
+    "toggle": "basculer",
+    "newQuery": "Nouvelle Requête au Conseil",
+    "askCouncil": "Poser une question au Conseil",
+    "refresh": "Actualiser les Données",
+    "reloadPage": "Recharger les données de la page",
+    "fullscreen": "Plein Écran",
+    "toggleFullscreen": "Entrer/sortir du mode plein écran",
+    "switchTo": "Passer à",
+    "changeLanguage": "Changer la langue en",
+    "categories": {
+      "navigation": "Navigation",
+      "actions": "Actions",
+      "agents": "Agents",
+      "modes": "Modes du Conseil",
+      "recent": "Récent"
+    }
+  },
   "footer": {
     "company": "Entreprise",
     "product": "Produit",
@@ -148,5 +273,109 @@
     "terms": "Conditions d'Utilisation",
     "copyright": "© {{year}} Datacendia. Tous droits réservés.",
     "tagline": "Intelligence d'Entreprise Souveraine"
+  },
+  "tooltips": {
+    "pillars": {
+      "helm": {
+        "title": "Le Gouvernail - Centre de Commande Stratégique",
+        "summary": "Le système de support aux décisions stratégiques de votre organisation. Surveillez, analysez et dirigez avec confiance.",
+        "features": ["Tableaux de bord KPI en temps réel avec analyse des tendances", "Suivi et alignement des objectifs stratégiques", "Benchmarking par rapport aux standards de l'industrie", "Seuils d'alerte avec notifications automatiques", "Génération de résumés exécutifs"],
+        "useCases": ["Suivre les objectifs trimestriels dans tous les départements", "Surveiller les métriques de revenus et indicateurs de croissance", "Définir et suivre les jalons stratégiques"],
+        "guidance": "Commencez par définir vos métriques clés. Le Gouvernail fonctionne mieux quand vous avez des objectifs clairs et mesurables alignés avec la stratégie de votre organisation."
+      },
+      "lineage": {
+        "title": "La Lignée - Traceur de Provenance des Données",
+        "summary": "Visibilité complète du parcours de vos données. Sachez d'où vient chaque chiffre et où il va.",
+        "features": ["Cartographie visuelle des flux de données", "Traçabilité de la source au rapport", "Analyse d'impact des changements de données", "Score de qualité des données à chaque étape", "Génération automatisée de documentation"],
+        "guidance": "Connectez d'abord vos sources de données. La Lignée découvre automatiquement les relations et construit votre carte de données."
+      },
+      "predict": {
+        "title": "La Prédiction - Moteur de Prévisions IA",
+        "summary": "Des modèles d'apprentissage automatique qui voient au-delà. Prévoyez les tendances avant qu'elles ne deviennent évidentes.",
+        "features": ["Prévisions de séries temporelles avec intervalles de confiance", "Détection d'anomalies et système d'alerte précoce", "Modélisation de scénarios hypothétiques", "Analyse d'importance des caractéristiques", "Surveillance des performances du modèle"],
+        "guidance": "Les prédictions de qualité nécessitent des données de qualité. Commencez avec des données historiques propres."
+      },
+      "guard": {
+        "title": "Le Gardien - Bouclier de Sécurité et Conformité",
+        "summary": "Protection automatisée pour vos données. Appliquez les politiques, suivez les accès et restez conforme.",
+        "features": ["Moteur d'application des politiques", "Journalisation des audits d'accès", "Détection des menaces et alertes", "Cartographie des cadres de conformité", "Score de posture de sécurité"],
+        "guidance": "Définissez vos politiques de sécurité et exigences de conformité. Le Gardien surveille en continu et alerte sur les violations."
+      },
+      "ethics": {
+        "title": "L'Éthique - Centre de Gouvernance IA",
+        "summary": "IA responsable intégrée. Assurez l'équité, la transparence et la responsabilité dans chaque décision.",
+        "features": ["Détection et surveillance des biais", "Outils d'explicabilité des modèles", "Flux de révision éthique", "Suivi des métriques d'équité", "Pistes d'audit des décisions"],
+        "guidance": "Établissez d'abord vos principes éthiques. L'Éthique vous aide à les opérationnaliser dans tous les systèmes IA."
+      }
+    },
+    "spaces": {
+      "graph": {
+        "title": "Le Graphe - Navigateur de Connaissances",
+        "summary": "Naviguez dans l'univers de connaissances de votre organisation. Voyez les connexions que les autres manquent.",
+        "guidance": "Explorez en cliquant sur n'importe quel nœud. Le Graphe révèle les connexions et vous permet d'approfondir les détails."
+      },
+      "council": {
+        "title": "Le Conseil - Chambre de Collaboration IA",
+        "summary": "Où les conseillers IA délibèrent ensemble. Les problèmes complexes nécessitent plusieurs perspectives.",
+        "guidance": "Présentez votre question au Conseil. Observez comment différentes perspectives émergent et se synthétisent en recommandations."
+      },
+      "pulse": {
+        "title": "Le Pouls - Centre d'Opérations en Temps Réel",
+        "summary": "Vue en direct du battement de cœur de votre organisation. Chaque métrique, chaque instant.",
+        "guidance": "Configurez vos métriques clés pour apparaître sur Le Pouls. Définissez des seuils d'alerte pour être notifié des changements."
+      }
+    }
+  },
+  "narratives": {
+    "welcome": {
+      "title": "Bienvenue sur Datacendia",
+      "subtitle": "Votre voyage vers l'intelligence souveraine commence ici",
+      "steps": [
+        {"title": "Découvrez Votre Centre de Commande", "description": "Le Cortex est votre vue unifiée de l'intelligence organisationnelle.", "action": "Explorer le Cortex"},
+        {"title": "Comprenez les 8 Piliers", "description": "Chaque pilier fournit des capacités essentielles - des métriques stratégiques à la gouvernance IA.", "action": "Voir l'Aperçu des Piliers"},
+        {"title": "Connectez Votre Première Source", "description": "L'intelligence nécessite des données. Connectez une base de données, API ou source de fichiers.", "action": "Ajouter une Source"},
+        {"title": "Définissez Vos Métriques Clés", "description": "Qu'est-ce qui compte le plus pour votre organisation? Définissez les KPIs pour votre tableau de bord.", "action": "Créer une Métrique"}
+      ]
+    },
+    "quickStart": {
+      "title": "Démarrage Rapide 5 Minutes",
+      "subtitle": "Orientez-vous et voyez la valeur immédiatement",
+      "duration": "5 minutes",
+      "steps": [
+        {"title": "Voir Votre Tableau de Bord", "description": "Votre centre de commande personnalisé montre ce qui compte le plus.", "action": "Ouvrir le Tableau de Bord"},
+        {"title": "Vérifier la Santé de l'Organisation", "description": "Un chiffre vous dit comment va votre organisation. Vert c'est bon.", "action": "Voir le Score de Santé"},
+        {"title": "Poser une Question", "description": "Tapez n'importe quelle question sur votre organisation. Nos agents IA trouveront la réponse.", "action": "Ouvrir l'Assistant IA"}
+      ]
+    },
+    "crisisResponse": {
+      "title": "Protocole de Réponse aux Crises",
+      "subtitle": "Quand les choses tournent mal, agissez vite avec une information complète",
+      "persona": "Commandant d'Incident",
+      "duration": "Temps réel"
+    },
+    "boardPresentation": {
+      "title": "Préparation de Réunion du Conseil",
+      "subtitle": "Impressionnez le conseil avec des insights basés sur les données",
+      "persona": "PDG / DAF / Présentateur",
+      "duration": "30 minutes"
+    }
+  },
+  "accessibility": {
+    "skipToMain": "Aller au contenu principal",
+    "skipToNav": "Aller à la navigation",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "loading": "Chargement du contenu",
+    "required": "Champ obligatoire",
+    "optional": "Optionnel"
+  },
+  "time": {
+    "justNow": "À l'instant",
+    "minutesAgo": "il y a {{count}} minute",
+    "minutesAgo_plural": "il y a {{count}} minutes",
+    "hoursAgo": "il y a {{count}} heure",
+    "hoursAgo_plural": "il y a {{count}} heures",
+    "daysAgo": "il y a {{count}} jour",
+    "daysAgo_plural": "il y a {{count}} jours"
   }
 }

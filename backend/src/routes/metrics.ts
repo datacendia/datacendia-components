@@ -52,7 +52,7 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
     const orgId = req.organizationId!;
 
     const where = {
-      organizationId: orgId,
+      organization_id: orgId,
       ...(category && { category }),
       ...(search && {
         OR: [
@@ -64,14 +64,14 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
     };
 
     const [metrics, total] = await Promise.all([
-      prisma.metricDefinition.findMany({
+      prisma.metric_definitions.findMany({
         where,
         orderBy: { name: 'asc' },
         skip: (page - 1) * pageSize,
         take: pageSize,
-        include: { owner: { select: { id: true, name: true } } },
+        include: { users: { select: { id: true, name: true } } },
       }),
-      prisma.metricDefinition.count({ where }),
+      prisma.metric_definitions.count({ where }),
     ]);
 
     res.json({
@@ -102,9 +102,9 @@ router.get('/key', async (req: Request, res: Response, next: NextFunction) => {
 
     if (!keyMetrics) {
       // Get predefined key metrics with latest values
-      const metrics = await prisma.metricDefinition.findMany({
+      const metrics = await prisma.metric_definitions.findMany({
         where: {
-          organizationId: orgId,
+          organization_id: orgId,
           category: { in: ['revenue', 'sales', 'operations', 'customer'] },
         },
         take: 6,
@@ -114,12 +114,12 @@ router.get('/key', async (req: Request, res: Response, next: NextFunction) => {
         metrics.map(async (metric) => {
           // Get latest and previous values
           const [latest, previous] = await Promise.all([
-            prisma.metricValue.findFirst({
-              where: { metricId: metric.id },
+            prisma.metric_values.findFirst({
+              where: { metric_id: metric.id },
               orderBy: { timestamp: 'desc' },
             }),
-            prisma.metricValue.findFirst({
-              where: { metricId: metric.id },
+            prisma.metric_values.findFirst({
+              where: { metric_id: metric.id },
               orderBy: { timestamp: 'desc' },
               skip: 1,
             }),
@@ -160,10 +160,10 @@ router.get('/key', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const metric = await prisma.metricDefinition.findUnique({
+    const metric = await prisma.metric_definitions.findUnique({
       where: { id: req.params.id },
       include: {
-        owner: { select: { id: true, name: true } },
+        users: { select: { id: true, name: true } },
       },
     });
 
@@ -171,7 +171,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Metric');
     }
 
-    if (metric.organizationId !== req.organizationId) {
+    if (metric.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -195,30 +195,30 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
     const userId = req.user!.id;
 
     // Check for duplicate code
-    const existing = await prisma.metricDefinition.findUnique({
-      where: { organizationId_code: { organizationId: orgId, code: data.code } },
+    const existing = await prisma.metric_definitions.findUnique({
+      where: { organization_id_code: { organization_id: orgId, code: data.code } },
     });
 
     if (existing) {
       throw errors.conflict(`Metric with code '${data.code}' already exists`);
     }
 
-    const metric = await prisma.metricDefinition.create({
+    const metric = await prisma.metric_definitions.create({
       data: {
         ...data,
-        organizationId: orgId,
-        ownerId: userId,
+        organization_id: orgId,
+        owner_id: userId,
       },
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: orgId,
-        userId,
+        organization_id: orgId,
+        user_id: userId,
         action: 'metric.create',
-        resourceType: 'metric',
-        resourceId: metric.id,
+        resource_type: 'metric',
+        resource_id: metric.id,
         details: { name: metric.name, code: metric.code },
       },
     });
@@ -240,7 +240,7 @@ router.get('/:id/calculate', async (req: Request, res: Response, next: NextFunct
   try {
     const { startDate, endDate, granularity, dimensions } = calculateQuerySchema.parse(req.query);
 
-    const metric = await prisma.metricDefinition.findUnique({
+    const metric = await prisma.metric_definitions.findUnique({
       where: { id: req.params.id },
     });
 
@@ -248,7 +248,7 @@ router.get('/:id/calculate', async (req: Request, res: Response, next: NextFunct
       throw errors.notFound('Metric');
     }
 
-    if (metric.organizationId !== req.organizationId) {
+    if (metric.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -257,9 +257,9 @@ router.get('/:id/calculate', async (req: Request, res: Response, next: NextFunct
     const end = endDate ? new Date(endDate) : new Date();
 
     // Get metric values
-    const values = await prisma.metricValue.findMany({
+    const values = await prisma.metric_values.findMany({
       where: {
-        metricId: metric.id,
+        metric_id: metric.id,
         timestamp: { gte: start, lte: end },
       },
       orderBy: { timestamp: 'asc' },
@@ -273,7 +273,7 @@ router.get('/:id/calculate', async (req: Request, res: Response, next: NextFunct
     res.json({
       success: true,
       data: {
-        metricId: metric.id,
+        metric_id: metric.id,
         metricName: metric.name,
         timeRange: { start, end },
         values: values.map(v => ({
@@ -303,7 +303,7 @@ router.get('/:id/history', async (req: Request, res: Response, next: NextFunctio
   try {
     const { startDate, endDate, granularity } = calculateQuerySchema.parse(req.query);
 
-    const metric = await prisma.metricDefinition.findUnique({
+    const metric = await prisma.metric_definitions.findUnique({
       where: { id: req.params.id },
     });
 
@@ -311,16 +311,16 @@ router.get('/:id/history', async (req: Request, res: Response, next: NextFunctio
       throw errors.notFound('Metric');
     }
 
-    if (metric.organizationId !== req.organizationId) {
+    if (metric.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
     const start = startDate ? new Date(startDate) : new Date(Date.now() - 90 * 24 * 60 * 60 * 1000);
     const end = endDate ? new Date(endDate) : new Date();
 
-    const values = await prisma.metricValue.findMany({
+    const values = await prisma.metric_values.findMany({
       where: {
-        metricId: metric.id,
+        metric_id: metric.id,
         timestamp: { gte: start, lte: end },
       },
       orderBy: { timestamp: 'asc' },
@@ -329,7 +329,7 @@ router.get('/:id/history', async (req: Request, res: Response, next: NextFunctio
     res.json({
       success: true,
       data: {
-        metricId: metric.id,
+        metric_id: metric.id,
         metricName: metric.name,
         unit: metric.unit,
         values: values.map(v => ({

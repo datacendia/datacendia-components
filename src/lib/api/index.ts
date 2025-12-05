@@ -401,6 +401,135 @@ export const integrationsApi = {
   },
 };
 
+// ============================================================================
+// MESH API (CendiaMesh™)
+// ============================================================================
+export const meshApi = {
+  async getStats() {
+    return api.get<{ total_participants: number; active_today: number; data_points_shared: number; insights_generated: number; avg_response_ms: number; privacy_score: number; uptime_percent: number }>('/mesh/stats');
+  },
+
+  async getParticipants(params?: { industry?: string; region?: string; limit?: number }) {
+    return api.get<unknown[]>('/mesh/participants', params);
+  },
+
+  async getBenchmarks(params?: { industry?: string; category?: string }) {
+    return api.get<unknown[]>('/mesh/benchmarks', params);
+  },
+
+  async getRiskSignals(params?: { severity?: string; category?: string; active?: boolean }) {
+    return api.get<unknown[]>('/mesh/signals', params);
+  },
+
+  async createSignal(data: { title: string; description: string; category: string; severity: string; affected_industries?: string[]; affected_regions?: string[]; confidence?: number; sources?: number }) {
+    return api.post<unknown>('/mesh/signals', data);
+  },
+};
+
+// ============================================================================
+// PERSONA API (PersonaForge™)
+// ============================================================================
+export const personaApi = {
+  async getTwins(params?: { organization_id?: string }) {
+    return api.get<unknown[]>('/persona/twins', params);
+  },
+
+  async getTwin(id: string) {
+    return api.get<unknown>(`/persona/twins/${id}`);
+  },
+
+  async createTwin(data: { organization_id: string; name: string; role: string; department?: string; personality_config?: Record<string, unknown>; knowledge_domains?: string[] }) {
+    return api.post<unknown>('/persona/twins', data);
+  },
+
+  async addConversation(twinId: string, data: { user_id: string; messages: unknown[]; satisfaction?: number; duration_ms?: number }) {
+    return api.post<unknown>(`/persona/twins/${twinId}/conversation`, data);
+  },
+};
+
+// ============================================================================
+// AUTOPILOT API (CendiaAutopilot™)
+// ============================================================================
+export const autopilotApi = {
+  async getRules(params?: { organization_id?: string; enabled?: boolean }) {
+    return api.get<unknown[]>('/autopilot/rules', params);
+  },
+
+  async createRule(data: { organization_id: string; name: string; trigger_type: string; trigger_config?: Record<string, unknown>; action_type: string; action_config?: Record<string, unknown> }) {
+    return api.post<unknown>('/autopilot/rules', data);
+  },
+
+  async executeRule(ruleId: string, data?: { duration_ms?: number }) {
+    return api.post<unknown>(`/autopilot/rules/${ruleId}/execute`, data);
+  },
+
+  async getExecutions(params?: { rule_id?: string }) {
+    return api.get<unknown[]>('/autopilot/executions', params);
+  },
+};
+
+// ============================================================================
+// GOVERN API (CendiaGovern™)
+// ============================================================================
+export const governApi = {
+  async getPolicies(params?: { organization_id?: string; status?: string; category?: string }) {
+    return api.get<unknown[]>('/govern/policies', params);
+  },
+
+  async createPolicy(data: { organization_id: string; name: string; description: string; category: string; rules?: unknown[]; created_by: string }) {
+    return api.post<unknown>('/govern/policies', data);
+  },
+
+  async getAudits(params?: { organization_id?: string; status?: string }) {
+    return api.get<unknown[]>('/govern/audits', params);
+  },
+
+  async createAudit(data: { organization_id: string; policy_id?: string; audit_type: string; findings?: unknown[]; risk_score?: number }) {
+    return api.post<unknown>('/govern/audits', data);
+  },
+};
+
+// ============================================================================
+// DECISION INTELLIGENCE API
+// ============================================================================
+export const decisionIntelApi = {
+  // Chronos
+  async getChronosSnapshots(params?: { organization_id?: string; snapshot_type?: string }) {
+    return api.get<unknown[]>('/decision-intel/chronos/snapshots', params);
+  },
+
+  async createChronosSnapshot(data: { organization_id: string; snapshot_type: string; name: string; data?: Record<string, unknown>; metrics?: Record<string, unknown>; created_by: string }) {
+    return api.post<unknown>('/decision-intel/chronos/snapshots', data);
+  },
+
+  // Ghost Board
+  async getGhostBoardSessions(params?: { organization_id?: string; status?: string }) {
+    return api.get<unknown[]>('/decision-intel/ghost-board/sessions', params);
+  },
+
+  async createGhostBoardSession(data: { organization_id: string; title: string; scenario: string; board_composition?: unknown[]; created_by: string }) {
+    return api.post<unknown>('/decision-intel/ghost-board/sessions', data);
+  },
+
+  // Pre-Mortem
+  async getPreMortemAnalyses(params?: { organization_id?: string; decision_id?: string; status?: string }) {
+    return api.get<unknown[]>('/decision-intel/pre-mortem/analyses', params);
+  },
+
+  async createPreMortemAnalysis(data: { organization_id: string; decision_id?: string; title: string; failure_modes?: unknown[]; risk_factors?: unknown[]; mitigations?: unknown[]; overall_risk?: number; created_by: string }) {
+    return api.post<unknown>('/decision-intel/pre-mortem/analyses', data);
+  },
+
+  // Regulatory
+  async getRegulatoryItems(params?: { organization_id?: string; jurisdiction?: string; status?: string }) {
+    return api.get<unknown[]>('/decision-intel/regulatory/items', params);
+  },
+
+  async createRegulatoryItem(data: { organization_id: string; regulation_id: string; title: string; description: string; jurisdiction: string; category: string; impact_level?: string; required_actions?: unknown[] }) {
+    return api.post<unknown>('/decision-intel/regulatory/items', data);
+  },
+};
+
 // Default export with all APIs
 export default {
   auth: authApi,
@@ -415,4 +544,9 @@ export default {
   users: usersApi,
   organizations: organizationsApi,
   integrations: integrationsApi,
+  mesh: meshApi,
+  persona: personaApi,
+  autopilot: autopilotApi,
+  govern: governApi,
+  decisionIntel: decisionIntelApi,
 };

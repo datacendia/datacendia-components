@@ -13,6 +13,7 @@ import { DataSourceSelector, WorkflowIndicator, QuickActionsBar } from '../compo
 import CommandPalette from '../components/CommandPalette';
 import SEO from '../components/SEO';
 import { Logo, LogoSimple } from '../components/brand/Logo';
+import { SimpleTooltip } from '../components/ui';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
 const Icons = {
@@ -92,24 +93,24 @@ const Icons = {
 
 // Navigation items configuration - 5 Spaces (use translation keys)
 const navigationItems = [
-  { id: 'dashboard', labelKey: 'sidebar.dashboard', icon: Icons.Home, path: '/cortex/dashboard' },
-  { id: 'graph', labelKey: 'sidebar.the_graph', icon: Icons.Graph, path: '/cortex/graph' },
-  { id: 'council', labelKey: 'sidebar.the_council', icon: Icons.Council, path: '/cortex/council' },
-  { id: 'pulse', labelKey: 'sidebar.the_pulse', icon: Icons.Pulse, path: '/cortex/pulse' },
-  { id: 'lens', labelKey: 'sidebar.the_lens', icon: Icons.Lens, path: '/cortex/lens' },
-  { id: 'bridge', labelKey: 'sidebar.the_bridge', icon: Icons.Bridge, path: '/cortex/bridge' },
+  { id: 'dashboard', labelKey: 'sidebar.dashboard', icon: Icons.Home, path: '/cortex/dashboard', tooltip: 'Your command center - overview of all metrics, alerts, and recent activity' },
+  { id: 'graph', labelKey: 'sidebar.the_graph', icon: Icons.Graph, path: '/cortex/graph', tooltip: 'Knowledge Graph Explorer - visualize entities, relationships, and data lineage' },
+  { id: 'council', labelKey: 'sidebar.the_council', icon: Icons.Council, path: '/cortex/council', tooltip: 'AI Council - multi-agent deliberation for complex decisions with explainable reasoning' },
+  { id: 'pulse', labelKey: 'sidebar.the_pulse', icon: Icons.Pulse, path: '/cortex/pulse', tooltip: 'Real-time organizational health monitoring with anomaly detection' },
+  { id: 'lens', labelKey: 'sidebar.the_lens', icon: Icons.Lens, path: '/cortex/lens', tooltip: 'Predictive analytics and scenario simulation for strategic planning' },
+  { id: 'bridge', labelKey: 'sidebar.the_bridge', icon: Icons.Bridge, path: '/cortex/bridge', tooltip: 'Integration hub - connect external systems, APIs, and data sources' },
 ];
 
 // 8 Pillars (Foundational Data Layers)
 const pillarItems = [
-  { id: 'helm', labelKey: 'sidebar.the_helm', emoji: '🎯', path: '/cortex/pillars/helm' },
-  { id: 'lineage', labelKey: 'sidebar.the_lineage', emoji: '🔗', path: '/cortex/pillars/lineage' },
-  { id: 'predict', labelKey: 'sidebar.the_predict', emoji: '🔮', path: '/cortex/pillars/predict' },
-  { id: 'flow', labelKey: 'sidebar.the_flow', emoji: '🌊', path: '/cortex/pillars/flow' },
-  { id: 'health', labelKey: 'sidebar.the_health', emoji: '💓', path: '/cortex/pillars/health' },
-  { id: 'guard', labelKey: 'sidebar.the_guard', emoji: '🛡️', path: '/cortex/pillars/guard' },
-  { id: 'ethics', labelKey: 'sidebar.the_ethics', emoji: '⚖️', path: '/cortex/pillars/ethics' },
-  { id: 'agents', labelKey: 'sidebar.the_agents', emoji: '🤖', path: '/cortex/pillars/agents' },
+  { id: 'helm', labelKey: 'sidebar.the_helm', emoji: '🎯', path: '/cortex/pillars/helm', tooltip: 'Metrics Dashboard - KPIs, targets, and performance tracking across your organization' },
+  { id: 'lineage', labelKey: 'sidebar.the_lineage', emoji: '🔗', path: '/cortex/pillars/lineage', tooltip: 'Data Lineage - trace data flow from source to consumption with full provenance' },
+  { id: 'predict', labelKey: 'sidebar.the_predict', emoji: '🔮', path: '/cortex/pillars/predict', tooltip: 'Forecasting Engine - AI-powered predictions with confidence intervals' },
+  { id: 'flow', labelKey: 'sidebar.the_flow', emoji: '🌊', path: '/cortex/pillars/flow', tooltip: 'Workflow Automation - design, execute, and monitor business processes' },
+  { id: 'health', labelKey: 'sidebar.the_health', emoji: '💓', path: '/cortex/pillars/health', tooltip: 'Organization Health - data quality, system status, and operational metrics' },
+  { id: 'guard', labelKey: 'sidebar.the_guard', emoji: '🛡️', path: '/cortex/pillars/guard', tooltip: 'Security & Alerts - threat monitoring, anomaly detection, and incident response' },
+  { id: 'ethics', labelKey: 'sidebar.the_ethics', emoji: '⚖️', path: '/cortex/pillars/ethics', tooltip: 'Stakeholder Voice - ethical AI governance and stakeholder impact assessment' },
+  { id: 'agents', labelKey: 'sidebar.the_agents', emoji: '🤖', path: '/cortex/pillars/agents', tooltip: 'AI Agents - autonomous assistants for research, analysis, and task automation' },
 ];
 
 // System navigation
@@ -135,6 +136,7 @@ const getCurrentPage = (pathname: string): 'graph' | 'council' | 'pulse' | 'lens
 
 // Premium Features (Decision Intelligence Suite)
 const premiumFeatures = [
+  { id: 'chronos', label: 'CendiaChronos™', icon: '⏱️', path: '/cortex/intelligence/chronos', description: 'Enterprise Time Machine', featured: true },
   { id: 'decision-dna', label: 'Decision DNA', icon: '🧬', path: '/cortex/intelligence/decision-dna', description: 'Full lifecycle tracking & replay' },
   { id: 'pre-mortem', label: 'Pre-Mortem Analysis', icon: '💀', path: '/cortex/intelligence/pre-mortem', description: 'Analyze failure modes before deciding' },
   { id: 'ghost-board', label: 'Ghost Board', icon: '👻', path: '/cortex/intelligence/ghost-board', description: 'Rehearse board meetings with AI' },
@@ -143,9 +145,14 @@ const premiumFeatures = [
   { id: 'regulatory', label: 'Regulatory Absorb', icon: '📜', path: '/cortex/intelligence/regulatory', description: 'Instant compliance learning' },
 ];
 
+// Apex Products (Premium Standalone)
+const apexProducts = [
+  { id: 'forecast', label: 'CendiaForecast™', icon: '📈', path: '/apex/forecast', description: 'AI-Powered Financial Forecasting' },
+  { id: 'sentry', label: 'CendiaSentry™', icon: '🔔', path: '/apex/sentry', description: 'Intelligent Alert & Monitoring System' },
+];
+
 // Enterprise Suite (High-Value Features - $10B+ Valuation Potential)
 const enterpriseFeatures = [
-  { id: 'chronos', label: 'CendiaChronos™', icon: '⏱️', path: '/cortex/intelligence/chronos', description: 'Enterprise Time Machine - Rewind, Replay, Fast Forward', valuation: '+$2B', featured: true },
   { id: 'sovereign', label: 'CendiaSovereign™', icon: '🏰', path: '/cortex/enterprise/sovereign', description: 'Fully Local LLM Cluster Orchestrator', valuation: '+$400M' },
   { id: 'persona-forge', label: 'CendiaPersonaForge™', icon: '🧠', path: '/cortex/enterprise/persona-forge', description: 'Enterprise-Trained Digital Twins', valuation: '+$1B' },
   { id: 'mesh', label: 'CendiaMesh™', icon: '🕸️', path: '/cortex/enterprise/mesh', description: 'Cross-Company Decision Network', valuation: '+$3-5B' },
@@ -155,6 +162,19 @@ const enterpriseFeatures = [
   { id: 'genomics', label: 'CendiaGenomics™', icon: '🧬', path: '/cortex/enterprise/genomics', description: 'Healthcare & Life Sciences Pack', valuation: '+$2-4B' },
   { id: 'defense-stack', label: 'CendiaDefenseStack™', icon: '🛡️', path: '/cortex/enterprise/defense-stack', description: 'Government/Defense Edition', valuation: '+$1-2B' },
   { id: 'omni-translate', label: 'CendiaOmniTranslate™', icon: '🌍', path: '/cortex/enterprise/omni-translate', description: '100-Language Enterprise Translator', valuation: '+$500M' },
+  { id: 'veto', label: 'CendiaVeto™', icon: '🚫', path: '/cortex/enterprise/veto', description: 'Adversarial Governance Engine', valuation: '+$800M' },
+  { id: 'union', label: 'CendiaUnion™', icon: '🤝', path: '/cortex/enterprise/union', description: 'Employee Rights & Wellness Engine', valuation: '+$600M' },
+  { id: 'ledger', label: 'CendiaLedger™', icon: '📒', path: '/cortex/enterprise/ledger', description: 'Immutable Decision Blockchain', valuation: '+$1B' },
+];
+
+// Sovereign Tier (Premium Enterprise - Regulation, Defense, Long-Horizon)
+const sovereignFeatures = [
+  { id: 'crucible', label: 'CendiaCrucible™', icon: '🔥', path: '/cortex/sovereign/crucible', description: 'Strategic Decision Forge', valuation: '+$1B' },
+  { id: 'panopticon', label: 'CendiaPanopticon™', icon: '👁️', path: '/cortex/sovereign/panopticon', description: 'Global Regulation Engine - 25+ Frameworks', valuation: '+$2B' },
+  { id: 'aegis', label: 'CendiaAegis™', icon: '🛡️', path: '/cortex/sovereign/aegis', description: 'Strategic Defense Intelligence', valuation: '+$1.5B' },
+  { id: 'eternal', label: 'CendiaEternal™', icon: '♾️', path: '/cortex/sovereign/eternal', description: 'Ultra-Long Horizon Archive (100+ years)', valuation: '+$800M' },
+  { id: 'symbiont', label: 'CendiaSymbiont™', icon: '🌐', path: '/cortex/sovereign/symbiont', description: 'Partnership & Ecosystem Engine', valuation: '+$1.2B' },
+  { id: 'vox', label: 'CendiaVox™', icon: '🗣️', path: '/cortex/sovereign/vox', description: 'Stakeholder Voice Assembly', valuation: '+$900M' },
 ];
 
 // Inner layout component that can use translations
@@ -163,6 +183,7 @@ const CortexLayoutInner: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isPremiumDropdownOpen, setIsPremiumDropdownOpen] = useState(false);
   const [isEnterpriseDropdownOpen, setIsEnterpriseDropdownOpen] = useState(false);
+  const [isSovereignDropdownOpen, setIsSovereignDropdownOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const { t } = useLanguage();
@@ -207,6 +228,7 @@ const CortexLayoutInner: React.FC = () => {
           )}
           <button
             onClick={() => setIsCollapsed(!isCollapsed)}
+            aria-label={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'}
             className={cn(
               'p-1.5 rounded-md text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100',
               isCollapsed && 'hidden'
@@ -223,21 +245,26 @@ const CortexLayoutInner: React.FC = () => {
             const Icon = item.icon;
             const active = isActive(item.path);
             return (
-              <button
+              <SimpleTooltip
                 key={item.id}
-                onClick={() => navigate(item.path)}
-                className={cn(
-                  'w-full flex items-center gap-3 px-3 py-2.5 rounded-lg',
-                  'transition-colors text-sm font-medium',
-                  active
-                    ? 'bg-primary-50 text-primary-700'
-                    : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
-                )}
-                title={isCollapsed ? t(item.labelKey) : undefined}
+                content={item.tooltip}
+                position="right"
               >
-                <Icon />
-                {!isCollapsed && <span>{t(item.labelKey)}</span>}
-              </button>
+                <button
+                  onClick={() => navigate(item.path)}
+                  className={cn(
+                    'w-full flex items-center gap-3 px-3 py-2.5 rounded-lg',
+                    'transition-colors text-sm font-medium',
+                    active
+                      ? 'bg-primary-50 text-primary-700'
+                      : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
+                  )}
+                  title={isCollapsed ? t(item.labelKey) : undefined}
+                >
+                  <Icon />
+                  {!isCollapsed && <span>{t(item.labelKey)}</span>}
+                </button>
+              </SimpleTooltip>
             );
           })}
 
@@ -252,21 +279,26 @@ const CortexLayoutInner: React.FC = () => {
           {pillarItems.map((item) => {
             const active = isActive(item.path);
             return (
-              <button
+              <SimpleTooltip
                 key={item.id}
-                onClick={() => navigate(item.path)}
-                className={cn(
-                  'w-full flex items-center gap-3 px-3 py-2 rounded-lg',
-                  'transition-colors text-sm',
-                  active
-                    ? 'bg-primary-50 text-primary-700'
-                    : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
-                )}
-                title={isCollapsed ? t(item.labelKey) : undefined}
+                content={item.tooltip}
+                position="right"
               >
-                <span className="text-base">{item.emoji}</span>
-                {!isCollapsed && <span>{t(item.labelKey)}</span>}
-              </button>
+                <button
+                  onClick={() => navigate(item.path)}
+                  className={cn(
+                    'w-full flex items-center gap-3 px-3 py-2 rounded-lg',
+                    'transition-colors text-sm',
+                    active
+                      ? 'bg-primary-50 text-primary-700'
+                      : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
+                  )}
+                  title={isCollapsed ? t(item.labelKey) : undefined}
+                >
+                  <span className="text-base">{item.emoji}</span>
+                  {!isCollapsed && <span>{t(item.labelKey)}</span>}
+                </button>
+              </SimpleTooltip>
             );
           })}
 
@@ -351,6 +383,7 @@ const CortexLayoutInner: React.FC = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMobileMenuOpen(true)}
+            aria-label="Open navigation menu"
             className="lg:hidden p-2 rounded-md text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100"
           >
             <Icons.Menu />
@@ -443,6 +476,28 @@ const CortexLayoutInner: React.FC = () => {
                         </button>
                       ))}
                     </div>
+                    <div className="p-2 border-t border-neutral-100">
+                      <p className="px-2 text-xs font-semibold text-neutral-400 uppercase mb-1">Apex Products</p>
+                      {apexProducts.map((product) => (
+                        <button
+                          key={product.id}
+                          onClick={() => {
+                            navigate(product.path);
+                            setIsPremiumDropdownOpen(false);
+                          }}
+                          className={cn(
+                            'w-full flex items-start gap-3 px-4 py-2 hover:bg-neutral-50 transition-colors rounded-lg',
+                            location.pathname === product.path && 'bg-primary-50'
+                          )}
+                        >
+                          <span className="text-lg">{product.icon}</span>
+                          <div className="text-left">
+                            <p className="font-medium text-neutral-900 text-sm">{product.label}</p>
+                            <p className="text-xs text-neutral-500">{product.description}</p>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
                     <div className="p-3 bg-neutral-50 border-t border-neutral-100">
                       <p className="text-xs text-neutral-500 text-center">Enterprise tier features</p>
                     </div>
@@ -508,10 +563,70 @@ const CortexLayoutInner: React.FC = () => {
               )}
             </div>
 
+            {/* Sovereign Tier Dropdown */}
+            <div className="relative">
+              <button
+                onClick={() => setIsSovereignDropdownOpen(!isSovereignDropdownOpen)}
+                className={cn(
+                  'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
+                  'bg-gradient-to-r from-emerald-500 to-teal-500 text-white',
+                  'hover:from-emerald-600 hover:to-teal-600 transition-all shadow-md'
+                )}
+              >
+                <span>👑</span>
+                <span className="hidden md:inline">Sovereign</span>
+                <svg className={cn('w-4 h-4 transition-transform', isSovereignDropdownOpen && 'rotate-180')} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              
+              {isSovereignDropdownOpen && (
+                <>
+                  <div className="fixed inset-0 z-40" onClick={() => setIsSovereignDropdownOpen(false)} />
+                  <div className="absolute right-0 mt-2 w-96 bg-white rounded-xl shadow-xl border border-neutral-200 z-50 overflow-hidden">
+                    <div className="p-3 bg-gradient-to-r from-emerald-50 to-teal-50 border-b border-neutral-100">
+                      <h3 className="font-semibold text-neutral-900">Sovereign Tier</h3>
+                      <p className="text-xs text-neutral-500">Regulation, Defense & Long-Horizon Strategy</p>
+                    </div>
+                    <div className="py-2 max-h-96 overflow-y-auto">
+                      {sovereignFeatures.map((feature) => (
+                        <button
+                          key={feature.id}
+                          onClick={() => {
+                            navigate(feature.path);
+                            setIsSovereignDropdownOpen(false);
+                          }}
+                          className={cn(
+                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-neutral-50 transition-colors',
+                            location.pathname === feature.path && 'bg-primary-50'
+                          )}
+                        >
+                          <span className="text-xl">{feature.icon}</span>
+                          <div className="text-left flex-1">
+                            <div className="flex items-center justify-between">
+                              <p className="font-medium text-neutral-900 text-sm">{feature.label}</p>
+                              <span className="text-xs px-2 py-0.5 bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-700 rounded-full">{feature.valuation}</span>
+                            </div>
+                            <p className="text-xs text-neutral-500">{feature.description}</p>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                    <div className="p-3 bg-gradient-to-r from-emerald-50 to-teal-50 border-t border-neutral-100">
+                      <p className="text-xs text-neutral-600 text-center font-medium">👑 $7B+ Valuation Potential</p>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+
             {/* Notifications */}
-            <button className="relative p-2 rounded-lg text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100">
+            <button 
+              aria-label="Notifications"
+              className="relative p-2 rounded-lg text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100"
+            >
               <Icons.Bell />
-              <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-error-main rounded-full" />
+              <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-error-main rounded-full" aria-hidden="true" />
             </button>
 
             {/* Language Selector */}
@@ -520,13 +635,17 @@ const CortexLayoutInner: React.FC = () => {
             {/* Settings */}
             <button
               onClick={() => navigate('/cortex/settings')}
+              aria-label="Settings"
               className="p-2 rounded-lg text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100"
             >
               <Icons.Settings />
             </button>
 
             {/* User menu */}
-            <button className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-neutral-100">
+            <button 
+              aria-label="User menu"
+              className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-neutral-100"
+            >
               <div className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
                 <span className="text-primary-700 font-medium text-sm">JS</span>
               </div>
@@ -562,6 +681,7 @@ const CortexLayoutInner: React.FC = () => {
               <Logo size="sm" />
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
+                aria-label="Close navigation menu"
                 className="p-1.5 rounded-md text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100"
               >
                 ×

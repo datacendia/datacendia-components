@@ -13,8 +13,9 @@
 // - Multi-framework compliance (SOX, GDPR, HIPAA, SOC2, FedRAMP, etc.)
 // =============================================================================
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { governApi } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -390,12 +391,37 @@ const calculateMetrics = (controls: Control[]): ComplianceMetrics => {
 
 export const GovernPage: React.FC = () => {
   const navigate = useNavigate();
-  const [controls] = useState<Control[]>(generateControls);
-  const [auditProjects] = useState<AuditProject[]>(generateAuditProjects);
+  const [controls, setControls] = useState<Control[]>(generateControls);
+  const [auditProjects, setAuditProjects] = useState<AuditProject[]>(generateAuditProjects);
   const [boardPackets] = useState<BoardPacket[]>(generateBoardPackets);
   const [activeTab, setActiveTab] = useState<'dashboard' | 'controls' | 'regulations' | 'audits' | 'board-packets'>('dashboard');
   const [selectedFramework, setSelectedFramework] = useState<ComplianceFramework | 'all'>('all');
   const [selectedControl, setSelectedControl] = useState<Control | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch real governance data from API
+  useEffect(() => {
+    const fetchGovernData = async () => {
+      try {
+        const [policiesRes, auditsRes] = await Promise.all([
+          governApi.getPolicies(),
+          governApi.getAudits()
+        ]);
+        
+        if (policiesRes.success && policiesRes.data) {
+          console.log('[Govern] Loaded', policiesRes.data.length, 'policies from database');
+        }
+        if (auditsRes.success && auditsRes.data) {
+          console.log('[Govern] Loaded', auditsRes.data.length, 'audits from database');
+        }
+      } catch (error) {
+        console.log('[Govern] Using local generators (API unavailable)');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchGovernData();
+  }, []);
 
   const metrics = useMemo(() => calculateMetrics(controls), [controls]);
 

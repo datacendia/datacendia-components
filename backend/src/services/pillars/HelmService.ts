@@ -1,10 +1,14 @@
 // =============================================================================
 // DATACENDIA PLATFORM - THE HELM SERVICE
 // Command & Control - Single source of truth for organizational metrics
-// Enterprise Platinum Intelligence
+// Enterprise Platinum Intelligence - PostgreSQL Persistent Storage
 // =============================================================================
 
+import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+import { v4 as uuidv4 } from 'uuid';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -74,155 +78,197 @@ export interface MetricAlert {
 }
 
 // =============================================================================
-// THE HELM SERVICE
+// THE HELM SERVICE - PRISMA BACKED
 // =============================================================================
 
 export class HelmService extends BaseService {
-  private metricsStore: Map<string, Metric> = new Map();
-  private alertsStore: Map<string, MetricAlert> = new Map();
-  private historyStore: Map<string, MetricDataPoint[]> = new Map();
-
   constructor(config?: Partial<ServiceConfig>) {
     super({
       name: 'helm-service',
-      version: '1.0.0',
-      dependencies: [],
+      version: '2.0.0',
+      dependencies: ['prisma'],
       ...config,
     });
   }
 
   async initialize(): Promise<void> {
-    this.logger.info('The Helm service initializing...');
+    this.logger.info('The Helm service initializing with PostgreSQL...');
   }
 
   async shutdown(): Promise<void> {
     this.logger.info('The Helm service shutting down...');
-    this.metricsStore.clear();
-    this.alertsStore.clear();
-    this.historyStore.clear();
   }
 
   async healthCheck(): Promise<ServiceHealth> {
+    const count = await prisma.metric_definitions.count();
+    const alertCount = await prisma.alerts.count({ where: { acknowledged_at: null } });
     return {
       status: 'healthy',
       lastCheck: new Date(),
-      details: { totalMetrics: this.metricsStore.size, totalAlerts: this.alertsStore.size },
+      details: { totalMetrics: count, totalAlerts: alertCount },
     };
   }
 
   // ===========================================================================
-  // METRIC MANAGEMENT
+  // METRIC MANAGEMENT - PRISMA BACKED
   // ===========================================================================
 
-  async createMetric(metric: Omit<Metric, 'id' | 'status' | 'trend' | 'changePercent' | 'lastUpdated'>): Promise<Metric> {
-    const id = `metric-${Date.now()}-${Math.random().toString(36).substr(2, 6)}`;
-    const status = this.calculateStatus(metric.currentValue, metric.targetValue, metric.warningThreshold, metric.criticalThreshold);
-    const changePercent = metric.previousValue 
-      ? ((metric.currentValue - metric.previousValue) / metric.previousValue) * 100 
-      : 0;
-    const trend: TrendDirection = changePercent > 1 ? 'up' : changePercent < -1 ? 'down' : 'stable';
-
-    const newMetric: Metric = {
-      ...metric,
-      id,
-      status,
-      trend,
-      changePercent: Math.round(changePercent * 100) / 100,
-      lastUpdated: new Date(),
+  async createMetric(data: {
+    organizationId: string;
+    name: string;
+    code: string;
+    description?: string;
+    category: MetricCategory;
+    targetValue: number;
+    unit?: string;
+    source?: string;
+    warningThreshold?: number;
+    criticalThreshold?: number;
+    refreshInterval?: number;
+  }): Promise<Metric> {
+    const id = uuidv4();
+    const thresholds = {
+      warning: data.warningThreshold,
+      critical: data.criticalThreshold,
+      target: data.targetValue,
     };
 
-    this.metricsStore.set(id, newMetric);
-    return newMetric;
+    await prisma.metric_definitions.create({
+      data: {
+        id,
+        organization_id: data.organizationId,
+        name: data.name,
+        code: data.code,
+        description: data.description || '',
+        formula: { type: 'direct', source: data.source || 'manual' },
+        unit: data.unit || '',
+        category: data.category,
+        thresholds,
+        refresh_schedule: data.refreshInterval ? `${data.refreshInterval}s` : '3600s',
+        updated_at: new Date(),
+      },
+    });
+
+    return this.getMetric(id) as Promise<Metric>;
   }
 
   async updateMetricValue(metricId: string, newValue: number): Promise<Metric | null> {
-    const metric = this.metricsStore.get(metricId);
-    if (!metric) return null;
+    const metricDef = await prisma.metric_definitions.findUnique({
+      where: { id: metricId },
+    });
 
-    const previousValue = metric.currentValue;
-    const changePercent = previousValue !== 0 ? ((newValue - previousValue) / previousValue) * 100 : 0;
-    const trend: TrendDirection = changePercent > 1 ? 'up' : changePercent < -1 ? 'down' : 'stable';
-    const status = this.calculateStatus(newValue, metric.targetValue, metric.warningThreshold, metric.criticalThreshold);
+    if (!metricDef) return null;
 
-    // Store history point
-    const history = this.historyStore.get(metricId) || [];
-    history.push({ timestamp: metric.lastUpdated, value: previousValue });
-    this.historyStore.set(metricId, history);
+    // Record the new value
+    await prisma.metric_values.create({
+      data: {
+        id: uuidv4(),
+        metric_id: metricId,
+        value: newValue,
+        dimensions: {},
+        timestamp: new Date(),
+      },
+    });
 
-    // Update metric
-    metric.currentValue = newValue;
-    metric.previousValue = previousValue;
-    metric.changePercent = Math.round(changePercent * 100) / 100;
-    metric.trend = trend;
-    metric.status = status;
-    metric.lastUpdated = new Date();
+    // Check for alerts
+    const metric = await this.getMetric(metricId);
+    if (metric) {
+      await this.checkMetricAlerts(metric);
+    }
 
-    this.metricsStore.set(metricId, metric);
-    await this.checkMetricAlerts(metric);
     return metric;
   }
 
   async getMetric(metricId: string): Promise<Metric | null> {
-    return this.metricsStore.get(metricId) || null;
+    const metricDef = await prisma.metric_definitions.findUnique({
+      where: { id: metricId },
+    });
+
+    if (!metricDef) return null;
+
+    // Fetch recent values separately
+    const recentValues = await prisma.metric_values.findMany({
+      where: { metric_id: metricId },
+      orderBy: { timestamp: 'desc' },
+      take: 2,
+    });
+
+    return this.mapToMetric(metricDef, recentValues);
   }
 
   async getOrgMetrics(organizationId: string, category?: MetricCategory): Promise<Metric[]> {
-    const allMetrics = Array.from(this.metricsStore.values());
-    let metrics = allMetrics.filter(m => m.organizationId === organizationId);
-    if (category) metrics = metrics.filter(m => m.category === category);
+    const where: any = { organization_id: organizationId };
+    if (category) where.category = category;
+
+    const metricDefs = await prisma.metric_definitions.findMany({ where });
+
+    // Fetch recent values for all metrics
+    const metrics: Metric[] = [];
+    for (const def of metricDefs) {
+      const recentValues = await prisma.metric_values.findMany({
+        where: { metric_id: def.id },
+        orderBy: { timestamp: 'desc' },
+        take: 2,
+      });
+      metrics.push(this.mapToMetric(def, recentValues));
+    }
+
     return metrics;
   }
 
   async getMetricHistory(metricId: string, days: number = 30): Promise<MetricDataPoint[]> {
     const since = new Date();
     since.setDate(since.getDate() - days);
-    const history = this.historyStore.get(metricId) || [];
-    return history.filter(h => h.timestamp >= since);
+
+    const values = await prisma.metric_values.findMany({
+      where: {
+        metric_id: metricId,
+        timestamp: { gte: since },
+      },
+      orderBy: { timestamp: 'asc' },
+    });
+
+    return values.map((v: any) => ({
+      timestamp: v.timestamp,
+      value: v.value,
+    }));
   }
 
   // ===========================================================================
-  // DASHBOARD
+  // DASHBOARD - REAL DATA FROM POSTGRESQL
   // ===========================================================================
 
   async getKPIDashboard(organizationId: string): Promise<KPIDashboard> {
     const metrics = await this.getOrgMetrics(organizationId);
     
-    // Calculate counts
     const onTarget = metrics.filter(m => m.status === 'on_target' || m.status === 'exceeded').length;
     const atRisk = metrics.filter(m => m.status === 'at_risk').length;
     const critical = metrics.filter(m => m.status === 'critical').length;
     const exceeded = metrics.filter(m => m.status === 'exceeded').length;
 
-    // Calculate overall health
     const healthScore = metrics.length > 0
       ? Math.round((onTarget / metrics.length) * 100)
-      : 100;
+      : 0;
 
-    // Category summaries
     const categories: MetricCategory[] = ['financial', 'operational', 'customer', 'people', 'strategic', 'compliance'];
     const categorySummaries: CategorySummary[] = categories.map(cat => {
       const catMetrics = metrics.filter(m => m.category === cat);
       const avgPerf = catMetrics.length > 0
         ? catMetrics.reduce((sum, m) => sum + (m.currentValue / m.targetValue) * 100, 0) / catMetrics.length
         : 0;
-      
-      const catOnTarget = catMetrics.filter(m => m.status === 'on_target' || m.status === 'exceeded').length;
-      const catAtRisk = catMetrics.filter(m => m.status === 'at_risk').length;
-      const catCritical = catMetrics.filter(m => m.status === 'critical').length;
 
       return {
         category: cat,
         totalMetrics: catMetrics.length,
         avgPerformance: Math.round(avgPerf),
-        trend: avgPerf > 100 ? 'up' : avgPerf < 90 ? 'down' : 'stable',
-        status: catCritical > 0 ? 'critical' : catAtRisk > 0 ? 'at_risk' : 'on_target',
+        trend: avgPerf > 100 ? 'up' as TrendDirection : avgPerf < 90 ? 'down' as TrendDirection : 'stable' as TrendDirection,
+        status: catMetrics.some(m => m.status === 'critical') ? 'critical' as MetricStatus : 
+                catMetrics.some(m => m.status === 'at_risk') ? 'at_risk' as MetricStatus : 'on_target' as MetricStatus,
       };
     });
 
-    // Get active alerts
     const alerts = await this.getActiveAlerts(organizationId);
 
-    // Top metrics (most important / critical first)
     const topMetrics = [...metrics]
       .sort((a, b) => {
         if (a.status === 'critical' && b.status !== 'critical') return -1;
@@ -248,58 +294,129 @@ export class HelmService extends BaseService {
   }
 
   // ===========================================================================
-  // ALERTS
+  // ALERTS - PRISMA BACKED
   // ===========================================================================
 
   private async checkMetricAlerts(metric: Metric): Promise<void> {
-    if (metric.status === 'critical') {
-      await this.createAlert({
-        metricId: metric.id,
-        metricName: metric.name,
-        severity: 'critical',
-        message: `${metric.name} has reached critical level: ${metric.currentValue}${metric.unit}`,
-        organizationId: metric.organizationId,
+    if (metric.status === 'critical' || metric.status === 'at_risk') {
+      const severity = metric.status === 'critical' ? 'critical' : 'warning';
+      
+      // Check if similar alert exists recently
+      const existingAlert = await prisma.alerts.findFirst({
+        where: {
+          metric_id: metric.id,
+          acknowledged_at: null,
+          created_at: { gte: new Date(Date.now() - 3600000) }, // Last hour
+        },
       });
-    } else if (metric.status === 'at_risk') {
-      await this.createAlert({
-        metricId: metric.id,
-        metricName: metric.name,
-        severity: 'warning',
-        message: `${metric.name} is at risk: ${metric.currentValue}${metric.unit} (target: ${metric.targetValue}${metric.unit})`,
-        organizationId: metric.organizationId,
-      });
-    }
-  }
 
-  private async createAlert(alert: Omit<MetricAlert, 'id' | 'triggeredAt' | 'acknowledged'>): Promise<void> {
-    const newAlert: MetricAlert = {
-      id: `alert-${Date.now()}-${Math.random().toString(36).substr(2, 4)}`,
-      ...alert,
-      triggeredAt: new Date(),
-      acknowledged: false,
-    };
-    this.alertsStore.set(newAlert.id, newAlert);
+      if (!existingAlert) {
+        await prisma.alerts.create({
+          data: {
+            id: uuidv4(),
+            organization_id: metric.organizationId,
+            metric_id: metric.id,
+            title: `${metric.name} ${metric.status === 'critical' ? 'Critical' : 'At Risk'}`,
+            message: `${metric.name}: ${metric.currentValue}${metric.unit} (target: ${metric.targetValue}${metric.unit})`,
+            severity: severity as any,
+            source: 'helm',
+          },
+        });
+      }
+    }
   }
 
   async getActiveAlerts(organizationId: string): Promise<MetricAlert[]> {
-    const alerts = Array.from(this.alertsStore.values())
-      .filter(a => a.organizationId === organizationId && !a.acknowledged)
-      .sort((a, b) => b.triggeredAt.getTime() - a.triggeredAt.getTime())
-      .slice(0, 20);
-    return alerts;
+    const alerts = await prisma.alerts.findMany({
+      where: {
+        organization_id: organizationId,
+        acknowledged_at: null,
+      },
+      orderBy: { created_at: 'desc' },
+      take: 20,
+    });
+
+    return alerts.map((a: any) => ({
+      id: a.id,
+      organizationId: a.organizationId,
+      metricId: a.metricId || '',
+      metricName: a.title,
+      severity: a.severity as 'warning' | 'critical',
+      message: a.message,
+      triggeredAt: a.createdAt,
+      acknowledged: !!a.acknowledgedAt,
+    }));
   }
 
   async acknowledgeAlert(alertId: string): Promise<void> {
-    const alert = this.alertsStore.get(alertId);
-    if (alert) {
-      alert.acknowledged = true;
-      this.alertsStore.set(alertId, alert);
-    }
+    await prisma.alerts.update({
+      where: { id: alertId },
+      data: { acknowledged_at: new Date() },
+    });
   }
 
   // ===========================================================================
   // HELPERS
   // ===========================================================================
+
+  private mapToMetric(metricDef: any, values: any[] = []): Metric {
+    const currentValue = values[0]?.value || 0;
+    const previousValue = values[1]?.value || currentValue;
+    const thresholds = (metricDef.thresholds as any) || {};
+    const targetValue = thresholds.target || 100;
+
+    const changePercent = previousValue !== 0 
+      ? ((currentValue - previousValue) / previousValue) * 100 
+      : 0;
+
+    // Normalize category from arbitrary string (e.g. 'Financial') into MetricCategory
+    const rawCategory = (metricDef.category || 'operational').toString().toLowerCase();
+    let category: MetricCategory;
+    switch (rawCategory) {
+      case 'financial':
+        category = 'financial';
+        break;
+      case 'customer':
+        category = 'customer';
+        break;
+      case 'people':
+        category = 'people';
+        break;
+      case 'operations':
+      case 'operational':
+        category = 'operational';
+        break;
+      case 'strategic':
+        category = 'strategic';
+        break;
+      case 'security':
+      case 'compliance':
+        category = 'compliance';
+        break;
+      default:
+        category = 'operational';
+    }
+
+    return {
+      id: metricDef.id,
+      organizationId: metricDef.organizationId,
+      name: metricDef.name,
+      description: metricDef.description || '',
+      category,
+      currentValue,
+      targetValue,
+      previousValue,
+      unit: metricDef.unit || '',
+      status: this.calculateStatus(currentValue, targetValue, thresholds.warning, thresholds.critical),
+      trend: changePercent > 1 ? 'up' : changePercent < -1 ? 'down' : 'stable',
+      changePercent: Math.round(changePercent * 100) / 100,
+      warningThreshold: thresholds.warning,
+      criticalThreshold: thresholds.critical,
+      source: ((metricDef.formula as any)?.source) || 'manual',
+      lastUpdated: values[0]?.timestamp || metricDef.updatedAt,
+      refreshInterval: parseInt(metricDef.refreshSchedule?.replace('s', '') || '3600'),
+    };
+  }
 
   private calculateStatus(
     current: number, 
@@ -307,6 +424,7 @@ export class HelmService extends BaseService {
     warning?: number, 
     critical?: number
   ): MetricStatus {
+    if (target === 0) return 'not_set';
     const ratio = current / target;
     
     if (ratio >= 1) return 'exceeded';
@@ -317,50 +435,14 @@ export class HelmService extends BaseService {
     return 'critical';
   }
 
-  private async loadAllOrganizationMetrics(): Promise<void> {
-    // Metrics are loaded on-demand from the store
-  }
-
-  // ===========================================================================
-  // SEED DEFAULT METRICS
-  // ===========================================================================
-
-  async seedDefaultMetrics(organizationId: string): Promise<void> {
-    const defaultMetrics: Omit<Metric, 'id' | 'status' | 'trend' | 'changePercent' | 'lastUpdated'>[] = [
-      // Financial
-      { organizationId, name: 'Monthly Revenue', description: 'Total monthly revenue', category: 'financial', currentValue: 450000, targetValue: 500000, previousValue: 420000, unit: '$', source: 'ERP', refreshInterval: 3600, warningThreshold: 400000, criticalThreshold: 350000 },
-      { organizationId, name: 'EBITDA Margin', description: 'EBITDA as % of revenue', category: 'financial', currentValue: 22, targetValue: 25, previousValue: 21, unit: '%', source: 'Finance', refreshInterval: 86400, warningThreshold: 18, criticalThreshold: 15 },
-      { organizationId, name: 'Operating Cash Flow', description: 'Monthly operating cash flow', category: 'financial', currentValue: 125000, targetValue: 150000, previousValue: 118000, unit: '$', source: 'Treasury', refreshInterval: 86400 },
-      { organizationId, name: 'Burn Rate', description: 'Monthly cash burn', category: 'financial', currentValue: 85000, targetValue: 75000, previousValue: 90000, unit: '$', source: 'Finance', refreshInterval: 86400, warningThreshold: 90000, criticalThreshold: 100000 },
-
-      // Operational
-      { organizationId, name: 'Process Efficiency', description: 'Overall process efficiency', category: 'operational', currentValue: 87, targetValue: 90, previousValue: 85, unit: '%', source: 'Operations', refreshInterval: 3600 },
-      { organizationId, name: 'Cycle Time', description: 'Average process cycle time', category: 'operational', currentValue: 4.2, targetValue: 3.5, previousValue: 4.5, unit: 'days', source: 'Operations', refreshInterval: 3600, warningThreshold: 5, criticalThreshold: 7 },
-      { organizationId, name: 'Throughput', description: 'Daily throughput volume', category: 'operational', currentValue: 1250, targetValue: 1500, previousValue: 1180, unit: 'units', source: 'Production', refreshInterval: 1800 },
-      { organizationId, name: 'Utilization', description: 'Resource utilization rate', category: 'operational', currentValue: 78, targetValue: 85, previousValue: 75, unit: '%', source: 'HR', refreshInterval: 3600 },
-
-      // Customer
-      { organizationId, name: 'NPS Score', description: 'Net Promoter Score', category: 'customer', currentValue: 45, targetValue: 50, previousValue: 42, unit: '', source: 'Surveys', refreshInterval: 604800 },
-      { organizationId, name: 'Customer Churn', description: 'Monthly churn rate', category: 'customer', currentValue: 2.3, targetValue: 2.0, previousValue: 2.5, unit: '%', source: 'CRM', refreshInterval: 86400, warningThreshold: 3, criticalThreshold: 5 },
-      { organizationId, name: 'Customer LTV', description: 'Average customer lifetime value', category: 'customer', currentValue: 12500, targetValue: 15000, previousValue: 11800, unit: '$', source: 'Analytics', refreshInterval: 86400 },
-      { organizationId, name: 'CAC', description: 'Customer acquisition cost', category: 'customer', currentValue: 850, targetValue: 700, previousValue: 920, unit: '$', source: 'Marketing', refreshInterval: 86400, warningThreshold: 1000, criticalThreshold: 1200 },
-
-      // People
-      { organizationId, name: 'Employee Headcount', description: 'Total employees', category: 'people', currentValue: 127, targetValue: 150, previousValue: 120, unit: '', source: 'HR', refreshInterval: 86400 },
-      { organizationId, name: 'Turnover Rate', description: 'Annual turnover rate', category: 'people', currentValue: 12, targetValue: 10, previousValue: 14, unit: '%', source: 'HR', refreshInterval: 604800, warningThreshold: 15, criticalThreshold: 20 },
-      { organizationId, name: 'Engagement Score', description: 'Employee engagement score', category: 'people', currentValue: 7.8, targetValue: 8.5, previousValue: 7.5, unit: '/10', source: 'Surveys', refreshInterval: 2592000 },
-      { organizationId, name: 'Productivity Index', description: 'Revenue per employee', category: 'people', currentValue: 3540, targetValue: 4000, previousValue: 3500, unit: '$/emp', source: 'Analytics', refreshInterval: 86400 },
-    ];
-
-    for (const metric of defaultMetrics) {
-      await this.createMetric(metric);
-    }
-    this.logger.info(`Seeded ${defaultMetrics.length} default metrics for org ${organizationId}`);
-  }
+  // No seed method - Enterprise Platinum standard
+  // Data is created only through real API operations
 
   async hasMetricsForOrg(organizationId: string): Promise<boolean> {
-    const metrics = await this.getOrgMetrics(organizationId);
-    return metrics.length > 0;
+    const count = await prisma.metric_definitions.count({
+      where: { organization_id: organizationId },
+    });
+    return count > 0;
   }
 }
 

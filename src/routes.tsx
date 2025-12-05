@@ -130,6 +130,14 @@ import {
   LedgerPage,
 } from './pages/cortex/enterprise';
 
+// Sovereign Tier Pages
+import { CruciblePage } from './pages/sovereign/CruciblePage';
+import { PanopticonPage } from './pages/sovereign/PanopticonPage';
+import { AegisPage } from './pages/sovereign/AegisPage';
+import { EternalPage } from './pages/sovereign/EternalPage';
+import { SymbiontPage } from './pages/sovereign/SymbiontPage';
+import { VoxPage } from './pages/sovereign/VoxPage';
+
 // Data Pages
 import {
   DataSourcesPage,
@@ -142,7 +150,7 @@ import {
 import { OnboardingWizard } from './pages/onboarding';
 
 // Apex Package Pages
-import { CendiaForecastPage, CendiaSentryPage } from './pages/apex';
+import { ApexLandingPage, CendiaForecastPage, CendiaSentryPage } from './pages/apex';
 
 // Pitch Deck
 import { PitchDeck } from './pages/pitch';
@@ -312,6 +320,10 @@ export const router = createBrowserRouter([
   // -------------------------------------------------------------------------
   // APEX PACKAGE PAGES
   // -------------------------------------------------------------------------
+  {
+    path: '/apex',
+    element: <ApexLandingPage />,
+  },
   {
     path: '/apex/forecast',
     element: <CendiaForecastPage />,
@@ -534,6 +546,32 @@ export const router = createBrowserRouter([
       {
         path: 'enterprise/ledger',
         element: <LedgerPage />,
+      },
+
+      // Sovereign Tier (Premium Enterprise)
+      {
+        path: 'sovereign/crucible',
+        element: <CruciblePage />,
+      },
+      {
+        path: 'sovereign/panopticon',
+        element: <PanopticonPage />,
+      },
+      {
+        path: 'sovereign/aegis',
+        element: <AegisPage />,
+      },
+      {
+        path: 'sovereign/eternal',
+        element: <EternalPage />,
+      },
+      {
+        path: 'sovereign/symbiont',
+        element: <SymbiontPage />,
+      },
+      {
+        path: 'sovereign/vox',
+        element: <VoxPage />,
       },
 
       // 8 Pillars (Foundational Data Layers)

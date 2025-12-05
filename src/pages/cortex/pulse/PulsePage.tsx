@@ -340,7 +340,11 @@ export const PulsePage: React.FC = () => {
       }
       
       if (trendRes.success && trendRes.data) {
-        setHealthTrend(trendRes.data.map(t => t.score));
+        // Handle both array format and object with scores property
+        const scores = Array.isArray(trendRes.data) 
+          ? trendRes.data 
+          : (trendRes.data as any).scores || [];
+        setHealthTrend(scores.map((t: any) => t.score || t.overall));
       }
       
       if (systemsRes.success && systemsRes.data) {

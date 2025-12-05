@@ -139,6 +139,131 @@
     "desktop": { "title": "デスクトップアプリ", "download": "ダウンロード" },
     "mobile": { "title": "モバイルアプリ" }
   },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "welcome": "おかえりなさい",
+    "subtitle": "本日の{{company}}の状況です",
+    "health_score": "組織健全性",
+    "data": "データ",
+    "operations": "オペレーション",
+    "security": "セキュリティ",
+    "people": "人材",
+    "fromLastWeek": "先週から",
+    "alerts": "アクティブなアラート",
+    "critical": "重大",
+    "warning": "警告",
+    "pending_approvals": "承認待ち",
+    "workflows": "ワークフロー",
+    "access": "アクセス",
+    "budget": "予算",
+    "by": "by",
+    "approve": "承認",
+    "reject": "拒否",
+    "keyMetrics": "主要指標",
+    "askTheCouncil": "評議会に質問",
+    "whatToKnow": "何を知りたいですか？",
+    "recentQueries": "最近のクエリ：",
+    "recentActivity": "最近のアクティビティ",
+    "viewFullLog": "完全なログを表示",
+    "greetings": {
+      "morning": "おはようございます",
+      "afternoon": "こんにちは",
+      "evening": "こんばんは"
+    },
+    "sampleAlerts": {
+      "databaseCpu": "データベースCPU > 90% (15分間)",
+      "paymentLatency": "決済処理レイテンシ急上昇",
+      "diskUsage": "prod-db-01でディスク使用率78%"
+    },
+    "sampleApprovals": {
+      "monthlyClose": "月次締めプロセス",
+      "prodDbAccess": "本番DBアクセス"
+    },
+    "sampleMetrics": {
+      "revenue": "売上",
+      "pipeline": "パイプライン",
+      "burnRate": "バーンレート",
+      "nps": "NPS"
+    },
+    "sampleQueries": {
+      "churnIncrease": "解約率が上昇した理由は？",
+      "forecastRevenue": "Q4売上予測",
+      "biggestRisk": "最大のリスクは何ですか？"
+    }
+  },
+  "sidebar": {
+    "dashboard": "ダッシュボード",
+    "the_council": "評議会",
+    "the_graph": "グラフ",
+    "the_pulse": "パルス",
+    "the_lens": "レンズ",
+    "the_bridge": "ブリッジ",
+    "settings": "設定",
+    "help": "ヘルプとサポート"
+  },
+  "button": {
+    "view_all": "すべて表示",
+    "approve": "承認",
+    "reject": "拒否",
+    "save": "保存",
+    "cancel": "キャンセル"
+  },
+  "label": {
+    "online": "オンライン",
+    "offline": "オフライン",
+    "busy": "ビジー",
+    "premium": "プレミアム",
+    "locked": "ロック中",
+    "custom": "カスタム",
+    "unlock": "ロック解除"
+  },
+  "council": {
+    "title": "評議会",
+    "agents": { "domain": "ドメインエージェント" },
+    "modes": {
+      "title": "評議会モードライブラリ",
+      "subtitle": "同じ10のエージェントでも、異なるモードでは根本的に異なる結果を生み出します。",
+      "cultureNote": "プロンプトは企業文化そのものです。",
+      "quickReference": "クイックリファレンス",
+      "mode": "モード",
+      "primeDirective": "最優先指令",
+      "bestFor": "最適な用途",
+      "agentBehavior": "エージェントの行動"
+    },
+    "customAgent": {
+      "title": "カスタムエージェントを作成",
+      "editTitle": "カスタムエージェントを編集",
+      "subtitle": "専門知識を持つ独自のAIエージェントを設計",
+      "avatar": "エージェントアバター",
+      "color": "エージェントカラー",
+      "name": "エージェント名",
+      "role": "役割/タイトル",
+      "description": "説明",
+      "expertise": "専門知識と指示"
+    }
+  },
+  "commandPalette": {
+    "searchPlaceholder": "コマンド、ページ、エージェントを検索...",
+    "noResults": "結果なし：",
+    "navigate": "ナビゲート",
+    "select": "選択",
+    "toggle": "切り替え",
+    "newQuery": "新しい評議会クエリ",
+    "askCouncil": "評議会に質問する",
+    "refresh": "データを更新",
+    "reloadPage": "ページデータをリロード",
+    "fullscreen": "フルスクリーン",
+    "toggleFullscreen": "フルスクリーンモードの切り替え",
+    "switchTo": "切り替え：",
+    "changeLanguage": "言語を変更：",
+    "categories": {
+      "navigation": "ナビゲーション",
+      "actions": "アクション",
+      "agents": "エージェント",
+      "modes": "評議会モード",
+      "recent": "最近"
+    }
+  },
   "footer": {
     "company": "会社",
     "product": "製品",
@@ -148,5 +273,109 @@
     "terms": "利用規約",
     "copyright": "© {{year}} Datacendia. All rights reserved.",
     "tagline": "主権エンタープライズインテリジェンス"
+  },
+  "tooltips": {
+    "pillars": {
+      "helm": {
+        "title": "ヘルム - 戦略コマンドセンター",
+        "summary": "組織の戦略的意思決定支援システム。自信を持って監視、分析、舵取りを行います。",
+        "features": ["トレンド分析付きリアルタイムKPIダッシュボード", "戦略目標の追跡とアラインメント", "業界標準に対するパフォーマンスベンチマーク", "自動通知付きアラートしきい値", "エグゼクティブサマリー生成"],
+        "useCases": ["全部門の四半期目標を追跡", "収益指標と成長指標を監視", "戦略的マイルストーンを設定・追跡"],
+        "guidance": "主要な指標を定義することから始めましょう。ヘルムは、組織の戦略に沿った明確で測定可能な目標がある場合に最も効果的です。"
+      },
+      "lineage": {
+        "title": "リネージ - データ系統トラッカー",
+        "summary": "データの旅を完全に可視化。すべての数字がどこから来て、どこへ行くかを把握。",
+        "features": ["ビジュアルデータフローマッピング", "ソースからレポートまでのトレーサビリティ", "データ変更の影響分析", "各段階でのデータ品質スコアリング", "自動ドキュメント生成"],
+        "guidance": "まずデータソースを接続してください。リネージは自動的に関係を発見し、データマップを構築します。"
+      },
+      "predict": {
+        "title": "プレディクト - AI予測エンジン",
+        "summary": "先を見通す機械学習モデル。トレンドが明らかになる前に予測。",
+        "features": ["信頼区間付き時系列予測", "異常検出と早期警告システム", "What-ifシナリオモデリング", "特徴量重要度分析", "モデルパフォーマンス監視"],
+        "guidance": "質の高い予測には質の高いデータが必要です。クリーンな履歴データから始めて、プレディクトにパターンを学習させましょう。"
+      },
+      "guard": {
+        "title": "ガード - セキュリティ＆コンプライアンスシールド",
+        "summary": "データの自動保護。ポリシーを適用し、アクセスを追跡し、コンプライアンスを維持。",
+        "features": ["ポリシー適用エンジン", "アクセス監査ログ", "脅威検出とアラート", "コンプライアンスフレームワークマッピング", "セキュリティポスチャスコアリング"],
+        "guidance": "セキュリティポリシーとコンプライアンス要件を定義してください。ガードは継続的に監視し、違反を警告します。"
+      },
+      "ethics": {
+        "title": "エシックス - AIガバナンスセンター",
+        "summary": "組み込みの責任あるAI。すべての決定において公平性、透明性、説明責任を確保。",
+        "features": ["バイアス検出と監視", "モデル説明可能性ツール", "倫理レビューワークフロー", "公平性指標トラッキング", "意思決定監査証跡"],
+        "guidance": "まず倫理原則を確立してください。エシックスはすべてのAIシステムでそれらを運用化するのを支援します。"
+      }
+    },
+    "spaces": {
+      "graph": {
+        "title": "グラフ - ナレッジナビゲーター",
+        "summary": "組織のナレッジユニバースをナビゲート。他の人が見逃す接続を発見。",
+        "guidance": "任意のノードをクリックして探索してください。グラフは接続を明らかにし、詳細に掘り下げることができます。"
+      },
+      "council": {
+        "title": "評議会 - AIコラボレーションチャンバー",
+        "summary": "AIアドバイザーが共に審議する場所。複雑な問題には複数の視点が必要です。",
+        "guidance": "質問を評議会に提示してください。異なる視点が浮上し、推奨事項に統合される様子を見守ってください。"
+      },
+      "pulse": {
+        "title": "パルス - リアルタイムオペレーションセンター",
+        "summary": "組織の鼓動をライブで表示。すべての指標、すべての瞬間。",
+        "guidance": "パルスに表示する主要な指標を設定してください。変更の通知を受けるアラートしきい値を設定します。"
+      }
+    }
+  },
+  "narratives": {
+    "welcome": {
+      "title": "Datacendiaへようこそ",
+      "subtitle": "主権インテリジェンスへの旅がここから始まります",
+      "steps": [
+        {"title": "コマンドセンターを知る", "description": "Cortexは組織インテリジェンスの統一ビューです。", "action": "Cortexを探索"},
+        {"title": "8つの柱を理解する", "description": "各柱は戦略指標からAIガバナンスまで、本質的な機能を提供します。", "action": "柱の概要を見る"},
+        {"title": "最初のデータソースを接続", "description": "インテリジェンスにはデータが必要です。データベース、API、ファイルソースを接続。", "action": "データソースを追加"},
+        {"title": "主要指標を定義", "description": "組織にとって最も重要なことは？エグゼクティブダッシュボードのKPIを定義。", "action": "最初の指標を作成"}
+      ]
+    },
+    "quickStart": {
+      "title": "5分クイックスタート",
+      "subtitle": "方向を把握し、すぐに価値を確認",
+      "duration": "5分",
+      "steps": [
+        {"title": "ダッシュボードを表示", "description": "パーソナライズされたコマンドセンターが最も重要なことを表示。", "action": "ダッシュボードを開く"},
+        {"title": "組織の健全性を確認", "description": "1つの数字で組織の状態がわかります。緑は良好。", "action": "健全性スコアを見る"},
+        {"title": "質問する", "description": "組織について何でも質問してください。AIエージェントが答えを見つけます。", "action": "AIアシスタントを開く"}
+      ]
+    },
+    "crisisResponse": {
+      "title": "危機対応プロトコル",
+      "subtitle": "問題が発生したら、完全な情報を持って迅速に行動",
+      "persona": "インシデントコマンダー",
+      "duration": "リアルタイム"
+    },
+    "boardPresentation": {
+      "title": "取締役会プレゼン準備",
+      "subtitle": "データドリブンなインサイトで取締役会を感動させる",
+      "persona": "CEO / CFO / プレゼンター",
+      "duration": "30分"
+    }
+  },
+  "accessibility": {
+    "skipToMain": "メインコンテンツへスキップ",
+    "skipToNav": "ナビゲーションへスキップ",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "loading": "コンテンツを読み込み中",
+    "required": "必須フィールド",
+    "optional": "任意"
+  },
+  "time": {
+    "justNow": "たった今",
+    "minutesAgo": "{{count}}分前",
+    "minutesAgo_plural": "{{count}}分前",
+    "hoursAgo": "{{count}}時間前",
+    "hoursAgo_plural": "{{count}}時間前",
+    "daysAgo": "{{count}}日前",
+    "daysAgo_plural": "{{count}}日前"
   }
 }

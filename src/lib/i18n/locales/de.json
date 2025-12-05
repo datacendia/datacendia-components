@@ -139,6 +139,131 @@
     "desktop": { "title": "Desktop-Anwendung", "download": "Herunterladen" },
     "mobile": { "title": "Mobile Apps" }
   },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurück",
+    "subtitle": "So geht es {{company}} heute",
+    "health_score": "Organisationsgesundheit",
+    "data": "Daten",
+    "operations": "Betrieb",
+    "security": "Sicherheit",
+    "people": "Personal",
+    "fromLastWeek": "seit letzter Woche",
+    "alerts": "Aktive Warnungen",
+    "critical": "Kritisch",
+    "warning": "Warnung",
+    "pending_approvals": "Ausstehende Genehmigungen",
+    "workflows": "Workflows",
+    "access": "Zugriff",
+    "budget": "Budget",
+    "by": "von",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "keyMetrics": "Schlüsselmetriken",
+    "askTheCouncil": "Den Rat fragen",
+    "whatToKnow": "Was möchten Sie wissen?",
+    "recentQueries": "Aktuelle Anfragen:",
+    "recentActivity": "Aktuelle Aktivitäten",
+    "viewFullLog": "Vollständiges Protokoll anzeigen",
+    "greetings": {
+      "morning": "Guten Morgen",
+      "afternoon": "Guten Tag",
+      "evening": "Guten Abend"
+    },
+    "sampleAlerts": {
+      "databaseCpu": "Datenbank-CPU > 90% seit 15 Min",
+      "paymentLatency": "Zahlungsverarbeitungslatenz-Spitze",
+      "diskUsage": "Festplattennutzung bei 78% auf prod-db-01"
+    },
+    "sampleApprovals": {
+      "monthlyClose": "Monatlicher Abschlussprozess",
+      "prodDbAccess": "Produktions-DB-Zugriff"
+    },
+    "sampleMetrics": {
+      "revenue": "Umsatz",
+      "pipeline": "Pipeline",
+      "burnRate": "Verbrauchsrate",
+      "nps": "NPS"
+    },
+    "sampleQueries": {
+      "churnIncrease": "Warum hat die Abwanderung zugenommen?",
+      "forecastRevenue": "Q4 Umsatzprognose",
+      "biggestRisk": "Was ist unser größtes Risiko?"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "the_council": "Der Rat",
+    "the_graph": "Der Graph",
+    "the_pulse": "Der Puls",
+    "the_lens": "Die Linse",
+    "the_bridge": "Die Brücke",
+    "settings": "Einstellungen",
+    "help": "Hilfe & Support"
+  },
+  "button": {
+    "view_all": "Alle anzeigen",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "save": "Speichern",
+    "cancel": "Abbrechen"
+  },
+  "label": {
+    "online": "Online",
+    "offline": "Offline",
+    "busy": "Beschäftigt",
+    "premium": "Premium",
+    "locked": "Gesperrt",
+    "custom": "Benutzerdefiniert",
+    "unlock": "Entsperren"
+  },
+  "council": {
+    "title": "Der Rat",
+    "agents": { "domain": "Domänen-Agenten" },
+    "modes": {
+      "title": "Ratsmodus-Bibliothek",
+      "subtitle": "Die gleichen 10 Agenten mit verschiedenen Modi produzieren radikal unterschiedliche Ergebnisse.",
+      "cultureNote": "Der Prompt IST die Unternehmenskultur.",
+      "quickReference": "Kurzübersicht",
+      "mode": "Modus",
+      "primeDirective": "Primäre Direktive",
+      "bestFor": "Ideal für",
+      "agentBehavior": "Agentenverhalten"
+    },
+    "customAgent": {
+      "title": "Benutzerdefinierten Agenten erstellen",
+      "editTitle": "Benutzerdefinierten Agenten bearbeiten",
+      "subtitle": "Entwerfen Sie Ihren eigenen KI-Agenten mit spezialisierter Expertise",
+      "avatar": "Agenten-Avatar",
+      "color": "Agenten-Farbe",
+      "name": "Agenten-Name",
+      "role": "Rolle / Titel",
+      "description": "Beschreibung",
+      "expertise": "Expertise & Anweisungen"
+    }
+  },
+  "commandPalette": {
+    "searchPlaceholder": "Befehle, Seiten, Agenten suchen...",
+    "noResults": "Keine Ergebnisse für",
+    "navigate": "navigieren",
+    "select": "auswählen",
+    "toggle": "umschalten",
+    "newQuery": "Neue Ratsanfrage",
+    "askCouncil": "Den Rat eine Frage stellen",
+    "refresh": "Daten aktualisieren",
+    "reloadPage": "Seitendaten neu laden",
+    "fullscreen": "Vollbild",
+    "toggleFullscreen": "Vollbildmodus aktivieren/deaktivieren",
+    "switchTo": "Wechseln zu",
+    "changeLanguage": "Sprache ändern auf",
+    "categories": {
+      "navigation": "Navigation",
+      "actions": "Aktionen",
+      "agents": "Agenten",
+      "modes": "Ratsmodi",
+      "recent": "Aktuell"
+    }
+  },
   "footer": {
     "company": "Unternehmen",
     "product": "Produkt",
@@ -148,5 +273,109 @@
     "terms": "Nutzungsbedingungen",
     "copyright": "© {{year}} Datacendia. Alle Rechte vorbehalten.",
     "tagline": "Souveräne Unternehmensintelligenz"
+  },
+  "tooltips": {
+    "pillars": {
+      "helm": {
+        "title": "Das Ruder - Strategisches Kommandozentrum",
+        "summary": "Das strategische Entscheidungsunterstützungssystem Ihrer Organisation. Überwachen, analysieren und steuern Sie mit Zuversicht.",
+        "features": ["Echtzeit-KPI-Dashboards mit Trendanalyse", "Strategische Zielverfolgung und -ausrichtung", "Leistungs-Benchmarking gegen Branchenstandards", "Alarmierungsschwellen mit automatischen Benachrichtigungen", "Executive-Summary-Generierung"],
+        "useCases": ["Quartalsziele abteilungsübergreifend verfolgen", "Umsatzmetriken und Wachstumsindikatoren überwachen", "Strategische Meilensteine setzen und verfolgen"],
+        "guidance": "Beginnen Sie mit der Definition Ihrer Schlüsselmetriken. Das Ruder funktioniert am besten mit klaren, messbaren Zielen, die mit der Strategie Ihrer Organisation abgestimmt sind."
+      },
+      "lineage": {
+        "title": "Die Herkunft - Daten-Provenienz-Tracker",
+        "summary": "Vollständige Sichtbarkeit der Reise Ihrer Daten. Wissen Sie, woher jede Zahl kommt und wohin sie geht.",
+        "features": ["Visuelle Datenfluss-Kartierung", "Quelle-zu-Bericht-Rückverfolgbarkeit", "Auswirkungsanalyse für Datenänderungen", "Datenqualitätsbewertung in jeder Phase", "Automatisierte Dokumentationsgenerierung"],
+        "guidance": "Verbinden Sie zuerst Ihre Datenquellen. Die Herkunft entdeckt automatisch Beziehungen und erstellt Ihre Datenkarte."
+      },
+      "predict": {
+        "title": "Die Vorhersage - KI-Prognose-Engine",
+        "summary": "Machine-Learning-Modelle, die um die Ecke sehen. Prognostizieren Sie Trends, bevor sie offensichtlich werden.",
+        "features": ["Zeitreihenprognosen mit Konfidenzintervallen", "Anomalieerkennung und Frühwarnsystem", "Was-wäre-wenn-Szenariomodellierung", "Feature-Importance-Analyse", "Modellleistungsüberwachung"],
+        "guidance": "Qualitätsprognosen erfordern Qualitätsdaten. Beginnen Sie mit sauberen historischen Daten und lassen Sie Die Vorhersage Ihre Muster lernen."
+      },
+      "guard": {
+        "title": "Der Wächter - Sicherheits- und Compliance-Schild",
+        "summary": "Automatisierter Schutz für Ihre Daten. Richtlinien durchsetzen, Zugriffe verfolgen und konform bleiben.",
+        "features": ["Richtliniendurchsetzungs-Engine", "Zugriffs-Audit-Protokollierung", "Bedrohungserkennung und Alarmierung", "Compliance-Framework-Mapping", "Sicherheitspostur-Bewertung"],
+        "guidance": "Definieren Sie Ihre Sicherheitsrichtlinien und Compliance-Anforderungen. Der Wächter überwacht kontinuierlich und warnt bei Verstößen."
+      },
+      "ethics": {
+        "title": "Die Ethik - KI-Governance-Zentrum",
+        "summary": "Verantwortungsvolle KI eingebaut. Sicherstellen von Fairness, Transparenz und Verantwortlichkeit bei jeder Entscheidung.",
+        "features": ["Bias-Erkennung und -Überwachung", "Modell-Erklärbarkeits-Tools", "Ethik-Überprüfungs-Workflows", "Fairness-Metrik-Tracking", "Entscheidungs-Audit-Trails"],
+        "guidance": "Etablieren Sie zuerst Ihre ethischen Prinzipien. Die Ethik hilft Ihnen, diese in allen KI-Systemen zu operationalisieren."
+      }
+    },
+    "spaces": {
+      "graph": {
+        "title": "Der Graph - Wissensnavigator",
+        "summary": "Navigieren Sie das Wissensuniversum Ihrer Organisation. Sehen Sie Verbindungen, die andere übersehen.",
+        "guidance": "Erkunden Sie durch Klicken auf einen beliebigen Knoten. Der Graph enthüllt Verbindungen und lässt Sie in Details eintauchen."
+      },
+      "council": {
+        "title": "Der Rat - KI-Kollaborationskammer",
+        "summary": "Wo KI-Berater gemeinsam beraten. Komplexe Probleme brauchen mehrere Perspektiven.",
+        "guidance": "Präsentieren Sie Ihre Frage dem Rat. Beobachten Sie, wie verschiedene Perspektiven entstehen und zu Empfehlungen synthetisiert werden."
+      },
+      "pulse": {
+        "title": "Der Puls - Echtzeit-Operationszentrum",
+        "summary": "Live-Ansicht des Herzschlags Ihrer Organisation. Jede Metrik, jeden Moment.",
+        "guidance": "Konfigurieren Sie Ihre Schlüsselmetriken für Der Puls. Setzen Sie Alarmschwellen für Änderungsbenachrichtigungen."
+      }
+    }
+  },
+  "narratives": {
+    "welcome": {
+      "title": "Willkommen bei Datacendia",
+      "subtitle": "Ihre Reise zur souveränen Intelligenz beginnt hier",
+      "steps": [
+        {"title": "Lernen Sie Ihr Kommandozentrum kennen", "description": "Der Cortex ist Ihre einheitliche Ansicht der organisatorischen Intelligenz.", "action": "Cortex erkunden"},
+        {"title": "Verstehen Sie die 8 Säulen", "description": "Jede Säule bietet wesentliche Fähigkeiten - von strategischen Metriken bis zur KI-Governance.", "action": "Säulen-Übersicht anzeigen"},
+        {"title": "Verbinden Sie Ihre erste Datenquelle", "description": "Intelligenz erfordert Daten. Verbinden Sie eine Datenbank, API oder Dateiquelle.", "action": "Datenquelle hinzufügen"},
+        {"title": "Definieren Sie Ihre Schlüsselmetriken", "description": "Was ist für Ihre Organisation am wichtigsten? Definieren Sie die KPIs für Ihr Executive-Dashboard.", "action": "Erste Metrik erstellen"}
+      ]
+    },
+    "quickStart": {
+      "title": "5-Minuten-Schnellstart",
+      "subtitle": "Orientieren Sie sich und sehen Sie sofort Mehrwert",
+      "duration": "5 Minuten",
+      "steps": [
+        {"title": "Dashboard anzeigen", "description": "Ihr personalisiertes Kommandozentrum zeigt, was am wichtigsten ist.", "action": "Dashboard öffnen"},
+        {"title": "Organisationsgesundheit prüfen", "description": "Eine Zahl sagt Ihnen, wie es Ihrer Organisation geht. Grün ist gut.", "action": "Gesundheitswert anzeigen"},
+        {"title": "Eine Frage stellen", "description": "Geben Sie eine beliebige Frage zu Ihrer Organisation ein. Unsere KI-Agenten finden die Antwort.", "action": "KI-Assistent öffnen"}
+      ]
+    },
+    "crisisResponse": {
+      "title": "Krisenreaktions-Protokoll",
+      "subtitle": "Wenn etwas schief geht, schnell mit vollständigen Informationen handeln",
+      "persona": "Incident Commander",
+      "duration": "Echtzeit"
+    },
+    "boardPresentation": {
+      "title": "Vorstandssitzungs-Vorbereitung",
+      "subtitle": "Beeindrucken Sie den Vorstand mit datengestützten Erkenntnissen",
+      "persona": "CEO / CFO / Präsentator",
+      "duration": "30 Minuten"
+    }
+  },
+  "accessibility": {
+    "skipToMain": "Zum Hauptinhalt springen",
+    "skipToNav": "Zur Navigation springen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "loading": "Inhalt wird geladen",
+    "required": "Pflichtfeld",
+    "optional": "Optional"
+  },
+  "time": {
+    "justNow": "Gerade eben",
+    "minutesAgo": "vor {{count}} Minute",
+    "minutesAgo_plural": "vor {{count}} Minuten",
+    "hoursAgo": "vor {{count}} Stunde",
+    "hoursAgo_plural": "vor {{count}} Stunden",
+    "daysAgo": "vor {{count}} Tag",
+    "daysAgo_plural": "vor {{count}} Tagen"
   }
 }

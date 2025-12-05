@@ -3,7 +3,10 @@
  * Production-grade API client with authentication, error handling, and type safety
  */
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api/v1';
+// In development, use relative path to go through Vite's proxy
+// In production, use the full URL from environment
+const API_BASE_URL = import.meta.env.VITE_API_URL || 
+  (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
 
 // Types
 export interface ApiResponse<T> {

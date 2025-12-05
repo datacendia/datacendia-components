@@ -132,5 +132,76 @@
     "legal": "Legale",
     "copyright": "© {{year}} Datacendia. Tutti i diritti riservati.",
     "tagline": "Intelligence Aziendale Sovrana"
+  },
+  "tooltips": {
+    "pillars": {
+      "helm": {
+        "title": "Il Timone - Centro di Comando Strategico",
+        "summary": "Il sistema di supporto alle decisioni strategiche della tua organizzazione. Monitora, analizza e guida con fiducia.",
+        "features": ["Dashboard KPI in tempo reale con analisi delle tendenze", "Tracciamento e allineamento degli obiettivi strategici", "Benchmarking delle prestazioni rispetto agli standard di settore", "Soglie di allarme con notifiche automatiche", "Generazione di sintesi esecutive"],
+        "guidance": "Inizia definendo le tue metriche chiave. Il Timone funziona meglio quando hai obiettivi chiari e misurabili allineati con la strategia della tua organizzazione."
+      },
+      "lineage": {
+        "title": "La Stirpe - Tracciatore di Provenienza Dati",
+        "summary": "Visibilità completa del percorso dei tuoi dati. Sapere da dove viene ogni numero e dove va.",
+        "features": ["Mappatura visiva del flusso dati", "Tracciabilità dall'origine al report", "Analisi d'impatto per le modifiche dei dati", "Punteggio di qualità dei dati in ogni fase", "Generazione automatizzata della documentazione"],
+        "guidance": "Collega prima le tue fonti dati. La Stirpe scopre automaticamente le relazioni e costruisce la tua mappa dati."
+      },
+      "guard": {
+        "title": "Il Guardiano - Scudo di Sicurezza e Conformità",
+        "summary": "Protezione automatizzata per i tuoi dati. Applica le policy, traccia gli accessi e mantieni la conformità.",
+        "features": ["Motore di applicazione delle policy", "Registrazione audit degli accessi", "Rilevamento minacce e alerting", "Mappatura dei framework di conformità", "Punteggio della postura di sicurezza"],
+        "guidance": "Definisci le tue policy di sicurezza e i requisiti di conformità. Il Guardiano monitora continuamente e avvisa sulle violazioni."
+      }
+    },
+    "spaces": {
+      "graph": {
+        "title": "Il Grafo - Navigatore della Conoscenza",
+        "summary": "Naviga l'universo di conoscenza della tua organizzazione. Vedi le connessioni che gli altri perdono.",
+        "guidance": "Esplora cliccando su qualsiasi nodo. Il Grafo rivela le connessioni e ti permette di approfondire i dettagli."
+      },
+      "council": {
+        "title": "Il Consiglio - Camera di Collaborazione AI",
+        "summary": "Dove i consulenti AI deliberano insieme. I problemi complessi richiedono prospettive multiple.",
+        "guidance": "Presenta la tua domanda al Consiglio. Osserva come emergono diverse prospettive e si sintetizzano in raccomandazioni."
+      }
+    }
+  },
+  "narratives": {
+    "welcome": {
+      "title": "Benvenuto in Datacendia",
+      "subtitle": "Il tuo viaggio verso l'intelligence sovrana inizia qui",
+      "steps": [
+        {"title": "Conosci il Tuo Centro di Comando", "description": "Il Cortex è la tua vista unificata dell'intelligence organizzativa.", "action": "Esplora il Cortex"},
+        {"title": "Comprendi gli 8 Pilastri", "description": "Ogni pilastro fornisce capacità essenziali - dalle metriche strategiche alla governance AI.", "action": "Vedi Panoramica Pilastri"},
+        {"title": "Collega la Tua Prima Fonte Dati", "description": "L'intelligence richiede dati. Collega un database, API o fonte file.", "action": "Aggiungi Fonte Dati"},
+        {"title": "Definisci le Tue Metriche Chiave", "description": "Cosa conta di più per la tua organizzazione? Definisci i KPI per la tua dashboard esecutiva.", "action": "Crea Prima Metrica"}
+      ]
+    },
+    "quickStart": {
+      "title": "Avvio Rapido 5 Minuti",
+      "subtitle": "Orientati e vedi il valore immediatamente",
+      "duration": "5 minuti",
+      "steps": [
+        {"title": "Visualizza la Tua Dashboard", "description": "Il tuo centro di comando personalizzato mostra ciò che conta di più.", "action": "Apri Dashboard"},
+        {"title": "Controlla la Salute dell'Organizzazione", "description": "Un numero ti dice come sta la tua organizzazione. Verde è buono.", "action": "Vedi Punteggio Salute"}
+      ]
+    }
+  },
+  "accessibility": {
+    "skipToMain": "Vai al contenuto principale",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "loading": "Caricamento contenuto",
+    "required": "Campo obbligatorio"
+  },
+  "time": {
+    "justNow": "Proprio ora",
+    "minutesAgo": "{{count}} minuto fa",
+    "minutesAgo_plural": "{{count}} minuti fa",
+    "hoursAgo": "{{count}} ora fa",
+    "hoursAgo_plural": "{{count}} ore fa",
+    "daysAgo": "{{count}} giorno fa",
+    "daysAgo_plural": "{{count}} giorni fa"
   }
 }

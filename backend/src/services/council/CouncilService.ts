@@ -426,14 +426,13 @@ export class CouncilService extends EventEmitter {
     agentIds: string[],
     context?: string
   ): Promise<AgentResponse[]> {
-    const responses: AgentResponse[] = [];
-
     // Retrieve relevant memories for each agent
     const memories = await this.retrieveRelevantMemories(agentIds, question);
 
-    for (const agentId of agentIds) {
+    // Process agents in PARALLEL for much faster deliberation
+    const agentPromises = agentIds.map(async (agentId) => {
       const agent = this.agents.get(agentId);
-      if (!agent) continue;
+      if (!agent) return null;
 
       this.emitEvent({ 
         type: 'agent_start', 
@@ -463,18 +462,23 @@ export class CouncilService extends EventEmitter {
 
       let fullResponse = '';
       
-      for await (const token of streamOllamaResponse(agent.model, messages, {
-        temperature: agent.temperature,
-        maxTokens: agent.maxTokens,
-      })) {
-        fullResponse += token;
-        this.emitEvent({ 
-          type: 'token', 
-          deliberationId, 
-          agentId,
-          content: token,
-          timestamp: new Date(),
-        });
+      try {
+        for await (const token of streamOllamaResponse(agent.model, messages, {
+          temperature: agent.temperature,
+          maxTokens: agent.maxTokens,
+        })) {
+          fullResponse += token;
+          this.emitEvent({ 
+            type: 'token', 
+            deliberationId, 
+            agentId,
+            content: token,
+            timestamp: new Date(),
+          });
+        }
+      } catch (error) {
+        console.error(`[Agent ${agentId}] Error:`, error);
+        fullResponse = `Error: Unable to generate response. ${error instanceof Error ? error.message : 'Unknown error'}`;
       }
 
       const latency = Date.now() - startTime;
@@ -493,20 +497,17 @@ export class CouncilService extends EventEmitter {
         modelUsed: agent.model,
       });
 
-      responses.push(response);
+      // Extract and store insights as memories (non-blocking)
+      this.extractAndStoreMemories(agentId, deliberationId, fullResponse).catch(err => 
+        console.error(`[Agent ${agentId}] Memory extraction error:`, err)
+      );
 
-      // Extract and store insights as memories
-      await this.extractAndStoreMemories(agentId, deliberationId, fullResponse);
+      return response;
+    });
 
-      this.emitEvent({ 
-        type: 'agent_complete', 
-        deliberationId, 
-        agentId,
-        content: fullResponse,
-        metadata: { confidence, latency },
-        timestamp: new Date(),
-      });
-    }
+    // Wait for all agents to complete in parallel
+    const results = await Promise.all(agentPromises);
+    const responses = results.filter((r): r is AgentResponse => r !== null);
 
     return responses;
   }

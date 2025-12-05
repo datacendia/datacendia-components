@@ -2,10 +2,12 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
+import { v4 as uuidv4 } from 'uuid';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth, requireRole } from '../middleware/auth.js';
 import { testDataSourceConnection } from '../services/connectors/index.js';
+import { ingestPostgresDataSourceToGraph } from '../services/graphIngestion.js';
 
 const router = Router();
 
@@ -22,14 +24,21 @@ const dataSourceSchema = z.object({
   syncSchedule: z.string().optional(),
 });
 
+const updateDataSourceSchema = z.object({
+  name: z.string().min(1).optional(),
+  config: z.record(z.unknown()).optional(),
+  credentials: z.record(z.unknown()).optional(),
+  syncSchedule: z.string().optional(),
+});
+
 /**
  * GET /api/v1/data-sources
  * List data sources
  */
 router.get('/', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const dataSources = await prisma.dataSource.findMany({
-      where: { organizationId: req.organizationId! },
+    const dataSources = await prisma.data_sources.findMany({
+      where: { organization_id: req.organizationId! },
       orderBy: { name: 'asc' },
     });
 
@@ -55,12 +64,12 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
 });
 
 /**
- * GET /api/v1/data-sources/:id
- * Get single data source
+ * PUT /api/v1/data-sources/:id
+ * Update existing data source (config + credentials)
  */
-router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
+router.put('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const dataSource = await prisma.dataSource.findUnique({
+    const dataSource = await prisma.data_sources.findUnique({
       where: { id: req.params.id },
     });
 
@@ -68,7 +77,72 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organizationId !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId) {
+      throw errors.forbidden();
+    }
+
+    const { name, config, credentials, syncSchedule } = updateDataSourceSchema.parse(req.body);
+
+    const rawCredentials = (credentials || {}) as Record<string, unknown>;
+    const { password, apiKey, secret, ...safeConfig } = (config || dataSource.config || {}) as Record<string, unknown>;
+
+    const mergedCredentials = {
+      ...(dataSource.credentials as Record<string, unknown> | null | undefined),
+      ...rawCredentials,
+      password: (rawCredentials.password as unknown) ?? (dataSource.credentials as any)?.password ?? password,
+      apiKey: (rawCredentials.apiKey as unknown) ?? (dataSource.credentials as any)?.apiKey ?? apiKey,
+      secret: (rawCredentials.secret as unknown) ?? (dataSource.credentials as any)?.secret ?? secret,
+    };
+
+    const updated = await prisma.data_sources.update({
+      where: { id: req.params.id },
+      data: {
+        name: name ?? dataSource.name,
+        config: (config ? safeConfig : dataSource.config) as Prisma.InputJsonValue,
+        credentials: mergedCredentials as Prisma.InputJsonValue,
+        sync_schedule: syncSchedule ?? dataSource.sync_schedule,
+      },
+    });
+
+    await prisma.audit_logs.create({
+      data: {
+        id: uuidv4(),
+        organization_id: req.organizationId!,
+        user_id: req.user!.id,
+        action: 'data_source.update',
+        resource_type: 'data_source',
+        resource_id: updated.id,
+        details: { name: updated.name, type: updated.type } as Prisma.InputJsonValue,
+      },
+    });
+
+    res.json({
+      success: true,
+      data: {
+        ...updated,
+        credentials: undefined,
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/data-sources/:id
+ * Get single data source
+ */
+router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const dataSource = await prisma.data_sources.findUnique({
+      where: { id: req.params.id },
+    });
+
+    if (!dataSource) {
+      throw errors.notFound('Data source');
+    }
+
+    if (dataSource.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -90,34 +164,46 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.post('/', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { name, type, config, syncSchedule } = dataSourceSchema.parse(req.body);
+    const parsed = dataSourceSchema.parse(req.body);
+    const { name, type, config, syncSchedule } = parsed;
     const orgId = req.organizationId!;
 
-    // Extract credentials from config
-    const { password, apiKey, secret, ...safeConfig } = config as Record<string, unknown>;
-    const credentials = { password, apiKey, secret };
+    const rawCredentials = (req.body.credentials || {}) as Record<string, unknown>;
 
-    const dataSource = await prisma.dataSource.create({
+    // Extract secrets from config while also honoring explicit credentials payload
+    const { password, apiKey, secret, ...safeConfig } = config as Record<string, unknown>;
+
+    const credentials = {
+      ...rawCredentials,
+      password: (rawCredentials.password as unknown) ?? password,
+      apiKey: (rawCredentials.apiKey as unknown) ?? apiKey,
+      secret: (rawCredentials.secret as unknown) ?? secret,
+    };
+
+    const dataSource = await prisma.data_sources.create({
       data: {
-        organizationId: orgId,
+        id: uuidv4(),
+        organization_id: orgId,
         name,
         type,
         config: safeConfig as Prisma.InputJsonValue,
         credentials: credentials as Prisma.InputJsonValue,
-        syncSchedule,
+        sync_schedule: syncSchedule,
         status: 'PENDING',
+        updated_at: new Date(),
       },
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: orgId,
-        userId: req.user!.id,
+        id: uuidv4(),
+        organization_id: orgId,
+        user_id: req.user!.id,
         action: 'data_source.create',
-        resourceType: 'data_source',
-        resourceId: dataSource.id,
-        details: { name, type },
+        resource_type: 'data_source',
+        resource_id: dataSource.id,
+        details: { name, type } as Prisma.InputJsonValue,
       },
     });
 
@@ -169,7 +255,7 @@ router.post('/test', async (req: Request, res: Response, next: NextFunction) => 
  */
 router.post('/:id/test', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const dataSource = await prisma.dataSource.findUnique({
+    const dataSource = await prisma.data_sources.findUnique({
       where: { id: req.params.id },
     });
 
@@ -177,7 +263,7 @@ router.post('/:id/test', async (req: Request, res: Response, next: NextFunction)
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organizationId !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -201,7 +287,7 @@ router.post('/:id/test', async (req: Request, res: Response, next: NextFunction)
  */
 router.post('/:id/sync', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const dataSource = await prisma.dataSource.findUnique({
+    const dataSource = await prisma.data_sources.findUnique({
       where: { id: req.params.id },
     });
 
@@ -209,12 +295,12 @@ router.post('/:id/sync', async (req: Request, res: Response, next: NextFunction)
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organizationId !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
     // Update status
-    await prisma.dataSource.update({
+    await prisma.data_sources.update({
       where: { id: req.params.id },
       data: { status: 'SYNCING' },
     });
@@ -239,7 +325,7 @@ router.post('/:id/sync', async (req: Request, res: Response, next: NextFunction)
  */
 router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const dataSource = await prisma.dataSource.findUnique({
+    const dataSource = await prisma.data_sources.findUnique({
       where: { id: req.params.id },
     });
 
@@ -247,22 +333,23 @@ router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
       throw errors.notFound('Data source');
     }
 
-    if (dataSource.organizationId !== req.organizationId) {
+    if (dataSource.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
-    await prisma.dataSource.delete({
+    await prisma.data_sources.delete({
       where: { id: req.params.id },
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId!,
-        userId: req.user!.id,
+        id: uuidv4(),
+        organization_id: req.organizationId!,
+        user_id: req.user!.id,
         action: 'data_source.delete',
-        resourceType: 'data_source',
-        resourceId: req.params.id,
+        resource_type: 'data_source',
+        resource_id: req.params.id,
       },
     });
 
@@ -281,30 +368,56 @@ router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
 async function syncDataSource(dataSource: {
   id: string;
   type: string;
+  organization_id: string;
   config: unknown;
   credentials: unknown;
 }) {
   try {
-    // Simulate sync operation
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    // For PostgreSQL sources, ingest schema into the Neo4j graph
+    if (dataSource.type === 'POSTGRESQL') {
+      try {
+        const config = (dataSource.config || {}) as Record<string, unknown>;
+        const credentials = (dataSource.credentials || {}) as Record<string, unknown>;
 
-    await prisma.dataSource.update({
+        await ingestPostgresDataSourceToGraph({
+          dataSourceId: dataSource.id,
+          organizationId: dataSource.organization_id,
+          config,
+          credentials,
+        });
+      } catch (ingestError) {
+        logger.error('Postgres graph ingestion failed during data source sync', {
+          dataSourceId: dataSource.id,
+          error:
+            ingestError instanceof Error
+              ? ingestError.message
+              : 'Unknown ingestion error',
+        });
+        // Continue to update sync status below even if ingestion fails
+        throw ingestError;
+      }
+    } else {
+      // Non-Postgres sources currently perform a lightweight simulated sync
+      await new Promise(resolve => setTimeout(resolve, 2000));
+    }
+
+    await prisma.data_sources.update({
       where: { id: dataSource.id },
       data: {
         status: 'CONNECTED',
-        lastSyncAt: new Date(),
-        lastSyncStatus: 'success',
+        last_sync_at: new Date(),
+        last_sync_status: 'success',
       },
     });
 
   } catch (error) {
     logger.error('Sync error:', error);
 
-    await prisma.dataSource.update({
+    await prisma.data_sources.update({
       where: { id: dataSource.id },
       data: {
         status: 'ERROR',
-        lastSyncStatus: error instanceof Error ? error.message : 'Sync failed',
+        last_sync_status: error instanceof Error ? error.message : 'Sync failed',
       },
     });
   }

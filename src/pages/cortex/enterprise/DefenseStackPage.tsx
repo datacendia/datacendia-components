@@ -14,8 +14,9 @@
 // - NATO/DoD compatible audit logging
 // =============================================================================
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { decisionIntelApi } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -407,6 +408,31 @@ export const DefenseStackPage: React.FC = () => {
   const [classifiedDocs] = useState<ClassifiedDocument[]>(generateClassifiedDocs);
   const [deploymentNodes] = useState<DeploymentNode[]>(generateDeploymentNodes);
   const [auditEvents] = useState<AuditEvent[]>(generateAuditEvents);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch real data from API
+  useEffect(() => {
+    const fetchDefenseData = async () => {
+      try {
+        const [preMortemRes, regulatoryRes] = await Promise.all([
+          decisionIntelApi.getPreMortemAnalyses(),
+          decisionIntelApi.getRegulatoryItems()
+        ]);
+        
+        if (preMortemRes.success && preMortemRes.data) {
+          console.log('[DefenseStack] Loaded', preMortemRes.data.length, 'risk analyses');
+        }
+        if (regulatoryRes.success && regulatoryRes.data) {
+          console.log('[DefenseStack] Loaded', regulatoryRes.data.length, 'regulatory items');
+        }
+      } catch (error) {
+        console.log('[DefenseStack] Using local generators (API unavailable)');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchDefenseData();
+  }, []);
 
   const activeThreats = threatScenarios.filter(t => t.probability > 0.5);
 

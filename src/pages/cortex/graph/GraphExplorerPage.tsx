@@ -58,6 +58,7 @@ const edgeTypes: Record<string, { color: string; label: string }> = {
   transforms: { color: '#F59E0B', label: 'Transforms' },
   owns: { color: '#8B5CF6', label: 'Owns' },
   related: { color: '#6B7280', label: 'Related To' },
+  inferred: { color: '#9CA3AF', label: 'Inferred (Heuristic)' },
 };
 
 // =============================================================================
@@ -230,9 +231,16 @@ export const GraphExplorerPage: React.FC = () => {
   const suggestions = useMemo<SearchSuggestion[]>(() => {
     if (!searchQuery || searchQuery.length < 2) return [];
     return nodes
-      .filter(n => n.name.toLowerCase().includes(searchQuery.toLowerCase()))
+      .filter(n => {
+        const name = (n.name ?? '').toString();
+        return name.toLowerCase().includes(searchQuery.toLowerCase());
+      })
       .slice(0, 5)
-      .map(n => ({ id: n.id, name: n.name, type: n.type }));
+      .map(n => ({
+        id: n.id,
+        name: (n.name ?? n.id ?? 'Unnamed') as string,
+        type: n.type,
+      }));
   }, [searchQuery, nodes]);
 
   // Toggle filter
@@ -275,21 +283,59 @@ export const GraphExplorerPage: React.FC = () => {
             setEdges(lineageEdges);
           }
         } else {
-          // Load full graph
-          const graphRes = await graphApi.getEntities({ pageSize: 50 });
+          // Load full graph (nodes + relationships)
+          const graphRes = await graphApi.getEntities({ pageSize: 100 });
           if (graphRes.success && graphRes.data) {
-            const graphNodes: GraphNode[] = graphRes.data.map((e: GraphEntity) => ({
-              id: e.id,
-              type: e.type,
-              name: e.name,
-              properties: e.properties || {},
-            }));
+            const graphNodes: GraphNode[] = (graphRes.data as any[]).map((raw) => {
+              const props = (raw.properties || raw || {}) as any;
+
+              const id = String(
+                props.id ?? raw.id ?? raw.elementId ?? `node-${Math.random().toString(36).slice(2)}`
+              );
+
+              const rawType = (props.type ?? raw.type ?? (Array.isArray(raw.labels) ? raw.labels[0] : 'entity')) as string;
+              const type = (rawType || 'entity').toString().toLowerCase();
+
+              const name = (props.name ?? props.table ?? id ?? 'Unnamed') as string;
+
+              return {
+                id,
+                type,
+                name,
+                properties: props,
+              } as GraphNode;
+            });
+
             setNodes(graphNodes);
 
-            // For now, create edges based on entity relationships
-            // Real implementation would fetch edges from API
-            const graphEdges: GraphEdge[] = [];
-            setEdges(graphEdges);
+            // Fetch relationships between the loaded nodes using the generic graph query API
+            try {
+              const relQuery = `
+                MATCH (source {organizationId: $_orgId})-[r]->(target {organizationId: $_orgId})
+                WHERE source.id IN $nodeIds AND target.id IN $nodeIds
+                RETURN source.id AS sourceId, target.id AS targetId, type(r) AS relType, r AS properties
+              `;
+
+              const relRes = await graphApi.executeQuery(relQuery, {
+                nodeIds: graphNodes.map(n => n.id),
+              });
+
+              if (relRes.success && Array.isArray(relRes.data)) {
+                const graphEdges: GraphEdge[] = (relRes.data as any[]).map((row: any) => ({
+                  source: String(row.sourceId ?? row.source ?? ''),
+                  target: String(row.targetId ?? row.target ?? ''),
+                  type: String(row.relType ?? row.type ?? 'related'),
+                  properties: row.properties || {},
+                })).filter(e => e.source && e.target);
+
+                setEdges(graphEdges);
+              } else {
+                setEdges([]);
+              }
+            } catch (relErr) {
+              console.error('Graph relationships load error:', relErr);
+              setEdges([]);
+            }
           }
         }
       } catch (err) {
@@ -345,7 +391,8 @@ export const GraphExplorerPage: React.FC = () => {
 
   // Filter nodes
   const filteredNodes = nodes.filter(node => {
-    const matchesSearch = node.name.toLowerCase().includes(searchQuery.toLowerCase());
+    const name = (node.name ?? '').toString();
+    const matchesSearch = name.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesType = activeFilters.length === 0 || activeFilters.includes(node.type);
     return matchesSearch && matchesType;
   });

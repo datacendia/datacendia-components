@@ -1,0 +1,150 @@
+/**
+ * CendiaSymbiont™ API Routes
+ * Partnership & Ecosystem Engine
+ */
+
+import { Router, Request, Response } from 'express';
+import { cendiaSymbiontService } from '../services/CendiaSymbiontService.js';
+import { devAuth } from '../middleware/auth.js';
+
+const router = Router();
+router.use(devAuth);
+
+// ===========================================================================
+// ENTITIES
+// ===========================================================================
+
+router.post('/entities', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const entity = await cendiaSymbiontService.addEntity(orgId, req.body);
+    res.json({ success: true, data: entity });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/entities', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { entityType, domain, minHealth } = req.query;
+    const entities = await cendiaSymbiontService.getEntities(orgId, {
+      entityType: entityType as any,
+      domain: domain as string,
+      minHealth: minHealth ? parseFloat(minHealth as string) : undefined,
+    });
+    res.json({ success: true, data: entities });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// OPPORTUNITIES
+// ===========================================================================
+
+router.post('/entities/:id/opportunities', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const opportunities = await cendiaSymbiontService.detectOpportunities(orgId, req.params.id);
+    res.json({ success: true, data: opportunities });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/opportunities', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { status } = req.query;
+    const opportunities = await cendiaSymbiontService.getOpportunities(orgId, status as any);
+    res.json({ success: true, data: opportunities });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.patch('/opportunities/:id/status', async (req: Request, res: Response) => {
+  try {
+    const { status } = req.body;
+    const opportunity = await cendiaSymbiontService.updateOpportunityStatus(req.params.id, status);
+    res.json({ success: true, data: opportunity });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// SIMULATIONS
+// ===========================================================================
+
+router.post('/opportunities/:id/simulate', async (req: Request, res: Response) => {
+  try {
+    const { simulationType } = req.body;
+    const simulation = await cendiaSymbiontService.simulateAlliance(req.params.id, simulationType);
+    res.json({ success: true, data: simulation });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/opportunities/:id/simulations', async (req: Request, res: Response) => {
+  try {
+    const simulations = await cendiaSymbiontService.getSimulations(req.params.id);
+    res.json({ success: true, data: simulations });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// RELATIONSHIPS
+// ===========================================================================
+
+router.post('/relationships', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const { entityId, relatedEntityId, relationshipType } = req.body;
+    const relationship = await cendiaSymbiontService.createRelationship(
+      orgId, entityId, relatedEntityId, relationshipType
+    );
+    res.json({ success: true, data: relationship });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.get('/relationships', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const relationships = await cendiaSymbiontService.getRelationships(orgId);
+    res.json({ success: true, data: relationships });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+router.post('/relationships/:id/interaction', async (req: Request, res: Response) => {
+  try {
+    const relationship = await cendiaSymbiontService.updateRelationshipHealth(req.params.id, req.body);
+    res.json({ success: true, data: relationship });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// DASHBOARD
+// ===========================================================================
+
+router.get('/dashboard', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const dashboard = await cendiaSymbiontService.getDashboard(orgId);
+    res.json({ success: true, data: dashboard });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+export default router;

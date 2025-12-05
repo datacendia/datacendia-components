@@ -131,7 +131,8 @@ const CustomAgentCreator: React.FC<{
   onSave: (agent: Agent) => void;
   onDelete?: (agentId: string) => void;
   editingAgent: Agent | null;
-}> = ({ isOpen, onClose, onSave, onDelete, editingAgent }) => {
+  t: (key: string) => string;
+}> = ({ isOpen, onClose, onSave, onDelete, editingAgent, t }) => {
   const [name, setName] = useState('');
   const [role, setRole] = useState('');
   const [description, setDescription] = useState('');
@@ -208,14 +209,14 @@ const CustomAgentCreator: React.FC<{
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <h2 className="text-xl font-bold text-neutral-900">
-                  {editingAgent ? 'Edit Custom Agent' : '✨ Create Custom Agent'}
+                  {editingAgent ? t('council.customAgent.editTitle') : `✨ ${t('council.customAgent.title')}`}
                 </h2>
                 <span className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">
                   ⭐ PREMIUM
                 </span>
               </div>
               <p className="text-neutral-600">
-                Design your own AI agent with specialized expertise
+                {t('council.customAgent.subtitle')}
               </p>
               <p className="text-xs text-purple-600 font-medium mt-1">
                 Agent Builder Pack • $199/month
@@ -236,7 +237,7 @@ const CustomAgentCreator: React.FC<{
           <div className="grid md:grid-cols-2 gap-6">
             <div>
               <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                Agent Avatar
+                {t('council.customAgent.avatar')}
               </label>
               <div className="flex flex-wrap gap-2 p-3 bg-neutral-50 rounded-lg max-h-32 overflow-y-auto">
                 {AGENT_EMOJIS.map((emoji) => (
@@ -258,7 +259,7 @@ const CustomAgentCreator: React.FC<{
 
             <div>
               <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                Agent Color
+                {t('council.customAgent.color')}
               </label>
               <div className="flex flex-wrap gap-2 p-3 bg-neutral-50 rounded-lg">
                 {AGENT_COLORS.map((c) => (
@@ -294,7 +295,7 @@ const CustomAgentCreator: React.FC<{
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                Agent Name *
+                {t('council.customAgent.name')} *
               </label>
               <input
                 type="text"
@@ -307,7 +308,7 @@ const CustomAgentCreator: React.FC<{
             </div>
             <div>
               <label className="block text-sm font-semibold text-neutral-700 mb-2">
-                Role / Title *
+                {t('council.customAgent.role')} *
               </label>
               <input
                 type="text"
@@ -323,12 +324,12 @@ const CustomAgentCreator: React.FC<{
           {/* Description */}
           <div>
             <label className="block text-sm font-semibold text-neutral-700 mb-2">
-              Description
-            </label>
+                {t('council.customAgent.description')}
+              </label>
             <textarea
               value={description}
               onChange={(e) => setDescription(e.target.value)}
-              placeholder="Describe what this agent does and its areas of focus..."
+              placeholder={t('council.customAgent.descriptionPlaceholder')}
               rows={2}
               className="w-full px-4 py-2 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 resize-none"
               maxLength={200}
@@ -338,14 +339,12 @@ const CustomAgentCreator: React.FC<{
           {/* Expertise / System Prompt */}
           <div>
             <label className="block text-sm font-semibold text-neutral-700 mb-2">
-              Expertise & Instructions
-            </label>
+                {t('council.customAgent.expertise')}
+              </label>
             <textarea
               value={expertise}
               onChange={(e) => setExpertise(e.target.value)}
-              placeholder="Define the agent's expertise, knowledge areas, and how it should respond. This becomes the system prompt for the AI.
-
-Example: You are an expert in supply chain management with 20 years of experience. You analyze logistics, inventory optimization, and vendor relationships. Always provide data-driven recommendations..."
+              placeholder="Define the agent's expertise, knowledge areas, and how it should respond..."
               rows={5}
               className="w-full px-4 py-2 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 resize-none font-mono text-sm"
             />
@@ -1103,10 +1102,10 @@ export const CouncilPage: React.FC = () => {
           <div className="p-6 border-b border-neutral-100 bg-gradient-to-r from-primary-50 to-purple-50">
             <div className="flex items-center justify-between">
               <div>
-                <h2 className="text-xl font-bold text-neutral-900">Council Modes Library</h2>
+                <h2 className="text-xl font-bold text-neutral-900">{t('council.modes.title')}</h2>
                 <p className="text-neutral-600 mt-1">
-                  The same 10 agents with different modes produce radically different outputs.
-                  <span className="font-semibold text-primary-600 ml-1">The prompt IS the company culture.</span>
+                  {t('council.modes.subtitle')}
+                  <span className="font-semibold text-primary-600 ml-1">{t('council.modes.cultureNote')}</span>
                 </p>
               </div>
               <button
@@ -1120,14 +1119,14 @@ export const CouncilPage: React.FC = () => {
           
           {/* Quick Reference Table */}
           <div className="p-6">
-            <h3 className="font-semibold text-neutral-900 mb-4">Quick Reference</h3>
+            <h3 className="font-semibold text-neutral-900 mb-4">{t('council.modes.quickReference')}</h3>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-neutral-200">
-                    <th className="text-left py-2 px-3 font-semibold text-neutral-700">Mode</th>
-                    <th className="text-left py-2 px-3 font-semibold text-neutral-700">Prime Directive</th>
-                    <th className="text-left py-2 px-3 font-semibold text-neutral-700">Best For</th>
+                    <th className="text-left py-2 px-3 font-semibold text-neutral-700">{t('council.modes.mode')}</th>
+                    <th className="text-left py-2 px-3 font-semibold text-neutral-700">{t('council.modes.primeDirective')}</th>
+                    <th className="text-left py-2 px-3 font-semibold text-neutral-700">{t('council.modes.bestFor')}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -1176,7 +1175,7 @@ export const CouncilPage: React.FC = () => {
                   
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
-                      <h4 className="text-sm font-semibold text-neutral-700 mb-2">Best For:</h4>
+                      <h4 className="text-sm font-semibold text-neutral-700 mb-2">{t('council.modes.bestFor')}:</h4>
                       <ul className="text-sm text-neutral-600 space-y-1">
                         {COUNCIL_MODES[selectedMode].useCases.map((uc, i) => (
                           <li key={i} className="flex items-center gap-2">
@@ -1186,7 +1185,7 @@ export const CouncilPage: React.FC = () => {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="text-sm font-semibold text-neutral-700 mb-2">Agent Behavior:</h4>
+                      <h4 className="text-sm font-semibold text-neutral-700 mb-2">{t('council.modes.agentBehavior')}:</h4>
                       <ul className="text-sm text-neutral-600 space-y-1">
                         {COUNCIL_MODES[selectedMode].agentBehaviors.slice(0, 4).map((ab, i) => (
                           <li key={i} className="flex items-start gap-2">
@@ -1886,6 +1885,7 @@ export const CouncilPage: React.FC = () => {
         onSave={handleSaveCustomAgent}
         onDelete={handleDeleteCustomAgent}
         editingAgent={editingAgent}
+        t={t}
       />
 
       {/* ================================================================= */}

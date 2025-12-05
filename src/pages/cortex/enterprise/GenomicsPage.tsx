@@ -14,8 +14,9 @@
 // - HIPAA-compliant data handling
 // =============================================================================
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { decisionIntelApi } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -435,6 +436,31 @@ export const GenomicsPage: React.FC = () => {
   const [fdaSubmissions] = useState<FDASubmission[]>(generateFDASubmissions);
   const [adverseEvents] = useState<AdverseEventPrediction[]>(generateAdverseEventPredictions);
   const [geneticModels] = useState<GeneticRiskModel[]>(generateGeneticModels);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch real data from API
+  useEffect(() => {
+    const fetchGenomicsData = async () => {
+      try {
+        const [regulatoryRes, preMortemRes] = await Promise.all([
+          decisionIntelApi.getRegulatoryItems(),
+          decisionIntelApi.getPreMortemAnalyses()
+        ]);
+        
+        if (regulatoryRes.success && regulatoryRes.data) {
+          console.log('[Genomics] Loaded', regulatoryRes.data.length, 'regulatory items');
+        }
+        if (preMortemRes.success && preMortemRes.data) {
+          console.log('[Genomics] Loaded', preMortemRes.data.length, 'risk analyses');
+        }
+      } catch (error) {
+        console.log('[Genomics] Using local generators (API unavailable)');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchGenomicsData();
+  }, []);
 
   const metrics = useMemo(() => calculateMetrics(), []);
 

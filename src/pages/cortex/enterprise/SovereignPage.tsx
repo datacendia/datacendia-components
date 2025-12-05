@@ -17,6 +17,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { enterpriseService, GPUNode, DeployedModel, ClusterMetrics } from '../../../services/EnterpriseService';
 import { ollamaService } from '../../../lib/ollama';
+import { decisionIntelApi } from '../../../lib/api';
 
 // =============================================================================
 // LOCAL TYPES (GPUNode, DeployedModel, ClusterMetrics imported from EnterpriseService)
@@ -436,8 +437,19 @@ export const SovereignPage: React.FC = () => {
   const [metrics, setMetrics] = useState<ClusterMetrics | null>(null);
   const [ollamaStatus, setOllamaStatus] = useState({ available: false, models: [] as string[] });
 
-  // Load data from EnterpriseService
-  const loadData = useCallback(() => {
+  // Load data from EnterpriseService & API
+  const loadData = useCallback(async () => {
+    // Try to fetch from API first
+    try {
+      const snapshotsRes = await decisionIntelApi.getChronosSnapshots();
+      if (snapshotsRes.success && snapshotsRes.data) {
+        console.log('[Sovereign] Loaded', snapshotsRes.data.length, 'system snapshots');
+      }
+    } catch (error) {
+      console.log('[Sovereign] API unavailable, using local service');
+    }
+    
+    // Fall back to enterprise service
     enterpriseService.refreshOllamaStatus();
     setNodes(enterpriseService.getGPUNodes());
     setModels(enterpriseService.getDeployedModels());

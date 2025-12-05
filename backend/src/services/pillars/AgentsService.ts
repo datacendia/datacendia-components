@@ -1,10 +1,13 @@
 // =============================================================================
 // DATACENDIA PLATFORM - THE AGENTS SERVICE
 // AI Agent Management - Configure and monitor AI agents (The Pantheon)
-// Enterprise Platinum Intelligence
+// Enterprise Platinum Intelligence - PostgreSQL Ready
 // =============================================================================
 
+import { PrismaClient } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -64,20 +67,8 @@ export interface AgentStats {
   topAgents: { name: string; queries: number }[];
 }
 
-// =============================================================================
-// DEFAULT AGENTS
-// =============================================================================
-
-const DEFAULT_AGENTS: Omit<AIAgent, 'id' | 'organizationId' | 'createdAt' | 'queriesTotal' | 'queriesToday' | 'avgResponseTime' | 'satisfaction'>[] = [
-  { code: 'chief', name: 'CendiaChief', displayName: 'Chief of Staff', role: 'chief', icon: '👔', model: 'llama3.3:70b', description: 'Executive synthesis and strategic coordination', systemPrompt: 'You are the Chief of Staff. Synthesize all perspectives into coherent strategy.', capabilities: ['strategy', 'synthesis', 'coordination'], status: 'online' },
-  { code: 'cfo', name: 'CendiaCFO', displayName: 'CFO', role: 'cfo', icon: '💰', model: 'llama3.3:70b', description: 'Financial intelligence and analysis', systemPrompt: 'You are the CFO. Focus on ROI, cash flow, and margin. Be conservative.', capabilities: ['finance', 'roi', 'budgeting', 'forecasting'], status: 'online' },
-  { code: 'coo', name: 'CendiaCOO', displayName: 'COO', role: 'coo', icon: '⚙️', model: 'llama3.2:3b', description: 'Operations and execution excellence', systemPrompt: 'You are the COO. Focus on bottlenecks, efficiency, and execution speed.', capabilities: ['operations', 'efficiency', 'process'], status: 'online' },
-  { code: 'ciso', name: 'CendiaCISO', displayName: 'CISO', role: 'ciso', icon: '🔒', model: 'qwq:32b', description: 'Security and compliance oversight', systemPrompt: 'Scrutinize plans for ANY compliance or security risk. Think step-by-step.', capabilities: ['security', 'compliance', 'risk'], status: 'online' },
-  { code: 'cmo', name: 'CendiaCMO', displayName: 'CMO', role: 'cmo', icon: '📢', model: 'llama3.3:70b', description: 'Marketing and brand strategy', systemPrompt: 'You are the CMO. Focus on brand voice, customer perception, and market fit.', capabilities: ['marketing', 'brand', 'customer'], status: 'busy' },
-  { code: 'cro', name: 'CendiaCRO', displayName: 'CRO', role: 'cro', icon: '📈', model: 'llama3.3:70b', description: 'Revenue optimization and growth', systemPrompt: 'You are the CRO. Focus on revenue growth, sales efficiency, and pipeline.', capabilities: ['revenue', 'sales', 'growth'], status: 'online' },
-  { code: 'cdo', name: 'CendiaCDO', displayName: 'CDO', role: 'cdo', icon: '📊', model: 'qwen2.5-coder:32b', description: 'Data governance and analytics', systemPrompt: 'You are the CDO. Validate data lineage and quality. Output valid JSON or SQL when requested.', capabilities: ['data', 'analytics', 'governance'], status: 'online' },
-  { code: 'risk', name: 'CendiaRisk', displayName: 'Risk Officer', role: 'risk', icon: '⚠️', model: 'qwq:32b', description: 'Risk assessment and mitigation', systemPrompt: 'You are the Risk Officer. Calculate probability and impact. Be pessimistic and validate assumptions.', capabilities: ['risk', 'assessment', 'mitigation'], status: 'online' },
-];
+// Agent definitions are created through API calls - no default agents
+// Users create agents via the Agents management interface
 
 // =============================================================================
 // THE AGENTS SERVICE
@@ -275,31 +266,44 @@ export class AgentsService extends BaseService {
     this.logger.info('Reset daily query counters for all agents');
   }
 
-  // ===========================================================================
-  // SEED DATA
-  // ===========================================================================
-
-  async seedDefaultAgents(organizationId: string): Promise<void> {
-    for (const agentTemplate of DEFAULT_AGENTS) {
-      const agent = await this.createAgent({
-        ...agentTemplate,
-        organizationId,
-      });
-
-      // Simulate some usage
-      agent.queriesTotal = Math.floor(50 + Math.random() * 200);
-      agent.queriesToday = Math.floor(10 + Math.random() * 50);
-      agent.avgResponseTime = 1.5 + Math.random() * 2;
-      agent.satisfaction = 4.5 + Math.random() * 0.5;
-      this.agentsStore.set(agent.id, agent);
-    }
-
-    this.logger.info(`Seeded ${DEFAULT_AGENTS.length} agents for org ${organizationId}`);
-  }
+  // No seed method - Enterprise Platinum standard
+  // Agents are created through real API operations
 
   async hasAgentsForOrg(organizationId: string): Promise<boolean> {
     const agents = await this.getAgents(organizationId);
     return agents.length > 0;
+  }
+
+  // ===========================================================================
+  // CLIENT API METHODS
+  // ===========================================================================
+
+  async getAgentPerformance(organizationId: string): Promise<any> {
+    const agents = await this.getAgents(organizationId);
+    const activeAgents = agents.filter(a => a.status === 'online');
+    
+    return {
+      totalAgents: agents.length,
+      activeAgents: activeAgents.length,
+      totalQueries: agents.reduce((sum, a) => sum + a.queriesTotal, 0),
+      queriesToday: agents.reduce((sum, a) => sum + a.queriesToday, 0),
+      avgResponseTime: agents.length > 0 
+        ? agents.reduce((sum, a) => sum + a.avgResponseTime, 0) / agents.length 
+        : 0,
+      avgSatisfaction: agents.length > 0
+        ? agents.reduce((sum, a) => sum + a.satisfaction, 0) / agents.length
+        : 0,
+    };
+  }
+
+  async getDeliberations(organizationId: string): Promise<any[]> {
+    // Return deliberations from database
+    const deliberations = await prisma.deliberation.findMany({
+      where: { organizationId },
+      orderBy: { createdAt: 'desc' },
+      take: 50,
+    });
+    return deliberations;
   }
 }
 

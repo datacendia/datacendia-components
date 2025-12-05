@@ -47,13 +47,13 @@ export function CommandPalette() {
 
   // Action commands
   const actionCommands: CommandItem[] = useMemo(() => [
-    { id: 'action-new-query', title: 'New Council Query', subtitle: 'Ask the Council a question', icon: '💬', category: 'action', action: () => { navigate('/cortex/council'); setTimeout(() => document.querySelector<HTMLTextAreaElement>('textarea')?.focus(), 100); }, keywords: ['ask', 'question'] },
-    { id: 'action-refresh', title: 'Refresh Data', subtitle: 'Reload current page data', icon: '🔄', category: 'action', action: () => window.location.reload(), keywords: ['reload'] },
-    { id: 'action-fullscreen', title: 'Toggle Fullscreen', subtitle: 'Enter/exit fullscreen mode', icon: '⛶', category: 'action', action: () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(), keywords: ['full', 'screen'] },
+    { id: 'action-new-query', title: t('commandPalette.newQuery'), subtitle: t('commandPalette.askCouncil'), icon: '💬', category: 'action', action: () => { navigate('/cortex/council'); setTimeout(() => document.querySelector<HTMLTextAreaElement>('textarea')?.focus(), 100); }, keywords: ['ask', 'question'] },
+    { id: 'action-refresh', title: t('commandPalette.refresh'), subtitle: t('commandPalette.reloadPage'), icon: '🔄', category: 'action', action: () => window.location.reload(), keywords: ['reload'] },
+    { id: 'action-fullscreen', title: t('commandPalette.fullscreen'), subtitle: t('commandPalette.toggleFullscreen'), icon: '⛶', category: 'action', action: () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(), keywords: ['full', 'screen'] },
     ...languages.slice(0, 8).map(lang => ({
       id: `lang-${lang.code}`,
-      title: `Switch to ${lang.nativeName}`,
-      subtitle: `Change language to ${lang.name}`,
+      title: `${t('commandPalette.switchTo')} ${lang.nativeName}`,
+      subtitle: `${t('commandPalette.changeLanguage')} ${lang.name}`,
       icon: '🌐',
       category: 'action' as const,
       action: () => setLanguage(lang.code),
@@ -63,11 +63,11 @@ export function CommandPalette() {
 
   // Agent commands
   const agentCommands: CommandItem[] = useMemo(() => [
-    { id: 'agent-chief', title: 'Chief Strategic Agent', subtitle: 'Strategic synthesis', icon: '👔', category: 'agent', action: () => navigate('/cortex/council?agent=chief'), keywords: ['ceo', 'strategy'] },
-    { id: 'agent-cfo', title: 'Financial Intelligence', subtitle: 'Financial analysis', icon: '💰', category: 'agent', action: () => navigate('/cortex/council?agent=cfo'), keywords: ['finance', 'money', 'budget'] },
-    { id: 'agent-coo', title: 'Operations Agent', subtitle: 'Operational efficiency', icon: '⚙️', category: 'agent', action: () => navigate('/cortex/council?agent=coo'), keywords: ['operations', 'efficiency'] },
-    { id: 'agent-ciso', title: 'Security Agent', subtitle: 'Security & compliance', icon: '🛡️', category: 'agent', action: () => navigate('/cortex/council?agent=ciso'), keywords: ['security', 'risk'] },
-    { id: 'agent-cmo', title: 'Market Intelligence', subtitle: 'Market analysis', icon: '📈', category: 'agent', action: () => navigate('/cortex/council?agent=cmo'), keywords: ['marketing', 'market', 'growth'] },
+    { id: 'agent-chief', title: t('commandPalette.agents.chief'), subtitle: t('commandPalette.agents.chiefDesc'), icon: '👔', category: 'agent', action: () => navigate('/cortex/council?agent=chief'), keywords: ['ceo', 'strategy'] },
+    { id: 'agent-cfo', title: t('commandPalette.agents.cfo'), subtitle: t('commandPalette.agents.cfoDesc'), icon: '💰', category: 'agent', action: () => navigate('/cortex/council?agent=cfo'), keywords: ['finance', 'money', 'budget'] },
+    { id: 'agent-coo', title: t('commandPalette.agents.coo'), subtitle: t('commandPalette.agents.cooDesc'), icon: '⚙️', category: 'agent', action: () => navigate('/cortex/council?agent=coo'), keywords: ['operations', 'efficiency'] },
+    { id: 'agent-ciso', title: t('commandPalette.agents.ciso'), subtitle: t('commandPalette.agents.cisoDesc'), icon: '🛡️', category: 'agent', action: () => navigate('/cortex/council?agent=ciso'), keywords: ['security', 'risk'] },
+    { id: 'agent-cmo', title: t('commandPalette.agents.cmo'), subtitle: t('commandPalette.agents.cmoDesc'), icon: '📈', category: 'agent', action: () => navigate('/cortex/council?agent=cmo'), keywords: ['marketing', 'market', 'growth'] },
   ], [navigate]);
 
   // All commands
@@ -142,11 +142,11 @@ export function CommandPalette() {
   // Category labels
   const getCategoryLabel = (category: string) => {
     switch (category) {
-      case 'navigation': return 'Navigation';
-      case 'action': return 'Actions';
-      case 'agent': return 'Agents';
-      case 'mode': return 'Council Modes';
-      case 'recent': return 'Recent';
+      case 'navigation': return t('commandPalette.categories.navigation');
+      case 'action': return t('commandPalette.categories.actions');
+      case 'agent': return t('commandPalette.categories.agents');
+      case 'mode': return t('commandPalette.categories.modes');
+      case 'recent': return t('commandPalette.categories.recent');
       default: return category;
     }
   };
@@ -185,7 +185,7 @@ export function CommandPalette() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="Search commands, pages, agents..."
+              placeholder={t('commandPalette.searchPlaceholder')}
               className="flex-1 bg-transparent text-neutral-900 placeholder:text-neutral-400 focus:outline-none text-base"
             />
             <kbd className="hidden sm:inline-flex px-2 py-1 text-xs font-mono text-neutral-400 bg-neutral-100 rounded">
@@ -198,7 +198,7 @@ export function CommandPalette() {
             {filteredCommands.length === 0 ? (
               <div className="px-4 py-8 text-center text-neutral-400">
                 <span className="text-2xl mb-2 block">🔍</span>
-                No results for "{query}"
+                {t('commandPalette.noResults')} "{query}"
               </div>
             ) : (
               Object.entries(groupedCommands).map(([category, commands]) => (
@@ -244,16 +244,16 @@ export function CommandPalette() {
               <span className="flex items-center gap-1">
                 <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded font-mono text-[10px]">↑</kbd>
                 <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded font-mono text-[10px]">↓</kbd>
-                navigate
+                {t('commandPalette.navigate')}
               </span>
               <span className="flex items-center gap-1">
                 <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded font-mono text-[10px]">↵</kbd>
-                select
+                {t('commandPalette.select')}
               </span>
             </div>
             <span className="flex items-center gap-1">
               <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded font-mono text-[10px]">⌘K</kbd>
-              toggle
+              {t('commandPalette.toggle')}
             </span>
           </div>
         </div>

@@ -1,14 +1,17 @@
 // =============================================================================
-// DATACENDIA - REGISTER PAGE
+// DATACENDIA - REGISTER PAGE (Fully Internationalized)
 // =============================================================================
 
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { cn } from '../../../lib/utils';
 import { authApi } from '../../lib/api';
+import { useI18n } from '../../lib/i18n';
+import { LanguageSwitcher } from '../../components/i18n/LanguageSwitcher';
 
 export const RegisterPage: React.FC = () => {
   const navigate = useNavigate();
+  const { t } = useI18n();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -32,11 +35,11 @@ export const RegisterPage: React.FC = () => {
 
   const validateStep1 = () => {
     if (!formData.firstName || !formData.lastName) {
-      setError('Please enter your full name');
+      setError(t('auth.register.errors.fullNameRequired'));
       return false;
     }
     if (!formData.email || !formData.email.includes('@')) {
-      setError('Please enter a valid email address');
+      setError(t('auth.register.errors.validEmailRequired'));
       return false;
     }
     setError('');
@@ -45,15 +48,15 @@ export const RegisterPage: React.FC = () => {
 
   const validateStep2 = () => {
     if (formData.password.length < 8) {
-      setError('Password must be at least 8 characters');
+      setError(t('auth.register.errors.passwordMinLength'));
       return false;
     }
     if (formData.password !== formData.confirmPassword) {
-      setError('Passwords do not match');
+      setError(t('auth.register.errors.passwordMismatch'));
       return false;
     }
     if (!formData.acceptTerms) {
-      setError('You must accept the terms and conditions');
+      setError(t('auth.register.errors.acceptTerms'));
       return false;
     }
     setError('');
@@ -84,10 +87,10 @@ export const RegisterPage: React.FC = () => {
       if (response.success) {
         navigate('/cortex/dashboard');
       } else {
-        setError(response.error?.message || 'Registration failed');
+        setError(response.error?.message || t('auth.register.errors.registrationFailed'));
       }
     } catch (err) {
-      setError('Unable to connect to server. Please try again.');
+      setError(t('auth.login.errors.networkError'));
     } finally {
       setIsLoading(false);
     }
@@ -107,25 +110,25 @@ export const RegisterPage: React.FC = () => {
             <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
               <span className="text-primary-600 font-bold text-xl">D</span>
             </div>
-            <span className="text-white text-xl font-semibold">Datacendia</span>
+            <span className="text-white text-xl font-semibold">{t('common.appName')}</span>
           </div>
         </div>
 
         <div>
           <h1 className="text-4xl font-bold text-white mb-4">
-            Unlock your organization's intelligence.
+            {t('auth.register.headline')}
           </h1>
           <p className="text-white/70 text-lg mb-8">
-            Join thousands of companies using Datacendia to make better decisions with AI-powered insights.
+            {t('auth.register.subheadline')}
           </p>
 
           {/* Features */}
           <div className="space-y-4">
             {[
-              { icon: '🧠', text: 'AI Council - Get strategic advice from specialized AI agents' },
-              { icon: '📊', text: 'Graph Explorer - Visualize all your data relationships' },
-              { icon: '🔮', text: 'The Lens - Forecast future outcomes with ML' },
-              { icon: '⚡', text: 'The Bridge - Automate workflows across systems' },
+              { icon: '🧠', text: t('auth.register.features.council') },
+              { icon: '📊', text: t('auth.register.features.graph') },
+              { icon: '🔮', text: t('auth.register.features.lens') },
+              { icon: '⚡', text: t('auth.register.features.bridge') },
             ].map((feature, idx) => (
               <div key={idx} className="flex items-center gap-3 text-white/80">
                 <span className="text-xl">{feature.icon}</span>
@@ -136,7 +139,7 @@ export const RegisterPage: React.FC = () => {
         </div>
 
         <div className="text-white/50 text-sm">
-          © 2025 Datacendia. All rights reserved.
+          {t('footer.copyright', { year: new Date().getFullYear() })}
         </div>
       </div>
 
@@ -148,13 +151,13 @@ export const RegisterPage: React.FC = () => {
             <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">D</span>
             </div>
-            <span className="text-neutral-900 text-xl font-semibold">Datacendia</span>
+            <span className="text-neutral-900 text-xl font-semibold">{t('common.appName')}</span>
           </div>
 
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-neutral-900">Create your account</h2>
+            <h2 className="text-2xl font-bold text-neutral-900">{t('auth.register.title')}</h2>
             <p className="text-neutral-500 mt-2">
-              {step === 1 ? 'Enter your details to get started' : 'Set up your password'}
+              {step === 1 ? t('auth.register.step1Subtitle') : t('auth.register.step2Subtitle')}
             </p>
           </div>
 
@@ -184,7 +187,7 @@ export const RegisterPage: React.FC = () => {
                     <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
                     <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
                   </svg>
-                  <span className="text-sm font-medium text-neutral-700">Sign up with Google</span>
+                  <span className="text-sm font-medium text-neutral-700">{t('auth.register.signUpWith')} Google</span>
                 </button>
 
                 <button
@@ -197,7 +200,7 @@ export const RegisterPage: React.FC = () => {
                     <path fill="#7FBA00" d="M13 1h10v10H13z"/>
                     <path fill="#FFB900" d="M13 13h10v10H13z"/>
                   </svg>
-                  <span className="text-sm font-medium text-neutral-700">Sign up with Microsoft</span>
+                  <span className="text-sm font-medium text-neutral-700">{t('auth.register.signUpWith')} Microsoft</span>
                 </button>
               </div>
 
@@ -207,7 +210,7 @@ export const RegisterPage: React.FC = () => {
                   <div className="w-full border-t border-neutral-200" />
                 </div>
                 <div className="relative flex justify-center">
-                  <span className="px-4 bg-white text-sm text-neutral-400">or continue with email</span>
+                  <span className="px-4 bg-white text-sm text-neutral-400">{t('auth.login.orContinueWith')}</span>
                 </div>
               </div>
             </>
@@ -225,7 +228,7 @@ export const RegisterPage: React.FC = () => {
               <>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium text-neutral-700 mb-1">First name</label>
+                    <label className="block text-sm font-medium text-neutral-700 mb-1">{t('auth.register.firstName')}</label>
                     <input
                       type="text"
                       name="firstName"
@@ -237,7 +240,7 @@ export const RegisterPage: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-neutral-700 mb-1">Last name</label>
+                    <label className="block text-sm font-medium text-neutral-700 mb-1">{t('auth.register.lastName')}</label>
                     <input
                       type="text"
                       name="lastName"
@@ -251,7 +254,7 @@ export const RegisterPage: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Work email</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">{t('auth.register.email')}</label>
                   <input
                     type="email"
                     name="email"
@@ -264,7 +267,7 @@ export const RegisterPage: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Company (optional)</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">{t('auth.register.company')}</label>
                   <input
                     type="text"
                     name="company"
@@ -279,7 +282,7 @@ export const RegisterPage: React.FC = () => {
                   type="submit"
                   className="w-full h-11 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
                 >
-                  Continue
+                  {t('common.next')}
                 </button>
               </>
             ) : (
@@ -289,11 +292,11 @@ export const RegisterPage: React.FC = () => {
                   onClick={() => setStep(1)}
                   className="flex items-center gap-1 text-sm text-neutral-500 hover:text-neutral-700 mb-4"
                 >
-                  ← Back
+                  ← {t('common.back')}
                 </button>
 
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Password</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">{t('auth.register.password')}</label>
                   <input
                     type="password"
                     name="password"
@@ -303,11 +306,11 @@ export const RegisterPage: React.FC = () => {
                     className="w-full h-11 px-4 border border-neutral-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
                     placeholder="••••••••"
                   />
-                  <p className="text-xs text-neutral-400 mt-1">At least 8 characters</p>
+                  <p className="text-xs text-neutral-400 mt-1">{t('auth.register.passwordHint')}</p>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Confirm password</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">{t('auth.register.confirmPassword')}</label>
                   <input
                     type="password"
                     name="confirmPassword"
@@ -328,10 +331,10 @@ export const RegisterPage: React.FC = () => {
                     className="w-4 h-4 mt-0.5 rounded border-neutral-300 text-primary-600 focus:ring-primary-500"
                   />
                   <span className="text-sm text-neutral-600">
-                    I agree to the{' '}
-                    <Link to="/terms" className="text-primary-600 hover:underline">Terms of Service</Link>
-                    {' '}and{' '}
-                    <Link to="/privacy" className="text-primary-600 hover:underline">Privacy Policy</Link>
+                    {t('auth.register.agreeToTerms')}{' '}
+                    <Link to="/terms" className="text-primary-600 hover:underline">{t('footer.terms')}</Link>
+                    {' '}{t('common.and')}{' '}
+                    <Link to="/privacy" className="text-primary-600 hover:underline">{t('footer.privacy')}</Link>
                   </span>
                 </label>
 
@@ -348,7 +351,7 @@ export const RegisterPage: React.FC = () => {
                   {isLoading ? (
                     <span className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
                   ) : (
-                    'Create Account'
+                    t('auth.register.submitButton')
                   )}
                 </button>
               </>
@@ -357,11 +360,16 @@ export const RegisterPage: React.FC = () => {
 
           {/* Sign In Link */}
           <p className="mt-8 text-center text-sm text-neutral-500">
-            Already have an account?{' '}
+            {t('auth.register.hasAccount')}{' '}
             <Link to="/login" className="text-primary-600 hover:text-primary-700 font-medium">
-              Sign in
+              {t('auth.register.signIn')}
             </Link>
           </p>
+
+          {/* Language Selector */}
+          <div className="mt-6 flex justify-center">
+            <LanguageSwitcher variant="compact" />
+          </div>
         </div>
       </div>
     </div>

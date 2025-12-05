@@ -1,5 +1,5 @@
 // =============================================================================
-// DATACENDIA - LOGIN PAGE
+// DATACENDIA - LOGIN PAGE (Fully Internationalized)
 // =============================================================================
 
 // File: src/pages/auth/LoginPage.tsx
@@ -8,9 +8,12 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { cn } from '../../../lib/utils';
 import { authApi } from '../../lib/api';
+import { useI18n } from '../../lib/i18n';
+import { LanguageSwitcher } from '../../components/i18n/LanguageSwitcher';
 
 export const LoginPage: React.FC = () => {
   const navigate = useNavigate();
+  const { t } = useI18n();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [rememberMe, setRememberMe] = useState(false);
@@ -29,10 +32,10 @@ export const LoginPage: React.FC = () => {
       if (response.success) {
         navigate('/cortex/dashboard');
       } else {
-        setError(response.error?.message || 'Invalid email or password');
+        setError(response.error?.message || t('auth.login.errors.invalidCredentials'));
       }
     } catch (err) {
-      setError('Unable to connect to server. Please try again.');
+      setError(t('auth.login.errors.networkError'));
     } finally {
       setIsLoading(false);
     }
@@ -52,21 +55,21 @@ export const LoginPage: React.FC = () => {
             <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
               <span className="text-primary-600 font-bold text-xl">D</span>
             </div>
-            <span className="text-white text-xl font-semibold">Datacendia</span>
+            <span className="text-white text-xl font-semibold">{t('common.appName')}</span>
           </div>
         </div>
         
         <div>
           <h1 className="text-4xl font-bold text-white mb-4">
-            Your organization's intelligence, sovereign and whole.
+            {t('home.hero.title')} {t('home.hero.titleHighlight')}
           </h1>
           <p className="text-white/70 text-lg">
-            The Cortex awaits. Sign in to access your unified intelligence platform.
+            {t('auth.login.subtitle')}
           </p>
         </div>
         
         <div className="text-white/50 text-sm">
-          © 2025 Datacendia. All rights reserved.
+          {t('footer.copyright', { year: new Date().getFullYear() })}
         </div>
       </div>
 
@@ -78,12 +81,12 @@ export const LoginPage: React.FC = () => {
             <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-xl">D</span>
             </div>
-            <span className="text-neutral-900 text-xl font-semibold">Datacendia</span>
+            <span className="text-neutral-900 text-xl font-semibold">{t('common.appName')}</span>
           </div>
 
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-neutral-900">Welcome back</h2>
-            <p className="text-neutral-500 mt-2">Sign in to your account</p>
+            <h2 className="text-2xl font-bold text-neutral-900">{t('auth.login.title')}</h2>
+            <p className="text-neutral-500 mt-2">{t('auth.login.subtitle')}</p>
           </div>
 
           {/* OAuth Buttons */}
@@ -98,7 +101,7 @@ export const LoginPage: React.FC = () => {
                 <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
                 <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
               </svg>
-              <span className="text-sm font-medium text-neutral-700">Continue with Google</span>
+              <span className="text-sm font-medium text-neutral-700">{t('auth.login.orContinueWith')} Google</span>
             </button>
             
             <button
@@ -111,7 +114,7 @@ export const LoginPage: React.FC = () => {
                 <path fill="#7FBA00" d="M13 1h10v10H13z"/>
                 <path fill="#FFB900" d="M13 13h10v10H13z"/>
               </svg>
-              <span className="text-sm font-medium text-neutral-700">Continue with Microsoft</span>
+              <span className="text-sm font-medium text-neutral-700">{t('auth.login.orContinueWith')} Microsoft</span>
             </button>
           </div>
 
@@ -121,7 +124,7 @@ export const LoginPage: React.FC = () => {
               <div className="w-full border-t border-neutral-200" />
             </div>
             <div className="relative flex justify-center">
-              <span className="px-4 bg-white text-sm text-neutral-400">or continue with email</span>
+              <span className="px-4 bg-white text-sm text-neutral-400">{t('auth.login.orContinueWith')}</span>
             </div>
           </div>
 
@@ -135,7 +138,7 @@ export const LoginPage: React.FC = () => {
 
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-neutral-700 mb-1">
-                Email address
+                {t('auth.login.email')}
               </label>
               <input
                 id="email"
@@ -151,7 +154,7 @@ export const LoginPage: React.FC = () => {
 
             <div>
               <label htmlFor="password" className="block text-sm font-medium text-neutral-700 mb-1">
-                Password
+                {t('auth.login.password')}
               </label>
               <input
                 id="password"
@@ -173,10 +176,10 @@ export const LoginPage: React.FC = () => {
                   onChange={(e) => setRememberMe(e.target.checked)}
                   className="w-4 h-4 rounded border-neutral-300 text-primary-600 focus:ring-primary-500"
                 />
-                <span className="text-sm text-neutral-600">Remember me</span>
+                <span className="text-sm text-neutral-600">{t('auth.login.rememberMe')}</span>
               </label>
               <Link to="/forgot-password" className="text-sm text-primary-600 hover:text-primary-700">
-                Forgot password?
+                {t('auth.login.forgotPassword')}
               </Link>
             </div>
 
@@ -194,7 +197,7 @@ export const LoginPage: React.FC = () => {
               {isLoading ? (
                 <span className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
               ) : (
-                'Sign in'
+                t('auth.login.submitButton')
               )}
             </button>
           </form>
@@ -202,29 +205,21 @@ export const LoginPage: React.FC = () => {
           {/* SSO Link */}
           <div className="mt-6 text-center">
             <button className="text-sm text-neutral-500 hover:text-neutral-700">
-              Sign in with SSO →
+              {t('auth.login.submitButton')} SSO →
             </button>
           </div>
 
           {/* Sign Up Link */}
           <p className="mt-8 text-center text-sm text-neutral-500">
-            Don't have an account?{' '}
+            {t('auth.login.noAccount')}{' '}
             <Link to="/demo" className="text-primary-600 hover:text-primary-700 font-medium">
-              Request a demo
+              {t('nav.demo')}
             </Link>
           </p>
 
           {/* Language Selector */}
           <div className="mt-8 flex justify-center">
-            <select className="text-sm text-neutral-500 bg-transparent border-none cursor-pointer">
-              <option>English</option>
-              <option>Español</option>
-              <option>Français</option>
-              <option>Deutsch</option>
-              <option>Português</option>
-              <option>日本語</option>
-              <option>中文</option>
-            </select>
+            <LanguageSwitcher variant="compact" />
           </div>
         </div>
       </div>

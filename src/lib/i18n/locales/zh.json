@@ -139,6 +139,131 @@
     "desktop": { "title": "桌面应用", "download": "下载" },
     "mobile": { "title": "移动应用" }
   },
+  "dashboard": {
+    "title": "仪表板",
+    "welcome": "欢迎回来",
+    "subtitle": "{{company}}今天的运营状况",
+    "health_score": "组织健康度",
+    "data": "数据",
+    "operations": "运营",
+    "security": "安全",
+    "people": "人员",
+    "fromLastWeek": "较上周",
+    "alerts": "活动警报",
+    "critical": "严重",
+    "warning": "警告",
+    "pending_approvals": "待审批",
+    "workflows": "工作流",
+    "access": "访问",
+    "budget": "预算",
+    "by": "由",
+    "approve": "批准",
+    "reject": "拒绝",
+    "keyMetrics": "关键指标",
+    "askTheCouncil": "询问委员会",
+    "whatToKnow": "您想了解什么？",
+    "recentQueries": "最近查询：",
+    "recentActivity": "最近活动",
+    "viewFullLog": "查看完整日志",
+    "greetings": {
+      "morning": "早上好",
+      "afternoon": "下午好",
+      "evening": "晚上好"
+    },
+    "sampleAlerts": {
+      "databaseCpu": "数据库CPU > 90% 持续15分钟",
+      "paymentLatency": "支付处理延迟激增",
+      "diskUsage": "prod-db-01磁盘使用率达78%"
+    },
+    "sampleApprovals": {
+      "monthlyClose": "月度结账流程",
+      "prodDbAccess": "生产数据库访问"
+    },
+    "sampleMetrics": {
+      "revenue": "营收",
+      "pipeline": "销售管道",
+      "burnRate": "消耗率",
+      "nps": "NPS"
+    },
+    "sampleQueries": {
+      "churnIncrease": "为什么流失率上升了？",
+      "forecastRevenue": "预测Q4营收",
+      "biggestRisk": "我们最大的风险是什么？"
+    }
+  },
+  "sidebar": {
+    "dashboard": "仪表板",
+    "the_council": "委员会",
+    "the_graph": "知识图谱",
+    "the_pulse": "脉搏",
+    "the_lens": "透镜",
+    "the_bridge": "桥梁",
+    "settings": "设置",
+    "help": "帮助与支持"
+  },
+  "button": {
+    "view_all": "查看全部",
+    "approve": "批准",
+    "reject": "拒绝",
+    "save": "保存",
+    "cancel": "取消"
+  },
+  "label": {
+    "online": "在线",
+    "offline": "离线",
+    "busy": "忙碌",
+    "premium": "高级版",
+    "locked": "已锁定",
+    "custom": "自定义",
+    "unlock": "解锁"
+  },
+  "council": {
+    "title": "委员会",
+    "agents": { "domain": "领域代理" },
+    "modes": {
+      "title": "委员会模式库",
+      "subtitle": "同样的10个代理在不同模式下会产生截然不同的结果。",
+      "cultureNote": "提示词就是企业文化。",
+      "quickReference": "快速参考",
+      "mode": "模式",
+      "primeDirective": "首要指令",
+      "bestFor": "最适合",
+      "agentBehavior": "代理行为"
+    },
+    "customAgent": {
+      "title": "创建自定义代理",
+      "editTitle": "编辑自定义代理",
+      "subtitle": "设计您自己的具有专业知识的AI代理",
+      "avatar": "代理头像",
+      "color": "代理颜色",
+      "name": "代理名称",
+      "role": "角色/职位",
+      "description": "描述",
+      "expertise": "专业知识和指令"
+    }
+  },
+  "commandPalette": {
+    "searchPlaceholder": "搜索命令、页面、代理...",
+    "noResults": "无结果：",
+    "navigate": "导航",
+    "select": "选择",
+    "toggle": "切换",
+    "newQuery": "新建委员会查询",
+    "askCouncil": "向委员会提问",
+    "refresh": "刷新数据",
+    "reloadPage": "重新加载页面数据",
+    "fullscreen": "全屏",
+    "toggleFullscreen": "进入/退出全屏模式",
+    "switchTo": "切换到",
+    "changeLanguage": "更改语言为",
+    "categories": {
+      "navigation": "导航",
+      "actions": "操作",
+      "agents": "代理",
+      "modes": "委员会模式",
+      "recent": "最近"
+    }
+  },
   "footer": {
     "company": "公司",
     "product": "产品",
@@ -148,5 +273,99 @@
     "terms": "服务条款",
     "copyright": "© {{year}} Datacendia. 保留所有权利。",
     "tagline": "主权企业智能"
+  },
+  "tooltips": {
+    "pillars": {
+      "helm": {
+        "title": "舵手 - 战略指挥中心",
+        "summary": "组织的战略决策支持系统。自信地监控、分析和掌舵。",
+        "features": ["带趋势分析的实时KPI仪表板", "战略目标跟踪与对齐", "行业标准绩效基准", "带自动通知的警报阈值", "执行摘要生成"],
+        "guidance": "从定义关键指标开始。当您有与组织战略一致的清晰、可衡量目标时，舵手效果最佳。"
+      },
+      "lineage": {
+        "title": "血统 - 数据溯源追踪器",
+        "summary": "完全可视化您的数据旅程。了解每个数字的来源和去向。",
+        "features": ["可视化数据流映射", "源到报告的可追溯性", "数据变更影响分析", "每阶段数据质量评分", "自动化文档生成"],
+        "guidance": "首先连接您的数据源。血统会自动发现关系并构建您的数据地图。"
+      },
+      "predict": {
+        "title": "预测 - AI预测引擎",
+        "summary": "能够预见未来的机器学习模型。在趋势明显之前进行预测。",
+        "features": ["带置信区间的时间序列预测", "异常检测和预警系统", "假设情景建模", "特征重要性分析", "模型性能监控"],
+        "guidance": "高质量预测需要高质量数据。从清洁的历史数据开始，让预测学习您的模式。"
+      },
+      "guard": {
+        "title": "守卫 - 安全与合规屏障",
+        "summary": "为您的数据提供自动保护。执行策略、跟踪访问并保持合规。",
+        "features": ["策略执行引擎", "访问审计日志", "威胁检测和警报", "合规框架映射", "安全态势评分"],
+        "guidance": "定义您的安全策略和合规要求。守卫会持续监控并对违规发出警报。"
+      },
+      "ethics": {
+        "title": "伦理 - AI治理中心",
+        "summary": "内置负责任的AI。确保每个决策的公平、透明和问责。",
+        "features": ["偏见检测和监控", "模型可解释性工具", "伦理审查工作流", "公平性指标跟踪", "决策审计追踪"],
+        "guidance": "首先建立您的伦理原则。伦理帮助您在所有AI系统中将它们操作化。"
+      }
+    },
+    "spaces": {
+      "graph": {
+        "title": "图谱 - 知识导航器",
+        "summary": "导航您组织的知识宇宙。发现他人错过的连接。",
+        "guidance": "点击任何节点进行探索。图谱揭示连接并让您深入细节。"
+      },
+      "council": {
+        "title": "议会 - AI协作室",
+        "summary": "AI顾问共同商议的地方。复杂问题需要多角度视角。",
+        "guidance": "向议会提出您的问题。观察不同视角如何涌现并综合成建议。"
+      },
+      "pulse": {
+        "title": "脉搏 - 实时运营中心",
+        "summary": "实时查看组织的心跳。每个指标，每一刻。",
+        "guidance": "配置要在脉搏上显示的关键指标。设置警报阈值以获得变更通知。"
+      }
+    }
+  },
+  "narratives": {
+    "welcome": {
+      "title": "欢迎来到Datacendia",
+      "subtitle": "您的主权智能之旅从这里开始",
+      "steps": [
+        {"title": "认识您的指挥中心", "description": "Cortex是组织智能的统一视图。", "action": "探索Cortex"},
+        {"title": "了解8大支柱", "description": "每个支柱提供核心能力——从战略指标到AI治理。", "action": "查看支柱概述"},
+        {"title": "连接您的第一个数据源", "description": "智能需要数据。连接数据库、API或文件源。", "action": "添加数据源"},
+        {"title": "定义关键指标", "description": "什么对您的组织最重要？定义执行仪表板的KPI。", "action": "创建首个指标"}
+      ]
+    },
+    "quickStart": {
+      "title": "5分钟快速入门",
+      "subtitle": "快速定位并立即看到价值",
+      "duration": "5分钟",
+      "steps": [
+        {"title": "查看仪表板", "description": "您的个性化指挥中心显示最重要的内容。", "action": "打开仪表板"},
+        {"title": "检查组织健康", "description": "一个数字告诉您组织状况如何。绿色表示良好。", "action": "查看健康分数"},
+        {"title": "提出问题", "description": "输入任何关于组织的问题。我们的AI代理会找到答案。", "action": "打开AI助手"}
+      ]
+    },
+    "crisisResponse": {
+      "title": "危机响应协议",
+      "subtitle": "出问题时，用完整信息快速行动",
+      "persona": "事件指挥官",
+      "duration": "实时"
+    }
+  },
+  "accessibility": {
+    "skipToMain": "跳转到主要内容",
+    "skipToNav": "跳转到导航",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "loading": "加载内容中",
+    "required": "必填字段",
+    "optional": "可选"
+  },
+  "time": {
+    "justNow": "刚刚",
+    "minutesAgo": "{{count}}分钟前",
+    "hoursAgo": "{{count}}小时前",
+    "daysAgo": "{{count}}天前"
   }
 }

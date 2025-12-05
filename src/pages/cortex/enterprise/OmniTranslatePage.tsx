@@ -16,6 +16,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { decisionIntelApi } from '../../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -308,6 +309,24 @@ export const OmniTranslatePage: React.FC = () => {
   const [sourceLang, setSourceLang] = useState('en');
   const [targetLang, setTargetLang] = useState('es');
   const [isTranslating, setIsTranslating] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch real data from API
+  useEffect(() => {
+    const fetchTranslationData = async () => {
+      try {
+        const snapshotsRes = await decisionIntelApi.getChronosSnapshots();
+        if (snapshotsRes.success && snapshotsRes.data) {
+          console.log('[OmniTranslate] Loaded system snapshots for localization metrics');
+        }
+      } catch (error) {
+        console.log('[OmniTranslate] Using local generators (API unavailable)');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchTranslationData();
+  }, []);
 
   const handleTranslate = async () => {
     if (!sourceText.trim()) return;

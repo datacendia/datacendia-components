@@ -17,6 +17,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { enterpriseService, AutoDecision, AutomationRule, SystemHealth, DecisionCategory } from '../../../services/EnterpriseService';
 import { ollamaService } from '../../../lib/ollama';
+import api from '../../../lib/api';
 
 // Types imported from EnterpriseService
 
@@ -313,8 +314,26 @@ export const AutopilotPage: React.FC = () => {
   const [systemHealth, setSystemHealth] = useState<SystemHealth | null>(null);
   const [ollamaStatus, setOllamaStatus] = useState({ available: false });
 
-  // Load data from Enterprise Service
-  const loadData = useCallback(() => {
+  // Load data from Enterprise Service & API
+  const loadData = useCallback(async () => {
+    // First try to load from API
+    try {
+      const [rulesRes, executionsRes] = await Promise.all([
+        api.autopilot.getRules(),
+        api.autopilot.getExecutions()
+      ]);
+      
+      if (rulesRes.success && rulesRes.data) {
+        console.log('[Autopilot] Loaded', rulesRes.data.length, 'rules from database');
+      }
+      if (executionsRes.success && executionsRes.data) {
+        console.log('[Autopilot] Loaded', executionsRes.data.length, 'executions from database');
+      }
+    } catch (error) {
+      console.log('[Autopilot] API unavailable, using local service');
+    }
+    
+    // Fall back to enterprise service
     setDecisions(enterpriseService.getAutoDecisions());
     setSystemHealth(enterpriseService.getSystemHealth());
     setOllamaStatus(ollamaService.getStatus());

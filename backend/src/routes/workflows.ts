@@ -47,13 +47,13 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
     const status = req.query.status as string | undefined;
     const category = req.query.category as string | undefined;
 
-    const workflows = await prisma.workflow.findMany({
+    const workflows = await prisma.workflows.findMany({
       where: {
-        organizationId: orgId,
+        organization_id: orgId,
         ...(status && { status: status as 'DRAFT' | 'ACTIVE' | 'PAUSED' | 'ARCHIVED' }),
         ...(category && { category }),
       },
-      orderBy: { updatedAt: 'desc' },
+      orderBy: { updated_at: 'desc' },
     });
 
     res.json({
@@ -71,7 +71,7 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const workflow = await prisma.workflow.findUnique({
+    const workflow = await prisma.workflows.findUnique({
       where: { id: req.params.id },
     });
 
@@ -79,7 +79,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organizationId !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -101,21 +101,21 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
     const data = workflowSchema.parse(req.body);
     const orgId = req.organizationId!;
 
-    const workflow = await prisma.workflow.create({
+    const workflow = await prisma.workflows.create({
       data: {
         name: data.name,
         description: data.description,
         category: data.category,
         trigger: data.trigger as Prisma.InputJsonValue,
         definition: data.definition as Prisma.InputJsonValue,
-        organizationId: orgId,
+        organization_id: orgId,
         status: 'DRAFT',
       },
     });
 
     await prisma.auditLog.create({
       data: {
-        organizationId: orgId,
+        organization_id: orgId,
         userId: req.user!.id,
         action: 'workflow.create',
         resourceType: 'workflow',
@@ -139,7 +139,7 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.put('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const workflow = await prisma.workflow.findUnique({
+    const workflow = await prisma.workflows.findUnique({
       where: { id: req.params.id },
     });
 
@@ -147,13 +147,13 @@ router.put('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organizationId !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
     const data = workflowSchema.partial().parse(req.body);
 
-    const updated = await prisma.workflow.update({
+    const updated = await prisma.workflows.update({
       where: { id: req.params.id },
       data: {
         name: data.name,
@@ -179,7 +179,7 @@ router.put('/:id', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.post('/:id/activate', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const workflow = await prisma.workflow.findUnique({
+    const workflow = await prisma.workflows.findUnique({
       where: { id: req.params.id },
     });
 
@@ -187,11 +187,11 @@ router.post('/:id/activate', async (req: Request, res: Response, next: NextFunct
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organizationId !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
-    const updated = await prisma.workflow.update({
+    const updated = await prisma.workflows.update({
       where: { id: req.params.id },
       data: { status: 'ACTIVE' },
     });
@@ -211,7 +211,7 @@ router.post('/:id/activate', async (req: Request, res: Response, next: NextFunct
  */
 router.post('/:id/execute', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const workflow = await prisma.workflow.findUnique({
+    const workflow = await prisma.workflows.findUnique({
       where: { id: req.params.id },
     });
 
@@ -219,16 +219,16 @@ router.post('/:id/execute', async (req: Request, res: Response, next: NextFuncti
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organizationId !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
     const { parameters = {}, async: isAsync = true } = req.body;
 
     // Create execution record
-    const execution = await prisma.workflowExecution.create({
+    const execution = await prisma.workflow_executions.create({
       data: {
-        workflowId: workflow.id,
+        workflow_id: workflow.id,
         status: 'PENDING',
         parameters,
       },
@@ -252,7 +252,7 @@ router.post('/:id/execute', async (req: Request, res: Response, next: NextFuncti
       // Synchronous execution (for simple workflows)
       await executeWorkflow(execution.id, workflow, parameters);
 
-      const completed = await prisma.workflowExecution.findUnique({
+      const completed = await prisma.workflow_executions.findUnique({
         where: { id: execution.id },
       });
 
@@ -274,7 +274,7 @@ router.get('/:id/executions', async (req: Request, res: Response, next: NextFunc
   try {
     const { status, page = 1, limit = 20 } = req.query;
     
-    const workflow = await prisma.workflow.findUnique({
+    const workflow = await prisma.workflows.findUnique({
       where: { id: req.params.id },
     });
 
@@ -282,21 +282,21 @@ router.get('/:id/executions', async (req: Request, res: Response, next: NextFunc
       throw errors.notFound('Workflow');
     }
 
-    if (workflow.organizationId !== req.organizationId) {
+    if (workflow.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
-    const where: any = { workflowId: req.params.id };
+    const where: any = { workflow_id: req.params.id };
     if (status) where.status = status;
 
     const [executions, total] = await Promise.all([
-      prisma.workflowExecution.findMany({
+      prisma.workflow_executions.findMany({
         where,
-        orderBy: { createdAt: 'desc' },
+        orderBy: { created_at: 'desc' },
         skip: (Number(page) - 1) * Number(limit),
         take: Number(limit),
       }),
-      prisma.workflowExecution.count({ where }),
+      prisma.workflow_executions.count({ where }),
     ]);
 
     res.json({
@@ -315,7 +315,7 @@ router.get('/:id/executions', async (req: Request, res: Response, next: NextFunc
  */
 router.get('/executions/:executionId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const execution = await prisma.workflowExecution.findUnique({
+    const execution = await prisma.workflow_executions.findUnique({
       where: { id: req.params.executionId },
       include: {
         workflow: true,
@@ -327,7 +327,7 @@ router.get('/executions/:executionId', async (req: Request, res: Response, next:
       throw errors.notFound('Execution');
     }
 
-    if (execution.workflow.organizationId !== req.organizationId) {
+    if (execution.workflow.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -352,9 +352,9 @@ async function executeWorkflow(
   };
 
   try {
-    await prisma.workflowExecution.update({
+    await prisma.workflow_executions.update({
       where: { id: executionId },
-      data: { status: 'RUNNING', startedAt: new Date() },
+      data: { status: 'RUNNING', started_at: new Date() },
     });
 
     await pubsub.publish(`workflow:${executionId}`, {
@@ -368,10 +368,10 @@ async function executeWorkflow(
     for (let i = 0; i < definition.nodes.length; i++) {
       const node = definition.nodes[i];
 
-      await prisma.workflowExecution.update({
+      await prisma.workflow_executions.update({
         where: { id: executionId },
         data: {
-          currentNode: node.id,
+          current_node: node.id,
           progress: Math.round((i / definition.nodes.length) * 100),
         },
       });
@@ -397,8 +397,8 @@ async function executeWorkflow(
           input: parameters as Prisma.InputJsonValue,
           output: result as Prisma.InputJsonValue,
           duration,
-          startedAt: new Date(nodeStart),
-          completedAt: new Date(),
+          started_at: new Date(nodeStart),
+          completed_at: new Date(),
         },
       });
 
@@ -408,13 +408,13 @@ async function executeWorkflow(
       });
     }
 
-    await prisma.workflowExecution.update({
+    await prisma.workflow_executions.update({
       where: { id: executionId },
       data: {
         status: 'COMPLETED',
         progress: 100,
         outputs: outputs as Prisma.InputJsonValue,
-        completedAt: new Date(),
+        completed_at: new Date(),
       },
     });
 
@@ -426,7 +426,7 @@ async function executeWorkflow(
   } catch (error) {
     logger.error('Workflow execution error:', error);
 
-    await prisma.workflowExecution.update({
+    await prisma.workflow_executions.update({
       where: { id: executionId },
       data: {
         status: 'FAILED',

@@ -1,5 +1,5 @@
 // =============================================================================
-// DATACENDIA - FORGOT PASSWORD PAGE
+// DATACENDIA - FORGOT PASSWORD PAGE (Fully Internationalized)
 // Request password reset email
 // =============================================================================
 
@@ -7,8 +7,12 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { KeyRound, ArrowLeft, Mail, CheckCircle, Loader2 } from 'lucide-react';
 import { api } from '../../lib/api/client';
+import { useI18n } from '../../lib/i18n';
+import { LanguageSwitcher } from '../../components/i18n/LanguageSwitcher';
 
 export const ForgotPasswordPage: React.FC = () => {
+  const { t } = useI18n();
+  
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -45,20 +49,19 @@ export const ForgotPasswordPage: React.FC = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-900/50 mb-4">
               <CheckCircle className="w-8 h-8 text-green-400" />
             </div>
-            <h2 className="text-xl font-semibold text-white mb-2">Check Your Email</h2>
+            <h2 className="text-xl font-semibold text-white mb-2">{t('auth.forgotPassword.checkEmail')}</h2>
             <p className="text-gray-400 mb-6">
-              If an account exists for <strong className="text-white">{email}</strong>, 
-              you will receive a password reset link shortly.
+              {t('auth.forgotPassword.emailSentTo')} <strong className="text-white">{email}</strong>
             </p>
             <p className="text-sm text-gray-500 mb-6">
-              The link will expire in 1 hour. If you don't see the email, check your spam folder.
+              {t('auth.forgotPassword.linkExpiry')}
             </p>
             <Link
               to="/auth/login"
               className="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
-              Back to Login
+              {t('auth.forgotPassword.backToLogin')}
             </Link>
           </div>
         </div>
@@ -74,9 +77,9 @@ export const ForgotPasswordPage: React.FC = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-tr from-indigo-600 to-purple-600 mb-4">
             <KeyRound className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-2xl font-bold text-white">Reset Your Password</h1>
+          <h1 className="text-2xl font-bold text-white">{t('auth.forgotPassword.title')}</h1>
           <p className="mt-2 text-gray-400">
-            Enter your email address and we'll send you a link to reset your password.
+            {t('auth.forgotPassword.subtitle')}
           </p>
         </div>
 
@@ -91,7 +94,7 @@ export const ForgotPasswordPage: React.FC = () => {
 
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                Email Address
+                {t('auth.login.email')}
               </label>
               <div className="relative">
                 <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500" />
@@ -115,10 +118,10 @@ export const ForgotPasswordPage: React.FC = () => {
               {isLoading ? (
                 <>
                   <Loader2 className="w-5 h-5 animate-spin" />
-                  Sending...
+                  {t('common.loading')}
                 </>
               ) : (
-                'Send Reset Link'
+                t('auth.forgotPassword.sendResetLink')
               )}
             </button>
           </form>
@@ -129,7 +132,7 @@ export const ForgotPasswordPage: React.FC = () => {
               className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
-              Back to Login
+              {t('auth.forgotPassword.backToLogin')}
             </Link>
           </div>
         </div>

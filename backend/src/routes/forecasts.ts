@@ -5,6 +5,7 @@ import { Prisma } from '@prisma/client';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
+import crypto from 'crypto';
 
 const router = Router();
 
@@ -39,9 +40,9 @@ const scenarioSchema = z.object({
  */
 router.get('/forecasts', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const forecasts = await prisma.forecast.findMany({
-      where: { organizationId: req.organizationId! },
-      orderBy: { createdAt: 'desc' },
+    const forecasts = await prisma.forecasts.findMany({
+      where: { organization_id: req.organizationId! },
+      orderBy: { created_at: 'desc' },
     });
 
     res.json({
@@ -62,10 +63,15 @@ router.post('/forecasts', async (req: Request, res: Response, next: NextFunction
     const data = forecastSchema.parse(req.body);
     const orgId = req.organizationId!;
 
-    const forecast = await prisma.forecast.create({
+    const forecast = await prisma.forecasts.create({
       data: {
-        ...data,
-        organizationId: orgId,
+        id: crypto.randomUUID(),
+        organization_id: orgId,
+        name: data.name,
+        target_metric: data.targetMetric,
+        horizon: data.horizon as Prisma.InputJsonValue,
+        model: data.model,
+        features: (data.features || []) as Prisma.InputJsonValue,
         status: 'PROCESSING',
       },
     });
@@ -93,7 +99,7 @@ router.post('/forecasts', async (req: Request, res: Response, next: NextFunction
  */
 router.get('/forecasts/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const forecast = await prisma.forecast.findUnique({
+    const forecast = await prisma.forecasts.findUnique({
       where: { id: req.params.id },
       include: { scenarios: true },
     });
@@ -102,7 +108,7 @@ router.get('/forecasts/:id', async (req: Request, res: Response, next: NextFunct
       throw errors.notFound('Forecast');
     }
 
-    if (forecast.organizationId !== req.organizationId) {
+    if (forecast.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -121,14 +127,14 @@ router.get('/forecasts/:id', async (req: Request, res: Response, next: NextFunct
  */
 router.get('/scenarios', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const scenarios = await prisma.scenario.findMany({
+    const scenarios = await prisma.scenarios.findMany({
       where: {
-        baseline: {
-          organizationId: req.organizationId!,
+        forecasts: {
+          organization_id: req.organizationId!,
         },
       },
-      include: { baseline: true },
-      orderBy: { createdAt: 'desc' },
+      include: { forecasts: true },
+      orderBy: { created_at: 'desc' },
     });
 
     res.json({
@@ -150,20 +156,21 @@ router.post('/scenarios', async (req: Request, res: Response, next: NextFunction
 
     // Verify forecast belongs to org if provided
     if (data.forecastId) {
-      const forecast = await prisma.forecast.findUnique({
+      const forecast = await prisma.forecasts.findUnique({
         where: { id: data.forecastId },
       });
 
-      if (!forecast || forecast.organizationId !== req.organizationId) {
+      if (!forecast || forecast.organization_id !== req.organizationId) {
         throw errors.notFound('Forecast');
       }
     }
 
-    const scenario = await prisma.scenario.create({
+    const scenario = await prisma.scenarios.create({
       data: {
+        id: crypto.randomUUID(),
         name: data.name,
         assumptions: data.assumptions as Prisma.InputJsonValue,
-        forecastId: data.forecastId,
+        forecast_id: data.forecastId,
       },
     });
 
@@ -196,14 +203,14 @@ router.post('/scenarios/compare', async (req: Request, res: Response, next: Next
       }),
     }).parse(req.body);
 
-    const scenarios = await prisma.scenario.findMany({
+    const scenarios = await prisma.scenarios.findMany({
       where: { id: { in: scenarioIds } },
-      include: { baseline: true },
+      include: { forecasts: true },
     });
 
     // Verify all scenarios belong to org
     for (const scenario of scenarios) {
-      if (scenario.baseline && scenario.baseline.organizationId !== req.organizationId) {
+      if (scenario.forecasts && scenario.forecasts.organization_id !== req.organizationId) {
         throw errors.forbidden();
       }
     }
@@ -227,9 +234,9 @@ async function runForecast(
 ) {
   try {
     // Get historical metric data
-    const metricValues = await prisma.metricValue.findMany({
+    const metricValues = await prisma.metric_values.findMany({
       where: {
-        metric: { code: config.targetMetric },
+        metric_definitions: { code: config.targetMetric },
       },
       orderBy: { timestamp: 'asc' },
       take: 365, // Last year of data
@@ -240,7 +247,7 @@ async function runForecast(
     }
 
     // Simple linear regression forecast (production would use proper time series)
-    const values = metricValues.map(v => v.value);
+    const values = metricValues.map((v: { value: number }) => v.value);
     const predictions = generateLinearForecast(values, config.horizon);
 
     // Calculate accuracy metrics
@@ -249,20 +256,20 @@ async function runForecast(
       rmse: calculateRMSE(values),
     };
 
-    await prisma.forecast.update({
+    await prisma.forecasts.update({
       where: { id: forecastId },
       data: {
         status: 'COMPLETED',
         predictions,
         accuracy,
-        completedAt: new Date(),
+        completed_at: new Date(),
       },
     });
 
   } catch (error) {
     logger.error('Forecast error:', error);
 
-    await prisma.forecast.update({
+    await prisma.forecasts.update({
       where: { id: forecastId },
       data: { status: 'FAILED' },
     });
@@ -364,7 +371,7 @@ async function runScenarioProjection(
     impact: 'calculated',
   }));
 
-  await prisma.scenario.update({
+  await prisma.scenarios.update({
     where: { id: scenarioId },
     data: { projections: projections as Prisma.InputJsonValue },
   });

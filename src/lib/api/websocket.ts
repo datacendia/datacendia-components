@@ -4,7 +4,9 @@
 import { io, Socket } from 'socket.io-client';
 import { tokenManager } from './client';
 
-const WS_URL = import.meta.env.VITE_WS_URL || 'http://localhost:3001';
+// WebSocket needs full URL even in dev (no proxy for WS)
+const WS_URL = import.meta.env.VITE_WS_URL || 
+  (typeof window !== 'undefined' ? `${window.location.protocol}//${window.location.hostname}:3001` : 'http://localhost:3001');
 
 type MessageHandler = (data: unknown) => void;
 

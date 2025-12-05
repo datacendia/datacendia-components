@@ -375,30 +375,33 @@ async function seedAgents() {
   console.log('🤖 Seeding Council Agents...');
   
   for (const agent of [...COUNCIL_AGENTS, CENDIA_CHIEF]) {
-    await prisma.agent.upsert({
+    await prisma.agents.upsert({
       where: { code: agent.code },
       update: {
         name: agent.name,
         role: agent.role,
         description: agent.description,
-        avatarUrl: agent.avatarUrl,
-        systemPrompt: agent.systemPrompt,
+        avatar_url: agent.avatarUrl,
+        system_prompt: agent.systemPrompt,
         capabilities: agent.capabilities,
         constraints: agent.constraints,
-        modelConfig: agent.modelConfig,
-        isActive: true,
+        model_config: agent.modelConfig,
+        is_active: true,
+        updated_at: new Date(),
       },
       create: {
+        id: crypto.randomUUID(),
         code: agent.code,
         name: agent.name,
         role: agent.role,
         description: agent.description,
-        avatarUrl: agent.avatarUrl,
-        systemPrompt: agent.systemPrompt,
+        avatar_url: agent.avatarUrl,
+        system_prompt: agent.systemPrompt,
         capabilities: agent.capabilities,
         constraints: agent.constraints,
-        modelConfig: agent.modelConfig,
-        isActive: true,
+        model_config: agent.modelConfig,
+        is_active: true,
+        updated_at: new Date(),
       },
     });
     console.log(`  ✓ Agent: ${agent.name} (${agent.code})`);
@@ -408,14 +411,16 @@ async function seedAgents() {
 async function seedDefaultOrganization() {
   console.log('🏢 Seeding Default Organization...');
   
-  const org = await prisma.organization.upsert({
+  const org = await prisma.organizations.upsert({
     where: { slug: 'datacendia-demo' },
     update: {},
     create: {
+      id: crypto.randomUUID(),
       name: 'Datacendia Demo',
       slug: 'datacendia-demo',
       industry: 'Technology',
-      companySize: '51-200',
+      company_size: '51-200',
+      updated_at: new Date(),
       settings: {
         features: {
           council: true,
@@ -435,16 +440,18 @@ async function seedDefaultOrganization() {
   // Create admin user
   const passwordHash = await bcrypt.hash('DatacendiaAdmin2024!', 12);
   
-  const admin = await prisma.user.upsert({
+  const admin = await prisma.users.upsert({
     where: { email: 'admin@datacendia.com' },
     update: {},
     create: {
+      id: crypto.randomUUID(),
       email: 'admin@datacendia.com',
-      passwordHash,
+      password_hash: passwordHash,
       name: 'System Administrator',
       role: UserRole.SUPER_ADMIN,
-      organizationId: org.id,
+      organization_id: org.id,
       status: 'ACTIVE',
+      updated_at: new Date(),
       preferences: {
         theme: 'dark',
         language: 'en',
@@ -462,15 +469,16 @@ async function seedHealthScores(organizationId: string) {
   console.log('📊 Seeding Health Scores...');
   
   // Create initial health score
-  await prisma.healthScore.create({
+  await prisma.health_scores.create({
     data: {
-      organizationId,
+      id: crypto.randomUUID(),
+      organization_id: organizationId,
       overall: 94,
-      dataScore: 96,
-      opsScore: 89,
-      securityScore: 98,
-      peopleScore: 92,
-      calculatedAt: new Date(),
+      data_score: 96,
+      ops_score: 89,
+      security_score: 98,
+      people_score: 92,
+      calculated_at: new Date(),
       details: {
         dimensions: {
           data: { quality: 96, freshness: 94, completeness: 98 },
@@ -489,29 +497,69 @@ async function seedMetrics(organizationId: string, ownerId: string) {
   console.log('📈 Seeding Metrics...');
   
   const metrics = [
-    { code: 'revenue_growth', name: 'Revenue Growth', category: 'Financial', unit: '%' },
-    { code: 'customer_satisfaction', name: 'Customer Satisfaction', category: 'Customer', unit: 'NPS' },
-    { code: 'employee_engagement', name: 'Employee Engagement', category: 'People', unit: '%' },
-    { code: 'system_uptime', name: 'System Uptime', category: 'Operations', unit: '%' },
-    { code: 'security_score', name: 'Security Score', category: 'Security', unit: 'score' },
+    { code: 'revenue_growth', name: 'Revenue Growth', category: 'Financial', unit: '%', target: 15, currentValue: 12.5 },
+    { code: 'gross_margin', name: 'Gross Margin', category: 'Financial', unit: '%', target: 45, currentValue: 43.2 },
+    { code: 'operating_expense', name: 'Operating Expense Ratio', category: 'Financial', unit: '%', target: 30, currentValue: 28.5 },
+    { code: 'customer_satisfaction', name: 'Customer Satisfaction', category: 'Customer', unit: 'NPS', target: 80, currentValue: 78 },
+    { code: 'customer_retention', name: 'Customer Retention', category: 'Customer', unit: '%', target: 95, currentValue: 92.3 },
+    { code: 'churn_rate', name: 'Churn Rate', category: 'Customer', unit: '%', target: 5, currentValue: 4.2 },
+    { code: 'employee_engagement', name: 'Employee Engagement', category: 'People', unit: '%', target: 85, currentValue: 82 },
+    { code: 'employee_retention', name: 'Employee Retention', category: 'People', unit: '%', target: 90, currentValue: 88.5 },
+    { code: 'training_completion', name: 'Training Completion', category: 'People', unit: '%', target: 100, currentValue: 94 },
+    { code: 'system_uptime', name: 'System Uptime', category: 'Operations', unit: '%', target: 99.9, currentValue: 99.95 },
+    { code: 'api_latency', name: 'API Latency', category: 'Operations', unit: 'ms', target: 100, currentValue: 42 },
+    { code: 'incident_response', name: 'Incident Response Time', category: 'Operations', unit: 'min', target: 15, currentValue: 8 },
+    { code: 'security_score', name: 'Security Score', category: 'Compliance', unit: 'score', target: 95, currentValue: 98 },
+    { code: 'compliance_rate', name: 'Compliance Rate', category: 'Compliance', unit: '%', target: 100, currentValue: 99.2 },
+    { code: 'audit_findings', name: 'Open Audit Findings', category: 'Compliance', unit: 'count', target: 0, currentValue: 2 },
+    { code: 'market_share', name: 'Market Share', category: 'Strategic', unit: '%', target: 25, currentValue: 22.8 },
+    { code: 'innovation_index', name: 'Innovation Index', category: 'Strategic', unit: 'score', target: 80, currentValue: 76 },
   ];
   
   for (const metric of metrics) {
-    await prisma.metricDefinition.upsert({
-      where: { organizationId_code: { organizationId, code: metric.code } },
+    const metricId = crypto.randomUUID();
+    await prisma.metric_definitions.upsert({
+      where: { organization_id_code: { organization_id: organizationId, code: metric.code } },
       update: {},
       create: {
-        organizationId,
+        id: metricId,
+        organization_id: organizationId,
         code: metric.code,
         name: metric.name,
         category: metric.category,
         unit: metric.unit,
         formula: { type: 'direct', source: 'api' },
-        thresholds: { warning: 80, critical: 60 },
-        ownerId,
+        thresholds: { warning: metric.target * 0.8, critical: metric.target * 0.6, target: metric.target },
+        owner_id: ownerId,
+        updated_at: new Date(),
       },
     });
-    console.log(`  ✓ Metric: ${metric.name}`);
+    
+    // Fetch the metric to get its actual ID (in case it already existed)
+    const savedMetric = await prisma.metric_definitions.findFirst({
+      where: { organization_id: organizationId, code: metric.code }
+    });
+    
+    if (savedMetric) {
+      // Add current and historical metric values
+      const now = new Date();
+      for (let i = 0; i < 7; i++) {
+        const date = new Date(now);
+        date.setDate(date.getDate() - i);
+        const variance = (Math.random() - 0.5) * 0.1 * metric.currentValue;
+        await prisma.metric_values.create({
+          data: {
+            id: crypto.randomUUID(),
+            metric_id: savedMetric.id,
+            value: metric.currentValue + variance,
+            dimensions: {},
+            timestamp: date,
+          },
+        });
+      }
+    }
+    
+    console.log(`  ✓ Metric: ${metric.name} (${metric.currentValue}${metric.unit})`);
   }
 }
 
@@ -560,9 +608,11 @@ async function seedWorkflows(organizationId: string) {
   ];
   
   for (const workflow of workflows) {
-    await prisma.workflow.create({
+    await prisma.workflows.create({
       data: {
-        organizationId,
+        id: crypto.randomUUID(),
+        organization_id: organizationId,
+        updated_at: new Date(),
         ...workflow,
       },
     });
@@ -711,7 +761,7 @@ async function seedDataSources(organizationId: string) {
   ];
   
   for (const ds of dataSources) {
-    await prisma.dataSource.upsert({
+    await prisma.data_sources.upsert({
       where: {
         id: `ds-${ds.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}`,
       },
@@ -722,18 +772,338 @@ async function seedDataSources(organizationId: string) {
       },
       create: {
         id: `ds-${ds.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}`,
-        organizationId,
+        organization_id: organizationId,
         name: ds.name,
         type: ds.type as any,
         status: ds.status as any,
         config: ds.config,
         credentials: (ds as any).credentials || {},
-        lastSyncAt: ds.lastSyncAt,
-        syncSchedule: ds.syncSchedule,
+        last_sync_at: ds.lastSyncAt,
+        sync_schedule: ds.syncSchedule,
         metadata: ds.metadata,
+        updated_at: new Date(),
       },
     });
     console.log(`  ✓ Data Source: ${ds.name}`);
+  }
+}
+
+// =============================================================================
+// LINEAGE - Data Provenance
+// =============================================================================
+
+async function seedLineage(organizationId: string) {
+  console.log('🔗 Seeding Lineage Data...');
+  
+  const entities = [
+    { name: 'Customer Database', type: 'DATASET', source: 'PostgreSQL', quality: 95, records: 125000 },
+    { name: 'Sales Transactions', type: 'TABLE', source: 'PostgreSQL', quality: 98, records: 890000 },
+    { name: 'Marketing Events', type: 'TABLE', source: 'Snowflake', quality: 87, records: 456000 },
+    { name: 'Financial Reports', type: 'REPORT', source: 'SAP', quality: 99, records: 2400 },
+    { name: 'Revenue Forecast Model', type: 'MODEL', source: 'MLflow', quality: 92, records: null },
+    { name: 'Customer 360 Pipeline', type: 'PIPELINE', source: 'Airflow', quality: 94, records: null },
+    { name: 'Analytics API', type: 'API', source: 'REST', quality: 96, records: null },
+    { name: 'User Behavior Data', type: 'DATASET', source: 'Segment', quality: 88, records: 2340000 },
+  ];
+  
+  const createdEntities: { id: string; name: string }[] = [];
+  
+  for (const entity of entities) {
+    const qualityLevel = entity.quality >= 95 ? 'EXCELLENT' : 
+                        entity.quality >= 85 ? 'GOOD' : 
+                        entity.quality >= 70 ? 'FAIR' : 'POOR';
+    
+    const created = await prisma.lineage_entities.create({
+      data: {
+        id: crypto.randomUUID(),
+        organization_id: organizationId,
+        name: entity.name,
+        entity_type: entity.type as any,
+        description: `${entity.name} from ${entity.source}`,
+        source: entity.source,
+        quality_score: entity.quality,
+        quality_level: qualityLevel as any,
+        record_count: entity.records,
+        metadata: { owner: 'Data Engineering', lastVerified: new Date().toISOString() },
+      },
+    });
+    createdEntities.push({ id: created.id, name: entity.name });
+    console.log(`  ✓ Entity: ${entity.name}`);
+  }
+  
+  // Create relationships between entities
+  const relationships = [
+    { from: 'Customer Database', to: 'Sales Transactions', type: 'FEEDS' },
+    { from: 'Sales Transactions', to: 'Financial Reports', type: 'TRANSFORMS_TO' },
+    { from: 'Sales Transactions', to: 'Revenue Forecast Model', type: 'FEEDS' },
+    { from: 'Marketing Events', to: 'Customer 360 Pipeline', type: 'FEEDS' },
+    { from: 'User Behavior Data', to: 'Customer 360 Pipeline', type: 'FEEDS' },
+    { from: 'Customer 360 Pipeline', to: 'Analytics API', type: 'TRANSFORMS_TO' },
+    { from: 'Revenue Forecast Model', to: 'Financial Reports', type: 'DERIVES_FROM' },
+  ];
+  
+  for (const rel of relationships) {
+    const source = createdEntities.find(e => e.name === rel.from);
+    const target = createdEntities.find(e => e.name === rel.to);
+    if (source && target) {
+      await prisma.lineage_relationships.create({
+        data: {
+          id: crypto.randomUUID(),
+          source_id: source.id,
+          target_id: target.id,
+          relationship_type: rel.type as any,
+          confidence: 0.95,
+          transformations: [],
+        },
+      });
+    }
+  }
+  console.log(`  ✓ Created ${relationships.length} lineage relationships`);
+}
+
+// =============================================================================
+// PREDICT - Forecasting Models
+// =============================================================================
+
+async function seedPredictions(organizationId: string) {
+  console.log('🔮 Seeding Prediction Models...');
+  
+  const models = [
+    { name: 'Revenue Forecast Q4', type: 'TIME_SERIES', target: 'quarterly_revenue', accuracy: 94.2 },
+    { name: 'Customer Churn Predictor', type: 'CLASSIFICATION', target: 'customer_churn', accuracy: 89.5 },
+    { name: 'Demand Forecasting', type: 'TIME_SERIES', target: 'product_demand', accuracy: 91.8 },
+    { name: 'Sales Pipeline Scorer', type: 'REGRESSION', target: 'deal_probability', accuracy: 87.3 },
+    { name: 'Anomaly Detection System', type: 'ANOMALY_DETECTION', target: 'transaction_anomalies', accuracy: 96.1 },
+  ];
+  
+  for (const model of models) {
+    const modelId = crypto.randomUUID();
+    await prisma.forecast_models.create({
+      data: {
+        id: modelId,
+        organization_id: organizationId,
+        name: model.name,
+        model_type: model.type as any,
+        description: `AI model for ${model.target} prediction`,
+        target_metric: model.target,
+        features: ['historical_data', 'seasonality', 'external_factors'],
+        hyperparameters: { learning_rate: 0.01, epochs: 100, batch_size: 32 },
+        accuracy: model.accuracy,
+        mape: 100 - model.accuracy,
+        training_status: 'TRAINED',
+        last_trained_at: new Date(),
+      },
+    });
+    
+    // Add feature importance for each model
+    const features = [
+      { name: 'historical_trend', importance: 0.35 },
+      { name: 'seasonality', importance: 0.25 },
+      { name: 'market_conditions', importance: 0.20 },
+      { name: 'customer_behavior', importance: 0.15 },
+      { name: 'external_events', importance: 0.05 },
+    ];
+    
+    for (const feature of features) {
+      await prisma.feature_importance.create({
+        data: {
+          id: crypto.randomUUID(),
+          model_id: modelId,
+          feature_name: feature.name,
+          importance: feature.importance,
+          direction: feature.importance > 0.2 ? 'positive' : 'neutral',
+        },
+      });
+    }
+    
+    // Add recent predictions
+    const now = new Date();
+    for (let i = 0; i < 10; i++) {
+      const predDate = new Date(now);
+      predDate.setDate(predDate.getDate() + i);
+      await prisma.predictions.create({
+        data: {
+          id: crypto.randomUUID(),
+          model_id: modelId,
+          input_data: { date: predDate.toISOString(), context: 'quarterly_forecast' },
+          predicted_value: 1000000 + Math.random() * 500000,
+          confidence: 0.85 + Math.random() * 0.10,
+          prediction_date: predDate,
+        },
+      });
+    }
+    
+    console.log(`  ✓ Model: ${model.name} (${model.accuracy}% accuracy)`);
+  }
+}
+
+// =============================================================================
+// GUARD - Security Data
+// =============================================================================
+
+async function seedSecurityData(organizationId: string) {
+  console.log('🛡️ Seeding Security Data...');
+  
+  // Security Policies
+  const policies = [
+    { name: 'Data Access Control', type: 'ACCESS_CONTROL', desc: 'Role-based access control for sensitive data' },
+    { name: 'Encryption Standards', type: 'DATA_PROTECTION', desc: 'AES-256 encryption for data at rest and in transit' },
+    { name: 'Network Segmentation', type: 'NETWORK_SECURITY', desc: 'Isolated network zones for production systems' },
+    { name: 'SOX Compliance', type: 'COMPLIANCE', desc: 'Financial reporting compliance controls' },
+    { name: 'GDPR Privacy', type: 'COMPLIANCE', desc: 'EU data privacy compliance requirements' },
+    { name: 'Incident Response', type: 'OPERATIONAL', desc: 'Security incident handling procedures' },
+  ];
+  
+  for (const policy of policies) {
+    await prisma.security_policies.upsert({
+      where: { organization_id_name: { organization_id: organizationId, name: policy.name } },
+      update: {},
+      create: {
+        id: crypto.randomUUID(),
+        organization_id: organizationId,
+        name: policy.name,
+        description: policy.desc,
+        policy_type: policy.type as any,
+        rules: [{ condition: 'always', action: 'enforce' }],
+        enabled: true,
+        enforcement: 'WARN',
+      },
+    });
+    console.log(`  ✓ Policy: ${policy.name}`);
+  }
+  
+  // Security Threats (some resolved, some active)
+  const threats = [
+    { type: 'PHISHING', severity: 'MEDIUM', title: 'Phishing attempt detected', status: 'RESOLVED', source: 'Email Gateway' },
+    { type: 'POLICY_VIOLATION', severity: 'LOW', title: 'Unusual login location', status: 'RESOLVED', source: 'Auth Service' },
+    { type: 'INTRUSION', severity: 'HIGH', title: 'Brute force attempt blocked', status: 'MITIGATED', source: 'Firewall' },
+    { type: 'DATA_EXFILTRATION', severity: 'MEDIUM', title: 'Large data export flagged', status: 'INVESTIGATING', source: 'DLP System' },
+  ];
+  
+  for (const threat of threats) {
+    const detectedAt = new Date();
+    detectedAt.setHours(detectedAt.getHours() - Math.floor(Math.random() * 72));
+    
+    await prisma.security_threats.create({
+      data: {
+        id: crypto.randomUUID(),
+        organization_id: organizationId,
+        threat_type: threat.type as any,
+        severity: threat.severity as any,
+        status: threat.status as any,
+        title: threat.title,
+        description: `${threat.title} - Detected by ${threat.source}`,
+        source: threat.source,
+        target: 'Production Environment',
+        indicators: ['ip_address', 'user_agent', 'timestamp'],
+        mitigations: threat.status === 'RESOLVED' ? ['Blocked source', 'Updated rules'] : [],
+        detected_at: detectedAt,
+        resolved_at: threat.status === 'RESOLVED' ? new Date() : null,
+      },
+    });
+    console.log(`  ✓ Threat: ${threat.title} (${threat.status})`);
+  }
+}
+
+// =============================================================================
+// ETHICS - AI Governance
+// =============================================================================
+
+async function seedEthicsData(organizationId: string) {
+  console.log('⚖️ Seeding Ethics Data...');
+  
+  // Ethical Principles
+  const principles = [
+    { name: 'Fairness & Non-Discrimination', category: 'FAIRNESS', desc: 'AI systems must not discriminate based on protected characteristics' },
+    { name: 'Transparency & Explainability', category: 'TRANSPARENCY', desc: 'AI decisions must be explainable to stakeholders' },
+    { name: 'Privacy Protection', category: 'PRIVACY', desc: 'Personal data must be protected and minimized' },
+    { name: 'Human Oversight', category: 'HUMAN_OVERSIGHT', desc: 'Critical AI decisions require human review' },
+    { name: 'Safety & Security', category: 'SAFETY', desc: 'AI systems must be secure and fail safely' },
+    { name: 'Accountability', category: 'ACCOUNTABILITY', desc: 'Clear ownership and responsibility for AI outcomes' },
+  ];
+  
+  const createdPrinciples: { id: string; name: string }[] = [];
+  
+  for (const principle of principles) {
+    const created = await prisma.ethics_principles.upsert({
+      where: { organization_id_name: { organization_id: organizationId, name: principle.name } },
+      update: {},
+      create: {
+        id: crypto.randomUUID(),
+        organization_id: organizationId,
+        name: principle.name,
+        description: principle.desc,
+        category: principle.category as any,
+        weight: 1.0,
+        status: 'ACTIVE',
+        requirements: [{ check: 'automated', frequency: 'continuous' }],
+      },
+    });
+    createdPrinciples.push({ id: created.id, name: principle.name });
+    console.log(`  ✓ Principle: ${principle.name}`);
+  }
+  
+  // Ethics Reviews (valid results: APPROVED, REJECTED, CONDITIONAL)
+  const reviews = [
+    { subject: 'Customer Churn Model', result: 'APPROVED', reviewer: 'Ethics Committee' },
+    { subject: 'Pricing Algorithm', result: 'CONDITIONAL', reviewer: 'Data Ethics Lead' },
+    { subject: 'Recommendation Engine', result: 'APPROVED', reviewer: 'AI Governance Board' },
+    { subject: 'Credit Scoring Model', result: 'APPROVED', reviewer: 'Compliance Team' },
+    { subject: 'Loan Risk Model', result: 'REJECTED', reviewer: 'Ethics Committee' },
+  ];
+  
+  for (const review of reviews) {
+    const submittedAt = new Date();
+    submittedAt.setDate(submittedAt.getDate() - Math.floor(Math.random() * 30));
+    
+    await prisma.ethics_reviews.create({
+      data: {
+        id: crypto.randomUUID(),
+        organization_id: organizationId,
+        principle_id: createdPrinciples[0]?.id,
+        subject_type: 'MODEL',
+        subject_id: crypto.randomUUID(),
+        subject_name: review.subject,
+        status: 'COMPLETED',
+        result: review.result as any,
+        reviewer: review.reviewer,
+        notes: review.result === 'CONDITIONAL' ? 'Requires additional bias testing before full deployment' : 
+               review.result === 'REJECTED' ? 'Failed fairness requirements - needs redesign' : 
+               'Meets all ethical requirements',
+        violations: review.result !== 'APPROVED' ? [{ principle: 'Fairness', severity: review.result === 'REJECTED' ? 'high' : 'medium' }] : [],
+        submitted_at: submittedAt,
+        completed_at: new Date(),
+      },
+    });
+    console.log(`  ✓ Review: ${review.subject} (${review.result})`);
+  }
+  
+  // Bias Checks
+  const biasChecks = [
+    { model: 'Customer Segmentation', score: 94, status: 'COMPLETED' },
+    { model: 'Fraud Detection', score: 97, status: 'COMPLETED' },
+    { model: 'Hiring Screener', score: 82, status: 'COMPLETED' },
+  ];
+  
+  for (const check of biasChecks) {
+    await prisma.bias_checks.create({
+      data: {
+        id: crypto.randomUUID(),
+        organization_id: organizationId,
+        model_id: crypto.randomUUID(),
+        model_name: check.model,
+        status: check.status as any,
+        overall_score: check.score,
+        dimensions: {
+          gender: check.score + Math.random() * 5 - 2.5,
+          age: check.score + Math.random() * 5 - 2.5,
+          geography: check.score + Math.random() * 5 - 2.5,
+        },
+        recommendations: check.score < 90 ? ['Review training data', 'Add fairness constraints'] : [],
+        checked_at: new Date(),
+      },
+    });
+    console.log(`  ✓ Bias Check: ${check.model} (${check.score}% fair)`);
   }
 }
 
@@ -767,6 +1137,22 @@ async function main() {
     
     // Seed data sources
     await seedDataSources(org.id);
+    console.log('');
+    
+    // Seed lineage data
+    await seedLineage(org.id);
+    console.log('');
+    
+    // Seed prediction models
+    await seedPredictions(org.id);
+    console.log('');
+    
+    // Seed security data
+    await seedSecurityData(org.id);
+    console.log('');
+    
+    // Seed ethics data
+    await seedEthicsData(org.id);
     console.log('');
     
     console.log('✅ Database seeding completed successfully!\n');

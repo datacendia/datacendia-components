@@ -476,7 +476,7 @@ export const DecisionDNAPage: React.FC = () => {
                             {expandedEvent === event.id && event.data && (
                               <div className="mt-3 pt-3 border-t border-slate-600">
                                 {event.agentsInvolved && event.agentsInvolved.length > 0 && (
-                                  <div className="mb-2 flex items-center gap-2 flex-wrap">
+                                  <div className="mb-3 flex items-center gap-2 flex-wrap">
                                     <span className="text-slate-400 text-xs">Agents:</span>
                                     {event.agentsInvolved.map(agent => (
                                       <span key={agent} className="px-2 py-0.5 bg-slate-600 rounded text-xs text-white">
@@ -485,9 +485,81 @@ export const DecisionDNAPage: React.FC = () => {
                                     ))}
                                   </div>
                                 )}
-                                <pre className="text-xs text-slate-300 bg-slate-800 rounded p-2 overflow-x-auto max-h-48">
-                                  {JSON.stringify(event.data, null, 2)}
-                                </pre>
+                                
+                                {/* Pre-Mortem formatted view */}
+                                {event.type === 'premortem_run' && event.data.failureModes ? (
+                                  <div className="space-y-3">
+                                    {/* Risk Summary */}
+                                    <div className="flex items-center gap-4 p-3 bg-slate-800 rounded-lg">
+                                      <div className="text-center">
+                                        <div className={cn(
+                                          'text-2xl font-bold',
+                                          event.data.riskScore >= 70 ? 'text-red-400' :
+                                          event.data.riskScore >= 40 ? 'text-amber-400' : 'text-green-400'
+                                        )}>
+                                          {event.data.riskScore}%
+                                        </div>
+                                        <div className="text-xs text-slate-400">Risk Score</div>
+                                      </div>
+                                      <div className="h-10 w-px bg-slate-600" />
+                                      <div className="text-center">
+                                        <div className="text-2xl font-bold text-white">
+                                          ${(event.data.totalExposure / 1000000).toFixed(1)}M
+                                        </div>
+                                        <div className="text-xs text-slate-400">Exposure</div>
+                                      </div>
+                                      <div className="h-10 w-px bg-slate-600" />
+                                      <div className="text-center flex-1">
+                                        <div className={cn(
+                                          'text-lg font-semibold uppercase',
+                                          event.data.recommendation === 'proceed' ? 'text-green-400' :
+                                          event.data.recommendation === 'delay' ? 'text-amber-400' : 'text-red-400'
+                                        )}>
+                                          {event.data.recommendation}
+                                        </div>
+                                        <div className="text-xs text-slate-400">Recommendation</div>
+                                      </div>
+                                    </div>
+
+                                    {/* Failure Modes */}
+                                    <div>
+                                      <div className="text-sm font-medium text-slate-300 mb-2">
+                                        Top Failure Modes ({event.data.failureModes.length})
+                                      </div>
+                                      <div className="space-y-2 max-h-64 overflow-y-auto">
+                                        {event.data.failureModes.map((fm: any, i: number) => (
+                                          <div key={i} className="p-3 bg-slate-800 rounded-lg flex items-center justify-between">
+                                            <div className="flex items-center gap-3">
+                                              <div className={cn(
+                                                'w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold',
+                                                fm.probability >= 70 ? 'bg-red-500/20 text-red-400' :
+                                                fm.probability >= 50 ? 'bg-amber-500/20 text-amber-400' : 'bg-green-500/20 text-green-400'
+                                              )}>
+                                                {fm.probability}%
+                                              </div>
+                                              <div>
+                                                <div className="text-white font-medium">{fm.title}</div>
+                                                <span className="px-2 py-0.5 bg-slate-700 rounded text-xs text-slate-400">
+                                                  {fm.category}
+                                                </span>
+                                              </div>
+                                            </div>
+                                            <div className="text-right">
+                                              <div className="text-red-400 font-semibold">
+                                                ${(fm.costImpact / 1000).toFixed(0)}K
+                                              </div>
+                                              <div className="text-xs text-slate-500">impact</div>
+                                            </div>
+                                          </div>
+                                        ))}
+                                      </div>
+                                    </div>
+                                  </div>
+                                ) : (
+                                  <pre className="text-xs text-slate-300 bg-slate-800 rounded p-2 overflow-x-auto max-h-48">
+                                    {JSON.stringify(event.data, null, 2)}
+                                  </pre>
+                                )}
                               </div>
                             )}
                           </div>

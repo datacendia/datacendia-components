@@ -7,10 +7,12 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn, formatNumber, formatCurrency, formatRelativeTime } from '../../../lib/utils';
-import { healthApi, alertsApi, metricsApi, organizationsApi } from '../../lib/api';
+import { healthApi, alertsApi, metricsApi, organizationsApi, authApi } from '../../lib/api';
 import { wsClient } from '../../lib/api/websocket';
 import type { HealthScore as ApiHealthScore, Alert as ApiAlert } from '../../lib/api/types';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { NarrativeGuide, NarrativeSelector } from '../../components/ui';
+import { Compass, X } from 'lucide-react';
 
 // =============================================================================
 // TYPES
@@ -70,33 +72,37 @@ const fallbackHealthScore: HealthScore = {
   },
 };
 
-const fallbackAlerts: Alert[] = [
-  { id: '1', severity: 'critical', title: 'Database CPU > 90% for 15 min', timestamp: new Date(Date.now() - 300000) },
-  { id: '2', severity: 'critical', title: 'Payment processing latency spike', timestamp: new Date(Date.now() - 600000) },
-  { id: '3', severity: 'warning', title: 'Disk usage at 78% on prod-db-01', timestamp: new Date(Date.now() - 1800000) },
+// Translation helper type
+type TranslateFunc = (key: string, params?: Record<string, string>) => string;
+
+// Translated data getters - called inside component with t()
+const getTranslatedAlerts = (t: TranslateFunc): Alert[] => [
+  { id: '1', severity: 'critical', title: t('dashboard.sampleAlerts.databaseCpu'), timestamp: new Date(Date.now() - 300000) },
+  { id: '2', severity: 'critical', title: t('dashboard.sampleAlerts.paymentLatency'), timestamp: new Date(Date.now() - 600000) },
+  { id: '3', severity: 'warning', title: t('dashboard.sampleAlerts.diskUsage'), timestamp: new Date(Date.now() - 1800000) },
 ];
 
-const fallbackApprovals: Approval[] = [
-  { id: '1', type: 'workflow', title: 'Monthly Close Process', requestedBy: 'Sarah Chen' },
-  { id: '2', type: 'access', title: 'Production DB Access', requestedBy: 'Emily Davis' },
+const getTranslatedApprovals = (t: TranslateFunc): Approval[] => [
+  { id: '1', type: 'workflow', title: t('dashboard.sampleApprovals.monthlyClose'), requestedBy: 'Sarah Chen' },
+  { id: '2', type: 'access', title: t('dashboard.sampleApprovals.prodDbAccess'), requestedBy: 'Emily Davis' },
 ];
 
-const fallbackMetrics: Metric[] = [
-  { id: '1', name: 'Revenue', value: 12400000, unit: 'USD', change: 12, changeType: 'increase' },
-  { id: '2', name: 'Pipeline', value: 48200000, unit: 'USD', change: 8, changeType: 'increase' },
-  { id: '3', name: 'Burn Rate', value: 1200000, unit: 'USD/mo', change: -3, changeType: 'decrease' },
-  { id: '4', name: 'NPS', value: 72, unit: 'pts', change: 5, changeType: 'increase' },
+const getTranslatedMetrics = (t: TranslateFunc): Metric[] => [
+  { id: '1', name: t('dashboard.sampleMetrics.revenue'), value: 12400000, unit: 'USD', change: 12, changeType: 'increase' },
+  { id: '2', name: t('dashboard.sampleMetrics.pipeline'), value: 48200000, unit: 'USD', change: 8, changeType: 'increase' },
+  { id: '3', name: t('dashboard.sampleMetrics.burnRate'), value: 1200000, unit: 'USD/mo', change: -3, changeType: 'decrease' },
+  { id: '4', name: t('dashboard.sampleMetrics.nps'), value: 72, unit: 'pts', change: 5, changeType: 'increase' },
 ];
 
-const fallbackActivity: Activity[] = [
-  { id: '1', type: 'success', message: 'Workflow "Monthly Close" completed', timestamp: new Date(Date.now() - 120000) },
-  { id: '2', type: 'info', message: 'Sarah queried revenue forecast', timestamp: new Date(Date.now() - 900000) },
+const getTranslatedActivity = (t: TranslateFunc): Activity[] => [
+  { id: '1', type: 'success', message: `Workflow "Monthly Close" ${t('common.completed') || 'completed'}`, timestamp: new Date(Date.now() - 120000) },
+  { id: '2', type: 'info', message: `Sarah ${t('common.queried') || 'queried'} revenue forecast`, timestamp: new Date(Date.now() - 900000) },
 ];
 
-const recentQueries = [
-  'Why did churn increase?',
-  'Forecast Q4 revenue',
-  "What's our biggest risk?",
+const getTranslatedQueries = (t: TranslateFunc): string[] => [
+  t('dashboard.sampleQueries.churnIncrease'),
+  t('dashboard.sampleQueries.forecastRevenue'),
+  t('dashboard.sampleQueries.biggestRisk'),
 ];
 
 // =============================================================================
@@ -107,12 +113,88 @@ export const DashboardPage: React.FC = () => {
   const navigate = useNavigate();
   const { t, language } = useLanguage();
   const [queryInput, setQueryInput] = useState('');
+  
+  // Real data state
+  const [alerts, setAlerts] = useState<Alert[]>([]);
+  const [metrics, setMetrics] = useState<Metric[]>([]);
+  const [healthScore, setHealthScore] = useState<HealthScore>(fallbackHealthScore);
+  const [userName, setUserName] = useState('User');
+  const [orgName, setOrgName] = useState('Your Company');
+  
+  // Get translated fallback data
+  const fallbackAlerts = getTranslatedAlerts(t);
+  const fallbackApprovals = getTranslatedApprovals(t);
+  const fallbackMetrics = getTranslatedMetrics(t);
+  const fallbackActivity = getTranslatedActivity(t);
+  const recentQueries = getTranslatedQueries(t);
   const [isLoading, setIsLoading] = useState(true);
+  
+  // User Journey State
+  const [showJourneySelector, setShowJourneySelector] = useState(false);
+  const [activeJourney, setActiveJourney] = useState<'welcome' | 'executive' | 'dataEngineer' | 'complianceOfficer' | 'strategist' | 'quickStart' | null>(null);
+  const [journeyCompleted, setJourneyCompleted] = useState(() => {
+    return localStorage.getItem('datacendia_journey_completed') === 'true';
+  });
 
+  // Fetch real data from APIs
   useEffect(() => {
-    // Simulate loading
-    const timer = setTimeout(() => setIsLoading(false), 500);
-    return () => clearTimeout(timer);
+    const fetchDashboardData = async () => {
+      setIsLoading(true);
+      try {
+        // Fetch alerts
+        const alertsResponse = await alertsApi.getAlerts({ status: 'ACTIVE' });
+        if (alertsResponse.success && alertsResponse.data) {
+          const mappedAlerts: Alert[] = alertsResponse.data.slice(0, 5).map((a: any) => ({
+            id: a.id,
+            severity: a.severity?.toLowerCase() as 'critical' | 'warning' | 'info',
+            title: a.title,
+            timestamp: new Date(a.created_at)
+          }));
+          setAlerts(mappedAlerts.length > 0 ? mappedAlerts : fallbackAlerts);
+        }
+
+        // Fetch metrics
+        const metricsResponse = await metricsApi.getMetrics();
+        if (metricsResponse.success && metricsResponse.data) {
+          const mappedMetrics: Metric[] = metricsResponse.data.slice(0, 4).map((m: any) => ({
+            id: m.id,
+            name: m.name,
+            value: m.current_value || 0,
+            unit: m.unit || '',
+            change: m.change_percent || 0,
+            changeType: (m.change_percent || 0) > 0 ? 'increase' : (m.change_percent || 0) < 0 ? 'decrease' : 'neutral'
+          }));
+          setMetrics(mappedMetrics.length > 0 ? mappedMetrics : fallbackMetrics);
+        }
+
+        // Fetch health score
+        const healthResponse = await healthApi.getScore();
+        if (healthResponse.success && healthResponse.data) {
+          setHealthScore(healthResponse.data as unknown as HealthScore);
+        }
+
+        // Fetch current organization
+        const orgResponse = await organizationsApi.getCurrent();
+        if (orgResponse.success && orgResponse.data) {
+          setOrgName(orgResponse.data.name || 'Your Company');
+        }
+
+        // Fetch current user
+        const userResponse = await authApi.getCurrentUser();
+        if (userResponse.success && userResponse.data) {
+          setUserName(userResponse.data.name?.split(' ')[0] || 'User');
+        }
+      } catch (error) {
+        console.error('Dashboard data fetch error:', error);
+        // Use fallbacks on error
+        setAlerts(fallbackAlerts);
+        setMetrics(fallbackMetrics);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchDashboardData();
   }, []);
 
   const handleQuerySubmit = () => {
@@ -123,18 +205,9 @@ export const DashboardPage: React.FC = () => {
 
   const getGreeting = () => {
     const hour = new Date().getHours();
-    const greetings: Record<string, { morning: string; afternoon: string; evening: string }> = {
-      en: { morning: 'Good morning', afternoon: 'Good afternoon', evening: 'Good evening' },
-      es: { morning: 'Buenos días', afternoon: 'Buenas tardes', evening: 'Buenas noches' },
-      fr: { morning: 'Bonjour', afternoon: 'Bon après-midi', evening: 'Bonsoir' },
-      de: { morning: 'Guten Morgen', afternoon: 'Guten Tag', evening: 'Guten Abend' },
-      zh: { morning: '早上好', afternoon: '下午好', evening: '晚上好' },
-      ja: { morning: 'おはようございます', afternoon: 'こんにちは', evening: 'こんばんは' },
-    };
-    const lang = greetings[language] || greetings.en;
-    if (hour < 12) return lang.morning;
-    if (hour < 18) return lang.afternoon;
-    return lang.evening;
+    if (hour < 12) return t('dashboard.greetings.morning');
+    if (hour < 18) return t('dashboard.greetings.afternoon');
+    return t('dashboard.greetings.evening');
   };
 
   const getTrendIcon = (trend: 'up' | 'down' | 'stable') => {
@@ -149,6 +222,17 @@ export const DashboardPage: React.FC = () => {
     return isPositive ? 'text-error-main' : 'text-success-main';
   };
 
+  const handleJourneyComplete = () => {
+    setActiveJourney(null);
+    setJourneyCompleted(true);
+    localStorage.setItem('datacendia_journey_completed', 'true');
+  };
+
+  const handleSelectJourney = (journeyId: 'welcome' | 'executive' | 'dataEngineer' | 'complianceOfficer' | 'strategist' | 'quickStart') => {
+    setActiveJourney(journeyId);
+    setShowJourneySelector(false);
+  };
+
   return (
     <div className="p-6 lg:p-8 max-w-7xl mx-auto">
       {/* ================================================================= */}
@@ -156,10 +240,10 @@ export const DashboardPage: React.FC = () => {
       {/* ================================================================= */}
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-neutral-900">
-          {getGreeting()}, John
+          {getGreeting()}, {userName}
         </h1>
         <p className="text-neutral-500 mt-1">
-          Here's how Acme Corp is doing today
+          {t('dashboard.subtitle', { company: orgName })}
         </p>
       </div>
 
@@ -185,25 +269,25 @@ export const DashboardPage: React.FC = () => {
                   cy="48"
                   r="40"
                   fill="none"
-                  stroke={fallbackHealthScore.overall >= 80 ? '#22C55E' : fallbackHealthScore.overall >= 60 ? '#F59E0B' : '#EF4444'}
+                  stroke={healthScore.overall >= 80 ? '#22C55E' : healthScore.overall >= 60 ? '#F59E0B' : '#EF4444'}
                   strokeWidth="8"
                   strokeLinecap="round"
-                  strokeDasharray={`${(fallbackHealthScore.overall / 100) * 251.2} 251.2`}
+                  strokeDasharray={`${(healthScore.overall / 100) * 251.2} 251.2`}
                 />
               </svg>
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-2xl font-bold text-neutral-900">{fallbackHealthScore.overall}</span>
+                <span className="text-2xl font-bold text-neutral-900">{healthScore.overall}</span>
               </div>
             </div>
             <div>
               <h2 className="text-lg font-semibold text-neutral-900">{t('dashboard.health_score')}</h2>
-              <p className="text-sm text-success-main font-medium">▲ +3 {language === 'es' ? 'desde la semana pasada' : 'from last week'}</p>
+              <p className="text-sm text-success-main font-medium">▲ +3 {t('dashboard.fromLastWeek')}</p>
             </div>
           </div>
 
           {/* Dimensions */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 flex-1 lg:max-w-xl">
-            {Object.entries(fallbackHealthScore.dimensions).map(([key, data]) => (
+            {Object.entries(healthScore.dimensions).map(([key, data]) => (
               <div key={key} className="text-center p-3 bg-neutral-50 rounded-lg">
                 <p className="text-xs font-medium text-neutral-500 uppercase tracking-wider mb-1">
                   {t(`dashboard.${key}`)}
@@ -238,15 +322,15 @@ export const DashboardPage: React.FC = () => {
             {/* Summary badges */}
             <div className="flex gap-3 mb-4">
               <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-error-light text-error-dark">
-                🔴 {fallbackAlerts.filter(a => a.severity === 'critical').length} {language === 'es' ? 'Crítico' : 'Critical'}
+                🔴 {(alerts.length > 0 ? alerts : fallbackAlerts).filter(a => a.severity === 'critical').length} {t('dashboard.critical')}
               </span>
               <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-warning-light text-warning-dark">
-                🟡 {fallbackAlerts.filter(a => a.severity === 'warning').length} Warning
+                🟡 {(alerts.length > 0 ? alerts : fallbackAlerts).filter(a => a.severity === 'warning').length} {t('dashboard.warning')}
               </span>
             </div>
 
             {/* Alert list */}
-            {fallbackAlerts.slice(0, 4).map((alert) => (
+            {(alerts.length > 0 ? alerts : fallbackAlerts).slice(0, 4).map((alert) => (
               <div
                 key={alert.id}
                 className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 cursor-pointer transition-colors"
@@ -274,20 +358,20 @@ export const DashboardPage: React.FC = () => {
               onClick={() => navigate('/cortex/bridge/approvals')}
               className="text-sm text-primary-600 hover:text-primary-700 font-medium"
             >
-              View All →
+              {t('button.view_all')} →
             </button>
           </div>
 
           {/* Summary badges */}
           <div className="flex gap-3 mb-4">
             <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-primary-50 text-primary-700">
-              📋 {fallbackApprovals.filter(a => a.type === 'workflow').length} Workflows
+              📋 {fallbackApprovals.filter(a => a.type === 'workflow').length} {t('dashboard.workflows')}
             </span>
             <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-secondary-50 text-secondary-700">
-              👤 {fallbackApprovals.filter(a => a.type === 'access').length} Access
+              👤 {fallbackApprovals.filter(a => a.type === 'access').length} {t('dashboard.access')}
             </span>
             <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-accent-50 text-accent-700">
-              💰 {fallbackApprovals.filter(a => a.type === 'budget').length} Budget
+              💰 {fallbackApprovals.filter(a => a.type === 'budget').length} {t('dashboard.budget')}
             </span>
           </div>
 
@@ -300,11 +384,11 @@ export const DashboardPage: React.FC = () => {
               >
                 <div className="flex-1 min-w-0">
                   <p className="text-sm text-neutral-900 truncate">{approval.title}</p>
-                  <p className="text-xs text-neutral-500">by {approval.requestedBy}</p>
+                  <p className="text-xs text-neutral-500">{t('dashboard.by')} {approval.requestedBy}</p>
                 </div>
                 <div className="flex gap-2 ml-4">
                   <button className="px-3 py-1 text-xs font-medium text-success-main bg-success-light rounded-md hover:bg-success-main hover:text-white transition-colors">
-                    {language === 'es' ? 'Aprobar' : 'Approve'}
+                    {t('dashboard.approve')}
                   </button>
                 </div>
               </div>
@@ -317,9 +401,9 @@ export const DashboardPage: React.FC = () => {
       {/* KEY METRICS */}
       {/* ================================================================= */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
-        <h3 className="text-lg font-semibold text-neutral-900 mb-4">Key Metrics</h3>
+        <h3 className="text-lg font-semibold text-neutral-900 mb-4">{t('dashboard.keyMetrics')}</h3>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          {fallbackMetrics.map((metric) => (
+          {(metrics.length > 0 ? metrics : fallbackMetrics).map((metric) => (
             <div key={metric.id} className="p-4 bg-neutral-50 rounded-lg">
               <p className="text-xs font-medium text-neutral-500 mb-1">{metric.name}</p>
               <p className="text-xl font-bold text-neutral-900">
@@ -350,7 +434,7 @@ export const DashboardPage: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Ask the Council */}
         <div className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-xl p-6 text-white">
-          <h3 className="text-lg font-semibold mb-4">Ask The Council</h3>
+          <h3 className="text-lg font-semibold mb-4">{t('dashboard.askTheCouncil')}</h3>
           
           <div className="relative mb-4">
             <input
@@ -358,7 +442,7 @@ export const DashboardPage: React.FC = () => {
               value={queryInput}
               onChange={(e) => setQueryInput(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && handleQuerySubmit()}
-              placeholder="What would you like to know?"
+              placeholder={t('dashboard.whatToKnow')}
               className={cn(
                 'w-full h-12 pl-4 pr-12 rounded-lg',
                 'bg-white/10 border border-white/20',
@@ -375,7 +459,7 @@ export const DashboardPage: React.FC = () => {
           </div>
 
           <div>
-            <p className="text-sm text-white/70 mb-2">Recent queries:</p>
+            <p className="text-sm text-white/70 mb-2">{t('dashboard.recentQueries')}</p>
             <div className="space-y-2">
               {recentQueries.map((query, i) => (
                 <button
@@ -393,9 +477,9 @@ export const DashboardPage: React.FC = () => {
         {/* Recent Activity */}
         <div className="bg-white rounded-xl border border-neutral-200 p-6">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-semibold text-neutral-900">Recent Activity</h3>
+            <h3 className="text-lg font-semibold text-neutral-900">{t('dashboard.recentActivity')}</h3>
             <button className="text-sm text-primary-600 hover:text-primary-700 font-medium">
-              View Full Log →
+              {t('dashboard.viewFullLog')} →
             </button>
           </div>
 
@@ -418,6 +502,53 @@ export const DashboardPage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* ================================================================= */}
+      {/* USER JOURNEY / STORYBOARD */}
+      {/* ================================================================= */}
+      
+      {/* Start Journey Button (shown when no journey active) */}
+      {!activeJourney && !showJourneySelector && (
+        <button
+          onClick={() => setShowJourneySelector(true)}
+          className="fixed bottom-6 right-6 z-40 flex items-center gap-2 px-4 py-3 bg-gradient-to-r from-primary-600 to-primary-500 text-white rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
+        >
+          <Compass className="w-5 h-5" />
+          <span className="font-medium">Start Your Journey</span>
+        </button>
+      )}
+
+      {/* Journey Selector Modal */}
+      {showJourneySelector && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full mx-4 overflow-hidden">
+            <div className="bg-gradient-to-r from-primary-600 to-primary-500 px-6 py-4 flex items-center justify-between">
+              <div>
+                <h2 className="text-xl font-bold text-white">Choose Your Journey</h2>
+                <p className="text-primary-100 text-sm mt-1">Select a guided experience tailored to your role</p>
+              </div>
+              <button
+                onClick={() => setShowJourneySelector(false)}
+                className="text-white/80 hover:text-white transition-colors"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
+            <div className="p-6">
+              <NarrativeSelector onSelect={handleSelectJourney} />
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Active Journey Guide (Floating) */}
+      {activeJourney && (
+        <NarrativeGuide
+          narrativeId={activeJourney}
+          variant="floating"
+          onComplete={handleJourneyComplete}
+        />
+      )}
     </div>
   );
 };

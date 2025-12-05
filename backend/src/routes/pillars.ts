@@ -4,6 +4,7 @@
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
+import { devAuth } from '../middleware/auth.js';
 import {
   helmService,
   lineageService,
@@ -17,6 +18,9 @@ import {
 } from '../services/pillars/index.js';
 
 const router = Router();
+
+// Use devAuth so requests have req.organizationId in development
+router.use(devAuth);
 
 // =============================================================================
 // INITIALIZATION
@@ -38,13 +42,8 @@ router.post('/initialize', async (req: Request, res: Response) => {
 
 router.get('/helm/dashboard', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
-    
-    // Seed if empty
-    if (!(await helmService.hasMetricsForOrg(organizationId))) {
-      await helmService.seedDefaultMetrics(organizationId);
-    }
-    
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    // Enterprise Platinum: No auto-seeding - data comes only from real operations
     const dashboard = await helmService.getKPIDashboard(organizationId);
     res.json({ success: true, data: dashboard });
   } catch (error: any) {
@@ -54,7 +53,7 @@ router.get('/helm/dashboard', async (req: Request, res: Response) => {
 
 router.get('/helm/metrics', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const category = req.query.category as string | undefined;
     const metrics = await helmService.getOrgMetrics(organizationId, category as any);
     res.json({ success: true, data: metrics });
@@ -100,7 +99,7 @@ router.patch('/helm/metrics/:id', async (req: Request, res: Response) => {
 
 router.get('/helm/alerts', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const alerts = await helmService.getActiveAlerts(organizationId);
     res.json({ success: true, data: alerts });
   } catch (error: any) {
@@ -123,15 +122,9 @@ router.post('/helm/alerts/:id/acknowledge', async (req: Request, res: Response) 
 
 router.get('/lineage/graph', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    // Enterprise Platinum: No auto-seeding
     const graph = await lineageService.getLineageGraph(organizationId);
-    
-    if (graph.entities.length === 0) {
-      await lineageService.seedDefaultData(organizationId);
-      const seededGraph = await lineageService.getLineageGraph(organizationId);
-      return res.json({ success: true, data: seededGraph });
-    }
-    
     res.json({ success: true, data: graph });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -140,7 +133,7 @@ router.get('/lineage/graph', async (req: Request, res: Response) => {
 
 router.get('/lineage/entities', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const type = req.query.type as string | undefined;
     const entities = await lineageService.getEntities(organizationId, type as any);
     res.json({ success: true, data: entities });
@@ -161,7 +154,7 @@ router.get('/lineage/entities/:id/trace', async (req: Request, res: Response) =>
 
 router.get('/lineage/quality', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const overview = await lineageService.getQualityOverview(organizationId);
     res.json({ success: true, data: overview });
   } catch (error: any) {
@@ -184,14 +177,9 @@ router.post('/lineage/entities/:id/quality-check', async (req: Request, res: Res
 
 router.get('/predict/models', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
-    let models = await predictService.getModels(organizationId);
-    
-    if (models.length === 0) {
-      await predictService.seedDefaultData(organizationId);
-      models = await predictService.getModels(organizationId);
-    }
-    
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    // Enterprise Platinum: No auto-seeding
+    const models = await predictService.getModels(organizationId);
     res.json({ success: true, data: models });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -239,7 +227,7 @@ router.post('/predict/models/:id/train', async (req: Request, res: Response) => 
 
 router.get('/predict/forecasts', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const forecasts = await predictService.getForecasts(organizationId);
     res.json({ success: true, data: forecasts });
   } catch (error: any) {
@@ -249,7 +237,7 @@ router.get('/predict/forecasts', async (req: Request, res: Response) => {
 
 router.get('/predict/insights', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const insights = await predictService.generateInsights(organizationId);
     res.json({ success: true, data: insights });
   } catch (error: any) {
@@ -263,14 +251,8 @@ router.get('/predict/insights', async (req: Request, res: Response) => {
 
 router.get('/flow/stats', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
-    
-    // Seed if empty
-    const workflows = await flowService.getWorkflows(organizationId);
-    if (workflows.length === 0) {
-      await flowService.seedDefaultData(organizationId);
-    }
-    
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    // Enterprise Platinum: No auto-seeding
     const stats = await flowService.getFlowStats(organizationId);
     res.json({ success: true, data: stats });
   } catch (error: any) {
@@ -280,7 +262,7 @@ router.get('/flow/stats', async (req: Request, res: Response) => {
 
 router.get('/flow/workflows', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const status = req.query.status as string | undefined;
     const workflows = await flowService.getWorkflows(organizationId, status as any);
     res.json({ success: true, data: workflows });
@@ -313,7 +295,7 @@ router.post('/flow/workflows/:id/execute', async (req: Request, res: Response) =
 
 router.get('/flow/executions', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const limit = parseInt(req.query.limit as string) || 50;
     const executions = await flowService.getExecutions(organizationId, limit);
     res.json({ success: true, data: executions });
@@ -324,7 +306,7 @@ router.get('/flow/executions', async (req: Request, res: Response) => {
 
 router.get('/flow/approvals', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const approvals = await flowService.getPendingApprovals(organizationId);
     res.json({ success: true, data: approvals });
   } catch (error: any) {
@@ -348,7 +330,7 @@ router.post('/flow/approvals/:id', async (req: Request, res: Response) => {
 
 router.get('/health/status', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const health = await healthService.getSystemHealth(organizationId);
     res.json({ success: true, data: health });
   } catch (error: any) {
@@ -358,7 +340,7 @@ router.get('/health/status', async (req: Request, res: Response) => {
 
 router.get('/health/alerts', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const includeResolved = req.query.includeResolved === 'true';
     const alerts = await healthService.getAlerts(organizationId, includeResolved);
     res.json({ success: true, data: alerts });
@@ -387,7 +369,7 @@ router.post('/health/alerts/:id/resolve', async (req: Request, res: Response) =>
 
 router.get('/health/trends', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const hours = parseInt(req.query.hours as string) || 24;
     const trends = await healthService.getHealthTrends(organizationId, hours);
     res.json({ success: true, data: trends });
@@ -402,7 +384,7 @@ router.get('/health/trends', async (req: Request, res: Response) => {
 
 router.get('/guard/posture', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const posture = await guardService.getSecurityPosture(organizationId);
     res.json({ success: true, data: posture });
   } catch (error: any) {
@@ -412,15 +394,10 @@ router.get('/guard/posture', async (req: Request, res: Response) => {
 
 router.get('/guard/threats', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const includeResolved = req.query.includeResolved === 'true';
-    
-    let threats = await guardService.getThreats(organizationId, includeResolved);
-    if (threats.length === 0) {
-      await guardService.seedDefaultData(organizationId);
-      threats = await guardService.getThreats(organizationId, includeResolved);
-    }
-    
+    // Enterprise Platinum: No auto-seeding
+    const threats = await guardService.getThreats(organizationId, includeResolved);
     res.json({ success: true, data: threats });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -439,7 +416,7 @@ router.patch('/guard/threats/:id', async (req: Request, res: Response) => {
 
 router.get('/guard/policies', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const policies = await guardService.getPolicies(organizationId);
     res.json({ success: true, data: policies });
   } catch (error: any) {
@@ -459,7 +436,7 @@ router.patch('/guard/policies/:id', async (req: Request, res: Response) => {
 
 router.get('/guard/audit', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const limit = parseInt(req.query.limit as string) || 100;
     const logs = await guardService.getAuditLogs(organizationId, limit);
     res.json({ success: true, data: logs });
@@ -474,14 +451,8 @@ router.get('/guard/audit', async (req: Request, res: Response) => {
 
 router.get('/ethics/stats', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
-    
-    // Seed if empty
-    const principles = await ethicsService.getPrinciples(organizationId);
-    if (principles.length === 0) {
-      await ethicsService.seedDefaultData(organizationId);
-    }
-    
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    // Enterprise Platinum: No auto-seeding
     const stats = await ethicsService.getEthicsStats(organizationId);
     res.json({ success: true, data: stats });
   } catch (error: any) {
@@ -491,7 +462,7 @@ router.get('/ethics/stats', async (req: Request, res: Response) => {
 
 router.get('/ethics/principles', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const status = req.query.status as string | undefined;
     const principles = await ethicsService.getPrinciples(organizationId, status as any);
     res.json({ success: true, data: principles });
@@ -502,7 +473,7 @@ router.get('/ethics/principles', async (req: Request, res: Response) => {
 
 router.get('/ethics/reviews', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const result = req.query.result as string | undefined;
     const reviews = await ethicsService.getReviews(organizationId, result as any);
     res.json({ success: true, data: reviews });
@@ -532,7 +503,7 @@ router.post('/ethics/reviews/:id/decide', async (req: Request, res: Response) =>
 
 router.get('/ethics/bias-checks', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
     const checks = await ethicsService.getBiasChecks(organizationId);
     res.json({ success: true, data: checks });
   } catch (error: any) {
@@ -543,7 +514,8 @@ router.get('/ethics/bias-checks', async (req: Request, res: Response) => {
 router.post('/ethics/bias-check', async (req: Request, res: Response) => {
   try {
     const { organizationId = 'demo', modelId, modelName } = req.body;
-    const check = await ethicsService.performBiasCheck(organizationId, modelId, modelName);
+    const orgId = req.organizationId || organizationId || 'demo';
+    const check = await ethicsService.performBiasCheck(orgId, modelId, modelName);
     res.json({ success: true, data: check });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -556,13 +528,8 @@ router.post('/ethics/bias-check', async (req: Request, res: Response) => {
 
 router.get('/agents/stats', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
-    
-    // Seed if empty
-    if (!(await agentsService.hasAgentsForOrg(organizationId))) {
-      await agentsService.seedDefaultAgents(organizationId);
-    }
-    
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    // Enterprise Platinum: No auto-seeding
     const stats = await agentsService.getAgentStats(organizationId);
     res.json({ success: true, data: stats });
   } catch (error: any) {
@@ -572,12 +539,8 @@ router.get('/agents/stats', async (req: Request, res: Response) => {
 
 router.get('/agents', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
-    
-    if (!(await agentsService.hasAgentsForOrg(organizationId))) {
-      await agentsService.seedDefaultAgents(organizationId);
-    }
-    
+    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    // Enterprise Platinum: No auto-seeding
     const agents = await agentsService.getAgents(organizationId);
     res.json({ success: true, data: agents });
   } catch (error: any) {

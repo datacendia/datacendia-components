@@ -171,6 +171,13 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
             'target-arrow-color': '#1D4ED8',
           } as cytoscape.Css.Edge,
         },
+        // Inferred (heuristic) edges
+        {
+          selector: 'edge[inferred = true]',
+          style: {
+            'line-style': 'dashed',
+          } as cytoscape.Css.Edge,
+        },
         // Dimmed elements (when filtering)
         {
           selector: '.dimmed',

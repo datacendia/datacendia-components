@@ -245,10 +245,13 @@ export const DataSourcesPage: React.FC = () => {
   const loadDataSources = async () => {
     setIsLoading(true);
     try {
+      const token = localStorage.getItem('accessToken');
+      const headers: Record<string, string> = {};
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
       const response = await fetch('/api/v1/data-sources', {
-        headers: {
-          'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
-        },
+        headers,
       });
       
       if (response.ok) {
@@ -293,15 +296,19 @@ export const DataSourcesPage: React.FC = () => {
     try {
       const sourceId = selectedSource?.id;
       const type = selectedSource?.type || newSourceType;
+      const token = localStorage.getItem('accessToken');
+      const baseHeaders: Record<string, string> = {
+        'Content-Type': 'application/json',
+      };
+      if (token) {
+        baseHeaders['Authorization'] = `Bearer ${token}`;
+      }
       
       if (sourceId) {
         // Test existing source
         const response = await fetch(`/api/v1/data-sources/${sourceId}/test`, {
           method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
-            'Content-Type': 'application/json',
-          },
+          headers: baseHeaders,
         });
         
         const data = await response.json();
@@ -310,10 +317,7 @@ export const DataSourcesPage: React.FC = () => {
         // Test new configuration
         const response = await fetch('/api/v1/data-sources/test', {
           method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
-            'Content-Type': 'application/json',
-          },
+          headers: baseHeaders,
           body: JSON.stringify({
             type,
             config: formData,
@@ -341,6 +345,7 @@ export const DataSourcesPage: React.FC = () => {
     try {
       const type = selectedSource?.type || newSourceType;
       const connectorConfig = CONNECTOR_CONFIGS[type || ''];
+      const token = localStorage.getItem('accessToken');
       
       // Separate config and credentials
       const config: Record<string, unknown> = {};
@@ -363,7 +368,7 @@ export const DataSourcesPage: React.FC = () => {
         const response = await fetch(`/api/v1/data-sources/${selectedSource.id}`, {
           method: 'PUT',
           headers: {
-            'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
+            ...(token ? { Authorization: `Bearer ${token}` } : {}),
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({ config, credentials }),
@@ -378,7 +383,7 @@ export const DataSourcesPage: React.FC = () => {
         const response = await fetch('/api/v1/data-sources', {
           method: 'POST',
           headers: {
-            'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
+            ...(token ? { Authorization: `Bearer ${token}` } : {}),
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
@@ -402,15 +407,42 @@ export const DataSourcesPage: React.FC = () => {
     }
   };
 
+  const handleSync = async (id: string) => {
+    try {
+      const token = localStorage.getItem('accessToken');
+      const response = await fetch(`/api/v1/data-sources/${id}/sync`, {
+        method: 'POST',
+        headers: token ? { Authorization: `Bearer ${token}` } : {},
+      });
+
+      if (response.ok) {
+        setDataSources(prev =>
+          prev.map(ds =>
+            ds.id === id
+              ? { ...ds, status: 'SYNCING' as DataSource['status'] }
+              : ds
+          )
+        );
+
+        setSelectedSource(prev =>
+          prev && prev.id === id
+            ? { ...prev, status: 'SYNCING' as DataSource['status'] }
+            : prev
+        );
+      }
+    } catch (error) {
+      console.error('Failed to start sync:', error);
+    }
+  };
+
   const handleDelete = async (id: string) => {
     if (!confirm('Are you sure you want to delete this data source?')) return;
     
     try {
+      const token = localStorage.getItem('accessToken');
       const response = await fetch(`/api/v1/data-sources/${id}`, {
         method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
-        },
+        headers: token ? { 'Authorization': `Bearer ${token}` } : {},
       });
       
       if (response.ok) {
@@ -590,6 +622,12 @@ export const DataSourcesPage: React.FC = () => {
                           }`}>
                             {getStatusLabel(selectedSource.status)}
                           </span>
+                          <button
+                            onClick={() => handleSync(selectedSource.id)}
+                            className="p-2 text-gray-400 hover:text-indigo-400 hover:bg-indigo-900/20 rounded-lg transition-colors"
+                          >
+                            <RefreshCw className="w-4 h-4" />
+                          </button>
                           <button
                             onClick={() => handleDelete(selectedSource.id)}
                             className="p-2 text-gray-400 hover:text-red-400 hover:bg-red-900/20 rounded-lg transition-colors"
