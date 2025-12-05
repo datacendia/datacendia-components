@@ -2565,13 +2565,49 @@ const TimelineScrubber: React.FC<{
   const totalMs = maxDate.getTime() - minDate.getTime();
   const position = ((currentDate.getTime() - minDate.getTime()) / totalMs) * 100;
   
-  const handleTrackClick = (e: React.MouseEvent) => {
-    if (!trackRef.current) return;
+  // Calculate date from mouse position
+  const getDateFromPosition = useCallback((clientX: number) => {
+    if (!trackRef.current) return null;
     const rect = trackRef.current.getBoundingClientRect();
-    const x = Math.max(0, Math.min(e.clientX - rect.left, rect.width));
+    const x = Math.max(0, Math.min(clientX - rect.left, rect.width));
     const pct = x / rect.width;
-    onDateChange(new Date(minDate.getTime() + pct * totalMs));
+    return new Date(minDate.getTime() + pct * totalMs);
+  }, [minDate, totalMs]);
+
+  const handleTrackClick = (e: React.MouseEvent) => {
+    const newDate = getDateFromPosition(e.clientX);
+    if (newDate) onDateChange(newDate);
   };
+
+  // Handle drag start
+  const handleMouseDown = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setIsDragging(true);
+    const newDate = getDateFromPosition(e.clientX);
+    if (newDate) onDateChange(newDate);
+  };
+
+  // Handle drag move and end
+  useEffect(() => {
+    if (!isDragging) return;
+
+    const handleMouseMove = (e: MouseEvent) => {
+      const newDate = getDateFromPosition(e.clientX);
+      if (newDate) onDateChange(newDate);
+    };
+
+    const handleMouseUp = () => {
+      setIsDragging(false);
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mouseup', handleMouseUp);
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [isDragging, getDateFromPosition, onDateChange]);
 
   const getGradient = () => {
     switch (mode) {
@@ -2612,8 +2648,8 @@ const TimelineScrubber: React.FC<{
       {/* Track */}
       <div 
         ref={trackRef}
-        className="relative h-16 bg-neutral-800 rounded-xl cursor-pointer overflow-hidden"
-        onClick={handleTrackClick}
+        className={`relative h-16 bg-neutral-800 rounded-xl cursor-pointer overflow-hidden select-none ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+        onMouseDown={handleMouseDown}
       >
         {/* Progress */}
         <div 
