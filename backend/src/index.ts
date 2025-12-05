@@ -80,6 +80,9 @@ import autopilotRoutes from './routes/autopilot.js';
 import decisionIntelRoutes from './routes/decision-intel.js';
 import errorRoutes from './routes/errors.js';
 import contactRoutes from './routes/contact.js';
+import echoRoutes from './routes/echo.js';
+import redteamRoutes from './routes/redteam.js';
+import gnosisRoutes from './routes/gnosis.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -229,6 +232,11 @@ app.use('/api/v1/autopilot', autopilotRoutes);
 app.use('/api/v1/decision-intel', decisionIntelRoutes);
 app.use('/api/v1/errors', errorRoutes);
 app.use('/api/v1/contact', contactRoutes);
+
+// Crown Jewels - Premium Services
+app.use('/api/v1/echo', echoRoutes);
+app.use('/api/v1/redteam', redteamRoutes);
+app.use('/api/v1/gnosis', gnosisRoutes);
 
 // 404 handler
 app.use((req, res) => {

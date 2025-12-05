@@ -566,6 +566,137 @@ export const decisionIntelApi = {
   },
 };
 
+// ============================================================================
+// ECHO API - Decision Outcome Engine
+// ============================================================================
+export const echoApi = {
+  async linkOutcome(data: {
+    deliberationId: string;
+    actualRevenue?: number;
+    actualProfit?: number;
+    actualHeadcount?: number;
+    actualRisk?: number;
+    actualSatisfaction?: number;
+    actualMarketShare?: number;
+    notes?: string;
+  }) {
+    return api.post<unknown>('/echo/outcomes', data);
+  },
+
+  async getOutcome(deliberationId: string) {
+    return api.get<unknown>(`/echo/outcomes/${deliberationId}`);
+  },
+
+  async getLeaderboard(params?: { limit?: number; period?: string; sortBy?: string }) {
+    return api.get<unknown[]>('/echo/leaderboard', params);
+  },
+
+  async getAccuracyReport() {
+    return api.get<unknown>('/echo/accuracy');
+  },
+
+  async getOutcomeReport(deliberationId: string) {
+    return api.get<unknown>(`/echo/report/${deliberationId}`);
+  },
+
+  async getDashboard() {
+    return api.get<unknown>('/echo/dashboard');
+  },
+};
+
+// ============================================================================
+// REDTEAM API - Adversarial Security Engine
+// ============================================================================
+export const redteamApi = {
+  async runSimulation(options?: {
+    adversaryProfile?: string;
+    targetObjective?: string;
+    maxIterations?: number;
+  }) {
+    return api.post<unknown>('/redteam/simulate', options);
+  },
+
+  async getScore() {
+    return api.get<unknown>('/redteam/score');
+  },
+
+  async getWeaknessReport() {
+    return api.get<unknown>('/redteam/weakness-report');
+  },
+
+  async getExploits() {
+    return api.get<unknown[]>('/redteam/exploits');
+  },
+
+  async applyPatch(patchId: string) {
+    return api.post<unknown>(`/redteam/patches/${patchId}/apply`, {});
+  },
+
+  async rollbackPatch(patchId: string) {
+    return api.post<unknown>(`/redteam/patches/${patchId}/rollback`, {});
+  },
+
+  async getDashboard() {
+    return api.get<unknown>('/redteam/dashboard');
+  },
+
+  async getEvilTwin() {
+    return api.get<unknown>('/redteam/evil-twin');
+  },
+};
+
+// ============================================================================
+// GNOSIS API - Education Engine
+// ============================================================================
+export const gnosisApi = {
+  async generateFromDecision(deliberationId: string) {
+    return api.post<unknown>('/gnosis/generate-from-decision', { deliberationId });
+  },
+
+  async createPath(data: {
+    title: string;
+    description: string;
+    skills: string[];
+    sourceDecision?: string;
+    targetRole?: string;
+    urgency?: string;
+  }) {
+    return api.post<unknown>('/gnosis/paths', data);
+  },
+
+  async getPath(pathId: string) {
+    return api.get<unknown>(`/gnosis/paths/${pathId}`);
+  },
+
+  async updateProgress(pathId: string, moduleId: string, completed: boolean, score?: number) {
+    return api.put<unknown>(`/gnosis/paths/${pathId}/progress`, { moduleId, completed, score });
+  },
+
+  async getProfile() {
+    return api.get<unknown>('/gnosis/profile');
+  },
+
+  async getAnalytics() {
+    return api.get<unknown>('/gnosis/analytics');
+  },
+
+  async startAssessment(skill: string) {
+    return api.post<unknown>('/gnosis/assessments', { skill });
+  },
+
+  async submitAssessment(assessmentId: string, answers: Record<string, string>) {
+    return api.post<unknown>(`/gnosis/assessments/${assessmentId}/submit`, { answers });
+  },
+
+  async getDashboard() {
+    return api.get<unknown>('/gnosis/dashboard');
+  },
+
+  async getDecisionReadiness() {
+    return api.get<unknown>('/gnosis/decision-readiness');
+  },
+};
+
 // Default export with all APIs
 export default {
   auth: authApi,
@@ -585,4 +716,7 @@ export default {
   autopilot: autopilotApi,
   govern: governApi,
   decisionIntel: decisionIntelApi,
+  echo: echoApi,
+  redteam: redteamApi,
+  gnosis: gnosisApi,
 };

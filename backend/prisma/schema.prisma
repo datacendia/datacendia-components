@@ -258,6 +258,8 @@ model deliberations {
   organization_id       String
   question              String
   config                Json                    @default("{}")
+  context               Json                    @default("{}")
+  mode                  String?
   status                DeliberationStatus      @default(PENDING)
   current_phase         String?
   progress              Int                     @default(0)
@@ -268,8 +270,10 @@ model deliberations {
   created_at            DateTime                @default(now())
   approvals             approvals[]
   deliberation_messages deliberation_messages[]
+  deliberation_votes    deliberation_votes[]
   organizations         organizations           @relation(fields: [organization_id], references: [id])
   executive_summaries   executive_summaries[]
+  decision_outcomes     decision_outcomes[]
 
   @@index([organization_id, status])
 }
@@ -493,6 +497,24 @@ model organizations {
   vox_impacts            vox_impacts[]
   vox_votes              vox_votes[]
   vox_assemblies         vox_assemblies[]
+  
+  // Crown Jewels - Echo, RedTeam, Gnosis
+  decision_outcomes      decision_outcomes[]
+}
+
+// Deliberation Votes for Echo tracking
+model deliberation_votes {
+  id              String        @id @default(uuid())
+  deliberation_id String
+  agent_role      String
+  vote            String        // approve, reject, abstain
+  reasoning       String?
+  confidence      Float?
+  created_at      DateTime      @default(now())
+  
+  deliberations   deliberations @relation(fields: [deliberation_id], references: [id], onDelete: Cascade)
+  
+  @@index([deliberation_id])
 }
 
 model password_resets {
@@ -3373,4 +3395,240 @@ model regulatory_items {
   required_actions Json    @default("[]")
   created_at      DateTime @default(now())
   @@index([organization_id])
+}
+
+// =============================================================================
+// CENDIA ECHO™ - Decision Outcome Engine
+// "Every decision echoes through time. We measure the echo."
+// =============================================================================
+
+model decision_outcomes {
+  id                  String   @id @default(uuid())
+  organization_id     String
+  deliberation_id     String
+  decision_title      String
+  decision_date       DateTime
+  outcome_date        DateTime
+  predictions         Json     @default("{}")
+  dollar_impact       Decimal? @db.Decimal(18, 2)
+  roi                 Decimal? @db.Decimal(10, 4)
+  status              String   @default("pending")
+  confidence_score    Decimal? @db.Decimal(5, 4)
+  council_mode        String?
+  participating_agents String[] @default([])
+  voting_pattern      Json     @default("{}")
+  notes               String?
+  created_at          DateTime @default(now())
+  updated_at          DateTime @default(now()) @updatedAt
+  
+  organizations       organizations @relation(fields: [organization_id], references: [id])
+  deliberations       deliberations @relation(fields: [deliberation_id], references: [id])
+  
+  @@index([organization_id])
+  @@index([deliberation_id])
+  @@index([status])
+}
+
+model agent_weight_history {
+  id              String   @id @default(uuid())
+  organization_id String
+  agent_id        String
+  agent_role      String
+  previous_weight Decimal  @db.Decimal(5, 4)
+  new_weight      Decimal  @db.Decimal(5, 4)
+  adjustment      Decimal  @db.Decimal(5, 4)
+  reason          String
+  deliberation_id String?
+  created_at      DateTime @default(now())
+  
+  @@index([organization_id])
+  @@index([agent_id])
+}
+
+model echo_patterns {
+  id              String   @id @default(uuid())
+  organization_id String
+  pattern         String
+  success_rate    Decimal  @db.Decimal(5, 2)
+  sample_size     Int
+  confidence      Decimal  @db.Decimal(5, 4)
+  factors         String[] @default([])
+  created_at      DateTime @default(now())
+  updated_at      DateTime @default(now()) @updatedAt
+  
+  @@index([organization_id])
+}
+
+// =============================================================================
+// CENDIA REDTEAM™ - Sovereign Adversarial Engine
+// "We hired the smartest attacker and gave them your keys — on purpose."
+// =============================================================================
+
+model redteam_simulations {
+  id               String    @id @default(uuid())
+  organization_id  String
+  scenario_name    String
+  objective        String
+  adversary_profile String
+  started_at       DateTime
+  completed_at     DateTime?
+  status           String    @default("pending")
+  results          Json      @default("{}")
+  created_at       DateTime  @default(now())
+  
+  vulnerabilities  redteam_vulnerabilities[]
+  
+  @@index([organization_id])
+  @@index([status])
+}
+
+model redteam_vulnerabilities {
+  id                    String    @id @default(uuid())
+  organization_id       String
+  simulation_id         String?
+  title                 String
+  description           String
+  attack_vector         String
+  target_system         String
+  steps                 Json      @default("[]")
+  damage_estimate       Json      @default("{}")
+  probability_of_success Decimal? @db.Decimal(5, 2)
+  detection_difficulty  Decimal?  @db.Decimal(5, 2)
+  severity              String    @default("medium")
+  status                String    @default("active")
+  discovered_at         DateTime  @default(now())
+  mitigated_at          DateTime?
+  
+  simulation            redteam_simulations? @relation(fields: [simulation_id], references: [id])
+  patches               redteam_patches[]
+  
+  @@index([organization_id])
+  @@index([severity])
+  @@index([status])
+}
+
+model redteam_patches {
+  id               String    @id @default(uuid())
+  organization_id  String
+  vulnerability_id String
+  patch_type       String
+  description      String
+  reversible       Boolean   @default(true)
+  original_state   Json?
+  applied_at       DateTime?
+  status           String    @default("pending")
+  created_at       DateTime  @default(now())
+  
+  vulnerability    redteam_vulnerabilities @relation(fields: [vulnerability_id], references: [id])
+  
+  @@index([organization_id])
+  @@index([status])
+}
+
+model redteam_scores {
+  id               String   @id @default(uuid())
+  organization_id  String
+  overall_score    Int
+  breakdown        Json     @default("{}")
+  vulnerabilities_count Int @default(0)
+  critical_count   Int      @default(0)
+  recommendations  String[] @default([])
+  calculated_at    DateTime @default(now())
+  
+  @@index([organization_id])
+}
+
+// =============================================================================
+// CENDIA GNOSIS™ - Sovereign Education Engine
+// "Gnosis teaches every human how to execute AI decisions by morning."
+// =============================================================================
+
+model gnosis_learning_paths {
+  id                  String    @id @default(uuid())
+  organization_id     String
+  user_id             String?
+  title               String
+  description         String
+  source_decision_id  String?
+  modules             Json      @default("[]")
+  estimated_duration  Int       @default(0)
+  difficulty          String    @default("intermediate")
+  skills              String[]  @default([])
+  progress            Int       @default(0)
+  status              String    @default("not_started")
+  deadline            DateTime?
+  created_at          DateTime  @default(now())
+  completed_at        DateTime?
+  
+  @@index([organization_id])
+  @@index([user_id])
+  @@index([status])
+}
+
+model gnosis_decision_impacts {
+  id                     String   @id @default(uuid())
+  organization_id        String
+  deliberation_id        String
+  decision_title         String
+  affected_roles         String[] @default([])
+  required_skills        String[] @default([])
+  urgency                String   @default("within_week")
+  impact_level           String   @default("moderate")
+  learning_path_ids      String[] @default([])
+  estimated_reskill_hours Int     @default(0)
+  affected_employee_count Int     @default(0)
+  created_at             DateTime @default(now())
+  
+  @@index([organization_id])
+  @@index([deliberation_id])
+}
+
+model gnosis_assessments {
+  id              String    @id @default(uuid())
+  user_id         String
+  organization_id String
+  skill           String
+  questions       Json      @default("[]")
+  results         Json?
+  status          String    @default("pending")
+  started_at      DateTime  @default(now())
+  completed_at    DateTime?
+  
+  @@index([user_id])
+  @@index([organization_id])
+  @@index([skill])
+}
+
+model gnosis_skill_profiles {
+  id              String   @id @default(uuid())
+  user_id         String   @unique
+  organization_id String
+  skills          Json     @default("{}")
+  strengths       String[] @default([])
+  gaps            String[] @default([])
+  learning_style  String   @default("reading")
+  preferred_pace  String   @default("self_paced")
+  last_assessment DateTime?
+  created_at      DateTime @default(now())
+  updated_at      DateTime @default(now()) @updatedAt
+  
+  @@index([organization_id])
+}
+
+model gnosis_analytics {
+  id                String   @id @default(uuid())
+  organization_id   String
+  period_start      DateTime
+  period_end        DateTime
+  total_learners    Int      @default(0)
+  active_learners   Int      @default(0)
+  completed_paths   Int      @default(0)
+  avg_completion    Decimal  @db.Decimal(5, 2)
+  avg_time_hours    Decimal  @db.Decimal(8, 2)
+  skill_growth      Json     @default("{}")
+  decision_readiness Decimal @db.Decimal(5, 2)
+  created_at        DateTime @default(now())
+  
+  @@index([organization_id])
+  @@index([period_start, period_end])
 }
