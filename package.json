@@ -20,10 +20,10 @@
     "test:ci": "vitest run --coverage --reporter=verbose"
   },
   "dependencies": {
-    "@types/cytoscape": "^3.21.9",
+    "@types/cytoscape": "^3.31.0",
     "clsx": "^2.1.1",
     "cytoscape": "^3.33.1",
-    "lucide-react": "^0.294.0",
+    "lucide-react": "^0.556.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.0",
