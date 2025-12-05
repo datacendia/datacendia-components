@@ -29,22 +29,23 @@ cd datacendia-components
 cp .env.example .env
 cp backend/.env.example backend/.env
 
-# Install dependencies
+# Install all dependencies (uses npm workspaces)
 npm install
-cd backend && npm install && cd ..
 
 # Start infrastructure (Postgres, Redis, Neo4j)
-docker-compose -f docker-compose.dev.yml up -d
+npm run docker:dev
 
 # Run database migrations
-cd backend && npx prisma migrate dev && cd ..
+npm run db:migrate
 
 # Seed demo data (optional)
-cd backend && npx prisma db seed && cd ..
+npm run db:seed
 
-# Start development servers
-npm run dev                 # Frontend (Vite) - http://localhost:5173
-cd backend && npm run dev   # Backend - http://localhost:3000
+# Start both frontend and backend
+npm run dev:all
+# Or start separately:
+npm run dev              # Frontend only - http://localhost:5173
+npm run dev:backend      # Backend only - http://localhost:3000
 ```
 
 ### Using Docker (Full Stack)
@@ -82,21 +83,26 @@ datacendia-components/
 ## 🧪 Testing
 
 ```bash
+# All tests (frontend + backend)
+npm run test:all
+
 # Frontend unit tests
 npm run test
 
-# Frontend tests with coverage
-npm run test:coverage
-
 # Backend tests
-cd backend && npm run test
+npm run test:backend
+
+# Tests with coverage
+npm run test:coverage
 
 # E2E tests (Playwright)
 npm run test:e2e
 
-# Type checking
-npm run typecheck
-cd backend && npm run typecheck
+# Type checking (all)
+npm run typecheck:all
+
+# Linting (all)
+npm run lint:all
 ```
 
 ## 🏗️ Building
