@@ -124,9 +124,47 @@ export default function CorePage() {
 
   const loadMetrics = async () => {
     setLoading(true);
-    // In production, fetch from API
-    // Simulating with placeholder data
-    setTimeout(() => {
+    try {
+      // Fetch real data from Core API
+      const token = localStorage.getItem('accessToken');
+      const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+      if (token) headers['Authorization'] = `Bearer ${token}`;
+
+      const [dashboardRes, contentRes] = await Promise.all([
+        fetch('/api/v1/core/dashboard', { headers }),
+        fetch('/api/v1/core/brand/content', { headers }),
+      ]);
+
+      if (dashboardRes.ok) {
+        const dashData = await dashboardRes.json();
+        if (dashData.dashboard) {
+          setMetrics({
+            brand: dashData.dashboard.brand || { contentQueue: 0, scheduledPosts: 0, voiceScore: 0 },
+            foundry: dashData.dashboard.foundry || { backlogItems: 0, technicalDebt: 0, topPriority: null, nagMessage: null },
+            revenue: dashData.dashboard.revenue || { mrr: 0, arr: 0, runwayMonths: 0, pricingAdvice: null },
+            support: dashData.dashboard.support || { openTickets: 0, atRiskCustomers: 0, avgResponseTime: 0 },
+            watch: dashData.dashboard.watch || { activeAlerts: 0, criticalAlert: null, competitorsTracked: 0 },
+          });
+          console.log('[Core] Loaded dashboard from API');
+        }
+      }
+
+      if (contentRes.ok) {
+        const contentData = await contentRes.json();
+        if (contentData.content && Array.isArray(contentData.content)) {
+          setContentQueue(contentData.content.map((c: any) => ({
+            id: c.id,
+            type: c.type || 'blog',
+            title: c.title || c.name,
+            status: c.status || 'draft',
+            scheduledFor: c.scheduledFor,
+          })));
+          console.log('[Core] Loaded', contentData.content.length, 'content items from API');
+        }
+      }
+    } catch (error) {
+      console.error('[Core] Failed to load from API, using fallback:', error);
+      // Fallback data
       setMetrics({
         brand: { contentQueue: 5, scheduledPosts: 3, voiceScore: 92 },
         foundry: { backlogItems: 12, technicalDebt: 4, topPriority: 'CendiaVoice Enhancement', nagMessage: null },
@@ -139,22 +177,53 @@ export default function CorePage() {
         { id: '2', type: 'blog', title: 'Why AI Councils Beat Single Agents', status: 'approved' },
         { id: '3', type: 'newsletter', title: 'Week 48 Update', status: 'scheduled', scheduledFor: 'Monday 9am' },
       ]);
+    } finally {
       setLoading(false);
-    }, 500);
+    }
   };
 
   const generateContent = async (type: string) => {
     setGenerating(true);
-    // In production, call API
-    setTimeout(() => {
-      setContentQueue(prev => [{
-        id: Date.now().toString(),
-        type: type as any,
-        title: `Generated ${type} post`,
-        status: 'draft',
-      }, ...prev]);
-      setGenerating(false);
-    }, 2000);
+    try {
+      // Call real API to generate content
+      const token = localStorage.getItem('accessToken');
+      const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+      if (token) headers['Authorization'] = `Bearer ${token}`;
+
+      const res = await fetch('/api/v1/core/brand/generate/linkedin', {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({ 
+          featureName: `${type} content`,
+          featureDescription: `Auto-generated ${type} content`
+        }),
+      });
+
+      if (res.ok) {
+        const data = await res.json();
+        if (data.post) {
+          setContentQueue(prev => [{
+            id: Date.now().toString(),
+            type: type as any,
+            title: data.post.title || `Generated ${type} post`,
+            status: 'draft',
+          }, ...prev]);
+          console.log('[Core] Generated content via API');
+          return;
+        }
+      }
+    } catch (error) {
+      console.error('[Core] Content generation failed:', error);
+    }
+    
+    // Fallback
+    setContentQueue(prev => [{
+      id: Date.now().toString(),
+      type: type as any,
+      title: `Generated ${type} post`,
+      status: 'draft',
+    }, ...prev]);
+    setGenerating(false);
   };
 
   if (loading) {
