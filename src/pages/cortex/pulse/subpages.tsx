@@ -26,8 +26,8 @@ export const AlertsPage: React.FC = () => {
   ];
 
   const filteredAlerts = alerts.filter(a => {
-    if (filter !== 'all' && a.severity !== filter) return false;
-    if (statusFilter !== 'all' && a.status !== statusFilter) return false;
+    if (filter !== 'all' && a.severity !== filter) {return false;}
+    if (statusFilter !== 'all' && a.status !== statusFilter) {return false;}
     return true;
   });
 

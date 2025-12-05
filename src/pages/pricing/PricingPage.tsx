@@ -128,17 +128,17 @@ export default function PricingPage() {
 
   const formatPrice = (basePrice: number, region: Region, commit: CommitmentOption) => {
     let price = basePrice * region.multiplier * commit.multiplier;
-    if (region.currency === 'CNY' && region.conversionRate) price = price * region.conversionRate;
-    if (region.currency === 'EUR') price = price * 0.92;
-    if (price >= 1000000) return `${region.symbol}${(price / 1000000).toFixed(1)}M`;
-    if (price >= 1000) return `${region.symbol}${Math.round(price / 1000)}K`;
+    if (region.currency === 'CNY' && region.conversionRate) {price = price * region.conversionRate;}
+    if (region.currency === 'EUR') {price = price * 0.92;}
+    if (price >= 1000000) {return `${region.symbol}${(price / 1000000).toFixed(1)}M`;}
+    if (price >= 1000) {return `${region.symbol}${Math.round(price / 1000)}K`;}
     return `${region.symbol}${Math.round(price).toLocaleString()}`;
   };
 
   const getMonthlyEquivalent = (basePrice: number, region: Region, commit: CommitmentOption) => {
     let price = basePrice * region.multiplier * commit.multiplier / 12;
-    if (region.currency === 'CNY' && region.conversionRate) price = price * region.conversionRate;
-    if (region.currency === 'EUR') price = price * 0.92;
+    if (region.currency === 'CNY' && region.conversionRate) {price = price * region.conversionRate;}
+    if (region.currency === 'EUR') {price = price * 0.92;}
     return `${region.symbol}${Math.round(price).toLocaleString()}`;
   };
 

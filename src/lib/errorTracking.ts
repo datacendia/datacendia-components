@@ -113,7 +113,7 @@ export function logComponentError(
  * Flush error queue to backend
  */
 async function flushErrors(): Promise<void> {
-  if (errorQueue.length === 0) return;
+  if (errorQueue.length === 0) {return;}
 
   const errors = [...errorQueue];
   errorQueue = [];

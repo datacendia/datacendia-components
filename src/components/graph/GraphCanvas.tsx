@@ -98,7 +98,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
   // Initialize Cytoscape
   useEffect(() => {
-    if (!containerRef.current) return;
+    if (!containerRef.current) {return;}
 
     const cy = cytoscape({
       container: containerRef.current,
@@ -267,7 +267,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
   // Update elements when data changes
   useEffect(() => {
-    if (!cyRef.current || !isInitialized) return;
+    if (!cyRef.current || !isInitialized) {return;}
 
     const cy = cyRef.current;
     cy.elements().remove();
@@ -283,7 +283,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
   // Handle external selection
   useEffect(() => {
-    if (!cyRef.current || !isInitialized) return;
+    if (!cyRef.current || !isInitialized) {return;}
 
     const cy = cyRef.current;
     cy.elements().unselect();
@@ -319,12 +319,12 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   }, []);
 
   const highlightPath = useCallback((nodeIds: string[]) => {
-    if (!cyRef.current) return;
+    if (!cyRef.current) {return;}
 
     const cy = cyRef.current;
     cy.elements().removeClass('highlighted dimmed');
 
-    if (nodeIds.length === 0) return;
+    if (nodeIds.length === 0) {return;}
 
     const nodes = cy.nodes().filter(n => nodeIds.includes(n.data('id')));
     const edges = nodes.edgesWith(nodes);

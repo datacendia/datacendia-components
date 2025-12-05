@@ -284,7 +284,7 @@ class DecisionIntelligenceService {
   // ---------------------------------------------------------------------------
 
   private initializeDefaultData(): void {
-    if (this.decisions.size > 0) return;
+    if (this.decisions.size > 0) {return;}
 
     // Create sample decisions
     const sampleDecisions: Partial<Decision>[] = [
@@ -384,7 +384,7 @@ class DecisionIntelligenceService {
 
   updateDecision(id: string, updates: Partial<Decision>): Decision | null {
     const decision = this.decisions.get(id);
-    if (!decision) return null;
+    if (!decision) {return null;}
 
     const updated = { ...decision, ...updates, updatedAt: new Date() };
     this.decisions.set(id, updated);
@@ -394,7 +394,7 @@ class DecisionIntelligenceService {
 
   addDecisionEvent(decisionId: string, event: Omit<DecisionEvent, 'id' | 'timestamp'>): void {
     const decision = this.decisions.get(decisionId);
-    if (!decision) return;
+    if (!decision) {return;}
 
     decision.timeline.push({
       ...event,

@@ -33,7 +33,7 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
   const [selectedTier, setSelectedTier] = useState<PremiumTier | 'all'>('all');
   const [expandedFeature, setExpandedFeature] = useState<string | null>(null);
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   const filteredFeatures = selectedTier === 'all' 
     ? PREMIUM_FEATURES 

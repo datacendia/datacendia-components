@@ -48,7 +48,7 @@ async function startSession(): Promise<{ sessionId: string; messages: Message[] 
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({})
   });
-  if (!res.ok) throw new Error('Failed to start session');
+  if (!res.ok) {throw new Error('Failed to start session');}
   return res.json();
 }
 
@@ -58,7 +58,7 @@ async function sendMessage(sessionId: string, message: string): Promise<AIRespon
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ sessionId, message })
   });
-  if (!res.ok) throw new Error('Failed to send message');
+  if (!res.ok) {throw new Error('Failed to send message');}
   return res.json();
 }
 
@@ -159,7 +159,7 @@ export const AdminAIPage: React.FC = () => {
   };
 
   const handleSend = async () => {
-    if (!input.trim() || !sessionId || loading) return;
+    if (!input.trim() || !sessionId || loading) {return;}
 
     const userMessage: Message = {
       role: 'user',

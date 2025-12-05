@@ -72,7 +72,7 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
   };
   
   const isTraitConflicting = (traitId: string): boolean => {
-    if (!enabledTraits.includes(traitId)) return false;
+    if (!enabledTraits.includes(traitId)) {return false;}
     return validation.conflicts.some(
       ([t1, t2]) => t1 === traitId || t2 === traitId
     );
@@ -80,7 +80,7 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
   
   const wouldConflict = (traitId: string): string[] => {
     const trait = getTrait(traitId);
-    if (!trait || enabledTraits.includes(traitId)) return [];
+    if (!trait || enabledTraits.includes(traitId)) {return [];}
     
     return enabledTraits.filter(
       enabledId => trait.conflictsWith?.includes(enabledId) ||
@@ -116,7 +116,7 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
           <div className="flex flex-wrap gap-1.5">
             {enabledTraits.map(traitId => {
               const trait = getTrait(traitId);
-              if (!trait) return null;
+              if (!trait) {return null;}
               return (
                 <button
                   key={traitId}
@@ -345,7 +345,7 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
           <div className="flex flex-wrap gap-2">
             {enabledTraits.map(traitId => {
               const trait = getTrait(traitId);
-              if (!trait) return null;
+              if (!trait) {return null;}
               return (
                 <span
                   key={traitId}
@@ -387,7 +387,7 @@ export const QuickTraitToggle: React.FC<QuickTraitToggleProps> = ({
   size = 'md',
 }) => {
   const trait = getTrait(traitId);
-  if (!trait) return null;
+  if (!trait) {return null;}
   
   const sizeClasses = size === 'sm' 
     ? 'px-2 py-1 text-xs gap-1' 

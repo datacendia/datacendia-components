@@ -318,7 +318,7 @@ interface ConfigPanelProps {
 }
 
 const ConfigPanel: React.FC<ConfigPanelProps> = ({ node, onUpdate, onClose }) => {
-  if (!node) return null;
+  if (!node) {return null;}
 
   return (
     <div className="w-72 bg-white border-l border-neutral-200 overflow-y-auto">
@@ -448,7 +448,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
   // Handle dropping a new node from palette
   const handleCanvasDrop = useCallback((e: React.DragEvent) => {
     e.preventDefault();
-    if (!draggedType || !canvasRef.current) return;
+    if (!draggedType || !canvasRef.current) {return;}
 
     const rect = canvasRef.current.getBoundingClientRect();
     const x = e.clientX - rect.left - 80;
@@ -470,7 +470,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
   const handleNodeDragStart = useCallback((nodeId: string, e: React.MouseEvent) => {
     e.stopPropagation();
     const node = nodes.find(n => n.id === nodeId);
-    if (!node) return;
+    if (!node) {return;}
 
     setDraggingNodeId(nodeId);
     setDragOffset({
@@ -480,7 +480,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
   }, [nodes]);
 
   const handleMouseMove = useCallback((e: React.MouseEvent) => {
-    if (!draggingNodeId) return;
+    if (!draggingNodeId) {return;}
 
     setNodes(prev => prev.map(node =>
       node.id === draggingNodeId
@@ -502,7 +502,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
 
   // Update node config
   const handleUpdateNodeConfig = useCallback((config: Record<string, unknown>) => {
-    if (!configuringNode) return;
+    if (!configuringNode) {return;}
     setNodes(prev => prev.map(n =>
       n.id === configuringNode.id ? { ...n, config: { ...n.config, ...config } } : n
     ));
@@ -557,7 +557,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
           {edges.map(edge => {
             const fromNode = nodes.find(n => n.id === edge.from);
             const toNode = nodes.find(n => n.id === edge.to);
-            if (!fromNode || !toNode) return null;
+            if (!fromNode || !toNode) {return null;}
             return (
               <EdgeComponent
                 key={edge.id}

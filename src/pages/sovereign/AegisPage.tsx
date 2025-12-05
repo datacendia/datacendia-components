@@ -52,9 +52,9 @@ export const AegisPage: React.FC = () => {
         apiClient.api.get<{ data: Signal[] }>('/aegis/signals'),
         apiClient.api.get<{ data: Dashboard }>('/aegis/dashboard'),
       ]);
-      if (threatRes.success) setThreats((threatRes.data as any)?.data || threatRes.data || []);
-      if (signalRes.success) setSignals((signalRes.data as any)?.data || signalRes.data || []);
-      if (dashRes.success) setDashboard((dashRes.data as any)?.data || dashRes.data || null);
+      if (threatRes.success) {setThreats((threatRes.data as any)?.data || threatRes.data || []);}
+      if (signalRes.success) {setSignals((signalRes.data as any)?.data || signalRes.data || []);}
+      if (dashRes.success) {setDashboard((dashRes.data as any)?.data || dashRes.data || null);}
     } catch (error) {
       console.error('Failed to load Aegis data:', error);
     } finally {

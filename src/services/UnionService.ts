@@ -263,11 +263,11 @@ function calculateBurnoutScore(employee: Partial<Employee>): { score: number; le
   
   // Determine level
   let level: BurnoutLevel;
-  if (finalScore >= 80) level = 'emergency';
-  else if (finalScore >= 65) level = 'critical';
-  else if (finalScore >= 50) level = 'warning';
-  else if (finalScore >= 30) level = 'caution';
-  else level = 'healthy';
+  if (finalScore >= 80) {level = 'emergency';}
+  else if (finalScore >= 65) {level = 'critical';}
+  else if (finalScore >= 50) {level = 'warning';}
+  else if (finalScore >= 30) {level = 'caution';}
+  else {level = 'healthy';}
 
   return { score: finalScore, level, factors };
 }
@@ -301,20 +301,20 @@ class UnionService {
         const data = JSON.parse(stored);
         data.employees?.forEach((e: Employee) => {
           e.startDate = new Date(e.startDate);
-          if (e.lastRaiseDate) e.lastRaiseDate = new Date(e.lastRaiseDate);
+          if (e.lastRaiseDate) {e.lastRaiseDate = new Date(e.lastRaiseDate);}
           e.burnoutFactors.forEach(f => f.detectedAt = new Date(f.detectedAt));
           e.rightsViolations.forEach(v => {
             v.occurredAt = new Date(v.occurredAt);
-            if (v.reportedAt) v.reportedAt = new Date(v.reportedAt);
+            if (v.reportedAt) {v.reportedAt = new Date(v.reportedAt);}
             v.auditTrail.forEach(a => a.timestamp = new Date(a.timestamp));
           });
           e.pendingRequests.forEach(r => {
             r.submittedAt = new Date(r.submittedAt);
-            if (r.resolvedAt) r.resolvedAt = new Date(r.resolvedAt);
+            if (r.resolvedAt) {r.resolvedAt = new Date(r.resolvedAt);}
           });
           e.advocacySessions.forEach(s => {
             s.scheduledAt = new Date(s.scheduledAt);
-            if (s.completedAt) s.completedAt = new Date(s.completedAt);
+            if (s.completedAt) {s.completedAt = new Date(s.completedAt);}
           });
           this.employees.set(e.id, e);
         });
@@ -363,7 +363,7 @@ class UnionService {
 
   updateEmployee(id: string, updates: Partial<Employee>): Employee | null {
     const employee = this.employees.get(id);
-    if (!employee) return null;
+    if (!employee) {return null;}
 
     Object.assign(employee, updates);
     
@@ -401,7 +401,7 @@ class UnionService {
 
   async analyzeBurnout(employeeId: string): Promise<{ score: number; level: BurnoutLevel; factors: BurnoutFactor[]; recommendations: string[] }> {
     const employee = this.employees.get(employeeId);
-    if (!employee) throw new Error('Employee not found');
+    if (!employee) {throw new Error('Employee not found');}
 
     const burnout = calculateBurnoutScore(employee);
     
@@ -454,7 +454,7 @@ Provide recommendations in JSON format:
     description: string
   ): RightsViolation {
     const employee = this.employees.get(employeeId);
-    if (!employee) throw new Error('Employee not found');
+    if (!employee) {throw new Error('Employee not found');}
 
     const violation: RightsViolation = {
       id: `violation-${Date.now()}`,
@@ -492,13 +492,13 @@ Provide recommendations in JSON format:
 
   updateViolationStatus(employeeId: string, violationId: string, status: RightsViolation['status'], resolution?: string): RightsViolation | null {
     const employee = this.employees.get(employeeId);
-    if (!employee) return null;
+    if (!employee) {return null;}
 
     const violation = employee.rightsViolations.find(v => v.id === violationId);
-    if (!violation) return null;
+    if (!violation) {return null;}
 
     violation.status = status;
-    if (resolution) violation.resolution = resolution;
+    if (resolution) {violation.resolution = resolution;}
     
     violation.auditTrail.push({
       id: `audit-${Date.now()}`,
@@ -536,7 +536,7 @@ Provide recommendations in JSON format:
     priority: EmployeeRequest['priority'] = 'medium'
   ): EmployeeRequest {
     const employee = this.employees.get(employeeId);
-    if (!employee) throw new Error('Employee not found');
+    if (!employee) {throw new Error('Employee not found');}
 
     const request: EmployeeRequest = {
       id: `request-${Date.now()}`,
@@ -556,10 +556,10 @@ Provide recommendations in JSON format:
 
   async prepareNegotiation(employeeId: string, requestId: string): Promise<NegotiationBrief> {
     const employee = this.employees.get(employeeId);
-    if (!employee) throw new Error('Employee not found');
+    if (!employee) {throw new Error('Employee not found');}
 
     const request = employee.pendingRequests.find(r => r.id === requestId);
-    if (!request) throw new Error('Request not found');
+    if (!request) {throw new Error('Request not found');}
 
     // Calculate market data (simplified - would normally use external APIs)
     const marketRange = {
@@ -576,7 +576,7 @@ Provide recommendations in JSON format:
       ((employee.salary - marketRange.min) / (marketRange.max - marketRange.min)) * 100
     );
 
-    let brief: NegotiationBrief = {
+    const brief: NegotiationBrief = {
       id: `brief-${Date.now()}`,
       generatedAt: new Date(),
       context: `Negotiation preparation for ${request.type} request`,
@@ -670,10 +670,10 @@ Respond in JSON:
 
   submitRequest(employeeId: string, requestId: string): EmployeeRequest | null {
     const employee = this.employees.get(employeeId);
-    if (!employee) return null;
+    if (!employee) {return null;}
 
     const request = employee.pendingRequests.find(r => r.id === requestId);
-    if (!request) return null;
+    if (!request) {return null;}
 
     request.status = 'submitted';
     this.saveToStorage();
@@ -691,7 +691,7 @@ Respond in JSON:
     scheduledAt: Date
   ): AdvocacySession {
     const employee = this.employees.get(employeeId);
-    if (!employee) throw new Error('Employee not found');
+    if (!employee) {throw new Error('Employee not found');}
 
     const session: AdvocacySession = {
       id: `session-${Date.now()}`,
@@ -774,7 +774,7 @@ Respond in JSON:
     employees.forEach(e => {
       e.rightsViolations.forEach(v => {
         rightsByType[v.type].violations++;
-        if (v.status === 'resolved') rightsByType[v.type].resolved++;
+        if (v.status === 'resolved') {rightsByType[v.type].resolved++;}
       });
     });
 

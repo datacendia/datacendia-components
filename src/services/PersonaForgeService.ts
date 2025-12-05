@@ -313,7 +313,7 @@ class PersonaForgeService {
   // ---------------------------------------------------------------------------
 
   private initializeDefaultPersonas(): void {
-    if (this.personas.size > 0) return;
+    if (this.personas.size > 0) {return;}
 
     const defaults: Partial<DigitalPersona>[] = [
       {
@@ -436,7 +436,7 @@ class PersonaForgeService {
 
   updatePersona(id: string, updates: Partial<DigitalPersona>): DigitalPersona | null {
     const persona = this.personas.get(id);
-    if (!persona) return null;
+    if (!persona) {return null;}
 
     const updated = { ...persona, ...updates };
     this.personas.set(id, updated);
@@ -496,7 +496,7 @@ class PersonaForgeService {
 
   startTraining(personaId: string, onProgress?: (progress: number, status: TrainingStatus) => void): void {
     const persona = this.personas.get(personaId);
-    if (!persona) return;
+    if (!persona) {return;}
 
     // Clear any existing interval
     this.stopTraining(personaId);
@@ -508,8 +508,8 @@ class PersonaForgeService {
       progress = Math.min(progress + Math.random() * 3, targetProgress);
       
       let status: TrainingStatus = 'training';
-      if (progress >= 95) status = 'validating';
-      if (progress >= 100) status = 'ready';
+      if (progress >= 95) {status = 'validating';}
+      if (progress >= 100) {status = 'ready';}
 
       this.updatePersona(personaId, { 
         trainingProgress: Math.round(progress), 
@@ -692,7 +692,7 @@ class PersonaForgeService {
     latencyMs: number
   ): void {
     const persona = this.personas.get(personaId);
-    if (!persona) return;
+    if (!persona) {return;}
 
     // Update persona stats
     this.updatePersona(personaId, {

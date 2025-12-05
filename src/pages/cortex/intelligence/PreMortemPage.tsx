@@ -246,9 +246,9 @@ export const PreMortemPage: React.FC = () => {
   };
 
   const getRiskColor = (score: number) => {
-    if (score < 25) return 'text-green-600 bg-green-50';
-    if (score < 50) return 'text-yellow-600 bg-yellow-50';
-    if (score < 75) return 'text-orange-600 bg-orange-50';
+    if (score < 25) {return 'text-green-600 bg-green-50';}
+    if (score < 50) {return 'text-yellow-600 bg-yellow-50';}
+    if (score < 75) {return 'text-orange-600 bg-orange-50';}
     return 'text-red-600 bg-red-50';
   };
 

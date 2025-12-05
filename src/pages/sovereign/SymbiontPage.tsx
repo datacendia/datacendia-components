@@ -53,9 +53,9 @@ export const SymbiontPage: React.FC = () => {
         apiClient.api.get<{ data: Opportunity[] }>('/symbiont/opportunities'),
         apiClient.api.get<{ data: Dashboard }>('/symbiont/dashboard'),
       ]);
-      if (entRes.success) setEntities((entRes.data as any)?.data || entRes.data || []);
-      if (oppRes.success) setOpportunities((oppRes.data as any)?.data || oppRes.data || []);
-      if (dashRes.success) setDashboard((dashRes.data as any)?.data || dashRes.data || null);
+      if (entRes.success) {setEntities((entRes.data as any)?.data || entRes.data || []);}
+      if (oppRes.success) {setOpportunities((oppRes.data as any)?.data || oppRes.data || []);}
+      if (dashRes.success) {setDashboard((dashRes.data as any)?.data || dashRes.data || null);}
     } catch (error) {
       console.error('Failed to load Symbiont data:', error);
     } finally {

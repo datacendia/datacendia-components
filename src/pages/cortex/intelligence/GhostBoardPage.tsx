@@ -41,7 +41,7 @@ export const GhostBoardPage: React.FC = () => {
   const [userAnswer, setUserAnswer] = useState('');
 
   const runSession = async () => {
-    if (!proposalTitle.trim() || !proposalContent.trim()) return;
+    if (!proposalTitle.trim() || !proposalContent.trim()) {return;}
 
     setIsRunning(true);
     try {

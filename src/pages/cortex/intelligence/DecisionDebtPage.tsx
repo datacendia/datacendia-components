@@ -37,7 +37,7 @@ export const DecisionDebtPage: React.FC = () => {
   };
 
   const handleAddDecision = () => {
-    if (!newDecisionTitle.trim()) return;
+    if (!newDecisionTitle.trim()) {return;}
     
     decisionIntelligenceService.createPendingDecision({
       title: newDecisionTitle,

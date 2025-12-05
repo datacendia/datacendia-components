@@ -23,7 +23,7 @@ export function useFocusTrap<T extends HTMLElement = HTMLDivElement>(
   const previousActiveElementRef = useRef<Element | null>(null);
 
   const activate = useCallback(() => {
-    if (!containerRef.current || !enabled) return;
+    if (!containerRef.current || !enabled) {return;}
 
     previousActiveElementRef.current = document.activeElement;
     focusTrapRef.current = new FocusTrap(containerRef.current);

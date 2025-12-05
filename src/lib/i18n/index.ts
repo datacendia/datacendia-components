@@ -319,7 +319,7 @@ function getNestedValue(obj: Record<string, unknown>, path: string): string | un
  * Interpolate parameters into translation string
  */
 function interpolate(str: string, params?: Record<string, string | number>): string {
-  if (!params) return str;
+  if (!params) {return str;}
   
   return str.replace(/\{\{(\w+)\}\}/g, (_, key) => {
     return params[key]?.toString() ?? `{{${key}}}`;
@@ -330,7 +330,7 @@ function interpolate(str: string, params?: Record<string, string | number>): str
  * Detect user's preferred locale from browser
  */
 export function detectBrowserLocale(): SupportedLocale {
-  if (typeof window === 'undefined') return 'en';
+  if (typeof window === 'undefined') {return 'en';}
   
   const browserLang = navigator.language.split('-')[0];
   const supportedLocales = Object.keys(localeConfigs) as SupportedLocale[];
@@ -346,7 +346,7 @@ export function detectBrowserLocale(): SupportedLocale {
  * Get stored locale from localStorage
  */
 export function getStoredLocale(): SupportedLocale | null {
-  if (typeof window === 'undefined') return null;
+  if (typeof window === 'undefined') {return null;}
   
   const stored = localStorage.getItem('datacendia_locale');
   if (stored && Object.keys(localeConfigs).includes(stored)) {
@@ -462,11 +462,11 @@ export const I18nProvider: React.FC<I18nProviderProps> = ({
 
     const rtf = new Intl.RelativeTimeFormat(locale, { numeric: 'auto' });
 
-    if (diffSec < 60) return rtf.format(-diffSec, 'second');
-    if (diffMin < 60) return rtf.format(-diffMin, 'minute');
-    if (diffHour < 24) return rtf.format(-diffHour, 'hour');
-    if (diffDay < 7) return rtf.format(-diffDay, 'day');
-    if (diffWeek < 4) return rtf.format(-diffWeek, 'week');
+    if (diffSec < 60) {return rtf.format(-diffSec, 'second');}
+    if (diffMin < 60) {return rtf.format(-diffMin, 'minute');}
+    if (diffHour < 24) {return rtf.format(-diffHour, 'hour');}
+    if (diffDay < 7) {return rtf.format(-diffDay, 'day');}
+    if (diffWeek < 4) {return rtf.format(-diffWeek, 'week');}
     
     return formatDate(dateObj);
   }, [locale, formatDate]);

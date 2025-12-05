@@ -140,7 +140,7 @@ const ComplianceEnforcerDemo: React.FC = () => {
   };
 
   const runCustomEnforcement = async () => {
-    if (!customAction || !customDescription) return;
+    if (!customAction || !customDescription) {return;}
     
     setLoading(true);
     setResult(null);

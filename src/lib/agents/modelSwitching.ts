@@ -676,7 +676,7 @@ export function getModelCategories(): ModelCategory[] {
  */
 export function estimateTokensPerSecond(modelId: string): number {
   const model = getModel(modelId);
-  if (!model) return 20;
+  if (!model) {return 20;}
   
   switch (model.speed) {
     case 'fast': return 50;

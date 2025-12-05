@@ -117,7 +117,7 @@ export const PublicLayout: React.FC = () => {
   }, [location.pathname]);
 
   const handleNavClick = (href: string) => {
-    if (href.startsWith('#')) return;
+    if (href.startsWith('#')) {return;}
     navigate(href);
   };
 

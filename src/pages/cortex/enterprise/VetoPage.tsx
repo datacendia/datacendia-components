@@ -44,7 +44,7 @@ export const VetoPage: React.FC = () => {
   }, [loadData]);
 
   const handleSubmitProposal = async () => {
-    if (!newProposal.title.trim() || !newProposal.description.trim()) return;
+    if (!newProposal.title.trim() || !newProposal.description.trim()) {return;}
     
     setIsSubmitting(true);
     try {

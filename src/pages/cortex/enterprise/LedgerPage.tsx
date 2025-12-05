@@ -150,10 +150,10 @@ export const LedgerPage: React.FC = () => {
   };
 
   const getEventColor = (type: LedgerEventType) => {
-    if (type.includes('vetoed') || type.includes('denied')) return 'border-red-600/50 bg-red-900/20';
-    if (type.includes('approved') || type.includes('completed')) return 'border-green-600/50 bg-green-900/20';
-    if (type.includes('voted') || type.includes('contributed')) return 'border-blue-600/50 bg-blue-900/20';
-    if (type.includes('audit') || type.includes('compliance')) return 'border-purple-600/50 bg-purple-900/20';
+    if (type.includes('vetoed') || type.includes('denied')) {return 'border-red-600/50 bg-red-900/20';}
+    if (type.includes('approved') || type.includes('completed')) {return 'border-green-600/50 bg-green-900/20';}
+    if (type.includes('voted') || type.includes('contributed')) {return 'border-blue-600/50 bg-blue-900/20';}
+    if (type.includes('audit') || type.includes('compliance')) {return 'border-purple-600/50 bg-purple-900/20';}
     return 'border-amber-600/50 bg-amber-900/20';
   };
 

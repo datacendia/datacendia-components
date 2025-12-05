@@ -799,11 +799,11 @@ const LanguageContext = createContext<LanguageContextType | null>(null);
 
 // Auto-detect browser language on first visit
 const detectBrowserLanguage = (): string => {
-  if (typeof window === 'undefined') return 'en';
+  if (typeof window === 'undefined') {return 'en';}
   
   // Check if user has a saved preference
   const saved = localStorage.getItem('datacendia_language');
-  if (saved) return saved;
+  if (saved) {return saved;}
   
   // Get browser language (e.g., 'en-US' -> 'en')
   const browserLang = navigator.language?.split('-')[0] || 'en';
@@ -919,7 +919,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   // Set language
   const setLanguage = useCallback(async (code: string) => {
-    if (code === language) return;
+    if (code === language) {return;}
     
     setLanguageState(code);
     localStorage.setItem('datacendia_language', code);
@@ -947,7 +947,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   // Translate dynamic content
   const translateContent = useCallback(async (content: string): Promise<string> => {
-    if (language === 'en') return content;
+    if (language === 'en') {return content;}
 
     try {
       const response = await apiClient.api.post<{ translated: string }>('/i18n/translate/content', {
@@ -971,7 +971,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     messages: Array<{ agent: string; content: string }>;
     decision?: string;
   }) => {
-    if (language === 'en') return content;
+    if (language === 'en') {return content;}
 
     try {
       const response = await apiClient.api.post<typeof content>('/i18n/translate/deliberation', {
@@ -1048,7 +1048,7 @@ export function LanguageSelector({ className }: { className?: string }) {
     if (isOpen && searchInputRef.current) {
       setTimeout(() => searchInputRef.current?.focus(), 100);
     }
-    if (!isOpen) setSearchQuery('');
+    if (!isOpen) {setSearchQuery('');}
   }, [isOpen]);
 
   // Keyboard shortcut: Alt+L to toggle

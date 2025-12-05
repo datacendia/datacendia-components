@@ -259,7 +259,7 @@ export function AgentDropdown({
           <div className="flex-1 overflow-y-auto">
             {Object.entries(AGENT_CATEGORIES).map(([categoryName, categoryInfo]) => {
               const categoryAgents = categorizedAgents[categoryName] || [];
-              if (categoryAgents.length === 0) return null;
+              if (categoryAgents.length === 0) {return null;}
               
               const Icon = categoryInfo.icon;
               const isExpanded = expandedCategories.has(categoryName);

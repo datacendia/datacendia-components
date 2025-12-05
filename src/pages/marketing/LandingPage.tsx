@@ -374,9 +374,9 @@ const LandingPage = () => {
                  Verifies data, reasons about the future, and orchestrates action.
                </p>
                <div className="flex gap-4">
-                 <a href="https://twitter.com/datacendia" target="_blank" rel="noopener" className="text-slate-600 hover:text-white">𝕏</a>
-                 <a href="https://linkedin.com/company/datacendia" target="_blank" rel="noopener" className="text-slate-600 hover:text-white">in</a>
-                 <a href="https://github.com/datacendia" target="_blank" rel="noopener" className="text-slate-600 hover:text-white">gh</a>
+                 <a href="https://twitter.com/datacendia" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-white">𝕏</a>
+                 <a href="https://linkedin.com/company/datacendia" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-white">in</a>
+                 <a href="https://github.com/datacendia" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-white">gh</a>
                </div>
              </div>
              <div>

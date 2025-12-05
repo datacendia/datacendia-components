@@ -89,7 +89,7 @@ export function usePremiumFeatures() {
   // Get the required feature for an agent
   const getAgentRequiredFeature = useCallback((agentId: string): PremiumFeature | undefined => {
     const featureId = AGENT_FEATURE_MAP[agentId];
-    if (!featureId) return undefined;
+    if (!featureId) {return undefined;}
     return getFeatureById(featureId);
   }, []);
 

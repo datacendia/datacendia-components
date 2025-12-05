@@ -99,9 +99,9 @@ export const complianceApi = {
   // Frameworks
   async getFrameworks(filters?: { domain?: ComplianceDomain; pillar?: PillarId; industry?: string }) {
     const params = new URLSearchParams();
-    if (filters?.domain) params.set('domain', filters.domain);
-    if (filters?.pillar) params.set('pillar', filters.pillar);
-    if (filters?.industry) params.set('industry', filters.industry);
+    if (filters?.domain) {params.set('domain', filters.domain);}
+    if (filters?.pillar) {params.set('pillar', filters.pillar);}
+    if (filters?.industry) {params.set('industry', filters.industry);}
     
     const res = await fetch(`${API_BASE}/frameworks?${params}`);
     return res.json();
@@ -150,8 +150,8 @@ export const complianceApi = {
 
   async getAssessments(organizationId: string, filters?: { domain?: ComplianceDomain; pillarId?: PillarId }) {
     const params = new URLSearchParams({ organizationId });
-    if (filters?.domain) params.set('domain', filters.domain);
-    if (filters?.pillarId) params.set('pillarId', filters.pillarId);
+    if (filters?.domain) {params.set('domain', filters.domain);}
+    if (filters?.pillarId) {params.set('pillarId', filters.pillarId);}
     
     const res = await fetch(`${API_BASE}/assessments?${params}`);
     return res.json();
@@ -225,8 +225,8 @@ export const complianceApi = {
 
   async getRules(filters?: { domain?: ComplianceDomain; framework?: string }) {
     const params = new URLSearchParams();
-    if (filters?.domain) params.set('domain', filters.domain);
-    if (filters?.framework) params.set('framework', filters.framework);
+    if (filters?.domain) {params.set('domain', filters.domain);}
+    if (filters?.framework) {params.set('framework', filters.framework);}
     const res = await fetch(`${API_BASE}/rules?${params}`);
     return res.json();
   },

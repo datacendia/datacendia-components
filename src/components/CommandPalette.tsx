@@ -79,7 +79,7 @@ export function CommandPalette() {
 
   // Filter commands by query
   const filteredCommands = useMemo(() => {
-    if (!query) return allCommands.slice(0, 10);
+    if (!query) {return allCommands.slice(0, 10);}
     
     const lowerQuery = query.toLowerCase();
     return allCommands.filter(cmd => 
@@ -155,13 +155,13 @@ export function CommandPalette() {
   const groupedCommands = useMemo(() => {
     const groups: Record<string, CommandItem[]> = {};
     filteredCommands.forEach(cmd => {
-      if (!groups[cmd.category]) groups[cmd.category] = [];
+      if (!groups[cmd.category]) {groups[cmd.category] = [];}
       groups[cmd.category].push(cmd);
     });
     return groups;
   }, [filteredCommands]);
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   return (
     <>

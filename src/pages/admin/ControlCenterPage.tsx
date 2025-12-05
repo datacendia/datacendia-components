@@ -74,34 +74,34 @@ const API_BASE = '/api/v1/admin';
 
 async function fetchControlDashboard(): Promise<ControlDashboard> {
   const res = await fetch(`${API_BASE}/control/dashboard`);
-  if (!res.ok) throw new Error('Failed to fetch dashboard');
+  if (!res.ok) {throw new Error('Failed to fetch dashboard');}
   return res.json();
 }
 
 async function fetchFeatures(): Promise<Feature[]> {
   const res = await fetch(`${API_BASE}/features`);
-  if (!res.ok) throw new Error('Failed to fetch features');
+  if (!res.ok) {throw new Error('Failed to fetch features');}
   const data = await res.json();
   return data.features;
 }
 
 async function fetchAgents(): Promise<Agent[]> {
   const res = await fetch(`${API_BASE}/agents`);
-  if (!res.ok) throw new Error('Failed to fetch agents');
+  if (!res.ok) {throw new Error('Failed to fetch agents');}
   const data = await res.json();
   return data.agents;
 }
 
 async function fetchSuites(): Promise<Suite[]> {
   const res = await fetch(`${API_BASE}/suites`);
-  if (!res.ok) throw new Error('Failed to fetch suites');
+  if (!res.ok) {throw new Error('Failed to fetch suites');}
   const data = await res.json();
   return data.suites;
 }
 
 async function fetchPricing(): Promise<PricingTier[]> {
   const res = await fetch(`${API_BASE}/pricing?includeHidden=true`);
-  if (!res.ok) throw new Error('Failed to fetch pricing');
+  if (!res.ok) {throw new Error('Failed to fetch pricing');}
   const data = await res.json();
   return data.pricing;
 }
@@ -112,7 +112,7 @@ async function toggleFeature(id: string, enabled: boolean): Promise<Feature> {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ enabled })
   });
-  if (!res.ok) throw new Error('Failed to toggle feature');
+  if (!res.ok) {throw new Error('Failed to toggle feature');}
   return res.json();
 }
 
@@ -122,7 +122,7 @@ async function setVisibility(id: string, visibility: string): Promise<Feature> {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ visibility })
   });
-  if (!res.ok) throw new Error('Failed to set visibility');
+  if (!res.ok) {throw new Error('Failed to set visibility');}
   return res.json();
 }
 
@@ -132,7 +132,7 @@ async function toggleAgent(id: string, enabled: boolean): Promise<Agent> {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ enabled })
   });
-  if (!res.ok) throw new Error('Failed to toggle agent');
+  if (!res.ok) {throw new Error('Failed to toggle agent');}
   return res.json();
 }
 
@@ -142,7 +142,7 @@ async function toggleSuite(id: string, enabled: boolean): Promise<Suite> {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ enabled })
   });
-  if (!res.ok) throw new Error('Failed to toggle suite');
+  if (!res.ok) {throw new Error('Failed to toggle suite');}
   return res.json();
 }
 
@@ -152,7 +152,7 @@ async function updatePricing(id: string, updates: Partial<PricingTier>): Promise
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(updates)
   });
-  if (!res.ok) throw new Error('Failed to update pricing');
+  if (!res.ok) {throw new Error('Failed to update pricing');}
   return res.json();
 }
 
@@ -415,7 +415,7 @@ export const ControlCenterPage: React.FC = () => {
         <div className="space-y-4">
           {Object.entries(
             features.reduce((acc, f) => {
-              if (!acc[f.category]) acc[f.category] = [];
+              if (!acc[f.category]) {acc[f.category] = [];}
               acc[f.category].push(f);
               return acc;
             }, {} as Record<string, Feature[]>)

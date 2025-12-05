@@ -259,7 +259,7 @@ const ApprovalModal: React.FC<{
   onApprove: () => void;
   onReject: () => void;
 }> = ({ approval, onApprove, onReject }) => {
-  if (!approval) return null;
+  if (!approval) {return null;}
   
   return (
     <div className="bg-neutral-800/80 border border-orange-500/50 rounded-lg p-5 mt-4">
@@ -418,7 +418,7 @@ export const BridgePage: React.FC = () => {
               value={selectedWorkflow.id}
               onChange={(e) => {
                 const wf = workflows.find(w => w.id === e.target.value);
-                if (wf) setSelectedWorkflow(wf);
+                if (wf) {setSelectedWorkflow(wf);}
               }}
               className="bg-transparent text-white font-mono text-lg border-none focus:ring-0 cursor-pointer"
             >

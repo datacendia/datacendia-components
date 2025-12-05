@@ -342,7 +342,7 @@ export const LensPage: React.FC = () => {
               value={selectedSimulation.id}
               onChange={(e) => {
                 const sim = simulations.find(s => s.id === e.target.value);
-                if (sim) setSelectedSimulation(sim);
+                if (sim) {setSelectedSimulation(sim);}
               }}
               className="bg-transparent text-white font-mono text-lg border-none focus:ring-0 cursor-pointer"
             >

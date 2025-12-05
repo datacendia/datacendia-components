@@ -59,7 +59,7 @@ export const VoicePage: React.FC = () => {
   }, [messages]);
 
   const handleSubmit = async () => {
-    if (!userInput.trim() || isSending) return;
+    if (!userInput.trim() || isSending) {return;}
 
     setIsSending(true);
     setCurrentSpeaker(activeExecutives[0] || null);
@@ -161,7 +161,7 @@ export const VoicePage: React.FC = () => {
               {/* Voice Toggle */}
               <button
                 onClick={() => {
-                  if (isSpeaking) voiceSynthesis.stop();
+                  if (isSpeaking) {voiceSynthesis.stop();}
                   setVoiceEnabled(!voiceEnabled);
                 }}
                 className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-2 ${

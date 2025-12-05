@@ -725,7 +725,7 @@ export function traitsConflict(traitId1: string, traitId2: string): boolean {
   const trait1 = getTrait(traitId1);
   const trait2 = getTrait(traitId2);
   
-  if (!trait1 || !trait2) return false;
+  if (!trait1 || !trait2) {return false;}
   
   return Boolean(
     trait1.conflictsWith?.includes(traitId2) ||

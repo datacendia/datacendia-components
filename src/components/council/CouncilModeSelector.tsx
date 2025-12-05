@@ -57,7 +57,7 @@ export function CouncilModeSelector({
                 </div>
                 {modeIds.map(modeId => {
                   const m = COUNCIL_MODES[modeId];
-                  if (!m) return null;
+                  if (!m) {return null;}
                   return (
                     <button
                       key={modeId}

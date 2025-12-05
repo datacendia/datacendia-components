@@ -130,7 +130,7 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
   };
 
   const handleSubmit = () => {
-    if (!selectedRole || !content.trim()) return;
+    if (!selectedRole || !content.trim()) {return;}
 
     onSubmit({
       userId: 'current-user', // Would come from auth context
@@ -144,7 +144,7 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
     onClose();
   };
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">

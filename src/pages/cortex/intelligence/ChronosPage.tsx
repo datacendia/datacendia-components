@@ -1656,14 +1656,14 @@ export const ChronosPage: React.FC = () => {
     }
     
     return () => {
-      if (playIntervalRef.current) clearInterval(playIntervalRef.current);
+      if (playIntervalRef.current) {clearInterval(playIntervalRef.current);}
     };
   }, [isPlaying, playbackSpeed, mode, timeRange]);
 
   // Initialize pivotal moments with AI detection
   useEffect(() => {
     const detectPivotalMomentsWithAI = async () => {
-      if (events.length === 0) return;
+      if (events.length === 0) {return;}
       
       try {
         // Call AI to detect pivotal moments
@@ -2883,7 +2883,7 @@ const TimelineScrubber: React.FC<{
   
   // Calculate date from mouse position
   const getDateFromPosition = useCallback((clientX: number) => {
-    if (!trackRef.current) return null;
+    if (!trackRef.current) {return null;}
     const rect = trackRef.current.getBoundingClientRect();
     const x = Math.max(0, Math.min(clientX - rect.left, rect.width));
     const pct = x / rect.width;
@@ -2892,7 +2892,7 @@ const TimelineScrubber: React.FC<{
 
   const handleTrackClick = (e: React.MouseEvent) => {
     const newDate = getDateFromPosition(e.clientX);
-    if (newDate) onDateChange(newDate);
+    if (newDate) {onDateChange(newDate);}
   };
 
   // Handle drag start
@@ -2900,16 +2900,16 @@ const TimelineScrubber: React.FC<{
     e.preventDefault();
     setIsDragging(true);
     const newDate = getDateFromPosition(e.clientX);
-    if (newDate) onDateChange(newDate);
+    if (newDate) {onDateChange(newDate);}
   };
 
   // Handle drag move and end
   useEffect(() => {
-    if (!isDragging) return;
+    if (!isDragging) {return;}
 
     const handleMouseMove = (e: MouseEvent) => {
       const newDate = getDateFromPosition(e.clientX);
-      if (newDate) onDateChange(newDate);
+      if (newDate) {onDateChange(newDate);}
     };
 
     const handleMouseUp = () => {

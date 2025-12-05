@@ -119,15 +119,15 @@ export const ServiceTooltip: React.FC<ServiceTooltipProps> = ({
   };
 
   const handleMouseEnter = () => {
-    if (variant === 'hover') setIsOpen(true);
+    if (variant === 'hover') {setIsOpen(true);}
   };
 
   const handleMouseLeave = () => {
-    if (variant === 'hover') setIsOpen(false);
+    if (variant === 'hover') {setIsOpen(false);}
   };
 
   const handleClick = () => {
-    if (variant === 'click') setIsOpen(!isOpen);
+    if (variant === 'click') {setIsOpen(!isOpen);}
   };
 
   return (

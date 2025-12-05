@@ -83,7 +83,7 @@ export function getContrastRatio(foreground: string, background: string): number
   const fg = hexToRgb(foreground);
   const bg = hexToRgb(background);
 
-  if (!fg || !bg) return 1;
+  if (!fg || !bg) {return 1;}
 
   const l1 = getRelativeLuminance(fg.r, fg.g, fg.b);
   const l2 = getRelativeLuminance(bg.r, bg.g, bg.b);
@@ -123,7 +123,7 @@ export function suggestAccessibleColor(
   const targetRatio = level === 'AAA' ? CONTRAST_RATIOS.AAA_NORMAL_TEXT : CONTRAST_RATIOS.AA_NORMAL_TEXT;
   
   const rgb = hexToRgb(color);
-  if (!rgb) return color;
+  if (!rgb) {return color;}
 
   // Try darkening or lightening the color
   let adjustedColor = color;
@@ -202,7 +202,7 @@ export class FocusTrap {
   }
 
   private handleKeyDown = (event: KeyboardEvent): void => {
-    if (event.key !== KEYBOARD_KEYS.TAB) return;
+    if (event.key !== KEYBOARD_KEYS.TAB) {return;}
 
     this.updateFocusableElements();
     
@@ -301,7 +301,7 @@ export function createArrowKeyHandler(
 
   return (event: KeyboardEvent) => {
     const currentIndex = items.findIndex((item) => item === document.activeElement);
-    if (currentIndex === -1) return;
+    if (currentIndex === -1) {return;}
 
     let nextIndex = currentIndex;
 
@@ -354,8 +354,8 @@ export function createArrowKeyHandler(
 
     // Handle looping
     if (loop) {
-      if (nextIndex < 0) nextIndex = items.length - 1;
-      if (nextIndex >= items.length) nextIndex = 0;
+      if (nextIndex < 0) {nextIndex = items.length - 1;}
+      if (nextIndex >= items.length) {nextIndex = 0;}
     } else {
       nextIndex = Math.max(0, Math.min(items.length - 1, nextIndex));
     }
@@ -445,7 +445,7 @@ export function checkElementAccessibility(element: HTMLElement): AccessibilityIs
     let previousLevel = 0;
 
     for (const h of previousHeadings) {
-      if (h === element) break;
+      if (h === element) {break;}
       previousLevel = parseInt(h.tagName[1]);
     }
 
@@ -549,8 +549,8 @@ export function prefersHighContrast(): boolean {
  * Get appropriate color scheme based on system preferences
  */
 export function getPreferredColorScheme(): 'light' | 'dark' | 'high-contrast' {
-  if (prefersHighContrast()) return 'high-contrast';
-  if (window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
+  if (prefersHighContrast()) {return 'high-contrast';}
+  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {return 'dark';}
   return 'light';
 }
 
@@ -598,7 +598,7 @@ class WCAGService {
    * Initialize WCAG service with global accessibility enhancements
    */
   initialize(): void {
-    if (this.initialized) return;
+    if (this.initialized) {return;}
 
     // Add live region for announcements
     createLiveRegion();

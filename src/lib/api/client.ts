@@ -101,7 +101,7 @@ class TokenManager {
   }
 
   private async _doRefresh(): Promise<boolean> {
-    if (!this.refreshToken) return false;
+    if (!this.refreshToken) {return false;}
 
     try {
       const response = await fetch(`${API_BASE_URL}/auth/refresh`, {
@@ -251,7 +251,7 @@ export function onAuthChange(listener: AuthListener): () => void {
   authListeners.push(listener);
   return () => {
     const index = authListeners.indexOf(listener);
-    if (index > -1) authListeners.splice(index, 1);
+    if (index > -1) {authListeners.splice(index, 1);}
   };
 }
 

@@ -185,7 +185,7 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
             {/* Group by category */}
             {['Database', 'Data Warehouse', 'CRM', 'ERP', 'Cloud', 'API', 'File'].map((category) => {
               const categoryConnectors = availableConnectors.filter(c => c.category === category);
-              if (categoryConnectors.length === 0) return null;
+              if (categoryConnectors.length === 0) {return null;}
               
               return (
                 <div key={category}>

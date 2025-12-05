@@ -256,7 +256,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
     );
   }
 
-  if (!deliberation) return null;
+  if (!deliberation) {return null;}
 
   return (
     <div className="flex flex-col h-full bg-white rounded-xl border border-neutral-200 overflow-hidden">

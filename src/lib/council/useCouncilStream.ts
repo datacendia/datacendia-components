@@ -71,7 +71,7 @@ export function useCouncilConnection(options: UseCouncilStreamOptions = {}) {
   }, [autoConnect]);
 
   const connect = useCallback(async () => {
-    if (!clientRef.current) return;
+    if (!clientRef.current) {return;}
     setIsConnecting(true);
     try {
       await clientRef.current.connect();
@@ -122,7 +122,7 @@ export function useDeliberation(
   const clientRef = useRef<CouncilStreamClient | null>(null);
 
   useEffect(() => {
-    if (!deliberationId) return;
+    if (!deliberationId) {return;}
 
     clientRef.current = getCouncilStreamClient();
     
@@ -149,7 +149,7 @@ export function useDeliberation(
         case 'agent_start':
           setIsStreaming(true);
           setStreamingAgentId(event.agentId || null);
-          if (event.agentId) onAgentStart?.(event.agentId);
+          if (event.agentId) {onAgentStart?.(event.agentId);}
           break;
 
         case 'token':
@@ -282,7 +282,7 @@ export function useCouncilDeliberation() {
 
   // Listen for new deliberation ID
   useEffect(() => {
-    if (!clientRef.current) return;
+    if (!clientRef.current) {return;}
 
     const unsubscribe = clientRef.current.onStateChange((state) => {
       if (!activeDeliberationId && state.status === 'initial_analysis') {
@@ -315,12 +315,12 @@ export function useAgentStream(deliberationId: string | null, agentId: string | 
   const [latency, setLatency] = useState<number | null>(null);
 
   useEffect(() => {
-    if (!deliberationId || !agentId) return;
+    if (!deliberationId || !agentId) {return;}
 
     const client = getCouncilStreamClient();
 
     const unsubscribe = client.onEvent(deliberationId, (event) => {
-      if (event.agentId !== agentId) return;
+      if (event.agentId !== agentId) {return;}
 
       switch (event.type) {
         case 'agent_start':
@@ -338,9 +338,9 @@ export function useAgentStream(deliberationId: string | null, agentId: string | 
         case 'agent_complete':
           setIsStreaming(false);
           setIsComplete(true);
-          if (event.content) setContent(event.content);
-          if (event.metadata?.confidence) setConfidence(event.metadata.confidence);
-          if (event.metadata?.latency) setLatency(event.metadata.latency);
+          if (event.content) {setContent(event.content);}
+          if (event.metadata?.confidence) {setConfidence(event.metadata.confidence);}
+          if (event.metadata?.latency) {setLatency(event.metadata.latency);}
           break;
       }
     });

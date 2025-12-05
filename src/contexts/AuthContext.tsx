@@ -218,7 +218,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Refresh user data
   const refreshUser = useCallback(async () => {
-    if (!tokenManager.isAuthenticated()) return;
+    if (!tokenManager.isAuthenticated()) {return;}
 
     try {
       const response = await authApi.getCurrentUser();
@@ -248,9 +248,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Permission check - role-based for now
   const hasPermission = useCallback((permission: string): boolean => {
-    if (!state.user) return false;
+    if (!state.user) {return false;}
     // Admins and Super Admins have all permissions
-    if (state.user.role === 'ADMIN' || state.user.role === 'SUPER_ADMIN') return true;
+    if (state.user.role === 'ADMIN' || state.user.role === 'SUPER_ADMIN') {return true;}
     // Role-based permission mapping
     const rolePermissions: Record<string, string[]> = {
       'SUPER_ADMIN': ['*'],
@@ -264,7 +264,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Role check
   const hasRole = useCallback((roles: string | string[]): boolean => {
-    if (!state.user) return false;
+    if (!state.user) {return false;}
     const roleArray = Array.isArray(roles) ? roles : [roles];
     return roleArray.includes(state.user.role);
   }, [state.user]);

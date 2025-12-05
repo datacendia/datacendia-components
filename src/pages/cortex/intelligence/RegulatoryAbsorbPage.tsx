@@ -46,7 +46,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
   }, []);
 
   const absorbDocument = async () => {
-    if (!textContent.trim() && !file) return;
+    if (!textContent.trim() && !file) {return;}
 
     setIsProcessing(true);
     setProgress(0);

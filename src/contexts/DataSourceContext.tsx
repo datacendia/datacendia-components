@@ -213,7 +213,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
 
   // Advance workflow to next step
   const advanceWorkflow = useCallback((result?: unknown) => {
-    if (!activeWorkflow) return;
+    if (!activeWorkflow) {return;}
     
     const updatedSteps = [...activeWorkflow.steps];
     updatedSteps[activeWorkflow.currentStep].completed = true;

@@ -228,8 +228,8 @@ export const LineagePage: React.FC = () => {
         const entitiesData = await entitiesRes.json();
         const qualityData = await qualityRes.json();
         
-        if (entitiesData.success) setEntities(entitiesData.data || []);
-        if (qualityData.success) setQualityOverview(qualityData.data);
+        if (entitiesData.success) {setEntities(entitiesData.data || []);}
+        if (qualityData.success) {setQualityOverview(qualityData.data);}
       } catch (err) {
         console.error('Failed to load lineage data:', err);
       } finally {
@@ -245,8 +245,8 @@ export const LineagePage: React.FC = () => {
     const diffMs = now.getTime() - date.getTime();
     const diffMins = Math.floor(diffMs / 60000);
     const diffHours = Math.floor(diffMs / 3600000);
-    if (diffMins < 60) return `${diffMins} min ago`;
-    if (diffHours < 24) return `${diffHours} hours ago`;
+    if (diffMins < 60) {return `${diffMins} min ago`;}
+    if (diffHours < 24) {return `${diffHours} hours ago`;}
     return `${Math.floor(diffMs / 86400000)} days ago`;
   };
 
@@ -368,8 +368,8 @@ export const PredictPage: React.FC = () => {
         const modelsData = await modelsRes.json();
         const insightsData = await insightsRes.json();
         
-        if (modelsData.success) setModels(modelsData.data || []);
-        if (insightsData.success) setInsights(insightsData.data?.features || []);
+        if (modelsData.success) {setModels(modelsData.data || []);}
+        if (insightsData.success) {setInsights(insightsData.data?.features || []);}
       } catch (err) {
         console.error('Failed to load predict data:', err);
       } finally {
@@ -496,8 +496,8 @@ export const FlowPage: React.FC = () => {
         const statsData = await statsRes.json();
         const execData = await execRes.json();
         
-        if (statsData.success) setStats(statsData.data);
-        if (execData.success) setExecutions(execData.data || []);
+        if (statsData.success) {setStats(statsData.data);}
+        if (execData.success) {setExecutions(execData.data || []);}
       } catch (err) {
         console.error('Failed to load flow data:', err);
       } finally {
@@ -508,9 +508,9 @@ export const FlowPage: React.FC = () => {
   }, []);
 
   const formatDuration = (ms: number | null) => {
-    if (ms === null) return '—';
-    if (ms < 1000) return `${ms}ms`;
-    if (ms < 60000) return `${(ms / 1000).toFixed(0)}s`;
+    if (ms === null) {return '—';}
+    if (ms < 1000) {return `${ms}ms`;}
+    if (ms < 60000) {return `${(ms / 1000).toFixed(0)}s`;}
     return `${Math.floor(ms / 60000)}m ${Math.floor((ms % 60000) / 1000)}s`;
   };
 
@@ -518,9 +518,9 @@ export const FlowPage: React.FC = () => {
     const date = new Date(dateStr);
     const now = new Date();
     const diffMs = now.getTime() - date.getTime();
-    if (diffMs < 60000) return 'Now';
+    if (diffMs < 60000) {return 'Now';}
     const diffMins = Math.floor(diffMs / 60000);
-    if (diffMins < 60) return `${diffMins} min ago`;
+    if (diffMins < 60) {return `${diffMins} min ago`;}
     return `${Math.floor(diffMs / 3600000)} hours ago`;
   };
 
@@ -635,8 +635,8 @@ export const HealthPage: React.FC = () => {
         const healthData = await healthRes.json();
         const alertsData = await alertsRes.json();
         
-        if (healthData.success) setHealth(healthData.data);
-        if (alertsData.success) setAlerts(alertsData.data || []);
+        if (healthData.success) {setHealth(healthData.data);}
+        if (alertsData.success) {setAlerts(alertsData.data || []);}
       } catch (err) {
         console.error('Failed to load health data:', err);
       } finally {
@@ -651,13 +651,13 @@ export const HealthPage: React.FC = () => {
     const now = new Date();
     const diffMs = now.getTime() - date.getTime();
     const diffMins = Math.floor(diffMs / 60000);
-    if (diffMins < 60) return `${diffMins} min ago`;
+    if (diffMins < 60) {return `${diffMins} min ago`;}
     return `${Math.floor(diffMs / 3600000)} hours ago`;
   };
 
   const getScoreColor = (score: number) => {
-    if (score >= 90) return '#10B981';
-    if (score >= 70) return '#F59E0B';
+    if (score >= 90) {return '#10B981';}
+    if (score >= 70) {return '#F59E0B';}
     return '#EF4444';
   };
 
@@ -816,8 +816,8 @@ export const GuardPage: React.FC = () => {
     const diffHours = Math.floor(diffMs / 3600000);
     const diffDays = Math.floor(diffMs / 86400000);
     
-    if (diffMins < 60) return `${diffMins} minutes ago`;
-    if (diffHours < 24) return `${diffHours} hours ago`;
+    if (diffMins < 60) {return `${diffMins} minutes ago`;}
+    if (diffHours < 24) {return `${diffHours} hours ago`;}
     return `${diffDays} days ago`;
   };
 
@@ -989,9 +989,9 @@ export const EthicsPage: React.FC = () => {
         const principlesData = await principlesRes.json();
         const reviewsData = await reviewsRes.json();
         
-        if (statsData.success) setStats(statsData.data);
-        if (principlesData.success) setPrinciples(principlesData.data || []);
-        if (reviewsData.success) setReviews(reviewsData.data || []);
+        if (statsData.success) {setStats(statsData.data);}
+        if (principlesData.success) {setPrinciples(principlesData.data || []);}
+        if (reviewsData.success) {setReviews(reviewsData.data || []);}
       } catch (err) {
         console.error('Failed to load ethics data:', err);
       } finally {
@@ -1123,8 +1123,8 @@ export const AgentsPage: React.FC = () => {
         const statsData = await statsRes.json();
         const agentsData = await agentsRes.json();
         
-        if (statsData.success) setStats(statsData.data);
-        if (agentsData.success) setAgents(agentsData.data || []);
+        if (statsData.success) {setStats(statsData.data);}
+        if (agentsData.success) {setAgents(agentsData.data || []);}
       } catch (err) {
         console.error('Failed to load agents data:', err);
       } finally {

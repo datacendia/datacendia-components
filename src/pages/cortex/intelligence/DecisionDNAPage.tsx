@@ -134,7 +134,7 @@ export const DecisionDNAPage: React.FC = () => {
   };
 
   const createDecision = async () => {
-    if (!newTitle.trim() || !newDescription.trim()) return;
+    if (!newTitle.trim() || !newDescription.trim()) {return;}
     
     setIsCreating(true);
     try {
@@ -164,7 +164,7 @@ export const DecisionDNAPage: React.FC = () => {
   };
 
   const runPreMortem = async () => {
-    if (!selectedDecision) return;
+    if (!selectedDecision) {return;}
     setIsLoading(true);
     try {
       const response = await fetch(`/api/v1/decisions/${selectedDecision.id}/premortem`, {
@@ -193,8 +193,8 @@ export const DecisionDNAPage: React.FC = () => {
   };
 
   const getVisibleEvents = () => {
-    if (!selectedDecision) return [];
-    if (!replayMode) return selectedDecision.timeline;
+    if (!selectedDecision) {return [];}
+    if (!replayMode) {return selectedDecision.timeline;}
     return selectedDecision.timeline.slice(0, replayStep + 1);
   };
 

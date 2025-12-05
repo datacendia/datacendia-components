@@ -196,17 +196,17 @@ class LedgerService {
         
         data.entries?.forEach((e: LedgerEntry) => {
           e.timestamp = new Date(e.timestamp);
-          if (e.verifiedAt) e.verifiedAt = new Date(e.verifiedAt);
+          if (e.verifiedAt) {e.verifiedAt = new Date(e.verifiedAt);}
           this.entries.set(e.id, e);
         });
         
         data.decisions?.forEach((d: DecisionRecord) => {
           d.proposedAt = new Date(d.proposedAt);
-          if (d.outcomeRecordedAt) d.outcomeRecordedAt = new Date(d.outcomeRecordedAt);
+          if (d.outcomeRecordedAt) {d.outcomeRecordedAt = new Date(d.outcomeRecordedAt);}
           d.voters.forEach(v => v.timestamp = new Date(v.timestamp));
           d.auditHistory.forEach(a => {
             a.requestedAt = new Date(a.requestedAt);
-            if (a.completedAt) a.completedAt = new Date(a.completedAt);
+            if (a.completedAt) {a.completedAt = new Date(a.completedAt);}
           });
           this.decisions.set(d.id, d);
         });
@@ -234,7 +234,7 @@ class LedgerService {
   // ---------------------------------------------------------------------------
 
   private getLastHash(): string {
-    if (this.entries.size === 0) return this.genesisHash;
+    if (this.entries.size === 0) {return this.genesisHash;}
     
     const sortedEntries = Array.from(this.entries.values())
       .sort((a, b) => a.sequence - b.sequence);
@@ -357,7 +357,7 @@ class LedgerService {
     confidenceScore: number
   ): LedgerEntry {
     const decision = this.decisions.get(decisionId);
-    if (!decision) throw new Error('Decision not found');
+    if (!decision) {throw new Error('Decision not found');}
 
     decision.status = 'deliberating';
     
@@ -379,7 +379,7 @@ class LedgerService {
     reasoning: string
   ): LedgerEntry {
     const decision = this.decisions.get(decisionId);
-    if (!decision) throw new Error('Decision not found');
+    if (!decision) {throw new Error('Decision not found');}
 
     decision.status = 'voting';
     decision.voters.push({ agentId, vote, confidence, timestamp: new Date() });
@@ -402,7 +402,7 @@ class LedgerService {
     finalConfidence: number
   ): LedgerEntry {
     const decision = this.decisions.get(decisionId);
-    if (!decision) throw new Error('Decision not found');
+    if (!decision) {throw new Error('Decision not found');}
 
     decision.status = status;
     decision.finalConfidence = finalConfidence;
@@ -427,7 +427,7 @@ class LedgerService {
     metrics?: Record<string, any>
   ): LedgerEntry {
     const decision = this.decisions.get(decisionId);
-    if (!decision) throw new Error('Decision not found');
+    if (!decision) {throw new Error('Decision not found');}
 
     decision.outcome = outcome;
     decision.outcomeRecordedAt = new Date();
@@ -496,7 +496,7 @@ class LedgerService {
 
   verifyEntry(entryId: string): boolean {
     const entry = this.entries.get(entryId);
-    if (!entry) return false;
+    if (!entry) {return false;}
 
     const { hash: _, ...entryWithoutHash } = entry;
     const expectedHash = createEntryHash(entryWithoutHash as Omit<LedgerEntry, 'hash'>);
@@ -523,7 +523,7 @@ class LedgerService {
     framework: ComplianceFramework
   ): AuditRecord {
     const decision = this.decisions.get(decisionId);
-    if (!decision) throw new Error('Decision not found');
+    if (!decision) {throw new Error('Decision not found');}
 
     const audit: AuditRecord = {
       id: `audit-${Date.now()}`,
@@ -558,10 +558,10 @@ class LedgerService {
     report: string
   ): AuditRecord | null {
     const decision = this.decisions.get(decisionId);
-    if (!decision) return null;
+    if (!decision) {return null;}
 
     const audit = decision.auditHistory.find(a => a.id === auditId);
-    if (!audit) return null;
+    if (!audit) {return null;}
 
     audit.status = 'completed';
     audit.completedAt = new Date();
@@ -621,12 +621,12 @@ class LedgerService {
     piiOnly?: boolean;
   }): LedgerEntry[] {
     return this.getAllEntries().filter(e => {
-      if (query.eventType && e.eventType !== query.eventType) return false;
-      if (query.startDate && e.timestamp < query.startDate) return false;
-      if (query.endDate && e.timestamp > query.endDate) return false;
-      if (query.agentId && e.agentId !== query.agentId) return false;
-      if (query.complianceFramework && !e.complianceFrameworks.includes(query.complianceFramework)) return false;
-      if (query.piiOnly && !e.piiInvolved) return false;
+      if (query.eventType && e.eventType !== query.eventType) {return false;}
+      if (query.startDate && e.timestamp < query.startDate) {return false;}
+      if (query.endDate && e.timestamp > query.endDate) {return false;}
+      if (query.agentId && e.agentId !== query.agentId) {return false;}
+      if (query.complianceFramework && !e.complianceFrameworks.includes(query.complianceFramework)) {return false;}
+      if (query.piiOnly && !e.piiInvolved) {return false;}
       return true;
     });
   }
@@ -637,7 +637,7 @@ class LedgerService {
 
   exportForAudit(decisionId: string): string {
     const decision = this.decisions.get(decisionId);
-    if (!decision) throw new Error('Decision not found');
+    if (!decision) {throw new Error('Decision not found');}
 
     const entries = this.getEntriesForDecision(decisionId);
     const verification = this.verifyChain();
@@ -690,9 +690,9 @@ class LedgerService {
         confidenceCount++;
       }
       
-      if (e.vote === 'veto') vetoCount++;
-      if (e.vote === 'approve') approveCount++;
-      if (e.piiInvolved) piiCount++;
+      if (e.vote === 'veto') {vetoCount++;}
+      if (e.vote === 'approve') {approveCount++;}
+      if (e.piiInvolved) {piiCount++;}
     });
 
     const verification = this.verifyChain();

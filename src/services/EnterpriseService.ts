@@ -334,7 +334,7 @@ class EnterpriseService {
   // ---------------------------------------------------------------------------
 
   private initializeDefaultData(): void {
-    if (this.autoDecisions.size > 0 && this.gpuNodes.size > 0) return;
+    if (this.autoDecisions.size > 0 && this.gpuNodes.size > 0) {return;}
 
     // Initialize Autopilot decisions
     this.createAutoDecision({
@@ -448,7 +448,7 @@ class EnterpriseService {
 
   approveAutoDecision(id: string, approver: string): AutoDecision | null {
     const decision = this.autoDecisions.get(id);
-    if (!decision) return null;
+    if (!decision) {return null;}
 
     decision.status = 'approved';
     decision.approvedBy = approver;
@@ -459,7 +459,7 @@ class EnterpriseService {
 
   rejectAutoDecision(id: string): AutoDecision | null {
     const decision = this.autoDecisions.get(id);
-    if (!decision) return null;
+    if (!decision) {return null;}
 
     decision.status = 'rejected';
     this.saveToStorage();
@@ -728,9 +728,9 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
 
   private analyzeSentiment(text: string): 'positive' | 'neutral' | 'cautious' | 'warning' {
     const lower = text.toLowerCase();
-    if (lower.includes('risk') || lower.includes('concern') || lower.includes('caution')) return 'cautious';
-    if (lower.includes('critical') || lower.includes('urgent') || lower.includes('warning')) return 'warning';
-    if (lower.includes('opportunity') || lower.includes('recommend') || lower.includes('support')) return 'positive';
+    if (lower.includes('risk') || lower.includes('concern') || lower.includes('caution')) {return 'cautious';}
+    if (lower.includes('critical') || lower.includes('urgent') || lower.includes('warning')) {return 'warning';}
+    if (lower.includes('opportunity') || lower.includes('recommend') || lower.includes('support')) {return 'positive';}
     return 'neutral';
   }
 
@@ -767,7 +767,7 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
 
   syncIntegration(id: string): Integration | null {
     const integration = this.integrations.get(id);
-    if (!integration) return null;
+    if (!integration) {return null;}
 
     integration.status = 'syncing';
     this.integrations.set(id, integration);
@@ -844,7 +844,7 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
 
   resolveAlert(id: string): SecurityAlert | null {
     const alert = this.securityAlerts.get(id);
-    if (!alert) return null;
+    if (!alert) {return null;}
 
     alert.status = 'resolved';
     this.saveToStorage();
@@ -890,7 +890,7 @@ class VoiceSynthesisService {
   }
 
   private loadVoices(): void {
-    if (!this.synth) return;
+    if (!this.synth) {return;}
     this.voices = this.synth.getVoices();
     
     // Map executives to distinct voices
@@ -931,7 +931,7 @@ class VoiceSynthesisService {
       // Use executive-specific voice if available
       if (executive) {
         const voice = this.executiveVoices.get(executive);
-        if (voice) utterance.voice = voice;
+        if (voice) {utterance.voice = voice;}
       }
 
       // Professional speaking rate and pitch

@@ -71,7 +71,7 @@ const EntityDetailsPanel: React.FC<{
   onViewLineage: () => void;
   onViewImpact: () => void;
 }> = ({ entity, onClose, onViewLineage, onViewImpact }) => {
-  if (!entity) return null;
+  if (!entity) {return null;}
 
   const colors = nodeColors[entity.type] || nodeColors.entity;
 
@@ -144,7 +144,7 @@ const EntityDetailsPanel: React.FC<{
 // =============================================================================
 
 const MiniMap: React.FC<{ nodes: GraphNode[] }> = ({ nodes }) => {
-  if (nodes.length === 0) return null;
+  if (nodes.length === 0) {return null;}
   
   return (
     <div className="absolute bottom-4 right-4 w-32 h-24 bg-neutral-800/90 rounded-lg border border-neutral-700 p-2 z-10">
@@ -229,7 +229,7 @@ export const GraphExplorerPage: React.FC = () => {
 
   // Search suggestions
   const suggestions = useMemo<SearchSuggestion[]>(() => {
-    if (!searchQuery || searchQuery.length < 2) return [];
+    if (!searchQuery || searchQuery.length < 2) {return [];}
     return nodes
       .filter(n => {
         const name = (n.name ?? '').toString();

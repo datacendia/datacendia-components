@@ -128,7 +128,7 @@ export const PersonaForgePage: React.FC = () => {
 
   // Real Ollama-powered chat
   const handleSendMessage = useCallback(async () => {
-    if (!inputMessage.trim() || !selectedPersona || isLoading) return;
+    if (!inputMessage.trim() || !selectedPersona || isLoading) {return;}
     
     const userMessage = inputMessage.trim();
     setInputMessage('');
@@ -191,7 +191,7 @@ export const PersonaForgePage: React.FC = () => {
 
   // Create new persona
   const handleCreatePersona = () => {
-    if (!newPersonaName.trim()) return;
+    if (!newPersonaName.trim()) {return;}
     
     const persona = personaForgeService.createPersona({
       role: newPersonaRole,

@@ -160,7 +160,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
         body: JSON.stringify({ deliberationId }),
       });
       
-      if (!res.ok) throw new Error('Failed to create session');
+      if (!res.ok) {throw new Error('Failed to create session');}
       const data = await res.json();
       setSession(data);
     } catch (err) {
@@ -187,7 +187,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
   };
 
   const executeActions = async () => {
-    if (!session || selectedActions.size === 0) return;
+    if (!session || selectedActions.size === 0) {return;}
 
     try {
       setExecuting(true);
@@ -201,7 +201,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
         }),
       });
 
-      if (!res.ok) throw new Error('Failed to execute actions');
+      if (!res.ok) {throw new Error('Failed to execute actions');}
       const result = await res.json();
       
       setSession(result);
@@ -554,7 +554,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
             {/* Actions by Category */}
             {(Object.keys(categoryConfig) as ActionCategory[]).map(category => {
               const categoryActions = availableActions.filter(a => a.category === category);
-              if (categoryActions.length === 0) return null;
+              if (categoryActions.length === 0) {return null;}
 
               const cfg = categoryConfig[category];
 

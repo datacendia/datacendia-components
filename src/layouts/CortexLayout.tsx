@@ -126,11 +126,11 @@ const bottomNavigationItems = [
 
 // Get current page for quick actions
 const getCurrentPage = (pathname: string): 'graph' | 'council' | 'pulse' | 'lens' | 'bridge' | null => {
-  if (pathname.includes('/graph')) return 'graph';
-  if (pathname.includes('/council')) return 'council';
-  if (pathname.includes('/pulse')) return 'pulse';
-  if (pathname.includes('/lens')) return 'lens';
-  if (pathname.includes('/bridge')) return 'bridge';
+  if (pathname.includes('/graph')) {return 'graph';}
+  if (pathname.includes('/council')) {return 'council';}
+  if (pathname.includes('/pulse')) {return 'pulse';}
+  if (pathname.includes('/lens')) {return 'lens';}
+  if (pathname.includes('/bridge')) {return 'bridge';}
   return null;
 };
 

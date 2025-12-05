@@ -461,8 +461,8 @@ export const PitchDeck: React.FC = () => {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
-    if (e.key === 'ArrowLeft') prevSlide();
+    if (e.key === 'ArrowRight' || e.key === ' ') {nextSlide();}
+    if (e.key === 'ArrowLeft') {prevSlide();}
   };
 
   return (

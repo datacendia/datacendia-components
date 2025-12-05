@@ -307,7 +307,7 @@ class VetoService {
         const data = JSON.parse(stored);
         data.decisions?.forEach((d: VetoDecision) => {
           d.submittedAt = new Date(d.submittedAt);
-          if (d.decidedAt) d.decidedAt = new Date(d.decidedAt);
+          if (d.decidedAt) {d.decidedAt = new Date(d.decidedAt);}
           d.reviews.forEach(r => r.reviewedAt = new Date(r.reviewedAt));
           this.decisions.set(d.id, d);
         });
@@ -397,7 +397,7 @@ class VetoService {
     const text = `${title} ${description}`.toLowerCase();
 
     this.policies.forEach(policy => {
-      if (!policy.isActive) return;
+      if (!policy.isActive) {return;}
 
       for (const trigger of policy.triggerConditions) {
         let matches = false;
@@ -444,10 +444,10 @@ class VetoService {
 
   async runAgentReview(decisionId: string, agentRole: VetoAgentRole): Promise<VetoReview> {
     const decision = this.decisions.get(decisionId);
-    if (!decision) throw new Error('Decision not found');
+    if (!decision) {throw new Error('Decision not found');}
 
     const agent = this.getVetoAgent(agentRole);
-    if (!agent) throw new Error('Agent not found');
+    if (!agent) {throw new Error('Agent not found');}
 
     let review: VetoReview;
 
@@ -588,7 +588,7 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   private evaluateDecision(decisionId: string): void {
     const decision = this.decisions.get(decisionId);
-    if (!decision) return;
+    if (!decision) {return;}
 
     // Check if any blocking review exists
     const blockingReview = decision.reviews.find(r => r.isBlocking && r.status === 'vetoed');
@@ -614,7 +614,7 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   requestOverride(decisionId: string, requestedBy: string, reason: string): VetoDecision | null {
     const decision = this.decisions.get(decisionId);
-    if (!decision || decision.status !== 'vetoed') return null;
+    if (!decision || decision.status !== 'vetoed') {return null;}
 
     decision.status = 'override_requested';
     decision.overrideRequested = true;
@@ -627,7 +627,7 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   approveOverride(decisionId: string, approvedBy: string): VetoDecision | null {
     const decision = this.decisions.get(decisionId);
-    if (!decision || decision.status !== 'override_requested') return null;
+    if (!decision || decision.status !== 'override_requested') {return null;}
 
     decision.status = 'approved';
     decision.finalDecision = 'approved';
@@ -642,7 +642,7 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   denyOverride(decisionId: string): VetoDecision | null {
     const decision = this.decisions.get(decisionId);
-    if (!decision || decision.status !== 'override_requested') return null;
+    if (!decision || decision.status !== 'override_requested') {return null;}
 
     decision.status = 'vetoed';
     decision.overrideApproved = false;
@@ -695,7 +695,7 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   togglePolicy(policyId: string): VetoPolicy | null {
     const policy = this.policies.get(policyId);
-    if (!policy) return null;
+    if (!policy) {return null;}
 
     policy.isActive = !policy.isActive;
     policy.updatedAt = new Date();

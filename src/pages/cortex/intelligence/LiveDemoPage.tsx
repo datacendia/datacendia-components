@@ -35,7 +35,7 @@ export const LiveDemoPage: React.FC = () => {
   const [isDeliberating, setIsDeliberating] = useState(false);
 
   const startSession = async () => {
-    if (!selectedConnector) return;
+    if (!selectedConnector) {return;}
     
     setIsConnecting(true);
     try {
@@ -76,7 +76,7 @@ export const LiveDemoPage: React.FC = () => {
   };
 
   const runDeliberation = async () => {
-    if (!question.trim() || !selectedConnector) return;
+    if (!question.trim() || !selectedConnector) {return;}
     
     setIsDeliberating(true);
     try {

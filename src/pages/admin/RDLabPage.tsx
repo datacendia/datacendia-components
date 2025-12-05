@@ -501,9 +501,9 @@ export const RDLabPage: React.FC = () => {
   const statuses: ResearchStatus[] = ['conceptual', 'theoretical', 'prototyping', 'testing', 'paused'];
 
   const filteredProjects = RD_PROJECTS.filter(p => {
-    if (filterCategory !== 'all' && p.category !== filterCategory) return false;
-    if (filterHorizon !== 'all' && p.horizon !== filterHorizon) return false;
-    if (filterStatus !== 'all' && p.status !== filterStatus) return false;
+    if (filterCategory !== 'all' && p.category !== filterCategory) {return false;}
+    if (filterHorizon !== 'all' && p.horizon !== filterHorizon) {return false;}
+    if (filterStatus !== 'all' && p.status !== filterStatus) {return false;}
     return true;
   });
 
@@ -617,7 +617,7 @@ export const RDLabPage: React.FC = () => {
           <div className="col-span-2 space-y-6">
             {categories.map(category => {
               const projects = projectsByCategory[category];
-              if (projects.length === 0) return null;
+              if (projects.length === 0) {return null;}
               
               return (
                 <div key={category} className="bg-black/30 rounded-2xl p-6 border border-purple-800/50">

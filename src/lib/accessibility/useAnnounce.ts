@@ -13,7 +13,7 @@ export function useAnnounce() {
   const isProcessingRef = useRef(false);
 
   const processQueue = useCallback(() => {
-    if (isProcessingRef.current || queueRef.current.length === 0) return;
+    if (isProcessingRef.current || queueRef.current.length === 0) {return;}
 
     isProcessingRef.current = true;
     const message = queueRef.current.shift()!;

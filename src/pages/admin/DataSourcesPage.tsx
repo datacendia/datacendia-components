@@ -436,7 +436,7 @@ export const DataSourcesPage: React.FC = () => {
   };
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this data source?')) return;
+    if (!confirm('Are you sure you want to delete this data source?')) {return;}
     
     try {
       const token = localStorage.getItem('accessToken');
@@ -476,7 +476,7 @@ export const DataSourcesPage: React.FC = () => {
 
   // Group connectors by category
   const connectorsByCategory = Object.entries(CONNECTOR_CONFIGS).reduce((acc, [key, config]) => {
-    if (!acc[config.category]) acc[config.category] = [];
+    if (!acc[config.category]) {acc[config.category] = [];}
     acc[config.category].push({ key, ...config });
     return acc;
   }, {} as Record<string, Array<{ key: string; name: string; icon: string; category: string }>>);
@@ -780,7 +780,7 @@ export const DataSourcesPage: React.FC = () => {
                       <div className="space-y-4">
                         {CONNECTOR_CONFIGS[selectedSource?.type || '']?.fields.map((field) => {
                           const value = (selectedSource?.config as Record<string, unknown>)?.[field.key];
-                          if (!value && !field.isCredential) return null;
+                          if (!value && !field.isCredential) {return null;}
                           
                           return (
                             <div key={field.key} className="flex items-center justify-between py-2 border-b border-gray-700">

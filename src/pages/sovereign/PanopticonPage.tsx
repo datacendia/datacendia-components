@@ -64,10 +64,10 @@ export const PanopticonPage: React.FC = () => {
         apiClient.api.get<{ data: Dashboard }>('/panopticon/dashboard'),
       ]);
 
-      if (fwRes.success) setFrameworks((fwRes.data as any)?.data || fwRes.data || []);
-      if (regRes.success) setRegulations((regRes.data as any)?.data || regRes.data || []);
-      if (violRes.success) setViolations((violRes.data as any)?.data || violRes.data || []);
-      if (dashRes.success) setDashboard((dashRes.data as any)?.data || dashRes.data || null);
+      if (fwRes.success) {setFrameworks((fwRes.data as any)?.data || fwRes.data || []);}
+      if (regRes.success) {setRegulations((regRes.data as any)?.data || regRes.data || []);}
+      if (violRes.success) {setViolations((violRes.data as any)?.data || violRes.data || []);}
+      if (dashRes.success) {setDashboard((dashRes.data as any)?.data || dashRes.data || null);}
     } catch (error) {
       console.error('Failed to load Panopticon data:', error);
     } finally {

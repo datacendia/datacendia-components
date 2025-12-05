@@ -269,9 +269,9 @@ export class CouncilStreamClient {
             const agentState = state.responses.get(event.agentId);
             if (agentState) {
               agentState.isStreaming = false;
-              if (event.content) agentState.content = event.content;
-              if (event.metadata?.confidence) agentState.confidence = event.metadata.confidence;
-              if (event.metadata?.latency) agentState.latency = event.metadata.latency;
+              if (event.content) {agentState.content = event.content;}
+              if (event.metadata?.confidence) {agentState.confidence = event.metadata.confidence;}
+              if (event.metadata?.latency) {agentState.latency = event.metadata.latency;}
             }
           }
           break;
@@ -295,8 +295,8 @@ export class CouncilStreamClient {
 
         case 'complete':
           state.status = 'completed';
-          if (event.content) state.synthesis = event.content;
-          if (event.metadata?.confidence) state.confidence = event.metadata.confidence;
+          if (event.content) {state.synthesis = event.content;}
+          if (event.metadata?.confidence) {state.confidence = event.metadata.confidence;}
           state.completedAt = new Date();
           break;
 

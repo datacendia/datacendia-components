@@ -153,7 +153,7 @@ const CustomAgentCreator: React.FC<{
       setCapabilities(editingAgent.capabilities || []);
       // Extract expertise from system prompt if custom agent
       const customData = (editingAgent as any).systemPrompt;
-      if (customData) setExpertise(customData);
+      if (customData) {setExpertise(customData);}
     } else {
       // Reset form
       setName('');
@@ -178,7 +178,7 @@ const CustomAgentCreator: React.FC<{
   };
 
   const handleSave = () => {
-    if (!name.trim() || !role.trim()) return;
+    if (!name.trim() || !role.trim()) {return;}
 
     const agent: Agent & { systemPrompt?: string; isCustom?: boolean } = {
       id: editingAgent?.id || `custom-agent-${Date.now()}`,
@@ -198,7 +198,7 @@ const CustomAgentCreator: React.FC<{
     onClose();
   };
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
@@ -853,7 +853,7 @@ export const CouncilPage: React.FC = () => {
   const [currentPhase, setCurrentPhase] = useState<string>('');
 
   const handleSubmit = async () => {
-    if (!queryInput.trim()) return;
+    if (!queryInput.trim()) {return;}
     
     const onlineAgents = agents.filter(a => a.status === 'online');
     if (onlineAgents.length === 0) {
@@ -903,7 +903,7 @@ export const CouncilPage: React.FC = () => {
             onAgentStart: (agent) => {
               setCurrentStreamingAgent(agent.id);
               setRecentDecisions(prev => prev.map(d => {
-                if (d.id !== decisionId) return d;
+                if (d.id !== decisionId) {return d;}
                 const existingIdx = d.agentResponses.findIndex(ar => ar.agentId === agent.id);
                 if (existingIdx === -1) {
                   return {
@@ -926,7 +926,7 @@ export const CouncilPage: React.FC = () => {
             },
             onToken: (agent, token) => {
               setRecentDecisions(prev => prev.map(d => {
-                if (d.id !== decisionId) return d;
+                if (d.id !== decisionId) {return d;}
                 return {
                   ...d,
                   agentResponses: d.agentResponses.map(ar =>
@@ -940,7 +940,7 @@ export const CouncilPage: React.FC = () => {
             onAgentComplete: (agent, response, duration) => {
               setCurrentStreamingAgent(null);
               setRecentDecisions(prev => prev.map(d => {
-                if (d.id !== decisionId) return d;
+                if (d.id !== decisionId) {return d;}
                 return {
                   ...d,
                   agentResponses: d.agentResponses.map(ar =>
@@ -953,7 +953,7 @@ export const CouncilPage: React.FC = () => {
             },
             onChallenge: (challenger, target, challenge) => {
               setRecentDecisions(prev => prev.map(d => {
-                if (d.id !== decisionId) return d;
+                if (d.id !== decisionId) {return d;}
                 return {
                   ...d,
                   crossExaminations: [...d.crossExaminations, {
@@ -971,7 +971,7 @@ export const CouncilPage: React.FC = () => {
             },
             onRebuttal: (target, rebuttal) => {
               setRecentDecisions(prev => prev.map(d => {
-                if (d.id !== decisionId) return d;
+                if (d.id !== decisionId) {return d;}
                 const lastCrossExam = d.crossExaminations[d.crossExaminations.length - 1];
                 if (lastCrossExam && lastCrossExam.targetId === target.id) {
                   return {

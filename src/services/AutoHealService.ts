@@ -447,10 +447,10 @@ class AutoHealServiceClass {
    */
   public async requestFix(errorId: string): Promise<FixSuggestion | null> {
     const error = this.errorQueue.find(e => e.id === errorId);
-    if (!error) return null;
+    if (!error) {return null;}
 
     const agent = getTechAgent(error.assignedAgent);
-    if (!agent) return null;
+    if (!agent) {return null;}
 
     return this.generateFix(error, agent);
   }
@@ -460,7 +460,7 @@ class AutoHealServiceClass {
    */
   public async approveFix(fixId: string): Promise<boolean> {
     const fix = this.fixHistory.find(f => f.id === fixId);
-    if (!fix) return false;
+    if (!fix) {return false;}
 
     return this.applyFix(fix);
   }

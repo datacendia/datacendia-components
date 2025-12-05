@@ -17,7 +17,7 @@ class WebSocketClient {
   private maxReconnectAttempts = 5;
 
   connect(): void {
-    if (this.socket?.connected) return;
+    if (this.socket?.connected) {return;}
 
     const token = tokenManager.getAccessToken();
     if (!token) {

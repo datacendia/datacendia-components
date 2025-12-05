@@ -44,8 +44,8 @@ export const EternalPage: React.FC = () => {
         apiClient.api.get<{ data: Artifact[] }>('/eternal/artifacts'),
         apiClient.api.get<{ data: Dashboard }>('/eternal/dashboard'),
       ]);
-      if (artRes.success) setArtifacts((artRes.data as any)?.data || artRes.data || []);
-      if (dashRes.success) setDashboard((dashRes.data as any)?.data || dashRes.data || null);
+      if (artRes.success) {setArtifacts((artRes.data as any)?.data || artRes.data || []);}
+      if (dashRes.success) {setDashboard((dashRes.data as any)?.data || dashRes.data || null);}
     } catch (error) {
       console.error('Failed to load Eternal data:', error);
     } finally {

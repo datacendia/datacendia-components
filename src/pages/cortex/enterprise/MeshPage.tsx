@@ -500,7 +500,7 @@ export const MeshPage: React.FC = () => {
           }));
           // Group by unique name (take first of each name)
           const uniqueBenchmarks = mappedBenchmarks.reduce((acc: BenchmarkMetric[], curr: BenchmarkMetric) => {
-            if (!acc.find(b => b.name === curr.name)) acc.push(curr);
+            if (!acc.find(b => b.name === curr.name)) {acc.push(curr);}
             return acc;
           }, []);
           setBenchmarks(uniqueBenchmarks.slice(0, 8));

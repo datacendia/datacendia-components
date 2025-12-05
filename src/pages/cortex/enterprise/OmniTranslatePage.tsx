@@ -329,7 +329,7 @@ export const OmniTranslatePage: React.FC = () => {
   }, []);
 
   const handleTranslate = async () => {
-    if (!sourceText.trim()) return;
+    if (!sourceText.trim()) {return;}
     setIsTranslating(true);
     
     // Simulate translation

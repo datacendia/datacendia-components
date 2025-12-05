@@ -205,20 +205,20 @@ export const DashboardPage: React.FC = () => {
 
   const getGreeting = () => {
     const hour = new Date().getHours();
-    if (hour < 12) return t('dashboard.greetings.morning');
-    if (hour < 18) return t('dashboard.greetings.afternoon');
+    if (hour < 12) {return t('dashboard.greetings.morning');}
+    if (hour < 18) {return t('dashboard.greetings.afternoon');}
     return t('dashboard.greetings.evening');
   };
 
   const getTrendIcon = (trend: 'up' | 'down' | 'stable') => {
-    if (trend === 'up') return '↑';
-    if (trend === 'down') return '↓';
+    if (trend === 'up') {return '↑';}
+    if (trend === 'down') {return '↓';}
     return '→';
   };
 
   const getTrendColor = (trend: 'up' | 'down' | 'stable', isPositive: boolean = true) => {
-    if (trend === 'stable') return 'text-neutral-500';
-    if (trend === 'up') return isPositive ? 'text-success-main' : 'text-error-main';
+    if (trend === 'stable') {return 'text-neutral-500';}
+    if (trend === 'up') {return isPositive ? 'text-success-main' : 'text-error-main';}
     return isPositive ? 'text-error-main' : 'text-success-main';
   };
 

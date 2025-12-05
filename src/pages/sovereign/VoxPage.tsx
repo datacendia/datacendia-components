@@ -39,8 +39,8 @@ export const VoxPage: React.FC = () => {
         apiClient.api.get<{ data: Stakeholder[] }>('/vox/stakeholders'),
         apiClient.api.get<{ data: Dashboard }>('/vox/dashboard'),
       ]);
-      if (stkRes.success) setStakeholders((stkRes.data as any)?.data || stkRes.data || []);
-      if (dashRes.success) setDashboard((dashRes.data as any)?.data || dashRes.data || null);
+      if (stkRes.success) {setStakeholders((stkRes.data as any)?.data || stkRes.data || []);}
+      if (dashRes.success) {setDashboard((dashRes.data as any)?.data || dashRes.data || null);}
     } catch (error) {
       console.error('Failed to load Vox data:', error);
     } finally {

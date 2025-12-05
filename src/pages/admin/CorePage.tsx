@@ -128,7 +128,7 @@ export default function CorePage() {
       // Fetch real data from Core API
       const token = localStorage.getItem('accessToken');
       const headers: Record<string, string> = { 'Content-Type': 'application/json' };
-      if (token) headers['Authorization'] = `Bearer ${token}`;
+      if (token) {headers['Authorization'] = `Bearer ${token}`;}
 
       const [dashboardRes, contentRes] = await Promise.all([
         fetch('/api/v1/core/dashboard', { headers }),
@@ -188,7 +188,7 @@ export default function CorePage() {
       // Call real API to generate content
       const token = localStorage.getItem('accessToken');
       const headers: Record<string, string> = { 'Content-Type': 'application/json' };
-      if (token) headers['Authorization'] = `Bearer ${token}`;
+      if (token) {headers['Authorization'] = `Bearer ${token}`;}
 
       const res = await fetch('/api/v1/core/brand/generate/linkedin', {
         method: 'POST',
