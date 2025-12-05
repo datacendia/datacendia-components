@@ -1,0 +1,107 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd",
+    "retry": "Spróbuj ponownie",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "create": "Utwórz",
+    "update": "Aktualizuj",
+    "close": "Zamknij",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "previous": "Poprzedni",
+    "search": "Szukaj",
+    "filter": "Filtruj",
+    "sort": "Sortuj",
+    "export": "Eksportuj",
+    "import": "Importuj",
+    "download": "Pobierz",
+    "upload": "Prześlij",
+    "yes": "Tak",
+    "no": "Nie",
+    "confirm": "Potwierdź",
+    "submit": "Wyślij",
+    "apply": "Zastosuj",
+    "reset": "Resetuj",
+    "clear": "Wyczyść",
+    "all": "Wszystkie",
+    "none": "Żadne",
+    "select": "Wybierz",
+    "selected": "Wybrano",
+    "view": "Zobacz",
+    "details": "Szczegóły",
+    "more": "Więcej",
+    "less": "Mniej"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "product": "Produkt",
+    "pricing": "Cennik",
+    "about": "O nas",
+    "demo": "Zamów demo",
+    "login": "Zaloguj się",
+    "register": "Zarejestruj się",
+    "logout": "Wyloguj się",
+    "downloads": "Pobieranie",
+    "documentation": "Dokumentacja",
+    "support": "Wsparcie",
+    "contact": "Kontakt"
+  },
+  "auth": {
+    "login": {
+      "title": "Zaloguj się na konto",
+      "subtitle": "Witaj ponownie! Wprowadź swoje dane.",
+      "email": "Adres e-mail",
+      "password": "Hasło",
+      "rememberMe": "Zapamiętaj mnie",
+      "forgotPassword": "Nie pamiętasz hasła?",
+      "submitButton": "Zaloguj się",
+      "noAccount": "Nie masz konta?",
+      "signUp": "Zarejestruj się"
+    },
+    "register": {
+      "title": "Utwórz konto",
+      "subtitle": "Rozpocznij 14-dniowy bezpłatny okres próbny.",
+      "fullName": "Imię i nazwisko",
+      "email": "Służbowy e-mail",
+      "password": "Hasło",
+      "confirmPassword": "Potwierdź hasło",
+      "company": "Nazwa firmy",
+      "submitButton": "Utwórz konto"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "Graf",
+      "description": "Nawiguj po swoim uniwersum wiedzy"
+    },
+    "council": {
+      "name": "Rada",
+      "description": "Doradcy AI rozumujący wspólnie"
+    },
+    "pulse": {
+      "name": "Puls",
+      "description": "Zdrowie organizacji w czasie rzeczywistym"
+    },
+    "lens": {
+      "name": "Soczewka",
+      "description": "Zobacz możliwe przyszłości"
+    },
+    "bridge": {
+      "name": "Most",
+      "description": "Podejmuj działania między systemami"
+    }
+  },
+  "footer": {
+    "company": "Firma",
+    "product": "Produkt",
+    "resources": "Zasoby",
+    "legal": "Informacje prawne",
+    "copyright": "© {{year}} Datacendia. Wszelkie prawa zastrzeżone.",
+    "tagline": "Suwerenna inteligencja przedsiębiorstwa"
+  }
+}

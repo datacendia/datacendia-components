@@ -1,0 +1,109 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Naglo-load...",
+    "error": "May naganap na error",
+    "retry": "Subukan muli",
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "delete": "Tanggalin",
+    "edit": "I-edit",
+    "create": "Lumikha",
+    "update": "I-update",
+    "close": "Isara",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "previous": "Nakaraan",
+    "search": "Maghanap",
+    "filter": "I-filter",
+    "sort": "Ayusin",
+    "export": "I-export",
+    "import": "I-import",
+    "download": "I-download",
+    "upload": "I-upload",
+    "yes": "Oo",
+    "no": "Hindi",
+    "confirm": "Kumpirmahin",
+    "submit": "Isumite",
+    "apply": "Ilapat",
+    "reset": "I-reset",
+    "clear": "I-clear",
+    "all": "Lahat",
+    "none": "Wala",
+    "select": "Pumili",
+    "selected": "Napili",
+    "view": "Tingnan",
+    "details": "Mga Detalye",
+    "more": "Higit pa",
+    "less": "Mas kaunti"
+  },
+  "nav": {
+    "home": "Home",
+    "product": "Produkto",
+    "pricing": "Presyo",
+    "about": "Tungkol sa Amin",
+    "demo": "Humiling ng Demo",
+    "login": "Mag-sign In",
+    "register": "Mag-sign Up",
+    "logout": "Mag-sign Out",
+    "downloads": "Mga Download",
+    "documentation": "Dokumentasyon",
+    "support": "Suporta",
+    "contact": "Makipag-ugnayan"
+  },
+  "auth": {
+    "login": {
+      "title": "Mag-sign in sa iyong account",
+      "subtitle": "Maligayang pagbabalik! Pakipasok ang iyong mga kredensyal.",
+      "email": "Email address",
+      "password": "Password",
+      "rememberMe": "Tandaan ako",
+      "forgotPassword": "Nakalimutan ang password?",
+      "submitButton": "Mag-sign In",
+      "noAccount": "Walang account?",
+      "signUp": "Mag-sign up"
+    },
+    "register": {
+      "title": "Lumikha ng iyong account",
+      "subtitle": "Simulan ang iyong 14-araw na libreng trial ngayon.",
+      "fullName": "Buong pangalan",
+      "email": "Work email",
+      "password": "Password",
+      "confirmPassword": "Kumpirmahin ang password",
+      "company": "Pangalan ng kumpanya",
+      "submitButton": "Lumikha ng Account",
+      "hasAccount": "May account na?",
+      "signIn": "Mag-sign in"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "Graph",
+      "description": "I-navigate ang iyong knowledge universe"
+    },
+    "council": {
+      "name": "Konseho",
+      "description": "Mga AI advisor na nag-iisip nang magkasama"
+    },
+    "pulse": {
+      "name": "Pulso",
+      "description": "Real-time na kalusugan ng organisasyon"
+    },
+    "lens": {
+      "name": "Lente",
+      "description": "Tingnan ang mga posibleng kinabukasan"
+    },
+    "bridge": {
+      "name": "Tulay",
+      "description": "Kumilos sa mga sistema"
+    }
+  },
+  "footer": {
+    "company": "Kumpanya",
+    "product": "Produkto",
+    "resources": "Mga Mapagkukunan",
+    "legal": "Legal",
+    "copyright": "© {{year}} Datacendia. Lahat ng karapatan ay nakalaan.",
+    "tagline": "Sovereign Enterprise Intelligence"
+  }
+}

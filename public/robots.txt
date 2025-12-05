@@ -1,0 +1,26 @@
+# Datacendia - Robots.txt
+# https://datacendia.com
+
+User-agent: *
+Allow: /
+Allow: /login
+Allow: /pricing
+Allow: /features
+Allow: /about
+
+# Disallow authenticated/private areas
+Disallow: /cortex/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /settings/
+
+# Allow specific public cortex pages for marketing
+Allow: /cortex/council$
+Allow: /cortex/graph$
+Allow: /cortex/pulse$
+
+# Sitemap
+Sitemap: https://datacendia.com/sitemap.xml
+
+# Crawl delay (be nice to servers)
+Crawl-delay: 1

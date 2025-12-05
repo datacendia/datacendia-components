@@ -1,0 +1,107 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "लोड हो रहा है...",
+    "error": "एक त्रुटि हुई",
+    "retry": "पुनः प्रयास करें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "create": "बनाएं",
+    "update": "अपडेट करें",
+    "close": "बंद करें",
+    "back": "वापस",
+    "next": "अगला",
+    "previous": "पिछला",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "sort": "क्रमबद्ध करें",
+    "export": "निर्यात",
+    "import": "आयात",
+    "download": "डाउनलोड",
+    "upload": "अपलोड",
+    "yes": "हां",
+    "no": "नहीं",
+    "confirm": "पुष्टि करें",
+    "submit": "जमा करें",
+    "apply": "लागू करें",
+    "reset": "रीसेट",
+    "clear": "साफ़ करें",
+    "all": "सभी",
+    "none": "कोई नहीं",
+    "select": "चुनें",
+    "selected": "चयनित",
+    "view": "देखें",
+    "details": "विवरण",
+    "more": "अधिक",
+    "less": "कम"
+  },
+  "nav": {
+    "home": "होम",
+    "product": "उत्पाद",
+    "pricing": "मूल्य निर्धारण",
+    "about": "हमारे बारे में",
+    "demo": "डेमो अनुरोध",
+    "login": "साइन इन",
+    "register": "साइन अप",
+    "logout": "साइन आउट",
+    "downloads": "डाउनलोड",
+    "documentation": "दस्तावेज़ीकरण",
+    "support": "सहायता",
+    "contact": "संपर्क"
+  },
+  "auth": {
+    "login": {
+      "title": "अपने खाते में साइन इन करें",
+      "subtitle": "वापसी पर स्वागत है! कृपया अपनी जानकारी दर्ज करें।",
+      "email": "ईमेल पता",
+      "password": "पासवर्ड",
+      "rememberMe": "मुझे याद रखें",
+      "forgotPassword": "पासवर्ड भूल गए?",
+      "submitButton": "साइन इन करें",
+      "noAccount": "खाता नहीं है?",
+      "signUp": "साइन अप करें"
+    },
+    "register": {
+      "title": "अपना खाता बनाएं",
+      "subtitle": "आज ही अपना 14-दिन का निःशुल्क परीक्षण शुरू करें।",
+      "fullName": "पूरा नाम",
+      "email": "कार्य ईमेल",
+      "password": "पासवर्ड",
+      "confirmPassword": "पासवर्ड की पुष्टि करें",
+      "company": "कंपनी का नाम",
+      "submitButton": "खाता बनाएं"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "ग्राफ़",
+      "description": "अपने ज्ञान ब्रह्मांड में नेविगेट करें"
+    },
+    "council": {
+      "name": "परिषद",
+      "description": "AI सलाहकार जो एक साथ तर्क करते हैं"
+    },
+    "pulse": {
+      "name": "पल्स",
+      "description": "वास्तविक समय संगठनात्मक स्वास्थ्य"
+    },
+    "lens": {
+      "name": "लेंस",
+      "description": "संभावित भविष्य देखें"
+    },
+    "bridge": {
+      "name": "ब्रिज",
+      "description": "सिस्टम में कार्रवाई करें"
+    }
+  },
+  "footer": {
+    "company": "कंपनी",
+    "product": "उत्पाद",
+    "resources": "संसाधन",
+    "legal": "कानूनी",
+    "copyright": "© {{year}} Datacendia. सर्वाधिकार सुरक्षित।",
+    "tagline": "संप्रभु उद्यम बुद्धिमत्ता"
+  }
+}

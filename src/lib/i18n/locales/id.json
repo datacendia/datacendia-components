@@ -1,0 +1,109 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba lagi",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "create": "Buat",
+    "update": "Perbarui",
+    "close": "Tutup",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "search": "Cari",
+    "filter": "Filter",
+    "sort": "Urutkan",
+    "export": "Ekspor",
+    "import": "Impor",
+    "download": "Unduh",
+    "upload": "Unggah",
+    "yes": "Ya",
+    "no": "Tidak",
+    "confirm": "Konfirmasi",
+    "submit": "Kirim",
+    "apply": "Terapkan",
+    "reset": "Reset",
+    "clear": "Hapus",
+    "all": "Semua",
+    "none": "Tidak ada",
+    "select": "Pilih",
+    "selected": "Dipilih",
+    "view": "Lihat",
+    "details": "Detail",
+    "more": "Lebih banyak",
+    "less": "Lebih sedikit"
+  },
+  "nav": {
+    "home": "Beranda",
+    "product": "Produk",
+    "pricing": "Harga",
+    "about": "Tentang Kami",
+    "demo": "Minta Demo",
+    "login": "Masuk",
+    "register": "Daftar",
+    "logout": "Keluar",
+    "downloads": "Unduhan",
+    "documentation": "Dokumentasi",
+    "support": "Dukungan",
+    "contact": "Kontak"
+  },
+  "auth": {
+    "login": {
+      "title": "Masuk ke akun Anda",
+      "subtitle": "Selamat datang kembali! Silakan masukkan kredensial Anda.",
+      "email": "Alamat email",
+      "password": "Kata sandi",
+      "rememberMe": "Ingat saya",
+      "forgotPassword": "Lupa kata sandi?",
+      "submitButton": "Masuk",
+      "noAccount": "Belum punya akun?",
+      "signUp": "Daftar"
+    },
+    "register": {
+      "title": "Buat akun Anda",
+      "subtitle": "Mulai uji coba gratis 14 hari Anda hari ini.",
+      "fullName": "Nama lengkap",
+      "email": "Email kerja",
+      "password": "Kata sandi",
+      "confirmPassword": "Konfirmasi kata sandi",
+      "company": "Nama perusahaan",
+      "submitButton": "Buat Akun",
+      "hasAccount": "Sudah punya akun?",
+      "signIn": "Masuk"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "Grafik",
+      "description": "Jelajahi alam semesta pengetahuan Anda"
+    },
+    "council": {
+      "name": "Dewan",
+      "description": "Penasihat AI yang berpikir bersama"
+    },
+    "pulse": {
+      "name": "Denyut",
+      "description": "Kesehatan organisasi real-time"
+    },
+    "lens": {
+      "name": "Lensa",
+      "description": "Lihat masa depan yang mungkin"
+    },
+    "bridge": {
+      "name": "Jembatan",
+      "description": "Ambil tindakan lintas sistem"
+    }
+  },
+  "footer": {
+    "company": "Perusahaan",
+    "product": "Produk",
+    "resources": "Sumber Daya",
+    "legal": "Hukum",
+    "copyright": "© {{year}} Datacendia. Hak cipta dilindungi.",
+    "tagline": "Kecerdasan Perusahaan Berdaulat"
+  }
+}

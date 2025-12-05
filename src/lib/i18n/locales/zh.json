@@ -1,0 +1,152 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "retry": "重试",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "update": "更新",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "export": "导出",
+    "import": "导入",
+    "download": "下载",
+    "upload": "上传",
+    "yes": "是",
+    "no": "否",
+    "confirm": "确认",
+    "submit": "提交",
+    "apply": "应用",
+    "reset": "重置",
+    "clear": "清除",
+    "all": "全部",
+    "none": "无",
+    "select": "选择",
+    "selected": "已选择",
+    "view": "查看",
+    "details": "详情",
+    "more": "更多",
+    "less": "收起",
+    "showAll": "显示全部",
+    "hideAll": "隐藏全部",
+    "viewMore": "查看更多",
+    "learnMore": "了解更多"
+  },
+  "nav": {
+    "home": "首页",
+    "product": "产品",
+    "pricing": "价格",
+    "about": "关于我们",
+    "demo": "申请演示",
+    "login": "登录",
+    "register": "注册",
+    "logout": "退出",
+    "downloads": "下载",
+    "documentation": "文档",
+    "support": "支持",
+    "contact": "联系我们",
+    "manifesto": "宣言",
+    "services": "服务",
+    "packages": "套餐"
+  },
+  "auth": {
+    "login": {
+      "title": "登录您的账户",
+      "subtitle": "欢迎回来！请输入您的凭据。",
+      "email": "电子邮箱",
+      "password": "密码",
+      "rememberMe": "记住我",
+      "forgotPassword": "忘记密码？",
+      "submitButton": "登录",
+      "noAccount": "还没有账户？",
+      "signUp": "注册",
+      "orContinueWith": "或使用以下方式继续"
+    },
+    "register": {
+      "title": "创建您的账户",
+      "subtitle": "今天开始14天免费试用。",
+      "fullName": "全名",
+      "email": "工作邮箱",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "company": "公司名称",
+      "submitButton": "创建账户",
+      "hasAccount": "已有账户？",
+      "signIn": "登录"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "您组织的智能，",
+      "titleHighlight": "主权且完整",
+      "subtitle": "Datacendia是企业智能的指挥中心。连接您的数据，咨询AI顾问，预见可能的未来——同时保持完全控制。",
+      "ctaPrimary": "申请演示",
+      "ctaSecondary": "探索平台"
+    },
+    "problem": {
+      "title": "企业智能的问题",
+      "subtitle": "组织在碎片化数据、孤立工具和被动决策中挣扎"
+    },
+    "solution": {
+      "title": "Cortex：您的智能指挥中心",
+      "subtitle": "五个集成空间，为您提供完整的可见性和控制"
+    },
+    "pillars": {
+      "title": "主权智能的8大支柱",
+      "subtitle": "您需要的每项能力，协同工作如同一体"
+    }
+  },
+  "spaces": {
+    "graph": { "name": "图谱", "description": "导航您的知识宇宙" },
+    "council": { "name": "议会", "description": "共同推理的AI顾问" },
+    "pulse": { "name": "脉搏", "description": "实时组织健康" },
+    "lens": { "name": "透镜", "description": "看见可能的未来" },
+    "bridge": { "name": "桥梁", "description": "跨系统采取行动" }
+  },
+  "pillars": {
+    "helm": { "name": "舵手", "description": "战略决策支持" },
+    "lineage": { "name": "血统", "description": "追溯每个数据点到源头" },
+    "predict": { "name": "预测", "description": "AI驱动的预测" },
+    "flow": { "name": "流程", "description": "自动化工作流" },
+    "health": { "name": "健康", "description": "组织活力指标" },
+    "guard": { "name": "守卫", "description": "数据治理与合规" },
+    "ethics": { "name": "伦理", "description": "内置伦理监督" },
+    "agents": { "name": "代理", "description": "各领域的AI顾问" }
+  },
+  "pricing": {
+    "title": "简单透明的定价",
+    "subtitle": "选择适合您组织的计划。",
+    "monthly": "月付",
+    "annual": "年付",
+    "annualDiscount": "节省20%",
+    "perMonth": "/月",
+    "startTrial": "开始免费试用",
+    "contactSales": "联系销售",
+    "mostPopular": "最受欢迎"
+  },
+  "downloads": {
+    "title": "下载",
+    "subtitle": "获取适用于您平台的Datacendia",
+    "desktop": { "title": "桌面应用", "download": "下载" },
+    "mobile": { "title": "移动应用" }
+  },
+  "footer": {
+    "company": "公司",
+    "product": "产品",
+    "resources": "资源",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "© {{year}} Datacendia. 保留所有权利。",
+    "tagline": "主权企业智能"
+  }
+}

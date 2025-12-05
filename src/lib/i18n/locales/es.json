@@ -1,0 +1,260 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Cargando...",
+    "error": "Se produjo un error",
+    "retry": "Reintentar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "export": "Exportar",
+    "import": "Importar",
+    "download": "Descargar",
+    "upload": "Subir",
+    "yes": "Sí",
+    "no": "No",
+    "confirm": "Confirmar",
+    "submit": "Enviar",
+    "apply": "Aplicar",
+    "reset": "Restablecer",
+    "clear": "Limpiar",
+    "all": "Todo",
+    "none": "Ninguno",
+    "select": "Seleccionar",
+    "selected": "Seleccionado",
+    "view": "Ver",
+    "details": "Detalles",
+    "more": "Más",
+    "less": "Menos",
+    "showAll": "Mostrar Todo",
+    "hideAll": "Ocultar Todo",
+    "viewMore": "Ver Más",
+    "learnMore": "Saber Más"
+  },
+  "nav": {
+    "home": "Inicio",
+    "product": "Producto",
+    "pricing": "Precios",
+    "about": "Acerca de",
+    "demo": "Solicitar Demo",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "downloads": "Descargas",
+    "documentation": "Documentación",
+    "support": "Soporte",
+    "contact": "Contacto",
+    "manifesto": "Manifiesto",
+    "services": "Servicios",
+    "packages": "Paquetes"
+  },
+  "auth": {
+    "login": {
+      "title": "Inicia sesión en tu cuenta",
+      "subtitle": "¡Bienvenido de nuevo! Por favor ingresa tus credenciales.",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "rememberMe": "Recordarme",
+      "forgotPassword": "¿Olvidaste tu contraseña?",
+      "submitButton": "Iniciar Sesión",
+      "noAccount": "¿No tienes una cuenta?",
+      "signUp": "Regístrate",
+      "orContinueWith": "O continúa con",
+      "errors": {
+        "invalidCredentials": "Correo o contraseña inválidos",
+        "accountLocked": "La cuenta ha sido bloqueada",
+        "networkError": "Error de red. Por favor intenta de nuevo."
+      }
+    },
+    "register": {
+      "title": "Crea tu cuenta",
+      "subtitle": "Comienza tu prueba gratuita de 14 días hoy.",
+      "fullName": "Nombre completo",
+      "email": "Correo de trabajo",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "company": "Nombre de la empresa",
+      "companySize": "Tamaño de la empresa",
+      "industry": "Industria",
+      "submitButton": "Crear Cuenta",
+      "hasAccount": "¿Ya tienes una cuenta?",
+      "signIn": "Inicia sesión",
+      "agreeToTerms": "Acepto los Términos de Servicio y la Política de Privacidad",
+      "passwordRequirements": {
+        "title": "La contraseña debe contener:",
+        "minLength": "Al menos 12 caracteres",
+        "uppercase": "Una letra mayúscula",
+        "lowercase": "Una letra minúscula",
+        "number": "Un número",
+        "special": "Un carácter especial"
+      }
+    },
+    "forgotPassword": {
+      "title": "Restablece tu contraseña",
+      "subtitle": "Ingresa tu correo y te enviaremos un enlace de restablecimiento.",
+      "email": "Correo electrónico",
+      "submitButton": "Enviar Enlace",
+      "backToLogin": "Volver a iniciar sesión",
+      "success": "Si existe una cuenta, recibirás un correo pronto."
+    },
+    "mfa": {
+      "title": "Autenticación de dos factores",
+      "subtitle": "Ingresa el código de tu aplicación de autenticación.",
+      "code": "Código de autenticación",
+      "submitButton": "Verificar",
+      "useBackupCode": "Usar código de respaldo",
+      "resendCode": "Reenviar código"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "La Inteligencia de Tu Organización,",
+      "titleHighlight": "Soberana e Integral",
+      "subtitle": "Datacendia es el centro de comando para la inteligencia empresarial. Conecta tus datos, consulta asesores de IA y visualiza futuros posibles — todo manteniendo el control completo.",
+      "ctaPrimary": "Solicitar Demo",
+      "ctaSecondary": "Explorar Plataforma"
+    },
+    "problem": {
+      "title": "El Problema con la Inteligencia Empresarial",
+      "subtitle": "Las organizaciones luchan con datos fragmentados, herramientas aisladas y toma de decisiones reactiva",
+      "dataChaos": {
+        "title": "Caos de Datos",
+        "description": "Tus datos viven en docenas de sistemas sin una vista unificada. Nadie sabe qué es verdad."
+      },
+      "toolSprawl": {
+        "title": "Proliferación de Herramientas",
+        "description": "Herramientas de BI, plataformas analíticas, dashboards — ninguno se comunica entre sí."
+      },
+      "noForesight": {
+        "title": "Sin Previsión",
+        "description": "Siempre estás mirando por el espejo retrovisor. ¿Qué hay de lo que viene?"
+      }
+    },
+    "solution": {
+      "title": "El Cortex: Tu Centro de Comando de Inteligencia",
+      "subtitle": "Cinco espacios integrados que te dan visibilidad y control completos"
+    },
+    "pillars": {
+      "title": "Los 8 Pilares de la Inteligencia Soberana",
+      "subtitle": "Cada capacidad que necesitas, trabajando juntas como una"
+    },
+    "cta": {
+      "title": "¿Listo para tomar el control de tu inteligencia?",
+      "subtitle": "Descubre cómo Datacendia puede transformar la toma de decisiones de tu organización",
+      "button": "Agendar una Demo"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "El Grafo",
+      "description": "Navega tu universo de conocimiento"
+    },
+    "council": {
+      "name": "El Consejo",
+      "description": "Asesores de IA que razonan juntos"
+    },
+    "pulse": {
+      "name": "El Pulso",
+      "description": "Salud organizacional en tiempo real"
+    },
+    "lens": {
+      "name": "La Lente",
+      "description": "Visualiza futuros posibles"
+    },
+    "bridge": {
+      "name": "El Puente",
+      "description": "Toma acción a través de sistemas"
+    }
+  },
+  "pillars": {
+    "helm": {
+      "name": "El Timón",
+      "description": "Soporte para decisiones estratégicas",
+      "longDescription": "Tu centro de comando para decisiones estratégicas. Rastrea KPIs, monitorea el rendimiento y dirige tu organización con confianza."
+    },
+    "lineage": {
+      "name": "El Linaje",
+      "description": "Rastrea cada dato hasta su origen",
+      "longDescription": "Seguimiento completo de la procedencia de datos. Conoce de dónde vienen tus datos, cómo se transforman y hacia dónde van."
+    },
+    "predict": {
+      "name": "La Predicción",
+      "description": "Pronósticos potenciados por IA",
+      "longDescription": "Modelos de aprendizaje automático que pronostican tendencias, detectan anomalías y revelan insights antes de que sean obvios."
+    },
+    "flow": {
+      "name": "El Flujo",
+      "description": "Flujos de trabajo automatizados",
+      "longDescription": "Automatización inteligente de flujos de trabajo que conecta tus sistemas y procesos con puntos de decisión impulsados por IA."
+    },
+    "health": {
+      "name": "La Salud",
+      "description": "Métricas de vitalidad organizacional",
+      "longDescription": "Monitoreo en tiempo real de los signos vitales de tu organización a través de datos, sistemas y procesos."
+    },
+    "guard": {
+      "name": "El Guardián",
+      "description": "Gobernanza de datos y cumplimiento",
+      "longDescription": "Aplicación automatizada de políticas, controles de acceso y monitoreo de cumplimiento para mantener tus datos seguros."
+    },
+    "ethics": {
+      "name": "La Ética",
+      "description": "Supervisión ética incorporada",
+      "longDescription": "Guardarraíles éticos que aseguran el uso responsable de IA, algoritmos justos y toma de decisiones transparente."
+    },
+    "agents": {
+      "name": "Los Agentes",
+      "description": "Asesores de IA para cada dominio",
+      "longDescription": "Agentes de IA especializados que proporcionan experiencia específica de dominio y colaboran para resolver problemas complejos."
+    }
+  },
+  "pricing": {
+    "title": "Precios Simples y Transparentes",
+    "subtitle": "Elige el plan que se adapte a tu organización. Todos los planes incluyen una prueba gratuita de 14 días.",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "annualDiscount": "Ahorra 20%",
+    "perMonth": "/mes",
+    "startTrial": "Iniciar Prueba Gratuita",
+    "contactSales": "Contactar Ventas",
+    "mostPopular": "Más Popular"
+  },
+  "downloads": {
+    "title": "Descargas",
+    "subtitle": "Obtén Datacendia para tu plataforma",
+    "desktop": {
+      "title": "Aplicación de Escritorio",
+      "windows": "Windows",
+      "mac": "macOS",
+      "linux": "Linux",
+      "download": "Descargar"
+    },
+    "mobile": {
+      "title": "Aplicaciones Móviles",
+      "ios": "iOS",
+      "android": "Android",
+      "appStore": "App Store",
+      "playStore": "Google Play"
+    }
+  },
+  "footer": {
+    "company": "Empresa",
+    "product": "Producto",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyright": "© {{year}} Datacendia. Todos los derechos reservados.",
+    "tagline": "Inteligencia Empresarial Soberana"
+  }
+}

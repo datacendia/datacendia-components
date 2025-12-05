@@ -1,0 +1,152 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "update": "Aktualisieren",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Vorherige",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "export": "Exportieren",
+    "import": "Importieren",
+    "download": "Herunterladen",
+    "upload": "Hochladen",
+    "yes": "Ja",
+    "no": "Nein",
+    "confirm": "Bestätigen",
+    "submit": "Absenden",
+    "apply": "Anwenden",
+    "reset": "Zurücksetzen",
+    "clear": "Leeren",
+    "all": "Alle",
+    "none": "Keine",
+    "select": "Auswählen",
+    "selected": "Ausgewählt",
+    "view": "Ansehen",
+    "details": "Details",
+    "more": "Mehr",
+    "less": "Weniger",
+    "showAll": "Alle anzeigen",
+    "hideAll": "Alle ausblenden",
+    "viewMore": "Mehr anzeigen",
+    "learnMore": "Mehr erfahren"
+  },
+  "nav": {
+    "home": "Startseite",
+    "product": "Produkt",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "demo": "Demo anfordern",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "logout": "Abmelden",
+    "downloads": "Downloads",
+    "documentation": "Dokumentation",
+    "support": "Support",
+    "contact": "Kontakt",
+    "manifesto": "Manifest",
+    "services": "Dienstleistungen",
+    "packages": "Pakete"
+  },
+  "auth": {
+    "login": {
+      "title": "Bei Ihrem Konto anmelden",
+      "subtitle": "Willkommen zurück! Bitte geben Sie Ihre Anmeldedaten ein.",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "rememberMe": "Angemeldet bleiben",
+      "forgotPassword": "Passwort vergessen?",
+      "submitButton": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUp": "Registrieren",
+      "orContinueWith": "Oder fortfahren mit"
+    },
+    "register": {
+      "title": "Konto erstellen",
+      "subtitle": "Starten Sie heute Ihre 14-tägige kostenlose Testversion.",
+      "fullName": "Vollständiger Name",
+      "email": "Geschäftliche E-Mail",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "company": "Firmenname",
+      "submitButton": "Konto erstellen",
+      "hasAccount": "Bereits ein Konto?",
+      "signIn": "Anmelden"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Die Intelligenz Ihrer Organisation,",
+      "titleHighlight": "Souverän und Vollständig",
+      "subtitle": "Datacendia ist die Kommandozentrale für Unternehmensintelligenz. Verbinden Sie Ihre Daten, konsultieren Sie KI-Berater und visualisieren Sie mögliche Zukünfte — alles bei voller Kontrolle.",
+      "ctaPrimary": "Demo anfordern",
+      "ctaSecondary": "Plattform erkunden"
+    },
+    "problem": {
+      "title": "Das Problem mit der Unternehmensintelligenz",
+      "subtitle": "Organisationen kämpfen mit fragmentierten Daten, isolierten Tools und reaktiver Entscheidungsfindung"
+    },
+    "solution": {
+      "title": "Der Cortex: Ihre Intelligenz-Kommandozentrale",
+      "subtitle": "Fünf integrierte Bereiche für vollständige Sichtbarkeit und Kontrolle"
+    },
+    "pillars": {
+      "title": "Die 8 Säulen der Souveränen Intelligenz",
+      "subtitle": "Jede Fähigkeit, die Sie brauchen, arbeitet als Einheit zusammen"
+    }
+  },
+  "spaces": {
+    "graph": { "name": "Der Graph", "description": "Navigieren Sie Ihr Wissensuniversum" },
+    "council": { "name": "Der Rat", "description": "KI-Berater, die gemeinsam denken" },
+    "pulse": { "name": "Der Puls", "description": "Echtzeit-Organisationsgesundheit" },
+    "lens": { "name": "Die Linse", "description": "Mögliche Zukünfte sehen" },
+    "bridge": { "name": "Die Brücke", "description": "Systemübergreifend handeln" }
+  },
+  "pillars": {
+    "helm": { "name": "Das Ruder", "description": "Strategische Entscheidungsunterstützung" },
+    "lineage": { "name": "Die Herkunft", "description": "Jeden Datenpunkt zur Quelle verfolgen" },
+    "predict": { "name": "Die Vorhersage", "description": "KI-gestützte Prognosen" },
+    "flow": { "name": "Der Fluss", "description": "Automatisierte Workflows" },
+    "health": { "name": "Die Gesundheit", "description": "Organisatorische Vitalitätsmetriken" },
+    "guard": { "name": "Der Wächter", "description": "Daten-Governance und Compliance" },
+    "ethics": { "name": "Die Ethik", "description": "Eingebaute ethische Aufsicht" },
+    "agents": { "name": "Die Agenten", "description": "KI-Berater für jeden Bereich" }
+  },
+  "pricing": {
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Wählen Sie den Plan, der zu Ihrer Organisation passt.",
+    "monthly": "Monatlich",
+    "annual": "Jährlich",
+    "annualDiscount": "20% sparen",
+    "perMonth": "/Monat",
+    "startTrial": "Kostenlos testen",
+    "contactSales": "Vertrieb kontaktieren",
+    "mostPopular": "Am beliebtesten"
+  },
+  "downloads": {
+    "title": "Downloads",
+    "subtitle": "Holen Sie sich Datacendia für Ihre Plattform",
+    "desktop": { "title": "Desktop-Anwendung", "download": "Herunterladen" },
+    "mobile": { "title": "Mobile Apps" }
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "product": "Produkt",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "copyright": "© {{year}} Datacendia. Alle Rechte vorbehalten.",
+    "tagline": "Souveräne Unternehmensintelligenz"
+  }
+}

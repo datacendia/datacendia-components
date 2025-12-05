@@ -1,0 +1,418 @@
+/**
+ * Datacendia API - Main Export
+ * Unified API client for all Datacendia services
+ */
+
+import { api, tokenManager, onAuthChange } from './client';
+import type * as Types from './types';
+
+// Re-export types
+export * from './types';
+export { api, tokenManager, onAuthChange };
+
+// ============================================================================
+// AUTH API
+// ============================================================================
+export const authApi = {
+  async login(credentials: Types.LoginRequest) {
+    const response = await api.post<Types.LoginResponse>('/auth/login', credentials);
+    if (response.success && response.data) {
+      tokenManager.setTokens({
+        accessToken: response.data.accessToken,
+        refreshToken: response.data.refreshToken,
+        expiresIn: response.data.expiresIn,
+      });
+    }
+    return response;
+  },
+
+  async register(data: Types.RegisterRequest) {
+    const response = await api.post<Types.LoginResponse>('/auth/register', data);
+    if (response.success && response.data) {
+      tokenManager.setTokens({
+        accessToken: response.data.accessToken,
+        refreshToken: response.data.refreshToken,
+        expiresIn: response.data.expiresIn,
+      });
+    }
+    return response;
+  },
+
+  async logout() {
+    await api.post('/auth/logout');
+    tokenManager.clearTokens();
+  },
+
+  async getCurrentUser() {
+    return api.get<Types.User>('/auth/me');
+  },
+
+  isAuthenticated: () => tokenManager.isAuthenticated(),
+};
+
+// ============================================================================
+// GRAPH API
+// ============================================================================
+export const graphApi = {
+  async getEntities(params?: { type?: string; search?: string; page?: number; pageSize?: number }) {
+    return api.get<Types.GraphEntity[]>('/graph/entities', params);
+  },
+
+  async getEntity(id: string) {
+    return api.get<Types.GraphEntity>(`/graph/entities/${id}`);
+  },
+
+  async createEntity(data: { type: string; name: string; properties?: Record<string, unknown> }) {
+    return api.post<Types.GraphEntity>('/graph/entities', data);
+  },
+
+  async updateEntity(id: string, data: { name?: string; properties?: Record<string, unknown> }) {
+    return api.put<Types.GraphEntity>(`/graph/entities/${id}`, data);
+  },
+
+  async deleteEntity(id: string) {
+    return api.delete(`/graph/entities/${id}`);
+  },
+
+  async getNeighbors(id: string, params?: { direction?: 'incoming' | 'outgoing' | 'both'; depth?: number }) {
+    return api.get<Types.GraphEntity[]>(`/graph/entities/${id}/neighbors`, params);
+  },
+
+  async createRelationship(data: { sourceId: string; targetId: string; type: string; properties?: Record<string, unknown> }) {
+    return api.post<Types.GraphRelationship>('/graph/relationships', data);
+  },
+
+  async search(query: string) {
+    return api.get<Types.GraphEntity[]>('/graph/search', { q: query });
+  },
+
+  async executeQuery(cypher: string, parameters?: Record<string, unknown>) {
+    return api.post<unknown>('/graph/query', { query: cypher, parameters });
+  },
+};
+
+// ============================================================================
+// LINEAGE API
+// ============================================================================
+export const lineageApi = {
+  async getLineage(entityId: string, params?: { direction?: 'upstream' | 'downstream' | 'both'; depth?: number }) {
+    return api.get<Types.LineageResult>(`/lineage/${entityId}`, params);
+  },
+
+  async getImpact(entityId: string) {
+    return api.get<Types.ImpactAnalysis>(`/lineage/${entityId}/impact`);
+  },
+
+  async getTransformations(entityId: string) {
+    return api.get<{ entityId: string; transformations: unknown[]; totalTransformations: number }>(`/lineage/${entityId}/transformations`);
+  },
+
+  async getQuality(entityId: string) {
+    return api.get<{ entityId: string; overallScore: number; dimensions: Record<string, number>; issues: unknown[] }>(`/lineage/${entityId}/quality`);
+  },
+};
+
+// ============================================================================
+// COUNCIL API (AI Agents)
+// ============================================================================
+export const councilApi = {
+  async getAgents() {
+    return api.get<Types.Agent[]>('/council/agents');
+  },
+
+  async getAgentStatus(agentId: string) {
+    return api.get<{ status: 'online' | 'offline' | 'busy' }>(`/council/agents/${agentId}/status`);
+  },
+
+  async submitQuery(data: { query: string; agents?: string[]; context?: Record<string, unknown>; language?: string }) {
+    return api.post<Types.CouncilQuery>('/council/query', data);
+  },
+
+  async startDeliberation(data: { question: string; agents: string[]; config?: { maxDuration?: number; requireConsensus?: boolean }; language?: string }) {
+    return api.post<Types.Deliberation>('/council/deliberations', data);
+  },
+
+  async getDeliberation(id: string) {
+    return api.get<Types.Deliberation>(`/council/deliberations/${id}`);
+  },
+
+  async getDeliberationTranscript(id: string) {
+    return api.get<{ phases: Array<{ phase: string; messages: Types.DeliberationMessage[] }> }>(`/council/deliberations/${id}/transcript`);
+  },
+
+  async controlDeliberation(id: string, action: 'pause' | 'resume' | 'skip_to_synthesis' | 'cancel') {
+    return api.post(`/council/deliberations/${id}/control`, { action });
+  },
+
+  async getActiveDeliberations() {
+    return api.get<Types.Deliberation[]>('/council/deliberations/active');
+  },
+
+  async getRecentDecisions(limit?: number) {
+    return api.get<Types.CouncilQuery[]>('/council/decisions/recent', limit ? { limit } : undefined);
+  },
+
+  async addUserIntervention(deliberationId: string, data: { 
+    role: { code: string; title: string; department: string; icon: string }; 
+    content: string; 
+    type: string;
+  }) {
+    return api.post(`/council/deliberations/${deliberationId}/intervention`, data);
+  },
+};
+
+// ============================================================================
+// METRICS API
+// ============================================================================
+export const metricsApi = {
+  async getMetrics(params?: { category?: string; search?: string; page?: number }) {
+    return api.get<Types.MetricDefinition[]>('/metrics', params);
+  },
+
+  async getKeyMetrics() {
+    return api.get<Array<Types.MetricDefinition & { currentValue: number; change: number }>>('/metrics/key');
+  },
+
+  async getMetric(id: string) {
+    return api.get<Types.MetricDefinition>(`/metrics/${id}`);
+  },
+
+  async createMetric(data: Partial<Types.MetricDefinition>) {
+    return api.post<Types.MetricDefinition>('/metrics', data);
+  },
+
+  async calculateMetric(id: string, params?: { startDate?: string; endDate?: string; granularity?: string }) {
+    return api.get<Types.MetricCalculation>(`/metrics/${id}/calculate`, params);
+  },
+
+  async getMetricHistory(id: string, params?: { startDate?: string; endDate?: string; granularity?: string }) {
+    return api.get<Types.MetricValue[]>(`/metrics/${id}/history`, params);
+  },
+};
+
+// ============================================================================
+// HEALTH API
+// ============================================================================
+export const healthApi = {
+  async getScore() {
+    return api.get<Types.HealthScore>('/health/score');
+  },
+
+  async getDimensions() {
+    return api.get<Types.HealthScore['dimensions']>('/health/dimensions');
+  },
+
+  async getTrend(days?: number) {
+    return api.get<Array<{ date: string; score: number }>>('/health/trend', days ? { days } : undefined);
+  },
+
+  async getSystemStatus() {
+    return api.get<Array<{ service: string; status: string; latency?: number }>>('/health/systems/status');
+  },
+};
+
+// ============================================================================
+// ALERTS API
+// ============================================================================
+export const alertsApi = {
+  async getAlerts(params?: { severity?: string; status?: string; page?: number }) {
+    return api.get<Types.Alert[]>('/alerts', params);
+  },
+
+  async getSummary() {
+    return api.get<Types.AlertSummary>('/alerts/summary');
+  },
+
+  async getAlert(id: string) {
+    return api.get<Types.Alert>(`/alerts/${id}`);
+  },
+
+  async acknowledgeAlert(id: string, note?: string) {
+    return api.post<Types.Alert>(`/alerts/${id}/acknowledge`, { note });
+  },
+
+  async resolveAlert(id: string, data: { resolution: string; rootCause?: string }) {
+    return api.post<Types.Alert>(`/alerts/${id}/resolve`, data);
+  },
+};
+
+// ============================================================================
+// WORKFLOWS API
+// ============================================================================
+export const workflowsApi = {
+  async getWorkflows(params?: { status?: string; category?: string; search?: string }) {
+    return api.get<Types.Workflow[]>('/workflows', params);
+  },
+
+  async getWorkflow(id: string) {
+    return api.get<Types.Workflow>(`/workflows/${id}`);
+  },
+
+  async createWorkflow(data: Partial<Types.Workflow>) {
+    return api.post<Types.Workflow>('/workflows', data);
+  },
+
+  async updateWorkflow(id: string, data: Partial<Types.Workflow>) {
+    return api.put<Types.Workflow>(`/workflows/${id}`, data);
+  },
+
+  async deleteWorkflow(id: string) {
+    return api.delete(`/workflows/${id}`);
+  },
+
+  async activateWorkflow(id: string) {
+    return api.post(`/workflows/${id}/activate`);
+  },
+
+  async executeWorkflow(id: string, params?: Record<string, unknown>) {
+    return api.post<Types.WorkflowExecution>(`/workflows/${id}/execute`, { parameters: params });
+  },
+
+  async getExecution(executionId: string) {
+    return api.get<Types.WorkflowExecution>(`/workflows/executions/${executionId}`);
+  },
+
+  async getExecutions(params?: { workflowId?: string; status?: string; page?: number }) {
+    return api.get<Types.WorkflowExecution[]>('/workflows/executions', params);
+  },
+};
+
+// ============================================================================
+// FORECASTS API
+// ============================================================================
+export const forecastsApi = {
+  async getForecasts(params?: { status?: string; page?: number }) {
+    return api.get<Types.Forecast[]>('/predict/forecasts', params);
+  },
+
+  async getForecast(id: string) {
+    return api.get<Types.Forecast>(`/predict/forecasts/${id}`);
+  },
+
+  async createForecast(data: { name: string; targetMetric: string; horizon: { value: number; unit: string }; model?: string; features?: string[] }) {
+    return api.post<Types.Forecast>('/predict/forecasts', data);
+  },
+
+  async getScenarios(params?: { page?: number }) {
+    return api.get<Types.Scenario[]>('/predict/scenarios', params);
+  },
+
+  async getScenario(id: string) {
+    return api.get<Types.Scenario>(`/predict/scenarios/${id}`);
+  },
+
+  async createScenario(data: Partial<Types.Scenario>) {
+    return api.post<Types.Scenario>('/predict/scenarios', data);
+  },
+
+  async compareScenarios(scenarioIds: string[], metrics: string[], timeRange?: { start: string; end: string }) {
+    return api.post<{ scenarios: Array<{ id: string; name: string; values: Record<string, number[]> }> }>('/predict/scenarios/compare', { scenarioIds, metrics, timeRange });
+  },
+};
+
+// ============================================================================
+// USERS API
+// ============================================================================
+export const usersApi = {
+  async getUsers(params?: { search?: string; role?: string; page?: number }) {
+    return api.get<Types.User[]>('/users', params);
+  },
+
+  async getCurrentUser() {
+    return api.get<Types.User>('/users/me');
+  },
+
+  async updateCurrentUser(data: Partial<Types.User>) {
+    return api.put<Types.User>('/users/me', data);
+  },
+
+  async inviteUser(data: { email: string; role: string; teams?: string[]; message?: string }) {
+    return api.post<Types.User>('/users/invite', data);
+  },
+
+  async updateUserRole(userId: string, role: string) {
+    return api.put<Types.User>(`/users/${userId}/role`, { role });
+  },
+
+  async deleteUser(userId: string) {
+    return api.delete(`/users/${userId}`);
+  },
+};
+
+// ============================================================================
+// ORGANIZATIONS API
+// ============================================================================
+export const organizationsApi = {
+  async getCurrent() {
+    return api.get<Types.Organization>('/organizations/current');
+  },
+
+  async updateCurrent(data: Partial<Types.Organization>) {
+    return api.put<Types.Organization>('/organizations/current', data);
+  },
+
+  async getTeams() {
+    return api.get<Array<{ id: string; name: string; memberCount: number }>>('/organizations/current/teams');
+  },
+
+  async createTeam(data: { name: string; description?: string }) {
+    return api.post<{ id: string; name: string }>('/organizations/current/teams', data);
+  },
+
+  async getActivity(params?: { page?: number; limit?: number }) {
+    return api.get<Array<{ id: string; action: string; user: string; timestamp: string }>>('/organizations/current/activity', params);
+  },
+};
+
+// ============================================================================
+// INTEGRATIONS API
+// ============================================================================
+export const integrationsApi = {
+  async getIntegrations() {
+    return api.get<{ available: Types.Integration[]; connected: Types.IntegrationConnection[] }>('/integrations');
+  },
+
+  async getIntegration(id: string) {
+    return api.get<Types.Integration & { configSchema: Record<string, unknown> }>(`/integrations/${id}`);
+  },
+
+  async connect(integrationId: string, data: { name: string; config: Record<string, unknown> }) {
+    return api.post<{ connectionId?: string; authUrl?: string; method?: string }>(`/integrations/${integrationId}/connect`, data);
+  },
+
+  async getConnection(connectionId: string) {
+    return api.get<Types.IntegrationConnection>(`/integrations/connections/${connectionId}`);
+  },
+
+  async testConnection(connectionId: string) {
+    return api.post<{ success: boolean; message: string; latency?: number }>(`/integrations/connections/${connectionId}/test`);
+  },
+
+  async syncConnection(connectionId: string) {
+    return api.post<{ message: string }>(`/integrations/connections/${connectionId}/sync`);
+  },
+
+  async disconnectConnection(connectionId: string) {
+    return api.delete(`/integrations/connections/${connectionId}`);
+  },
+
+  async getConnectionSchema(connectionId: string) {
+    return api.get<{ objects: Array<{ name: string; type: string; fields: unknown[] }> }>(`/integrations/connections/${connectionId}/schema`);
+  },
+};
+
+// Default export with all APIs
+export default {
+  auth: authApi,
+  graph: graphApi,
+  lineage: lineageApi,
+  council: councilApi,
+  metrics: metricsApi,
+  health: healthApi,
+  alerts: alertsApi,
+  workflows: workflowsApi,
+  forecasts: forecastsApi,
+  users: usersApi,
+  organizations: organizationsApi,
+  integrations: integrationsApi,
+};

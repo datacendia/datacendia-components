@@ -1,0 +1,490 @@
+<testsuites id="" name="" tests="120" failures="0" skipped="120" errors="0" time="0.05931200000000001">
+<testsuite name="critical-flows.spec.ts" timestamp="2025-11-30T11:09:45.377Z" hostname="chromium" tests="30" failures="0" skipped="30" time="0" errors="0">
+<testcase name="Authentication › should display login page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication › should show error for invalid credentials" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication › should redirect to dashboard after login" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should load Chronos page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should display timeline controls" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should rewind to past state" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should show data snapshot at selected time" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should record decision at current time point" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should load Council page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should display agent avatars" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should start new deliberation" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should allow asking follow-up questions" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should export deliberation transcript" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should load Autopilot dashboard" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should display pending decisions" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should approve autonomous decision" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should reject decision with reason" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should view decision history" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Critical Flow: Complete Decision Cycle › should complete full decision cycle: Chronos → Council → Autopilot → Record" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaSovereign™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaPersonaForge™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaMesh™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaGovern™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaGenomics™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaDefenseStack™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaOmniTranslate™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility › should have no critical accessibility violations on dashboard" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility › should be keyboard navigable" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance › dashboard should load within 3 seconds" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance › Chronos should load within 5 seconds" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="critical-flows.spec.ts" timestamp="2025-11-30T11:09:45.377Z" hostname="firefox" tests="30" failures="0" skipped="30" time="0" errors="0">
+<testcase name="Authentication › should display login page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication › should show error for invalid credentials" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication › should redirect to dashboard after login" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should load Chronos page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should display timeline controls" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should rewind to past state" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should show data snapshot at selected time" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should record decision at current time point" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should load Council page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should display agent avatars" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should start new deliberation" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should allow asking follow-up questions" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should export deliberation transcript" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should load Autopilot dashboard" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should display pending decisions" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should approve autonomous decision" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should reject decision with reason" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should view decision history" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Critical Flow: Complete Decision Cycle › should complete full decision cycle: Chronos → Council → Autopilot → Record" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaSovereign™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaPersonaForge™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaMesh™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaGovern™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaGenomics™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaDefenseStack™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaOmniTranslate™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility › should have no critical accessibility violations on dashboard" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility › should be keyboard navigable" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance › dashboard should load within 3 seconds" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance › Chronos should load within 5 seconds" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="critical-flows.spec.ts" timestamp="2025-11-30T11:09:45.377Z" hostname="webkit" tests="30" failures="0" skipped="30" time="0" errors="0">
+<testcase name="Authentication › should display login page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication › should show error for invalid credentials" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication › should redirect to dashboard after login" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should load Chronos page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should display timeline controls" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should rewind to past state" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should show data snapshot at selected time" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should record decision at current time point" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should load Council page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should display agent avatars" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should start new deliberation" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should allow asking follow-up questions" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should export deliberation transcript" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should load Autopilot dashboard" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should display pending decisions" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should approve autonomous decision" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should reject decision with reason" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should view decision history" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Critical Flow: Complete Decision Cycle › should complete full decision cycle: Chronos → Council → Autopilot → Record" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaSovereign™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaPersonaForge™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaMesh™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaGovern™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaGenomics™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaDefenseStack™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaOmniTranslate™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility › should have no critical accessibility violations on dashboard" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility › should be keyboard navigable" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance › dashboard should load within 3 seconds" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance › Chronos should load within 5 seconds" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="critical-flows.spec.ts" timestamp="2025-11-30T11:09:45.377Z" hostname="mobile-chrome" tests="30" failures="0" skipped="30" time="0" errors="0">
+<testcase name="Authentication › should display login page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication › should show error for invalid credentials" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Authentication › should redirect to dashboard after login" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should load Chronos page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should display timeline controls" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should rewind to past state" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should show data snapshot at selected time" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaChronos™ - Enterprise Time Machine › should record decision at current time point" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should load Council page" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should display agent avatars" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should start new deliberation" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should allow asking follow-up questions" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Council - AI Agent Deliberation › should export deliberation transcript" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should load Autopilot dashboard" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should display pending decisions" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should approve autonomous decision" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should reject decision with reason" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="CendiaAutopilot™ - Self-Driving Enterprise › should view decision history" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Critical Flow: Complete Decision Cycle › should complete full decision cycle: Chronos → Council → Autopilot → Record" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaSovereign™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaPersonaForge™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaMesh™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaGovern™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaGenomics™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaDefenseStack™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Enterprise Features › should access CendiaOmniTranslate™" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility › should have no critical accessibility violations on dashboard" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Accessibility › should be keyboard navigable" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance › dashboard should load within 3 seconds" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Performance › Chronos should load within 5 seconds" classname="critical-flows.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

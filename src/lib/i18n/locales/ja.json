@@ -1,0 +1,152 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "create": "作成",
+    "update": "更新",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "search": "検索",
+    "filter": "フィルター",
+    "sort": "並べ替え",
+    "export": "エクスポート",
+    "import": "インポート",
+    "download": "ダウンロード",
+    "upload": "アップロード",
+    "yes": "はい",
+    "no": "いいえ",
+    "confirm": "確認",
+    "submit": "送信",
+    "apply": "適用",
+    "reset": "リセット",
+    "clear": "クリア",
+    "all": "すべて",
+    "none": "なし",
+    "select": "選択",
+    "selected": "選択済み",
+    "view": "表示",
+    "details": "詳細",
+    "more": "もっと見る",
+    "less": "閉じる",
+    "showAll": "すべて表示",
+    "hideAll": "すべて非表示",
+    "viewMore": "もっと見る",
+    "learnMore": "詳細を見る"
+  },
+  "nav": {
+    "home": "ホーム",
+    "product": "製品",
+    "pricing": "料金",
+    "about": "会社概要",
+    "demo": "デモをリクエスト",
+    "login": "ログイン",
+    "register": "登録",
+    "logout": "ログアウト",
+    "downloads": "ダウンロード",
+    "documentation": "ドキュメント",
+    "support": "サポート",
+    "contact": "お問い合わせ",
+    "manifesto": "マニフェスト",
+    "services": "サービス",
+    "packages": "パッケージ"
+  },
+  "auth": {
+    "login": {
+      "title": "アカウントにログイン",
+      "subtitle": "お帰りなさい！認証情報を入力してください。",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "rememberMe": "ログイン状態を保持",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "submitButton": "ログイン",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "signUp": "登録する",
+      "orContinueWith": "または以下で続行"
+    },
+    "register": {
+      "title": "アカウントを作成",
+      "subtitle": "14日間の無料トライアルを今日から始めましょう。",
+      "fullName": "氏名",
+      "email": "ビジネスメール",
+      "password": "パスワード",
+      "confirmPassword": "パスワード確認",
+      "company": "会社名",
+      "submitButton": "アカウント作成",
+      "hasAccount": "すでにアカウントをお持ちですか？",
+      "signIn": "ログイン"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "組織のインテリジェンス、",
+      "titleHighlight": "主権と完全性を備えて",
+      "subtitle": "Datacendiaはエンタープライズインテリジェンスのコマンドセンターです。データを接続し、AIアドバイザーに相談し、可能な未来を見る — すべてを完全にコントロールしながら。",
+      "ctaPrimary": "デモをリクエスト",
+      "ctaSecondary": "プラットフォームを探索"
+    },
+    "problem": {
+      "title": "エンタープライズインテリジェンスの問題",
+      "subtitle": "組織は断片化されたデータ、サイロ化されたツール、反応的な意思決定に苦しんでいます"
+    },
+    "solution": {
+      "title": "Cortex：インテリジェンスコマンドセンター",
+      "subtitle": "完全な可視性とコントロールを提供する5つの統合スペース"
+    },
+    "pillars": {
+      "title": "主権インテリジェンスの8つの柱",
+      "subtitle": "必要なすべての機能が一つとなって連携"
+    }
+  },
+  "spaces": {
+    "graph": { "name": "グラフ", "description": "知識の宇宙をナビゲート" },
+    "council": { "name": "評議会", "description": "共に推論するAIアドバイザー" },
+    "pulse": { "name": "パルス", "description": "リアルタイムの組織健全性" },
+    "lens": { "name": "レンズ", "description": "可能な未来を見る" },
+    "bridge": { "name": "ブリッジ", "description": "システム間でアクションを実行" }
+  },
+  "pillars": {
+    "helm": { "name": "ヘルム", "description": "戦略的意思決定支援" },
+    "lineage": { "name": "リネージ", "description": "すべてのデータポイントをソースまで追跡" },
+    "predict": { "name": "プレディクト", "description": "AI予測" },
+    "flow": { "name": "フロー", "description": "自動化されたワークフロー" },
+    "health": { "name": "ヘルス", "description": "組織バイタリティメトリクス" },
+    "guard": { "name": "ガード", "description": "データガバナンスとコンプライアンス" },
+    "ethics": { "name": "エシックス", "description": "組み込みの倫理的監視" },
+    "agents": { "name": "エージェント", "description": "あらゆるドメインのAIアドバイザー" }
+  },
+  "pricing": {
+    "title": "シンプルで透明な料金",
+    "subtitle": "組織に合ったプランをお選びください。",
+    "monthly": "月額",
+    "annual": "年額",
+    "annualDiscount": "20%オフ",
+    "perMonth": "/月",
+    "startTrial": "無料トライアル開始",
+    "contactSales": "営業に連絡",
+    "mostPopular": "最も人気"
+  },
+  "downloads": {
+    "title": "ダウンロード",
+    "subtitle": "プラットフォーム用のDatacendiaを入手",
+    "desktop": { "title": "デスクトップアプリ", "download": "ダウンロード" },
+    "mobile": { "title": "モバイルアプリ" }
+  },
+  "footer": {
+    "company": "会社",
+    "product": "製品",
+    "resources": "リソース",
+    "legal": "法的情報",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "© {{year}} Datacendia. All rights reserved.",
+    "tagline": "主権エンタープライズインテリジェンス"
+  }
+}

@@ -1,0 +1,39 @@
+apiVersion: v2
+name: datacendia
+description: Enterprise Decision Intelligence Platform - Helm Chart
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+
+keywords:
+  - decision-intelligence
+  - ai
+  - enterprise
+  - llm
+  - analytics
+
+home: https://datacendia.com
+sources:
+  - https://github.com/datacendia/datacendia
+
+maintainers:
+  - name: Datacendia Team
+    email: support@datacendia.com
+
+dependencies:
+  - name: postgresql
+    version: "13.x.x"
+    repository: https://charts.bitnami.com/bitnami
+    condition: postgresql.enabled
+  - name: redis
+    version: "18.x.x"
+    repository: https://charts.bitnami.com/bitnami
+    condition: redis.enabled
+  - name: neo4j
+    version: "5.x.x"
+    repository: https://helm.neo4j.com/neo4j
+    condition: neo4j.enabled
+
+annotations:
+  category: AI/ML
+  licenses: Commercial

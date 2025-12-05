@@ -1,0 +1,107 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử lại",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "create": "Tạo",
+    "update": "Cập nhật",
+    "close": "Đóng",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "sort": "Sắp xếp",
+    "export": "Xuất",
+    "import": "Nhập",
+    "download": "Tải xuống",
+    "upload": "Tải lên",
+    "yes": "Có",
+    "no": "Không",
+    "confirm": "Xác nhận",
+    "submit": "Gửi",
+    "apply": "Áp dụng",
+    "reset": "Đặt lại",
+    "clear": "Xóa",
+    "all": "Tất cả",
+    "none": "Không có",
+    "select": "Chọn",
+    "selected": "Đã chọn",
+    "view": "Xem",
+    "details": "Chi tiết",
+    "more": "Thêm",
+    "less": "Ít hơn"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "product": "Sản phẩm",
+    "pricing": "Bảng giá",
+    "about": "Về chúng tôi",
+    "demo": "Yêu cầu Demo",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "downloads": "Tải xuống",
+    "documentation": "Tài liệu",
+    "support": "Hỗ trợ",
+    "contact": "Liên hệ"
+  },
+  "auth": {
+    "login": {
+      "title": "Đăng nhập vào tài khoản",
+      "subtitle": "Chào mừng trở lại! Vui lòng nhập thông tin của bạn.",
+      "email": "Địa chỉ email",
+      "password": "Mật khẩu",
+      "rememberMe": "Ghi nhớ đăng nhập",
+      "forgotPassword": "Quên mật khẩu?",
+      "submitButton": "Đăng nhập",
+      "noAccount": "Chưa có tài khoản?",
+      "signUp": "Đăng ký"
+    },
+    "register": {
+      "title": "Tạo tài khoản",
+      "subtitle": "Bắt đầu dùng thử miễn phí 14 ngày.",
+      "fullName": "Họ và tên",
+      "email": "Email công việc",
+      "password": "Mật khẩu",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "company": "Tên công ty",
+      "submitButton": "Tạo tài khoản"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "Đồ thị",
+      "description": "Điều hướng vũ trụ tri thức của bạn"
+    },
+    "council": {
+      "name": "Hội đồng",
+      "description": "Cố vấn AI cùng suy luận"
+    },
+    "pulse": {
+      "name": "Nhịp",
+      "description": "Sức khỏe tổ chức thời gian thực"
+    },
+    "lens": {
+      "name": "Ống kính",
+      "description": "Nhìn thấy tương lai có thể"
+    },
+    "bridge": {
+      "name": "Cầu nối",
+      "description": "Hành động xuyên hệ thống"
+    }
+  },
+  "footer": {
+    "company": "Công ty",
+    "product": "Sản phẩm",
+    "resources": "Tài nguyên",
+    "legal": "Pháp lý",
+    "copyright": "© {{year}} Datacendia. Bảo lưu mọi quyền.",
+    "tagline": "Trí tuệ Doanh nghiệp Tự chủ"
+  }
+}

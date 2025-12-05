@@ -1,0 +1,365 @@
+import { Router, Request, Response, NextFunction } from 'express';
+import { z } from 'zod';
+import { prisma } from '../config/database.js';
+import { pubsub } from '../config/redis.js';
+import { logger } from '../utils/logger.js';
+import { errors } from '../middleware/errorHandler.js';
+import { devAuth } from '../middleware/auth.js';
+
+const router = Router();
+
+router.use(devAuth);
+
+const alertQuerySchema = z.object({
+  severity: z.enum(['CRITICAL', 'WARNING', 'INFO']).optional(),
+  status: z.enum(['ACTIVE', 'ACKNOWLEDGED', 'RESOLVED']).optional(),
+  source: z.string().optional(),
+  page: z.coerce.number().min(1).default(1),
+  pageSize: z.coerce.number().min(1).max(100).default(50),
+});
+
+const acknowledgeSchema = z.object({
+  note: z.string().optional(),
+});
+
+const resolveSchema = z.object({
+  resolution: z.string().min(1, 'Resolution description required'),
+  rootCause: z.string().optional(),
+});
+
+/**
+ * GET /api/v1/alerts
+ * List alerts with filtering
+ */
+router.get('/', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { severity, status, source, page, pageSize } = alertQuerySchema.parse(req.query);
+    const orgId = req.organizationId!;
+
+    const where = {
+      organizationId: orgId,
+      ...(severity && { severity }),
+      ...(status && { status }),
+      ...(source && { source: { contains: source } }),
+    };
+
+    const [alerts, total] = await Promise.all([
+      prisma.alert.findMany({
+        where,
+        orderBy: [
+          { severity: 'asc' }, // CRITICAL first
+          { createdAt: 'desc' },
+        ],
+        skip: (page - 1) * pageSize,
+        take: pageSize,
+        include: { metric: true },
+      }),
+      prisma.alert.count({ where }),
+    ]);
+
+    res.json({
+      success: true,
+      data: alerts,
+      meta: {
+        page,
+        pageSize,
+        total,
+        totalPages: Math.ceil(total / pageSize),
+      },
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/alerts/summary
+ * Get alerts summary (counts by severity)
+ */
+router.get('/summary', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const orgId = req.organizationId!;
+
+    const counts = await prisma.alert.groupBy({
+      by: ['severity', 'status'],
+      where: { organizationId: orgId },
+      _count: true,
+    });
+
+    const summary = {
+      critical: 0,
+      warning: 0,
+      info: 0,
+      active: 0,
+      acknowledged: 0,
+      resolved: 0,
+    };
+
+    counts.forEach(c => {
+      const count = c._count;
+      if (c.severity === 'CRITICAL') summary.critical += count;
+      if (c.severity === 'WARNING') summary.warning += count;
+      if (c.severity === 'INFO') summary.info += count;
+      if (c.status === 'ACTIVE') summary.active += count;
+      if (c.status === 'ACKNOWLEDGED') summary.acknowledged += count;
+      if (c.status === 'RESOLVED') summary.resolved += count;
+    });
+
+    res.json({
+      success: true,
+      data: summary,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/alerts/active
+ * Get active alerts
+ */
+router.get('/active', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const orgId = req.organizationId!;
+
+    const alerts = await prisma.alert.findMany({
+      where: {
+        organizationId: orgId,
+        status: 'ACTIVE',
+      },
+      orderBy: [
+        { severity: 'asc' },
+        { createdAt: 'desc' },
+      ],
+      take: 50,
+    });
+
+    res.json({
+      success: true,
+      data: alerts,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/alerts/:id
+ * Get single alert details
+ */
+router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const alert = await prisma.alert.findUnique({
+      where: { id: req.params.id },
+      include: { metric: true },
+    });
+
+    if (!alert) {
+      throw errors.notFound('Alert');
+    }
+
+    if (alert.organizationId !== req.organizationId) {
+      throw errors.forbidden();
+    }
+
+    res.json({
+      success: true,
+      data: alert,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * POST /api/v1/alerts/:id/acknowledge
+ * Acknowledge an alert
+ */
+router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { note } = acknowledgeSchema.parse(req.body);
+    const userId = req.user!.id;
+
+    const alert = await prisma.alert.findUnique({
+      where: { id: req.params.id },
+    });
+
+    if (!alert) {
+      throw errors.notFound('Alert');
+    }
+
+    if (alert.organizationId !== req.organizationId) {
+      throw errors.forbidden();
+    }
+
+    if (alert.status !== 'ACTIVE') {
+      throw errors.badRequest('Alert is not active');
+    }
+
+    const updated = await prisma.alert.update({
+      where: { id: req.params.id },
+      data: {
+        status: 'ACKNOWLEDGED',
+        acknowledgedAt: new Date(),
+        acknowledgedBy: userId,
+        metadata: {
+          ...(alert.metadata as object || {}),
+          acknowledgeNote: note,
+        },
+      },
+    });
+
+    // Publish event
+    await pubsub.publish(`alerts:${req.organizationId}`, {
+      type: 'alert_acknowledged',
+      alertId: alert.id,
+      by: req.user!.name,
+    });
+
+    // Audit log
+    await prisma.auditLog.create({
+      data: {
+        organizationId: req.organizationId!,
+        userId,
+        action: 'alert.acknowledge',
+        resourceType: 'alert',
+        resourceId: alert.id,
+        details: { note },
+      },
+    });
+
+    res.json({
+      success: true,
+      data: updated,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * POST /api/v1/alerts/:id/resolve
+ * Resolve an alert
+ */
+router.post('/:id/resolve', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { resolution, rootCause } = resolveSchema.parse(req.body);
+    const userId = req.user!.id;
+
+    const alert = await prisma.alert.findUnique({
+      where: { id: req.params.id },
+    });
+
+    if (!alert) {
+      throw errors.notFound('Alert');
+    }
+
+    if (alert.organizationId !== req.organizationId) {
+      throw errors.forbidden();
+    }
+
+    if (alert.status === 'RESOLVED') {
+      throw errors.badRequest('Alert is already resolved');
+    }
+
+    const updated = await prisma.alert.update({
+      where: { id: req.params.id },
+      data: {
+        status: 'RESOLVED',
+        resolvedAt: new Date(),
+        resolvedBy: userId,
+        resolution,
+        metadata: {
+          ...(alert.metadata as object || {}),
+          rootCause,
+        },
+      },
+    });
+
+    // Publish event
+    await pubsub.publish(`alerts:${req.organizationId}`, {
+      type: 'alert_resolved',
+      alertId: alert.id,
+      by: req.user!.name,
+    });
+
+    // Audit log
+    await prisma.auditLog.create({
+      data: {
+        organizationId: req.organizationId!,
+        userId,
+        action: 'alert.resolve',
+        resourceType: 'alert',
+        resourceId: alert.id,
+        details: { resolution, rootCause },
+      },
+    });
+
+    res.json({
+      success: true,
+      data: updated,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+// PUT aliases for acknowledge and resolve (for REST purists)
+router.put('/:id/acknowledge', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { note } = acknowledgeSchema.parse(req.body);
+    const userId = req.user!.id;
+
+    const alert = await prisma.alert.findUnique({
+      where: { id: req.params.id },
+    });
+
+    if (!alert) throw errors.notFound('Alert');
+    if (alert.organizationId !== req.organizationId) throw errors.forbidden();
+    if (alert.status !== 'ACTIVE') throw errors.badRequest('Alert is not active');
+
+    const updated = await prisma.alert.update({
+      where: { id: req.params.id },
+      data: {
+        status: 'ACKNOWLEDGED',
+        acknowledgedAt: new Date(),
+        acknowledgedBy: userId,
+      },
+    });
+
+    res.json({ success: true, data: updated });
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.put('/:id/resolve', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { resolution } = resolveSchema.parse(req.body);
+    const userId = req.user!.id;
+
+    const alert = await prisma.alert.findUnique({
+      where: { id: req.params.id },
+    });
+
+    if (!alert) throw errors.notFound('Alert');
+    if (alert.organizationId !== req.organizationId) throw errors.forbidden();
+    if (alert.status === 'RESOLVED') throw errors.badRequest('Alert is already resolved');
+
+    const updated = await prisma.alert.update({
+      where: { id: req.params.id },
+      data: {
+        status: 'RESOLVED',
+        resolvedAt: new Date(),
+        resolvedBy: userId,
+        resolution,
+      },
+    });
+
+    res.json({ success: true, data: updated });
+  } catch (error) {
+    next(error);
+  }
+});
+
+export default router;

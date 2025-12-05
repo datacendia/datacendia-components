@@ -1,0 +1,146 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "retry": "다시 시도",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "create": "생성",
+    "update": "업데이트",
+    "close": "닫기",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "export": "내보내기",
+    "import": "가져오기",
+    "download": "다운로드",
+    "upload": "업로드",
+    "yes": "예",
+    "no": "아니오",
+    "confirm": "확인",
+    "submit": "제출",
+    "apply": "적용",
+    "reset": "초기화",
+    "clear": "지우기",
+    "all": "전체",
+    "none": "없음",
+    "select": "선택",
+    "selected": "선택됨",
+    "view": "보기",
+    "details": "세부정보",
+    "more": "더 보기",
+    "less": "접기",
+    "showAll": "모두 보기",
+    "hideAll": "모두 숨기기",
+    "viewMore": "더 보기",
+    "learnMore": "자세히 알아보기"
+  },
+  "nav": {
+    "home": "홈",
+    "product": "제품",
+    "pricing": "가격",
+    "about": "회사 소개",
+    "demo": "데모 요청",
+    "login": "로그인",
+    "register": "가입",
+    "logout": "로그아웃",
+    "downloads": "다운로드",
+    "documentation": "문서",
+    "support": "지원",
+    "contact": "연락처",
+    "manifesto": "선언문",
+    "services": "서비스",
+    "packages": "패키지"
+  },
+  "auth": {
+    "login": {
+      "title": "계정에 로그인",
+      "subtitle": "다시 오신 것을 환영합니다! 자격 증명을 입력하세요.",
+      "email": "이메일 주소",
+      "password": "비밀번호",
+      "rememberMe": "로그인 상태 유지",
+      "forgotPassword": "비밀번호를 잊으셨나요?",
+      "submitButton": "로그인",
+      "noAccount": "계정이 없으신가요?",
+      "signUp": "가입하기",
+      "orContinueWith": "또는 다음으로 계속"
+    },
+    "register": {
+      "title": "계정 만들기",
+      "subtitle": "오늘 14일 무료 평가판을 시작하세요.",
+      "fullName": "성명",
+      "email": "업무용 이메일",
+      "password": "비밀번호",
+      "confirmPassword": "비밀번호 확인",
+      "company": "회사명",
+      "submitButton": "계정 만들기",
+      "hasAccount": "이미 계정이 있으신가요?",
+      "signIn": "로그인"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "조직의 인텔리전스,",
+      "titleHighlight": "주권적이고 완전한",
+      "subtitle": "Datacendia는 엔터프라이즈 인텔리전스를 위한 커맨드 센터입니다. 데이터를 연결하고, AI 어드바이저에게 상담하고, 가능한 미래를 보세요 — 모든 것을 완벽하게 통제하면서.",
+      "ctaPrimary": "데모 요청",
+      "ctaSecondary": "플랫폼 탐색"
+    },
+    "problem": {
+      "title": "엔터프라이즈 인텔리전스의 문제",
+      "subtitle": "조직은 단편화된 데이터, 격리된 도구, 반응적 의사결정으로 어려움을 겪습니다"
+    },
+    "solution": {
+      "title": "Cortex: 인텔리전스 커맨드 센터",
+      "subtitle": "완전한 가시성과 통제를 제공하는 5개의 통합 공간"
+    },
+    "pillars": {
+      "title": "주권 인텔리전스의 8가지 기둥",
+      "subtitle": "필요한 모든 기능이 하나로 함께 작동"
+    }
+  },
+  "spaces": {
+    "graph": { "name": "그래프", "description": "지식 우주 탐색" },
+    "council": { "name": "의회", "description": "함께 추론하는 AI 어드바이저" },
+    "pulse": { "name": "펄스", "description": "실시간 조직 건강" },
+    "lens": { "name": "렌즈", "description": "가능한 미래 보기" },
+    "bridge": { "name": "브릿지", "description": "시스템 전반에서 행동" }
+  },
+  "pillars": {
+    "helm": { "name": "헬름", "description": "전략적 의사결정 지원" },
+    "lineage": { "name": "리니지", "description": "모든 데이터 포인트를 소스까지 추적" },
+    "predict": { "name": "프리딕트", "description": "AI 기반 예측" },
+    "flow": { "name": "플로우", "description": "자동화된 워크플로우" },
+    "health": { "name": "헬스", "description": "조직 활력 메트릭" },
+    "guard": { "name": "가드", "description": "데이터 거버넌스 및 컴플라이언스" },
+    "ethics": { "name": "에틱스", "description": "내장된 윤리적 감독" },
+    "agents": { "name": "에이전트", "description": "모든 도메인의 AI 어드바이저" }
+  },
+  "pricing": {
+    "title": "간단하고 투명한 가격",
+    "subtitle": "조직에 맞는 플랜을 선택하세요.",
+    "monthly": "월간",
+    "annual": "연간",
+    "annualDiscount": "20% 절약",
+    "perMonth": "/월",
+    "startTrial": "무료 평가판 시작",
+    "contactSales": "영업팀 연락",
+    "mostPopular": "가장 인기"
+  },
+  "footer": {
+    "company": "회사",
+    "product": "제품",
+    "resources": "리소스",
+    "legal": "법률",
+    "privacy": "개인정보 보호정책",
+    "terms": "서비스 약관",
+    "copyright": "© {{year}} Datacendia. 모든 권리 보유.",
+    "tagline": "주권 엔터프라이즈 인텔리전스"
+  }
+}

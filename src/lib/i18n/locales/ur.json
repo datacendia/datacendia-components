@@ -1,0 +1,93 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "لوڈ ہو رہا ہے...",
+    "error": "ایک خرابی پیش آگئی",
+    "retry": "دوبارہ کوشش کریں",
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ",
+    "delete": "حذف کریں",
+    "edit": "ترمیم",
+    "create": "بنائیں",
+    "update": "اپڈیٹ",
+    "close": "بند کریں",
+    "back": "واپس",
+    "next": "اگلا",
+    "previous": "پچھلا",
+    "search": "تلاش",
+    "filter": "فلٹر",
+    "sort": "ترتیب دیں",
+    "yes": "ہاں",
+    "no": "نہیں",
+    "confirm": "تصدیق کریں",
+    "submit": "جمع کروائیں",
+    "all": "سب",
+    "select": "منتخب کریں",
+    "view": "دیکھیں",
+    "details": "تفصیلات"
+  },
+  "nav": {
+    "home": "ہوم",
+    "product": "پروڈکٹ",
+    "pricing": "قیمت",
+    "about": "ہمارے بارے میں",
+    "demo": "ڈیمو کی درخواست",
+    "login": "لاگ ان",
+    "register": "رجسٹر",
+    "logout": "لاگ آؤٹ",
+    "support": "سپورٹ",
+    "contact": "رابطہ"
+  },
+  "auth": {
+    "login": {
+      "title": "اپنے اکاؤنٹ میں سائن ان کریں",
+      "subtitle": "خوش آمدید! براہ کرم اپنی معلومات درج کریں۔",
+      "email": "ای میل پتہ",
+      "password": "پاس ورڈ",
+      "rememberMe": "مجھے یاد رکھیں",
+      "forgotPassword": "پاس ورڈ بھول گئے؟",
+      "submitButton": "سائن ان کریں",
+      "noAccount": "اکاؤنٹ نہیں ہے؟",
+      "signUp": "سائن اپ کریں"
+    },
+    "register": {
+      "title": "اپنا اکاؤنٹ بنائیں",
+      "subtitle": "آج ہی اپنا 14 دن کا مفت ٹرائل شروع کریں۔",
+      "fullName": "پورا نام",
+      "email": "کام کی ای میل",
+      "password": "پاس ورڈ",
+      "company": "کمپنی کا نام",
+      "submitButton": "اکاؤنٹ بنائیں"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "گراف",
+      "description": "اپنی علم کی کائنات میں نیویگیٹ کریں"
+    },
+    "council": {
+      "name": "کونسل",
+      "description": "AI مشیر مل کر سوچتے ہیں"
+    },
+    "pulse": {
+      "name": "پلس",
+      "description": "ریئل ٹائم تنظیمی صحت"
+    },
+    "lens": {
+      "name": "لینز",
+      "description": "ممکنہ مستقبل دیکھیں"
+    },
+    "bridge": {
+      "name": "پل",
+      "description": "سسٹمز میں کارروائی کریں"
+    }
+  },
+  "footer": {
+    "company": "کمپنی",
+    "product": "پروڈکٹ",
+    "resources": "وسائل",
+    "legal": "قانونی",
+    "copyright": "© {{year}} Datacendia. جملہ حقوق محفوظ ہیں۔",
+    "tagline": "خود مختار انٹرپرائز انٹیلی جنس"
+  }
+}

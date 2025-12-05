@@ -1,0 +1,93 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Inapakia...",
+    "error": "Hitilafu imetokea",
+    "retry": "Jaribu tena",
+    "save": "Hifadhi",
+    "cancel": "Ghairi",
+    "delete": "Futa",
+    "edit": "Hariri",
+    "create": "Unda",
+    "update": "Sasisha",
+    "close": "Funga",
+    "back": "Rudi",
+    "next": "Ifuatayo",
+    "previous": "Iliyotangulia",
+    "search": "Tafuta",
+    "filter": "Chuja",
+    "sort": "Panga",
+    "yes": "Ndiyo",
+    "no": "Hapana",
+    "confirm": "Thibitisha",
+    "submit": "Wasilisha",
+    "all": "Zote",
+    "select": "Chagua",
+    "view": "Tazama",
+    "details": "Maelezo"
+  },
+  "nav": {
+    "home": "Nyumbani",
+    "product": "Bidhaa",
+    "pricing": "Bei",
+    "about": "Kuhusu Sisi",
+    "demo": "Omba Demo",
+    "login": "Ingia",
+    "register": "Jisajili",
+    "logout": "Toka",
+    "support": "Msaada",
+    "contact": "Wasiliana"
+  },
+  "auth": {
+    "login": {
+      "title": "Ingia kwenye akaunti yako",
+      "subtitle": "Karibu tena! Tafadhali ingiza maelezo yako.",
+      "email": "Anwani ya barua pepe",
+      "password": "Nenosiri",
+      "rememberMe": "Nikumbuke",
+      "forgotPassword": "Umesahau nenosiri?",
+      "submitButton": "Ingia",
+      "noAccount": "Huna akaunti?",
+      "signUp": "Jisajili"
+    },
+    "register": {
+      "title": "Unda akaunti yako",
+      "subtitle": "Anza jaribio lako la bure la siku 14.",
+      "fullName": "Jina kamili",
+      "email": "Barua pepe ya kazi",
+      "password": "Nenosiri",
+      "company": "Jina la kampuni",
+      "submitButton": "Unda Akaunti"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "Grafu",
+      "description": "Tafiti ulimwengu wako wa maarifa"
+    },
+    "council": {
+      "name": "Baraza",
+      "description": "Washauri wa AI wanaofikiria pamoja"
+    },
+    "pulse": {
+      "name": "Mapigo",
+      "description": "Afya ya shirika kwa wakati halisi"
+    },
+    "lens": {
+      "name": "Lenzi",
+      "description": "Ona siku zijazo zinazowezekana"
+    },
+    "bridge": {
+      "name": "Daraja",
+      "description": "Chukua hatua katika mifumo"
+    }
+  },
+  "footer": {
+    "company": "Kampuni",
+    "product": "Bidhaa",
+    "resources": "Rasilimali",
+    "legal": "Kisheria",
+    "copyright": "© {{year}} Datacendia. Haki zote zimehifadhiwa.",
+    "tagline": "Akili ya Biashara Huru"
+  }
+}

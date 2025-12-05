@@ -1,0 +1,107 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar dene",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "create": "Oluştur",
+    "update": "Güncelle",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "sort": "Sırala",
+    "export": "Dışa aktar",
+    "import": "İçe aktar",
+    "download": "İndir",
+    "upload": "Yükle",
+    "yes": "Evet",
+    "no": "Hayır",
+    "confirm": "Onayla",
+    "submit": "Gönder",
+    "apply": "Uygula",
+    "reset": "Sıfırla",
+    "clear": "Temizle",
+    "all": "Tümü",
+    "none": "Hiçbiri",
+    "select": "Seç",
+    "selected": "Seçildi",
+    "view": "Görüntüle",
+    "details": "Detaylar",
+    "more": "Daha fazla",
+    "less": "Daha az"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "product": "Ürün",
+    "pricing": "Fiyatlandırma",
+    "about": "Hakkımızda",
+    "demo": "Demo Talep Et",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "logout": "Çıkış Yap",
+    "downloads": "İndirmeler",
+    "documentation": "Dokümantasyon",
+    "support": "Destek",
+    "contact": "İletişim"
+  },
+  "auth": {
+    "login": {
+      "title": "Hesabınıza giriş yapın",
+      "subtitle": "Tekrar hoş geldiniz! Bilgilerinizi girin.",
+      "email": "E-posta adresi",
+      "password": "Şifre",
+      "rememberMe": "Beni hatırla",
+      "forgotPassword": "Şifrenizi mi unuttunuz?",
+      "submitButton": "Giriş Yap",
+      "noAccount": "Hesabınız yok mu?",
+      "signUp": "Kayıt ol"
+    },
+    "register": {
+      "title": "Hesabınızı oluşturun",
+      "subtitle": "14 günlük ücretsiz denemenizi bugün başlatın.",
+      "fullName": "Tam ad",
+      "email": "İş e-postası",
+      "password": "Şifre",
+      "confirmPassword": "Şifreyi onayla",
+      "company": "Şirket adı",
+      "submitButton": "Hesap Oluştur"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "Grafik",
+      "description": "Bilgi evreninizde gezinin"
+    },
+    "council": {
+      "name": "Konsey",
+      "description": "Birlikte akıl yürüten AI danışmanlar"
+    },
+    "pulse": {
+      "name": "Nabız",
+      "description": "Gerçek zamanlı organizasyonel sağlık"
+    },
+    "lens": {
+      "name": "Mercek",
+      "description": "Olası gelecekleri görün"
+    },
+    "bridge": {
+      "name": "Köprü",
+      "description": "Sistemler arasında aksiyon alın"
+    }
+  },
+  "footer": {
+    "company": "Şirket",
+    "product": "Ürün",
+    "resources": "Kaynaklar",
+    "legal": "Yasal",
+    "copyright": "© {{year}} Datacendia. Tüm hakları saklıdır.",
+    "tagline": "Egemen Kurumsal Zeka"
+  }
+}

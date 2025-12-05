@@ -1,0 +1,831 @@
+// Datacendia Platform Database Schema
+// PostgreSQL with Prisma ORM
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============================================
+// ORGANIZATION & USER MANAGEMENT
+// ============================================
+
+model Organization {
+  id          String   @id @default(uuid())
+  name        String
+  slug        String   @unique
+  industry    String?
+  companySize String?  @map("company_size")
+  settings    Json     @default("{}")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  deletedAt   DateTime? @map("deleted_at")
+
+  users           User[]
+  teams           Team[]
+  apiKeys         ApiKey[]
+  metrics         MetricDefinition[]
+  alerts          Alert[]
+  workflows       Workflow[]
+  dataSources     DataSource[]
+  deliberations   Deliberation[]
+  auditLogs       AuditLog[]
+
+  @@map("organizations")
+}
+
+model User {
+  id             String    @id @default(uuid())
+  organizationId String    @map("organization_id")
+  email          String    @unique
+  passwordHash   String?   @map("password_hash")
+  name           String
+  avatarUrl      String?   @map("avatar_url")
+  role           UserRole  @default(VIEWER)
+  status         UserStatus @default(ACTIVE)
+  emailVerified  Boolean   @default(false) @map("email_verified")
+  emailVerifiedAt DateTime? @map("email_verified_at")
+  preferences    Json      @default("{}")
+  lastLoginAt    DateTime? @map("last_login_at")
+  createdAt      DateTime  @default(now()) @map("created_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
+  deletedAt      DateTime? @map("deleted_at")
+
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  sessions       Session[]
+  apiKeys        ApiKey[]
+  teamMembers    TeamMember[]
+  createdMetrics MetricDefinition[] @relation("MetricOwner")
+  queries        CouncilQuery[]
+  approvals      Approval[]
+  auditLogs      AuditLog[]
+
+  @@index([organizationId])
+  @@index([email])
+  @@map("users")
+}
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  ANALYST
+  VIEWER
+}
+
+enum UserStatus {
+  ACTIVE
+  INVITED
+  DISABLED
+}
+
+model Team {
+  id             String   @id @default(uuid())
+  organizationId String   @map("organization_id")
+  name           String
+  description    String?
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  organization Organization @relation(fields: [organizationId], references: [id])
+  members      TeamMember[]
+
+  @@map("teams")
+}
+
+model TeamMember {
+  teamId    String   @map("team_id")
+  userId    String   @map("user_id")
+  role      String   @default("member")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  team Team @relation(fields: [teamId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([teamId, userId])
+  @@map("team_members")
+}
+
+// ============================================
+// AUTHENTICATION
+// ============================================
+
+model Session {
+  id               String   @id @default(uuid())
+  userId           String   @map("user_id")
+  refreshTokenHash String   @map("refresh_token_hash")
+  userAgent        String?  @map("user_agent")
+  ipAddress        String?  @map("ip_address")
+  expiresAt        DateTime @map("expires_at")
+  createdAt        DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+  @@map("sessions")
+}
+
+model ApiKey {
+  id             String    @id @default(uuid())
+  organizationId String    @map("organization_id")
+  userId         String    @map("user_id")
+  name           String
+  keyHash        String    @map("key_hash")
+  keyPrefix      String    @map("key_prefix")
+  scopes         Json      @default("[]")
+  lastUsedAt     DateTime? @map("last_used_at")
+  expiresAt      DateTime? @map("expires_at")
+  createdAt      DateTime  @default(now()) @map("created_at")
+  revokedAt      DateTime? @map("revoked_at")
+
+  organization Organization @relation(fields: [organizationId], references: [id])
+  user         User         @relation(fields: [userId], references: [id])
+
+  @@map("api_keys")
+}
+
+model EmailVerification {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id") @unique
+  token     String   @unique
+  expiresAt DateTime @map("expires_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([token])
+  @@index([expiresAt])
+  @@map("email_verifications")
+}
+
+model PasswordReset {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  token     String   @unique
+  expiresAt DateTime @map("expires_at")
+  usedAt    DateTime? @map("used_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([token])
+  @@index([userId])
+  @@map("password_resets")
+}
+
+// ============================================
+// METRICS & HEALTH
+// ============================================
+
+model MetricDefinition {
+  id              String   @id @default(uuid())
+  organizationId  String   @map("organization_id")
+  name            String
+  code            String
+  description     String?
+  formula         Json
+  unit            String?
+  category        String?
+  thresholds      Json     @default("{}")
+  ownerId         String?  @map("owner_id")
+  refreshSchedule String?  @map("refresh_schedule")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  organization Organization   @relation(fields: [organizationId], references: [id])
+  owner        User?          @relation("MetricOwner", fields: [ownerId], references: [id])
+  values       MetricValue[]
+  alerts       Alert[]
+
+  @@unique([organizationId, code])
+  @@map("metric_definitions")
+}
+
+model MetricValue {
+  id         String   @id @default(uuid())
+  metricId   String   @map("metric_id")
+  value      Float
+  dimensions Json     @default("{}")
+  timestamp  DateTime
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  metric MetricDefinition @relation(fields: [metricId], references: [id], onDelete: Cascade)
+
+  @@index([metricId, timestamp])
+  @@map("metric_values")
+}
+
+model HealthScore {
+  id             String   @id @default(uuid())
+  organizationId String   @map("organization_id")
+  overall        Int
+  dataScore      Int      @map("data_score")
+  opsScore       Int      @map("ops_score")
+  securityScore  Int      @map("security_score")
+  peopleScore    Int      @map("people_score")
+  calculatedAt   DateTime @map("calculated_at")
+  details        Json     @default("{}")
+
+  @@index([organizationId, calculatedAt])
+  @@map("health_scores")
+}
+
+// ============================================
+// ALERTS
+// ============================================
+
+model Alert {
+  id             String      @id @default(uuid())
+  organizationId String      @map("organization_id")
+  metricId       String?     @map("metric_id")
+  severity       AlertSeverity
+  status         AlertStatus @default(ACTIVE)
+  title          String
+  message        String
+  source         String
+  metadata       Json        @default("{}")
+  acknowledgedAt DateTime?   @map("acknowledged_at")
+  acknowledgedBy String?     @map("acknowledged_by")
+  resolvedAt     DateTime?   @map("resolved_at")
+  resolvedBy     String?     @map("resolved_by")
+  resolution     String?
+  createdAt      DateTime    @default(now()) @map("created_at")
+
+  organization Organization      @relation(fields: [organizationId], references: [id])
+  metric       MetricDefinition? @relation(fields: [metricId], references: [id])
+
+  @@index([organizationId, status])
+  @@index([severity])
+  @@map("alerts")
+}
+
+enum AlertSeverity {
+  CRITICAL
+  WARNING
+  INFO
+}
+
+enum AlertStatus {
+  ACTIVE
+  ACKNOWLEDGED
+  RESOLVED
+}
+
+// ============================================
+// AI COUNCIL
+// ============================================
+
+model Agent {
+  id           String   @id @default(uuid())
+  code         String   @unique // cfo, coo, ciso, etc.
+  name         String
+  role         String
+  description  String
+  avatarUrl    String?  @map("avatar_url")
+  systemPrompt String   @map("system_prompt") @db.Text
+  capabilities Json     @default("[]")
+  constraints  Json     @default("[]")
+  modelConfig  Json     @default("{}") @map("model_config")
+  isActive     Boolean  @default(true) @map("is_active")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  queryResponses      AgentQueryResponse[]
+  deliberationInputs  DeliberationMessage[]
+
+  @@map("agents")
+}
+
+model CouncilQuery {
+  id             String      @id @default(uuid())
+  organizationId String      @map("organization_id")
+  userId         String      @map("user_id")
+  query          String      @db.Text
+  context        Json        @default("{}")
+  status         QueryStatus @default(PENDING)
+  response       Json?
+  confidence     Float?
+  processingTime Int?        @map("processing_time") // milliseconds
+  createdAt      DateTime    @default(now()) @map("created_at")
+  completedAt    DateTime?   @map("completed_at")
+
+  user      User                 @relation(fields: [userId], references: [id])
+  responses AgentQueryResponse[]
+
+  @@index([organizationId, createdAt])
+  @@map("council_queries")
+}
+
+model AgentQueryResponse {
+  id         String   @id @default(uuid())
+  queryId    String   @map("query_id")
+  agentId    String   @map("agent_id")
+  analysis   String   @db.Text
+  sources    Json     @default("[]")
+  confidence Float
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  query CouncilQuery @relation(fields: [queryId], references: [id], onDelete: Cascade)
+  agent Agent        @relation(fields: [agentId], references: [id])
+
+  @@map("agent_query_responses")
+}
+
+enum QueryStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+model Deliberation {
+  id                    String             @id @default(uuid())
+  organizationId        String             @map("organization_id")
+  question              String             @db.Text
+  config                Json               @default("{}")
+  status                DeliberationStatus @default(PENDING)
+  currentPhase          String?            @map("current_phase")
+  progress              Int                @default(0)
+  decision              Json?
+  confidence            Float?
+  startedAt             DateTime?          @map("started_at")
+  completedAt           DateTime?          @map("completed_at")
+  createdAt             DateTime           @default(now()) @map("created_at")
+
+  organization Organization          @relation(fields: [organizationId], references: [id])
+  messages     DeliberationMessage[]
+  approvals    Approval[]
+  summaries    ExecutiveSummary[]
+
+  @@index([organizationId, status])
+  @@map("deliberations")
+}
+
+model DeliberationMessage {
+  id             String   @id @default(uuid())
+  deliberationId String   @map("deliberation_id")
+  agentId        String   @map("agent_id")
+  phase          String
+  content        String   @db.Text
+  targetAgentId  String?  @map("target_agent_id")
+  sources        Json     @default("[]")
+  confidence     Float?
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  deliberation Deliberation @relation(fields: [deliberationId], references: [id], onDelete: Cascade)
+  agent        Agent        @relation(fields: [agentId], references: [id])
+
+  @@index([deliberationId, createdAt])
+  @@map("deliberation_messages")
+}
+
+enum DeliberationStatus {
+  PENDING
+  IN_PROGRESS
+  AWAITING_APPROVAL
+  COMPLETED
+  CANCELLED
+}
+
+// ============================================
+// WORKFLOWS
+// ============================================
+
+model Workflow {
+  id             String         @id @default(uuid())
+  organizationId String         @map("organization_id")
+  name           String
+  description    String?
+  category       String?
+  trigger        Json
+  definition     Json
+  status         WorkflowStatus @default(DRAFT)
+  createdAt      DateTime       @default(now()) @map("created_at")
+  updatedAt      DateTime       @updatedAt @map("updated_at")
+
+  organization Organization        @relation(fields: [organizationId], references: [id])
+  executions   WorkflowExecution[]
+
+  @@index([organizationId, status])
+  @@map("workflows")
+}
+
+enum WorkflowStatus {
+  DRAFT
+  ACTIVE
+  PAUSED
+  ARCHIVED
+}
+
+model WorkflowExecution {
+  id          String          @id @default(uuid())
+  workflowId  String          @map("workflow_id")
+  status      ExecutionStatus @default(PENDING)
+  parameters  Json            @default("{}")
+  currentNode String?         @map("current_node")
+  progress    Int             @default(0)
+  outputs     Json            @default("{}")
+  error       String?
+  startedAt   DateTime?       @map("started_at")
+  completedAt DateTime?       @map("completed_at")
+  createdAt   DateTime        @default(now()) @map("created_at")
+
+  workflow   Workflow        @relation(fields: [workflowId], references: [id])
+  nodeStates ExecutionNode[]
+  approvals  Approval[]
+
+  @@index([workflowId, status])
+  @@map("workflow_executions")
+}
+
+model ExecutionNode {
+  id          String          @id @default(uuid())
+  executionId String          @map("execution_id")
+  nodeId      String          @map("node_id")
+  status      ExecutionStatus @default(PENDING)
+  input       Json            @default("{}")
+  output      Json            @default("{}")
+  error       String?
+  duration    Int?            // milliseconds
+  startedAt   DateTime?       @map("started_at")
+  completedAt DateTime?       @map("completed_at")
+
+  execution WorkflowExecution @relation(fields: [executionId], references: [id], onDelete: Cascade)
+
+  @@unique([executionId, nodeId])
+  @@map("execution_nodes")
+}
+
+enum ExecutionStatus {
+  PENDING
+  RUNNING
+  COMPLETED
+  FAILED
+  SKIPPED
+  AWAITING_APPROVAL
+}
+
+// ============================================
+// APPROVALS
+// ============================================
+
+model Approval {
+  id             String         @id @default(uuid())
+  organizationId String         @map("organization_id")
+  type           ApprovalType
+  referenceId    String         @map("reference_id")
+  requesterId    String         @map("requester_id")
+  title          String
+  description    String?
+  status         ApprovalStatus @default(PENDING)
+  reviewerId     String?        @map("reviewer_id")
+  reviewedAt     DateTime?      @map("reviewed_at")
+  comments       String?
+  createdAt      DateTime       @default(now()) @map("created_at")
+
+  requester     User                @relation(fields: [requesterId], references: [id])
+  deliberation  Deliberation?       @relation(fields: [referenceId], references: [id])
+  execution     WorkflowExecution?  @relation(fields: [referenceId], references: [id], map: "approval_execution_fkey")
+
+  @@index([organizationId, status])
+  @@map("approvals")
+}
+
+enum ApprovalType {
+  WORKFLOW
+  DELIBERATION
+  ACCESS
+  BUDGET
+  DATA_EXPORT
+}
+
+enum ApprovalStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  CANCELLED
+}
+
+// ============================================
+// DATA SOURCES
+// ============================================
+
+model DataSource {
+  id             String           @id @default(uuid())
+  organizationId String           @map("organization_id")
+  name           String
+  type           DataSourceType
+  config         Json             @default("{}")
+  credentials    Json             @default("{}") // Encrypted
+  status         DataSourceStatus @default(PENDING)
+  lastSyncAt     DateTime?        @map("last_sync_at")
+  lastSyncStatus String?          @map("last_sync_status")
+  syncSchedule   String?          @map("sync_schedule")
+  metadata       Json             @default("{}")
+  createdAt      DateTime         @default(now()) @map("created_at")
+  updatedAt      DateTime         @updatedAt @map("updated_at")
+
+  organization Organization @relation(fields: [organizationId], references: [id])
+
+  @@index([organizationId, type])
+  @@map("data_sources")
+}
+
+enum DataSourceType {
+  POSTGRESQL
+  MYSQL
+  SNOWFLAKE
+  BIGQUERY
+  SALESFORCE
+  SAP
+  ORACLE
+  MONGODB
+  REST_API
+  GRAPHQL
+  CSV_UPLOAD
+  AWS
+  AZURE
+  HUBSPOT
+  GOOGLE_SHEETS
+  AIRTABLE
+  STRIPE
+  SHOPIFY
+  ZENDESK
+  JIRA
+  SLACK
+  REDIS
+  NEO4J
+}
+
+enum DataSourceStatus {
+  PENDING
+  CONNECTED
+  SYNCING
+  ERROR
+  DISABLED
+}
+
+// ============================================
+// FORECASTING & SCENARIOS
+// ============================================
+
+model Forecast {
+  id           String         @id @default(uuid())
+  organizationId String       @map("organization_id")
+  name         String
+  targetMetric String         @map("target_metric")
+  horizon      Json
+  model        String
+  features     Json           @default("[]")
+  status       ForecastStatus @default(PENDING)
+  predictions  Json?
+  accuracy     Json?
+  featureImportance Json?     @map("feature_importance")
+  createdAt    DateTime       @default(now()) @map("created_at")
+  completedAt  DateTime?      @map("completed_at")
+
+  scenarios Scenario[]
+
+  @@index([organizationId])
+  @@map("forecasts")
+}
+
+enum ForecastStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+model Scenario {
+  id          String   @id @default(uuid())
+  forecastId  String?  @map("forecast_id")
+  name        String
+  assumptions Json     @default("[]")
+  projections Json?
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  baseline Forecast? @relation(fields: [forecastId], references: [id])
+
+  @@map("scenarios")
+}
+
+// ============================================
+// AUDIT LOG
+// ============================================
+
+model AuditLog {
+  id             String   @id @default(uuid())
+  organizationId String   @map("organization_id")
+  userId         String?  @map("user_id")
+  action         String
+  resourceType   String   @map("resource_type")
+  resourceId     String?  @map("resource_id")
+  details        Json     @default("{}")
+  ipAddress      String?  @map("ip_address")
+  userAgent      String?  @map("user_agent")
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  organization Organization @relation(fields: [organizationId], references: [id])
+  user         User?        @relation(fields: [userId], references: [id])
+
+  @@index([organizationId, createdAt])
+  @@index([action])
+  @@index([resourceType, resourceId])
+  @@map("audit_logs")
+}
+
+// ============================================
+// DEMO REQUESTS (Public)
+// ============================================
+
+model DemoRequest {
+  id              String   @id @default(uuid())
+  firstName       String   @map("first_name")
+  lastName        String   @map("last_name")
+  email           String
+  company         String
+  jobTitle        String   @map("job_title")
+  companySize     String   @map("company_size")
+  industry        String
+  primaryInterest String   @map("primary_interest")
+  additionalNotes String?  @map("additional_notes")
+  marketingConsent Boolean @default(false) @map("marketing_consent")
+  status          String   @default("new")
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  @@map("demo_requests")
+}
+
+// ============================================
+// DECISION MANAGEMENT (Decision Debt, Ghost Board, etc.)
+// ============================================
+
+model Decision {
+  id              String         @id @default(uuid())
+  organizationId  String         @map("organization_id")
+  userId          String         @map("user_id")
+  title           String
+  description     String         @db.Text
+  category        String?
+  priority        DecisionPriority @default(MEDIUM)
+  status          DecisionStatus   @default(PENDING)
+  department      String?
+  ownerName       String?        @map("owner_name")
+  ownerEmail      String?        @map("owner_email")
+  budget          Float?
+  timeframe       String?
+  deadline        DateTime?
+  estimatedDailyCost Float?      @map("estimated_daily_cost")
+  totalCostAccrued   Float?      @map("total_cost_accrued")
+  stakeholders    String[]       @default([])
+  createdAt       DateTime       @default(now()) @map("created_at")
+  updatedAt       DateTime       @updatedAt @map("updated_at")
+  resolvedAt      DateTime?      @map("resolved_at")
+
+  blockers     DecisionBlocker[]
+  dependencies DecisionDependency[] @relation("DependsOn")
+  blocks       DecisionDependency[] @relation("Blocks")
+  activities   DecisionActivity[]
+  summaries    ExecutiveSummary[]
+
+  @@index([organizationId])
+  @@index([status])
+  @@index([priority])
+  @@map("decisions")
+}
+
+enum DecisionPriority {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+enum DecisionStatus {
+  PENDING
+  BLOCKED
+  DEFERRED
+  ESCALATED
+  APPROVED
+  REJECTED
+  IMPLEMENTED
+}
+
+model DecisionBlocker {
+  id               String    @id @default(uuid())
+  decisionId       String    @map("decision_id")
+  type             String    // person, department, external, information, approval, budget, decision
+  name             String
+  reason           String    @db.Text
+  blockedSince     DateTime  @map("blocked_since")
+  estimatedResolution DateTime? @map("estimated_resolution")
+  escalationLevel  Int       @default(0) @map("escalation_level")
+  resolvedAt       DateTime? @map("resolved_at")
+
+  decision Decision @relation(fields: [decisionId], references: [id], onDelete: Cascade)
+
+  @@map("decision_blockers")
+}
+
+model DecisionDependency {
+  id              String   @id @default(uuid())
+  decisionId      String   @map("decision_id")
+  dependsOnId     String   @map("depends_on_id")
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  decision  Decision @relation("DependsOn", fields: [decisionId], references: [id], onDelete: Cascade)
+  dependsOn Decision @relation("Blocks", fields: [dependsOnId], references: [id], onDelete: Cascade)
+
+  @@unique([decisionId, dependsOnId])
+  @@map("decision_dependencies")
+}
+
+model DecisionActivity {
+  id          String   @id @default(uuid())
+  decisionId  String   @map("decision_id")
+  actor       String
+  action      String
+  details     Json?
+  timestamp   DateTime @default(now())
+
+  decision Decision @relation(fields: [decisionId], references: [id], onDelete: Cascade)
+
+  @@map("decision_activities")
+}
+
+// ============================================
+// EXECUTIVE SUMMARY & MINUTES
+// ============================================
+
+model ExecutiveSummary {
+  id              String         @id @default(uuid())
+  organizationId  String         @map("organization_id")
+  deliberationId  String?        @map("deliberation_id")
+  decisionId      String?        @map("decision_id")
+  type            SummaryType
+  title           String
+  content         String         @db.Text
+  keyPoints       Json           @default("[]") @map("key_points")
+  actionItems     Json           @default("[]") @map("action_items")
+  participants    Json           @default("[]")
+  risks           Json           @default("[]")
+  recommendations Json           @default("[]")
+  nextSteps       Json           @default("[]") @map("next_steps")
+  language        String         @default("en")
+  generatedBy     String         @map("generated_by")  // AI model used
+  createdAt       DateTime       @default(now()) @map("created_at")
+  updatedAt       DateTime       @updatedAt @map("updated_at")
+
+  deliberation Deliberation? @relation(fields: [deliberationId], references: [id])
+  decision     Decision?     @relation(fields: [decisionId], references: [id])
+
+  @@index([organizationId])
+  @@index([type])
+  @@map("executive_summaries")
+}
+
+enum SummaryType {
+  COUNCIL_DELIBERATION
+  DECISION_DNS
+  PRE_MORTEM
+  GHOST_BOARD
+  DECISION_DEBT
+  REGULATORY_ABSORB
+  LIVE_DEMO
+}
+
+// ============================================
+// INTERNATIONALIZATION (i18n)
+// ============================================
+
+model Translation {
+  id          String   @id @default(uuid())
+  key         String
+  language    String   // ISO 639-1 code (en, es, fr, de, zh, ja, etc.)
+  namespace   String   @default("common")
+  value       String   @db.Text
+  context     String?
+  verified    Boolean  @default(false)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@unique([key, language, namespace])
+  @@index([language])
+  @@index([namespace])
+  @@map("translations")
+}
+
+model UserLanguagePreference {
+  id          String   @id @default(uuid())
+  userId      String   @unique @map("user_id")
+  language    String   @default("en")
+  dateFormat  String   @default("MM/DD/YYYY") @map("date_format")
+  timeFormat  String   @default("12h") @map("time_format")
+  timezone    String   @default("UTC")
+  numberFormat String  @default("en-US") @map("number_format")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@map("user_language_preferences")
+}

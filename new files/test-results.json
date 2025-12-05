@@ -1,0 +1,280 @@
+[
+  {
+    "modeId": "war-room",
+    "query": "Should we expand into the European market next quarter?",
+    "passed": false,
+    "duration": 0.1,
+    "checks": {
+      "sections": {
+        "Agent Analysis": true,
+        "Cross-Examination": true,
+        "Synthesis": true,
+        "Decision": true
+      },
+      "elements": {
+        "hasConfidenceScore": false,
+        "hasRiskScore": true,
+        "hasActionItems": true,
+        "hasAgentNames": true,
+        "hasDebateExchange": true
+      },
+      "format": true,
+      "agentCount": 5
+    },
+    "failureReason": "Missing required elements"
+  },
+  {
+    "modeId": "due-diligence",
+    "query": "Evaluate CompanyX as a potential acquisition target",
+    "passed": false,
+    "duration": 0.1,
+    "checks": {
+      "sections": {
+        "Evidence Gathering": true,
+        "Red Flags": true,
+        "Gap Analysis": true,
+        "Final Assessment": true
+      },
+      "elements": {
+        "hasConfidenceLevels": false,
+        "hasSourceCitations": true,
+        "hasRedFlags": true,
+        "hasGoNoGoRecommendation": true
+      },
+      "format": true,
+      "agentCount": 0
+    },
+    "failureReason": "Missing required elements"
+  },
+  {
+    "modeId": "innovation-lab",
+    "query": "Brainstorm ways to improve customer onboarding",
+    "passed": false,
+    "duration": 0.101,
+    "checks": {
+      "sections": {
+        "Seed Ideas": true,
+        "Build & Expand": false,
+        "Feasibility Sketch": true
+      },
+      "elements": {
+        "hasIdeaList": true,
+        "hasBuildingOnIdeas": true,
+        "hasFeasibilityRatings": false,
+        "noNegativeCriticism": true
+      },
+      "format": true,
+      "agentCount": 3
+    },
+    "failureReason": "Missing required sections"
+  },
+  {
+    "modeId": "compliance",
+    "query": "Is our new data collection feature GDPR compliant?",
+    "passed": false,
+    "duration": 0.101,
+    "checks": {
+      "sections": {
+        "Regulatory Mapping": true,
+        "Gap Analysis": true,
+        "Risk Assessment": true,
+        "Control Recommendations": true
+      },
+      "elements": {
+        "hasRegulationCitations": true,
+        "hasComplianceTable": true,
+        "hasRemediationSteps": true
+      },
+      "format": true,
+      "agentCount": 1
+    },
+    "failureReason": "Insufficient agents (1 < 2)"
+  },
+  {
+    "modeId": "crisis",
+    "query": "Our main database just went down, affecting 50% of customers",
+    "passed": false,
+    "duration": 0.102,
+    "checks": {
+      "sections": {
+        "Situation Assessment": true,
+        "Immediate Triage": true,
+        "Response Actions": false,
+        "Communication Plan": true
+      },
+      "elements": {
+        "hasActionTable": true,
+        "hasOwners": true,
+        "hasDeadlines": true,
+        "hasPriorityLevels": true,
+        "hasCommunicationTemplates": true
+      },
+      "format": true,
+      "agentCount": 3
+    },
+    "failureReason": "Missing required sections"
+  },
+  {
+    "modeId": "execution",
+    "query": "Create a plan to launch the mobile app in 6 weeks",
+    "passed": false,
+    "duration": 0.101,
+    "checks": {
+      "sections": {
+        "Objective Definition": true,
+        "Work Breakdown": true,
+        "Timeline": false,
+        "Success Criteria": true
+      },
+      "elements": {
+        "hasProjectPlan": true,
+        "hasMilestones": true,
+        "hasResourceSummary": true,
+        "hasOwners": true,
+        "hasDates": true
+      },
+      "format": true,
+      "agentCount": 0
+    },
+    "failureReason": "Missing required sections"
+  },
+  {
+    "modeId": "research",
+    "query": "Analyze our customer churn data from the last quarter",
+    "passed": false,
+    "duration": 0.1,
+    "checks": {
+      "sections": {
+        "Data Inventory": true,
+        "Analysis": true,
+        "Pattern Identification": true,
+        "Recommendations": true
+      },
+      "elements": {
+        "hasFindings": true,
+        "hasConfidenceLevels": false,
+        "hasLimitations": true,
+        "hasEvidenceCitations": true,
+        "distinguishesFactFromInterpretation": true
+      },
+      "format": true,
+      "agentCount": 0
+    },
+    "failureReason": "Missing required elements"
+  },
+  {
+    "modeId": "investment",
+    "query": "Should we hire 3 more engineers for the platform team?",
+    "passed": false,
+    "duration": 0.101,
+    "checks": {
+      "sections": {
+        "Investment Thesis": true,
+        "Financial Analysis": true,
+        "Alternative Analysis": true,
+        "Risk Assessment": false,
+        "Decision": true
+      },
+      "elements": {
+        "hasROICalculation": false,
+        "hasPaybackPeriod": true,
+        "hasScenarioAnalysis": true,
+        "hasInvestmentTable": true,
+        "hasAlternatives": true
+      },
+      "format": true,
+      "agentCount": 2
+    },
+    "failureReason": "Missing required sections"
+  },
+  {
+    "modeId": "stakeholder",
+    "query": "How should we communicate the upcoming reorg to employees?",
+    "passed": false,
+    "duration": 0.1,
+    "checks": {
+      "sections": {
+        "Stakeholder Mapping": true,
+        "Impact Assessment": false,
+        "Communication Strategy": true,
+        "Resistance Management": false
+      },
+      "elements": {
+        "hasStakeholderTable": true,
+        "hasInfluenceMatrix": true,
+        "hasCommunicationPlan": true,
+        "hasMessaging": true
+      },
+      "format": true,
+      "agentCount": 2
+    },
+    "failureReason": "Missing required sections"
+  },
+  {
+    "modeId": "rapid",
+    "query": "Should we approve this $5K tool purchase?",
+    "passed": true,
+    "duration": 0.101,
+    "checks": {
+      "sections": {
+        "Quick Takes": true,
+        "Decision": true,
+        "Rationale": true
+      },
+      "elements": {
+        "hasOneSentencePerAgent": true,
+        "hasImmediateDecision": true,
+        "hasReviewFlag": true
+      },
+      "format": true,
+      "agentCount": 6
+    }
+  },
+  {
+    "modeId": "advisory",
+    "query": "Help me understand how our pricing model works",
+    "passed": false,
+    "duration": 0.1,
+    "checks": {
+      "sections": {
+        "Context Setting": true,
+        "Framework Teaching": true,
+        "Worked Example": true,
+        "Learning Takeaways": true
+      },
+      "elements": {
+        "hasFrameworkExplanation": true,
+        "hasExamples": true,
+        "hasTakeaways": true,
+        "hasEducationalTone": true
+      },
+      "format": true,
+      "agentCount": 0
+    },
+    "failureReason": "Insufficient agents (0 < 2)"
+  },
+  {
+    "modeId": "governance",
+    "query": "Should we make an exception to our remote work policy for this candidate?",
+    "passed": false,
+    "duration": 0.101,
+    "checks": {
+      "sections": {
+        "Precedent Review": true,
+        "Policy Alignment": true,
+        "Long-term Implications": true,
+        "Documentation": true
+      },
+      "elements": {
+        "hasPolicyStatement": true,
+        "hasRationale": true,
+        "hasScope": true,
+        "hasExceptionProcess": true,
+        "hasEffectiveDate": true
+      },
+      "format": true,
+      "agentCount": 0
+    },
+    "failureReason": "Insufficient agents (0 < 2)"
+  }
+]

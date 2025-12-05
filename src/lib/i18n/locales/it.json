@@ -1,0 +1,136 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "retry": "Riprova",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "create": "Crea",
+    "update": "Aggiorna",
+    "close": "Chiudi",
+    "back": "Indietro",
+    "next": "Avanti",
+    "previous": "Precedente",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "sort": "Ordina",
+    "export": "Esporta",
+    "import": "Importa",
+    "download": "Scarica",
+    "upload": "Carica",
+    "yes": "Sì",
+    "no": "No",
+    "confirm": "Conferma",
+    "submit": "Invia",
+    "apply": "Applica",
+    "reset": "Reimposta",
+    "clear": "Cancella",
+    "all": "Tutti",
+    "none": "Nessuno",
+    "select": "Seleziona",
+    "selected": "Selezionato",
+    "view": "Visualizza",
+    "details": "Dettagli",
+    "more": "Altro",
+    "less": "Meno",
+    "showAll": "Mostra tutto",
+    "hideAll": "Nascondi tutto",
+    "viewMore": "Vedi altro",
+    "learnMore": "Scopri di più"
+  },
+  "nav": {
+    "home": "Home",
+    "product": "Prodotto",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "demo": "Richiedi Demo",
+    "login": "Accedi",
+    "register": "Registrati",
+    "logout": "Esci",
+    "downloads": "Download",
+    "documentation": "Documentazione",
+    "support": "Supporto",
+    "contact": "Contatti",
+    "manifesto": "Manifesto",
+    "services": "Servizi",
+    "packages": "Pacchetti"
+  },
+  "auth": {
+    "login": {
+      "title": "Accedi al tuo account",
+      "subtitle": "Bentornato! Inserisci le tue credenziali.",
+      "email": "Indirizzo email",
+      "password": "Password",
+      "rememberMe": "Ricordami",
+      "forgotPassword": "Password dimenticata?",
+      "submitButton": "Accedi",
+      "noAccount": "Non hai un account?",
+      "signUp": "Registrati",
+      "orContinueWith": "Oppure continua con",
+      "errors": {
+        "invalidCredentials": "Email o password non validi",
+        "accountLocked": "Account bloccato",
+        "networkError": "Errore di rete. Riprova."
+      }
+    },
+    "register": {
+      "title": "Crea il tuo account",
+      "subtitle": "Inizia la tua prova gratuita di 14 giorni.",
+      "fullName": "Nome completo",
+      "email": "Email aziendale",
+      "password": "Password",
+      "confirmPassword": "Conferma password",
+      "company": "Nome azienda",
+      "companySize": "Dimensione azienda",
+      "industry": "Settore",
+      "submitButton": "Crea Account",
+      "hasAccount": "Hai già un account?",
+      "signIn": "Accedi",
+      "agreeToTerms": "Accetto i Termini di Servizio e l'Informativa sulla Privacy"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "Il Grafo",
+      "description": "Naviga il tuo universo di conoscenza"
+    },
+    "council": {
+      "name": "Il Consiglio",
+      "description": "Consulenti AI che ragionano insieme"
+    },
+    "pulse": {
+      "name": "Il Polso",
+      "description": "Salute organizzativa in tempo reale"
+    },
+    "lens": {
+      "name": "La Lente",
+      "description": "Vedi i futuri possibili"
+    },
+    "bridge": {
+      "name": "Il Ponte",
+      "description": "Agisci tra i sistemi"
+    }
+  },
+  "errors": {
+    "notFound": {
+      "title": "Pagina Non Trovata",
+      "message": "La pagina che stai cercando non esiste o è stata spostata.",
+      "backHome": "Torna alla Home"
+    },
+    "serverError": {
+      "title": "Errore del Server",
+      "message": "Qualcosa è andato storto. Riprova più tardi."
+    }
+  },
+  "footer": {
+    "company": "Azienda",
+    "product": "Prodotto",
+    "resources": "Risorse",
+    "legal": "Legale",
+    "copyright": "© {{year}} Datacendia. Tutti i diritti riservati.",
+    "tagline": "Intelligence Aziendale Sovrana"
+  }
+}

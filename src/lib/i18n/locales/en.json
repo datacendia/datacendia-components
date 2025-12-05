@@ -1,0 +1,390 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "download": "Download",
+    "upload": "Upload",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "apply": "Apply",
+    "reset": "Reset",
+    "clear": "Clear",
+    "all": "All",
+    "none": "None",
+    "select": "Select",
+    "selected": "Selected",
+    "view": "View",
+    "details": "Details",
+    "more": "More",
+    "less": "Less",
+    "showAll": "Show All",
+    "hideAll": "Hide All",
+    "viewMore": "View More",
+    "learnMore": "Learn More"
+  },
+  "nav": {
+    "home": "Home",
+    "product": "Product",
+    "pricing": "Pricing",
+    "about": "About",
+    "demo": "Request Demo",
+    "login": "Sign In",
+    "register": "Sign Up",
+    "logout": "Sign Out",
+    "downloads": "Downloads",
+    "documentation": "Documentation",
+    "support": "Support",
+    "contact": "Contact",
+    "manifesto": "Manifesto",
+    "services": "Services",
+    "packages": "Packages"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign in to your account",
+      "subtitle": "Welcome back! Please enter your credentials.",
+      "email": "Email address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submitButton": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "orContinueWith": "Or continue with",
+      "errors": {
+        "invalidCredentials": "Invalid email or password",
+        "accountLocked": "Account has been locked",
+        "networkError": "Network error. Please try again."
+      }
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start your 14-day free trial today.",
+      "fullName": "Full name",
+      "email": "Work email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "company": "Company name",
+      "companySize": "Company size",
+      "industry": "Industry",
+      "submitButton": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",
+      "passwordRequirements": {
+        "title": "Password must contain:",
+        "minLength": "At least 12 characters",
+        "uppercase": "One uppercase letter",
+        "lowercase": "One lowercase letter",
+        "number": "One number",
+        "special": "One special character"
+      }
+    },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email and we'll send you a reset link.",
+      "email": "Email address",
+      "submitButton": "Send Reset Link",
+      "backToLogin": "Back to sign in",
+      "success": "If an account exists, you'll receive an email shortly."
+    },
+    "mfa": {
+      "title": "Two-factor authentication",
+      "subtitle": "Enter the code from your authenticator app.",
+      "code": "Authentication code",
+      "submitButton": "Verify",
+      "useBackupCode": "Use a backup code",
+      "resendCode": "Resend code"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Your Organization's Intelligence,",
+      "titleHighlight": "Sovereign and Whole",
+      "subtitle": "Datacendia is the command center for enterprise intelligence. Connect your data, consult AI advisors, and see possible futures — all while keeping complete control.",
+      "ctaPrimary": "Request Demo",
+      "ctaSecondary": "Explore Platform"
+    },
+    "problem": {
+      "title": "The Problem with Enterprise Intelligence",
+      "subtitle": "Organizations struggle with fragmented data, siloed tools, and reactive decision-making",
+      "dataChaos": {
+        "title": "Data Chaos",
+        "description": "Your data lives in dozens of systems with no unified view. Nobody knows what's true."
+      },
+      "toolSprawl": {
+        "title": "Tool Sprawl",
+        "description": "BI tools, analytics platforms, dashboards — none of them talk to each other."
+      },
+      "noForesight": {
+        "title": "No Foresight",
+        "description": "You're always looking in the rear-view mirror. What about what's coming next?"
+      }
+    },
+    "solution": {
+      "title": "The Cortex: Your Intelligence Command Center",
+      "subtitle": "Five integrated spaces that give you complete visibility and control"
+    },
+    "pillars": {
+      "title": "The 8 Pillars of Sovereign Intelligence",
+      "subtitle": "Every capability you need, working together as one"
+    },
+    "cta": {
+      "title": "Ready to take control of your intelligence?",
+      "subtitle": "See how Datacendia can transform your organization's decision-making",
+      "button": "Schedule a Demo"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "The Graph",
+      "description": "Navigate your knowledge universe"
+    },
+    "council": {
+      "name": "The Council",
+      "description": "AI advisors that reason together"
+    },
+    "pulse": {
+      "name": "The Pulse",
+      "description": "Real-time organizational health"
+    },
+    "lens": {
+      "name": "The Lens",
+      "description": "See possible futures"
+    },
+    "bridge": {
+      "name": "The Bridge",
+      "description": "Take action across systems"
+    }
+  },
+  "pillars": {
+    "helm": {
+      "name": "The Helm",
+      "description": "Strategic decision support",
+      "longDescription": "Your command center for strategic decisions. Track KPIs, monitor performance, and steer your organization with confidence."
+    },
+    "lineage": {
+      "name": "The Lineage",
+      "description": "Trace every data point to its source",
+      "longDescription": "Complete data provenance tracking. Know where your data comes from, how it transforms, and where it goes."
+    },
+    "predict": {
+      "name": "The Predict",
+      "description": "AI-powered forecasting",
+      "longDescription": "Machine learning models that forecast trends, detect anomalies, and surface insights before they become obvious."
+    },
+    "flow": {
+      "name": "The Flow",
+      "description": "Automated workflows",
+      "longDescription": "Intelligent workflow automation that connects your systems and processes with AI-driven decision points."
+    },
+    "health": {
+      "name": "The Health",
+      "description": "Organizational vitality metrics",
+      "longDescription": "Real-time monitoring of your organization's vital signs across data, systems, and processes."
+    },
+    "guard": {
+      "name": "The Guard",
+      "description": "Data governance & compliance",
+      "longDescription": "Automated policy enforcement, access controls, and compliance monitoring to keep your data secure."
+    },
+    "ethics": {
+      "name": "The Ethics",
+      "description": "Built-in ethical oversight",
+      "longDescription": "Ethical guardrails that ensure responsible AI use, fair algorithms, and transparent decision-making."
+    },
+    "agents": {
+      "name": "The Agents",
+      "description": "AI advisors for every domain",
+      "longDescription": "Specialized AI agents that provide domain-specific expertise and collaborate to solve complex problems."
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that fits your organization. All plans include a 14-day free trial.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "annualDiscount": "Save 20%",
+    "perMonth": "/month",
+    "startTrial": "Start Free Trial",
+    "contactSales": "Contact Sales",
+    "mostPopular": "Most Popular",
+    "plans": {
+      "foundation": {
+        "name": "Foundation",
+        "description": "Essential intelligence capabilities for growing teams"
+      },
+      "intelligence": {
+        "name": "Intelligence",
+        "description": "Advanced analytics and forecasting for scaling organizations"
+      },
+      "governance": {
+        "name": "Governance",
+        "description": "Complete governance and compliance for regulated industries"
+      },
+      "sovereign": {
+        "name": "Sovereign",
+        "description": "Full platform with complete data sovereignty"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": {
+        "trial": {
+          "q": "Can I try before I buy?",
+          "a": "Yes! All plans include a 14-day free trial with full access to features."
+        },
+        "data": {
+          "q": "What happens to my data if I cancel?",
+          "a": "Your data remains yours. Export everything before cancellation, or we'll retain it for 30 days."
+        },
+        "nonprofit": {
+          "q": "Do you offer discounts for nonprofits?",
+          "a": "Yes, we offer 50% off for qualified nonprofits and educational institutions."
+        },
+        "upgrade": {
+          "q": "Can I upgrade or downgrade anytime?",
+          "a": "Absolutely. Changes take effect at your next billing cycle, prorated if upgrading."
+        }
+      }
+    }
+  },
+  "downloads": {
+    "title": "Downloads",
+    "subtitle": "Get Datacendia for your platform",
+    "desktop": {
+      "title": "Desktop Application",
+      "windows": "Windows",
+      "mac": "macOS",
+      "linux": "Linux",
+      "download": "Download"
+    },
+    "mobile": {
+      "title": "Mobile Apps",
+      "ios": "iOS",
+      "android": "Android",
+      "appStore": "App Store",
+      "playStore": "Google Play"
+    },
+    "cli": {
+      "title": "Command Line Interface"
+    },
+    "selfHosted": {
+      "title": "Self-Hosted",
+      "docker": "Docker Compose",
+      "kubernetes": "Kubernetes (Helm)",
+      "airgapped": "Air-Gapped Bundle"
+    },
+    "systemRequirements": {
+      "title": "System Requirements",
+      "minimum": "Minimum",
+      "recommended": "Recommended"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "healthScore": "Health Score",
+    "activeAlerts": "Active Alerts",
+    "pendingApprovals": "Pending Approvals",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions"
+  },
+  "cortex": {
+    "sidebar": {
+      "spaces": "Spaces",
+      "pillars": "Pillars",
+      "system": "System",
+      "data": "Data",
+      "security": "Security"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "organization": "Organization",
+    "users": "Users",
+    "teams": "Teams",
+    "roles": "Roles & Permissions",
+    "billing": "Billing",
+    "apiKeys": "API Keys",
+    "integrations": "Integrations",
+    "preferences": "Preferences",
+    "security": "Security"
+  },
+  "errors": {
+    "notFound": {
+      "title": "Page Not Found",
+      "message": "The page you're looking for doesn't exist or has been moved.",
+      "backHome": "Back to Home"
+    },
+    "serverError": {
+      "title": "Server Error",
+      "message": "Something went wrong on our end. Please try again later."
+    },
+    "networkError": {
+      "title": "Connection Error",
+      "message": "Unable to connect to the server. Please check your internet connection."
+    },
+    "unauthorized": {
+      "title": "Unauthorized",
+      "message": "You don't have permission to access this resource."
+    },
+    "sessionExpired": {
+      "title": "Session Expired",
+      "message": "Your session has expired. Please sign in again."
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "product": "Product",
+    "resources": "Resources",
+    "legal": "Legal",
+    "about": "About Us",
+    "careers": "Careers",
+    "contact": "Contact",
+    "press": "Press",
+    "features": "Features",
+    "integrations": "Integrations",
+    "enterprise": "Enterprise",
+    "documentation": "Documentation",
+    "apiReference": "API Reference",
+    "status": "System Status",
+    "community": "Community",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "security": "Security",
+    "cookies": "Cookie Policy",
+    "copyright": "© {{year}} Datacendia. All rights reserved.",
+    "tagline": "Sovereign Enterprise Intelligence"
+  },
+  "time": {
+    "justNow": "Just now",
+    "minutesAgo": "{{count}} minute ago",
+    "minutesAgo_plural": "{{count}} minutes ago",
+    "hoursAgo": "{{count}} hour ago",
+    "hoursAgo_plural": "{{count}} hours ago",
+    "daysAgo": "{{count}} day ago",
+    "daysAgo_plural": "{{count}} days ago",
+    "weeksAgo": "{{count}} week ago",
+    "weeksAgo_plural": "{{count}} weeks ago"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "common": {
+    "appName": "Datacendia",
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด",
+    "retry": "ลองอีกครั้ง",
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "create": "สร้าง",
+    "update": "อัปเดต",
+    "close": "ปิด",
+    "back": "ย้อนกลับ",
+    "next": "ถัดไป",
+    "previous": "ก่อนหน้า",
+    "search": "ค้นหา",
+    "filter": "กรอง",
+    "sort": "เรียงลำดับ",
+    "export": "ส่งออก",
+    "import": "นำเข้า",
+    "download": "ดาวน์โหลด",
+    "upload": "อัปโหลด",
+    "yes": "ใช่",
+    "no": "ไม่",
+    "confirm": "ยืนยัน",
+    "submit": "ส่ง",
+    "apply": "ใช้",
+    "reset": "รีเซ็ต",
+    "clear": "ล้าง",
+    "all": "ทั้งหมด",
+    "none": "ไม่มี",
+    "select": "เลือก",
+    "selected": "เลือกแล้ว",
+    "view": "ดู",
+    "details": "รายละเอียด",
+    "more": "เพิ่มเติม",
+    "less": "น้อยลง"
+  },
+  "nav": {
+    "home": "หน้าแรก",
+    "product": "ผลิตภัณฑ์",
+    "pricing": "ราคา",
+    "about": "เกี่ยวกับเรา",
+    "demo": "ขอสาธิต",
+    "login": "เข้าสู่ระบบ",
+    "register": "ลงทะเบียน",
+    "logout": "ออกจากระบบ",
+    "downloads": "ดาวน์โหลด",
+    "documentation": "เอกสาร",
+    "support": "สนับสนุน",
+    "contact": "ติดต่อ"
+  },
+  "auth": {
+    "login": {
+      "title": "เข้าสู่บัญชีของคุณ",
+      "subtitle": "ยินดีต้อนรับกลับมา! กรุณากรอกข้อมูลของคุณ",
+      "email": "ที่อยู่อีเมล",
+      "password": "รหัสผ่าน",
+      "rememberMe": "จดจำฉัน",
+      "forgotPassword": "ลืมรหัสผ่าน?",
+      "submitButton": "เข้าสู่ระบบ",
+      "noAccount": "ยังไม่มีบัญชี?",
+      "signUp": "ลงทะเบียน"
+    },
+    "register": {
+      "title": "สร้างบัญชีของคุณ",
+      "subtitle": "เริ่มทดลองใช้ฟรี 14 วันวันนี้",
+      "fullName": "ชื่อเต็ม",
+      "email": "อีเมลที่ทำงาน",
+      "password": "รหัสผ่าน",
+      "confirmPassword": "ยืนยันรหัสผ่าน",
+      "company": "ชื่อบริษัท",
+      "submitButton": "สร้างบัญชี",
+      "hasAccount": "มีบัญชีอยู่แล้ว?",
+      "signIn": "เข้าสู่ระบบ"
+    }
+  },
+  "spaces": {
+    "graph": {
+      "name": "กราฟ",
+      "description": "สำรวจจักรวาลความรู้ของคุณ"
+    },
+    "council": {
+      "name": "สภา",
+      "description": "ที่ปรึกษา AI ที่ใช้เหตุผลร่วมกัน"
+    },
+    "pulse": {
+      "name": "ชีพจร",
+      "description": "สุขภาพองค์กรแบบเรียลไทม์"
+    },
+    "lens": {
+      "name": "เลนส์",
+      "description": "มองเห็นอนาคตที่เป็นไปได้"
+    },
+    "bridge": {
+      "name": "สะพาน",
+      "description": "ดำเนินการข้ามระบบ"
+    }
+  },
+  "footer": {
+    "company": "บริษัท",
+    "product": "ผลิตภัณฑ์",
+    "resources": "ทรัพยากร",
+    "legal": "กฎหมาย",
+    "copyright": "© {{year}} Datacendia สงวนลิขสิทธิ์",
+    "tagline": "ระบบอัจฉริยะองค์กรอิสระ"
+  }
+}

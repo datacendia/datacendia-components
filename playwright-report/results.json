@@ -1,0 +1,2595 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Stu\\Documents\\datacendia-components\\datacendia-components\\playwright.config.ts",
+    "rootDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/e2e",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "playwright-report/junit.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "C:/Users/Stu/Documents/datacendia-components/datacendia-components/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 12,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://localhost:5173",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "critical-flows.spec.ts",
+      "file": "critical-flows.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Authentication",
+          "file": "critical-flows.spec.ts",
+          "line": 36,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display login page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-6ed2f89347a8306a9689",
+              "file": "critical-flows.spec.ts",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-af3d1cae6199d9c33a99",
+              "file": "critical-flows.spec.ts",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "should redirect to dashboard after login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-e436c9ebdee315c92be2",
+              "file": "critical-flows.spec.ts",
+              "line": 50,
+              "column": 3
+            },
+            {
+              "title": "should display login page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-3a8ddb4514b65615ccf9",
+              "file": "critical-flows.spec.ts",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-4cef7bebbcf82504f39a",
+              "file": "critical-flows.spec.ts",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "should redirect to dashboard after login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-86067703d9d9a78deeed",
+              "file": "critical-flows.spec.ts",
+              "line": 50,
+              "column": 3
+            },
+            {
+              "title": "should display login page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-9281e1a9a8b26bb5fe28",
+              "file": "critical-flows.spec.ts",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-043930927b862db1f213",
+              "file": "critical-flows.spec.ts",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "should redirect to dashboard after login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-31c0ef13036771931e33",
+              "file": "critical-flows.spec.ts",
+              "line": 50,
+              "column": 3
+            },
+            {
+              "title": "should display login page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-bc804e480cb1dfcb1b0b",
+              "file": "critical-flows.spec.ts",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "should show error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-3351b74ca806822c659e",
+              "file": "critical-flows.spec.ts",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "should redirect to dashboard after login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-f4ce75112b18cdfe30da",
+              "file": "critical-flows.spec.ts",
+              "line": 50,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "CendiaChronos™ - Enterprise Time Machine",
+          "file": "critical-flows.spec.ts",
+          "line": 60,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load Chronos page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-49e1c9da975313cec7b4",
+              "file": "critical-flows.spec.ts",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "should display timeline controls",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-779644b6962f1a03413e",
+              "file": "critical-flows.spec.ts",
+              "line": 70,
+              "column": 3
+            },
+            {
+              "title": "should rewind to past state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-61a34d3e3d0de2f8c1c1",
+              "file": "critical-flows.spec.ts",
+              "line": 76,
+              "column": 3
+            },
+            {
+              "title": "should show data snapshot at selected time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-95ea5b7af45c5b26976c",
+              "file": "critical-flows.spec.ts",
+              "line": 85,
+              "column": 3
+            },
+            {
+              "title": "should record decision at current time point",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-4fc4b6d806709878a236",
+              "file": "critical-flows.spec.ts",
+              "line": 94,
+              "column": 3
+            },
+            {
+              "title": "should load Chronos page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-06fd7d68610b02bb72ce",
+              "file": "critical-flows.spec.ts",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "should display timeline controls",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-6a66e738be7c7847ff37",
+              "file": "critical-flows.spec.ts",
+              "line": 70,
+              "column": 3
+            },
+            {
+              "title": "should rewind to past state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-7427fd4457af01be23c9",
+              "file": "critical-flows.spec.ts",
+              "line": 76,
+              "column": 3
+            },
+            {
+              "title": "should show data snapshot at selected time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-25823db20f0e11f4ba08",
+              "file": "critical-flows.spec.ts",
+              "line": 85,
+              "column": 3
+            },
+            {
+              "title": "should record decision at current time point",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-ab119ec684eaa0c4454e",
+              "file": "critical-flows.spec.ts",
+              "line": 94,
+              "column": 3
+            },
+            {
+              "title": "should load Chronos page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-501cd7b7e70d2556058a",
+              "file": "critical-flows.spec.ts",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "should display timeline controls",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-c5e0524c081b4f253dba",
+              "file": "critical-flows.spec.ts",
+              "line": 70,
+              "column": 3
+            },
+            {
+              "title": "should rewind to past state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-02b027eb88af69811b08",
+              "file": "critical-flows.spec.ts",
+              "line": 76,
+              "column": 3
+            },
+            {
+              "title": "should show data snapshot at selected time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-361b84e3ab34929a0f7b",
+              "file": "critical-flows.spec.ts",
+              "line": 85,
+              "column": 3
+            },
+            {
+              "title": "should record decision at current time point",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-16fb5d100c9c1de40962",
+              "file": "critical-flows.spec.ts",
+              "line": 94,
+              "column": 3
+            },
+            {
+              "title": "should load Chronos page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-8cef8634f417e8d1ed0e",
+              "file": "critical-flows.spec.ts",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "should display timeline controls",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-10efba4f289ffb30d6c5",
+              "file": "critical-flows.spec.ts",
+              "line": 70,
+              "column": 3
+            },
+            {
+              "title": "should rewind to past state",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-31571f4bee8d260e9153",
+              "file": "critical-flows.spec.ts",
+              "line": 76,
+              "column": 3
+            },
+            {
+              "title": "should show data snapshot at selected time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-ad9baf02114ff2c442e0",
+              "file": "critical-flows.spec.ts",
+              "line": 85,
+              "column": 3
+            },
+            {
+              "title": "should record decision at current time point",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-f603226e85e0188fa00e",
+              "file": "critical-flows.spec.ts",
+              "line": 94,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Council - AI Agent Deliberation",
+          "file": "critical-flows.spec.ts",
+          "line": 114,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load Council page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-cb7be4b006b52973b8c9",
+              "file": "critical-flows.spec.ts",
+              "line": 120,
+              "column": 3
+            },
+            {
+              "title": "should display agent avatars",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-42629043f099c1c8f58a",
+              "file": "critical-flows.spec.ts",
+              "line": 124,
+              "column": 3
+            },
+            {
+              "title": "should start new deliberation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-780eadde7fc151792f2f",
+              "file": "critical-flows.spec.ts",
+              "line": 128,
+              "column": 3
+            },
+            {
+              "title": "should allow asking follow-up questions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-cb5dc327adf10fac555f",
+              "file": "critical-flows.spec.ts",
+              "line": 142,
+              "column": 3
+            },
+            {
+              "title": "should export deliberation transcript",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-988204853005ea87fdf8",
+              "file": "critical-flows.spec.ts",
+              "line": 154,
+              "column": 3
+            },
+            {
+              "title": "should load Council page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-147ee4c3fc924d0a3bf3",
+              "file": "critical-flows.spec.ts",
+              "line": 120,
+              "column": 3
+            },
+            {
+              "title": "should display agent avatars",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-a7e674a83089686db224",
+              "file": "critical-flows.spec.ts",
+              "line": 124,
+              "column": 3
+            },
+            {
+              "title": "should start new deliberation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-495ccfd095eb1496543c",
+              "file": "critical-flows.spec.ts",
+              "line": 128,
+              "column": 3
+            },
+            {
+              "title": "should allow asking follow-up questions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-54f0dbd53eb48b24752d",
+              "file": "critical-flows.spec.ts",
+              "line": 142,
+              "column": 3
+            },
+            {
+              "title": "should export deliberation transcript",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-93f530609deeb56611c8",
+              "file": "critical-flows.spec.ts",
+              "line": 154,
+              "column": 3
+            },
+            {
+              "title": "should load Council page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-2c94c9fc4ef8b585b4d0",
+              "file": "critical-flows.spec.ts",
+              "line": 120,
+              "column": 3
+            },
+            {
+              "title": "should display agent avatars",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-3ccbfbca46d727658627",
+              "file": "critical-flows.spec.ts",
+              "line": 124,
+              "column": 3
+            },
+            {
+              "title": "should start new deliberation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-2881b0c226ea089721c9",
+              "file": "critical-flows.spec.ts",
+              "line": 128,
+              "column": 3
+            },
+            {
+              "title": "should allow asking follow-up questions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-011f1a5743bdf4862471",
+              "file": "critical-flows.spec.ts",
+              "line": 142,
+              "column": 3
+            },
+            {
+              "title": "should export deliberation transcript",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-8921c0aa54b931865e69",
+              "file": "critical-flows.spec.ts",
+              "line": 154,
+              "column": 3
+            },
+            {
+              "title": "should load Council page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-58c2116ddfd1ce68afe4",
+              "file": "critical-flows.spec.ts",
+              "line": 120,
+              "column": 3
+            },
+            {
+              "title": "should display agent avatars",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-0084256d98838431ec21",
+              "file": "critical-flows.spec.ts",
+              "line": 124,
+              "column": 3
+            },
+            {
+              "title": "should start new deliberation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-176569d882b1cba4ba9e",
+              "file": "critical-flows.spec.ts",
+              "line": 128,
+              "column": 3
+            },
+            {
+              "title": "should allow asking follow-up questions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-991ce6a345d5f4252e2d",
+              "file": "critical-flows.spec.ts",
+              "line": 142,
+              "column": 3
+            },
+            {
+              "title": "should export deliberation transcript",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-5f6d8b024cc0157db05f",
+              "file": "critical-flows.spec.ts",
+              "line": 154,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "CendiaAutopilot™ - Self-Driving Enterprise",
+          "file": "critical-flows.spec.ts",
+          "line": 170,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should load Autopilot dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-73815492689c551f9c62",
+              "file": "critical-flows.spec.ts",
+              "line": 176,
+              "column": 3
+            },
+            {
+              "title": "should display pending decisions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-66b1f489ae37e5843324",
+              "file": "critical-flows.spec.ts",
+              "line": 180,
+              "column": 3
+            },
+            {
+              "title": "should approve autonomous decision",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-74d3ca6bd6180d1c1b92",
+              "file": "critical-flows.spec.ts",
+              "line": 184,
+              "column": 3
+            },
+            {
+              "title": "should reject decision with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-3bdac858976e413dc4c8",
+              "file": "critical-flows.spec.ts",
+              "line": 202,
+              "column": 3
+            },
+            {
+              "title": "should view decision history",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-7b15ef809a7aac8c1219",
+              "file": "critical-flows.spec.ts",
+              "line": 217,
+              "column": 3
+            },
+            {
+              "title": "should load Autopilot dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-26eef66b4f38eb308607",
+              "file": "critical-flows.spec.ts",
+              "line": 176,
+              "column": 3
+            },
+            {
+              "title": "should display pending decisions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-d34730be452c588f65fe",
+              "file": "critical-flows.spec.ts",
+              "line": 180,
+              "column": 3
+            },
+            {
+              "title": "should approve autonomous decision",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-c2c96c998e7a578a228a",
+              "file": "critical-flows.spec.ts",
+              "line": 184,
+              "column": 3
+            },
+            {
+              "title": "should reject decision with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-317c472e3eaf518860a4",
+              "file": "critical-flows.spec.ts",
+              "line": 202,
+              "column": 3
+            },
+            {
+              "title": "should view decision history",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-f3bb018a7797b0160b66",
+              "file": "critical-flows.spec.ts",
+              "line": 217,
+              "column": 3
+            },
+            {
+              "title": "should load Autopilot dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-113f80c0563e0de9afe0",
+              "file": "critical-flows.spec.ts",
+              "line": 176,
+              "column": 3
+            },
+            {
+              "title": "should display pending decisions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-ab4b6bab805f015637df",
+              "file": "critical-flows.spec.ts",
+              "line": 180,
+              "column": 3
+            },
+            {
+              "title": "should approve autonomous decision",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-aaf42d82bbf25aa38d00",
+              "file": "critical-flows.spec.ts",
+              "line": 184,
+              "column": 3
+            },
+            {
+              "title": "should reject decision with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-4612a93148e002baadf3",
+              "file": "critical-flows.spec.ts",
+              "line": 202,
+              "column": 3
+            },
+            {
+              "title": "should view decision history",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-e7e2239879123a4dad99",
+              "file": "critical-flows.spec.ts",
+              "line": 217,
+              "column": 3
+            },
+            {
+              "title": "should load Autopilot dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-2649c7c4b3f1607739f0",
+              "file": "critical-flows.spec.ts",
+              "line": 176,
+              "column": 3
+            },
+            {
+              "title": "should display pending decisions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-3c2389d33df3af97e600",
+              "file": "critical-flows.spec.ts",
+              "line": 180,
+              "column": 3
+            },
+            {
+              "title": "should approve autonomous decision",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-67e6f77b553cebd91795",
+              "file": "critical-flows.spec.ts",
+              "line": 184,
+              "column": 3
+            },
+            {
+              "title": "should reject decision with reason",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-f0ad7b1e5672b56c20c0",
+              "file": "critical-flows.spec.ts",
+              "line": 202,
+              "column": 3
+            },
+            {
+              "title": "should view decision history",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-0887e8e8a05d8a8a5cdd",
+              "file": "critical-flows.spec.ts",
+              "line": 217,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Critical Flow: Complete Decision Cycle",
+          "file": "critical-flows.spec.ts",
+          "line": 227,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should complete full decision cycle: Chronos → Council → Autopilot → Record",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-409db1757cdaaff36fea",
+              "file": "critical-flows.spec.ts",
+              "line": 228,
+              "column": 3
+            },
+            {
+              "title": "should complete full decision cycle: Chronos → Council → Autopilot → Record",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-65087f8835363335661a",
+              "file": "critical-flows.spec.ts",
+              "line": 228,
+              "column": 3
+            },
+            {
+              "title": "should complete full decision cycle: Chronos → Council → Autopilot → Record",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-68bb47bba9399157743e",
+              "file": "critical-flows.spec.ts",
+              "line": 228,
+              "column": 3
+            },
+            {
+              "title": "should complete full decision cycle: Chronos → Council → Autopilot → Record",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-680bf1e96ef7a59ce9bb",
+              "file": "critical-flows.spec.ts",
+              "line": 228,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Enterprise Features",
+          "file": "critical-flows.spec.ts",
+          "line": 274,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should access CendiaSovereign™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-f781301c47d1db4a19f9",
+              "file": "critical-flows.spec.ts",
+              "line": 279,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaPersonaForge™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-eeee3e7a59135c4f374e",
+              "file": "critical-flows.spec.ts",
+              "line": 284,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaMesh™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-72589e7e2f0c99b6fb37",
+              "file": "critical-flows.spec.ts",
+              "line": 289,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaGovern™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-e92427d8c47446ef25d6",
+              "file": "critical-flows.spec.ts",
+              "line": 294,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaGenomics™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-eb4ff6b0d852a0b0a6f8",
+              "file": "critical-flows.spec.ts",
+              "line": 299,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaDefenseStack™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-a0a24ba39ca4d50f7201",
+              "file": "critical-flows.spec.ts",
+              "line": 304,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaOmniTranslate™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-dbe5c9c22b3e48b0ecbe",
+              "file": "critical-flows.spec.ts",
+              "line": 309,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaSovereign™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-b03edae32383740a2322",
+              "file": "critical-flows.spec.ts",
+              "line": 279,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaPersonaForge™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-45763f1db2b636c081a6",
+              "file": "critical-flows.spec.ts",
+              "line": 284,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaMesh™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-9964c8a1272989c33170",
+              "file": "critical-flows.spec.ts",
+              "line": 289,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaGovern™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-240a479f22d71b7fe63f",
+              "file": "critical-flows.spec.ts",
+              "line": 294,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaGenomics™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-a0c48cd0be88c2f84a76",
+              "file": "critical-flows.spec.ts",
+              "line": 299,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaDefenseStack™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-8e0baf3560f02a0194b9",
+              "file": "critical-flows.spec.ts",
+              "line": 304,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaOmniTranslate™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-01e6184d6229ad4dcdc0",
+              "file": "critical-flows.spec.ts",
+              "line": 309,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaSovereign™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-4ee89872b12d54b61d3b",
+              "file": "critical-flows.spec.ts",
+              "line": 279,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaPersonaForge™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-16f32a744a7a11baff90",
+              "file": "critical-flows.spec.ts",
+              "line": 284,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaMesh™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-33ce5a8218f578c89b7f",
+              "file": "critical-flows.spec.ts",
+              "line": 289,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaGovern™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-2d8a2d402fcaa34be3cf",
+              "file": "critical-flows.spec.ts",
+              "line": 294,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaGenomics™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-3e10727b3395ce3a73c5",
+              "file": "critical-flows.spec.ts",
+              "line": 299,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaDefenseStack™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-0a4204c79f171223aaa2",
+              "file": "critical-flows.spec.ts",
+              "line": 304,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaOmniTranslate™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-c4f2766c02a1bf736e68",
+              "file": "critical-flows.spec.ts",
+              "line": 309,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaSovereign™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-ce0168c806fe6e2f433c",
+              "file": "critical-flows.spec.ts",
+              "line": 279,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaPersonaForge™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-90321e895c3622a2a81b",
+              "file": "critical-flows.spec.ts",
+              "line": 284,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaMesh™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-3acab1e80b7ae85e38d1",
+              "file": "critical-flows.spec.ts",
+              "line": 289,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaGovern™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-9f53f7a8295bd59ce2e7",
+              "file": "critical-flows.spec.ts",
+              "line": 294,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaGenomics™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-aa278b4f3377693b461d",
+              "file": "critical-flows.spec.ts",
+              "line": 299,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaDefenseStack™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-9f0eabe2dc8948948de3",
+              "file": "critical-flows.spec.ts",
+              "line": 304,
+              "column": 3
+            },
+            {
+              "title": "should access CendiaOmniTranslate™",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-8b0e7f9025d577110890",
+              "file": "critical-flows.spec.ts",
+              "line": 309,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Accessibility",
+          "file": "critical-flows.spec.ts",
+          "line": 319,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should have no critical accessibility violations on dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-459042772f66d80a2cc9",
+              "file": "critical-flows.spec.ts",
+              "line": 320,
+              "column": 3
+            },
+            {
+              "title": "should be keyboard navigable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-f1b7f2830f10f9bf5af9",
+              "file": "critical-flows.spec.ts",
+              "line": 329,
+              "column": 3
+            },
+            {
+              "title": "should have no critical accessibility violations on dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-f11a4a43621891e422cf",
+              "file": "critical-flows.spec.ts",
+              "line": 320,
+              "column": 3
+            },
+            {
+              "title": "should be keyboard navigable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-50fee7b6169e3093f561",
+              "file": "critical-flows.spec.ts",
+              "line": 329,
+              "column": 3
+            },
+            {
+              "title": "should have no critical accessibility violations on dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-e2f71573137ede0ceec3",
+              "file": "critical-flows.spec.ts",
+              "line": 320,
+              "column": 3
+            },
+            {
+              "title": "should be keyboard navigable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-022dc5f74d887aa8a303",
+              "file": "critical-flows.spec.ts",
+              "line": 329,
+              "column": 3
+            },
+            {
+              "title": "should have no critical accessibility violations on dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-26220a52ea29fe61f86f",
+              "file": "critical-flows.spec.ts",
+              "line": 320,
+              "column": 3
+            },
+            {
+              "title": "should be keyboard navigable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-61e55c285bcc1a0f1c0a",
+              "file": "critical-flows.spec.ts",
+              "line": 329,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Performance",
+          "file": "critical-flows.spec.ts",
+          "line": 348,
+          "column": 6,
+          "specs": [
+            {
+              "title": "dashboard should load within 3 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-6a0eb533450e26730f26",
+              "file": "critical-flows.spec.ts",
+              "line": 349,
+              "column": 3
+            },
+            {
+              "title": "Chronos should load within 5 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-a8c05d32afa60b54ed91",
+              "file": "critical-flows.spec.ts",
+              "line": 359,
+              "column": 3
+            },
+            {
+              "title": "dashboard should load within 3 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-4bdebaf7ddb7a615d0ac",
+              "file": "critical-flows.spec.ts",
+              "line": 349,
+              "column": 3
+            },
+            {
+              "title": "Chronos should load within 5 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-094dc970af7e1bf188e1",
+              "file": "critical-flows.spec.ts",
+              "line": 359,
+              "column": 3
+            },
+            {
+              "title": "dashboard should load within 3 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-867e63433dac30260498",
+              "file": "critical-flows.spec.ts",
+              "line": 349,
+              "column": 3
+            },
+            {
+              "title": "Chronos should load within 5 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-661b60702876bb3c61c8",
+              "file": "critical-flows.spec.ts",
+              "line": 359,
+              "column": 3
+            },
+            {
+              "title": "dashboard should load within 3 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-a4e245ef22732f37e1e0",
+              "file": "critical-flows.spec.ts",
+              "line": 349,
+              "column": 3
+            },
+            {
+              "title": "Chronos should load within 5 seconds",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "542ce40c4d5a94d1bfd5-0a9e68bd078104dc71a7",
+              "file": "critical-flows.spec.ts",
+              "line": 359,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-11-30T11:09:45.318Z",
+    "duration": 59.31200000000001,
+    "expected": 0,
+    "skipped": 120,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
