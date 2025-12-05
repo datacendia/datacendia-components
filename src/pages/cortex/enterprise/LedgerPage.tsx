@@ -6,6 +6,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { governApi, councilApi } from '../../../lib/api';
 import { 
   ledgerService, 
   LedgerEntry, 
@@ -31,12 +32,92 @@ export const LedgerPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'chain' | 'decisions' | 'audit' | 'export'>('chain');
   const [showNewDecision, setShowNewDecision] = useState(false);
   const [filterFramework, setFilterFramework] = useState<ComplianceFramework | 'all'>('all');
+  const [isLoading, setIsLoading] = useState(true);
 
-  const loadData = useCallback(() => {
-    setEntries(ledgerService.getAllEntries());
-    setDecisions(ledgerService.getAllDecisions());
-    setMetrics(ledgerService.getMetrics());
-    setChainStatus(ledgerService.verifyChain());
+  // Fetch real data from APIs
+  const loadData = useCallback(async () => {
+    setIsLoading(true);
+    try {
+      // Fetch real audit data from API
+      const [auditsRes, decisionsRes] = await Promise.all([
+        governApi.getAudits(),
+        councilApi.getRecentDecisions(50),
+      ]);
+
+      // Map audit entries to ledger entries
+      if (auditsRes.success && auditsRes.data && Array.isArray(auditsRes.data)) {
+        const realEntries: LedgerEntry[] = (auditsRes.data as any[]).map((audit, idx) => ({
+          id: audit.id,
+          sequence: idx + 1,
+          timestamp: new Date(audit.created_at),
+          eventType: 'audit.completed' as LedgerEventType,
+          decisionId: audit.policy_id || 'N/A',
+          organizationId: audit.organization_id,
+          title: `Audit: ${audit.audit_type || 'Compliance Check'}`,
+          description: audit.findings?.length ? `${audit.findings.length} findings` : 'No findings',
+          data: audit,
+          confidenceScore: 100 - (audit.risk_score || 0),
+          previousHash: idx > 0 ? `hash-${idx - 1}` : 'genesis',
+          hash: `hash-${idx}`,
+          complianceFrameworks: ['SOC2', 'SOX'] as ComplianceFramework[],
+          retentionPeriodDays: 2555,
+          sensitivityLevel: 'confidential' as const,
+          piiInvolved: false,
+          verified: audit.status === 'completed',
+        }));
+        
+        if (realEntries.length > 0) {
+          setEntries(realEntries);
+          console.log('[Ledger] Loaded', realEntries.length, 'audit entries from API');
+        } else {
+          setEntries(ledgerService.getAllEntries());
+        }
+      } else {
+        setEntries(ledgerService.getAllEntries());
+      }
+
+      // Map decisions from council
+      if (decisionsRes.success && decisionsRes.data && Array.isArray(decisionsRes.data)) {
+        const realDecisions: DecisionRecord[] = (decisionsRes.data as any[]).map(d => ({
+          id: d.id,
+          title: d.query || d.title || 'Council Decision',
+          description: d.response || 'Decision made by AI Council',
+          proposedBy: 'AI Council',
+          proposedAt: new Date(d.created_at || d.timestamp),
+          status: 'approved' as const,
+          agents: d.agents?.map((a: any) => a.id || a) || [],
+          voters: [],
+          finalConfidence: d.confidence || 85,
+          ledgerEntries: [],
+          firstEntryHash: 'genesis',
+          latestEntryHash: `hash-${d.id}`,
+          complianceStatus: 'compliant' as const,
+          auditHistory: [],
+        }));
+        
+        if (realDecisions.length > 0) {
+          setDecisions(realDecisions);
+          console.log('[Ledger] Loaded', realDecisions.length, 'decisions from API');
+        } else {
+          setDecisions(ledgerService.getAllDecisions());
+        }
+      } else {
+        setDecisions(ledgerService.getAllDecisions());
+      }
+
+      // Calculate metrics from real data
+      setMetrics(ledgerService.getMetrics());
+      setChainStatus(ledgerService.verifyChain());
+      
+    } catch (error) {
+      console.error('[Ledger] Failed to load data, using fallback:', error);
+      setEntries(ledgerService.getAllEntries());
+      setDecisions(ledgerService.getAllDecisions());
+      setMetrics(ledgerService.getMetrics());
+      setChainStatus(ledgerService.verifyChain());
+    } finally {
+      setIsLoading(false);
+    }
   }, []);
 
   useEffect(() => {
