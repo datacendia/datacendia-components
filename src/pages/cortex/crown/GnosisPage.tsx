@@ -53,12 +53,86 @@ interface DecisionReadiness {
   message: string;
 }
 
+interface LearningPath {
+  id: string;
+  title: string;
+  description: string;
+  progress: number;
+  duration: string;
+  difficulty: 'beginner' | 'intermediate' | 'advanced';
+  modules: Array<{
+    id: string;
+    title: string;
+    duration: string;
+    completed: boolean;
+    type: 'video' | 'quiz' | 'reading' | 'exercise';
+  }>;
+}
+
+// Demo learning paths with real content
+const LEARNING_PATHS: LearningPath[] = [
+  {
+    id: 'ai-decision-making',
+    title: 'AI-Driven Decision Making',
+    description: 'Learn how to leverage AI agents and data-driven insights to make better strategic decisions.',
+    progress: 0,
+    duration: '2h 30m',
+    difficulty: 'intermediate',
+    modules: [
+      { id: 'm1', title: 'Introduction to AI Decision Support', duration: '15m', completed: false, type: 'video' },
+      { id: 'm2', title: 'Understanding Agent Recommendations', duration: '20m', completed: false, type: 'reading' },
+      { id: 'm3', title: 'Evaluating Confidence Scores', duration: '25m', completed: false, type: 'video' },
+      { id: 'm4', title: 'Knowledge Check', duration: '10m', completed: false, type: 'quiz' },
+      { id: 'm5', title: 'Building Your First Council Query', duration: '30m', completed: false, type: 'exercise' },
+      { id: 'm6', title: 'Interpreting Multi-Agent Consensus', duration: '20m', completed: false, type: 'video' },
+      { id: 'm7', title: 'Final Assessment', duration: '30m', completed: false, type: 'quiz' },
+    ],
+  },
+  {
+    id: 'change-management',
+    title: 'Change Management Fundamentals',
+    description: 'Master the principles of organizational change and stakeholder alignment.',
+    progress: 45,
+    duration: '1h 45m',
+    difficulty: 'beginner',
+    modules: [
+      { id: 'm1', title: 'Why Change Management Matters', duration: '10m', completed: true, type: 'video' },
+      { id: 'm2', title: 'Stakeholder Analysis', duration: '15m', completed: true, type: 'reading' },
+      { id: 'm3', title: 'Progress Check', duration: '5m', completed: true, type: 'quiz' },
+      { id: 'm4', title: 'Communication Strategies', duration: '20m', completed: false, type: 'video' },
+      { id: 'm5', title: 'Resistance Management', duration: '25m', completed: false, type: 'reading' },
+      { id: 'm6', title: 'Practical Exercise', duration: '20m', completed: false, type: 'exercise' },
+      { id: 'm7', title: 'Final Assessment', duration: '10m', completed: false, type: 'quiz' },
+    ],
+  },
+  {
+    id: 'strategic-communication',
+    title: 'Strategic Communication',
+    description: 'Advanced techniques for executive-level communication and influence.',
+    progress: 78,
+    duration: '3h',
+    difficulty: 'advanced',
+    modules: [
+      { id: 'm1', title: 'Executive Presence', duration: '25m', completed: true, type: 'video' },
+      { id: 'm2', title: 'Crafting Board Presentations', duration: '30m', completed: true, type: 'reading' },
+      { id: 'm3', title: 'Data Storytelling', duration: '35m', completed: true, type: 'video' },
+      { id: 'm4', title: 'Mid-Course Assessment', duration: '15m', completed: true, type: 'quiz' },
+      { id: 'm5', title: 'Crisis Communication', duration: '25m', completed: true, type: 'video' },
+      { id: 'm6', title: 'Stakeholder Influence', duration: '30m', completed: false, type: 'reading' },
+      { id: 'm7', title: 'Capstone Project', duration: '40m', completed: false, type: 'exercise' },
+    ],
+  },
+];
+
 const GnosisPage = () => {
   const [dashboard, setDashboard] = useState<DashboardData | null>(null);
   const [profile, setProfile] = useState<SkillProfile | null>(null);
   const [readiness, setReadiness] = useState<DecisionReadiness | null>(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'overview' | 'skills' | 'paths' | 'analytics'>('overview');
+  const [selectedPath, setSelectedPath] = useState<LearningPath | null>(null);
+  const [currentModule, setCurrentModule] = useState<string | null>(null);
+  const [learningPaths, setLearningPaths] = useState<LearningPath[]>(LEARNING_PATHS);
 
   const fetchData = useCallback(async () => {
     setLoading(true);
@@ -275,13 +349,8 @@ const GnosisPage = () => {
             </h2>
             
             <div className="space-y-3">
-              {/* Sample learning paths */}
-              {[
-                { title: 'AI-Driven Decision Making', progress: 0, duration: '2h 30m', difficulty: 'intermediate' },
-                { title: 'Change Management Fundamentals', progress: 45, duration: '1h 45m', difficulty: 'beginner' },
-                { title: 'Strategic Communication', progress: 78, duration: '3h', difficulty: 'advanced' },
-              ].map((path, idx) => (
-                <div key={idx} className="p-4 bg-neutral-800/50 rounded-lg hover:bg-neutral-800 transition cursor-pointer">
+              {learningPaths.map((path) => (
+                <div key={path.id} className="p-4 bg-neutral-800/50 rounded-lg hover:bg-neutral-800 transition cursor-pointer">
                   <div className="flex items-start justify-between mb-2">
                     <p className="font-medium">{path.title}</p>
                     <span className={`px-2 py-1 text-xs rounded capitalize ${
@@ -313,7 +382,10 @@ const GnosisPage = () => {
                     />
                   </div>
                   
-                  <button className="mt-3 w-full py-2 bg-indigo-500/20 text-indigo-400 rounded-lg text-sm hover:bg-indigo-500/30 transition flex items-center justify-center gap-2">
+                  <button 
+                    onClick={() => setSelectedPath(path)}
+                    className="mt-3 w-full py-2 bg-indigo-500/20 text-indigo-400 rounded-lg text-sm hover:bg-indigo-500/30 transition flex items-center justify-center gap-2"
+                  >
                     {path.progress > 0 ? (
                       <>
                         <Play className="w-4 h-4" />
@@ -664,6 +736,200 @@ const GnosisPage = () => {
                 <BarChart3 className="w-12 h-12 mx-auto mb-2 opacity-50" />
                 <p>Learning trend chart would be rendered here</p>
                 <p className="text-sm">Showing skill growth over time</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Learning Path Modal */}
+      {selectedPath && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
+            {/* Modal Header */}
+            <div className="p-6 border-b border-neutral-800 flex items-start justify-between">
+              <div>
+                <div className="flex items-center gap-3 mb-2">
+                  <span className={`px-3 py-1 text-xs rounded-full capitalize ${
+                    selectedPath.difficulty === 'beginner' ? 'bg-green-500/20 text-green-400' :
+                    selectedPath.difficulty === 'intermediate' ? 'bg-amber-500/20 text-amber-400' :
+                    'bg-purple-500/20 text-purple-400'
+                  }`}>
+                    {selectedPath.difficulty}
+                  </span>
+                  <span className="text-neutral-500 text-sm flex items-center gap-1">
+                    <Clock className="w-4 h-4" />
+                    {selectedPath.duration}
+                  </span>
+                </div>
+                <h2 className="text-2xl font-bold">{selectedPath.title}</h2>
+                <p className="text-neutral-400 mt-1">{selectedPath.description}</p>
+              </div>
+              <button
+                onClick={() => {
+                  setSelectedPath(null);
+                  setCurrentModule(null);
+                }}
+                className="p-2 hover:bg-neutral-800 rounded-lg transition"
+              >
+                <ChevronRight className="w-6 h-6 rotate-45" />
+              </button>
+            </div>
+
+            {/* Progress Bar */}
+            <div className="px-6 py-4 border-b border-neutral-800">
+              <div className="flex items-center justify-between text-sm mb-2">
+                <span className="text-neutral-400">Course Progress</span>
+                <span className="text-indigo-400 font-medium">{selectedPath.progress}% Complete</span>
+              </div>
+              <div className="h-2 bg-neutral-800 rounded-full overflow-hidden">
+                <div 
+                  className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full transition-all"
+                  style={{ width: `${selectedPath.progress}%` }}
+                />
+              </div>
+            </div>
+
+            {/* Modules List */}
+            <div className="p-6 overflow-y-auto max-h-[50vh]">
+              <h3 className="text-lg font-semibold mb-4">Course Modules</h3>
+              <div className="space-y-3">
+                {selectedPath.modules.map((module, idx) => (
+                  <div 
+                    key={module.id}
+                    className={`p-4 rounded-xl border transition cursor-pointer ${
+                      currentModule === module.id 
+                        ? 'bg-indigo-500/20 border-indigo-500/50' 
+                        : module.completed
+                          ? 'bg-green-500/10 border-green-500/30'
+                          : 'bg-neutral-800/50 border-neutral-700 hover:border-neutral-600'
+                    }`}
+                    onClick={() => setCurrentModule(module.id)}
+                  >
+                    <div className="flex items-center gap-4">
+                      <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
+                        module.completed 
+                          ? 'bg-green-500/20 text-green-400' 
+                          : currentModule === module.id
+                            ? 'bg-indigo-500/20 text-indigo-400'
+                            : 'bg-neutral-700 text-neutral-400'
+                      }`}>
+                        {module.completed ? (
+                          <CheckCircle className="w-5 h-5" />
+                        ) : (
+                          <span>{idx + 1}</span>
+                        )}
+                      </div>
+                      
+                      <div className="flex-1">
+                        <p className={`font-medium ${module.completed ? 'text-green-400' : ''}`}>
+                          {module.title}
+                        </p>
+                        <div className="flex items-center gap-3 mt-1 text-sm text-neutral-500">
+                          <span className="flex items-center gap-1">
+                            <Clock className="w-3 h-3" />
+                            {module.duration}
+                          </span>
+                          <span className={`px-2 py-0.5 rounded text-xs capitalize ${
+                            module.type === 'video' ? 'bg-blue-500/20 text-blue-400' :
+                            module.type === 'quiz' ? 'bg-purple-500/20 text-purple-400' :
+                            module.type === 'reading' ? 'bg-amber-500/20 text-amber-400' :
+                            'bg-green-500/20 text-green-400'
+                          }`}>
+                            {module.type}
+                          </span>
+                        </div>
+                      </div>
+
+                      {!module.completed && (
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            // Mark module as complete
+                            setLearningPaths(paths => 
+                              paths.map(p => 
+                                p.id === selectedPath.id
+                                  ? {
+                                      ...p,
+                                      modules: p.modules.map(m => 
+                                        m.id === module.id ? { ...m, completed: true } : m
+                                      ),
+                                      progress: Math.round(
+                                        ((p.modules.filter(m => m.completed || m.id === module.id).length) / p.modules.length) * 100
+                                      )
+                                    }
+                                  : p
+                              )
+                            );
+                            // Update selected path
+                            setSelectedPath(prev => prev ? {
+                              ...prev,
+                              modules: prev.modules.map(m => 
+                                m.id === module.id ? { ...m, completed: true } : m
+                              ),
+                              progress: Math.round(
+                                ((prev.modules.filter(m => m.completed || m.id === module.id).length) / prev.modules.length) * 100
+                              )
+                            } : null);
+                          }}
+                          className="px-4 py-2 bg-indigo-500 text-white rounded-lg text-sm hover:bg-indigo-600 transition flex items-center gap-2"
+                        >
+                          <Play className="w-4 h-4" />
+                          {module.type === 'video' ? 'Watch' : 
+                           module.type === 'quiz' ? 'Take Quiz' :
+                           module.type === 'reading' ? 'Read' : 'Start'}
+                        </button>
+                      )}
+
+                      {module.completed && (
+                        <span className="text-green-400 text-sm flex items-center gap-1">
+                          <CheckCircle className="w-4 h-4" />
+                          Done
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Modal Footer */}
+            <div className="p-6 border-t border-neutral-800 flex items-center justify-between">
+              <div className="text-sm text-neutral-500">
+                {selectedPath.modules.filter(m => m.completed).length} of {selectedPath.modules.length} modules completed
+              </div>
+              <div className="flex gap-3">
+                <button
+                  onClick={() => {
+                    setSelectedPath(null);
+                    setCurrentModule(null);
+                  }}
+                  className="px-4 py-2 bg-neutral-800 text-neutral-300 rounded-lg hover:bg-neutral-700 transition"
+                >
+                  Close
+                </button>
+                {selectedPath.progress < 100 && (
+                  <button
+                    onClick={() => {
+                      const nextModule = selectedPath.modules.find(m => !m.completed);
+                      if (nextModule) {
+                        setCurrentModule(nextModule.id);
+                      }
+                    }}
+                    className="px-6 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition flex items-center gap-2"
+                  >
+                    <Play className="w-4 h-4" />
+                    Continue Learning
+                  </button>
+                )}
+                {selectedPath.progress === 100 && (
+                  <button
+                    className="px-6 py-2 bg-green-500 text-white rounded-lg flex items-center gap-2"
+                  >
+                    <Award className="w-4 h-4" />
+                    Get Certificate
+                  </button>
+                )}
               </div>
             </div>
           </div>
