@@ -69,6 +69,254 @@ interface LearningPath {
   }>;
 }
 
+// Module content for readings, quizzes, and exercises
+const MODULE_CONTENT: Record<string, {
+  type: 'reading' | 'quiz' | 'exercise';
+  title: string;
+  content?: string;
+  sections?: Array<{ heading: string; text: string }>;
+  questions?: Array<{ id: string; question: string; options: string[]; correct: number }>;
+  steps?: Array<{ step: number; instruction: string; hint?: string }>;
+}> = {
+  // AI Decision Making - Reading
+  'm2': {
+    type: 'reading',
+    title: 'Understanding Agent Recommendations',
+    sections: [
+      {
+        heading: 'What Are AI Agents?',
+        text: 'AI agents in CendiaCortex are specialized decision-support systems that analyze data, identify patterns, and provide recommendations. Each agent has a specific domain expertise—from financial analysis to risk assessment to market trends. Unlike simple algorithms, these agents learn from organizational context and adapt their recommendations based on outcomes.'
+      },
+      {
+        heading: 'How Recommendations Are Generated',
+        text: 'When you submit a decision query to the Council, multiple agents analyze the question from their unique perspectives. Each agent considers: historical data patterns, current market conditions, organizational constraints, and potential risks. The agents then vote on recommendations, with their votes weighted by their historical accuracy in similar decisions.'
+      },
+      {
+        heading: 'Interpreting Agent Confidence',
+        text: 'Every recommendation comes with a confidence score (0-100%). High confidence (>80%) indicates strong data support and agent consensus. Medium confidence (50-80%) suggests the decision has nuances requiring human judgment. Low confidence (<50%) means significant uncertainty—proceed with caution and gather more data.'
+      },
+      {
+        heading: 'When to Override Agent Recommendations',
+        text: 'AI agents excel at data-driven analysis but may miss: recent market shifts not yet in data, internal organizational dynamics, stakeholder politics, and ethical considerations. Always apply human judgment, especially for decisions with significant irreversible consequences.'
+      }
+    ]
+  },
+  // AI Decision Making - Quiz (Knowledge Check)
+  'm4': {
+    type: 'quiz',
+    title: 'Knowledge Check',
+    questions: [
+      {
+        id: 'q1',
+        question: 'What does an agent confidence score of 85% indicate?',
+        options: [
+          'The agent is 85% certain the data is accurate',
+          'Strong data support and high agent consensus',
+          'The decision will succeed 85% of the time',
+          'Only 85% of agents participated in the vote'
+        ],
+        correct: 1
+      },
+      {
+        id: 'q2',
+        question: 'When should you consider overriding an AI agent recommendation?',
+        options: [
+          'Never - AI agents are always correct',
+          'When the confidence score is below 50%',
+          'When there are ethical considerations or recent market shifts not in the data',
+          'Only when multiple agents disagree'
+        ],
+        correct: 2
+      },
+      {
+        id: 'q3',
+        question: 'How do agents weight their votes in the Council?',
+        options: [
+          'All agents have equal voting weight',
+          'Based on their historical accuracy in similar decisions',
+          'Senior agents always have higher weight',
+          'Randomly assigned for each decision'
+        ],
+        correct: 1
+      }
+    ]
+  },
+  // AI Decision Making - Exercise
+  'm5': {
+    type: 'exercise',
+    title: 'Building Your First Council Query',
+    steps: [
+      {
+        step: 1,
+        instruction: 'Navigate to the Council page from the main navigation.',
+        hint: 'Look for the "Council" option in the left sidebar under Cortex.'
+      },
+      {
+        step: 2,
+        instruction: 'Click "New Deliberation" to start a new decision query.',
+        hint: 'The button is in the top-right corner of the Council page.'
+      },
+      {
+        step: 3,
+        instruction: 'Frame your decision as a clear question. For example: "Should we expand into the European market in Q2?"',
+        hint: 'Good queries are specific, time-bound, and actionable.'
+      },
+      {
+        step: 4,
+        instruction: 'Select the relevant agents for your decision (e.g., Market Analyst, Risk Assessor, Financial Advisor).',
+        hint: 'Start with 3-5 agents most relevant to your decision domain.'
+      },
+      {
+        step: 5,
+        instruction: 'Set your decision timeline and urgency level.',
+        hint: 'Urgent decisions get faster responses but may have lower confidence.'
+      },
+      {
+        step: 6,
+        instruction: 'Submit your query and observe the deliberation process.',
+        hint: 'Watch the agents discuss and vote in real-time.'
+      },
+      {
+        step: 7,
+        instruction: 'Review the final recommendation and confidence score.',
+        hint: 'Check which agents agreed/disagreed and why.'
+      }
+    ]
+  },
+  // AI Decision Making - Final Assessment
+  'm7': {
+    type: 'quiz',
+    title: 'Final Assessment',
+    questions: [
+      {
+        id: 'q1',
+        question: 'What is the primary benefit of multi-agent decision support?',
+        options: [
+          'Faster decisions with less data',
+          'Multiple perspectives reduce blind spots and bias',
+          'Eliminates the need for human oversight',
+          'Guarantees correct decisions'
+        ],
+        correct: 1
+      },
+      {
+        id: 'q2',
+        question: 'A decision has 45% confidence with significant agent disagreement. What should you do?',
+        options: [
+          'Proceed with the majority recommendation',
+          'Reject the recommendation entirely',
+          'Gather more data and re-query, or apply strong human judgment',
+          'Wait for confidence to increase automatically'
+        ],
+        correct: 2
+      },
+      {
+        id: 'q3',
+        question: 'Which factor do AI agents NOT typically consider well?',
+        options: [
+          'Historical data patterns',
+          'Current market conditions',
+          'Internal organizational politics',
+          'Quantitative risk metrics'
+        ],
+        correct: 2
+      },
+      {
+        id: 'q4',
+        question: 'How can you improve agent recommendation quality over time?',
+        options: [
+          'Always accept recommendations without question',
+          'Provide outcome feedback after decisions are implemented',
+          'Use more agents for every decision',
+          'Ignore low-confidence recommendations'
+        ],
+        correct: 1
+      },
+      {
+        id: 'q5',
+        question: 'What defines a well-framed Council query?',
+        options: [
+          'As vague as possible to get broad recommendations',
+          'Specific, time-bound, and actionable',
+          'Only yes/no questions',
+          'Questions that have obvious answers'
+        ],
+        correct: 1
+      }
+    ]
+  },
+  // Change Management - Reading (Stakeholder Analysis)
+  'cm-m2': {
+    type: 'reading',
+    title: 'Stakeholder Analysis',
+    sections: [
+      {
+        heading: 'Identifying Key Stakeholders',
+        text: 'Stakeholders are individuals or groups who can affect or be affected by organizational decisions. In AI-driven decision making, key stakeholders typically include: executive sponsors, department heads affected by decisions, IT/data teams, end-users of AI recommendations, and external partners or customers impacted by outcomes.'
+      },
+      {
+        heading: 'Mapping Influence and Interest',
+        text: 'Create a 2x2 matrix: High Influence/High Interest stakeholders need close management. High Influence/Low Interest stakeholders should be kept satisfied. Low Influence/High Interest stakeholders should be kept informed. Low Influence/Low Interest stakeholders need minimal monitoring.'
+      },
+      {
+        heading: 'Addressing Stakeholder Concerns',
+        text: 'Common concerns about AI decision support include: job displacement fears, trust in algorithmic recommendations, data privacy, and accountability for AI-influenced decisions. Address these proactively with clear communication, training, and governance frameworks.'
+      }
+    ]
+  },
+  // Change Management - Resistance Management Reading
+  'cm-m5': {
+    type: 'reading',
+    title: 'Resistance Management',
+    sections: [
+      {
+        heading: 'Understanding Resistance',
+        text: 'Resistance to AI-driven decision making is natural and often rational. People may resist due to: fear of the unknown, loss of autonomy, past negative experiences with technology, or genuine concerns about AI limitations. Acknowledge these concerns as valid rather than dismissing them.'
+      },
+      {
+        heading: 'Strategies for Overcoming Resistance',
+        text: 'Key strategies include: involving resistors in the implementation process, providing hands-on training and quick wins, creating feedback channels for concerns, celebrating early successes publicly, and ensuring leadership visibly uses and trusts the AI tools.'
+      },
+      {
+        heading: 'Converting Skeptics to Champions',
+        text: 'Focus on pragmatic skeptics who have valid concerns but are open to evidence. Give them pilot projects where AI support adds clear value. When they experience success, they become the most credible advocates for broader adoption.'
+      }
+    ]
+  },
+  // Change Management - Practical Exercise
+  'cm-m6': {
+    type: 'exercise',
+    title: 'Practical Exercise: Change Impact Assessment',
+    steps: [
+      {
+        step: 1,
+        instruction: 'Identify a recent or upcoming decision that could benefit from AI support.',
+        hint: 'Choose something concrete like a hiring decision, budget allocation, or product feature prioritization.'
+      },
+      {
+        step: 2,
+        instruction: 'List all stakeholders who would be affected if AI recommendations were used for this decision.',
+        hint: 'Include decision-makers, those who implement, and those affected by outcomes.'
+      },
+      {
+        step: 3,
+        instruction: 'For each stakeholder, rate their likely resistance (1-5) and their influence (1-5).',
+        hint: 'High resistance + high influence = priority concern.'
+      },
+      {
+        step: 4,
+        instruction: 'Draft a one-paragraph message explaining the benefits of AI decision support for this specific use case.',
+        hint: 'Focus on how it helps them, not just organizational benefits.'
+      },
+      {
+        step: 5,
+        instruction: 'Identify one quick win that could demonstrate value within 2 weeks.',
+        hint: 'Quick wins should be visible, low-risk, and clearly attributable to AI support.'
+      }
+    ]
+  }
+};
+
 // Demo learning paths with real content
 const LEARNING_PATHS: LearningPath[] = [
   {
@@ -133,6 +381,11 @@ const GnosisPage = () => {
   const [selectedPath, setSelectedPath] = useState<LearningPath | null>(null);
   const [currentModule, setCurrentModule] = useState<string | null>(null);
   const [learningPaths, setLearningPaths] = useState<LearningPath[]>(LEARNING_PATHS);
+  const [activeContent, setActiveContent] = useState<{ moduleId: string; pathId: string } | null>(null);
+  const [quizAnswers, setQuizAnswers] = useState<Record<string, number>>({});
+  const [quizSubmitted, setQuizSubmitted] = useState(false);
+  const [exerciseSteps, setExerciseSteps] = useState<Record<number, boolean>>({});
+  const [readingProgress, setReadingProgress] = useState(0);
 
   const fetchData = useCallback(async () => {
     setLoading(true);
@@ -845,32 +1098,40 @@ const GnosisPage = () => {
                         <button
                           onClick={(e) => {
                             e.stopPropagation();
-                            // Mark module as complete
-                            setLearningPaths(paths => 
-                              paths.map(p => 
-                                p.id === selectedPath.id
-                                  ? {
-                                      ...p,
-                                      modules: p.modules.map(m => 
-                                        m.id === module.id ? { ...m, completed: true } : m
-                                      ),
-                                      progress: Math.round(
-                                        ((p.modules.filter(m => m.completed || m.id === module.id).length) / p.modules.length) * 100
-                                      )
-                                    }
-                                  : p
-                              )
-                            );
-                            // Update selected path
-                            setSelectedPath(prev => prev ? {
-                              ...prev,
-                              modules: prev.modules.map(m => 
-                                m.id === module.id ? { ...m, completed: true } : m
-                              ),
-                              progress: Math.round(
-                                ((prev.modules.filter(m => m.completed || m.id === module.id).length) / prev.modules.length) * 100
-                              )
-                            } : null);
+                            // For videos, just mark complete (user makes video content)
+                            if (module.type === 'video') {
+                              setLearningPaths(paths => 
+                                paths.map(p => 
+                                  p.id === selectedPath.id
+                                    ? {
+                                        ...p,
+                                        modules: p.modules.map(m => 
+                                          m.id === module.id ? { ...m, completed: true } : m
+                                        ),
+                                        progress: Math.round(
+                                          ((p.modules.filter(m => m.completed || m.id === module.id).length) / p.modules.length) * 100
+                                        )
+                                      }
+                                    : p
+                                )
+                              );
+                              setSelectedPath(prev => prev ? {
+                                ...prev,
+                                modules: prev.modules.map(m => 
+                                  m.id === module.id ? { ...m, completed: true } : m
+                                ),
+                                progress: Math.round(
+                                  ((prev.modules.filter(m => m.completed || m.id === module.id).length) / prev.modules.length) * 100
+                                )
+                              } : null);
+                            } else {
+                              // Open content viewer for reading, quiz, exercise
+                              setActiveContent({ moduleId: module.id, pathId: selectedPath.id });
+                              setQuizAnswers({});
+                              setQuizSubmitted(false);
+                              setExerciseSteps({});
+                              setReadingProgress(0);
+                            }
                           }}
                           className="px-4 py-2 bg-indigo-500 text-white rounded-lg text-sm hover:bg-indigo-600 transition flex items-center gap-2"
                         >
@@ -931,6 +1192,325 @@ const GnosisPage = () => {
                   </button>
                 )}
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Content Viewer Modal */}
+      {activeContent && MODULE_CONTENT[activeContent.moduleId] && (
+        <div className="fixed inset-0 bg-black/90 backdrop-blur-sm z-[60] flex items-center justify-center p-4">
+          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden flex flex-col">
+            {/* Content Header */}
+            <div className="p-6 border-b border-neutral-800 flex items-center justify-between">
+              <div>
+                <span className={`px-3 py-1 text-xs rounded-full mb-2 inline-block ${
+                  MODULE_CONTENT[activeContent.moduleId].type === 'reading' ? 'bg-amber-500/20 text-amber-400' :
+                  MODULE_CONTENT[activeContent.moduleId].type === 'quiz' ? 'bg-purple-500/20 text-purple-400' :
+                  'bg-green-500/20 text-green-400'
+                }`}>
+                  {MODULE_CONTENT[activeContent.moduleId].type}
+                </span>
+                <h2 className="text-xl font-bold">{MODULE_CONTENT[activeContent.moduleId].title}</h2>
+              </div>
+              <button
+                onClick={() => setActiveContent(null)}
+                className="p-2 hover:bg-neutral-800 rounded-lg transition"
+              >
+                <ChevronRight className="w-6 h-6 rotate-45" />
+              </button>
+            </div>
+
+            {/* Content Body */}
+            <div className="flex-1 overflow-y-auto p-6">
+              {/* Reading Content */}
+              {MODULE_CONTENT[activeContent.moduleId].type === 'reading' && MODULE_CONTENT[activeContent.moduleId].sections && (
+                <div className="space-y-8">
+                  {MODULE_CONTENT[activeContent.moduleId].sections!.map((section, idx) => (
+                    <div 
+                      key={idx} 
+                      className={`transition-all ${idx <= readingProgress ? 'opacity-100' : 'opacity-50'}`}
+                    >
+                      <h3 className="text-lg font-semibold text-indigo-400 mb-3 flex items-center gap-2">
+                        <span className="w-6 h-6 rounded-full bg-indigo-500/20 flex items-center justify-center text-sm">
+                          {idx + 1}
+                        </span>
+                        {section.heading}
+                      </h3>
+                      <p className="text-neutral-300 leading-relaxed">{section.text}</p>
+                      {idx === readingProgress && idx < MODULE_CONTENT[activeContent.moduleId].sections!.length - 1 && (
+                        <button
+                          onClick={() => setReadingProgress(prev => prev + 1)}
+                          className="mt-4 px-4 py-2 bg-indigo-500/20 text-indigo-400 rounded-lg text-sm hover:bg-indigo-500/30 transition"
+                        >
+                          Continue Reading →
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Quiz Content */}
+              {MODULE_CONTENT[activeContent.moduleId].type === 'quiz' && MODULE_CONTENT[activeContent.moduleId].questions && (
+                <div className="space-y-8">
+                  {MODULE_CONTENT[activeContent.moduleId].questions!.map((q, idx) => (
+                    <div key={q.id} className="bg-neutral-800/50 rounded-xl p-6 border border-neutral-700">
+                      <p className="font-medium mb-4 flex items-start gap-3">
+                        <span className="w-8 h-8 rounded-full bg-purple-500/20 text-purple-400 flex items-center justify-center flex-shrink-0">
+                          {idx + 1}
+                        </span>
+                        <span>{q.question}</span>
+                      </p>
+                      <div className="space-y-2 ml-11">
+                        {q.options.map((option, optIdx) => (
+                          <button
+                            key={optIdx}
+                            onClick={() => !quizSubmitted && setQuizAnswers(prev => ({ ...prev, [q.id]: optIdx }))}
+                            disabled={quizSubmitted}
+                            className={`w-full text-left p-3 rounded-lg border transition ${
+                              quizSubmitted && optIdx === q.correct
+                                ? 'bg-green-500/20 border-green-500 text-green-400'
+                                : quizSubmitted && quizAnswers[q.id] === optIdx && optIdx !== q.correct
+                                  ? 'bg-red-500/20 border-red-500 text-red-400'
+                                  : quizAnswers[q.id] === optIdx
+                                    ? 'bg-purple-500/20 border-purple-500 text-purple-400'
+                                    : 'bg-neutral-800 border-neutral-700 hover:border-neutral-600'
+                            }`}
+                          >
+                            <span className="flex items-center gap-3">
+                              <span className={`w-6 h-6 rounded-full border flex items-center justify-center text-xs ${
+                                quizAnswers[q.id] === optIdx ? 'border-current bg-current/20' : 'border-neutral-600'
+                              }`}>
+                                {String.fromCharCode(65 + optIdx)}
+                              </span>
+                              {option}
+                              {quizSubmitted && optIdx === q.correct && (
+                                <CheckCircle className="w-5 h-5 text-green-400 ml-auto" />
+                              )}
+                            </span>
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                  
+                  {!quizSubmitted && (
+                    <div className="text-center pt-4">
+                      <p className="text-neutral-500 text-sm mb-4">
+                        {Object.keys(quizAnswers).length} of {MODULE_CONTENT[activeContent.moduleId].questions!.length} questions answered
+                      </p>
+                    </div>
+                  )}
+                  
+                  {quizSubmitted && (
+                    <div className="bg-neutral-800/50 rounded-xl p-6 border border-neutral-700 text-center">
+                      <Award className="w-12 h-12 mx-auto mb-3 text-amber-400" />
+                      <p className="text-xl font-bold mb-2">
+                        {MODULE_CONTENT[activeContent.moduleId].questions!.filter(q => quizAnswers[q.id] === q.correct).length} / {MODULE_CONTENT[activeContent.moduleId].questions!.length} Correct
+                      </p>
+                      <p className="text-neutral-400">
+                        {MODULE_CONTENT[activeContent.moduleId].questions!.filter(q => quizAnswers[q.id] === q.correct).length === MODULE_CONTENT[activeContent.moduleId].questions!.length
+                          ? 'Perfect score! Excellent work!'
+                          : 'Review the correct answers above.'}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Exercise Content */}
+              {MODULE_CONTENT[activeContent.moduleId].type === 'exercise' && MODULE_CONTENT[activeContent.moduleId].steps && (
+                <div className="space-y-4">
+                  <div className="bg-indigo-500/10 border border-indigo-500/30 rounded-xl p-4 mb-6">
+                    <p className="text-indigo-400 text-sm">
+                      <strong>Instructions:</strong> Complete each step below. Check off each step as you finish to track your progress.
+                    </p>
+                  </div>
+                  
+                  {MODULE_CONTENT[activeContent.moduleId].steps!.map((step) => (
+                    <div 
+                      key={step.step}
+                      className={`p-4 rounded-xl border transition ${
+                        exerciseSteps[step.step] 
+                          ? 'bg-green-500/10 border-green-500/30' 
+                          : 'bg-neutral-800/50 border-neutral-700'
+                      }`}
+                    >
+                      <div className="flex items-start gap-4">
+                        <button
+                          onClick={() => setExerciseSteps(prev => ({ ...prev, [step.step]: !prev[step.step] }))}
+                          className={`w-8 h-8 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition ${
+                            exerciseSteps[step.step]
+                              ? 'bg-green-500 border-green-500 text-white'
+                              : 'border-neutral-600 hover:border-green-500'
+                          }`}
+                        >
+                          {exerciseSteps[step.step] ? <CheckCircle className="w-5 h-5" /> : step.step}
+                        </button>
+                        <div className="flex-1">
+                          <p className={`font-medium ${exerciseSteps[step.step] ? 'text-green-400' : ''}`}>
+                            {step.instruction}
+                          </p>
+                          {step.hint && (
+                            <p className="text-sm text-neutral-500 mt-2 flex items-start gap-2">
+                              <Zap className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                              <span><strong>Hint:</strong> {step.hint}</span>
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                  
+                  <div className="mt-6 p-4 bg-neutral-800/50 rounded-xl text-center">
+                    <p className="text-neutral-400 mb-2">
+                      Progress: {Object.values(exerciseSteps).filter(Boolean).length} / {MODULE_CONTENT[activeContent.moduleId].steps!.length} steps completed
+                    </p>
+                    <div className="h-2 bg-neutral-700 rounded-full overflow-hidden">
+                      <div 
+                        className="h-full bg-green-500 rounded-full transition-all"
+                        style={{ width: `${(Object.values(exerciseSteps).filter(Boolean).length / MODULE_CONTENT[activeContent.moduleId].steps!.length) * 100}%` }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Content Footer */}
+            <div className="p-6 border-t border-neutral-800 flex items-center justify-between">
+              <button
+                onClick={() => setActiveContent(null)}
+                className="px-4 py-2 bg-neutral-800 text-neutral-300 rounded-lg hover:bg-neutral-700 transition"
+              >
+                Back to Modules
+              </button>
+              
+              {/* Complete Button - Reading */}
+              {MODULE_CONTENT[activeContent.moduleId].type === 'reading' && 
+               readingProgress >= (MODULE_CONTENT[activeContent.moduleId].sections?.length || 1) - 1 && (
+                <button
+                  onClick={() => {
+                    // Mark module complete
+                    setLearningPaths(paths => 
+                      paths.map(p => 
+                        p.id === activeContent.pathId
+                          ? {
+                              ...p,
+                              modules: p.modules.map(m => 
+                                m.id === activeContent.moduleId ? { ...m, completed: true } : m
+                              ),
+                              progress: Math.round(
+                                ((p.modules.filter(m => m.completed || m.id === activeContent.moduleId).length) / p.modules.length) * 100
+                              )
+                            }
+                          : p
+                      )
+                    );
+                    setSelectedPath(prev => prev ? {
+                      ...prev,
+                      modules: prev.modules.map(m => 
+                        m.id === activeContent.moduleId ? { ...m, completed: true } : m
+                      ),
+                      progress: Math.round(
+                        ((prev.modules.filter(m => m.completed || m.id === activeContent.moduleId).length) / prev.modules.length) * 100
+                      )
+                    } : null);
+                    setActiveContent(null);
+                  }}
+                  className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center gap-2"
+                >
+                  <CheckCircle className="w-4 h-4" />
+                  Mark Complete
+                </button>
+              )}
+              
+              {/* Submit Button - Quiz */}
+              {MODULE_CONTENT[activeContent.moduleId].type === 'quiz' && !quizSubmitted && (
+                <button
+                  onClick={() => setQuizSubmitted(true)}
+                  disabled={Object.keys(quizAnswers).length < (MODULE_CONTENT[activeContent.moduleId].questions?.length || 0)}
+                  className="px-6 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  Submit Quiz
+                </button>
+              )}
+              
+              {/* Complete Button - Quiz (after submission) */}
+              {MODULE_CONTENT[activeContent.moduleId].type === 'quiz' && quizSubmitted && (
+                <button
+                  onClick={() => {
+                    setLearningPaths(paths => 
+                      paths.map(p => 
+                        p.id === activeContent.pathId
+                          ? {
+                              ...p,
+                              modules: p.modules.map(m => 
+                                m.id === activeContent.moduleId ? { ...m, completed: true } : m
+                              ),
+                              progress: Math.round(
+                                ((p.modules.filter(m => m.completed || m.id === activeContent.moduleId).length) / p.modules.length) * 100
+                              )
+                            }
+                          : p
+                      )
+                    );
+                    setSelectedPath(prev => prev ? {
+                      ...prev,
+                      modules: prev.modules.map(m => 
+                        m.id === activeContent.moduleId ? { ...m, completed: true } : m
+                      ),
+                      progress: Math.round(
+                        ((prev.modules.filter(m => m.completed || m.id === activeContent.moduleId).length) / prev.modules.length) * 100
+                      )
+                    } : null);
+                    setActiveContent(null);
+                  }}
+                  className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center gap-2"
+                >
+                  <CheckCircle className="w-4 h-4" />
+                  Complete Module
+                </button>
+              )}
+              
+              {/* Complete Button - Exercise */}
+              {MODULE_CONTENT[activeContent.moduleId].type === 'exercise' && 
+               Object.values(exerciseSteps).filter(Boolean).length === (MODULE_CONTENT[activeContent.moduleId].steps?.length || 0) && (
+                <button
+                  onClick={() => {
+                    setLearningPaths(paths => 
+                      paths.map(p => 
+                        p.id === activeContent.pathId
+                          ? {
+                              ...p,
+                              modules: p.modules.map(m => 
+                                m.id === activeContent.moduleId ? { ...m, completed: true } : m
+                              ),
+                              progress: Math.round(
+                                ((p.modules.filter(m => m.completed || m.id === activeContent.moduleId).length) / p.modules.length) * 100
+                              )
+                            }
+                          : p
+                      )
+                    );
+                    setSelectedPath(prev => prev ? {
+                      ...prev,
+                      modules: prev.modules.map(m => 
+                        m.id === activeContent.moduleId ? { ...m, completed: true } : m
+                      ),
+                      progress: Math.round(
+                        ((prev.modules.filter(m => m.completed || m.id === activeContent.moduleId).length) / prev.modules.length) * 100
+                      )
+                    } : null);
+                    setActiveContent(null);
+                  }}
+                  className="px-6 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition flex items-center gap-2"
+                >
+                  <CheckCircle className="w-4 h-4" />
+                  Complete Exercise
+                </button>
+              )}
             </div>
           </div>
         </div>
