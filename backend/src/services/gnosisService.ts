@@ -9,7 +9,7 @@
 
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
-import { ollamaService } from './ollamaService.js';
+import ollama from './ollama.js';
 import crypto from 'crypto';
 
 // =============================================================================
@@ -132,7 +132,6 @@ class GnosisService {
       // Fetch the decision
       const deliberation = await prisma.deliberations.findUnique({
         where: { id: deliberationId },
-        include: { votes: true },
       });
 
       if (!deliberation) {
@@ -167,7 +166,8 @@ class GnosisService {
       const affectedCount = await prisma.users.count({
         where: {
           organization_id: organizationId,
-          role: { in: affectedRoles },
+          // affectedRoles are arbitrary strings, cast to match enum type expected by Prisma
+          role: { in: affectedRoles as any },
         },
       });
 
@@ -326,7 +326,7 @@ class GnosisService {
             name: result.skill,
             level: result.score,
             trend: 'stable',
-            lastUpdated: assessment.completed_at,
+            lastUpdated: assessment.completed_at || new Date(),
             certifications: [],
           };
         } else {
@@ -334,7 +334,7 @@ class GnosisService {
           skills[result.skill].level = result.score;
           skills[result.skill].trend = result.score > oldLevel ? 'improving' : 
             result.score < oldLevel ? 'declining' : 'stable';
-          skills[result.skill].lastUpdated = assessment.completed_at;
+          skills[result.skill].lastUpdated = assessment.completed_at || skills[result.skill].lastUpdated;
         }
       }
     }
@@ -473,7 +473,7 @@ class GnosisService {
       throw new Error('Learning path not found');
     }
 
-    const modules = path.modules as LearningModule[];
+    const modules = path.modules as unknown as LearningModule[];
     const moduleIndex = modules.findIndex(m => m.id === moduleId);
 
     if (moduleIndex === -1) {
@@ -492,7 +492,10 @@ class GnosisService {
     const progress = (completedCount / modules.length) * 100;
 
     // Update status
-    const status = progress >= 100 ? 'completed' : progress > 0 ? 'in_progress' : 'not_started';
+    const status: LearningPath['status'] =
+      progress >= 100 ? 'completed' : progress > 0 ? 'in_progress' : 'not_started';
+
+    const completedAt = status === 'completed' ? new Date() : undefined;
 
     await prisma.gnosis_learning_paths.update({
       where: { id: pathId },
@@ -500,19 +503,28 @@ class GnosisService {
         modules: modules as any,
         progress,
         status,
-        completed_at: status === 'completed' ? new Date() : undefined,
+        completed_at: completedAt,
       },
     });
 
     logger.info('[Gnosis] Progress updated:', { pathId, moduleId, progress });
 
     return {
-      ...path,
+      id: path.id,
+      userId: path.user_id || 'org-wide',
+      title: path.title,
+      description: path.description || '',
+      sourceDecision: path.source_decision_id || undefined,
       modules,
+      estimatedDuration: path.estimated_duration,
+      difficulty: path.difficulty as any,
+      skills: (path.skills as unknown as string[]) || [],
       progress,
-      status: status as any,
-      completedAt: status === 'completed' ? new Date() : undefined,
-    } as LearningPath;
+      status,
+      deadline: path.deadline || undefined,
+      createdAt: path.created_at,
+      completedAt,
+    };
   }
 
   /**
@@ -566,7 +578,7 @@ class GnosisService {
       throw new Error('Assessment not found');
     }
 
-    const questions = assessment.questions as QuizQuestion[];
+    const questions = assessment.questions as unknown as QuizQuestion[];
     let correct = 0;
 
     for (const question of questions) {
@@ -614,7 +626,7 @@ class GnosisService {
     level: 'transformative' | 'significant' | 'moderate' | 'minor';
     estimatedHours: number;
   }> {
-    const isOllamaAvailable = await ollamaService.checkAvailability();
+    const isOllamaAvailable = await ollama.isAvailable();
 
     if (isOllamaAvailable) {
       const prompt = `Analyze this decision's learning impact:
@@ -629,7 +641,7 @@ Respond with JSON:
 }`;
 
       try {
-        const response = await ollamaService.chat([{ role: 'user', content: prompt }]);
+        const response = await ollama.chat([{ role: 'user', content: prompt }]);
         return JSON.parse(response.content);
       } catch (e) {
         // Fall through to default
@@ -658,7 +670,7 @@ Respond with JSON:
   }
 
   private async identifyRequiredSkills(deliberation: any): Promise<string[]> {
-    const isOllamaAvailable = await ollamaService.checkAvailability();
+    const isOllamaAvailable = await ollama.isAvailable();
 
     if (isOllamaAvailable) {
       const prompt = `What skills are needed to execute this decision?
@@ -667,7 +679,7 @@ Decision: ${deliberation.question}
 List 3-7 specific skills as a JSON array of strings.`;
 
       try {
-        const response = await ollamaService.chat([{ role: 'user', content: prompt }]);
+        const response = await ollama.chat([{ role: 'user', content: prompt }]);
         return JSON.parse(response.content);
       } catch (e) {
         // Fall through

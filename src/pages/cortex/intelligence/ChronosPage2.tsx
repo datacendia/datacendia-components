@@ -1474,10 +1474,6 @@ export const ChronosPage: React.FC = () => {
   const [realDeliberations, setRealDeliberations] = useState<any[]>([]);
   const [isLoadingData, setIsLoadingData] = useState(true);
   
-  // Department Filter State
-  const [selectedDepartment, setSelectedDepartment] = useState<string>('all');
-  const departments = ['all', 'Engineering', 'Sales', 'Marketing', 'Finance', 'HR', 'Operations', 'Product', 'Executive'];
-  
   // Enhanced State
   const [enhancedView, setEnhancedView] = useState<EnhancedView>('standard');
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
@@ -1495,6 +1491,24 @@ export const ChronosPage: React.FC = () => {
     dataPoints: number;
     freshness: number;
   } | null>(null);
+  const [selectedDepartment, setSelectedDepartment] = useState<string>('All Departments');
+
+  const departments = useMemo(() => {
+    const set = new Set<string>();
+    events.forEach(e => {
+      if (e.department) { set.add(e.department); }
+    });
+    return Array.from(set).sort();
+  }, [events]);
+
+  const filteredEvents = useMemo(() => {
+    if (selectedDepartment === 'All Departments') { return events; }
+    return events.filter(e => e.department === selectedDepartment);
+  }, [events, selectedDepartment]);
+  const filteredPivotalMoments = useMemo(() => {
+    if (selectedDepartment === 'All Departments') { return pivotalMoments; }
+    return pivotalMoments.filter(m => m.event.department === selectedDepartment);
+  }, [pivotalMoments, selectedDepartment]);
   const [branches, setBranches] = useState<BranchTimeline[]>([]);
   const [selectedBranch, setSelectedBranch] = useState<string | null>(null);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
@@ -1683,6 +1697,7 @@ export const ChronosPage: React.FC = () => {
             department: e.department,
           })),
           limit: 8,
+          department: selectedDepartment === 'All Departments' ? undefined : selectedDepartment,
         });
 
         if (response.success && response.data && Array.isArray(response.data)) {
@@ -1719,7 +1734,7 @@ export const ChronosPage: React.FC = () => {
     };
     
     detectPivotalMomentsWithAI();
-  }, [events]);
+  }, [events, selectedDepartment]);
 
   // Fetch ALL real data from APIs
   useEffect(() => {
@@ -1784,18 +1799,18 @@ export const ChronosPage: React.FC = () => {
           });
         }
 
-        // Add alert events
+        // Add alert events (from normalized alertsApi)
         if (alertsRes.success && alertsRes.data) {
           (alertsRes.data as any[]).forEach((a: any) => {
             realEvents.push({
               id: a.id,
-              timestamp: new Date(a.created_at),
+              timestamp: new Date(a.createdAt),
               type: 'system',
               title: a.title || 'System Alert',
-              description: a.message || a.description || 'Alert triggered',
-              impact: a.severity === 'CRITICAL' ? 'negative' : a.severity === 'WARNING' ? 'neutral' : 'positive',
+              description: a.message || (a as any).description || 'Alert triggered',
+              impact: a.severity === 'critical' ? 'negative' : a.severity === 'warning' ? 'neutral' : 'positive',
               department: 'Operations',
-              magnitude: a.severity === 'CRITICAL' ? 9 : a.severity === 'HIGH' ? 7 : 5,
+              magnitude: a.severity === 'critical' ? 9 : a.severity === 'warning' ? 7 : 5,
             });
           });
         }
@@ -2182,19 +2197,38 @@ export const ChronosPage: React.FC = () => {
   const styles = getModeStyles();
 
   return (
-    <div className="min-h-screen bg-neutral-950 text-white">
-      {/* Header */}
-      <header className={`bg-gradient-to-r ${styles.gradient} py-6 px-8`}>
-        <div className="max-w-7xl mx-auto">
-          <div className="flex items-center justify-between">
-            <div>
-              <div className="flex items-center gap-3">
-                <span className="text-4xl">⏱️</span>
-                <div>
-                  <h1 className="text-3xl font-bold">CendiaChronos™</h1>
-                  <p className="text-white/80">The Enterprise Time Machine</p>
-                </div>
-              </div>
+    <div className="min-h-screen bg-gradient-to-b from-black via-neutral-950 to-neutral-900 text-white">
+      <div className="max-w-7xl mx-auto px-4 py-6">
+        {/* Header */}
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <button
+              onClick={() => navigate('/cortex/dashboard')}
+              className="text-sm text-neutral-400 hover:text-white mb-1 flex items-center gap-1"
+            >
+              <span>←</span>
+              <span>Back to Cortex</span>
+            </button>
+            <h1 className="text-3xl font-bold flex items-center gap-3">
+              <span>🕰️ CendiaChronos™</span>
+              <span className="text-sm font-normal text-neutral-400">
+                The Enterprise Time Machine
+              </span>
+            </h1>
+          </div>
+          <div className="flex items-center gap-3">
+            <div className="hidden sm:flex items-center gap-2">
+              <span className="text-xs text-neutral-400">Department</span>
+              <select
+                value={selectedDepartment}
+                onChange={(e) => setSelectedDepartment(e.target.value)}
+                className="bg-neutral-900 border border-neutral-700 text-xs rounded px-2 py-1 text-neutral-100"
+              >
+                <option value="All Departments">All Departments</option>
+                {departments.map(dep => (
+                  <option key={dep} value={dep}>{dep}</option>
+                ))}
+              </select>
             </div>
             <div className="flex items-center gap-2 bg-black/20 rounded-full p-1">
               {(['rewind', 'replay', 'fastforward'] as ChronosMode[]).map((m) => (
@@ -2212,267 +2246,13 @@ export const ChronosPage: React.FC = () => {
               ))}
             </div>
           </div>
-
-          {/* Mode Description */}
-          <div className="mt-4 p-4 bg-black/20 rounded-xl">
-            {mode === 'rewind' && (
-              <p className="text-white/90">
-                <strong>The Ultimate Audit:</strong> Travel back to any moment and see exactly what your organization looked like.
-                Perfect for regulatory compliance, due diligence, and "why did we decide that?" moments.
-              </p>
-            )}
-            {mode === 'replay' && (
-              <p className="text-white/90">
-                <strong>The Strategy Simulator:</strong> Go back in time, change ONE variable, and watch an alternate timeline unfold.
-                A/B test your history. See what would have happened.
-              </p>
-            )}
-            {mode === 'fastforward' && (
-              <p className="text-white/90">
-                <strong>The Wargame:</strong> Project your organization into the future. This isn't a static forecast—
-                the Council actively deliberates scenarios in your predicted future state.
-              </p>
-            )}
-          </div>
         </div>
-      </header>
-
-      {/* Enterprise Compliance Status Bar */}
-      <div className="bg-gradient-to-r from-emerald-900/50 to-cyan-900/50 border-b border-emerald-700/50">
-        <div className="max-w-7xl mx-auto px-6 py-2">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-6">
-              {/* Ledger Status */}
-              <div className="flex items-center gap-2">
-                <div className={`w-2 h-2 rounded-full ${ledger.integrityStatus === 'verified' ? 'bg-green-400 animate-pulse' : 'bg-red-400'}`} />
-                <span className="text-xs text-white/80">Immutable Ledger™</span>
-                <span className="text-xs font-mono bg-black/30 px-2 py-0.5 rounded">
-                  Block #{ledger.latestBlock.blockNumber}
-                </span>
-              </div>
-
-              {/* Live Sync Status */}
-              <div className="flex items-center gap-2">
-                <div className={`w-2 h-2 rounded-full ${liveSyncStatus.isConnected ? 'bg-green-400' : 'bg-red-400'}`} />
-                <span className="text-xs text-white/80">Live Sync</span>
-                <span className="text-xs font-mono bg-black/30 px-2 py-0.5 rounded">
-                  {liveSyncStatus.syncLag}ms lag
-                </span>
-              </div>
-
-              {/* Compliance Badges */}
-              <div className="flex items-center gap-1">
-                {ledger.complianceFlags.sox && <span className="text-[10px] px-1.5 py-0.5 bg-green-600/50 rounded font-medium">SOX</span>}
-                {ledger.complianceFlags.sec && <span className="text-[10px] px-1.5 py-0.5 bg-green-600/50 rounded font-medium">SEC</span>}
-                {ledger.complianceFlags.fedramp && <span className="text-[10px] px-1.5 py-0.5 bg-blue-600/50 rounded font-medium">FedRAMP</span>}
-                {ledger.complianceFlags.gdpr && <span className="text-[10px] px-1.5 py-0.5 bg-purple-600/50 rounded font-medium">GDPR</span>}
-              </div>
-
-              {/* Active Witnesses */}
-              {witnessSessions.length > 0 && (
-                <div className="flex items-center gap-2">
-                  <span className="text-xs text-amber-400">👁️ {witnessSessions.length} Witness{witnessSessions.length > 1 ? 'es' : ''}</span>
-                </div>
-              )}
-            </div>
-
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => setShowCompliancePanel(!showCompliancePanel)}
-                className="px-3 py-1 text-xs bg-emerald-700/50 hover:bg-emerald-600/50 rounded-lg transition-colors flex items-center gap-1"
-              >
-                🔒 Compliance Panel
-              </button>
-              <button
-                onClick={() => setShowCourtExportModal(true)}
-                className="px-3 py-1 text-xs bg-amber-700/50 hover:bg-amber-600/50 rounded-lg transition-colors flex items-center gap-1"
-              >
-                ⚖️ Court Export
-              </button>
-              <button
-                onClick={() => setShowWitnessModal(true)}
-                className="px-3 py-1 text-xs bg-blue-700/50 hover:bg-blue-600/50 rounded-lg transition-colors flex items-center gap-1"
-              >
-                👁️ Add Witness
-              </button>
-              <button
-                onClick={() => setShowERPPanel(!showERPPanel)}
-                className="px-3 py-1 text-xs bg-indigo-700/50 hover:bg-indigo-600/50 rounded-lg transition-colors flex items-center gap-1"
-              >
-                🏢 ERP Systems
-              </button>
-              
-              {/* New Power Features */}
-              <div className="h-4 w-px bg-neutral-600 mx-1" />
-              
-              <button
-                onClick={() => runReverseTimeCheck(currentDate)}
-                className="px-3 py-1 text-xs bg-rose-700/50 hover:bg-rose-600/50 rounded-lg transition-colors flex items-center gap-1"
-              >
-                🔄 Integrity Check
-              </button>
-              <button
-                onClick={() => setShowRegulatorSetup(true)}
-                className={`px-3 py-1 text-xs rounded-lg transition-colors flex items-center gap-1 ${
-                  regulatorMode 
-                    ? 'bg-red-600 text-white animate-pulse' 
-                    : 'bg-purple-700/50 hover:bg-purple-600/50'
-                }`}
-              >
-                {regulatorMode ? '🔴 Regulator Mode Active' : '🏛️ Regulator Mode'}
-              </button>
-              <button
-                onClick={() => setShowZKAudit(true)}
-                className="px-3 py-1 text-xs bg-cyan-700/50 hover:bg-cyan-600/50 rounded-lg transition-colors flex items-center gap-1"
-              >
-                🔐 ZK Audit
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Chronos-ERP Panel (Collapsible) */}
-      {showERPPanel && (
-        <ERPPanel
-          connectors={erpConnectors}
-          erpSnapshot={erpSnapshot}
-          selectedSource={selectedERPSource}
-          onSourceChange={setSelectedERPSource}
-          currentDate={currentDate}
-          onClose={() => setShowERPPanel(false)}
-        />
-      )}
-
-      {/* Compliance Panel (Collapsible) */}
-      {showCompliancePanel && (
-        <CompliancePanel
-          ledger={ledger}
-          liveSyncStatus={liveSyncStatus}
-          witnessSessions={witnessSessions}
-          redactionRules={redactionRules}
-          onClose={() => setShowCompliancePanel(false)}
-        />
-      )}
-
-      {/* Enhanced Features Toolbar */}
-      <div className="bg-neutral-900 border-b border-neutral-800">
-        <div className="max-w-7xl mx-auto px-6 py-3">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="text-sm text-neutral-500 mr-2">Enhanced Views:</span>
-              {[
-                { id: 'standard', label: '📊 Standard', icon: '📊' },
-                { id: 'diff', label: '⚖️ Diff View', icon: '⚖️' },
-                { id: 'theater', label: '🎬 Council Theater', icon: '🎬' },
-                { id: 'impact', label: '🔗 Impact Trace', icon: '🔗' },
-                { id: 'monte-carlo', label: '🎲 Monte Carlo', icon: '🎲' },
-              ].map(view => (
-                <button
-                  key={view.id}
-                  onClick={() => setEnhancedView(view.id as EnhancedView)}
-                  className={`px-3 py-1.5 text-sm rounded-lg transition-all ${
-                    enhancedView === view.id
-                      ? `bg-gradient-to-r ${styles.gradient} text-white`
-                      : 'bg-neutral-800 text-neutral-400 hover:text-white'
-                  }`}
-                >
-                  {view.label}
-                </button>
-              ))}
-            </div>
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => setShowBookmarkModal(true)}
-                className="px-3 py-1.5 text-sm bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors flex items-center gap-1"
-              >
-                🔖 Bookmark
-              </button>
-              <button
-                onClick={copyShareLink}
-                className="px-3 py-1.5 text-sm bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors flex items-center gap-1"
-              >
-                🔗 Share Link
-              </button>
-              {bookmarks.length > 0 && (
-                <div className="relative group">
-                  <button className="px-3 py-1.5 text-sm bg-amber-600 hover:bg-amber-500 rounded-lg transition-colors">
-                    📚 {bookmarks.length} Saved
-                  </button>
-                  <div className="absolute right-0 top-full mt-2 w-64 bg-neutral-800 rounded-lg shadow-xl border border-neutral-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
-                    {bookmarks.map(bm => (
-                      <button
-                        key={bm.id}
-                        onClick={() => setCurrentDate(bm.timestamp)}
-                        className="w-full text-left px-3 py-2 hover:bg-neutral-700 first:rounded-t-lg last:rounded-b-lg"
-                      >
-                        <p className="font-medium text-sm">{bm.label}</p>
-                        <p className="text-xs text-neutral-500">{bm.timestamp.toLocaleString()}</p>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <main className="max-w-7xl mx-auto p-6 space-y-6">
-        {/* Timeline Scrubber */}
-        <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-          <TimelineScrubber
-            currentDate={currentDate}
-            minDate={timeRange.min}
-            maxDate={timeRange.max}
-            onDateChange={setCurrentDate}
-            mode={mode}
-            events={events}
-            isPlaying={isPlaying}
-            onPlayPause={() => setIsPlaying(!isPlaying)}
-            playbackSpeed={playbackSpeed}
-            onSpeedChange={setPlaybackSpeed}
-          />
-        </div>
-
-        {/* Enhanced Views (Conditional) */}
-        {enhancedView === 'diff' && (
-          <DiffView
-            currentSnapshot={snapshot}
-            compareSnapshot={diffSnapshot}
-            currentDate={currentDate}
-            compareDate={diffDate}
-            onSelectCompareDate={startDiffView}
-          />
-        )}
-
-        {enhancedView === 'theater' && (
-          <CouncilTheater
-            replay={selectedReplay}
-            onClose={() => setEnhancedView('standard')}
-          />
-        )}
-
-        {enhancedView === 'impact' && (
-          <ImpactTraceView
-            causalChain={causalChain}
-            onClose={() => setEnhancedView('standard')}
-          />
-        )}
-
-        {enhancedView === 'monte-carlo' && (
-          <MonteCarloView
-            result={monteCarloResult}
-            onRun={runMonteCarlo}
-            onClose={() => setEnhancedView('standard')}
-          />
-        )}
 
         {/* Main Content Grid (Standard View) */}
         {enhancedView === 'standard' && (
-        <div className="grid grid-cols-3 gap-6">
-          {/* Left Column - Metrics */}
-          <div className="col-span-2 space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            {/* Left Column - Time Machine Controls & State */}
+            <div className="col-span-2 space-y-6">
             {/* State at This Time */}
             <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
               <div className="flex items-center justify-between mb-4">
@@ -2483,31 +2263,17 @@ export const ChronosPage: React.FC = () => {
                     @ {currentDate.toLocaleString()}
                   </span>
                 </h2>
-                <div className="flex items-center gap-3">
-                  {/* Department Selector */}
-                  <select
-                    value={selectedDepartment}
-                    onChange={(e) => setSelectedDepartment(e.target.value)}
-                    className="px-3 py-2 bg-neutral-800 border border-neutral-700 rounded-lg text-sm text-white focus:outline-none focus:border-amber-500"
+                {mode === 'rewind' && selectedEvent?.deliberationId && (
+                  <button 
+                    onClick={() => startCouncilReplay(selectedEvent)}
+                    className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium transition-colors"
                   >
-                    {departments.map(dept => (
-                      <option key={dept} value={dept}>
-                        {dept === 'all' ? 'All Departments' : dept}
-                      </option>
-                    ))}
-                  </select>
-                  {mode === 'rewind' && selectedEvent?.deliberationId && (
-                    <button 
-                      onClick={() => startCouncilReplay(selectedEvent)}
-                      className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium transition-colors"
-                    >
-                      🎬 Replay Council Deliberation
-                    </button>
-                  )}
-                </div>
+                    🎬 Replay Council Deliberation
+                  </button>
+                )}
               </div>
               
-              <MetricsGrid snapshot={snapshot} mode={mode} department={selectedDepartment} />
+              <MetricsGrid snapshot={snapshot} mode={mode} />
             </div>
 
             {/* Council State */}
@@ -2543,8 +2309,8 @@ export const ChronosPage: React.FC = () => {
             {/* Events at This Time */}
             <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
               <h2 className="text-lg font-semibold mb-4">📅 Events</h2>
-              <EventsList 
-                events={events}
+              <EventsList
+                events={filteredEvents}
                 currentDate={currentDate}
                 onSelect={setSelectedEvent}
                 selectedId={selectedEvent?.id}
@@ -2577,14 +2343,13 @@ export const ChronosPage: React.FC = () => {
 
             {/* Pivotal Moments */}
             <PivotalMomentsPanel
-              moments={pivotalMoments}
+              moments={filteredPivotalMoments}
               onJumpTo={setCurrentDate}
               onStartImpactTrace={startImpactTrace}
             />
+            </div>
           </div>
-        </div>
         )}
-      </main>
 
       {/* Branch Creation Modal */}
       {showBranchModal && (
@@ -2874,8 +2639,10 @@ export const ChronosPage: React.FC = () => {
         </div>
       )}
     </div>
+    </div>
   );
 };
+
 
 // =============================================================================
 // SUB-COMPONENTS
@@ -2958,6 +2725,20 @@ const TimelineScrubber: React.FC<{
       position: ((e.timestamp.getTime() - minDate.getTime()) / totalMs) * 100,
       event: e,
     }));
+
+  const handleJumpToNearestEvent = () => {
+    if (events.length === 0) { return; }
+    let nearest = events[0];
+    let nearestDiff = Math.abs(events[0].timestamp.getTime() - currentDate.getTime());
+    for (const e of events) {
+      const diff = Math.abs(e.timestamp.getTime() - currentDate.getTime());
+      if (diff < nearestDiff) {
+        nearest = e;
+        nearestDiff = diff;
+      }
+    }
+    onDateChange(nearest.timestamp);
+  };
 
   return (
     <div>
@@ -3061,6 +2842,12 @@ const TimelineScrubber: React.FC<{
               {speed}x
             </button>
           ))}
+          <button
+            onClick={handleJumpToNearestEvent}
+            className="ml-2 px-3 py-1 text-xs bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors"
+          >
+            Jump to Event
+          </button>
         </div>
       </div>
 
@@ -3097,170 +2884,80 @@ const QuickJump: React.FC<{ label: string; onClick: () => void }> = ({ label, on
   </button>
 );
 
-const MetricsGrid: React.FC<{ snapshot: StateSnapshot; mode: ChronosMode; department?: string }> = ({ snapshot, mode, department = 'all' }) => {
-  // Department-specific metrics
-  const departmentMetrics: Record<string, Array<{ key: string; label: string; icon: string; format: (v: number) => string; value: number }>> = {
-    'Engineering': [
-      { key: 'headcount', label: 'Headcount', icon: '👥', format: (v: number) => v.toString(), value: 67 },
-      { key: 'velocity', label: 'Velocity', icon: '🚀', format: (v: number) => `${v}/sprint`, value: 84 },
-      { key: 'deploys', label: 'Deploys/Week', icon: '📦', format: (v: number) => v.toString(), value: 12 },
-      { key: 'bugRate', label: 'Bug Rate', icon: '🐛', format: (v: number) => `${v}%`, value: 2.3 },
-      { key: 'techDebt', label: 'Tech Debt', icon: '💳', format: (v: number) => `${v}%`, value: 14 },
-      { key: 'teamNPS', label: 'Team eNPS', icon: '😊', format: (v: number) => v.toString(), value: 71 },
-      { key: 'prTime', label: 'Avg PR Time', icon: '⏱️', format: (v: number) => `${v}h`, value: 4.2 },
-      { key: 'coverage', label: 'Test Coverage', icon: '✅', format: (v: number) => `${v}%`, value: 78 },
-    ],
-    'Sales': [
-      { key: 'headcount', label: 'Headcount', icon: '👥', format: (v: number) => v.toString(), value: 34 },
-      { key: 'pipeline', label: 'Pipeline', icon: '💰', format: (v: number) => `$${(v / 1000000).toFixed(1)}M`, value: 8500000 },
-      { key: 'winRate', label: 'Win Rate', icon: '🎯', format: (v: number) => `${v}%`, value: 32 },
-      { key: 'acv', label: 'Avg ACV', icon: '📈', format: (v: number) => `$${(v / 1000).toFixed(0)}K`, value: 125000 },
-      { key: 'quota', label: 'Quota Attain', icon: '🏆', format: (v: number) => `${v}%`, value: 87 },
-      { key: 'cycle', label: 'Sales Cycle', icon: '⏱️', format: (v: number) => `${v} days`, value: 45 },
-      { key: 'meetings', label: 'Meetings/Week', icon: '📅', format: (v: number) => v.toString(), value: 23 },
-      { key: 'churn', label: 'Churn Risk', icon: '⚠️', format: (v: number) => `${v}%`, value: 8 },
-    ],
-    'Marketing': [
-      { key: 'headcount', label: 'Headcount', icon: '👥', format: (v: number) => v.toString(), value: 22 },
-      { key: 'cac', label: 'CAC', icon: '💵', format: (v: number) => `$${v.toLocaleString()}`, value: 4200 },
-      { key: 'mqls', label: 'MQLs/Month', icon: '📊', format: (v: number) => v.toLocaleString(), value: 847 },
-      { key: 'conversion', label: 'MQL→SQL', icon: '🎯', format: (v: number) => `${v}%`, value: 24 },
-      { key: 'spend', label: 'Monthly Spend', icon: '💰', format: (v: number) => `$${(v / 1000).toFixed(0)}K`, value: 320000 },
-      { key: 'roi', label: 'Campaign ROI', icon: '📈', format: (v: number) => `${v}x`, value: 3.2 },
-      { key: 'traffic', label: 'Web Traffic', icon: '🌐', format: (v: number) => `${(v / 1000).toFixed(0)}K`, value: 156000 },
-      { key: 'brand', label: 'Brand Score', icon: '⭐', format: (v: number) => v.toString(), value: 72 },
-    ],
-    'Finance': [
-      { key: 'headcount', label: 'Headcount', icon: '👥', format: (v: number) => v.toString(), value: 12 },
-      { key: 'burn', label: 'Burn Rate', icon: '🔥', format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo`, value: 834000 },
-      { key: 'runway', label: 'Runway', icon: '🛫', format: (v: number) => `${v} mo`, value: 18 },
-      { key: 'ar', label: 'A/R Days', icon: '📋', format: (v: number) => `${v} days`, value: 38 },
-      { key: 'ap', label: 'A/P Days', icon: '📑', format: (v: number) => `${v} days`, value: 42 },
-      { key: 'variance', label: 'Budget Var', icon: '📊', format: (v: number) => `${v > 0 ? '+' : ''}${v}%`, value: -3.2 },
-      { key: 'cash', label: 'Cash Position', icon: '💰', format: (v: number) => `$${(v / 1000000).toFixed(1)}M`, value: 15200000 },
-      { key: 'margin', label: 'Gross Margin', icon: '📈', format: (v: number) => `${v}%`, value: 68 },
-    ],
-    'HR': [
-      { key: 'headcount', label: 'Total HC', icon: '👥', format: (v: number) => v.toString(), value: 153 },
-      { key: 'openReqs', label: 'Open Reqs', icon: '📋', format: (v: number) => v.toString(), value: 12 },
-      { key: 'attrition', label: 'Attrition', icon: '📉', format: (v: number) => `${v}%`, value: 8.5 },
-      { key: 'timeToHire', label: 'Time to Hire', icon: '⏱️', format: (v: number) => `${v} days`, value: 38 },
-      { key: 'eNPS', label: 'eNPS', icon: '😊', format: (v: number) => v.toString(), value: 42 },
-      { key: 'tenure', label: 'Avg Tenure', icon: '📅', format: (v: number) => `${v} yrs`, value: 2.4 },
-      { key: 'diversity', label: 'Diversity %', icon: '🌈', format: (v: number) => `${v}%`, value: 38 },
-      { key: 'training', label: 'Training Hrs', icon: '📚', format: (v: number) => `${v}/emp`, value: 24 },
-    ],
-  };
-
-  // Default org-wide metrics
-  const orgMetrics = [
-    { key: 'revenue', label: 'Revenue', icon: '💰', format: (v: number) => `$${(v / 1000000).toFixed(1)}M`, value: snapshot.metrics.revenue },
-    { key: 'profit', label: 'Profit', icon: '📈', format: (v: number) => `$${(v / 1000000).toFixed(1)}M`, value: snapshot.metrics.profit },
-    { key: 'employees', label: 'Employees', icon: '👥', format: (v: number) => v.toLocaleString(), value: snapshot.metrics.employees },
-    { key: 'customers', label: 'Customers', icon: '🏢', format: (v: number) => v.toLocaleString(), value: snapshot.metrics.customers },
-    { key: 'satisfaction', label: 'NPS Score', icon: '😊', format: (v: number) => `${v.toFixed(0)}`, value: snapshot.metrics.satisfaction },
-    { key: 'marketShare', label: 'Market Share', icon: '🎯', format: (v: number) => `${v.toFixed(1)}%`, value: snapshot.metrics.marketShare },
-    { key: 'burnRate', label: 'Burn Rate', icon: '🔥', format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo`, value: snapshot.metrics.burnRate },
-    { key: 'runway', label: 'Runway', icon: '🛫', format: (v: number) => `${v} months`, value: snapshot.metrics.runway },
+const MetricsGrid: React.FC<{ snapshot: StateSnapshot; mode: ChronosMode }> = ({ snapshot, mode }) => {
+  const metrics = [
+    { key: 'revenue', label: 'Revenue', icon: '💰', format: (v: number) => `$${(v / 1000000).toFixed(1)}M` },
+    { key: 'profit', label: 'Profit', icon: '📈', format: (v: number) => `$${(v / 1000000).toFixed(1)}M` },
+    { key: 'employees', label: 'Employees', icon: '👥', format: (v: number) => v.toLocaleString() },
+    { key: 'customers', label: 'Customers', icon: '🏢', format: (v: number) => v.toLocaleString() },
+    { key: 'satisfaction', label: 'NPS Score', icon: '😊', format: (v: number) => `${v.toFixed(0)}` },
+    { key: 'marketShare', label: 'Market Share', icon: '🎯', format: (v: number) => `${v.toFixed(1)}%` },
+    { key: 'burnRate', label: 'Burn Rate', icon: '🔥', format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo` },
+    { key: 'runway', label: 'Runway', icon: '🛫', format: (v: number) => `${v} months` },
   ];
 
-  const metrics = department === 'all' || !departmentMetrics[department] 
-    ? orgMetrics 
-    : departmentMetrics[department];
-
-  return (
-    <div>
-      {department !== 'all' && (
-        <div className="mb-4 px-3 py-2 bg-amber-900/30 border border-amber-700 rounded-lg text-sm text-amber-300">
-          📊 Showing {department} metrics • <button onClick={() => {}} className="underline hover:text-amber-200">Compare to Org Avg</button>
-        </div>
-      )}
-      <div className="grid grid-cols-4 gap-4">
-        {metrics.map(({ key, label, icon, format, value }) => (
-          <div key={key} className="bg-neutral-800/50 rounded-xl p-4">
-            <div className="flex items-center gap-2 text-neutral-400 text-sm mb-1">
-              <span>{icon}</span>
-              <span>{label}</span>
-            </div>
-            <div className="text-2xl font-bold">
-              {format(value)}
-            </div>
-            {mode === 'fastforward' && (
-              <div className="text-xs text-cyan-400 mt-1">Projected</div>
-            )}
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosMode }> = ({ council, mode }) => {
-  // Helper to display zeros elegantly
-  const displayValue = (value: number, suffix?: string) => {
-    if (value === 0) return <span className="text-neutral-500">—</span>;
-    return suffix ? `${value}${suffix}` : value;
-  };
-
   return (
     <div className="grid grid-cols-4 gap-4">
-      <div className="bg-neutral-800/50 rounded-xl p-4">
-        <div className="text-sm text-neutral-400 mb-1">Active Agents</div>
-        <div className="text-2xl font-bold">{council.activeAgents.length}</div>
-        <div className="text-xs text-neutral-500 mt-1 truncate">{council.activeAgents.join(', ') || '—'}</div>
-      </div>
-      <div className="bg-neutral-800/50 rounded-xl p-4">
-        <div className="text-sm text-neutral-400 mb-1">Pending Decisions</div>
-        <div className="text-2xl font-bold">
-          {council.pendingDecisions === 0 ? (
-            <span className="text-green-400">✓ 0</span>
-          ) : (
-            <span className="text-amber-400">{council.pendingDecisions}</span>
+      {metrics.map(({ key, label, icon, format }) => (
+        <div key={key} className="bg-neutral-800/50 rounded-xl p-4">
+          <div className="flex items-center gap-2 text-neutral-400 text-sm mb-1">
+            <span>{icon}</span>
+            <span>{label}</span>
+          </div>
+          <div className="text-2xl font-bold">
+            {format((snapshot.metrics as any)[key])}
+          </div>
+          {mode === 'fastforward' && (
+            <div className="text-xs text-cyan-400 mt-1">Projected</div>
           )}
         </div>
-      </div>
-      <div className="bg-neutral-800/50 rounded-xl p-4">
-        <div className="text-sm text-neutral-400 mb-1">Total Deliberations</div>
-        <div className="text-2xl font-bold">{displayValue(council.totalDeliberations)}</div>
-      </div>
-      <div className="bg-neutral-800/50 rounded-xl p-4">
-        <div className="text-sm text-neutral-400 mb-1">Consensus Rate</div>
-        <div className="text-2xl font-bold">{council.consensusRate.toFixed(0)}%</div>
-      </div>
+      ))}
     </div>
   );
 };
 
-const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }> = ({ graph, mode }) => {
-  // Format data points - show "—" if zero, otherwise format nicely
-  const formatDataPoints = (value: number) => {
-    if (value === 0) return <span className="text-neutral-500">—</span>;
-    if (value >= 1000000) return `${(value / 1000000).toFixed(1)}M`;
-    if (value >= 1000) return `${(value / 1000).toFixed(1)}K`;
-    return value.toLocaleString();
-  };
-
-  return (
-    <div className="grid grid-cols-4 gap-4">
-      <div className="bg-neutral-800/50 rounded-xl p-4">
-        <div className="text-sm text-neutral-400 mb-1">Entities</div>
-        <div className="text-2xl font-bold">{graph.entities.toLocaleString()}</div>
-      </div>
-      <div className="bg-neutral-800/50 rounded-xl p-4">
-        <div className="text-sm text-neutral-400 mb-1">Relationships</div>
-        <div className="text-2xl font-bold">{graph.relationships.toLocaleString()}</div>
-      </div>
-      <div className="bg-neutral-800/50 rounded-xl p-4">
-        <div className="text-sm text-neutral-400 mb-1">Data Points</div>
-        <div className="text-2xl font-bold">{formatDataPoints(graph.dataPoints)}</div>
-      </div>
-      <div className="bg-neutral-800/50 rounded-xl p-4">
-        <div className="text-sm text-neutral-400 mb-1">Freshness</div>
-        <div className="text-2xl font-bold text-green-400">{graph.freshness.toFixed(0)}%</div>
-      </div>
+const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosMode }> = ({ council, mode }) => (
+  <div className="grid grid-cols-4 gap-4">
+    <div className="bg-neutral-800/50 rounded-xl p-4">
+      <div className="text-sm text-neutral-400 mb-1">Active Agents</div>
+      <div className="text-2xl font-bold">{council.activeAgents.length}</div>
+      <div className="text-xs text-neutral-500 mt-1">{council.activeAgents.join(', ')}</div>
     </div>
-  );
-};
+    <div className="bg-neutral-800/50 rounded-xl p-4">
+      <div className="text-sm text-neutral-400 mb-1">Pending Decisions</div>
+      <div className="text-2xl font-bold">{council.pendingDecisions}</div>
+    </div>
+    <div className="bg-neutral-800/50 rounded-xl p-4">
+      <div className="text-sm text-neutral-400 mb-1">Total Deliberations</div>
+      <div className="text-2xl font-bold">{council.totalDeliberations === 0 ? '—' : council.totalDeliberations}</div>
+    </div>
+    <div className="bg-neutral-800/50 rounded-xl p-4">
+      <div className="text-sm text-neutral-400 mb-1">Consensus Rate</div>
+      <div className="text-2xl font-bold">{council.consensusRate.toFixed(0)}%</div>
+    </div>
+  </div>
+);
+
+const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }> = ({ graph, mode }) => (
+  <div className="grid grid-cols-4 gap-4">
+    <div className="bg-neutral-800/50 rounded-xl p-4">
+      <div className="text-sm text-neutral-400 mb-1">Entities</div>
+      <div className="text-2xl font-bold">{graph.entities.toLocaleString()}</div>
+    </div>
+    <div className="bg-neutral-800/50 rounded-xl p-4">
+      <div className="text-sm text-neutral-400 mb-1">Relationships</div>
+      <div className="text-2xl font-bold">{graph.relationships.toLocaleString()}</div>
+    </div>
+    <div className="bg-neutral-800/50 rounded-xl p-4">
+      <div className="text-sm text-neutral-400 mb-1">Data Points</div>
+      <div className="text-2xl font-bold">{graph.dataPoints === 0 ? '—' : `${(graph.dataPoints / 1000000).toFixed(1)}M`}</div>
+    </div>
+    <div className="bg-neutral-800/50 rounded-xl p-4">
+      <div className="text-sm text-neutral-400 mb-1">Freshness</div>
+      <div className="text-2xl font-bold">{graph.freshness.toFixed(0)}%</div>
+    </div>
+  </div>
+);
 
 const EventsList: React.FC<{
   events: TimelineEvent[];
@@ -3283,19 +2980,13 @@ const EventsList: React.FC<{
     }
   };
 
-  // Severity indicator based on impact and magnitude
-  const getSeverityBadge = (event: TimelineEvent) => {
-    const magnitude = event.magnitude || 5;
-    if (event.impact === 'negative' && magnitude >= 8) {
-      return <span className="text-xs px-1.5 py-0.5 rounded bg-red-900 text-red-300">🔴 Critical</span>;
+  const getSeverityIcon = (impact: TimelineEvent['impact']) => {
+    switch (impact) {
+      case 'negative': return '🔴';
+      case 'neutral': return '🟡';
+      case 'positive': return '🟢';
+      default: return '⚪';
     }
-    if (event.impact === 'negative' && magnitude >= 5) {
-      return <span className="text-xs px-1.5 py-0.5 rounded bg-amber-900 text-amber-300">🟠 High</span>;
-    }
-    if (event.impact === 'positive' && magnitude >= 8) {
-      return <span className="text-xs px-1.5 py-0.5 rounded bg-green-900 text-green-300">🟢 Major</span>;
-    }
-    return null;
   };
 
   return (
@@ -3315,14 +3006,14 @@ const EventsList: React.FC<{
             }`}
           >
             <div className="flex items-start gap-3">
-              <span className="text-lg">{getTypeIcon(event.type)}</span>
+              <span className="text-lg flex items-center gap-1">
+                <span aria-hidden>{getSeverityIcon(event.impact)}</span>
+                <span>{getTypeIcon(event.type)}</span>
+              </span>
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-0.5">
-                  <p className="font-medium text-sm truncate">{event.title}</p>
-                  {getSeverityBadge(event)}
-                </div>
+                <p className="font-medium text-sm truncate">{event.title}</p>
                 <p className="text-xs text-neutral-500">
-                  {event.timestamp.toLocaleDateString()} • {event.department || 'Organization'}
+                  {event.timestamp.toLocaleDateString()} • {event.department}
                 </p>
               </div>
               {event.deliberationId && (
@@ -3977,14 +3668,14 @@ const PivotalMomentsPanel: React.FC<{
   onJumpTo: (date: Date) => void;
   onStartImpactTrace: (event: TimelineEvent) => void;
 }> = ({ moments, onJumpTo, onStartImpactTrace }) => {
-  // Convert significance score to human-readable label
-  const getSignificanceLabel = (significance: number) => {
-    // Cap at 100 for display purposes
-    const cappedValue = Math.min(significance, 100);
-    if (cappedValue >= 90) return { label: 'Critical', color: 'bg-red-900 text-red-300', icon: '🔴' };
-    if (cappedValue >= 70) return { label: 'High', color: 'bg-amber-900 text-amber-300', icon: '🟠' };
-    if (cappedValue >= 50) return { label: 'Medium', color: 'bg-yellow-900 text-yellow-300', icon: '🟡' };
-    return { label: 'Notable', color: 'bg-neutral-700 text-neutral-300', icon: '🔵' };
+  const getSeverityMeta = (significance: number) => {
+    if (significance >= 80) {
+      return { label: 'HIGH', badgeClass: 'bg-red-900 text-red-300', icon: '🔴' };
+    }
+    if (significance >= 60) {
+      return { label: 'MEDIUM', badgeClass: 'bg-amber-900 text-amber-300', icon: '🟠' };
+    }
+    return { label: 'NOTABLE', badgeClass: 'bg-yellow-900 text-yellow-300', icon: '🟡' };
   };
 
   return (
@@ -3994,17 +3685,19 @@ const PivotalMomentsPanel: React.FC<{
       </h3>
       <div className="space-y-2 max-h-64 overflow-y-auto">
         {moments.map(moment => {
-          const sig = getSignificanceLabel(moment.significance);
+          const { label, badgeClass, icon } = getSeverityMeta(moment.significance);
           return (
             <div
               key={moment.id}
               className="p-3 bg-neutral-800/50 rounded-lg hover:bg-neutral-800 transition-colors"
             >
               <div className="flex items-center justify-between mb-1">
-                <span className="font-medium text-sm">{moment.event.title}</span>
-                <span className={`text-xs px-2 py-0.5 rounded-full flex items-center gap-1 ${sig.color}`}>
-                  <span>{sig.icon}</span>
-                  <span>{sig.label}</span>
+                <div className="flex items-center gap-2">
+                  <span className="text-sm" aria-hidden>{icon}</span>
+                  <span className="font-medium text-sm">{moment.event.title}</span>
+                </div>
+                <span className={`text-xs px-2 py-0.5 rounded-full ${badgeClass}`}>
+                  {label}
                 </span>
               </div>
               <p className="text-xs text-neutral-500 mb-2">{moment.reason}</p>
@@ -4784,4 +4477,3 @@ const ERPPanel: React.FC<{
   );
 };
 
-export default ChronosPage;

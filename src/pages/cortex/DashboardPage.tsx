@@ -144,11 +144,11 @@ export const DashboardPage: React.FC = () => {
         // Fetch alerts
         const alertsResponse = await alertsApi.getAlerts({ status: 'ACTIVE' });
         if (alertsResponse.success && alertsResponse.data) {
-          const mappedAlerts: Alert[] = alertsResponse.data.slice(0, 5).map((a: any) => ({
+          const mappedAlerts: Alert[] = alertsResponse.data.slice(0, 5).map((a: ApiAlert) => ({
             id: a.id,
-            severity: a.severity?.toLowerCase() as 'critical' | 'warning' | 'info',
+            severity: a.severity,
             title: a.title,
-            timestamp: new Date(a.created_at)
+            timestamp: new Date(a.createdAt)
           }));
           setAlerts(mappedAlerts.length > 0 ? mappedAlerts : fallbackAlerts);
         }

@@ -1,6 +1,8 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database.js';
+import { Prisma } from '@prisma/client';
+import crypto from 'crypto';
 import { cache } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
@@ -205,21 +207,31 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
 
     const metric = await prisma.metric_definitions.create({
       data: {
-        ...data,
+        id: crypto.randomUUID(),
         organization_id: orgId,
+        name: data.name,
+        code: data.code,
+        description: data.description,
+        formula: data.formula as Prisma.InputJsonValue,
+        unit: data.unit,
+        category: data.category,
+        thresholds: (data.thresholds ?? {}) as Prisma.InputJsonValue,
+        refresh_schedule: data.refreshSchedule,
         owner_id: userId,
+        updated_at: new Date(),
       },
     });
 
     // Audit log
     await prisma.audit_logs.create({
       data: {
+        id: crypto.randomUUID(),
         organization_id: orgId,
         user_id: userId,
         action: 'metric.create',
         resource_type: 'metric',
         resource_id: metric.id,
-        details: { name: metric.name, code: metric.code },
+        details: { name: metric.name, code: metric.code } as Prisma.InputJsonValue,
       },
     });
 

@@ -4,12 +4,32 @@ import { config } from '../config/index.js';
 import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { errors } from './errorHandler.js';
-import { User, Organization } from '@prisma/client';
+
+interface AuthOrganization {
+  id: string;
+  name: string;
+  slug: string;
+  [key: string]: any;
+}
+
+interface AuthUser {
+  id: string;
+  email: string;
+  name: string;
+  role: string;
+  status: string;
+  organizationId: string;
+  createdAt: Date | null;
+  updatedAt: Date | null;
+  organization: AuthOrganization;
+  preferences?: any;
+  [key: string]: any;
+}
 
 declare global {
   namespace Express {
     interface Request {
-      user?: User & { organization: Organization };
+      user?: AuthUser;
       organizationId?: string;
     }
   }
@@ -54,20 +74,31 @@ export const authenticate = async (
 
     // Try to get user from cache
     const cacheKey = `user:${payload.sub}`;
-    let user = await cache.get<User & { organization: Organization }>(cacheKey);
+    let user = await cache.get<AuthUser>(cacheKey);
 
     if (!user) {
       // Fetch from database
-      const dbUser = await prisma.user.findUnique({
+      const dbUser = await prisma.users.findUnique({
         where: { id: payload.sub },
-        include: { organization: true },
+        include: { organizations: true },
       });
 
-      if (!dbUser || dbUser.status !== 'ACTIVE' || dbUser.deletedAt) {
+      if (!dbUser || dbUser.status !== 'ACTIVE' || dbUser.deleted_at) {
         throw errors.unauthorized('User not found or inactive');
       }
 
-      user = dbUser;
+      user = {
+        id: dbUser.id,
+        email: dbUser.email,
+        name: dbUser.name,
+        role: dbUser.role,
+        status: dbUser.status,
+        organizationId: dbUser.organization_id,
+        createdAt: dbUser.created_at,
+        updatedAt: dbUser.updated_at,
+        organization: dbUser.organizations as AuthOrganization,
+        preferences: dbUser.preferences,
+      };
       
       // Cache for 5 minutes
       await cache.set(cacheKey, user, 300);
@@ -142,6 +173,7 @@ export const devAuth = async (
         createdAt: adminUser.created_at,
         updatedAt: adminUser.updated_at,
         organization: adminUser.organizations,
+        preferences: adminUser.preferences,
       } as any;
       req.organizationId = adminUser.organization_id;
     } else {
@@ -183,6 +215,7 @@ export const devAuth = async (
         createdAt: demoUser.created_at,
         updatedAt: demoUser.updated_at,
         organization: demoOrg,
+        preferences: demoUser.preferences,
       } as any;
       req.organizationId = demoOrg.id;
     }

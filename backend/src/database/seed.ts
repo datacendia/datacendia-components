@@ -1,5 +1,6 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, Prisma } from '@prisma/client';
 import bcrypt from 'bcryptjs';
+import crypto from 'crypto';
 
 const prisma = new PrismaClient();
 
@@ -141,33 +142,36 @@ async function main() {
   // Create AI Agents
   console.log('Creating AI Agents (The Pantheon)...');
   for (const agent of agents) {
-    await prisma.agent.upsert({
+    await prisma.agents.upsert({
       where: { code: agent.code },
       update: {
         name: agent.name,
         role: agent.role,
         description: agent.description,
-        avatarUrl: agent.avatarUrl,
-        systemPrompt: agent.systemPrompt,
-        capabilities: agent.capabilities,
-        constraints: agent.constraints,
-        isActive: true,
+        avatar_url: agent.avatarUrl,
+        system_prompt: agent.systemPrompt,
+        capabilities: agent.capabilities as Prisma.InputJsonValue,
+        constraints: agent.constraints as Prisma.InputJsonValue,
+        is_active: true,
+        updated_at: new Date(),
       },
       create: {
+        id: crypto.randomUUID(),
         code: agent.code,
         name: agent.name,
         role: agent.role,
         description: agent.description,
-        avatarUrl: agent.avatarUrl,
-        systemPrompt: agent.systemPrompt,
-        capabilities: agent.capabilities,
-        constraints: agent.constraints,
-        modelConfig: {
+        avatar_url: agent.avatarUrl,
+        system_prompt: agent.systemPrompt,
+        capabilities: agent.capabilities as Prisma.InputJsonValue,
+        constraints: agent.constraints as Prisma.InputJsonValue,
+        model_config: {
           model: 'llama2',
           temperature: 0.7,
           max_tokens: 1000,
-        },
-        isActive: true,
+        } as Prisma.InputJsonValue,
+        is_active: true,
+        updated_at: new Date(),
       },
     });
     console.log(`  ✓ ${agent.name}`);
@@ -175,19 +179,21 @@ async function main() {
 
   // Create demo organization and user
   console.log('\nCreating demo organization...');
-  const org = await prisma.organization.upsert({
+  const org = await prisma.organizations.upsert({
     where: { slug: 'datacendia-demo' },
     update: {},
     create: {
+      id: crypto.randomUUID(),
       name: 'Datacendia Demo',
       slug: 'datacendia-demo',
       industry: 'Technology',
-      companySize: '51-200',
+      company_size: '51-200',
       settings: {
         timezone: 'America/New_York',
         dateFormat: 'MM/DD/YYYY',
         currency: 'USD',
-      },
+      } as Prisma.InputJsonValue,
+      updated_at: new Date(),
     },
   });
   console.log(`  ✓ Organization: ${org.name}`);
@@ -195,20 +201,22 @@ async function main() {
   // Create demo user
   console.log('\nCreating demo user...');
   const passwordHash = await bcrypt.hash('demo123456', 12);
-  const user = await prisma.user.upsert({
+  const user = await prisma.users.upsert({
     where: { email: 'demo@datacendia.com' },
     update: {},
     create: {
+      id: crypto.randomUUID(),
+      organization_id: org.id,
       email: 'demo@datacendia.com',
-      passwordHash,
+      password_hash: passwordHash,
       name: 'Demo User',
-      organizationId: org.id,
       role: 'ADMIN',
       status: 'ACTIVE',
       preferences: {
         theme: 'light',
         notifications: true,
-      },
+      } as Prisma.InputJsonValue,
+      updated_at: new Date(),
     },
   });
   console.log(`  ✓ User: ${user.email} (password: demo123456)`);
@@ -225,17 +233,19 @@ async function main() {
   ];
 
   for (const metric of metrics) {
-    await prisma.metricDefinition.upsert({
-      where: { organizationId_code: { organizationId: org.id, code: metric.code } },
+    await prisma.metric_definitions.upsert({
+      where: { organization_id_code: { organization_id: org.id, code: metric.code } },
       update: {},
       create: {
-        organizationId: org.id,
-        code: metric.code,
+        id: crypto.randomUUID(),
+        organization_id: org.id,
         name: metric.name,
+        code: metric.code,
         unit: metric.unit,
         category: metric.category,
-        formula: { type: 'expression', expression: metric.code },
-        ownerId: user.id,
+        formula: { type: 'expression', expression: metric.code } as Prisma.InputJsonValue,
+        owner_id: user.id,
+        updated_at: new Date(),
       },
     });
     console.log(`  ✓ Metric: ${metric.name}`);
@@ -243,18 +253,19 @@ async function main() {
 
   // Create initial health score
   console.log('\nCreating initial health score...');
-  await prisma.healthScore.create({
+  await prisma.health_scores.create({
     data: {
-      organizationId: org.id,
+      id: crypto.randomUUID(),
+      organization_id: org.id,
       overall: 82,
-      dataScore: 94,
-      opsScore: 78,
-      securityScore: 85,
-      peopleScore: 71,
-      calculatedAt: new Date(),
+      data_score: 94,
+      ops_score: 78,
+      security_score: 85,
+      people_score: 71,
+      calculated_at: new Date(),
       details: {
         lastCalculation: new Date().toISOString(),
-      },
+      } as Prisma.InputJsonValue,
     },
   });
   console.log('  ✓ Health score initialized');

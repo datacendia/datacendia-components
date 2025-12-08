@@ -14,6 +14,7 @@ import CommandPalette from '../components/CommandPalette';
 import SEO from '../components/SEO';
 import { Logo, LogoSimple } from '../components/brand/Logo';
 import { SimpleTooltip } from '../components/ui';
+import { useAuth } from '../contexts';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
 const Icons = {
@@ -189,9 +190,11 @@ const CortexLayoutInner: React.FC = () => {
   const [isPremiumDropdownOpen, setIsPremiumDropdownOpen] = useState(false);
   const [isEnterpriseDropdownOpen, setIsEnterpriseDropdownOpen] = useState(false);
   const [isSovereignDropdownOpen, setIsSovereignDropdownOpen] = useState(false);
+  const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const { t } = useLanguage();
+  const { user, logout } = useAuth();
 
   const isActive = (path: string) => {
     if (path === '/cortex/dashboard') {
@@ -201,6 +204,10 @@ const CortexLayoutInner: React.FC = () => {
   };
 
   const currentPage = getCurrentPage(location.pathname);
+
+  const userInitials = user?.name
+    ? user.name.split(' ').map(part => part[0]).join('').slice(0, 2).toUpperCase()
+    : 'JS';
 
   return (
     <DataSourceProvider>
@@ -647,15 +654,53 @@ const CortexLayoutInner: React.FC = () => {
             </button>
 
             {/* User menu */}
-            <button 
-              aria-label="User menu"
-              className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-neutral-100"
-            >
-              <div className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
-                <span className="text-primary-700 font-medium text-sm">JS</span>
-              </div>
-              <span className="hidden sm:block text-sm font-medium text-neutral-700">John</span>
-            </button>
+            <div className="relative">
+              <button 
+                aria-label="User menu"
+                onClick={() => setIsUserMenuOpen(prev => !prev)}
+                className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-neutral-100"
+              >
+                <div className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
+                  <span className="text-primary-700 font-medium text-sm">{userInitials}</span>
+                </div>
+                <span className="hidden sm:block text-sm font-medium text-neutral-700">
+                  {user?.name || 'John'}
+                </span>
+              </button>
+
+              {isUserMenuOpen && (
+                <>
+                  <div className="fixed inset-0 z-40" onClick={() => setIsUserMenuOpen(false)} />
+                  <div className="absolute right-0 mt-2 w-56 bg-white rounded-xl shadow-xl border border-neutral-200 z-50 overflow-hidden">
+                    <div className="p-4 border-b border-neutral-100">
+                      <p className="text-sm font-semibold text-neutral-900">{user?.name || 'John Smith'}</p>
+                      <p className="text-xs text-neutral-500 truncate">{user?.email || 'john@datacendia.com'}</p>
+                    </div>
+                    <div className="py-1">
+                      <button
+                        onClick={() => {
+                          navigate('/cortex/settings');
+                          setIsUserMenuOpen(false);
+                        }}
+                        className="w-full flex items-center gap-2 px-4 py-2 text-sm text-neutral-600 hover:bg-neutral-50"
+                      >
+                        ⚙️ <span>View Settings</span>
+                      </button>
+                      <button
+                        onClick={async () => {
+                          setIsUserMenuOpen(false);
+                          await logout();
+                          navigate('/login');
+                        }}
+                        className="w-full flex items-center gap-2 px-4 py-2 text-sm text-red-600 hover:bg-red-50"
+                      >
+                        ⎋ <span>Log out</span>
+                      </button>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
           </div>
         </header>
 

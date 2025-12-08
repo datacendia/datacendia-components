@@ -8,6 +8,9 @@
 const API_BASE_URL = import.meta.env.VITE_API_URL || 
   (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
 
+// Header used to propagate the currently selected data source
+const DATA_SOURCE_HEADER = 'X-Data-Source-Id';
+
 // Types
 export interface ApiResponse<T> {
   success: boolean;
@@ -132,6 +135,32 @@ class TokenManager {
 
 export const tokenManager = new TokenManager();
 
+// Selected data source tracking
+let currentDataSourceId: string | null = null;
+
+export function setCurrentDataSourceId(id: string | null): void {
+  currentDataSourceId = id;
+  if (typeof window !== 'undefined') {
+    if (id) {
+      localStorage.setItem('dc_selected_data_source_id', id);
+    } else {
+      localStorage.removeItem('dc_selected_data_source_id');
+    }
+  }
+}
+
+function getCurrentDataSourceId(): string | null {
+  if (currentDataSourceId !== null) {
+    return currentDataSourceId;
+  }
+  if (typeof window !== 'undefined') {
+    const stored = localStorage.getItem('dc_selected_data_source_id');
+    currentDataSourceId = stored;
+    return stored;
+  }
+  return null;
+}
+
 // API Client
 class ApiClient {
   private baseUrl: string;
@@ -154,6 +183,11 @@ class ApiClient {
     const accessToken = tokenManager.getAccessToken();
     if (accessToken) {
       headers['Authorization'] = `Bearer ${accessToken}`;
+    }
+
+    const dataSourceId = getCurrentDataSourceId();
+    if (dataSourceId && !headers[DATA_SOURCE_HEADER]) {
+      headers[DATA_SOURCE_HEADER] = dataSourceId;
     }
 
     try {

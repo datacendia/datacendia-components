@@ -5,7 +5,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
-import { metricsApi, healthApi, alertsApi } from '../../../lib/api';
+import { api } from '../../../lib/api';
 
 // =============================================================================
 // SHARED COMPONENTS
@@ -92,10 +92,9 @@ export const HelmPage: React.FC = () => {
     const loadHelmData = async () => {
       try {
         setIsLoading(true);
-        const res = await fetch('/api/v1/pillars/helm/dashboard?organizationId=demo');
-        const data = await res.json();
-        if (data.success) {
-          setDashboard(data.data);
+        const res = await api.get<HelmDashboard>('/pillars/helm/dashboard', { organizationId: 'demo' });
+        if (res.success && res.data) {
+          setDashboard(res.data);
         }
       } catch (err) {
         console.error('Failed to load helm data:', err);
@@ -221,15 +220,12 @@ export const LineagePage: React.FC = () => {
       try {
         setIsLoading(true);
         const [entitiesRes, qualityRes] = await Promise.all([
-          fetch('/api/v1/pillars/lineage/entities?organizationId=demo'),
-          fetch('/api/v1/pillars/lineage/quality?organizationId=demo'),
+          api.get<LineageEntity[]>('/pillars/lineage/entities', { organizationId: 'demo' }),
+          api.get<QualityOverview>('/pillars/lineage/quality', { organizationId: 'demo' }),
         ]);
-        
-        const entitiesData = await entitiesRes.json();
-        const qualityData = await qualityRes.json();
-        
-        if (entitiesData.success) {setEntities(entitiesData.data || []);}
-        if (qualityData.success) {setQualityOverview(qualityData.data);}
+
+        if (entitiesRes.success && entitiesRes.data) {setEntities(entitiesRes.data || []);}
+        if (qualityRes.success && qualityRes.data) {setQualityOverview(qualityRes.data);}
       } catch (err) {
         console.error('Failed to load lineage data:', err);
       } finally {
@@ -361,21 +357,12 @@ export const PredictPage: React.FC = () => {
       try {
         setIsLoading(true);
         const [modelsRes, insightsRes] = await Promise.all([
-          fetch('/api/v1/pillars/predict/models?organizationId=demo'),
-          fetch('/api/v1/pillars/predict/insights?organizationId=demo'),
+          api.get<PredictModel[]>('/pillars/predict/models', { organizationId: 'demo' }),
+          api.get<{ features: PredictInsight[] }>('/pillars/predict/insights', { organizationId: 'demo' }),
         ]);
-        
-        // Safely parse JSON - handle empty responses
-        const parseJson = async (res: Response) => {
-          const text = await res.text();
-          return text ? JSON.parse(text) : { success: false, data: null };
-        };
-        
-        const modelsData = await parseJson(modelsRes);
-        const insightsData = await parseJson(insightsRes);
-        
-        if (modelsData.success) {setModels(modelsData.data || []);}
-        if (insightsData.success) {setInsights(insightsData.data?.features || []);}
+
+        if (modelsRes.success && modelsRes.data) {setModels(modelsRes.data || []);}
+        if (insightsRes.success && insightsRes.data) {setInsights(insightsRes.data.features || []);}
       } catch (err) {
         console.error('Failed to load predict data:', err);
         // Use demo data when API is unavailable
@@ -506,15 +493,12 @@ export const FlowPage: React.FC = () => {
       try {
         setIsLoading(true);
         const [statsRes, execRes] = await Promise.all([
-          fetch('/api/v1/pillars/flow/stats?organizationId=demo'),
-          fetch('/api/v1/pillars/flow/executions?organizationId=demo&limit=10'),
+          api.get<FlowStats>('/pillars/flow/stats', { organizationId: 'demo' }),
+          api.get<FlowExecution[]>('/pillars/flow/executions', { organizationId: 'demo', limit: 10 }),
         ]);
-        
-        const statsData = await statsRes.json();
-        const execData = await execRes.json();
-        
-        if (statsData.success) {setStats(statsData.data);}
-        if (execData.success) {setExecutions(execData.data || []);}
+
+        if (statsRes.success && statsRes.data) {setStats(statsRes.data);}
+        if (execRes.success && execRes.data) {setExecutions(execRes.data || []);}
       } catch (err) {
         console.error('Failed to load flow data:', err);
       } finally {
@@ -645,15 +629,12 @@ export const HealthPage: React.FC = () => {
       try {
         setIsLoading(true);
         const [healthRes, alertsRes] = await Promise.all([
-          fetch('/api/v1/pillars/health/status?organizationId=demo'),
-          fetch('/api/v1/pillars/health/alerts?organizationId=demo'),
+          api.get<SystemHealth>('/pillars/health/status', { organizationId: 'demo' }),
+          api.get<HealthAlert[]>('/pillars/health/alerts', { organizationId: 'demo' }),
         ]);
-        
-        const healthData = await healthRes.json();
-        const alertsData = await alertsRes.json();
-        
-        if (healthData.success) {setHealth(healthData.data);}
-        if (alertsData.success) {setAlerts(alertsData.data || []);}
+
+        if (healthRes.success && healthRes.data) {setHealth(healthRes.data);}
+        if (alertsRes.success && alertsRes.data) {setAlerts(alertsRes.data || []);}
       } catch (err) {
         console.error('Failed to load health data:', err);
       } finally {
@@ -799,19 +780,16 @@ export const GuardPage: React.FC = () => {
         
         // Fetch security posture and threats from backend
         const [postureRes, threatsRes] = await Promise.all([
-          fetch('/api/v1/pillars/guard/posture?organizationId=demo'),
-          fetch('/api/v1/pillars/guard/threats?organizationId=demo'),
+          api.get<SecurityPosture>('/pillars/guard/posture', { organizationId: 'demo' }),
+          api.get<SecurityThreat[]>('/pillars/guard/threats', { organizationId: 'demo' }),
         ]);
-        
-        const postureData = await postureRes.json();
-        const threatsData = await threatsRes.json();
-        
-        if (postureData.success && postureData.data) {
-          setPosture(postureData.data);
+
+        if (postureRes.success && postureRes.data) {
+          setPosture(postureRes.data);
         }
         
-        if (threatsData.success && threatsData.data) {
-          setThreats(threatsData.data);
+        if (threatsRes.success && threatsRes.data) {
+          setThreats(threatsRes.data);
         }
       } catch (err) {
         console.error('Failed to load security data:', err);
@@ -997,18 +975,14 @@ export const EthicsPage: React.FC = () => {
       try {
         setIsLoading(true);
         const [statsRes, principlesRes, reviewsRes] = await Promise.all([
-          fetch('/api/v1/pillars/ethics/stats?organizationId=demo'),
-          fetch('/api/v1/pillars/ethics/principles?organizationId=demo'),
-          fetch('/api/v1/pillars/ethics/reviews?organizationId=demo'),
+          api.get<EthicsStats>('/pillars/ethics/stats', { organizationId: 'demo' }),
+          api.get<EthicsPrinciple[]>('/pillars/ethics/principles', { organizationId: 'demo' }),
+          api.get<EthicsReview[]>('/pillars/ethics/reviews', { organizationId: 'demo' }),
         ]);
-        
-        const statsData = await statsRes.json();
-        const principlesData = await principlesRes.json();
-        const reviewsData = await reviewsRes.json();
-        
-        if (statsData.success) {setStats(statsData.data);}
-        if (principlesData.success) {setPrinciples(principlesData.data || []);}
-        if (reviewsData.success) {setReviews(reviewsData.data || []);}
+
+        if (statsRes.success && statsRes.data) {setStats(statsRes.data);}
+        if (principlesRes.success && principlesRes.data) {setPrinciples(principlesRes.data || []);}
+        if (reviewsRes.success && reviewsRes.data) {setReviews(reviewsRes.data || []);}
       } catch (err) {
         console.error('Failed to load ethics data:', err);
       } finally {
@@ -1133,15 +1107,12 @@ export const AgentsPage: React.FC = () => {
       try {
         setIsLoading(true);
         const [statsRes, agentsRes] = await Promise.all([
-          fetch('/api/v1/pillars/agents/stats?organizationId=demo'),
-          fetch('/api/v1/pillars/agents?organizationId=demo'),
+          api.get<AgentStats>('/pillars/agents/stats', { organizationId: 'demo' }),
+          api.get<Agent[]>('/pillars/agents', { organizationId: 'demo' }),
         ]);
-        
-        const statsData = await statsRes.json();
-        const agentsData = await agentsRes.json();
-        
-        if (statsData.success) {setStats(statsData.data);}
-        if (agentsData.success) {setAgents(agentsData.data || []);}
+
+        if (statsRes.success && statsRes.data) {setStats(statsRes.data);}
+        if (agentsRes.success && agentsRes.data) {setAgents(agentsRes.data || []);}
       } catch (err) {
         console.error('Failed to load agents data:', err);
       } finally {

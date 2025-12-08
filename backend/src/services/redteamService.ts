@@ -8,7 +8,7 @@
 
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
-import { ollamaService } from './ollamaService.js';
+import ollama from './ollama.js';
 import crypto from 'crypto';
 
 // =============================================================================
@@ -162,14 +162,12 @@ class RedTeamService {
       });
 
       // Fetch all policies and veto rules
-      const policies = await prisma.policies.findMany({
-        where: { organization_id: organizationId, is_active: true },
+      const policies = await prisma.security_policies.findMany({
+        where: { organization_id: organizationId, enabled: true },
       });
 
-      // Fetch agents and their configurations
-      const agents = await prisma.agents.findMany({
-        where: { organization_id: organizationId },
-      });
+      // Fetch agents and their configurations (global agents)
+      const agents = await prisma.agents.findMany();
 
       // Run Monte-Carlo simulations
       const vulnerabilities: ExploitPath[] = [];
@@ -411,7 +409,7 @@ class RedTeamService {
       description: v.description,
       attackVector: v.attack_vector as any,
       targetSystem: v.target_system,
-      steps: v.steps as AttackStep[],
+      steps: v.steps as unknown as AttackStep[],
       damageEstimate: v.damage_estimate as any,
       probabilityOfSuccess: v.probability_of_success?.toNumber() || 0,
       detectionDifficulty: v.detection_difficulty?.toNumber() || 50,
@@ -538,7 +536,7 @@ class RedTeamService {
     organizationId: string
   ): Promise<ExploitPath | null> {
     // Use AI to generate realistic attack paths
-    const isOllamaAvailable = await ollamaService.checkAvailability();
+    const isOllamaAvailable = await ollama.isAvailable();
 
     if (isOllamaAvailable) {
       const prompt = `You are a security red team expert. Generate a realistic attack path.
@@ -562,7 +560,7 @@ Generate a JSON attack path with:
 Respond with only valid JSON.`;
 
       try {
-        const response = await ollamaService.chat([{ role: 'user', content: prompt }]);
+        const response = await ollama.chat([{ role: 'user', content: prompt }]);
         const attackPath = JSON.parse(response.content);
         attackPath.id = crypto.randomUUID();
         attackPath.status = 'active';
@@ -638,13 +636,11 @@ Respond with only valid JSON.`;
 
   private async calculateSecurityBreakdown(organizationId: string): Promise<RedTeamScore['breakdown']> {
     // Analyze organization's security posture
-    const policies = await prisma.policies.count({
-      where: { organization_id: organizationId, is_active: true },
+    const policies = await prisma.security_policies.count({
+      where: { organization_id: organizationId, enabled: true },
     });
 
-    const agents = await prisma.agents.count({
-      where: { organization_id: organizationId },
-    });
+    const agents = await prisma.agents.count();
 
     const vulns = await prisma.redteam_vulnerabilities.count({
       where: { organization_id: organizationId, status: 'active' },

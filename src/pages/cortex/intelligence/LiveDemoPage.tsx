@@ -5,6 +5,7 @@
 
 import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
+import { api } from '../../../lib/api';
 
 const CONNECTORS = [
   { id: 'salesforce', name: 'Salesforce', icon: '☁️', color: 'bg-blue-500' },
@@ -39,17 +40,16 @@ export const LiveDemoPage: React.FC = () => {
     
     setIsConnecting(true);
     try {
-      const response = await fetch('/api/v1/premium/live-demo/session', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ connector: selectedConnector, tier: 'enterprise' }),
+      const res = await api.post<any>('/premium/live-demo/session', {
+        connector: selectedConnector,
+        tier: 'enterprise',
       });
-      const data = await response.json();
+      const payload = res as any;
       
-      if (data.success) {
-        setSession(data.session);
+      if (payload.success && payload.session) {
+        setSession(payload.session as Session);
         // Simulate OAuth callback after 2s for demo
-        setTimeout(() => simulateConnection(data.session.id), 2000);
+        setTimeout(() => simulateConnection(payload.session.id), 2000);
       }
     } catch (err) {
       console.error('Failed to start session:', err);
@@ -58,15 +58,14 @@ export const LiveDemoPage: React.FC = () => {
 
   const simulateConnection = async (sessionId: string) => {
     try {
-      const response = await fetch('/api/v1/premium/live-demo/connect', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ sessionId, authCode: 'demo-auth-code' }),
+      const res = await api.post<any>('/premium/live-demo/connect', {
+        sessionId,
+        authCode: 'demo-auth-code',
       });
-      const data = await response.json();
+      const payload = res as any;
       
-      if (data.success) {
-        setSession(data.session);
+      if (payload.success && payload.session) {
+        setSession(payload.session as Session);
         setIsConnecting(false);
       }
     } catch (err) {
@@ -80,19 +79,15 @@ export const LiveDemoPage: React.FC = () => {
     
     setIsDeliberating(true);
     try {
-      const response = await fetch('/api/v1/premium/live-demo/deliberate', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          connector: selectedConnector,
-          question,
-          tier: 'enterprise',
-        }),
+      const res = await api.post<any>('/premium/live-demo/deliberate', {
+        connector: selectedConnector,
+        question,
+        tier: 'enterprise',
       });
-      const data = await response.json();
+      const payload = res as any;
       
-      if (data.success) {
-        setDeliberationResult(data.result);
+      if (payload.success && payload.result) {
+        setDeliberationResult(payload.result);
       }
     } catch (err) {
       console.error('Deliberation failed:', err);

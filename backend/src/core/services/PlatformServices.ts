@@ -242,7 +242,7 @@ class FlowService extends BaseService {
   async healthCheck(): Promise<ServiceHealth> {
     const start = Date.now();
     try {
-      const count = await prisma.workflow.count();
+      const count = await prisma.workflows.count();
       return {
         status: 'healthy',
         lastCheck: new Date(),
@@ -313,7 +313,7 @@ class BridgeService extends BaseService {
   async healthCheck(): Promise<ServiceHealth> {
     const start = Date.now();
     try {
-      const count = await prisma.dataSource.count({ where: { status: 'CONNECTED' } });
+      const count = await prisma.data_sources.count({ where: { status: 'CONNECTED' } });
       return {
         status: 'healthy',
         lastCheck: new Date(),
@@ -354,7 +354,7 @@ class PulseService extends BaseService {
   async healthCheck(): Promise<ServiceHealth> {
     const start = Date.now();
     try {
-      const activeAlerts = await prisma.alert.count({ where: { status: 'ACTIVE' } });
+      const activeAlerts = await prisma.alerts.count({ where: { status: 'ACTIVE' } });
       return {
         status: 'healthy',
         lastCheck: new Date(),

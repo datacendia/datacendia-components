@@ -195,7 +195,7 @@ describe('Database Integrity', () => {
   });
 
   it('should have organizations with users', async () => {
-    const orgs = await prisma.organization.findMany({
+    const orgs = await prisma.organizations.findMany({
       include: { users: true },
     });
     expect(orgs.length).toBeGreaterThan(0);
@@ -205,18 +205,18 @@ describe('Database Integrity', () => {
   });
 
   it('should have agents seeded', async () => {
-    const agents = await prisma.agent.findMany();
+    const agents = await prisma.agents.findMany();
     expect(agents.length).toBeGreaterThan(0);
   });
 
   it('should have metrics defined', async () => {
-    const metrics = await prisma.metricDefinition.findMany();
+    const metrics = await prisma.metric_definitions.findMany();
     expect(metrics.length).toBeGreaterThan(0);
     // Note: Metric values are created through usage, not seeding
   });
 
   it('should have workflows defined', async () => {
-    const workflows = await prisma.workflow.findMany();
+    const workflows = await prisma.workflows.findMany();
     expect(workflows.length).toBeGreaterThan(0);
     // Note: Workflow executions are created through usage, not seeding
   });
@@ -224,17 +224,17 @@ describe('Database Integrity', () => {
   it('should have deliberation capability', async () => {
     // Deliberations are created through user interaction
     // Just verify the table exists and is queryable
-    const count = await prisma.deliberation.count();
+    const count = await prisma.deliberations.count();
     expect(count).toBeGreaterThanOrEqual(0); // Can be 0 in fresh database
   });
 
   it('should have health score history', async () => {
-    const scores = await prisma.healthScore.count();
+    const scores = await prisma.health_scores.count();
     expect(scores).toBeGreaterThan(0);
   });
 
   it('should have audit logs', async () => {
-    const logs = await prisma.auditLog.count();
+    const logs = await prisma.audit_logs.count();
     expect(logs).toBeGreaterThan(0);
   });
 });

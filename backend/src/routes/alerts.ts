@@ -1,6 +1,8 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database.js';
+import { Prisma } from '@prisma/client';
+import crypto from 'crypto';
 import { pubsub } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
@@ -158,7 +160,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
       throw errors.notFound('Alert');
     }
 
-    if (alert.organization_id !== req.organization_id) {
+    if (alert.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -188,7 +190,7 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
       throw errors.notFound('Alert');
     }
 
-    if (alert.organization_id !== req.organization_id) {
+    if (alert.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -210,21 +212,22 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
     });
 
     // Publish event
-    await pubsub.publish(`alerts:${req.organization_id}`, {
+    await pubsub.publish(`alerts:${req.organizationId}`, {
       type: 'alert_acknowledged',
       alertId: alert.id,
       by: req.user!.name,
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
+        id: crypto.randomUUID(),
         organization_id: req.organizationId!,
-        userId,
-        action: 'alert.acknowledge',
-        resourceType: 'alert',
-        resourceId: alert.id,
-        details: { note },
+        user_id: userId,
+        action: 'alert_acknowledge',
+        resource_type: 'alert',
+        resource_id: alert.id,
+        details: { note } as Prisma.InputJsonValue,
       },
     });
 
@@ -254,7 +257,7 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
       throw errors.notFound('Alert');
     }
 
-    if (alert.organization_id !== req.organization_id) {
+    if (alert.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -277,21 +280,22 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
     });
 
     // Publish event
-    await pubsub.publish(`alerts:${req.organization_id}`, {
+    await pubsub.publish(`alerts:${req.organizationId}`, {
       type: 'alert_resolved',
       alertId: alert.id,
       by: req.user!.name,
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
+        id: crypto.randomUUID(),
         organization_id: req.organizationId!,
-        userId,
+        user_id: userId,
         action: 'alert.resolve',
-        resourceType: 'alert',
-        resourceId: alert.id,
-        details: { resolution, rootCause },
+        resource_type: 'alert',
+        resource_id: alert.id,
+        details: { resolution, rootCause } as Prisma.InputJsonValue,
       },
     });
 
@@ -315,7 +319,7 @@ router.put('/:id/acknowledge', async (req: Request, res: Response, next: NextFun
     });
 
     if (!alert) throw errors.notFound('Alert');
-    if (alert.organization_id !== req.organization_id) throw errors.forbidden();
+    if (alert.organization_id !== req.organizationId) throw errors.forbidden();
     if (alert.status !== 'ACTIVE') throw errors.badRequest('Alert is not active');
 
     const updated = await prisma.alerts.update({
@@ -343,7 +347,7 @@ router.put('/:id/resolve', async (req: Request, res: Response, next: NextFunctio
     });
 
     if (!alert) throw errors.notFound('Alert');
-    if (alert.organization_id !== req.organization_id) throw errors.forbidden();
+    if (alert.organization_id !== req.organizationId) throw errors.forbidden();
     if (alert.status === 'RESOLVED') throw errors.badRequest('Alert is already resolved');
 
     const updated = await prisma.alerts.update({

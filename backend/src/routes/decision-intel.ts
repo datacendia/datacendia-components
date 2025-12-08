@@ -60,18 +60,24 @@ router.post('/chronos/snapshots', async (req: Request, res: Response) => {
 // AI Pivotal Moment Detection
 router.post('/chronos/ai/pivotal-moments', async (req: Request, res: Response) => {
   try {
-    const { organization_id, events, limit } = req.body;
+    const { organization_id, events, limit, department } = req.body;
     
     if (!events || !Array.isArray(events)) {
       return res.status(400).json({ success: false, error: 'Events array required' });
     }
 
+    const normalizedEvents = events.map((e: any) => ({
+      ...e,
+      timestamp: new Date(e.timestamp),
+    }));
+
+    const scopedEvents = department
+      ? normalizedEvents.filter(e => e.department === department)
+      : normalizedEvents;
+
     const pivotalMoments = await chronosAIService.detectPivotalMoments(
       organization_id || 'default',
-      events.map((e: any) => ({
-        ...e,
-        timestamp: new Date(e.timestamp)
-      })),
+      scopedEvents,
       limit || 5
     );
 

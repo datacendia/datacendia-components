@@ -222,6 +222,25 @@ router.get('/forecasts', async (req: Request, res: Response) => {
 });
 
 // ===========================================================================
+// REGULATORY RADAR (LLM-DRIVEN)
+// ===========================================================================
+
+/**
+ * GET /panopticon/radar
+ * Get LLM-generated regulatory radar for the next 90 days
+ */
+router.get('/radar', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const perspective = typeof req.query.perspective === 'string' ? req.query.perspective : undefined;
+    const radar = await cendiaPanopticonService.getRegulatoryRadar(orgId, { perspective });
+    res.json({ success: true, data: radar });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
 // DASHBOARD
 // ===========================================================================
 

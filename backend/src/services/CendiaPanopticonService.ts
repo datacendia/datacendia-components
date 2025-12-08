@@ -76,6 +76,75 @@ export interface RegulatoryForecast {
   recommendedActions: string[];
 }
 
+interface RegulatoryRadarEvent {
+  id: string;
+  title: string;
+  framework: string;
+  jurisdiction: string;
+  window: 'now' | '30' | '60' | '90';
+  impact: 'LOW' | 'MEDIUM' | 'HIGH' | 'CRITICAL';
+  effectiveDate: string;
+  description: string;
+}
+
+const DEFAULT_RADAR_EVENTS: RegulatoryRadarEvent[] = [
+  {
+    id: 'dora-enforcement',
+    title: 'DORA enforcement begins for financial entities',
+    framework: 'DORA',
+    jurisdiction: 'EU',
+    window: '60',
+    impact: 'CRITICAL',
+    effectiveDate: 'In ~45 days',
+    description:
+      'Operational resilience requirements become enforceable. High expectations for incident reporting and ICT risk management.',
+  },
+  {
+    id: 'ccpa-amendment',
+    title: 'CCPA/CPRA enforcement expansion',
+    framework: 'CCPA',
+    jurisdiction: 'US-CA',
+    window: '90',
+    impact: 'HIGH',
+    effectiveDate: 'In ~75 days',
+    description:
+      'Broader scope for data subject rights and vendor obligations. Increased enforcement expected for adtech and third parties.',
+  },
+  {
+    id: 'eu-ai-act-phase-2',
+    title: 'EU AI Act high-risk obligations phase-in',
+    framework: 'EU_AI_ACT',
+    jurisdiction: 'EU',
+    window: '30',
+    impact: 'HIGH',
+    effectiveDate: 'In ~30-60 days (phase 2)',
+    description:
+      'High-risk AI systems must align with transparency, human oversight, and robustness requirements. Significant documentation lift.',
+  },
+  {
+    id: 'privacy-guidance-update',
+    title: 'Updated supervisory guidance on cross-border transfers',
+    framework: 'GDPR',
+    jurisdiction: 'EU',
+    window: 'now',
+    impact: 'MEDIUM',
+    effectiveDate: 'Now',
+    description:
+      'Regulators tightening expectations around SCCs and transfer impact assessments. Existing templates may need updates.',
+  },
+];
+
+const DEFAULT_AI_SUMMARY =
+  'The highest-impact regulatory change in the next 90 days is DORA enforcement for EU financial entities. ' +
+  'If critical services rely on third-party providers, prioritize mapping those dependencies and running a focused resilience review now. ' +
+  'CCPA/CPRA expansion and the EU AI Act phase-in are close behind, particularly for data-rich and AI-heavy business units.';
+
+const DEFAULT_AI_ACTIONS: string[] = [
+  'Map your critical third-party services and vendors to understand DORA exposure.',
+  'Run a focused operational resilience review on incident response and ICT risk controls.',
+  'Prepare privacy- and AI-heavy business units for CCPA/CPRA expansion and EU AI Act obligations.',
+];
+
 // =============================================================================
 // REGULATORY FRAMEWORK DATABASE
 // 200+ frameworks across 50+ jurisdictions
@@ -683,6 +752,170 @@ Respond as JSON array.`;
       where: { organization_id: organizationId },
       orderBy: [{ impact_score: 'desc' }, { probability: 'desc' }],
     });
+  }
+
+  async getRegulatoryRadar(
+    organizationId: string,
+    options?: { perspective?: string },
+  ): Promise<{ events: RegulatoryRadarEvent[]; summary: string; actions: string[] }> {
+    const regulations = await this.getOrganizationRegulations(organizationId);
+    const forecasts = await this.getForecasts(organizationId);
+    const openViolations = await this.getOpenViolations(organizationId);
+
+    const org = await prisma.organizations.findUnique({ where: { id: organizationId } });
+
+    const activeFrameworks = [...new Set(regulations.map((r: any) => r.framework_code))];
+
+    const highImpactForecasts = (forecasts || [])
+      .filter((f: any) =>
+        (typeof f.probability === 'number' ? f.probability : 0.5) >= 0.6 &&
+        (typeof f.horizon_days === 'number' ? f.horizon_days : 365) <= 180
+      )
+      .slice(0, 8);
+
+    const criticalViolations = (openViolations || []).filter((v: any) => v.severity === 'CRITICAL');
+
+    const contextLines = highImpactForecasts
+      .map((f: any, idx: number) => {
+        const type = f.forecast_type || 'TREND';
+        const prob = typeof f.probability === 'number' ? f.probability.toFixed(2) : '0.50';
+        const impact = typeof f.impact_score === 'number' ? f.impact_score : 50;
+        const horizon = typeof f.horizon_days === 'number' ? f.horizon_days : 90;
+        return `- [${idx + 1}] ${f.title || 'Forecast'} (${type}), prob=${prob}, impact=${impact}, horizon_days=${horizon}`;
+      })
+      .join('\n');
+
+    const industry = org?.industry || 'Unknown';
+    const companySize = org?.company_size || 'Unknown';
+    const settings: any = org ? (org as any).settings : undefined;
+
+    let primaryRegions: string[] = [];
+    if (settings && typeof settings === 'object') {
+      if (Array.isArray(settings.regions)) {
+        primaryRegions = settings.regions.map((r: any) => String(r));
+      } else if (typeof settings.primaryRegion === 'string') {
+        primaryRegions = [settings.primaryRegion];
+      } else if (typeof settings.region === 'string') {
+        primaryRegions = [settings.region];
+      }
+    }
+
+    const frameworkRegions = REGULATORY_FRAMEWORKS
+      .filter(f => activeFrameworks.includes(f.code))
+      .map(f => f.jurisdiction);
+
+    const allRegionsSet = new Set<string>([...frameworkRegions, ...primaryRegions]);
+    const regionsText = [...allRegionsSet].filter(Boolean).join(', ') || 'Global';
+
+    let settingsSnippet = '';
+    if (settings && typeof settings === 'object') {
+      try {
+        settingsSnippet = JSON.stringify(settings).slice(0, 400);
+      } catch {
+        settingsSnippet = '';
+      }
+    }
+
+    const perspective = (options?.perspective || 'board').toLowerCase();
+    const isBoardView = perspective === 'board';
+
+    const orgProfileLines = [
+      `Name: ${org?.name || 'Unknown'}`,
+      `Industry: ${industry}`,
+      `Company size: ${companySize}`,
+      `Primary jurisdictions/regions: ${regionsText}`,
+    ];
+    if (settingsSnippet) {
+      orgProfileLines.push(`Key settings (truncated JSON): ${settingsSnippet}`);
+    }
+    const orgProfile = orgProfileLines.join('\n');
+
+    const viewLabel = isBoardView ? 'BOARD (executive / board-level summary)' : 'OPERATOR (compliance & operations team)';
+
+    const taskLines = isBoardView
+      ? [
+          '1. Propose 3-6 upcoming regulatory changes that are most material to this organization in the next 90 days (board-level significance).',
+          '2. Emphasize financial, regulatory, and reputational exposure and key decision deadlines.',
+          '3. Set impact to LOW, MEDIUM, HIGH, or CRITICAL from a board/executive perspective.',
+          '4. Keep events concise but clear enough for board discussion.',
+          '5. In actions, focus on high-leverage moves (what the board/C-suite must ensure happens).',
+        ]
+      : [
+          '1. Propose 4-8 upcoming regulatory changes that require concrete operational work in the next 90 days.',
+          '2. For each event, set window based on when teams must start execution (now, 30, 60, or 90 days).',
+          '3. Set impact to LOW, MEDIUM, HIGH, or CRITICAL from an operational risk/workload perspective.',
+          '4. In actions, be specific about steps, owners, and near-term tasks for compliance/operations teams.',
+          '5. Prefer frameworks already active for this org; only add new ones if clearly urgent.',
+        ];
+
+    const prompt = `You are a regulatory intelligence assistant for a global enterprise.\n\n` +
+      `VIEW: ${viewLabel}\n\n` +
+      `ORGANIZATION PROFILE:\n${orgProfile}\n\n` +
+      `ACTIVE FRAMEWORKS (by code): ${activeFrameworks.join(', ') || 'None yet'}\n` +
+      `OPEN CRITICAL VIOLATIONS: ${criticalViolations.length}\n\n` +
+      `HIGH-IMPACT FORECASTS (next 180 days):\n${contextLines || '- (none)'}\n\n` +
+      `TASK:\n${taskLines.join('\n')}\n\n` +
+      `Respond ONLY in valid JSON with this exact shape (no markdown, no commentary):\n` +
+      `{"events":[{"id":"string","title":"string","framework":"string","jurisdiction":"string","window":"now|30|60|90","impact":"LOW|MEDIUM|HIGH|CRITICAL","effectiveDate":"string","description":"string"}],"summary":"string","actions":["string"]}`;
+
+    try {
+      const response = await this.llmService.generate(prompt, {
+        model: 'llama3.2:3b',
+        systemPrompt: 'You are a global regulatory intelligence assistant. Respond only with valid JSON matching the requested schema.',
+        temperature: 0.4,
+        maxTokens: 900,
+        format: 'json',
+      });
+
+      let parsed: any;
+      try {
+        parsed = JSON.parse(response);
+      } catch {
+        parsed = {};
+      }
+
+      const rawEvents = Array.isArray(parsed.events) ? parsed.events : [];
+
+      const mappedEvents: RegulatoryRadarEvent[] = rawEvents.map((e: any, index: number) => {
+        const windowValues: Array<RegulatoryRadarEvent['window']> = ['now', '30', '60', '90'];
+        const impactValues: Array<RegulatoryRadarEvent['impact']> = ['LOW', 'MEDIUM', 'HIGH', 'CRITICAL'];
+
+        const windowValue = windowValues.includes(e.window) ? e.window : '60';
+        const impactValue = impactValues.includes(e.impact) ? e.impact : 'MEDIUM';
+
+        return {
+          id: String(e.id || `event-${index + 1}`),
+          title: String(e.title || 'Regulatory change'),
+          framework: String(e.framework || (activeFrameworks[0] || 'GDPR')),
+          jurisdiction: String(e.jurisdiction || 'EU'),
+          window: windowValue,
+          impact: impactValue,
+          effectiveDate: String(e.effectiveDate || e.effective_date || 'Within 90 days'),
+          description: String(e.description || 'Upcoming regulatory development requiring attention.'),
+        };
+      });
+
+      const summary = typeof parsed.summary === 'string' && parsed.summary.trim().length > 0
+        ? parsed.summary
+        : DEFAULT_AI_SUMMARY;
+
+      const actions = Array.isArray(parsed.actions) && parsed.actions.length > 0
+        ? parsed.actions.filter((a: any) => typeof a === 'string')
+        : DEFAULT_AI_ACTIONS;
+
+      return {
+        events: mappedEvents.length > 0 ? mappedEvents : DEFAULT_RADAR_EVENTS,
+        summary,
+        actions,
+      };
+    } catch (error) {
+      logger.error('Regulatory radar generation failed:', error);
+      return {
+        events: DEFAULT_RADAR_EVENTS,
+        summary: DEFAULT_AI_SUMMARY,
+        actions: DEFAULT_AI_ACTIONS,
+      };
+    }
   }
 
   // ===========================================================================

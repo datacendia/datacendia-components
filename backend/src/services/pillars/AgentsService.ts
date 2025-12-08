@@ -298,12 +298,18 @@ export class AgentsService extends BaseService {
 
   async getDeliberations(organizationId: string): Promise<any[]> {
     // Return deliberations from database
-    const deliberations = await prisma.deliberation.findMany({
-      where: { organizationId },
-      orderBy: { createdAt: 'desc' },
+    const deliberations = await prisma.deliberations.findMany({
+      where: { organization_id: organizationId },
+      orderBy: { created_at: 'desc' },
       take: 50,
     });
-    return deliberations;
+
+    // Provide a backward-compatible camelCase view while preserving all original fields
+    return deliberations.map((d: any) => ({
+      ...d,
+      organizationId: d.organization_id,
+      createdAt: d.created_at,
+    }));
   }
 }
 

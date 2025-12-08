@@ -5,6 +5,7 @@
 
 import React, { useState, useCallback } from 'react';
 import { cn } from '../../../../lib/utils';
+import { api } from '../../../lib/api';
 
 interface AbsorptionResult {
   id: string;
@@ -63,27 +64,22 @@ export const RegulatoryAbsorbPage: React.FC = () => {
         content = await file.text();
       }
 
-      const response = await fetch('/api/v1/premium/regulatory/absorb', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          document: {
-            filename: file?.name || 'pasted-document.txt',
-            mimeType: file?.type || 'text/plain',
-            size: content.length,
-            content,
-          },
-          tier: 'enterprise',
-        }),
+      const res = await api.post<any>('/premium/regulatory/absorb', {
+        document: {
+          filename: file?.name || 'pasted-document.txt',
+          mimeType: file?.type || 'text/plain',
+          size: content.length,
+          content,
+        },
+        tier: 'enterprise',
       });
 
-      const data = await response.json();
-      
       clearInterval(progressInterval);
       setProgress(100);
 
-      if (data.success) {
-        setResult(data.result);
+      const payload = res as any;
+      if (payload.success && payload.result) {
+        setResult(payload.result as AbsorptionResult);
       }
     } catch (err) {
       console.error('Absorption failed:', err);

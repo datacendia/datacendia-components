@@ -7,6 +7,8 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
 import { promises as fs } from 'fs';
 import path from 'path';
+import crypto from 'crypto';
+import { Prisma } from '@prisma/client';
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
@@ -454,12 +456,13 @@ router.put('/', async (req: Request, res: Response, next: NextFunction) => {
     await writeEnvFile(updatedEnv);
     
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId || 'system',
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId ?? 'system',
+        user_id: req.user!.id,
         action: 'settings.update',
-        resourceType: 'system_settings',
+        resource_type: 'system_settings',
         details: {
           updatedKeys: Object.keys(settings).filter(k => {
             const s = SETTINGS_DEFINITIONS.flatMap(c => c.settings).find(s => s.key === k);
@@ -469,7 +472,7 @@ router.put('/', async (req: Request, res: Response, next: NextFunction) => {
             const s = SETTINGS_DEFINITIONS.flatMap(c => c.settings).find(s => s.key === k);
             return s?.sensitive && !settings[k].includes('••••');
           }).length,
-        },
+        } as Prisma.InputJsonValue,
       },
     });
     
@@ -521,17 +524,18 @@ router.put('/:key', async (req: Request, res: Response, next: NextFunction) => {
     await writeEnvFile(currentEnv);
     
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId || 'system',
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId ?? 'system',
+        user_id: req.user!.id,
         action: 'settings.update',
-        resourceType: 'system_settings',
-        resourceId: key,
+        resource_type: 'system_settings',
+        resource_id: key,
         details: {
           key,
           sensitive: setting.sensitive,
-        },
+        } as Prisma.InputJsonValue,
       },
     });
     

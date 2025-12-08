@@ -53,9 +53,43 @@ export const authApi = {
 // ============================================================================
 // GRAPH API
 // ============================================================================
+const mapGraphEntity = (raw: any): Types.GraphEntity => {
+  const props = (raw.properties ?? raw ?? {}) as any;
+
+  const id = String(
+    props.id ?? raw.id ?? raw.elementId ?? `node-${Math.random().toString(36).slice(2)}`
+  );
+
+  const rawType = (props.type ?? raw.type ?? (Array.isArray(raw.labels) ? raw.labels[0] : 'entity')) as string;
+  const type = (rawType || 'entity').toString().toLowerCase();
+
+  const name = (props.name ?? props.table ?? id ?? 'Unnamed') as string;
+
+  const createdAtVal = (props.createdAt ?? raw.createdAt) as string | undefined;
+  const updatedAtVal = (props.updatedAt ?? raw.updatedAt ?? createdAtVal) as string | undefined;
+
+  const now = new Date().toISOString();
+
+  return {
+    id,
+    type,
+    name,
+    properties: props,
+    createdAt: createdAtVal && typeof createdAtVal === 'string' ? createdAtVal : now,
+    updatedAt: updatedAtVal && typeof updatedAtVal === 'string' ? updatedAtVal : now,
+  };
+};
+
 export const graphApi = {
   async getEntities(params?: { type?: string; search?: string; page?: number; pageSize?: number }) {
-    return api.get<Types.GraphEntity[]>('/graph/entities', params);
+    const response = await api.get<any[]>('/graph/entities', params);
+
+    if (response.success && response.data) {
+      const mapped = response.data.map(mapGraphEntity);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async getEntity(id: string) {
@@ -83,7 +117,14 @@ export const graphApi = {
   },
 
   async search(query: string) {
-    return api.get<Types.GraphEntity[]>('/graph/search', { q: query });
+    const response = await api.get<any[]>('/graph/search', { q: query });
+
+    if (response.success && response.data) {
+      const mapped = response.data.map(mapGraphEntity);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async executeQuery(cypher: string, parameters?: Record<string, unknown>) {
@@ -130,6 +171,58 @@ export const lineageApi = {
 // ============================================================================
 // COUNCIL API (AI Agents)
 // ============================================================================
+const mapDeliberation = (d: any): Types.Deliberation => {
+  const rawStatus = String(d.status ?? 'PENDING').toUpperCase();
+  let status: Types.Deliberation['status'];
+  switch (rawStatus) {
+    case 'IN_PROGRESS':
+      status = 'in_progress';
+      break;
+    case 'COMPLETED':
+      status = 'completed';
+      break;
+    case 'CANCELLED':
+      status = 'cancelled';
+      break;
+    case 'PENDING':
+    default:
+      status = 'pending';
+      break;
+  }
+
+  const phase = (d.current_phase ?? 'initial_analysis') as Types.Deliberation['phase'];
+
+  const result = d.decision
+    ? {
+        decision: typeof d.decision === 'string' ? d.decision : JSON.stringify(d.decision),
+        confidence: d.confidence ?? 0,
+        dissent: undefined,
+      }
+    : undefined;
+
+  return {
+    id: d.id,
+    question: d.question,
+    status,
+    phase,
+    progress: typeof d.progress === 'number' ? d.progress : 0,
+    agents: Array.isArray(d.agents) ? d.agents : [],
+    result,
+    startedAt: (d.started_at ?? d.created_at ?? new Date().toISOString()) as string,
+    completedAt: d.completed_at ?? undefined,
+  };
+};
+
+const mapDeliberationMessage = (phase: string, m: any): Types.DeliberationMessage => ({
+  id: m.id,
+  agentId: m.agent?.id ?? m.agentId ?? m.agent_id,
+  phase,
+  content: m.content,
+  sources: (m.sources ?? []) as Array<{ entityId: string; name: string; relevance: number }>,
+  confidence: m.confidence ?? 0,
+  timestamp: (m.timestamp ?? m.created_at ?? new Date().toISOString()) as string,
+});
+
 export const councilApi = {
   async getAgents() {
     return api.get<Types.Agent[]>('/council/agents');
@@ -144,15 +237,35 @@ export const councilApi = {
   },
 
   async startDeliberation(data: { question: string; agents: string[]; config?: { maxDuration?: number; requireConsensus?: boolean }; language?: string }) {
-    return api.post<Types.Deliberation>('/council/deliberations', data);
+    // Backend returns a lightweight status object; keep return type untyped for now.
+    return api.post<any>('/council/deliberations', data);
   },
 
   async getDeliberation(id: string) {
-    return api.get<Types.Deliberation>(`/council/deliberations/${id}`);
+    const response = await api.get<any>(`/council/deliberations/${id}`);
+
+    if (response.success && response.data) {
+      const mapped = mapDeliberation(response.data);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response as any;
   },
 
   async getDeliberationTranscript(id: string) {
-    return api.get<{ phases: Array<{ phase: string; messages: Types.DeliberationMessage[] }> }>(`/council/deliberations/${id}/transcript`);
+    const response = await api.get<any>(`/council/deliberations/${id}/transcript`);
+
+    if (response.success && response.data && response.data.phases) {
+      const phasesObj = response.data.phases as Record<string, any[]>;
+      const phases = Object.entries(phasesObj).map(([phaseKey, msgs]) => ({
+        phase: phaseKey,
+        messages: (msgs ?? []).map((m) => mapDeliberationMessage(phaseKey, m)),
+      }));
+
+      return { ...response, data: { phases } } as typeof response;
+    }
+
+    return response as any;
   },
 
   async controlDeliberation(id: string, action: 'pause' | 'resume' | 'skip_to_synthesis' | 'cancel') {
@@ -164,7 +277,7 @@ export const councilApi = {
   },
 
   async getRecentDecisions(limit?: number) {
-    return api.get<Types.CouncilQuery[]>('/council/decisions/recent', limit ? { limit } : undefined);
+    return api.get<Types.CouncilDecisionSummary[]>('/council/decisions/recent', limit ? { limit } : undefined);
   },
 
   async addUserIntervention(deliberationId: string, data: { 
@@ -174,14 +287,54 @@ export const councilApi = {
   }) {
     return api.post(`/council/deliberations/${deliberationId}/intervention`, data);
   },
+
+  async saveDeliberation(data: {
+    question: string;
+    mode: string;
+    agentResponses: any[];
+    crossExaminations: any[];
+    synthesis: string;
+    confidence: number;
+  }) {
+    return api.post<any>('/council/deliberations', data);
+  },
+
+  async generateExecutiveSummary(deliberationId: string) {
+    return api.post<any>(`/council/deliberations/${deliberationId}/summary`);
+  },
+
+  async generateMinutes(deliberationId: string) {
+    return api.post<any>(`/council/deliberations/${deliberationId}/minutes`);
+  },
 };
 
 // ============================================================================
 // METRICS API
 // ============================================================================
+const mapMetricDefinition = (m: any): Types.MetricDefinition => ({
+  id: m.id,
+  code: m.code,
+  name: m.name,
+  description: m.description ?? undefined,
+  formula: m.formula ?? {},
+  unit: m.unit ?? undefined,
+  category: m.category ?? undefined,
+  thresholds: (m.thresholds ?? {}) as { warning?: number; critical?: number },
+  ownerId: m.owner_id ?? undefined,
+  refreshSchedule: m.refresh_schedule ?? undefined,
+  createdAt: m.created_at,
+});
+
 export const metricsApi = {
   async getMetrics(params?: { category?: string; search?: string; page?: number }) {
-    return api.get<Types.MetricDefinition[]>('/metrics', params);
+    const response = await api.get<any[]>('/metrics', params);
+
+    if (response.success && response.data) {
+      const mapped = response.data.map(mapMetricDefinition);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async getKeyMetrics() {
@@ -222,53 +375,246 @@ export const healthApi = {
   },
 
   async getSystemStatus() {
-    return api.get<Array<{ service: string; status: string; latency?: number }>>('/health/systems/status');
+    return api.get<Array<{ name: string; status: string; latency: string | null }>>('/health/systems/status');
   },
 };
 
 // ============================================================================
 // ALERTS API
 // ============================================================================
+const mapAlert = (a: any): Types.Alert => ({
+  id: a.id,
+  severity: String(a.severity || 'INFO').toLowerCase() as 'critical' | 'warning' | 'info',
+  status: String(a.status || 'ACTIVE').toLowerCase() as 'active' | 'acknowledged' | 'resolved',
+  source: a.source,
+  sourceId: a.metric_id,
+  title: a.title,
+  message: a.message,
+  metadata: a.metadata ?? undefined,
+  acknowledgedBy: a.acknowledged_by ?? undefined,
+  acknowledgedAt: a.acknowledged_at ?? undefined,
+  resolvedBy: a.resolved_by ?? undefined,
+  resolvedAt: a.resolved_at ?? undefined,
+  resolution: a.resolution ?? undefined,
+  createdAt: a.created_at,
+});
+
 export const alertsApi = {
   async getAlerts(params?: { severity?: string; status?: string; page?: number }) {
-    return api.get<Types.Alert[]>('/alerts', params);
+    const response = await api.get<any[]>('/alerts', params);
+
+    if (response.success && response.data) {
+      const mapped = response.data.map(mapAlert);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async getSummary() {
-    return api.get<Types.AlertSummary>('/alerts/summary');
+    const response = await api.get<any>('/alerts/summary');
+
+    if (response.success && response.data) {
+      const { critical, warning, info, active, acknowledged } = response.data as any;
+      const mapped: Types.AlertSummary = {
+        total: (critical ?? 0) + (warning ?? 0) + (info ?? 0),
+        bySeverity: { critical: critical ?? 0, warning: warning ?? 0, info: info ?? 0 },
+        byStatus: { active: active ?? 0, acknowledged: acknowledged ?? 0 },
+      };
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response as any;
   },
 
   async getAlert(id: string) {
-    return api.get<Types.Alert>(`/alerts/${id}`);
+    const response = await api.get<any>(`/alerts/${id}`);
+
+    if (response.success && response.data) {
+      const mapped = mapAlert(response.data);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async acknowledgeAlert(id: string, note?: string) {
-    return api.post<Types.Alert>(`/alerts/${id}/acknowledge`, { note });
+    const response = await api.post<any>(`/alerts/${id}/acknowledge`, { note });
+
+    if (response.success && response.data) {
+      const mapped = mapAlert(response.data);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async resolveAlert(id: string, data: { resolution: string; rootCause?: string }) {
-    return api.post<Types.Alert>(`/alerts/${id}/resolve`, data);
+    const response = await api.post<any>(`/alerts/${id}/resolve`, data);
+
+    if (response.success && response.data) {
+      const mapped = mapAlert(response.data);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 };
 
 // ============================================================================
 // WORKFLOWS API
 // ============================================================================
+const mapWorkflow = (w: any): Types.Workflow => {
+  const trigger = (w.trigger ?? {}) as any;
+  const rawTriggerType = String(trigger.type ?? 'manual').toLowerCase();
+  const triggerType = (rawTriggerType === 'schedule' || rawTriggerType === 'event' || rawTriggerType === 'webhook'
+    ? rawTriggerType
+    : 'manual') as Types.Workflow['triggerType'];
+
+  const { type: _removedType, ...triggerConfig } = trigger ?? {};
+
+  const rawStatus = String(w.status ?? 'DRAFT').toUpperCase();
+  const status = (rawStatus === 'ACTIVE'
+    ? 'active'
+    : rawStatus === 'PAUSED'
+      ? 'paused'
+      : rawStatus === 'ARCHIVED'
+        ? 'archived'
+        : 'draft') as Types.Workflow['status'];
+
+  return {
+    id: w.id,
+    name: w.name,
+    description: w.description ?? undefined,
+    category: w.category ?? undefined,
+    status,
+    triggerType,
+    triggerConfig: (triggerConfig ?? {}) as Record<string, unknown>,
+    definition: (w.definition ?? { nodes: [], edges: [] }) as Types.WorkflowDefinition,
+    version: typeof w.version === 'number' ? w.version : 1,
+    createdAt: w.created_at,
+    updatedAt: w.updated_at,
+  };
+};
+
+const mapWorkflowExecution = (e: any): Types.WorkflowExecution => {
+  const rawStatus = String(e.status ?? 'PENDING').toUpperCase();
+  let status: Types.WorkflowExecution['status'];
+  switch (rawStatus) {
+    case 'RUNNING':
+      status = 'running';
+      break;
+    case 'COMPLETED':
+      status = 'completed';
+      break;
+    case 'FAILED':
+      status = 'failed';
+      break;
+    case 'CANCELLED':
+      status = 'cancelled';
+      break;
+    case 'SKIPPED':
+      status = 'completed';
+      break;
+    case 'AWAITING_APPROVAL':
+    case 'PENDING':
+    default:
+      status = 'pending';
+      break;
+  }
+
+  const rawNodeStates = (e.nodeStates ?? e.execution_nodes ?? []) as any[];
+  const nodeStates: Types.WorkflowExecution['nodeStates'] = {};
+  rawNodeStates.forEach((ns) => {
+    const key = ns.node_id ?? ns.id;
+    if (!key) {return;}
+    nodeStates[key] = {
+      status: String(ns.status ?? 'COMPLETED').toLowerCase(),
+      duration: ns.duration ?? undefined,
+      output: ns.output ?? undefined,
+    };
+  });
+
+  return {
+    id: e.id,
+    workflowId: e.workflow_id,
+    status,
+    currentNode: e.current_node ?? undefined,
+    progress: typeof e.progress === 'number' ? e.progress : 0,
+    nodeStates,
+    outputs: (e.outputs ?? {}) as Record<string, unknown>,
+    error: e.error ? { message: String(e.error), nodeId: undefined } : undefined,
+    startedAt: (e.started_at ?? e.created_at ?? new Date().toISOString()) as string,
+    completedAt: e.completed_at ?? undefined,
+  };
+};
+
+const buildWorkflowPayload = (data: Partial<Types.Workflow>): Record<string, unknown> => {
+  const payload: Record<string, unknown> = {};
+
+  if (data.name !== undefined) {payload.name = data.name;}
+  if (data.description !== undefined) {payload.description = data.description;}
+  if (data.category !== undefined) {payload.category = data.category;}
+
+  if (data.triggerType !== undefined || data.triggerConfig !== undefined) {
+    payload.trigger = {
+      type: data.triggerType ?? 'manual',
+      ...(data.triggerConfig ?? {}),
+    };
+  }
+
+  if (data.definition !== undefined) {
+    payload.definition = data.definition as Types.WorkflowDefinition;
+  }
+
+  return payload;
+};
+
 export const workflowsApi = {
   async getWorkflows(params?: { status?: string; category?: string; search?: string }) {
-    return api.get<Types.Workflow[]>('/workflows', params);
+    const response = await api.get<any[]>('/workflows', params);
+
+    if (response.success && response.data) {
+      const mapped = response.data.map(mapWorkflow);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async getWorkflow(id: string) {
-    return api.get<Types.Workflow>(`/workflows/${id}`);
+    const response = await api.get<any>(`/workflows/${id}`);
+
+    if (response.success && response.data) {
+      const mapped = mapWorkflow(response.data);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async createWorkflow(data: Partial<Types.Workflow>) {
-    return api.post<Types.Workflow>('/workflows', data);
+    const payload = buildWorkflowPayload(data);
+    const response = await api.post<any>('/workflows', payload);
+
+    if (response.success && response.data) {
+      const mapped = mapWorkflow(response.data);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async updateWorkflow(id: string, data: Partial<Types.Workflow>) {
-    return api.put<Types.Workflow>(`/workflows/${id}`, data);
+    const payload = buildWorkflowPayload(data);
+    const response = await api.put<any>(`/workflows/${id}`, payload);
+
+    if (response.success && response.data) {
+      const mapped = mapWorkflow(response.data);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async deleteWorkflow(id: string) {
@@ -280,15 +626,25 @@ export const workflowsApi = {
   },
 
   async executeWorkflow(id: string, params?: Record<string, unknown>) {
-    return api.post<Types.WorkflowExecution>(`/workflows/${id}/execute`, { parameters: params });
+    // Backend may return either a small async-ack object or a full execution row; keep this untyped for now
+    return api.post<any>(`/workflows/${id}/execute`, { parameters: params });
   },
 
   async getExecution(executionId: string) {
-    return api.get<Types.WorkflowExecution>(`/workflows/executions/${executionId}`);
+    const response = await api.get<any>(`/workflows/executions/${executionId}`);
+
+    if (response.success && response.data) {
+      const mapped = mapWorkflowExecution(response.data);
+      return { ...response, data: mapped } as typeof response;
+    }
+
+    return response;
   },
 
   async getExecutions(params?: { workflowId?: string; status?: string; page?: number }) {
-    return api.get<Types.WorkflowExecution[]>('/workflows/executions', params);
+    // NOTE: Backend currently exposes /workflows/:id/executions; this helper still calls the
+    // existing route without normalization to avoid breaking BridgePage's fallback usage.
+    return api.get<any[]>('/workflows/executions', params as any);
   },
 };
 
@@ -518,7 +874,7 @@ export const decisionIntelApi = {
   },
 
   // Chronos AI - Powered by Ollama
-  async detectPivotalMoments(data: { organization_id?: string; events: unknown[]; limit?: number }) {
+  async detectPivotalMoments(data: { organization_id?: string; events: unknown[]; limit?: number; department?: string }) {
     return api.post<unknown[]>('/decision-intel/chronos/ai/pivotal-moments', data);
   },
 

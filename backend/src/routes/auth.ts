@@ -2,6 +2,7 @@ import { Router, Request, Response, NextFunction } from 'express';
 import bcrypt from 'bcryptjs';
 import crypto from 'crypto';
 import { z } from 'zod';
+import { Prisma } from '@prisma/client';
 import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
@@ -42,12 +43,12 @@ router.post('/login', async (req: Request, res: Response, next: NextFunction) =>
     const { email, password } = loginSchema.parse(req.body);
 
     // Find user by email
-    const user = await prisma.user.findUnique({
+    const user = await prisma.users.findUnique({
       where: { email: email.toLowerCase() },
-      include: { organization: true },
+      include: { organizations: true },
     });
 
-    if (!user || !user.passwordHash) {
+    if (!user || !user.password_hash) {
       throw errors.unauthorized('Invalid email or password');
     }
 
@@ -55,12 +56,12 @@ router.post('/login', async (req: Request, res: Response, next: NextFunction) =>
       throw errors.unauthorized('Account is not active');
     }
 
-    if (user.deletedAt) {
+    if (user.deleted_at) {
       throw errors.unauthorized('Account has been deleted');
     }
 
     // Verify password
-    const validPassword = await bcrypt.compare(password, user.passwordHash);
+    const validPassword = await bcrypt.compare(password, user.password_hash); 
     if (!validPassword) {
       // Log failed attempt
       logger.warn(`Failed login attempt for ${email}`, { ip: req.ip });
@@ -71,44 +72,48 @@ router.post('/login', async (req: Request, res: Response, next: NextFunction) =>
     const accessToken = await generateAccessToken({
       id: user.id,
       email: user.email,
-      organizationId: user.organizationId,
+      organizationId: user.organization_id,
       role: user.role,
     });
     const refreshToken = await generateRefreshToken(user.id);
 
     // Store refresh token hash in session
     const refreshTokenHash = await bcrypt.hash(refreshToken, 10);
-    await prisma.session.create({
+    await prisma.sessions.create({
       data: {
-        userId: user.id,
-        refreshTokenHash,
-        userAgent: req.get('user-agent'),
-        ipAddress: req.ip,
-        expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
+        id: crypto.randomUUID(),
+        user_id: user.id,
+        refresh_token_hash: refreshTokenHash,
+        user_agent: req.get('user-agent') || null,
+        ip_address: req.ip,
+        expires_at: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
       },
     });
 
     // Update last login
-    await prisma.user.update({
+    await prisma.users.update({
       where: { id: user.id },
-      data: { lastLoginAt: new Date() },
+      data: { last_login_at: new Date() },
     });
 
     // Log successful login
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: user.organizationId,
-        userId: user.id,
+        id: crypto.randomUUID(),
+        organization_id: user.organization_id,
+        user_id: user.id,
         action: 'user.login',
-        resourceType: 'user',
-        resourceId: user.id,
-        details: { method: 'password' },
-        ipAddress: req.ip,
-        userAgent: req.get('user-agent'),
+        resource_type: 'user',
+        resource_id: user.id,
+        details: { method: 'password' } as Prisma.InputJsonValue,
+        ip_address: req.ip,
+        user_agent: req.get('user-agent') || undefined,
       },
     });
 
     logger.info(`User logged in: ${email}`);
+
+    const org = user.organizations;
 
     res.json({
       success: true,
@@ -121,11 +126,11 @@ router.post('/login', async (req: Request, res: Response, next: NextFunction) =>
           email: user.email,
           name: user.name,
           role: user.role,
-          organizationId: user.organizationId,
+          organizationId: user.organization_id,
           organization: {
-            id: user.organization.id,
-            name: user.organization.name,
-            slug: user.organization.slug,
+            id: org.id,
+            name: org.name,
+            slug: org.slug,
           },
         },
       },
@@ -144,7 +149,7 @@ router.post('/register', async (req: Request, res: Response, next: NextFunction)
     const { email, password, name, organizationName } = registerSchema.parse(req.body);
 
     // Check if email already exists
-    const existingUser = await prisma.user.findUnique({
+    const existingUser = await prisma.users.findUnique({
       where: { email: email.toLowerCase() },
     });
 
@@ -160,10 +165,12 @@ router.post('/register', async (req: Request, res: Response, next: NextFunction)
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/(^-|-$)/g, '');
 
-      const organization = await tx.organization.create({
+      const organization = await tx.organizations.create({
         data: {
+          id: crypto.randomUUID(),
           name: organizationName,
           slug: `${slug}-${Date.now().toString(36)}`,
+          updated_at: new Date(),
         },
       });
 
@@ -171,25 +178,28 @@ router.post('/register', async (req: Request, res: Response, next: NextFunction)
       const passwordHash = await bcrypt.hash(password, 12);
 
       // Create user as admin of the organization (not yet verified)
-      const user = await tx.user.create({
+      const user = await tx.users.create({
         data: {
+          id: crypto.randomUUID(),
           email: email.toLowerCase(),
-          passwordHash,
+          password_hash: passwordHash,
           name,
-          organizationId: organization.id,
+          organization_id: organization.id,
           role: 'ADMIN',
           status: 'ACTIVE',
-          emailVerified: false,
+          email_verified: false,
+          updated_at: new Date(),
         },
       });
 
       // Create email verification token
       const verificationToken = crypto.randomBytes(32).toString('hex');
-      await tx.emailVerification.create({
+      await tx.email_verifications.create({
         data: {
-          userId: user.id,
+          id: crypto.randomUUID(),
+          user_id: user.id,
           token: verificationToken,
-          expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours
+          expires_at: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours
         },
       });
 
@@ -203,20 +213,21 @@ router.post('/register', async (req: Request, res: Response, next: NextFunction)
     const accessToken = await generateAccessToken({
       id: result.user.id,
       email: result.user.email,
-      organizationId: result.user.organizationId,
+      organizationId: result.user.organization_id,
       role: result.user.role,
     });
     const refreshToken = await generateRefreshToken(result.user.id);
 
     // Store refresh token
     const refreshTokenHash = await bcrypt.hash(refreshToken, 10);
-    await prisma.session.create({
+    await prisma.sessions.create({
       data: {
-        userId: result.user.id,
-        refreshTokenHash,
-        userAgent: req.get('user-agent'),
-        ipAddress: req.ip,
-        expiresAt: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+        id: crypto.randomUUID(),
+        user_id: result.user.id,
+        refresh_token_hash: refreshTokenHash,
+        user_agent: req.get('user-agent') || null,
+        ip_address: req.ip,
+        expires_at: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
       },
     });
 
@@ -233,7 +244,7 @@ router.post('/register', async (req: Request, res: Response, next: NextFunction)
           email: result.user.email,
           name: result.user.name,
           role: result.user.role,
-          organizationId: result.user.organizationId,
+          organizationId: result.user.organization_id,
           organization: {
             id: result.organization.id,
             name: result.organization.name,
@@ -259,26 +270,25 @@ router.post('/refresh', async (req: Request, res: Response, next: NextFunction) 
     const userId = await verifyRefreshToken(refreshToken);
 
     // Find user
-    const user = await prisma.user.findUnique({
+    const user = await prisma.users.findUnique({
       where: { id: userId },
-      include: { organization: true },
     });
 
-    if (!user || user.status !== 'ACTIVE' || user.deletedAt) {
+    if (!user || user.status !== 'ACTIVE' || user.deleted_at) {
       throw errors.unauthorized('User not found or inactive');
     }
 
     // Verify refresh token exists in sessions
-    const sessions = await prisma.session.findMany({
+    const sessions = await prisma.sessions.findMany({
       where: {
-        userId,
-        expiresAt: { gt: new Date() },
+        user_id: userId,
+        expires_at: { gt: new Date() },
       },
     });
 
     let validSession = false;
     for (const session of sessions) {
-      const isValid = await bcrypt.compare(refreshToken, session.refreshTokenHash);
+      const isValid = await bcrypt.compare(refreshToken, session.refresh_token_hash);
       if (isValid) {
         validSession = true;
         break;
@@ -293,7 +303,7 @@ router.post('/refresh', async (req: Request, res: Response, next: NextFunction) 
     const accessToken = await generateAccessToken({
       id: user.id,
       email: user.email,
-      organizationId: user.organizationId,
+      organizationId: user.organization_id,
       role: user.role,
     });
 
@@ -324,23 +334,25 @@ router.post('/logout', authenticate, async (req: Request, res: Response, next: N
     }
 
     // Delete all sessions for user
-    await prisma.session.deleteMany({
-      where: { userId: req.user!.id },
+    await prisma.sessions.deleteMany({
+      where: { user_id: req.user!.id },
     });
 
     // Clear user cache
     await cache.del(`user:${req.user!.id}`);
 
     // Log logout
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.user!.organizationId,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.user!.organizationId,
+        user_id: req.user!.id,
         action: 'user.logout',
-        resourceType: 'user',
-        resourceId: req.user!.id,
-        ipAddress: req.ip,
-        userAgent: req.get('user-agent'),
+        resource_type: 'user',
+        resource_id: req.user!.id,
+        details: {} as Prisma.InputJsonValue,
+        ip_address: req.ip,
+        user_agent: req.get('user-agent') || undefined,
       },
     });
 
@@ -389,7 +401,7 @@ router.post('/forgot-password', async (req: Request, res: Response, next: NextFu
   try {
     const { email } = z.object({ email: z.string().email() }).parse(req.body);
 
-    const user = await prisma.user.findUnique({
+    const user = await prisma.users.findUnique({
       where: { email: email.toLowerCase() },
     });
 
@@ -406,16 +418,17 @@ router.post('/forgot-password', async (req: Request, res: Response, next: NextFu
     const resetToken = crypto.randomBytes(32).toString('hex');
 
     // Delete any existing reset tokens for this user
-    await prisma.passwordReset.deleteMany({
-      where: { userId: user.id },
+    await prisma.password_resets.deleteMany({
+      where: { user_id: user.id },
     });
 
     // Create new password reset entry
-    await prisma.passwordReset.create({
+    await prisma.password_resets.create({
       data: {
-        userId: user.id,
+        id: crypto.randomUUID(),
+        user_id: user.id,
         token: resetToken,
-        expiresAt: new Date(Date.now() + 60 * 60 * 1000), // 1 hour
+        expires_at: new Date(Date.now() + 60 * 60 * 1000), // 1 hour
       },
     });
 
@@ -444,7 +457,7 @@ router.post('/reset-password', async (req: Request, res: Response, next: NextFun
     }).parse(req.body);
 
     // Find the reset token
-    const passwordReset = await prisma.passwordReset.findUnique({
+    const passwordReset = await prisma.password_resets.findUnique({
       where: { token },
     });
 
@@ -453,19 +466,19 @@ router.post('/reset-password', async (req: Request, res: Response, next: NextFun
     }
 
     // Check if token is expired
-    if (passwordReset.expiresAt < new Date()) {
-      await prisma.passwordReset.delete({ where: { id: passwordReset.id } });
+    if (passwordReset.expires_at < new Date()) {
+      await prisma.password_resets.delete({ where: { id: passwordReset.id } });
       throw errors.badRequest('Reset token has expired');
     }
 
     // Check if token was already used
-    if (passwordReset.usedAt) {
+    if (passwordReset.used_at) {
       throw errors.badRequest('Reset token has already been used');
     }
 
     // Get user
-    const user = await prisma.user.findUnique({
-      where: { id: passwordReset.userId },
+    const user = await prisma.users.findUnique({
+      where: { id: passwordReset.user_id },
     });
 
     if (!user) {
@@ -476,16 +489,16 @@ router.post('/reset-password', async (req: Request, res: Response, next: NextFun
     const passwordHash = await bcrypt.hash(password, 12);
     
     await prisma.$transaction([
-      prisma.user.update({
+      prisma.users.update({
         where: { id: user.id },
-        data: { passwordHash },
+        data: { password_hash: passwordHash },
       }),
-      prisma.passwordReset.update({
+      prisma.password_resets.update({
         where: { id: passwordReset.id },
-        data: { usedAt: new Date() },
+        data: { used_at: new Date() },
       }),
-      prisma.session.deleteMany({
-        where: { userId: user.id },
+      prisma.sessions.deleteMany({
+        where: { user_id: user.id },
       }),
     ]);
 
@@ -509,7 +522,7 @@ router.post('/verify-email', async (req: Request, res: Response, next: NextFunct
     const { token } = z.object({ token: z.string().min(1) }).parse(req.body);
 
     // Find the verification token
-    const verification = await prisma.emailVerification.findUnique({
+    const verification = await prisma.email_verifications.findUnique({
       where: { token },
     });
 
@@ -518,14 +531,14 @@ router.post('/verify-email', async (req: Request, res: Response, next: NextFunct
     }
 
     // Check if token is expired
-    if (verification.expiresAt < new Date()) {
-      await prisma.emailVerification.delete({ where: { id: verification.id } });
+    if (verification.expires_at < new Date()) {
+      await prisma.email_verifications.delete({ where: { id: verification.id } });
       throw errors.badRequest('Verification token has expired');
     }
 
     // Get user and mark as verified
-    const user = await prisma.user.findUnique({
-      where: { id: verification.userId },
+    const user = await prisma.users.findUnique({
+      where: { id: verification.user_id },
     });
 
     if (!user) {
@@ -534,14 +547,14 @@ router.post('/verify-email', async (req: Request, res: Response, next: NextFunct
 
     // Update user and delete verification token
     await prisma.$transaction([
-      prisma.user.update({
+      prisma.users.update({
         where: { id: user.id },
         data: {
-          emailVerified: true,
-          emailVerifiedAt: new Date(),
+          email_verified: true,
+          email_verified_at: new Date(),
         },
       }),
-      prisma.emailVerification.delete({
+      prisma.email_verifications.delete({
         where: { id: verification.id },
       }),
     ]);
@@ -577,18 +590,19 @@ router.post('/resend-verification', authenticate, async (req: Request, res: Resp
     }
 
     // Delete existing verification token
-    await prisma.emailVerification.deleteMany({
-      where: { userId: user.id },
+    await prisma.email_verifications.deleteMany({
+      where: { user_id: user.id },
     });
 
     // Generate new verification token
     const verificationToken = crypto.randomBytes(32).toString('hex');
 
-    await prisma.emailVerification.create({
+    await prisma.email_verifications.create({
       data: {
-        userId: user.id,
+        id: crypto.randomUUID(),
+        user_id: user.id,
         token: verificationToken,
-        expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours
+        expires_at: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24 hours
       },
     });
 

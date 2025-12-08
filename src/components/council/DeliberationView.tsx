@@ -165,7 +165,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         const transcriptResponse = await councilApi.getDeliberationTranscript(deliberationId);
         if (transcriptResponse.success && transcriptResponse.data) {
           const allMessages: DeliberationMessage[] = [];
-          transcriptResponse.data.phases.forEach(phase => {
+          transcriptResponse.data.phases.forEach((phase: { phase: string; messages: DeliberationMessage[] }) => {
             allMessages.push(...phase.messages);
           });
           setMessages(allMessages);

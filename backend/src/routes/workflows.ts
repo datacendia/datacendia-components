@@ -1,5 +1,6 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
+import crypto from 'crypto';
 import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
 import { pubsub } from '../config/redis.js';
@@ -101,8 +102,11 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
     const data = workflowSchema.parse(req.body);
     const orgId = req.organizationId!;
 
+    const workflowId = crypto.randomUUID();
+
     const workflow = await prisma.workflows.create({
       data: {
+        id: workflowId,
         name: data.name,
         description: data.description,
         category: data.category,
@@ -110,17 +114,21 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
         definition: data.definition as Prisma.InputJsonValue,
         organization_id: orgId,
         status: 'DRAFT',
+        updated_at: new Date(),
       },
     });
 
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
+        id: crypto.randomUUID(),
         organization_id: orgId,
-        userId: req.user!.id,
+        user_id: req.user!.id,
         action: 'workflow.create',
-        resourceType: 'workflow',
-        resourceId: workflow.id,
-        details: { name: workflow.name },
+        resource_type: 'workflow',
+        resource_id: workflow.id,
+        details: { name: workflow.name } as Prisma.InputJsonValue,
+        ip_address: req.ip,
+        user_agent: req.get('user-agent') || undefined,
       },
     });
 
@@ -161,6 +169,7 @@ router.put('/:id', async (req: Request, res: Response, next: NextFunction) => {
         category: data.category,
         trigger: data.trigger as Prisma.InputJsonValue,
         definition: data.definition as Prisma.InputJsonValue,
+        updated_at: new Date(),
       },
     });
 
@@ -193,7 +202,7 @@ router.post('/:id/activate', async (req: Request, res: Response, next: NextFunct
 
     const updated = await prisma.workflows.update({
       where: { id: req.params.id },
-      data: { status: 'ACTIVE' },
+      data: { status: 'ACTIVE', updated_at: new Date() },
     });
 
     res.json({
@@ -226,11 +235,14 @@ router.post('/:id/execute', async (req: Request, res: Response, next: NextFuncti
     const { parameters = {}, async: isAsync = true } = req.body;
 
     // Create execution record
+    const executionId = crypto.randomUUID();
+
     const execution = await prisma.workflow_executions.create({
       data: {
+        id: executionId,
         workflow_id: workflow.id,
         status: 'PENDING',
-        parameters,
+        parameters: parameters as Prisma.InputJsonValue,
       },
     });
 
@@ -317,23 +329,31 @@ router.get('/executions/:executionId', async (req: Request, res: Response, next:
   try {
     const execution = await prisma.workflow_executions.findUnique({
       where: { id: req.params.executionId },
-      include: {
-        workflow: true,
-        nodeStates: true,
-      },
     });
 
     if (!execution) {
       throw errors.notFound('Execution');
     }
 
-    if (execution.workflow.organization_id !== req.organizationId) {
+    const workflow = await prisma.workflows.findUnique({
+      where: { id: execution.workflow_id },
+    });
+
+    if (!workflow || workflow.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
+    const nodeStates = await prisma.execution_nodes.findMany({
+      where: { execution_id: execution.id },
+    });
+
     res.json({
       success: true,
-      data: execution,
+      data: {
+        ...execution,
+        workflow,
+        nodeStates,
+      },
     });
   } catch (error) {
     next(error);
@@ -389,10 +409,11 @@ async function executeWorkflow(
 
       outputs[node.id] = result;
 
-      await prisma.executionNode.create({
+      await prisma.execution_nodes.create({
         data: {
-          executionId,
-          nodeId: node.id,
+          id: crypto.randomUUID(),
+          execution_id: executionId,
+          node_id: node.id,
           status: 'COMPLETED',
           input: parameters as Prisma.InputJsonValue,
           output: result as Prisma.InputJsonValue,

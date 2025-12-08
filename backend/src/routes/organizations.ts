@@ -2,6 +2,7 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
+import crypto from 'crypto';
 import { cache } from '../config/redis.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth, requireRole } from '../middleware/auth.js';
@@ -21,7 +22,7 @@ const updateOrgSchema = z.object({
  */
 router.get('/current', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const org = await prisma.organization.findUnique({
+    const org = await prisma.organizations.findUnique({
       where: { id: req.organizationId! },
     });
 
@@ -36,9 +37,9 @@ router.get('/current', async (req: Request, res: Response, next: NextFunction) =
         name: org.name,
         slug: org.slug,
         industry: org.industry,
-        companySize: org.companySize,
+        companySize: org.company_size,
         settings: org.settings,
-        createdAt: org.createdAt,
+        createdAt: org.created_at,
       },
     });
   } catch (error) {
@@ -54,7 +55,7 @@ router.put('/current', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request,
   try {
     const data = updateOrgSchema.parse(req.body);
 
-    const updated = await prisma.organization.update({
+    const updated = await prisma.organizations.update({
       where: { id: req.organizationId! },
       data: {
         name: data.name,
@@ -63,13 +64,14 @@ router.put('/current', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request,
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId!,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId!,
+        user_id: req.user!.id,
         action: 'organization.update',
-        resourceType: 'organization',
-        resourceId: req.organizationId!,
+        resource_type: 'organization',
+        resource_id: req.organizationId!,
         details: data as Prisma.InputJsonValue,
       },
     });
@@ -94,11 +96,11 @@ router.put('/current', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request,
  */
 router.get('/current/teams', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const teams = await prisma.team.findMany({
-      where: { organizationId: req.organizationId! },
+    const teams = await prisma.teams.findMany({
+      where: { organization_id: req.organizationId! },
       include: {
         _count: {
-          select: { members: true },
+          select: { team_members: true },
         },
       },
       orderBy: { name: 'asc' },
@@ -110,8 +112,8 @@ router.get('/current/teams', async (req: Request, res: Response, next: NextFunct
         id: t.id,
         name: t.name,
         description: t.description,
-        memberCount: t._count.members,
-        createdAt: t.createdAt,
+        memberCount: t._count.team_members,
+        createdAt: t.created_at,
       })),
     });
   } catch (error) {
@@ -130,11 +132,13 @@ router.post('/current/teams', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: R
       description: z.string().optional(),
     }).parse(req.body);
 
-    const team = await prisma.team.create({
+    const team = await prisma.teams.create({
       data: {
-        organizationId: req.organizationId!,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId!,
         name,
         description,
+        updated_at: new Date(),
       },
     });
 
@@ -157,16 +161,16 @@ router.get('/current/activity', async (req: Request, res: Response, next: NextFu
     const pageSize = parseInt(req.query.pageSize as string) || 50;
 
     const [logs, total] = await Promise.all([
-      prisma.auditLog.findMany({
-        where: { organizationId: req.organizationId! },
+      prisma.audit_logs.findMany({
+        where: { organization_id: req.organizationId! },
         include: {
-          user: { select: { id: true, name: true, email: true } },
+          users: { select: { id: true, name: true, email: true } },
         },
-        orderBy: { createdAt: 'desc' },
+        orderBy: { created_at: 'desc' },
         skip: (page - 1) * pageSize,
         take: pageSize,
       }),
-      prisma.auditLog.count({ where: { organizationId: req.organizationId! } }),
+      prisma.audit_logs.count({ where: { organization_id: req.organizationId! } }),
     ]);
 
     res.json({
@@ -174,11 +178,11 @@ router.get('/current/activity', async (req: Request, res: Response, next: NextFu
       data: logs.map(l => ({
         id: l.id,
         action: l.action,
-        resourceType: l.resourceType,
-        resourceId: l.resourceId,
+        resourceType: l.resource_type,
+        resourceId: l.resource_id,
         details: l.details,
-        user: l.user,
-        createdAt: l.createdAt,
+        user: l.users,
+        createdAt: l.created_at,
       })),
       meta: {
         page,

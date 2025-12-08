@@ -5,6 +5,8 @@
 
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
+import { api } from '../lib/api';
+import { setCurrentDataSourceId } from '../lib/api/client';
 
 // =============================================================================
 // TYPES
@@ -102,37 +104,26 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     const loadDataSources = async () => {
       setIsLoading(true);
       try {
-        // Fetch from API
-        const token = localStorage.getItem('accessToken');
-        const headers: Record<string, string> = {};
-        if (token) {
-          headers['Authorization'] = `Bearer ${token}`;
-        }
-        const response = await fetch('/api/v1/data-sources', {
-          headers,
-        });
-        
-        if (response.ok) {
-          const data = await response.json();
-          if (data.success && data.data) {
-            // Map API response to frontend format
-            const mapped = data.data.map((ds: any) => ({
-              id: ds.id,
-              name: ds.name,
-              type: ds.type,
-              status: ds.status?.toLowerCase() as DataSource['status'],
-              lastSyncAt: ds.lastSyncAt,
-              recordCount: ds.metadata?.rows || ds.metadata?.records,
-              metadata: ds.metadata,
-            }));
-            setDataSources(mapped);
-            
-            // Auto-select first connected source if none selected
-            if (!selectedDataSource) {
-              const connected = mapped.find((ds: DataSource) => ds.status === 'connected');
-              if (connected) {
-                setSelectedDataSource(connected);
-              }
+        // Fetch from API via shared client so auth and data-source header are consistent
+        const res = await api.get<any[]>('/data-sources');
+        if (res.success && res.data) {
+          // Map API response to frontend format
+          const mapped = res.data.map((ds: any) => ({
+            id: ds.id,
+            name: ds.name,
+            type: ds.type,
+            status: (ds.status?.toLowerCase() as DataSource['status']) ?? 'pending',
+            lastSyncAt: ds.lastSyncAt ?? ds.last_sync_at,
+            recordCount: ds.metadata?.rows || ds.metadata?.records,
+            metadata: ds.metadata,
+          }));
+          setDataSources(mapped);
+          
+          // Auto-select first connected source if none selected
+          if (!selectedDataSource) {
+            const connected = mapped.find((ds: DataSource) => ds.status === 'connected');
+            if (connected) {
+              setSelectedDataSource(connected);
             }
           }
         }
@@ -172,6 +163,11 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       }
     }
   }, [dataSources, location.search]);
+
+  // Sync selected data source with API client header helper
+  useEffect(() => {
+    setCurrentDataSourceId(selectedDataSource ? selectedDataSource.id : null);
+  }, [selectedDataSource]);
 
   // Select data source
   const selectDataSource = useCallback((source: DataSource | null) => {

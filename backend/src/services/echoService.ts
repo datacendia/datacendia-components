@@ -8,7 +8,7 @@
 
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
-import { ollamaService } from './ollamaService.js';
+import ollama from './ollama.js';
 
 // =============================================================================
 // TYPES
@@ -118,7 +118,7 @@ class EchoService {
       const deliberation = await prisma.deliberations.findUnique({
         where: { id: deliberationId },
         include: {
-          votes: true,
+          deliberation_votes: true,
         },
       });
 
@@ -176,7 +176,7 @@ class EchoService {
 
       // Get voting pattern
       const votingPattern: Record<string, 'approve' | 'reject' | 'abstain'> = {};
-      for (const vote of deliberation.votes) {
+      for (const vote of deliberation.deliberation_votes) {
         votingPattern[vote.agent_role] = vote.vote as 'approve' | 'reject' | 'abstain';
       }
 
@@ -198,7 +198,7 @@ class EchoService {
           status: status,
           confidence_score: confidenceScore,
           council_mode: deliberation.mode || 'standard',
-          participating_agents: deliberation.votes.map(v => v.agent_role),
+          participating_agents: deliberation.deliberation_votes.map(v => v.agent_role),
           voting_pattern: votingPattern as any,
           notes: outcomeData.notes,
         },
@@ -228,7 +228,7 @@ class EchoService {
         status,
         confidenceScore,
         councilMode: deliberation.mode || 'standard',
-        participatingAgents: deliberation.votes.map(v => v.agent_role),
+        participatingAgents: deliberation.deliberation_votes.map(v => v.agent_role),
         votingPattern,
         patterns,
         weightAdjustments,
@@ -414,7 +414,7 @@ class EchoService {
 
     const deliberation = await prisma.deliberations.findUnique({
       where: { id: deliberationId },
-      include: { votes: true },
+      include: { deliberation_votes: true },
     });
 
     return {
@@ -456,11 +456,11 @@ class EchoService {
 
     const deliberation = await prisma.deliberations.findUnique({
       where: { id: deliberationId },
-      include: { votes: true },
+      include: { deliberation_votes: true },
     });
 
     // Generate report using AI
-    const isOllamaAvailable = await ollamaService.checkAvailability();
+    const isOllamaAvailable = await ollama.isAvailable();
     let summary = '';
 
     if (isOllamaAvailable) {
@@ -478,7 +478,7 @@ ${JSON.stringify(outcome.predictions, null, 2)}
 
 Provide a 3-4 sentence executive summary suitable for board presentation.`;
 
-      const response = await ollamaService.chat([{ role: 'user', content: prompt }]);
+      const response = await ollama.chat([{ role: 'user', content: prompt }]);
       summary = response.content;
     } else {
       summary = `Decision "${outcome.decisionTitle}" resulted in a ${outcome.status} outcome with ` +
@@ -576,16 +576,14 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
   ): Promise<AgentWeightAdjustment[]> {
     const adjustments: AgentWeightAdjustment[] = [];
 
-    // Get current agent weights
-    const agents = await prisma.agents.findMany({
-      where: { organization_id: organizationId },
-    });
+    // Get current agent weights (global agents table)
+    const agents = await prisma.agents.findMany();
 
-    for (const vote of deliberation.votes) {
+    for (const vote of deliberation.deliberation_votes) {
       const agent = agents.find(a => a.role === vote.agent_role);
       if (!agent) { continue; }
 
-      const currentWeight = (agent.config as any)?.weight || 1.0;
+      const currentWeight = (agent.model_config as any)?.weight || 1.0;
       let adjustment = 0;
 
       // Bayesian-style weight adjustment
@@ -610,8 +608,8 @@ Provide a 3-4 sentence executive summary suitable for board presentation.`;
         await prisma.agents.update({
           where: { id: agent.id },
           data: {
-            config: {
-              ...(agent.config as any),
+            model_config: {
+              ...(agent.model_config as any),
               weight: newWeight,
             },
           },

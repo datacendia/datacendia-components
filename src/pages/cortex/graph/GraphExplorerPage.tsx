@@ -286,25 +286,13 @@ export const GraphExplorerPage: React.FC = () => {
           // Load full graph (nodes + relationships)
           const graphRes = await graphApi.getEntities({ pageSize: 100 });
           if (graphRes.success && graphRes.data) {
-            const graphNodes: GraphNode[] = (graphRes.data as any[]).map((raw) => {
-              const props = (raw.properties || raw || {}) as any;
-
-              const id = String(
-                props.id ?? raw.id ?? raw.elementId ?? `node-${Math.random().toString(36).slice(2)}`
-              );
-
-              const rawType = (props.type ?? raw.type ?? (Array.isArray(raw.labels) ? raw.labels[0] : 'entity')) as string;
-              const type = (rawType || 'entity').toString().toLowerCase();
-
-              const name = (props.name ?? props.table ?? id ?? 'Unnamed') as string;
-
-              return {
-                id,
-                type,
-                name,
-                properties: props,
-              } as GraphNode;
-            });
+            const entities = graphRes.data as GraphEntity[];
+            const graphNodes: GraphNode[] = entities.map((e) => ({
+              id: e.id,
+              type: e.type,
+              name: e.name,
+              properties: e.properties,
+            }));
 
             setNodes(graphNodes);
 

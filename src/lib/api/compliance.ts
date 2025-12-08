@@ -3,7 +3,9 @@
  * Five Rings of Sovereignty - Frontend API
  */
 
-const API_BASE = '/api/v1/compliance';
+import { api } from './client';
+
+const API_BASE = '/compliance';
 
 export type ComplianceDomain = 'ethical_ai' | 'cybersecurity' | 'privacy' | 'governance' | 'industry';
 export type PillarId = 'helm' | 'lineage' | 'predict' | 'flow' | 'health' | 'guard' | 'ethics' | 'agents';
@@ -31,6 +33,22 @@ export interface Ring {
   description: string;
   frameworks: ComplianceFramework[];
   totalControls: number;
+}
+
+export interface ComplianceSummary {
+  overallScore: number;
+  fiveRings: Ring[];
+  findings: {
+    total: number;
+    critical: number;
+    high: number;
+    medium: number;
+    low: number;
+    open: number;
+  };
+  assessments: {
+    total: number;
+  };
 }
 
 export interface ComplianceAssessment {
@@ -98,63 +116,56 @@ export interface ComplianceBundle {
 export const complianceApi = {
   // Frameworks
   async getFrameworks(filters?: { domain?: ComplianceDomain; pillar?: PillarId; industry?: string }) {
-    const params = new URLSearchParams();
-    if (filters?.domain) {params.set('domain', filters.domain);}
-    if (filters?.pillar) {params.set('pillar', filters.pillar);}
-    if (filters?.industry) {params.set('industry', filters.industry);}
+    const params: Record<string, string> = {};
+    if (filters?.domain) {params.domain = filters.domain;}
+    if (filters?.pillar) {params.pillar = filters.pillar;}
+    if (filters?.industry) {params.industry = filters.industry;}
     
-    const res = await fetch(`${API_BASE}/frameworks?${params}`);
-    return res.json();
+    return api.get<ComplianceFramework[]>(`${API_BASE}/frameworks`, params);
   },
 
   async getFramework(id: string) {
-    const res = await fetch(`${API_BASE}/frameworks/${id}`);
-    return res.json();
+    return api.get<ComplianceFramework>(`${API_BASE}/frameworks/${id}`);
   },
 
   // Five Rings
   async getFiveRings() {
-    const res = await fetch(`${API_BASE}/five-rings`);
-    return res.json();
+    return api.get<{ rings: Ring[] }>(`${API_BASE}/five-rings`);
   },
 
   // Pillar Mapping
   async getPillarMapping(pillarId: PillarId) {
-    const res = await fetch(`${API_BASE}/pillars/${pillarId}/mapping`);
-    return res.json();
+    return api.get<unknown>(`${API_BASE}/pillars/${pillarId}/mapping`);
   },
 
   // Assessments
   async runPillarAssessment(organizationId: string, pillarId: PillarId, assessor: string) {
-    const res = await fetch(`${API_BASE}/assessments/pillar`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ organizationId, pillarId, assessor }),
+    return api.post<ComplianceAssessment>(`${API_BASE}/assessments/pillar`, {
+      organizationId,
+      pillarId,
+      assessor,
     });
-    return res.json();
   },
 
   async runFrameworkAssessment(organizationId: string, frameworkId: string, pillarId: PillarId, assessor: string) {
-    const res = await fetch(`${API_BASE}/assessments/framework`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ organizationId, frameworkId, pillarId, assessor }),
+    return api.post<ComplianceAssessment>(`${API_BASE}/assessments/framework`, {
+      organizationId,
+      frameworkId,
+      pillarId,
+      assessor,
     });
-    return res.json();
   },
 
   async getAssessment(id: string) {
-    const res = await fetch(`${API_BASE}/assessments/${id}`);
-    return res.json();
+    return api.get<ComplianceAssessment>(`${API_BASE}/assessments/${id}`);
   },
 
   async getAssessments(organizationId: string, filters?: { domain?: ComplianceDomain; pillarId?: PillarId }) {
-    const params = new URLSearchParams({ organizationId });
-    if (filters?.domain) {params.set('domain', filters.domain);}
-    if (filters?.pillarId) {params.set('pillarId', filters.pillarId);}
+    const params: Record<string, string> = { organizationId };
+    if (filters?.domain) {params.domain = filters.domain;}
+    if (filters?.pillarId) {params.pillarId = filters.pillarId;}
     
-    const res = await fetch(`${API_BASE}/assessments?${params}`);
-    return res.json();
+    return api.get<ComplianceAssessment[]>(`${API_BASE}/assessments`, params);
   },
 
   // Bundles
@@ -165,33 +176,24 @@ export const complianceApi = {
     pillars?: PillarId[];
     domains?: ComplianceDomain[];
   }) {
-    const res = await fetch(`${API_BASE}/bundles/generate`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(options),
-    });
-    return res.json();
+    return api.post<ComplianceBundle>(`${API_BASE}/bundles/generate`, options);
   },
 
   async getBundle(id: string) {
-    const res = await fetch(`${API_BASE}/bundles/${id}`);
-    return res.json();
+    return api.get<ComplianceBundle>(`${API_BASE}/bundles/${id}`);
   },
 
   async downloadBundle(id: string) {
-    const res = await fetch(`${API_BASE}/bundles/${id}/download`);
-    return res.json();
+    return api.get<unknown>(`${API_BASE}/bundles/${id}/download`);
   },
 
   async getBundleFile(bundleId: string, filePath: string) {
-    const res = await fetch(`${API_BASE}/bundles/${bundleId}/files/${filePath}`);
-    return res.json();
+    return api.get<unknown>(`${API_BASE}/bundles/${bundleId}/files/${filePath}`);
   },
 
   // Summary
   async getSummary(organizationId: string) {
-    const res = await fetch(`${API_BASE}/summary?organizationId=${organizationId}`);
-    return res.json();
+    return api.get<ComplianceSummary>(`${API_BASE}/summary`, { organizationId });
   },
 
   // ========================================
@@ -199,12 +201,12 @@ export const complianceApi = {
   // ========================================
 
   async enforce(agentId: string, action: string, description: string, dataTypes?: string[]) {
-    const res = await fetch(`${API_BASE}/enforce`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ agentId, action, description, dataTypes }),
+    return api.post<unknown>(`${API_BASE}/enforce`, {
+      agentId,
+      action,
+      description,
+      dataTypes,
     });
-    return res.json();
   },
 
   async checkCompliance(context: {
@@ -215,20 +217,14 @@ export const complianceApi = {
     userId?: string;
     agentId?: string;
   }) {
-    const res = await fetch(`${API_BASE}/check`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(context),
-    });
-    return res.json();
+    return api.post<unknown>(`${API_BASE}/check`, context);
   },
 
   async getRules(filters?: { domain?: ComplianceDomain; framework?: string }) {
-    const params = new URLSearchParams();
-    if (filters?.domain) {params.set('domain', filters.domain);}
-    if (filters?.framework) {params.set('framework', filters.framework);}
-    const res = await fetch(`${API_BASE}/rules?${params}`);
-    return res.json();
+    const params: Record<string, string> = {};
+    if (filters?.domain) {params.domain = filters.domain;}
+    if (filters?.framework) {params.framework = filters.framework;}
+    return api.get<unknown>(`${API_BASE}/rules`, params);
   },
 
   // ========================================
@@ -245,22 +241,15 @@ export const complianceApi = {
     affectedData?: string[];
     rationale?: string;
   }) {
-    const res = await fetch(`${API_BASE}/council/evaluate`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(proposal),
-    });
-    return res.json();
+    return api.post<unknown>(`${API_BASE}/council/evaluate`, proposal);
   },
 
   async getCouncilHistory(limit = 100) {
-    const res = await fetch(`${API_BASE}/council/history?limit=${limit}`);
-    return res.json();
+    return api.get<unknown>(`${API_BASE}/council/history`, { limit });
   },
 
   async getCouncilStatistics() {
-    const res = await fetch(`${API_BASE}/council/statistics`);
-    return res.json();
+    return api.get<unknown>(`${API_BASE}/council/statistics`);
   },
 };
 

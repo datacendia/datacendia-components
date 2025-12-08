@@ -4,7 +4,7 @@
 // Enterprise Platinum Intelligence - PostgreSQL Persistent Storage
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, Prisma } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 
 const prisma = new PrismaClient();
@@ -146,7 +146,7 @@ export class LineageService extends BaseService {
         quality_score: entity.qualityScore,
         quality_level: qualityLevelMap[qualityLevel] as any,
         record_count: entity.recordCount,
-        metadata: entity.metadata || {},
+        metadata: (entity.metadata as unknown as Prisma.InputJsonValue) || {},
       },
     });
 
@@ -178,7 +178,9 @@ export class LineageService extends BaseService {
       data.quality_level = qualityLevelMap[this.scoreToLevel(updates.qualityScore)] as any;
     }
     if (updates.recordCount !== undefined) data.record_count = updates.recordCount;
-    if (updates.metadata) data.metadata = updates.metadata;
+    if (updates.metadata) {
+      data.metadata = updates.metadata as unknown as Prisma.InputJsonValue;
+    }
 
     const updated = await prisma.lineage_entities.update({
       where: { id: entityId },
@@ -323,22 +325,35 @@ export class LineageService extends BaseService {
       });
     }
 
-    // Store report in database
-    await prisma.data_quality_reports.upsert({
+    // Store report in database (manual upsert by entity_id)
+    const existingReport = await prisma.data_quality_reports.findFirst({
       where: { entity_id: entityId },
-      update: {
-        overall_score: overallScore,
-        completeness, accuracy, consistency, timeliness, validity,
-        issues: issues as any,
-        checked_at: new Date(),
-      },
-      create: {
-        entity_id: entityId,
-        overall_score: overallScore,
-        completeness, accuracy, consistency, timeliness, validity,
-        issues: issues as any,
-      },
     });
+
+    const data = {
+      overall_score: overallScore,
+      completeness,
+      accuracy,
+      consistency,
+      timeliness,
+      validity,
+      issues: issues as unknown as Prisma.InputJsonValue,
+      checked_at: new Date(),
+    };
+
+    if (existingReport) {
+      await prisma.data_quality_reports.update({
+        where: { id: existingReport.id },
+        data,
+      });
+    } else {
+      await prisma.data_quality_reports.create({
+        data: {
+          entity_id: entityId,
+          ...data,
+        },
+      });
+    }
 
     return {
       entityId,

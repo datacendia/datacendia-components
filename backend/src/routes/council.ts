@@ -2,6 +2,7 @@ import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
 import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
+import crypto from 'crypto';
 import { cache, pubsub } from '../config/redis.js';
 import { graph } from '../config/neo4j.js';
 import { ollama } from '../services/ollama.js';
@@ -378,8 +379,8 @@ function getLanguageInstruction(langCode: string): string {
  */
 router.get('/agents', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const agents = await prisma.agent.findMany({
-      where: { isActive: true },
+    const agents = await prisma.agents.findMany({
+      where: { is_active: true },
       orderBy: { name: 'asc' },
     });
 
@@ -389,7 +390,16 @@ router.get('/agents', async (req: Request, res: Response, next: NextFunction) =>
     res.json({
       success: true,
       data: agents.map(agent => ({
-        ...agent,
+        id: agent.id,
+        code: agent.code,
+        name: agent.name,
+        role: agent.role,
+        description: agent.description,
+        avatarUrl: agent.avatar_url,
+        systemPrompt: agent.system_prompt,
+        capabilities: agent.capabilities,
+        constraints: agent.constraints,
+        isActive: agent.is_active,
         status: ollamaAvailable ? 'online' : 'offline',
       })),
     });
@@ -410,10 +420,11 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
     const userId = req.user!.id;
 
     // Create query record
-    const councilQuery = await prisma.councilQuery.create({
+    const councilQuery = await prisma.council_queries.create({
       data: {
+        id: crypto.randomUUID(),
         organization_id: orgId,
-        userId,
+        user_id: userId,
         query,
         context: (context || {}) as Prisma.InputJsonValue,
         status: 'PROCESSING',
@@ -434,7 +445,7 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
         const systemPrompt = AGENT_PROMPTS[agentCode];
         if (!systemPrompt) return null;
 
-        const agent = await prisma.agent.findUnique({ where: { code: agentCode } });
+        const agent = await prisma.agents.findUnique({ where: { code: agentCode } });
         if (!agent) return null;
 
         // Get the model for this agent
@@ -457,10 +468,11 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
           });
 
           // Save agent response
-          const savedResponse = await prisma.agentQueryResponse.create({
+          await prisma.agent_query_responses.create({
             data: {
-              queryId: councilQuery.id,
-              agentId: agent.id,
+              id: crypto.randomUUID(),
+              query_id: councilQuery.id,
+              agent_id: agent.id,
               analysis: response.content,
               sources: (graphContext.sources || []) as Prisma.InputJsonValue,
               confidence: 0.85, // Would be calculated from model response
@@ -508,7 +520,7 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
     const processingTime = Date.now() - startTime;
 
     // Update query record
-    await prisma.councilQuery.update({
+    await prisma.council_queries.update({
       where: { id: councilQuery.id },
       data: {
         status: 'COMPLETED',
@@ -517,8 +529,8 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
           agents: validResponses,
         })) as Prisma.InputJsonValue,
         confidence: validResponses.reduce((acc, r) => acc + (r?.confidence || 0), 0) / validResponses.length,
-        processingTime,
-        completedAt: new Date(),
+        processing_time: processingTime,
+        completed_at: new Date(),
       },
     });
 
@@ -599,10 +611,11 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
     logger.info(`Query classified as: ${classification.type} (${classification.complexity}) - suggested: ${classification.suggestedModel}`);
 
     // Create query record
-    const councilQuery = await prisma.councilQuery.create({
+    const councilQuery = await prisma.council_queries.create({
       data: {
+        id: crypto.randomUUID(),
         organization_id: orgId,
-        userId,
+        user_id: userId,
         query,
         context: JSON.parse(JSON.stringify({
           ...(context || {}),
@@ -625,7 +638,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
         const systemPrompt = AGENT_PROMPTS[agentCode];
         if (!systemPrompt) return null;
 
-        const agent = await prisma.agent.findUnique({ where: { code: agentCode } });
+        const agent = await prisma.agents.findUnique({ where: { code: agentCode } });
         if (!agent) return null;
 
         const agentStartTime = Date.now();
@@ -664,10 +677,11 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
           }
 
           // Save agent response
-          await prisma.agentQueryResponse.create({
+          await prisma.agent_query_responses.create({
             data: {
-              queryId: councilQuery.id,
-              agentId: agent.id,
+              id: crypto.randomUUID(),
+              query_id: councilQuery.id,
+              agent_id: agent.id,
               analysis: response,
               sources: (graphContext.sources || []) as Prisma.InputJsonValue,
               confidence: 0.85,
@@ -725,7 +739,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
     const processingTime = Date.now() - startTime;
 
     // Update query record
-    await prisma.councilQuery.update({
+    await prisma.council_queries.update({
       where: { id: councilQuery.id },
       data: {
         status: 'COMPLETED',
@@ -736,8 +750,8 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
           enhancements: { useRAG, useCache, useChainOfThought, useEnsemble },
         })) as Prisma.InputJsonValue,
         confidence: validResponses.reduce((acc, r) => acc + (r?.confidence || 0), 0) / validResponses.length,
-        processingTime,
-        completedAt: new Date(),
+        processing_time: processingTime,
+        completed_at: new Date(),
       },
     });
 
@@ -783,15 +797,16 @@ router.post('/deliberations', async (req: Request, res: Response, next: NextFunc
     const orgId = req.organizationId!;
 
     // Create deliberation record
-    const deliberation = await prisma.deliberation.create({
+    const deliberation = await prisma.deliberations.create({
       data: {
+        id: crypto.randomUUID(),
         organization_id: orgId,
         question,
-        config: config || {},
+        config: (config || {}) as Prisma.InputJsonValue,
         status: 'IN_PROGRESS',
-        currentPhase: 'initial_analysis',
+        current_phase: 'initial_analysis',
         progress: 0,
-        startedAt: new Date(),
+        started_at: new Date(),
       },
     });
 
@@ -820,11 +835,11 @@ router.post('/deliberations', async (req: Request, res: Response, next: NextFunc
  */
 router.get('/deliberations/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const deliberation = await prisma.deliberation.findUnique({
+    const deliberation = await prisma.deliberations.findUnique({
       where: { id: req.params.id },
       include: {
-        messages: {
-          include: { agent: true },
+        deliberation_messages: {
+          include: { agents: true },
           orderBy: { created_at: 'asc' },
         },
       },
@@ -834,7 +849,7 @@ router.get('/deliberations/:id', async (req: Request, res: Response, next: NextF
       throw errors.notFound('Deliberation');
     }
 
-    if (deliberation.organizationId !== req.organizationId) {
+    if (deliberation.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -853,9 +868,9 @@ router.get('/deliberations/:id', async (req: Request, res: Response, next: NextF
  */
 router.get('/deliberations/:id/transcript', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const messages = await prisma.deliberationMessage.findMany({
-      where: { deliberationId: req.params.id },
-      include: { agent: true },
+    const messages = await prisma.deliberation_messages.findMany({
+      where: { deliberation_id: req.params.id },
+      include: { agents: true },
       orderBy: { created_at: 'asc' },
     });
 
@@ -867,15 +882,15 @@ router.get('/deliberations/:id/transcript', async (req: Request, res: Response, 
       acc[msg.phase].push({
         id: msg.id,
         agent: {
-          id: msg.agent.id,
-          code: msg.agent.code,
-          name: msg.agent.name,
+          id: msg.agents.id,
+          code: msg.agents.code,
+          name: msg.agents.name,
         },
         content: msg.content,
-        targetAgentId: msg.targetAgentId,
+        targetAgentId: msg.target_agent_id,
         sources: msg.sources,
         confidence: msg.confidence,
-        timestamp: msg.createdAt,
+        timestamp: msg.created_at,
       });
       return acc;
     }, {} as Record<string, unknown[]>);
@@ -891,20 +906,25 @@ router.get('/deliberations/:id/transcript', async (req: Request, res: Response, 
     next(error);
   }
 });
-
 /**
  * GET /api/v1/council/decisions/recent
  * Get recent council decisions
  */
 router.get('/decisions/recent', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const queries = await prisma.councilQuery.findMany({
+    const queries = await prisma.council_queries.findMany({
       where: {
         organization_id: req.organizationId!,
         status: 'COMPLETED',
       },
-      orderBy: { completedAt: 'desc' },
+      orderBy: { completed_at: 'desc' },
       take: 10,
+      select: {
+        id: true,
+        query: true,
+        confidence: true,
+        completed_at: true,
+      },
     });
 
     res.json({
@@ -913,7 +933,7 @@ router.get('/decisions/recent', async (req: Request, res: Response, next: NextFu
         id: q.id,
         query: q.query,
         confidence: q.confidence,
-        completedAt: q.completedAt,
+        completedAt: q.completed_at,
       })),
     });
   } catch (error) {
@@ -928,10 +948,10 @@ async function getRelevantContext(query: string, orgId: string) {
     const entities = await graph.searchEntities(query, undefined, 10);
     
     // Get recent metrics
-    const recentMetrics = await prisma.metricValue.findMany({
+    const recentMetrics = await prisma.metric_values.findMany({
       take: 20,
       orderBy: { timestamp: 'desc' },
-      include: { metric: true },
+      include: { metric_definitions: true },
     });
 
     // Get recent alerts
@@ -944,9 +964,9 @@ async function getRelevantContext(query: string, orgId: string) {
     return {
       entities: entities.slice(0, 5),
       metrics: recentMetrics.map(m => ({
-        name: m.metric.name,
+        name: m.metric_definitions.name,
         value: m.value,
-        unit: m.metric.unit,
+        unit: m.metric_definitions.unit,
         timestamp: m.timestamp,
       })),
       alerts: recentAlerts.map(a => ({
@@ -987,7 +1007,7 @@ async function processDeliberation(
     });
 
     for (const agentCode of agentCodes) {
-      const agent = await prisma.agent.findUnique({ where: { code: agentCode } });
+      const agent = await prisma.agents.findUnique({ where: { code: agentCode } });
       if (!agent) continue;
 
       const response = await ollama.chat([
@@ -995,10 +1015,11 @@ async function processDeliberation(
         { role: 'user', content: `Analyze this question from your domain perspective:\n\nContext: ${JSON.stringify(context)}\n\nQuestion: ${question}` },
       ]);
 
-      await prisma.deliberationMessage.create({
+      await prisma.deliberation_messages.create({
         data: {
-          deliberationId,
-          agentId: agent.id,
+          id: crypto.randomUUID(),
+          deliberation_id: deliberationId,
+          agent_id: agent.id,
           phase: 'initial_analysis',
           content: response.content,
           sources: (context.sources || []) as Prisma.InputJsonValue,
@@ -1016,9 +1037,9 @@ async function processDeliberation(
     }
 
     // Phase 2: Cross-examination
-    await prisma.deliberation.update({
+    await prisma.deliberations.update({
       where: { id: deliberationId },
-      data: { currentPhase: 'cross_examination', progress: 40 },
+      data: { current_phase: 'cross_examination', progress: 40 },
     });
 
     await pubsub.publish(`deliberation:${deliberationId}`, {
@@ -1028,31 +1049,32 @@ async function processDeliberation(
     });
 
     // Get initial messages for cross-examination
-    const initialMessages = await prisma.deliberationMessage.findMany({
-      where: { deliberationId, phase: 'initial_analysis' },
-      include: { agent: true },
+    const initialMessages = await prisma.deliberation_messages.findMany({
+      where: { deliberation_id: deliberationId, phase: 'initial_analysis' },
+      include: { agents: true },
     });
 
     // Each agent critiques one other agent
     for (let i = 0; i < agentCodes.length; i++) {
-      const critiqueAgent = await prisma.agent.findUnique({ where: { code: agentCodes[i] } });
+      const critiqueAgent = await prisma.agents.findUnique({ where: { code: agentCodes[i] } });
       const targetIdx = (i + 1) % agentCodes.length;
-      const targetMessage = initialMessages.find(m => m.agent.code === agentCodes[targetIdx]);
+      const targetMessage = initialMessages.find(m => m.agents.code === agentCodes[targetIdx]);
       
       if (!critiqueAgent || !targetMessage) continue;
 
       const critiqueResponse = await ollama.chat([
         { role: 'system', content: AGENT_PROMPTS[agentCodes[i]] || '' },
-        { role: 'user', content: `Review and critique this analysis from ${targetMessage.agent.name}:\n\n"${targetMessage.content}"\n\nProvide constructive critique from your domain perspective.` },
+        { role: 'user', content: `Review and critique this analysis from ${targetMessage.agents.name}:\n\n"${targetMessage.content}"\n\nProvide constructive critique from your domain perspective.` },
       ]);
 
-      await prisma.deliberationMessage.create({
+      await prisma.deliberation_messages.create({
         data: {
-          deliberationId,
-          agentId: critiqueAgent.id,
+          id: crypto.randomUUID(),
+          deliberation_id: deliberationId,
+          agent_id: critiqueAgent.id,
           phase: 'cross_examination',
           content: critiqueResponse.content,
-          targetAgentId: targetMessage.agentId,
+          target_agent_id: targetMessage.agent_id,
           confidence: 0.8,
         },
       });
@@ -1060,27 +1082,27 @@ async function processDeliberation(
       await pubsub.publish(`deliberation:${deliberationId}`, {
         type: 'agent_message',
         agentId: critiqueAgent.id,
-        targetAgentId: targetMessage.agentId,
+        targetAgentId: targetMessage.agent_id,
         content: critiqueResponse.content,
         phase: 'cross_examination',
       });
     }
 
     // Phase 3: Synthesis
-    await prisma.deliberation.update({
+    await prisma.deliberations.update({
       where: { id: deliberationId },
-      data: { currentPhase: 'synthesis', progress: 70 },
+      data: { current_phase: 'synthesis', progress: 70 },
     });
 
-    const allMessages = await prisma.deliberationMessage.findMany({
-      where: { deliberationId },
-      include: { agent: true },
+    const allMessages = await prisma.deliberation_messages.findMany({
+      where: { deliberation_id: deliberationId },
+      include: { agents: true },
     });
 
-    const chiefAgent = await prisma.agent.findUnique({ where: { code: 'chief' } });
+    const chiefAgent = await prisma.agents.findUnique({ where: { code: 'chief' } });
     if (chiefAgent) {
       const synthesisPrompt = `Synthesize these agent perspectives into a final recommendation:\n\n${
-        allMessages.map(m => `${m.agent.name} (${m.phase}): ${m.content}`).join('\n\n')
+        allMessages.map(m => `${m.agents.name} (${m.phase}): ${m.content}`).join('\n\n')
       }\n\nProvide: 1) Consensus points 2) Areas of disagreement 3) Final recommendation with confidence level`;
 
       const synthesisResponse = await ollama.chat([
@@ -1088,10 +1110,11 @@ async function processDeliberation(
         { role: 'user', content: synthesisPrompt },
       ]);
 
-      await prisma.deliberationMessage.create({
+      await prisma.deliberation_messages.create({
         data: {
-          deliberationId,
-          agentId: chiefAgent.id,
+          id: crypto.randomUUID(),
+          deliberation_id: deliberationId,
+          agent_id: chiefAgent.id,
           phase: 'synthesis',
           content: synthesisResponse.content,
           confidence: 0.82,
@@ -1100,13 +1123,13 @@ async function processDeliberation(
     }
 
     // Complete deliberation
-    await prisma.deliberation.update({
+    await prisma.deliberations.update({
       where: { id: deliberationId },
       data: {
         status: 'COMPLETED',
-        currentPhase: 'completed',
+        current_phase: 'completed',
         progress: 100,
-        completedAt: new Date(),
+        completed_at: new Date(),
         confidence: 0.82,
       },
     });
@@ -1118,7 +1141,7 @@ async function processDeliberation(
 
   } catch (error) {
     logger.error('Deliberation processing error:', error);
-    await prisma.deliberation.update({
+    await prisma.deliberations.update({
       where: { id: deliberationId },
       data: { status: 'CANCELLED' },
     });

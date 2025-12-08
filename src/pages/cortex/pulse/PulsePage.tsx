@@ -348,16 +348,25 @@ export const PulsePage: React.FC = () => {
       }
       
       if (systemsRes.success && systemsRes.data) {
-        setSystems(systemsRes.data.map((s, i) => ({
-          id: String(i + 1),
-          name: s.service,
-          status: s.status as 'online' | 'degraded' | 'offline',
-          latency: s.latency || 0,
-          uptime: 99.9, // Will be enhanced when uptime endpoint is added
-        })));
+        const systemsData = systemsRes.data as Array<{ name: string; status: string; latency: string | null }>;
+
+        setSystems(systemsData.map((s, i) => {
+          const latencyValue = s.latency ? parseInt(String(s.latency).replace('ms', ''), 10) : 0;
+          return {
+            id: String(i + 1),
+            name: s.name,
+            status: s.status as 'online' | 'degraded' | 'offline',
+            latency: latencyValue,
+            uptime: 99.9, // Will be enhanced when uptime endpoint is added
+          };
+        }));
         
         // Calculate average latency for display
-        const avgLatency = systemsRes.data.reduce((acc, s) => acc + (s.latency || 0), 0) / systemsRes.data.length;
+        const avgLatency = systemsData.reduce((acc, s) => {
+          const latencyValue = s.latency ? parseInt(String(s.latency).replace('ms', ''), 10) : 0;
+          return acc + latencyValue;
+        }, 0) / systemsData.length;
+
         setApiLatency(avgLatency);
         setLatencyHistory(prev => [...prev.slice(-9), avgLatency]);
       }

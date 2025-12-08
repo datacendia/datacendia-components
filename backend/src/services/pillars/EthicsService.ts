@@ -157,12 +157,13 @@ export class EthicsService extends BaseService {
     const created = await prisma.ethics_reviews.create({
       data: {
         organization_id: review.organizationId,
+        principle_id: principles[0]?.id || null,
         subject_type: review.decisionType,
         subject_id: review.decisionTitle,
-        requested_by: review.requestedBy,
+        subject_name: review.decisionTitle,
         reviewer: review.reviewer,
         status: 'PENDING' as any,
-        principles_checked: principles.map(p => p.id),
+        notes: review.requestedBy ? `Requested by: ${review.requestedBy}` : undefined,
       },
     });
 
@@ -175,7 +176,7 @@ export class EthicsService extends BaseService {
 
     const reviews = await prisma.ethics_reviews.findMany({
       where,
-      orderBy: { created_at: 'desc' },
+      orderBy: { submitted_at: 'desc' },
     });
 
     return reviews.map((r: any) => this.mapReview(r));
@@ -185,9 +186,10 @@ export class EthicsService extends BaseService {
     const updated = await prisma.ethics_reviews.update({
       where: { id: reviewId },
       data: {
-        status: resultMap[result] as any,
-        decided_at: new Date(),
-        findings: notes || '',
+        status: 'COMPLETED' as any,
+        result: result === 'pending' ? null as any : resultMap[result] as any,
+        completed_at: new Date(),
+        notes: notes || '',
         violations: violations || [],
       },
     });
@@ -217,19 +219,19 @@ export class EthicsService extends BaseService {
         model_id: modelId,
         model_name: modelName,
         overall_score: overallScore,
-        bias_types: biasTypes as any,
+        dimensions: biasTypes as any,
         recommendations: [],
       },
     });
 
     return {
       id: created.id,
-      organizationId: created.organizationId,
-      modelId: created.modelId,
-      modelName: created.modelName,
-      checkedAt: created.createdAt,
-      overallScore: created.overallScore,
-      biasTypes: (created.biasTypes as any) || [],
+      organizationId: created.organization_id,
+      modelId: created.model_id,
+      modelName: created.model_name,
+      checkedAt: created.checked_at || created.created_at,
+      overallScore: created.overall_score ?? 0,
+      biasTypes: (created.dimensions as any) || [],
       recommendations: (created.recommendations as string[]) || [],
     };
   }
@@ -242,12 +244,12 @@ export class EthicsService extends BaseService {
 
     return checks.map((c: any) => ({
       id: c.id,
-      organizationId: c.organizationId,
-      modelId: c.modelId,
-      modelName: c.modelName,
-      checkedAt: c.createdAt,
-      overallScore: c.overallScore,
-      biasTypes: (c.biasTypes as any) || [],
+      organizationId: c.organization_id,
+      modelId: c.model_id,
+      modelName: c.model_name,
+      checkedAt: c.checked_at || c.created_at,
+      overallScore: c.overall_score ?? 0,
+      biasTypes: (c.dimensions as any) || [],
       recommendations: (c.recommendations as string[]) || [],
     }));
   }
@@ -280,29 +282,29 @@ export class EthicsService extends BaseService {
   private mapPrinciple(p: any): EthicalPrinciple {
     return {
       id: p.id,
-      organizationId: p.organizationId,
+      organizationId: p.organization_id,
       name: p.name,
       description: p.description,
       category: p.category,
       status: reverseStatusMap[p.status] || 'draft',
       checksPerformed: 0,
-      lastCheck: p.updatedAt,
+      lastCheck: p.updated_at,
     };
   }
 
   private mapReview(r: any): EthicsReview {
     return {
       id: r.id,
-      organizationId: r.organizationId,
-      decisionType: r.subjectType,
-      decisionTitle: r.subjectId,
-      requestedBy: r.requestedBy || '',
-      requestedAt: r.createdAt,
+      organizationId: r.organization_id,
+      decisionType: r.subject_type,
+      decisionTitle: r.subject_name || r.subject_id,
+      requestedBy: r.reviewer || '',
+      requestedAt: r.submitted_at,
       reviewer: r.reviewer || '',
-      result: reverseResultMap[r.status] || 'pending',
-      decidedAt: r.decidedAt,
-      notes: r.findings,
-      principlesChecked: (r.principlesChecked as string[]) || [],
+      result: reverseResultMap[r.result || r.status] || 'pending',
+      decidedAt: r.completed_at || undefined,
+      notes: r.notes || '',
+      principlesChecked: r.principle_id ? [r.principle_id] : [],
       violations: (r.violations as string[]) || [],
     };
   }

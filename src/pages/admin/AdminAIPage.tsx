@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { cn } from '../../../lib/utils';
+import { api } from '../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -40,26 +41,26 @@ interface AIResponse {
 // API CALLS
 // =============================================================================
 
-const API_BASE = '/api/v1/admin/ai';
+const API_BASE = '/admin/ai';
 
 async function startSession(): Promise<{ sessionId: string; messages: Message[] }> {
-  const res = await fetch(`${API_BASE}/start`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({})
-  });
-  if (!res.ok) {throw new Error('Failed to start session');}
-  return res.json();
+  const res = await api.post<any>(`${API_BASE}/start`, {});
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to start session');
+  }
+  const data = payload.data ?? payload;
+  return data as { sessionId: string; messages: Message[] };
 }
 
 async function sendMessage(sessionId: string, message: string): Promise<AIResponse> {
-  const res = await fetch(`${API_BASE}/message`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ sessionId, message })
-  });
-  if (!res.ok) {throw new Error('Failed to send message');}
-  return res.json();
+  const res = await api.post<any>(`${API_BASE}/message`, { sessionId, message });
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to send message');
+  }
+  const data = payload.data ?? payload;
+  return data as AIResponse;
 }
 
 // =============================================================================

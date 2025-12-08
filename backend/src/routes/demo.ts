@@ -1,5 +1,6 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { z } from 'zod';
+import crypto from 'crypto';
 import { prisma } from '../config/database.js';
 import { logger } from '../utils/logger.js';
 
@@ -48,12 +49,12 @@ router.post('/demo-request', async (req: Request, res: Response, next: NextFunct
     }
 
     // Check for existing request
-    const existing = await prisma.demoRequest.findFirst({
+    const existing = await prisma.demo_requests.findFirst({
       where: { email: data.email.toLowerCase() },
-      orderBy: { createdAt: 'desc' },
+      orderBy: { created_at: 'desc' },
     });
 
-    if (existing && isRecent(existing.createdAt)) {
+    if (existing && isRecent(existing.created_at)) {
       return res.status(409).json({
         success: false,
         error: {
@@ -64,10 +65,19 @@ router.post('/demo-request', async (req: Request, res: Response, next: NextFunct
     }
 
     // Create demo request
-    const demoRequest = await prisma.demoRequest.create({
+    const demoRequest = await prisma.demo_requests.create({
       data: {
-        ...data,
+        id: crypto.randomUUID(),
+        first_name: data.firstName,
+        last_name: data.lastName,
         email: data.email.toLowerCase(),
+        company: data.company,
+        job_title: data.jobTitle,
+        company_size: data.companySize,
+        industry: data.industry,
+        primary_interest: data.primaryInterest,
+        additional_notes: data.additionalNotes,
+        marketing_consent: data.marketingConsent,
         status: 'new',
       },
     });

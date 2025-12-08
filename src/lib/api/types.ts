@@ -176,7 +176,14 @@ export interface CouncilQuery {
     followUpQuestions: string[];
   };
   processingTime?: number;
-  createdAt: string;
+  createdAt?: string;
+}
+
+export interface CouncilDecisionSummary {
+  id: string;
+  query: string;
+  confidence?: number;
+  completedAt?: string;
 }
 
 export interface Deliberation {

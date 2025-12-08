@@ -581,7 +581,7 @@ class CendiaCrucibleService {
       activeAlerts: alerts.length,
       activeWorkflows: workflows.filter(w => w.status === 'ACTIVE').length,
       dataSourceCount: dataSources.length,
-      healthScore: latestHealth?.overall_score || 0,
+      healthScore: latestHealth?.overall || 0,
     };
   }
 

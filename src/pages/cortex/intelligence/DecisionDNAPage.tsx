@@ -6,6 +6,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '../../../../lib/utils';
+import { api } from '../../../lib/api';
 
 interface DecisionEvent {
   id: string;
@@ -107,10 +108,10 @@ export const DecisionDNAPage: React.FC = () => {
 
   const loadDecisions = async () => {
     try {
-      const response = await fetch('/api/v1/decisions?organizationId=demo');
-      const data = await response.json();
-      if (data.success) {
-        setDecisions(data.decisions);
+      const res = await api.get<any>('/decisions', { organizationId: 'demo' });
+      const payload = res as any;
+      if (payload.success && payload.decisions) {
+        setDecisions(payload.decisions as DecisionSummary[]);
       }
     } catch (error) {
       console.error('Failed to load decisions:', error);
@@ -120,10 +121,10 @@ export const DecisionDNAPage: React.FC = () => {
   const loadDecision = async (id: string) => {
     setIsLoading(true);
     try {
-      const response = await fetch(`/api/v1/decisions/${id}`);
-      const data = await response.json();
-      if (data.success) {
-        setSelectedDecision(data.decision);
+      const res = await api.get<any>(`/decisions/${id}`);
+      const payload = res as any;
+      if (payload.success && payload.decision) {
+        setSelectedDecision(payload.decision as Decision);
         setReplayStep(0);
         setReplayMode(false);
       }
@@ -138,24 +139,20 @@ export const DecisionDNAPage: React.FC = () => {
     
     setIsCreating(true);
     try {
-      const response = await fetch('/api/v1/decisions', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          title: newTitle,
-          description: newDescription,
-          budget: newBudget ? parseFloat(newBudget) : undefined,
-          timeframe: newTimeframe || undefined,
-        }),
+      const res = await api.post<any>('/decisions', {
+        title: newTitle,
+        description: newDescription,
+        budget: newBudget ? parseFloat(newBudget) : undefined,
+        timeframe: newTimeframe || undefined,
       });
-      const data = await response.json();
-      if (data.success) {
+      const payload = res as any;
+      if (payload.success && payload.decision) {
         setNewTitle('');
         setNewDescription('');
         setNewBudget('');
         setNewTimeframe('');
         loadDecisions();
-        loadDecision(data.decision.id);
+        loadDecision(payload.decision.id);
       }
     } catch (error) {
       console.error('Failed to create decision:', error);
@@ -167,13 +164,8 @@ export const DecisionDNAPage: React.FC = () => {
     if (!selectedDecision) {return;}
     setIsLoading(true);
     try {
-      const response = await fetch(`/api/v1/decisions/${selectedDecision.id}/premortem`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({}),
-      });
-      const data = await response.json();
-      if (data.success) {
+      const res = await api.post<any>(`/decisions/${selectedDecision.id}/premortem`, {});
+      if (res.success) {
         loadDecision(selectedDecision.id);
       }
     } catch (error) {

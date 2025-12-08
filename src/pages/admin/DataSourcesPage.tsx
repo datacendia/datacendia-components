@@ -9,6 +9,7 @@ import {
   ChevronRight, Eye, EyeOff, Trash2, TestTube, Settings,
   Cloud, Server, FileSpreadsheet, Link2
 } from 'lucide-react';
+import { api } from '../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -245,20 +246,9 @@ export const DataSourcesPage: React.FC = () => {
   const loadDataSources = async () => {
     setIsLoading(true);
     try {
-      const token = localStorage.getItem('accessToken');
-      const headers: Record<string, string> = {};
-      if (token) {
-        headers['Authorization'] = `Bearer ${token}`;
-      }
-      const response = await fetch('/api/v1/data-sources', {
-        headers,
-      });
-      
-      if (response.ok) {
-        const data = await response.json();
-        if (data.success) {
-          setDataSources(data.data);
-        }
+      const res = await api.get<DataSource[]>('/data-sources');
+      if (res.success && res.data) {
+        setDataSources(res.data);
       }
     } catch (error) {
       console.error('Failed to load data sources:', error);
@@ -296,37 +286,26 @@ export const DataSourcesPage: React.FC = () => {
     try {
       const sourceId = selectedSource?.id;
       const type = selectedSource?.type || newSourceType;
-      const token = localStorage.getItem('accessToken');
-      const baseHeaders: Record<string, string> = {
-        'Content-Type': 'application/json',
-      };
-      if (token) {
-        baseHeaders['Authorization'] = `Bearer ${token}`;
-      }
-      
       if (sourceId) {
         // Test existing source
-        const response = await fetch(`/api/v1/data-sources/${sourceId}/test`, {
-          method: 'POST',
-          headers: baseHeaders,
-        });
-        
-        const data = await response.json();
-        setTestResult(data.data || { success: false, message: 'Test failed' });
+        const res = await api.post<ConnectionTestResult>(`/data-sources/${sourceId}/test`);
+        if (res.success && res.data) {
+          setTestResult(res.data);
+        } else {
+          setTestResult(res.data || { success: false, message: res.error?.message || 'Test failed' });
+        }
       } else {
         // Test new configuration
-        const response = await fetch('/api/v1/data-sources/test', {
-          method: 'POST',
-          headers: baseHeaders,
-          body: JSON.stringify({
-            type,
-            config: formData,
-            credentials: formData,
-          }),
+        const res = await api.post<ConnectionTestResult>('/data-sources/test', {
+          type,
+          config: formData,
+          credentials: formData,
         });
-        
-        const data = await response.json();
-        setTestResult(data.data || { success: false, message: 'Test failed' });
+        if (res.success && res.data) {
+          setTestResult(res.data);
+        } else {
+          setTestResult(res.data || { success: false, message: res.error?.message || 'Test failed' });
+        }
       }
     } catch (error) {
       setTestResult({
@@ -345,7 +324,6 @@ export const DataSourcesPage: React.FC = () => {
     try {
       const type = selectedSource?.type || newSourceType;
       const connectorConfig = CONNECTOR_CONFIGS[type || ''];
-      const token = localStorage.getItem('accessToken');
       
       // Separate config and credentials
       const config: Record<string, unknown> = {};
@@ -365,36 +343,23 @@ export const DataSourcesPage: React.FC = () => {
       
       if (selectedSource) {
         // Update existing
-        const response = await fetch(`/api/v1/data-sources/${selectedSource.id}`, {
-          method: 'PUT',
-          headers: {
-            ...(token ? { Authorization: `Bearer ${token}` } : {}),
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ config, credentials }),
+        const res = await api.put<unknown>(`/data-sources/${selectedSource.id}`, {
+          config,
+          credentials,
         });
-        
-        if (response.ok) {
+        if (res.success) {
           await loadDataSources();
           setIsEditing(false);
         }
       } else if (newSourceType) {
         // Create new
-        const response = await fetch('/api/v1/data-sources', {
-          method: 'POST',
-          headers: {
-            ...(token ? { Authorization: `Bearer ${token}` } : {}),
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            name: formData.name || connectorConfig?.name,
-            type: newSourceType,
-            config,
-            credentials,
-          }),
+        const res = await api.post<unknown>('/data-sources', {
+          name: formData.name || connectorConfig?.name,
+          type: newSourceType,
+          config,
+          credentials,
         });
-        
-        if (response.ok) {
+        if (res.success) {
           await loadDataSources();
           setIsAddingNew(false);
           setNewSourceType(null);
@@ -409,13 +374,8 @@ export const DataSourcesPage: React.FC = () => {
 
   const handleSync = async (id: string) => {
     try {
-      const token = localStorage.getItem('accessToken');
-      const response = await fetch(`/api/v1/data-sources/${id}/sync`, {
-        method: 'POST',
-        headers: token ? { Authorization: `Bearer ${token}` } : {},
-      });
-
-      if (response.ok) {
+      const res = await api.post<unknown>(`/data-sources/${id}/sync`);
+      if (res.success) {
         setDataSources(prev =>
           prev.map(ds =>
             ds.id === id
@@ -439,13 +399,8 @@ export const DataSourcesPage: React.FC = () => {
     if (!confirm('Are you sure you want to delete this data source?')) {return;}
     
     try {
-      const token = localStorage.getItem('accessToken');
-      const response = await fetch(`/api/v1/data-sources/${id}`, {
-        method: 'DELETE',
-        headers: token ? { 'Authorization': `Bearer ${token}` } : {},
-      });
-      
-      if (response.ok) {
+      const res = await api.delete<unknown>(`/data-sources/${id}`);
+      if (res.success) {
         await loadDataSources();
         setSelectedSource(null);
       }

@@ -7,6 +7,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
+import { councilApi } from '../../../lib/api';
 import { ollamaService, type DomainAgent } from '../../../lib/ollama';
 import { COUNCIL_MODES, MODE_CATEGORIES, type CouncilMode } from '../../../data/councilModes';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -634,24 +635,21 @@ const DeliberationCard: React.FC<{
 // MAIN COMPONENT
 // =============================================================================
 
-async function safeJson<T = any>(res: Response, context: string): Promise<T> {
-  const text = await res.text();
-
-  if (!res.ok) {
-    throw new Error(
-      `Request failed for ${context} (${res.status} ${res.statusText})${text ? `: ${text}` : ''}`
-    );
+async function safeJson<T = any>(res: any, context: string): Promise<T> {
+  if (!res) {
+    throw new Error(`Empty response for ${context}`);
   }
 
-  if (!text) {
-    throw new Error(`Empty response body for ${context}`);
+  if (res.success === false && res.error) {
+    const message = res.error.message || res.error.code || 'Unknown error';
+    throw new Error(`Request failed for ${context}: ${message}`);
   }
 
-  try {
-    return JSON.parse(text) as T;
-  } catch (err) {
-    throw new Error(`Invalid JSON for ${context}: ${(err as Error).message}`);
+  if (res.data !== undefined) {
+    return res.data as T;
   }
+
+  return res as T;
 }
 
 // Mode translation helper
@@ -1683,27 +1681,22 @@ export const CouncilPage: React.FC = () => {
                       onClick={async () => {
                         try {
                           // Save deliberation first
-                          const saveRes = await fetch('/api/v1/council/deliberations', {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({
-                              question: result.query,
-                              mode: result.mode,
-                              agentResponses: result.agentResponses,
-                              crossExaminations: result.crossExaminations,
-                              synthesis: result.response,
-                              confidence: result.confidence,
-                            }),
+                          const saveRes = await councilApi.saveDeliberation({
+                            question: result.query,
+                            mode: result.mode,
+                            agentResponses: result.agentResponses,
+                            crossExaminations: result.crossExaminations,
+                            synthesis: result.response,
+                            confidence: result.confidence,
                           });
                           const saveData = await safeJson<any>(saveRes, 'save deliberation');
-                          
+                          const deliberationId = (saveData as any).deliberation?.id ?? (saveData as any).id;
+                          if (!deliberationId) {
+                            throw new Error('Missing deliberation id in save response');
+                          }
+
                           // Generate summary
-                          const summaryRes = await fetch(
-                            `/api/v1/council/deliberations/${saveData.deliberation.id}/summary`,
-                            {
-                              method: 'POST',
-                            }
-                          );
+                          const summaryRes = await councilApi.generateExecutiveSummary(deliberationId);
                           const summaryData = await safeJson<any>(
                             summaryRes,
                             'generate executive summary'
@@ -1746,27 +1739,22 @@ export const CouncilPage: React.FC = () => {
                       onClick={async () => {
                         try {
                           // Save deliberation first
-                          const saveRes = await fetch('/api/v1/council/deliberations', {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({
-                              question: result.query,
-                              mode: result.mode,
-                              agentResponses: result.agentResponses,
-                              crossExaminations: result.crossExaminations,
-                              synthesis: result.response,
-                              confidence: result.confidence,
-                            }),
+                          const saveRes = await councilApi.saveDeliberation({
+                            question: result.query,
+                            mode: result.mode,
+                            agentResponses: result.agentResponses,
+                            crossExaminations: result.crossExaminations,
+                            synthesis: result.response,
+                            confidence: result.confidence,
                           });
                           const saveData = await safeJson<any>(saveRes, 'save deliberation');
+                          const deliberationId = (saveData as any).deliberation?.id ?? (saveData as any).id;
+                          if (!deliberationId) {
+                            throw new Error('Missing deliberation id in save response');
+                          }
                           
                           // Generate minutes
-                          const minutesRes = await fetch(
-                            `/api/v1/council/deliberations/${saveData.deliberation.id}/minutes`,
-                            {
-                              method: 'POST',
-                            }
-                          );
+                          const minutesRes = await councilApi.generateMinutes(deliberationId);
                           const minutesData = await safeJson<any>(
                             minutesRes,
                             'generate deliberation minutes'
@@ -1820,20 +1808,17 @@ export const CouncilPage: React.FC = () => {
                     <button
                       onClick={async () => {
                         try {
-                          const saveRes = await fetch('/api/v1/council/deliberations', {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({
-                              question: result.query,
-                              mode: result.mode,
-                              agentResponses: result.agentResponses,
-                              crossExaminations: result.crossExaminations,
-                              synthesis: result.response,
-                              confidence: result.confidence,
-                            }),
+                          const saveRes = await councilApi.saveDeliberation({
+                            question: result.query,
+                            mode: result.mode,
+                            agentResponses: result.agentResponses,
+                            crossExaminations: result.crossExaminations,
+                            synthesis: result.response,
+                            confidence: result.confidence,
                           });
                           const saveData = await safeJson<any>(saveRes, 'save deliberation');
-                          alert('Deliberation saved! ID: ' + saveData.deliberation.id);
+                          const deliberationId = (saveData as any).deliberation?.id ?? (saveData as any).id;
+                          alert('Deliberation saved! ID: ' + deliberationId);
                         } catch (err) {
                           const msg = err instanceof Error ? err.message : String(err);
                           console.error('[ERROR] Failed to save:', msg);

@@ -5,6 +5,7 @@
 // =============================================================================
 
 import React, { useState, useEffect } from 'react';
+import { api } from '../../lib/api';
 import {
   Megaphone, Hammer, DollarSign, HeadphonesIcon, Eye,
   TrendingUp, AlertTriangle, Calendar, FileText, Users,
@@ -126,41 +127,35 @@ export default function CorePage() {
     setLoading(true);
     try {
       // Fetch real data from Core API
-      const token = localStorage.getItem('accessToken');
-      const headers: Record<string, string> = { 'Content-Type': 'application/json' };
-      if (token) {headers['Authorization'] = `Bearer ${token}`;}
-
       const [dashboardRes, contentRes] = await Promise.all([
-        fetch('/api/v1/core/dashboard', { headers }),
-        fetch('/api/v1/core/brand/content', { headers }),
+        api.get<any>('/core/dashboard'),
+        api.get<any>('/core/brand/content'),
       ]);
 
-      if (dashboardRes.ok) {
-        const dashData = await dashboardRes.json();
-        if (dashData.dashboard) {
-          setMetrics({
-            brand: dashData.dashboard.brand || { contentQueue: 0, scheduledPosts: 0, voiceScore: 0 },
-            foundry: dashData.dashboard.foundry || { backlogItems: 0, technicalDebt: 0, topPriority: null, nagMessage: null },
-            revenue: dashData.dashboard.revenue || { mrr: 0, arr: 0, runwayMonths: 0, pricingAdvice: null },
-            support: dashData.dashboard.support || { openTickets: 0, atRiskCustomers: 0, avgResponseTime: 0 },
-            watch: dashData.dashboard.watch || { activeAlerts: 0, criticalAlert: null, competitorsTracked: 0 },
-          });
-          console.log('[Core] Loaded dashboard from API');
-        }
+      const dashPayload = dashboardRes as any;
+      const rawDashboard = dashPayload.dashboard ?? dashPayload.data?.dashboard;
+      if (dashPayload.success !== false && rawDashboard) {
+        setMetrics({
+          brand: rawDashboard.brand || { contentQueue: 0, scheduledPosts: 0, voiceScore: 0 },
+          foundry: rawDashboard.foundry || { backlogItems: 0, technicalDebt: 0, topPriority: null, nagMessage: null },
+          revenue: rawDashboard.revenue || { mrr: 0, arr: 0, runwayMonths: 0, pricingAdvice: null },
+          support: rawDashboard.support || { openTickets: 0, atRiskCustomers: 0, avgResponseTime: 0 },
+          watch: rawDashboard.watch || { activeAlerts: 0, criticalAlert: null, competitorsTracked: 0 },
+        });
+        console.log('[Core] Loaded dashboard from API');
       }
 
-      if (contentRes.ok) {
-        const contentData = await contentRes.json();
-        if (contentData.content && Array.isArray(contentData.content)) {
-          setContentQueue(contentData.content.map((c: any) => ({
-            id: c.id,
-            type: c.type || 'blog',
-            title: c.title || c.name,
-            status: c.status || 'draft',
-            scheduledFor: c.scheduledFor,
-          })));
-          console.log('[Core] Loaded', contentData.content.length, 'content items from API');
-        }
+      const contentPayload = contentRes as any;
+      const rawContent = contentPayload.content ?? contentPayload.data?.content;
+      if (contentPayload.success !== false && rawContent && Array.isArray(rawContent)) {
+        setContentQueue(rawContent.map((c: any) => ({
+          id: c.id,
+          type: c.type || 'blog',
+          title: c.title || c.name,
+          status: c.status || 'draft',
+          scheduledFor: c.scheduledFor,
+        })));
+        console.log('[Core] Loaded', rawContent.length, 'content items from API');
       }
     } catch (error) {
       console.error('[Core] Failed to load from API, using fallback:', error);
@@ -186,21 +181,14 @@ export default function CorePage() {
     setGenerating(true);
     try {
       // Call real API to generate content
-      const token = localStorage.getItem('accessToken');
-      const headers: Record<string, string> = { 'Content-Type': 'application/json' };
-      if (token) {headers['Authorization'] = `Bearer ${token}`;}
-
-      const res = await fetch('/api/v1/core/brand/generate/linkedin', {
-        method: 'POST',
-        headers,
-        body: JSON.stringify({ 
-          featureName: `${type} content`,
-          featureDescription: `Auto-generated ${type} content`
-        }),
+      const res = await api.post<any>('/core/brand/generate/linkedin', {
+        featureName: `${type} content`,
+        featureDescription: `Auto-generated ${type} content`,
       });
 
-      if (res.ok) {
-        const data = await res.json();
+      const payload = res as any;
+      if (payload.success !== false) {
+        const data = payload.data ?? payload;
         if (data.post) {
           setContentQueue(prev => [{
             id: Date.now().toString(),

@@ -248,7 +248,7 @@ describe('API Endpoints', () => {
 describe('Data Integrity', () => {
   describe('User Data', () => {
     it('should have seeded admin user', async () => {
-      const user = await prisma.user.findUnique({
+      const user = await prisma.users.findUnique({
         where: { email: TEST_USERS.admin.email },
       });
       expect(user).toBeDefined();
@@ -257,17 +257,17 @@ describe('Data Integrity', () => {
     });
 
     it('should have hashed passwords', async () => {
-      const user = await prisma.user.findUnique({
+      const user = await prisma.users.findUnique({
         where: { email: TEST_USERS.admin.email },
       });
-      expect(user?.passwordHash).not.toBe(TEST_USERS.admin.password);
-      expect(user?.passwordHash?.startsWith('$2')).toBe(true); // bcrypt hash
+      expect(user?.password_hash).not.toBe(TEST_USERS.admin.password);
+      expect(user?.password_hash?.startsWith('$2')).toBe(true); // bcrypt hash
     });
   });
 
   describe('Agent Data', () => {
     it('should have all core agents seeded', async () => {
-      const agents = await prisma.agent.findMany();
+      const agents = await prisma.agents.findMany();
       expect(agents.length).toBeGreaterThanOrEqual(6);
       
       const codes = agents.map(a => a.code);
@@ -277,10 +277,10 @@ describe('Data Integrity', () => {
     });
 
     it('should have valid model configs for agents', async () => {
-      const agents = await prisma.agent.findMany();
+      const agents = await prisma.agents.findMany();
       for (const agent of agents) {
-        expect(agent.modelConfig).toBeDefined();
-        const config = agent.modelConfig as any;
+        expect(agent.model_config).toBeDefined();
+        const config = agent.model_config as any;
         expect(config.model).toBeDefined();
       }
     });
@@ -288,14 +288,14 @@ describe('Data Integrity', () => {
 
   describe('Organization Data', () => {
     it('should have default organization', async () => {
-      const orgs = await prisma.organization.findMany({
+      const orgs = await prisma.organizations.findMany({
         include: { users: true },
       });
       expect(orgs.length).toBeGreaterThan(0);
     });
 
     it('should have users linked to organizations', async () => {
-      const orgs = await prisma.organization.findMany({
+      const orgs = await prisma.organizations.findMany({
         include: { users: true },
       });
       const hasUsers = orgs.some(org => org.users.length > 0);
@@ -305,12 +305,12 @@ describe('Data Integrity', () => {
 
   describe('Data Source Data', () => {
     it('should have seeded data sources', async () => {
-      const sources = await prisma.dataSource.findMany();
+      const sources = await prisma.data_sources.findMany();
       expect(sources.length).toBeGreaterThan(0);
     });
 
     it('should have valid connection configs', async () => {
-      const sources = await prisma.dataSource.findMany();
+      const sources = await prisma.data_sources.findMany();
       for (const source of sources) {
         expect(source.type).toBeDefined();
         expect(source.config).toBeDefined();

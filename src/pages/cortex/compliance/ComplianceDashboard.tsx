@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { api } from '../../../lib/api';
 
 // Types
 interface ComplianceFramework {
@@ -249,15 +250,14 @@ const ComplianceDashboard: React.FC = () => {
     setLoading(true);
     try {
       // Fetch frameworks
-      const fwRes = await fetch('/api/compliance/frameworks');
-      const fwData = await fwRes.json();
+      const fwRes = await api.get<ComplianceFramework[]>('/compliance/frameworks');
+      void fwRes; // frameworks not yet used in summary
 
       // Fetch five rings
-      const ringsRes = await fetch('/api/compliance/five-rings');
-      const ringsData = await ringsRes.json();
+      const ringsRes = await api.get<{ rings: any[] }>('/compliance/five-rings');
 
       // Create summary with default scores
-      const rings = ringsData.data?.rings || [];
+      const rings = (ringsRes.success && (ringsRes.data?.rings || [])) || [];
       setSummary({
         overallScore: 87,
         fiveRings: rings.map((r: any) => ({
@@ -293,17 +293,12 @@ const ComplianceDashboard: React.FC = () => {
   const generateBundle = async () => {
     setGenerating(true);
     try {
-      const res = await fetch('/api/compliance/bundles/generate', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          organizationId: 'org-1',
-          generatedBy: 'Admin User',
-        }),
+      const res = await api.post<{ id: string }>('/compliance/bundles/generate', {
+        organizationId: 'org-1',
+        generatedBy: 'Admin User',
       });
-      const data = await res.json();
-      if (data.success) {
-        setBundleId(data.data.id);
+      if (res.success && res.data) {
+        setBundleId(res.data.id);
         alert('Compliance bundle generated successfully!');
       }
     } catch (error) {

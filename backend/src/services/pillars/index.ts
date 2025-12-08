@@ -46,22 +46,6 @@ export async function initializePillarsForOrg(organizationId: string): Promise<v
   const hasMetrics = await helmService.hasMetricsForOrg(organizationId);
   const hasAgents = await agentsService.hasAgentsForOrg(organizationId);
 
-  if (!hasMetrics) {
-    await helmService.seedDefaultMetrics(organizationId);
-  }
-
-  if (!hasAgents) {
-    await agentsService.seedDefaultAgents(organizationId);
-  }
-
-  // Seed other pillars
-  await lineageService.seedDefaultData(organizationId);
-  await predictService.seedDefaultData(organizationId);
-  await flowService.seedDefaultData(organizationId);
-  await healthService.seedDefaultData(organizationId);
-  await guardService.seedDefaultData(organizationId);
-  await ethicsService.seedDefaultData(organizationId);
-
   console.log(`Pillars initialized for organization: ${organizationId}`);
 }
 

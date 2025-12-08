@@ -50,24 +50,24 @@ export class LLMCacheService {
    */
   async get(key: string): Promise<string | null> {
     try {
-      const entry = await prisma.lLMCache.findUnique({
-        where: { queryHash: key },
+      const entry = await prisma.llm_cache.findUnique({
+        where: { query_hash: key },
       });
 
       if (!entry) return null;
 
       // Check if expired
-      if (entry.expiresAt < new Date()) {
+      if (entry.expires_at < new Date()) {
         await this.delete(key);
         return null;
       }
 
       // Update hit count and last accessed
-      await prisma.lLMCache.update({
-        where: { queryHash: key },
+      await prisma.llm_cache.update({
+        where: { query_hash: key },
         data: {
-          hitCount: { increment: 1 },
-          lastAccessedAt: new Date(),
+          hit_count: { increment: 1 },
+          last_accessed_at: new Date(),
         },
       });
 
@@ -84,28 +84,29 @@ export class LLMCacheService {
     const expiresAt = new Date(Date.now() + this.ttlHours * 60 * 60 * 1000);
 
     try {
-      await prisma.lLMCache.upsert({
-        where: { queryHash: entry.queryHash },
+      await prisma.llm_cache.upsert({
+        where: { query_hash: entry.queryHash },
         update: {
           response: entry.response,
-          tokensIn: entry.tokensIn,
-          tokensOut: entry.tokensOut,
-          latencyMs: entry.latencyMs,
-          hitCount: { increment: 1 },
-          lastAccessedAt: new Date(),
-          expiresAt,
+          tokens_in: entry.tokensIn,
+          tokens_out: entry.tokensOut,
+          latency_ms: entry.latencyMs,
+          hit_count: { increment: 1 },
+          last_accessed_at: new Date(),
+          expires_at: expiresAt,
         },
         create: {
-          queryHash: entry.queryHash,
+          id: crypto.randomUUID(),
+          query_hash: entry.queryHash,
           model: entry.model,
           prompt: entry.prompt,
-          systemPrompt: entry.systemPrompt,
+          system_prompt: entry.systemPrompt,
           response: entry.response,
-          tokensIn: entry.tokensIn,
-          tokensOut: entry.tokensOut,
-          latencyMs: entry.latencyMs,
+          tokens_in: entry.tokensIn,
+          tokens_out: entry.tokensOut,
+          latency_ms: entry.latencyMs,
           temperature: entry.temperature,
-          expiresAt,
+          expires_at: expiresAt,
         },
       });
     } catch (error) {
@@ -118,8 +119,8 @@ export class LLMCacheService {
    */
   async delete(key: string): Promise<void> {
     try {
-      await prisma.lLMCache.delete({
-        where: { queryHash: key },
+      await prisma.llm_cache.delete({
+        where: { query_hash: key },
       });
     } catch (error) {
       // Entry may not exist
@@ -130,9 +131,9 @@ export class LLMCacheService {
    * Clear expired entries
    */
   async clearExpired(): Promise<number> {
-    const result = await prisma.lLMCache.deleteMany({
+    const result = await prisma.llm_cache.deleteMany({
       where: {
-        expiresAt: { lt: new Date() },
+        expires_at: { lt: new Date() },
       },
     });
     return result.count;
@@ -142,7 +143,7 @@ export class LLMCacheService {
    * Clear all cache
    */
   async clearAll(): Promise<number> {
-    const result = await prisma.lLMCache.deleteMany({});
+    const result = await prisma.llm_cache.deleteMany({});
     return result.count;
   }
 
@@ -150,18 +151,18 @@ export class LLMCacheService {
    * Get cache statistics
    */
   async getStats(): Promise<CacheStats> {
-    const entries = await prisma.lLMCache.findMany({
+    const entries = await prisma.llm_cache.findMany({
       select: {
         model: true,
-        hitCount: true,
-        latencyMs: true,
+        hit_count: true,
+        latency_ms: true,
       },
     });
 
     const totalEntries = entries.length;
-    const totalHits = entries.reduce((sum: number, e: { hitCount: number }) => sum + e.hitCount, 0);
+    const totalHits = entries.reduce((sum: number, e: { hit_count: number }) => sum + e.hit_count, 0);
     const avgLatency = entries.length > 0
-      ? entries.reduce((sum: number, e: { latencyMs: number }) => sum + e.latencyMs, 0) / entries.length
+      ? entries.reduce((sum: number, e: { latency_ms: number }) => sum + e.latency_ms, 0) / entries.length
       : 0;
 
     const byModel: Record<string, number> = {};

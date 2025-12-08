@@ -47,7 +47,7 @@ router.get('/setup', authenticate, async (req: Request, res: Response) => {
     const userId = req.user!.id;
 
     // Check if MFA is already enabled
-    const user = await prisma.user.findUnique({
+    const user = await prisma.users.findUnique({
       where: { id: userId },
       select: { 
         id: true, 

@@ -1,6 +1,7 @@
 import { Router, Request, Response, NextFunction } from 'express';
 import { DataSourceType, Prisma } from '@prisma/client';
 import { z } from 'zod';
+import crypto from 'crypto';
 import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
@@ -93,15 +94,15 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
     const orgId = req.organizationId!;
 
     // Get connected integrations from database
-    const connections = await prisma.dataSource.findMany({
-      where: { organizationId: orgId },
+    const connections = await prisma.data_sources.findMany({
+      where: { organization_id: orgId },
       select: {
         id: true,
         name: true,
         type: true,
         status: true,
-        lastSyncAt: true,
-        createdAt: true,
+        last_sync_at: true,
+        created_at: true,
       },
     });
 
@@ -110,8 +111,8 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
       integrationId: conn.type.toLowerCase(),
       name: conn.name,
       status: conn.status === 'CONNECTED' ? 'active' : conn.status.toLowerCase(),
-      lastSync: conn.lastSyncAt,
-      createdAt: conn.createdAt,
+      lastSync: conn.last_sync_at,
+      createdAt: conn.created_at,
     }));
 
     // Mark available integrations
@@ -194,14 +195,16 @@ router.post('/:integrationId/connect', requireRole('ADMIN', 'SUPER_ADMIN'), asyn
     }
 
     // For non-OAuth integrations, create connection directly
-    const dataSource = await prisma.dataSource.create({
+    const dataSource = await prisma.data_sources.create({
       data: {
-        organizationId: orgId,
+        id: crypto.randomUUID(),
+        organization_id: orgId,
         name,
         type: (integrationId.toUpperCase() as DataSourceType) || 'API',
         config: config as Prisma.InputJsonValue,
         credentials: extractCredentials(config) as Prisma.InputJsonValue,
         status: 'PENDING',
+        updated_at: new Date(),
       },
     });
 
@@ -211,14 +214,15 @@ router.post('/:integrationId/connect', requireRole('ADMIN', 'SUPER_ADMIN'), asyn
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: orgId,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: orgId,
+        user_id: req.user!.id,
         action: 'integration.connect',
-        resourceType: 'integration',
-        resourceId: dataSource.id,
-        details: { integrationId, name },
+        resource_type: 'integration',
+        resource_id: dataSource.id,
+        details: { integrationId, name } as Prisma.InputJsonValue,
       },
     });
 
@@ -259,14 +263,16 @@ router.get('/oauth/callback', async (req: Request, res: Response, next: NextFunc
     const tokens = await exchangeOAuthCode(pending.integrationId, code);
 
     // Create connection
-    const dataSource = await prisma.dataSource.create({
+    const dataSource = await prisma.data_sources.create({
       data: {
-        organizationId: pending.orgId,
+        id: crypto.randomUUID(),
+        organization_id: pending.orgId,
         name: pending.name,
         type: (pending.integrationId.toUpperCase() as DataSourceType) || 'API',
         config: pending.config as Prisma.InputJsonValue,
         credentials: tokens as Prisma.InputJsonValue,
         status: 'CONNECTED',
+        updated_at: new Date(),
       },
     });
 
@@ -286,7 +292,7 @@ router.get('/oauth/callback', async (req: Request, res: Response, next: NextFunc
  */
 router.get('/connections/:connectionId', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const connection = await prisma.dataSource.findUnique({
+    const connection = await prisma.data_sources.findUnique({
       where: { id: req.params.connectionId },
     });
 
@@ -294,7 +300,7 @@ router.get('/connections/:connectionId', async (req: Request, res: Response, nex
       throw errors.notFound('Connection');
     }
 
-    if (connection.organizationId !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -308,9 +314,9 @@ router.get('/connections/:connectionId', async (req: Request, res: Response, nex
         integration: integration || { id: connection.type, name: connection.type },
         status: connection.status,
         config: connection.config,
-        lastSync: connection.lastSyncAt,
-        lastSyncStatus: connection.lastSyncStatus,
-        createdAt: connection.createdAt,
+        lastSync: connection.last_sync_at,
+        lastSyncStatus: connection.last_sync_status,
+        createdAt: connection.created_at,
       },
     });
   } catch (error) {
@@ -324,7 +330,7 @@ router.get('/connections/:connectionId', async (req: Request, res: Response, nex
  */
 router.post('/connections/:connectionId/sync', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const connection = await prisma.dataSource.findUnique({
+    const connection = await prisma.data_sources.findUnique({
       where: { id: req.params.connectionId },
     });
 
@@ -332,14 +338,14 @@ router.post('/connections/:connectionId/sync', async (req: Request, res: Respons
       throw errors.notFound('Connection');
     }
 
-    if (connection.organizationId !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
     // Update status
-    await prisma.dataSource.update({
+    await prisma.data_sources.update({
       where: { id: connection.id },
-      data: { status: 'SYNCING' },
+      data: { status: 'SYNCING', updated_at: new Date() },
     });
 
     // Start sync in background
@@ -365,7 +371,7 @@ router.post('/connections/:connectionId/sync', async (req: Request, res: Respons
  */
 router.post('/connections/:connectionId/test', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const connection = await prisma.dataSource.findUnique({
+    const connection = await prisma.data_sources.findUnique({
       where: { id: req.params.connectionId },
     });
 
@@ -373,7 +379,7 @@ router.post('/connections/:connectionId/test', async (req: Request, res: Respons
       throw errors.notFound('Connection');
     }
 
-    if (connection.organizationId !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -394,7 +400,7 @@ router.post('/connections/:connectionId/test', async (req: Request, res: Respons
  */
 router.delete('/connections/:connectionId', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const connection = await prisma.dataSource.findUnique({
+    const connection = await prisma.data_sources.findUnique({
       where: { id: req.params.connectionId },
     });
 
@@ -402,23 +408,24 @@ router.delete('/connections/:connectionId', requireRole('ADMIN', 'SUPER_ADMIN'),
       throw errors.notFound('Connection');
     }
 
-    if (connection.organizationId !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
-    await prisma.dataSource.delete({
+    await prisma.data_sources.delete({
       where: { id: connection.id },
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId!,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId!,
+        user_id: req.user!.id,
         action: 'integration.disconnect',
-        resourceType: 'integration',
-        resourceId: connection.id,
-        details: { name: connection.name, type: connection.type },
+        resource_type: 'integration',
+        resource_id: connection.id,
+        details: { name: connection.name, type: connection.type } as Prisma.InputJsonValue,
       },
     });
 
@@ -437,7 +444,7 @@ router.delete('/connections/:connectionId', requireRole('ADMIN', 'SUPER_ADMIN'),
  */
 router.get('/connections/:connectionId/schema', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const connection = await prisma.dataSource.findUnique({
+    const connection = await prisma.data_sources.findUnique({
       where: { id: req.params.connectionId },
     });
 
@@ -445,7 +452,7 @@ router.get('/connections/:connectionId/schema', async (req: Request, res: Respon
       throw errors.notFound('Connection');
     }
 
-    if (connection.organizationId !== req.organizationId) {
+    if (connection.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -551,7 +558,7 @@ function extractCredentials(config: Record<string, unknown>): Record<string, unk
 }
 
 async function testAndActivateConnection(connectionId: string): Promise<void> {
-  const connection = await prisma.dataSource.findUnique({
+  const connection = await prisma.data_sources.findUnique({
     where: { id: connectionId },
   });
 
@@ -559,11 +566,12 @@ async function testAndActivateConnection(connectionId: string): Promise<void> {
 
   const result = await testConnection(connection);
 
-  await prisma.dataSource.update({
+  await prisma.data_sources.update({
     where: { id: connectionId },
     data: {
       status: result.success ? 'CONNECTED' : 'ERROR',
-      lastSyncStatus: result.message,
+      last_sync_status: result.message,
+      updated_at: new Date(),
     },
   });
 }
@@ -605,20 +613,22 @@ async function performSync(connectionId: string): Promise<void> {
     // Simulate sync operation
     await new Promise(resolve => setTimeout(resolve, 3000));
 
-    await prisma.dataSource.update({
+    await prisma.data_sources.update({
       where: { id: connectionId },
       data: {
         status: 'CONNECTED',
-        lastSyncAt: new Date(),
-        lastSyncStatus: 'success',
+        last_sync_at: new Date(),
+        last_sync_status: 'success',
+        updated_at: new Date(),
       },
     });
   } catch (error) {
-    await prisma.dataSource.update({
+    await prisma.data_sources.update({
       where: { id: connectionId },
       data: {
         status: 'ERROR',
-        lastSyncStatus: error instanceof Error ? error.message : 'Sync failed',
+        last_sync_status: error instanceof Error ? error.message : 'Sync failed',
+        updated_at: new Date(),
       },
     });
   }

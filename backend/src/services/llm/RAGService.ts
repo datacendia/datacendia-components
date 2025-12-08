@@ -177,8 +177,8 @@ export class RAGService {
 
       try {
         // Check if already exists
-        const existing = await prisma.embedding.findUnique({
-          where: { contentHash },
+        const existing = await prisma.embeddings.findUnique({
+          where: { content_hash: contentHash },
         });
 
         if (existing) {
@@ -190,14 +190,15 @@ export class RAGService {
         const embeddingBytes = embeddingToBytes(embedding);
 
         // Store in database
-        await prisma.embedding.create({
+        await prisma.embeddings.create({
           data: {
-            sourceType: doc.sourceType,
-            sourceId: doc.sourceId,
+            id: crypto.randomUUID(),
+            source_type: doc.sourceType,
+            source_id: doc.sourceId,
             content: chunk,
-            contentHash,
+            content_hash: contentHash,
             embedding: embeddingBytes,
-            embeddingModel: this.embeddingModel,
+            embedding_model: this.embeddingModel,
             dimensions: this.dimensions,
             metadata: {
               ...doc.metadata,
@@ -229,10 +230,10 @@ export class RAGService {
     // Get all embeddings (in production, use pgvector for efficient similarity search)
     const whereClause: any = {};
     if (sourceType) {
-      whereClause.sourceType = sourceType;
+      whereClause.source_type = sourceType;
     }
 
-    const embeddings = await prisma.embedding.findMany({
+    const embeddings = await prisma.embeddings.findMany({
       where: whereClause,
       take: 1000, // Limit for performance
     });
@@ -293,8 +294,8 @@ ANSWER:`;
    * Delete embeddings for a source
    */
   async deleteSource(sourceType: string, sourceId: string): Promise<number> {
-    const result = await prisma.embedding.deleteMany({
-      where: { sourceType, sourceId },
+    const result = await prisma.embeddings.deleteMany({
+      where: { source_type: sourceType, source_id: sourceId },
     });
     return result.count;
   }
@@ -307,22 +308,22 @@ ANSWER:`;
     bySourceType: Record<string, number>;
     models: string[];
   }> {
-    const total = await prisma.embedding.count();
+    const total = await prisma.embeddings.count();
 
-    const byType = await prisma.embedding.groupBy({
-      by: ['sourceType'],
+    const byType = await prisma.embeddings.groupBy({
+      by: ['source_type'],
       _count: true,
     });
 
-    const models = await prisma.embedding.findMany({
-      select: { embeddingModel: true },
-      distinct: ['embeddingModel'],
+    const models = await prisma.embeddings.findMany({
+      select: { embedding_model: true },
+      distinct: ['embedding_model'],
     });
 
     return {
       totalEmbeddings: total,
-      bySourceType: Object.fromEntries(byType.map((t: { sourceType: string; _count: number }) => [t.sourceType, t._count])),
-      models: models.map((m: { embeddingModel: string }) => m.embeddingModel),
+      bySourceType: Object.fromEntries(byType.map((t: { source_type: string; _count: number }) => [t.source_type, t._count])),
+      models: models.map((m: { embedding_model: string }) => m.embedding_model),
     };
   }
 

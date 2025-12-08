@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '../../../lib/utils';
+import { api } from '../../lib/api';
 
 // =============================================================================
 // TYPES
@@ -70,90 +71,177 @@ interface ControlDashboard {
 // API CALLS
 // =============================================================================
 
-const API_BASE = '/api/v1/admin';
+const API_BASE = '/admin';
 
 async function fetchControlDashboard(): Promise<ControlDashboard> {
-  const res = await fetch(`${API_BASE}/control/dashboard`);
-  if (!res.ok) {throw new Error('Failed to fetch dashboard');}
-  return res.json();
+  const res = await api.get<any>(`${API_BASE}/control/dashboard`);
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to fetch dashboard');
+  }
+  if (payload.data) {
+    return payload.data as ControlDashboard;
+  }
+  return payload as ControlDashboard;
 }
 
 async function fetchFeatures(): Promise<Feature[]> {
-  const res = await fetch(`${API_BASE}/features`);
-  if (!res.ok) {throw new Error('Failed to fetch features');}
-  const data = await res.json();
-  return data.features;
+  const res = await api.get<any>(`${API_BASE}/features`);
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to fetch features');
+  }
+  if (payload.features) {
+    return payload.features as Feature[];
+  }
+  if (payload.data?.features) {
+    return payload.data.features as Feature[];
+  }
+  if (Array.isArray(payload.data)) {
+    return payload.data as Feature[];
+  }
+  if (Array.isArray(payload)) {
+    return payload as Feature[];
+  }
+  throw new Error('Failed to fetch features');
 }
 
 async function fetchAgents(): Promise<Agent[]> {
-  const res = await fetch(`${API_BASE}/agents`);
-  if (!res.ok) {throw new Error('Failed to fetch agents');}
-  const data = await res.json();
-  return data.agents;
+  const res = await api.get<any>(`${API_BASE}/agents`);
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to fetch agents');
+  }
+  if (payload.agents) {
+    return payload.agents as Agent[];
+  }
+  if (payload.data?.agents) {
+    return payload.data.agents as Agent[];
+  }
+  if (Array.isArray(payload.data)) {
+    return payload.data as Agent[];
+  }
+  if (Array.isArray(payload)) {
+    return payload as Agent[];
+  }
+  throw new Error('Failed to fetch agents');
 }
 
 async function fetchSuites(): Promise<Suite[]> {
-  const res = await fetch(`${API_BASE}/suites`);
-  if (!res.ok) {throw new Error('Failed to fetch suites');}
-  const data = await res.json();
-  return data.suites;
+  const res = await api.get<any>(`${API_BASE}/suites`);
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to fetch suites');
+  }
+  if (payload.suites) {
+    return payload.suites as Suite[];
+  }
+  if (payload.data?.suites) {
+    return payload.data.suites as Suite[];
+  }
+  if (Array.isArray(payload.data)) {
+    return payload.data as Suite[];
+  }
+  if (Array.isArray(payload)) {
+    return payload as Suite[];
+  }
+  throw new Error('Failed to fetch suites');
 }
 
 async function fetchPricing(): Promise<PricingTier[]> {
-  const res = await fetch(`${API_BASE}/pricing?includeHidden=true`);
-  if (!res.ok) {throw new Error('Failed to fetch pricing');}
-  const data = await res.json();
-  return data.pricing;
+  const res = await api.get<any>(`${API_BASE}/pricing`, { includeHidden: true });
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to fetch pricing');
+  }
+  if (payload.pricing) {
+    return payload.pricing as PricingTier[];
+  }
+  if (payload.data?.pricing) {
+    return payload.data.pricing as PricingTier[];
+  }
+  if (Array.isArray(payload.data)) {
+    return payload.data as PricingTier[];
+  }
+  if (Array.isArray(payload)) {
+    return payload as PricingTier[];
+  }
+  throw new Error('Failed to fetch pricing');
 }
 
 async function toggleFeature(id: string, enabled: boolean): Promise<Feature> {
-  const res = await fetch(`${API_BASE}/features/${id}/toggle`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ enabled })
-  });
-  if (!res.ok) {throw new Error('Failed to toggle feature');}
-  return res.json();
+  const res = await api.post<any>(`${API_BASE}/features/${id}/toggle`, { enabled });
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to toggle feature');
+  }
+  if (payload.feature) {
+    return payload.feature as Feature;
+  }
+  if (payload.data) {
+    return payload.data as Feature;
+  }
+  return payload as Feature;
 }
 
 async function setVisibility(id: string, visibility: string): Promise<Feature> {
-  const res = await fetch(`${API_BASE}/features/${id}/visibility`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ visibility })
-  });
-  if (!res.ok) {throw new Error('Failed to set visibility');}
-  return res.json();
+  const res = await api.post<any>(`${API_BASE}/features/${id}/visibility`, { visibility });
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to set visibility');
+  }
+  if (payload.feature) {
+    return payload.feature as Feature;
+  }
+  if (payload.data) {
+    return payload.data as Feature;
+  }
+  return payload as Feature;
 }
 
 async function toggleAgent(id: string, enabled: boolean): Promise<Agent> {
-  const res = await fetch(`${API_BASE}/agents/${id}/toggle`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ enabled })
-  });
-  if (!res.ok) {throw new Error('Failed to toggle agent');}
-  return res.json();
+  const res = await api.post<any>(`${API_BASE}/agents/${id}/toggle`, { enabled });
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to toggle agent');
+  }
+  if (payload.agent) {
+    return payload.agent as Agent;
+  }
+  if (payload.data) {
+    return payload.data as Agent;
+  }
+  return payload as Agent;
 }
 
 async function toggleSuite(id: string, enabled: boolean): Promise<Suite> {
-  const res = await fetch(`${API_BASE}/suites/${id}/toggle`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ enabled })
-  });
-  if (!res.ok) {throw new Error('Failed to toggle suite');}
-  return res.json();
+  const res = await api.post<any>(`${API_BASE}/suites/${id}/toggle`, { enabled });
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to toggle suite');
+  }
+  if (payload.suite) {
+    return payload.suite as Suite;
+  }
+  if (payload.data) {
+    return payload.data as Suite;
+  }
+  return payload as Suite;
 }
 
 async function updatePricing(id: string, updates: Partial<PricingTier>): Promise<PricingTier> {
-  const res = await fetch(`${API_BASE}/pricing/${id}`, {
-    method: 'PATCH',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(updates)
-  });
-  if (!res.ok) {throw new Error('Failed to update pricing');}
-  return res.json();
+  const res = await api.patch<any>(`${API_BASE}/pricing/${id}`, updates);
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to update pricing');
+  }
+  if (payload.tier) {
+    return payload.tier as PricingTier;
+  }
+  if (payload.data) {
+    return payload.data as PricingTier;
+  }
+  return payload as PricingTier;
 }
 
 // =============================================================================

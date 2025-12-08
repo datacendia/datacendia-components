@@ -4,7 +4,7 @@
 // Enterprise Platinum Intelligence - PostgreSQL Persistent Storage
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, Prisma } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 
 const prisma = new PrismaClient();
@@ -134,8 +134,8 @@ export class GuardService extends BaseService {
       where: { organization_id: organizationId, status: 'RESOLVED' },
       orderBy: { resolved_at: 'desc' },
     });
-    const daysSinceIncident = lastIncident?.resolvedAt 
-      ? Math.floor((Date.now() - lastIncident.resolvedAt.getTime()) / (24 * 60 * 60 * 1000))
+    const daysSinceIncident = lastIncident?.resolved_at
+      ? Math.floor((Date.now() - lastIncident.resolved_at.getTime()) / (24 * 60 * 60 * 1000))
       : 365;
 
     return {
@@ -247,21 +247,21 @@ export class GuardService extends BaseService {
         actor: entry.userId,
         resource_type: entry.resource,
         ip_address: entry.ipAddress,
-        details: entry.metadata || {},
+        details: (entry.metadata as unknown as Prisma.InputJsonValue) || {},
         risk_level: riskMap[entry.result] as any,
       },
     });
 
     return {
       id: created.id,
-      organizationId: created.organizationId,
+      organizationId: created.organization_id,
       userId: created.actor,
       action: created.action,
-      resource: created.resourceType,
+      resource: created.resource_type,
       result: entry.result,
-      ipAddress: created.ipAddress || '',
-      timestamp: created.createdAt,
-      metadata: created.details as Record<string, unknown>,
+      ipAddress: created.ip_address || '',
+      timestamp: created.created_at,
+      metadata: created.details as unknown as Record<string, unknown>,
     };
   }
 
@@ -274,14 +274,14 @@ export class GuardService extends BaseService {
 
     return logs.map((l: any) => ({
       id: l.id,
-      organizationId: l.organizationId,
+      organizationId: l.organization_id,
       userId: l.actor,
       action: l.action,
-      resource: l.resourceType,
-      result: l.riskLevel === 'HIGH' ? 'denied' : 'success' as any,
-      ipAddress: l.ipAddress || '',
-      timestamp: l.createdAt,
-      metadata: l.details as Record<string, unknown>,
+      resource: l.resource_type,
+      result: l.risk_level === 'HIGH' ? 'denied' : 'success' as any,
+      ipAddress: l.ip_address || '',
+      timestamp: l.created_at,
+      metadata: l.details as unknown as Record<string, unknown>,
     }));
   }
 
@@ -292,14 +292,14 @@ export class GuardService extends BaseService {
   private mapThreat(t: any): ThreatEvent {
     return {
       id: t.id,
-      organizationId: t.organizationId,
-      type: t.title || t.threatType,
+      organizationId: t.organization_id,
+      type: t.title || t.threat_type,
       severity: reverseSeverityMap[t.severity] || 'medium',
       status: reverseStatusMap[t.status] || 'active',
       source: t.source || 'unknown',
       description: t.description,
-      detectedAt: t.detectedAt,
-      resolvedAt: t.resolvedAt,
+      detectedAt: t.detected_at,
+      resolvedAt: t.resolved_at || undefined,
       affectedAssets: t.indicators as string[],
       mitigationSteps: t.mitigations as string[],
     };
@@ -308,11 +308,11 @@ export class GuardService extends BaseService {
   private mapPolicy(p: any): SecurityPolicy {
     return {
       id: p.id,
-      organizationId: p.organizationId,
+      organizationId: p.organization_id,
       name: p.name,
-      category: p.description || p.policyType,
+      category: p.description || p.policy_type,
       enabled: p.enabled,
-      lastUpdated: p.updatedAt,
+      lastUpdated: p.updated_at,
       violations: 0,
     };
   }

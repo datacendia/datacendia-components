@@ -3,6 +3,7 @@ import { z } from 'zod';
 import bcrypt from 'bcryptjs';
 import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
+import crypto from 'crypto';
 import { cache } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
@@ -66,13 +67,12 @@ router.put('/me', async (req: Request, res: Response, next: NextFunction) => {
     const data = updateUserSchema.parse(req.body);
     const userId = req.user!.id;
 
-    const updated = await prisma.user.update({
+    const updated = await prisma.users.update({
       where: { id: userId },
       data: {
         name: data.name,
         preferences: data.preferences as Prisma.InputJsonValue,
       },
-      include: { organization: true },
     });
 
     // Invalidate cache
@@ -84,7 +84,7 @@ router.put('/me', async (req: Request, res: Response, next: NextFunction) => {
         id: updated.id,
         email: updated.email,
         name: updated.name,
-        avatarUrl: updated.avatarUrl,
+        avatarUrl: (updated as any).avatar_url,
         role: updated.role,
         preferences: updated.preferences,
       },
@@ -116,19 +116,20 @@ router.put('/me/password', async (req: Request, res: Response, next: NextFunctio
     // Hash new password
     const passwordHash = await bcrypt.hash(newPassword, 12);
 
-    await prisma.user.update({
+    await prisma.users.update({
       where: { id: user.id },
-      data: { passwordHash },
+      data: { password_hash: passwordHash },
     });
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: user.organizationId,
-        userId: user.id,
+        id: crypto.randomUUID(),
+        organization_id: user.organizationId,
+        user_id: user.id,
         action: 'user.password_changed',
-        resourceType: 'user',
-        resourceId: user.id,
+        resource_type: 'user',
+        resource_id: user.id,
       },
     });
 
@@ -151,25 +152,36 @@ router.get('/', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: R
     const page = parseInt(req.query.page as string) || 1;
     const pageSize = parseInt(req.query.pageSize as string) || 50;
 
-    const [users, total] = await Promise.all([
-      prisma.user.findMany({
-        where: { organizationId: orgId, deletedAt: null },
+    const [dbUsers, total] = await Promise.all([
+      prisma.users.findMany({
+        where: { organization_id: orgId, deleted_at: null },
         select: {
           id: true,
           email: true,
           name: true,
-          avatarUrl: true,
+          avatar_url: true,
           role: true,
           status: true,
-          lastLoginAt: true,
-          createdAt: true,
+          last_login_at: true,
+          created_at: true,
         },
         orderBy: { name: 'asc' },
         skip: (page - 1) * pageSize,
         take: pageSize,
       }),
-      prisma.user.count({ where: { organizationId: orgId, deletedAt: null } }),
+      prisma.users.count({ where: { organization_id: orgId, deleted_at: null } }),
     ]);
+
+    const users = dbUsers.map(u => ({
+      id: u.id,
+      email: u.email,
+      name: u.name,
+      avatarUrl: u.avatar_url,
+      role: u.role,
+      status: u.status,
+      lastLoginAt: u.last_login_at,
+      createdAt: u.created_at,
+    }));
 
     res.json({
       success: true,
@@ -196,7 +208,7 @@ router.post('/invite', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request,
     const orgId = req.organizationId!;
 
     // Check if email already exists
-    const existing = await prisma.user.findUnique({
+    const existing = await prisma.users.findUnique({
       where: { email: email.toLowerCase() },
     });
 
@@ -205,22 +217,24 @@ router.post('/invite', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request,
     }
 
     // Create invited user
-    const user = await prisma.user.create({
+    const user = await prisma.users.create({
       data: {
+        id: crypto.randomUUID(),
         email: email.toLowerCase(),
         name: email.split('@')[0],
-        organizationId: orgId,
+        organization_id: orgId,
         role,
         status: 'INVITED',
+        updated_at: new Date(),
       },
     });
 
     // Add to teams if specified
     if (teams && teams.length > 0) {
-      await prisma.teamMember.createMany({
+      await prisma.team_members.createMany({
         data: teams.map(teamId => ({
-          teamId,
-          userId: user.id,
+          team_id: teamId,
+          user_id: user.id,
         })),
       });
     }
@@ -228,14 +242,15 @@ router.post('/invite', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request,
     // TODO: Send invitation email
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: orgId,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: orgId,
+        user_id: req.user!.id,
         action: 'user.invite',
-        resourceType: 'user',
-        resourceId: user.id,
-        details: { email, role },
+        resource_type: 'user',
+        resource_id: user.id,
+        details: { email, role } as Prisma.InputJsonValue,
       },
     });
 
@@ -262,7 +277,7 @@ router.put('/:id/role', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request
   try {
     const { role } = z.object({ role: z.enum(['ADMIN', 'ANALYST', 'VIEWER']) }).parse(req.body);
 
-    const user = await prisma.user.findUnique({
+    const user = await prisma.users.findUnique({
       where: { id: req.params.id },
     });
 
@@ -270,7 +285,7 @@ router.put('/:id/role', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request
       throw errors.notFound('User');
     }
 
-    if (user.organizationId !== req.organizationId) {
+    if (user.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -279,7 +294,7 @@ router.put('/:id/role', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request
       throw errors.badRequest('Cannot change your own role');
     }
 
-    const updated = await prisma.user.update({
+    const updated = await prisma.users.update({
       where: { id: req.params.id },
       data: { role },
     });
@@ -288,14 +303,15 @@ router.put('/:id/role', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request
     await cache.del(`user:${user.id}`);
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId!,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId!,
+        user_id: req.user!.id,
         action: 'user.role_changed',
-        resourceType: 'user',
-        resourceId: user.id,
-        details: { newRole: role, previousRole: user.role },
+        resource_type: 'user',
+        resource_id: user.id,
+        details: { newRole: role, previousRole: user.role } as Prisma.InputJsonValue,
       },
     });
 
@@ -317,7 +333,7 @@ router.put('/:id/role', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request
  */
 router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const user = await prisma.user.findUnique({
+    const user = await prisma.users.findUnique({
       where: { id: req.params.id },
     });
 
@@ -325,7 +341,7 @@ router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
       throw errors.notFound('User');
     }
 
-    if (user.organizationId !== req.organizationId) {
+    if (user.organization_id !== req.organizationId) {
       throw errors.forbidden();
     }
 
@@ -335,22 +351,23 @@ router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
     }
 
     // Soft delete
-    await prisma.user.update({
+    await prisma.users.update({
       where: { id: req.params.id },
-      data: { deletedAt: new Date(), status: 'DISABLED' },
+      data: { deleted_at: new Date(), status: 'DISABLED' },
     });
 
     // Invalidate cache
     await cache.del(`user:${user.id}`);
 
     // Audit log
-    await prisma.auditLog.create({
+    await prisma.audit_logs.create({
       data: {
-        organizationId: req.organizationId!,
-        userId: req.user!.id,
+        id: crypto.randomUUID(),
+        organization_id: req.organizationId!,
+        user_id: req.user!.id,
         action: 'user.delete',
-        resourceType: 'user',
-        resourceId: user.id,
+        resource_type: 'user',
+        resource_id: user.id,
       },
     });
 

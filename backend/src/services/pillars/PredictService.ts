@@ -4,7 +4,7 @@
 // Enterprise Platinum Intelligence - PostgreSQL Persistent Storage
 // =============================================================================
 
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, Prisma } from '@prisma/client';
 import { BaseService, ServiceConfig, ServiceHealth } from '../../core/services/BaseService.js';
 
 const prisma = new PrismaClient();
@@ -133,7 +133,7 @@ export class PredictService extends BaseService {
         description: model.description || '',
         target_metric: model.targetVariable,
         features: model.features,
-        hyperparameters: model.metadata || {},
+        hyperparameters: model.metadata as Prisma.InputJsonValue,
         accuracy: model.accuracy,
         training_status: modelStatusMap[model.status] as any,
       },
@@ -207,7 +207,7 @@ export class PredictService extends BaseService {
     const created = await prisma.predictions.create({
       data: {
         model_id: modelId,
-        input_data: input,
+        input_data: input as Prisma.InputJsonValue,
         predicted_value: predictedValue,
         confidence: confidence / 100,
         prediction_date: new Date(),
@@ -216,12 +216,12 @@ export class PredictService extends BaseService {
 
     return {
       id: created.id,
-      modelId: created.modelId,
+      modelId: created.model_id,
       organizationId: model.organizationId,
-      input: created.inputData as Record<string, unknown>,
-      prediction: created.predictedValue,
+      input: created.input_data as unknown as Record<string, unknown>,
+      prediction: created.predicted_value,
       confidence: created.confidence * 100,
-      createdAt: created.createdAt,
+      createdAt: created.created_at,
     };
   }
 
@@ -235,12 +235,12 @@ export class PredictService extends BaseService {
 
     return predictions.map((p: any) => ({
       id: p.id,
-      modelId: p.modelId,
-      organizationId: p.model?.organizationId || '',
-      input: p.inputData as Record<string, unknown>,
-      prediction: p.predictedValue,
+      modelId: p.model_id,
+      organizationId: p.model?.organization_id || '',
+      input: p.input_data as unknown as Record<string, unknown>,
+      prediction: p.predicted_value,
       confidence: p.confidence * 100,
-      createdAt: p.createdAt,
+      createdAt: p.created_at,
     }));
   }
 
@@ -321,7 +321,7 @@ export class PredictService extends BaseService {
 
     if (features.length > 0) {
       return features.map((f: any) => ({
-        feature: f.featureName,
+        feature: f.feature_name,
         importance: f.importance,
         direction: (f.direction as 'positive' | 'negative' | 'neutral') || 'neutral',
       }));
@@ -398,16 +398,16 @@ export class PredictService extends BaseService {
 
     return {
       id: m.id,
-      organizationId: m.organizationId,
+      organizationId: m.organization_id,
       name: m.name,
       description: m.description || '',
-      type: reverseModelTypeMap[m.modelType] || 'regression',
-      status: reverseStatusMap[m.trainingStatus] || 'inactive',
+      type: reverseModelTypeMap[m.model_type] || 'regression',
+      status: reverseStatusMap[m.training_status] || 'inactive',
       accuracy: m.accuracy || 0,
       features: (m.features as string[]) || [],
-      targetVariable: m.targetMetric,
+      targetVariable: m.target_metric,
       trainingDataSize: 0,
-      lastTrained: m.lastTrainedAt || m.createdAt,
+      lastTrained: m.last_trained_at || m.created_at,
       predictions24h,
       metadata: (m.hyperparameters as Record<string, unknown>) || {},
     };
