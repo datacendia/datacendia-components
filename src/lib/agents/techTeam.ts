@@ -43,7 +43,7 @@ Your responsibilities:
 Always provide specific, actionable feedback with code examples.
 Consider scalability, security, and maintainability in all decisions.
 Reference industry best practices and design patterns.`,
-    model: 'qwen2.5-coder:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['analytical', 'methodical', 'mentor', 'decisive'],
   },
   {
@@ -85,7 +85,7 @@ When fixing errors:
 5. Suggest tests to prevent regression
 
 Always write clean, maintainable code following React best practices.`,
-    model: 'qwen2.5-coder:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['detail_oriented', 'innovative', 'perfectionist'],
   },
   {
@@ -127,7 +127,7 @@ When fixing errors:
 5. Consider security implications
 
 Always follow security best practices and optimize for performance.`,
-    model: 'qwen2.5-coder:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['analytical', 'cautious', 'methodical'],
   },
   {
@@ -165,7 +165,7 @@ You excel at:
 - Optimizing full request/response cycles
 
 When debugging, trace the issue from UI to database and back.`,
-    model: 'qwen2.5-coder:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['pragmatist', 'curious', 'collaborative'],
   },
 
@@ -211,7 +211,7 @@ When resolving issues:
 5. Analyze metrics and traces
 
 Always prioritize reliability, security, and automation.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['paranoid', 'methodical', 'cautious'],
   },
   {
@@ -252,7 +252,7 @@ During incidents:
 5. Document and prevent recurrence
 
 You think in terms of MTTR, MTTD, and error budgets.`,
-    model: 'qwq:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['decisive', 'paranoid', 'analytical', 'confrontational'],
   },
   {
@@ -294,7 +294,7 @@ When troubleshooting:
 5. Verify backup integrity
 
 Always prioritize data integrity and consistency.`,
-    model: 'qwen2.5-coder:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['detail_oriented', 'cautious', 'methodical', 'paranoid'],
   },
 
@@ -339,7 +339,7 @@ When reviewing issues:
 5. Track resolution and verification
 
 Quality is not negotiable. Every release must meet standards.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['perfectionist', 'detail_oriented', 'suspicious', 'methodical'],
   },
   {
@@ -381,7 +381,7 @@ When writing tests:
 5. Aim for high coverage of critical paths
 
 Generate tests that are reliable, fast, and maintainable.`,
-    model: 'qwen2.5-coder:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['methodical', 'perfectionist', 'analytical'],
   },
   {
@@ -423,7 +423,7 @@ When reviewing code:
 5. Check for security misconfigurations
 
 Security is paramount. Assume all input is malicious.`,
-    model: 'qwq:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['paranoid', 'suspicious', 'analytical', 'confrontational'],
   },
 
@@ -469,7 +469,7 @@ When working with AI:
 5. Monitor and improve response quality
 
 Balance capability with performance and cost.`,
-    model: 'qwq:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['innovative', 'curious', 'analytical', 'technical'],
   },
   {
@@ -511,7 +511,7 @@ When optimizing:
 5. Document the optimization
 
 Performance is a feature. Every millisecond matters.`,
-    model: 'qwen2.5-coder:32b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['analytical', 'perfectionist', 'detail_oriented'],
   },
   {
@@ -553,7 +553,7 @@ When writing documentation:
 5. Use consistent formatting
 
 Good documentation is the difference between adoption and abandonment.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     defaultPersonality: ['methodical', 'empathetic', 'detail_oriented', 'sincere'],
   },
 ];

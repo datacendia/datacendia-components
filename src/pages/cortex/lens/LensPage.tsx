@@ -408,20 +408,47 @@ export const LensPage: React.FC = () => {
             + New Scenario
           </button>
           <button
-            onClick={() => navigate('/cortex/lens/scenarios')}
+            onClick={() => navigate('/cortex/lens/forecast/all')}
             className="px-4 py-2 bg-neutral-800 border border-neutral-700 rounded-lg text-sm text-neutral-300 hover:bg-neutral-700 hover:text-white transition-colors"
           >
             View All Scenarios →
           </button>
           <button
+            onClick={() => {
+              // Export simulation report
+              const report = {
+                timestamp: new Date().toISOString(),
+                simulation: selectedSimulation,
+                timeHorizon: timeHorizon,
+                parameters: parameters.map(p => ({ name: p.name, value: p.value, unit: p.unit })),
+                outcomes: outcomes.map(o => ({ type: o.type, label: o.label, percentage: o.percentage })),
+                drivers: drivers.map(d => ({ name: d.name, impact: d.impact, direction: d.direction })),
+              };
+              const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url;
+              a.download = `simulation-${selectedSimulation.code}-${new Date().toISOString().split('T')[0]}.json`;
+              a.click();
+              URL.revokeObjectURL(url);
+            }}
             className="px-4 py-2 bg-neutral-800 border border-neutral-700 rounded-lg text-sm text-neutral-300 hover:bg-neutral-700 hover:text-white transition-colors"
           >
             Export Report
           </button>
           <button
-            className="px-4 py-2 bg-primary-600 rounded-lg text-sm text-white font-medium hover:bg-primary-700 transition-colors"
+            onClick={() => {
+              setIsLoading(true);
+              // Simulate running analysis
+              setTimeout(() => {
+                setIsLoading(false);
+                alert(`Analysis complete for ${selectedSimulation.name}!\n\nWorst Case: ${outcomes[0].percentage}%\nBase Case: ${outcomes[1].percentage}%\nMitigated: ${outcomes[2].percentage}%`);
+              }, 1500);
+            }}
+            disabled={isLoading}
+            className="px-4 py-2 bg-primary-600 rounded-lg text-sm text-white font-medium hover:bg-primary-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            Run Analysis
+            {isLoading ? 'Running...' : 'Run Analysis'}
           </button>
         </div>
       </div>

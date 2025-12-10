@@ -14,9 +14,9 @@ import { Logo } from '../../components/brand';
 const products = [
   {
     id: 'council',
-    name: 'The Council',
+    name: 'The Council™',
     tagline: 'AI-Powered Strategic Advisory',
-    description: 'Consult with a pantheon of specialized AI agents who reason across your entire organization. Get strategic insights from CendiaChief, CendiaCFO, CendiaCOO, and more.',
+    description: 'Consult with a pantheon of specialized AI agents who reason across your entire organization. Get strategic insights from CendiaChief™, CendiaCFO™, CendiaCOO™, and more.',
     icon: '🧠',
     color: '#6366F1',
     features: [
@@ -35,8 +35,74 @@ const products = [
     screenshot: '/screenshots/council.png',
   },
   {
+    id: 'apotheosis',
+    name: 'CendiaApotheosis™',
+    tagline: 'Organizational Superintelligence',
+    description: 'Nightly red-teaming that attacks your AI systems, auto-patches vulnerabilities, and upskills your team. Achieve an Apotheosis Score™ above 95 for enterprise-grade AI resilience.',
+    icon: '⚡',
+    color: '#F59E0B',
+    features: [
+      'Automated red-team attacks on your AI systems',
+      'Self-healing with reversible auto-patches',
+      'Human escalation for critical decisions',
+      'Pattern banning to prevent repeat failures',
+      'Upskill assignments for team development',
+    ],
+    useCases: [
+      'AI security hardening',
+      'Continuous improvement of decision quality',
+      'Compliance with AI governance frameworks',
+      'Enterprise superintelligence certification',
+    ],
+    screenshot: '/screenshots/apotheosis.png',
+  },
+  {
+    id: 'dissent',
+    name: 'CendiaDissent™',
+    tagline: 'Protected Disagreement',
+    description: 'File formal dissent against AI recommendations with full retaliation protection. Track outcomes to prove when dissenters were right.',
+    icon: '⚖️',
+    color: '#DC2626',
+    features: [
+      'Formal dissent filing with evidence upload',
+      'Anonymous and protected channels',
+      'Outcome verification and accuracy tracking',
+      'High-accuracy dissenter recognition',
+      'Retaliation monitoring and protection',
+    ],
+    useCases: [
+      'Ensuring human oversight of AI decisions',
+      'Building organizational learning culture',
+      'Regulatory compliance for AI governance',
+      'Identifying high-value contrarian thinkers',
+    ],
+    screenshot: '/screenshots/dissent.png',
+  },
+  {
+    id: 'omnitranslate',
+    name: 'CendiaOmniTranslate™',
+    tagline: '100+ Languages, Zero Friction',
+    description: 'Enterprise-grade AI translation supporting 100+ languages with context-aware business terminology, glossary management, and translation memory.',
+    icon: '🌐',
+    color: '#0EA5E9',
+    features: [
+      '100+ languages including low-resource languages',
+      'RTL language support (Arabic, Hebrew, Urdu)',
+      'Enterprise glossary management',
+      'Translation memory for consistency',
+      'Document and decision translation',
+    ],
+    useCases: [
+      'Global team collaboration',
+      'Multilingual customer support',
+      'Cross-border compliance documentation',
+      'International executive summaries',
+    ],
+    screenshot: '/screenshots/omnitranslate.png',
+  },
+  {
     id: 'pulse',
-    name: 'The Pulse',
+    name: 'CendiaPulse™',
     tagline: 'Organization Health at a Glance',
     description: 'Real-time visibility into your organization\'s vital signs. Monitor data health, operations, security, and people metrics with instant alerts.',
     icon: '💓',
@@ -58,7 +124,7 @@ const products = [
   },
   {
     id: 'lens',
-    name: 'The Lens',
+    name: 'CendiaLens™',
     tagline: 'See Possible Futures',
     description: 'AI-powered forecasting and what-if analysis. Model different scenarios and understand the impact of decisions before you make them.',
     icon: '🔮',
@@ -80,7 +146,7 @@ const products = [
   },
   {
     id: 'bridge',
-    name: 'The Bridge',
+    name: 'CendiaBridge™',
     tagline: 'Automate Everything',
     description: 'Visual workflow builder that connects your systems, automates processes, and ensures nothing falls through the cracks.',
     icon: '🌉',
@@ -102,7 +168,7 @@ const products = [
   },
   {
     id: 'graph',
-    name: 'Graph Explorer',
+    name: 'CendiaGraph™',
     tagline: 'Your Data Universe, Visualized',
     description: 'Interactive knowledge graph that maps every entity, relationship, and data flow in your organization. Understand lineage, impact, and dependencies instantly.',
     icon: '🕸️',
@@ -125,14 +191,18 @@ const products = [
 ];
 
 const integrations = [
-  { name: 'Salesforce', icon: '☁️', category: 'CRM' },
+  { name: 'PostgreSQL', icon: '🐘', category: 'Database' },
+  { name: 'MySQL', icon: '🐬', category: 'Database' },
+  { name: 'MongoDB', icon: '🍃', category: 'Database' },
+  { name: 'Oracle', icon: '🔴', category: 'Database' },
+  { name: 'SQL Server', icon: '🔷', category: 'Database' },
+  { name: 'IBM DB2', icon: '🔵', category: 'Database' },
   { name: 'Snowflake', icon: '❄️', category: 'Data Warehouse' },
-  { name: 'Slack', icon: '💬', category: 'Communication' },
+  { name: 'Salesforce', icon: '☁️', category: 'CRM' },
   { name: 'SAP', icon: '📊', category: 'ERP' },
+  { name: 'Slack', icon: '💬', category: 'Communication' },
   { name: 'AWS', icon: '☁️', category: 'Cloud' },
-  { name: 'BigQuery', icon: '🔍', category: 'Analytics' },
-  { name: 'Tableau', icon: '📈', category: 'BI' },
-  { name: 'Jira', icon: '📋', category: 'Project Management' },
+  { name: 'Azure', icon: '🔷', category: 'Cloud' },
 ];
 
 // =============================================================================
@@ -296,11 +366,11 @@ export const ProductPage: React.FC = () => {
       <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            The Intelligence Platform for Modern Organizations
+            The Sovereign Intelligence Platform
           </h1>
           <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
-            Datacendia unifies your data, empowers your teams with AI advisors, and automates 
-            your workflows—all while keeping your intelligence sovereign and secure.
+            Datacendia™ unifies your data, empowers your teams with AI advisors, and automates 
+            your workflows—all while keeping your intelligence sovereign and secure. Now with 100+ language support.
           </p>
           <div className="flex items-center justify-center gap-4">
             <Link
@@ -324,7 +394,7 @@ export const ProductPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-neutral-900 mb-4">
-              Five Modules. One Unified Platform.
+              Enterprise Modules. One Unified Platform.
             </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
               Each module is powerful on its own. Together, they create an intelligence 
@@ -352,14 +422,14 @@ export const ProductPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-neutral-900 mb-4">
-              Connect Everything
+              Connect to Any Database. Zero-Copy Optional.
             </h2>
             <p className="text-lg text-neutral-600">
-              Native integrations with the tools you already use
+              Connect directly to your existing databases. Data never has to leave your infrastructure.
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
             {integrations.map((integration, idx) => (
               <div
                 key={idx}
@@ -373,7 +443,7 @@ export const ProductPage: React.FC = () => {
           </div>
 
           <p className="text-center text-neutral-500 mt-8">
-            + 50 more integrations available
+            + Client-hosted, hybrid sync, and zero-copy modes available
           </p>
         </div>
       </section>

@@ -15,8 +15,13 @@ import {
   getPlatformDashboard 
 } from '../services/admin/index.js';
 import { logger } from '../utils/logger.js';
+import { devAuth, requireRole } from '../middleware/auth.js';
 
 const router = Router();
+
+// All platform admin routes require authentication and admin-level role
+router.use(devAuth);
+router.use(requireRole('ADMIN', 'SUPER_ADMIN'));
 
 // =============================================================================
 // DASHBOARD

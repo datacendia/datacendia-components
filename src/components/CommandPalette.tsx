@@ -167,16 +167,16 @@ export function CommandPalette() {
     <>
       {/* Backdrop */}
       <div 
-        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[200] animate-in fade-in duration-150"
+        className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[200] animate-in fade-in duration-150"
         onClick={() => setIsOpen(false)}
       />
       
       {/* Palette */}
       <div className="fixed top-[20%] left-1/2 -translate-x-1/2 w-full max-w-xl z-[201] animate-in slide-in-from-top-4 fade-in duration-200">
-        <div className="bg-white rounded-2xl shadow-2xl border border-neutral-200 overflow-hidden">
+        <div className="bg-sovereign-card rounded-2xl shadow-2xl border border-sovereign-border overflow-hidden">
           {/* Search Input */}
-          <div className="flex items-center gap-3 px-4 py-3 border-b border-neutral-100">
-            <svg className="w-5 h-5 text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <div className="flex items-center gap-3 px-4 py-3 border-b border-sovereign-border-subtle">
+            <svg className="w-5 h-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
             <input
@@ -186,9 +186,9 @@ export function CommandPalette() {
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder={t('commandPalette.searchPlaceholder')}
-              className="flex-1 bg-transparent text-neutral-900 placeholder:text-neutral-400 focus:outline-none text-base"
+              className="flex-1 bg-transparent text-white placeholder:text-gray-500 focus:outline-none text-base"
             />
-            <kbd className="hidden sm:inline-flex px-2 py-1 text-xs font-mono text-neutral-400 bg-neutral-100 rounded">
+            <kbd className="hidden sm:inline-flex px-2 py-1 text-xs font-mono text-gray-400 bg-sovereign-active rounded">
               esc
             </kbd>
           </div>
@@ -196,14 +196,14 @@ export function CommandPalette() {
           {/* Results */}
           <div ref={listRef} className="max-h-80 overflow-y-auto py-2">
             {filteredCommands.length === 0 ? (
-              <div className="px-4 py-8 text-center text-neutral-400">
+              <div className="px-4 py-8 text-center text-gray-500">
                 <span className="text-2xl mb-2 block">🔍</span>
                 {t('commandPalette.noResults')} "{query}"
               </div>
             ) : (
               Object.entries(groupedCommands).map(([category, commands]) => (
                 <div key={category}>
-                  <div className="px-4 py-1.5 text-xs font-medium text-neutral-400 uppercase tracking-wider">
+                  <div className="px-4 py-1.5 text-xs font-medium text-gray-600 uppercase tracking-wider">
                     {getCategoryLabel(category)}
                   </div>
                   {commands.map((cmd, idx) => {
@@ -214,19 +214,19 @@ export function CommandPalette() {
                         onClick={() => { cmd.action(); setIsOpen(false); }}
                         className={`w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors ${
                           globalIdx === selectedIndex
-                            ? 'bg-primary-50 text-primary-900'
-                            : 'hover:bg-neutral-50'
+                            ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
+                            : 'hover:bg-sovereign-hover text-gray-300'
                         }`}
                       >
                         <span className="text-lg w-8 text-center">{cmd.icon}</span>
                         <div className="flex-1 min-w-0">
                           <p className="font-medium text-sm truncate">{cmd.title}</p>
                           {cmd.subtitle && (
-                            <p className="text-xs text-neutral-500 truncate">{cmd.subtitle}</p>
+                            <p className="text-xs text-gray-500 truncate">{cmd.subtitle}</p>
                           )}
                         </div>
                         {globalIdx === selectedIndex && (
-                          <kbd className="px-2 py-0.5 text-xs font-mono text-primary-600 bg-primary-100 rounded">
+                          <kbd className="px-2 py-0.5 text-xs font-mono text-cyan-400 bg-cyan-900/30 rounded">
                             ↵
                           </kbd>
                         )}
@@ -239,20 +239,20 @@ export function CommandPalette() {
           </div>
 
           {/* Footer */}
-          <div className="px-4 py-2 border-t border-neutral-100 bg-neutral-50 flex items-center justify-between text-xs text-neutral-400">
+          <div className="px-4 py-2 border-t border-sovereign-border-subtle bg-sovereign-elevated flex items-center justify-between text-xs text-gray-500">
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1">
-                <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded font-mono text-[10px]">↑</kbd>
-                <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded font-mono text-[10px]">↓</kbd>
+                <kbd className="px-1.5 py-0.5 bg-sovereign-active rounded font-mono text-[10px] text-gray-400">↑</kbd>
+                <kbd className="px-1.5 py-0.5 bg-sovereign-active rounded font-mono text-[10px] text-gray-400">↓</kbd>
                 {t('commandPalette.navigate')}
               </span>
               <span className="flex items-center gap-1">
-                <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded font-mono text-[10px]">↵</kbd>
+                <kbd className="px-1.5 py-0.5 bg-sovereign-active rounded font-mono text-[10px] text-gray-400">↵</kbd>
                 {t('commandPalette.select')}
               </span>
             </div>
             <span className="flex items-center gap-1">
-              <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded font-mono text-[10px]">⌘K</kbd>
+              <kbd className="px-1.5 py-0.5 bg-sovereign-active rounded font-mono text-[10px] text-gray-400">Ctrl+K</kbd>
               {t('commandPalette.toggle')}
             </span>
           </div>

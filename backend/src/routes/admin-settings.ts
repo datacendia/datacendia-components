@@ -56,7 +56,7 @@ const SETTINGS_DEFINITIONS: SettingCategory[] = [
     icon: '🧠',
     settings: [
       { key: 'OLLAMA_BASE_URL', label: 'Ollama Base URL', type: 'url', description: 'URL of your Ollama instance', placeholder: 'http://localhost:11434', category: 'ollama' },
-      { key: 'OLLAMA_MODEL', label: 'Default Model', type: 'text', description: 'Primary model for general use', placeholder: 'llama3.3:70b', category: 'ollama' },
+      { key: 'OLLAMA_MODEL', label: 'Default Model', type: 'text', description: 'Primary model for general use', placeholder: 'qwen2.5:7b', category: 'ollama' },
       { key: 'OLLAMA_MODEL_REASONING', label: 'Reasoning Model', type: 'text', description: 'Model for complex reasoning', placeholder: 'qwq:32b', category: 'ollama' },
       { key: 'OLLAMA_MODEL_CODER', label: 'Coding Model', type: 'text', description: 'Model for code generation', placeholder: 'qwen2.5-coder:32b', category: 'ollama' },
       { key: 'OLLAMA_MODEL_FAST', label: 'Fast Model', type: 'text', description: 'Model for quick responses', placeholder: 'llama3.2:3b', category: 'ollama' },

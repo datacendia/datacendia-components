@@ -1603,6 +1603,415 @@ ${Object.entries(topUniverse.kpiProjections).map(([k, v]) => `- ${k}: ${typeof v
     const match = content.match(/confidence[:\s]*(\d+)/i);
     return match ? parseInt(match[1]) : 75;
   }
+
+  /**
+   * Get real-time resilience scores from organization data
+   */
+  async getResilienceScores(organizationId: string): Promise<{
+    overall: number;
+    dimensions: Array<{ dimension: string; score: number; trend: number }>;
+    weakest: { dimension: string; score: number };
+    strongest: { dimension: string; score: number };
+    lastUpdated: Date;
+  }> {
+    // Fetch real organization data
+    const [organization, healthScores, dataSources, alerts, simulations, metrics] = await Promise.all([
+      prisma.organizations.findUnique({ where: { id: organizationId } }),
+      prisma.health_scores.findMany({
+        where: { organization_id: organizationId },
+        take: 2,
+        orderBy: { calculated_at: 'desc' },
+      }),
+      prisma.data_sources.findMany({ where: { organization_id: organizationId } }),
+      prisma.alerts.findMany({ where: { organization_id: organizationId, status: 'ACTIVE' } }),
+      prisma.crucible_simulations.findMany({
+        where: { organization_id: organizationId, status: 'COMPLETED' },
+        take: 10,
+        orderBy: { created_at: 'desc' },
+      }),
+      prisma.metric_definitions.findMany({
+        where: { organization_id: organizationId },
+        include: { metric_values: { take: 2, orderBy: { timestamp: 'desc' } } },
+      }),
+    ]);
+
+    const latestHealth = healthScores[0];
+    const previousHealth = healthScores[1];
+
+    // Calculate dimension scores from real data
+    // Note: health_scores has: security_score, overall, data_score, ops_score, people_score
+    const dimensions = [
+      {
+        dimension: 'Financial',
+        score: latestHealth?.data_score || this.calculateFinancialResilience(metrics),
+        trend: this.calculateTrend(latestHealth?.data_score, previousHealth?.data_score),
+      },
+      {
+        dimension: 'Talent',
+        score: latestHealth?.people_score || this.calculateTalentResilience(metrics),
+        trend: this.calculateTrend(latestHealth?.people_score, previousHealth?.people_score),
+      },
+      {
+        dimension: 'Operational',
+        score: latestHealth?.ops_score || this.calculateOperationalResilience(dataSources, alerts),
+        trend: this.calculateTrend(latestHealth?.ops_score, previousHealth?.ops_score),
+      },
+      {
+        dimension: 'Cyber',
+        score: latestHealth?.security_score || this.calculateCyberResilience(dataSources, alerts),
+        trend: this.calculateTrend(latestHealth?.security_score, previousHealth?.security_score),
+      },
+      {
+        dimension: 'Market',
+        score: this.calculateMarketResilience(metrics),
+        trend: 0,
+      },
+      {
+        dimension: 'Supply Chain',
+        score: this.calculateSupplyChainResilience(dataSources, simulations),
+        trend: 0,
+      },
+      {
+        dimension: 'Regulatory',
+        score: latestHealth?.security_score ? Math.round(latestHealth.security_score * 0.9) : 70,
+        trend: 0,
+      },
+    ];
+
+    // Calculate overall score
+    const overall = Math.round(dimensions.reduce((sum, d) => sum + d.score, 0) / dimensions.length);
+    
+    // Find weakest and strongest
+    const sorted = [...dimensions].sort((a, b) => a.score - b.score);
+    const weakest = { dimension: sorted[0].dimension, score: sorted[0].score };
+    const strongest = { dimension: sorted[sorted.length - 1].dimension, score: sorted[sorted.length - 1].score };
+
+    return {
+      overall,
+      dimensions,
+      weakest,
+      strongest,
+      lastUpdated: latestHealth?.calculated_at || new Date(),
+    };
+  }
+
+  /**
+   * Get industry benchmarks for comparison
+   */
+  async getIndustryBenchmarks(organizationId: string): Promise<{
+    industry: string;
+    benchmarks: Array<{ dimension: string; industryAvg: number; topQuartile: number; yourScore: number }>;
+    overallComparison: { yourScore: number; industryAvg: number; percentile: number };
+  }> {
+    const org = await prisma.organizations.findUnique({ where: { id: organizationId } });
+    const resilience = await this.getResilienceScores(organizationId);
+    const industry = org?.industry || 'Technology';
+
+    // Industry benchmark data (would come from aggregated data in production)
+    const industryBenchmarks: Record<string, Record<string, { avg: number; topQuartile: number }>> = {
+      'Technology': {
+        Financial: { avg: 72, topQuartile: 85 },
+        Talent: { avg: 68, topQuartile: 82 },
+        Operational: { avg: 75, topQuartile: 88 },
+        Cyber: { avg: 71, topQuartile: 86 },
+        Market: { avg: 65, topQuartile: 80 },
+        'Supply Chain': { avg: 62, topQuartile: 78 },
+        Regulatory: { avg: 74, topQuartile: 88 },
+      },
+      'Healthcare': {
+        Financial: { avg: 70, topQuartile: 83 },
+        Talent: { avg: 65, topQuartile: 80 },
+        Operational: { avg: 72, topQuartile: 85 },
+        Cyber: { avg: 68, topQuartile: 82 },
+        Market: { avg: 70, topQuartile: 84 },
+        'Supply Chain': { avg: 64, topQuartile: 79 },
+        Regulatory: { avg: 78, topQuartile: 92 },
+      },
+      'Financial Services': {
+        Financial: { avg: 78, topQuartile: 90 },
+        Talent: { avg: 70, topQuartile: 84 },
+        Operational: { avg: 76, topQuartile: 89 },
+        Cyber: { avg: 75, topQuartile: 88 },
+        Market: { avg: 68, topQuartile: 82 },
+        'Supply Chain': { avg: 60, topQuartile: 75 },
+        Regulatory: { avg: 82, topQuartile: 94 },
+      },
+      'Manufacturing': {
+        Financial: { avg: 68, topQuartile: 82 },
+        Talent: { avg: 62, topQuartile: 76 },
+        Operational: { avg: 74, topQuartile: 87 },
+        Cyber: { avg: 58, topQuartile: 72 },
+        Market: { avg: 66, topQuartile: 80 },
+        'Supply Chain': { avg: 70, topQuartile: 84 },
+        Regulatory: { avg: 72, topQuartile: 86 },
+      },
+    };
+
+    const industryData = industryBenchmarks[industry] || industryBenchmarks['Technology'];
+    
+    const benchmarks = resilience.dimensions.map(d => ({
+      dimension: d.dimension,
+      industryAvg: industryData[d.dimension]?.avg || 70,
+      topQuartile: industryData[d.dimension]?.topQuartile || 85,
+      yourScore: d.score,
+    }));
+
+    const industryAvgOverall = Math.round(Object.values(industryData).reduce((sum, b) => sum + b.avg, 0) / Object.keys(industryData).length);
+    const percentile = Math.min(99, Math.max(1, Math.round((resilience.overall / industryAvgOverall) * 50)));
+
+    return {
+      industry,
+      benchmarks,
+      overallComparison: {
+        yourScore: resilience.overall,
+        industryAvg: industryAvgOverall,
+        percentile,
+      },
+    };
+  }
+
+  /**
+   * Get scenario recommendations based on organization weaknesses
+   */
+  async getScenarioRecommendations(organizationId: string): Promise<Array<{
+    scenarioType: SimulationType;
+    priority: 'critical' | 'high' | 'medium';
+    reason: string;
+    relatedDimension: string;
+    lastSimulated?: Date;
+  }>> {
+    const [resilience, simulations, org] = await Promise.all([
+      this.getResilienceScores(organizationId),
+      prisma.crucible_simulations.findMany({
+        where: { organization_id: organizationId },
+        orderBy: { created_at: 'desc' },
+      }),
+      prisma.organizations.findUnique({ where: { id: organizationId } }),
+    ]);
+
+    const recommendations: Array<{
+      scenarioType: SimulationType;
+      priority: 'critical' | 'high' | 'medium';
+      reason: string;
+      relatedDimension: string;
+      lastSimulated?: Date;
+    }> = [];
+
+    // Map dimensions to scenario types
+    const dimensionToScenario: Record<string, { type: SimulationType; name: string }> = {
+      'Financial': { type: 'FINANCIAL_STRESS', name: 'Financial Stress Test' },
+      'Talent': { type: 'TALENT_EXODUS', name: 'Talent Crisis' },
+      'Operational': { type: 'OPERATIONAL_SHOCK', name: 'Operational Disruption' },
+      'Cyber': { type: 'CYBER_ATTACK', name: 'Cybersecurity Incident' },
+      'Market': { type: 'MARKET_DISRUPTION', name: 'Market Disruption' },
+      'Supply Chain': { type: 'SUPPLY_CHAIN', name: 'Supply Chain Breakdown' },
+      'Regulatory': { type: 'REGULATORY_CHANGE', name: 'Regulatory Shock' },
+    };
+
+    // Prioritize by weakness
+    for (const dim of resilience.dimensions.sort((a, b) => a.score - b.score)) {
+      const scenario = dimensionToScenario[dim.dimension];
+      if (!scenario) continue;
+
+      const lastSim = simulations.find(s => s.simulation_type === scenario.type);
+      const daysSinceLastSim = lastSim 
+        ? Math.floor((Date.now() - new Date(lastSim.created_at).getTime()) / (1000 * 60 * 60 * 24))
+        : 999;
+
+      let priority: 'critical' | 'high' | 'medium' = 'medium';
+      let reason = '';
+
+      if (dim.score < 50) {
+        priority = 'critical';
+        reason = `${dim.dimension} resilience is critically low at ${dim.score}/100`;
+      } else if (dim.score < 65) {
+        priority = 'high';
+        reason = `${dim.dimension} resilience below industry average at ${dim.score}/100`;
+      } else if (daysSinceLastSim > 30) {
+        priority = 'medium';
+        reason = `No ${scenario.name} simulation run in ${daysSinceLastSim} days`;
+      } else {
+        continue; // Skip if score is good and recently simulated
+      }
+
+      recommendations.push({
+        scenarioType: scenario.type,
+        priority,
+        reason,
+        relatedDimension: dim.dimension,
+        lastSimulated: lastSim?.created_at,
+      });
+    }
+
+    // Add industry-specific recommendations
+    const industry = org?.industry || 'Technology';
+    const industryScenarios: Record<string, SimulationType[]> = {
+      'Technology': ['CYBER_ATTACK', 'TALENT_EXODUS'],
+      'Healthcare': ['REGULATORY_CHANGE', 'SUPPLY_CHAIN'],
+      'Financial Services': ['REGULATORY_CHANGE', 'CYBER_ATTACK'],
+      'Manufacturing': ['SUPPLY_CHAIN', 'OPERATIONAL_SHOCK'],
+    };
+
+    const priorityScenarios = industryScenarios[industry] || [];
+    for (const scenarioType of priorityScenarios) {
+      const existing = recommendations.find(r => r.scenarioType === scenarioType);
+      if (!existing) {
+        const lastSim = simulations.find(s => s.simulation_type === scenarioType);
+        recommendations.push({
+          scenarioType,
+          priority: 'medium',
+          reason: `Recommended for ${industry} industry`,
+          relatedDimension: Object.entries(dimensionToScenario).find(([_, v]) => v.type === scenarioType)?.[0] || 'General',
+          lastSimulated: lastSim?.created_at,
+        });
+      }
+    }
+
+    // Sort by priority
+    const priorityOrder = { critical: 0, high: 1, medium: 2 };
+    return recommendations.sort((a, b) => priorityOrder[a.priority] - priorityOrder[b.priority]).slice(0, 5);
+  }
+
+  /**
+   * Get recent simulations with summary
+   */
+  async getRecentSimulations(organizationId: string, limit: number = 5): Promise<Array<{
+    id: string;
+    name: string;
+    simulationType: string;
+    status: string;
+    createdAt: Date;
+    createdBy: string;
+    resilienceScore?: number;
+    sentiment?: string;
+  }>> {
+    const simulations = await prisma.crucible_simulations.findMany({
+      where: { organization_id: organizationId },
+      orderBy: { created_at: 'desc' },
+      take: limit,
+      include: {
+        users: { select: { name: true } },
+        universes: { take: 1, orderBy: { probability: 'desc' } },
+      },
+    });
+
+    return simulations.map(sim => ({
+      id: sim.id,
+      name: sim.name,
+      simulationType: sim.simulation_type,
+      status: sim.status,
+      createdAt: sim.created_at,
+      createdBy: sim.users?.name || 'Unknown',
+      resilienceScore: (sim.results_summary as any)?.overallConfidence 
+        ? Math.round((sim.results_summary as any).overallConfidence * 100)
+        : undefined,
+      sentiment: sim.universes[0]?.outcome_sentiment,
+    }));
+  }
+
+  // Helper methods for resilience calculation
+  private calculateFinancialResilience(metrics: any[]): number {
+    const getMetricValue = (pattern: string) => {
+      const metric = metrics.find(m => 
+        m.code?.toLowerCase().includes(pattern) || m.name?.toLowerCase().includes(pattern)
+      );
+      return metric?.metric_values?.[0]?.value || 0;
+    };
+
+    const revenue = getMetricValue('revenue');
+    const margin = getMetricValue('margin');
+    const cashflow = getMetricValue('cash');
+    
+    // Calculate financial health score (0-100)
+    let score = 70; // Base score
+    if (revenue > 0) score += 10;
+    if (margin > 20) score += 10;
+    if (cashflow > 0) score += 10;
+    
+    return Math.min(100, Math.max(0, score));
+  }
+
+  private calculateTalentResilience(metrics: any[]): number {
+    const getMetricValue = (pattern: string) => {
+      const metric = metrics.find(m => 
+        m.code?.toLowerCase().includes(pattern) || m.name?.toLowerCase().includes(pattern)
+      );
+      return metric?.metric_values?.[0]?.value || 0;
+    };
+
+    const engagement = getMetricValue('engagement');
+    const turnover = getMetricValue('turnover');
+    
+    let score = 65;
+    if (engagement > 70) score += 15;
+    else if (engagement > 50) score += 5;
+    if (turnover < 10) score += 15;
+    else if (turnover < 20) score += 5;
+    
+    return Math.min(100, Math.max(0, score));
+  }
+
+  private calculateOperationalResilience(dataSources: any[], alerts: any[]): number {
+    const connectedSources = dataSources.filter(ds => ds.status === 'CONNECTED').length;
+    const totalSources = dataSources.length || 1;
+    const criticalAlerts = alerts.filter(a => a.severity === 'CRITICAL').length;
+    
+    let score = 70;
+    score += (connectedSources / totalSources) * 20;
+    score -= criticalAlerts * 5;
+    
+    return Math.min(100, Math.max(0, Math.round(score)));
+  }
+
+  private calculateCyberResilience(dataSources: any[], alerts: any[]): number {
+    const securityAlerts = alerts.filter(a => 
+      a.type?.toLowerCase().includes('security') || a.type?.toLowerCase().includes('cyber')
+    ).length;
+    
+    let score = 75;
+    score -= securityAlerts * 10;
+    
+    // Bonus for having integrations
+    if (dataSources.some(ds => ds.type === 'security')) score += 10;
+    
+    return Math.min(100, Math.max(0, score));
+  }
+
+  private calculateMarketResilience(metrics: any[]): number {
+    const getMetricValue = (pattern: string) => {
+      const metric = metrics.find(m => 
+        m.code?.toLowerCase().includes(pattern) || m.name?.toLowerCase().includes(pattern)
+      );
+      return metric?.metric_values?.[0]?.value || 0;
+    };
+
+    const growth = getMetricValue('growth');
+    const nps = getMetricValue('nps');
+    
+    let score = 65;
+    if (growth > 20) score += 20;
+    else if (growth > 10) score += 10;
+    else if (growth > 0) score += 5;
+    if (nps > 50) score += 10;
+    
+    return Math.min(100, Math.max(0, score));
+  }
+
+  private calculateSupplyChainResilience(dataSources: any[], simulations: any[]): number {
+    // Check if supply chain has been tested
+    const supplyChainSims = simulations.filter(s => s.simulation_type === 'SUPPLY_CHAIN');
+    
+    let score = 60;
+    if (supplyChainSims.length > 0) score += 15;
+    if (dataSources.some(ds => ds.type === 'erp')) score += 10;
+    
+    return Math.min(100, Math.max(0, score));
+  }
+
+  private calculateTrend(current?: number, previous?: number): number {
+    if (!current || !previous || previous === 0) return 0;
+    return Math.round(((current - previous) / previous) * 100);
+  }
 }
 
 const numUniverses = 100; // Used in probability calculation

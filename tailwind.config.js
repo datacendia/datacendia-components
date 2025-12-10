@@ -9,18 +9,54 @@ export default {
   theme: {
     extend: {
       colors: {
+        // =================================================================
+        // SOVEREIGN THEME - Dark mode primary
+        // =================================================================
+        sovereign: {
+          base: '#030303',      // Deepest background
+          elevated: '#0a0a0a',  // Elevated surfaces (sidebar, header)
+          card: '#111111',      // Cards and panels
+          hover: '#1a1a1a',     // Hover states
+          active: '#222222',    // Active/selected states
+        },
+        
+        // Sovereign borders
+        'sovereign-border': {
+          subtle: '#1f1f1f',
+          DEFAULT: '#2a2a2a',
+          strong: '#3a3a3a',
+        },
+        
+        // Crimson - Authority accent (CendiaVeto™)
+        crimson: {
+          50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#fca5a5',
+          400: '#f87171',
+          500: '#ef4444',
+          600: '#dc2626',
+          700: '#b91c1c',
+          800: '#991b1b',
+          900: '#7f1d1d',
+          950: '#450a0a',
+        },
+        
+        // =================================================================
+        // LEGACY COLORS (for gradual migration)
+        // =================================================================
         primary: {
-          50: '#F0FDFA',
-          100: '#CCFBF1',
-          200: '#99F6E4',
-          300: '#5EEAD4',
-          400: '#2DD4BF',
-          500: '#14B8A6', // Teal
-          600: '#0D9488',
-          700: '#0F766E',
-          800: '#115E59',
-          900: '#134E4A',
-          950: '#042F2E',
+          50: '#ecfeff',
+          100: '#cffafe',
+          200: '#a5f3fc',
+          300: '#67e8f9',
+          400: '#22d3ee',
+          500: '#06b6d4', // Cyan (now primary interactive)
+          600: '#0891b2',
+          700: '#0e7490',
+          800: '#155e75',
+          900: '#164e63',
+          950: '#083344',
         },
         secondary: {
           50: '#EFF6FF',
@@ -60,27 +96,27 @@ export default {
           700: '#374151',
           800: '#1F2937',
           900: '#111827',
-          950: '#020617', // Deep Black-Blue
+          950: '#030303', // Updated to match sovereign base
         },
         success: {
-          light: '#CCFBF1', // Teal-ish
-          main: '#10B981',  // Emerald
+          light: '#d1fae5',
+          main: '#10B981',
           dark: '#047857',
         },
         warning: {
-          light: '#FFEDD5',
-          main: '#F97316', // Orange
-          dark: '#C2410C',
+          light: '#fef3c7',
+          main: '#f59e0b',
+          dark: '#b45309',
         },
         error: {
-          light: '#FFE4E6',
-          main: '#F43F5E', // Rose
-          dark: '#BE123C',
+          light: '#fee2e2',
+          main: '#ef4444',
+          dark: '#b91c1c',
         },
         info: {
-          light: '#DBEAFE',
-          main: '#3B82F6', // Blue
-          dark: '#1D4ED8',
+          light: '#dbeafe',
+          main: '#3b82f6',
+          dark: '#1d4ed8',
         },
       },
       fontFamily: {

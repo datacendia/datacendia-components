@@ -6,15 +6,16 @@
 import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
+import { AVAILABLE_CONNECTORS } from '../../../components/cortex/DataSourceSelector';
 
-const CONNECTORS = [
-  { id: 'salesforce', name: 'Salesforce', icon: '☁️', color: 'bg-blue-500' },
-  { id: 'hubspot', name: 'HubSpot', icon: '🧡', color: 'bg-orange-500' },
-  { id: 'slack', name: 'Slack', icon: '💬', color: 'bg-purple-500' },
-  { id: 'jira', name: 'Jira', icon: '📋', color: 'bg-blue-600' },
-  { id: 'github', name: 'GitHub', icon: '🐙', color: 'bg-gray-800' },
-  { id: 'stripe', name: 'Stripe', icon: '💳', color: 'bg-indigo-500' },
-];
+const CONNECTORS = AVAILABLE_CONNECTORS
+  .filter((connector) => connector.oauth)
+  .map((connector) => ({
+    id: connector.id || connector.type.toLowerCase(),
+    name: connector.name,
+    icon: connector.icon,
+    color: connector.color || 'bg-blue-500',
+  }));
 
 interface Session {
   id: string;

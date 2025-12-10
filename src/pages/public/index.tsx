@@ -1032,4 +1032,16 @@ export { DownloadsPage } from './DownloadsPage';
 
 export { LicensePage } from './LicensePage';
 
+// =============================================================================
+// NEW PAGES - December 2024
+// =============================================================================
+
+export { SecurityPage } from './SecurityPage';
+export { CookiePolicyPage } from './CookiePolicyPage';
+export { DocsPage } from './DocsPage';
+export { BlogPage } from './BlogPage';
+export { ChangelogPage } from './ChangelogPage';
+export { SupportPage } from './SupportPage';
+export { IntegrationsPage } from './IntegrationsPage';
+
 export default HomePage;

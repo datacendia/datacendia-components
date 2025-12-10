@@ -387,7 +387,14 @@ export const DashboardPage: React.FC = () => {
                   <p className="text-xs text-neutral-500">{t('dashboard.by')} {approval.requestedBy}</p>
                 </div>
                 <div className="flex gap-2 ml-4">
-                  <button className="px-3 py-1 text-xs font-medium text-success-main bg-success-light rounded-md hover:bg-success-main hover:text-white transition-colors">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      // In a real app, this would call workflowsApi.approve(approval.id)
+                      alert(`Approved: ${approval.title}`);
+                    }}
+                    className="px-3 py-1 text-xs font-medium text-success-main bg-success-light rounded-md hover:bg-success-main hover:text-white transition-colors"
+                  >
                     {t('dashboard.approve')}
                   </button>
                 </div>

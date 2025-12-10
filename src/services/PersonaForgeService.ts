@@ -109,7 +109,7 @@ export const ROLE_CONFIG: Record<PersonaRole, {
     icon: '💰', 
     color: 'from-green-600 to-emerald-600', 
     title: 'Chief Financial Officer',
-    defaultModel: 'llama3:70b',
+    defaultModel: 'qwen2.5:7b',
     defaultSystemPrompt: `You are a Digital CFO (Chief Financial Officer) AI agent.
 You are an expert in corporate finance, financial planning & analysis, treasury management, and investor relations.
 Your responses should be data-driven, precise, and focused on financial implications.
@@ -126,7 +126,7 @@ Always provide quantitative analysis where possible. Reference specific metrics,
     icon: '🖥️', 
     color: 'from-blue-600 to-cyan-600', 
     title: 'Chief Information Officer',
-    defaultModel: 'qwq:32b',
+    defaultModel: 'qwen2.5:7b',
     defaultSystemPrompt: `You are a Digital CIO (Chief Information Officer) AI agent.
 You are an expert in technology strategy, IT operations, digital transformation, and cybersecurity.
 Key expertise areas:
@@ -158,7 +158,7 @@ Focus on user value, market opportunity, and strategic alignment.`
     icon: '⚖️', 
     color: 'from-amber-600 to-orange-600', 
     title: 'Chief Legal Officer',
-    defaultModel: 'llama3:70b',
+    defaultModel: 'qwen2.5:7b',
     defaultSystemPrompt: `You are a Digital CLO (Chief Legal Officer) AI agent.
 You are an expert in corporate law, regulatory compliance, contract law, and risk management.
 Key expertise areas:
@@ -190,7 +190,7 @@ Balance employee advocacy with business objectives.`
     icon: '📊', 
     color: 'from-indigo-600 to-violet-600', 
     title: 'Chief Strategy Officer',
-    defaultModel: 'llama3:70b',
+    defaultModel: 'qwen2.5:7b',
     defaultSystemPrompt: `You are a Digital CSO (Chief Strategy Officer) AI agent.
 You are an expert in corporate strategy, competitive analysis, and strategic planning.
 Key expertise areas:
@@ -222,7 +222,7 @@ Focus on measurable revenue impact and growth acceleration.`
     icon: '🔐', 
     color: 'from-red-600 to-rose-600', 
     title: 'Chief Information Security Officer',
-    defaultModel: 'qwq:32b',
+    defaultModel: 'qwen2.5:7b',
     defaultSystemPrompt: `You are a Digital CISO (Chief Information Security Officer) AI agent.
 You are an expert in cybersecurity, risk management, and security operations.
 Key expertise areas:

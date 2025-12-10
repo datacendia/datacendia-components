@@ -144,7 +144,7 @@ export function applySecurityMiddleware(app: Express): void {
       }
     },
     methods: securityConfig.cors.allowedMethods,
-    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin', 'X-Request-Id'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Accept', 'Origin', 'X-Request-Id', 'X-Data-Source-Id', 'x-data-source-id'],
     credentials: securityConfig.cors.allowCredentials,
     maxAge: 86400, // 24 hours
     exposedHeaders: ['X-Request-Id', 'X-RateLimit-Remaining'],

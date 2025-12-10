@@ -20,7 +20,9 @@ const configSchema = z.object({
   
   // Ollama
   ollamaBaseUrl: z.string().url().default('http://localhost:11434'),
-  ollamaModel: z.string().default('llama2'),
+  ollamaModel: z.string().default('qwen2.5:7b'),
+  ollamaModelFlagship: z.string().default('llama3.3:70b'),
+  ollamaModelFast: z.string().default('llama3.2:3b'),
   
   // JWT
   jwtSecret: z.string().min(32),
@@ -45,6 +47,8 @@ const envVars = {
   neo4jPassword: process.env.NEO4J_PASSWORD,
   ollamaBaseUrl: process.env.OLLAMA_BASE_URL,
   ollamaModel: process.env.OLLAMA_MODEL,
+  ollamaModelFlagship: process.env.OLLAMA_MODEL_FLAGSHIP,
+  ollamaModelFast: process.env.OLLAMA_MODEL_FAST,
   jwtSecret: process.env.JWT_SECRET,
   jwtRefreshSecret: process.env.JWT_REFRESH_SECRET,
   jwtExpiresIn: process.env.JWT_EXPIRES_IN,

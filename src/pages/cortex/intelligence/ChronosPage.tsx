@@ -1640,12 +1640,20 @@ export const ChronosPage: React.FC = () => {
     setErpSnapshot(generateERPSnapshot(currentDate));
   }, [currentDate, mode, realMetrics, realDeliberations, realGraphStats]);
 
-  // Playback logic
+  // Playback logic with variable speed support
+  // At 1x: 1 day per second (smooth playback)
+  // At 0.1x: 1 hour per second (slow motion for detailed analysis)
+  // At 10x: 10 days per second (fast forward)
   useEffect(() => {
     if (isPlaying) {
+      // Tick every 100ms for smooth animation
+      const tickInterval = 100;
+      // Base increment: at 1x speed, advance 1 day per second (so 0.1 days per 100ms tick)
+      const baseIncrementMs = 0.1 * 24 * 60 * 60 * 1000; // 0.1 days = 2.4 hours per tick at 1x
+      
       playIntervalRef.current = setInterval(() => {
         setCurrentDate(prev => {
-          const increment = (mode === 'rewind' ? -1 : 1) * playbackSpeed * 24 * 60 * 60 * 1000; // 1 day per tick
+          const increment = (mode === 'rewind' ? -1 : 1) * playbackSpeed * baseIncrementMs;
           const newDate = new Date(prev.getTime() + increment);
           
           if (newDate < timeRange.min || newDate > timeRange.max) {
@@ -1654,7 +1662,7 @@ export const ChronosPage: React.FC = () => {
           }
           return newDate;
         });
-      }, 100);
+      }, tickInterval);
     } else if (playIntervalRef.current) {
       clearInterval(playIntervalRef.current);
     }
@@ -1730,7 +1738,7 @@ export const ChronosPage: React.FC = () => {
         const [snapshotsRes, metricsRes, deliberationsRes, alertsRes, decisionsRes, graphStatsRes] = await Promise.all([
           decisionIntelApi.getChronosSnapshots(),
           metricsApi.getMetrics(),
-          councilApi.getActiveDeliberations(),
+          councilApi.getAllDeliberations(100), // Get ALL deliberations, not just active
           alertsApi.getAlerts(),
           councilApi.getRecentDecisions(50),
           graphApi.getStats(),
@@ -1956,10 +1964,50 @@ export const ChronosPage: React.FC = () => {
     setCausalChain(generateCausalChain(event, events));
   };
 
-  // Start Council replay
-  const startCouncilReplay = (event: TimelineEvent) => {
-    setSelectedReplay(generateCouncilReplay(event));
+  // Start Council replay - fetch real transcript if available
+  const startCouncilReplay = async (event: TimelineEvent) => {
     setEnhancedView('theater');
+    
+    // If event has a real deliberation ID, fetch real transcript
+    if (event.deliberationId) {
+      try {
+        const response = await councilApi.getDeliberationTranscript(event.deliberationId);
+        if (response.success && response.data) {
+          const transcript = response.data as any;
+          // Build replay from real data
+          // Map transcript phases to replay format
+          const replayPhases = transcript.phases?.flatMap((phase: any) => 
+            (phase.messages || []).map((msg: any, idx: number) => ({
+              agent: msg.agentName || 'Agent',
+              statement: msg.content || '',
+              sentiment: msg.sentiment || 'neutral' as const,
+              timestamp: idx * 15, // Approximate timing
+            }))
+          ) || [];
+          
+          const realReplay: CouncilReplay = {
+            id: `replay-${event.id}`,
+            deliberationId: event.deliberationId,
+            timestamp: event.timestamp,
+            query: event.title,
+            participants: transcript.phases?.flatMap((p: any) => 
+              p.messages?.map((m: any) => m.agentName) || []
+            ).filter((v: string, i: number, a: string[]) => a.indexOf(v) === i) || [],
+            duration: replayPhases.length * 15,
+            phases: replayPhases,
+            decision: event.impact === 'positive' ? 'APPROVED' : event.impact === 'negative' ? 'REJECTED' : 'PENDING',
+            confidence: transcript.phases?.[transcript.phases.length - 1]?.messages?.[0]?.confidence || 0.75,
+          };
+          setSelectedReplay(realReplay);
+          return;
+        }
+      } catch (err) {
+        console.log('[Chronos] Falling back to generated replay:', err);
+      }
+    }
+    
+    // Fallback to generated replay
+    setSelectedReplay(generateCouncilReplay(event));
   };
 
   // Run Monte Carlo with AI scenario generation
@@ -2895,6 +2943,27 @@ const TimelineScrubber: React.FC<{
 }> = ({ currentDate, minDate, maxDate, onDateChange, mode, events, isPlaying, onPlayPause, playbackSpeed, onSpeedChange }) => {
   const trackRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
+  const [showDatePicker, setShowDatePicker] = useState(false);
+  const [jumpDate, setJumpDate] = useState('');
+  const [jumpTime, setJumpTime] = useState('12:00');
+
+  // Handle jump to specific date/time
+  const handleJumpToDateTime = () => {
+    if (!jumpDate) return;
+    const [year, month, day] = jumpDate.split('-').map(Number);
+    const [hours, minutes] = jumpTime.split(':').map(Number);
+    const targetDate = new Date(year, month - 1, day, hours, minutes);
+    
+    // Clamp to valid range
+    if (targetDate < minDate) {
+      onDateChange(minDate);
+    } else if (targetDate > maxDate) {
+      onDateChange(maxDate);
+    } else {
+      onDateChange(targetDate);
+    }
+    setShowDatePicker(false);
+  };
   
   const totalMs = maxDate.getTime() - minDate.getTime();
   const position = ((currentDate.getTime() - minDate.getTime()) / totalMs) * 100;
@@ -3050,15 +3119,28 @@ const TimelineScrubber: React.FC<{
         
         <div className="ml-4 flex items-center gap-2">
           <span className="text-sm text-neutral-500">Speed:</span>
-          {[1, 2, 5, 10].map(speed => (
+          {[0.1, 0.25, 0.5, 1, 2, 5, 10].map(speed => (
             <button
               key={speed}
               onClick={() => onSpeedChange(speed)}
               className={`px-2 py-1 text-xs rounded ${
-                playbackSpeed === speed ? 'bg-white text-neutral-900' : 'bg-neutral-800 text-neutral-400'
+                playbackSpeed === speed 
+                  ? 'bg-white text-neutral-900' 
+                  : speed < 1 
+                    ? 'bg-amber-900/50 text-amber-400 hover:bg-amber-800/50' 
+                    : 'bg-neutral-800 text-neutral-400 hover:bg-neutral-700'
               }`}
+              title={
+                speed === 0.1 ? 'Ultra slow: ~2.4 hours per second' :
+                speed === 0.25 ? 'Slow: ~6 hours per second' :
+                speed === 0.5 ? 'Half speed: ~12 hours per second' :
+                speed === 1 ? 'Normal: ~1 day per second' :
+                speed === 2 ? 'Fast: ~2 days per second' :
+                speed === 5 ? 'Faster: ~5 days per second' :
+                'Fastest: ~10 days per second'
+              }
             >
-              {speed}x
+              {speed < 1 ? `${speed}x` : `${speed}x`}
             </button>
           ))}
         </div>
@@ -3083,7 +3165,74 @@ const TimelineScrubber: React.FC<{
             <QuickJump label="+1 Year" onClick={() => onDateChange(new Date(Date.now() + 365 * 24 * 60 * 60 * 1000))} />
           </>
         )}
+        
+        {/* Custom Date/Time Jump Button */}
+        <button
+          onClick={() => setShowDatePicker(!showDatePicker)}
+          className="px-3 py-1 text-xs bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 rounded-full transition-colors font-semibold flex items-center gap-1"
+        >
+          📅 Jump to Date
+        </button>
       </div>
+
+      {/* Date/Time Picker Panel */}
+      {showDatePicker && (
+        <div className="mt-4 p-4 bg-neutral-800 rounded-xl border border-amber-600/50">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-amber-500">⏰</span>
+            <span className="text-sm font-semibold text-white">Jump to Specific Date & Time</span>
+          </div>
+          
+          <div className="flex flex-wrap items-center gap-4">
+            <div className="flex flex-col gap-1">
+              <label className="text-xs text-neutral-400">Date</label>
+              <input
+                type="date"
+                value={jumpDate}
+                onChange={(e) => setJumpDate(e.target.value)}
+                min={minDate.toISOString().split('T')[0]}
+                max={maxDate.toISOString().split('T')[0]}
+                className="px-3 py-2 bg-neutral-900 border border-neutral-700 rounded-lg text-white focus:border-amber-500 focus:outline-none"
+              />
+            </div>
+            
+            <div className="flex flex-col gap-1">
+              <label className="text-xs text-neutral-400">Time</label>
+              <input
+                type="time"
+                value={jumpTime}
+                onChange={(e) => setJumpTime(e.target.value)}
+                className="px-3 py-2 bg-neutral-900 border border-neutral-700 rounded-lg text-white focus:border-amber-500 focus:outline-none"
+              />
+            </div>
+            
+            <div className="flex flex-col gap-1">
+              <label className="text-xs text-neutral-400">&nbsp;</label>
+              <button
+                onClick={handleJumpToDateTime}
+                disabled={!jumpDate}
+                className="px-4 py-2 bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg font-semibold transition-colors"
+              >
+                ⏩ Jump
+              </button>
+            </div>
+            
+            <div className="flex flex-col gap-1">
+              <label className="text-xs text-neutral-400">&nbsp;</label>
+              <button
+                onClick={() => setShowDatePicker(false)}
+                className="px-4 py-2 bg-neutral-700 hover:bg-neutral-600 rounded-lg transition-colors"
+              >
+                Cancel
+              </button>
+            </div>
+          </div>
+          
+          <div className="mt-3 text-xs text-neutral-500">
+            Valid range: {minDate.toLocaleDateString()} — {maxDate.toLocaleDateString()}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
@@ -3098,6 +3247,48 @@ const QuickJump: React.FC<{ label: string; onClick: () => void }> = ({ label, on
 );
 
 const MetricsGrid: React.FC<{ snapshot: StateSnapshot; mode: ChronosMode; department?: string }> = ({ snapshot, mode, department = 'all' }) => {
+  const [showOrgComparison, setShowOrgComparison] = useState(false);
+  
+  // Org-wide benchmarks for comparison (averages across all departments)
+  const orgBenchmarks: Record<string, number> = {
+    headcount: 38, // avg headcount per dept
+    velocity: 72, // avg velocity score
+    deploys: 8, // avg deploys/week
+    bugRate: 3.1, // avg bug rate
+    techDebt: 18, // avg tech debt %
+    teamNPS: 58, // avg team eNPS
+    prTime: 6.5, // avg PR time
+    coverage: 65, // avg test coverage
+    pipeline: 5200000, // avg pipeline
+    winRate: 28, // avg win rate
+    acv: 95000, // avg ACV
+    quota: 78, // avg quota attainment
+    cycle: 52, // avg sales cycle
+    meetings: 18, // avg meetings/week
+    churn: 12, // avg churn risk
+    cac: 5500, // avg CAC
+    mqls: 620, // avg MQLs/month
+    conversion: 18, // avg MQL→SQL
+    spend: 280000, // avg monthly spend
+    roi: 2.4, // avg campaign ROI
+    traffic: 120000, // avg web traffic
+    brand: 65, // avg brand score
+    burn: 920000, // avg burn rate
+    runway: 14, // avg runway
+    ar: 45, // avg A/R days
+    ap: 38, // avg A/P days
+    variance: -5, // avg budget variance
+    cash: 12000000, // avg cash position
+    margin: 62, // avg gross margin
+    openReqs: 18, // avg open reqs
+    attrition: 12, // avg attrition
+    timeToHire: 45, // avg time to hire
+    eNPS: 35, // avg eNPS
+    tenure: 1.8, // avg tenure
+    diversity: 32, // avg diversity %
+    training: 16, // avg training hrs
+  };
+
   // Department-specific metrics
   const departmentMetrics: Record<string, Array<{ key: string; label: string; icon: string; format: (v: number) => string; value: number }>> = {
     'Engineering': [
@@ -3168,28 +3359,65 @@ const MetricsGrid: React.FC<{ snapshot: StateSnapshot; mode: ChronosMode; depart
     ? orgMetrics 
     : departmentMetrics[department];
 
+  // Calculate variance from org benchmark
+  const getVariance = (key: string, value: number): { percent: number; isPositive: boolean } | null => {
+    const benchmark = orgBenchmarks[key];
+    if (!benchmark) return null;
+    const percent = ((value - benchmark) / benchmark) * 100;
+    // For some metrics, lower is better (bugRate, techDebt, prTime, churn, cac, attrition, timeToHire, ar, cycle)
+    const lowerIsBetter = ['bugRate', 'techDebt', 'prTime', 'churn', 'cac', 'attrition', 'timeToHire', 'ar', 'cycle', 'burn'].includes(key);
+    return {
+      percent: Math.abs(percent),
+      isPositive: lowerIsBetter ? percent < 0 : percent > 0,
+    };
+  };
+
   return (
     <div>
       {department !== 'all' && (
-        <div className="mb-4 px-3 py-2 bg-amber-900/30 border border-amber-700 rounded-lg text-sm text-amber-300">
-          📊 Showing {department} metrics • <button onClick={() => {}} className="underline hover:text-amber-200">Compare to Org Avg</button>
+        <div className="mb-4 px-3 py-2 bg-amber-900/30 border border-amber-700 rounded-lg text-sm text-amber-300 flex items-center justify-between">
+          <span>📊 Showing {department} metrics</span>
+          <button 
+            onClick={() => setShowOrgComparison(!showOrgComparison)} 
+            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+              showOrgComparison 
+                ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/50' 
+                : 'bg-neutral-700 text-neutral-300 hover:bg-neutral-600'
+            }`}
+          >
+            {showOrgComparison ? '✓ Comparing to Org Avg' : 'Compare to Org Avg'}
+          </button>
         </div>
       )}
       <div className="grid grid-cols-4 gap-4">
-        {metrics.map(({ key, label, icon, format, value }) => (
-          <div key={key} className="bg-neutral-800/50 rounded-xl p-4">
-            <div className="flex items-center gap-2 text-neutral-400 text-sm mb-1">
-              <span>{icon}</span>
-              <span>{label}</span>
+        {metrics.map(({ key, label, icon, format, value }) => {
+          const variance = showOrgComparison ? getVariance(key, value) : null;
+          const benchmark = orgBenchmarks[key];
+          
+          return (
+            <div key={key} className="bg-neutral-800/50 rounded-xl p-4">
+              <div className="flex items-center gap-2 text-neutral-400 text-sm mb-1">
+                <span>{icon}</span>
+                <span>{label}</span>
+              </div>
+              <div className="text-2xl font-bold">
+                {format(value)}
+              </div>
+              {mode === 'fastforward' && (
+                <div className="text-xs text-cyan-400 mt-1">Projected</div>
+              )}
+              {showOrgComparison && variance && benchmark !== undefined && (
+                <div className={`text-xs mt-2 flex items-center gap-1 ${
+                  variance.isPositive ? 'text-green-400' : 'text-red-400'
+                }`}>
+                  <span>{variance.isPositive ? '▲' : '▼'}</span>
+                  <span>{variance.percent.toFixed(1)}% vs org avg</span>
+                  <span className="text-neutral-500 ml-1">({format(benchmark)})</span>
+                </div>
+              )}
             </div>
-            <div className="text-2xl font-bold">
-              {format(value)}
-            </div>
-            {mode === 'fastforward' && (
-              <div className="text-xs text-cyan-400 mt-1">Projected</div>
-            )}
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

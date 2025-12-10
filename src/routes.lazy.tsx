@@ -32,6 +32,8 @@ const AdminLayout = lazy(() => import('./pages/admin').then(m => ({ default: m.A
 // =============================================================================
 
 // Public Pages
+const SovereignLandingPage = lazy(() => import('./pages/marketing/SovereignLandingPage'));
+const ManifestoHomePage = lazy(() => import('./pages/marketing/ManifestoHomePage'));
 const LandingPage = lazy(() => import('./pages/marketing').then(m => ({ default: m.LandingPage })));
 const HomePage = lazy(() => import('./pages/public').then(m => ({ default: m.HomePage })));
 const ProductPage = lazy(() => import('./pages/public').then(m => ({ default: m.ProductPage })));
@@ -40,10 +42,18 @@ const ContactPage = lazy(() => import('./pages/public').then(m => ({ default: m.
 const ManifestoPage = lazy(() => import('./pages/public').then(m => ({ default: m.ManifestoPage })));
 const DownloadsPage = lazy(() => import('./pages/public').then(m => ({ default: m.DownloadsPage })));
 const LicensePage = lazy(() => import('./pages/public').then(m => ({ default: m.LicensePage })));
+const SecurityPage = lazy(() => import('./pages/public').then(m => ({ default: m.SecurityPage })));
+const CookiePolicyPage = lazy(() => import('./pages/public').then(m => ({ default: m.CookiePolicyPage })));
+const DocsPage = lazy(() => import('./pages/public').then(m => ({ default: m.DocsPage })));
+const BlogPage = lazy(() => import('./pages/public').then(m => ({ default: m.BlogPage })));
+const ChangelogPage = lazy(() => import('./pages/public').then(m => ({ default: m.ChangelogPage })));
+const SupportPage = lazy(() => import('./pages/public').then(m => ({ default: m.SupportPage })));
+const IntegrationsPage = lazy(() => import('./pages/public').then(m => ({ default: m.IntegrationsPage })));
 const DemoRequestPage = lazy(() => import('./pages/public').then(m => ({ default: m.DemoRequestPage })));
 const ShowcasesPage = lazy(() => import('./pages/public/ShowcasesPage'));
 const ServicesPage = lazy(() => import('./pages/public/services-packages').then(m => ({ default: m.ServicesPage })));
 const PackagesPage = lazy(() => import('./pages/public/services-packages').then(m => ({ default: m.PackagesPage })));
+const HonestyMatricesPage = lazy(() => import('./pages/public/HonestyMatricesPage'));
 
 // Legal
 const PrivacyPolicyPage = lazy(() => import('./pages/legal').then(m => ({ default: m.PrivacyPolicyPage })));
@@ -53,11 +63,11 @@ const TermsPage = lazy(() => import('./pages/legal').then(m => ({ default: m.Ter
 const PricingPage = lazy(() => import('./pages/pricing').then(m => ({ default: m.PricingPage })));
 
 // Auth Pages
-const LoginPage = lazy(() => import('./pages/auth').then(m => ({ default: m.LoginPage })));
-const RegisterPage = lazy(() => import('./pages/auth').then(m => ({ default: m.RegisterPage })));
-const ForgotPasswordPage = lazy(() => import('./pages/auth').then(m => ({ default: m.ForgotPasswordPage })));
-const ResetPasswordPage = lazy(() => import('./pages/auth').then(m => ({ default: m.ResetPasswordPage })));
-const VerifyEmailPage = lazy(() => import('./pages/auth').then(m => ({ default: m.VerifyEmailPage })));
+const LoginPage = lazy(() => import('./pages/auth/LoginPage').then(m => ({ default: m.LoginPage })));
+const RegisterPage = lazy(() => import('./pages/auth/RegisterPage').then(m => ({ default: m.RegisterPage })));
+const ForgotPasswordPage = lazy(() => import('./pages/auth/ForgotPasswordPage').then(m => ({ default: m.ForgotPasswordPage })));
+const ResetPasswordPage = lazy(() => import('./pages/auth/ResetPasswordPage').then(m => ({ default: m.ResetPasswordPage })));
+const VerifyEmailPage = lazy(() => import('./pages/auth/VerifyEmailPage').then(m => ({ default: m.VerifyEmailPage })));
 
 // Cortex Main Pages
 const DashboardPage = lazy(() => import('./pages/cortex/DashboardPage').then(m => ({ default: m.DashboardPage })));
@@ -114,6 +124,8 @@ const OmniTranslatePage = lazy(() => import('./pages/cortex/enterprise').then(m 
 const VetoPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.VetoPage })));
 const UnionPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.UnionPage })));
 const LedgerPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.LedgerPage })));
+const ApotheosisPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.ApotheosisPage })));
+const DissentPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.DissentPage })));
 
 // Sovereign Tier Pages
 const CruciblePage = lazy(() => import('./pages/sovereign/CruciblePage').then(m => ({ default: m.CruciblePage })));
@@ -196,14 +208,18 @@ export const router = createBrowserRouter([
   // PUBLIC ROUTES
   {
     path: '/',
-    element: <SuspenseWrapper><LandingPage /></SuspenseWrapper>,
+    element: <SuspenseWrapper><SovereignLandingPage /></SuspenseWrapper>,
   },
   {
     path: '/home',
-    element: <SuspenseWrapper><LandingPage /></SuspenseWrapper>,
+    element: <SuspenseWrapper><SovereignLandingPage /></SuspenseWrapper>,
   },
   {
     path: '/old-home',
+    element: <SuspenseWrapper><LandingPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/legacy-home',
     element: <SuspenseWrapper><HomePage /></SuspenseWrapper>,
   },
   {
@@ -219,6 +235,10 @@ export const router = createBrowserRouter([
     element: <SuspenseWrapper><ProductPage /></SuspenseWrapper>,
   },
   {
+    path: '/products',
+    element: <Navigate to="/product" replace />,
+  },
+  {
     path: '/about',
     element: <SuspenseWrapper><AboutPage /></SuspenseWrapper>,
   },
@@ -232,7 +252,15 @@ export const router = createBrowserRouter([
   },
   {
     path: '/manifesto',
-    element: <SuspenseWrapper><ManifestoPage /></SuspenseWrapper>,
+    element: <SuspenseWrapper><ManifestoHomePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/believe',
+    element: <SuspenseWrapper><ManifestoHomePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/why',
+    element: <SuspenseWrapper><ManifestoHomePage /></SuspenseWrapper>,
   },
   {
     path: '/downloads',
@@ -253,6 +281,18 @@ export const router = createBrowserRouter([
   {
     path: '/packages',
     element: <SuspenseWrapper><PackagesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/honesty',
+    element: <SuspenseWrapper><HonestyMatricesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/honesty-matrices',
+    element: <SuspenseWrapper><HonestyMatricesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/transparency',
+    element: <SuspenseWrapper><HonestyMatricesPage /></SuspenseWrapper>,
   },
   {
     path: '/showcases',
@@ -277,6 +317,56 @@ export const router = createBrowserRouter([
   {
     path: '/terms-of-service',
     element: <SuspenseWrapper><TermsPage /></SuspenseWrapper>,
+  },
+  
+  // ADDITIONAL PUBLIC PAGES
+  {
+    path: '/security',
+    element: <SuspenseWrapper><SecurityPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/cookies',
+    element: <SuspenseWrapper><CookiePolicyPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/cookie-policy',
+    element: <SuspenseWrapper><CookiePolicyPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/docs',
+    element: <SuspenseWrapper><DocsPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/documentation',
+    element: <SuspenseWrapper><DocsPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/api',
+    element: <SuspenseWrapper><DocsPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/blog',
+    element: <SuspenseWrapper><BlogPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/changelog',
+    element: <SuspenseWrapper><ChangelogPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/releases',
+    element: <SuspenseWrapper><ChangelogPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/support',
+    element: <SuspenseWrapper><SupportPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/help',
+    element: <SuspenseWrapper><SupportPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/integrations',
+    element: <SuspenseWrapper><IntegrationsPage /></SuspenseWrapper>,
   },
 
   // AUTH ROUTES
@@ -428,6 +518,8 @@ export const router = createBrowserRouter([
       { path: 'enterprise/veto', element: <SuspenseWrapper><VetoPage /></SuspenseWrapper> },
       { path: 'enterprise/union', element: <SuspenseWrapper><UnionPage /></SuspenseWrapper> },
       { path: 'enterprise/ledger', element: <SuspenseWrapper><LedgerPage /></SuspenseWrapper> },
+      { path: 'enterprise/apotheosis', element: <SuspenseWrapper><ApotheosisPage /></SuspenseWrapper> },
+      { path: 'enterprise/dissent', element: <SuspenseWrapper><DissentPage /></SuspenseWrapper> },
       
       // Sovereign
       { path: 'sovereign/crucible', element: <SuspenseWrapper><CruciblePage /></SuspenseWrapper> },

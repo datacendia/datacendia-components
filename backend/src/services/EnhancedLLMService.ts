@@ -92,8 +92,8 @@ export interface QueryClassification {
 
 export const MODEL_CONFIGS: Record<string, ModelConfig> = {
   // Flagship - General Intelligence
-  'llama3.3:70b': {
-    id: 'llama3.3:70b',
+  'qwen2.5:7b': {
+    id: 'qwen2.5:7b',
     contextWindow: 128000,
     temperature: 0.7,
     topP: 0.9,
@@ -178,31 +178,31 @@ export const MODEL_CONFIGS: Record<string, ModelConfig> = {
 
 // Agent to optimal model mapping
 const AGENT_MODEL_PREFERENCES: Record<string, string[]> = {
-  chief: ['llama3.3:70b', 'llama3:70b', 'mixtral:8x22b'],
-  cfo: ['llama3.3:70b', 'qwq:32b', 'llama3:70b'],
-  coo: ['llama3.2:3b', 'llama3.3:70b'],
-  ciso: ['qwq:32b', 'llama3.3:70b'],
-  cmo: ['llama3.3:70b', 'mixtral:8x22b'],
-  cro: ['llama3.3:70b', 'llama3:70b'],
-  cdo: ['qwen2.5-coder:32b', 'llama3.3:70b'],
-  risk: ['qwq:32b', 'llama3.3:70b'],
-  cto: ['qwen2.5-coder:32b', 'llama3.3:70b'],
-  chro: ['llama3.3:70b', 'llama3:70b'],
-  clo: ['llama3.3:70b', 'qwq:32b'],
-  cio: ['qwen2.5-coder:32b', 'llama3.3:70b'],
+  chief: ['qwen2.5:7b', 'llama3:70b', 'mixtral:8x22b'],
+  cfo: ['qwen2.5:7b', 'qwq:32b', 'llama3:70b'],
+  coo: ['llama3.2:3b', 'qwen2.5:7b'],
+  ciso: ['qwq:32b', 'qwen2.5:7b'],
+  cmo: ['qwen2.5:7b', 'mixtral:8x22b'],
+  cro: ['qwen2.5:7b', 'llama3:70b'],
+  cdo: ['qwen2.5-coder:32b', 'qwen2.5:7b'],
+  risk: ['qwq:32b', 'qwen2.5:7b'],
+  cto: ['qwen2.5-coder:32b', 'qwen2.5:7b'],
+  chro: ['qwen2.5:7b', 'llama3:70b'],
+  clo: ['qwen2.5:7b', 'qwq:32b'],
+  cio: ['qwen2.5-coder:32b', 'qwen2.5:7b'],
   // Industry agents
   quant: ['qwq:32b', 'qwen2.5-coder:32b'],
-  pm: ['llama3.3:70b', 'qwq:32b'],
-  'cro-finance': ['qwq:32b', 'llama3.3:70b'],
-  treasury: ['llama3.3:70b', 'qwq:32b'],
-  cmio: ['llama3.3:70b', 'llama3:70b'],
-  pso: ['qwq:32b', 'llama3.3:70b'],
-  hco: ['llama3.3:70b', 'qwq:32b'],
-  cod: ['llama3.2:3b', 'llama3.3:70b'],
-  contracts: ['llama3.3:70b', 'qwq:32b'],
-  ip: ['llama3.3:70b', 'qwq:32b'],
-  litigation: ['qwq:32b', 'llama3.3:70b'],
-  regulatory: ['llama3.3:70b', 'qwq:32b'],
+  pm: ['qwen2.5:7b', 'qwq:32b'],
+  'cro-finance': ['qwq:32b', 'qwen2.5:7b'],
+  treasury: ['qwen2.5:7b', 'qwq:32b'],
+  cmio: ['qwen2.5:7b', 'llama3:70b'],
+  pso: ['qwq:32b', 'qwen2.5:7b'],
+  hco: ['qwen2.5:7b', 'qwq:32b'],
+  cod: ['llama3.2:3b', 'qwen2.5:7b'],
+  contracts: ['qwen2.5:7b', 'qwq:32b'],
+  ip: ['qwen2.5:7b', 'qwq:32b'],
+  litigation: ['qwq:32b', 'qwen2.5:7b'],
+  regulatory: ['qwen2.5:7b', 'qwq:32b'],
 };
 
 // =============================================================================
@@ -273,7 +273,7 @@ export class EnhancedLLMService {
   
   constructor() {
     this.baseUrl = config.ollamaBaseUrl || 'http://localhost:11434';
-    this.defaultModel = config.ollamaModel || 'llama3.3:70b';
+    this.defaultModel = config.ollamaModel || 'qwen2.5:7b';
   }
 
   // ===========================================================================
@@ -347,7 +347,7 @@ export class EnhancedLLMService {
         type: 'reasoning',
         complexity: 'high',
         domain: ['legal'],
-        suggestedModel: 'llama3.3:70b',
+        suggestedModel: 'qwen2.5:7b',
         confidence: 0.8,
       };
     }
@@ -368,7 +368,7 @@ export class EnhancedLLMService {
       type: 'factual',
       complexity: this.estimateComplexity(query),
       domain: ['general'],
-      suggestedModel: 'llama3.3:70b',
+      suggestedModel: 'qwen2.5:7b',
       confidence: 0.6,
     };
   }
@@ -772,7 +772,7 @@ Synthesize these responses into a single, comprehensive answer that:
 **Synthesized Response:**`;
 
     return this.generateRaw(synthesisPrompt, {
-      model: 'llama3.3:70b',
+      model: 'qwen2.5:7b',
       temperature: 0.5,
     });
   }

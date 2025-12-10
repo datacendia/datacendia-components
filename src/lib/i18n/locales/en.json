@@ -925,6 +925,44 @@
         ],
         "guidance": "Select any AI decision in Glass. It breaks down the factors, shows alternatives, and explains the reasoning."
       }
+    },
+    "enterprise": {
+      "apotheosis": {
+        "title": "CendiaApotheosis™ - Organizational Superintelligence",
+        "summary": "The self-improvement loop that never stops. Nightly attacks, automatic patches, human upskilling, and pattern bans.",
+        "features": [
+          "Nightly red-team simulations (1000+ scenarios)",
+          "Automatic weakness patching",
+          "Human skill gap detection and training",
+          "Decision pattern banning",
+          "Apotheosis Score tracking"
+        ],
+        "useCases": [
+          "Continuous organizational improvement",
+          "Proactive risk mitigation",
+          "Automated compliance hardening",
+          "Executive decision support"
+        ],
+        "guidance": "Apotheosis runs every night, attacking your organization from 1000+ angles, patching what it finds, and making you permanently immune to your own mistakes."
+      },
+      "dissent": {
+        "title": "CendiaDissent™ - Protected Disagreement",
+        "summary": "The right to formally, safely, and immutably disagree with any decision — on the record, forever.",
+        "features": [
+          "Anonymous or named dissent filing",
+          "Mandatory acknowledgment within 72 hours",
+          "Immutable ledger recording",
+          "Retaliation detection and protection",
+          "Dissent accuracy tracking"
+        ],
+        "useCases": [
+          "Ensuring minority voices are heard",
+          "Creating organizational memory",
+          "Protecting whistleblowers",
+          "Improving decision quality"
+        ],
+        "guidance": "File a dissent against any decision you disagree with. Your objection will be permanently recorded, acknowledged, and tracked for accuracy over time."
+      }
     }
   },
   "narratives": {

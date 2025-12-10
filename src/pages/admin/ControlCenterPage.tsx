@@ -25,6 +25,10 @@ interface Feature {
   showInNavigation: boolean;
   category: string;
   requiredPlan: string;
+  config?: {
+    permissions?: Record<string, string[]>;
+    [key: string]: any;
+  };
 }
 
 interface Agent {
@@ -189,6 +193,21 @@ async function setVisibility(id: string, visibility: string): Promise<Feature> {
   const payload = res as any;
   if (payload.success === false && payload.error) {
     throw new Error(payload.error.message || 'Failed to set visibility');
+  }
+  if (payload.feature) {
+    return payload.feature as Feature;
+  }
+  if (payload.data) {
+    return payload.data as Feature;
+  }
+  return payload as Feature;
+}
+
+async function updateFeatureConfig(id: string, config: any): Promise<Feature> {
+  const res = await api.patch<any>(`${API_BASE}/features/${id}`, { config });
+  const payload = res as any;
+  if (payload.success === false && payload.error) {
+    throw new Error(payload.error.message || 'Failed to update feature');
   }
   if (payload.feature) {
     return payload.feature as Feature;
@@ -367,6 +386,39 @@ export const ControlCenterPage: React.FC = () => {
     }
   };
 
+  const handleToggleCapabilityRole = async (featureId: string, capability: string, role: string) => {
+    try {
+      const feature = features.find(f => f.id === featureId);
+      if (!feature) return;
+
+      const featureConfig: any = feature.config || {};
+      const existingPermissions: Record<string, string[]> = featureConfig.permissions || {};
+      const currentRoles: string[] = existingPermissions[capability] || ['ADMIN'];
+
+      const nextRoles = currentRoles.includes(role)
+        ? currentRoles.filter(r => r !== role)
+        : [...currentRoles, role];
+
+      const newPermissions = {
+        ...existingPermissions,
+        [capability]: nextRoles,
+      };
+
+      const newConfig = {
+        ...featureConfig,
+        permissions: newPermissions,
+      };
+
+      const updated = await updateFeatureConfig(featureId, newConfig);
+
+      setFeatures(features.map(f =>
+        f.id === featureId ? { ...f, config: (updated as any).config } : f
+      ));
+    } catch (err) {
+      console.error('Failed to update feature permissions:', err);
+    }
+  };
+
   const handleUpdatePrice = async (id: string, monthlyPrice: number) => {
     try {
       await updatePricing(id, { monthlyPrice, annualPrice: monthlyPrice * 10 });
@@ -525,6 +577,41 @@ export const ControlCenterPage: React.FC = () => {
                             <code key={route} className="text-xs bg-neutral-700 px-1.5 py-0.5 rounded text-neutral-300">{route}</code>
                           ))}
                         </div>
+                        {(feature.id === 'cendia-persona' || feature.id === 'cendia-autopilot') && (
+                          <div className="mt-2">
+                            <p className="text-xs text-neutral-500 mb-1">
+                              {feature.id === 'cendia-persona'
+                                ? 'Who can create Persona twins?'
+                                : 'Who can manage Autopilot rules?'}
+                            </p>
+                            <div className="flex gap-2">
+                              {['ADMIN', 'ANALYST', 'VIEWER'].map(role => {
+                                const capability =
+                                  feature.id === 'cendia-persona'
+                                    ? 'persona.createTwin'
+                                    : 'autopilot.manageRules';
+                                const featureConfig: any = feature.config || {};
+                                const permissions: Record<string, string[]> = featureConfig.permissions || {};
+                                const allowedRoles: string[] = permissions[capability] || ['ADMIN'];
+                                const isActive = allowedRoles.includes(role);
+                                return (
+                                  <button
+                                    key={role}
+                                    onClick={() => handleToggleCapabilityRole(feature.id, capability, role)}
+                                    className={cn(
+                                      'px-2 py-0.5 rounded-full text-xs border',
+                                      isActive
+                                        ? 'bg-primary-600 text-white border-primary-500'
+                                        : 'bg-neutral-800 text-neutral-400 border-neutral-600'
+                                    )}
+                                  >
+                                    {role === 'ADMIN' ? 'Org Admin' : role === 'ANALYST' ? 'Analyst' : 'Viewer'}
+                                  </button>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="flex items-center gap-4">

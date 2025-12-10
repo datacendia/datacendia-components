@@ -40,8 +40,8 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
   // TIER 1: FLAGSHIP MODELS (Highest Quality)
   // =========================================================================
   
-  'llama3.3:70b': {
-    id: 'llama3.3:70b',
+  'qwen2.5:7b': {
+    id: 'qwen2.5:7b',
     name: 'Llama 3.3 70B',
     description: 'Meta flagship - Peak instruction following and synthesis. GPT-4o class locally.',
     contextWindow: 128000,
@@ -248,7 +248,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'chief',
     agentName: 'CendiaChief',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['llama3:70b', 'mixtral:8x22b'],
     systemPromptEnhancements: 'Synthesize all perspectives. Identify conflicts and trade-offs.',
     optimalTemperature: 0.7,
@@ -258,7 +258,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cfo',
     agentName: 'CendiaCFO',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['qwq:32b', 'llama3:70b'],
     systemPromptEnhancements: 'Use financial frameworks. Quantify all recommendations.',
     optimalTemperature: 0.5,
@@ -269,7 +269,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'coo',
     agentName: 'CendiaCOO',
     primaryModel: 'llama3.2:3b',  // Speed for operations
-    fallbackModels: ['llama3:8b', 'llama3.3:70b'],
+    fallbackModels: ['llama3:8b', 'qwen2.5:7b'],
     systemPromptEnhancements: 'Focus on execution speed and feasibility.',
     optimalTemperature: 0.5,
     useChainOfThought: false,
@@ -279,7 +279,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'ciso',
     agentName: 'CendiaCISO',
     primaryModel: 'qwq:32b',  // Deep logic for security analysis
-    fallbackModels: ['llama3.3:70b', 'llama3:70b'],
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
     systemPromptEnhancements: 'Think step-by-step about attack vectors. Use NIST/ISO frameworks.',
     optimalTemperature: 0.3,
     useChainOfThought: true,  // Security needs careful reasoning
@@ -288,7 +288,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cmo',
     agentName: 'CendiaCMO',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['mixtral:8x22b', 'llama3:70b'],
     systemPromptEnhancements: 'Balance creativity with data-driven insights.',
     optimalTemperature: 0.8,  // Higher creativity
@@ -298,7 +298,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cro',
     agentName: 'CendiaCRO',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['llama3:70b', 'llama3:8b'],
     systemPromptEnhancements: 'Focus on revenue impact and pipeline metrics.',
     optimalTemperature: 0.6,
@@ -309,7 +309,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'cdo',
     agentName: 'CendiaCDO',
     primaryModel: 'qwen2.5-coder:32b',  // Best at data and SQL
-    fallbackModels: ['llama3.3:70b', 'llama3:8b'],
+    fallbackModels: ['qwen2.5:7b', 'llama3:8b'],
     systemPromptEnhancements: 'Validate data lineage. Output valid JSON/SQL when requested.',
     optimalTemperature: 0.2,
     useChainOfThought: false,
@@ -319,7 +319,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'risk',
     agentName: 'CendiaRisk',
     primaryModel: 'qwq:32b',  // Pure logic for probability assessment
-    fallbackModels: ['llama3.3:70b', 'llama3:70b'],
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
     systemPromptEnhancements: 'Quantify all risks with probability and impact. Be pessimistic.',
     optimalTemperature: 0.3,
     useChainOfThought: true,  // Risk analysis benefits from step-by-step
@@ -329,7 +329,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'cto',
     agentName: 'CendiaCTO',
     primaryModel: 'qwen2.5-coder:32b',
-    fallbackModels: ['llama3.3:70b', 'llama3:70b'],
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
     systemPromptEnhancements: 'Evaluate technical trade-offs. Consider scalability and debt.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -338,7 +338,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'chro',
     agentName: 'CendiaCHRO',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['llama3:70b', 'mixtral:8x22b'],
     systemPromptEnhancements: 'Consider culture, morale, and legal implications.',
     optimalTemperature: 0.7,
@@ -348,7 +348,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'clo',
     agentName: 'CendiaCLO',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['qwq:32b', 'llama3:70b'],
     systemPromptEnhancements: 'Cite relevant regulations. Assess liability and compliance.',
     optimalTemperature: 0.4,
@@ -359,7 +359,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'cio',
     agentName: 'CendiaCIO',
     primaryModel: 'qwen2.5-coder:32b',
-    fallbackModels: ['llama3.3:70b', 'llama3:8b'],
+    fallbackModels: ['qwen2.5:7b', 'llama3:8b'],
     systemPromptEnhancements: 'Focus on systems integration and information architecture.',
     optimalTemperature: 0.4,
     useChainOfThought: false,
@@ -372,7 +372,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cmio',
     agentName: 'CMIO Agent',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['llama3:70b', 'llama3:8b'],
     systemPromptEnhancements: 'Reference HL7/FHIR standards. Consider clinical workflows.',
     optimalTemperature: 0.5,
@@ -383,7 +383,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'pso',
     agentName: 'Patient Safety Officer',
     primaryModel: 'qwq:32b',  // Deep reasoning for safety analysis
-    fallbackModels: ['llama3.3:70b', 'llama3:70b'],
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
     systemPromptEnhancements: 'Use RCA methodologies. Reference IHI/AHRQ frameworks.',
     optimalTemperature: 0.3,
     useChainOfThought: true,  // Safety needs step-by-step
@@ -392,7 +392,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'hco',
     agentName: 'Healthcare Compliance Officer',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['qwq:32b', 'llama3:70b'],
     systemPromptEnhancements: 'Cite 45 CFR, 42 CFR sections. Reference OIG guidance.',
     optimalTemperature: 0.4,
@@ -403,7 +403,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'cod',
     agentName: 'Clinical Operations Director',
     primaryModel: 'llama3.2:3b',  // Fast for operations
-    fallbackModels: ['llama3:8b', 'llama3.3:70b'],
+    fallbackModels: ['llama3:8b', 'qwen2.5:7b'],
     systemPromptEnhancements: 'Apply Lean Six Sigma. Focus on patient flow metrics.',
     optimalTemperature: 0.5,
     useChainOfThought: false,
@@ -417,7 +417,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'quant',
     agentName: 'Quantitative Analyst',
     primaryModel: 'qwq:32b',  // Complex quantitative analysis
-    fallbackModels: ['qwen2.5-coder:32b', 'llama3.3:70b'],
+    fallbackModels: ['qwen2.5-coder:32b', 'qwen2.5:7b'],
     systemPromptEnhancements: 'Use mathematical notation. Calculate VaR, Greeks, etc.',
     optimalTemperature: 0.2,
     useChainOfThought: true,  // Math needs step-by-step
@@ -426,7 +426,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'pm',
     agentName: 'Portfolio Manager',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['qwq:32b', 'llama3:70b'],
     systemPromptEnhancements: 'Use modern portfolio theory. Consider factor exposures.',
     optimalTemperature: 0.5,
@@ -437,7 +437,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'cro-finance',
     agentName: 'Credit Risk Officer',
     primaryModel: 'qwq:32b',
-    fallbackModels: ['llama3.3:70b', 'llama3:70b'],
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
     systemPromptEnhancements: 'Apply 5 Cs framework. Calculate PD/LGD/EAD.',
     optimalTemperature: 0.3,
     useChainOfThought: true,
@@ -446,7 +446,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'treasury',
     agentName: 'Treasury Analyst',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['qwq:32b', 'llama3:70b'],
     systemPromptEnhancements: 'Focus on liquidity and FX/IR exposure. Reference ASC 815.',
     optimalTemperature: 0.4,
@@ -460,7 +460,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'contracts',
     agentName: 'Contract Specialist',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['qwq:32b', 'llama3:70b'],
     systemPromptEnhancements: 'Identify red flags. Reference UCC principles.',
     optimalTemperature: 0.4,
@@ -470,7 +470,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'ip',
     agentName: 'IP Counsel',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['qwq:32b', 'llama3:70b'],
     systemPromptEnhancements: 'Reference USPTO/EPO procedures. Analyze claims systematically.',
     optimalTemperature: 0.4,
@@ -481,7 +481,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'litigation',
     agentName: 'Litigation Expert',
     primaryModel: 'qwq:32b',
-    fallbackModels: ['llama3.3:70b', 'llama3:70b'],
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
     systemPromptEnhancements: 'Analyze using FRCP. Assess strengths and weaknesses candidly.',
     optimalTemperature: 0.3,
     useChainOfThought: true,  // Litigation strategy needs reasoning
@@ -490,7 +490,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'regulatory',
     agentName: 'Regulatory Affairs',
-    primaryModel: 'llama3.3:70b',
+    primaryModel: 'qwen2.5:7b',
     fallbackModels: ['qwq:32b', 'llama3:70b'],
     systemPromptEnhancements: 'Cite CFR sections. Assess regulatory risk systematically.',
     optimalTemperature: 0.4,
@@ -522,7 +522,7 @@ export function getAgentMapping(agentCode: string): AgentModelMapping | undefine
  */
 export function getOptimalModelForAgent(agentCode: string, availableModels: Set<string>): string {
   const mapping = getAgentMapping(agentCode);
-  if (!mapping) return 'llama3.3:70b';
+  if (!mapping) return 'qwen2.5:7b';
   
   // Try primary model first
   if (availableModels.has(mapping.primaryModel)) {
@@ -557,7 +557,7 @@ export function getModelsForTask(taskType: string): string[] {
  * Get inference options for a model
  */
 export function getInferenceOptions(modelId: string, overrides?: Partial<ModelConfig>) {
-  const config = MODEL_REGISTRY[modelId] || MODEL_REGISTRY['llama3.3:70b'];
+  const config = MODEL_REGISTRY[modelId] || MODEL_REGISTRY['qwen2.5:7b'];
   
   return {
     temperature: overrides?.temperature ?? config.temperature,

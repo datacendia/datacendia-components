@@ -109,7 +109,7 @@ Write only the email body, no subject line.`;
 
     let draftEmail = '';
     try {
-      draftEmail = await ollama.generate(prompt, { model: 'llama3.3:70b' });
+      draftEmail = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
     } catch (error) {
       draftEmail = `Dear ${contract.vendorName} Team,\n\nAs we approach our contract renewal, we are conducting a comprehensive review of all vendor relationships and associated costs.\n\nWe value our partnership and would like to discuss renewal terms that better reflect our current usage patterns and market conditions.\n\nPlease arrange a meeting at your earliest convenience.\n\nBest regards`;
     }

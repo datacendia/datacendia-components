@@ -15,7 +15,7 @@ export const AI_MODELS = {
   // Llama 3.3 70B - Peak instruction following and synthesis
   // Use for: Complex analysis, strategic decisions, synthesis
   flagship: {
-    id: 'llama3.3:70b',
+    id: 'qwen2.5:7b',
     contextWindow: 128000,
     temp: 0.7,
     description: 'Flagship model for complex synthesis and strategic analysis',
@@ -106,7 +106,7 @@ export type TaskType =
   | 'chart_reading';
 
 const TASK_MODEL_MAP: Record<TaskType, ModelType> = {
-  // Complex Analysis → Flagship (llama3.3:70b)
+  // Complex Analysis → Flagship (qwen2.5:7b)
   strategic_analysis: 'flagship',
   synthesis: 'flagship',
   executive_summary: 'flagship',

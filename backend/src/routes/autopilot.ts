@@ -4,17 +4,23 @@
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '../config/database.js';
+import { devAuth, requireRole } from '../middleware/auth.js';
+import { assertCapability } from '../utils/permissions.js';
 
 const router = Router();
-const prisma = new PrismaClient();
+
+router.use(devAuth);
+router.use(requireRole('ADMIN', 'SUPER_ADMIN'));
 
 // GET /autopilot/rules - List automation rules
 router.get('/rules', async (req: Request, res: Response) => {
   try {
+    await assertCapability(req, 'autopilot.manageRules');
     const { organization_id, enabled } = req.query;
+    const orgId = (req.organizationId as string) || (organization_id as string);
     const where: any = {};
-    if (organization_id) where.organization_id = organization_id;
+    if (orgId) where.organization_id = orgId;
     if (enabled !== undefined) where.enabled = enabled === 'true';
 
     const rules = await prisma.autopilot_rules.findMany({
@@ -32,9 +38,10 @@ router.get('/rules', async (req: Request, res: Response) => {
 // POST /autopilot/rules - Create rule
 router.post('/rules', async (req: Request, res: Response) => {
   try {
+    await assertCapability(req, 'autopilot.manageRules');
     const rule = await prisma.autopilot_rules.create({
       data: {
-        organization_id: req.body.organization_id,
+        organization_id: (req.organizationId as string) || req.body.organization_id,
         name: req.body.name,
         trigger_type: req.body.trigger_type,
         trigger_config: req.body.trigger_config || {},
@@ -52,6 +59,7 @@ router.post('/rules', async (req: Request, res: Response) => {
 // POST /autopilot/rules/:id/execute - Execute rule
 router.post('/rules/:id/execute', async (req: Request, res: Response) => {
   try {
+    await assertCapability(req, 'autopilot.manageRules');
     const execution = await prisma.autopilot_executions.create({
       data: {
         rule_id: req.params.id,
@@ -75,10 +83,13 @@ router.post('/rules/:id/execute', async (req: Request, res: Response) => {
 // GET /autopilot/executions - List executions
 router.get('/executions', async (req: Request, res: Response) => {
   try {
+    await assertCapability(req, 'autopilot.manageRules');
     const { rule_id, status } = req.query;
+    const orgId = (req.organizationId as string) || undefined;
     const where: any = {};
     if (rule_id) where.rule_id = rule_id;
     if (status) where.status = status;
+    if (orgId) where.rule = { organization_id: orgId };
 
     const executions = await prisma.autopilot_executions.findMany({
       where,

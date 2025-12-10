@@ -4,7 +4,7 @@
 // =============================================================================
 
 import express, { Request, Response, Router } from 'express';
-import { authenticate } from '../middleware/auth.js';
+import { authenticate, requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 
 // Core Services
@@ -16,6 +16,9 @@ import { cendiaWatchService } from '../services/core/CendiaWatchService.js';
 import { getCoreDashboard } from '../services/core/index.js';
 
 const router: Router = express.Router();
+
+// All core admin routes require authentication and admin-level role
+router.use(authenticate, requireRole('ADMIN', 'SUPER_ADMIN'));
 
 // =============================================================================
 // DASHBOARD

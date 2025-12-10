@@ -42,7 +42,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
   // LLAMA 3.3 FAMILY
   // =========================================================================
   {
-    id: 'llama3.3:70b',
+    id: 'qwen2.5:7b',
     name: 'Llama 3.3 70B',
     size: '70B',
     description: 'Meta\'s flagship model. Best overall performance for complex tasks.',
@@ -111,7 +111,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
   // QWQ (Reasoning Specialist)
   // =========================================================================
   {
-    id: 'qwq:32b',
+    id: 'qwen2.5:7b',
     name: 'QwQ 32B',
     size: '32B',
     description: 'Alibaba\'s reasoning specialist. Exceptional for complex analysis.',
@@ -151,7 +151,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     memoryRequired: '48GB+',
   },
   {
-    id: 'qwen2.5:32b',
+    id: 'qwen2.5:7b',
     name: 'Qwen 2.5 32B',
     size: '32B',
     description: 'Balanced Qwen model for general use.',
@@ -187,7 +187,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     memoryRequired: '8GB',
   },
   {
-    id: 'qwen2.5-coder:32b',
+    id: 'qwen2.5:7b',
     name: 'Qwen 2.5 Coder 32B',
     size: '32B',
     description: 'Specialized for code generation and analysis.',
@@ -315,7 +315,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     memoryRequired: '32GB',
   },
   {
-    id: 'mixtral:8x22b',
+    id: 'qwen2.5:7b',
     name: 'Mixtral 8x22B',
     size: '141B (MoE)',
     description: 'Large Mixture of Experts model.',
@@ -512,25 +512,25 @@ export const MODEL_CATEGORIES: ModelCategory[] = [
     id: 'flagship',
     name: '🏆 Flagship Models',
     description: 'Best quality, highest resource usage',
-    models: ['llama3.3:70b', 'qwen2.5:72b', 'deepseek-r1:70b', 'mistral-large:123b', 'command-r-plus:104b'],
+    models: ['qwen2.5:7b', 'qwen2.5:72b', 'deepseek-r1:70b', 'mistral-large:123b', 'command-r-plus:104b'],
   },
   {
     id: 'reasoning',
     name: '🧠 Reasoning Specialists',
     description: 'Optimized for complex analysis and logic',
-    models: ['qwq:32b', 'deepseek-r1:32b', 'phi3:14b', 'gemma2:27b'],
+    models: ['qwen2.5:7b', 'deepseek-r1:32b', 'phi3:14b', 'gemma2:27b'],
   },
   {
     id: 'coding',
     name: '💻 Coding Models',
     description: 'Specialized for code generation and analysis',
-    models: ['qwen2.5-coder:32b', 'deepseek-coder-v2:236b', 'codestral:22b', 'starcoder2:15b'],
+    models: ['qwen2.5:7b', 'deepseek-coder-v2:236b', 'codestral:22b', 'starcoder2:15b'],
   },
   {
     id: 'balanced',
     name: '⚖️ Balanced Models',
     description: 'Good balance of speed and quality',
-    models: ['qwen2.5:32b', 'mixtral:8x7b', 'command-r:35b', 'gemma2:27b'],
+    models: ['qwen2.5:7b', 'mixtral:8x7b', 'command-r:35b', 'gemma2:27b'],
   },
   {
     id: 'fast',
@@ -564,48 +564,48 @@ export const MODEL_CATEGORIES: ModelCategory[] = [
 
 export const AGENT_MODEL_RECOMMENDATIONS: Record<string, string[]> = {
   // Strategic / Executive
-  chief: ['llama3.3:70b', 'qwen2.5:72b', 'command-r-plus:104b'],
+  chief: ['qwen2.5:7b', 'qwen2.5:72b', 'command-r-plus:104b'],
   
   // Financial
-  cfo: ['llama3.3:70b', 'qwq:32b', 'deepseek-r1:70b'],
-  cio: ['llama3.3:70b', 'qwq:32b'],
+  cfo: ['qwen2.5:7b', 'qwen2.5:7b', 'deepseek-r1:70b'],
+  cio: ['qwen2.5:7b', 'qwen2.5:7b'],
   
   // Operations
   coo: ['llama3.2:3b', 'qwen2.5:7b', 'mistral:7b'],
   
   // Security / Legal / Risk
-  ciso: ['qwq:32b', 'deepseek-r1:32b', 'gemma2:27b'],
-  clo: ['qwq:32b', 'command-r:35b'],
-  risk: ['qwq:32b', 'deepseek-r1:32b'],
+  ciso: ['qwen2.5:7b', 'deepseek-r1:32b', 'gemma2:27b'],
+  clo: ['qwen2.5:7b', 'command-r:35b'],
+  risk: ['qwen2.5:7b', 'deepseek-r1:32b'],
   
   // Marketing / Sales
-  cmo: ['llama3.3:70b', 'qwen2.5:32b'],
-  cro: ['llama3.3:70b', 'qwen2.5:32b'],
+  cmo: ['qwen2.5:7b', 'qwen2.5:7b'],
+  cro: ['qwen2.5:7b', 'qwen2.5:7b'],
   cco: ['llama3.2:3b', 'qwen2.5:7b'],
   
   // Data / Technical
-  cdo: ['qwen2.5-coder:32b', 'deepseek-coder-v2:236b'],
-  caio: ['qwq:32b', 'deepseek-r1:32b'],
+  cdo: ['qwen2.5:7b', 'deepseek-coder-v2:236b'],
+  caio: ['qwen2.5:7b', 'deepseek-r1:32b'],
   
   // Product / Innovation
-  cpo: ['llama3.3:70b', 'qwen2.5:32b'],
-  cso: ['llama3.3:70b', 'qwen2.5:32b'],
+  cpo: ['qwen2.5:7b', 'qwen2.5:7b'],
+  cso: ['qwen2.5:7b', 'qwen2.5:7b'],
   
   // Premium Packs
-  'ext-auditor': ['qwq:32b', 'command-r:35b'],
-  'int-auditor': ['qwq:32b', 'qwen2.5:32b'],
-  cmio: ['llama3.3:70b', 'qwq:32b'],
-  pso: ['qwq:32b', 'deepseek-r1:32b'],
-  hco: ['qwq:32b', 'command-r:35b'],
+  'ext-auditor': ['qwen2.5:7b', 'command-r:35b'],
+  'int-auditor': ['qwen2.5:7b', 'qwen2.5:7b'],
+  cmio: ['qwen2.5:7b', 'qwen2.5:7b'],
+  pso: ['qwen2.5:7b', 'deepseek-r1:32b'],
+  hco: ['qwen2.5:7b', 'command-r:35b'],
   cod: ['llama3.2:3b', 'qwen2.5:14b'],
-  quant: ['qwq:32b', 'deepseek-r1:70b'],
-  pm: ['llama3.3:70b', 'qwq:32b'],
-  'cro-finance': ['qwq:32b', 'deepseek-r1:32b'],
-  treasury: ['qwq:32b', 'qwen2.5:32b'],
-  contracts: ['command-r:35b', 'qwq:32b'],
-  ip: ['qwq:32b', 'llama3.3:70b'],
-  litigation: ['qwq:32b', 'command-r-plus:104b'],
-  regulatory: ['qwq:32b', 'command-r:35b'],
+  quant: ['qwen2.5:7b', 'deepseek-r1:70b'],
+  pm: ['qwen2.5:7b', 'qwen2.5:7b'],
+  'cro-finance': ['qwen2.5:7b', 'deepseek-r1:32b'],
+  treasury: ['qwen2.5:7b', 'qwen2.5:7b'],
+  contracts: ['command-r:35b', 'qwen2.5:7b'],
+  ip: ['qwen2.5:7b', 'qwen2.5:7b'],
+  litigation: ['qwen2.5:7b', 'command-r-plus:104b'],
+  regulatory: ['qwen2.5:7b', 'command-r:35b'],
 };
 
 // =============================================================================
@@ -651,7 +651,7 @@ export function getModelsBySpeed(speed: OllamaModel['speed']): OllamaModel[] {
  * Get recommended models for an agent
  */
 export function getRecommendedModels(agentCode: string): OllamaModel[] {
-  const recommendations = AGENT_MODEL_RECOMMENDATIONS[agentCode] || ['llama3.3:70b'];
+  const recommendations = AGENT_MODEL_RECOMMENDATIONS[agentCode] || ['qwen2.5:7b'];
   return recommendations
     .map(id => getModel(id))
     .filter((m): m is OllamaModel => m !== undefined);
@@ -711,19 +711,19 @@ export interface AgentModelConfig {
 
 // Default agent model configurations
 export const DEFAULT_AGENT_MODELS: Record<string, string> = {
-  chief: 'llama3.3:70b',
-  cfo: 'llama3.3:70b',
+  chief: 'qwen2.5:7b',
+  cfo: 'qwen2.5:7b',
   coo: 'llama3.2:3b',
-  ciso: 'qwq:32b',
-  cmo: 'llama3.3:70b',
-  cro: 'llama3.3:70b',
-  cdo: 'qwen2.5-coder:32b',
-  risk: 'qwq:32b',
-  clo: 'qwq:32b',
-  cpo: 'llama3.3:70b',
-  caio: 'qwq:32b',
-  cso: 'llama3.3:70b',
-  cio: 'llama3.3:70b',
+  ciso: 'qwen2.5:7b',
+  cmo: 'qwen2.5:7b',
+  cro: 'qwen2.5:7b',
+  cdo: 'qwen2.5:7b',
+  risk: 'qwen2.5:7b',
+  clo: 'qwen2.5:7b',
+  cpo: 'qwen2.5:7b',
+  caio: 'qwen2.5:7b',
+  cso: 'qwen2.5:7b',
+  cio: 'qwen2.5:7b',
   cco: 'llama3.2:3b',
 };
 

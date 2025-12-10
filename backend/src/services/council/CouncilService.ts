@@ -5,6 +5,7 @@
 
 import { Pool, PoolClient } from 'pg';
 import { EventEmitter } from 'events';
+import { config } from '../../config/index.js';
 
 // =============================================================================
 // TYPES
@@ -706,8 +707,12 @@ export class CouncilService extends EventEmitter {
 
     this.emitEvent({ type: 'synthesis', deliberationId, agentId: chiefAgent.id, timestamp: new Date() });
 
+    // Use flagship model for synthesis (higher quality for final output)
+    const synthesisModel = config.ollamaModelFlagship || chiefAgent.model;
+    console.log(`[Council] Using flagship model for synthesis: ${synthesisModel}`);
+
     let synthesisContent = '';
-    for await (const token of streamOllamaResponse(chiefAgent.model, messages, { maxTokens: 4096 })) {
+    for await (const token of streamOllamaResponse(synthesisModel, messages, { maxTokens: 4096 })) {
       synthesisContent += token;
       this.emitEvent({ type: 'token', deliberationId, agentId: chiefAgent.id, content: token, timestamp: new Date() });
     }
@@ -722,7 +727,7 @@ export class CouncilService extends EventEmitter {
       response: synthesisContent,
       confidence: 0.9,
       latencyMs: 0,
-      modelUsed: chiefAgent.model,
+      modelUsed: synthesisModel,
     });
 
     // Extract key insights (simplified - could use NLP)

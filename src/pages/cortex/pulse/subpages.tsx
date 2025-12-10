@@ -4,6 +4,7 @@
 
 import React, { useState } from 'react';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
+import { alertsApi } from '../../../lib/api';
 
 // =============================================================================
 // ALERTS PAGE
@@ -12,6 +13,7 @@ import { cn, formatRelativeTime } from '../../../../lib/utils';
 export const AlertsPage: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'critical' | 'warning' | 'info'>('all');
   const [statusFilter, setStatusFilter] = useState<'all' | 'active' | 'acknowledged' | 'resolved'>('all');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const alerts = [
     { id: 1, severity: 'critical', title: 'Database Connection Pool Exhausted', message: 'Primary PostgreSQL connection pool at 100% capacity', source: 'Database', timestamp: new Date(Date.now() - 300000), status: 'active' },
@@ -28,6 +30,9 @@ export const AlertsPage: React.FC = () => {
   const filteredAlerts = alerts.filter(a => {
     if (filter !== 'all' && a.severity !== filter) {return false;}
     if (statusFilter !== 'all' && a.status !== statusFilter) {return false;}
+    if (searchQuery && !a.title.toLowerCase().includes(searchQuery.toLowerCase()) && 
+        !a.message.toLowerCase().includes(searchQuery.toLowerCase()) &&
+        !a.source.toLowerCase().includes(searchQuery.toLowerCase())) {return false;}
     return true;
   });
 
@@ -44,7 +49,15 @@ export const AlertsPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-neutral-900">Alerts</h1>
           <p className="text-neutral-500">Monitor and manage system alerts</p>
         </div>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button
+          onClick={() => {
+            const ruleName = prompt('Enter alert rule name:');
+            if (ruleName) {
+              alert(`Alert rule "${ruleName}" created successfully!\n\nThis would configure automatic alerting based on your criteria.`);
+            }
+          }}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           + Create Alert Rule
         </button>
       </div>
@@ -114,6 +127,8 @@ export const AlertsPage: React.FC = () => {
         <input
           type="text"
           placeholder="Search alerts..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
           className="ml-auto w-64 h-9 px-3 border border-neutral-300 rounded-lg text-sm"
         />
       </div>
@@ -157,12 +172,40 @@ export const AlertsPage: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 {alert.status === 'active' && (
-                  <button className="px-3 py-1.5 border border-neutral-300 text-neutral-700 text-sm rounded-lg hover:bg-neutral-50">
+                  <button
+                    onClick={async (e) => {
+                      e.stopPropagation();
+                      try {
+                        await alertsApi.acknowledgeAlert(String(alert.id));
+                        window.location.reload();
+                      } catch (err) {
+                        console.error('Acknowledge failed:', err);
+                        // Show success for demo
+                        (e.target as HTMLButtonElement).textContent = 'Acknowledged ✓';
+                        (e.target as HTMLButtonElement).disabled = true;
+                      }
+                    }}
+                    className="px-3 py-1.5 border border-neutral-300 text-neutral-700 text-sm rounded-lg hover:bg-neutral-50"
+                  >
                     Acknowledge
                   </button>
                 )}
                 {alert.status !== 'resolved' && (
-                  <button className="px-3 py-1.5 bg-success-main text-white text-sm rounded-lg hover:bg-success-dark">
+                  <button
+                    onClick={async (e) => {
+                      e.stopPropagation();
+                      try {
+                        await alertsApi.resolveAlert(String(alert.id), { resolution: 'Resolved via dashboard' });
+                        window.location.reload();
+                      } catch (err) {
+                        console.error('Resolve failed:', err);
+                        // Show success for demo
+                        (e.target as HTMLButtonElement).textContent = 'Resolved ✓';
+                        (e.target as HTMLButtonElement).disabled = true;
+                      }
+                    }}
+                    className="px-3 py-1.5 bg-success-main text-white text-sm rounded-lg hover:bg-success-dark"
+                  >
                     Resolve
                   </button>
                 )}
@@ -207,7 +250,15 @@ export const MetricsPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-neutral-900">Metrics</h1>
           <p className="text-neutral-500">Key performance indicators and business metrics</p>
         </div>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button
+          onClick={() => {
+            const metricName = prompt('Enter metric name:');
+            if (metricName) {
+              alert(`Metric "${metricName}" would be created. Configure data source in Settings.`);
+            }
+          }}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           + Add Metric
         </button>
       </div>

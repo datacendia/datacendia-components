@@ -447,12 +447,48 @@ class AutoHealServiceClass {
    */
   public async requestFix(errorId: string): Promise<FixSuggestion | null> {
     const error = this.errorQueue.find(e => e.id === errorId);
-    if (!error) {return null;}
+    if (!error) {
+      console.warn('[AutoHeal] requestFix: Error not found in queue:', errorId);
+      return null;
+    }
 
     const agent = getTechAgent(error.assignedAgent);
-    if (!agent) {return null;}
+    if (!agent) {
+      console.warn('[AutoHeal] requestFix: No agent found for:', error.assignedAgent);
+      return null;
+    }
 
-    return this.generateFix(error, agent);
+    console.log(`[AutoHeal] Generating fix for ${errorId} using ${agent.name}...`);
+    
+    try {
+      const fix = await this.generateFix(error, agent);
+      
+      if (fix) {
+        // Store the fix in history
+        this.fixHistory.push(fix);
+        
+        // Update the error with the suggested fix
+        error.suggestedFix = fix.description;
+        
+        // Notify listeners of the update
+        this.notifyFixGenerated(fix);
+        
+        console.log(`[AutoHeal] Fix generated successfully:`, fix.description.substring(0, 100));
+      } else {
+        console.warn('[AutoHeal] No fix generated');
+      }
+      
+      return fix;
+    } catch (e) {
+      console.error('[AutoHeal] requestFix failed:', e);
+      return null;
+    }
+  }
+
+  private notifyFixGenerated(fix: FixSuggestion): void {
+    window.dispatchEvent(new CustomEvent('autoheal:fix-generated', {
+      detail: fix,
+    }));
   }
 
   /**

@@ -115,14 +115,57 @@ npm run build
 cd backend && npm run build
 
 # Build Docker images
-docker build -f Dockerfile.frontend -t datacendia-frontend .
-docker build -f backend/Dockerfile -t datacendia-backend ./backend
+docker build -t datacendia/frontend:latest .
+docker build -t datacendia/backend:latest ./backend
 ```
+
+## 🚀 Deployment
+
+### Cloud/Standard Deployment
+
+```bash
+# Production deployment with Docker Compose
+docker compose -f docker-compose.production.yml up -d
+```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+
+### Air-Gapped / On-Premise Deployment
+
+For sovereign deployments on isolated networks:
+
+```powershell
+# Build deployment package (on machine with internet)
+.\scripts\build-airgapped-package.ps1 -Version "1.0.0"
+
+# With LLM models included (~15-25GB)
+.\scripts\build-airgapped-package.ps1 -Version "1.0.0" -IncludeModels
+```
+
+This creates a self-contained package with:
+- All Docker images as `.tar.gz` files
+- Configuration templates
+- Installation scripts for Linux/Windows
+- LLM models (optional)
+
+See [Air-Gapped Deployment Guide](docs/AIRGAPPED_DEPLOYMENT.md) for complete instructions.
 
 ## 📚 Documentation
 
+### Deployment
+
 | Document | Description |
 |----------|-------------|
+| [Quick Reference](docs/QUICK_REFERENCE.md) | Copy-paste commands cheat sheet |
+| [Deployment Guide](DEPLOYMENT.md) | Standard deployment instructions |
+| [Docker Guide](docs/DOCKER.md) | Complete Docker configuration reference |
+| [Air-Gapped Deployment](docs/AIRGAPPED_DEPLOYMENT.md) | Offline/on-premise deployment |
+
+### Technical
+
+| Document | Description |
+|----------|-------------|
+| [Enterprise Readiness](docs/ENTERPRISE_READINESS.md) | Production audit & compliance |
 | [Technical Stack](docs/TECH_STACK.md) | Technology choices and architecture |
 | [API Reference](docs/API_REFERENCE.md) | Backend API documentation |
 | [Security Audit](docs/SECURITY-AUDIT.md) | Security review and compliance |

@@ -4,7 +4,7 @@
 // =============================================================================
 
 import express, { Request, Response, Router } from 'express';
-import { authenticate } from '../middleware/auth.js';
+import { authenticate, requireRole } from '../middleware/auth.js';
 import { logger } from '../utils/logger.js';
 
 // Enterprise Services
@@ -15,6 +15,9 @@ import { cendiaRegentService } from '../services/enterprise/CendiaRegentService.
 import { getEnterpriseDashboard } from '../services/enterprise/index.js';
 
 const router: Router = express.Router();
+
+// All enterprise routes require authentication and admin-level role
+router.use(authenticate, requireRole('ADMIN', 'SUPER_ADMIN'));
 
 // =============================================================================
 // DASHBOARD

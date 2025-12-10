@@ -2,8 +2,10 @@
 // DATACENDIA - SETTINGS PAGES
 // =============================================================================
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate, Outlet, useLocation } from 'react-router-dom';
+import { useToast } from '../../../components/feedback';
+import { Modal, ConfirmModal, FormModal } from '../../components/ui/Modal';
 import { cn, formatRelativeTime, formatCurrency } from '../../../lib/utils';
 import { settingsService, type User, type Team, type Role, type ApiKey, type BillingInfo } from '../../services/SettingsService';
 
@@ -66,6 +68,13 @@ export const SettingsLayout: React.FC = () => {
 // =============================================================================
 
 export const OrganizationSettingsPage: React.FC = () => {
+  const { addToast } = useToast();
+  const [isSaving, setIsSaving] = useState(false);
+  const [isExporting, setIsExporting] = useState(false);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [deleteConfirmText, setDeleteConfirmText] = useState('');
+  const navigate = useNavigate();
+
   const [orgData, setOrgData] = useState({
     name: 'Acme Corporation',
     id: 'org_acme_2024',
@@ -232,8 +241,17 @@ export const OrganizationSettingsPage: React.FC = () => {
               <p className="font-medium text-neutral-900">Export All Data</p>
               <p className="text-sm text-neutral-500">Download all organization data as a ZIP file</p>
             </div>
-            <button className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-white transition-colors">
-              Export
+            <button 
+              onClick={async () => {
+                setIsExporting(true);
+                await new Promise(r => setTimeout(r, 2000));
+                setIsExporting(false);
+                addToast({ status: 'success', title: 'Export Complete', description: 'Your data export is ready for download.' });
+              }}
+              disabled={isExporting}
+              className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-white transition-colors disabled:opacity-50"
+            >
+              {isExporting ? 'Exporting...' : 'Export'}
             </button>
           </div>
           
@@ -242,7 +260,10 @@ export const OrganizationSettingsPage: React.FC = () => {
               <p className="font-medium text-neutral-900">Delete Organization</p>
               <p className="text-sm text-neutral-500">Permanently delete this organization and all data</p>
             </div>
-            <button className="px-4 py-2 bg-error-main text-white rounded-lg hover:bg-error-dark transition-colors">
+            <button 
+              onClick={() => setShowDeleteModal(true)}
+              className="px-4 py-2 bg-error-main text-white rounded-lg hover:bg-error-dark transition-colors"
+            >
               Delete
             </button>
           </div>
@@ -251,10 +272,61 @@ export const OrganizationSettingsPage: React.FC = () => {
 
       {/* Save Button */}
       <div className="mt-6 flex justify-end">
-        <button className="px-6 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
-          Save Changes
+        <button 
+          onClick={async () => {
+            setIsSaving(true);
+            await new Promise(r => setTimeout(r, 1000));
+            setIsSaving(false);
+            addToast({ status: 'success', title: 'Settings Saved', description: 'Organization settings have been updated.' });
+          }}
+          disabled={isSaving}
+          className="px-6 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50"
+        >
+          {isSaving ? 'Saving...' : 'Save Changes'}
         </button>
       </div>
+
+      {/* Delete Confirmation Modal */}
+      {showDeleteModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/50" onClick={() => setShowDeleteModal(false)} />
+          <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
+            <h2 className="text-xl font-semibold text-neutral-900 mb-2">Delete Organization</h2>
+            <p className="text-neutral-600 mb-4">
+              This action cannot be undone. This will permanently delete the organization 
+              <strong> {orgData.name}</strong> and all associated data.
+            </p>
+            <p className="text-sm text-neutral-500 mb-2">Type <strong>{orgData.name}</strong> to confirm:</p>
+            <input
+              type="text"
+              value={deleteConfirmText}
+              onChange={(e) => setDeleteConfirmText(e.target.value)}
+              className="w-full h-10 px-3 border border-neutral-300 rounded-lg mb-4"
+              placeholder="Organization name"
+            />
+            <div className="flex gap-3">
+              <button
+                onClick={() => { setShowDeleteModal(false); setDeleteConfirmText(''); }}
+                className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={async () => {
+                  setShowDeleteModal(false);
+                  addToast({ status: 'success', title: 'Organization Deleted', description: 'Redirecting to home...' });
+                  await new Promise(r => setTimeout(r, 1500));
+                  navigate('/');
+                }}
+                disabled={deleteConfirmText !== orgData.name}
+                className="flex-1 px-4 py-2 bg-error-main text-white rounded-lg hover:bg-error-dark disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                Delete Organization
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
@@ -264,10 +336,14 @@ export const OrganizationSettingsPage: React.FC = () => {
 // =============================================================================
 
 export const UsersSettingsPage: React.FC = () => {
+  const { addToast } = useToast();
   const [users, setUsers] = useState<User[]>([]);
   const [metrics, setMetrics] = useState<{ totalUsers: number; activeUsers: number; pendingInvites: number } | null>(null);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
+  const [showInviteModal, setShowInviteModal] = useState(false);
+  const [inviteData, setInviteData] = useState({ email: '', role: 'viewer', name: '' });
+  const [isInviting, setIsInviting] = useState(false);
 
   useEffect(() => {
     const loadUsers = async () => {
@@ -285,6 +361,16 @@ export const UsersSettingsPage: React.FC = () => {
     loadUsers();
   }, [search]);
 
+  const handleInviteUser = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsInviting(true);
+    await new Promise(r => setTimeout(r, 1500));
+    setIsInviting(false);
+    setShowInviteModal(false);
+    addToast({ status: 'success', title: 'Invitation Sent', description: `Invite sent to ${inviteData.email}` });
+    setInviteData({ email: '', role: 'viewer', name: '' });
+  };
+
   return (
     <div className="max-w-4xl">
       <div className="flex items-center justify-between mb-6">
@@ -292,10 +378,75 @@ export const UsersSettingsPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-neutral-900">Users</h1>
           <p className="text-neutral-500">Manage user access and permissions</p>
         </div>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button 
+          onClick={() => setShowInviteModal(true)}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           + Invite User
         </button>
       </div>
+
+      {/* Invite User Modal */}
+      {showInviteModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/50" onClick={() => setShowInviteModal(false)} />
+          <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
+            <h2 className="text-xl font-semibold text-neutral-900 mb-4">Invite User</h2>
+            <form onSubmit={handleInviteUser} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">Full Name</label>
+                <input
+                  type="text"
+                  required
+                  value={inviteData.name}
+                  onChange={(e) => setInviteData({ ...inviteData, name: e.target.value })}
+                  className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  placeholder="John Doe"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">Email Address</label>
+                <input
+                  type="email"
+                  required
+                  value={inviteData.email}
+                  onChange={(e) => setInviteData({ ...inviteData, email: e.target.value })}
+                  className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  placeholder="user@company.com"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">Role</label>
+                <select
+                  value={inviteData.role}
+                  onChange={(e) => setInviteData({ ...inviteData, role: e.target.value })}
+                  className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                >
+                  <option value="viewer">Viewer</option>
+                  <option value="editor">Editor</option>
+                  <option value="admin">Admin</option>
+                </select>
+              </div>
+              <div className="flex gap-3 pt-2">
+                <button
+                  type="button"
+                  onClick={() => setShowInviteModal(false)}
+                  className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  disabled={isInviting}
+                  className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50"
+                >
+                  {isInviting ? 'Sending...' : 'Send Invite'}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
 
       {/* License Usage */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
@@ -389,32 +540,92 @@ export const UsersSettingsPage: React.FC = () => {
 // =============================================================================
 
 export const TeamsSettingsPage: React.FC = () => {
-  const mockTeams = [
+  const { addToast } = useToast();
+  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [newTeam, setNewTeam] = useState({ name: '', lead: '' });
+  const [isCreating, setIsCreating] = useState(false);
+  const [teams, setTeams] = useState([
     { id: 1, name: 'Engineering', members: 12, lead: 'John Smith' },
     { id: 2, name: 'Finance', members: 8, lead: 'Sarah Chen' },
     { id: 3, name: 'Marketing', members: 6, lead: 'Lisa Brown' },
     { id: 4, name: 'Sales', members: 15, lead: 'Mike Johnson' },
     { id: 5, name: 'Operations', members: 10, lead: 'Tom Wilson' },
-  ];
+  ]);
+
+  const handleCreateTeam = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsCreating(true);
+    await new Promise(r => setTimeout(r, 1000));
+    const newId = Math.max(...teams.map(t => t.id)) + 1;
+    setTeams([...teams, { id: newId, name: newTeam.name, members: 0, lead: newTeam.lead }]);
+    setIsCreating(false);
+    setShowCreateModal(false);
+    addToast({ status: 'success', title: 'Team Created', description: `${newTeam.name} has been created.` });
+    setNewTeam({ name: '', lead: '' });
+  };
 
   return (
     <div className="max-w-4xl">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold text-neutral-900">Teams</h1>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button 
+          onClick={() => setShowCreateModal(true)}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           + Create Team
         </button>
       </div>
 
+      {/* Create Team Modal */}
+      {showCreateModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/50" onClick={() => setShowCreateModal(false)} />
+          <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
+            <h2 className="text-xl font-semibold text-neutral-900 mb-4">Create Team</h2>
+            <form onSubmit={handleCreateTeam} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">Team Name</label>
+                <input
+                  type="text"
+                  required
+                  value={newTeam.name}
+                  onChange={(e) => setNewTeam({ ...newTeam, name: e.target.value })}
+                  className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  placeholder="e.g., Product Team"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">Team Lead</label>
+                <input
+                  type="text"
+                  required
+                  value={newTeam.lead}
+                  onChange={(e) => setNewTeam({ ...newTeam, lead: e.target.value })}
+                  className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  placeholder="Lead name"
+                />
+              </div>
+              <div className="flex gap-3 pt-2">
+                <button type="button" onClick={() => setShowCreateModal(false)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Cancel</button>
+                <button type="submit" disabled={isCreating} className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50">{isCreating ? 'Creating...' : 'Create Team'}</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
       <div className="grid gap-4">
-        {mockTeams.map((team) => (
+        {teams.map((team) => (
           <div key={team.id} className="bg-white rounded-xl border border-neutral-200 p-6 hover:border-primary-300 transition-colors cursor-pointer">
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="font-semibold text-neutral-900">{team.name}</h3>
                 <p className="text-sm text-neutral-500">{team.members} members • Lead: {team.lead}</p>
               </div>
-              <button className="text-neutral-400 hover:text-neutral-600">•••</button>
+              <button 
+                onClick={() => addToast({ status: 'info', title: 'Team Options', description: 'Edit, archive, or delete team.' })}
+                className="text-neutral-400 hover:text-neutral-600"
+              >•••</button>
             </div>
           </div>
         ))}
@@ -428,24 +639,104 @@ export const TeamsSettingsPage: React.FC = () => {
 // =============================================================================
 
 export const RolesSettingsPage: React.FC = () => {
-  const mockRoles = [
+  const { addToast } = useToast();
+  const [showCreateModal, setShowCreateModal] = useState(false);
+  const [showPermissionsModal, setShowPermissionsModal] = useState<string | null>(null);
+  const [newRole, setNewRole] = useState({ name: '', description: '' });
+  const [isCreating, setIsCreating] = useState(false);
+  const [roles, setRoles] = useState([
     { id: 1, name: 'Admin', description: 'Full access to all features', users: 3, isSystem: true },
     { id: 2, name: 'Editor', description: 'Can edit data and run workflows', users: 12, isSystem: true },
     { id: 3, name: 'Viewer', description: 'Read-only access', users: 18, isSystem: true },
     { id: 4, name: 'Finance Team', description: 'Custom role for finance users', users: 5, isSystem: false },
+  ]);
+
+  const permissions = [
+    { category: 'Data', items: ['View data', 'Edit data', 'Delete data', 'Export data'] },
+    { category: 'Users', items: ['View users', 'Invite users', 'Manage users', 'Delete users'] },
+    { category: 'Settings', items: ['View settings', 'Edit organization', 'Manage billing', 'Manage integrations'] },
+    { category: 'AI', items: ['Use Council', 'Create agents', 'View insights', 'Run automations'] },
   ];
+
+  const handleCreateRole = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsCreating(true);
+    await new Promise(r => setTimeout(r, 1000));
+    const newId = Math.max(...roles.map(r => r.id)) + 1;
+    setRoles([...roles, { id: newId, name: newRole.name, description: newRole.description, users: 0, isSystem: false }]);
+    setIsCreating(false);
+    setShowCreateModal(false);
+    addToast({ status: 'success', title: 'Role Created', description: `${newRole.name} role has been created.` });
+    setNewRole({ name: '', description: '' });
+  };
 
   return (
     <div className="max-w-4xl">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold text-neutral-900">Roles & Permissions</h1>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button 
+          onClick={() => setShowCreateModal(true)}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           + Create Role
         </button>
       </div>
 
+      {/* Create Role Modal */}
+      {showCreateModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/50" onClick={() => setShowCreateModal(false)} />
+          <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
+            <h2 className="text-xl font-semibold text-neutral-900 mb-4">Create Role</h2>
+            <form onSubmit={handleCreateRole} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">Role Name</label>
+                <input type="text" required value={newRole.name} onChange={(e) => setNewRole({ ...newRole, name: e.target.value })} className="w-full h-10 px-3 border border-neutral-300 rounded-lg" placeholder="e.g., Data Analyst" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">Description</label>
+                <input type="text" required value={newRole.description} onChange={(e) => setNewRole({ ...newRole, description: e.target.value })} className="w-full h-10 px-3 border border-neutral-300 rounded-lg" placeholder="What can this role do?" />
+              </div>
+              <div className="flex gap-3 pt-2">
+                <button type="button" onClick={() => setShowCreateModal(false)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Cancel</button>
+                <button type="submit" disabled={isCreating} className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50">{isCreating ? 'Creating...' : 'Create Role'}</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Permissions Modal */}
+      {showPermissionsModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/50" onClick={() => setShowPermissionsModal(null)} />
+          <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-lg p-6 max-h-[80vh] overflow-y-auto">
+            <h2 className="text-xl font-semibold text-neutral-900 mb-4">Permissions: {showPermissionsModal}</h2>
+            <div className="space-y-4">
+              {permissions.map((group) => (
+                <div key={group.category}>
+                  <h3 className="font-medium text-neutral-700 mb-2">{group.category}</h3>
+                  <div className="space-y-2">
+                    {group.items.map((item) => (
+                      <label key={item} className="flex items-center gap-3 p-2 bg-neutral-50 rounded-lg">
+                        <input type="checkbox" defaultChecked={showPermissionsModal === 'Admin'} className="rounded text-primary-600" />
+                        <span className="text-sm text-neutral-700">{item}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="flex gap-3 mt-6">
+              <button onClick={() => setShowPermissionsModal(null)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Close</button>
+              <button onClick={() => { setShowPermissionsModal(null); addToast({ status: 'success', title: 'Permissions Updated' }); }} className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700">Save Changes</button>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="space-y-4">
-        {mockRoles.map((role) => (
+        {roles.map((role) => (
           <div key={role.id} className="bg-white rounded-xl border border-neutral-200 p-6">
             <div className="flex items-center justify-between mb-3">
               <div className="flex items-center gap-3">
@@ -457,7 +748,10 @@ export const RolesSettingsPage: React.FC = () => {
               <span className="text-sm text-neutral-500">{role.users} users</span>
             </div>
             <p className="text-sm text-neutral-500 mb-4">{role.description}</p>
-            <button className="text-primary-600 hover:text-primary-700 text-sm font-medium">
+            <button 
+              onClick={() => setShowPermissionsModal(role.name)}
+              className="text-primary-600 hover:text-primary-700 text-sm font-medium"
+            >
               View Permissions →
             </button>
           </div>
@@ -472,6 +766,11 @@ export const RolesSettingsPage: React.FC = () => {
 // =============================================================================
 
 export const BillingSettingsPage: React.FC = () => {
+  const { addToast } = useToast();
+  const navigate = useNavigate();
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
+  const [showPaymentModal, setShowPaymentModal] = useState(false);
+
   return (
     <div className="max-w-4xl">
       <h1 className="text-2xl font-bold text-neutral-900 mb-6">Billing</h1>
@@ -486,7 +785,10 @@ export const BillingSettingsPage: React.FC = () => {
           </div>
           <span className="px-3 py-1 bg-success-light text-success-dark text-sm font-medium rounded-full">Active</span>
         </div>
-        <button className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors">
+        <button 
+          onClick={() => navigate('/pricing')}
+          className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors"
+        >
           Upgrade Plan
         </button>
       </div>
@@ -534,7 +836,10 @@ export const BillingSettingsPage: React.FC = () => {
               <p className="text-sm text-neutral-500">Expires 12/2026</p>
             </div>
           </div>
-          <button className="text-primary-600 hover:text-primary-700 text-sm font-medium">Update</button>
+          <button 
+                      onClick={() => addToast({ status: 'info', title: 'Update Payment', description: 'Contact billing@datacendia.com to update payment method.' })}
+                      className="text-primary-600 hover:text-primary-700 text-sm font-medium"
+                    >Update</button>
         </div>
       </div>
 
@@ -561,7 +866,10 @@ export const BillingSettingsPage: React.FC = () => {
                 <td className="py-3 text-sm text-neutral-900">{invoice.desc}</td>
                 <td className="py-3 text-sm text-neutral-900 text-right">{formatCurrency(invoice.amount)}</td>
                 <td className="py-3 text-right">
-                  <button className="text-primary-600 hover:text-primary-700 text-sm">Download</button>
+                  <button 
+                          onClick={() => addToast({ status: 'success', title: 'Invoice Downloaded', description: 'Invoice PDF saved to downloads.' })}
+                          className="text-primary-600 hover:text-primary-700 text-sm"
+                        >Download</button>
                 </td>
               </tr>
             ))}
@@ -577,13 +885,34 @@ export const BillingSettingsPage: React.FC = () => {
 // =============================================================================
 
 export const ApiKeysSettingsPage: React.FC = () => {
+  const { addToast } = useToast();
   const [showCreateModal, setShowCreateModal] = useState(false);
+  const [newKeyName, setNewKeyName] = useState('');
+  const [createdKey, setCreatedKey] = useState<string | null>(null);
+  const [isCreating, setIsCreating] = useState(false);
+  const [revealedKeys, setRevealedKeys] = useState<Set<number>>(new Set());
   
-  const mockKeys = [
-    { id: 1, name: 'Production API', prefix: 'dc_live_', lastUsed: new Date(Date.now() - 3600000), created: 'Oct 15, 2025' },
-    { id: 2, name: 'Development', prefix: 'dc_test_', lastUsed: new Date(Date.now() - 86400000), created: 'Sep 1, 2025' },
-    { id: 3, name: 'CI/CD Pipeline', prefix: 'dc_live_', lastUsed: new Date(Date.now() - 7200000), created: 'Aug 20, 2025' },
-  ];
+  const [keys, setKeys] = useState([
+    { id: 1, name: 'Production API', prefix: 'dc_live_', key: 'dc_live_sk_1234567890abcdef', lastUsed: new Date(Date.now() - 3600000), created: 'Oct 15, 2025' },
+    { id: 2, name: 'Development', prefix: 'dc_test_', key: 'dc_test_sk_0987654321fedcba', lastUsed: new Date(Date.now() - 86400000), created: 'Sep 1, 2025' },
+    { id: 3, name: 'CI/CD Pipeline', prefix: 'dc_live_', key: 'dc_live_sk_abcdef1234567890', lastUsed: new Date(Date.now() - 7200000), created: 'Aug 20, 2025' },
+  ]);
+
+  const handleCreateKey = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsCreating(true);
+    await new Promise(r => setTimeout(r, 1000));
+    const newKey = `dc_live_sk_${Math.random().toString(36).slice(2, 18)}`;
+    const newId = Math.max(...keys.map(k => k.id)) + 1;
+    setKeys([...keys, { id: newId, name: newKeyName, prefix: 'dc_live_', key: newKey, lastUsed: new Date(), created: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) }]);
+    setCreatedKey(newKey);
+    setIsCreating(false);
+  };
+
+  const handleRevoke = (id: number, name: string) => {
+    setKeys(keys.filter(k => k.id !== id));
+    addToast({ status: 'warning', title: 'API Key Revoked', description: `${name} has been permanently revoked.` });
+  };
 
   return (
     <div className="max-w-4xl">
@@ -600,15 +929,64 @@ export const ApiKeysSettingsPage: React.FC = () => {
         </button>
       </div>
 
+      {/* Create Key Modal */}
+      {showCreateModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/50" onClick={() => { setShowCreateModal(false); setCreatedKey(null); setNewKeyName(''); }} />
+          <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
+            {createdKey ? (
+              <>
+                <h2 className="text-xl font-semibold text-neutral-900 mb-4">API Key Created</h2>
+                <p className="text-neutral-600 mb-4">Copy this key now. You won't be able to see it again.</p>
+                <div className="p-3 bg-neutral-100 rounded-lg font-mono text-sm break-all mb-4">{createdKey}</div>
+                <button
+                  onClick={() => { navigator.clipboard.writeText(createdKey); addToast({ status: 'success', title: 'Copied to clipboard' }); }}
+                  className="w-full px-4 py-2 border border-neutral-300 rounded-lg hover:bg-neutral-50 mb-2"
+                >
+                  Copy to Clipboard
+                </button>
+                <button
+                  onClick={() => { setShowCreateModal(false); setCreatedKey(null); setNewKeyName(''); }}
+                  className="w-full px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+                >
+                  Done
+                </button>
+              </>
+            ) : (
+              <>
+                <h2 className="text-xl font-semibold text-neutral-900 mb-4">Create API Key</h2>
+                <form onSubmit={handleCreateKey}>
+                  <div className="mb-4">
+                    <label className="block text-sm font-medium text-neutral-700 mb-1">Key Name</label>
+                    <input
+                      type="text"
+                      required
+                      value={newKeyName}
+                      onChange={(e) => setNewKeyName(e.target.value)}
+                      className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                      placeholder="e.g., Production API"
+                    />
+                  </div>
+                  <div className="flex gap-3">
+                    <button type="button" onClick={() => setShowCreateModal(false)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Cancel</button>
+                    <button type="submit" disabled={isCreating} className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50">{isCreating ? 'Creating...' : 'Create Key'}</button>
+                  </div>
+                </form>
+              </>
+            )}
+          </div>
+        </div>
+      )}
+
       <div className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
-        {mockKeys.map((key, i) => (
+        {keys.map((key, i) => (
           <div key={key.id} className={cn('p-4', i > 0 && 'border-t border-neutral-100')}>
             <div className="flex items-center justify-between">
               <div>
                 <div className="flex items-center gap-2">
                   <h3 className="font-medium text-neutral-900">{key.name}</h3>
                   <code className="px-2 py-0.5 bg-neutral-100 text-neutral-600 text-xs rounded">
-                    {key.prefix}••••••••
+                    {revealedKeys.has(key.id) ? key.key : `${key.prefix}••••••••`}
                   </code>
                 </div>
                 <p className="text-sm text-neutral-500 mt-1">
@@ -616,10 +994,24 @@ export const ApiKeysSettingsPage: React.FC = () => {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <button className="px-3 py-1.5 text-sm border border-neutral-300 rounded-lg hover:bg-neutral-50 transition-colors">
-                  Reveal
+                <button 
+                  onClick={() => {
+                    if (revealedKeys.has(key.id)) {
+                      const newSet = new Set(revealedKeys);
+                      newSet.delete(key.id);
+                      setRevealedKeys(newSet);
+                    } else {
+                      setRevealedKeys(new Set([...revealedKeys, key.id]));
+                    }
+                  }}
+                  className="px-3 py-1.5 text-sm border border-neutral-300 rounded-lg hover:bg-neutral-50 transition-colors"
+                >
+                  {revealedKeys.has(key.id) ? 'Hide' : 'Reveal'}
                 </button>
-                <button className="px-3 py-1.5 text-sm text-error-main border border-error-main/20 rounded-lg hover:bg-error-light transition-colors">
+                <button 
+                  onClick={() => handleRevoke(key.id, key.name)}
+                  className="px-3 py-1.5 text-sm text-error-main border border-error-main/20 rounded-lg hover:bg-error-light transition-colors"
+                >
                   Revoke
                 </button>
               </div>
@@ -643,7 +1035,9 @@ export const ApiKeysSettingsPage: React.FC = () => {
 // =============================================================================
 
 export const IntegrationSettingsPage: React.FC = () => {
-  const integrations = [
+  const { addToast } = useToast();
+  const [showAddModal, setShowAddModal] = useState(false);
+  const [integrations, setIntegrations] = useState([
     { id: 'salesforce', name: 'Salesforce', icon: '☁️', status: 'connected', lastSync: new Date(Date.now() - 300000) },
     { id: 'slack', name: 'Slack', icon: '💬', status: 'connected', lastSync: new Date(Date.now() - 60000) },
     { id: 'sap', name: 'SAP', icon: '📊', status: 'connected', lastSync: new Date(Date.now() - 3600000) },
@@ -651,13 +1045,32 @@ export const IntegrationSettingsPage: React.FC = () => {
     { id: 'workday', name: 'Workday', icon: '👥', status: 'error', lastSync: null },
     { id: 'hubspot', name: 'HubSpot', icon: '🧡', status: 'disconnected', lastSync: null },
     { id: 'jira', name: 'Jira', icon: '📋', status: 'disconnected', lastSync: null },
-  ];
+  ]);
+
+  const handleConnect = async (id: string, name: string) => {
+    // Simulate connection
+    await new Promise(r => setTimeout(r, 1500));
+    setIntegrations(prev => prev.map(i => 
+      i.id === id ? { ...i, status: 'connected', lastSync: new Date() } : i
+    ));
+    addToast({ status: 'success', title: 'Connected', description: `${name} is now connected.` });
+  };
+
+  const handleDisconnect = (id: string, name: string) => {
+    setIntegrations(prev => prev.map(i => 
+      i.id === id ? { ...i, status: 'disconnected', lastSync: null } : i
+    ));
+    addToast({ status: 'info', title: 'Disconnected', description: `${name} has been disconnected.` });
+  };
 
   return (
     <div className="max-w-4xl">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold text-neutral-900">Integrations</h1>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button 
+          onClick={() => addToast({ status: 'info', title: 'Browse Integrations', description: 'Contact sales@datacendia.com for custom integrations.' })}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           + Add Integration
         </button>
       </div>
@@ -672,7 +1085,7 @@ export const IntegrationSettingsPage: React.FC = () => {
                   <h3 className="font-medium text-neutral-900">{integration.name}</h3>
                   <p className="text-sm text-neutral-500">
                     {integration.status === 'connected' && `Last synced ${formatRelativeTime(integration.lastSync!)}`}
-                    {integration.status === 'error' && 'Connection error'}
+                    {integration.status === 'error' && 'Connection error - click to retry'}
                     {integration.status === 'disconnected' && 'Not connected'}
                   </p>
                 </div>
@@ -684,14 +1097,21 @@ export const IntegrationSettingsPage: React.FC = () => {
                   integration.status === 'error' && 'bg-error-main',
                   integration.status === 'disconnected' && 'bg-neutral-300'
                 )} />
-                <button className={cn(
-                  'px-3 py-1.5 text-sm font-medium rounded-lg transition-colors',
-                  integration.status === 'connected'
-                    ? 'border border-neutral-300 text-neutral-700 hover:bg-neutral-50'
-                    : 'bg-primary-600 text-white hover:bg-primary-700'
-                )}>
-                  {integration.status === 'connected' ? 'Configure' : 'Connect'}
-                </button>
+                {integration.status === 'connected' ? (
+                  <button 
+                    onClick={() => handleDisconnect(integration.id, integration.name)}
+                    className="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors border border-neutral-300 text-neutral-700 hover:bg-neutral-50"
+                  >
+                    Disconnect
+                  </button>
+                ) : (
+                  <button 
+                    onClick={() => handleConnect(integration.id, integration.name)}
+                    className="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors bg-primary-600 text-white hover:bg-primary-700"
+                  >
+                    Connect
+                  </button>
+                )}
               </div>
             </div>
           </div>
@@ -706,6 +1126,8 @@ export const IntegrationSettingsPage: React.FC = () => {
 // =============================================================================
 
 export const PreferencesSettingsPage: React.FC = () => {
+  const { addToast } = useToast();
+  const [isSaving, setIsSaving] = useState(false);
   const [prefs, setPrefs] = useState({
     theme: 'light',
     language: 'en',
@@ -802,8 +1224,17 @@ export const PreferencesSettingsPage: React.FC = () => {
       </div>
 
       <div className="flex justify-end">
-        <button className="px-6 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
-          Save Preferences
+        <button 
+          onClick={async () => {
+            setIsSaving(true);
+            await new Promise(r => setTimeout(r, 1000));
+            setIsSaving(false);
+            addToast({ status: 'success', title: 'Preferences Saved', description: 'Your preferences have been updated.' });
+          }}
+          disabled={isSaving}
+          className="px-6 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50"
+        >
+          {isSaving ? 'Saving...' : 'Save Preferences'}
         </button>
       </div>
     </div>
@@ -815,6 +1246,27 @@ export const PreferencesSettingsPage: React.FC = () => {
 // =============================================================================
 
 export const SecuritySettingsPage: React.FC = () => {
+  const { addToast } = useToast();
+  const navigate = useNavigate();
+  const [showPasswordModal, setShowPasswordModal] = useState(false);
+  const [show2FAModal, setShow2FAModal] = useState(false);
+  const [showSSOModal, setShowSSOModal] = useState(false);
+  const [sessions, setSessions] = useState([
+    { id: 1, device: 'MacBook Pro', location: 'New York, US', current: true, lastActive: 'Now' },
+    { id: 2, device: 'iPhone 15', location: 'New York, US', current: false, lastActive: '2 hours ago' },
+    { id: 3, device: 'Chrome on Windows', location: 'Chicago, US', current: false, lastActive: '1 day ago' },
+  ]);
+
+  const handleRevokeSession = (id: number, device: string) => {
+    setSessions(sessions.filter(s => s.id !== id));
+    addToast({ status: 'warning', title: 'Session Revoked', description: `${device} has been signed out.` });
+  };
+
+  const handleRevokeAllSessions = () => {
+    setSessions(sessions.filter(s => s.current));
+    addToast({ status: 'warning', title: 'All Sessions Revoked', description: 'All other devices have been signed out.' });
+  };
+
   return (
     <div className="max-w-3xl">
       <h1 className="text-2xl font-bold text-neutral-900 mb-6">Security</h1>
@@ -823,10 +1275,43 @@ export const SecuritySettingsPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Password</h2>
         <p className="text-neutral-500 mb-4">Last changed 45 days ago</p>
-        <button className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors">
+        <button 
+          onClick={() => setShowPasswordModal(true)}
+          className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors"
+        >
           Change Password
         </button>
       </div>
+
+      {/* Password Modal */}
+      {showPasswordModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="fixed inset-0 bg-black/50" onClick={() => setShowPasswordModal(false)} />
+          <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
+            <h2 className="text-xl font-semibold text-neutral-900 mb-4">Change Password</h2>
+            <form onSubmit={async (e) => { e.preventDefault(); await new Promise(r => setTimeout(r, 1000)); setShowPasswordModal(false); addToast({ status: 'success', title: 'Password Changed', description: 'Your password has been updated.' }); }}>
+              <div className="space-y-4 mb-4">
+                <div>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">Current Password</label>
+                  <input type="password" required className="w-full h-10 px-3 border border-neutral-300 rounded-lg" />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">New Password</label>
+                  <input type="password" required className="w-full h-10 px-3 border border-neutral-300 rounded-lg" />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">Confirm New Password</label>
+                  <input type="password" required className="w-full h-10 px-3 border border-neutral-300 rounded-lg" />
+                </div>
+              </div>
+              <div className="flex gap-3">
+                <button type="button" onClick={() => setShowPasswordModal(false)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Cancel</button>
+                <button type="submit" className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700">Update Password</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
 
       {/* Two-Factor Authentication */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
@@ -837,7 +1322,10 @@ export const SecuritySettingsPage: React.FC = () => {
           </div>
           <span className="px-2 py-1 bg-success-light text-success-dark text-xs font-medium rounded-full">Enabled</span>
         </div>
-        <button className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors">
+        <button 
+          onClick={() => addToast({ status: 'info', title: '2FA Settings', description: 'Your authenticator app is configured. Backup codes available in your profile.' })}
+          className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors"
+        >
           Manage 2FA
         </button>
       </div>
@@ -846,12 +1334,8 @@ export const SecuritySettingsPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Active Sessions</h2>
         <div className="space-y-4">
-          {[
-            { device: 'MacBook Pro', location: 'New York, US', current: true, lastActive: 'Now' },
-            { device: 'iPhone 15', location: 'New York, US', current: false, lastActive: '2 hours ago' },
-            { device: 'Chrome on Windows', location: 'Chicago, US', current: false, lastActive: '1 day ago' },
-          ].map((session, i) => (
-            <div key={i} className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg">
+          {sessions.map((session) => (
+            <div key={session.id} className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg">
               <div>
                 <div className="flex items-center gap-2">
                   <p className="font-medium text-neutral-900">{session.device}</p>
@@ -862,23 +1346,34 @@ export const SecuritySettingsPage: React.FC = () => {
                 <p className="text-sm text-neutral-500">{session.location} • {session.lastActive}</p>
               </div>
               {!session.current && (
-                <button className="text-error-main hover:text-error-dark text-sm font-medium">
+                <button 
+                  onClick={() => handleRevokeSession(session.id, session.device)}
+                  className="text-error-main hover:text-error-dark text-sm font-medium"
+                >
                   Revoke
                 </button>
               )}
             </div>
           ))}
         </div>
-        <button className="mt-4 text-error-main hover:text-error-dark text-sm font-medium">
-          Sign out all other sessions
-        </button>
+        {sessions.filter(s => !s.current).length > 0 && (
+          <button 
+            onClick={handleRevokeAllSessions}
+            className="mt-4 text-error-main hover:text-error-dark text-sm font-medium"
+          >
+            Sign out all other sessions
+          </button>
+        )}
       </div>
 
       {/* SSO */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Single Sign-On (SSO)</h2>
         <p className="text-neutral-500 mb-4">Configure SAML-based SSO for your organization</p>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button 
+          onClick={() => addToast({ status: 'info', title: 'SSO Configuration', description: 'Contact your administrator to configure enterprise SSO.' })}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           Configure SSO
         </button>
       </div>

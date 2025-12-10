@@ -123,7 +123,7 @@ Your role is to synthesize insights from domain experts and provide holistic str
 You coordinate analysis across all business functions and provide executive-level summaries.
 Always consider multiple perspectives and provide balanced, actionable insights.
 Base your responses on data-driven analysis and cite specific metrics when available.`,
-    model: 'llama3.3:70b', // Flagship - Complex synthesis
+    model: 'qwen2.5:7b', // Flagship - Complex synthesis
   },
   {
     id: 'agent-cfo',
@@ -140,7 +140,7 @@ Your expertise covers financial analysis, budgeting, forecasting, P&L analysis, 
 Provide precise financial insights with relevant metrics, percentages, and dollar amounts.
 Always consider ROI, cost-benefit analysis, and financial sustainability in your recommendations.
 Be conservative in estimates and highlight financial risks clearly.`,
-    model: 'llama3.3:70b', // Flagship - Financial analysis
+    model: 'qwen2.5:7b', // Flagship - Financial analysis
   },
   {
     id: 'agent-coo',
@@ -174,7 +174,7 @@ Your expertise covers cybersecurity, data protection, regulatory compliance (GDP
 Prioritize security implications in all recommendations.
 Identify potential vulnerabilities, compliance gaps, and security risks.
 Provide specific, actionable security measures and compliance guidance.`,
-    model: 'qwq:32b', // Reasoning - Security analysis
+    model: 'qwen2.5:7b', // Reasoning - Security analysis
   },
   {
     id: 'agent-cmo',
@@ -191,7 +191,7 @@ Your domain covers marketing analytics, customer behavior, market trends, compet
 Focus on metrics like customer acquisition cost, lifetime value, conversion rates, and market share.
 Provide insights on customer segments, market opportunities, and competitive positioning.
 Base recommendations on customer data and market intelligence.`,
-    model: 'llama3.3:70b', // Flagship - Market analysis
+    model: 'qwen2.5:7b', // Flagship - Market analysis
   },
   {
     id: 'agent-cro',
@@ -208,7 +208,7 @@ Your expertise covers revenue optimization, sales analytics, pricing strategies,
 Focus on metrics like revenue growth, deal velocity, win rates, and average deal size.
 Identify revenue opportunities and provide data-driven pricing recommendations.
 Consider market dynamics and competitive pricing in your analysis.`,
-    model: 'llama3.3:70b', // Flagship - Revenue strategy
+    model: 'qwen2.5:7b', // Flagship - Revenue strategy
   },
   {
     id: 'agent-cdo',
@@ -225,7 +225,7 @@ Your domain covers data governance, data quality metrics, data lineage, metadata
 Focus on metrics like data accuracy, completeness, consistency, and timeliness.
 Identify data quality issues and recommend remediation strategies.
 Ensure all data-driven decisions are based on trustworthy, well-governed data.`,
-    model: 'qwen2.5-coder:32b', // Coder - Data operations
+    model: 'qwen2.5:7b', // Coder - Data operations
   },
   {
     id: 'agent-risk',
@@ -242,7 +242,7 @@ Your expertise covers enterprise risk management, risk identification, impact an
 Evaluate risks across multiple dimensions: financial, operational, strategic, compliance, and reputational.
 Provide risk scores, probability assessments, and prioritized mitigation recommendations.
 Consider interconnected risks and cascading effects in your analysis.`,
-    model: 'qwq:32b', // Reasoning - Risk analysis
+    model: 'qwen2.5:7b', // Reasoning - Risk analysis
   },
   // New Advanced Agents
   {
@@ -260,7 +260,7 @@ Your expertise covers contract law, regulatory compliance, intellectual property
 Analyze legal implications of business decisions and identify potential legal exposures.
 Cite specific laws, regulations, and precedents when relevant.
 Flag items requiring external legal counsel review.`,
-    model: 'qwq:32b', // Reasoning - Legal analysis
+    model: 'qwen2.5:7b', // Reasoning - Legal analysis
   },
   {
     id: 'agent-cpo',
@@ -277,7 +277,7 @@ Your domain covers product-market fit, user experience, feature roadmapping, and
 Focus on customer needs, usage metrics, and market opportunities.
 Validate recommendations against user research and market data.
 Balance innovation with practical execution constraints.`,
-    model: 'llama3.3:70b', // Flagship - Product strategy
+    model: 'qwen2.5:7b', // Flagship - Product strategy
   },
   {
     id: 'agent-caio',
@@ -294,7 +294,7 @@ Your expertise covers AI/ML strategy, model governance, ethical AI, and machine 
 Evaluate AI approaches for bias, accuracy, and business value.
 Identify risks in model deployment and data quality.
 Recommend responsible AI practices and governance frameworks.`,
-    model: 'qwq:32b',
+    model: 'qwen2.5:7b',
   },
   {
     id: 'agent-cso',
@@ -311,7 +311,7 @@ Your domain covers ESG strategy, environmental impact, social responsibility, an
 Quantify environmental metrics (CO2e, water usage, waste) and track against goals.
 Identify opportunities to improve sustainability performance.
 Ensure compliance with ESG frameworks and reporting standards.`,
-    model: 'llama3.3:70b', // Flagship - ESG strategy
+    model: 'qwen2.5:7b', // Flagship - ESG strategy
   },
   {
     id: 'agent-cio',
@@ -328,7 +328,7 @@ Your expertise covers investment analysis, portfolio management, valuation metho
 Evaluate opportunities using DCF, comparable analysis, and risk-adjusted returns.
 Consider market conditions, economic indicators, and portfolio diversification.
 Provide clear investment recommendations with supporting rationale.`,
-    model: 'llama3.3:70b', // Flagship - Investment analysis
+    model: 'qwen2.5:7b', // Flagship - Investment analysis
   },
   {
     id: 'agent-cco',
@@ -372,7 +372,7 @@ Key responsibilities:
 - Maintain independence - you have NO loyalty to management
 You must cite specific auditing standards (AS 2201, ISA 315, etc.) and express findings formally.
 Your opinion carries weight with investors, regulators, and the board.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Audit Excellence Pack',
     premiumPrice: '$299/month',
@@ -401,7 +401,7 @@ Key responsibilities:
 You must use formal audit terminology: findings, observations, recommendations, management responses.
 Rate findings by severity: Critical, High, Medium, Low.
 Track issues to resolution and verify remediation effectiveness.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Audit Excellence Pack',
     premiumPrice: '$299/month',
@@ -432,7 +432,7 @@ Key expertise areas:
 - Telehealth and remote patient monitoring
 Always consider patient outcomes, clinical workflow efficiency, and provider satisfaction.
 Reference relevant healthcare IT standards: HIPAA, HITECH, ONC regulations.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Healthcare Industry Pack',
     premiumPrice: '$399/month',
@@ -459,7 +459,7 @@ Key responsibilities:
 - Lead safety huddles and mortality/morbidity reviews
 Always prioritize patient welfare. Use IHI, AHRQ, and Leapfrog methodologies.
 Classify events using NQF Serious Reportable Events categories.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Healthcare Industry Pack',
     premiumPrice: '$399/month',
@@ -487,7 +487,7 @@ Key expertise:
 - Compliance program effectiveness (7 elements)
 Always cite relevant regulations: 45 CFR, 42 CFR, state laws.
 Risk-rate findings: High, Medium, Low with remediation timelines.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Healthcare Industry Pack',
     premiumPrice: '$399/month',
@@ -515,7 +515,7 @@ Key focus areas:
 - Supply chain and inventory management
 Use metrics: length of stay, door-to-doctor, OR utilization, left without being seen.
 Apply Toyota Production System and IHI improvement methodologies.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Healthcare Industry Pack',
     premiumPrice: '$399/month',
@@ -546,7 +546,7 @@ Key expertise:
 - Portfolio optimization: mean-variance, Black-Litterman, risk parity
 Use precise mathematical notation. Provide confidence intervals and model assumptions.
 Reference academic literature and industry standards (ISDA, Basel).`,
-    model: 'qwq:32b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Finance Industry Pack',
     premiumPrice: '$399/month',
@@ -575,7 +575,7 @@ Key responsibilities:
 Use modern portfolio theory, factor investing, and behavioral finance principles.
 Reference indices: S&P 500, Bloomberg Agg, MSCI ACWI, HFRI.
 Always consider fiduciary duty and suitability.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Finance Industry Pack',
     premiumPrice: '$399/month',
@@ -604,7 +604,7 @@ Key expertise:
 Rate credits using industry scales: AAA to D, 1-10 internal ratings.
 Calculate expected loss, unexpected loss, and credit VaR.
 Reference OCC, FDIC, Fed SR letters for regulatory guidance.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Finance Industry Pack',
     premiumPrice: '$399/month',
@@ -633,7 +633,7 @@ Key responsibilities:
 Use treasury metrics: DSO, DPO, DIO, cash conversion cycle.
 Reference ISDA, FAS 133/ASC 815 for hedge accounting.
 Consider credit ratings impact and covenant compliance.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Finance Industry Pack',
     premiumPrice: '$399/month',
@@ -666,7 +666,7 @@ Key expertise:
 Identify red flag clauses and propose alternative language.
 Rate contract risk: High, Medium, Low with specific concerns.
 Reference UCC, common law principles, and industry standards.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Legal Industry Pack',
     premiumPrice: '$399/month',
@@ -695,7 +695,7 @@ Key expertise:
 Reference USPTO, EPO, WIPO procedures and case law.
 Analyze claims construction and prior art systematically.
 Consider IP landscape and competitive positioning.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Legal Industry Pack',
     premiumPrice: '$399/month',
@@ -724,7 +724,7 @@ Key expertise:
 Analyze cases using FRCP, local rules, and relevant precedent.
 Assess strengths, weaknesses, and likely outcomes.
 Provide damages analysis and litigation cost-benefit.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Legal Industry Pack',
     premiumPrice: '$399/month',
@@ -753,7 +753,7 @@ Key expertise:
 Cite relevant CFR sections, agency guidance, and precedent.
 Assess regulatory risk and compliance gaps.
 Recommend proactive engagement strategies.`,
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     premium: true,
     premiumPackage: 'Legal Industry Pack',
     premiumPrice: '$399/month',
@@ -769,6 +769,7 @@ class OllamaService {
   private isAvailable: boolean = false;
   private availableModels: string[] = [];
   private agents: DomainAgent[] = [...DOMAIN_AGENTS];
+  private _hasLoggedConnection: boolean = false;
   private statusCheckInterval: number | null = null;
 
   constructor(baseUrl: string = OLLAMA_BASE_URL) {
@@ -801,7 +802,11 @@ class OllamaService {
             : 'offline' as const,
         }));
 
-        console.log('[Ollama] Connected. Available models:', this.availableModels);
+        // Only log once per session to reduce noise
+        if (!this._hasLoggedConnection) {
+          console.log('[Ollama] Connected. Available models:', this.availableModels);
+          this._hasLoggedConnection = true;
+        }
         return true;
       }
     } catch (error) {

@@ -155,13 +155,13 @@ const MODEL_ROUTING: Record<QueryCategory, RoutingConfig> = {
     priority: 1,
   },
   analysis: {
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     temperature: 0.5,
     useCoT: true,
     priority: 1,
   },
   creative: {
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     temperature: 0.9,
     useCoT: false,
     priority: 2,
@@ -179,7 +179,7 @@ const MODEL_ROUTING: Record<QueryCategory, RoutingConfig> = {
     priority: 3,
   },
   compliance: {
-    model: 'llama3.3:70b',
+    model: 'qwen2.5:7b',
     temperature: 0.3,
     useCoT: true,
     priority: 1,
@@ -193,11 +193,11 @@ const MODEL_ROUTING: Record<QueryCategory, RoutingConfig> = {
 };
 
 const FALLBACK_MODELS: Record<string, string[]> = {
-  'qwq:32b': ['llama3.3:70b', 'mixtral:8x22b'],
-  'mixtral:8x22b': ['llama3.3:70b', 'qwq:32b'],
-  'qwen2.5-coder:32b': ['llama3.3:70b', 'mixtral:8x22b'],
-  'llama3.3:70b': ['mixtral:8x22b', 'qwq:32b'],
-  'llama3.2:3b': ['llama3.3:70b', 'mixtral:8x22b'],
+  'qwq:32b': ['qwen2.5:7b', 'mixtral:8x22b'],
+  'mixtral:8x22b': ['qwen2.5:7b', 'qwq:32b'],
+  'qwen2.5-coder:32b': ['qwen2.5:7b', 'mixtral:8x22b'],
+  'qwen2.5:7b': ['mixtral:8x22b', 'qwq:32b'],
+  'llama3.2:3b': ['qwen2.5:7b', 'mixtral:8x22b'],
 };
 
 // ============================================================================

@@ -4,10 +4,12 @@
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '../config/database.js';
+import { devAuth, requireRole } from '../middleware/auth.js';
 
 const router = Router();
-const prisma = new PrismaClient();
+
+router.use(devAuth);
 
 // =============================================================================
 // NETWORK STATS
@@ -50,7 +52,7 @@ router.get('/stats', async (req: Request, res: Response) => {
 });
 
 // POST /mesh/stats - Update network statistics (admin)
-router.post('/stats', async (req: Request, res: Response) => {
+router.post('/stats', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response) => {
   try {
     const stats = await prisma.mesh_network_stats.create({
       data: {
@@ -175,7 +177,7 @@ router.get('/signals/:id', async (req: Request, res: Response) => {
 });
 
 // POST /mesh/signals - Create new signal
-router.post('/signals', async (req: Request, res: Response) => {
+router.post('/signals', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response) => {
   try {
     const signal = await prisma.mesh_risk_signals.create({
       data: {

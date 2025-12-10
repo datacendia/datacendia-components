@@ -108,7 +108,7 @@ router.get('/status', async (req: Request, res: Response) => {
 
     // Check which required models are missing
     const requiredModels = [
-      { id: 'llama3.3:70b', role: 'Flagship (Chief, CFO, CMO)' },
+      { id: 'qwen2.5:7b', role: 'Flagship (Chief, CFO, CMO)' },
       { id: 'qwq:32b', role: 'Reasoning (CISO, Risk)' },
       { id: 'qwen2.5-coder:32b', role: 'Coder (CTO, CDO, Flow)' },
       { id: 'llama3.2:3b', role: 'Fast (COO)' },

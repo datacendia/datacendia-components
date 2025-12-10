@@ -4,17 +4,24 @@
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
+import { prisma } from '../config/database.js';
+import { devAuth } from '../middleware/auth.js';
+import { assertCapability } from '../utils/permissions.js';
 
 const router = Router();
-const prisma = new PrismaClient();
+
+router.use(devAuth);
 
 // GET /persona/twins - List digital twins
 router.get('/twins', async (req: Request, res: Response) => {
   try {
-    const orgId = req.query.organization_id as string;
+    const orgId = (req.organizationId as string) || (req.query.organization_id as string);
+    const where: any = {};
+    if (orgId) {
+      where.organization_id = orgId;
+    }
     const twins = await prisma.persona_twins.findMany({
-      where: orgId ? { organization_id: orgId } : {},
+      where,
       include: { conversations: { take: 5, orderBy: { created_at: 'desc' } } }
     });
     res.json({ success: true, data: twins });
@@ -39,12 +46,13 @@ router.get('/twins/:id', async (req: Request, res: Response) => {
   }
 });
 
-// POST /persona/twins - Create twin
+// POST /persona/twins - Create twin (admins only by default)
 router.post('/twins', async (req: Request, res: Response) => {
   try {
+    await assertCapability(req, 'persona.createTwin');
     const twin = await prisma.persona_twins.create({
       data: {
-        organization_id: req.body.organization_id,
+        organization_id: (req.organizationId as string) || req.body.organization_id,
         name: req.body.name,
         role: req.body.role,
         department: req.body.department,
@@ -65,7 +73,7 @@ router.post('/twins/:id/conversation', async (req: Request, res: Response) => {
     const conversation = await prisma.persona_conversations.create({
       data: {
         twin_id: req.params.id,
-        user_id: req.body.user_id,
+        user_id: (req.user?.id as string) || req.body.user_id,
         messages: req.body.messages || [],
         satisfaction: req.body.satisfaction,
         duration_ms: req.body.duration_ms

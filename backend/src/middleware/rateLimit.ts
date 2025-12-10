@@ -6,6 +6,7 @@
  */
 
 import { Request, Response, NextFunction } from 'express';
+import Redis from 'ioredis';
 
 interface RateLimitConfig {
   windowMs: number;           // Time window in milliseconds
@@ -181,42 +182,154 @@ router.get('/search', rateLimit({
 */
 
 // =============================================================================
-// REDIS ADAPTER (For Production)
+// REDIS-BACKED RATE LIMITING (Enterprise Production)
 // =============================================================================
 
-/*
-// To use Redis instead of in-memory:
+// Redis client singleton - connects if REDIS_URL is set
+let redisClient: Redis | null = null;
+let redisAvailable = false;
 
-import Redis from 'ioredis';
-
-const redis = new Redis(process.env.REDIS_URL);
-
-async function redisRateLimit(config: RateLimitConfig) {
-  return async (req: Request, res: Response, next: NextFunction) => {
-    const key = `ratelimit:${config.keyGenerator?.(req) || defaultKeyGenerator(req)}`;
+// Initialize Redis connection for production
+if (process.env.REDIS_URL && process.env.NODE_ENV === 'production') {
+  try {
+    redisClient = new Redis(process.env.REDIS_URL, {
+      maxRetriesPerRequest: 3,
+      enableReadyCheck: true,
+      lazyConnect: true,
+    });
     
-    const current = await redis.incr(key);
-    if (current === 1) {
-      await redis.pexpire(key, config.windowMs);
+    redisClient.on('connect', () => {
+      redisAvailable = true;
+      console.log('[RateLimit] Redis connected - using distributed rate limiting');
+    });
+    
+    redisClient.on('error', (err) => {
+      redisAvailable = false;
+      console.warn('[RateLimit] Redis error, falling back to in-memory:', err.message);
+    });
+    
+    redisClient.connect().catch(() => {
+      redisAvailable = false;
+    });
+  } catch (err) {
+    console.warn('[RateLimit] Redis not available, using in-memory store');
+  }
+}
+
+/**
+ * Enterprise rate limit with Redis backend (production) or in-memory fallback
+ * Automatically uses Redis when available for distributed rate limiting
+ */
+export function enterpriseRateLimit(config: RateLimitConfig) {
+  const {
+    windowMs,
+    maxRequests,
+    keyGenerator = defaultKeyGenerator,
+    skipFailedRequests = false,
+    message = 'Too many requests, please try again later.',
+  } = config;
+
+  return async (req: Request, res: Response, next: NextFunction) => {
+    const baseKey = keyGenerator(req);
+    
+    // Use Redis if available (production), otherwise fall back to in-memory
+    if (redisClient && redisAvailable) {
+      try {
+        const key = `ratelimit:${baseKey}`;
+        
+        const current = await redisClient.incr(key);
+        if (current === 1) {
+          await redisClient.pexpire(key, windowMs);
+        }
+        
+        const ttl = await redisClient.pttl(key);
+        
+        res.setHeader('X-RateLimit-Limit', maxRequests);
+        res.setHeader('X-RateLimit-Remaining', Math.max(0, maxRequests - current));
+        res.setHeader('X-RateLimit-Reset', Math.ceil((Date.now() + ttl) / 1000));
+        res.setHeader('X-RateLimit-Store', 'redis');
+        
+        if (current > maxRequests) {
+          return res.status(429).json({
+            error: 'rate_limit_exceeded',
+            message,
+            retryAfter: Math.ceil(ttl / 1000),
+          });
+        }
+        
+        return next();
+      } catch (err) {
+        // Redis failed, fall through to in-memory
+        console.warn('[RateLimit] Redis call failed, using fallback');
+      }
     }
     
-    const ttl = await redis.pttl(key);
+    // In-memory fallback
+    const now = Date.now();
+    let entry = store.get(baseKey);
     
-    res.setHeader('X-RateLimit-Limit', config.maxRequests);
-    res.setHeader('X-RateLimit-Remaining', Math.max(0, config.maxRequests - current));
-    res.setHeader('X-RateLimit-Reset', Math.ceil((Date.now() + ttl) / 1000));
+    if (!entry || entry.resetAt < now) {
+      entry = { count: 1, resetAt: now + windowMs };
+      store.set(baseKey, entry);
+    } else {
+      entry.count++;
+    }
     
-    if (current > config.maxRequests) {
+    res.setHeader('X-RateLimit-Limit', maxRequests);
+    res.setHeader('X-RateLimit-Remaining', Math.max(0, maxRequests - entry.count));
+    res.setHeader('X-RateLimit-Reset', Math.ceil(entry.resetAt / 1000));
+    res.setHeader('X-RateLimit-Store', 'memory');
+    
+    if (entry.count > maxRequests) {
       return res.status(429).json({
         error: 'rate_limit_exceeded',
-        message: config.message,
-        retryAfter: Math.ceil(ttl / 1000),
+        message,
+        retryAfter: Math.ceil((entry.resetAt - now) / 1000),
+      });
+    }
+    
+    if (skipFailedRequests) {
+      res.on('finish', () => {
+        if (res.statusCode >= 400 && entry) {
+          entry.count--;
+        }
       });
     }
     
     next();
   };
 }
-*/
+
+// =============================================================================
+// ENTERPRISE PRESET CONFIGURATIONS (Redis-backed)
+// =============================================================================
+
+/**
+ * Standard API rate limit: 100 requests per minute (Enterprise)
+ */
+export const enterpriseStandardRateLimit = enterpriseRateLimit({
+  windowMs: 60 * 1000,
+  maxRequests: 100,
+  message: 'API rate limit exceeded. Please wait before making more requests.',
+});
+
+/**
+ * Heavy operations rate limit: 10 requests per minute (Enterprise)
+ */
+export const enterpriseHeavyRateLimit = enterpriseRateLimit({
+  windowMs: 60 * 1000,
+  maxRequests: 10,
+  message: 'Heavy operation rate limit exceeded. Please wait before submitting more requests.',
+});
+
+/**
+ * Auth rate limit: 5 attempts per 15 minutes (Enterprise)
+ */
+export const enterpriseAuthRateLimit = enterpriseRateLimit({
+  windowMs: 15 * 60 * 1000,
+  maxRequests: 5,
+  skipFailedRequests: false,
+  message: 'Too many authentication attempts. Please try again later.',
+});
 
 export default rateLimit;

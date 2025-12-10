@@ -544,6 +544,22 @@ export const PulsePage: React.FC = () => {
             Detailed Metrics →
           </button>
           <button
+            onClick={() => {
+              // Generate a health report
+              const report = {
+                timestamp: new Date().toISOString(),
+                healthScore,
+                dimensions: dimensions.map(d => ({ name: d.name, score: d.score, trend: d.trend })),
+                systems: systems.map(s => ({ name: s.name, status: s.status })),
+              };
+              const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url;
+              a.download = `health-report-${new Date().toISOString().split('T')[0]}.json`;
+              a.click();
+              URL.revokeObjectURL(url);
+            }}
             className="px-4 py-2 bg-primary-600 rounded-lg text-sm text-white font-medium hover:bg-primary-700 transition-colors"
           >
             Generate Report

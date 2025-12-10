@@ -669,7 +669,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
           try {
             await prisma.$executeRaw`
               INSERT INTO model_performance (model, agent_id, query_type, response_time_ms, used_rag, used_cot, used_ensemble, created_at)
-              VALUES (${AGENT_MODELS[agentCode] || 'llama3.3:70b'}, ${agentCode}, ${classification.type}, ${agentDuration}, ${useRAG}, ${useChainOfThought}, ${useEnsemble}, NOW())
+              VALUES (${AGENT_MODELS[agentCode] || 'qwen2.5:7b'}, ${agentCode}, ${classification.type}, ${agentDuration}, ${useRAG}, ${useChainOfThought}, ${useEnsemble}, NOW())
             `;
           } catch (perfError) {
             // Don't fail if performance tracking fails
@@ -696,7 +696,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
             sources: (graphContext.sources || []) as Prisma.InputJsonValue,
             confidence: 0.85,
             duration: agentDuration,
-            modelUsed: AGENT_MODELS[agentCode] || 'llama3.3:70b',
+            modelUsed: AGENT_MODELS[agentCode] || 'qwen2.5:7b',
           };
         } catch (error) {
           logger.error(`Enhanced agent ${agentCode} query failed:`, error);
@@ -719,7 +719,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
         const ensembleResult = await enhancedLLM.generateEnsemble(
           summaryPrompt,
           AGENT_PROMPTS.chief + languageInstruction,
-          ['llama3.3:70b', 'qwq:32b', 'mixtral:8x22b'],
+          ['qwen2.5:7b', 'qwq:32b', 'mixtral:8x22b'],
           'blend'
         );
         summary = ensembleResult.finalResponse;
@@ -823,6 +823,79 @@ router.post('/deliberations', async (req: Request, res: Response, next: NextFunc
         phase: 'initial_analysis',
         websocketChannel: `deliberation:${deliberation.id}`,
       },
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/council/deliberations
+ * Get all deliberations (for Chronos timeline)
+ */
+router.get('/deliberations', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const orgId = req.organizationId;
+    const limit = parseInt(req.query.limit as string) || 100;
+    const status = req.query.status as string; // Optional filter
+
+    const where: any = { organization_id: orgId };
+    if (status) {
+      where.status = status.toUpperCase();
+    }
+
+    const deliberations = await prisma.deliberations.findMany({
+      where,
+      include: {
+        deliberation_messages: {
+          include: { agents: true },
+          orderBy: { created_at: 'asc' },
+        },
+      },
+      orderBy: { created_at: 'desc' },
+      take: limit,
+    });
+
+    res.json({
+      success: true,
+      data: deliberations.map(d => ({
+        id: d.id,
+        question: d.question,
+        status: d.status,
+        decision: d.decision,
+        confidence: d.confidence,
+        current_phase: d.current_phase,
+        progress: d.progress,
+        created_at: d.created_at,
+        completed_at: d.completed_at,
+        agents: [...new Set(d.deliberation_messages.map(m => m.agents?.name).filter(Boolean))],
+        message_count: d.deliberation_messages.length,
+      })),
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/council/deliberations/active
+ * Get currently active (in-progress) deliberations
+ */
+router.get('/deliberations/active', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const orgId = req.organizationId;
+
+    const deliberations = await prisma.deliberations.findMany({
+      where: { 
+        organization_id: orgId,
+        status: { in: ['IN_PROGRESS', 'PENDING'] },
+      },
+      orderBy: { created_at: 'desc' },
+    });
+
+    res.json({
+      success: true,
+      data: deliberations,
     });
   } catch (error) {
     next(error);

@@ -88,8 +88,10 @@ test.describe('Navigation Links Work', () => {
   test('header navigation links work on landing page', async ({ page }) => {
     await page.goto('/');
     
-    // Check that nav links exist
-    const navLinks = page.locator('nav a');
+    // Check that header navigation has at least one link
+    const nav = page.locator('nav, [role="navigation"]').first();
+    await expect(nav).toBeVisible();
+    const navLinks = nav.locator('a, [role="link"]');
     expect(await navLinks.count()).toBeGreaterThan(0);
   });
 

@@ -276,6 +276,13 @@ export const councilApi = {
     return api.get<Types.Deliberation[]>('/council/deliberations/active');
   },
 
+  async getAllDeliberations(limit?: number, status?: string) {
+    const params: any = {};
+    if (limit) params.limit = limit;
+    if (status) params.status = status;
+    return api.get<Types.Deliberation[]>('/council/deliberations', params);
+  },
+
   async getRecentDecisions(limit?: number) {
     return api.get<Types.CouncilDecisionSummary[]>('/council/decisions/recent', limit ? { limit } : undefined);
   },

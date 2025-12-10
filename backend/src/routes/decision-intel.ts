@@ -5,11 +5,13 @@
 // =============================================================================
 
 import { Router, Request, Response } from 'express';
-import { PrismaClient } from '@prisma/client';
 import { chronosAIService } from '../services/ChronosAIService.js';
+import { prisma } from '../config/database.js';
+import { devAuth } from '../middleware/auth.js';
 
 const router = Router();
-const prisma = new PrismaClient();
+
+router.use(devAuth);
 
 // =============================================================================
 // CHRONOS - Time Machine Snapshots
@@ -17,9 +19,10 @@ const prisma = new PrismaClient();
 
 router.get('/chronos/snapshots', async (req: Request, res: Response) => {
   try {
-    const { organization_id, snapshot_type } = req.query;
+    const { snapshot_type } = req.query;
+    const orgId = req.organizationId;
     const where: any = {};
-    if (organization_id) where.organization_id = organization_id;
+    if (orgId) where.organization_id = orgId;
     if (snapshot_type) where.snapshot_type = snapshot_type;
 
     const snapshots = await prisma.chronos_snapshots.findMany({
@@ -36,14 +39,17 @@ router.get('/chronos/snapshots', async (req: Request, res: Response) => {
 
 router.post('/chronos/snapshots', async (req: Request, res: Response) => {
   try {
+    const orgId = req.organizationId;
+    const userId = req.user?.id;
+
     const snapshot = await prisma.chronos_snapshots.create({
       data: {
-        organization_id: req.body.organization_id,
+        organization_id: orgId || req.body.organization_id,
         snapshot_type: req.body.snapshot_type,
         name: req.body.name,
         data: req.body.data || {},
         metrics: req.body.metrics || {},
-        created_by: req.body.created_by
+        created_by: userId || req.body.created_by
       }
     });
     res.json({ success: true, data: snapshot });
@@ -75,8 +81,10 @@ router.post('/chronos/ai/pivotal-moments', async (req: Request, res: Response) =
       ? normalizedEvents.filter(e => e.department === department)
       : normalizedEvents;
 
+    const orgId = req.organizationId || organization_id || 'default';
+
     const pivotalMoments = await chronosAIService.detectPivotalMoments(
-      organization_id || 'default',
+      orgId,
       scopedEvents,
       limit || 5
     );
@@ -97,8 +105,10 @@ router.post('/chronos/ai/causal-chain', async (req: Request, res: Response) => {
       return res.status(400).json({ success: false, error: 'Root event required' });
     }
 
+    const orgId = req.organizationId || organization_id || 'default';
+
     const causalLinks = await chronosAIService.analyzeCausalChain(
-      organization_id || 'default',
+      orgId,
       { ...root_event, timestamp: new Date(root_event.timestamp) },
       (all_events || []).map((e: any) => ({
         ...e,
@@ -118,8 +128,10 @@ router.post('/chronos/ai/future-scenarios', async (req: Request, res: Response) 
   try {
     const { organization_id, current_metrics, recent_events, time_horizon } = req.body;
 
+    const orgId = req.organizationId || organization_id || 'default';
+
     const scenarios = await chronosAIService.generateFutureScenarios(
-      organization_id || 'default',
+      orgId,
       current_metrics || {},
       (recent_events || []).map((e: any) => ({
         ...e,
@@ -144,8 +156,10 @@ router.post('/chronos/ai/timeline-insight', async (req: Request, res: Response) 
       return res.status(400).json({ success: false, error: 'Start and end dates required' });
     }
 
+    const orgId = req.organizationId || organization_id || 'default';
+
     const insight = await chronosAIService.getTimelineInsight(
-      organization_id || 'default',
+      orgId,
       new Date(start_date),
       new Date(end_date),
       (events || []).map((e: any) => ({
@@ -171,8 +185,10 @@ router.post('/chronos/ai/what-if', async (req: Request, res: Response) => {
       return res.status(400).json({ success: false, error: 'Event and alternative action required' });
     }
 
+    const orgId = req.organizationId || organization_id || 'default';
+
     const analysis = await chronosAIService.analyzeWhatIf(
-      organization_id || 'default',
+      orgId,
       { ...event, timestamp: new Date(event.timestamp) },
       alternative_action
     );
@@ -190,9 +206,10 @@ router.post('/chronos/ai/what-if', async (req: Request, res: Response) => {
 
 router.get('/ghost-board/sessions', async (req: Request, res: Response) => {
   try {
-    const { organization_id, status } = req.query;
+    const { status } = req.query;
+    const orgId = req.organizationId;
     const where: any = {};
-    if (organization_id) where.organization_id = organization_id;
+    if (orgId) where.organization_id = orgId;
     if (status) where.status = status;
 
     const sessions = await prisma.ghost_board_sessions.findMany({
@@ -208,13 +225,16 @@ router.get('/ghost-board/sessions', async (req: Request, res: Response) => {
 
 router.post('/ghost-board/sessions', async (req: Request, res: Response) => {
   try {
+    const orgId = req.organizationId;
+    const userId = req.user?.id;
+
     const session = await prisma.ghost_board_sessions.create({
       data: {
-        organization_id: req.body.organization_id,
+        organization_id: orgId || req.body.organization_id,
         title: req.body.title,
         scenario: req.body.scenario,
         board_composition: req.body.board_composition || [],
-        created_by: req.body.created_by
+        created_by: userId || req.body.created_by
       }
     });
     res.json({ success: true, data: session });
@@ -230,9 +250,10 @@ router.post('/ghost-board/sessions', async (req: Request, res: Response) => {
 
 router.get('/pre-mortem/analyses', async (req: Request, res: Response) => {
   try {
-    const { organization_id, decision_id, status } = req.query;
+    const { decision_id, status } = req.query;
+    const orgId = req.organizationId;
     const where: any = {};
-    if (organization_id) where.organization_id = organization_id;
+    if (orgId) where.organization_id = orgId;
     if (decision_id) where.decision_id = decision_id;
     if (status) where.status = status;
 
@@ -249,16 +270,19 @@ router.get('/pre-mortem/analyses', async (req: Request, res: Response) => {
 
 router.post('/pre-mortem/analyses', async (req: Request, res: Response) => {
   try {
+    const orgId = req.organizationId;
+    const userId = req.user?.id;
+
     const analysis = await prisma.pre_mortem_analyses.create({
       data: {
-        organization_id: req.body.organization_id,
+        organization_id: orgId || req.body.organization_id,
         decision_id: req.body.decision_id,
         title: req.body.title,
         failure_modes: req.body.failure_modes || [],
         risk_factors: req.body.risk_factors || [],
         mitigations: req.body.mitigations || [],
         overall_risk: req.body.overall_risk,
-        created_by: req.body.created_by
+        created_by: userId || req.body.created_by
       }
     });
     res.json({ success: true, data: analysis });
@@ -274,9 +298,10 @@ router.post('/pre-mortem/analyses', async (req: Request, res: Response) => {
 
 router.get('/regulatory/items', async (req: Request, res: Response) => {
   try {
-    const { organization_id, jurisdiction, status } = req.query;
+    const { jurisdiction, status } = req.query;
+    const orgId = req.organizationId;
     const where: any = {};
-    if (organization_id) where.organization_id = organization_id;
+    if (orgId) where.organization_id = orgId;
     if (jurisdiction) where.jurisdiction = jurisdiction;
     if (status) where.compliance_status = status;
 
@@ -293,9 +318,11 @@ router.get('/regulatory/items', async (req: Request, res: Response) => {
 
 router.post('/regulatory/items', async (req: Request, res: Response) => {
   try {
+    const orgId = req.organizationId;
+
     const item = await prisma.regulatory_items.create({
       data: {
-        organization_id: req.body.organization_id,
+        organization_id: orgId || req.body.organization_id,
         regulation_id: req.body.regulation_id,
         title: req.body.title,
         description: req.body.description,

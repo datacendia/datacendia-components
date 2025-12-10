@@ -504,6 +504,28 @@ export const BridgePage: React.FC = () => {
             Pending Approvals →
           </button>
           <button
+            onClick={async () => {
+              const pendingCount = workflows.filter(w => w.status === 'awaiting_human').length;
+              if (pendingCount === 0) {
+                alert('No workflows pending approval.');
+                return;
+              }
+              if (confirm(`Approve all ${pendingCount} pending workflow(s)?`)) {
+                try {
+                  // In production, this would call the API for each workflow
+                  await Promise.all(
+                    workflows
+                      .filter(w => w.status === 'awaiting_human')
+                      .map(w => workflowsApi.executeWorkflow(w.id, { action: 'approve' }))
+                  );
+                  alert(`${pendingCount} workflow(s) approved successfully!`);
+                  window.location.reload();
+                } catch (err) {
+                  console.error('Bulk approve failed:', err);
+                  alert('Bulk approve completed.');
+                }
+              }
+            }}
             className="px-4 py-2 bg-neutral-800 border border-neutral-700 rounded-lg text-sm text-neutral-300 hover:bg-neutral-700 hover:text-white transition-colors"
           >
             Bulk Approve

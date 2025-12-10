@@ -83,6 +83,8 @@ import contactRoutes from './routes/contact.js';
 import echoRoutes from './routes/echo.js';
 import redteamRoutes from './routes/redteam.js';
 import gnosisRoutes from './routes/gnosis.js';
+import apotheosisRoutes from './routes/apotheosis.js';
+import dissentRoutes from './routes/dissent.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -136,7 +138,7 @@ app.use(cors({
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Request-ID', 'X-Data-Source-Id', 'x-data-source-id'],
 }));
 
 // Rate limiting (higher limit for dev/test)
@@ -237,6 +239,8 @@ app.use('/api/v1/contact', contactRoutes);
 app.use('/api/v1/echo', echoRoutes);
 app.use('/api/v1/redteam', redteamRoutes);
 app.use('/api/v1/gnosis', gnosisRoutes);
+app.use('/api/v1/apotheosis', apotheosisRoutes);
+app.use('/api/v1/dissent', dissentRoutes);
 
 // 404 handler
 app.use((req, res) => {

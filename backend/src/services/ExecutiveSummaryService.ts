@@ -54,7 +54,7 @@ export interface ExecutiveSummary {
   participants: string[];
   risks: Risk[];
   recommendations: string[];
-  nextSteps: string[];
+  nextSteps: NextStep[];
   language: string;
   generatedBy: string;
   createdAt: Date;
@@ -72,9 +72,15 @@ export interface ActionItem {
 export interface Risk {
   id: string;
   description: string;
+  rationale: string; // WHY this is a risk
   probability: number; // 1-10
   impact: number; // 1-10
   mitigation?: string;
+}
+
+export interface NextStep {
+  step: string;
+  reason: string; // WHY this step is necessary
 }
 
 // =============================================================================
@@ -82,7 +88,7 @@ export interface Risk {
 // =============================================================================
 
 class ExecutiveSummaryService {
-  private modelId = 'llama3.3:70b'; // Use flagship model for quality
+  private modelId = 'qwen2.5:7b'; // Use flagship model for quality
 
   /**
    * Generate executive summary from deliberation
@@ -222,6 +228,7 @@ Generate a comprehensive executive summary in JSON format:
     {
       "id": "r-1",
       "description": "[Risk description]",
+      "rationale": "[WHY this is a risk - explain the underlying cause and potential consequences]",
       "probability": 7,
       "impact": 8,
       "mitigation": "[Mitigation strategy]"
@@ -232,8 +239,14 @@ Generate a comprehensive executive summary in JSON format:
     "[Strategic recommendation 2]"
   ],
   "nextSteps": [
-    "[Immediate next step]",
-    "[Follow-up action]"
+    {
+      "step": "[Immediate next step]",
+      "reason": "[WHY this step is necessary - explain the purpose and expected outcome]"
+    },
+    {
+      "step": "[Follow-up action]",
+      "reason": "[WHY this step is necessary]"
+    }
   ]
 }
 
@@ -467,7 +480,7 @@ Return ONLY valid JSON, no markdown or explanations.`;
         participants: (s.participants || []) as unknown as string[],
         risks: (s.risks || []) as unknown as Risk[],
         recommendations: (s.recommendations || []) as unknown as string[],
-        nextSteps: (s.nextSteps || []) as unknown as string[],
+        nextSteps: (s.nextSteps || []) as unknown as NextStep[],
         language: s.language,
         generatedBy: s.generatedBy,
         createdAt: s.createdAt,
@@ -507,12 +520,13 @@ Return ONLY valid JSON, no markdown or explanations.`;
 
     if (summary.risks.length > 0) {
       md += `## Identified Risks\n\n`;
-      md += `| Risk | Probability | Impact | Mitigation |\n`;
-      md += `|------|-------------|--------|------------|\n`;
-      summary.risks.forEach(r => {
-        md += `| ${r.description} | ${r.probability}/10 | ${r.impact}/10 | ${r.mitigation || 'TBD'} |\n`;
+      summary.risks.forEach((r, i) => {
+        md += `### ${i + 1}. ${r.description}\n\n`;
+        md += `**Why this is a risk:** ${r.rationale || 'Not specified'}\n\n`;
+        md += `- **Probability:** ${r.probability}/10\n`;
+        md += `- **Impact:** ${r.impact}/10\n`;
+        md += `- **Mitigation:** ${r.mitigation || 'TBD'}\n\n`;
       });
-      md += '\n';
     }
 
     if (summary.recommendations.length > 0) {
@@ -526,9 +540,13 @@ Return ONLY valid JSON, no markdown or explanations.`;
     if (summary.nextSteps.length > 0) {
       md += `## Next Steps\n\n`;
       summary.nextSteps.forEach((s, i) => {
-        md += `${i + 1}. ${s}\n`;
+        const step = typeof s === 'string' ? s : s.step;
+        const reason = typeof s === 'string' ? null : s.reason;
+        md += `### ${i + 1}. ${step}\n\n`;
+        if (reason) {
+          md += `**Why:** ${reason}\n\n`;
+        }
       });
-      md += '\n';
     }
 
     if (summary.participants.length > 0) {

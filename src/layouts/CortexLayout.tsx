@@ -217,19 +217,19 @@ const CortexLayoutInner: React.FC = () => {
       {/* Command Palette - Global search and actions (Cmd+K) */}
       <CommandPalette />
       
-      <div className="h-screen flex bg-neutral-50">
+      <div className="h-screen flex bg-sovereign-base">
       {/* ================================================================= */}
       {/* SIDEBAR */}
       {/* ================================================================= */}
       <aside
         className={cn(
-          'hidden lg:flex flex-col bg-white border-r border-neutral-200',
+          'hidden lg:flex flex-col bg-sovereign-elevated border-r border-sovereign-border-subtle',
           'transition-all duration-300 ease-in-out',
           isCollapsed ? 'w-16' : 'w-64'
         )}
       >
         {/* Logo */}
-        <div className="h-16 flex items-center justify-between px-4 border-b border-neutral-200">
+        <div className="h-16 flex items-center justify-between px-4 border-b border-sovereign-border-subtle">
           {!isCollapsed && (
             <Logo size="sm" />
           )}
@@ -242,7 +242,7 @@ const CortexLayoutInner: React.FC = () => {
             onClick={() => setIsCollapsed(!isCollapsed)}
             aria-label={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'}
             className={cn(
-              'p-1.5 rounded-md text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100',
+              'p-1.5 rounded-md text-gray-500 hover:text-white hover:bg-sovereign-hover',
               isCollapsed && 'hidden'
             )}
           >
@@ -268,8 +268,8 @@ const CortexLayoutInner: React.FC = () => {
                     'w-full flex items-center gap-3 px-3 py-2.5 rounded-lg',
                     'transition-colors text-sm font-medium',
                     active
-                      ? 'bg-primary-50 text-primary-700'
-                      : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
+                      ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
+                      : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
                   )}
                   title={isCollapsed ? t(item.labelKey) : undefined}
                 >
@@ -282,8 +282,8 @@ const CortexLayoutInner: React.FC = () => {
 
           {/* 8 Pillars Section */}
           {!isCollapsed && (
-            <div className="pt-4 mt-4 border-t border-neutral-200">
-              <p className="px-3 text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2">
+            <div className="pt-4 mt-4 border-t border-sovereign-border-subtle">
+              <p className="px-3 text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">
                 {t('sidebar.pillars')}
               </p>
             </div>
@@ -302,8 +302,8 @@ const CortexLayoutInner: React.FC = () => {
                     'w-full flex items-center gap-3 px-3 py-2 rounded-lg',
                     'transition-colors text-sm',
                     active
-                      ? 'bg-primary-50 text-primary-700'
-                      : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
+                      ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
+                      : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
                   )}
                   title={isCollapsed ? t(item.labelKey) : undefined}
                 >
@@ -316,8 +316,8 @@ const CortexLayoutInner: React.FC = () => {
 
           {/* System Section */}
           {!isCollapsed && (
-            <div className="pt-4 mt-4 border-t border-neutral-200">
-              <p className="px-3 text-xs font-semibold text-neutral-400 uppercase tracking-wider mb-2">
+            <div className="pt-4 mt-4 border-t border-sovereign-border-subtle">
+              <p className="px-3 text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2">
                 {t('sidebar.system')}
               </p>
             </div>
@@ -333,8 +333,8 @@ const CortexLayoutInner: React.FC = () => {
                   'w-full flex items-center gap-3 px-3 py-2 rounded-lg',
                   'transition-colors text-sm',
                   active
-                    ? 'bg-primary-50 text-primary-700'
-                    : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
+                    ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
+                    : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
                 )}
                 title={isCollapsed ? t(item.labelKey) : undefined}
               >
@@ -346,7 +346,7 @@ const CortexLayoutInner: React.FC = () => {
         </nav>
 
         {/* Bottom Navigation */}
-        <div className="py-4 px-2 border-t border-neutral-200 space-y-1">
+        <div className="py-4 px-2 border-t border-sovereign-border-subtle space-y-1">
           {bottomNavigationItems.map((item) => {
             const Icon = item.icon;
             const active = isActive(item.path);
@@ -358,8 +358,8 @@ const CortexLayoutInner: React.FC = () => {
                   'w-full flex items-center gap-3 px-3 py-2.5 rounded-lg',
                   'transition-colors text-sm font-medium',
                   active
-                    ? 'bg-primary-50 text-primary-700'
-                    : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
+                    ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
+                    : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
                 )}
                 title={isCollapsed ? t(item.labelKey) : undefined}
               >
@@ -372,14 +372,14 @@ const CortexLayoutInner: React.FC = () => {
 
         {/* User Section */}
         {!isCollapsed && (
-          <div className="p-4 border-t border-neutral-200">
+          <div className="p-4 border-t border-sovereign-border-subtle">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 bg-primary-100 rounded-full flex items-center justify-center">
-                <span className="text-primary-700 font-medium text-sm">JS</span>
+              <div className="w-9 h-9 bg-crimson-900/30 rounded-full flex items-center justify-center">
+                <span className="text-crimson-400 font-medium text-sm">JS</span>
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-neutral-900 truncate">John Smith</p>
-                <p className="text-xs text-neutral-500 truncate">{t('label.admin')}</p>
+                <p className="text-sm font-medium text-white truncate">John Smith</p>
+                <p className="text-xs text-gray-500 truncate">{t('label.admin')}</p>
               </div>
             </div>
           </div>
@@ -391,12 +391,12 @@ const CortexLayoutInner: React.FC = () => {
       {/* ================================================================= */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Header */}
-        <header className="h-16 flex items-center justify-between px-4 lg:px-6 bg-white border-b border-neutral-200">
+        <header className="h-16 flex items-center justify-between px-4 lg:px-6 bg-sovereign-elevated border-b border-sovereign-border-subtle">
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMobileMenuOpen(true)}
             aria-label="Open navigation menu"
-            className="lg:hidden p-2 rounded-md text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100"
+            className="lg:hidden p-2 rounded-md text-gray-400 hover:text-white hover:bg-sovereign-hover"
           >
             <Icons.Menu />
           </button>
@@ -416,18 +416,18 @@ const CortexLayoutInner: React.FC = () => {
               }}
               className={cn(
                 'w-full h-10 pl-10 pr-4 rounded-lg flex items-center justify-between',
-                'bg-neutral-50 border border-neutral-200',
-                'text-sm text-neutral-400',
-                'hover:bg-neutral-100 hover:border-neutral-300 transition-colors',
-                'focus:outline-none focus:ring-2 focus:ring-primary-500'
+                'bg-sovereign-card border border-sovereign-border',
+                'text-sm text-gray-500',
+                'hover:bg-sovereign-hover hover:border-sovereign-border-strong transition-colors',
+                'focus:outline-none focus:ring-2 focus:ring-cyan-500'
               )}
             >
               <div className="flex items-center gap-2">
                 <Icons.Search />
                 <span>Search anything...</span>
               </div>
-              <kbd className="hidden sm:inline-flex px-2 py-1 text-xs font-mono bg-neutral-200 text-neutral-500 rounded">
-                ⌘K
+              <kbd className="hidden sm:inline-flex px-2 py-1 text-xs font-mono bg-sovereign-active text-gray-400 rounded">
+                Ctrl+K
               </kbd>
             </button>
           </div>
@@ -447,9 +447,8 @@ const CortexLayoutInner: React.FC = () => {
                 onClick={() => setIsPremiumDropdownOpen(!isPremiumDropdownOpen)}
                 className={cn(
                   'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
-                  'bg-gradient-to-r from-amber-500 to-orange-500 text-white',
-                  'hover:from-amber-600 hover:to-orange-600 transition-all',
-                  'shadow-sm hover:shadow-md'
+                  'bg-sovereign-card border border-sovereign-border text-gray-300',
+                  'hover:bg-sovereign-hover hover:text-white hover:border-cyan-500/50 transition-all'
                 )}
               >
                 <span>🧠</span>
@@ -462,10 +461,10 @@ const CortexLayoutInner: React.FC = () => {
               {isPremiumDropdownOpen && (
                 <>
                   <div className="fixed inset-0 z-40" onClick={() => setIsPremiumDropdownOpen(false)} />
-                  <div className="absolute right-0 mt-2 w-80 bg-white rounded-xl shadow-xl border border-neutral-200 z-50 overflow-hidden">
-                    <div className="p-3 bg-gradient-to-r from-amber-50 to-orange-50 border-b border-neutral-100">
-                      <h3 className="font-semibold text-neutral-900">Decision Intelligence Suite</h3>
-                      <p className="text-xs text-neutral-500">Premium executive decision tools</p>
+                  <div className="absolute right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 overflow-hidden">
+                    <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle">
+                      <h3 className="font-semibold text-white">Decision Intelligence Suite</h3>
+                      <p className="text-xs text-gray-500">Premium executive decision tools</p>
                     </div>
                     <div className="py-2">
                       {premiumFeatures.map((feature) => (
@@ -476,20 +475,20 @@ const CortexLayoutInner: React.FC = () => {
                             setIsPremiumDropdownOpen(false);
                           }}
                           className={cn(
-                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-neutral-50 transition-colors',
-                            location.pathname === feature.path && 'bg-primary-50'
+                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
+                            location.pathname === feature.path && 'bg-sovereign-active border-l-2 border-cyan-500'
                           )}
                         >
                           <span className="text-xl">{feature.icon}</span>
                           <div className="text-left">
-                            <p className="font-medium text-neutral-900 text-sm">{feature.label}</p>
-                            <p className="text-xs text-neutral-500">{feature.description}</p>
+                            <p className="font-medium text-white text-sm">{feature.label}</p>
+                            <p className="text-xs text-gray-500">{feature.description}</p>
                           </div>
                         </button>
                       ))}
                     </div>
-                    <div className="p-2 border-t border-neutral-100">
-                      <p className="px-2 text-xs font-semibold text-neutral-400 uppercase mb-1">Apex Products</p>
+                    <div className="p-2 border-t border-sovereign-border-subtle">
+                      <p className="px-2 text-xs font-semibold text-gray-600 uppercase mb-1">Apex Products</p>
                       {apexProducts.map((product) => (
                         <button
                           key={product.id}
@@ -498,20 +497,20 @@ const CortexLayoutInner: React.FC = () => {
                             setIsPremiumDropdownOpen(false);
                           }}
                           className={cn(
-                            'w-full flex items-start gap-3 px-4 py-2 hover:bg-neutral-50 transition-colors rounded-lg',
-                            location.pathname === product.path && 'bg-primary-50'
+                            'w-full flex items-start gap-3 px-4 py-2 hover:bg-sovereign-hover transition-colors rounded-lg',
+                            location.pathname === product.path && 'bg-sovereign-active'
                           )}
                         >
                           <span className="text-lg">{product.icon}</span>
                           <div className="text-left">
-                            <p className="font-medium text-neutral-900 text-sm">{product.label}</p>
-                            <p className="text-xs text-neutral-500">{product.description}</p>
+                            <p className="font-medium text-white text-sm">{product.label}</p>
+                            <p className="text-xs text-gray-500">{product.description}</p>
                           </div>
                         </button>
                       ))}
                     </div>
-                    <div className="p-3 bg-neutral-50 border-t border-neutral-100">
-                      <p className="text-xs text-neutral-500 text-center">Enterprise tier features</p>
+                    <div className="p-3 bg-sovereign-elevated border-t border-sovereign-border-subtle">
+                      <p className="text-xs text-gray-500 text-center">Enterprise tier features</p>
                     </div>
                   </div>
                 </>
@@ -524,8 +523,8 @@ const CortexLayoutInner: React.FC = () => {
                 onClick={() => setIsEnterpriseDropdownOpen(!isEnterpriseDropdownOpen)}
                 className={cn(
                   'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
-                  'bg-gradient-to-r from-indigo-500 to-purple-500 text-white',
-                  'hover:from-indigo-600 hover:to-purple-600 transition-all shadow-md'
+                  'bg-sovereign-card border border-sovereign-border text-gray-300',
+                  'hover:bg-sovereign-hover hover:text-white hover:border-cyan-500/50 transition-all'
                 )}
               >
                 <span>🏢</span>
@@ -538,10 +537,10 @@ const CortexLayoutInner: React.FC = () => {
               {isEnterpriseDropdownOpen && (
                 <>
                   <div className="fixed inset-0 z-40" onClick={() => setIsEnterpriseDropdownOpen(false)} />
-                  <div className="absolute right-0 mt-2 w-96 bg-white rounded-xl shadow-xl border border-neutral-200 z-50 overflow-hidden">
-                    <div className="p-3 bg-gradient-to-r from-indigo-50 to-purple-50 border-b border-neutral-100">
-                      <h3 className="font-semibold text-neutral-900">Enterprise Suite</h3>
-                      <p className="text-xs text-neutral-500">High-impact features for maximum valuation</p>
+                  <div className="absolute right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 overflow-hidden">
+                    <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle">
+                      <h3 className="font-semibold text-white">Enterprise Suite</h3>
+                      <p className="text-xs text-gray-500">High-impact features for maximum valuation</p>
                     </div>
                     <div className="py-2 max-h-96 overflow-y-auto">
                       {enterpriseFeatures.map((feature) => (
@@ -552,37 +551,37 @@ const CortexLayoutInner: React.FC = () => {
                             setIsEnterpriseDropdownOpen(false);
                           }}
                           className={cn(
-                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-neutral-50 transition-colors',
-                            location.pathname === feature.path && 'bg-primary-50'
+                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
+                            location.pathname === feature.path && 'bg-sovereign-active border-l-2 border-cyan-500'
                           )}
                         >
                           <span className="text-xl">{feature.icon}</span>
                           <div className="text-left flex-1">
                             <div className="flex items-center justify-between">
-                              <p className="font-medium text-neutral-900 text-sm">{feature.label}</p>
-                              <span className="text-xs px-2 py-0.5 bg-gradient-to-r from-indigo-100 to-purple-100 text-indigo-700 rounded-full">{feature.valuation}</span>
+                              <p className="font-medium text-white text-sm">{feature.label}</p>
+                              <span className="text-xs px-2 py-0.5 bg-crimson-900/30 text-crimson-400 rounded-full">{feature.valuation}</span>
                             </div>
-                            <p className="text-xs text-neutral-500">{feature.description}</p>
+                            <p className="text-xs text-gray-500">{feature.description}</p>
                           </div>
                         </button>
                       ))}
                     </div>
-                    <div className="p-3 bg-gradient-to-r from-indigo-50 to-purple-50 border-t border-neutral-100">
-                      <p className="text-xs text-neutral-600 text-center font-medium">🚀 $10B+ Valuation Potential</p>
+                    <div className="p-3 bg-sovereign-elevated border-t border-sovereign-border-subtle">
+                      <p className="text-xs text-crimson-400 text-center font-medium">🚀 $10B+ Valuation Potential</p>
                     </div>
                   </div>
                 </>
               )}
             </div>
 
-            {/* Sovereign Tier Dropdown */}
+            {/* Sovereign Tier Dropdown - Special crimson accent */}
             <div className="relative">
               <button
                 onClick={() => setIsSovereignDropdownOpen(!isSovereignDropdownOpen)}
                 className={cn(
                   'flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium',
-                  'bg-gradient-to-r from-emerald-500 to-teal-500 text-white',
-                  'hover:from-emerald-600 hover:to-teal-600 transition-all shadow-md'
+                  'bg-crimson-900/30 border border-crimson-800/50 text-crimson-400',
+                  'hover:bg-crimson-900/50 hover:text-crimson-300 hover:border-crimson-700 transition-all'
                 )}
               >
                 <span>👑</span>
@@ -595,10 +594,10 @@ const CortexLayoutInner: React.FC = () => {
               {isSovereignDropdownOpen && (
                 <>
                   <div className="fixed inset-0 z-40" onClick={() => setIsSovereignDropdownOpen(false)} />
-                  <div className="absolute right-0 mt-2 w-96 bg-white rounded-xl shadow-xl border border-neutral-200 z-50 overflow-hidden">
-                    <div className="p-3 bg-gradient-to-r from-emerald-50 to-teal-50 border-b border-neutral-100">
-                      <h3 className="font-semibold text-neutral-900">Sovereign Tier</h3>
-                      <p className="text-xs text-neutral-500">Regulation, Defense & Long-Horizon Strategy</p>
+                  <div className="absolute right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-crimson-900/50 z-50 overflow-hidden">
+                    <div className="p-3 bg-crimson-950/50 border-b border-crimson-900/30">
+                      <h3 className="font-semibold text-crimson-400">Sovereign Tier</h3>
+                      <p className="text-xs text-gray-500">Regulation, Defense & Long-Horizon Strategy</p>
                     </div>
                     <div className="py-2 max-h-96 overflow-y-auto">
                       {sovereignFeatures.map((feature) => (
@@ -609,23 +608,23 @@ const CortexLayoutInner: React.FC = () => {
                             setIsSovereignDropdownOpen(false);
                           }}
                           className={cn(
-                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-neutral-50 transition-colors',
-                            location.pathname === feature.path && 'bg-primary-50'
+                            'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
+                            location.pathname === feature.path && 'bg-crimson-900/20 border-l-2 border-crimson-700'
                           )}
                         >
                           <span className="text-xl">{feature.icon}</span>
                           <div className="text-left flex-1">
                             <div className="flex items-center justify-between">
-                              <p className="font-medium text-neutral-900 text-sm">{feature.label}</p>
-                              <span className="text-xs px-2 py-0.5 bg-gradient-to-r from-emerald-100 to-teal-100 text-emerald-700 rounded-full">{feature.valuation}</span>
+                              <p className="font-medium text-white text-sm">{feature.label}</p>
+                              <span className="text-xs px-2 py-0.5 bg-crimson-900/30 text-crimson-400 rounded-full">{feature.valuation}</span>
                             </div>
-                            <p className="text-xs text-neutral-500">{feature.description}</p>
+                            <p className="text-xs text-gray-500">{feature.description}</p>
                           </div>
                         </button>
                       ))}
                     </div>
-                    <div className="p-3 bg-gradient-to-r from-emerald-50 to-teal-50 border-t border-neutral-100">
-                      <p className="text-xs text-neutral-600 text-center font-medium">👑 $7B+ Valuation Potential</p>
+                    <div className="p-3 bg-crimson-950/50 border-t border-crimson-900/30">
+                      <p className="text-xs text-crimson-400 text-center font-medium">👑 $7B+ Valuation Potential</p>
                     </div>
                   </div>
                 </>
@@ -635,46 +634,34 @@ const CortexLayoutInner: React.FC = () => {
             {/* Notifications */}
             <button 
               aria-label="Notifications"
-              className="relative p-2 rounded-lg text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100"
+              className="relative p-2 rounded-lg text-gray-400 hover:text-white hover:bg-sovereign-hover"
             >
               <Icons.Bell />
-              <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-error-main rounded-full" aria-hidden="true" />
+              <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-crimson-600 rounded-full" aria-hidden="true" />
             </button>
 
             {/* Language Selector */}
             <LanguageSelector />
-
-            {/* Settings */}
-            <button
-              onClick={() => navigate('/cortex/settings')}
-              aria-label="Settings"
-              className="p-2 rounded-lg text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100"
-            >
-              <Icons.Settings />
-            </button>
 
             {/* User menu */}
             <div className="relative">
               <button 
                 aria-label="User menu"
                 onClick={() => setIsUserMenuOpen(prev => !prev)}
-                className="flex items-center gap-2 p-1.5 rounded-lg hover:bg-neutral-100"
+                className="p-1.5 rounded-lg hover:bg-sovereign-hover"
               >
-                <div className="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center">
-                  <span className="text-primary-700 font-medium text-sm">{userInitials}</span>
+                <div className="w-8 h-8 bg-crimson-900/30 rounded-full flex items-center justify-center">
+                  <span className="text-crimson-400 font-medium text-sm">{userInitials}</span>
                 </div>
-                <span className="hidden sm:block text-sm font-medium text-neutral-700">
-                  {user?.name || 'John'}
-                </span>
               </button>
 
               {isUserMenuOpen && (
                 <>
                   <div className="fixed inset-0 z-40" onClick={() => setIsUserMenuOpen(false)} />
-                  <div className="absolute right-0 mt-2 w-56 bg-white rounded-xl shadow-xl border border-neutral-200 z-50 overflow-hidden">
-                    <div className="p-4 border-b border-neutral-100">
-                      <p className="text-sm font-semibold text-neutral-900">{user?.name || 'John Smith'}</p>
-                      <p className="text-xs text-neutral-500 truncate">{user?.email || 'john@datacendia.com'}</p>
+                  <div className="absolute right-0 mt-2 w-56 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 overflow-hidden">
+                    <div className="p-4 border-b border-sovereign-border-subtle">
+                      <p className="text-sm font-semibold text-white">{user?.name || 'John Smith'}</p>
+                      <p className="text-xs text-gray-500 truncate">{user?.email || 'john@datacendia.com'}</p>
                     </div>
                     <div className="py-1">
                       <button
@@ -682,7 +669,7 @@ const CortexLayoutInner: React.FC = () => {
                           navigate('/cortex/settings');
                           setIsUserMenuOpen(false);
                         }}
-                        className="w-full flex items-center gap-2 px-4 py-2 text-sm text-neutral-600 hover:bg-neutral-50"
+                        className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-400 hover:bg-sovereign-hover hover:text-white"
                       >
                         ⚙️ <span>View Settings</span>
                       </button>
@@ -692,7 +679,7 @@ const CortexLayoutInner: React.FC = () => {
                           await logout();
                           navigate('/login');
                         }}
-                        className="w-full flex items-center gap-2 px-4 py-2 text-sm text-red-600 hover:bg-red-50"
+                        className="w-full flex items-center gap-2 px-4 py-2 text-sm text-crimson-400 hover:bg-crimson-900/20"
                       >
                         ⎋ <span>Log out</span>
                       </button>
@@ -705,7 +692,7 @@ const CortexLayoutInner: React.FC = () => {
         </header>
 
         {/* Page Content */}
-        <main className="flex-1 overflow-y-auto">
+        <main className="flex-1 overflow-y-auto bg-sovereign-base">
           <Outlet />
         </main>
 
@@ -720,19 +707,19 @@ const CortexLayoutInner: React.FC = () => {
         <div className="lg:hidden fixed inset-0 z-50">
           {/* Backdrop */}
           <div
-            className="absolute inset-0 bg-black/50"
+            className="absolute inset-0 bg-black/80"
             onClick={() => setIsMobileMenuOpen(false)}
           />
           
           {/* Sidebar */}
-          <aside className="absolute left-0 top-0 bottom-0 w-64 bg-white shadow-xl">
+          <aside className="absolute left-0 top-0 bottom-0 w-64 bg-sovereign-elevated shadow-2xl border-r border-sovereign-border-subtle">
             {/* Logo */}
-            <div className="h-16 flex items-center justify-between px-4 border-b border-neutral-200">
+            <div className="h-16 flex items-center justify-between px-4 border-b border-sovereign-border-subtle">
               <Logo size="sm" />
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
                 aria-label="Close navigation menu"
-                className="p-1.5 rounded-md text-neutral-400 hover:text-neutral-600 hover:bg-neutral-100"
+                className="p-1.5 rounded-md text-gray-400 hover:text-white hover:bg-sovereign-hover"
               >
                 ×
               </button>
@@ -754,8 +741,8 @@ const CortexLayoutInner: React.FC = () => {
                       'w-full flex items-center gap-3 px-3 py-2.5 rounded-lg',
                       'transition-colors text-sm font-medium',
                       active
-                        ? 'bg-primary-50 text-primary-700'
-                        : 'text-neutral-600 hover:bg-neutral-50 hover:text-neutral-900'
+                        ? 'bg-sovereign-active text-white border-l-2 border-cyan-500'
+                        : 'text-gray-400 hover:bg-sovereign-hover hover:text-white'
                     )}
                   >
                     <Icon />

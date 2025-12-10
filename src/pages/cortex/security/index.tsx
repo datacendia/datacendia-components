@@ -3,6 +3,7 @@
 // =============================================================================
 
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
 
 // =============================================================================
@@ -10,6 +11,7 @@ import { cn, formatRelativeTime } from '../../../../lib/utils';
 // =============================================================================
 
 export const SecurityOverviewPage: React.FC = () => {
+  const navigate = useNavigate();
   const securityScore = 85;
   
   const metrics = [
@@ -40,7 +42,25 @@ export const SecurityOverviewPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-neutral-900">Security Overview</h1>
           <p className="text-neutral-500">Monitor and manage your security posture</p>
         </div>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button
+          onClick={() => {
+            const report = {
+              timestamp: new Date().toISOString(),
+              securityScore,
+              metrics,
+              recentEvents: recentEvents.map(e => ({ ...e, time: e.time.toISOString() })),
+              complianceStatus,
+            };
+            const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `security-report-${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+          }}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           Security Report
         </button>
       </div>
@@ -142,6 +162,8 @@ export const SecurityOverviewPage: React.FC = () => {
 // =============================================================================
 
 export const AccessControlPage: React.FC = () => {
+  const navigate = useNavigate();
+  const [showCreatePolicy, setShowCreatePolicy] = useState(false);
   const accessPolicies = [
     { id: 1, name: 'Default User Access', type: 'Role-based', subjects: 'All Users', resources: 'Public Dashboards', effect: 'Allow' },
     { id: 2, name: 'Finance Data Access', type: 'Attribute-based', subjects: 'Finance Team', resources: 'Financial Datasets', effect: 'Allow' },
@@ -200,7 +222,12 @@ export const AccessControlPage: React.FC = () => {
                   </span>
                 </td>
                 <td className="px-4 py-4 text-right">
-                  <button className="text-neutral-400 hover:text-neutral-600">•••</button>
+                  <button
+                    onClick={() => alert(`Edit policy: ${policy.name}`)}
+                    className="text-neutral-400 hover:text-neutral-600"
+                  >
+                    •••
+                  </button>
                 </td>
               </tr>
             ))}
@@ -212,7 +239,12 @@ export const AccessControlPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-lg font-semibold text-neutral-900">Recent Access Requests</h2>
-          <button className="text-primary-600 hover:text-primary-700 text-sm font-medium">View All</button>
+          <button
+            onClick={() => navigate('/cortex/security/access?tab=requests')}
+            className="text-primary-600 hover:text-primary-700 text-sm font-medium"
+          >
+            View All
+          </button>
         </div>
         <div className="space-y-3">
           {recentRequests.map((request) => (
@@ -232,10 +264,16 @@ export const AccessControlPage: React.FC = () => {
                 </span>
                 {request.status === 'pending' && (
                   <div className="flex gap-2">
-                    <button className="px-3 py-1 bg-success-main text-white text-sm rounded-lg hover:bg-success-dark">
+                    <button
+                      onClick={() => alert(`Access request for ${request.user} approved!`)}
+                      className="px-3 py-1 bg-success-main text-white text-sm rounded-lg hover:bg-success-dark"
+                    >
                       Approve
                     </button>
-                    <button className="px-3 py-1 border border-neutral-300 text-neutral-700 text-sm rounded-lg hover:bg-neutral-100">
+                    <button
+                      onClick={() => alert(`Access request for ${request.user} denied.`)}
+                      className="px-3 py-1 border border-neutral-300 text-neutral-700 text-sm rounded-lg hover:bg-neutral-100"
+                    >
                       Deny
                     </button>
                   </div>
@@ -278,7 +316,19 @@ export const AuditLogPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-neutral-900">Audit Log</h1>
           <p className="text-neutral-500">Complete record of all system activity</p>
         </div>
-        <button className="px-4 py-2 border border-neutral-300 text-neutral-700 font-medium rounded-lg hover:bg-neutral-50 transition-colors">
+        <button
+          onClick={() => {
+            const logsData = JSON.stringify(auditLogs.map(l => ({ ...l, timestamp: l.timestamp.toISOString() })), null, 2);
+            const blob = new Blob([logsData], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `audit-logs-${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+          }}
+          className="px-4 py-2 border border-neutral-300 text-neutral-700 font-medium rounded-lg hover:bg-neutral-50 transition-colors"
+        >
           Export Logs
         </button>
       </div>
@@ -316,7 +366,10 @@ export const AuditLogPage: React.FC = () => {
             onChange={(e) => setFilters({ ...filters, user: e.target.value })}
             className="flex-1 min-w-48 h-10 px-3 border border-neutral-300 rounded-lg"
           />
-          <button className="h-10 px-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+          <button
+            onClick={() => console.log('Filters applied:', filters)}
+            className="h-10 px-4 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+          >
             Apply Filters
           </button>
         </div>
@@ -368,10 +421,17 @@ export const AuditLogPage: React.FC = () => {
         <div className="p-4 border-t border-neutral-200 flex items-center justify-between">
           <span className="text-sm text-neutral-500">Showing 1-8 of 1,234 events</span>
           <div className="flex gap-2">
-            <button className="px-3 py-1.5 border border-neutral-300 rounded-lg text-sm hover:bg-neutral-50" disabled>
+            <button
+              onClick={() => console.log('Previous page')}
+              className="px-3 py-1.5 border border-neutral-300 rounded-lg text-sm hover:bg-neutral-50"
+              disabled
+            >
               Previous
             </button>
-            <button className="px-3 py-1.5 border border-neutral-300 rounded-lg text-sm hover:bg-neutral-50">
+            <button
+              onClick={() => console.log('Next page')}
+              className="px-3 py-1.5 border border-neutral-300 rounded-lg text-sm hover:bg-neutral-50"
+            >
               Next
             </button>
           </div>
@@ -386,6 +446,7 @@ export const AuditLogPage: React.FC = () => {
 // =============================================================================
 
 export const SecurityPoliciesPage: React.FC = () => {
+  const [showCreatePolicy, setShowCreatePolicy] = useState(false);
   const policies = [
     { id: 1, name: 'Password Policy', status: 'active', description: 'Minimum 12 characters, complexity requirements', lastUpdated: 'Nov 1, 2025' },
     { id: 2, name: 'Session Timeout', status: 'active', description: 'Auto-logout after 30 minutes of inactivity', lastUpdated: 'Oct 15, 2025' },
@@ -401,7 +462,10 @@ export const SecurityPoliciesPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-neutral-900">Security Policies</h1>
           <p className="text-neutral-500">Configure organizational security policies</p>
         </div>
-        <button className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors">
+        <button
+          onClick={() => setShowCreatePolicy(true)}
+          className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
+        >
           + Create Policy
         </button>
       </div>
@@ -424,11 +488,17 @@ export const SecurityPoliciesPage: React.FC = () => {
                 <p className="text-sm text-neutral-400 mt-2">Last updated: {policy.lastUpdated}</p>
               </div>
               <div className="flex gap-2">
-                <button className="px-3 py-1.5 border border-neutral-300 text-neutral-700 text-sm rounded-lg hover:bg-neutral-50">
+                <button
+                  onClick={() => alert(`Editing policy: ${policy.name}`)}
+                  className="px-3 py-1.5 border border-neutral-300 text-neutral-700 text-sm rounded-lg hover:bg-neutral-50"
+                >
                   Edit
                 </button>
                 {policy.status === 'draft' && (
-                  <button className="px-3 py-1.5 bg-primary-600 text-white text-sm rounded-lg hover:bg-primary-700">
+                  <button
+                    onClick={() => alert(`Policy '${policy.name}' activated!`)}
+                    className="px-3 py-1.5 bg-primary-600 text-white text-sm rounded-lg hover:bg-primary-700"
+                  >
                     Activate
                   </button>
                 )}

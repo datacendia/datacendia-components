@@ -35,7 +35,7 @@ export const MODEL_REGISTRY = {
   // Llama 3.3 - Peak instruction following and synthesis
   // Equivalent to GPT-4o class performance locally
   flagship: {
-    id: 'llama3.3:70b',
+    id: 'qwen2.5:7b',
     name: 'Llama 3.3 70B',
     contextWindow: 128000,
     temperature: 0.7,

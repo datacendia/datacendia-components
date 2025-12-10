@@ -348,6 +348,54 @@ class FeatureControlService {
         modifiedBy: 'system',
         config: {}
       },
+      {
+        id: 'cendia-persona',
+        name: 'Persona Forge',
+        type: 'service',
+        description: 'Digital twin management for AI personas',
+        icon: '🧬',
+        status: 'active',
+        visibility: 'authenticated',
+        enabled: true,
+        routes: ['/cortex/persona'],
+        showInSitemap: false,
+        showInNavigation: true,
+        category: 'decision-intelligence',
+        dependencies: ['cendia-core'],
+        requiredPlan: 'intelligence',
+        version: '1.0.0',
+        lastModified: new Date().toISOString(),
+        modifiedBy: 'system',
+        config: {
+          permissions: {
+            'persona.createTwin': ['SUPER_ADMIN', 'ADMIN']
+          }
+        }
+      },
+      {
+        id: 'cendia-autopilot',
+        name: 'CendiaAutopilot™',
+        type: 'service',
+        description: 'Automation rules and orchestration engine',
+        icon: '🧠',
+        status: 'active',
+        visibility: 'authenticated',
+        enabled: true,
+        routes: ['/cortex/autopilot'],
+        showInSitemap: false,
+        showInNavigation: true,
+        category: 'enterprise',
+        dependencies: ['cendia-core'],
+        requiredPlan: 'governance',
+        version: '1.0.0',
+        lastModified: new Date().toISOString(),
+        modifiedBy: 'system',
+        config: {
+          permissions: {
+            'autopilot.manageRules': ['SUPER_ADMIN', 'ADMIN']
+          }
+        }
+      },
     ];
 
     defaultFeatures.forEach(f => this.features.set(f.id, f));
@@ -374,7 +422,7 @@ class FeatureControlService {
         lastModified: new Date().toISOString(),
         modifiedBy: 'system',
         config: {},
-        model: 'llama3.3:70b',
+        model: 'qwen2.5:7b',
         systemPrompt: 'You are the Chief of Staff. Synthesize all perspectives into a coherent strategy. Be decisive and action-oriented.',
         temperature: 0.7,
         maxTokens: 4096,
@@ -400,7 +448,7 @@ class FeatureControlService {
         lastModified: new Date().toISOString(),
         modifiedBy: 'system',
         config: {},
-        model: 'llama3.3:70b',
+        model: 'qwen2.5:7b',
         systemPrompt: 'You are the CFO. Focus on ROI, cash flow, margins, and financial risk. Be conservative and data-driven.',
         temperature: 0.5,
         maxTokens: 4096,
@@ -452,7 +500,7 @@ class FeatureControlService {
         lastModified: new Date().toISOString(),
         modifiedBy: 'system',
         config: {},
-        model: 'llama3.3:70b',
+        model: 'qwen2.5:7b',
         systemPrompt: 'You are the CMO. Focus on brand voice, customer perception, market positioning, and growth opportunities.',
         temperature: 0.8,
         maxTokens: 4096,

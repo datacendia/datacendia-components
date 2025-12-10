@@ -111,7 +111,7 @@ Output JSON:
 }`;
 
     try {
-      const response = await ollama.generate(prompt, { model: 'llama3.3:70b' });
+      const response = await ollama.generate(prompt, { model: 'qwen2.5:7b' });
       const analysis = JSON.parse(response.match(/\{[\s\S]*\}/)?.[0] || '{}');
 
       const ticket: SupportTicket = {

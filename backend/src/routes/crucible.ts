@@ -335,4 +335,76 @@ router.post('/quick-simulate', async (req: Request, res: Response, next: NextFun
   }
 });
 
+/**
+ * GET /api/v1/crucible/resilience
+ * Get real-time resilience scores from organization data
+ */
+router.get('/resilience', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const resilience = await cendiaCrucibleService.getResilienceScores(req.organizationId!);
+
+    res.json({
+      success: true,
+      data: resilience,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/crucible/benchmarks
+ * Get industry benchmarks for comparison
+ */
+router.get('/benchmarks', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const benchmarks = await cendiaCrucibleService.getIndustryBenchmarks(req.organizationId!);
+
+    res.json({
+      success: true,
+      data: benchmarks,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/crucible/recommendations
+ * Get scenario recommendations based on organization weaknesses
+ */
+router.get('/recommendations', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const recommendations = await cendiaCrucibleService.getScenarioRecommendations(req.organizationId!);
+
+    res.json({
+      success: true,
+      data: recommendations,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
+ * GET /api/v1/crucible/recent
+ * Get recent simulations with summary
+ */
+router.get('/recent', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { limit = '5' } = req.query;
+    const recentSimulations = await cendiaCrucibleService.getRecentSimulations(
+      req.organizationId!,
+      parseInt(limit as string)
+    );
+
+    res.json({
+      success: true,
+      data: recentSimulations,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
 export default router;
