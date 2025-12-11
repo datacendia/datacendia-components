@@ -18,6 +18,7 @@ import pl from './locales/pl.json';
 import tr from './locales/tr.json';
 // Middle East & Africa
 import ar from './locales/ar.json';
+import he from './locales/he.json';
 import sw from './locales/sw.json';
 // South Asia
 import hi from './locales/hi.json';
@@ -42,7 +43,7 @@ export type SupportedLocale =
   // Europe
   | 'fr' | 'de' | 'it' | 'pl' | 'tr'
   // Middle East & Africa
-  | 'ar' | 'sw'
+  | 'ar' | 'he' | 'sw'
   // South Asia
   | 'hi' | 'bn' | 'ur'
   // East & Southeast Asia
@@ -160,6 +161,15 @@ export const localeConfigs: Record<SupportedLocale, LocaleConfig> = {
     flag: '🇸🇦',
     dateFormat: 'DD/MM/YYYY',
     numberFormat: { decimal: '٫', thousands: '٬', currency: 'SAR' },
+  },
+  he: {
+    code: 'he',
+    name: 'Hebrew',
+    nativeName: 'עברית',
+    direction: 'rtl',
+    flag: '🇮🇱',
+    dateFormat: 'DD/MM/YYYY',
+    numberFormat: { decimal: '.', thousands: ',', currency: 'ILS' },
   },
   it: {
     code: 'it',
@@ -279,6 +289,7 @@ const translations: Record<SupportedLocale, Record<string, unknown>> = {
   tr,
   // Middle East & Africa
   ar,
+  he,
   sw,
   // South Asia
   hi,

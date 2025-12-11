@@ -1,11 +1,40 @@
 // =============================================================================
 // DATACENDIA - PRODUCT PAGE
+// Premium dark theme
 // =============================================================================
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { cn } from '../../../lib/utils';
-import { Logo } from '../../components/brand';
+import { ArrowRight } from 'lucide-react';
+
+// Particle field background
+const ParticleField: React.FC = () => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const particles: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
+    for (let i = 0; i < 30; i++) {
+      particles.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, vx: (Math.random() - 0.5) * 0.2, vy: (Math.random() - 0.5) * 0.2, size: Math.random() * 2 + 0.5, opacity: Math.random() * 0.3 + 0.1 });
+    }
+    let animationId: number;
+    const animate = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach((p) => { p.x += p.vx; p.y += p.vy; if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0; if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0; ctx.beginPath(); ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2); ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`; ctx.fill(); });
+      animationId = requestAnimationFrame(animate);
+    };
+    animate();
+    const handleResize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; };
+    window.addEventListener('resize', handleResize);
+    return () => { cancelAnimationFrame(animationId); window.removeEventListener('resize', handleResize); };
+  }, []);
+  return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-0" />;
+};
 
 // =============================================================================
 // PRODUCT FEATURES DATA
@@ -217,8 +246,8 @@ const ProductCard: React.FC<{
   return (
     <div
       className={cn(
-        'bg-white rounded-2xl border-2 transition-all duration-300',
-        isExpanded ? 'border-primary-500 shadow-xl' : 'border-neutral-200 hover:border-neutral-300'
+        'bg-black/50 backdrop-blur-sm border transition-all duration-300 rounded',
+        isExpanded ? 'border-red-900/50' : 'border-gray-800 hover:border-gray-700'
       )}
     >
       {/* Header */}
@@ -229,48 +258,48 @@ const ProductCard: React.FC<{
         <div className="flex items-start justify-between">
           <div className="flex items-center gap-4">
             <div
-              className="w-14 h-14 rounded-xl flex items-center justify-center text-3xl"
-              style={{ backgroundColor: `${product.color}20` }}
+              className="w-12 h-12 rounded flex items-center justify-center text-2xl border border-gray-800"
+              style={{ backgroundColor: `${product.color}10` }}
             >
               {product.icon}
             </div>
             <div>
-              <h3 className="text-xl font-bold text-neutral-900">{product.name}</h3>
-              <p className="text-sm text-neutral-500">{product.tagline}</p>
+              <h3 className="text-lg font-medium text-white">{product.name}</h3>
+              <p className="text-xs text-gray-500">{product.tagline}</p>
             </div>
           </div>
           <button
             className={cn(
-              'w-8 h-8 rounded-full flex items-center justify-center transition-transform',
+              'w-6 h-6 rounded flex items-center justify-center transition-transform text-xs',
               isExpanded && 'rotate-180'
             )}
-            style={{ backgroundColor: `${product.color}20`, color: product.color }}
+            style={{ color: product.color }}
           >
             ▼
           </button>
         </div>
-        <p className="mt-4 text-neutral-600">{product.description}</p>
+        <p className="mt-4 text-gray-500 text-sm">{product.description}</p>
       </div>
 
       {/* Expanded Content */}
       {isExpanded && (
-        <div className="px-6 pb-6 border-t border-neutral-100">
+        <div className="px-6 pb-6 border-t border-gray-800">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-6">
             {/* Features */}
             <div>
-              <h4 className="text-sm font-semibold text-neutral-900 uppercase tracking-wider mb-4">
+              <h4 className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-4">
                 Key Features
               </h4>
               <ul className="space-y-3">
                 {product.features.map((feature, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     <span
-                      className="mt-1 w-5 h-5 rounded-full flex items-center justify-center text-xs text-white flex-shrink-0"
+                      className="mt-0.5 w-4 h-4 rounded flex items-center justify-center text-[10px] text-white flex-shrink-0"
                       style={{ backgroundColor: product.color }}
                     >
                       ✓
                     </span>
-                    <span className="text-neutral-700">{feature}</span>
+                    <span className="text-gray-400 text-sm">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -278,14 +307,14 @@ const ProductCard: React.FC<{
 
             {/* Use Cases */}
             <div>
-              <h4 className="text-sm font-semibold text-neutral-900 uppercase tracking-wider mb-4">
+              <h4 className="text-xs font-medium text-gray-500 uppercase tracking-wider mb-4">
                 Use Cases
               </h4>
               <ul className="space-y-3">
                 {product.useCases.map((useCase, idx) => (
                   <li key={idx} className="flex items-start gap-3">
-                    <span className="text-neutral-400">→</span>
-                    <span className="text-neutral-700">{useCase}</span>
+                    <span className="text-gray-600">→</span>
+                    <span className="text-gray-400 text-sm">{useCase}</span>
                   </li>
                 ))}
               </ul>
@@ -293,18 +322,18 @@ const ProductCard: React.FC<{
           </div>
 
           {/* CTA */}
-          <div className="mt-6 pt-6 border-t border-neutral-100 flex items-center justify-between">
+          <div className="mt-6 pt-6 border-t border-gray-800 flex items-center justify-between">
             <Link
-              to="/demo"
-              className="text-sm font-medium hover:underline"
+              to="/sovereign"
+              className="text-sm hover:underline"
               style={{ color: product.color }}
             >
               See {product.name} in action →
             </Link>
             <Link
               to={`/cortex/${product.id === 'graph' ? 'graph' : product.id === 'council' ? 'council' : product.id === 'pulse' ? 'pulse' : product.id === 'lens' ? 'lens' : 'bridge'}`}
-              className="px-4 py-2 rounded-lg text-sm font-medium text-white transition-colors"
-              style={{ backgroundColor: product.color }}
+              className="px-4 py-2 rounded text-sm text-white transition-colors border"
+              style={{ borderColor: `${product.color}50`, backgroundColor: `${product.color}20` }}
             >
               Try It Now
             </Link>
@@ -323,80 +352,63 @@ export const ProductPage: React.FC = () => {
   const [expandedProduct, setExpandedProduct] = useState<string | null>('council');
 
   return (
-    <div className="min-h-screen bg-neutral-50">
+    <div className="min-h-screen bg-black text-white font-light antialiased selection:bg-red-900/30 relative overflow-hidden">
+      <ParticleField />
+      <div className="fixed inset-0 pointer-events-none z-10 opacity-[0.02]" style={{ backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px)' }} />
+      <div className="fixed inset-0 pointer-events-none z-10" style={{ background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)' }} />
+
       {/* Navigation */}
-      <nav className="bg-white/95 backdrop-blur-xl border-b border-neutral-200/50 sticky top-0 z-50 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-18 py-3">
-            <Link to="/" className="hover:opacity-90 transition-opacity">
-              <Logo size="md" />
+      <nav className="relative z-30 border-b border-gray-900">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <Link to="/sovereign" className="text-xl font-extralight tracking-[0.2em] text-white hover:text-red-100 transition-colors">
+              DATACENDIA
             </Link>
             
-            <div className="hidden md:flex items-center gap-1">
-              <Link to="/product" className="px-4 py-2 text-sm font-medium text-primary-600 bg-primary-50 rounded-lg">
-                Product
-              </Link>
-              <Link to="/pricing" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all">
-                Pricing
-              </Link>
-              <Link to="/apex/forecast" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all">
-                Solutions
-              </Link>
-              <Link to="/about" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all">
-                About
-              </Link>
+            <div className="hidden md:flex items-center gap-8">
+              <Link to="/sovereign" className="text-xs tracking-[0.15em] text-gray-500 hover:text-white transition-colors">SOVEREIGN</Link>
+              <Link to="/honesty" className="text-xs tracking-[0.15em] text-gray-500 hover:text-white transition-colors">HONESTY</Link>
+              <Link to="/product" className="text-xs tracking-[0.15em] text-red-900">PRODUCT</Link>
+              <Link to="/pricing" className="text-xs tracking-[0.15em] text-gray-500 hover:text-white transition-colors">PRICING</Link>
             </div>
             
-            <div className="flex items-center gap-3">
-              <Link to="/login" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors">
-                Sign In
-              </Link>
-              <Link
-                to="/demo"
-                className="px-5 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 text-white text-sm font-semibold rounded-lg hover:from-purple-500 hover:to-indigo-500 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40 active:scale-95 transition-all duration-200"
-              >
-                Get Started
-              </Link>
+            <div className="flex items-center gap-4">
+              <Link to="/login" className="text-xs tracking-[0.15em] text-gray-500 hover:text-white transition-colors">SIGN IN</Link>
+              <Link to="/sovereign" className="px-4 py-2 border border-red-900/50 text-xs tracking-[0.15em] text-white hover:bg-red-900/10 transition-all">REQUEST ACCESS</Link>
             </div>
           </div>
         </div>
       </nav>
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            The Sovereign Intelligence Platform
+      <section className="relative z-20 py-24">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <p className="text-xs tracking-[0.4em] text-gray-600 uppercase mb-6">SOVEREIGN INTELLIGENCE PLATFORM</p>
+          <h1 className="text-4xl md:text-5xl font-extralight tracking-[0.05em] mb-6">
+            Enterprise Modules.<br /><span className="text-gray-400">One Unified Platform.</span>
           </h1>
-          <p className="text-xl text-white/80 max-w-3xl mx-auto mb-8">
+          <p className="text-lg text-gray-400 font-light max-w-2xl mx-auto mb-8">
             Datacendia™ unifies your data, empowers your teams with AI advisors, and automates 
-            your workflows—all while keeping your intelligence sovereign and secure. Now with 100+ language support.
+            your workflows—all while keeping your intelligence sovereign and secure.
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Link
-              to="/demo"
-              className="px-6 py-3 bg-white text-primary-600 font-medium rounded-lg hover:bg-neutral-100 transition-colors"
-            >
-              Request Demo
+            <Link to="/sovereign" className="group px-8 py-4 border-2 border-red-900 bg-black hover:bg-red-900/10 transition-all flex items-center gap-3">
+              <span className="text-sm tracking-[0.2em] text-white">Request Access</span>
+              <ArrowRight className="w-4 h-4 text-red-800 group-hover:translate-x-1 transition-transform" />
             </Link>
-            <Link
-              to="/login"
-              className="px-6 py-3 bg-white/10 text-white font-medium rounded-lg hover:bg-white/20 transition-colors"
-            >
-              Start Free Trial
-            </Link>
+            <Link to="/login" className="px-8 py-4 border border-gray-800 text-sm tracking-[0.2em] text-gray-400 hover:text-white hover:border-gray-700 transition-all">Start Free Trial</Link>
           </div>
         </div>
       </section>
 
       {/* Products */}
-      <section className="py-20">
+      <section className="relative z-20 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-neutral-900 mb-4">
-              Enterprise Modules. One Unified Platform.
+            <h2 className="text-2xl font-light text-white mb-4">
+              Explore the Platform
             </h2>
-            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
+            <p className="text-gray-500 max-w-2xl mx-auto">
               Each module is powerful on its own. Together, they create an intelligence 
               system that transforms how your organization operates.
             </p>
@@ -418,14 +430,15 @@ export const ProductPage: React.FC = () => {
       </section>
 
       {/* Integrations */}
-      <section className="py-20 bg-white">
+      <section className="relative z-20 py-20 border-t border-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-neutral-900 mb-4">
-              Connect to Any Database. Zero-Copy Optional.
+            <p className="text-xs tracking-[0.3em] text-gray-600 uppercase mb-4">ZERO-COPY ARCHITECTURE</p>
+            <h2 className="text-2xl font-light text-white mb-4">
+              Connect to Any Database
             </h2>
-            <p className="text-lg text-neutral-600">
-              Connect directly to your existing databases. Data never has to leave your infrastructure.
+            <p className="text-gray-500">
+              Data never has to leave your infrastructure.
             </p>
           </div>
 
@@ -433,32 +446,32 @@ export const ProductPage: React.FC = () => {
             {integrations.map((integration, idx) => (
               <div
                 key={idx}
-                className="p-4 bg-neutral-50 rounded-xl text-center hover:shadow-md transition-shadow"
+                className="p-4 bg-gray-900/50 border border-gray-800 rounded text-center hover:border-red-900/30 transition-colors"
               >
-                <span className="text-3xl mb-2 block">{integration.icon}</span>
-                <p className="font-medium text-neutral-900">{integration.name}</p>
-                <p className="text-xs text-neutral-500">{integration.category}</p>
+                <span className="text-2xl mb-2 block">{integration.icon}</span>
+                <p className="font-medium text-white text-sm">{integration.name}</p>
+                <p className="text-xs text-gray-600">{integration.category}</p>
               </div>
             ))}
           </div>
 
-          <p className="text-center text-neutral-500 mt-8">
+          <p className="text-center text-gray-600 mt-8 text-sm">
             + Client-hosted, hybrid sync, and zero-copy modes available
           </p>
         </div>
       </section>
 
       {/* Security */}
-      <section className="py-20 bg-neutral-900 text-white">
+      <section className="relative z-20 py-20 border-t border-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">
-                Enterprise-Grade Security
+              <p className="text-xs tracking-[0.3em] text-gray-600 uppercase mb-4">ENTERPRISE SECURITY</p>
+              <h2 className="text-2xl font-light text-white mb-6">
+                Your Data Never Leaves Your Control
               </h2>
-              <p className="text-neutral-400 mb-8">
-                Your data never leaves your control. Datacendia is built with security 
-                and compliance at its core.
+              <p className="text-gray-500 mb-8">
+                Datacendia is built with security and compliance at its core.
               </p>
               <ul className="space-y-4">
                 {[
@@ -468,17 +481,17 @@ export const ProductPage: React.FC = () => {
                   { icon: '📋', text: 'GDPR, HIPAA, and CCPA compliant' },
                   { icon: '🕵️', text: 'Complete audit logging' },
                 ].map((item, idx) => (
-                  <li key={idx} className="flex items-center gap-3">
-                    <span className="text-xl">{item.icon}</span>
-                    <span>{item.text}</span>
+                  <li key={idx} className="flex items-center gap-3 text-gray-400">
+                    <span className="text-lg">{item.icon}</span>
+                    <span className="text-sm">{item.text}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="bg-neutral-800 rounded-2xl p-8 text-center">
-              <div className="text-6xl mb-4">🛡️</div>
-              <p className="text-xl font-semibold mb-2">Data Sovereignty</p>
-              <p className="text-neutral-400">
+            <div className="bg-gray-900/50 border border-gray-800 rounded p-8 text-center">
+              <div className="text-5xl mb-4">🛡️</div>
+              <p className="text-lg font-light text-white mb-2">Data Sovereignty</p>
+              <p className="text-gray-500 text-sm">
                 Your AI models run locally. Your data stays in your infrastructure. 
                 No data is ever shared with third parties.
               </p>
@@ -488,73 +501,64 @@ export const ProductPage: React.FC = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-primary-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Ready to Transform Your Organization?
+      <section className="relative z-20 py-24 border-t border-gray-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-2xl font-light text-white mb-4">
+            Ready to Return Your Mind?
           </h2>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Join the companies using Datacendia to make better decisions, faster.
+          <p className="text-gray-500 mb-8">
+            Join the organizations that refuse to be tenants in their own house.
           </p>
-          <div className="flex items-center justify-center gap-4">
-            <Link
-              to="/demo"
-              className="px-8 py-4 bg-white text-primary-600 font-medium rounded-lg hover:bg-neutral-100 transition-colors"
-            >
-              Request a Demo
-            </Link>
-            <Link
-              to="/pricing"
-              className="px-8 py-4 bg-white/10 text-white font-medium rounded-lg hover:bg-white/20 transition-colors"
-            >
-              View Pricing
-            </Link>
-          </div>
+          <Link
+            to="/sovereign"
+            className="group inline-flex px-10 py-5 border-2 border-red-900 bg-black hover:bg-red-900/10 transition-all items-center gap-3"
+          >
+            <span className="text-sm tracking-[0.25em] text-white font-medium">Request Access</span>
+            <ArrowRight className="w-4 h-4 text-red-800 group-hover:translate-x-1 transition-transform" />
+          </Link>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-neutral-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <footer className="relative z-20 py-16 px-6 border-t border-gray-900">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
             <div>
-              <h4 className="font-semibold mb-4">Product</h4>
-              <ul className="space-y-2 text-neutral-400 text-sm">
-                <li><Link to="/product" className="hover:text-white">Features</Link></li>
-                <li><Link to="/pricing" className="hover:text-white">Pricing</Link></li>
-                <li><Link to="/integrations" className="hover:text-white">Integrations</Link></li>
-                <li><Link to="/security" className="hover:text-white">Security</Link></li>
+              <h4 className="text-xs tracking-[0.2em] text-gray-500 mb-4">PLATFORM</h4>
+              <ul className="space-y-2">
+                <li><Link to="/product" className="text-sm text-gray-600 hover:text-white transition-colors">Product</Link></li>
+                <li><Link to="/pricing" className="text-sm text-gray-600 hover:text-white transition-colors">Pricing</Link></li>
+                <li><Link to="/honesty" className="text-sm text-gray-600 hover:text-white transition-colors">Honesty Matrices</Link></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Resources</h4>
-              <ul className="space-y-2 text-neutral-400 text-sm">
-                <li><Link to="/docs" className="hover:text-white">Documentation</Link></li>
-                <li><Link to="/api" className="hover:text-white">API Reference</Link></li>
-                <li><Link to="/blog" className="hover:text-white">Blog</Link></li>
-                <li><Link to="/changelog" className="hover:text-white">Changelog</Link></li>
+              <h4 className="text-xs tracking-[0.2em] text-gray-500 mb-4">RESOURCES</h4>
+              <ul className="space-y-2">
+                <li><Link to="/docs" className="text-sm text-gray-600 hover:text-white transition-colors">Documentation</Link></li>
+                <li><Link to="/blog" className="text-sm text-gray-600 hover:text-white transition-colors">Blog</Link></li>
+                <li><Link to="/changelog" className="text-sm text-gray-600 hover:text-white transition-colors">Changelog</Link></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Company</h4>
-              <ul className="space-y-2 text-neutral-400 text-sm">
-                <li><Link to="/about" className="hover:text-white">About</Link></li>
-                <li><Link to="/careers" className="hover:text-white">Careers</Link></li>
-                <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
-                <li><Link to="/partners" className="hover:text-white">Partners</Link></li>
+              <h4 className="text-xs tracking-[0.2em] text-gray-500 mb-4">COMPANY</h4>
+              <ul className="space-y-2">
+                <li><Link to="/about" className="text-sm text-gray-600 hover:text-white transition-colors">About</Link></li>
+                <li><Link to="/security" className="text-sm text-gray-600 hover:text-white transition-colors">Security</Link></li>
+                <li><Link to="/support" className="text-sm text-gray-600 hover:text-white transition-colors">Support</Link></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Legal</h4>
-              <ul className="space-y-2 text-neutral-400 text-sm">
-                <li><Link to="/privacy" className="hover:text-white">Privacy Policy</Link></li>
-                <li><Link to="/terms" className="hover:text-white">Terms of Service</Link></li>
-                <li><Link to="/cookies" className="hover:text-white">Cookie Policy</Link></li>
+              <h4 className="text-xs tracking-[0.2em] text-gray-500 mb-4">LEGAL</h4>
+              <ul className="space-y-2">
+                <li><Link to="/privacy" className="text-sm text-gray-600 hover:text-white transition-colors">Privacy</Link></li>
+                <li><Link to="/terms" className="text-sm text-gray-600 hover:text-white transition-colors">Terms</Link></li>
+                <li><Link to="/cookies" className="text-sm text-gray-600 hover:text-white transition-colors">Cookies</Link></li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-neutral-800 mt-8 pt-8 text-center text-neutral-500 text-sm">
-            © 2025 Datacendia. All rights reserved.
+          <div className="pt-8 border-t border-gray-900 flex items-center justify-between text-[10px] text-gray-700 tracking-widest">
+            <span>© {new Date().getFullYear()} DATACENDIA</span>
+            <span>SOVEREIGN INTELLIGENCE</span>
           </div>
         </div>
       </footer>

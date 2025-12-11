@@ -1,6 +1,26 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Shield, Lock, Server, Eye, FileCheck, Users, AlertTriangle, CheckCircle } from 'lucide-react';
+import { Shield, Lock, Server, Eye, FileCheck, Users, AlertTriangle, CheckCircle, ArrowRight } from 'lucide-react';
+
+const ParticleField: React.FC = () => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+    canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+    const particles: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
+    for (let i = 0; i < 25; i++) particles.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, vx: (Math.random() - 0.5) * 0.15, vy: (Math.random() - 0.5) * 0.15, size: Math.random() * 1.5 + 0.5, opacity: Math.random() * 0.25 + 0.05 });
+    let animationId: number;
+    const animate = () => { ctx.clearRect(0, 0, canvas.width, canvas.height); particles.forEach((p) => { p.x += p.vx; p.y += p.vy; if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0; if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0; ctx.beginPath(); ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2); ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`; ctx.fill(); }); animationId = requestAnimationFrame(animate); };
+    animate();
+    const handleResize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; };
+    window.addEventListener('resize', handleResize);
+    return () => { cancelAnimationFrame(animationId); window.removeEventListener('resize', handleResize); };
+  }, []);
+  return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-0" />;
+};
 
 export const SecurityPage: React.FC = () => {
   const securityFeatures = [
@@ -45,45 +65,42 @@ export const SecurityPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-50">
+    <div className="min-h-screen bg-black text-white font-light antialiased selection:bg-red-900/30 relative overflow-hidden">
+      <ParticleField />
+      <div className="fixed inset-0 pointer-events-none z-10" style={{ background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)' }} />
+
       {/* Header */}
-      <header className="bg-white border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-neutral-900 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold">D</span>
-            </div>
-            <span className="text-xl font-bold text-neutral-900">Datacendia</span>
-          </Link>
-          <nav className="flex items-center gap-4 text-sm">
-            <Link to="/privacy" className="text-neutral-600 hover:text-neutral-900">Privacy</Link>
-            <Link to="/terms" className="text-neutral-600 hover:text-neutral-900">Terms</Link>
-            <Link to="/contact" className="text-neutral-600 hover:text-neutral-900">Contact</Link>
-          </nav>
+      <nav className="relative z-30 border-b border-gray-900">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16">
+          <Link to="/sovereign" className="text-xl font-extralight tracking-[0.2em] text-white hover:text-red-100 transition-colors">DATACENDIA</Link>
+          <div className="flex items-center gap-8 text-xs tracking-[0.15em]">
+            <Link to="/security" className="text-red-900">SECURITY</Link>
+            <Link to="/privacy" className="text-gray-500 hover:text-white transition-colors">PRIVACY</Link>
+            <Link to="/sovereign" className="text-gray-500 hover:text-white transition-colors">SOVEREIGN</Link>
+          </div>
         </div>
-      </header>
+      </nav>
 
       {/* Hero */}
-      <section className="bg-neutral-900 text-white py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Shield className="w-16 h-16 mx-auto mb-6 text-cyan-400" />
-          <h1 className="text-4xl font-bold mb-4">Security First</h1>
-          <p className="text-xl text-neutral-400">
-            Enterprise-grade security designed for sovereign deployments and regulated industries.
-          </p>
+      <section className="relative z-20 py-24">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <Shield className="w-12 h-12 mx-auto mb-4 text-red-900" />
+          <p className="text-xs tracking-[0.4em] text-gray-600 uppercase mb-6">ENTERPRISE SECURITY</p>
+          <h1 className="text-3xl font-extralight tracking-wide mb-4">Security First</h1>
+          <p className="text-gray-500">Enterprise-grade security designed for sovereign deployments and regulated industries.</p>
         </div>
       </section>
 
       {/* Security Features */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-center mb-12">Security Architecture</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <section className="relative z-20 py-16">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <h2 className="text-xl font-light text-center mb-12 text-white">Security Architecture</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {securityFeatures.map((feature, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-sm border border-neutral-200">
-                <feature.icon className="w-10 h-10 text-neutral-900 mb-4" />
-                <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
-                <p className="text-neutral-600">{feature.description}</p>
+              <div key={index} className="bg-black/50 backdrop-blur-sm border border-gray-800 hover:border-red-900/30 rounded p-6 transition-colors">
+                <feature.icon className="w-8 h-8 text-red-900 mb-4" />
+                <h3 className="text-lg font-medium text-white mb-2">{feature.title}</h3>
+                <p className="text-gray-500 text-sm">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -91,15 +108,15 @@ export const SecurityPage: React.FC = () => {
       </section>
 
       {/* Compliance */}
-      <section className="py-16 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-center mb-12">Compliance & Certifications</h2>
+      <section className="relative z-20 py-16 border-t border-gray-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <h2 className="text-xl font-light text-center mb-12 text-white">Compliance & Certifications</h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {certifications.map((cert, index) => (
-              <div key={index} className="text-center p-4 bg-neutral-50 rounded-lg">
-                <CheckCircle className="w-8 h-8 mx-auto mb-2 text-green-600" />
-                <div className="font-semibold text-sm">{cert.name}</div>
-                <div className="text-xs text-neutral-500">{cert.status}</div>
+              <div key={index} className="text-center p-4 bg-black/50 border border-gray-800 rounded">
+                <CheckCircle className="w-6 h-6 mx-auto mb-2 text-green-500" />
+                <div className="font-medium text-white text-sm">{cert.name}</div>
+                <div className="text-xs text-gray-600">{cert.status}</div>
               </div>
             ))}
           </div>
@@ -107,22 +124,22 @@ export const SecurityPage: React.FC = () => {
       </section>
 
       {/* Vulnerability Reporting */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-amber-50 border border-amber-200 rounded-xl p-8">
+      <section className="relative z-20 py-16 border-t border-gray-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <div className="bg-amber-900/10 border border-amber-900/30 rounded p-8">
             <div className="flex items-start gap-4">
-              <AlertTriangle className="w-8 h-8 text-amber-600 flex-shrink-0" />
+              <AlertTriangle className="w-6 h-6 text-amber-500 flex-shrink-0" />
               <div>
-                <h3 className="text-lg font-semibold mb-2">Security Vulnerability Reporting</h3>
-                <p className="text-neutral-700 mb-4">
+                <h3 className="text-lg font-medium text-white mb-2">Security Vulnerability Reporting</h3>
+                <p className="text-gray-400 text-sm mb-4">
                   If you discover a security vulnerability, please report it responsibly. 
                   We take all reports seriously and will respond within 24 hours.
                 </p>
                 <a 
                   href="mailto:security@datacendia.com" 
-                  className="inline-flex items-center gap-2 text-amber-700 font-medium hover:underline"
+                  className="inline-flex items-center gap-2 text-amber-500 text-sm hover:text-amber-400 transition-colors"
                 >
-                  security@datacendia.com
+                  security@datacendia.com <ArrowRight className="w-3 h-3" />
                 </a>
               </div>
             </div>
@@ -131,14 +148,14 @@ export const SecurityPage: React.FC = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-neutral-100 py-8 border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-neutral-500">
-          <p>© {new Date().getFullYear()} Datacendia, Inc. All rights reserved.</p>
-          <div className="flex items-center justify-center gap-4 mt-4">
-            <Link to="/privacy" className="hover:text-neutral-900">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-neutral-900">Terms of Service</Link>
-            <Link to="/contact" className="hover:text-neutral-900">Contact</Link>
+      <footer className="relative z-20 py-12 border-t border-gray-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <div className="flex items-center justify-center gap-6 mb-4 text-xs tracking-wider">
+            <Link to="/privacy" className="text-gray-600 hover:text-white transition-colors">PRIVACY</Link>
+            <Link to="/terms" className="text-gray-600 hover:text-white transition-colors">TERMS</Link>
+            <Link to="/sovereign" className="text-gray-600 hover:text-white transition-colors">CONTACT</Link>
           </div>
+          <p className="text-[10px] text-gray-700 tracking-widest">© {new Date().getFullYear()} DATACENDIA • SOVEREIGN INTELLIGENCE</p>
         </div>
       </footer>
     </div>

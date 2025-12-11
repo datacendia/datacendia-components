@@ -18,6 +18,23 @@ html {
 body {
   min-height: 100vh;
   background-color: #F8FAFC;
+  transition: background-color 0.2s ease;
+}
+
+/* Dark mode body */
+.dark body,
+html.dark body {
+  background-color: #030303;
+  color: #ffffff;
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #333333;
 }
 
 #root {

@@ -1,6 +1,26 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { HelpCircle, Mail, MessageSquare, Book, Clock, Shield, Phone } from 'lucide-react';
+import { HelpCircle, Mail, MessageSquare, Book, Clock, Shield, Phone, ArrowRight } from 'lucide-react';
+
+const ParticleField: React.FC = () => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+    canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+    const particles: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
+    for (let i = 0; i < 25; i++) particles.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, vx: (Math.random() - 0.5) * 0.15, vy: (Math.random() - 0.5) * 0.15, size: Math.random() * 1.5 + 0.5, opacity: Math.random() * 0.25 + 0.05 });
+    let animationId: number;
+    const animate = () => { ctx.clearRect(0, 0, canvas.width, canvas.height); particles.forEach((p) => { p.x += p.vx; p.y += p.vy; if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0; if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0; ctx.beginPath(); ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2); ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`; ctx.fill(); }); animationId = requestAnimationFrame(animate); };
+    animate();
+    const handleResize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; };
+    window.addEventListener('resize', handleResize);
+    return () => { cancelAnimationFrame(animationId); window.removeEventListener('resize', handleResize); };
+  }, []);
+  return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-0" />;
+};
 
 export const SupportPage: React.FC = () => {
   const supportChannels = [
@@ -52,51 +72,49 @@ export const SupportPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-50">
+    <div className="min-h-screen bg-black text-white font-light antialiased selection:bg-red-900/30 relative overflow-hidden">
+      <ParticleField />
+      <div className="fixed inset-0 pointer-events-none z-10" style={{ background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)' }} />
+
       {/* Header */}
-      <header className="bg-white border-b border-neutral-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-neutral-900 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold">D</span>
-            </div>
-            <span className="text-xl font-bold text-neutral-900">Datacendia</span>
-          </Link>
-          <nav className="flex items-center gap-4 text-sm">
-            <Link to="/docs" className="text-neutral-600 hover:text-neutral-900">Docs</Link>
-            <Link to="/contact" className="text-neutral-600 hover:text-neutral-900">Contact</Link>
-          </nav>
+      <nav className="relative z-30 border-b border-gray-900">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16">
+          <Link to="/sovereign" className="text-xl font-extralight tracking-[0.2em] text-white hover:text-red-100 transition-colors">DATACENDIA</Link>
+          <div className="flex items-center gap-8 text-xs tracking-[0.15em]">
+            <Link to="/docs" className="text-gray-500 hover:text-white transition-colors">DOCS</Link>
+            <Link to="/support" className="text-red-900">SUPPORT</Link>
+            <Link to="/sovereign" className="text-gray-500 hover:text-white transition-colors">SOVEREIGN</Link>
+          </div>
         </div>
-      </header>
+      </nav>
 
       {/* Hero */}
-      <section className="bg-neutral-900 text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <HelpCircle className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
-          <h1 className="text-3xl font-bold mb-4">Support</h1>
-          <p className="text-neutral-400">
-            We're here to help you succeed with Datacendia.
-          </p>
+      <section className="relative z-20 py-24">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <HelpCircle className="w-10 h-10 mx-auto mb-4 text-red-900" />
+          <p className="text-xs tracking-[0.4em] text-gray-600 uppercase mb-6">ASSISTANCE</p>
+          <h1 className="text-3xl font-extralight tracking-wide mb-4">Support</h1>
+          <p className="text-gray-500">We're here to help you succeed with Datacendia.</p>
         </div>
       </section>
 
       {/* Support Channels */}
-      <section className="py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-semibold text-center mb-8">Get Help</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+      <section className="relative z-20 py-12">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <h2 className="text-lg font-light text-center mb-8 text-white">Get Help</h2>
+          <div className="grid md:grid-cols-3 gap-4">
             {supportChannels.map((channel, index) => (
-              <div key={index} className="bg-white rounded-xl p-6 shadow-sm border border-neutral-200 text-center">
-                <channel.icon className="w-10 h-10 mx-auto mb-4 text-neutral-700" />
-                <h3 className="text-lg font-semibold mb-2">{channel.title}</h3>
-                <p className="text-neutral-500 text-sm mb-4">{channel.description}</p>
+              <div key={index} className="bg-black/50 backdrop-blur-sm border border-gray-800 hover:border-red-900/30 rounded p-6 text-center transition-colors">
+                <channel.icon className="w-8 h-8 mx-auto mb-4 text-red-900" />
+                <h3 className="text-lg font-medium text-white mb-2">{channel.title}</h3>
+                <p className="text-gray-500 text-sm mb-4">{channel.description}</p>
                 <a 
                   href={channel.href}
-                  className="inline-block px-4 py-2 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800 text-sm"
+                  className="inline-block px-4 py-2 border border-red-900/50 text-white text-sm hover:bg-red-900/10 transition-colors"
                 >
                   {channel.action}
                 </a>
-                <p className="text-xs text-neutral-400 mt-3 flex items-center justify-center gap-1">
+                <p className="text-xs text-gray-600 mt-3 flex items-center justify-center gap-1">
                   <Clock className="w-3 h-3" />
                   {channel.availability}
                 </p>
@@ -107,29 +125,25 @@ export const SupportPage: React.FC = () => {
       </section>
 
       {/* Support Tiers */}
-      <section className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl font-semibold text-center mb-8">Support Tiers</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+      <section className="relative z-20 py-12 border-t border-gray-900">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <h2 className="text-lg font-light text-center mb-8 text-white">Support Tiers</h2>
+          <div className="grid md:grid-cols-3 gap-4">
             {supportTiers.map((tier, index) => (
-              <div key={index} className={`rounded-xl p-6 border ${
+              <div key={index} className={`rounded p-6 border ${
                 tier.name === 'Sovereign' 
-                  ? 'bg-neutral-900 text-white border-neutral-700' 
-                  : 'bg-neutral-50 border-neutral-200'
+                  ? 'bg-red-900/10 border-red-900/50' 
+                  : 'bg-black/50 border-gray-800'
               }`}>
-                <h3 className="text-lg font-semibold mb-2">{tier.name}</h3>
+                <h3 className="text-lg font-medium text-white mb-2">{tier.name}</h3>
                 <div className="flex items-center gap-2 mb-4">
-                  <Clock className={`w-4 h-4 ${tier.name === 'Sovereign' ? 'text-cyan-400' : 'text-neutral-500'}`} />
-                  <span className={`text-sm ${tier.name === 'Sovereign' ? 'text-neutral-300' : 'text-neutral-500'}`}>
-                    {tier.responseTime} response
-                  </span>
+                  <Clock className={`w-4 h-4 ${tier.name === 'Sovereign' ? 'text-red-400' : 'text-gray-500'}`} />
+                  <span className="text-sm text-gray-400">{tier.responseTime} response</span>
                 </div>
                 <ul className="space-y-2">
                   {tier.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className={`text-sm flex items-center gap-2 ${
-                      tier.name === 'Sovereign' ? 'text-neutral-300' : 'text-neutral-600'
-                    }`}>
-                      <Shield className={`w-3 h-3 ${tier.name === 'Sovereign' ? 'text-cyan-400' : 'text-neutral-400'}`} />
+                    <li key={featureIndex} className="text-sm flex items-center gap-2 text-gray-400">
+                      <Shield className={`w-3 h-3 ${tier.name === 'Sovereign' ? 'text-red-400' : 'text-gray-600'}`} />
                       {feature}
                     </li>
                   ))}
@@ -141,26 +155,25 @@ export const SupportPage: React.FC = () => {
       </section>
 
       {/* Contact */}
-      <section className="py-12">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-xl font-semibold mb-4">Still Need Help?</h2>
-          <p className="text-neutral-600 mb-6">
-            Our team is available to answer any questions.
-          </p>
+      <section className="relative z-20 py-16 border-t border-gray-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <h2 className="text-xl font-light text-white mb-4">Still Need Help?</h2>
+          <p className="text-gray-500 mb-8 text-sm">Our team is available to answer any questions.</p>
           <Link 
-            to="/contact" 
-            className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800"
+            to="/sovereign" 
+            className="group inline-flex items-center gap-2 px-8 py-4 border-2 border-red-900 text-white text-sm tracking-wider hover:bg-red-900/10 transition-all"
           >
-            <Phone className="w-4 h-4" />
-            Contact Us
+            <Phone className="w-4 h-4 text-red-800" />
+            <span>Contact Us</span>
+            <ArrowRight className="w-4 h-4 text-red-800 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-neutral-100 py-8 border-t border-neutral-200">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-neutral-500">
-          <p>© {new Date().getFullYear()} Datacendia, Inc. All rights reserved.</p>
+      <footer className="relative z-20 py-12 border-t border-gray-900">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center text-[10px] text-gray-700 tracking-widest">
+          <p>© {new Date().getFullYear()} DATACENDIA • SOVEREIGN INTELLIGENCE</p>
         </div>
       </footer>
     </div>

@@ -14,6 +14,7 @@ import CommandPalette from '../components/CommandPalette';
 import SEO from '../components/SEO';
 import { Logo, LogoSimple } from '../components/brand/Logo';
 import { SimpleTooltip } from '../components/ui';
+import { ThemeToggle } from '../components/ui/ThemeToggle';
 import { useAuth } from '../contexts';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
@@ -639,6 +640,9 @@ const CortexLayoutInner: React.FC = () => {
               <Icons.Bell />
               <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-crimson-600 rounded-full" aria-hidden="true" />
             </button>
+
+            {/* Theme Toggle */}
+            <ThemeToggle />
 
             {/* Language Selector */}
             <LanguageSelector />

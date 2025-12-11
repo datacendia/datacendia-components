@@ -5,8 +5,131 @@
  * No pricing. No feature list. No trial. Pure exclusivity.
  */
 
-import React, { useState, useEffect } from 'react';
-import { ArrowRight } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { ArrowRight, Shield } from 'lucide-react';
+
+// Floating particles background
+const ParticleField: React.FC = () => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+    
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    
+    const particles: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
+    const particleCount = 50;
+    
+    for (let i = 0; i < particleCount; i++) {
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
+        size: Math.random() * 2 + 0.5,
+        opacity: Math.random() * 0.5 + 0.1,
+      });
+    }
+    
+    let animationId: number;
+    
+    const animate = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      
+      particles.forEach((p) => {
+        p.x += p.vx;
+        p.y += p.vy;
+        
+        if (p.x < 0) p.x = canvas.width;
+        if (p.x > canvas.width) p.x = 0;
+        if (p.y < 0) p.y = canvas.height;
+        if (p.y > canvas.height) p.y = 0;
+        
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`;
+        ctx.fill();
+      });
+      
+      // Draw connecting lines for nearby particles
+      particles.forEach((p1, i) => {
+        particles.slice(i + 1).forEach((p2) => {
+          const dx = p1.x - p2.x;
+          const dy = p1.y - p2.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          
+          if (dist < 150) {
+            ctx.beginPath();
+            ctx.moveTo(p1.x, p1.y);
+            ctx.lineTo(p2.x, p2.y);
+            ctx.strokeStyle = `rgba(127, 29, 29, ${0.1 * (1 - dist / 150)})`;
+            ctx.stroke();
+          }
+        });
+      });
+      
+      animationId = requestAnimationFrame(animate);
+    };
+    
+    animate();
+    
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+    
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      cancelAnimationFrame(animationId);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+  
+  return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-0" />;
+};
+
+// Scan lines overlay for classified feel
+const ScanLines: React.FC = () => (
+  <div 
+    className="fixed inset-0 pointer-events-none z-10 opacity-[0.03]"
+    style={{
+      backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 4px)',
+    }}
+  />
+);
+
+// Glitch text effect
+const GlitchText: React.FC<{ children: string; className?: string }> = ({ children, className }) => {
+  const [isGlitching, setIsGlitching] = useState(false);
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsGlitching(true);
+      setTimeout(() => setIsGlitching(false), 200);
+    }, 5000 + Math.random() * 3000);
+    
+    return () => clearInterval(interval);
+  }, []);
+  
+  return (
+    <span className={`relative inline-block ${className}`}>
+      <span className={isGlitching ? 'opacity-0' : ''}>{children}</span>
+      {isGlitching && (
+        <>
+          <span className="absolute inset-0 text-red-900/80" style={{ transform: 'translate(-2px, 0)', clipPath: 'inset(20% 0 30% 0)' }}>{children}</span>
+          <span className="absolute inset-0 text-cyan-900/80" style={{ transform: 'translate(2px, 0)', clipPath: 'inset(50% 0 10% 0)' }}>{children}</span>
+          <span className="absolute inset-0">{children}</span>
+        </>
+      )}
+    </span>
+  );
+};
 
 // Live counter animation hook
 const useAnimatedCounter = (target: number, duration: number = 2000) => {
@@ -155,7 +278,15 @@ const SovereignLandingPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-black text-white font-light antialiased selection:bg-red-900/30">
+    <div className="min-h-screen bg-black text-white font-light antialiased selection:bg-red-900/30 relative overflow-hidden">
+      {/* Background Effects */}
+      <ParticleField />
+      <ScanLines />
+      
+      {/* Vignette overlay */}
+      <div className="fixed inset-0 pointer-events-none z-10" style={{
+        background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)'
+      }} />
       
       {/* Hero Section - Full Screen */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6 relative">
@@ -163,7 +294,7 @@ const SovereignLandingPage: React.FC = () => {
         {/* Logo / Brand */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-extralight tracking-[0.3em] text-white mb-4">
-            DATACENDIA
+            <GlitchText>DATACENDIA</GlitchText>
           </h1>
           <p className="text-sm tracking-[0.4em] text-gray-500 uppercase">
             Sovereign Intelligence Platform
@@ -316,10 +447,14 @@ const SovereignLandingPage: React.FC = () => {
         {/* Request Access Button - CendiaVeto™ crimson */}
         <button
           onClick={() => setShowModal(true)}
-          className="group px-10 py-5 border-2 border-red-900 bg-black hover:bg-red-900/10 transition-all duration-300 flex items-center gap-3"
+          className="group relative px-10 py-5 border-2 border-red-900 bg-black hover:bg-red-900/10 transition-all duration-300 flex items-center gap-3 overflow-hidden"
         >
-          <span className="text-sm tracking-[0.25em] text-white font-medium">Request Access</span>
-          <ArrowRight className="w-4 h-4 text-red-800 group-hover:translate-x-1 transition-transform" />
+          {/* Pulse glow effect */}
+          <span className="absolute inset-0 bg-red-900/20 animate-pulse" />
+          <span className="absolute inset-0 bg-gradient-to-r from-transparent via-red-900/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
+          <Shield className="w-4 h-4 text-red-800 relative z-10" />
+          <span className="text-sm tracking-[0.25em] text-white font-medium relative z-10">Request Access</span>
+          <ArrowRight className="w-4 h-4 text-red-800 group-hover:translate-x-1 transition-transform relative z-10" />
         </button>
 
         {/* Scroll indicator */}
@@ -335,44 +470,6 @@ const SovereignLandingPage: React.FC = () => {
         <p className="text-center text-gray-500 text-lg md:text-xl font-light mb-24 tracking-wide">
           For organizations that cannot afford to be tenants.
         </p>
-
-        {/* Client Logos - Monochrome Silhouettes */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-16 mb-24 max-w-4xl">
-          <div className="flex flex-col items-center gap-4">
-            <div className="w-16 h-16 border border-gray-800 rounded flex items-center justify-center">
-              <svg className="w-8 h-8 text-gray-700" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="1" fill="none"/>
-              </svg>
-            </div>
-            <span className="text-[10px] text-gray-600 text-center tracking-wider">A TIER-1<br/>EUROPEAN BANK</span>
-          </div>
-          <div className="flex flex-col items-center gap-4">
-            <div className="w-16 h-16 border border-gray-800 rounded flex items-center justify-center">
-              <svg className="w-8 h-8 text-gray-700" viewBox="0 0 24 24" fill="currentColor">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="1" fill="none"/>
-                <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="1" fill="none"/>
-              </svg>
-            </div>
-            <span className="text-[10px] text-gray-600 text-center tracking-wider">A GULF<br/>SOVEREIGN FUND</span>
-          </div>
-          <div className="flex flex-col items-center gap-4">
-            <div className="w-16 h-16 border border-gray-800 rounded flex items-center justify-center">
-              <svg className="w-8 h-8 text-gray-700" viewBox="0 0 24 24" fill="currentColor">
-                <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="1" fill="none"/>
-                <path d="M12 2v4M12 18v4M2 12h4M18 12h4" stroke="currentColor" strokeWidth="1"/>
-              </svg>
-            </div>
-            <span className="text-[10px] text-gray-600 text-center tracking-wider">A PREMIER LEAGUE<br/>FOOTBALL CLUB</span>
-          </div>
-          <div className="flex flex-col items-center gap-4">
-            <div className="w-16 h-16 border border-gray-800 rounded flex items-center justify-center">
-              <svg className="w-8 h-8 text-gray-700" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z" stroke="currentColor" strokeWidth="1" fill="none"/>
-              </svg>
-            </div>
-            <span className="text-[10px] text-gray-600 text-center tracking-wider">A NATO<br/>MEMBER STATE</span>
-          </div>
-        </div>
 
         {/* Live Counters */}
         <div className="flex flex-wrap justify-center gap-12 md:gap-24 mb-24">
@@ -401,7 +498,7 @@ const SovereignLandingPage: React.FC = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-16 px-6 border-t border-gray-900">
+      <footer className="py-16 px-6 border-t border-gray-900 relative z-20">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-xs text-gray-600 leading-relaxed max-w-2xl mx-auto mb-8">
             Datacendia runs entirely on your hardware, in your vault, under your control.
