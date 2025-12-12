@@ -121,19 +121,24 @@ export const HomePage: React.FC = () => {
       <section className="pt-32 pb-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-50 text-primary-700 rounded-full text-sm font-medium mb-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-50 text-primary-700 rounded-full text-sm font-medium mb-4">
               <span>🚀</span>
-              <span>Introducing The Cortex — Sovereign Enterprise Intelligence</span>
+              <span>Sovereign Enterprise Intelligence Platform</span>
             </div>
+            
+            <p className="text-xs text-neutral-500 uppercase tracking-widest mb-6">Datacendia is a Sovereign Enterprise Intelligence Platform</p>
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-900 leading-tight mb-6">
               Your organization's intelligence,{' '}
               <span className="text-primary-600">sovereign and whole</span>
             </h1>
             
-            <p className="text-xl text-neutral-600 mb-10 max-w-2xl mx-auto">
-              Datacendia unifies your data, decisions, and destiny. The Cortex is the unified 
-              intelligence platform where AI agents deliberate, insights emerge, and actions flow.
+            <p className="text-xl text-neutral-600 mb-4 max-w-2xl mx-auto">
+              A governed decision layer that runs on your infrastructure, replays any moment in time, and proves why you made each decision.
+            </p>
+            
+            <p className="text-base text-neutral-500 mb-10 max-w-xl mx-auto italic">
+              "We do not host your data. We return your mind."
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -141,7 +146,7 @@ export const HomePage: React.FC = () => {
                 to="/demo"
                 className="w-full sm:w-auto px-8 py-4 bg-primary-600 text-white font-medium rounded-xl hover:bg-primary-700 active:scale-95 transition-all duration-200 text-lg cursor-pointer"
               >
-                Request Demo
+                Request Early Access
               </Link>
               <Link
                 to="/product"
@@ -177,6 +182,51 @@ export const HomePage: React.FC = () => {
                 <p className="text-primary-600 font-semibold mt-4 animate-pulse">The Cortex</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================================================================= */}
+      {/* FIRST SCROLL - THREE CORE CAPABILITIES */}
+      {/* ================================================================= */}
+      <section className="py-16 bg-gradient-to-b from-white to-neutral-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Chronos - Rewind Any Decision */}
+            <Link to="/cortex/intelligence/chronos" className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300">
+              <div className="w-14 h-14 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform">
+                ⏪
+              </div>
+              <h3 className="text-xl font-bold text-neutral-900 mb-2">Rewind Any Decision</h3>
+              <p className="text-neutral-600 text-sm leading-relaxed">
+                Travel back to any moment in your organization's history. See exactly what was known, who decided, and why. Built for audits and "why did we do that?" moments.
+              </p>
+              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">CendiaChronos™ →</p>
+            </Link>
+
+            {/* Council - Governed AI Council */}
+            <Link to="/cortex/council" className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300">
+              <div className="w-14 h-14 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform">
+                👥
+              </div>
+              <h3 className="text-xl font-bold text-neutral-900 mb-2">Governed AI Council</h3>
+              <p className="text-neutral-600 text-sm leading-relaxed">
+                Don't ask one AI. Convene a council. CFO, CISO, Ethics Officer—they debate, dissent, and reach consensus. Every deliberation is recorded.
+              </p>
+              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">The Council™ →</p>
+            </Link>
+
+            {/* Honesty Matrices - Radical Transparency */}
+            <Link to="/honesty" className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300">
+              <div className="w-14 h-14 bg-gradient-to-br from-red-100 to-rose-100 rounded-xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform">
+                🔍
+              </div>
+              <h3 className="text-xl font-bold text-neutral-900 mb-2">Radical Transparency</h3>
+              <p className="text-neutral-600 text-sm leading-relaxed">
+                We publish what we can't do. Every limitation, every tradeoff, every honest answer—before you buy. See our Honesty Matrices.
+              </p>
+              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">View Honesty Matrices →</p>
+            </Link>
           </div>
         </div>
       </section>

@@ -493,10 +493,37 @@ export const PulsePage: React.FC = () => {
             
             {/* Health Dimensions */}
             <div className="bg-neutral-800/50 rounded-lg border border-neutral-700 p-4">
-              <p className="text-xs text-neutral-400 uppercase tracking-wider mb-3">Health Breakdown</p>
+              <div className="flex items-center justify-between mb-3">
+                <p className="text-xs text-neutral-400 uppercase tracking-wider">Health Breakdown</p>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => navigate('/cortex/intelligence/chronos?filter=health')}
+                    className="text-[10px] text-cyan-400 hover:text-cyan-300 transition-colors"
+                  >
+                    View incidents in Chronos →
+                  </button>
+                </div>
+              </div>
               <div className="grid grid-cols-2 gap-3">
                 {dimensions.map(dim => (
-                  <HealthDimensionCard key={dim.id} dimension={dim} />
+                  <div 
+                    key={dim.id}
+                    className="cursor-pointer group"
+                    onClick={() => navigate(`/cortex/intelligence/chronos?filter=${dim.name.toLowerCase().replace(' ', '-')}`)}
+                  >
+                    <HealthDimensionCard dimension={dim} />
+                    <div className="mt-1 flex justify-between opacity-0 group-hover:opacity-100 transition-opacity">
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          navigate(`/cortex/council?q=Why did ${dim.name} change by ${dim.trend}%? What factors are affecting it?`);
+                        }}
+                        className="text-[10px] text-primary-400 hover:text-primary-300"
+                      >
+                        Ask Council →
+                      </button>
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>

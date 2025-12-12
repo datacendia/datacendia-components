@@ -54,6 +54,7 @@ const ShowcasesPage = lazy(() => import('./pages/public/ShowcasesPage'));
 const ServicesPage = lazy(() => import('./pages/public/services-packages').then(m => ({ default: m.ServicesPage })));
 const PackagesPage = lazy(() => import('./pages/public/services-packages').then(m => ({ default: m.PackagesPage })));
 const HonestyMatricesPage = lazy(() => import('./pages/public/HonestyMatricesPage'));
+const SovereignEnterpriseIntelligencePage = lazy(() => import('./pages/public/SovereignEnterpriseIntelligencePage'));
 
 // Legal
 const PrivacyPolicyPage = lazy(() => import('./pages/legal').then(m => ({ default: m.PrivacyPolicyPage })));
@@ -281,6 +282,18 @@ export const router = createBrowserRouter([
   {
     path: '/packages',
     element: <SuspenseWrapper><PackagesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/sovereign-enterprise-intelligence',
+    element: <SuspenseWrapper><SovereignEnterpriseIntelligencePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/sei',
+    element: <SuspenseWrapper><SovereignEnterpriseIntelligencePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/category',
+    element: <SuspenseWrapper><SovereignEnterpriseIntelligencePage /></SuspenseWrapper>,
   },
   {
     path: '/honesty',

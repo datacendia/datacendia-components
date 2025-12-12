@@ -153,34 +153,34 @@ const apexProducts = [
   { id: 'sentry', label: 'CendiaSentry™', icon: '🔔', path: '/apex/sentry', description: 'Intelligent Alert & Monitoring System' },
 ];
 
-// Enterprise Suite (High-Value Features - $10B+ Valuation Potential)
+// Enterprise Suite (High-Value Features)
 const enterpriseFeatures = [
-  { id: 'sovereign', label: 'CendiaSovereign™', icon: '🏰', path: '/cortex/enterprise/sovereign', description: 'Fully Local LLM Cluster Orchestrator', valuation: '+$400M' },
-  { id: 'persona-forge', label: 'CendiaPersonaForge™', icon: '🧠', path: '/cortex/enterprise/persona-forge', description: 'Enterprise-Trained Digital Twins', valuation: '+$1B' },
-  { id: 'mesh', label: 'CendiaMesh™', icon: '🕸️', path: '/cortex/enterprise/mesh', description: 'Cross-Company Decision Network', valuation: '+$3-5B' },
-  { id: 'govern', label: 'CendiaGovern™', icon: '⚖️', path: '/cortex/enterprise/govern', description: 'Legal-Grade Policy & Audit Mapping', valuation: '+$1-3B' },
-  { id: 'voice', label: 'CendiaVoice™', icon: '🎙️', path: '/cortex/enterprise/voice', description: 'AI C-Suite Real-Time Conversation', valuation: '+$500M' },
-  { id: 'autopilot', label: 'CendiaAutopilot™', icon: '🚀', path: '/cortex/enterprise/autopilot', description: 'Self-Driving Enterprise Mode', valuation: 'Unbounded' },
-  { id: 'genomics', label: 'CendiaGenomics™', icon: '🧬', path: '/cortex/enterprise/genomics', description: 'Healthcare & Life Sciences Pack', valuation: '+$2-4B' },
-  { id: 'defense-stack', label: 'CendiaDefenseStack™', icon: '🛡️', path: '/cortex/enterprise/defense-stack', description: 'Government/Defense Edition', valuation: '+$1-2B' },
-  { id: 'omni-translate', label: 'CendiaOmniTranslate™', icon: '🌍', path: '/cortex/enterprise/omni-translate', description: '100-Language Enterprise Translator', valuation: '+$500M' },
-  { id: 'veto', label: 'CendiaVeto™', icon: '🚫', path: '/cortex/enterprise/veto', description: 'Adversarial Governance Engine', valuation: '+$800M' },
-  { id: 'union', label: 'CendiaUnion™', icon: '🤝', path: '/cortex/enterprise/union', description: 'Employee Rights & Wellness Engine', valuation: '+$600M' },
-  { id: 'ledger', label: 'CendiaLedger™', icon: '📒', path: '/cortex/enterprise/ledger', description: 'Immutable Decision Blockchain', valuation: '+$1B' },
+  { id: 'sovereign', label: 'CendiaSovereign™', icon: '🏰', path: '/cortex/enterprise/sovereign', description: 'Fully Local LLM Cluster Orchestrator', impact: 'Critical', tier: 'Apex' },
+  { id: 'persona-forge', label: 'CendiaPersonaForge™', icon: '🧠', path: '/cortex/enterprise/persona-forge', description: 'Enterprise-Trained Digital Twins', impact: 'Critical', tier: 'Apex' },
+  { id: 'mesh', label: 'CendiaMesh™', icon: '🕸️', path: '/cortex/enterprise/mesh', description: 'Cross-Company Decision Network', impact: 'Critical', tier: 'Apex' },
+  { id: 'govern', label: 'CendiaGovern™', icon: '⚖️', path: '/cortex/enterprise/govern', description: 'Legal-Grade Policy & Audit Mapping', impact: 'Critical', tier: 'Apex' },
+  { id: 'voice', label: 'CendiaVoice™', icon: '🎙️', path: '/cortex/enterprise/voice', description: 'AI C-Suite Real-Time Conversation', impact: 'High', tier: 'Enterprise' },
+  { id: 'autopilot', label: 'CendiaAutopilot™', icon: '🚀', path: '/cortex/enterprise/autopilot', description: 'Self-Driving Enterprise Mode', impact: 'Critical', tier: 'Apex' },
+  { id: 'genomics', label: 'CendiaGenomics™', icon: '🧬', path: '/cortex/enterprise/genomics', description: 'Healthcare & Life Sciences Pack', impact: 'Critical', tier: 'Industry' },
+  { id: 'defense-stack', label: 'CendiaDefenseStack™', icon: '🛡️', path: '/cortex/enterprise/defense-stack', description: 'Government/Defense Edition', impact: 'Critical', tier: 'Industry' },
+  { id: 'omni-translate', label: 'CendiaOmniTranslate™', icon: '🌍', path: '/cortex/enterprise/omni-translate', description: '100-Language Enterprise Translator', impact: 'High', tier: 'Enterprise' },
+  { id: 'veto', label: 'CendiaVeto™', icon: '🚫', path: '/cortex/enterprise/veto', description: 'Adversarial Governance Engine', impact: 'High', tier: 'Enterprise' },
+  { id: 'union', label: 'CendiaUnion™', icon: '🤝', path: '/cortex/enterprise/union', description: 'Employee Rights & Wellness Engine', impact: 'High', tier: 'Enterprise' },
+  { id: 'ledger', label: 'CendiaLedger™', icon: '📒', path: '/cortex/enterprise/ledger', description: 'Immutable Decision Blockchain', impact: 'Critical', tier: 'Apex' },
   // Strategic Intelligence Services
-  { id: 'echo', label: 'CendiaEcho™', icon: '📊', path: '/cortex/crown/echo', description: 'Decision Outcome Engine - Measure ROI', valuation: '$5-15M/yr' },
-  { id: 'redteam', label: 'CendiaRedTeam™', icon: '💀', path: '/cortex/crown/redteam', description: 'Adversarial Security Testing', valuation: '$8-20M/yr' },
-  { id: 'gnosis', label: 'CendiaGnosis™', icon: '🎓', path: '/cortex/crown/gnosis', description: 'AI-Powered Learning Paths', valuation: '$25-150M/yr' },
+  { id: 'echo', label: 'CendiaEcho™', icon: '📊', path: '/cortex/crown/echo', description: 'Decision Outcome Engine - Measure ROI', impact: 'High', tier: 'Core' },
+  { id: 'redteam', label: 'CendiaRedTeam™', icon: '💀', path: '/cortex/crown/redteam', description: 'Adversarial Security Testing', impact: 'High', tier: 'Core' },
+  { id: 'gnosis', label: 'CendiaGnosis™', icon: '🎓', path: '/cortex/crown/gnosis', description: 'AI-Powered Learning Paths', impact: 'Strategic', tier: 'Core' },
 ];
 
 // Sovereign Tier (Premium Enterprise - Regulation, Defense, Long-Horizon)
 const sovereignFeatures = [
-  { id: 'crucible', label: 'CendiaCrucible™', icon: '🔥', path: '/cortex/sovereign/crucible', description: 'Strategic Decision Forge', valuation: '+$1B' },
-  { id: 'panopticon', label: 'CendiaPanopticon™', icon: '👁️', path: '/cortex/sovereign/panopticon', description: 'Global Regulation Engine - 25+ Frameworks', valuation: '+$2B' },
-  { id: 'aegis', label: 'CendiaAegis™', icon: '🛡️', path: '/cortex/sovereign/aegis', description: 'Strategic Defense Intelligence', valuation: '+$1.5B' },
-  { id: 'eternal', label: 'CendiaEternal™', icon: '♾️', path: '/cortex/sovereign/eternal', description: 'Ultra-Long Horizon Archive (100+ years)', valuation: '+$800M' },
-  { id: 'symbiont', label: 'CendiaSymbiont™', icon: '🌐', path: '/cortex/sovereign/symbiont', description: 'Partnership & Ecosystem Engine', valuation: '+$1.2B' },
-  { id: 'vox', label: 'CendiaVox™', icon: '🗣️', path: '/cortex/sovereign/vox', description: 'Stakeholder Voice Assembly', valuation: '+$900M' },
+  { id: 'crucible', label: 'CendiaCrucible™', icon: '🔥', path: '/cortex/sovereign/crucible', description: 'Strategic Decision Forge', impact: 'Critical', tier: 'Sovereign' },
+  { id: 'panopticon', label: 'CendiaPanopticon™', icon: '👁️', path: '/cortex/sovereign/panopticon', description: 'Global Regulation Engine - 25+ Frameworks', impact: 'Critical', tier: 'Sovereign' },
+  { id: 'aegis', label: 'CendiaAegis™', icon: '🛡️', path: '/cortex/sovereign/aegis', description: 'Strategic Defense Intelligence', impact: 'Critical', tier: 'Sovereign' },
+  { id: 'eternal', label: 'CendiaEternal™', icon: '♾️', path: '/cortex/sovereign/eternal', description: 'Ultra-Long Horizon Archive (100+ years)', impact: 'Strategic', tier: 'Sovereign' },
+  { id: 'symbiont', label: 'CendiaSymbiont™', icon: '🌐', path: '/cortex/sovereign/symbiont', description: 'Partnership & Ecosystem Engine', impact: 'High', tier: 'Sovereign' },
+  { id: 'vox', label: 'CendiaVox™', icon: '🗣️', path: '/cortex/sovereign/vox', description: 'Stakeholder Voice Assembly', impact: 'High', tier: 'Sovereign' },
 ];
 
 
@@ -560,7 +560,7 @@ const CortexLayoutInner: React.FC = () => {
                           <div className="text-left flex-1">
                             <div className="flex items-center justify-between">
                               <p className="font-medium text-white text-sm">{feature.label}</p>
-                              <span className="text-xs px-2 py-0.5 bg-crimson-900/30 text-crimson-400 rounded-full">{feature.valuation}</span>
+                              <span className={`text-xs px-2 py-0.5 rounded-full ${feature.impact === 'Critical' ? 'bg-red-900/30 text-red-400' : feature.impact === 'High' ? 'bg-amber-900/30 text-amber-400' : 'bg-cyan-900/30 text-cyan-400'}`}>{feature.impact}</span>
                             </div>
                             <p className="text-xs text-gray-500">{feature.description}</p>
                           </div>
@@ -568,7 +568,7 @@ const CortexLayoutInner: React.FC = () => {
                       ))}
                     </div>
                     <div className="p-3 bg-sovereign-elevated border-t border-sovereign-border-subtle">
-                      <p className="text-xs text-crimson-400 text-center font-medium">🚀 $10B+ Valuation Potential</p>
+                      <p className="text-xs text-crimson-400 text-center font-medium">🚀 Enterprise Suite • Multi-billion impact potential</p>
                     </div>
                   </div>
                 </>
@@ -617,7 +617,7 @@ const CortexLayoutInner: React.FC = () => {
                           <div className="text-left flex-1">
                             <div className="flex items-center justify-between">
                               <p className="font-medium text-white text-sm">{feature.label}</p>
-                              <span className="text-xs px-2 py-0.5 bg-crimson-900/30 text-crimson-400 rounded-full">{feature.valuation}</span>
+                              <span className={`text-xs px-2 py-0.5 rounded-full ${feature.impact === 'Critical' ? 'bg-red-900/30 text-red-400' : feature.impact === 'High' ? 'bg-amber-900/30 text-amber-400' : 'bg-cyan-900/30 text-cyan-400'}`}>{feature.impact}</span>
                             </div>
                             <p className="text-xs text-gray-500">{feature.description}</p>
                           </div>
@@ -625,7 +625,7 @@ const CortexLayoutInner: React.FC = () => {
                       ))}
                     </div>
                     <div className="p-3 bg-crimson-950/50 border-t border-crimson-900/30">
-                      <p className="text-xs text-crimson-400 text-center font-medium">👑 $7B+ Valuation Potential</p>
+                      <p className="text-xs text-crimson-400 text-center font-medium">👑 Sovereign Tier • Critical enterprise capabilities</p>
                     </div>
                   </div>
                 </>

@@ -19,7 +19,7 @@ interface PremiumFeaturesModalProps {
   currentFeatures?: string[]; // Already purchased feature IDs
 }
 
-type ViewMode = 'features' | 'bundles';
+type ViewMode = 'features' | 'bundles' | 'agents';
 type BillingCycle = 'monthly' | 'annual';
 
 const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
@@ -292,6 +292,15 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               >
                 📦 Individual Features
               </button>
+              <button
+                onClick={() => setViewMode('agents')}
+                className={cn(
+                  'px-4 py-2 rounded-md text-sm font-medium transition-all',
+                  viewMode === 'agents' ? 'bg-white text-primary-600' : 'text-white hover:bg-white/10'
+                )}
+              >
+                🤖 Premium Agents
+              </button>
             </div>
 
             {/* Billing Toggle */}
@@ -361,9 +370,128 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {PREMIUM_BUNDLES.map(bundle => renderBundleCard(bundle))}
             </div>
-          ) : (
+          ) : viewMode === 'features' ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredFeatures.map(feature => renderFeatureCard(feature))}
+            </div>
+          ) : (
+            <div className="space-y-6">
+              {/* Premium Agents Tab Content */}
+              <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-4 mb-4">
+                <p className="text-sm text-amber-800">
+                  <span className="font-semibold">🔓 Unlock Premium Agents</span> — Get access to specialized AI agents for compliance, healthcare, finance, and legal domains by purchasing the relevant feature packs above.
+                </p>
+              </div>
+              
+              {/* Audit & Compliance Agents */}
+              <div>
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-sm font-semibold text-neutral-700">External & Audit Agents</span>
+                  <span className="text-[10px] bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">Audit Excellence Pack</span>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  {[
+                    { name: 'External Auditor', desc: 'Independent Third-Party Audit', icon: '🔍' },
+                    { name: 'Internal Auditor', desc: 'Internal Controls & Process Audit', icon: '📋' },
+                  ].map((agent, i) => (
+                    <div key={i} className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow">
+                      <div className="text-2xl mb-2">{agent.icon}</div>
+                      <p className="font-medium text-neutral-900 text-sm">{agent.name}</p>
+                      <p className="text-xs text-neutral-500">{agent.desc}</p>
+                      <button 
+                        onClick={() => onPurchase?.('audit-excellence', 'feature')}
+                        className="mt-3 w-full text-xs py-1.5 bg-amber-100 text-amber-700 rounded-lg hover:bg-amber-200 transition-colors"
+                      >
+                        Unlock with Audit Pack
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Healthcare Agents */}
+              <div>
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-sm font-semibold text-neutral-700">Clinical / Healthcare Agents</span>
+                  <span className="text-[10px] bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded-full font-medium">Healthcare Industry Pack</span>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  {[
+                    { name: 'Chief Medical Information Officer', desc: 'Healthcare IT & Clinical Systems', icon: '🏥' },
+                    { name: 'Patient Safety Officer', desc: 'Clinical Safety & Quality', icon: '🛡️' },
+                    { name: 'Healthcare Compliance Officer', desc: 'HIPAA & Healthcare Regulations', icon: '⚖️' },
+                    { name: 'Clinical Operations Director', desc: 'Healthcare Operations & Efficiency', icon: '📊' },
+                  ].map((agent, i) => (
+                    <div key={i} className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow">
+                      <div className="text-2xl mb-2">{agent.icon}</div>
+                      <p className="font-medium text-neutral-900 text-sm">{agent.name}</p>
+                      <p className="text-xs text-neutral-500">{agent.desc}</p>
+                      <button 
+                        onClick={() => onPurchase?.('healthcare-industry', 'feature')}
+                        className="mt-3 w-full text-xs py-1.5 bg-cyan-100 text-cyan-700 rounded-lg hover:bg-cyan-200 transition-colors"
+                      >
+                        Unlock with Healthcare Pack
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Finance Agents */}
+              <div>
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-sm font-semibold text-neutral-700">Finance & Investment Agents</span>
+                  <span className="text-[10px] bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full font-medium">Finance Industry Pack</span>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  {[
+                    { name: 'Quantitative Analyst', desc: 'Financial Modeling & Risk Analytics', icon: '📈' },
+                    { name: 'Portfolio Manager', desc: 'Investment Strategy & Asset Allocation', icon: '💼' },
+                    { name: 'Credit Risk Officer', desc: 'Credit Analysis & Risk Assessment', icon: '🏦' },
+                    { name: 'Treasury Analyst', desc: 'Cash Management & Liquidity', icon: '💰' },
+                  ].map((agent, i) => (
+                    <div key={i} className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow">
+                      <div className="text-2xl mb-2">{agent.icon}</div>
+                      <p className="font-medium text-neutral-900 text-sm">{agent.name}</p>
+                      <p className="text-xs text-neutral-500">{agent.desc}</p>
+                      <button 
+                        onClick={() => onPurchase?.('finance-industry', 'feature')}
+                        className="mt-3 w-full text-xs py-1.5 bg-emerald-100 text-emerald-700 rounded-lg hover:bg-emerald-200 transition-colors"
+                      >
+                        Unlock with Finance Pack
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Legal Agents */}
+              <div>
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-sm font-semibold text-neutral-700">Legal & Compliance Agents</span>
+                  <span className="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full font-medium">Legal Industry Pack</span>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  {[
+                    { name: 'Contract Specialist', desc: 'Contract Analysis & Negotiation', icon: '📝' },
+                    { name: 'Intellectual Property Counsel', desc: 'Patents, Trademarks & IP Strategy', icon: '💡' },
+                    { name: 'Litigation Expert', desc: 'Dispute Resolution & Trial Strategy', icon: '⚖️' },
+                    { name: 'Regulatory Affairs Counsel', desc: 'Government Relations & Compliance', icon: '🏛️' },
+                  ].map((agent, i) => (
+                    <div key={i} className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow">
+                      <div className="text-2xl mb-2">{agent.icon}</div>
+                      <p className="font-medium text-neutral-900 text-sm">{agent.name}</p>
+                      <p className="text-xs text-neutral-500">{agent.desc}</p>
+                      <button 
+                        onClick={() => onPurchase?.('legal-industry', 'feature')}
+                        className="mt-3 w-full text-xs py-1.5 bg-purple-100 text-purple-700 rounded-lg hover:bg-purple-200 transition-colors"
+                      >
+                        Unlock with Legal Pack
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           )}
         </div>

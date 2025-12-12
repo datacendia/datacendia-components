@@ -280,24 +280,41 @@ export const DashboardPage: React.FC = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-lg font-semibold text-neutral-900">{t('dashboard.health_score')}</h2>
+              <h2 className="text-lg font-semibold text-neutral-900" title="Composite of Data, Operations, Security, and People – computed from the last 7 days of signals">{t('dashboard.health_score')} ℹ️</h2>
               <p className="text-sm text-success-main font-medium">▲ +3 {t('dashboard.fromLastWeek')}</p>
             </div>
           </div>
 
           {/* Dimensions */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 flex-1 lg:max-w-xl">
-            {Object.entries(healthScore.dimensions).map(([key, data]) => (
-              <div key={key} className="text-center p-3 bg-neutral-50 rounded-lg">
-                <p className="text-xs font-medium text-neutral-500 uppercase tracking-wider mb-1">
-                  {t(`dashboard.${key}`)}
-                </p>
-                <p className="text-2xl font-bold text-neutral-900">{data.score}</p>
-                <p className={cn('text-xs font-medium', getTrendColor(data.trend, true))}>
-                  {getTrendIcon(data.trend)} {Math.abs(data.change)}
-                </p>
-              </div>
-            ))}
+            {Object.entries(healthScore.dimensions).map(([key, data]) => {
+              const lowestScore = Math.min(...Object.values(healthScore.dimensions).map(d => d.score));
+              const isLowest = data.score === lowestScore;
+              return (
+                <div 
+                  key={key} 
+                  className={cn(
+                    "text-center p-3 rounded-lg cursor-pointer transition-all hover:shadow-md group relative",
+                    isLowest ? "bg-amber-50 ring-1 ring-amber-200" : "bg-neutral-50"
+                  )}
+                  onClick={() => navigate(`/cortex/intelligence/chronos?filter=${key}`)}
+                  title={`Click to view ${key} events in Chronos`}
+                >
+                  <p className="text-xs font-medium text-neutral-500 uppercase tracking-wider mb-1">
+                    {t(`dashboard.${key}`)}
+                    {isLowest && <span className="ml-1 text-amber-600">⚠️</span>}
+                  </p>
+                  <p className="text-2xl font-bold text-neutral-900">{data.score}</p>
+                  <p className={cn('text-xs font-medium', getTrendColor(data.trend, true))}>
+                    {getTrendIcon(data.trend)} {Math.abs(data.change)}
+                  </p>
+                  {/* Tooltip */}
+                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-2 bg-neutral-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
+                    {isLowest ? 'Lowest score - click to investigate' : 'View in Chronos'}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -329,11 +346,12 @@ export const DashboardPage: React.FC = () => {
               </span>
             </div>
 
-            {/* Alert list */}
+            {/* Alert list - clickable to Chronos */}
             {(alerts.length > 0 ? alerts : fallbackAlerts).slice(0, 4).map((alert) => (
               <div
                 key={alert.id}
-                className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 cursor-pointer transition-colors"
+                onClick={() => navigate(`/cortex/intelligence/chronos?alertId=${alert.id}&timestamp=${alert.timestamp.toISOString()}`)}
+                className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 cursor-pointer transition-colors group"
               >
                 <span className={cn(
                   'mt-0.5 w-2 h-2 rounded-full flex-shrink-0',
@@ -345,6 +363,9 @@ export const DashboardPage: React.FC = () => {
                   <p className="text-sm text-neutral-900 truncate">{alert.title}</p>
                   <p className="text-xs text-neutral-500">{formatRelativeTime(alert.timestamp)}</p>
                 </div>
+                <span className="text-xs text-primary-500 opacity-0 group-hover:opacity-100 transition-opacity">
+                  View in Chronos →
+                </span>
               </div>
             ))}
           </div>
@@ -441,7 +462,18 @@ export const DashboardPage: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Ask the Council */}
         <div className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-xl p-6 text-white">
-          <h3 className="text-lg font-semibold mb-4">{t('dashboard.askTheCouncil')}</h3>
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h3 className="text-lg font-semibold">{t('dashboard.askTheCouncil')}</h3>
+              <p className="text-xs text-white/60">Council: Multi-agent deliberation on live data</p>
+            </div>
+            <button
+              onClick={() => navigate('/cortex/council?tab=decisions')}
+              className="text-xs text-white/80 hover:text-white bg-white/10 px-3 py-1.5 rounded-lg transition-colors"
+            >
+              📝 Recent Decisions
+            </button>
+          </div>
           
           <div className="relative mb-4">
             <input

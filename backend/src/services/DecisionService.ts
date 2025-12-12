@@ -6,7 +6,9 @@
 
 import { BaseService } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
-// Events will be added when EventBus interface is finalized
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -168,6 +170,23 @@ export class DecisionService extends BaseService {
   }
 
   // ---------------------------------------------------------------------------
+  // HELPERS
+  // ---------------------------------------------------------------------------
+
+  private mapDbStatusToInterface(dbStatus: string): Decision['status'] {
+    const mapping: Record<string, Decision['status']> = {
+      'PENDING': 'draft',
+      'BLOCKED': 'analyzing',
+      'DEFERRED': 'deliberating',
+      'ESCALATED': 'deliberating',
+      'APPROVED': 'decided',
+      'REJECTED': 'closed',
+      'IMPLEMENTED': 'implemented',
+    };
+    return mapping[dbStatus] || 'draft';
+  }
+
+  // ---------------------------------------------------------------------------
   // DECISION CRUD
   // ---------------------------------------------------------------------------
 
@@ -244,6 +263,61 @@ export class DecisionService extends BaseService {
   }
 
   async getDecision(decisionId: string): Promise<Decision | null> {
+    // Try database first
+    try {
+      const dbDecision = await prisma.decisions.findUnique({
+        where: { id: decisionId },
+        include: { decision_activities: { orderBy: { timestamp: 'asc' } } },
+      });
+
+      if (dbDecision) {
+        // Convert DB format to Decision interface
+        const timeline: DecisionEvent[] = (dbDecision.decision_activities || []).map(act => ({
+          id: act.id,
+          timestamp: act.timestamp,
+          type: (act.details as any)?.type || act.action as any,
+          title: (act.details as any)?.title || act.action,
+          summary: (act.details as any)?.summary || '',
+          data: act.details as Record<string, any> || {},
+          userId: act.actor,
+          agentsInvolved: (act.details as any)?.agentsInvolved,
+        }));
+
+        return {
+          id: dbDecision.id,
+          organizationId: dbDecision.organization_id,
+          createdBy: dbDecision.user_id,
+          createdAt: dbDecision.created_at,
+          updatedAt: dbDecision.updated_at,
+          title: dbDecision.title,
+          description: dbDecision.description,
+          status: this.mapDbStatusToInterface(dbDecision.status),
+          priority: dbDecision.priority.toLowerCase() as any,
+          category: dbDecision.category || 'general',
+          tags: [],
+          context: {
+            description: dbDecision.description,
+            stakeholders: dbDecision.stakeholders || [],
+            constraints: [],
+            assumptions: [],
+            dataSourcesUsed: [],
+          },
+          budget: dbDecision.budget || undefined,
+          timeframe: dbDecision.timeframe || undefined,
+          deadline: dbDecision.deadline || undefined,
+          preMortems: [],
+          councilSessions: [],
+          ghostBoardSimulations: [],
+          timeline,
+          version: 1,
+          auditHash: `sha256:${dbDecision.id.slice(0, 16)}...`,
+        };
+      }
+    } catch (err) {
+      this.logger.warn('Database query failed for getDecision, falling back to in-memory');
+    }
+
+    // Fallback to in-memory
     return this.decisions.get(decisionId) || null;
   }
 
@@ -256,8 +330,37 @@ export class DecisionService extends BaseService {
       category?: string;
     }
   ): Promise<DecisionSummary[]> {
+    // Try database first
+    try {
+      const where: any = { organization_id: organizationId };
+      if (options?.status) where.status = options.status.toUpperCase();
+      if (options?.category) where.category = options.category;
+
+      const dbDecisions = await prisma.decisions.findMany({
+        where,
+        take: options?.limit || 50,
+        skip: options?.offset || 0,
+        orderBy: { created_at: 'desc' },
+        include: { decision_activities: true },
+      });
+
+      if (dbDecisions.length > 0) {
+        return dbDecisions.map(d => ({
+          id: d.id,
+          title: d.title,
+          status: d.status.toLowerCase(),
+          priority: d.priority.toLowerCase(),
+          createdAt: d.created_at,
+          riskScore: undefined,
+          eventCount: d.decision_activities?.length || 0,
+        }));
+      }
+    } catch (err) {
+      this.logger.warn('Database query failed, falling back to in-memory');
+    }
+
+    // Fallback to in-memory
     const orgDecisionIds = this.orgIndex.get(organizationId) || [];
-    
     let decisions = orgDecisionIds
       .map(id => this.decisions.get(id))
       .filter((d): d is Decision => d !== undefined);

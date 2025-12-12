@@ -9,10 +9,11 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
 import { councilApi } from '../../../lib/api';
 import { ollamaService, type DomainAgent } from '../../../lib/ollama';
-import { COUNCIL_MODES, MODE_CATEGORIES, type CouncilMode } from '../../../data/councilModes';
+import { COUNCIL_MODES, MODE_CATEGORIES, CORE_MODES, isCoreMode, type CouncilMode } from '../../../data/councilModes';
 import { useLanguage } from '@/contexts/LanguageContext';
 import PremiumFeaturesModal from '../../../components/premium/PremiumFeaturesModal';
 import { usePremiumFeatures } from '../../../hooks/usePremiumFeatures';
+import { PageGuide, GUIDES } from '../../../components/PageGuide';
 
 // =============================================================================
 // TYPES
@@ -1224,7 +1225,7 @@ export const CouncilPage: React.FC = () => {
           <h2 className="text-lg font-semibold text-neutral-900">{t('council.agents.domain')}</h2>
           <div className="flex items-center gap-2 text-sm">
             <span className="flex items-center gap-1 text-neutral-500">
-              <span className="w-2 h-2 rounded-full bg-success-main" /> {t('label.online')}
+              <span className="w-2 h-2 rounded-full bg-success-main animate-pulse" /> {t('label.online')}
             </span>
             <span className="flex items-center gap-1 text-neutral-500">
               <span className="w-2 h-2 rounded-full bg-neutral-300" /> {t('label.offline')}
@@ -1232,24 +1233,105 @@ export const CouncilPage: React.FC = () => {
           </div>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {allAgents.map(agent => {
-            const isLocked = agent.premium && !premium.hasAgentAccess(agent.id);
-            return (
+        {/* Core C-Suite Agents */}
+        <div className="mb-6">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">Core C-Suite</span>
+            <div className="flex-1 h-px bg-neutral-200" />
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {allAgents.filter(a => !a.premium && !a.isCustom && ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cro', 'cdo', 'risk'].includes(a.code)).map(agent => (
               <AgentCard
                 key={agent.id}
                 agent={agent}
                 isSelected={selectedAgents.includes(agent.id)}
                 onSelect={() => toggleAgentSelection(agent.id)}
-                onEdit={agent.isCustom ? () => handleEditCustomAgent(agent) : undefined}
-                isLocked={isLocked}
-                onUnlock={() => setShowPremiumModal(true)}
                 compact
               />
-            );
-          })}
+            ))}
+          </div>
+        </div>
+
+        {/* External & Audit Agents - Only show unlocked ones */}
+        {allAgents.filter(a => a.premium && a.premiumPackage?.includes('Audit') && premium.hasAgentAccess(a.id)).length > 0 && (
+          <div className="mb-6">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">External & Audit Agents</span>
+              <div className="flex-1 h-px bg-neutral-200" />
+              <span className="text-[10px] bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">Premium</span>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {allAgents.filter(a => a.premium && a.premiumPackage?.includes('Audit') && premium.hasAgentAccess(a.id)).map(agent => (
+                <AgentCard
+                  key={agent.id}
+                  agent={agent}
+                  isSelected={selectedAgents.includes(agent.id)}
+                  onSelect={() => toggleAgentSelection(agent.id)}
+                  compact
+                />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Clinical / Healthcare Agents - Only show unlocked ones */}
+        {allAgents.filter(a => a.premium && (a.premiumPackage?.includes('Healthcare') || a.premiumPackage?.includes('Clinical')) && premium.hasAgentAccess(a.id)).length > 0 && (
+          <div className="mb-6">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">Clinical / Healthcare Agents</span>
+              <div className="flex-1 h-px bg-neutral-200" />
+              <span className="text-[10px] bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded-full font-medium">Healthcare Pack</span>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {allAgents.filter(a => a.premium && (a.premiumPackage?.includes('Healthcare') || a.premiumPackage?.includes('Clinical')) && premium.hasAgentAccess(a.id)).map(agent => (
+                <AgentCard
+                  key={agent.id}
+                  agent={agent}
+                  isSelected={selectedAgents.includes(agent.id)}
+                  onSelect={() => toggleAgentSelection(agent.id)}
+                  compact
+                />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Custom Agents & Unlocked Industry Agents */}
+        <div>
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">Custom Agents</span>
+            <div className="flex-1 h-px bg-neutral-200" />
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {/* Show custom agents */}
+            {allAgents.filter(a => a.isCustom).map(agent => (
+              <AgentCard
+                key={agent.id}
+                agent={agent}
+                isSelected={selectedAgents.includes(agent.id)}
+                onSelect={() => toggleAgentSelection(agent.id)}
+                onEdit={() => handleEditCustomAgent(agent)}
+                compact
+              />
+            ))}
+            {/* Show unlocked industry agents */}
+            {allAgents.filter(a => {
+              if (a.isCustom) return false;
+              if (!a.premium) return false;
+              if (a.premiumPackage?.includes('Audit')) return false;
+              if (a.premiumPackage?.includes('Healthcare') || a.premiumPackage?.includes('Clinical')) return false;
+              return premium.hasAgentAccess(a.id);
+            }).map(agent => (
+              <AgentCard
+                key={agent.id}
+                agent={agent}
+                isSelected={selectedAgents.includes(agent.id)}
+                onSelect={() => toggleAgentSelection(agent.id)}
+                compact
+              />
+            ))}
           
-          {/* Create Custom Agent Button - Premium Feature */}
+            {/* Create Custom Agent Button - Premium Feature */}
           <button
             onClick={() => {
               if (premium.canCreateCustomAgents()) {
@@ -1307,6 +1389,7 @@ export const CouncilPage: React.FC = () => {
               <span className="text-[10px] text-amber-600 font-semibold">$199/month</span>
             )}
           </button>
+          </div>
         </div>
       </div>
 
@@ -1328,9 +1411,12 @@ export const CouncilPage: React.FC = () => {
                 <span className="font-medium">{getModeName(selectedMode)}</span>
                 <span className="text-white/50">▼</span>
               </button>
-              {/* Dropdown Menu */}
+              {/* Dropdown Menu - Core modes only, with link to full library */}
               <div className="absolute top-full left-0 mt-1 w-72 bg-neutral-900 border border-neutral-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 max-h-96 overflow-y-auto">
-                {Object.values(COUNCIL_MODES).map(mode => (
+                <div className="px-3 py-1.5 text-[10px] text-neutral-500 uppercase tracking-wider border-b border-neutral-800">
+                  Core Modes
+                </div>
+                {Object.values(COUNCIL_MODES).filter(mode => mode.isCore).map(mode => (
                   <button
                     key={mode.id}
                     onClick={() => setSelectedMode(mode.id)}
@@ -1349,9 +1435,9 @@ export const CouncilPage: React.FC = () => {
                 <div className="border-t border-neutral-700 p-2">
                   <button
                     onClick={() => setShowModesLibrary(true)}
-                    className="w-full text-center text-xs text-primary-400 hover:text-primary-300 py-1"
+                    className="w-full text-center text-xs text-primary-400 hover:text-primary-300 py-1.5 bg-neutral-800/50 rounded"
                   >
-                    {language === 'es' ? 'Ver Biblioteca de Modos' : 'View Full Modes Library'} →
+                    📚 {language === 'es' ? 'Ver Biblioteca Completa' : 'View Full Modes Library'} ({Object.keys(COUNCIL_MODES).length} modes) →
                   </button>
                 </div>
               </div>
@@ -1373,6 +1459,9 @@ export const CouncilPage: React.FC = () => {
               <div>
                 <div className="font-semibold">{getModeName(selectedMode)} {language === 'es' ? 'Modo' : 'Mode'}</div>
                 <div className="text-sm text-white/80 italic">"{getModeDirective(selectedMode)}"</div>
+                <div className="text-xs text-white/60 mt-0.5">
+                  {language === 'es' ? 'Ideal para' : 'Best for'}: {COUNCIL_MODES[selectedMode]?.shortDesc || 'Strategic decisions'}
+                </div>
               </div>
             </div>
             <div className="text-sm text-white/60">
@@ -1404,25 +1493,29 @@ export const CouncilPage: React.FC = () => {
             {selectedAgents.length === 0 ? (
               <span className="text-sm text-white/50">{t('council.agents.all')}</span>
             ) : (
-              <div className="flex -space-x-2">
-                {selectedAgents.slice(0, 5).map(id => {
-                  const agent = agents.find(a => a.id === id);
-                  return agent ? (
-                    <div
-                      key={id}
-                      className="w-7 h-7 rounded-full flex items-center justify-center text-sm border-2 border-primary-600"
-                      style={{ backgroundColor: `${agent.color}` }}
-                      title={agent.name}
-                    >
-                      {agent.avatar}
-                    </div>
-                  ) : null;
-                })}
-                {selectedAgents.length > 5 && (
-                  <div className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center text-xs border-2 border-primary-600">
-                    +{selectedAgents.length - 5}
-                  </div>
-                )}
+              <div className="flex items-center gap-2">
+                <div className="flex -space-x-2">
+                  {selectedAgents.slice(0, 4).map(id => {
+                    const agent = agents.find(a => a.id === id);
+                    return agent ? (
+                      <div
+                        key={id}
+                        className="w-7 h-7 rounded-full flex items-center justify-center text-sm border-2 border-primary-600"
+                        style={{ backgroundColor: `${agent.color}` }}
+                        title={agent.name}
+                      >
+                        {agent.avatar}
+                      </div>
+                    ) : null;
+                  })}
+                </div>
+                <span className="text-sm text-white/80" title={selectedAgents.map(id => agents.find(a => a.id === id)?.name).filter(Boolean).join(', ')}>
+                  {selectedAgents.slice(0, 3).map(id => {
+                    const agent = agents.find(a => a.id === id);
+                    return agent?.name.replace('Cendia', '').replace(' Agent', '');
+                  }).filter(Boolean).join(', ')}
+                  {selectedAgents.length > 3 && ` +${selectedAgents.length - 3}`}
+                </span>
               </div>
             )}
           </div>
@@ -1435,7 +1528,7 @@ export const CouncilPage: React.FC = () => {
         </div>
         
         {/* Query mode and submit */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 flex-wrap">
           <div className="flex items-center gap-2 bg-white/10 rounded-lg p-1">
             <button
               onClick={() => setQueryMode('quick')}
@@ -1460,6 +1553,18 @@ export const CouncilPage: React.FC = () => {
               {t('council.full_deliberation')}
             </button>
           </div>
+          
+          {/* Generate Minutes & Brief toggle - shown for Full Deliberation */}
+          {queryMode === 'deliberation' && (
+            <label className="flex items-center gap-2 text-sm text-white/80 cursor-pointer group">
+              <input
+                type="checkbox"
+                defaultChecked={true}
+                className="w-4 h-4 rounded border-white/30 bg-white/10 text-primary-500 focus:ring-primary-500 focus:ring-offset-0"
+              />
+              <span className="group-hover:text-white transition-colors">📝 Generate Minutes & Brief</span>
+            </label>
+          )}
           
           <button
             onClick={handleSubmit}
@@ -1882,6 +1987,9 @@ export const CouncilPage: React.FC = () => {
         onPurchase={handlePremiumPurchase}
         currentFeatures={premium.getUnlockedFeatures()}
       />
+      
+      {/* Page Guide */}
+      <PageGuide {...GUIDES.council} />
     </div>
   );
 };

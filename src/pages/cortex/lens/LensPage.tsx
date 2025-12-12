@@ -400,7 +400,20 @@ export const LensPage: React.FC = () => {
         {/* ================================================================= */}
         {/* QUICK ACTIONS */}
         {/* ================================================================= */}
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3">
+          {/* Present to Council - Primary Integration */}
+          <button
+            onClick={() => {
+              const summary = `Analyze the ${selectedSimulation.name} scenario with ${timeHorizon}-day horizon. ` +
+                `Parameters: ${parameters.map(p => `${p.name}: ${p.value}${p.unit}`).join(', ')}. ` +
+                `Key drivers: ${drivers.map(d => `${d.name} (${d.impact > 0 ? '+' : ''}${d.impact}%)`).join(', ')}. ` +
+                `Outcomes: Worst ${outcomes[0].percentage}%, Base ${outcomes[1].percentage}%, Mitigated ${outcomes[2].percentage}%.`;
+              navigate(`/cortex/council?q=${encodeURIComponent(summary)}&mode=due-diligence`);
+            }}
+            className="px-4 py-2 bg-gradient-to-r from-primary-600 to-primary-500 rounded-lg text-sm text-white font-medium hover:from-primary-500 hover:to-primary-400 transition-all flex items-center gap-2"
+          >
+            🧠 Present to Council
+          </button>
           <button
             onClick={() => navigate('/cortex/lens/scenarios/new')}
             className="px-4 py-2 bg-neutral-800 border border-neutral-700 rounded-lg text-sm text-neutral-300 hover:bg-neutral-700 hover:text-white transition-colors"

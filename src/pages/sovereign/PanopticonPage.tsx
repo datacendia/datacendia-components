@@ -5,7 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import apiClient from '../../lib/api/client';
-import { Shield, AlertTriangle, FileText, TrendingUp, Globe, CheckCircle, XCircle, Clock } from 'lucide-react';
+import { Shield, AlertTriangle, FileText, TrendingUp, Globe, CheckCircle, XCircle, Clock, X, ExternalLink, Play, FlaskConical, MapPin } from 'lucide-react';
 
 interface Framework {
   code: string;
@@ -112,6 +112,60 @@ const DEFAULT_AI_ACTIONS: string[] = [
   'Prepare privacy- and AI-heavy business units for CCPA/CPRA expansion and EU AI Act obligations.',
 ];
 
+// Mock compliance score breakdown
+const SCORE_BREAKDOWN = {
+  byFramework: [
+    { code: 'GDPR', score: 68, controls: 142, mapped: 97 },
+    { code: 'HIPAA', score: 80, controls: 89, mapped: 71 },
+    { code: 'SOX', score: 71, controls: 64, mapped: 45 },
+    { code: 'DORA', score: 45, controls: 112, mapped: 50 },
+    { code: 'CCPA', score: 82, controls: 38, mapped: 31 },
+  ],
+  byControlFamily: [
+    { family: 'Access Control', score: 78 },
+    { family: 'Logging & Monitoring', score: 85 },
+    { family: 'Vendor Risk', score: 62 },
+    { family: 'Data Protection', score: 74 },
+    { family: 'Incident Response', score: 69 },
+  ],
+};
+
+// Mock jurisdiction matrix
+const JURISDICTION_MATRIX = [
+  { region: 'European Union', frameworks: ['GDPR', 'DORA', 'EU AI Act'], obligations: 245, violations: 1 },
+  { region: 'United States', frameworks: ['HIPAA', 'SOX', 'CCPA'], obligations: 180, violations: 2 },
+  { region: 'United Kingdom', frameworks: ['UK GDPR', 'FCA'], obligations: 95, violations: 0 },
+  { region: 'Canada', frameworks: ['PIPEDA'], obligations: 42, violations: 0 },
+  { region: 'Australia', frameworks: ['Privacy Act'], obligations: 38, violations: 0 },
+  { region: 'Singapore', frameworks: ['PDPA'], obligations: 35, violations: 0 },
+];
+
+// Mock violation details
+const VIOLATION_DETAILS = {
+  'v1': { 
+    id: 'v1', 
+    title: 'Missing data retention policy enforcement', 
+    severity: 'HIGH',
+    framework: 'GDPR',
+    description: 'Article 5(1)(e) requires storage limitation. Current systems retain personal data beyond declared periods.',
+    owner: 'Data Protection Officer',
+    dueDate: '2025-02-15',
+    linkedDecisions: ['DEC-2024-089: Data Retention Review'],
+    mitigationWorkflow: 'WF-2025-012',
+  },
+  'v2': {
+    id: 'v2',
+    title: 'Incomplete vendor risk assessment',
+    severity: 'MEDIUM', 
+    framework: 'DORA',
+    description: 'ICT third-party risk assessment not completed for 3 critical vendors.',
+    owner: 'Vendor Risk Manager',
+    dueDate: '2025-01-30',
+    linkedDecisions: [],
+    mitigationWorkflow: null,
+  },
+};
+
 export const PanopticonPage: React.FC = () => {
   const [frameworks, setFrameworks] = useState<Framework[]>([]);
   const [regulations, setRegulations] = useState<Regulation[]>([]);
@@ -122,6 +176,12 @@ export const PanopticonPage: React.FC = () => {
   const [isIngesting, setIsIngesting] = useState(false);
   const [radarEvents, setRadarEvents] = useState<RegulatoryRadarEvent[]>(DEFAULT_RADAR_EVENTS);
   const [aiSummary, setAiSummary] = useState<string>(DEFAULT_AI_SUMMARY);
+  
+  // Panel/Modal states
+  const [showScoreBreakdown, setShowScoreBreakdown] = useState(false);
+  const [showJurisdictionMatrix, setShowJurisdictionMatrix] = useState(false);
+  const [selectedRadarEvent, setSelectedRadarEvent] = useState<RegulatoryRadarEvent | null>(null);
+  const [selectedViolation, setSelectedViolation] = useState<string | null>(null);
   const [aiActions, setAiActions] = useState<string[]>(DEFAULT_AI_ACTIONS);
   const [perspective, setPerspective] = useState<'board' | 'operator'>('board');
 
@@ -264,15 +324,28 @@ export const PanopticonPage: React.FC = () => {
       {/* Dashboard Stats */}
       {dashboard && (
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-          <div className="bg-slate-800 rounded-lg p-4 border border-slate-700">
-            <div className="text-slate-400 text-sm">Compliance Score</div>
+          {/* Compliance Score - Clickable with tooltip */}
+          <button 
+            onClick={() => setShowScoreBreakdown(true)}
+            className="bg-slate-800 rounded-lg p-4 border border-slate-700 hover:border-emerald-500/50 hover:bg-slate-700/50 transition-all text-left group relative"
+          >
+            <div className="text-slate-400 text-sm flex items-center gap-1">
+              Compliance Score
+              <span className="text-slate-600 text-xs cursor-help">ⓘ</span>
+              <span className="absolute bottom-full left-0 mb-2 px-3 py-2 bg-slate-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-64 z-10 border border-slate-700">
+                Weighted coverage of obligations across all active frameworks:<br/>
+                • 0–49%: High exposure<br/>
+                • 50–79%: Partial coverage<br/>
+                • 80%+: Strong compliance
+              </span>
+            </div>
             <div className="flex items-baseline gap-2 mt-1">
               <div className="text-3xl font-bold text-emerald-400">
                 {dashboard.overallComplianceScore}%
               </div>
               <div className="flex items-center gap-1 text-sm text-emerald-300">
                 <TrendingUp className="w-4 h-4" />
-                <span>+3% vs last month</span>
+                <span>+3%</span>
               </div>
             </div>
             <div className="mt-3 h-1.5 bg-slate-700 rounded-full overflow-hidden">
@@ -281,7 +354,8 @@ export const PanopticonPage: React.FC = () => {
                 style={{ width: `${Math.min(100, Math.max(0, dashboard.overallComplianceScore))}%` }}
               />
             </div>
-          </div>
+            <div className="text-xs text-emerald-400/60 mt-2">View score breakdown →</div>
+          </button>
           <div className="bg-slate-800 rounded-lg p-4 border border-slate-700">
             <div className="text-slate-400 text-sm">Active Frameworks</div>
             <div className="text-3xl font-bold">{regulations.length}</div>
@@ -302,10 +376,17 @@ export const PanopticonPage: React.FC = () => {
             <div className="text-slate-400 text-sm">Critical</div>
             <div className="text-3xl font-bold text-red-500">{dashboard.openViolations.critical}</div>
           </div>
-          <div className="bg-slate-800 rounded-lg p-4 border border-slate-700">
-            <div className="text-slate-400 text-sm">Jurisdictions</div>
+          {/* Jurisdictions - Clickable */}
+          <button 
+            onClick={() => setShowJurisdictionMatrix(true)}
+            className="bg-slate-800 rounded-lg p-4 border border-slate-700 hover:border-blue-500/50 hover:bg-slate-700/50 transition-all text-left"
+          >
+            <div className="text-slate-400 text-sm flex items-center gap-1">
+              <MapPin className="w-3 h-3" /> Jurisdictions
+            </div>
             <div className="text-3xl font-bold text-blue-400">{dashboard.jurisdictions}</div>
-          </div>
+            <div className="text-xs text-blue-400/60 mt-2">View exposure matrix →</div>
+          </button>
         </div>
       )}
 
@@ -332,9 +413,10 @@ export const PanopticonPage: React.FC = () => {
                     {radarEvents
                       .filter(event => event.window === window)
                       .map(event => (
-                        <div
+                        <button
                           key={event.id}
-                          className="p-3 bg-slate-700/60 rounded-lg border border-slate-600"
+                          onClick={() => setSelectedRadarEvent(event)}
+                          className="p-3 bg-slate-700/60 rounded-lg border border-slate-600 hover:border-emerald-500/50 hover:bg-slate-700 transition-all text-left w-full"
                         >
                           <div className="flex items-center justify-between mb-1">
                             <span className="text-xs font-semibold text-emerald-300">
@@ -356,12 +438,10 @@ export const PanopticonPage: React.FC = () => {
                             {event.title}
                           </div>
                           <div className="text-[11px] text-slate-400 mt-1">
-                            {event.effectiveDate} 
-                            
-                            
-                            · {event.jurisdiction}
+                            {event.effectiveDate} · {event.jurisdiction}
                           </div>
-                        </div>
+                          <div className="text-[10px] text-emerald-400/60 mt-1">Click for details →</div>
+                        </button>
                       ))}
                   </div>
                 ))}
@@ -398,6 +478,27 @@ export const PanopticonPage: React.FC = () => {
                 </ul>
               </div>
             )}
+            
+            {/* Action Buttons */}
+            <div className="mt-4 pt-4 border-t border-slate-700 space-y-2">
+              <button 
+                onClick={() => window.open('/cortex/intelligence/council?briefing=regulatory-q4-2025', '_blank')}
+                className="w-full px-3 py-2 bg-cyan-600/30 hover:bg-cyan-600/50 border border-cyan-500/50 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors"
+              >
+                <Play className="w-4 h-4" />
+                Create Council Briefing
+              </button>
+              <button 
+                onClick={() => window.open('/cortex/intelligence/crucible?preset=regulatory-resilience', '_blank')}
+                className="w-full px-3 py-2 bg-purple-600/30 hover:bg-purple-600/50 border border-purple-500/50 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors"
+              >
+                <FlaskConical className="w-4 h-4" />
+                Launch Crucible Stress Test
+              </button>
+            </div>
+            <div className="mt-3 text-[10px] text-slate-500">
+              This assessment is logged in Decision DNA as "Regulatory Risk Review – Q4 2025"
+            </div>
           </div>
         </div>
       )}
@@ -423,7 +524,52 @@ export const PanopticonPage: React.FC = () => {
           </div>
           <div className="space-y-2 max-h-96 overflow-y-auto">
             {filteredFrameworks.map(fw => {
-              const isActive = regulations.some(r => r.framework_code === fw.code);
+              const regulation = regulations.find(r => r.framework_code === fw.code);
+              const isActive = regulation?.status === 'ACTIVE';
+              const isIngested = !!regulation;
+              
+              // Determine status and button
+              let statusBadge;
+              let actionButton;
+              
+              if (isActive) {
+                statusBadge = (
+                  <span className="flex items-center gap-1 text-emerald-400 text-xs px-2 py-0.5 bg-emerald-900/50 rounded" title="Controls have been mapped; included in Compliance Score.">
+                    <CheckCircle className="w-3 h-3" /> Active
+                  </span>
+                );
+                actionButton = (
+                  <button className="px-3 py-1 bg-slate-600 hover:bg-slate-500 rounded text-sm">
+                    View Controls
+                  </button>
+                );
+              } else if (isIngested) {
+                statusBadge = (
+                  <span className="flex items-center gap-1 text-amber-400 text-xs px-2 py-0.5 bg-amber-900/50 rounded">
+                    <Clock className="w-3 h-3" /> Ingested
+                  </span>
+                );
+                actionButton = (
+                  <button className="px-3 py-1 bg-amber-600 hover:bg-amber-500 rounded text-sm">
+                    Map Controls
+                  </button>
+                );
+              } else {
+                statusBadge = (
+                  <span className="text-xs text-slate-500">Not loaded</span>
+                );
+                actionButton = (
+                  <button
+                    onClick={() => ingestRegulation(fw.code)}
+                    disabled={isIngesting}
+                    className="px-3 py-1 bg-emerald-600 hover:bg-emerald-500 rounded text-sm disabled:opacity-50 group relative"
+                    title="Pull full requirement set into Datacendia for mapping."
+                  >
+                    {isIngesting ? 'Ingesting...' : 'Ingest'}
+                  </button>
+                );
+              }
+              
               return (
                 <div key={fw.code} className="flex items-center justify-between p-3 bg-slate-700/50 rounded-lg hover:bg-slate-700 transition-colors">
                   <div className="flex-1">
@@ -431,23 +577,12 @@ export const PanopticonPage: React.FC = () => {
                       <span className="font-medium">{fw.code}</span>
                       <span className="text-xs px-2 py-0.5 bg-slate-600 rounded">{fw.jurisdiction}</span>
                       <span className="text-xs px-2 py-0.5 bg-blue-900/50 text-blue-300 rounded">{fw.category}</span>
+                      {statusBadge}
                     </div>
                     <div className="text-sm text-slate-400">{fw.name}</div>
                     <div className="text-xs text-slate-500">{fw.requirements} requirements</div>
                   </div>
-                  {isActive ? (
-                    <span className="flex items-center gap-1 text-emerald-400 text-sm">
-                      <CheckCircle className="w-4 h-4" /> Active
-                    </span>
-                  ) : (
-                    <button
-                      onClick={() => ingestRegulation(fw.code)}
-                      disabled={isIngesting}
-                      className="px-3 py-1 bg-emerald-600 hover:bg-emerald-500 rounded text-sm disabled:opacity-50"
-                    >
-                      {isIngesting ? 'Ingesting...' : 'Ingest'}
-                    </button>
-                  )}
+                  {actionButton}
                 </div>
               );
             })}
@@ -473,7 +608,11 @@ export const PanopticonPage: React.FC = () => {
           ) : (
             <div className="space-y-3 max-h-80 overflow-y-auto">
               {violations.map(v => (
-                <div key={v.id} className="p-3 bg-slate-700/50 rounded-lg">
+                <button 
+                  key={v.id} 
+                  onClick={() => setSelectedViolation(v.id)}
+                  className="w-full p-3 bg-slate-700/50 rounded-lg hover:bg-slate-700 hover:border-red-500/30 border border-transparent transition-all text-left"
+                >
                   <div className="flex items-center gap-2 mb-1">
                     <span className={`w-2 h-2 rounded-full ${getSeverityColor(v.severity)}`} />
                     <span className="text-sm font-medium">{v.title}</span>
@@ -481,7 +620,8 @@ export const PanopticonPage: React.FC = () => {
                   <div className="text-xs text-slate-400">
                     {v.regulation?.framework_code} • {v.status}
                   </div>
-                </div>
+                  <div className="text-[10px] text-red-400/60 mt-1">Click for details & actions →</div>
+                </button>
               ))}
             </div>
           )}
@@ -523,6 +663,274 @@ export const PanopticonPage: React.FC = () => {
           </div>
         )}
       </div>
+
+      {/* Score Breakdown Modal */}
+      {showScoreBreakdown && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setShowScoreBreakdown(false)}>
+          <div className="bg-slate-900 rounded-xl border border-emerald-500/30 w-[600px] max-h-[80vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700 flex items-center justify-between">
+              <div>
+                <h2 className="text-xl font-bold">📊 Compliance Score Breakdown</h2>
+                <p className="text-sm text-slate-400">Weighted coverage across all active frameworks</p>
+              </div>
+              <button onClick={() => setShowScoreBreakdown(false)} className="text-slate-400 hover:text-white">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6 space-y-6">
+              <div>
+                <h3 className="text-sm font-medium text-slate-300 mb-3">By Framework</h3>
+                <div className="space-y-3">
+                  {SCORE_BREAKDOWN.byFramework.map(fw => (
+                    <div key={fw.code} className="flex items-center gap-3">
+                      <div className="w-16 text-sm font-medium">{fw.code}</div>
+                      <div className="flex-1 h-3 bg-slate-700 rounded-full overflow-hidden">
+                        <div 
+                          className={`h-full ${fw.score >= 80 ? 'bg-emerald-500' : fw.score >= 50 ? 'bg-amber-500' : 'bg-red-500'}`}
+                          style={{ width: `${fw.score}%` }}
+                        />
+                      </div>
+                      <span className={`w-12 text-right text-sm font-medium ${fw.score >= 80 ? 'text-emerald-400' : fw.score >= 50 ? 'text-amber-400' : 'text-red-400'}`}>
+                        {fw.score}%
+                      </span>
+                      <span className="text-xs text-slate-500 w-24">{fw.mapped}/{fw.controls} controls</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h3 className="text-sm font-medium text-slate-300 mb-3">By Control Family</h3>
+                <div className="space-y-3">
+                  {SCORE_BREAKDOWN.byControlFamily.map(cf => (
+                    <div key={cf.family} className="flex items-center gap-3">
+                      <div className="w-36 text-sm text-slate-400">{cf.family}</div>
+                      <div className="flex-1 h-3 bg-slate-700 rounded-full overflow-hidden">
+                        <div 
+                          className={`h-full ${cf.score >= 80 ? 'bg-emerald-500' : cf.score >= 50 ? 'bg-amber-500' : 'bg-red-500'}`}
+                          style={{ width: `${cf.score}%` }}
+                        />
+                      </div>
+                      <span className={`w-12 text-right text-sm font-medium ${cf.score >= 80 ? 'text-emerald-400' : cf.score >= 50 ? 'text-amber-400' : 'text-red-400'}`}>
+                        {cf.score}%
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Jurisdiction Matrix Modal */}
+      {showJurisdictionMatrix && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setShowJurisdictionMatrix(false)}>
+          <div className="bg-slate-900 rounded-xl border border-blue-500/30 w-[700px] max-h-[80vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700 flex items-center justify-between">
+              <div>
+                <h2 className="text-xl font-bold">🌍 Jurisdiction Exposure Matrix</h2>
+                <p className="text-sm text-slate-400">Where are we exposed?</p>
+              </div>
+              <button onClick={() => setShowJurisdictionMatrix(false)} className="text-slate-400 hover:text-white">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="text-left text-slate-400 border-b border-slate-700">
+                    <th className="pb-3">Region</th>
+                    <th className="pb-3">Frameworks</th>
+                    <th className="pb-3 text-right">Obligations</th>
+                    <th className="pb-3 text-right">Violations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {JURISDICTION_MATRIX.map(j => (
+                    <tr key={j.region} className="border-b border-slate-800">
+                      <td className="py-3 font-medium">{j.region}</td>
+                      <td className="py-3">
+                        <div className="flex flex-wrap gap-1">
+                          {j.frameworks.map(fw => (
+                            <span key={fw} className="text-xs px-2 py-0.5 bg-slate-700 rounded">{fw}</span>
+                          ))}
+                        </div>
+                      </td>
+                      <td className="py-3 text-right">{j.obligations}</td>
+                      <td className="py-3 text-right">
+                        <span className={j.violations > 0 ? 'text-red-400 font-medium' : 'text-emerald-400'}>
+                          {j.violations}
+                        </span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Radar Event Detail Panel */}
+      {selectedRadarEvent && (
+        <div className="fixed inset-0 bg-black/50 flex items-start justify-end z-50" onClick={() => setSelectedRadarEvent(null)}>
+          <div className="w-[500px] h-full bg-slate-900 border-l border-slate-700 overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700 flex items-center justify-between sticky top-0 bg-slate-900">
+              <div>
+                <div className={`text-xs px-2 py-0.5 rounded-full inline-block mb-2 ${getImpactBadgeClasses(selectedRadarEvent.impact)}`}>
+                  {selectedRadarEvent.impact} IMPACT
+                </div>
+                <h2 className="text-xl font-bold">{selectedRadarEvent.framework}</h2>
+                <p className="text-sm text-slate-400">{selectedRadarEvent.jurisdiction} • {selectedRadarEvent.effectiveDate}</p>
+              </div>
+              <button onClick={() => setSelectedRadarEvent(null)} className="text-slate-400 hover:text-white">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6 space-y-6">
+              <div>
+                <h3 className="font-medium mb-2">{selectedRadarEvent.title}</h3>
+                <p className="text-sm text-slate-300">{selectedRadarEvent.description}</p>
+              </div>
+              <div>
+                <h4 className="text-sm font-medium text-slate-400 mb-2">Affected Business Units</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="text-xs px-2 py-1 bg-slate-700 rounded">IT Operations</span>
+                  <span className="text-xs px-2 py-1 bg-slate-700 rounded">Data Privacy</span>
+                  <span className="text-xs px-2 py-1 bg-slate-700 rounded">Vendor Management</span>
+                </div>
+              </div>
+              <div>
+                <h4 className="text-sm font-medium text-slate-400 mb-2">Affected Data Types</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="text-xs px-2 py-1 bg-slate-700 rounded">Personal Data</span>
+                  <span className="text-xs px-2 py-1 bg-slate-700 rounded">Financial Records</span>
+                </div>
+              </div>
+              <div className="pt-4 border-t border-slate-700 space-y-3">
+                <button 
+                  onClick={() => window.open(`/cortex/intelligence/decision-dna?new=true&regulation=${selectedRadarEvent.framework}`, '_blank')}
+                  className="w-full px-4 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
+                >
+                  <FileText className="w-4 h-4" />
+                  Create Impact Assessment in Decision DNA
+                </button>
+                <button 
+                  onClick={() => window.open(`/cortex/bridge?template=remediation&regulation=${selectedRadarEvent.framework}`, '_blank')}
+                  className="w-full px-4 py-3 bg-purple-600 hover:bg-purple-500 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
+                >
+                  <Play className="w-4 h-4" />
+                  Create Remediation Workflow in Bridge
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Violation Detail Modal (Witness-style) */}
+      {selectedViolation && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setSelectedViolation(null)}>
+          <div className="bg-slate-900 rounded-xl border border-red-500/30 w-[600px] max-h-[80vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700 flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center">
+                  <AlertTriangle className="w-5 h-5 text-red-400" />
+                </div>
+                <div>
+                  <h2 className="text-xl font-bold">Violation Details</h2>
+                  <p className="text-sm text-slate-400">CendiaWitness™ Record</p>
+                </div>
+              </div>
+              <button onClick={() => setSelectedViolation(null)} className="text-slate-400 hover:text-white">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6 space-y-4">
+              {(() => {
+                const detail = VIOLATION_DETAILS[selectedViolation as keyof typeof VIOLATION_DETAILS] || {
+                  title: 'Unknown Violation',
+                  severity: 'MEDIUM',
+                  framework: 'Unknown',
+                  description: 'No details available',
+                  owner: 'Unassigned',
+                  dueDate: 'TBD',
+                  linkedDecisions: [],
+                  mitigationWorkflow: null,
+                };
+                return (
+                  <>
+                    <div className="p-4 bg-slate-800 rounded-lg">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="font-medium">{detail.title}</span>
+                        <span className={`text-xs px-2 py-0.5 rounded ${detail.severity === 'CRITICAL' ? 'bg-red-500/20 text-red-300' : detail.severity === 'HIGH' ? 'bg-orange-500/20 text-orange-300' : 'bg-amber-500/20 text-amber-300'}`}>
+                          {detail.severity}
+                        </span>
+                      </div>
+                      <p className="text-sm text-slate-300">{detail.description}</p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-4 text-sm">
+                      <div>
+                        <span className="text-slate-400">Framework:</span>
+                        <span className="ml-2 font-medium">{detail.framework}</span>
+                      </div>
+                      <div>
+                        <span className="text-slate-400">Owner:</span>
+                        <span className="ml-2 font-medium">{detail.owner}</span>
+                      </div>
+                      <div>
+                        <span className="text-slate-400">Due Date:</span>
+                        <span className="ml-2 font-medium">{detail.dueDate}</span>
+                      </div>
+                      <div>
+                        <span className="text-slate-400">Status:</span>
+                        <span className="ml-2 font-medium text-amber-400">Open</span>
+                      </div>
+                    </div>
+                    {detail.linkedDecisions.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-medium text-slate-400 mb-2">Linked Decisions</h4>
+                        <div className="space-y-2">
+                          {detail.linkedDecisions.map((dec, i) => (
+                            <button key={i} className="w-full p-2 bg-slate-800 rounded text-sm text-left hover:bg-slate-700 flex items-center justify-between">
+                              <span>{dec}</span>
+                              <ExternalLink className="w-3 h-3 text-slate-400" />
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {detail.mitigationWorkflow && (
+                      <div>
+                        <h4 className="text-sm font-medium text-slate-400 mb-2">Mitigation Workflow</h4>
+                        <button className="w-full p-2 bg-purple-900/30 border border-purple-500/30 rounded text-sm text-left hover:bg-purple-900/50 flex items-center justify-between">
+                          <span>{detail.mitigationWorkflow}</span>
+                          <ExternalLink className="w-3 h-3 text-purple-400" />
+                        </button>
+                      </div>
+                    )}
+                    <div className="pt-4 border-t border-slate-700 space-y-3">
+                      <button 
+                        onClick={() => window.open('/cortex/intelligence/council?escalate=violation', '_blank')}
+                        className="w-full px-4 py-2 bg-cyan-600 hover:bg-cyan-500 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
+                      >
+                        <Play className="w-4 h-4" />
+                        Escalate to Council
+                      </button>
+                      <button 
+                        onClick={() => window.open('/cortex/bridge?link=violation', '_blank')}
+                        className="w-full px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
+                      >
+                        Link to Workflow
+                      </button>
+                    </div>
+                  </>
+                );
+              })()}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

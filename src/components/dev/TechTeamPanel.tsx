@@ -147,7 +147,7 @@ export const TechTeamPanel: React.FC = () => {
     return (
       <button
         onClick={() => setIsExpanded(true)}
-        className="fixed bottom-4 right-4 z-50 flex items-center gap-2 px-4 py-2 bg-slate-800 text-white rounded-lg shadow-lg hover:bg-slate-700 transition-colors"
+        className="fixed bottom-4 left-4 z-50 flex items-center gap-2 px-4 py-2 bg-slate-800 text-white rounded-lg shadow-lg hover:bg-slate-700 transition-colors"
       >
         <Terminal size={18} />
         <span className="font-medium">Tech Team</span>
@@ -161,16 +161,19 @@ export const TechTeamPanel: React.FC = () => {
   }
 
   return (
-    <div className="fixed bottom-4 right-4 z-50 w-[480px] max-h-[600px] bg-slate-900 rounded-xl shadow-2xl border border-slate-700 overflow-hidden flex flex-col">
+    <div className="fixed bottom-4 left-4 z-50 w-[480px] max-h-[600px] bg-slate-900 rounded-xl shadow-2xl border border-slate-700 overflow-hidden flex flex-col">
       {/* Header */}
       <div className="px-4 py-3 bg-slate-800 border-b border-slate-700 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 group">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center">
             <Terminal size={18} className="text-white" />
           </div>
           <div>
             <h3 className="font-semibold text-white">AI Tech Team</h3>
             <p className="text-xs text-slate-400">{TECH_TEAM_AGENTS.length} agents • Auto-heal {config.autoHealEnabled ? 'ON' : 'OFF'}</p>
+            <p className="text-[10px] text-slate-500 hidden group-hover:block max-w-[280px]">
+              Engineering agents that monitor, diagnose, and propose fixes across the Datacendia stack.
+            </p>
           </div>
         </div>
         <div className="flex items-center gap-2">
@@ -340,7 +343,7 @@ export const TechTeamPanel: React.FC = () => {
                   <div className="flex items-start justify-between">
                     <div className="flex-1">
                       <p className="text-sm text-white">{fix.description.substring(0, 100)}</p>
-                      <div className="flex items-center gap-2 mt-2">
+                      <div className="flex items-center gap-2 mt-2 flex-wrap">
                         <span className="text-xs px-2 py-0.5 rounded bg-slate-700 text-slate-300">
                           {fix.agentCode}
                         </span>
@@ -354,6 +357,13 @@ export const TechTeamPanel: React.FC = () => {
                         <span className="text-xs text-slate-500">
                           {Math.round(fix.confidence * 100)}% confidence
                         </span>
+                        <button
+                          onClick={() => window.open(`/cortex/intelligence/chronos?timestamp=${new Date((fix as any).timestamp || Date.now()).toISOString()}`, '_blank')}
+                          className="text-[10px] px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500/20 transition-colors"
+                          title="View when this error occurred in Chronos"
+                        >
+                          ⏱️ View in Chronos
+                        </button>
                       </div>
                     </div>
                     {fix.requiresReview && (
@@ -377,6 +387,7 @@ export const TechTeamPanel: React.FC = () => {
               <div>
                 <p className="text-sm font-medium text-white">Auto-Heal Enabled</p>
                 <p className="text-xs text-slate-400">Automatically process and fix errors</p>
+                <p className="text-[10px] text-amber-400/70 mt-0.5">⚠️ In sovereign mode, auto-heal remains off unless explicitly enabled</p>
               </div>
               <button
                 onClick={() => handleConfigChange({ autoHealEnabled: !config.autoHealEnabled })}

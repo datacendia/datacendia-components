@@ -17,6 +17,8 @@ export interface CouncilMode {
   agentBehaviors: string[];
   category: 'decision-making' | 'analysis' | 'planning' | 'creative';
   systemPrompt: string;
+  isCore?: boolean; // Core modes show in main dropdown, advanced modes in Modes Library
+  industryPack?: 'healthcare' | 'finance' | 'legal'; // Industry-specific modes
 }
 
 export const MODE_CATEGORIES = {
@@ -29,6 +31,20 @@ export const MODE_CATEGORIES = {
   'Legal': ['deal-room', 'litigation-war-room', 'regulatory-response', 'ip-strategy']
 } as const;
 
+// Core modes shown in main dropdown (6-8 modes for simplicity)
+export const CORE_MODES = [
+  'war-room',      // Strategic debates
+  'due-diligence', // M&A, investments  
+  'compliance',    // Regulatory review
+  'investment',    // Budget decisions
+  'stakeholder',   // Change management
+  'rapid',         // Quick decisions
+  'governance',    // Policy creation
+] as const;
+
+// Helper to check if a mode is core
+export const isCoreMode = (modeId: string): boolean => CORE_MODES.includes(modeId as any);
+
 export const COUNCIL_MODES: Record<string, CouncilMode> = {
   'war-room': {
     id: 'war-room',
@@ -39,6 +55,7 @@ export const COUNCIL_MODES: Record<string, CouncilMode> = {
     description: 'The default mode for high-stakes strategic decisions. Agents vigorously defend their domains and attack weak assumptions.',
     shortDesc: 'Strategic debates',
     category: 'decision-making',
+    isCore: true,
     useCases: ['Strategic planning sessions', 'Major investment decisions', 'Market entry analysis', 'Competitive response planning', 'Annual planning'],
     leadAgent: 'chief',
     defaultAgents: ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cto', 'risk'], // Full council for strategic debates
@@ -88,6 +105,7 @@ Execute Deliberation.`
     description: 'For situations where accuracy is paramount and the cost of being wrong is catastrophic. Every claim must be substantiated.',
     shortDesc: 'M&A, investments',
     category: 'analysis',
+    isCore: true,
     useCases: ['M&A target evaluation', 'Vendor selection', 'Partnership agreements', 'Investment decisions', 'Contract review'],
     leadAgent: 'cfo',
     defaultAgents: ['cfo', 'clo', 'risk', 'ciso', 'cio'], // Financial, legal, risk focus
@@ -206,6 +224,7 @@ Execute Innovation Session.`
     description: 'For regulatory reviews and policy decisions where compliance risk is the primary concern.',
     shortDesc: 'Regulatory review',
     category: 'analysis',
+    isCore: true,
     useCases: ['New product compliance review', 'Policy change assessment', 'Regulatory filing preparation', 'Audit preparation', 'Data privacy decisions'],
     leadAgent: 'ciso',
     defaultAgents: ['ciso', 'clo', 'risk', 'cdo'], // Security & compliance focus
@@ -475,6 +494,7 @@ Execute Research Analysis.`
     description: 'For budget decisions where financial return is the primary consideration.',
     shortDesc: 'Budget decisions',
     category: 'analysis',
+    isCore: true,
     useCases: ['Capital expenditure decisions', 'Headcount requests', 'Tool/vendor purchases', 'Marketing budget allocation', 'R&D investment decisions'],
     leadAgent: 'cfo',
     defaultAgents: ['cfo', 'cio', 'coo', 'risk'], // Financial focus
@@ -552,6 +572,7 @@ Execute Investment Analysis.`
     description: 'For decisions with significant people impact. Focus on stakeholder mapping and change management.',
     shortDesc: 'Change management',
     category: 'planning',
+    isCore: true,
     useCases: ['Organizational restructuring', 'Policy changes affecting employees', 'Vendor/partner changes', 'Process changes', 'Cultural initiatives'],
     leadAgent: 'chro',
     defaultAgents: ['chro', 'cco', 'coo', 'clo'], // People & change focus
@@ -622,6 +643,7 @@ Execute Stakeholder Analysis.`
     description: 'For quick decisions using heuristics and pattern matching. Speed over perfection.',
     shortDesc: 'Quick decisions',
     category: 'decision-making',
+    isCore: true,
     useCases: ['Day-to-day operational decisions', 'Low-stakes choices', 'Time-sensitive opportunities', 'Quick sanity checks', 'Gut-check validations'],
     leadAgent: 'chief',
     defaultAgents: ['chief', 'cfo', 'risk'], // Minimal team for speed
@@ -762,6 +784,7 @@ Execute Advisory Session.`
     description: 'For policy decisions that will set precedent. Focus on consistency, fairness, and long-term implications.',
     shortDesc: 'Policy creation',
     category: 'decision-making',
+    isCore: true,
     useCases: ['Policy creation', 'Exception requests', 'Standard setting', 'Procedure documentation', 'Governance framework design'],
     leadAgent: 'chief',
     defaultAgents: ['chief', 'clo', 'ciso', 'risk', 'chro'], // Governance focus

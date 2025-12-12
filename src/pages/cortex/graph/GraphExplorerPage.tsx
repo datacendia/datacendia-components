@@ -70,7 +70,8 @@ const EntityDetailsPanel: React.FC<{
   onClose: () => void;
   onViewLineage: () => void;
   onViewImpact: () => void;
-}> = ({ entity, onClose, onViewLineage, onViewImpact }) => {
+  onAskCouncil: () => void;
+}> = ({ entity, onClose, onViewLineage, onViewImpact, onAskCouncil }) => {
   if (!entity) {return null;}
 
   const colors = nodeColors[entity.type] || nodeColors.entity;
@@ -121,19 +122,28 @@ const EntityDetailsPanel: React.FC<{
         )}
       </div>
 
-      <div className="flex gap-2">
+      <div className="space-y-2">
+        {/* Ask Council - Primary CTA */}
         <button
-          onClick={onViewLineage}
-          className="flex-1 px-3 py-2 text-sm font-medium text-primary-400 bg-primary-900/30 border border-primary-700 rounded-lg hover:bg-primary-900/50 transition-colors"
+          onClick={onAskCouncil}
+          className="w-full px-3 py-2.5 text-sm font-medium text-white bg-gradient-to-r from-primary-600 to-primary-500 rounded-lg hover:from-primary-500 hover:to-primary-400 transition-all flex items-center justify-center gap-2"
         >
-          View Lineage
+          🧠 Ask the Council about this entity
         </button>
-        <button
-          onClick={onViewImpact}
-          className="flex-1 px-3 py-2 text-sm font-medium text-neutral-300 bg-neutral-700 rounded-lg hover:bg-neutral-600 transition-colors"
-        >
-          Impact Analysis
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={onViewLineage}
+            className="flex-1 px-3 py-2 text-sm font-medium text-primary-400 bg-primary-900/30 border border-primary-700 rounded-lg hover:bg-primary-900/50 transition-colors"
+          >
+            View Lineage
+          </button>
+          <button
+            onClick={onViewImpact}
+            className="flex-1 px-3 py-2 text-sm font-medium text-neutral-300 bg-neutral-700 rounded-lg hover:bg-neutral-600 transition-colors"
+          >
+            Impact Analysis
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -509,6 +519,11 @@ export const GraphExplorerPage: React.FC = () => {
           onClose={() => setSelectedEntity(null)}
           onViewLineage={handleViewLineage}
           onViewImpact={handleViewImpact}
+          onAskCouncil={() => {
+            if (selectedEntity) {
+              navigate(`/cortex/council?q=Tell me about the ${selectedEntity.type} "${selectedEntity.name}" - its purpose, data quality, dependencies, and any risks or concerns.`);
+            }
+          }}
         />
 
         {/* Legend - Node Types */}

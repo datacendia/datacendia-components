@@ -172,6 +172,12 @@ const matrices: Matrix[] = [
     color: '#6366F1',
     columns: ['Cloud', 'Private Cloud', 'Self-Managed', 'Air-Gapped'],
     rows: [
+      { label: 'Who controls the keys?', cells: [
+        { value: 'Vendor + Provider', status: 'bad' },
+        { value: 'Shared', status: 'partial' },
+        { value: 'Customer', status: 'good' },
+        { value: 'Customer (offline)', status: 'good' },
+      ]},
       { label: 'We can see your data', cells: [
         { value: 'Yes', status: 'bad' },
         { value: 'Limited', status: 'partial' },
@@ -239,14 +245,14 @@ const matrices: Matrix[] = [
         { value: 'Defense, Intel', status: 'neutral' },
       ]},
     ],
-    admission: 'Cloud tier means we have access. We\'re honest about it.',
+    admission: 'If you choose cloud, we will have technical access. We\'d rather you understand that before you sign.',
     services: ['CendiaSovereign™'],
   },
   {
     id: 'ai-governance',
     title: 'AI Governance Reality Check',
     question: 'Who\'s actually responsible when AI goes wrong?',
-    description: 'Accountability matters most when things break.',
+    description: 'Who is actually responsible when AI goes wrong – and what you show your regulator or board.',
     icon: '🤖',
     color: '#EF4444',
     columns: ['Traditional Vendor', 'In-House ML Team', 'Datacendia'],
@@ -285,6 +291,11 @@ const matrices: Matrix[] = [
         { value: 'Pick one, hope it\'s right', status: 'bad' },
         { value: 'Loudest voice wins', status: 'bad' },
         { value: 'The Council: multi-agent deliberation', status: 'good' },
+      ]},
+      { label: 'Regulator asks: "Show me how this AI decided last October"', cells: [
+        { value: 'Scramble for logs', status: 'bad' },
+        { value: 'Reconstruct from notebooks', status: 'bad' },
+        { value: 'Open Chronos at that date; replay Council deliberation and evidence', status: 'good' },
       ]},
     ],
     admission: 'Most AI vendors avoid accountability. We build it in.',
@@ -342,7 +353,7 @@ const matrices: Matrix[] = [
     id: '3am',
     title: 'What Breaks at 3 AM',
     question: 'When things go wrong, what actually happens?',
-    description: 'Things break. The question is how fast you can understand and recover.',
+    description: 'Things break. The question is how fast you understand and recover.',
     icon: '🚨',
     color: '#F59E0B',
     columns: ['Typical Response', 'Datacendia Response'],
@@ -353,7 +364,7 @@ const matrices: Matrix[] = [
       ]},
       { label: 'Dashboard shows wrong number', cells: [
         { value: 'Blame the data team', status: 'bad' },
-        { value: 'Trace number to source; find exactly where it diverged', status: 'good' },
+        { value: 'Trace in Chronos back to the exact change; fix at the root', status: 'good' },
       ]},
       { label: '"The AI said something crazy"', cells: [
         { value: 'Disable and apologize', status: 'bad' },
@@ -387,7 +398,7 @@ const matrices: Matrix[] = [
     id: 'platform-comparison',
     title: 'Platform Category Comparison',
     question: 'How do different platform types compare?',
-    description: 'Understand the tradeoffs between different categories of enterprise platforms.',
+    description: 'You\'re not just choosing a vendor; you\'re choosing a category. This matrix shows the trade-offs each one bakes in.',
     icon: '⚖️',
     color: '#8B5CF6',
     columns: ['Enterprise BI', 'Cloud Data Platform', 'CRM Platform', 'ERP Suite', 'AI API', 'Datacendia'],
@@ -480,7 +491,7 @@ const matrices: Matrix[] = [
     id: 'limitations',
     title: 'What We Can\'t Do',
     question: 'What are your actual limitations?',
-    description: 'Every platform has limits. Knowing them prevents disappointment.',
+    description: 'What Datacendia will never promise you.',
     icon: '🚫',
     color: '#DC2626',
     columns: ['Can We Do It?', 'Honest Answer'],
@@ -520,6 +531,10 @@ const matrices: Matrix[] = [
       { label: 'Scale infinitely', cells: [
         { value: 'No', status: 'bad' },
         { value: 'Practical limit: ~10M decisions/month per instance', status: 'neutral' },
+      ]},
+      { label: 'Make untraceable decisions', cells: [
+        { value: 'No', status: 'bad' },
+        { value: 'Every major decision leaves a trail. If you want deniability, we\'re the wrong platform.', status: 'neutral' },
       ]},
     ],
     admission: 'Every platform has limits. Knowing them prevents disappointment.',
@@ -692,10 +707,10 @@ export const HonestyMatricesPage: React.FC = () => {
             </div>
             
             <Link
-              to="/sovereign"
+              to="/demo"
               className="px-4 py-2 border border-gray-800 text-xs tracking-[0.15em] text-gray-400 hover:text-white hover:border-red-900/50 transition-all"
             >
-              REQUEST ACCESS
+              REQUEST EARLY ACCESS
             </Link>
           </div>
         </div>
@@ -718,9 +733,36 @@ export const HonestyMatricesPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Matrices Grid */}
+      {/* Primary Matrices - Featured 3 */}
       <section className="relative z-20 py-12">
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
+          <p className="text-xs tracking-[0.3em] text-gray-600 uppercase mb-6 text-center">PRIMARY MATRICES</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            {matrices.filter(m => ['sovereignty', 'ai-governance', '3am'].includes(m.id)).map(matrix => (
+              <MatrixCard 
+                key={matrix.id} 
+                matrix={matrix} 
+                onClick={() => setSelectedMatrix(matrix)}
+              />
+            ))}
+          </div>
+          
+          {/* View All Link */}
+          <div className="text-center mb-12">
+            <button 
+              onClick={() => document.getElementById('all-matrices')?.scrollIntoView({ behavior: 'smooth' })}
+              className="text-sm text-red-900 hover:text-red-700 transition-colors border-b border-red-900/50 pb-1"
+            >
+              View all 6 Honesty Matrices →
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* All Matrices Grid */}
+      <section id="all-matrices" className="relative z-20 py-12 border-t border-gray-900">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
+          <p className="text-xs tracking-[0.3em] text-gray-600 uppercase mb-6 text-center">ALL MATRICES</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {matrices.map(matrix => (
               <MatrixCard 
@@ -744,7 +786,7 @@ export const HonestyMatricesPage: React.FC = () => {
             to="/sovereign"
             className="group inline-flex px-10 py-5 border-2 border-red-900 bg-black hover:bg-red-900/10 transition-all duration-300 items-center gap-3"
           >
-            <span className="text-sm tracking-[0.25em] text-white font-medium">Request Access</span>
+            <span className="text-sm tracking-[0.25em] text-white font-medium">Request Early Access</span>
             <ArrowRight className="w-4 h-4 text-red-800 group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>

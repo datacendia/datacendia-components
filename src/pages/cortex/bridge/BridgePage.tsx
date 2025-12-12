@@ -197,24 +197,40 @@ const ActivityLog: React.FC<{ events: ActivityEvent[] }> = ({ events }) => {
 // EXECUTION HISTORY
 // =============================================================================
 
-const ExecutionHistoryPanel: React.FC<{ history: ExecutionHistory[] }> = ({ history }) => (
+const ExecutionHistoryPanel: React.FC<{ history: ExecutionHistory[]; onViewFailed: (exec: ExecutionHistory) => void }> = ({ history, onViewFailed }) => (
   <div className="bg-neutral-800/50 rounded-lg border border-neutral-700 p-4">
     <p className="text-xs text-neutral-400 uppercase tracking-wider mb-3">Recent Executions</p>
     <div className="space-y-2">
       {history.map(exec => (
-        <div key={exec.id} className="flex items-center justify-between py-2 border-b border-neutral-700/50 last:border-0">
-          <div>
-            <p className="text-sm text-neutral-300 font-mono">{exec.workflowCode}</p>
-            <p className="text-xs text-neutral-500">{exec.duration}</p>
+        <div 
+          key={exec.id} 
+          className={cn(
+            "flex items-center justify-between py-2 border-b border-neutral-700/50 last:border-0",
+            exec.status === 'failed' && "cursor-pointer hover:bg-neutral-700/30 rounded px-2 -mx-2"
+          )}
+          onClick={() => exec.status === 'failed' && onViewFailed(exec)}
+        >
+          <div className="flex items-center gap-2">
+            <div>
+              <p className="text-sm text-neutral-300 font-mono">{exec.workflowCode}</p>
+              <p className="text-xs text-neutral-500">{exec.duration}</p>
+            </div>
           </div>
-          <span className={cn(
-            'px-2 py-0.5 rounded text-xs font-medium',
-            exec.status === 'success' && 'bg-green-500/20 text-green-400',
-            exec.status === 'failed' && 'bg-red-500/20 text-red-400',
-            exec.status === 'cancelled' && 'bg-neutral-500/20 text-neutral-400'
-          )}>
-            {exec.status}
-          </span>
+          <div className="flex items-center gap-2">
+            {exec.status === 'failed' && (
+              <span className="text-[10px] text-cyan-400 opacity-0 group-hover:opacity-100">
+                View in Chronos →
+              </span>
+            )}
+            <span className={cn(
+              'px-2 py-0.5 rounded text-xs font-medium',
+              exec.status === 'success' && 'bg-green-500/20 text-green-400',
+              exec.status === 'failed' && 'bg-red-500/20 text-red-400 cursor-pointer hover:bg-red-500/30',
+              exec.status === 'cancelled' && 'bg-neutral-500/20 text-neutral-400'
+            )}>
+              {exec.status}
+            </span>
+          </div>
         </div>
       ))}
     </div>
@@ -484,7 +500,10 @@ export const BridgePage: React.FC = () => {
         {/* EXECUTION HISTORY */}
         {/* ================================================================= */}
         <div className="mb-6">
-          <ExecutionHistoryPanel history={executionHistory} />
+          <ExecutionHistoryPanel 
+            history={executionHistory} 
+            onViewFailed={(exec) => navigate(`/cortex/intelligence/chronos?workflow=${exec.workflowCode}&status=failed&timestamp=${exec.timestamp.toISOString()}`)}
+          />
         </div>
 
         {/* ================================================================= */}

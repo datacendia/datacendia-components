@@ -743,6 +743,27 @@ export const organizationsApi = {
 };
 
 // ============================================================================
+// DATA SOURCES API
+// ============================================================================
+export const dataSourcesApi = {
+  async getDataSources() {
+    return api.get<any[]>('/data-sources');
+  },
+
+  async getDataSource(id: string) {
+    return api.get<any>(`/data-sources/${id}`);
+  },
+
+  async testConnection(id: string) {
+    return api.post<{ success: boolean; message: string }>(`/data-sources/${id}/test`);
+  },
+
+  async sync(id: string) {
+    return api.post<{ message: string }>(`/data-sources/${id}/sync`);
+  },
+};
+
+// ============================================================================
 // INTEGRATIONS API
 // ============================================================================
 export const integrationsApi = {
@@ -1070,6 +1091,7 @@ export default {
   health: healthApi,
   alerts: alertsApi,
   workflows: workflowsApi,
+  dataSources: dataSourcesApi,
   forecasts: forecastsApi,
   users: usersApi,
   organizations: organizationsApi,

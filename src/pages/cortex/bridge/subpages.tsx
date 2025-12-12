@@ -5,24 +5,63 @@
 import React, { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
+import { workflowsApi, dataSourcesApi } from '../../../lib/api';
+import { PageGuide, GUIDES } from '../../../components/PageGuide';
 
 // =============================================================================
 // WORKFLOWS LIST PAGE
 // =============================================================================
 
+interface Workflow {
+  id: string;
+  name: string;
+  status: string;
+  trigger: string;
+  schedule: string;
+  steps: number;
+  runs: { success: number; failed: number };
+  lastRun: Date | null;
+}
+
+const FALLBACK_WORKFLOWS: Workflow[] = [
+  { id: 'wf-1', name: 'Monthly Financial Close', status: 'active', trigger: 'schedule', schedule: '1st of month', steps: 12, runs: { success: 24, failed: 1 }, lastRun: new Date(Date.now() - 86400000) },
+  { id: 'wf-2', name: 'Alert Escalation', status: 'active', trigger: 'event', schedule: 'On critical alert', steps: 5, runs: { success: 156, failed: 3 }, lastRun: new Date(Date.now() - 3600000) },
+  { id: 'wf-3', name: 'Customer Onboarding', status: 'active', trigger: 'manual', schedule: 'Manual', steps: 8, runs: { success: 89, failed: 2 }, lastRun: new Date(Date.now() - 7200000) },
+  { id: 'wf-4', name: 'Vendor Onboarding', status: 'draft', trigger: 'manual', schedule: 'Manual', steps: 18, runs: { success: 0, failed: 0 }, lastRun: null },
+  { id: 'wf-5', name: 'Employee Offboarding', status: 'paused', trigger: 'manual', schedule: 'Manual', steps: 22, runs: { success: 45, failed: 2 }, lastRun: new Date(Date.now() - 604800000) },
+];
+
 export const WorkflowsListPage: React.FC = () => {
   const navigate = useNavigate();
   const [filter, setFilter] = useState<'all' | 'active' | 'draft' | 'paused'>('all');
+  const [workflows, setWorkflows] = useState<Workflow[]>(FALLBACK_WORKFLOWS);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const workflows = [
-    { id: 'wf-1', name: 'Monthly Financial Close', status: 'active', trigger: 'schedule', schedule: '1st of month', steps: 12, runs: { success: 24, failed: 1 }, lastRun: new Date(Date.now() - 86400000) },
-    { id: 'wf-2', name: 'Alert Escalation', status: 'active', trigger: 'event', schedule: 'On critical alert', steps: 5, runs: { success: 156, failed: 3 }, lastRun: new Date(Date.now() - 3600000) },
-    { id: 'wf-3', name: 'Customer Onboarding', status: 'active', trigger: 'manual', schedule: 'Manual', steps: 8, runs: { success: 89, failed: 2 }, lastRun: new Date(Date.now() - 7200000) },
-    { id: 'wf-4', name: 'Vendor Onboarding', status: 'draft', trigger: 'manual', schedule: 'Manual', steps: 18, runs: { success: 0, failed: 0 }, lastRun: null },
-    { id: 'wf-5', name: 'Employee Offboarding', status: 'paused', trigger: 'manual', schedule: 'Manual', steps: 22, runs: { success: 45, failed: 2 }, lastRun: new Date(Date.now() - 604800000) },
-    { id: 'wf-6', name: 'Data Quality Check', status: 'active', trigger: 'schedule', schedule: 'Daily at 6am', steps: 6, runs: { success: 340, failed: 5 }, lastRun: new Date(Date.now() - 18000000) },
-    { id: 'wf-7', name: 'Compliance Report', status: 'active', trigger: 'schedule', schedule: 'Weekly', steps: 15, runs: { success: 48, failed: 0 }, lastRun: new Date(Date.now() - 172800000) },
-  ];
+  React.useEffect(() => {
+    const fetchWorkflows = async () => {
+      try {
+        const response = await workflowsApi.getWorkflows({});
+        if (response.success && response.data && Array.isArray(response.data)) {
+          const mapped: Workflow[] = response.data.map((w: any) => ({
+            id: w.id,
+            name: w.name,
+            status: (w.status || 'draft').toLowerCase(),
+            trigger: w.trigger?.type || 'manual',
+            schedule: w.trigger?.cron || w.trigger?.event || 'Manual',
+            steps: w.definition?.steps?.length || 0,
+            runs: { success: w.successCount || 0, failed: w.failedCount || 0 },
+            lastRun: w.lastExecutedAt ? new Date(w.lastExecutedAt) : null,
+          }));
+          if (mapped.length > 0) setWorkflows(mapped);
+        }
+      } catch (err) {
+        console.log('Using fallback workflows');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchWorkflows();
+  }, []);
 
   const filteredWorkflows = filter === 'all' 
     ? workflows 
@@ -112,6 +151,9 @@ export const WorkflowsListPage: React.FC = () => {
           </div>
         ))}
       </div>
+      
+      {/* Page Guide */}
+      <PageGuide {...GUIDES.workflows} />
     </div>
   );
 };
@@ -393,22 +435,61 @@ export const ApprovalsPage: React.FC = () => {
 // INTEGRATIONS PAGE
 // =============================================================================
 
-export const BridgeIntegrationsPage: React.FC = () => {
-  const categories = ['All', 'CRM', 'ERP', 'Database', 'Communication', 'Analytics'];
-  const [activeCategory, setActiveCategory] = useState('All');
+interface Integration {
+  id: string;
+  name: string;
+  category: string;
+  icon: string;
+  status: string;
+  lastSync: Date | null;
+}
 
-  const integrations = [
-    { id: 'salesforce', name: 'Salesforce', category: 'CRM', icon: '☁️', status: 'connected', lastSync: new Date(Date.now() - 300000) },
-    { id: 'hubspot', name: 'HubSpot', category: 'CRM', icon: '🧡', status: 'disconnected' },
-    { id: 'slack', name: 'Slack', category: 'Communication', icon: '💬', status: 'connected', lastSync: new Date(Date.now() - 60000) },
-    { id: 'teams', name: 'Microsoft Teams', category: 'Communication', icon: '👥', status: 'disconnected' },
-    { id: 'sap', name: 'SAP', category: 'ERP', icon: '📊', status: 'connected', lastSync: new Date(Date.now() - 3600000) },
-    { id: 'oracle', name: 'Oracle ERP', category: 'ERP', icon: '🔴', status: 'disconnected' },
-    { id: 'snowflake', name: 'Snowflake', category: 'Database', icon: '❄️', status: 'connected', lastSync: new Date(Date.now() - 1800000) },
-    { id: 'bigquery', name: 'BigQuery', category: 'Database', icon: '📦', status: 'disconnected' },
-    { id: 'tableau', name: 'Tableau', category: 'Analytics', icon: '📈', status: 'connected', lastSync: new Date(Date.now() - 7200000) },
-    { id: 'powerbi', name: 'Power BI', category: 'Analytics', icon: '📊', status: 'disconnected' },
-  ];
+const FALLBACK_INTEGRATIONS: Integration[] = [
+  { id: 'salesforce', name: 'Salesforce', category: 'CRM', icon: '☁️', status: 'connected', lastSync: new Date(Date.now() - 300000) },
+  { id: 'hubspot', name: 'HubSpot', category: 'CRM', icon: '🧡', status: 'pending', lastSync: null },
+  { id: 'snowflake', name: 'Snowflake', category: 'Database', icon: '❄️', status: 'connected', lastSync: new Date(Date.now() - 1800000) },
+  { id: 'bigquery', name: 'BigQuery', category: 'Analytics', icon: '📦', status: 'connected', lastSync: new Date(Date.now() - 3600000) },
+  { id: 'sap', name: 'SAP', category: 'ERP', icon: '📊', status: 'syncing', lastSync: null },
+];
+
+const getIconForType = (type: string): string => {
+  const icons: Record<string, string> = {
+    SALESFORCE: '☁️', HUBSPOT: '🧡', POSTGRESQL: '🐘', MYSQL: '🐬',
+    SNOWFLAKE: '❄️', BIGQUERY: '📦', SAP: '📊', ORACLE: '🔴',
+    MONGODB: '🍃', REST_API: '🔗', GOOGLE_SHEETS: '📋', AIRTABLE: '📑',
+  };
+  return icons[type] || '📊';
+};
+
+export const BridgeIntegrationsPage: React.FC = () => {
+  const categories = ['All', 'CRM', 'ERP', 'Database', 'Analytics', 'Spreadsheet'];
+  const [activeCategory, setActiveCategory] = useState('All');
+  const [integrations, setIntegrations] = useState<Integration[]>(FALLBACK_INTEGRATIONS);
+  const [isLoading, setIsLoading] = useState(true);
+
+  React.useEffect(() => {
+    const fetchDataSources = async () => {
+      try {
+        const response = await dataSourcesApi.getDataSources();
+        if (response.success && response.data && Array.isArray(response.data)) {
+          const mapped: Integration[] = response.data.map((ds: any) => ({
+            id: ds.id,
+            name: ds.name,
+            category: ds.config?.category || 'Database',
+            icon: getIconForType(ds.type),
+            status: (ds.status || 'pending').toLowerCase(),
+            lastSync: ds.last_sync_at ? new Date(ds.last_sync_at) : null,
+          }));
+          if (mapped.length > 0) setIntegrations(mapped);
+        }
+      } catch (err) {
+        console.log('Using fallback integrations');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchDataSources();
+  }, []);
 
   const filtered = activeCategory === 'All'
     ? integrations
@@ -482,6 +563,9 @@ export const BridgeIntegrationsPage: React.FC = () => {
           </div>
         ))}
       </div>
+      
+      {/* Page Guide */}
+      <PageGuide {...GUIDES.integrations} />
     </div>
   );
 };

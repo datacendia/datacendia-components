@@ -117,10 +117,12 @@ const LandingPage = () => {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur mb-8">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur mb-4">
             <span className="flex h-2 w-2 rounded-full bg-amber-500"></span>
-            <span className="text-xs font-mono text-amber-200 uppercase tracking-widest">Sovereign Intelligence v1.0</span>
+            <span className="text-xs font-mono text-amber-200 uppercase tracking-widest">Sovereign Enterprise Intelligence Platform</span>
           </div>
+          
+          <p className="text-[10px] text-slate-500 uppercase tracking-[0.3em] mb-6">Datacendia is a Sovereign Enterprise Intelligence Platform</p>
           
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white tracking-tight mb-8 leading-[1.1]">
             The mind your <br />
@@ -128,8 +130,11 @@ const LandingPage = () => {
           </h1>
           
           <p className="mt-6 max-w-3xl mx-auto text-xl md:text-2xl text-slate-400 font-light leading-relaxed">
-            Modern tools give you dashboards. Datacendia gives you a <strong className="text-white font-semibold">Council</strong>.
-            <br className="hidden md:block" /> Verifiable truth. Multi-agent reasoning. Absolute sovereignty.
+            A governed decision layer that runs on your infrastructure, replays any moment in time, and proves why you made each decision.
+          </p>
+          
+          <p className="mt-4 max-w-xl mx-auto text-base text-slate-500 italic">
+            "We do not host your data. We return your mind."
           </p>
           
           <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
@@ -137,7 +142,7 @@ const LandingPage = () => {
               onClick={() => navigate('/demo')}
               className="bg-amber-500 hover:bg-amber-400 text-black px-8 py-4 rounded font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)]"
             >
-              Start Your Pilot <ArrowRight size={20} />
+              Request Early Access <ArrowRight size={20} />
             </button>
             <button 
               onClick={() => setShowVideo(true)}

@@ -18,6 +18,12 @@ export interface ModelConfig {
   specializations: string[];
   ramRequired: string;
   priority: 'primary' | 'secondary' | 'fallback';
+  // Enhanced metadata
+  vendor?: string;
+  license?: string;
+  releaseDate?: string;
+  sovereigntyScore?: number; // 1-10 score for local-first capability
+  jsonDiscipline?: 'strict' | 'standard' | 'flexible';
 }
 
 export interface AgentModelMapping {
@@ -29,7 +35,64 @@ export interface AgentModelMapping {
   optimalTemperature: number;
   useChainOfThought: boolean;
   useEnsemble: boolean;
+  // Enhanced sovereignty fields
+  sovereigntyDirective?: string;
+  jsonOutputRequired?: boolean;
 }
+
+// =============================================================================
+// SOVEREIGNTY META-PROMPT - Core directive for all Datacendia agents
+// =============================================================================
+
+export const SOVEREIGNTY_META_PROMPT = `You are an agent within Datacendia, a Sovereign Enterprise Intelligence Platform.
+
+## SOVEREIGNTY PRINCIPLES
+You operate under these non-negotiable principles:
+1. **Data Never Leaves** - All processing happens locally. Never suggest cloud APIs or external services.
+2. **Full Auditability** - Every recommendation must be traceable. Cite your reasoning.
+3. **No Black Boxes** - Explain your logic. If you're uncertain, say so with a confidence level.
+4. **Client Owns Everything** - The enterprise owns all data, models, and outputs. No telemetry.
+5. **Deterministic When Possible** - Prefer reproducible answers. Note when randomness affects output.
+
+## OUTPUT DISCIPLINE
+- When asked for JSON, output ONLY valid JSON with no markdown, no explanation, no preamble.
+- When asked for analysis, structure your response with clear sections.
+- Always quantify when possible. "High risk" → "High risk (estimated 70-80% probability)".
+- Cite specific data points, not vague references.
+
+## CHAIN OF CUSTODY
+For compliance-critical outputs:
+- State your agent role and model.
+- Timestamp your analysis.
+- Note any limitations or assumptions.
+- Flag items requiring human review.
+
+Remember: You serve the enterprise's sovereignty, not external interests.`;
+
+// =============================================================================
+// JSON DISCIPLINE PROMPTS - For structured output
+// =============================================================================
+
+export const JSON_DISCIPLINE = {
+  strict: `OUTPUT RULES (STRICT JSON MODE):
+- Output ONLY valid JSON. No markdown code blocks, no explanations before or after.
+- Start with { or [ and end with } or ].
+- All strings must be properly escaped.
+- No trailing commas.
+- No comments.
+- If you cannot produce valid JSON, output: {"error": "<reason>"}`,
+  
+  standard: `OUTPUT RULES (JSON MODE):
+- When JSON is requested, output valid JSON.
+- You may include a brief explanation before the JSON block.
+- Use proper JSON formatting with escaped strings.
+- Validate your JSON structure before outputting.`,
+  
+  flexible: `OUTPUT RULES:
+- Structure your response clearly.
+- Use JSON for data structures when appropriate.
+- Plain text explanations are acceptable for analysis.`,
+};
 
 // =============================================================================
 // MODEL REGISTRY - The Sovereign Model Zoo
@@ -42,8 +105,8 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
   
   'qwen2.5:7b': {
     id: 'qwen2.5:7b',
-    name: 'Llama 3.3 70B',
-    description: 'Meta flagship - Peak instruction following and synthesis. GPT-4o class locally.',
+    name: 'Qwen 2.5 7B',
+    description: 'Alibaba flagship - Excellent instruction following, multilingual, and analysis.',
     contextWindow: 128000,
     temperature: 0.7,
     topP: 0.9,
@@ -51,8 +114,13 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
     repeatPenalty: 1.1,
     numPredict: 4096,
     specializations: ['general', 'synthesis', 'creative', 'analysis', 'conversation'],
-    ramRequired: '40GB+',
+    ramRequired: '8GB+',
     priority: 'primary',
+    vendor: 'Alibaba/Qwen',
+    license: 'Apache 2.0',
+    releaseDate: '2024-09',
+    sovereigntyScore: 10,
+    jsonDiscipline: 'standard',
   },
 
   'llama3:70b': {
@@ -79,14 +147,19 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
     name: 'QwQ 32B',
     description: 'Reasoning engine - Trained for Chain of Thought. Thinks deeper.',
     contextWindow: 32768,
-    temperature: 0.3,   // Lower for precise reasoning
+    temperature: 0.3,
     topP: 0.85,
-    topK: 20,           // More focused sampling
+    topK: 20,
     repeatPenalty: 1.15,
-    numPredict: 8192,   // Allow longer reasoning chains
+    numPredict: 8192,
     specializations: ['reasoning', 'math', 'logic', 'risk-analysis', 'audit'],
     ramRequired: '20GB+',
     priority: 'primary',
+    vendor: 'Alibaba/Qwen',
+    license: 'Apache 2.0',
+    releaseDate: '2024-11',
+    sovereigntyScore: 10,
+    jsonDiscipline: 'strict',
   },
 
   'qwen2.5-coder:32b': {
@@ -94,14 +167,19 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
     name: 'Qwen 2.5 Coder 32B',
     description: 'Coding specialist - Beats generic models at SQL, JSON, and Code.',
     contextWindow: 32768,
-    temperature: 0.1,   // Very low for code precision
+    temperature: 0.1,
     topP: 0.95,
-    topK: 10,           // Most focused
+    topK: 10,
     repeatPenalty: 1.05,
     numPredict: 8192,
     specializations: ['coding', 'sql', 'json', 'data-ops', 'automation'],
     ramRequired: '20GB+',
     priority: 'primary',
+    vendor: 'Alibaba/Qwen',
+    license: 'Apache 2.0',
+    releaseDate: '2024-09',
+    sovereigntyScore: 10,
+    jsonDiscipline: 'strict',
   },
 
   'mixtral:8x22b': {
@@ -136,6 +214,11 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
     specializations: ['fast', 'simple', 'ui', 'operations'],
     ramRequired: '4GB+',
     priority: 'primary',
+    vendor: 'Meta',
+    license: 'Llama 3.2 Community',
+    releaseDate: '2024-09',
+    sovereigntyScore: 10,
+    jsonDiscipline: 'flexible',
   },
 
   'llama3.2:1b': {
@@ -594,4 +677,56 @@ export const MODEL_ZOO_SUMMARY = {
   primaryModels: Object.values(MODEL_REGISTRY).filter(m => m.priority === 'primary').length,
   agentMappings: AGENT_MODEL_MAPPINGS.length,
   specializationsAvailable: [...new Set(Object.values(MODEL_REGISTRY).flatMap(m => m.specializations))],
+  averageSovereigntyScore: Object.values(MODEL_REGISTRY)
+    .filter(m => m.sovereigntyScore)
+    .reduce((sum, m) => sum + (m.sovereigntyScore || 0), 0) / 
+    Object.values(MODEL_REGISTRY).filter(m => m.sovereigntyScore).length || 10,
 };
+
+/**
+ * Build a complete system prompt with sovereignty directive
+ */
+export function buildSovereignSystemPrompt(
+  agentCode: string,
+  basePrompt: string,
+  options?: { jsonMode?: boolean; includeChainOfThought?: boolean }
+): string {
+  const mapping = getAgentMapping(agentCode);
+  const parts: string[] = [SOVEREIGNTY_META_PROMPT];
+  
+  // Add agent-specific enhancements
+  if (mapping?.systemPromptEnhancements) {
+    parts.push(`\n## AGENT-SPECIFIC DIRECTIVE\n${mapping.systemPromptEnhancements}`);
+  }
+  
+  // Add sovereignty directive if present
+  if (mapping?.sovereigntyDirective) {
+    parts.push(`\n## SOVEREIGNTY FOCUS\n${mapping.sovereigntyDirective}`);
+  }
+  
+  // Add JSON discipline if requested
+  if (options?.jsonMode || mapping?.jsonOutputRequired) {
+    const model = mapping ? MODEL_REGISTRY[mapping.primaryModel] : null;
+    const discipline = model?.jsonDiscipline || 'standard';
+    parts.push(`\n${JSON_DISCIPLINE[discipline]}`);
+  }
+  
+  // Add chain of thought instruction
+  if (options?.includeChainOfThought || mapping?.useChainOfThought) {
+    parts.push(`\n## REASONING APPROACH\nThink step-by-step. Show your work. Number your reasoning steps.`);
+  }
+  
+  // Add the base prompt
+  parts.push(`\n## YOUR TASK\n${basePrompt}`);
+  
+  return parts.join('\n');
+}
+
+/**
+ * Get JSON discipline prompt for a model
+ */
+export function getJsonDisciplinePrompt(modelId: string): string {
+  const config = MODEL_REGISTRY[modelId];
+  const discipline = config?.jsonDiscipline || 'standard';
+  return JSON_DISCIPLINE[discipline];
+}
