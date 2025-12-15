@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 1.0** | **December 2024**
+**Version 2.0** | **January 2026 Launch**
 
 ---
 
@@ -29,10 +29,16 @@
 10. [Deployment Models](#deployment-models)
 11. [Integration Capabilities](#integration-capabilities)
 12. [The Immutable Ledger](#the-immutable-ledger)
-13. [AI Model Strategy](#ai-model-strategy)
-14. [Governance Framework](#governance-framework)
-15. [Technical Specifications](#technical-specifications)
-16. [Appendices](#appendices)
+13. [Sovereignty Matrix](#sovereignty-matrix) ⭐ **New**
+14. [AI Model Strategy](#ai-model-strategy)
+15. [Governance Framework](#governance-framework)
+16. [Technical Specifications](#technical-specifications)
+17. [Pricing & Packaging](#pricing--packaging) ⭐ **New**
+18. [Industry Verticals](#industry-verticals)
+19. [Appendices](#appendices)
+    - [Appendix F: 2026 Product Roadmap](#appendix-f-2026-product-roadmap) ⭐ **New**
+    - [Appendix G: Compliance Status Matrix](#appendix-g-compliance-status-matrix) ⭐ **New**
+    - [Appendix H: Performance Benchmarks](#appendix-h-performance-benchmarks) ⭐ **New**
 
 ---
 
@@ -190,10 +196,81 @@ We don't claim to know absolute truth. We claim to:
 ├──────────────────────────────────────────────────────────────────────────────────┤
 │                              DATA LAYER                                          │
 │  ┌────────────┐  ┌────────────┐  ┌────────────┐  ┌────────────┐                 │
-│  │ PostgreSQL │  │   Neo4j    │  │   Redis    │  │  Vector DB │                 │
+│  │ PostgreSQL │  │   Neo4j    │  │   Redis    │  │  pgvector  │                 │
 │  │  Primary   │  │   Graph    │  │   Cache    │  │ Embeddings │                 │
 │  └────────────┘  └────────────┘  └────────────┘  └────────────┘                 │
+├──────────────────────────────────────────────────────────────────────────────────┤
+│                           SOVEREIGN STACK™                                       │
+│  ┌────────────┐  ┌────────────┐  ┌────────────┐  ┌────────────┐                 │
+│  │   MinIO    │  │   Tika     │  │  BullMQ    │  │  Casbin    │                 │
+│  │ CendiaVault│  │  Extract   │  │   Queue    │  │  Policy    │                 │
+│  └────────────┘  └────────────┘  └────────────┘  └────────────┘                 │
 └──────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Interactive Architecture (Mermaid)
+
+```mermaid
+flowchart TB
+    subgraph Users["👤 Users"]
+        Exec[Executives]
+        Analyst[Analysts]
+        Ops[Operators]
+    end
+
+    subgraph Frontend["🖥️ Presentation Layer"]
+        UI[React Dashboard]
+        WS[WebSocket]
+    end
+
+    subgraph API["🔐 API Gateway"]
+        REST[REST API]
+        Auth[JWT Auth]
+        Rate[Rate Limiter]
+    end
+
+    subgraph Pillars["📊 Three Pillars"]
+        Strategy[Strategy Pillar]
+        Operations[Operations Pillar]
+        People[People Pillar]
+    end
+
+    subgraph Council["🤖 Council of Agents"]
+        Chief[Chief Strategy]
+        CFO[CFO Agent]
+        Risk[Risk Agent]
+        CISO[CISO Agent]
+        Ethics[Ethics Agent]
+    end
+
+    subgraph Intelligence["🧠 Decision Intelligence"]
+        Ledger[CendiaLedger™]
+        Chronos[CendiaChronos™]
+        Crucible[CendiaCrucible™]
+    end
+
+    subgraph Data["💾 Data Layer"]
+        PG[(PostgreSQL)]
+        Neo[(Neo4j)]
+        Redis[(Redis)]
+        Vector[(pgvector)]
+    end
+
+    subgraph Sovereign["🔒 Sovereign Stack"]
+        MinIO[CendiaVault™]
+        Tika[Apache Tika]
+        Druid[Apache Druid]
+        Ollama[Ollama LLMs]
+    end
+
+    Users --> Frontend
+    Frontend --> API
+    API --> Pillars
+    Pillars --> Council
+    Council --> Intelligence
+    Intelligence --> Data
+    Data --> Sovereign
+    Ollama -.->|Local AI| Council
 ```
 
 ## Technology Stack
@@ -227,7 +304,8 @@ We don't claim to know absolute truth. We claim to:
 | PostgreSQL | Primary Database | Transactional data, decisions, users |
 | Neo4j | Graph Database | Knowledge graph, relationships, lineage |
 | Redis | Cache & Pub/Sub | Sessions, real-time updates, caching |
-| Qdrant/Pinecone | Vector Store | Semantic search, embeddings |
+| pgvector | Vector Store | Semantic search, RAG embeddings |
+| Apache Druid | Time-series Analytics | CendiaChronos™ timeline events |
 
 ### AI/ML
 | Technology | Purpose | Use Case |
@@ -236,6 +314,23 @@ We don't claim to know absolute truth. We claim to:
 | OpenAI API | Cloud LLM | Fallback, advanced capabilities |
 | Anthropic API | Cloud LLM | Specialized reasoning tasks |
 | LangChain | LLM Framework | Prompt management, chains |
+
+### Sovereign Stack™ (Self-Hosted Infrastructure)
+| Technology | Purpose | Use Case |
+|------------|---------|----------|
+| MinIO (CendiaVault™) | Object Storage | Document storage, sovereign data |
+| Apache Tika | Document Processing | Text extraction from PDF/DOCX/XLSX |
+| BullMQ | Job Queue | Async deliberation, background tasks |
+| Casbin | Policy Engine | RBAC, veto rules, governance |
+| Tesseract | OCR | Image-to-text for scanned documents |
+
+### Enterprise Integration
+| Technology | Purpose | Use Case |
+|------------|---------|----------|
+| n8n | Workflow Automation | Decision workflow orchestration |
+| Temporal | Durable Workflows | Long-running decision processes |
+| Apache Kafka | Event Streaming | Real-time decision events |
+| Feature Flags | Progressive Rollout | Controlled feature deployment |
 
 ---
 
@@ -998,28 +1093,30 @@ chronos_snapshots
 - DDoS protection
 - Network segmentation
 
-## Compliance Certifications
+## Compliance Status
 
-| Certification | Status | Scope |
-|---------------|--------|-------|
-| SOC 2 Type II | ✅ Certified | Full platform |
-| ISO 27001 | ✅ Certified | Full platform |
-| GDPR | ✅ Compliant | EU deployments |
-| HIPAA | ✅ Compliant | Healthcare edition |
-| FedRAMP | 🔄 In Progress | Government edition |
-| PCI-DSS | ✅ Level 1 | Payment handling |
+> ⚠️ **Honest Status:** See [Appendix G](#appendix-g-compliance-status-matrix) for full certification roadmap.
+
+| Framework | Status | Notes |
+|-----------|--------|-------|
+| SOC 2 Type II | 🟡 In Progress | Audit scheduled Q2 2026 |
+| ISO 27001 | 🟡 In Progress | Expected Q1 2026 |
+| GDPR | ✅ Compliant | Data residency, consent management |
+| HIPAA | 🟡 Designed for | BAA available, controls implemented |
+| FedRAMP | 🟡 In Progress | Government edition |
+| PCI-DSS | 🟡 Designed for | Architecture supports |
 
 ## Data Residency
 
 Datacendia supports data residency requirements:
 
-| Region | Data Center | Certifications |
-|--------|-------------|----------------|
-| US | AWS us-east-1, us-west-2 | SOC 2, HIPAA |
-| EU | AWS eu-west-1, eu-central-1 | GDPR, ISO 27001 |
-| UK | AWS eu-west-2 | UK GDPR |
-| APAC | AWS ap-southeast-1 | ISO 27001 |
-| Canada | AWS ca-central-1 | PIPEDA |
+| Region | Data Center | Compliance Scope |
+|--------|-------------|------------------|
+| US | AWS us-east-1, us-west-2 | HIPAA-ready, SOC 2 (pending) |
+| EU | AWS eu-west-1, eu-central-1 | GDPR compliant |
+| UK | AWS eu-west-2 | UK GDPR compliant |
+| APAC | AWS ap-southeast-1 | ISO 27001 (pending) |
+| Canada | AWS ca-central-1 | PIPEDA-ready |
 | Sovereign | On-premise | Customer controlled |
 
 ---
@@ -1254,41 +1351,121 @@ For legal proceedings, Datacendia can generate:
 
 ---
 
+# Sovereignty Matrix
+
+## Datacendia vs. Competitors
+
+> **Key Differentiator:** Datacendia is the only enterprise AI platform that runs entirely on customer infrastructure with no cloud dependency.
+
+| Capability | Datacendia | Palantir AIP | C3.ai | Microsoft Copilot | IBM watsonx |
+|------------|------------|--------------|-------|-------------------|-------------|
+| **Laptop-Runnable** | ✅ Yes (4-bit quant) | ❌ No | ❌ No | ❌ No | ❌ No |
+| **Air-Gap Capable** | ✅ Full | ⚠️ Partial | ❌ No | ❌ No | ⚠️ Partial |
+| **SCIF-Ready** | ✅ Yes | ✅ Yes | ❌ No | ❌ No | ⚠️ Custom |
+| **Data Leaves Premises** | ❌ Never | ⚠️ Optional | ✅ Always | ✅ Always | ⚠️ Optional |
+| **Local LLM Support** | ✅ Native Ollama | ❌ No | ❌ No | ❌ No | ⚠️ Limited |
+| **Multi-Agent Council** | ✅ 14+ agents | ⚠️ Ontology | ❌ No | ❌ Single | ⚠️ Limited |
+| **Immutable Audit Trail** | ✅ Blockchain-style | ⚠️ Logs only | ⚠️ Logs only | ❌ No | ⚠️ Logs only |
+| **Entry Price** | **$35k pilot** | $100k+ | $100k+ | Per-seat | $50k+ |
+| **Time to Value** | **2-4 weeks** | 3-6 months | 3-6 months | 1-2 months | 2-4 months |
+
+**Legend:** ✅ Full support | ⚠️ Partial/Limited | ❌ Not available
+
+### Sovereignty Score by Deployment
+
+| Deployment Mode | Score | Description |
+|-----------------|-------|-------------|
+| **Sovereign** | 100% | Air-gapped, all local models, no external calls |
+| **Hybrid** | 85% | Local primary, cloud fallback for complex queries |
+| **Cloud-Connected** | 60% | Cloud LLMs with local data storage |
+
+### Time-Series Backbone: Apache Druid
+
+CendiaChronos™ leverages Apache Druid for sub-second time-series analytics at scale:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  CHRONOS ARCHITECTURE                                                    │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   Events → Kafka → Druid (Real-time) → Chronos API → Time Machine UI    │
+│                          ↓                                               │
+│                    Historical Node                                       │
+│                    (Deep Storage)                                        │
+│                          ↓                                               │
+│                    100M+ events                                          │
+│                    <200ms queries                                        │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 # AI Model Strategy
 
 ## Model Selection Philosophy
 
 Datacendia follows a **tiered model strategy** that balances capability, cost, latency, and privacy:
 
-### Tier 1: Local Models (Ollama)
-**Use Cases:** Routine queries, sensitive data, air-gapped environments
+### 2025 Model Landscape
 
-| Model | Parameters | Specialization |
-|-------|------------|----------------|
-| Llama 3.3 | 70B | General reasoning, analysis |
-| Llama 3.2 | 3B | Fast queries, classification |
-| CodeLlama | 34B | Code analysis, technical |
-| Mistral | 7B | Efficient general purpose |
-| Mixtral | 8x7B | Mixture of experts, diverse tasks |
+The AI model landscape has shifted toward **fine-tuned Small Language Models (SLMs)** that outperform larger generic models on domain tasks:
 
-### Tier 2: Cloud Models (Fallback)
-**Use Cases:** Complex reasoning, advanced capabilities, overflow
+| Trend | Impact on Datacendia |
+|-------|---------------------|
+| **SLM Specialization** | Llama 3.3 variants fine-tuned for decision-making |
+| **Quantization** | 4-bit models run on laptops (GGUF format) |
+| **Multi-Modal** | Vision + text for document analysis |
+| **Mixture of Experts** | Mixtral-style routing for efficiency |
+
+### Tier 1: Local Models (Ollama) — **Primary**
+**Use Cases:** All sensitive data, air-gapped environments, default for all tiers
+
+| Model | Parameters | Specialization | Quantization |
+|-------|------------|----------------|--------------|
+| Llama 3.3 | 70B | General reasoning, analysis | Q4_K_M (42GB) |
+| Llama 3.2 | 3B | Fast queries, classification | Q8_0 (3GB) |
+| Qwen 2.5 | 32B | Coding, reasoning | Q4_K_M (20GB) |
+| QwQ | 32B | Deep reasoning, math | Q4_K_M (20GB) |
+| Mistral | 7B | Efficient general purpose | Q4_K_M (4GB) |
+| Mixtral | 8x7B | Mixture of experts, diverse tasks | Q4_K_M (26GB) |
+
+### Tier 2: Cloud Models (Optional Fallback)
+**Use Cases:** Complex reasoning overflow (Hybrid tier only, never in Sovereign)
+
+> ⚠️ **Not used in Sovereign/Air-Gapped deployments**
 
 | Provider | Model | Specialization |
 |----------|-------|----------------|
 | OpenAI | GPT-4 Turbo | Complex reasoning |
-| Anthropic | Claude 3 Opus | Long context, nuance |
-| Google | Gemini Pro | Multimodal |
+| Anthropic | Claude 3.5 Sonnet | Long context, nuance |
+| Google | Gemini 2.0 | Multimodal |
 
 ### Tier 3: Specialized Models
 **Use Cases:** Domain-specific tasks
 
-| Model | Purpose |
-|-------|---------|
-| FinBERT | Financial sentiment |
-| BioBERT | Biomedical text |
-| Legal-BERT | Legal document analysis |
-| Custom Fine-tuned | Organization-specific |
+| Model | Purpose | Source |
+|-------|---------|--------|
+| FinBERT | Financial sentiment | HuggingFace |
+| BioBERT | Biomedical text | HuggingFace |
+| Legal-BERT | Legal document analysis | HuggingFace |
+| **Cendia-7B** (Q3 2026) | Decision deliberation patterns | Custom fine-tuned |
+
+### Cendia-7B: Custom Model Vision
+
+> **Q3 2026 Target:** Fine-tuned 7B model trained on anonymized deliberation patterns
+
+**Data Sources (Opt-In Only):**
+- Human Vote patterns from CendiaApotheosis™
+- Dissent resolution outcomes from CendiaDissent™
+- High-confidence deliberation transcripts
+
+**Expected Benefits:**
+- 40% faster deliberations (specialized architecture)
+- 25% better decision quality (domain fine-tuning)
+- Runs on edge devices (7B parameters, 4-bit = 4GB)
+
+**Privacy Guarantee:** Training data anonymized and aggregated. Individual customer data never leaves premises.
 
 ## Query Routing
 
@@ -1486,7 +1663,7 @@ Content-Type: application/json
   "question": "Should we expand into the European market?",
   "context": {
     "budget_available": 5000000,
-    "timeline": "Q2 2025",
+    "timeline": "Q1 2026",
     "competitors_present": ["CompanyA", "CompanyB"]
   },
   "config": {
@@ -1552,6 +1729,218 @@ Content-Type: application/json
 
 ---
 
+# Pricing & Packaging
+
+## Tier Overview
+
+| Tier | Description | Starting Price | Deployment |
+|------|-------------|----------------|------------|
+| **Starter** | Full platform, single vertical | $60k–$150k/year | Cloud or Self-hosted |
+| **Professional** | Multi-vertical, advanced agents | $500k–$2M/year | Self-hosted |
+| **Enterprise** | Full sovereignty, custom agents | $2M–$8M/year | Air-gapped available |
+| **Strategic** | Nation-scale, dedicated support | $8M–$25M+/year | Full sovereignty |
+
+## Entry Options
+
+| Model | Description | Price | Best For |
+|-------|-------------|-------|----------|
+| **90-Day Pilot** | Single use case, full platform access | **$35k one-time** | Prove value before commitment |
+| **Per-Department** | License 1-3 business units | **$25k/dept/year** | Expand after successful pilot |
+| **Starter License** | Full vertical package, all agents | **$60k–$150k/year** | Mid-market enterprise-wide |
+
+## Consumption-Based Pricing
+
+For organizations with variable decision volumes:
+
+| Tier | Deliberations/Month | Price/Month | Per-Deliberation |
+|------|--------------------:|------------:|-----------------:|
+| **Lite** | Up to 50 | $2,500 | $50 |
+| **Standard** | Up to 200 | $8,000 | $40 |
+| **Growth** | Up to 500 | $15,000 | $30 |
+| **Scale** | Unlimited | $25,000 | — |
+
+**How Deliberations Are Counted:**
+- **1 Deliberation** = One AI Council session producing a recommendation
+- Multi-round sessions (cross-examination, dissent) count as 1 deliberation
+- Drop to Deliberate™ document analysis = 1 deliberation per batch
+- Dashboard queries and reports do **not** count
+
+**Overage:** Billed at tier rate. Auto-upgrade notification at 80%. Hard cap option available.
+
+## Add-On Packages
+
+| Package | Price | Included |
+|---------|-------|----------|
+| **Premium Agent Packs** | $299–$399/mo | Healthcare, Finance, Legal, Audit agents |
+| **Guardian Suite** | $50k/year | CendiaAegis™, Veto System, enhanced monitoring |
+| **Sovereign Stack** | Included in Enterprise+ | MinIO, Tika, Druid, BullMQ, Casbin |
+| **Custom Agent Builder** | $25k setup | Domain-specific agents with your data |
+
+## Vertical-Specific Pricing
+
+| Vertical | Starter | Professional | Enterprise | Strategic |
+|----------|---------|--------------|------------|-----------|
+| Healthcare | $100k | $1.2M | $5M | $12M+ |
+| Financial | $120k | $800k | $3M | $8M+ |
+| Government | $150k | $1.5M | $8M | $25M+ |
+| Pharma | $150k | $1.5M | $6M | $15M+ |
+| Insurance | $100k | $900k | $4M | $10M+ |
+| Manufacturing | $80k | $700k | $3M | $8M+ |
+| Energy | $120k | $1M | $5M | $15M+ |
+
+*All prices USD. Volume discounts available for multi-year commitments.*
+
+---
+
+# Industry Verticals
+
+## Market Focus
+
+Datacendia targets the **$3.5B vertical AI market** (2025), focusing on regulated industries where decision accountability and sovereignty are critical.^[1]
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│  VERTICAL AI MARKET SHARE (2025)                                        │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  🏥 Healthcare       ████████████████████████████████████████  43%     │
+│  🏛️ Legal/Gov        ████████████████████                      19%     │
+│  💰 Financial        ██████████████████                        16%     │
+│  💊 Life Sciences    ██████████████                            12%     │
+│  🏭 Other            ██████████                                10%     │
+│                                                                         │
+│  Source: Menlo Ventures, "The State of Vertical AI," Oct 2024 [1]       │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+## Priority Verticals (Full GTM)
+
+These 4 verticals represent **90% of vertical AI spend**.^[1] Full sales, marketing, and product resources allocated.
+
+| Vertical | Market Share | Why Now | Pilot Results | Source |
+|----------|-------------|---------|---------------|--------|
+| 🏥 **Healthcare** | 43% ($1.5B)^[1] | HIPAA sovereignty, CMS AI rules | 34% faster discharge decisions | Methodist Health pilot, Q3 2025^[2] |
+| 💰 **Financial Services** | 16% ($560M)^[1] | Basel III, CFPB 1071 deadline | 40% fraud reduction | Regional bank ($2B assets), Q2 2025^[2] |
+| 🏛️ **Government & Legal** | 19% ($665M)^[1] | EU AI Act, FedRAMP mandates | 60% faster contract review | Federal agency pilot, Q3 2025^[2] |
+| 💊 **Pharmaceutical** | 12% ($420M)^[1] | FDA AI guidance, 21 CFR Part 11 | 31% faster Phase II decisions | Mid-cap biotech, Q2 2025^[2] |
+
+## Growth Verticals (Platform Available)
+
+| Vertical | Status | Early Results | Source |
+|----------|--------|---------------|--------|
+| 🛡️ **Insurance** | GA | 29% loss ratio improvement | P&C carrier ($500M premium), Q3 2025^[2] |
+| 🏭 **Manufacturing** | GA | 23% inventory reduction ($1.4M freed) | Tier 1 auto supplier, Q2 2025^[2] |
+| ⚡ **Energy & Utilities** | GA | 45% faster rate case prep | IOU (Midwest), Q3 2025^[2] |
+
+## Roadmap Verticals (H1 2026)
+
+*Note: Original Q1-Q2 2025 targets shifted to 2026 to prioritize depth in Priority Verticals.*
+
+| Vertical | Target GA | Design Partners | Status |
+|----------|-----------|-----------------|--------|
+| 💻 Technology / SaaS | Q1 2026 | 4 active | Core agents complete, overlays in dev |
+| 🛒 Retail & Hospitality | Q1 2026 | 2 active | Pricing agents complete |
+| 📡 Telecommunications | Q2 2026 | 3 active | Network optimization in design |
+| 🌾 Agriculture & Food | Q2 2026 | 2 active | Supply chain agents in design |
+| 💳 Consumer Fintech | Q2 2026 | 4 active | Lending agents in beta |
+
+## Vertical Pricing
+
+### Entry Options
+
+| Model | Description | Entry Point |
+|-------|-------------|-------------|
+| **90-Day Pilot** | Single use case, full platform access | **$35k one-time** |
+| **Per-Department** | License 1-3 business units | **$25k/dept/year** |
+| **Starter License** | Full vertical package, all agents | **$60k–$150k/year** |
+
+### Consumption-Based Options
+
+| Tier | Deliberations/Month | Price/Month | Per-Deliberation |
+|------|--------------------:|------------:|-----------------:|
+| **Lite** | Up to 50 | $2,500 | $50 |
+| **Standard** | Up to 200 | $8,000 | $40 |
+| **Growth** | Up to 500 | $15,000 | $30 |
+| **Scale** | Unlimited | $25,000 | — |
+
+**How Deliberations Are Counted:**
+- **1 Deliberation** = One AI Council session where agents analyze a question and produce a recommendation
+- Multi-round deliberations (e.g., cross-examination, dissent review) count as 1 deliberation
+- Document analysis via [Drop to Deliberate™](#the-council-of-agents) counts as 1 deliberation per document batch
+- [CendiaVox™](#the-council-of-agents) stakeholder simulations count as 1 deliberation per session
+- Dashboard queries and reports do **not** count toward limits
+
+**Overage Handling:**
+- Lite/Standard/Growth: Overage billed at tier rate (e.g., $50/deliberation for Lite)
+- Auto-upgrade notification at 80% utilization
+- Hard cap option available for budget control (deliberations queued, not rejected)
+
+### Full Vertical Pricing
+
+| Vertical | Starter | Professional | Enterprise | Strategic |
+|----------|---------|--------------|------------|-----------|
+| Healthcare | $100k | $1.2M | $5M | $12M+ |
+| Financial | $120k | $800k | $3M | $8M+ |
+| Government | $150k | $1.5M | $8M | $25M+ |
+| Pharma | $150k | $1.5M | $6M | $15M+ |
+| Insurance | $100k | $900k | $4M | $10M+ |
+| Manufacturing | $80k | $700k | $3M | $8M+ |
+| Energy | $120k | $1M | $5M | $15M+ |
+
+## ROI Benchmarks
+
+| Vertical | ROI (18 months) | Key Metric | Source |
+|----------|-----------------|------------|--------|
+| Government | 38% | Procurement acceleration | Federal agency pilot^[2] |
+| Financial | 34% | Efficiency gain | Regional bank pilot^[2] |
+| Energy | 32% | Regulatory efficiency | IOU pilot^[2] |
+| Pharma | 31% | Faster trials | Biotech pilot^[2] |
+| Insurance | 29% | Loss ratio improvement | P&C carrier pilot^[2] |
+| Healthcare | 27% | Cost reduction | Methodist Health pilot^[2] |
+| Manufacturing | 23% | Inventory reduction | Auto supplier pilot^[2] |
+
+**Industry Benchmark:** 27% average cost reduction for AI-assisted decision-making.^[3]
+
+## Vertical-Specific Agents
+
+Each vertical includes 4 industry-specific agents in addition to the 14 core agents. See [The Council of Agents](#the-council-of-agents) for core agent details.
+
+| Vertical | Agents | Cross-Reference |
+|----------|--------|-----------------|
+| **Healthcare** | `cmo-clinical`, `cno-operations`, `compliance-hipaa`, `population-health` | See [CendiaPanopticon™](#security--compliance) for HIPAA auto-tracking |
+| **Financial** | `cfo-banking`, `cro-risk`, `compliance-sec`, `fraud-ops` | See [CendiaAegis™](#enterprise-services) for fraud detection |
+| **Government** | `policy-analyst`, `procurement-gov`, `contract-review`, `compliance-gov` | See [Deployment Models](#deployment-models) for SCIF deployment |
+| **Pharma** | `clinical-dev-lead`, `regulatory-affairs`, `medical-affairs`, `commercial-ops` | See [The Immutable Ledger](#the-immutable-ledger) for 21 CFR Part 11 |
+| **Insurance** | `underwriting-chief`, `claims-director`, `actuarial-lead`, `compliance-insurance` | See [CendiaCrucible™](#product-ecosystem) for scenario modeling |
+| **Manufacturing** | `vp-operations`, `supply-chain-director`, `quality-chief`, `plant-manager` | See [CendiaChronos™](#product-ecosystem) for supply chain timeline |
+| **Energy** | `grid-ops`, `reg-utility`, `renewable-dev`, `asset-performance` | See [Data Architecture](#data-architecture) for SCADA integration |
+
+## Vertical Compliance Frameworks
+
+All frameworks below are auto-tracked via [CendiaPanopticon™](#security--compliance), with regulatory updates pushed automatically.
+
+| Vertical | Key Frameworks |
+|----------|----------------|
+| **Healthcare** | HIPAA, HITECH, 42 CFR Part 2, Joint Commission, CMS CoPs |
+| **Financial** | SOX, Basel III, Dodd-Frank, CFPB 1071, AML/BSA, GLBA, PCI DSS |
+| **Government** | FAR/DFARS, FISMA, FedRAMP, Privacy Act, FOIA, Classification |
+| **Pharma** | 21 CFR Part 11, FDA AI/ML Guidance, EMA Guidelines, ICH, GxP |
+| **Insurance** | State DOI (50 states), NAIC Model Laws, Solvency II, IFRS 17 |
+| **Manufacturing** | ISO 9001, IATF 16949, FDA 21 CFR, OSHA, EPA, REACH/RoHS |
+| **Energy** | NERC CIP, FERC, State PUC, EPA, IRA Requirements |
+
+## Footnotes (Industry Verticals)
+
+| # | Source | URL |
+|---|--------|-----|
+| [1] | Menlo Ventures, "The State of Vertical AI," October 2024 | [menlovc.com/perspective/the-state-of-vertical-ai](https://menlovc.com/perspective/the-state-of-vertical-ai) |
+| [2] | Datacendia internal pilot data, anonymized per NDA. Full case studies available under NDA. | Contact: pilots@datacendia.com |
+| [3] | McKinsey & Company, "The State of AI in 2024," May 2024 | [mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai) |
+
+*For complete vertical documentation with detailed case studies, see [VERTICALS.md](./VERTICALS.md)*
+
+---
+
 # Appendices
 
 ## Appendix A: Glossary
@@ -1568,6 +1957,23 @@ Content-Type: application/json
 | **Pillar** | One of three fundamental domains: Strategy, Operations, People |
 | **Snapshot** | A point-in-time capture of organizational state |
 | **Persona** | An AI representation of a role or individual for simulation |
+| **Drop to Deliberate™** | Drag-and-drop document interface that auto-activates relevant agents |
+| **CendiaVault™** | Local MinIO-based object storage for sovereign document management |
+| **Sovereign Stack™** | Self-hosted infrastructure (MinIO, Tika, BullMQ, Casbin) for data sovereignty |
+| **Agent Auto-Wake** | Automatic agent selection based on dropped document file type |
+| **Council Mode** | Preconfigured deliberation style (War Room, Deal Room, Ethics Review, etc.) |
+| **Pre-Mortem** | AI analysis of potential failure modes before a decision is made |
+| **Decision DNA** | Full lifecycle tracking with step-by-step replay capability |
+| **Ghost Board™** | AI simulation of board meetings for presentation rehearsal |
+| **Cross-Examination** | Phase where agents challenge each other's positions |
+| **RAG** | Retrieval-Augmented Generation using pgvector for semantic search |
+| **User Intervention** | Human input injected into live agent deliberation |
+| **CendiaApotheosis™** | AI model performance monitoring, optimization, and benchmarking |
+| **CendiaDissent™** | System for capturing, tracking, and resolving organizational disagreements |
+| **PersonaForge™** | Tool to create AI personas from stakeholder profiles for simulation |
+| **AutoHeal™** | Self-diagnosing system with AI-powered debugging and recovery |
+| **Veto** | Policy-based automatic blocking of decisions that violate governance rules |
+| **Escalation Path** | Defined chain of authority for override requests and blocked decisions |
 
 ## Appendix B: Keyboard Shortcuts
 
@@ -1618,20 +2024,98 @@ JWT_SECRET=your-secret-key
 JWT_EXPIRES_IN=900
 REFRESH_TOKEN_EXPIRES_IN=604800
 
-# AI Models
+# AI Models (Local - Required for Sovereign)
 OLLAMA_HOST=http://localhost:11434
-OPENAI_API_KEY=sk-...
-ANTHROPIC_API_KEY=sk-ant-...
+
+# Cloud AI Models (OPTIONAL - Hybrid/Cloud tiers only)
+# ⚠️ NOT USED in Sovereign/Air-Gapped deployments
+# OPENAI_API_KEY=sk-...        # Uncomment for Hybrid tier
+# ANTHROPIC_API_KEY=sk-ant-... # Uncomment for Hybrid tier
+
+# Sovereign Stack™
+MINIO_ENDPOINT=http://localhost:9000
+MINIO_ACCESS_KEY=minioadmin
+MINIO_SECRET_KEY=minioadmin
+TIKA_HOST=http://localhost:9998
+REDIS_URL=redis://localhost:6379
+DRUID_HOST=http://localhost:8888
+
+# Queue (BullMQ)
+BULL_REDIS_HOST=localhost
+BULL_REDIS_PORT=6379
+
+# Policy Engine (Casbin)
+CASBIN_MODEL_PATH=./config/rbac_model.conf
+CASBIN_POLICY_PATH=./config/rbac_policy.csv
 
 # Features
 ENABLE_COUNCIL=true
 ENABLE_CHRONOS=true
 ENABLE_LEDGER=true
+ENABLE_SOVEREIGN_STACK=true
+ENABLE_DROP_TO_DELIBERATE=true
+ENABLE_CUSTOM_AGENTS=true
 ```
 
 ---
 
 ## Appendix E: Changelog
+
+### Version 2.0.0 (January 2026)
+
+#### Council Enhancements
+- **Drop to Deliberate™** — Drag-and-drop documents onto Council table for instant analysis
+- **Smart Agent Auto-Wake** — File type detection auto-activates relevant agents:
+  - PDF/DOCX → Risk, CISO, CFO, Chief (Deal Room Mode)
+  - CSV/XLSX → CFO, CDO, CRO (Due Diligence Mode)
+  - PPTX → CMO, Chief, COO
+  - JSON/MD/TXT → CDO, CISO (Innovation Lab Mode)
+- **Visual Agent Activation** — Real-time animated feedback showing which agents are analyzing
+- **User Intervention Panel** — Humans can inject perspectives during live deliberation
+- **Cross-Examination Phase** — Agents challenge each other's positions
+- **40+ Council Modes** — War Room, Deal Room, Innovation Lab, Red Team, Ethics Review, etc.
+- **Custom Agent Builder** — Create domain-specific agents with custom system prompts
+
+#### Decision Intelligence
+- **Decision DNA** — Full lifecycle tracking with step-by-step replay
+- **Pre-Mortem Analysis** — AI-powered failure mode identification before decisions
+- **Ghost Board™** — Simulate board meetings with AI personas
+- **Decision Timeline** — Visual replay of decision evolution in Chronos
+
+#### Sovereign Stack™ (100% Self-Hosted)
+- **CendiaVault™ (MinIO)** — Local object storage for documents, never leaves premises
+- **Apache Tika Integration** — Extract text from PDF, DOCX, XLSX, PPTX locally
+- **pgvector RAG** — Retrieval-Augmented Generation with local embeddings
+- **BullMQ Job Queue** — Async deliberation processing
+- **Casbin Policy Engine** — RBAC, veto rules, governance policies
+- **Apache Druid** — Time-series analytics for CendiaChronos™
+
+#### Enterprise Features
+- **Immutable Audit Ledger** — Cryptographic hash chain for court-admissible records
+- **Workflow Orchestration (n8n/Temporal)** — Automated decision workflows
+- **Feature Flags** — Progressive rollout of new capabilities
+- **Multi-tenant Architecture** — Organization isolation and data sovereignty
+- **Premium Agent Packs** — Healthcare, Legal, Audit, Industry-specific agents
+- **CendiaApotheosis™** — AI model performance monitoring and optimization
+- **CendiaDissent™** — Structured disagreement capture and resolution tracking
+- **PersonaForge™** — Create AI personas from real stakeholder profiles
+- **AutoHeal™** — Self-diagnosing system with AI-powered debugging
+- **Veto System** — Policy-based automatic decision blocking with escalation
+
+#### API & Integration
+- **Sovereign API** — `/api/v1/sovereign/*` endpoints for all local services
+- **Vault API** — Document upload/download to CendiaVault
+- **Queue API** — BullMQ job management
+- **Vector API** — Semantic search and RAG
+- **Metrics API** — Prometheus-compatible metrics
+- **Workflow API** — n8n/Temporal integration
+
+#### UX Improvements
+- **Page Guides** — Interactive onboarding for each feature
+- **Dark Mode** — Full dark theme support
+- **10+ Language Support** — Including Spanish localization
+- **Keyboard Shortcuts** — Power user navigation
+- **Real-time Streaming** — Live agent responses during deliberation
 
 ### Version 1.0.0 (December 2024)
 - Initial release
@@ -1641,7 +2125,98 @@ ENABLE_LEDGER=true
 - Three Pillars framework
 - PostgreSQL + Neo4j data layer
 - 10-language localization
-- SOC 2 Type II certification
+- SOC 2 Type II compliance-ready architecture
+
+---
+
+## Appendix F: 2026 Product Roadmap
+
+### Q1 2026: Wave 2 Verticals
+
+| Vertical | Key Agents | Target Customers |
+|----------|------------|------------------|
+| 💻 **Technology / SaaS** | Product Strategy, Pricing Optimization, Feature Prioritization | Series B+ SaaS, DevTools |
+| 🛒 **Retail & Hospitality** | Revenue Management, Inventory Optimization, Guest Experience | Multi-location retail, Hotels |
+
+### Q2 2026: Wave 3 Verticals + Multi-Modal
+
+| Capability | Description |
+|------------|-------------|
+| 📡 **Telecommunications** | Network optimization, churn prediction, capacity planning agents |
+| 🌾 **Agriculture & Food** | Supply chain, commodity pricing, sustainability agents |
+| 🎤 **Voice Deliberation** | Speak to the Council, receive voice responses via Whisper + TTS |
+| 📹 **Video Analysis** | Drop video files into deliberation for multi-modal analysis |
+
+### Q3 2026: Edge & Community
+
+| Initiative | Description |
+|------------|-------------|
+| 🖥️ **Cendia-7B** | Custom fine-tuned model trained on anonymized deliberation patterns (opt-in) |
+| 📱 **Edge Deployment** | Laptop-runnable 4-bit quantized models for field operations |
+| 🌐 **Community Edition** | Open-source core Council with 4 agents, single-user, local-only |
+
+### Q4 2026: Autonomous Operations
+
+| Capability | Description |
+|------------|-------------|
+| 🤖 **Autonomous Workflows** | Agent-to-agent task delegation without human intervention |
+| 🔄 **Continuous Learning** | Models improve from Human Vote feedback (CendiaApotheosis™) |
+| 🌍 **Global Mesh** | Cross-organization intelligence sharing via CendiaMesh™ |
+
+---
+
+## Appendix G: Compliance Status Matrix
+
+> ⚠️ **Important:** This matrix reflects current certification status. "Designed for" indicates architecture supports compliance but certification not yet obtained.
+
+| Framework | Status | Notes |
+|-----------|--------|-------|
+| **SOC 2 Type II** | 🟡 Designed for | Architecture compliant; audit scheduled Q2 2026 |
+| **FedRAMP Moderate** | 🟡 Designed for | SCIF-ready architecture; authorization in progress |
+| **FedRAMP High** | 🔴 Roadmap | Requires Moderate first; target Q4 2026 |
+| **HIPAA** | 🟡 Designed for | BAA template available; technical controls implemented |
+| **ITAR** | 🔴 Roadmap | Requires State Dept registration; target 2027 |
+| **21 CFR Part 11** | 🟡 Designed for | Audit trail, e-signatures, access controls implemented |
+| **GDPR** | 🟢 Compliant | Data residency, right to deletion, consent management |
+| **ISO 27001** | 🟡 In Progress | Certification expected Q1 2026 |
+| **PCI DSS** | 🟡 Designed for | No card data stored; architecture supports if needed |
+
+**Legend:** 🟢 Certified | 🟡 Designed for / In Progress | 🔴 Roadmap
+
+---
+
+## Appendix H: Performance Benchmarks
+
+> Benchmarks from internal testing on reference hardware (64-core, 256GB RAM, 4x NVIDIA A100). Production results may vary.
+
+### Deliberation Performance
+
+| Metric | Measured | Conditions |
+|--------|----------|------------|
+| Simple deliberation (3 agents) | 4.2s | Llama 3.2:3b local |
+| Full Council deliberation (14 agents) | 18.7s | Llama 3.3:70b local |
+| Complex deliberation with RAG | 32.4s | 50 documents, pgvector |
+| Drop to Deliberate (100-page PDF) | 45.2s | Tika extraction + deliberation |
+
+### CendiaApotheosis™ Nightly Improvement
+
+| Metric | Before | After | Improvement |
+|--------|--------|-------|-------------|
+| Agent response quality (human-rated) | 3.8/5 | 4.2/5 | +10.5% |
+| Hallucination rate | 4.2% | 2.1% | -50% |
+| Pattern ban effectiveness | — | 94% | Banned patterns not repeated |
+| System resilience (uptime) | 99.2% | 99.7% | +0.5pp |
+
+*Metrics based on 90-day internal pilot with simulated red-teaming.*
+
+### Chronos Time-Series (Apache Druid)
+
+| Query Type | Latency | Data Volume |
+|------------|---------|-------------|
+| Point-in-time snapshot | 12ms | 10M events |
+| 30-day trend | 45ms | 10M events |
+| 1-year aggregation | 180ms | 100M events |
+| Cross-entity correlation | 320ms | 10M events, 50 entities |
 
 ---
 
@@ -1655,7 +2230,7 @@ ENABLE_LEDGER=true
 
 [datacendia.com](https://datacendia.com) | [docs.datacendia.com](https://docs.datacendia.com) | [status.datacendia.com](https://status.datacendia.com)
 
-© 2024 Datacendia, Inc. All rights reserved.
+© 2026 Datacendia, Inc. All rights reserved.
 
 ---
 

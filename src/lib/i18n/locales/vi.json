@@ -599,6 +599,41 @@
         "features": ["Đăng ký phản đối ẩn danh hoặc có tên", "Xác nhận bắt buộc trong 72 giờ", "Ghi sổ cái bất biến", "Phát hiện và bảo vệ trả thù", "Theo dõi độ chính xác phản đối"],
         "useCases": ["Đảm bảo tiếng nói thiểu số được lắng nghe", "Tạo bộ nhớ tổ chức", "Bảo vệ người tố giác", "Cải thiện chất lượng quyết định"],
         "guidance": "Nộp phản đối đối với bất kỳ quyết định nào bạn không đồng ý. Phản đối của bạn sẽ được ghi lại vĩnh viễn, được thừa nhận và theo dõi độ chính xác theo thời gian."
+      },
+      "connectors": {
+        "title": "Trình Kết Nối Dữ Liệu Doanh Nghiệp",
+        "summary": "156+ trình kết nối dựng sẵn trên 11 ngành dọc. Kết nối với nguồn dữ liệu chính phủ, tài chính, y tế và toàn cầu.",
+        "features": ["Chính phủ: NOAA, FAA, FEMA, SEC, Census, USGS, EIA", "Tài chính: Bloomberg, SWIFT, FIX Protocol, Refinitiv", "Y tế: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO", "Chuỗi cung ứng: CBP, Maersk, API Cảng", "Năng lượng: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool", "Hàng không: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"],
+        "useCases": ["Tích hợp dữ liệu thời tiết thời gian thực", "Dữ liệu thị trường tài chính và nguồn cấp quy định", "Khả năng tương tác y tế và dữ liệu lâm sàng", "Khả năng hiển thị chuỗi cung ứng", "Phân tích lưới điện và thị trường năng lượng", "An toàn hàng không và vận hành bay"],
+        "guidance": "Duyệt trình kết nối theo ngành hoặc tìm kiếm nguồn cụ thể. Mỗi trình kết nối bao gồm xác thực, giới hạn tốc độ và ánh xạ tuân thủ."
+      },
+      "evidence": {
+        "title": "Cơ Sở Hạ Tầng Bằng Chứng",
+        "summary": "Sổ cái bằng chứng bất biến với chuỗi hash blockchain, chữ ký số TPM và bằng chứng cây Merkle.",
+        "features": ["Mục sổ cái được ký mật mã", "Nắm bắt danh tính build và thực thi", "Hỗ trợ chứng thực phần cứng TPM", "Xác minh tính toàn vẹn cây Merkle", "Tạo gói bằng chứng pháp lý"],
+        "useCases": ["Bằng chứng kiểm tra sẵn sàng kiểm toán", "Tài liệu đánh giá bảo mật", "Bằng chứng SOC 2 / ISO 27001 / GDPR", "Bản ghi thực thi chống giả mạo"],
+        "guidance": "Tất cả các lần thực thi kiểm tra được ghi lại tự động với chữ ký mật mã. Tạo gói bằng chứng pháp lý chỉ với một cú nhấp."
+      },
+      "sovereignArch": {
+        "title": "Mô Hình Kiến Trúc Chủ Quyền",
+        "summary": "11 mô hình doanh nghiệp cho triển khai air-gap, zero-trust và chủ quyền hoàn toàn.",
+        "features": ["Data Diode: Nhập dữ liệu một chiều với cách ly", "RLHF Cục bộ: Học tăng cường không đám mây", "Decision DNA: Xuất kiểm toán một cú nhấp", "Shadow Council: Chế độ sandbox", "QR Air-Gap Bridge: Truyền dữ liệu không phương tiện", "Chứng thực TPM: Quyết định ký bằng phần cứng"],
+        "useCases": ["Triển khai cơ sở air-gap", "Ứng dụng quốc phòng và tình báo", "Tuân thủ ngành được quản lý", "Kiến trúc doanh nghiệp zero-trust"],
+        "guidance": "Các mô hình Kiến Trúc Chủ Quyền cho phép triển khai trong môi trường hạn chế nhất. Mỗi mô hình có thể sử dụng độc lập hoặc kết hợp."
+      },
+      "cascade": {
+        "title": "CendiaCascade™ - Hiệu Ứng Cánh Bướm",
+        "summary": "Phân tích hậu quả bậc hai và ba. Dự đoán hậu quả không mong muốn trước khi trở thành sự cố.",
+        "features": ["Phân tích đa góc nhìn (CFO, COO, CISO, Con người, Đạo đức)", "Phát hiện hiệu ứng cánh bướm (tác động bất ngờ bậc 3+)", "Tự động tạo giảm thiểu (ngăn ngừa, phát hiện, phản hồi)", "Đề xuất guardrail (canary, tripwire, circuit breaker, rollback)", "Trực quan hóa dòng thời gian (T+0, T+30, T+90, T+1Năm)", "Audit trail với SHA-256 hash"],
+        "useCases": ["Phân tích thay đổi nhân sự trước khi triển khai", "Dự đoán hậu quả thay đổi nhà cung cấp", "Mô hình thay đổi chính sách trong đồ thị tổ chức", "Phát hiện vòng phản hồi"],
+        "guidance": "Tải đồ thị tổ chức của bạn, đề xuất thay đổi và để CendiaCascade theo dõi hậu quả. Đối thủ của bạn chơi cờ vua một nước đi trước — CendiaCascade mô phỏng 5 nước đi trước."
+      },
+      "adapters": {
+        "title": "Sovereign Adapter - Bộ Kết Nối Đa Năng",
+        "summary": "5 adapter đa năng thay vì 156 connector riêng từng nhà cung cấp. Chúng tôi cung cấp ổ cắm; khách hàng mang phích cắm.",
+        "features": ["File Watcher: Hàng không, quốc phòng, nhập từ file", "Webhook Ingest: SaaS, sự kiện push từ cổng tài chính", "Database Adapter: ERP, chuỗi cung ứng SQL/ODBC", "Giao thức FHIR: Tiêu chuẩn y tế", "Giao thức FIX: Tiêu chuẩn tài chính", "Giao thức MQTT: IoT và lưới điện"],
+        "useCases": ["Kết nối với bất kỳ hệ thống nào qua tiêu chuẩn mở", "Tránh nghĩa vụ cấp phép API độc quyền", "Hỗ trợ môi trường air-gap và được quản lý", "BYO-keys cho adapter được quản lý"],
+        "guidance": "Chọn loại adapter phù hợp với mô hình tích hợp của bạn. Mỗi adapter tự động áp dụng các cấp độ rủi ro, ghi nhật ký bằng chứng và kiểm soát hạn mức."
       }
     }
   },

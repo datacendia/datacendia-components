@@ -5,6 +5,7 @@
 // =============================================================================
 
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
 import { PageGuide, GUIDES } from '../../../components/PageGuide';
@@ -265,9 +266,11 @@ const SAMPLE_DECISIONS_DETAIL: Record<string, Decision> = {
 };
 
 export const DecisionDNAPage: React.FC = () => {
+  const navigate = useNavigate();
   const [decisions, setDecisions] = useState<DecisionSummary[]>(SAMPLE_DECISIONS);
   const [selectedDecision, setSelectedDecision] = useState<Decision | null>(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [preMortemError, setPreMortemError] = useState<string | null>(null);
   const [isCreating, setIsCreating] = useState(false);
   const [replayMode, setReplayMode] = useState(false);
   const [replayStep, setReplayStep] = useState(0);
@@ -362,14 +365,28 @@ export const DecisionDNAPage: React.FC = () => {
 
   const runPreMortem = async () => {
     if (!selectedDecision) {return;}
+    setPreMortemError(null);
+    
+    // For sample decisions or if backend unavailable, navigate to Pre-Mortem page
+    if (selectedDecision.id.startsWith('sample-')) {
+      // Navigate to Pre-Mortem page with decision context
+      navigate(`/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`);
+      return;
+    }
+    
     setIsLoading(true);
     try {
       const res = await api.post<any>(`/decisions/${selectedDecision.id}/premortem`, {});
       if (res.success) {
         loadDecision(selectedDecision.id);
+      } else {
+        // Fallback: navigate to Pre-Mortem page
+        navigate(`/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`);
       }
     } catch (error) {
       console.error('Failed to run pre-mortem:', error);
+      // Fallback: navigate to Pre-Mortem page with decision context
+      navigate(`/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`);
     }
     setIsLoading(false);
   };

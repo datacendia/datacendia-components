@@ -8,6 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import { healthApi, alertsApi } from '../../../lib/api';
 import { useLanguage } from '../../../contexts/LanguageContext';
+import { sovereignApi } from '../../../lib/sovereignApi';
 
 // =============================================================================
 // TYPES
@@ -370,6 +371,33 @@ export const PulsePage: React.FC = () => {
         setApiLatency(avgLatency);
         setLatencyHistory(prev => [...prev.slice(-9), avgLatency]);
       }
+      // Also fetch real metrics from Prometheus (sovereign stack)
+      try {
+        const now = new Date();
+        const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
+        
+        // Fetch CPU usage from Prometheus
+        const cpuMetrics = await sovereignApi.metrics.queryRange(
+          'avg(rate(process_cpu_seconds_total[5m])) * 100',
+          oneHourAgo,
+          now,
+          '5m'
+        );
+        
+        if (cpuMetrics.length > 0 && cpuMetrics[0].values) {
+          const latestCpu = cpuMetrics[0].values[cpuMetrics[0].values.length - 1];
+          console.log('[Pulse] Prometheus CPU metric:', latestCpu);
+        }
+        
+        // Check sovereign stack health
+        const sovereignHealth = await sovereignApi.getHealthStatus();
+        if (sovereignHealth.healthy) {
+          console.log('[Pulse] Sovereign stack healthy, services:', Object.keys(sovereignHealth.services).length);
+        }
+      } catch (prometheusError) {
+        console.warn('[Pulse] Prometheus metrics unavailable:', prometheusError);
+        // Continue with existing health data - Prometheus is optional
+      }
     } catch (err) {
       console.error('Health data load error:', err);
       setError('Failed to load health data');
@@ -552,6 +580,41 @@ export const PulsePage: React.FC = () => {
               onResolve={() => handleResolve(anomaly.id)}
             />
           ))}
+        </div>
+
+        {/* ================================================================= */}
+        {/* SOVEREIGN OBSERVABILITY - Powered by Prometheus/Grafana */}
+        {/* ================================================================= */}
+        <div className="bg-gradient-to-r from-green-500/10 to-blue-500/10 border border-green-500/30 rounded-xl p-4 mb-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
+                <span className="text-xl">📊</span>
+              </div>
+              <div>
+                <p className="text-white font-medium">Sovereign Observability</p>
+                <p className="text-green-400/70 text-xs">Powered by Prometheus + Grafana</p>
+              </div>
+            </div>
+            <div className="flex gap-2">
+              <a
+                href="http://localhost:9090"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 bg-neutral-800 border border-neutral-700 rounded-lg text-xs text-neutral-300 hover:bg-neutral-700 transition-colors"
+              >
+                Prometheus →
+              </a>
+              <a
+                href="http://localhost:3001"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 bg-green-500/20 border border-green-500/30 rounded-lg text-xs text-green-400 hover:bg-green-500/30 transition-colors"
+              >
+                Open Grafana →
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* ================================================================= */}

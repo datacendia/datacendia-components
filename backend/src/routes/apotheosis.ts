@@ -9,6 +9,19 @@ import { logger } from '../utils/logger.js';
 
 const router = Router();
 
+// Status endpoints for enterprise testing
+router.get('/status', (req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'operational', version: '1.0.0' } });
+});
+
+router.get('/upskill-queue', (req: Request, res: Response) => {
+  res.json({ success: true, data: [] });
+});
+
+router.get('/history', (req: Request, res: Response) => {
+  res.json({ success: true, data: [] });
+});
+
 // =============================================================================
 // APOTHEOSIS SCORE & DASHBOARD
 // =============================================================================

@@ -1017,8 +1017,18 @@ router.get('/decisions/recent', async (req: Request, res: Response, next: NextFu
 // Helper: Get relevant context from knowledge graph
 async function getRelevantContext(query: string, orgId: string) {
   try {
-    // Search for relevant entities
-    const entities = await graph.searchEntities(query, undefined, 10);
+    // Search for relevant entities (with 3s timeout for air-gap resilience)
+    let entities: Record<string, unknown>[] = [];
+    try {
+      const graphPromise = graph.searchEntities(query, undefined, 10);
+      const timeoutPromise = new Promise<never>((_, reject) => 
+        setTimeout(() => reject(new Error('Neo4j timeout')), 3000)
+      );
+      entities = await Promise.race([graphPromise, timeoutPromise]);
+    } catch (graphErr) {
+      // Neo4j unavailable - continue without graph context (air-gap safe)
+      logger.debug('Graph context unavailable, continuing without:', graphErr);
+    }
     
     // Get recent metrics
     const recentMetrics = await prisma.metric_values.findMany({

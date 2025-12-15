@@ -487,6 +487,41 @@
         "features": ["Anonim veya isimli itiraz kaydı", "72 saat içinde zorunlu onay", "Değiştirilemez defter kaydı", "İntikam tespiti ve koruma", "İtiraz doğruluğu takibi"],
         "useCases": ["Azınlık seslerinin duyulmasını sağlama", "Organizasyonel hafıza oluşturma", "İhbarcıları koruma", "Karar kalitesini iyileştirme"],
         "guidance": "Katılmadığınız herhangi bir karara itiraz edin. İtirazınız kalıcı olarak kaydedilecek, kabul edilecek ve zaman içinde doğruluğu takip edilecek."
+      },
+      "connectors": {
+        "title": "Kurumsal Veri Bağlayıcıları",
+        "summary": "11 sektör dikeyinde 156+ önceden oluşturulmuş bağlayıcı. Hükümet, finans, sağlık ve küresel veri kaynaklarına bağlanın.",
+        "features": ["Hükümet: NOAA, FAA, FEMA, SEC, Census, USGS, EIA", "Finans: Bloomberg, SWIFT, FIX Protokolü, Refinitiv", "Sağlık: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO", "Tedarik Zinciri: CBP, Maersk, Liman API'leri", "Enerji: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool", "Aviyonik: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"],
+        "useCases": ["Gerçek zamanlı hava durumu veri entegrasyonu", "Finansal piyasa verileri ve düzenleyici beslemeler", "Sağlık birlikte çalışabilirliği ve klinik veriler", "Tedarik zinciri görünürlüğü", "Elektrik şebekesi ve enerji piyasası analizi", "Havacılık güvenliği ve uçuş operasyonları"],
+        "guidance": "Bağlayıcılara sektöre göre göz atın veya belirli kaynakları arayın. Her bağlayıcı kimlik doğrulama, hız sınırlama ve uyumluluk eşlemesi içerir."
+      },
+      "evidence": {
+        "title": "Kanıt Altyapısı",
+        "summary": "Blockchain tarzı hash zincirleme, TPM dijital imzalar ve Merkle ağacı kanıtlarıyla değiştirilemez kanıt defteri.",
+        "features": ["Kriptografik olarak imzalanmış defter girişleri", "Derleme ve yürütme kimliği yakalama", "TPM donanım kanıtlama desteği", "Merkle ağacı bütünlük doğrulaması", "Yasal kanıt paketi oluşturma"],
+        "useCases": ["Denetim için hazır test kanıtları", "Güvenlik inceleme belgeleri", "SOC 2 / ISO 27001 / KVKK kanıtları", "Kurcalamaya dayanıklı yürütme kayıtları"],
+        "guidance": "Tüm test yürütmeleri kriptografik imzalarla otomatik olarak kaydedilir. Tek tıklamayla yasal kanıt paketleri oluşturun."
+      },
+      "sovereignArch": {
+        "title": "Egemen Mimari Kalıpları",
+        "summary": "Air-gap, sıfır güven ve tam egemen dağıtımlar için 11 kurumsal kalıp.",
+        "features": ["Veri Diyotu: Karantinalı tek yönlü veri alımı", "Yerel RLHF: Bulut gerektirmeyen pekiştirmeli öğrenme", "Karar DNA'sı: Tek tıkla denetim dışa aktarımı", "Gölge Konsey: Sandbox modu", "QR Air-Gap Köprüsü: Medyasız veri aktarımı", "TPM Kanıtlama: Donanım imzalı kararlar"],
+        "useCases": ["Air-gap güvenli tesis dağıtımları", "Savunma ve istihbarat uygulamaları", "Düzenlenen sektör uyumluluğu", "Sıfır güven kurumsal mimarisi"],
+        "guidance": "Egemen Mimari kalıpları en kısıtlı ortamlarda dağıtımı mümkün kılar. Her kalıp bağımsız veya birlikte kullanılabilir."
+      },
+      "cascade": {
+        "title": "CendiaCascade™ - Kelebek Etkisi",
+        "summary": "İkinci ve üçüncü derece sonuç analizi. İstenmeyen sonuçları olay olmadan önce tahmin edin.",
+        "features": ["Çoklu lens analizi (CFO, COO, CISO, İnsan, Etik)", "Kelebek etkisi algılama (şaşırtıcı 3+ derece etkiler)", "Otomatik oluşturulan azaltmalar (önle, algıla, yanıtla)", "Koruyucu öneriler (canary, tripwire, devre kesici, geri alma)", "Zaman çizelgesi görselleştirme (T+0, T+30, T+90, T+1Yıl)", "SHA-256 hash ile denetim izi"],
+        "useCases": ["Uygulamadan önce personel değişikliklerini analiz edin", "Tedarikçi değişikliği sonuçlarını tahmin edin", "Organizasyon grafiğinde politika değişikliklerini modelleyin", "Geri bildirim döngülerini algılayın"],
+        "guidance": "Organizasyon grafiğinizi yükleyin, bir değişiklik önerin ve CendiaCascade'in sonuçları izlemesine izin verin. Rakipleriniz bir hamle ileri satranç oynuyor — CendiaCascade 5 hamle ileriyi simüle eder."
+      },
+      "adapters": {
+        "title": "Egemen Adaptörler - Evrensel Bağlayıcılar",
+        "summary": "156 satıcıya özgü bağlayıcı yerine 5 evrensel adaptör. Biz soketi sağlıyoruz; müşteri fişi getiriyor.",
+        "features": ["Dosya İzleyici: Aviyonik, savunma, dosya tabanlı veri alımı", "Webhook Alımı: SaaS, finansal geçit push olayları", "Veritabanı Adaptörü: ERP, tedarik zinciri SQL/ODBC", "FHIR Protokolü: Sağlık standardı", "FIX Protokolü: Finans standardı", "MQTT Protokolü: IoT ve enerji şebekesi"],
+        "useCases": ["Açık standartlar aracılığıyla herhangi bir sisteme bağlanın", "Tescilli API lisans yükümlülüklerinden kaçının", "Air-gap ve düzenlenen ortamları destekleyin", "Düzenlenen adaptörler için BYO-keys"],
+        "guidance": "Entegrasyon modelinize uygun adaptör türünü seçin. Her adaptör otomatik olarak risk seviyeleri, kanıt günlüğü ve kota kontrolleri uygular."
       }
     }
   },

@@ -28,6 +28,13 @@ import {
 } from './security/DefenseInDepth.js';
 import { honeypotMiddleware } from './security/Honeypot.js';
 
+// Telemetry & Enterprise Services
+import { initTracing } from './telemetry/tracing.js';
+import { policyEngine } from './security/PolicyEngine.js';
+
+// Initialize OpenTelemetry tracing (must be before other imports that need instrumentation)
+initTracing();
+
 // Route imports
 import authRoutes from './routes/auth.js';
 import userRoutes from './routes/users.js';
@@ -85,6 +92,14 @@ import redteamRoutes from './routes/redteam.js';
 import gnosisRoutes from './routes/gnosis.js';
 import apotheosisRoutes from './routes/apotheosis.js';
 import dissentRoutes from './routes/dissent.js';
+import sovereignRoutes from './routes/sovereign.js';
+import enterpriseSecurityRoutes from './routes/enterprise.security.js';
+import sovereignArchRoutes from './routes/sovereign-arch.js';
+import evidenceRoutes from './routes/evidence.js';
+import omnitranslateRoutes from './routes/omnitranslate.js';
+import connectorsRoutes from './routes/connectors.js';
+import cascadeRoutes from './routes/cascade.js';
+import adaptersRoutes from './routes/adapters.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -214,6 +229,7 @@ app.use('/api/v1/ledger', ledgerRoutes);
 app.use('/api/v1/hr', hrRoutes);
 app.use('/api/v1/salary', salaryRoutes);
 app.use('/api/v1/core', coreRoutes);
+app.use('/api/v1/enterprise/security', enterpriseSecurityRoutes);
 app.use('/api/v1/enterprise', enterpriseRoutes);
 app.use('/api/v1/admin', adminRoutes);
 app.use('/api/v1/settings', settingsRoutes);
@@ -241,6 +257,15 @@ app.use('/api/v1/redteam', redteamRoutes);
 app.use('/api/v1/gnosis', gnosisRoutes);
 app.use('/api/v1/apotheosis', apotheosisRoutes);
 app.use('/api/v1/dissent', dissentRoutes);
+app.use('/api/v1/sovereign', sovereignRoutes);
+app.use('/api/v1/sovereign-arch', sovereignArchRoutes);
+app.use('/api/v1/evidence', evidenceRoutes);
+app.use('/api/v1/omnitranslate', omnitranslateRoutes);
+app.use('/api/v1/connectors', connectorsRoutes);
+
+// Decision Consequence Engineering
+app.use('/api/v1/cascade', cascadeRoutes);
+app.use('/api/v1/adapters', adaptersRoutes);
 
 // 404 handler
 app.use((req, res) => {
@@ -334,6 +359,14 @@ const startServer = async () => {
       logger.info('Platform services registered');
     } catch (e) {
       logger.warn('Platform services registration failed:', e);
+    }
+
+    // Initialize Casbin policy engine
+    try {
+      await policyEngine.initialize();
+      logger.info('Policy engine initialized');
+    } catch (e) {
+      logger.warn('Policy engine initialization failed:', e);
     }
 
     httpServer.listen(config.port, () => {

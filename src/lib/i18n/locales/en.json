@@ -992,6 +992,102 @@
           "Improving decision quality"
         ],
         "guidance": "File a dissent against any decision you disagree with. Your objection will be permanently recorded, acknowledged, and tracked for accuracy over time."
+      },
+      "connectors": {
+        "title": "Enterprise Data Connectors",
+        "summary": "156+ pre-built connectors across 11 industry verticals. Connect to government, financial, healthcare, and global data sources.",
+        "features": [
+          "Government: NOAA, FAA, FEMA, SEC, Census, USGS, EIA",
+          "Financial: Bloomberg, SWIFT, FIX Protocol, Refinitiv",
+          "Healthcare: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO",
+          "Supply Chain: CBP, Maersk, Port APIs, UN Comtrade",
+          "Energy: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool",
+          "Avionics: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"
+        ],
+        "useCases": [
+          "Real-time weather and climate data integration",
+          "Financial market data and regulatory feeds",
+          "Healthcare interoperability and clinical data",
+          "Supply chain visibility and customs compliance",
+          "Energy grid and power market analytics",
+          "Aviation safety and flight operations"
+        ],
+        "guidance": "Browse connectors by vertical or search for specific data sources. Each connector includes authentication setup, rate limiting, and compliance framework mapping."
+      },
+      "evidence": {
+        "title": "Evidence Infrastructure",
+        "summary": "Immutable test evidence ledger with blockchain-style hash chaining, TPM-signed digital signatures, and Merkle tree proofs.",
+        "features": [
+          "Cryptographically signed ledger entries",
+          "Build and execution identity capture",
+          "TPM hardware attestation support",
+          "Merkle tree integrity verification",
+          "Legal evidence bundle generation"
+        ],
+        "useCases": [
+          "Audit-ready test evidence for compliance",
+          "Procurement and security review documentation",
+          "SOC 2 Type II / ISO 27001 / GDPR evidence",
+          "Tamper-proof execution records"
+        ],
+        "guidance": "All test executions are automatically recorded with cryptographic signatures. Generate legal evidence bundles for auditors with one click."
+      },
+      "sovereignArch": {
+        "title": "Sovereign Architecture Patterns",
+        "summary": "11 enterprise patterns for air-gapped, zero-trust, and fully sovereign deployments.",
+        "features": [
+          "Data Diode: Unidirectional data ingest with quarantine",
+          "Local RLHF: Zero-cloud reinforcement learning",
+          "Decision DNA: One-click audit artifact export",
+          "Shadow Council: Sandbox deliberation mode",
+          "QR Air-Gap Bridge: Zero-media data transfer",
+          "TPM Attestation: Hardware-signed decisions"
+        ],
+        "useCases": [
+          "Air-gapped secure facility deployments",
+          "Defense and intelligence applications",
+          "Regulated industry compliance",
+          "Zero-trust enterprise architecture"
+        ],
+        "guidance": "Sovereign Architecture patterns enable deployment in the most restricted environments. Each pattern can be used independently or combined."
+      },
+      "cascade": {
+        "title": "CendiaCascade™ - The Butterfly Effect",
+        "summary": "Second and third-order consequence analysis. Predict the unintended consequences of decisions before they become incidents.",
+        "features": [
+          "Multi-lens analysis (CFO, COO, CISO, People, Ethics)",
+          "Butterfly effect detection (surprising 3rd+ order impacts)",
+          "Automatic mitigation generation (prevent, detect, respond)",
+          "Guardrail proposals (canary, tripwire, circuit breaker, rollback)",
+          "Timeline visualization (T+0, T+30, T+90, T+1Y)",
+          "Evidence-grade audit trail with SHA-256 hashing"
+        ],
+        "useCases": [
+          "Analyze staffing changes before implementation",
+          "Predict vendor swap consequences across supply chain",
+          "Model policy changes through organizational graph",
+          "Detect feedback loops that amplify small changes"
+        ],
+        "guidance": "Load your organization graph, propose a change, and let CendiaCascade trace consequences through your Knowledge Graph to find the Invisible Consequences. Your competitors play chess one move ahead — CendiaCascade simulates 5 moves deep."
+      },
+      "adapters": {
+        "title": "Sovereign Adapters - Universal Connectors",
+        "summary": "5 universal adapters instead of 156 vendor-specific connectors. We provide the socket; the client brings the plug.",
+        "features": [
+          "File Watcher: Avionics, defense, legacy file-based ingest",
+          "Webhook Ingest: SaaS, financial gateway push events",
+          "Database Adapter: ERP, supply chain SQL/ODBC polling",
+          "FHIR Protocol: Healthcare standard (not Epic/Cerner proprietary)",
+          "FIX Protocol: Financial standard (not Bloomberg/Refinitiv)",
+          "MQTT Protocol: IoT and energy grid data"
+        ],
+        "useCases": [
+          "Connect to any system via open standards",
+          "Avoid licensing liability from proprietary APIs",
+          "Support air-gapped and regulated environments",
+          "BYO-keys for all regulated adapters"
+        ],
+        "guidance": "Choose the adapter type that matches your integration pattern. Each adapter enforces risk tiers, evidence logging, and quota controls automatically."
       }
     }
   },

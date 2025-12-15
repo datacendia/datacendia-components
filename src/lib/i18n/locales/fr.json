@@ -512,6 +512,41 @@
         "features": ["Enregistrement de dissidence anonyme ou nominatif", "Accusé de réception obligatoire sous 72h", "Enregistrement immuable sur le registre", "Détection et protection contre les représailles", "Suivi de la précision des dissidences"],
         "useCases": ["Garantir l'écoute des voix minoritaires", "Créer une mémoire organisationnelle", "Protéger les lanceurs d'alerte", "Améliorer la qualité des décisions"],
         "guidance": "Déposez une dissidence contre toute décision avec laquelle vous n'êtes pas d'accord. Votre objection sera enregistrée définitivement, reconnue et suivie pour sa précision dans le temps."
+      },
+      "connectors": {
+        "title": "Connecteurs de Données Entreprise",
+        "summary": "156+ connecteurs préconstruits dans 11 secteurs industriels. Connectez-vous aux sources gouvernementales, financières, santé et mondiales.",
+        "features": ["Gouvernement: NOAA, FAA, FEMA, SEC, Census, USGS, EIA", "Finance: Bloomberg, SWIFT, Protocole FIX, Refinitiv", "Santé: HL7 FHIR, Epic, Cerner, CDC, FDA, OMS", "Supply Chain: CBP, Maersk, APIs Portuaires", "Énergie: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool", "Avionique: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"],
+        "useCases": ["Intégration de données météo en temps réel", "Données de marchés financiers et flux réglementaires", "Interopérabilité santé et données cliniques", "Visibilité supply chain", "Analyses réseau électrique et marché énergétique", "Sécurité aérienne et opérations de vol"],
+        "guidance": "Parcourez les connecteurs par secteur ou recherchez des sources spécifiques. Chaque connecteur inclut authentification, limitation de débit et cartographie de conformité."
+      },
+      "evidence": {
+        "title": "Infrastructure de Preuves",
+        "summary": "Registre immuable avec chaînage hash blockchain, signatures numériques TPM et preuves Merkle.",
+        "features": ["Entrées signées cryptographiquement", "Capture d'identité de build", "Support attestation TPM", "Vérification arbre Merkle", "Génération de dossiers juridiques"],
+        "useCases": ["Preuves de tests pour audit", "Documentation de revue de sécurité", "Preuves SOC 2 / ISO 27001 / RGPD", "Enregistrements inviolables"],
+        "guidance": "Toutes les exécutions sont enregistrées avec signatures cryptographiques. Générez des dossiers de preuves juridiques en un clic."
+      },
+      "sovereignArch": {
+        "title": "Patterns d'Architecture Souveraine",
+        "summary": "11 patterns entreprise pour déploiements isolés, zero-trust et souverains.",
+        "features": ["Diode de Données: Ingestion unidirectionnelle avec quarantaine", "RLHF Local: Apprentissage sans cloud", "ADN Décision: Export audit en un clic", "Conseil Fantôme: Mode sandbox", "Pont QR Air-Gap: Transfert sans média", "Attestation TPM: Décisions signées matériel"],
+        "useCases": ["Déploiements en installations isolées", "Applications défense et renseignement", "Conformité industries réglementées", "Architecture zero-trust"],
+        "guidance": "Les patterns d'Architecture Souveraine permettent le déploiement dans les environnements les plus restreints. Chaque pattern peut être utilisé seul ou combiné."
+      },
+      "cascade": {
+        "title": "CendiaCascade™ - L'Effet Papillon",
+        "summary": "Analyse des conséquences de deuxième et troisième ordre. Prédisez les conséquences involontaires avant qu'elles ne deviennent des incidents.",
+        "features": ["Analyse multi-perspective (CFO, COO, CISO, Personnes, Éthique)", "Détection de l'effet papillon (impacts surprenants de 3e+ ordre)", "Génération automatique d'atténuations (prévenir, détecter, répondre)", "Propositions de garde-fous (canari, déclencheur, disjoncteur, rollback)", "Visualisation chronologique (T+0, T+30, T+90, T+1A)", "Piste d'audit avec hash SHA-256"],
+        "useCases": ["Analyser les changements de personnel avant mise en œuvre", "Prédire les conséquences d'un changement de fournisseur", "Modéliser les changements de politique dans le graphe organisationnel", "Détecter les boucles de rétroaction"],
+        "guidance": "Chargez votre graphe organisationnel, proposez un changement et laissez CendiaCascade tracer les conséquences. Vos concurrents jouent aux échecs un coup à l'avance — CendiaCascade simule 5 coups à l'avance."
+      },
+      "adapters": {
+        "title": "Adaptateurs Souverains - Connecteurs Universels",
+        "summary": "5 adaptateurs universels au lieu de 156 connecteurs spécifiques. Nous fournissons la prise; le client apporte le câble.",
+        "features": ["File Watcher: Avionique, défense, ingestion basée fichiers", "Webhook Ingest: SaaS, événements push passerelles financières", "Database Adapter: ERP, chaîne d'approvisionnement SQL/ODBC", "Protocole FHIR: Standard santé", "Protocole FIX: Standard financier", "Protocole MQTT: IoT et réseau énergétique"],
+        "useCases": ["Connecter à tout système via standards ouverts", "Éviter la responsabilité des licences APIs propriétaires", "Supporter environnements isolés et réglementés", "BYO-keys pour adaptateurs réglementés"],
+        "guidance": "Choisissez le type d'adaptateur correspondant à votre pattern d'intégration. Chaque adaptateur applique niveaux de risque, journalisation des preuves et contrôles de quota automatiquement."
       }
     }
   },

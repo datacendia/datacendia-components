@@ -5,7 +5,7 @@
 // Use for: PDFs, Documents, Model files, Backups, Large binary data
 // =============================================================================
 
-import { Client, BucketItem, UploadedObjectInfo } from 'minio';
+import { Client, BucketItem } from 'minio';
 import { Readable } from 'stream';
 import * as crypto from 'crypto';
 
@@ -21,6 +21,7 @@ const MINIO_CONFIG = {
 // Bucket names
 export const BUCKETS = {
   DOCUMENTS: 'cendia-documents',      // PDFs, Office docs for CendiaGnosis™
+  COUNCIL_DOCUMENTS: 'council-documents',
   MODELS: 'cendia-models',            // AI model files
   BACKUPS: 'cendia-backups',          // Database backups
   EXPORTS: 'cendia-exports',          // Court exports, reports
@@ -157,7 +158,7 @@ class MinioService {
         bucket,
         objectName,
         etag: result.etag,
-        versionId: result.versionId,
+        versionId: result.versionId ?? undefined,
         size: buffer.length,
       };
     } catch (error: any) {
@@ -205,7 +206,7 @@ class MinioService {
         bucket,
         objectName,
         etag: result.etag,
-        versionId: result.versionId,
+        versionId: result.versionId ?? undefined,
         size,
       };
     } catch (error: any) {

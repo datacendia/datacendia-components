@@ -24,6 +24,19 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: 'Product', href: '/product' },
+  { 
+    label: 'Industries', 
+    href: '/verticals',
+    children: [
+      { label: 'All Industries', href: '/verticals', description: 'Browse all 18 verticals' },
+      { label: 'Healthcare', href: '/verticals/healthcare', description: 'Clinical decision intelligence' },
+      { label: 'Financial Services', href: '/verticals/financial-services', description: 'Fraud & regulatory AI' },
+      { label: 'Government & Legal', href: '/verticals/government-legal', description: 'Sovereign AI for policy' },
+      { label: 'Insurance', href: '/verticals/insurance', description: 'Underwriting & claims' },
+      { label: 'Pharmaceutical', href: '/verticals/pharmaceutical', description: 'Pipeline decisions' },
+      { label: 'Sports', href: '/verticals/sports', description: 'Team & player analytics' },
+    ]
+  },
   { label: 'Pricing', href: '/pricing' },
   { label: 'Downloads', href: '/downloads' },
   { 
@@ -52,10 +65,10 @@ const footerSections = [
     title: 'Product',
     links: [
       { label: 'Features', href: '/product' },
+      { label: 'Industries', href: '/verticals' },
       { label: 'Pricing', href: '/pricing' },
       { label: 'Downloads', href: '/downloads' },
       { label: 'Integrations', href: '/integrations' },
-      { label: 'Enterprise', href: '/enterprise' },
     ],
   },
   {

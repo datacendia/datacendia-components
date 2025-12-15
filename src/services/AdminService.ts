@@ -29,6 +29,16 @@ export interface Tenant {
   updatedAt: string;
 }
 
+export interface LicenseFeatures {
+  pillars?: number;
+  agents?: number;
+  maxUsers?: number;
+  maxDeliberationsPerMonth?: number;
+  guardianSuite?: boolean;
+  sovereignDeployment?: boolean;
+  customIntegrations?: boolean;
+}
+
 export interface License {
   id: string;
   tenantId: string;
@@ -37,7 +47,7 @@ export interface License {
   status: 'active' | 'expiring' | 'expired' | 'suspended';
   startDate: string;
   expiresAt: string;
-  features: string;
+  features: string | LicenseFeatures;
   autoRenew: boolean;
   renewalPrice?: number;
 }

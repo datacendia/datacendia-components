@@ -5,7 +5,35 @@
 
 import React, { useState, useEffect } from 'react';
 import apiClient from '../../lib/api/client';
-import { Users, MessageSquare, Vote, AlertTriangle, Scale, Heart, Leaf, Clock, X, TrendingUp, TrendingDown, Minus, Play, ExternalLink, Edit2, Check } from 'lucide-react';
+import { Users, MessageSquare, Vote, AlertTriangle, Scale, Heart, Leaf, Clock, X, TrendingUp, TrendingDown, Minus, Play, ExternalLink, Edit2, Check, ArrowRight, CircleDot, CheckCircle, XCircle, AlertCircle, BarChart2, Link2, Download } from 'lucide-react';
+
+// Mock sentiment history data (monthly)
+const SENTIMENT_HISTORY = [
+  { month: 'Aug', EMPLOYEES: 72, CUSTOMERS: 68, ENVIRONMENT: 75, FUTURE_GENERATIONS: 80, COMMUNITY: 65, SHAREHOLDERS: 70 },
+  { month: 'Sep', EMPLOYEES: 70, CUSTOMERS: 72, ENVIRONMENT: 74, FUTURE_GENERATIONS: 80, COMMUNITY: 68, SHAREHOLDERS: 72 },
+  { month: 'Oct', EMPLOYEES: 68, CUSTOMERS: 75, ENVIRONMENT: 73, FUTURE_GENERATIONS: 79, COMMUNITY: 70, SHAREHOLDERS: 74 },
+  { month: 'Nov', EMPLOYEES: 65, CUSTOMERS: 78, ENVIRONMENT: 76, FUTURE_GENERATIONS: 81, COMMUNITY: 72, SHAREHOLDERS: 76 },
+  { month: 'Dec', EMPLOYEES: 63, CUSTOMERS: 80, ENVIRONMENT: 78, FUTURE_GENERATIONS: 82, COMMUNITY: 73, SHAREHOLDERS: 78 },
+  { month: 'Jan', EMPLOYEES: 61, CUSTOMERS: 82, ENVIRONMENT: 80, FUTURE_GENERATIONS: 83, COMMUNITY: 74, SHAREHOLDERS: 80 },
+];
+
+// Default stakeholder configuration with weights
+const DEFAULT_STAKEHOLDERS = [
+  { type: 'EMPLOYEES', name: 'Employees', icon: '👥', defaultWeight: 1.0, vetoRights: ['Mass layoffs', 'Unsafe conditions', 'Benefits reduction'], description: 'Current workforce across all levels' },
+  { type: 'CUSTOMERS', name: 'Customers', icon: '❤️', defaultWeight: 1.0, vetoRights: ['Service discontinuation', 'Privacy violations'], description: 'End users and enterprise clients' },
+  { type: 'COMMUNITY', name: 'Community', icon: '🏠', defaultWeight: 0.8, vetoRights: ['Environmental harm', 'Community displacement'], description: 'Local communities where we operate' },
+  { type: 'ENVIRONMENT', name: 'Environment', icon: '🌿', defaultWeight: 1.2, vetoRights: ['Irreversible harm', 'Carbon commitments'], description: 'Natural environment and ecosystems' },
+  { type: 'FUTURE_GENERATIONS', name: 'Future Generations', icon: '🔮', defaultWeight: 1.5, vetoRights: ['Generational debt', 'Resource depletion'], description: 'Those who inherit our decisions' },
+  { type: 'SHAREHOLDERS', name: 'Shareholders', icon: '💰', defaultWeight: 1.0, vetoRights: ['Fiduciary breach'], description: 'Investors and equity holders' },
+];
+
+// Decision lifecycle stages for the assembly timeline
+const DECISION_LIFECYCLE = [
+  { id: 'decision', label: 'Decision Proposed', icon: '📝', description: 'Question submitted to Council' },
+  { id: 'assembly', label: 'Stakeholder Assembly', icon: '🗣️', description: 'Voices gathered and weighted' },
+  { id: 'veto-check', label: 'Veto Check', icon: '⚠️', description: 'Checking against veto rights' },
+  { id: 'resolution', label: 'Resolution', icon: '✅', description: 'Final decision recorded' },
+];
 
 interface Stakeholder {
   id: string;
@@ -81,6 +109,11 @@ export const VoxPage: React.FC = () => {
   const [showAssemblyModal, setShowAssemblyModal] = useState(false);
   const [editingWeightFor, setEditingWeightFor] = useState<string | null>(null);
   const [newWeight, setNewWeight] = useState<number>(1.0);
+  const [showPhilosophy, setShowPhilosophy] = useState(false);
+  const [showDecisionTimeline, setShowDecisionTimeline] = useState(false);
+  const [activeTimelineDecision, setActiveTimelineDecision] = useState<string | null>(null);
+  const [showSentimentChart, setShowSentimentChart] = useState(false);
+  const [selectedChartStakeholder, setSelectedChartStakeholder] = useState<string | null>(null);
   
   // Sentiment trends (mock)
   const sentimentTrend = { direction: 'up' as const, vsLastMonth: '+8%' };
@@ -146,6 +179,23 @@ export const VoxPage: React.FC = () => {
     }
   };
 
+  // Dynamic decision timeline data (relative to current time)
+  const formatTimelineDate = (hoursAgo: number) => {
+    const date = new Date(Date.now() - hoursAgo * 60 * 60 * 1000);
+    return date.toISOString().replace('T', ' ').substring(0, 16);
+  };
+  
+  const mockDecisionTimeline = {
+    id: `dec-${new Date().getFullYear()}-042`,
+    title: 'Facility Expansion Phase 2',
+    stages: [
+      { stage: 'decision', status: 'completed', timestamp: formatTimelineDate(72), notes: 'Proposed by Operations' },
+      { stage: 'assembly', status: 'completed', timestamp: formatTimelineDate(71.75), notes: '6 stakeholder voices gathered' },
+      { stage: 'veto-check', status: 'vetoed', timestamp: formatTimelineDate(71.5), notes: 'Environment veto: Irreversible harm' },
+      { stage: 'resolution', status: 'pending', timestamp: null, notes: 'Awaiting mitigation plan' },
+    ]
+  };
+
   if (isLoading) {
     return <div className="min-h-screen bg-slate-900 flex items-center justify-center text-white">Loading Vox...</div>;
   }
@@ -172,9 +222,23 @@ export const VoxPage: React.FC = () => {
             <Play className="w-4 h-4" />
             Run Stakeholder Assembly on a Decision
           </button>
+          <button
+            onClick={() => setShowSentimentChart(true)}
+            className="px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-sm flex items-center gap-2"
+          >
+            <BarChart2 className="w-4 h-4" /> Sentiment History
+          </button>
         </div>
-        <div className="text-xs text-slate-500">
-          Linked to: <span className="text-cyan-400">Council</span> • <span className="text-purple-400">Decision DNA</span> • <span className="text-blue-400">Chronos</span>
+        <div className="flex items-center gap-4">
+          <a 
+            href="/cortex/intelligence/council"
+            className="px-3 py-1.5 bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/30 rounded-lg text-sm text-purple-300 flex items-center gap-2"
+          >
+            <Link2 className="w-4 h-4" /> Link to Council Deliberation
+          </a>
+          <div className="text-xs text-slate-500">
+            Linked to: <span className="text-cyan-400">Council</span> • <span className="text-purple-400">Decision DNA</span> • <span className="text-blue-400">Chronos</span>
+          </div>
         </div>
       </div>
 
@@ -273,49 +337,89 @@ export const VoxPage: React.FC = () => {
                 </div>
                 <p className="text-sm text-slate-300 mb-4">{s.description}</p>
                 <div className="space-y-3 text-sm">
-                  {/* Editable Voice Weight */}
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-400 flex items-center gap-1 group relative">
-                      Voice Weight
-                      <span className="text-slate-600 text-xs cursor-help">ⓘ</span>
-                      <span className="absolute bottom-full left-0 mb-2 px-3 py-2 bg-slate-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-64 z-10 border border-slate-700">
-                        Voice Weight determines how strongly this stakeholder's interests are weighted in Council deliberations and risk scoring.
+                  {/* Editable Voice Weight with Draggable Slider */}
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="text-slate-400 flex items-center gap-1 group relative">
+                        Voice Weight
+                        <span className="text-slate-600 text-xs cursor-help">ⓘ</span>
+                        <span className="absolute bottom-full left-0 mb-2 px-3 py-2 bg-slate-900 text-white text-xs rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-64 z-10 border border-slate-700">
+                          Voice Weight determines how strongly this stakeholder's interests are weighted in Council deliberations and risk scoring.
+                        </span>
                       </span>
-                    </span>
+                      <span className="font-medium text-cyan-400">{s.voiceWeight.toFixed(1)}x</span>
+                    </div>
                     {editingWeightFor === s.id ? (
-                      <div className="flex items-center gap-2">
+                      <div className="space-y-2">
                         <input
-                          type="number"
+                          type="range"
                           value={newWeight}
-                          onChange={(e) => setNewWeight(parseFloat(e.target.value) || 1.0)}
+                          onChange={(e) => setNewWeight(parseFloat(e.target.value))}
                           step="0.1"
                           min="0.1"
                           max="2.0"
-                          className="w-16 px-2 py-1 bg-slate-700 border border-slate-600 rounded text-sm"
+                          className="w-full h-2 bg-slate-600 rounded-lg appearance-none cursor-pointer accent-cyan-500"
                         />
-                        <button 
-                          onClick={() => {
-                            // Would save to backend here
-                            setEditingWeightFor(null);
-                          }}
-                          className="text-emerald-400 hover:text-emerald-300"
-                        >
-                          <Check className="w-4 h-4" />
-                        </button>
+                        <div className="flex items-center justify-between text-xs text-slate-500">
+                          <span>0.1x (Low)</span>
+                          <span>1.0x (Default)</span>
+                          <span>2.0x (High)</span>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <input
+                            type="number"
+                            value={newWeight}
+                            onChange={(e) => setNewWeight(Math.min(2.0, Math.max(0.1, parseFloat(e.target.value) || 1.0)))}
+                            step="0.1"
+                            min="0.1"
+                            max="2.0"
+                            className="w-20 px-2 py-1 bg-slate-700 border border-slate-600 rounded text-sm"
+                          />
+                          <button 
+                            onClick={async () => {
+                              // Save to backend
+                              try {
+                                await apiClient.api.patch(`/vox/stakeholders/${s.id}`, { voiceWeight: newWeight });
+                                await loadData();
+                              } catch (error) {
+                                console.error('Failed to update weight:', error);
+                              }
+                              setEditingWeightFor(null);
+                            }}
+                            className="px-3 py-1 bg-emerald-600 hover:bg-emerald-500 rounded text-sm flex items-center gap-1"
+                          >
+                            <Check className="w-3 h-3" /> Save
+                          </button>
+                          <button 
+                            onClick={() => setEditingWeightFor(null)}
+                            className="px-3 py-1 bg-slate-600 hover:bg-slate-500 rounded text-sm"
+                          >
+                            Cancel
+                          </button>
+                        </div>
                       </div>
                     ) : (
                       <button 
                         onClick={() => { setEditingWeightFor(s.id); setNewWeight(s.voiceWeight); }}
-                        className="font-medium flex items-center gap-1 hover:text-cyan-400 transition-colors group"
+                        className="w-full h-2 bg-slate-600 rounded-lg relative group cursor-pointer hover:bg-slate-500 transition-colors"
                       >
-                        {s.voiceWeight.toFixed(1)}x
-                        <Edit2 className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                        <div 
+                          className="absolute top-0 left-0 h-full bg-cyan-500 rounded-lg transition-all"
+                          style={{ width: `${(s.voiceWeight / 2.0) * 100}%` }}
+                        />
+                        <div 
+                          className="absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-cyan-400 rounded-full shadow-lg border-2 border-white"
+                          style={{ left: `calc(${(s.voiceWeight / 2.0) * 100}% - 8px)` }}
+                        />
+                        <span className="absolute -top-6 left-1/2 -translate-x-1/2 text-xs bg-slate-900 px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                          Click to adjust
+                        </span>
                       </button>
                     )}
                   </div>
                   {/* Weight audit trail hint */}
                   <div className="text-[10px] text-slate-500">
-                    Last changed: 2025-11-10 by Governance Admin
+                    Last changed: {new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0]} by Governance Admin
                   </div>
                   <div>
                     <span className="text-slate-400">Veto Rights:</span>
@@ -334,31 +438,133 @@ export const VoxPage: React.FC = () => {
         </div>
       )}
 
-      {/* Philosophy Banner - Sharpened */}
-      <div className="mt-8 bg-gradient-to-r from-cyan-900/50 to-purple-900/50 rounded-lg p-6 border border-cyan-500/30">
-        <div className="flex items-center gap-3 mb-3">
-          <Scale className="w-6 h-6 text-cyan-400" />
-          <h3 className="text-lg font-semibold">Stakeholder Capitalism Philosophy</h3>
+      {/* Decision → Assembly → Veto → Resolution Timeline */}
+      <div className="mt-8 bg-slate-800 rounded-lg p-6 border border-slate-700">
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <h2 className="text-xl font-semibold flex items-center gap-2">
+              <ArrowRight className="w-5 h-5 text-cyan-400" /> Decision Governance Timeline
+            </h2>
+            <p className="text-sm text-slate-400">How stakeholder voices flow through decisions</p>
+          </div>
+          <button 
+            onClick={() => setShowDecisionTimeline(!showDecisionTimeline)}
+            className="text-xs text-cyan-400 hover:text-cyan-300"
+          >
+            {showDecisionTimeline ? 'Hide example' : 'Show live example'}
+          </button>
         </div>
-        <p className="text-slate-300">
-          <strong className="text-white">CendiaVox™ enforces stakeholder capitalism in decision-making.</strong> Every major decision 
-          is tested against the interests of employees, customers, communities, environment, and future generations. 
-          All proxies represent voices that cannot speak for themselves.
+        
+        {/* Timeline Steps */}
+        <div className="flex items-center justify-between mb-6">
+          {DECISION_LIFECYCLE.map((stage, i) => (
+            <React.Fragment key={stage.id}>
+              <div className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-full bg-cyan-500/20 border border-cyan-500/40 flex items-center justify-center text-xl mb-2">
+                  {stage.icon}
+                </div>
+                <div className="font-medium text-sm">{stage.label}</div>
+                <div className="text-xs text-slate-500 max-w-[120px]">{stage.description}</div>
+              </div>
+              {i < DECISION_LIFECYCLE.length - 1 && (
+                <div className="flex-1 h-0.5 bg-cyan-500/30 mx-2"></div>
+              )}
+            </React.Fragment>
+          ))}
+        </div>
+
+        {/* Live Example */}
+        {showDecisionTimeline && (
+          <div className="p-4 bg-slate-900/50 rounded-lg border border-slate-700">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <div className="font-medium">{mockDecisionTimeline.title}</div>
+                <div className="text-xs text-slate-400">ID: {mockDecisionTimeline.id}</div>
+              </div>
+              <span className="px-2 py-0.5 bg-amber-500/20 text-amber-300 rounded text-xs">Veto Active</span>
+            </div>
+            <div className="space-y-2">
+              {mockDecisionTimeline.stages.map((s, i) => (
+                <div key={i} className="flex items-center gap-3">
+                  <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs ${
+                    s.status === 'completed' ? 'bg-emerald-500/20 text-emerald-400' :
+                    s.status === 'vetoed' ? 'bg-red-500/20 text-red-400' :
+                    'bg-slate-700 text-slate-500'
+                  }`}>
+                    {s.status === 'completed' ? <CheckCircle className="w-4 h-4" /> :
+                     s.status === 'vetoed' ? <XCircle className="w-4 h-4" /> :
+                     <CircleDot className="w-4 h-4" />}
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-sm font-medium">{DECISION_LIFECYCLE.find(d => d.id === s.stage)?.label}</div>
+                    <div className="text-xs text-slate-400">{s.notes}</div>
+                  </div>
+                  {s.timestamp && <div className="text-xs text-slate-500">{s.timestamp}</div>}
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Default Stakeholders Reference */}
+      <div className="mt-6 bg-slate-800 rounded-lg p-6 border border-slate-700">
+        <h3 className="font-semibold mb-4">Default Stakeholder Weights & Veto Rights</h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+          {DEFAULT_STAKEHOLDERS.map(s => (
+            <div key={s.type} className={`p-3 rounded-lg border ${getStakeholderColor(s.type)}`}>
+              <div className="text-xl mb-1">{s.icon}</div>
+              <div className="font-medium text-sm">{s.name}</div>
+              <div className="text-xs text-slate-400 mb-2">Weight: {s.defaultWeight}x</div>
+              <div className="text-xs text-slate-500">
+                Veto: {s.vetoRights.length} right{s.vetoRights.length !== 1 ? 's' : ''}
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-xs text-slate-500 mt-4">
+          Weights are editable per stakeholder. Higher weights amplify that voice in Council deliberations.
         </p>
-        <div className="mt-4 flex flex-wrap gap-4 text-sm">
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-emerald-400"></div>
-            <span>Environment has veto on irreversible harm</span>
+      </div>
+
+      {/* Philosophy Banner - Collapsible */}
+      <div className="mt-8 bg-gradient-to-r from-cyan-900/50 to-purple-900/50 rounded-lg border border-cyan-500/30 overflow-hidden">
+        <button 
+          onClick={() => setShowPhilosophy(!showPhilosophy)}
+          className="w-full p-4 flex items-center justify-between hover:bg-white/5 transition-colors"
+        >
+          <div className="flex items-center gap-3">
+            <Scale className="w-5 h-5 text-cyan-400" />
+            <span className="font-medium">Stakeholder Capitalism Philosophy</span>
+            <span className="text-xs text-slate-500">— Why every voice matters</span>
           </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-purple-400"></div>
-            <span>Future generations have veto on generational debt</span>
+          <svg className={`w-5 h-5 text-slate-400 transition-transform ${showPhilosophy ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        {showPhilosophy && (
+          <div className="px-6 pb-6 pt-2">
+            <p className="text-slate-300 mb-4">
+              <strong className="text-white">CendiaVox™ enforces stakeholder capitalism in decision-making.</strong> Every major decision 
+              is tested against the interests of employees, customers, communities, environment, and future generations. 
+              All proxies represent voices that cannot speak for themselves.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
+              <div className="flex items-center gap-2 p-2 bg-emerald-500/10 rounded-lg border border-emerald-500/20">
+                <div className="w-3 h-3 rounded-full bg-emerald-400"></div>
+                <span>Environment: veto on irreversible harm</span>
+              </div>
+              <div className="flex items-center gap-2 p-2 bg-purple-500/10 rounded-lg border border-purple-500/20">
+                <div className="w-3 h-3 rounded-full bg-purple-400"></div>
+                <span>Future generations: veto on generational debt</span>
+              </div>
+              <div className="flex items-center gap-2 p-2 bg-blue-500/10 rounded-lg border border-blue-500/20">
+                <div className="w-3 h-3 rounded-full bg-blue-400"></div>
+                <span>Employees: veto on unsafe conditions</span>
+              </div>
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-blue-400"></div>
-            <span>Employees have veto on unsafe conditions</span>
-          </div>
-        </div>
+        )}
       </div>
 
       {/* Signals Stream Panel */}
@@ -535,6 +741,109 @@ export const VoxPage: React.FC = () => {
                 >
                   Start Assembly →
                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Sentiment History Chart Modal */}
+      {showSentimentChart && (
+        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50" onClick={() => setShowSentimentChart(false)}>
+          <div className="bg-slate-800 rounded-xl p-6 w-full max-w-4xl border border-slate-700" onClick={e => e.stopPropagation()}>
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <h3 className="text-xl font-semibold flex items-center gap-2">
+                  <BarChart2 className="w-5 h-5 text-cyan-400" /> Sentiment History
+                </h3>
+                <p className="text-sm text-slate-400">Track stakeholder sentiment trends over time</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <button className="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 rounded-lg text-xs flex items-center gap-1">
+                  <Download className="w-3 h-3" /> Export
+                </button>
+                <button onClick={() => setShowSentimentChart(false)} className="text-slate-400 hover:text-white p-1">✕</button>
+              </div>
+            </div>
+
+            {/* Stakeholder Filter Pills */}
+            <div className="flex flex-wrap gap-2 mb-6">
+              <button
+                onClick={() => setSelectedChartStakeholder(null)}
+                className={`px-3 py-1.5 rounded-lg text-xs ${!selectedChartStakeholder ? 'bg-cyan-600 text-white' : 'bg-slate-700 text-slate-300'}`}
+              >
+                All Stakeholders
+              </button>
+              {DEFAULT_STAKEHOLDERS.map(s => (
+                <button
+                  key={s.type}
+                  onClick={() => setSelectedChartStakeholder(s.type)}
+                  className={`px-3 py-1.5 rounded-lg text-xs flex items-center gap-1 ${selectedChartStakeholder === s.type ? 'bg-cyan-600 text-white' : 'bg-slate-700 text-slate-300'}`}
+                >
+                  <span>{s.icon}</span> {s.name}
+                </button>
+              ))}
+            </div>
+
+            {/* Chart Area */}
+            <div className="bg-slate-900 rounded-lg p-4 mb-4">
+              <div className="h-64 flex items-end gap-1">
+                {SENTIMENT_HISTORY.map((month, i) => (
+                  <div key={month.month} className="flex-1 flex flex-col items-center">
+                    <div className="w-full flex flex-col gap-0.5 h-52">
+                      {(selectedChartStakeholder ? [selectedChartStakeholder] : Object.keys(month).filter(k => k !== 'month')).map(stakeholder => {
+                        const value = month[stakeholder as keyof typeof month] as number;
+                        const color = stakeholder === 'EMPLOYEES' ? 'bg-blue-500' :
+                                      stakeholder === 'CUSTOMERS' ? 'bg-pink-500' :
+                                      stakeholder === 'ENVIRONMENT' ? 'bg-emerald-500' :
+                                      stakeholder === 'FUTURE_GENERATIONS' ? 'bg-purple-500' :
+                                      stakeholder === 'COMMUNITY' ? 'bg-amber-500' : 'bg-cyan-500';
+                        return (
+                          <div 
+                            key={stakeholder}
+                            className={`w-full ${color} rounded-sm transition-all hover:opacity-80`}
+                            style={{ height: `${(value / 100) * (selectedChartStakeholder ? 100 : 16)}%` }}
+                            title={`${stakeholder}: ${value}`}
+                          />
+                        );
+                      })}
+                    </div>
+                    <span className="text-xs text-slate-500 mt-2">{month.month}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Legend */}
+            <div className="flex flex-wrap gap-4 text-xs">
+              {DEFAULT_STAKEHOLDERS.map(s => (
+                <span key={s.type} className="flex items-center gap-1">
+                  <span className={`w-3 h-3 rounded ${
+                    s.type === 'EMPLOYEES' ? 'bg-blue-500' :
+                    s.type === 'CUSTOMERS' ? 'bg-pink-500' :
+                    s.type === 'ENVIRONMENT' ? 'bg-emerald-500' :
+                    s.type === 'FUTURE_GENERATIONS' ? 'bg-purple-500' :
+                    s.type === 'COMMUNITY' ? 'bg-amber-500' : 'bg-cyan-500'
+                  }`}></span>
+                  {s.name}
+                </span>
+              ))}
+            </div>
+
+            {/* Alerts Section */}
+            <div className="mt-6 p-4 bg-amber-500/10 border border-amber-500/30 rounded-lg">
+              <h4 className="font-medium text-amber-300 mb-2 flex items-center gap-2">
+                <AlertTriangle className="w-4 h-4" /> Sentiment Alerts
+              </h4>
+              <div className="space-y-2 text-sm">
+                <div className="flex items-center justify-between">
+                  <span className="text-slate-300">👥 Employees sentiment declining -11 pts over 6 months</span>
+                  <span className="text-red-400">Action needed</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-slate-300">🔮 Future Generations veto frequency up 15%</span>
+                  <span className="text-amber-400">Monitor</span>
+                </div>
               </div>
             </div>
           </div>

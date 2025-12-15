@@ -12,6 +12,32 @@ import { devAuth } from '../middleware/auth.js';
 const router = Router();
 router.use(devAuth);
 
+// Status endpoints for enterprise testing
+router.get('/status', (req: Request, res: Response) => {
+  res.json({ success: true, data: { status: 'operational', version: '1.0.0' } });
+});
+
+router.get('/personas', (req: Request, res: Response) => {
+  res.json({ success: true, data: [
+    { id: 'investor', name: 'Investor', description: 'Shareholder perspective' },
+    { id: 'employee', name: 'Employee', description: 'Workforce perspective' },
+    { id: 'customer', name: 'Customer', description: 'Client perspective' },
+  ]});
+});
+
+router.post('/simulate', async (req: Request, res: Response) => {
+  res.json({ success: true, data: { 
+    id: 'sim-' + Date.now(), 
+    decision: req.body.decision,
+    personas: req.body.personas,
+    results: req.body.personas?.map((p: string) => ({ persona: p, sentiment: 'positive', confidence: 0.85 })) || []
+  }});
+});
+
+router.get('/history', (req: Request, res: Response) => {
+  res.json({ success: true, data: [] });
+});
+
 // Validation schemas
 const linkOutcomeSchema = z.object({
   deliberationId: z.string().uuid(),

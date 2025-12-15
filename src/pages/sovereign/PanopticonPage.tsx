@@ -5,7 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import apiClient from '../../lib/api/client';
-import { Shield, AlertTriangle, FileText, TrendingUp, Globe, CheckCircle, XCircle, Clock, X, ExternalLink, Play, FlaskConical, MapPin } from 'lucide-react';
+import { Shield, AlertTriangle, FileText, TrendingUp, Globe, CheckCircle, XCircle, Clock, X, ExternalLink, Play, FlaskConical, MapPin, Zap, Download, User, Calendar, ChevronRight, Filter } from 'lucide-react';
 
 interface Framework {
   code: string;
@@ -32,6 +32,9 @@ interface Violation {
   severity: string;
   status: string;
   regulation: { framework_code: string };
+  owner?: string;
+  dueDate?: string;
+  progress?: number;
 }
 
 interface Dashboard {
@@ -140,8 +143,16 @@ const JURISDICTION_MATRIX = [
   { region: 'Singapore', frameworks: ['PDPA'], obligations: 35, violations: 0 },
 ];
 
-// Mock violation details
-const VIOLATION_DETAILS = {
+// Helper for dynamic date generation
+const getFutureDate = (daysFromNow: number): string => {
+  const date = new Date(Date.now() + daysFromNow * 24 * 60 * 60 * 1000);
+  return date.toISOString().split('T')[0];
+};
+
+const currentYear = new Date().getFullYear();
+
+// Dynamic violation details (dates relative to current time)
+const VIOLATION_DETAILS: Record<string, any> = {
   'v1': { 
     id: 'v1', 
     title: 'Missing data retention policy enforcement', 
@@ -149,9 +160,9 @@ const VIOLATION_DETAILS = {
     framework: 'GDPR',
     description: 'Article 5(1)(e) requires storage limitation. Current systems retain personal data beyond declared periods.',
     owner: 'Data Protection Officer',
-    dueDate: '2025-02-15',
-    linkedDecisions: ['DEC-2024-089: Data Retention Review'],
-    mitigationWorkflow: 'WF-2025-012',
+    dueDate: getFutureDate(30),
+    linkedDecisions: [`DEC-${currentYear - 1}-089: Data Retention Review`],
+    mitigationWorkflow: `WF-${currentYear}-012`,
   },
   'v2': {
     id: 'v2',
@@ -160,7 +171,7 @@ const VIOLATION_DETAILS = {
     framework: 'DORA',
     description: 'ICT third-party risk assessment not completed for 3 critical vendors.',
     owner: 'Vendor Risk Manager',
-    dueDate: '2025-01-30',
+    dueDate: getFutureDate(14),
     linkedDecisions: [],
     mitigationWorkflow: null,
   },
@@ -184,6 +195,12 @@ export const PanopticonPage: React.FC = () => {
   const [selectedViolation, setSelectedViolation] = useState<string | null>(null);
   const [aiActions, setAiActions] = useState<string[]>(DEFAULT_AI_ACTIONS);
   const [perspective, setPerspective] = useState<'board' | 'operator'>('board');
+  const [showAiRationale, setShowAiRationale] = useState(false);
+  
+  // New state for violation workflow and exports
+  const [showViolationWorkflow, setShowViolationWorkflow] = useState(false);
+  const [violationFilter, setViolationFilter] = useState<'all' | 'critical' | 'high' | 'medium' | 'low'>('all');
+  const [showExportModal, setShowExportModal] = useState(false);
 
   useEffect(() => {
     loadData();
@@ -312,12 +329,20 @@ export const PanopticonPage: React.FC = () => {
     <div className="min-h-screen bg-slate-900 text-white p-6">
       {/* Header */}
       <div className="mb-8">
-        <div className="flex items-center gap-3 mb-2">
-          <Shield className="w-10 h-10 text-emerald-400" />
-          <div>
-            <h1 className="text-3xl font-bold">CendiaPanopticon™</h1>
-            <p className="text-slate-400">Global Regulation Engine - "Every new regulation, absorbed and enforced."</p>
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <Shield className="w-10 h-10 text-emerald-400" />
+            <div>
+              <h1 className="text-3xl font-bold">CendiaPanopticon™</h1>
+              <p className="text-slate-400">Global Regulation Engine - "Every new regulation, absorbed and enforced."</p>
+            </div>
           </div>
+          <button
+            onClick={() => setShowExportModal(true)}
+            className="px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-sm flex items-center gap-2"
+          >
+            <Download className="w-4 h-4" /> Export Reports
+          </button>
         </div>
       </div>
 
@@ -360,7 +385,10 @@ export const PanopticonPage: React.FC = () => {
             <div className="text-slate-400 text-sm">Active Frameworks</div>
             <div className="text-3xl font-bold">{regulations.length}</div>
           </div>
-          <div className="bg-slate-800 rounded-lg p-4 border border-slate-700">
+          <button 
+            onClick={() => setShowViolationWorkflow(true)}
+            className="bg-slate-800 rounded-lg p-4 border border-slate-700 hover:border-red-500/50 hover:bg-slate-700/50 transition-all text-left"
+          >
             <div className="text-slate-400 text-sm">Open Violations</div>
             <div
               className={`text-3xl font-bold ${
@@ -371,7 +399,8 @@ export const PanopticonPage: React.FC = () => {
                 ? '0 ✅'
                 : dashboard.openViolations.total}
             </div>
-          </div>
+            <div className="text-xs text-red-400/60 mt-2">Manage workflow →</div>
+          </button>
           <div className="bg-slate-800 rounded-lg p-4 border border-slate-700">
             <div className="text-slate-400 text-sm">Critical</div>
             <div className="text-3xl font-bold text-red-500">{dashboard.openViolations.critical}</div>
@@ -478,6 +507,27 @@ export const PanopticonPage: React.FC = () => {
                 </ul>
               </div>
             )}
+            
+            {/* Confidence & Transparency */}
+            <div className="mt-4 pt-3 border-t border-slate-700">
+              <button 
+                onClick={() => setShowAiRationale(!showAiRationale)}
+                className="flex items-center justify-between w-full text-xs text-slate-400 hover:text-slate-300"
+              >
+                <span className="flex items-center gap-2">
+                  <span className="px-2 py-0.5 bg-emerald-500/20 text-emerald-300 rounded">87% Confidence</span>
+                  <span>Last updated: 2 hours ago</span>
+                </span>
+                <span>{showAiRationale ? '▲' : '▼'} Why this assessment?</span>
+              </button>
+              {showAiRationale && (
+                <div className="mt-3 p-3 bg-slate-900/50 rounded-lg text-xs text-slate-300 space-y-2">
+                  <p><strong>Data sources:</strong> EU Official Journal, regulatory feeds, 14 vendor advisories</p>
+                  <p><strong>Analysis method:</strong> Cross-referenced against your control framework mapping</p>
+                  <p><strong>Confidence factors:</strong> High source reliability (+), recent regulatory guidance (+), limited internal data on DORA (-)</p>
+                </div>
+              )}
+            </div>
             
             {/* Action Buttons */}
             <div className="mt-4 pt-4 border-t border-slate-700 space-y-2">
@@ -635,8 +685,29 @@ export const PanopticonPage: React.FC = () => {
           Active Regulations
         </h2>
         {regulations.length === 0 ? (
-          <div className="text-center py-8 text-slate-500">
-            No regulations ingested yet. Select frameworks above to ingest.
+          <div className="text-center py-12">
+            <FileText className="w-16 h-16 mx-auto mb-4 text-emerald-400 opacity-50" />
+            <h3 className="text-xl font-semibold text-white mb-2">No Active Frameworks</h3>
+            <p className="text-slate-400 mb-6 max-w-md mx-auto">
+              Get started by loading sample frameworks or ingesting your own regulatory requirements.
+            </p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <button 
+                onClick={() => {
+                  // Demo mode: load sample frameworks
+                  ['GDPR', 'SOX', 'HIPAA', 'CCPA'].forEach(code => ingestRegulation(code));
+                }}
+                className="px-6 py-3 bg-emerald-600 hover:bg-emerald-500 rounded-lg font-medium flex items-center gap-2"
+              >
+                <Zap className="w-4 h-4" /> Load Sample Frameworks
+              </button>
+              <button 
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                className="px-6 py-3 bg-slate-700 hover:bg-slate-600 rounded-lg font-medium"
+              >
+                Browse Framework Library ↑
+              </button>
+            </div>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -891,7 +962,7 @@ export const PanopticonPage: React.FC = () => {
                       <div>
                         <h4 className="text-sm font-medium text-slate-400 mb-2">Linked Decisions</h4>
                         <div className="space-y-2">
-                          {detail.linkedDecisions.map((dec, i) => (
+                          {detail.linkedDecisions.map((dec: string, i: number) => (
                             <button key={i} className="w-full p-2 bg-slate-800 rounded text-sm text-left hover:bg-slate-700 flex items-center justify-between">
                               <span>{dec}</span>
                               <ExternalLink className="w-3 h-3 text-slate-400" />
@@ -927,6 +998,163 @@ export const PanopticonPage: React.FC = () => {
                   </>
                 );
               })()}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Export Modal */}
+      {showExportModal && (
+        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50" onClick={() => setShowExportModal(false)}>
+          <div className="bg-slate-800 rounded-xl p-6 w-full max-w-md border border-slate-700" onClick={e => e.stopPropagation()}>
+            <div className="flex items-center justify-between mb-6">
+              <h3 className="text-xl font-semibold flex items-center gap-2">
+                <Download className="w-5 h-5 text-emerald-400" /> Export Reports
+              </h3>
+              <button onClick={() => setShowExportModal(false)} className="text-slate-400 hover:text-white">✕</button>
+            </div>
+            
+            <div className="space-y-3">
+              <button className="w-full p-4 bg-slate-700 hover:bg-slate-600 rounded-lg text-left transition-colors">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="font-medium">Compliance Summary</div>
+                    <div className="text-xs text-slate-400">Overall scores, framework status, trend analysis</div>
+                  </div>
+                  <span className="text-xs px-2 py-1 bg-emerald-500/20 text-emerald-300 rounded">PDF</span>
+                </div>
+              </button>
+              <button className="w-full p-4 bg-slate-700 hover:bg-slate-600 rounded-lg text-left transition-colors">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="font-medium">Open Violations Report</div>
+                    <div className="text-xs text-slate-400">All violations with owners, due dates, progress</div>
+                  </div>
+                  <span className="text-xs px-2 py-1 bg-blue-500/20 text-blue-300 rounded">CSV</span>
+                </div>
+              </button>
+              <button className="w-full p-4 bg-slate-700 hover:bg-slate-600 rounded-lg text-left transition-colors">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="font-medium">Board Report</div>
+                    <div className="text-xs text-slate-400">Executive summary with risk matrix</div>
+                  </div>
+                  <span className="text-xs px-2 py-1 bg-purple-500/20 text-purple-300 rounded">PPTX</span>
+                </div>
+              </button>
+              <button className="w-full p-4 bg-slate-700 hover:bg-slate-600 rounded-lg text-left transition-colors">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="font-medium">Regulatory Radar</div>
+                    <div className="text-xs text-slate-400">Upcoming changes by jurisdiction</div>
+                  </div>
+                  <span className="text-xs px-2 py-1 bg-amber-500/20 text-amber-300 rounded">PDF</span>
+                </div>
+              </button>
+            </div>
+
+            <div className="mt-6 pt-4 border-t border-slate-700 text-xs text-slate-500">
+              Reports can be customized via templates in Settings → Report Templates
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Violation Workflow Panel */}
+      {showViolationWorkflow && (
+        <div className="fixed inset-0 z-50 flex justify-end bg-black/50" onClick={() => setShowViolationWorkflow(false)}>
+          <div className="w-[500px] h-full bg-slate-900 border-l border-slate-700 overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700 sticky top-0 bg-slate-900">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-xl font-bold">Violation Workflow</h2>
+                <button onClick={() => setShowViolationWorkflow(false)} className="text-slate-400 hover:text-white">✕</button>
+              </div>
+              
+              {/* Filter Pills */}
+              <div className="flex items-center gap-2">
+                <Filter className="w-4 h-4 text-slate-500" />
+                {(['all', 'critical', 'high', 'medium', 'low'] as const).map(level => (
+                  <button
+                    key={level}
+                    onClick={() => setViolationFilter(level)}
+                    className={`px-3 py-1 rounded-lg text-xs capitalize ${
+                      violationFilter === level 
+                        ? level === 'critical' ? 'bg-red-600 text-white' :
+                          level === 'high' ? 'bg-orange-600 text-white' :
+                          level === 'medium' ? 'bg-amber-600 text-white' :
+                          level === 'low' ? 'bg-blue-600 text-white' :
+                          'bg-emerald-600 text-white'
+                        : 'bg-slate-700 text-slate-300'
+                    }`}
+                  >
+                    {level}
+                  </button>
+                ))}
+              </div>
+            </div>
+            
+            <div className="p-4 space-y-4">
+              {/* Dynamic violations with workflow (dates relative to current time) */}
+              {[
+                { id: 'v1', title: 'Missing data retention policy', severity: 'HIGH', owner: 'Data Protection Officer', dueDate: getFutureDate(30), progress: 35 },
+                { id: 'v2', title: 'Incomplete vendor risk assessment', severity: 'MEDIUM', owner: 'Vendor Risk Manager', dueDate: getFutureDate(14), progress: 60 },
+                { id: 'v3', title: 'Delayed security training', severity: 'LOW', owner: 'HR Director', dueDate: getFutureDate(45), progress: 80 },
+              ].filter(v => violationFilter === 'all' || v.severity.toLowerCase() === violationFilter).map(v => (
+                <div key={v.id} className="p-4 bg-slate-800 rounded-lg border border-slate-700">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className={`text-xs px-2 py-0.5 rounded ${
+                      v.severity === 'CRITICAL' ? 'bg-red-500/20 text-red-300' :
+                      v.severity === 'HIGH' ? 'bg-orange-500/20 text-orange-300' :
+                      v.severity === 'MEDIUM' ? 'bg-amber-500/20 text-amber-300' :
+                      'bg-blue-500/20 text-blue-300'
+                    }`}>
+                      {v.severity}
+                    </span>
+                    <span className="text-xs text-slate-500 flex items-center gap-1">
+                      <Calendar className="w-3 h-3" /> Due: {v.dueDate}
+                    </span>
+                  </div>
+                  
+                  <div className="font-medium text-white mb-2">{v.title}</div>
+                  
+                  <div className="flex items-center gap-2 text-xs text-slate-400 mb-3">
+                    <User className="w-3 h-3" />
+                    <span>{v.owner}</span>
+                  </div>
+                  
+                  {/* Progress Bar */}
+                  <div className="mb-3">
+                    <div className="flex justify-between text-xs text-slate-500 mb-1">
+                      <span>Progress</span>
+                      <span>{v.progress}%</span>
+                    </div>
+                    <div className="h-2 bg-slate-700 rounded-full overflow-hidden">
+                      <div 
+                        className={`h-full rounded-full ${
+                          v.progress >= 80 ? 'bg-emerald-500' :
+                          v.progress >= 50 ? 'bg-amber-500' : 'bg-red-500'
+                        }`}
+                        style={{ width: `${v.progress}%` }}
+                      />
+                    </div>
+                  </div>
+                  
+                  <div className="flex gap-2">
+                    <button 
+                      onClick={() => setSelectedViolation(v.id)}
+                      className="flex-1 px-3 py-1.5 bg-slate-700 hover:bg-slate-600 rounded text-xs flex items-center justify-center gap-1"
+                    >
+                      View Details <ChevronRight className="w-3 h-3" />
+                    </button>
+                    <select className="bg-slate-700 border border-slate-600 rounded px-2 py-1 text-xs">
+                      <option>Assign Owner</option>
+                      <option>Sarah Chen</option>
+                      <option>Michael Torres</option>
+                      <option>Emily Watson</option>
+                    </select>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

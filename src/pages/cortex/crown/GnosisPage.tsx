@@ -8,9 +8,10 @@ import { useState, useEffect, useCallback } from 'react';
 import {
   GraduationCap, BookOpen, Target, Users, TrendingUp, Award,
   ChevronRight, Play, CheckCircle, Clock, Brain, Zap, BarChart3,
-  AlertCircle, Star, BookMarked, Layers, RefreshCw
+  AlertCircle, Star, BookMarked, Layers, RefreshCw, Upload, FileText
 } from 'lucide-react';
 import { gnosisApi } from '../../../lib/api';
+import { sovereignApi, enterpriseApi } from '../../../lib/sovereignApi';
 
 interface DashboardData {
   userProfile: {
@@ -430,6 +431,90 @@ const GnosisPage = () => {
     return 'Novice';
   };
 
+  // RAG Document Upload Handler (Sovereign Stack Integration + Tika)
+  const handleDocumentUpload = async (file: File) => {
+    try {
+      const documentId = `doc-${Date.now()}`;
+      
+      // Read file as base64 for Tika extraction
+      const arrayBuffer = await file.arrayBuffer();
+      const base64Content = btoa(
+        new Uint8Array(arrayBuffer).reduce((data, byte) => data + String.fromCharCode(byte), '')
+      );
+      
+      // Use Apache Tika for intelligent text extraction (PDF, DOCX, PPTX, etc.)
+      let extractedText = '';
+      let metadata: any = {};
+      
+      const tikaResult = await enterpriseApi.extractDocument(
+        base64Content,
+        file.type,
+        file.name,
+        false // useOCR - set true for scanned documents
+      );
+      
+      if (tikaResult) {
+        extractedText = tikaResult.text;
+        metadata = tikaResult.metadata;
+        console.log('[Gnosis] Tika extracted:', tikaResult.wordCount, 'words from', file.name);
+      } else {
+        // Fallback to raw text for plain text files
+        extractedText = await file.text();
+        console.log('[Gnosis] Using raw text extraction for:', file.name);
+      }
+      
+      // Upload original file to MinIO
+      await sovereignApi.storage.uploadDocument(
+        file.name,
+        base64Content,
+        file.type,
+        { uploadedBy: 'gnosis', type: 'learning-material', ...metadata }
+      );
+      console.log('[Gnosis] Document uploaded to MinIO:', file.name);
+      
+      // Store extracted text embeddings in pgvector for RAG
+      const chunks = await sovereignApi.vector.storeDocument(
+        documentId,
+        extractedText,
+        { 
+          fileName: file.name, 
+          type: 'learning-material',
+          extractedBy: 'tika',
+          wordCount: metadata.wordCount,
+          ...metadata
+        }
+      );
+      console.log('[Gnosis] Document indexed for RAG:', chunks, 'chunks');
+      
+      // Queue for additional processing if needed
+      await sovereignApi.queue.queueDocumentProcessing({
+        documentId,
+        fileName: file.name,
+        fileType: file.type,
+        storageUrl: `minio://cendia-documents/${file.name}`,
+        extractText: false, // Already extracted via Tika
+        generateEmbeddings: true,
+      });
+      
+      return { success: true, documentId, chunks, wordCount: metadata.wordCount };
+    } catch (error) {
+      console.error('[Gnosis] Document upload failed:', error);
+      return { success: false, error };
+    }
+  };
+
+  // RAG Search Handler
+  const searchKnowledgeBase = async (query: string) => {
+    try {
+      const results = await sovereignApi.vector.searchSimilar(query, 5, 0.7);
+      console.log('[Gnosis] RAG search results:', results.length);
+      return results;
+    } catch (error) {
+      console.error('[Gnosis] RAG search failed:', error);
+      return [];
+    }
+  };
+
   if (loading) {
     return (
       <div className="flex items-center justify-center h-screen bg-neutral-950">
@@ -468,6 +553,29 @@ const GnosisPage = () => {
         <p className="text-neutral-500 mt-2 max-w-2xl">
           The Council decides tomorrow's strategy tonight. Gnosis teaches every human how to execute it by morning.
         </p>
+
+        {/* Sovereign Storage Integration */}
+        <div className="mt-4 flex items-center gap-3">
+          <a
+            href="http://localhost:9001"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-3 py-1.5 bg-blue-500/20 border border-blue-500/30 rounded-lg hover:bg-blue-500/30 transition-colors"
+          >
+            <span className="text-blue-400 text-xs font-medium">📦 MinIO Document Storage</span>
+          </a>
+          <div className="flex items-center gap-2 px-3 py-1.5 bg-purple-500/20 border border-purple-500/30 rounded-lg">
+            <span className="text-purple-400 text-xs font-medium">🧠 pgvector RAG Search</span>
+          </div>
+          <a
+            href="http://localhost:7700"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-3 py-1.5 bg-amber-500/20 border border-amber-500/30 rounded-lg hover:bg-amber-500/30 transition-colors"
+          >
+            <span className="text-amber-400 text-xs font-medium">🔍 Meilisearch</span>
+          </a>
+        </div>
       </div>
 
       {/* Decision Readiness Banner */}

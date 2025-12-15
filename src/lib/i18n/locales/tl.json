@@ -487,6 +487,41 @@
         "features": ["Anonymous o named dissent filing", "Mandatory acknowledgment sa loob ng 72 oras", "Immutable ledger recording", "Retaliation detection at protection", "Dissent accuracy tracking"],
         "useCases": ["Siguruhin na naririnig ang mga minority voices", "Gumawa ng organizational memory", "Protektahan ang mga whistleblower", "Pagbutihin ang decision quality"],
         "guidance": "Mag-file ng dissent laban sa anumang desisyon na hindi ka sang-ayon. Ang iyong objection ay permanently nire-record, acknowledged, at tina-track para sa accuracy sa paglipas ng panahon."
+      },
+      "connectors": {
+        "title": "Enterprise Data Connectors",
+        "summary": "156+ pre-built connectors sa 11 industry verticals. Kumonekta sa government, financial, healthcare, at global data sources.",
+        "features": ["Government: NOAA, FAA, FEMA, SEC, Census, USGS, EIA", "Financial: Bloomberg, SWIFT, FIX Protocol, Refinitiv", "Healthcare: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO", "Supply Chain: CBP, Maersk, Port APIs", "Energy: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool", "Avionics: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"],
+        "useCases": ["Real-time weather data integration", "Financial market data at regulatory feeds", "Healthcare interoperability at clinical data", "Supply chain visibility", "Power grid at energy market analytics", "Aviation safety at flight operations"],
+        "guidance": "Mag-browse ng connectors ayon sa industry o maghanap ng specific sources. Bawat connector ay may kasamang authentication, rate limiting, at compliance mapping."
+      },
+      "evidence": {
+        "title": "Evidence Infrastructure",
+        "summary": "Immutable evidence ledger na may blockchain-style hash chaining, TPM digital signatures, at Merkle tree proofs.",
+        "features": ["Cryptographically signed ledger entries", "Build at execution identity capture", "TPM hardware attestation support", "Merkle tree integrity verification", "Legal evidence bundle generation"],
+        "useCases": ["Audit-ready test evidence", "Security review documentation", "SOC 2 / ISO 27001 / GDPR evidence", "Tamper-proof execution records"],
+        "guidance": "Lahat ng test executions ay automatically logged na may cryptographic signatures. Gumawa ng legal evidence bundles sa isang click."
+      },
+      "sovereignArch": {
+        "title": "Sovereign Architecture Patterns",
+        "summary": "11 enterprise patterns para sa air-gapped, zero-trust, at fully sovereign deployments.",
+        "features": ["Data Diode: One-way ingest na may quarantine", "Local RLHF: Zero-cloud reinforcement learning", "Decision DNA: One-click audit export", "Shadow Council: Sandbox mode", "QR Air-Gap Bridge: Zero-media transfer", "TPM Attestation: Hardware-signed decisions"],
+        "useCases": ["Air-gapped secure facility deployments", "Defense at intelligence applications", "Regulated industry compliance", "Zero-trust enterprise architecture"],
+        "guidance": "Ang Sovereign Architecture patterns ay nag-e-enable ng deployment sa pinaka-restrictive environments. Bawat pattern ay pwedeng gamitin independently o combined."
+      },
+      "cascade": {
+        "title": "CendiaCascade™ - Butterfly Effect",
+        "summary": "Pangalawa at pangatlong order consequence analysis. Hulaan ang unintended consequences bago maging incidents.",
+        "features": ["Multi-lens analysis (CFO, COO, CISO, People, Ethics)", "Butterfly effect detection (nakakagulat na 3rd+ order impacts)", "Auto-generated mitigations (prevent, detect, respond)", "Guardrail proposals (canary, tripwire, circuit breaker, rollback)", "Timeline visualization (T+0, T+30, T+90, T+1Year)", "Audit trail na may SHA-256 hash"],
+        "useCases": ["Analyze staffing changes bago mag-implement", "Hulaan ang vendor replacement consequences", "Model policy changes sa organizational graph", "Detect feedback loops"],
+        "guidance": "I-load ang iyong organizational graph, mag-propose ng change at hayaan ang CendiaCascade na trace ang consequences. Ang competitors mo ay naglalaro ng chess na isang move ahead — CendiaCascade ay nag-simulate ng 5 moves ahead."
+      },
+      "adapters": {
+        "title": "Sovereign Adapters - Universal Connectors",
+        "summary": "5 universal adapters imbes na 156 vendor-specific connectors. Kami ang nagbibigay ng socket; ang client ang nagdadala ng plug.",
+        "features": ["File Watcher: Avionics, defense, file-based ingest", "Webhook Ingest: SaaS, financial gateway push events", "Database Adapter: ERP, supply chain SQL/ODBC", "FHIR Protocol: Healthcare standard", "FIX Protocol: Financial standard", "MQTT Protocol: IoT at energy grid"],
+        "useCases": ["Kumonekta sa anumang system via open standards", "Iwasan ang proprietary API licensing liabilities", "Suportahan ang air-gapped at regulated environments", "BYO-keys para sa regulated adapters"],
+        "guidance": "Pumili ng adapter type na tumutugma sa iyong integration pattern. Bawat adapter ay automatic na nag-a-apply ng risk tiers, evidence logging, at quota controls."
       }
     }
   },

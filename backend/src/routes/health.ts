@@ -11,6 +11,22 @@ const router = Router();
 router.use(devAuth);
 
 /**
+ * GET /api/v1/health
+ * Basic health check endpoint
+ */
+router.get('/', async (req: Request, res: Response) => {
+  res.json({
+    success: true,
+    data: {
+      status: 'healthy',
+      timestamp: new Date().toISOString(),
+      version: '1.0.0',
+      uptime: process.uptime(),
+    },
+  });
+});
+
+/**
  * GET /api/v1/health/score
  * Get overall organizational health score
  */

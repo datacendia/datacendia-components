@@ -463,6 +463,32 @@ export const BridgePage: React.FC = () => {
           </div>
         </div>
 
+        {/* Sovereign Data Pipeline Integration */}
+        <div className="mb-6 p-4 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-500/30 rounded-xl">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <span className="text-2xl">🔗</span>
+              <div>
+                <p className="text-white font-medium">Sovereign Data Pipelines</p>
+                <p className="text-cyan-400/70 text-xs">300+ enterprise connectors via Airbyte</p>
+              </div>
+            </div>
+            <div className="flex gap-2">
+              <a
+                href="http://localhost:5678"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-1.5 bg-purple-500/20 border border-purple-500/30 rounded-lg text-xs text-purple-400 hover:bg-purple-500/30 transition-colors"
+              >
+                n8n Workflows →
+              </a>
+              <div className="px-3 py-1.5 bg-cyan-500/20 border border-cyan-500/30 rounded-lg text-xs text-cyan-400">
+                Airbyte (Optional)
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* ================================================================= */}
         {/* MAIN CONTENT GRID */}
         {/* ================================================================= */}

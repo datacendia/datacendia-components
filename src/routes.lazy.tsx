@@ -4,7 +4,7 @@
 // =============================================================================
 
 import React, { Suspense, lazy } from 'react';
-import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { createBrowserRouter, Navigate, useLocation } from 'react-router-dom';
 import { PageLoader } from './components/ui/PageLoader';
 
 // Helper for lazy loading with suspense
@@ -15,6 +15,11 @@ const lazyLoad = (importFn: () => Promise<{ default: React.ComponentType<any> }>
       <LazyComponent />
     </Suspense>
   );
+};
+
+const RedirectToCouncilWithQuery: React.FC = () => {
+  const location = useLocation();
+  return <Navigate to={`/cortex/council${location.search}`} replace />;
 };
 
 // =============================================================================
@@ -127,6 +132,9 @@ const UnionPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ de
 const LedgerPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.LedgerPage })));
 const ApotheosisPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.ApotheosisPage })));
 const DissentPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.DissentPage })));
+const CrisisManagementPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.CrisisManagementPage })));
+const AuditWorkflowPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.AuditWorkflowPage })));
+const TrainingPage = lazy(() => import('./pages/cortex/enterprise').then(m => ({ default: m.TrainingPage })));
 
 // Sovereign Tier Pages
 const CruciblePage = lazy(() => import('./pages/sovereign/CruciblePage').then(m => ({ default: m.CruciblePage })));
@@ -177,12 +185,32 @@ const RDLabPage = lazy(() => import('./pages/admin/RDLabPage').then(m => ({ defa
 const CorePage = lazy(() => import('./pages/admin/CorePage'));
 const ControlCenterPage = lazy(() => import('./pages/admin/ControlCenterPage').then(m => ({ default: m.ControlCenterPage })));
 const AdminAIPage = lazy(() => import('./pages/admin/AdminAIPage').then(m => ({ default: m.AdminAIPage })));
+const SovereignStackPage = lazy(() => import('./pages/admin/SovereignStackPage'));
 
 // Tools
 const ROICalculator = lazy(() => import('./pages/tools').then(m => ({ default: m.ROICalculator })));
 
 // Onboarding
 const OnboardingWizard = lazy(() => import('./pages/onboarding').then(m => ({ default: m.OnboardingWizard })));
+
+// Verticals
+const VerticalsHubPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.VerticalsHubPage })));
+const HealthcarePage = lazy(() => import('./pages/verticals').then(m => ({ default: m.HealthcarePage })));
+const FinancialServicesPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.FinancialServicesPage })));
+const GovernmentLegalPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.GovernmentLegalPage })));
+const InsurancePage = lazy(() => import('./pages/verticals').then(m => ({ default: m.InsurancePage })));
+const PharmaceuticalPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.PharmaceuticalPage })));
+const ManufacturingPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.ManufacturingPage })));
+const EnergyUtilitiesPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.EnergyUtilitiesPage })));
+const TechnologyVerticalPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.TechnologyPage })));
+const RetailHospitalityPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.RetailHospitalityPage })));
+const RealEstateConstructionPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.RealEstateConstructionPage })));
+const TransportationLogisticsPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.TransportationLogisticsPage })));
+const MediaEntertainmentPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.MediaEntertainmentPage })));
+const ProfessionalServicesPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.ProfessionalServicesPage })));
+const HigherEducationPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.HigherEducationPage })));
+const SportsPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.SportsPage })));
+const TelecommunicationsPage = lazy(() => import('./pages/verticals').then(m => ({ default: m.TelecommunicationsPage })));
 
 // Apex Package
 const CendiaForecastPage = lazy(() => import('./pages/apex').then(m => ({ default: m.CendiaForecastPage })));
@@ -438,6 +466,84 @@ export const router = createBrowserRouter([
     element: <SuspenseWrapper><OnboardingWizard /></SuspenseWrapper>,
   },
 
+  // VERTICALS
+  {
+    path: '/verticals',
+    element: <SuspenseWrapper><VerticalsHubPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/healthcare',
+    element: <SuspenseWrapper><HealthcarePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/financial-services',
+    element: <SuspenseWrapper><FinancialServicesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/government-legal',
+    element: <SuspenseWrapper><GovernmentLegalPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/insurance',
+    element: <SuspenseWrapper><InsurancePage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/pharmaceutical',
+    element: <SuspenseWrapper><PharmaceuticalPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/manufacturing',
+    element: <SuspenseWrapper><ManufacturingPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/energy-utilities',
+    element: <SuspenseWrapper><EnergyUtilitiesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/technology',
+    element: <SuspenseWrapper><TechnologyVerticalPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/retail-hospitality',
+    element: <SuspenseWrapper><RetailHospitalityPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/real-estate',
+    element: <SuspenseWrapper><RealEstateConstructionPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/transportation',
+    element: <SuspenseWrapper><TransportationLogisticsPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/media-entertainment',
+    element: <SuspenseWrapper><MediaEntertainmentPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/professional-services',
+    element: <SuspenseWrapper><ProfessionalServicesPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/higher-education',
+    element: <SuspenseWrapper><HigherEducationPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/sports',
+    element: <SuspenseWrapper><SportsPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/verticals/telecommunications',
+    element: <SuspenseWrapper><TelecommunicationsPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/industries',
+    element: <SuspenseWrapper><VerticalsHubPage /></SuspenseWrapper>,
+  },
+  {
+    path: '/solutions',
+    element: <SuspenseWrapper><VerticalsHubPage /></SuspenseWrapper>,
+  },
+
   // APEX PACKAGE
   {
     path: '/apex/forecast',
@@ -510,6 +616,7 @@ export const router = createBrowserRouter([
       
       // Intelligence
       { path: 'intelligence', element: <Navigate to="/cortex/intelligence/pre-mortem" replace /> },
+      { path: 'intelligence/council', element: <RedirectToCouncilWithQuery /> },
       { path: 'intelligence/pre-mortem', element: <SuspenseWrapper><PreMortemPage /></SuspenseWrapper> },
       { path: 'intelligence/ghost-board', element: <SuspenseWrapper><GhostBoardPage /></SuspenseWrapper> },
       { path: 'intelligence/decision-debt', element: <SuspenseWrapper><DecisionDebtPage /></SuspenseWrapper> },
@@ -533,6 +640,9 @@ export const router = createBrowserRouter([
       { path: 'enterprise/ledger', element: <SuspenseWrapper><LedgerPage /></SuspenseWrapper> },
       { path: 'enterprise/apotheosis', element: <SuspenseWrapper><ApotheosisPage /></SuspenseWrapper> },
       { path: 'enterprise/dissent', element: <SuspenseWrapper><DissentPage /></SuspenseWrapper> },
+      { path: 'enterprise/crisis', element: <SuspenseWrapper><CrisisManagementPage /></SuspenseWrapper> },
+      { path: 'enterprise/audit-workflow', element: <SuspenseWrapper><AuditWorkflowPage /></SuspenseWrapper> },
+      { path: 'enterprise/training', element: <SuspenseWrapper><TrainingPage /></SuspenseWrapper> },
       
       // Sovereign
       { path: 'sovereign/crucible', element: <SuspenseWrapper><CruciblePage /></SuspenseWrapper> },
@@ -609,6 +719,7 @@ export const router = createBrowserRouter([
       { path: 'core', element: <SuspenseWrapper><CorePage /></SuspenseWrapper> },
       { path: 'control-center', element: <SuspenseWrapper><ControlCenterPage /></SuspenseWrapper> },
       { path: 'ai', element: <SuspenseWrapper><AdminAIPage /></SuspenseWrapper> },
+      { path: 'sovereign-stack', element: <SuspenseWrapper><SovereignStackPage /></SuspenseWrapper> },
     ],
   },
 

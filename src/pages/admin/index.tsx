@@ -18,6 +18,7 @@ export const AdminLayout: React.FC = () => {
 
   const adminNav = [
     { id: 'dashboard', label: 'Dashboard', icon: '📊', path: '/admin' },
+    { id: 'sovereign-stack', label: 'Sovereign Stack', icon: '🖥️', path: '/admin/sovereign-stack' },
     { id: 'control-center', label: 'Control Center', icon: '🎛️', path: '/admin/control-center' },
     { id: 'ai', label: 'Admin AI', icon: '🤖', path: '/admin/ai' },
     { id: 'tenants', label: 'Tenants', icon: '🏢', path: '/admin/tenants' },
@@ -390,7 +391,11 @@ export const LicensesPage: React.FC = () => {
                 <p className="text-neutral-400 mt-1">
                   <span className="capitalize">{license.type}</span> • Expires {formatDate(license.expiresAt)}
                 </p>
-                <p className="text-sm text-neutral-500 mt-2">{license.features}</p>
+                <p className="text-sm text-neutral-500 mt-2">
+                  {license.features && typeof license.features === 'object' 
+                    ? `${(license.features as { agents?: number; maxUsers?: number; maxDeliberationsPerMonth?: number }).agents || 0} agents • ${(license.features as { agents?: number; maxUsers?: number; maxDeliberationsPerMonth?: number }).maxUsers || 0} users • ${(license.features as { agents?: number; maxUsers?: number; maxDeliberationsPerMonth?: number }).maxDeliberationsPerMonth || 0} deliberations/mo`
+                    : String(license.features || '')}
+                </p>
               </div>
               <div className="flex gap-2">
                 <button 

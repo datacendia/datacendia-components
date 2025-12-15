@@ -24,9 +24,14 @@ networks:
 volumes:
   postgres_data:
   druid_data:
+  clickhouse_data:
+  clickhouse_logs:
   minio_data:
   redis_data:
   grafana_data:
+  tempo_data:
+  step_ca_data:
+  vaultwarden_data:
   prometheus_data:
   loki_data:
   n8n_data:
@@ -74,7 +79,7 @@ services:
     volumes:
       - redis_data:/data
     ports:
-      - "6379:6379"
+      - "6380:6379"  # Using 6380 externally since 6379 may be in use
     networks:
       - cendia-network
     healthcheck:
@@ -161,6 +166,40 @@ services:
       resources:
         limits:
           memory: 2G
+
+  # ===========================================================================
+  # CLICKHOUSE (Fast Analytics Alternative)
+  # ===========================================================================
+  # Simpler operations, full SQL, lower resource footprint
+  # Use for: Ad-hoc queries, standard SQL analytics, lower-volume scenarios
+  # AnalyticsRouter automatically selects Druid vs ClickHouse per query
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: cendia-clickhouse
+    restart: unless-stopped
+    environment:
+      CLICKHOUSE_DB: cendia
+      CLICKHOUSE_USER: cendia
+      CLICKHOUSE_PASSWORD: cendia_sovereign_2025
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+      - clickhouse_logs:/var/log/clickhouse-server
+    ports:
+      - "8123:8123"   # HTTP interface
+      - "9009:9000"   # Native TCP (using 9009 to avoid MinIO conflict)
+    networks:
+      - cendia-network
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8123/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          memory: 4G
 
   # ===========================================================================
   # LAYER 0: MINIO (Sovereign Object Storage)
@@ -304,17 +343,17 @@ services:
     container_name: cendia-infisical
     restart: unless-stopped
     environment:
-      - ENCRYPTION_KEY=${INFISICAL_ENCRYPTION_KEY:-your-32-char-encryption-key-here}
-      - JWT_SIGNUP_SECRET=${INFISICAL_JWT_SECRET:-your-jwt-secret-here}
-      - JWT_REFRESH_SECRET=${INFISICAL_REFRESH_SECRET:-your-refresh-secret}
-      - JWT_AUTH_SECRET=${INFISICAL_AUTH_SECRET:-your-auth-secret-here}
-      - MONGO_URL=mongodb://mongo:27017/infisical
+      - ENCRYPTION_KEY=a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6
+      - AUTH_SECRET=${INFISICAL_AUTH_SECRET:-cendia_auth_secret_sovereign}
+      - DB_CONNECTION_URI=postgres://cendia:cendia_sovereign_2025@postgres:5432/infisical
       - REDIS_URL=redis://redis:6379
       - SITE_URL=http://localhost:8090
+      - SMTP_HOST=
+      - TELEMETRY_ENABLED=false
     ports:
       - "8090:8080"
     depends_on:
-      - mongo
+      - postgres
       - redis
     networks:
       - cendia-network
@@ -329,29 +368,135 @@ services:
       - cendia-network
 
   # ===========================================================================
-  # DATA PIPELINES: Airbyte
+  # VAULTWARDEN - Sovereign Credential Manager (CendiaKey™)
   # ===========================================================================
-  # Powers: CendiaBridge™ 300+ enterprise connectors
+  # Lightweight Rust-based Bitwarden-compatible server
+  # Why Vaultwarden over official Bitwarden:
+  #   - Single container (vs 10-12 for official)
+  #   - ~100MB RAM (vs 2GB+ for official)
+  #   - All enterprise features unlocked (SSO, YubiKey, Organizations)
+  #   - No license server phone-home = truly air-gapped sovereign
+  #   - Rust-based = fits "Hard Tech" narrative
 
-  airbyte-server:
-    image: airbyte/server:latest
-    container_name: cendia-airbyte
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: cendiakey-vault
     restart: unless-stopped
     environment:
-      - DATABASE_USER=${POSTGRES_USER:-cendia}
-      - DATABASE_PASSWORD=${POSTGRES_PASSWORD:-cendia_sovereign_2025}
-      - DATABASE_URL=jdbc:postgresql://postgres:5432/airbyte
-      - WORKSPACE_ROOT=/tmp/workspace
-      - CONFIG_ROOT=/data/config
-      - TRACKING_STRATEGY=logging
+      WEBSOCKET_ENABLED: "true"          # Live sync across devices
+      SIGNUPS_ALLOWED: "false"           # Strict security - admin creates users
+      INVITATIONS_ALLOWED: "true"        # Allow org invites
+      ADMIN_TOKEN: ${CENDIAKEY_ADMIN_TOKEN:-}  # Set for admin panel access
+      DOMAIN: ${CENDIAKEY_DOMAIN:-http://localhost:8005}
+      DATABASE_URL: /data/db.sqlite3
+      ROCKET_PORT: 80
+      LOG_LEVEL: info
+      EXTENDED_LOGGING: "true"
+      SHOW_PASSWORD_HINT: "false"        # Security hardening
+      PASSWORD_ITERATIONS: 600000        # OWASP recommended
+      DISABLE_ADMIN_TOKEN: "false"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /tmp/airbyte_local:/tmp/airbyte_local
+      - vaultwarden_data:/data
     ports:
-      - "8001:8001"
-      - "8000:8000"
-    depends_on:
-      - postgres
+      - "8005:80"      # Web vault
+      - "3012:3012"    # WebSocket notifications
+    networks:
+      - cendia-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/alive"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ===========================================================================
+  # DATA PIPELINES: Airbyte (Optional - requires separate install)
+  # ===========================================================================
+  # Airbyte requires its own docker-compose setup. See: https://docs.airbyte.com/deploying-airbyte/local-deployment
+  # For now, this is commented out. Run Airbyte separately if needed.
+  
+  # ===========================================================================
+  # APACHE TIKA - Universal Document Extraction
+  # ===========================================================================
+  # Powers: CendiaGnosis™ document ingestion (PDF, DOCX, PPTX, XLSX, etc.)
+  # Extracts text and metadata from any enterprise document format
+
+  tika:
+    image: apache/tika:latest
+    container_name: cendia-tika
+    restart: unless-stopped
+    ports:
+      - "9998:9998"
+    networks:
+      - cendia-network
+    healthcheck:
+      test: ["CMD-SHELL", "echo -e 'GET /tika HTTP/1.0\\r\\n\\r\\n' | timeout 5 bash -c 'cat > /dev/tcp/localhost/9998' 2>/dev/null && exit 0 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  # ===========================================================================
+  # TEMPO - Distributed Tracing (Grafana)
+  # ===========================================================================
+  # Powers: Full request tracing across all services
+  # Integrates with Grafana for visualization
+
+  tempo:
+    image: grafana/tempo:latest
+    container_name: cendia-tempo
+    restart: unless-stopped
+    command: ["-config.file=/etc/tempo.yaml"]
+    volumes:
+      - ./config/tempo/tempo.yaml:/etc/tempo.yaml
+      - tempo_data:/var/tempo
+    ports:
+      - "3200:3200"   # Tempo API
+      - "4317:4317"   # OTLP gRPC
+      - "4318:4318"   # OTLP HTTP
+    networks:
+      - cendia-network
+
+  # ===========================================================================
+  # FALCO - Runtime Security Monitoring
+  # ===========================================================================
+  # Detects anomalous container behavior at runtime
+  # Pairs with Wazuh for complete security coverage
+
+  falco:
+    image: falcosecurity/falco-no-driver:latest
+    container_name: cendia-falco
+    restart: unless-stopped
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./config/falco:/etc/falco
+    ports:
+      - "8765:8765"   # Falco API
+    networks:
+      - cendia-network
+
+  # ===========================================================================
+  # STEP-CA - Internal PKI for Zero Trust
+  # ===========================================================================
+  # Issues internal certs for mTLS between services
+  # Enables zero-trust architecture
+
+  step-ca:
+    image: smallstep/step-ca:latest
+    container_name: cendia-step-ca
+    restart: unless-stopped
+    environment:
+      DOCKER_STEPCA_INIT_NAME: "Cendia CA"
+      DOCKER_STEPCA_INIT_DNS_NAMES: "localhost,step-ca"
+      DOCKER_STEPCA_INIT_REMOTE_MANAGEMENT: "true"
+    volumes:
+      - step_ca_data:/home/step
+    ports:
+      - "9002:9000"   # CA API (using 9002 to avoid MinIO conflict)
     networks:
       - cendia-network
 
@@ -384,12 +529,13 @@ services:
     container_name: cendia-unleash
     restart: unless-stopped
     environment:
-      DATABASE_URL: postgres://cendia:cendia_sovereign_2025@postgres:5432/unleash
+      DATABASE_URL: "postgres://cendia:cendia_sovereign_2025@postgres:5432/unleash"
       DATABASE_SSL: "false"
       INIT_ADMIN_API_TOKENS: "*:*.cendia-admin-token"
     ports:
       - "4242:4242"
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
     networks:
       - cendia-network

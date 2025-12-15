@@ -130,6 +130,9 @@ import {
   LedgerPage,
 } from './pages/cortex/enterprise';
 
+// Decision Consequence Engineering
+import CascadePage from './pages/cortex/enterprise/CascadePage';
+
 // Sovereign Tier Pages
 import { CruciblePage } from './pages/sovereign/CruciblePage';
 import { PanopticonPage } from './pages/sovereign/PanopticonPage';
@@ -549,6 +552,12 @@ export const router = createBrowserRouter([
       {
         path: 'enterprise/ledger',
         element: <LedgerPage />,
+      },
+
+      // Decision Consequence Engineering
+      {
+        path: 'enterprise/cascade',
+        element: <CascadePage />,
       },
 
       // Sovereign Tier (Premium Enterprise)

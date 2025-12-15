@@ -9,6 +9,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { cn, formatRelativeTime } from '../../../../lib/utils';
 import { councilApi } from '../../../lib/api';
 import { ollamaService, type DomainAgent } from '../../../lib/ollama';
+import { sovereignApi, enterpriseApi, vaultApi } from '../../../lib/sovereignApi';
 import { COUNCIL_MODES, MODE_CATEGORIES, CORE_MODES, isCoreMode, type CouncilMode } from '../../../data/councilModes';
 import { useLanguage } from '@/contexts/LanguageContext';
 import PremiumFeaturesModal from '../../../components/premium/PremiumFeaturesModal';
@@ -703,6 +704,18 @@ export const CouncilPage: React.FC = () => {
   const [selectedMode, setSelectedMode] = useState<string>('war-room');
   const [showModesLibrary, setShowModesLibrary] = useState(false);
   
+  // Document attachments for deliberation
+  const [attachedFiles, setAttachedFiles] = useState<File[]>([]);
+  const [extractedContent, setExtractedContent] = useState<string>('');
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  
+  // Drop to Deliberate - Drag & Drop state
+  const [isDragging, setIsDragging] = useState(false);
+  const [droppedFile, setDroppedFile] = useState<File | null>(null);
+  const [agentActivations, setAgentActivations] = useState<Record<string, { status: string; color: string }>>({});
+  const [isProcessingDrop, setIsProcessingDrop] = useState(false);
+  const dropZoneRef = useRef<HTMLDivElement>(null);
+  
   // Custom Agent Creator
   const [showAgentCreator, setShowAgentCreator] = useState(false);
   const [editingAgent, setEditingAgent] = useState<Agent | null>(null);
@@ -710,6 +723,31 @@ export const CouncilPage: React.FC = () => {
   // Premium Features Modal & Hook
   const [showPremiumModal, setShowPremiumModal] = useState(false);
   const premium = usePremiumFeatures();
+  
+  // Policy-based permissions (Casbin integration)
+  const [canVeto, setCanVeto] = useState(false);
+  const [canApprove, setCanApprove] = useState(false);
+  const [policyReason, setPolicyReason] = useState('');
+  
+  // Check user permissions on mount
+  useEffect(() => {
+    const checkPermissions = async () => {
+      try {
+        const [vetoResult, approveResult] = await Promise.all([
+          enterpriseApi.canVetoDecision('strategic'),
+          enterpriseApi.canApproveDecision('operational'),
+        ]);
+        setCanVeto(vetoResult.allowed);
+        setCanApprove(approveResult.allowed);
+        setPolicyReason(vetoResult.reason || approveResult.reason || '');
+      } catch (error) {
+        // Default to allowed if policy service unavailable (dev mode)
+        setCanVeto(true);
+        setCanApprove(true);
+      }
+    };
+    checkPermissions();
+  }, []);
   
   // Handle premium purchase (simulated - would integrate with Stripe in production)
   const handlePremiumPurchase = (itemId: string, type: 'feature' | 'bundle') => {
@@ -846,10 +884,188 @@ export const CouncilPage: React.FC = () => {
     setShowAgentCreator(true);
   };
   
+  // ==========================================================================
+  // DROP TO DELIBERATE - File Type Detection & Agent Auto-Wake
+  // ==========================================================================
+  
+  const detectFileTypeAndWakeAgents = (file: File) => {
+    const ext = file.name.split('.').pop()?.toLowerCase() || '';
+    const mimeType = file.type.toLowerCase();
+    
+    // Define which agents wake up for which file types
+    const activations: Record<string, { status: string; color: string }> = {};
+    
+    // Legal/Contract Documents (PDF, DOCX)
+    if (['pdf', 'docx', 'doc'].includes(ext) || mimeType.includes('pdf') || mimeType.includes('word')) {
+      activations['risk'] = { status: 'Analyzing Risk Clauses', color: '#F97316' };
+      activations['ciso'] = { status: 'Scanning Security Terms', color: '#EF4444' };
+      activations['cfo'] = { status: 'Reviewing Financial Terms', color: '#10B981' };
+      activations['chief'] = { status: 'Strategic Assessment', color: '#6366F1' };
+      // Auto-select Deal Room mode for contracts
+      setSelectedMode('deal-room');
+    }
+    
+    // Financial Data (CSV, XLSX, XLS)
+    if (['csv', 'xlsx', 'xls'].includes(ext) || mimeType.includes('spreadsheet') || mimeType.includes('csv')) {
+      activations['cfo'] = { status: 'Parsing Financial Data', color: '#10B981' };
+      activations['cdo'] = { status: 'Analyzing Data Structure', color: '#06B6D4' };
+      activations['cro'] = { status: 'Revenue Analysis', color: '#8B5CF6' };
+      // Auto-select Due Diligence mode for data
+      setSelectedMode('due-diligence');
+    }
+    
+    // Presentations (PPTX, PPT)
+    if (['pptx', 'ppt'].includes(ext) || mimeType.includes('presentation')) {
+      activations['cmo'] = { status: 'Reviewing Messaging', color: '#EC4899' };
+      activations['chief'] = { status: 'Strategic Alignment', color: '#6366F1' };
+      activations['coo'] = { status: 'Operational Feasibility', color: '#F59E0B' };
+    }
+    
+    // Code/Technical (JSON, MD, TXT)
+    if (['json', 'md', 'txt', 'js', 'ts', 'py'].includes(ext)) {
+      activations['cdo'] = { status: 'Technical Analysis', color: '#06B6D4' };
+      activations['ciso'] = { status: 'Security Review', color: '#EF4444' };
+      // Auto-select Innovation Lab mode for technical docs
+      setSelectedMode('innovation-lab');
+    }
+    
+    return activations;
+  };
+  
+  const handleFileDrop = async (file: File) => {
+    setIsProcessingDrop(true);
+    setDroppedFile(file);
+    
+    // Detect file type and wake relevant agents
+    const activations = detectFileTypeAndWakeAgents(file);
+    setAgentActivations(activations);
+    
+    // Auto-select the awakened agents
+    const agentIds = Object.keys(activations);
+    setSelectedAgents(prev => {
+      const newSelection = new Set([...prev, ...agentIds]);
+      return Array.from(newSelection);
+    });
+    
+    // Add to attached files
+    setAttachedFiles(prev => [...prev, file]);
+    
+    // Upload to CendiaVault (MinIO) - sovereign storage
+    let vaultDoc: any = null;
+    try {
+      vaultDoc = await vaultApi.uploadDocument(file, 'council-documents', {
+        uploadedBy: 'council-user',
+        deliberationType: selectedMode,
+        agentsActivated: agentIds,
+      });
+      console.log('[CendiaVault] Document stored:', vaultDoc?.path);
+    } catch (err) {
+      console.log('[CendiaVault] Upload deferred, continuing with local processing');
+    }
+    
+    // Extract text content using Tika
+    try {
+      const mimeType = file.type || 'application/octet-stream';
+      let result: any = null;
+
+      if (vaultDoc && typeof vaultDoc.id === 'string' && !vaultDoc.id.startsWith('local-')) {
+        result = await enterpriseApi.extractDocumentFromVault(vaultDoc.bucket, vaultDoc.path, mimeType, file.name);
+      } else if (file.size <= 5 * 1024 * 1024) {
+        const base64 = await new Promise<string>((resolve) => {
+          const reader = new FileReader();
+          reader.onloadend = () => {
+            const r = reader.result as string;
+            resolve(r.split(',')[1] || r);
+          };
+          reader.readAsDataURL(file);
+        });
+        result = await enterpriseApi.extractDocument(base64, mimeType, file.name);
+      }
+
+      if (result?.text) {
+        setExtractedContent(prev => 
+          prev + (prev ? '\n\n---\n\n' : '') + 
+          `[Document: ${file.name}]\n${result.text}`
+        );
+      }
+    } catch (err) {
+      console.log('Document extraction not available, file staged for deliberation');
+    }
+    
+    // Auto-switch to deliberation mode
+    setQueryMode('deliberation');
+    
+    // Clear activations after 3 seconds (agents stay selected)
+    setTimeout(() => {
+      setAgentActivations({});
+      setIsProcessingDrop(false);
+    }, 3000);
+  };
+  
+  // Drag event handlers
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(true);
+  };
+  
+  const handleDragLeave = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    // Only set dragging to false if we're leaving the drop zone entirely
+    if (dropZoneRef.current && !dropZoneRef.current.contains(e.relatedTarget as Node)) {
+      setIsDragging(false);
+    }
+  };
+  
+  const handleDrop = async (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+    
+    const files = Array.from(e.dataTransfer.files);
+    if (files.length > 0) {
+      // Process the first file (or could handle multiple)
+      await handleFileDrop(files[0]);
+    }
+  };
+  
   // State for streaming deliberation
   const [streamingDecision, setStreamingDecision] = useState<QueryResult | null>(null);
   const [currentStreamingAgent, setCurrentStreamingAgent] = useState<string | null>(null);
   const [currentPhase, setCurrentPhase] = useState<string>('');
+  
+  // C) Progressive disclosure - collapsible sections state
+  const [expandedSections, setExpandedSections] = useState<Record<string, Record<string, boolean>>>({});
+  
+  const toggleSection = (decisionId: string, section: string) => {
+    setExpandedSections(prev => ({
+      ...prev,
+      [decisionId]: {
+        ...prev[decisionId],
+        [section]: !prev[decisionId]?.[section]
+      }
+    }));
+  };
+  
+  const isSectionExpanded = (decisionId: string, section: string) => {
+    return expandedSections[decisionId]?.[section] ?? false;
+  };
+  
+  // D) Agent selection - lock roster for audit
+  const [isRosterLocked, setIsRosterLocked] = useState(false);
+  
+  // Get mode selection rationale for "Why these agents?" tooltip
+  const getModeRationale = (modeKey: string) => {
+    const rationales: Record<string, string> = {
+      'war-room': 'War Room mode auto-selects CFO, COO, and Risk agents for crisis response scenarios requiring financial, operational, and risk expertise.',
+      'deal-room': 'Deal Room mode selects Chief Strategy, CFO, and Legal agents for M&A and contract review requiring strategic, financial, and legal analysis.',
+      'board-prep': 'Board Prep mode includes Chief Strategy, CFO, and CMO for executive presentations requiring strategic narrative and financial accuracy.',
+      'risk-review': 'Risk Review mode prioritizes CISO, Risk, and COO agents for security and operational risk assessment.',
+      'strategy-session': 'Strategy Session selects Chief Strategy, CMO, and CDO agents for market analysis and strategic planning.',
+    };
+    return rationales[modeKey] || 'Agents selected based on current deliberation mode and query context.';
+  };
 
   const handleSubmit = async () => {
     if (!queryInput.trim()) {return;}
@@ -862,14 +1078,36 @@ export const CouncilPage: React.FC = () => {
     
     setIsProcessing(true);
     setError(null);
-    const questionAsked = queryInput;
+    
+    // Build question with document context if files are attached
+    let questionAsked = queryInput;
+    if (extractedContent && attachedFiles.length > 0) {
+      questionAsked = `${queryInput}\n\n--- ATTACHED DOCUMENTS FOR REVIEW ---\n${extractedContent}`;
+    }
+    
     setQueryInput('');
+    setAttachedFiles([]);
+    setExtractedContent('');
     
     try {
       if (queryMode === 'deliberation') {
         // Create initial streaming decision
         const decisionId = `decision-${Date.now()}`;
         const agentIds = selectedAgents.length > 0 ? selectedAgents : onlineAgents.map(a => a.id);
+
+        // Queue the deliberation job in the sovereign stack (BullMQ)
+        try {
+          await sovereignApi.queue.queueDeliberation({
+            sessionId: decisionId,
+            question: questionAsked,
+            agents: agentIds,
+            context: { mode: queryMode },
+            priority: 'normal',
+          });
+          console.log('[Council] Deliberation queued in sovereign stack:', decisionId);
+        } catch (queueError) {
+          console.warn('[Council] Queue service unavailable, proceeding with direct execution:', queueError);
+        }
         
         const initialDecision: QueryResult = {
           id: decisionId,
@@ -1045,6 +1283,19 @@ export const CouncilPage: React.FC = () => {
       console.error('Query error:', err);
     } finally {
       setIsProcessing(false);
+      
+      // Store decision context in vector DB for agent memory (async, non-blocking)
+      const latestDecision = recentDecisions[0];
+      if (latestDecision && latestDecision.response) {
+        sovereignApi.vector.storeDecisionContext({
+          decisionId: latestDecision.id,
+          title: latestDecision.query.slice(0, 100),
+          context: latestDecision.query,
+          outcome: latestDecision.response,
+          confidence: latestDecision.confidence || 0,
+          participants: latestDecision.agents?.map(a => a.name) || [],
+        }).catch(err => console.warn('[Council] Failed to store decision context:', err));
+      }
     }
   };
 
@@ -1394,6 +1645,175 @@ export const CouncilPage: React.FC = () => {
       </div>
 
       {/* ================================================================= */}
+      {/* DROP TO DELIBERATE - Central Council Table */}
+      {/* ================================================================= */}
+      <div
+        ref={dropZoneRef}
+        onDragOver={handleDragOver}
+        onDragLeave={handleDragLeave}
+        onDrop={handleDrop}
+        className={cn(
+          "relative mb-6 rounded-2xl border-2 border-dashed transition-all duration-300",
+          isDragging 
+            ? "border-amber-400 bg-gradient-to-br from-amber-900/30 to-orange-900/30 scale-[1.02] shadow-2xl shadow-amber-500/20" 
+            : droppedFile 
+              ? "border-emerald-500/50 bg-gradient-to-br from-emerald-900/20 to-teal-900/20"
+              : "border-neutral-600/30 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 hover:border-neutral-500/50"
+        )}
+      >
+        {/* Council Table Visual */}
+        <div className="p-6">
+          {/* Drop Zone Header */}
+          <div className="text-center mb-4">
+            <div className={cn(
+              "inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all",
+              isDragging 
+                ? "bg-amber-500/20 text-amber-300 animate-pulse"
+                : droppedFile
+                  ? "bg-emerald-500/20 text-emerald-300"
+                  : "bg-neutral-700/50 text-neutral-400"
+            )}>
+              {isDragging ? (
+                <>
+                  <span className="text-xl animate-bounce">📥</span>
+                  <span>Release to analyze with Council</span>
+                </>
+              ) : droppedFile ? (
+                <>
+                  <span className="text-xl">✅</span>
+                  <span>Document staged: {droppedFile.name}</span>
+                </>
+              ) : (
+                <>
+                  <span className="text-xl">📋</span>
+                  <span>Attach Evidence to Deliberation</span>
+                </>
+              )}
+            </div>
+          </div>
+          
+          {/* Circular Council Table with Agent Seats */}
+          <div className="relative mx-auto" style={{ width: '320px', height: '200px' }}>
+            {/* Center Table */}
+            <div className={cn(
+              "absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-20 rounded-full flex items-center justify-center transition-all duration-500",
+              isDragging 
+                ? "bg-gradient-to-br from-amber-600/40 to-orange-600/40 shadow-lg shadow-amber-500/30 scale-110"
+                : droppedFile
+                  ? "bg-gradient-to-br from-emerald-600/30 to-teal-600/30"
+                  : "bg-gradient-to-br from-neutral-700/40 to-neutral-800/40"
+            )}>
+              {isDragging ? (
+                <div className="text-center">
+                  <span className="text-3xl animate-bounce">📄</span>
+                  <div className="text-xs text-amber-300 font-medium mt-1">Drop Here</div>
+                </div>
+              ) : droppedFile ? (
+                <div className="text-center px-2 relative">
+                  <span className="text-2xl">📁</span>
+                  <div className="text-[10px] text-emerald-300 truncate max-w-[100px]">{droppedFile.name}</div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setDroppedFile(null);
+                      setAttachedFiles([]);
+                      setExtractedContent('');
+                    }}
+                    className="absolute -top-2 -right-2 w-5 h-5 bg-red-500 hover:bg-red-600 rounded-full text-white text-xs flex items-center justify-center transition-colors"
+                    title="Remove document"
+                  >
+                    ✕
+                  </button>
+                </div>
+              ) : (
+                <div className="text-center">
+                  <span className="text-2xl opacity-50">🪑</span>
+                  <div className="text-[10px] text-neutral-500">Council Table</div>
+                </div>
+              )}
+            </div>
+            
+            {/* Agent Seats Around Table */}
+            {agents.filter(a => ['chief', 'cfo', 'coo', 'ciso', 'risk', 'cdo'].includes(a.code)).slice(0, 6).map((agent, idx) => {
+              const angle = (idx * 60 - 90) * (Math.PI / 180);
+              const radius = 90;
+              const x = Math.cos(angle) * radius + 160;
+              const y = Math.sin(angle) * radius + 100;
+              const activation = agentActivations[agent.code];
+              
+              return (
+                <div
+                  key={agent.id}
+                  className={cn(
+                    "absolute transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500",
+                    activation && "scale-110 z-10"
+                  )}
+                  style={{ left: x, top: y }}
+                >
+                  <div className={cn(
+                    "relative w-12 h-12 rounded-full flex items-center justify-center text-lg border-2 transition-all duration-300",
+                    activation 
+                      ? "shadow-lg animate-pulse" 
+                      : selectedAgents.includes(agent.id)
+                        ? "opacity-100"
+                        : "opacity-50"
+                  )}
+                  style={{ 
+                    backgroundColor: activation ? `${activation.color}30` : `${agent.color}20`,
+                    borderColor: activation ? activation.color : agent.color,
+                    boxShadow: activation ? `0 0 20px ${activation.color}50` : undefined
+                  }}
+                  >
+                    {agent.avatar}
+                    
+                    {/* Activation Status Badge */}
+                    {activation && (
+                      <div 
+                        className="absolute -bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap px-2 py-0.5 rounded text-[9px] font-medium animate-fade-in"
+                        style={{ backgroundColor: `${activation.color}20`, color: activation.color }}
+                      >
+                        {activation.status}
+                      </div>
+                    )}
+                  </div>
+                  <div className="text-center mt-1">
+                    <div className={cn(
+                      "text-[10px] font-medium",
+                      activation ? "text-white" : "text-neutral-500"
+                    )}>
+                      {agent.code.toUpperCase()}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          
+          {/* Drop Instructions */}
+          {!droppedFile && !isDragging && (
+            <div className="text-center mt-6">
+              <p className="text-sm text-neutral-500">
+                Drag a <span className="text-amber-400">PDF</span>, <span className="text-emerald-400">Excel</span>, or <span className="text-blue-400">Document</span> here
+              </p>
+              <p className="text-xs text-neutral-600 mt-1">
+                The Council will auto-detect the document type and wake relevant agents
+              </p>
+            </div>
+          )}
+          
+          {/* Processing Indicator */}
+          {isProcessingDrop && (
+            <div className="text-center mt-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-emerald-500/20 rounded-full text-emerald-400 text-sm">
+                <div className="w-2 h-2 bg-emerald-400 rounded-full animate-ping" />
+                <span>Extracting document content...</span>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* ================================================================= */}
       {/* QUERY INPUT */}
       {/* ================================================================= */}
       <div className="bg-gradient-to-br from-primary-600 to-primary-700 rounded-xl p-6 mb-6 text-white">
@@ -1484,47 +1904,196 @@ export const CouncilPage: React.FC = () => {
               'focus:outline-none focus:ring-2 focus:ring-white/30'
             )}
           />
-        </div>
-        
-        {/* Agent selection summary */}
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-white/70">{t('label.consulting')}:</span>
-            {selectedAgents.length === 0 ? (
-              <span className="text-sm text-white/50">{t('council.agents.all')}</span>
-            ) : (
-              <div className="flex items-center gap-2">
-                <div className="flex -space-x-2">
-                  {selectedAgents.slice(0, 4).map(id => {
-                    const agent = agents.find(a => a.id === id);
-                    return agent ? (
-                      <div
-                        key={id}
-                        className="w-7 h-7 rounded-full flex items-center justify-center text-sm border-2 border-primary-600"
-                        style={{ backgroundColor: `${agent.color}` }}
-                        title={agent.name}
+          
+          {/* Document Attachment Section */}
+          <div className="mt-3">
+            <input
+              ref={fileInputRef}
+              type="file"
+              multiple
+              accept=".pdf,.docx,.doc,.txt,.xlsx,.xls,.pptx,.ppt,.csv,.json,.md"
+              onChange={async (e) => {
+                const files = Array.from(e.target.files || []);
+                if (files.length > 0) {
+                  setAttachedFiles(prev => [...prev, ...files]);
+                  // Extract text content using Tika
+                  for (const file of files) {
+                    try {
+                      const mimeType = file.type || 'application/octet-stream';
+                      let result: any = null;
+
+                      let vaultDoc: any = null;
+                      try {
+                        vaultDoc = await vaultApi.uploadDocument(file, 'council-documents', {
+                          uploadedBy: 'council-user',
+                          deliberationType: selectedMode,
+                        });
+                      } catch {
+                        vaultDoc = null;
+                      }
+
+                      if (vaultDoc && typeof vaultDoc.id === 'string' && !vaultDoc.id.startsWith('local-')) {
+                        result = await enterpriseApi.extractDocumentFromVault(vaultDoc.bucket, vaultDoc.path, mimeType, file.name);
+                      } else if (file.size <= 5 * 1024 * 1024) {
+                        // Convert file to base64 (small files only)
+                        const base64 = await new Promise<string>((resolve) => {
+                          const reader = new FileReader();
+                          reader.onloadend = () => {
+                            const r = reader.result as string;
+                            resolve(r.split(',')[1] || r);
+                          };
+                          reader.readAsDataURL(file);
+                        });
+                        result = await enterpriseApi.extractDocument(base64, mimeType, file.name);
+                      }
+
+                      if (result?.text) {
+                        setExtractedContent(prev => 
+                          prev + (prev ? '\n\n---\n\n' : '') + 
+                          `[Document: ${file.name}]\n${result.text}`
+                        );
+                      }
+                    } catch (err) {
+                      console.log('Document extraction not available, using filename only');
+                    }
+                  }
+                }
+                e.target.value = '';
+              }}
+              className="hidden"
+            />
+            
+            <div className="flex items-center gap-3">
+              <button
+                type="button"
+                onClick={() => fileInputRef.current?.click()}
+                className="flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg text-sm transition-colors"
+              >
+                <span>📎</span>
+                <span>Attach Documents</span>
+              </button>
+              
+              {attachedFiles.length > 0 && (
+                <div className="flex items-center gap-2 flex-wrap">
+                  {attachedFiles.map((file, idx) => (
+                    <div 
+                      key={idx}
+                      className="flex items-center gap-2 px-2 py-1 bg-white/20 rounded text-xs"
+                    >
+                      <span>📄</span>
+                      <span className="max-w-[150px] truncate">{file.name}</span>
+                      <button
+                        onClick={() => {
+                          setAttachedFiles(prev => prev.filter((_, i) => i !== idx));
+                          setExtractedContent('');
+                        }}
+                        className="hover:text-red-300"
                       >
-                        {agent.avatar}
-                      </div>
-                    ) : null;
-                  })}
+                        ✕
+                      </button>
+                    </div>
+                  ))}
                 </div>
-                <span className="text-sm text-white/80" title={selectedAgents.map(id => agents.find(a => a.id === id)?.name).filter(Boolean).join(', ')}>
-                  {selectedAgents.slice(0, 3).map(id => {
-                    const agent = agents.find(a => a.id === id);
-                    return agent?.name.replace('Cendia', '').replace(' Agent', '');
-                  }).filter(Boolean).join(', ')}
-                  {selectedAgents.length > 3 && ` +${selectedAgents.length - 3}`}
-                </span>
-              </div>
+              )}
+            </div>
+            
+            {attachedFiles.length > 0 && (
+              <p className="text-xs text-white/60 mt-2">
+                📋 {attachedFiles.length} document{attachedFiles.length > 1 ? 's' : ''} attached. 
+                The Council will analyze {attachedFiles.length > 1 ? 'these documents' : 'this document'} during deliberation.
+              </p>
             )}
           </div>
-          <button
-            onClick={selectAllAgents}
-            className="text-sm text-white/70 hover:text-white underline"
-          >
-            {t('label.select_all')} {t('label.online').toLowerCase()}
-          </button>
+        </div>
+        
+        {/* D) Explicit Agent Selection - Auditable Roster */}
+        <div className="mb-4 p-4 bg-white/5 rounded-xl border border-white/10">
+          <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center gap-3">
+              <span className="text-sm font-medium text-white">🧠 Selected Agents</span>
+              {/* Why these agents? tooltip */}
+              <div className="group relative">
+                <button className="text-xs text-white/50 hover:text-white/80 underline">
+                  Why these agents?
+                </button>
+                <div className="absolute bottom-full left-0 mb-2 w-72 p-3 bg-neutral-800 rounded-lg shadow-xl border border-neutral-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                  <p className="text-xs text-neutral-300 leading-relaxed">
+                    {getModeRationale(selectedMode)}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              {/* Lock roster for audit toggle */}
+              <label className="flex items-center gap-2 text-xs text-white/70 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={isRosterLocked}
+                  onChange={(e) => setIsRosterLocked(e.target.checked)}
+                  className="w-3.5 h-3.5 rounded border-white/30 bg-white/10 text-amber-500 focus:ring-amber-500 focus:ring-offset-0"
+                />
+                <span className={isRosterLocked ? 'text-amber-400' : ''}>
+                  {isRosterLocked ? '🔒 Roster Locked' : '🔓 Lock for Audit'}
+                </span>
+              </label>
+              <button
+                onClick={selectAllAgents}
+                disabled={isRosterLocked}
+                className={cn(
+                  "text-xs underline",
+                  isRosterLocked ? "text-white/30 cursor-not-allowed" : "text-white/70 hover:text-white"
+                )}
+              >
+                Select all online
+              </button>
+            </div>
+          </div>
+          
+          {/* Selected Agents Pill Row */}
+          <div className="flex flex-wrap gap-2">
+            {selectedAgents.length === 0 ? (
+              <span className="text-sm text-white/50 italic">All available agents will be consulted</span>
+            ) : (
+              selectedAgents.map(id => {
+                const agent = agents.find(a => a.id === id);
+                if (!agent) return null;
+                return (
+                  <div
+                    key={id}
+                    className={cn(
+                      "flex items-center gap-2 px-3 py-1.5 rounded-full text-sm transition-all",
+                      isRosterLocked 
+                        ? "bg-amber-900/30 border border-amber-700/50" 
+                        : "bg-white/10 border border-white/20 hover:border-red-500/50 group"
+                    )}
+                  >
+                    <div
+                      className="w-5 h-5 rounded-full flex items-center justify-center text-xs"
+                      style={{ backgroundColor: agent.color }}
+                    >
+                      {agent.avatar}
+                    </div>
+                    <span className="text-white/90">{agent.name.replace('Cendia', '').replace(' Agent', '').trim()}</span>
+                    {!isRosterLocked && (
+                      <button
+                        onClick={() => setSelectedAgents(prev => prev.filter(a => a !== id))}
+                        className="text-white/40 hover:text-red-400 transition-colors opacity-0 group-hover:opacity-100"
+                        title="Remove agent"
+                      >
+                        ✕
+                      </button>
+                    )}
+                  </div>
+                );
+              })
+            )}
+          </div>
+          
+          {isRosterLocked && (
+            <p className="mt-2 text-xs text-amber-400/80">
+              🔒 Agent roster is locked for audit compliance. Unlock to modify.
+            </p>
+          )}
         </div>
         
         {/* Query mode and submit */}
@@ -1539,7 +2108,7 @@ export const CouncilPage: React.FC = () => {
                   : 'text-white/70 hover:text-white'
               )}
             >
-              {t('council.quick_answer')}
+              ⚡ Quick Brief
             </button>
             <button
               onClick={() => setQueryMode('deliberation')}
@@ -1550,7 +2119,7 @@ export const CouncilPage: React.FC = () => {
                   : 'text-white/70 hover:text-white'
               )}
             >
-              {t('council.full_deliberation')}
+              ⚖️ Governed Deliberation
             </button>
           </div>
           
@@ -1581,9 +2150,9 @@ export const CouncilPage: React.FC = () => {
                 Processing...
               </span>
             ) : queryMode === 'quick' ? (
-              t('council.ask_question')
+              '⚡ Get Quick Brief'
             ) : (
-              language === 'es' ? 'Iniciar Deliberación' : 'Start Deliberation'
+              '⚖️ Start Deliberation'
             )}
           </button>
         </div>
@@ -1612,20 +2181,82 @@ export const CouncilPage: React.FC = () => {
                       ? 'bg-orange-900/50 text-orange-400' 
                       : 'bg-blue-900/50 text-blue-400'
                   )}>
-                    {result.mode === 'deliberation' ? '● DELIBERATION' : '● QUICK ANSWER'}
+                    {result.mode === 'deliberation' ? '⚖️ GOVERNED DELIBERATION' : '⚡ QUICK BRIEF'}
                   </span>
                   <span className={cn(
                     'px-2 py-1 rounded text-xs font-medium',
-                    result.confidence >= 90 ? 'bg-green-900/50 text-green-400' :
-                    result.confidence >= 70 ? 'bg-yellow-900/50 text-yellow-400' :
-                    'bg-red-900/50 text-red-400'
+                    !result.confidence || result.confidence === 0 
+                      ? 'bg-neutral-800 text-neutral-400'
+                      : result.confidence >= 90 ? 'bg-green-900/50 text-green-400' 
+                      : result.confidence >= 70 ? 'bg-yellow-900/50 text-yellow-400'
+                      : result.confidence >= 50 ? 'bg-orange-900/50 text-orange-400'
+                      : 'bg-neutral-700 text-neutral-300'
                   )}>
-                    {result.confidence}% confidence
+                    {!result.confidence || result.confidence === 0 
+                      ? (result.currentPhase && result.currentPhase !== 'completed' 
+                          ? '◐ Calibrating...' 
+                          : result.agentResponses?.length === 0 
+                            ? '○ Pending Evidence' 
+                            : '—')
+                      : result.confidence >= 90 ? '● High Confidence'
+                      : result.confidence >= 70 ? '◑ Medium Confidence'
+                      : '○ Low Confidence'
+                    }
                   </span>
                 </div>
                 <span className="text-xs text-neutral-500">
                   {formatRelativeTime(result.answeredAt)}
                 </span>
+              </div>
+
+              {/* B) Decision Header - Executive framing layer */}
+              <div className="mb-4 p-4 bg-gradient-to-r from-neutral-800 to-neutral-800/50 rounded-xl border border-neutral-700 sticky top-0 z-10">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1">
+                    {/* Decision Statement */}
+                    <h3 className="text-lg font-semibold text-white mb-2 line-clamp-2">
+                      {result.query.length > 80 ? result.query.slice(0, 80) + '...' : result.query}
+                    </h3>
+                    <div className="flex flex-wrap items-center gap-2 text-xs">
+                      {/* Owner */}
+                      <span className="px-2 py-1 bg-neutral-700 rounded text-neutral-300">
+                        👤 Owner: <span className="text-white font-medium">Current User</span>
+                      </span>
+                      {/* Mode */}
+                      <span className={cn(
+                        'px-2 py-1 rounded',
+                        result.mode === 'deliberation' 
+                          ? 'bg-orange-900/30 text-orange-400' 
+                          : 'bg-blue-900/30 text-blue-400'
+                      )}>
+                        {result.mode === 'deliberation' ? '⚖️ Governed Deliberation' : '⚡ Quick Brief'}
+                      </span>
+                      {/* Inputs */}
+                      <span className="px-2 py-1 bg-neutral-700 rounded text-neutral-300">
+                        📎 Inputs: <span className="text-white font-medium">{result.agentResponses?.length || 0} analyses</span>
+                      </span>
+                    </div>
+                  </div>
+                  {/* Status */}
+                  <div className="flex flex-col items-end gap-2">
+                    <span className={cn(
+                      'px-3 py-1.5 rounded-full text-xs font-semibold',
+                      result.currentPhase === 'completed' || !result.currentPhase
+                        ? 'bg-green-900/50 text-green-400 border border-green-700'
+                        : 'bg-yellow-900/50 text-yellow-400 border border-yellow-700'
+                    )}>
+                      {result.currentPhase === 'completed' || !result.currentPhase ? '✓ Logged' : '◐ In Review'}
+                    </span>
+                    {/* Impacted Domains */}
+                    <div className="flex gap-1">
+                      {['Finance', 'Ops', 'Risk'].slice(0, Math.min(3, (result.agents?.length || 1))).map((domain, i) => (
+                        <span key={i} className="px-1.5 py-0.5 bg-neutral-800 rounded text-[10px] text-neutral-400">
+                          {domain}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* User Question */}
@@ -1648,134 +2279,185 @@ export const CouncilPage: React.FC = () => {
                 </div>
               )}
 
-              {/* Individual Agent Responses */}
-              <div className="space-y-4 ml-14">
-                {result.agentResponses?.map((agentResp) => (
-                  <div key={agentResp.agentId} className="flex items-start gap-4">
-                    <div className="flex flex-col items-center gap-1 min-w-[50px]">
-                      <div 
-                        className={cn(
-                          "w-10 h-10 rounded-lg flex items-center justify-center text-xl",
-                          agentResp.isStreaming && "ring-2 ring-green-500 ring-offset-2 ring-offset-neutral-900"
-                        )}
-                        style={{ backgroundColor: agentResp.agentColor }}
-                      >
-                        {agentResp.agentAvatar}
+              {/* C) Progressive Disclosure - Answer First, Then Debate */}
+              <div className="space-y-4">
+                
+                {/* TOP SECTION: Council Recommendation (shown first, always visible) */}
+                {result.response && (
+                  <div className="bg-gradient-to-r from-primary-900/30 to-emerald-900/30 rounded-xl p-5 border border-primary-700/50">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500 to-emerald-600 flex items-center justify-center text-xl">
+                        🎯
                       </div>
-                      <span className="text-[10px] text-neutral-500 font-medium text-center">
-                        {agentResp.agentName.split(' ')[0]}
-                      </span>
+                      <div>
+                        <h4 className="text-lg font-semibold text-white">Council Recommendation</h4>
+                        <span className="text-xs text-primary-400">Synthesized from {result.agentResponses?.length || 0} expert analyses</span>
+                      </div>
                     </div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className={cn(
-                          "text-xs font-mono",
-                          agentResp.isStreaming ? "text-green-400" : "text-neutral-400"
-                        )}>
-                          {agentResp.agentName} {agentResp.isStreaming ? 'analyzing...' : 'completed'}
-                        </span>
-                        {agentResp.isStreaming && (
-                          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                        )}
-                        {!agentResp.isStreaming && agentResp.duration > 0 && (
-                          <span className="text-xs text-neutral-600">
-                            ({Math.round(agentResp.duration / 1000)}s)
-                          </span>
-                        )}
+                    <div className="bg-neutral-900/50 rounded-lg p-4 border-l-4 border-primary-500">
+                      <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed">
+                        {result.response}
+                      </p>
+                    </div>
+                    
+                    {/* Quick Action Bullets */}
+                    <div className="mt-4 grid grid-cols-2 gap-3">
+                      <div className="bg-neutral-800/50 rounded-lg p-3">
+                        <div className="text-xs text-amber-400 font-semibold mb-2">⚠️ Risks & Constraints</div>
+                        <ul className="text-xs text-neutral-400 space-y-1">
+                          <li>• Review assumptions before proceeding</li>
+                          <li>• Consider resource availability</li>
+                        </ul>
                       </div>
-                      <div 
-                        className={cn(
-                          "bg-neutral-800 rounded-lg px-4 py-4 border-l-2",
-                          agentResp.isStreaming && "border-green-500"
-                        )}
-                        style={{ borderColor: agentResp.isStreaming ? undefined : agentResp.agentColor }}
-                      >
-                        <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
-                          {agentResp.response || (agentResp.isStreaming ? '▌' : '')}
-                        </p>
+                      <div className="bg-neutral-800/50 rounded-lg p-3">
+                        <div className="text-xs text-emerald-400 font-semibold mb-2">✓ Next Actions</div>
+                        <ul className="text-xs text-neutral-400 space-y-1">
+                          <li>☐ Assign decision owner</li>
+                          <li>☐ Set review deadline</li>
+                        </ul>
                       </div>
                     </div>
                   </div>
-                ))}
+                )}
 
-                {/* Cross-Examinations */}
-                {result.crossExaminations && result.crossExaminations.length > 0 && (
-                  <div className="mt-6 pt-4 border-t border-neutral-700">
-                    <div className="flex items-center gap-2 mb-4">
-                      <span className="text-xs text-yellow-400 font-mono uppercase">
-                        ⚔️ Cross-Examination
+                {/* COLLAPSIBLE: Agent Analyses */}
+                {result.agentResponses && result.agentResponses.length > 0 && (
+                  <div className="border border-neutral-700 rounded-xl overflow-hidden">
+                    <button
+                      onClick={() => toggleSection(result.id, 'agents')}
+                      className="w-full flex items-center justify-between px-4 py-3 bg-neutral-800 hover:bg-neutral-750 transition-colors"
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className="text-lg">🧠</span>
+                        <span className="font-medium text-white">Agent Analyses</span>
+                        <span className="px-2 py-0.5 bg-neutral-700 rounded text-xs text-neutral-400">
+                          {result.agentResponses.length} responses
+                        </span>
+                      </div>
+                      <span className="text-neutral-400 text-lg">
+                        {isSectionExpanded(result.id, 'agents') ? '▼' : '▶'}
                       </span>
-                    </div>
-                    {result.crossExaminations.map((ce, idx) => (
-                      <div key={idx} className="space-y-3 mb-4">
-                        {/* Challenge */}
-                        <div className="flex items-start gap-4 ml-8">
-                          <div className="flex flex-col items-center gap-1 min-w-[40px]">
-                            <div 
-                              className="w-8 h-8 rounded-lg flex items-center justify-center text-sm"
-                              style={{ backgroundColor: ce.challengerColor }}
-                            >
-                              {ce.challengerAvatar}
-                            </div>
-                          </div>
-                          <div className="flex-1">
-                            <div className="flex items-center gap-2 mb-1">
-                              <span className="text-xs text-yellow-400 font-mono">
-                                {ce.challengerName} challenges {ce.targetName}
+                    </button>
+                    {isSectionExpanded(result.id, 'agents') && (
+                      <div className="p-4 space-y-4 bg-neutral-900/50">
+                        {result.agentResponses.map((agentResp) => (
+                          <div key={agentResp.agentId} className="flex items-start gap-4">
+                            <div className="flex flex-col items-center gap-1 min-w-[50px]">
+                              <div 
+                                className={cn(
+                                  "w-10 h-10 rounded-lg flex items-center justify-center text-xl",
+                                  agentResp.isStreaming && "ring-2 ring-green-500 ring-offset-2 ring-offset-neutral-900"
+                                )}
+                                style={{ backgroundColor: agentResp.agentColor }}
+                              >
+                                {agentResp.agentAvatar}
+                              </div>
+                              <span className="text-[10px] text-neutral-500 font-medium text-center">
+                                {agentResp.agentName.split(' ')[0]}
                               </span>
                             </div>
-                            <div className="bg-yellow-900/20 rounded-lg px-3 py-2 border-l-2 border-yellow-500">
-                              <p className="text-neutral-300 text-sm whitespace-pre-wrap">
-                                {ce.challenge}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        {/* Rebuttal */}
-                        {ce.rebuttal && (
-                          <div className="flex items-start gap-4 ml-16">
                             <div className="flex-1">
-                              <div className="flex items-center gap-2 mb-1">
-                                <span className="text-xs text-cyan-400 font-mono">
-                                  {ce.targetName} responds
+                              <div className="flex items-center gap-2 mb-2">
+                                <span className={cn(
+                                  "text-xs font-mono",
+                                  agentResp.isStreaming ? "text-green-400" : "text-neutral-400"
+                                )}>
+                                  {agentResp.agentName} {agentResp.isStreaming ? 'analyzing...' : 'completed'}
                                 </span>
+                                {agentResp.isStreaming && (
+                                  <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                                )}
+                                {!agentResp.isStreaming && agentResp.duration > 0 && (
+                                  <span className="text-xs text-neutral-600">
+                                    ({Math.round(agentResp.duration / 1000)}s)
+                                  </span>
+                                )}
                               </div>
-                              <div className="bg-cyan-900/20 rounded-lg px-3 py-2 border-l-2 border-cyan-500">
-                                <p className="text-neutral-300 text-sm whitespace-pre-wrap">
-                                  {ce.rebuttal}
+                              <div 
+                                className={cn(
+                                  "bg-neutral-800 rounded-lg px-4 py-4 border-l-2",
+                                  agentResp.isStreaming && "border-green-500"
+                                )}
+                                style={{ borderColor: agentResp.isStreaming ? undefined : agentResp.agentColor }}
+                              >
+                                <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
+                                  {agentResp.response || (agentResp.isStreaming ? '▌' : '')}
                                 </p>
                               </div>
                             </div>
                           </div>
-                        )}
+                        ))}
                       </div>
-                    ))}
+                    )}
                   </div>
                 )}
 
-                {/* Synthesis (for deliberations) */}
-                {result.mode === 'deliberation' && result.agentResponses && result.agentResponses.length > 1 && (
-                  <div className="flex items-start gap-4 mt-6 pt-4 border-t border-neutral-700">
-                    <div className="flex flex-col items-center gap-1 min-w-[50px]">
-                      <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center text-xl">
-                        🎯
-                      </div>
-                      <span className="text-[10px] text-neutral-500 font-medium">
-                        Synthesis
-                      </span>
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="text-xs text-primary-400 font-mono">
-                          Chief synthesizing all responses...
+                {/* COLLAPSIBLE: Cross-Examination */}
+                {result.crossExaminations && result.crossExaminations.length > 0 && (
+                  <div className="border border-neutral-700 rounded-xl overflow-hidden">
+                    <button
+                      onClick={() => toggleSection(result.id, 'crossExam')}
+                      className="w-full flex items-center justify-between px-4 py-3 bg-neutral-800 hover:bg-neutral-750 transition-colors"
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className="text-lg">⚔️</span>
+                        <span className="font-medium text-white">Cross-Examination</span>
+                        <span className="px-2 py-0.5 bg-yellow-900/50 text-yellow-400 rounded text-xs">
+                          {result.crossExaminations.length} exchanges
                         </span>
                       </div>
-                      <div className="bg-neutral-800 rounded-lg px-4 py-4 border-l-2 border-primary-500">
-                        <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
-                          {result.response}
-                        </p>
+                      <span className="text-neutral-400 text-lg">
+                        {isSectionExpanded(result.id, 'crossExam') ? '▼' : '▶'}
+                      </span>
+                    </button>
+                    {isSectionExpanded(result.id, 'crossExam') && (
+                      <div className="p-4 space-y-4 bg-neutral-900/50">
+                        {result.crossExaminations.map((ce, idx) => (
+                          <div key={idx} className="space-y-3">
+                            {/* Challenge */}
+                            <div className="flex items-start gap-4 ml-4">
+                              <div className="flex flex-col items-center gap-1 min-w-[40px]">
+                                <div 
+                                  className="w-8 h-8 rounded-lg flex items-center justify-center text-sm"
+                                  style={{ backgroundColor: ce.challengerColor }}
+                                >
+                                  {ce.challengerAvatar}
+                                </div>
+                              </div>
+                              <div className="flex-1">
+                                <div className="flex items-center gap-2 mb-1">
+                                  <span className="text-xs text-yellow-400 font-mono">
+                                    {ce.challengerName} challenges {ce.targetName}
+                                  </span>
+                                </div>
+                                <div className="bg-yellow-900/20 rounded-lg px-3 py-2 border-l-2 border-yellow-500">
+                                  <p className="text-neutral-300 text-sm whitespace-pre-wrap">
+                                    {ce.challenge}
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            {/* Rebuttal */}
+                            {ce.rebuttal && (
+                              <div className="flex items-start gap-4 ml-12">
+                                <div className="flex-1">
+                                  <div className="flex items-center gap-2 mb-1">
+                                    <span className="text-xs text-cyan-400 font-mono">
+                                      {ce.targetName} responds
+                                    </span>
+                                  </div>
+                                  <div className="bg-cyan-900/20 rounded-lg px-3 py-2 border-l-2 border-cyan-500">
+                                    <p className="text-neutral-300 text-sm whitespace-pre-wrap">
+                                      {ce.rebuttal}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        ))}
                       </div>
-                    </div>
+                    )}
                   </div>
                 )}
 

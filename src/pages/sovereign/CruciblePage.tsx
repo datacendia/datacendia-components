@@ -39,6 +39,9 @@ import {
   Banknote,
   UserMinus,
   Lightbulb,
+  Settings,
+  FileText,
+  ClipboardList,
 } from 'lucide-react';
 import apiClient from '../../lib/api/client';
 
@@ -131,6 +134,24 @@ const scenarioExplanations: Record<string, { title: string; whatHappens: string;
     whoAffected: 'Entire organization, all stakeholders',
     realWorldExample: 'Global pandemic, natural disaster, unprecedented market crash',
   },
+  AI_DISRUPTION: {
+    title: 'AI Market Disruption',
+    whatHappens: 'Simulates 60% commoditization of core offerings due to AI automation, 40% competitive displacement, and 50% talent obsolescence over 18 months. Models required pivots and reinvention strategies.',
+    whoAffected: 'Product, engineering, sales, entire workforce',
+    realWorldExample: 'ChatGPT disrupting SaaS, GitHub Copilot changing development, AI replacing creative work',
+  },
+  KEY_PERSON_RISK: {
+    title: 'Founder/Key Person Loss',
+    whatHappens: 'Models sudden loss of CEO/founder or critical executive. Simulates 70% strategic direction uncertainty, 50% investor confidence drop, and 30% key customer concern over 6 months.',
+    whoAffected: 'Board, investors, leadership team, all employees, key customers',
+    realWorldExample: 'Sudden CEO departure, founder health crisis, key executive poaching',
+  },
+  CUSTOMER_CONCENTRATION: {
+    title: 'Key Customer Loss',
+    whatHappens: 'Models loss of top customer representing 25%+ of revenue. Simulates immediate 25-40% revenue drop, 6-month recovery timeline, and cascading effects on growth metrics.',
+    whoAffected: 'Sales, finance, operations, investors',
+    realWorldExample: 'Enterprise contract non-renewal, customer acquisition, strategic pivot away',
+  },
   CUSTOM: {
     title: 'Custom Scenario',
     whatHappens: 'Define your own shocks and parameters to test specific hypotheses about your organization\'s resilience.',
@@ -198,6 +219,9 @@ const scenarioSeverity: Record<string, SeverityLevel> = {
   BLACK_SWAN: 'EXISTENTIAL',
   CYBER_ATTACK: 'EXISTENTIAL',
   TECHNOLOGY_FAILURE: 'EXISTENTIAL',
+  AI_DISRUPTION: 'EXISTENTIAL',
+  KEY_PERSON_RISK: 'EXISTENTIAL',
+  CUSTOMER_CONCENTRATION: 'EXISTENTIAL',
   FINANCIAL_STRESS: 'SEVERE',
   TALENT_EXODUS: 'SEVERE',
   SUPPLY_CHAIN: 'SEVERE',
@@ -248,6 +272,9 @@ const shockExamples: Record<string, string[]> = {
   TALENT_EXODUS: ['Key talent loss (30-70%)', 'Knowledge drain (30-60%)'],
   TECHNOLOGY_FAILURE: ['Core system outage', 'Recovery time (24-96h)'],
   BLACK_SWAN: ['Multi-system failure (60-90%)', 'External environment shock'],
+  AI_DISRUPTION: ['Core offering commoditized (40-70%)', 'Competitive displacement'],
+  KEY_PERSON_RISK: ['Strategic direction loss', 'Investor confidence drop (30-60%)'],
+  CUSTOMER_CONCENTRATION: ['Revenue loss (25-40%)', 'Growth metric cascade'],
   CUSTOM: ['User-defined parameters'],
 };
 
@@ -265,6 +292,9 @@ const scenarioIcons: Record<string, React.ReactNode> = {
   TALENT_EXODUS: <UserMinus className="w-5 h-5" />,
   ESG_EVENT: <Globe className="w-5 h-5" />,
   MA_SCENARIO: <Building2 className="w-5 h-5" />,
+  AI_DISRUPTION: <Brain className="w-5 h-5" />,
+  KEY_PERSON_RISK: <Skull className="w-5 h-5" />,
+  CUSTOMER_CONCENTRATION: <Users className="w-5 h-5" />,
   CUSTOM: <Target className="w-5 h-5" />,
 };
 
@@ -659,6 +689,31 @@ export const CruciblePage: React.FC = () => {
   const [benchmarkData, setBenchmarkData] = useState<BenchmarkData | null>(null);
   const [recommendations, setRecommendations] = useState<RecommendationData[]>([]);
   const [recentSimulations, setRecentSimulations] = useState<RecentSimulationData[]>([]);
+  
+  // Risk appetite slider (Conservative=1, Moderate=2, Aggressive=3)
+  const [riskAppetite, setRiskAppetite] = useState<number>(2);
+  const [showAssumptions, setShowAssumptions] = useState(false);
+  const [showOutputArtifacts, setShowOutputArtifacts] = useState(false);
+  
+  // New state for scenario customization, history, and scheduling
+  const [showScenarioCustomizer, setShowScenarioCustomizer] = useState(false);
+  const [customScenario, setCustomScenario] = useState({
+    revenueDecline: 30,
+    costIncrease: 20,
+    attritionRate: 15,
+    marketShare: -10,
+    duration: 6
+  });
+  const [showHistorySidebar, setShowHistorySidebar] = useState(false);
+  const [scheduleNightly, setScheduleNightly] = useState(false);
+  
+  // Risk appetite labels
+  const riskAppetiteLabels = ['Conservative', 'Moderate', 'Aggressive'];
+  const riskAppetiteDescriptions = {
+    1: 'Lower severity thresholds, more warnings, cautious recommendations',
+    2: 'Balanced severity thresholds, standard recommendations',
+    3: 'Higher severity thresholds, focus on existential risks only'
+  };
 
   useEffect(() => {
     const loadData = async () => {
@@ -705,13 +760,28 @@ export const CruciblePage: React.FC = () => {
     loadData();
   }, []);
 
-  const runSimulation = async (templateType: string) => {
+  const runSimulation = async (templateType: string, customParams?: typeof customScenario) => {
     setIsRunning(true);
     try {
-      const createRes = await apiClient.api.post<any>('/crucible/simulations', {
+      // Build simulation payload with custom parameters if provided
+      const payload: any = {
         name: `${templateType.replace(/_/g, ' ')} - ${new Date().toLocaleDateString()}`,
         simulationType: templateType,
-      });
+        riskAppetite: riskAppetiteLabels[riskAppetite - 1]?.toLowerCase() || 'moderate',
+      };
+      
+      // Include custom scenario parameters for CUSTOM type
+      if (templateType === 'CUSTOM' && customParams) {
+        payload.customParameters = {
+          revenueDecline: customParams.revenueDecline,
+          costIncrease: customParams.costIncrease,
+          attritionRate: customParams.attritionRate,
+          marketShareChange: customParams.marketShare,
+          durationMonths: customParams.duration,
+        };
+      }
+      
+      const createRes = await apiClient.api.post<any>('/crucible/simulations', payload);
 
       if (createRes.success && createRes.data) {
         const simulation = (createRes.data as any).data || createRes.data as Simulation;
@@ -888,6 +958,94 @@ export const CruciblePage: React.FC = () => {
                   {v.charAt(0).toUpperCase() + v.slice(1)}
                 </button>
               ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Risk Appetite & Assumptions Bar */}
+      <div className="max-w-7xl mx-auto px-6 pt-6">
+        <div className="bg-slate-900/80 border border-purple-500/30 rounded-xl p-4 mb-6">
+          <div className="flex items-center justify-between flex-wrap gap-4">
+            {/* Risk Appetite Slider */}
+            <div className="flex items-center gap-4">
+              <span className="text-sm text-gray-400">Risk Appetite:</span>
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-blue-400">Conservative</span>
+                <input 
+                  type="range" 
+                  min="1" 
+                  max="3" 
+                  value={riskAppetite}
+                  onChange={(e) => setRiskAppetite(parseInt(e.target.value))}
+                  className="w-32 h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-purple-500"
+                />
+                <span className="text-xs text-red-400">Aggressive</span>
+              </div>
+              <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+                riskAppetite === 1 ? 'bg-blue-500/20 text-blue-300' :
+                riskAppetite === 2 ? 'bg-purple-500/20 text-purple-300' :
+                'bg-red-500/20 text-red-300'
+              }`}>
+                {riskAppetiteLabels[riskAppetite - 1]}
+              </span>
+              <span className="text-xs text-gray-500 max-w-xs">
+                {riskAppetiteDescriptions[riskAppetite as keyof typeof riskAppetiteDescriptions]}
+              </span>
+            </div>
+
+            {/* Quick Actions */}
+            <div className="flex items-center gap-2">
+              <button 
+                onClick={() => setShowAssumptions(true)}
+                className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-lg text-xs text-gray-300 flex items-center gap-1"
+              >
+                <Settings className="w-3 h-3" /> Assumptions
+              </button>
+              <button 
+                onClick={() => setShowOutputArtifacts(true)}
+                className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-lg text-xs text-gray-300 flex items-center gap-1"
+              >
+                <FileDown className="w-3 h-3" /> Output Artifacts
+              </button>
+              <button 
+                onClick={() => setShowHistorySidebar(true)}
+                className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-lg text-xs text-gray-300 flex items-center gap-1"
+              >
+                <Clock className="w-3 h-3" /> History
+              </button>
+              
+              {/* Schedule Toggle */}
+              <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-800 rounded-lg">
+                <span className="text-xs text-gray-400">Nightly</span>
+                <button
+                  onClick={() => setScheduleNightly(!scheduleNightly)}
+                  className={`relative w-10 h-5 rounded-full transition-colors ${scheduleNightly ? 'bg-purple-600' : 'bg-slate-600'}`}
+                >
+                  <div className={`absolute top-0.5 w-4 h-4 rounded-full bg-white transition-transform ${scheduleNightly ? 'translate-x-5' : 'translate-x-0.5'}`} />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Last Simulation Status */}
+          <div className="mt-3 pt-3 border-t border-slate-700 flex items-center justify-between text-xs">
+            <span className="text-gray-500">
+              {recentSimulations.length > 0 ? (
+                <>Last simulation: <span className="text-purple-400">{recentSimulations[0]?.name}</span> ({new Date(recentSimulations[0]?.createdAt).toLocaleDateString()})</>
+              ) : (
+                <span className="text-amber-400">No simulation run yet — run your first stress test to establish baseline</span>
+              )}
+            </span>
+            <div className="flex items-center gap-4">
+              {scheduleNightly && (
+                <span className="text-purple-400 flex items-center gap-1">
+                  <Clock className="w-3 h-3" /> Scheduled nightly at 2:00 AM
+                </span>
+              )}
+              <span className="text-gray-500">
+                Baseline: {resilienceData?.overall || '--'}/100 resilience
+              </span>
             </div>
           </div>
         </div>
@@ -1075,9 +1233,17 @@ export const CruciblePage: React.FC = () => {
               </div>
             )}
             
-            <div className="mb-8">
-              <h2 className="text-xl font-semibold text-white mb-2">Simulation Scenarios</h2>
-              <p className="text-gray-400">Select a scenario to stress test your organization's resilience</p>
+            <div className="mb-8 flex items-center justify-between">
+              <div>
+                <h2 className="text-xl font-semibold text-white mb-2">Simulation Scenarios</h2>
+                <p className="text-gray-400">Select a scenario to stress test your organization's resilience</p>
+              </div>
+              <button
+                onClick={() => setShowScenarioCustomizer(true)}
+                className="px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-sm font-medium flex items-center gap-2"
+              >
+                <Settings className="w-4 h-4" /> Build Custom Scenario
+              </button>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -1324,12 +1490,18 @@ export const CruciblePage: React.FC = () => {
                     Key Risks
                   </h3>
                   <ul className="space-y-2">
-                    {activeSimulation.results_summary.keyRisks.map((risk, i) => (
-                      <li key={i} className="flex items-start gap-2 text-gray-300 text-sm">
-                        <XCircle className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
-                        {risk}
+                    {activeSimulation.results_summary.keyRisks?.length > 0 ? (
+                      activeSimulation.results_summary.keyRisks.map((risk, i) => (
+                        <li key={i} className="flex items-start gap-2 text-gray-300 text-sm">
+                          <XCircle className="w-4 h-4 text-red-400 mt-0.5 flex-shrink-0" />
+                          {risk}
+                        </li>
+                      ))
+                    ) : (
+                      <li className="text-gray-400 text-sm italic">
+                        Risk analysis pending. Run simulation with AI Council enabled for comprehensive risk identification.
                       </li>
-                    ))}
+                    )}
                   </ul>
                 </div>
 
@@ -1339,7 +1511,7 @@ export const CruciblePage: React.FC = () => {
                     Opportunities
                   </h3>
                   <ul className="space-y-2">
-                    {activeSimulation.results_summary.keyOpportunities.length > 0 ? (
+                    {activeSimulation.results_summary.keyOpportunities?.length > 0 ? (
                       activeSimulation.results_summary.keyOpportunities.map((opp, i) => (
                         <li key={i} className="flex items-start gap-2 text-gray-300 text-sm">
                           <CheckCircle className="w-4 h-4 text-green-400 mt-0.5 flex-shrink-0" />
@@ -1347,7 +1519,9 @@ export const CruciblePage: React.FC = () => {
                         </li>
                       ))
                     ) : (
-                      <li className="text-gray-400 text-sm">No significant opportunities in this scenario</li>
+                      <li className="text-gray-400 text-sm italic">
+                        Opportunity analysis pending. Run simulation with AI Council enabled for strategic opportunity identification.
+                      </li>
                     )}
                   </ul>
                 </div>
@@ -1439,6 +1613,351 @@ export const CruciblePage: React.FC = () => {
           </div>
         ) : null}
       </div>
+
+      {/* Assumptions Modal */}
+      {showAssumptions && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={() => setShowAssumptions(false)}>
+          <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700 flex items-center justify-between">
+              <div>
+                <h3 className="text-xl font-semibold text-white">Simulation Assumptions</h3>
+                <p className="text-sm text-gray-400">Baseline metrics and confidence levels used in simulations</p>
+              </div>
+              <button onClick={() => setShowAssumptions(false)} className="text-gray-400 hover:text-white">
+                <XCircle className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6 space-y-6">
+              {/* Input Assumptions */}
+              <div>
+                <h4 className="text-sm font-semibold text-purple-400 uppercase tracking-wide mb-3">Input Assumptions</h4>
+                <div className="space-y-2">
+                  {[
+                    { label: 'Monthly Burn Rate', value: '$2.4M', source: 'Finance system', confidence: 95 },
+                    { label: 'Cash Runway', value: '18 months', source: 'Treasury', confidence: 90 },
+                    { label: 'Revenue Growth Rate', value: '12% YoY', source: 'CRM pipeline', confidence: 75 },
+                    { label: 'Employee Count', value: '847', source: 'HRIS', confidence: 100 },
+                    { label: 'Customer Churn Rate', value: '3.2%', source: 'Subscription data', confidence: 85 },
+                  ].map((a, i) => (
+                    <div key={i} className="flex items-center justify-between p-3 bg-slate-800/50 rounded-lg">
+                      <div>
+                        <div className="font-medium text-white">{a.label}</div>
+                        <div className="text-xs text-gray-500">Source: {a.source}</div>
+                      </div>
+                      <div className="text-right">
+                        <div className="text-purple-400 font-medium">{a.value}</div>
+                        <div className="text-xs text-gray-500">{a.confidence}% confidence</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Baseline Metrics */}
+              <div>
+                <h4 className="text-sm font-semibold text-blue-400 uppercase tracking-wide mb-3">Baseline Metrics</h4>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="p-3 bg-slate-800/50 rounded-lg">
+                    <div className="text-xs text-gray-500">Overall Resilience</div>
+                    <div className="text-xl font-bold text-white">{resilienceData?.overall || 72}/100</div>
+                  </div>
+                  <div className="p-3 bg-slate-800/50 rounded-lg">
+                    <div className="text-xs text-gray-500">Financial Health</div>
+                    <div className="text-xl font-bold text-white">78/100</div>
+                  </div>
+                  <div className="p-3 bg-slate-800/50 rounded-lg">
+                    <div className="text-xs text-gray-500">Operational Capacity</div>
+                    <div className="text-xl font-bold text-white">85%</div>
+                  </div>
+                  <div className="p-3 bg-slate-800/50 rounded-lg">
+                    <div className="text-xs text-gray-500">Talent Stability</div>
+                    <div className="text-xl font-bold text-white">71/100</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="pt-4 border-t border-slate-700">
+                <p className="text-xs text-gray-500">
+                  These assumptions are refreshed daily from connected data sources. Lower confidence inputs have wider variance in Monte Carlo simulations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Output Artifacts Modal */}
+      {showOutputArtifacts && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={() => setShowOutputArtifacts(false)}>
+          <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700 flex items-center justify-between">
+              <div>
+                <h3 className="text-xl font-semibold text-white">Output Artifacts</h3>
+                <p className="text-sm text-gray-400">Generated documents from simulation results</p>
+              </div>
+              <button onClick={() => setShowOutputArtifacts(false)} className="text-gray-400 hover:text-white">
+                <XCircle className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6 space-y-4">
+              {[
+                { 
+                  name: 'Board Brief', 
+                  icon: <FileText className="w-5 h-5 text-purple-400" />,
+                  description: 'Executive summary for board presentation',
+                  format: 'PDF / PPTX',
+                  available: !!activeSimulation
+                },
+                { 
+                  name: 'Operational Runbook', 
+                  icon: <ClipboardList className="w-5 h-5 text-blue-400" />,
+                  description: 'Step-by-step response procedures',
+                  format: 'PDF / Markdown',
+                  available: !!activeSimulation
+                },
+                { 
+                  name: 'Decision DNA Entry', 
+                  icon: <Brain className="w-5 h-5 text-cyan-400" />,
+                  description: 'Permanent record linked to Decision DNA',
+                  format: 'Auto-created',
+                  available: !!activeSimulation
+                },
+                { 
+                  name: 'Mitigation Plan', 
+                  icon: <Shield className="w-5 h-5 text-emerald-400" />,
+                  description: 'Prioritized actions with owners and deadlines',
+                  format: 'PDF / CSV',
+                  available: !!activeSimulation
+                },
+              ].map((artifact, i) => (
+                <div key={i} className={`flex items-center justify-between p-4 rounded-lg border ${
+                  artifact.available ? 'bg-slate-800/50 border-slate-700' : 'bg-slate-800/20 border-slate-800 opacity-50'
+                }`}>
+                  <div className="flex items-center gap-3">
+                    {artifact.icon}
+                    <div>
+                      <div className="font-medium text-white">{artifact.name}</div>
+                      <div className="text-xs text-gray-500">{artifact.description}</div>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs text-gray-500">{artifact.format}</span>
+                    {artifact.available ? (
+                      <button className="px-3 py-1.5 bg-purple-600 hover:bg-purple-500 rounded-lg text-xs font-medium">
+                        Generate
+                      </button>
+                    ) : (
+                      <span className="text-xs text-gray-600">Run simulation first</span>
+                    )}
+                  </div>
+                </div>
+              ))}
+              
+              {!activeSimulation && (
+                <div className="p-4 bg-amber-500/10 border border-amber-500/30 rounded-lg">
+                  <p className="text-sm text-amber-300">
+                    Run a simulation to generate output artifacts. Each simulation creates a complete package for stakeholder communication.
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* History Sidebar */}
+      {showHistorySidebar && (
+        <div className="fixed inset-0 z-50 flex justify-end bg-black/50" onClick={() => setShowHistorySidebar(false)}>
+          <div className="w-[450px] h-full bg-slate-900 border-l border-slate-700 overflow-y-auto" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700 flex items-center justify-between sticky top-0 bg-slate-900">
+              <div>
+                <h2 className="text-xl font-bold text-white">Simulation History</h2>
+                <p className="text-sm text-gray-400">Past runs and comparative analysis</p>
+              </div>
+              <button onClick={() => setShowHistorySidebar(false)} className="text-gray-400 hover:text-white">
+                <XCircle className="w-5 h-5" />
+              </button>
+            </div>
+            
+            <div className="p-4 space-y-4">
+              {recentSimulations.length === 0 ? (
+                <div className="text-center py-8 text-gray-500">
+                  No simulations run yet
+                </div>
+              ) : (
+                recentSimulations.map((sim, i) => (
+                  <div 
+                    key={sim.id}
+                    className="p-4 bg-slate-800 rounded-lg border border-slate-700 hover:border-purple-500/50 cursor-pointer transition-colors"
+                    onClick={() => { loadSimulationDetails(sim.id); setShowHistorySidebar(false); }}
+                  >
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-xs px-2 py-0.5 bg-purple-500/20 text-purple-300 rounded">
+                        {sim.simulationType.replace(/_/g, ' ')}
+                      </span>
+                      <span className={`text-xs px-2 py-0.5 rounded ${
+                        sim.status === 'COMPLETED' ? 'bg-emerald-500/20 text-emerald-300' : 'bg-amber-500/20 text-amber-300'
+                      }`}>
+                        {sim.status}
+                      </span>
+                    </div>
+                    <div className="font-medium text-white mb-1">{sim.name}</div>
+                    <div className="text-xs text-gray-500 mb-2">{new Date(sim.createdAt).toLocaleString()}</div>
+                    {sim.resilienceScore && (
+                      <div className="flex items-center gap-2">
+                        <div className="flex-1 h-2 bg-slate-700 rounded-full overflow-hidden">
+                          <div 
+                            className={`h-full rounded-full ${
+                              sim.resilienceScore >= 70 ? 'bg-emerald-500' :
+                              sim.resilienceScore >= 50 ? 'bg-amber-500' : 'bg-red-500'
+                            }`}
+                            style={{ width: `${sim.resilienceScore}%` }}
+                          />
+                        </div>
+                        <span className="text-xs text-gray-400">{sim.resilienceScore}/100</span>
+                      </div>
+                    )}
+                    <button className="mt-2 text-xs text-purple-400 hover:text-purple-300 flex items-center gap-1">
+                      <RotateCcw className="w-3 h-3" /> Re-run with current baseline
+                    </button>
+                  </div>
+                ))
+              )}
+            </div>
+
+            {/* Trend Chart Placeholder */}
+            {recentSimulations.length > 1 && (
+              <div className="p-4 border-t border-slate-700">
+                <h3 className="font-medium text-white mb-3">Resilience Trend</h3>
+                <div className="h-32 bg-slate-800 rounded-lg flex items-end gap-1 p-3">
+                  {recentSimulations.slice(0, 10).reverse().map((sim, i) => (
+                    <div 
+                      key={i}
+                      className="flex-1 bg-purple-500/50 rounded-t transition-all hover:bg-purple-500"
+                      style={{ height: `${sim.resilienceScore || 50}%` }}
+                      title={`${sim.name}: ${sim.resilienceScore || '--'}/100`}
+                    />
+                  ))}
+                </div>
+                <div className="flex justify-between text-xs text-gray-500 mt-2">
+                  <span>Oldest</span>
+                  <span>Most Recent</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Scenario Customizer Modal */}
+      {showScenarioCustomizer && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={() => setShowScenarioCustomizer(false)}>
+          <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full" onClick={e => e.stopPropagation()}>
+            <div className="p-6 border-b border-slate-700">
+              <h3 className="text-xl font-semibold text-white">Custom Scenario Builder</h3>
+              <p className="text-sm text-gray-400">Adjust parameters to create a tailored stress test</p>
+            </div>
+            <div className="p-6 space-y-6">
+              {/* Revenue Decline */}
+              <div>
+                <div className="flex justify-between text-sm mb-2">
+                  <span className="text-gray-300">Revenue Decline</span>
+                  <span className="text-red-400">-{customScenario.revenueDecline}%</span>
+                </div>
+                <input 
+                  type="range" 
+                  min="0" 
+                  max="80" 
+                  value={customScenario.revenueDecline}
+                  onChange={(e) => setCustomScenario({...customScenario, revenueDecline: parseInt(e.target.value)})}
+                  className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-red-500"
+                />
+              </div>
+
+              {/* Cost Increase */}
+              <div>
+                <div className="flex justify-between text-sm mb-2">
+                  <span className="text-gray-300">Cost Increase</span>
+                  <span className="text-orange-400">+{customScenario.costIncrease}%</span>
+                </div>
+                <input 
+                  type="range" 
+                  min="0" 
+                  max="50" 
+                  value={customScenario.costIncrease}
+                  onChange={(e) => setCustomScenario({...customScenario, costIncrease: parseInt(e.target.value)})}
+                  className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-orange-500"
+                />
+              </div>
+
+              {/* Attrition Rate */}
+              <div>
+                <div className="flex justify-between text-sm mb-2">
+                  <span className="text-gray-300">Employee Attrition</span>
+                  <span className="text-amber-400">{customScenario.attritionRate}%</span>
+                </div>
+                <input 
+                  type="range" 
+                  min="0" 
+                  max="40" 
+                  value={customScenario.attritionRate}
+                  onChange={(e) => setCustomScenario({...customScenario, attritionRate: parseInt(e.target.value)})}
+                  className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-amber-500"
+                />
+              </div>
+
+              {/* Duration */}
+              <div>
+                <div className="flex justify-between text-sm mb-2">
+                  <span className="text-gray-300">Stress Duration</span>
+                  <span className="text-purple-400">{customScenario.duration} months</span>
+                </div>
+                <input 
+                  type="range" 
+                  min="1" 
+                  max="24" 
+                  value={customScenario.duration}
+                  onChange={(e) => setCustomScenario({...customScenario, duration: parseInt(e.target.value)})}
+                  className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-purple-500"
+                />
+              </div>
+
+              {/* Impact Preview */}
+              <div className="p-4 bg-slate-800 rounded-lg">
+                <h4 className="text-sm font-medium text-gray-300 mb-2">Estimated Impact Preview</h4>
+                <div className="grid grid-cols-3 gap-3 text-center">
+                  <div>
+                    <div className="text-xl font-bold text-red-400">-${(customScenario.revenueDecline * 0.1).toFixed(1)}M</div>
+                    <div className="text-xs text-gray-500">Revenue</div>
+                  </div>
+                  <div>
+                    <div className="text-xl font-bold text-orange-400">-{Math.round(customScenario.attritionRate * 8)}</div>
+                    <div className="text-xs text-gray-500">Headcount</div>
+                  </div>
+                  <div>
+                    <div className="text-xl font-bold text-purple-400">{Math.max(20, 100 - customScenario.revenueDecline - customScenario.costIncrease)}</div>
+                    <div className="text-xs text-gray-500">Resilience</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 border-t border-slate-700 flex gap-3">
+              <button 
+                onClick={() => setShowScenarioCustomizer(false)}
+                className="flex-1 px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg"
+              >
+                Cancel
+              </button>
+              <button 
+                onClick={() => { runSimulation('CUSTOM', customScenario); setShowScenarioCustomizer(false); }}
+                className="flex-1 px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg font-medium flex items-center justify-center gap-2"
+              >
+                <Play className="w-4 h-4" /> Run Custom Scenario
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

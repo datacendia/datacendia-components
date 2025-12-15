@@ -4,6 +4,7 @@
 // =============================================================================
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import { decisionIntelligenceService, PreMortemResult } from '../../../services/DecisionIntelligenceService';
 import { ollamaService, DomainAgent } from '../../../lib/ollama';
@@ -30,10 +31,19 @@ interface LiveMessage {
 }
 
 export const PreMortemPage: React.FC = () => {
+  const [searchParams] = useSearchParams();
   const [decision, setDecision] = useState('');
   const [context, setContext] = useState('');
   const [timeframe, setTimeframe] = useState('');
   const [budget, setBudget] = useState('');
+  
+  // Pre-populate from URL query params (e.g., from Decision DNA)
+  useEffect(() => {
+    const decisionParam = searchParams.get('decision');
+    const contextParam = searchParams.get('context');
+    if (decisionParam) setDecision(decisionParam);
+    if (contextParam) setContext(contextParam);
+  }, [searchParams]);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [result, setResult] = useState<PreMortemResult | null>(null);
   const [error, setError] = useState<string | null>(null);

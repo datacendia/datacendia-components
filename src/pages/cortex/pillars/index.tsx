@@ -1394,6 +1394,29 @@ export const GuardPage: React.FC = () => {
         color="#F59E0B"
       />
 
+      {/* Sovereign Security Integration */}
+      <div className="mb-6 flex items-center gap-3">
+        <a
+          href="http://localhost:8090"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-3 py-1.5 bg-red-500/10 border border-red-500/30 rounded-lg hover:bg-red-500/20 transition-colors"
+        >
+          <span className="text-red-500 text-xs font-medium">🔐 Infisical Secrets</span>
+        </a>
+        <a
+          href="http://localhost:8080"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-3 py-1.5 bg-blue-500/10 border border-blue-500/30 rounded-lg hover:bg-blue-500/20 transition-colors"
+        >
+          <span className="text-blue-500 text-xs font-medium">🔑 Keycloak SSO</span>
+        </a>
+        <div className="flex items-center gap-2 px-3 py-1.5 bg-amber-500/10 border border-amber-500/30 rounded-lg">
+          <span className="text-amber-500 text-xs font-medium">🛡️ Wazuh XDR (Coming Soon)</span>
+        </div>
+      </div>
+
       {error && (
         <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">
           {error}

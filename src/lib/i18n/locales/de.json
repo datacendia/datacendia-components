@@ -512,6 +512,41 @@
         "features": ["Anonymer oder namentlicher Dissens", "Pflicht-Bestätigung innerhalb von 72 Stunden", "Unveränderliche Ledger-Aufzeichnung", "Vergeltungserkennung und -schutz", "Tracking der Dissens-Genauigkeit"],
         "useCases": ["Sicherstellen, dass Minderheitsstimmen gehört werden", "Organisationales Gedächtnis schaffen", "Whistleblower schützen", "Entscheidungsqualität verbessern"],
         "guidance": "Reichen Sie einen Dissens gegen jede Entscheidung ein, mit der Sie nicht einverstanden sind. Ihr Einspruch wird permanent aufgezeichnet, bestätigt und über die Zeit auf Genauigkeit verfolgt."
+      },
+      "connectors": {
+        "title": "Enterprise-Datenverbinder",
+        "summary": "156+ vorgefertigte Konnektoren in 11 Branchen. Verbinden Sie sich mit Regierungs-, Finanz-, Gesundheits- und globalen Datenquellen.",
+        "features": ["Regierung: NOAA, FAA, FEMA, SEC, Census, USGS, EIA", "Finanzen: Bloomberg, SWIFT, FIX-Protokoll, Refinitiv", "Gesundheit: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO", "Lieferkette: CBP, Maersk, Hafen-APIs", "Energie: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool", "Avionik: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"],
+        "useCases": ["Echtzeit-Wetter- und Klimadaten", "Finanzmarktdaten und regulatorische Feeds", "Gesundheits-Interoperabilität und klinische Daten", "Lieferketten-Sichtbarkeit", "Stromnetz- und Energiemarktanalyse", "Flugsicherheit und Flugbetrieb"],
+        "guidance": "Durchsuchen Sie Konnektoren nach Branche oder suchen Sie nach spezifischen Quellen. Jeder Konnektor enthält Authentifizierung, Rate-Limiting und Compliance-Mapping."
+      },
+      "evidence": {
+        "title": "Beweisinfrastruktur",
+        "summary": "Unveränderliches Ledger mit Blockchain-Hash-Verkettung, TPM-Digitalsignaturen und Merkle-Baum-Beweisen.",
+        "features": ["Kryptografisch signierte Einträge", "Build- und Ausführungsidentität", "TPM-Hardware-Attestierung", "Merkle-Baum-Verifizierung", "Rechtliche Beweisbündel-Generierung"],
+        "useCases": ["Audit-bereite Testbeweise", "Sicherheitsüberprüfungsdokumentation", "SOC 2 / ISO 27001 / DSGVO-Beweise", "Manipulationssichere Aufzeichnungen"],
+        "guidance": "Alle Ausführungen werden automatisch mit kryptografischen Signaturen aufgezeichnet. Generieren Sie rechtliche Beweisbündel mit einem Klick."
+      },
+      "sovereignArch": {
+        "title": "Souveräne Architekturmuster",
+        "summary": "11 Enterprise-Muster für Air-Gap-, Zero-Trust- und souveräne Deployments.",
+        "features": ["Datendiode: Unidirektionale Aufnahme mit Quarantäne", "Lokales RLHF: Cloud-freies Lernen", "Entscheidungs-DNA: Ein-Klick-Audit-Export", "Schatten-Council: Sandbox-Modus", "QR-Air-Gap-Brücke: Medienfreier Transfer", "TPM-Attestierung: Hardware-signierte Entscheidungen"],
+        "useCases": ["Air-Gap-Facility-Deployments", "Verteidigungs- und Geheimdienstanwendungen", "Regulierte Industrie-Compliance", "Zero-Trust-Architektur"],
+        "guidance": "Souveräne Architekturmuster ermöglichen Deployment in restriktivsten Umgebungen. Jedes Muster kann einzeln oder kombiniert verwendet werden."
+      },
+      "cascade": {
+        "title": "CendiaCascade™ - Der Schmetterlingseffekt",
+        "summary": "Analyse von Konsequenzen zweiter und dritter Ordnung. Vorhersage unbeabsichtigter Folgen, bevor sie zu Vorfällen werden.",
+        "features": ["Multi-Perspektiv-Analyse (CFO, COO, CISO, Personal, Ethik)", "Schmetterlingseffekt-Erkennung (überraschende 3.+ Ordnung Auswirkungen)", "Automatische Mitigations-Generierung (verhindern, erkennen, reagieren)", "Leitplanken-Vorschläge (Kanarienvogel, Auslöser, Schutzschalter, Rollback)", "Zeitleisten-Visualisierung (T+0, T+30, T+90, T+1J)", "Audit-Trail mit SHA-256-Hash"],
+        "useCases": ["Personaländerungen vor Umsetzung analysieren", "Lieferantenwechsel-Konsequenzen vorhersagen", "Richtlinienänderungen im Organisationsgraphen modellieren", "Feedback-Schleifen erkennen"],
+        "guidance": "Laden Sie Ihren Organisationsgraphen, schlagen Sie eine Änderung vor und lassen Sie CendiaCascade Konsequenzen verfolgen. Ihre Konkurrenten spielen Schach einen Zug voraus — CendiaCascade simuliert 5 Züge voraus."
+      },
+      "adapters": {
+        "title": "Souveräne Adapter - Universelle Konnektoren",
+        "summary": "5 universelle Adapter statt 156 herstellerspezifische Konnektoren. Wir liefern die Steckdose; der Kunde bringt den Stecker.",
+        "features": ["File Watcher: Avionik, Verteidigung, dateibasierte Aufnahme", "Webhook Ingest: SaaS, Finanz-Gateway Push-Events", "Database Adapter: ERP, Lieferkette SQL/ODBC", "FHIR-Protokoll: Gesundheitsstandard", "FIX-Protokoll: Finanzstandard", "MQTT-Protokoll: IoT und Energienetz"],
+        "useCases": ["Mit jedem System über offene Standards verbinden", "Lizenzverantwortung proprietärer APIs vermeiden", "Air-Gap und regulierte Umgebungen unterstützen", "BYO-Keys für regulierte Adapter"],
+        "guidance": "Wählen Sie den Adaptertyp, der zu Ihrem Integrationsmuster passt. Jeder Adapter erzwingt automatisch Risikostufen, Beweisprotokollierung und Quota-Kontrollen."
       }
     }
   },

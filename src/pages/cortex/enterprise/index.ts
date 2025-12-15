@@ -19,3 +19,8 @@ export { UnionPage } from './UnionPage';
 export { LedgerPage } from './LedgerPage';
 export { ApotheosisPage } from './ApotheosisPage';
 export { DissentPage } from './DissentPage';
+
+// Workflow Completion Pages
+export { CrisisManagementPage } from './CrisisManagementPage';
+export { AuditWorkflowPage } from './AuditWorkflowPage';
+export { TrainingPage } from './TrainingPage';

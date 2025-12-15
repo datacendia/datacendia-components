@@ -1,24 +1,222 @@
 # DATACENDIA SERVICE CATALOG
-## Complete Service, Pricing & Agent Reference
+## Complete Service, Pricing & Agent Reference — Product Bible
 
-**Generated:** December 1, 2025  
-**Platform Version:** Enterprise Platinum
+**Generated:** December 13, 2025  
+**Platform Version:** Enterprise Platinum v2.0  
+**Total Services:** 60+ across 7 major categories
 
 ---
 
 # TABLE OF CONTENTS
 
-1. [AI Agents](#1-ai-agents)
-2. [Premium Features & Packs](#2-premium-features--packs)
-3. [Decision Intelligence Suite](#3-decision-intelligence-suite)
-4. [Enterprise Suite](#4-enterprise-suite)
-5. [Pillar Services](#5-pillar-services)
-6. [Bundle Packages](#6-bundle-packages)
-7. [Industry-Specific Packages](#7-industry-specific-packages)
+1. [Unified Master Services Table](#1-unified-master-services-table)
+2. [Pricing Tier Mapping](#2-pricing-tier-mapping)
+3. [Core Platform (8 Pillars)](#3-core-platform-8-pillars)
+4. [Guardian Suite](#4-guardian-suite)
+5. [Enterprise Suite](#5-enterprise-suite)
+6. [Decision Intelligence Suite](#6-decision-intelligence-suite)
+7. [Tier 3 Strategic](#7-tier-3-strategic)
+8. [Human-Digital Merger](#8-human-digital-merger)
+9. [Frontier Collection](#9-frontier-collection)
+10. [Sovereign Security](#10-sovereign-security)
+11. [AI Agents](#11-ai-agents)
+12. [Industry-Specific Packages](#12-industry-specific-packages)
+13. [Bundle Packages](#13-bundle-packages)
 
 ---
 
-# 1. AI AGENTS
+# 1. UNIFIED MASTER SERVICES TABLE
+
+| Primary Pillar | Service Name | Service Price | Function & Benefit | Required Package | Package Price |
+|----------------|--------------|---------------|-------------------|------------------|---------------|
+| Core Platform | CendiaHelm™ | Included | Centralised real-time KPI dashboard with drill-down, natural language control, executive alerts | Core / Professional | $120,000 / yr |
+| Core Platform | CendiaLineage™ | Included | End-to-end data provenance with cryptographic verification | Core / Professional | $120,000 / yr |
+| Core Platform | CendiaPredict™ | Included | Enterprise forecasting/ML with explainable models, scenario analysis | Core / Professional | $120,000 / yr |
+| Core Platform | CendiaFlow™ | Included | No-code workflow orchestration across teams/systems | Core / Professional | $120,000 / yr |
+| Core Platform | CendiaHealth™ | Included | Continuous monitoring of platform, data pipelines, org health | Core / Professional | $120,000 / yr |
+| Core Platform | CendiaGuard™ | Included | Zero-trust security/policy enforcement for data/workflows/agents | Core / Professional | $120,000 / yr |
+| Core Platform | CendiaEthics™ | Included | Governance engine with ethical/legal/risk veto logic | Core / Professional | $120,000 / yr |
+| Core Platform | CendiaAgents™ | Included | Multi-agent council orchestration with shared context | Core / Professional | $120,000 / yr |
+| Guardian Suite | CendiaAegis™ | $500k–$3M/yr | Real-time threat intelligence/simulation/containment (cyber/geopolitical) | Guardian/Enterprise | $2M–$25M |
+| Guardian Suite | CendiaPanopticon™ | $500k–$3M/yr | Autonomous regulatory intelligence, auto-updates policies/veto rules | Guardian/Enterprise | $2M–$25M |
+| Guardian Suite | CendiaEternal™ | $500k–$3M/yr | Institutional knowledge capture/transfer, preserves expertise/culture | Guardian/Enterprise | $2M–$25M |
+| Guardian Suite | CendiaSymbiont™ | $500k–$3M/yr | Partnership/innovation discovery, evaluates/activates alliances | Guardian/Enterprise | $2M–$25M |
+| Guardian Suite | CendiaCrucible™ | $500k–$3M/yr | Synthetic multiverse simulation, stress testing, Monte Carlo scenarios | Guardian/Enterprise | $2M–$25M |
+| Guardian Suite | CendiaVox™ | $500k–$3M/yr | Stakeholder voice assembly, weighted voting, veto governance | Guardian/Enterprise | $2M–$25M |
+| Sovereign Security | CendiaShield™ | Included | Air-gapped on-premise SCIF-ready deployment | Sovereign | $500,000+ / yr |
+| Enterprise Suite | CendiaVoice™ | $199k / yr | Voice interface for speech control, meeting transcription | Enterprise | $300,000 / yr |
+| Enterprise Suite | CendiaLedger™ | $1.2M–$2.8M/yr | Immutable ledger for Council deliberations/votes (Chronicle) | Enterprise | $300,000 / yr |
+| Decision Intelligence | CendiaChronos™ | Included | Time machine for decision replays, what-if simulations | Enterprise/Sovereign | $300,000+ / yr |
+| Tier 3 Strategic | CendiaMythos™ | $500k–$6M | Corporate narrative/mission alignment engine | Tier 3 | Custom |
+| Tier 3 Strategic | CendiaEthos™ | $500k–$6M | Moral framework with integrity scoring/drift detection | Tier 3 | Custom |
+| Tier 3 Strategic | CendiaGaia™ | $500k–$6M | Sustainability/ESG boundary enforcement | Tier 3 | Custom |
+| Frontier Collection | CendiaNation™ | $10M–$20M/yr | Nation-scale economic OS for macro-modelling/infrastructure | Frontier Partnership | Custom / Gov |
+| Frontier Collection | CendiaOmniShield™ | $10M–$25M/yr | National cyber-defence/resilience grid | Frontier Partnership | Custom / Gov |
+| Frontier Collection | CendiaMarketSovereign™ | $12M–$18M/yr | Financial brain for central banks/systemic risk | Frontier Partnership | Custom / Gov |
+| Frontier Collection | CendiaEternum™ | $75M–$100M+/yr | Civilization-scale resilience/existential risk engine | Frontier Partnership | Custom / Gov |
+
+---
+
+# 2. PRICING TIER MAPPING
+
+| Tier | What's Included | Annual Price Range | Typical Buyer |
+|------|-----------------|-------------------|---------------|
+| **Tier 1** | 8 Core Pillars + basic Enterprise | $0–$150k | Startups/mid-market |
+| **Tier 2** | Guardian Suite + Sovereign/Enterprise | $2M–$25M | Banks/hospitals/defense/F500 |
+| **Tier 3** | Strategic Upgrades + Frontier | $500k–$6M each ($20M+ Frontier) | Governments/nation-states |
+
+### Tier 1: Core Platform ($0–$150k/year)
+- 8 Core Pillars (Helm, Lineage, Predict, Flow, Health, Guard, Ethics, Agents)
+- AI Council with 14 executive agents
+- Basic decision intelligence
+- Standard integrations
+
+### Tier 2: Guardian/Enterprise ($2M–$25M/year)
+- Everything in Tier 1
+- Guardian Suite (Aegis, Panopticon, Eternal, Symbiont, Crucible, Vox)
+- Sovereign deployment options
+- Enterprise voice, ledger, mesh
+- Industry-specific agents
+
+### Tier 3: Strategic/Frontier ($500k–$100M+/year)
+- Everything in Tier 2
+- Strategic services (Mythos, Ethos, Gaia)
+- Frontier Collection for nation-states
+- Custom development partnership
+- Dedicated support team
+
+---
+
+# 3. CORE PLATFORM (8 PILLARS)
+
+*Included in all packages — Foundation of the Datacendia Platform*
+
+| Pillar | Service | Purpose | AI Agents Used |
+|--------|---------|---------|----------------|
+| **The Helm** | CendiaHelm™ | Command & Control — Real-time KPI dashboards, natural language control, executive alerts | CFO, COO, Chief |
+| **The Lineage** | CendiaLineage™ | Data Provenance — End-to-end tracking with cryptographic verification | CDO, CISO |
+| **The Predict** | CendiaPredict™ | Enterprise Forecasting — ML with explainable models, scenario analysis | CFO, Risk, CAIO |
+| **The Flow** | CendiaFlow™ | Workflow Orchestration — No-code automation across teams/systems | COO, Chief |
+| **The Health** | CendiaHealth™ | Continuous Monitoring — Platform, data pipelines, organizational health | All (monitoring) |
+| **The Guard** | CendiaGuard™ | Zero-Trust Security — Policy enforcement for data/workflows/agents | CISO, CLO, Risk |
+| **The Ethics** | CendiaEthics™ | Governance Engine — Ethical/legal/risk veto logic | CAIO, Chief |
+| **The Agents** | CendiaAgents™ | Multi-Agent Council — Orchestration with shared context | All Council |
+
+---
+
+# 4. GUARDIAN SUITE
+
+*Tier 2+ — Advanced protection and strategic intelligence*
+
+| Service | Price | Purpose | Key Features |
+|---------|-------|---------|--------------|
+| **CendiaAegis™** | $500k–$3M/yr | Real-time threat intelligence | Cyber/geopolitical threat simulation, containment, resilience modeling |
+| **CendiaPanopticon™** | $500k–$3M/yr | Autonomous regulatory intelligence | Auto-updates policies/veto rules, compliance forecasting, framework mapping |
+| **CendiaEternal™** | $500k–$3M/yr | Institutional knowledge preservation | Expertise capture, culture preservation, succession planning, format migration |
+| **CendiaSymbiont™** | $500k–$3M/yr | Partnership/innovation discovery | Ecosystem mapping, alliance evaluation, opportunity radar |
+| **CendiaCrucible™** | $500k–$3M/yr | Synthetic multiverse simulation | Monte Carlo stress testing, shock injection, failure cascade mapping |
+| **CendiaVox™** | $500k–$3M/yr | Stakeholder voice governance | Weighted voting, veto system, signal aggregation, assembly orchestration |
+
+---
+
+# 5. ENTERPRISE SUITE
+
+*Enterprise-grade capabilities for large organizations*
+
+| Service | Price | Purpose | AI Agents Used |
+|---------|-------|---------|----------------|
+| **CendiaVoice™** | $199k/yr | Voice-powered decision intelligence | All agents (voice) |
+| **CendiaLedger™** | $1.2M–$2.8M/yr | Immutable decision audit trail | All agents (audit) |
+| **CendiaMesh™** | $349/mo | Integration mesh — connect enterprise systems | CDO, COO |
+| **CendiaGovern™** | $299/mo | Enterprise policy & access management | CISO, CLO, Chief |
+| **CendiaAutopilot™** | $499/mo | Autonomous AI decision making | All agents (auto) |
+| **CendiaGenomics™** | $299/mo | Organizational DNA mapping | COO, HR, Chief |
+| **CendiaDefenseStack™** | $449/mo | Security command center | CISO, Risk, CDO |
+| **CendiaOmniTranslate™** | $149/mo | Universal translation (100+ languages) | All agents (i18n) |
+| **CendiaVeto™** | $199/mo | Proposal veto system with AI analysis | All Council |
+| **CendiaUnion™** | $349/mo | Multi-council unified decisions | All agents (multi) |
+| **CendiaVault™** | $199/mo | Sovereign document storage (MinIO) | CDO, CISO |
+| **CendiaApotheosis™** | $349/mo | AI model self-improvement & optimization | CAIO, CDO |
+| **CendiaDissent™** | $199/mo | Disagreement capture & resolution | All Council |
+| **CendiaAutoHeal™** | $249/mo | Self-diagnosing AI debugging | All agents (monitoring) |
+| **CendiaPersonaForge™** | $249/mo | Create & manage AI personas | CAIO, Chief |
+| **CendiaSovereign™** | $399/mo | Data sovereignty & residency control | CDO, CISO |
+
+---
+
+# 6. DECISION INTELLIGENCE SUITE
+
+| Service | Price | Purpose | AI Agents Used |
+|---------|-------|---------|----------------|
+| **CendiaChronos™** | Included | Enterprise time machine — historical navigation, what-if simulations | CDO, CFO, Risk |
+| **Decision DNA** | $249/mo | Full lifecycle decision tracking & replay | Chief, All Council |
+| **Pre-Mortem Analysis** | $149/mo | Failure mode analysis before deciding | Risk, CISO, CLO |
+| **Ghost Board™** | $299/mo | AI-powered board meeting simulation | Chief, CFO, CLO, Risk |
+| **Decision Debt** | $99/mo | Track stuck decisions and costs | COO, CFO, Chief |
+| **Live Demo Mode** | $79/mo | Connect to real data instantly | CDO, All |
+| **Regulatory Absorb** | $199/mo | Instant compliance learning | CISO, CLO, Risk |
+
+---
+
+# 7. TIER 3 STRATEGIC
+
+*Strategic upgrades for enterprise transformation*
+
+| Service | Price | Purpose | Key Capabilities |
+|---------|-------|---------|------------------|
+| **CendiaMythos™** | $500k–$6M | Corporate Narrative Engine | Mission alignment, story coherence, brand integrity, cultural DNA preservation |
+| **CendiaEthos™** | $500k–$6M | Moral Framework Engine | Integrity scoring, ethical drift detection, values alignment, principle enforcement |
+| **CendiaGaia™** | $500k–$6M | Sustainability Boundary Engine | ESG enforcement, carbon tracking, regenerative impact, planetary boundaries |
+
+---
+
+# 8. HUMAN-DIGITAL MERGER
+
+*Advanced human-AI collaboration capabilities*
+
+| Service | Purpose | Key Features |
+|---------|---------|--------------|
+| **CendiaGnosis™** | Organizational learning intelligence | Skill mapping, knowledge gaps, upskilling paths, decision impact learning |
+| **CendiaRedTeam™** | Adversarial AI testing | Vulnerability simulation, attack vectors, defense hardening |
+| **CendiaWitness™** | Immutable evidence chain | Legal holds, custody tracking, tamper-proof records |
+| **CendiaTruth™** | Claim verification engine | Evidence scoring, consensus building, fact validation |
+| **CendiaMemory™** | Institutional memory system | Knowledge articles, expertise profiles, organizational recall |
+
+---
+
+# 9. FRONTIER COLLECTION
+
+*Nation-scale and civilization-level capabilities*
+
+| Service | Price | Purpose | Target Customer |
+|---------|-------|---------|-----------------|
+| **CendiaNation™** | $10M–$20M/yr | Nation-scale economic OS | Governments — macro-modelling, infrastructure planning, policy simulation |
+| **CendiaOmniShield™** | $10M–$25M/yr | National cyber-defence grid | Governments — resilience grid, threat coordination, critical infrastructure |
+| **CendiaMarketSovereign™** | $12M–$18M/yr | Financial brain for central banks | Central banks — systemic risk, monetary policy, market stability |
+| **CendiaEternum™** | $75M–$100M+/yr | Civilization-scale resilience | Nation-states — existential risk, long-term planning, species-level decisions |
+
+---
+
+# 10. SOVEREIGN SECURITY
+
+*Air-gapped, on-premise, SCIF-ready deployment*
+
+| Service | Purpose | Technology |
+|---------|---------|------------|
+| **CendiaShield™** | Air-gapped deployment | On-premise, no external connectivity |
+| **CendiaVault™** | Document storage | MinIO — never leaves premises |
+| **Document Extraction** | Text extraction | Apache Tika — PDF/DOCX/XLSX |
+| **Vector Search (RAG)** | Semantic search | pgvector embeddings |
+| **Job Queue** | Async processing | BullMQ |
+| **Policy Engine** | RBAC, veto rules | Casbin |
+| **Timeline Analytics** | Time-series | Apache Druid |
+| **OCR Processing** | Image-to-text | Tesseract |
+
+**Sovereign Stack Complete:** $500,000+ / year
+
+---
+
+# 11. AI AGENTS
 
 ## Core Executive Council (FREE - Included in Base Platform)
 
@@ -46,101 +244,7 @@
 
 ---
 
-# 2. PREMIUM FEATURES & PACKS
-
-## Standard Tier ($99-199/month)
-
-| Feature | Price/mo | Purpose | Agents Used | Pillars |
-|---------|----------|---------|-------------|---------|
-| **Export & Reporting Pack** | $99 | Professional document export, branded templates | All agents (report sections) | Helm, Lineage |
-| **Analytics & Insights Pack** | $149 | Decision analytics, agent performance tracking | All agents (analytics) | Helm, Predict, Agents |
-| **Custom Council Modes** | $179 | Create custom deliberation modes | User-defined agents | All (configurable) |
-| **Agent Builder Pack** | $199 | Create unlimited custom AI agents | Custom agents | Agents, Ethics |
-| **Document Analysis Pack** | $199 | Upload & analyze documents | CFO, CLO, CDO | Lineage, Guard |
-
-## Professional Tier ($249-349/month)
-
-| Feature | Price/mo | Purpose | Agents Used | Pillars |
-|---------|----------|---------|-------------|---------|
-| **Team Collaboration Pack** | $249 | Multi-user access (10 seats), sharing | All agents (team) | Helm, Flow |
-| **Audit Excellence Pack** | $299 | External + Internal Auditor agents | ext-auditor, int-auditor | Guard, Ethics, Lineage |
-| **API Access Pack** | $299 | Full REST API, webhooks, integrations | All agents (programmatic) | All |
-| **Compliance & Audit Trail** | $349 | Full audit logging, GDPR tools | All agents (logging) | Guard, Ethics, Lineage |
-
-## Enterprise Tier ($399-999/month)
-
-| Feature | Price/mo | Purpose | Agents Used | Pillars |
-|---------|----------|---------|-------------|---------|
-| **Healthcare Industry Pack** | $399 | 4 healthcare-specific agents | CMIO, PSO, HCO, COD | Health, Guard, Ethics |
-| **Finance Industry Pack** | $399 | 4 finance-specific agents | quant, pm, cro-finance, treasury | Helm, Predict, Guard |
-| **Legal Industry Pack** | $399 | 4 legal-specific agents | contracts, ip, litigation, reg-affairs | Guard, Ethics |
-| **Unlimited Team Pack** | $499 | Unlimited users, SSO/SAML | All agents (enterprise) | All |
-| **White Label & Branding** | $599 | Custom branding, remove Datacendia | All agents (branded) | All |
-| **Dedicated AI Models** | $999 | Private Ollama instances, fine-tuned | Dedicated agents | Agents, All |
-
----
-
-# 3. DECISION INTELLIGENCE SUITE
-
-| Service | Purpose | AI Agents Used | Price | Package | Industry | Pillars |
-|---------|---------|----------------|-------|---------|----------|---------|
-| **CendiaChronos™** | Enterprise time machine - historical data navigation | CDO, CFO, Risk | $199/mo | Decision Intel | All | Helm, Lineage, Predict |
-| **Decision DNA** | Full lifecycle decision tracking & replay | Chief, All Council | $249/mo | Decision Intel | All | Helm, Lineage, Flow |
-| **Pre-Mortem Analysis** | Failure mode analysis before deciding | Risk, CISO, CLO | $149/mo | Decision Intel | All | Predict, Guard, Ethics |
-| **Ghost Board** | AI-powered board meeting simulation | Chief, CFO, CLO, Risk | $299/mo | Decision Intel | Enterprise | Agents, Ethics, Predict |
-| **Decision Debt** | Track stuck decisions and costs | COO, CFO, Chief | $99/mo | Decision Intel | All | Helm, Flow |
-| **Live Demo Mode** | Connect to real data instantly | CDO, All | $79/mo | Decision Intel | All | Lineage, Health |
-| **Regulatory Absorb** | Instant compliance learning | CISO, CLO, Risk | $199/mo | Decision Intel | Finance, Healthcare | Guard, Ethics |
-
----
-
-# 4. ENTERPRISE SUITE
-
-| Service | Purpose | AI Agents Used | Price | Package | Industry | Pillars |
-|---------|---------|----------------|-------|---------|----------|---------|
-| **CendiaSovereign™** | Data sovereignty & residency control | CDO, CISO | $399/mo | Enterprise | Finance, Healthcare, Gov | Guard, Lineage |
-| **CendiaPersonaForge™** | Create & manage AI personas | CAIO, Chief | $249/mo | Enterprise | All | Agents, Ethics |
-| **CendiaMesh™** | Integration mesh - connect enterprise systems | CDO, COO, CTO | $349/mo | Enterprise | Enterprise | Flow, Health, Lineage |
-| **CendiaGovern™** | Enterprise policy & access management | CISO, CLO, Chief | $299/mo | Enterprise | All | Guard, Ethics, Flow |
-| **CendiaVoice™** | Voice-powered decision intelligence | All agents (voice) | $199/mo | Enterprise | All | Helm, Agents |
-| **CendiaAutopilot™** | Autonomous AI decision making | All agents (auto) | $499/mo | Enterprise | Enterprise | Flow, Ethics, Agents |
-| **CendiaGenomics™** | Organizational DNA mapping | COO, HR, Chief | $299/mo | Enterprise | Enterprise | Helm, Flow |
-| **CendiaDefenseStack™** | Security command center | CISO, Risk, CDO | $449/mo | Enterprise | All | Guard, Health |
-| **CendiaOmniTranslate™** | Universal translation (50+ languages) | All agents (i18n) | $149/mo | Enterprise | Global | All |
-| **CendiaVeto™** | Proposal veto system with AI analysis | All Council | $199/mo | Enterprise | Enterprise | Ethics, Guard |
-| **CendiaUnion™** | Multi-council unified decisions | All agents (multi) | $349/mo | Enterprise | Enterprise | Agents, Flow |
-| **CendiaLedger™** | Immutable decision audit trail | All agents (audit) | $299/mo | Enterprise | Finance, Healthcare | Guard, Lineage |
-
----
-
-# 5. PILLAR SERVICES
-
-| Pillar | Purpose | AI Agents Used | Price | Pillars Dependent On |
-|--------|---------|----------------|-------|---------------------|
-| **The Helm** | Command & Control - KPI dashboards | CFO, COO, Chief | Included | - |
-| **The Lineage** | Data provenance & quality tracking | CDO, CISO | Included | Helm |
-| **The Predict** | ML-powered forecasting | CFO, Risk, CDO, CAIO | $149/mo add-on | Helm, Lineage |
-| **The Flow** | Workflow automation | COO, Chief | Included | Helm |
-| **The Health** | System monitoring & diagnostics | All (monitoring) | Included | - |
-| **The Guard** | Security posture & compliance | CISO, CLO, Risk | Included | Ethics, Health |
-| **The Ethics** | AI governance & guardrails | CAIO, Chief, Ethics | Included | Guard |
-| **The Agents** | AI agent management | CAIO, Chief | Included | All |
-
----
-
-# 6. BUNDLE PACKAGES
-
-| Bundle | Contents | Individual Value | Bundle Price | Savings | Tier |
-|--------|----------|------------------|--------------|---------|------|
-| **Starter Bundle** | Export + Analytics | $248 | $299/mo | 20% | Standard |
-| **Creator Bundle** | Agent Builder + Custom Modes | $378 | $299/mo | 21% | Standard |
-| **Professional Bundle** | Team + API + Compliance + Audit | $1,196 | $699/mo | 42% | Professional |
-| **Industry Expert Bundle** | Healthcare + Finance + Legal Packs | $1,197 | $899/mo | 25% | Enterprise |
-| **Enterprise Complete** | All 15 Features | $5,188 | $2,499/mo | 52% | Enterprise |
-
----
-
-# 7. INDUSTRY-SPECIFIC PACKAGES
+# 12. INDUSTRY-SPECIFIC PACKAGES
 
 ## Healthcare Package ($399/month)
 
@@ -177,9 +281,30 @@
 
 ---
 
+# 13. BUNDLE PACKAGES
+
+| Bundle | Contents | Individual Value | Bundle Price | Savings | Tier |
+|--------|----------|------------------|--------------|---------|------|
+| **Starter Bundle** | Export + Analytics | $248 | $299/mo | 20% | Standard |
+| **Creator Bundle** | Agent Builder + Custom Modes | $378 | $299/mo | 21% | Standard |
+| **Professional Bundle** | Team + API + Compliance + Audit | $1,196 | $699/mo | 42% | Professional |
+| **Industry Expert Bundle** | Healthcare + Finance + Legal Packs | $1,197 | $899/mo | 25% | Enterprise |
+| **Enterprise Complete** | All 20 Features | $6,485 | $2,999/mo | 54% | Enterprise |
+| **Sovereign Bundle** | Vault + Druid + Full Stack | $847 | $499/mo | 41% | Sovereign |
+
+---
+
 # PRICING SUMMARY
 
-## By Tier
+## Enterprise Pricing Tiers
+
+| Tier | What's Included | Annual Price | Typical Buyer |
+|------|-----------------|--------------|---------------|
+| **Tier 1** | 8 Core Pillars + basic Enterprise | $0–$150k | Startups/mid-market |
+| **Tier 2** | Guardian Suite + Sovereign/Enterprise | $2M–$25M | Banks/hospitals/defense/F500 |
+| **Tier 3** | Strategic + Frontier Collection | $500k–$100M+ | Governments/nation-states |
+
+## Self-Service Pricing (SMB)
 
 | Tier | Price Range | Features | Target Customer |
 |------|-------------|----------|-----------------|
@@ -188,22 +313,13 @@
 | **Professional** | $249-349/mo | Team, API, Compliance, Auditors | Mid-Market |
 | **Enterprise** | $399-999/mo | Industry Packs, White Label, Dedicated AI | Enterprise |
 
-## By Package Type
-
-| Package | Price Range | # of Services |
-|---------|-------------|---------------|
-| Individual Features | $99-999/mo | 15 |
-| Decision Intelligence | $79-299/mo | 7 |
-| Enterprise Suite | $149-499/mo | 12 |
-| Industry Packs | $399/mo each | 3 |
-| Bundles | $299-2,499/mo | 5 |
-
 ## Total Platform Value
 
-- **Core (Free):** 14 Agents + 8 Pillars + Council
-- **All Premium Features:** $5,188/month
-- **Enterprise Complete Bundle:** $2,499/month (52% savings)
-- **Annual Enterprise (40% off):** $17,993/year
+- **Core (Free):** 14 Agents + 8 Pillars + Council + Drop to Deliberate™
+- **Guardian Suite:** $500k–$3M/year per module
+- **Frontier Collection:** $10M–$100M+/year
+- **Enterprise Complete Bundle:** $2,999/month (54% savings)
+- **Sovereign Stack:** $500,000+/year
 
 ---
 
@@ -228,4 +344,4 @@
 
 ---
 
-*This catalog represents the complete Datacendia platform offering as of Enterprise Platinum release.*
+*This catalog represents the complete Datacendia platform offering as of Enterprise Platinum v2.0 release (December 2025).*

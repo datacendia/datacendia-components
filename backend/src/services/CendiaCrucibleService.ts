@@ -487,8 +487,12 @@ class CendiaCrucibleService {
         impacts
       );
 
-      // Generate summary
-      const summary = this.generateResultSummary(universes, impacts);
+      // Generate summary with AI-powered strategic analysis
+      const summary = await this.generateResultSummary(
+        universes, 
+        impacts, 
+        simulation.simulation_type as SimulationType
+      );
 
       // Update simulation with results
       await prisma.crucible_simulations.update({
@@ -1059,12 +1063,13 @@ Respond with: 1) Key finding, 2) Main recommendation, 3) Primary risk, 4) Confid
   }
 
   /**
-   * Generate summary of simulation results
+   * Generate summary of simulation results with AI-powered strategic analysis
    */
-  private generateResultSummary(
+  private async generateResultSummary(
     universes: Universe[],
-    impacts: Impact[]
-  ): ResultSummary {
+    impacts: Impact[],
+    simulationType: SimulationType
+  ): Promise<ResultSummary> {
     const sortedByOutcome = [...universes].sort((a, b) => {
       const sentimentOrder = { OPTIMAL: 4, POSITIVE: 3, NEUTRAL: 2, NEGATIVE: 1, CATASTROPHIC: 0 };
       return sentimentOrder[b.outcomeSentiment] - sentimentOrder[a.outcomeSentiment];
@@ -1076,14 +1081,12 @@ Respond with: 1) Key finding, 2) Main recommendation, 3) Primary risk, 4) Confid
       curr.probability > prev.probability ? curr : prev
     );
 
-    const criticalImpacts = impacts.filter(i => i.severity === 'CRITICAL' || i.severity === 'HIGH');
-    const keyRisks = criticalImpacts
-      .filter(i => (i.changePercent || 0) < 0)
-      .map(i => `${i.entityName}: ${Math.abs(i.changePercent || 0).toFixed(1)}% decline`);
-
-    const opportunities = impacts
-      .filter(i => (i.changePercent || 0) > 10)
-      .map(i => `${i.entityName}: ${(i.changePercent || 0).toFixed(1)}% improvement potential`);
+    // Generate AI-powered strategic risks and opportunities
+    const { keyRisks, keyOpportunities } = await this.generateStrategicAnalysis(
+      impacts,
+      simulationType,
+      mostLikely
+    );
 
     return {
       totalUniverses: universes.length,
@@ -1105,10 +1108,108 @@ Respond with: 1) Key finding, 2) Main recommendation, 3) Primary risk, 4) Confid
         sentiment: mostLikely.outcomeSentiment,
         summary: mostLikely.outcomeSummary,
       },
-      keyRisks: keyRisks.slice(0, 5),
-      keyOpportunities: opportunities.slice(0, 3),
+      keyRisks,
+      keyOpportunities,
       overallConfidence: this.calculateOverallConfidence(universes),
     };
+  }
+
+  /**
+   * Generate strategic risk and opportunity analysis using AI
+   */
+  private async generateStrategicAnalysis(
+    impacts: Impact[],
+    simulationType: SimulationType,
+    mostLikelyUniverse: Universe
+  ): Promise<{ keyRisks: string[]; keyOpportunities: string[] }> {
+    const criticalImpacts = impacts.filter(i => i.severity === 'CRITICAL' || i.severity === 'HIGH');
+    const negativeImpacts = criticalImpacts.filter(i => (i.changePercent || 0) < 0);
+    const positiveImpacts = impacts.filter(i => (i.changePercent || 0) > 5);
+
+    // Build context for AI analysis
+    const impactContext = negativeImpacts
+      .map(i => `${i.entityName}: ${i.changePercent?.toFixed(1)}% (${i.severity})`)
+      .join(', ');
+    
+    const opportunityContext = positiveImpacts
+      .map(i => `${i.entityName}: +${i.changePercent?.toFixed(1)}%`)
+      .join(', ');
+
+    try {
+      // Generate strategic risks using AI
+      const riskPrompt = `You are a strategic risk analyst. Based on a ${simulationType.replace(/_/g, ' ')} scenario simulation with outcome "${mostLikelyUniverse.outcomeSentiment}", analyze these impacts and provide 4 strategic risks (not just restating percentages, but strategic implications):
+
+CRITICAL IMPACTS: ${impactContext || 'No critical negative impacts'}
+OUTCOME PROBABILITY: ${(mostLikelyUniverse.probability * 100).toFixed(1)}%
+
+Provide exactly 4 strategic risk statements. Each should be actionable and specific. Format as a JSON array of strings.`;
+
+      const opportunityPrompt = `You are a strategic opportunity analyst. Based on a ${simulationType.replace(/_/g, ' ')} scenario simulation, identify strategic opportunities from these potential improvements:
+
+POSITIVE INDICATORS: ${opportunityContext || 'Limited positive indicators in this scenario'}
+SCENARIO TYPE: ${simulationType.replace(/_/g, ' ')}
+
+Provide exactly 3 strategic opportunity statements. Each should be actionable and specific. Format as a JSON array of strings.`;
+
+      const [riskResponse, opportunityResponse] = await Promise.all([
+        this.llmService.generate(riskPrompt, { maxTokens: 500, temperature: 0.3 }),
+        this.llmService.generate(opportunityPrompt, { maxTokens: 400, temperature: 0.3 }),
+      ]);
+
+      // Parse AI responses
+      const keyRisks = this.parseJsonArray(riskResponse) || this.getFallbackRisks(negativeImpacts);
+      const keyOpportunities = this.parseJsonArray(opportunityResponse) || this.getFallbackOpportunities(positiveImpacts);
+
+      return { keyRisks: keyRisks.slice(0, 5), keyOpportunities: keyOpportunities.slice(0, 4) };
+    } catch (error) {
+      logger.warn('[CendiaCrucible] AI analysis failed, using basic analysis', { error });
+      // Fallback to basic analysis if AI fails
+      return {
+        keyRisks: this.getFallbackRisks(negativeImpacts),
+        keyOpportunities: this.getFallbackOpportunities(positiveImpacts),
+      };
+    }
+  }
+
+  /**
+   * Parse JSON array from AI response
+   */
+  private parseJsonArray(response: string): string[] | null {
+    try {
+      // Try to extract JSON array from response
+      const jsonMatch = response.match(/\[[\s\S]*\]/);
+      if (jsonMatch) {
+        const parsed = JSON.parse(jsonMatch[0]);
+        if (Array.isArray(parsed) && parsed.every(item => typeof item === 'string')) {
+          return parsed;
+        }
+      }
+      return null;
+    } catch {
+      return null;
+    }
+  }
+
+  /**
+   * Fallback risk generation when AI is unavailable
+   */
+  private getFallbackRisks(negativeImpacts: Impact[]): string[] {
+    return negativeImpacts.slice(0, 4).map(i => {
+      const severity = i.severity === 'CRITICAL' ? 'Critical' : 'Significant';
+      return `${severity} ${i.entityName.toLowerCase()} degradation may trigger cascading effects across dependent systems`;
+    });
+  }
+
+  /**
+   * Fallback opportunity generation when AI is unavailable
+   */
+  private getFallbackOpportunities(positiveImpacts: Impact[]): string[] {
+    if (positiveImpacts.length === 0) {
+      return ['Crisis response preparation strengthens organizational resilience'];
+    }
+    return positiveImpacts.slice(0, 3).map(i => 
+      `Leverage ${i.entityName.toLowerCase()} improvement to accelerate strategic initiatives`
+    );
   }
 
   /**

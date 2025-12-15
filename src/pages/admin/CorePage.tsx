@@ -11,8 +11,10 @@ import {
   TrendingUp, AlertTriangle, Calendar, FileText, Users,
   Target, Zap, Brain, Shield, ArrowRight, RefreshCw,
   CheckCircle2, Clock, Send, BarChart3, Sparkles,
-  Crown, MessageSquare, Settings, ChevronRight
+  Crown, MessageSquare, Settings, ChevronRight, Server,
+  Database, HardDrive, Activity, ExternalLink
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 // =============================================================================
 // TYPES
@@ -521,6 +523,50 @@ export default function CorePage() {
             <button className="mt-4 text-amber-400 text-sm hover:text-amber-300 transition-colors flex items-center gap-1">
               Ask the Mirror <ChevronRight className="w-4 h-4" />
             </button>
+          </div>
+
+          {/* Sovereign Stack Status */}
+          <div className="bg-gradient-to-br from-indigo-500/10 to-purple-500/10 border border-indigo-500/30 rounded-2xl p-6">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-lg bg-indigo-500/20 flex items-center justify-center">
+                  <Server className="w-5 h-5 text-indigo-400" />
+                </div>
+                <div>
+                  <h3 className="text-white font-semibold">Sovereign Stack</h3>
+                  <p className="text-indigo-400/70 text-xs">Infrastructure Status</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5 px-2 py-1 bg-green-500/20 rounded-full">
+                <CheckCircle2 className="w-3 h-3 text-green-400" />
+                <span className="text-xs text-green-400 font-medium">Online</span>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-2 mb-4">
+              <div className="flex items-center gap-2 p-2 bg-neutral-800/50 rounded-lg">
+                <Database className="w-4 h-4 text-blue-400" />
+                <span className="text-xs text-neutral-300">PostgreSQL</span>
+              </div>
+              <div className="flex items-center gap-2 p-2 bg-neutral-800/50 rounded-lg">
+                <Activity className="w-4 h-4 text-green-400" />
+                <span className="text-xs text-neutral-300">Druid</span>
+              </div>
+              <div className="flex items-center gap-2 p-2 bg-neutral-800/50 rounded-lg">
+                <HardDrive className="w-4 h-4 text-amber-400" />
+                <span className="text-xs text-neutral-300">MinIO</span>
+              </div>
+              <div className="flex items-center gap-2 p-2 bg-neutral-800/50 rounded-lg">
+                <Activity className="w-4 h-4 text-purple-400" />
+                <span className="text-xs text-neutral-300">Grafana</span>
+              </div>
+            </div>
+            <Link 
+              to="/admin/sovereign-stack"
+              className="flex items-center justify-center gap-2 w-full py-2 bg-indigo-500/20 hover:bg-indigo-500/30 rounded-lg text-indigo-400 text-sm transition-colors"
+            >
+              <ExternalLink className="w-4 h-4" />
+              Open Infrastructure
+            </Link>
           </div>
 
           {/* Activity Feed */}

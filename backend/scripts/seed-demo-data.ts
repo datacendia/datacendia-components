@@ -138,7 +138,7 @@ async function seedUsers(orgId: string, orgSlug: string, count: number) {
   const passwordHash = await bcrypt.hash('Demo2024!', 10);
   
   // Create admin user first
-  const admin = await prisma.user.upsert({
+  const admin = await prisma.users.upsert({
     where: { email: `admin@${orgSlug}.com` },
     update: {},
     create: {
@@ -160,7 +160,7 @@ async function seedUsers(orgId: string, orgSlug: string, count: number) {
     const department = randomChoice(DEPARTMENTS);
     const title = `${randomChoice(JOB_TITLES)} of ${department}`;
     
-    const user = await prisma.user.upsert({
+    const user = await prisma.users.upsert({
       where: { email: `${firstName.toLowerCase()}.${lastName.toLowerCase()}${i}@${orgSlug}.com` },
       update: {},
       create: {
@@ -191,7 +191,7 @@ async function seedMetrics(orgId: string, ownerId: string) {
   let dataPointCount = 0;
   
   for (const metric of METRIC_TYPES) {
-    const metricDef = await prisma.metricDefinition.upsert({
+    const metricDef = await prisma.metric_definitions.upsert({
       where: { organizationId_code: { organizationId: orgId, code: metric.code } },
       update: {},
       create: {
@@ -232,7 +232,7 @@ async function seedMetrics(orgId: string, ownerId: string) {
       });
     }
     
-    await prisma.metricValue.createMany({ data: dataPoints, skipDuplicates: true });
+    await prisma.metric_values.createMany({ data: dataPoints, skipDuplicates: true });
     dataPointCount += dataPoints.length;
   }
   
@@ -268,7 +268,7 @@ async function seedWorkflows(orgId: string) {
   let executionCount = 0;
   
   for (const template of WORKFLOW_TEMPLATES) {
-    const workflow = await prisma.workflow.create({
+    const workflow = await prisma.workflows.create({
       data: {
         organizationId: orgId,
         name: template.name,
@@ -298,7 +298,7 @@ async function seedWorkflows(orgId: string) {
       const startedAt = randomDate(new Date('2024-01-01'), new Date());
       const duration = randomBetween(60, 3600) * 1000;
       
-      await prisma.workflowExecution.create({
+      await prisma.workflow_executions.create({
         data: {
           workflowId: workflow.id,
           status: randomChoice(['COMPLETED', 'COMPLETED', 'COMPLETED', 'FAILED', 'PENDING']) as any,
@@ -338,7 +338,7 @@ async function seedAlerts(orgId: string, users: any[]) {
     });
   }
   
-  await prisma.alert.createMany({ data: alerts });
+  await prisma.alerts.createMany({ data: alerts });
   console.log(`    ✓ Created ${alerts.length} alerts`);
   return alerts.length;
 }
@@ -351,7 +351,7 @@ async function seedDeliberations(orgId: string, users: any[]) {
   for (const topic of DECISION_TOPICS) {
     const createdAt = randomDate(new Date('2024-01-01'), new Date());
     
-    const deliberation = await prisma.deliberation.create({
+    const deliberation = await prisma.deliberations.create({
       data: {
         organizationId: orgId,
         question: topic,
@@ -374,9 +374,9 @@ async function seedDeliberations(orgId: string, users: any[]) {
     
     for (let i = 0; i < msgCount; i++) {
       // Get agent ID from database
-      const agent = await prisma.agent.findFirst({ where: { code: randomChoice(agents) } });
+      const agent = await prisma.agents.findFirst({ where: { code: randomChoice(agents) } });
       if (agent) {
-        await prisma.deliberationMessage.create({
+        await prisma.deliberation_messages.create({
           data: {
             deliberationId: deliberation.id,
             agentId: agent.id,
@@ -442,7 +442,7 @@ async function seedHealthScores(orgId: string) {
     });
   }
   
-  await prisma.healthScore.createMany({ data: scores });
+  await prisma.health_scores.createMany({ data: scores });
   console.log(`    ✓ Created ${scores.length} health score records`);
   return scores.length;
 }
@@ -473,7 +473,7 @@ async function seedAuditLogs(orgId: string, users: any[]) {
     });
   }
   
-  await prisma.auditLog.createMany({ data: logs });
+  await prisma.audit_logs.createMany({ data: logs });
   console.log(`    ✓ Created ${logs.length} audit logs`);
   return logs.length;
 }
@@ -493,7 +493,7 @@ async function seedDataSources(orgId: string) {
   ];
   
   for (const source of sources) {
-    await prisma.dataSource.create({
+    await prisma.data_sources.create({
       data: {
         organizationId: orgId,
         name: source.name,
