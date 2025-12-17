@@ -3223,7 +3223,7 @@ export const CouncilPage: React.FC = () => {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {allAgents
-                    .filter(a => !a.premium && !a.isCustom && ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cro', 'cdo', 'risk'].includes(a.code))
+                    .filter(a => !a.premium && !a.isCustom)
                     .map((agent) => (
                       <div
                         key={agent.id}
