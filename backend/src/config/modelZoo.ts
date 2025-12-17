@@ -460,7 +460,111 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   },
 
   // =========================================================================
-  // HEALTHCARE INDUSTRY AGENTS (Premium)
+  // PRO TIER AGENTS - Extended Executive Team
+  // =========================================================================
+  {
+    agentCode: 'cto',
+    agentName: 'CendiaCTO',
+    primaryModel: 'qwen2.5-coder:32b',
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    systemPromptEnhancements: 'Evaluate architecture decisions. Consider scalability and technical debt.',
+    optimalTemperature: 0.4,
+    useChainOfThought: true,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'chro',
+    agentName: 'CendiaCHRO',
+    primaryModel: 'qwen2.5:7b',
+    fallbackModels: ['llama3:70b', 'mixtral:8x22b'],
+    systemPromptEnhancements: 'Consider culture, talent, and organizational dynamics.',
+    optimalTemperature: 0.6,
+    useChainOfThought: false,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'cxo',
+    agentName: 'CendiaCXO',
+    primaryModel: 'qwen2.5:7b',
+    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    systemPromptEnhancements: 'Focus on customer journey and experience metrics.',
+    optimalTemperature: 0.6,
+    useChainOfThought: false,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'procurement',
+    agentName: 'CendiaProcurement',
+    primaryModel: 'qwen2.5:7b',
+    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    systemPromptEnhancements: 'Apply Kraljic Matrix. Consider TCO and supplier risk.',
+    optimalTemperature: 0.5,
+    useChainOfThought: true,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'ma',
+    agentName: 'CendiaMA',
+    primaryModel: 'qwen2.5:7b',
+    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    systemPromptEnhancements: 'Use DCF and comparable analysis. Consider integration risk.',
+    optimalTemperature: 0.5,
+    useChainOfThought: true,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'innovation',
+    agentName: 'CendiaInnovation',
+    primaryModel: 'qwen2.5:7b',
+    fallbackModels: ['mixtral:8x22b', 'llama3:70b'],
+    systemPromptEnhancements: 'Apply Three Horizons framework. Balance exploration and exploitation.',
+    optimalTemperature: 0.8,  // Higher creativity
+    useChainOfThought: false,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'ir',
+    agentName: 'CendiaIR',
+    primaryModel: 'qwen2.5:7b',
+    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    systemPromptEnhancements: 'Consider Reg FD compliance. Balance transparency with sensitivity.',
+    optimalTemperature: 0.5,
+    useChainOfThought: false,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'ethics',
+    agentName: 'CendiaEthics',
+    primaryModel: 'qwq:32b',  // Deep reasoning for ethical dilemmas
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    systemPromptEnhancements: 'Apply ethical frameworks. Consider stakeholder impact.',
+    optimalTemperature: 0.4,
+    useChainOfThought: true,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'crisis',
+    agentName: 'CendiaCrisis',
+    primaryModel: 'llama3.2:3b',  // Fast for crisis response
+    fallbackModels: ['qwen2.5:7b', 'llama3:8b'],
+    systemPromptEnhancements: 'Act fast. Communicate early. Use ICS framework.',
+    optimalTemperature: 0.4,
+    useChainOfThought: false,
+    useEnsemble: false,
+  },
+  {
+    agentCode: 'gov-relations',
+    agentName: 'CendiaGovRelations',
+    primaryModel: 'qwen2.5:7b',
+    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    systemPromptEnhancements: 'Consider federal and state regulatory landscapes.',
+    optimalTemperature: 0.5,
+    useChainOfThought: true,
+    useEnsemble: false,
+  },
+
+  // =========================================================================
+  // HEALTHCARE INDUSTRY AGENTS (Enterprise)
   // =========================================================================
   {
     agentCode: 'cmio',
