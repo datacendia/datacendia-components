@@ -104,6 +104,7 @@ import connectorsRoutes from './routes/connectors.js';
 import cascadeRoutes from './routes/cascade.js';
 import adaptersRoutes from './routes/adapters.js';
 import strategicRoutes from './routes/strategic.js';
+import sampleDataRoutes from './routes/sample-data.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -299,6 +300,9 @@ app.use('/api/v1/adapters', adaptersRoutes);
 
 // Strategic Services - Investor-Aligned Capabilities
 app.use('/api/v1/strategic', strategicRoutes);
+
+// Sample Data - Auto-populate demo data for data sources
+app.use('/api/v1/sample-data', sampleDataRoutes);
 
 // 404 handler
 app.use((_req, res) => {
