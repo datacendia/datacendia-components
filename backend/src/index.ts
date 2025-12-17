@@ -9,6 +9,8 @@ import { rateLimit } from 'express-rate-limit';
 import { config } from './config/index.js';
 import { logger } from './utils/logger.js';
 import { prisma } from './config/database.js';
+import swaggerUi from 'swagger-ui-express';
+import { swaggerSpec } from './config/swagger.js';
 import { redis } from './config/redis.js';
 import { neo4j } from './config/neo4j.js';
 import { errorHandler } from './middleware/errorHandler.js';
@@ -100,6 +102,7 @@ import omnitranslateRoutes from './routes/omnitranslate.js';
 import connectorsRoutes from './routes/connectors.js';
 import cascadeRoutes from './routes/cascade.js';
 import adaptersRoutes from './routes/adapters.js';
+import strategicRoutes from './routes/strategic.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -197,6 +200,20 @@ app.get('/health', (req, res) => {
   res.json({ status: 'healthy', timestamp: new Date().toISOString() });
 });
 
+// OpenAPI/Swagger Documentation (dev only)
+if (config.nodeEnv === 'development') {
+  app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
+    explorer: true,
+    customCss: '.swagger-ui .topbar { display: none }',
+    customSiteTitle: 'Datacendia API Documentation',
+  }));
+  app.get('/api/docs.json', (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(swaggerSpec);
+  });
+  logger.info('📚 API Documentation available at /api/docs');
+}
+
 // API Routes
 app.use('/api/v1/auth', authRoutes);
 app.use('/api/v1/users', userRoutes);
@@ -266,6 +283,9 @@ app.use('/api/v1/connectors', connectorsRoutes);
 // Decision Consequence Engineering
 app.use('/api/v1/cascade', cascadeRoutes);
 app.use('/api/v1/adapters', adaptersRoutes);
+
+// Strategic Services - Investor-Aligned Capabilities
+app.use('/api/v1/strategic', strategicRoutes);
 
 // 404 handler
 app.use((req, res) => {
