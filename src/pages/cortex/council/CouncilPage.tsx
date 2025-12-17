@@ -730,9 +730,9 @@ export const CouncilPage: React.FC = () => {
 
   // State
   const [agents, setAgents] = useState<Agent[]>([]);
-  const [deliberations, _setDeliberations] = useState<Deliberation[]>([]);
+  const [deliberations, setDeliberations] = useState<Deliberation[]>([]);
   const [recentDecisions, setRecentDecisions] = useState<QueryResult[]>([]);
-  const [_isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   const [queryInput, setQueryInput] = useState(searchParams.get('q') || '');
@@ -765,10 +765,10 @@ export const CouncilPage: React.FC = () => {
   const [showPremiumModal, setShowPremiumModal] = useState(false);
   const premium = usePremiumFeatures();
 
-  // Policy-based permissions (Casbin integration) - used for future governance features
-  const [_canVeto, setCanVeto] = useState(false);
-  const [_canApprove, setCanApprove] = useState(false);
-  const [_policyReason, setPolicyReason] = useState('');
+  // Policy-based permissions (Casbin integration)
+  const [canVeto, setCanVeto] = useState(false);
+  const [canApprove, setCanApprove] = useState(false);
+  const [policyReason, setPolicyReason] = useState('');
 
   // Check user permissions on mount
   useEffect(() => {
@@ -1088,9 +1088,9 @@ export const CouncilPage: React.FC = () => {
   };
 
   // State for streaming deliberation - used for real-time agent response display
-  const [_streamingDecision, setStreamingDecision] = useState<QueryResult | null>(null);
-  const [_currentStreamingAgent, setCurrentStreamingAgent] = useState<string | null>(null);
-  const [_currentPhase, setCurrentPhase] = useState<string>('');
+  const [streamingDecision, setStreamingDecision] = useState<QueryResult | null>(null);
+  const [currentStreamingAgent, setCurrentStreamingAgent] = useState<string | null>(null);
+  const [currentPhase, setCurrentPhase] = useState<string>('');
 
   // C) Progressive disclosure - collapsible sections state
   const [expandedSections, setExpandedSections] = useState<Record<string, Record<string, boolean>>>(
@@ -1198,8 +1198,18 @@ export const CouncilPage: React.FC = () => {
         setStreamingDecision(initialDecision);
         setRecentDecisions((prev) => [initialDecision, ...prev].slice(0, 10));
 
+        // Track active deliberation
+        setDeliberations(prev => [...prev, {
+          id: decisionId,
+          question: questionAsked,
+          status: 'in_progress',
+          phase: 'initial_analysis',
+          agents: agentIds,
+          startedAt: new Date(),
+        }]);
+
         // Run deliberation with streaming and cross-examination
-        const _result = await ollamaService.deliberateWithStreaming(questionAsked, agentIds, {
+        const result = await ollamaService.deliberateWithStreaming(questionAsked, agentIds, {
           onPhaseChange: (phase) => {
             setCurrentPhase(phase);
             setStreamingDecision((prev) => (prev ? { ...prev, currentPhase: phase } : null));
@@ -1332,8 +1342,17 @@ export const CouncilPage: React.FC = () => {
                   : d
               )
             );
+            // Mark deliberation as completed
+            setDeliberations(prev => prev.map(d => 
+              d.id === decisionId 
+                ? { ...d, status: 'completed', completedAt: new Date(), confidence }
+                : d
+            ));
           },
         });
+
+        // Log result for debugging/analytics
+        console.log('[Council] Deliberation completed:', { decisionId, result });
       } else {
         // Quick query - use first online agent or Chief Strategy Agent
         const targetAgent =
@@ -1410,6 +1429,27 @@ export const CouncilPage: React.FC = () => {
             </p>
           </div>
           <div className="flex items-center gap-3">
+            {/* Active Deliberations Badge */}
+            {deliberations.length > 0 && (
+              <div className="flex items-center gap-2 px-3 py-1.5 bg-amber-50 text-amber-700 rounded-lg border border-amber-200">
+                <span className="animate-pulse">🔄</span>
+                <span className="text-sm font-medium">{deliberations.length} Active</span>
+              </div>
+            )}
+            
+            {/* Governance Permissions Badge */}
+            {(canVeto || canApprove) && (
+              <div 
+                className="flex items-center gap-2 px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-lg border border-indigo-200"
+                title={policyReason || 'Governance permissions active'}
+              >
+                <span>🏛️</span>
+                <span className="text-sm font-medium">
+                  {canVeto && canApprove ? 'Full Authority' : canVeto ? 'Veto Power' : 'Approval Power'}
+                </span>
+              </div>
+            )}
+            
             {/* Premium Features Button */}
             <button
               onClick={() => setShowPremiumModal(true)}
@@ -1631,8 +1671,49 @@ export const CouncilPage: React.FC = () => {
       )}
 
       {/* ================================================================= */}
+      {/* STREAMING PROGRESS INDICATOR */}
+      {/* ================================================================= */}
+      {streamingDecision && currentPhase && (
+        <div className="mb-6 p-4 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl border border-indigo-200">
+          <div className="flex items-center gap-4">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
+            <div className="flex-1">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="font-semibold text-indigo-900">Deliberation in Progress</span>
+                <span className="text-xs px-2 py-0.5 bg-indigo-100 text-indigo-700 rounded-full">
+                  {currentPhase.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                </span>
+              </div>
+              {currentStreamingAgent && (
+                <p className="text-sm text-indigo-600">
+                  🤖 {agents.find(a => a.id === currentStreamingAgent)?.name || currentStreamingAgent} is analyzing...
+                </p>
+              )}
+            </div>
+            <div className="text-right">
+              <div className="text-xs text-indigo-500">
+                {streamingDecision.agentResponses?.length || 0} / {streamingDecision.agents?.length || 0} agents
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ================================================================= */}
       {/* AGENT GRID */}
       {/* ================================================================= */}
+      {isLoading ? (
+        <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
+          <div className="animate-pulse">
+            <div className="h-6 bg-neutral-200 rounded w-1/4 mb-4"></div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+                <div key={i} className="h-24 bg-neutral-100 rounded-xl"></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      ) : (
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-lg font-semibold text-neutral-900">{t('council.agents.domain')}</h2>
@@ -1865,6 +1946,7 @@ export const CouncilPage: React.FC = () => {
           </div>
         </div>
       </div>
+      )}
 
       {/* ================================================================= */}
       {/* DROP TO DELIBERATE - Central Council Table */}
