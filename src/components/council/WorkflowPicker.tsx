@@ -1,5 +1,6 @@
 // =============================================================================
 // WORKFLOW PICKER - Load Pre-Built Scenarios into Council
+// With Dynamic Variable Customization
 // =============================================================================
 
 import React, { useState, useEffect, useMemo } from 'react';
@@ -35,6 +36,77 @@ interface WorkflowPickerProps {
   onClose: () => void;
   onSelect: (scenario: WorkflowScenario) => void;
   currentMode?: string;
+}
+
+interface DetectedVariable {
+  id: string;
+  type: 'quarter' | 'year' | 'amount' | 'percentage' | 'duration' | 'count' | 'date' | 'text';
+  originalValue: string;
+  currentValue: string;
+  label: string;
+  options: string[] | undefined;
+  pattern: RegExp;
+}
+
+// =============================================================================
+// VARIABLE DETECTION PATTERNS
+// =============================================================================
+
+const VARIABLE_PATTERNS: { type: DetectedVariable['type']; pattern: RegExp; label: string; options?: string[] }[] = [
+  // Quarters: Q1, Q2, Q3, Q4
+  { type: 'quarter', pattern: /\b(Q[1-4])\b/g, label: 'Quarter', options: ['Q1', 'Q2', 'Q3', 'Q4'] },
+  // Years: 2024, 2025, etc.
+  { type: 'year', pattern: /\b(20[2-3][0-9])\b/g, label: 'Year', options: ['2024', '2025', '2026', '2027'] },
+  // Dollar amounts: $4.2M, $380K, $1.5B, $50,000
+  { type: 'amount', pattern: /(\$[\d,]+(?:\.\d+)?[KMB]?|\$[\d,]+)/g, label: 'Amount' },
+  // Percentages: 12%, 15.5%
+  { type: 'percentage', pattern: /(\d+(?:\.\d+)?%)/g, label: 'Percentage' },
+  // Durations: 90 days, 2 weeks, 6 months, 1 year
+  { type: 'duration', pattern: /(\d+\s+(?:days?|weeks?|months?|years?|hours?))/gi, label: 'Duration' },
+  // Counts: 12 vendor contracts, 5 candidates
+  { type: 'count', pattern: /(\d+)\s+(vendor|contract|candidate|employee|customer|supplier|partner|project|team|department)/gi, label: 'Count' },
+  // Dates: January 2025, Dec 2024
+  { type: 'date', pattern: /\b((?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+20[2-3][0-9])\b/gi, label: 'Date' },
+];
+
+// Extract variables from text
+function extractVariables(text: string): DetectedVariable[] {
+  const variables: DetectedVariable[] = [];
+  const seen = new Set<string>();
+
+  VARIABLE_PATTERNS.forEach(({ type, pattern, label, options }) => {
+    const regex = new RegExp(pattern.source, pattern.flags);
+    let match;
+    while ((match = regex.exec(text)) !== null) {
+      const value = match[1] || match[0];
+      const key = `${type}-${value}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        variables.push({
+          id: `var-${variables.length}`,
+          type,
+          originalValue: value,
+          currentValue: value,
+          label: `${label}: ${value}`,
+          options,
+          pattern: new RegExp(value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'),
+        });
+      }
+    }
+  });
+
+  return variables;
+}
+
+// Apply variable substitutions to text
+function applyVariables(text: string, variables: DetectedVariable[]): string {
+  let result = text;
+  variables.forEach((v) => {
+    if (v.currentValue !== v.originalValue) {
+      result = result.replace(v.pattern, v.currentValue);
+    }
+  });
+  return result;
 }
 
 // =============================================================================
@@ -83,6 +155,10 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedPriority, setSelectedPriority] = useState<string>('all');
+  
+  // Customization state
+  const [customizingScenario, setCustomizingScenario] = useState<WorkflowScenario | null>(null);
+  const [variables, setVariables] = useState<DetectedVariable[]>([]);
 
   // Load scenarios from backend
   useEffect(() => {
@@ -271,8 +347,16 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
                       <button
                         key={scenario.id}
                         onClick={() => {
-                          onSelect(scenario);
-                          onClose();
+                          // Extract variables and open customization step
+                          const detectedVars = extractVariables(scenario.councilQuestion);
+                          if (detectedVars.length > 0) {
+                            setCustomizingScenario(scenario);
+                            setVariables(detectedVars);
+                          } else {
+                            // No variables to customize, select directly
+                            onSelect(scenario);
+                            onClose();
+                          }
                         }}
                         className={cn(
                           'w-full text-left p-4 rounded-xl border transition-all',
@@ -338,6 +422,154 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
           </button>
         </div>
       </div>
+
+      {/* ================================================================= */}
+      {/* CUSTOMIZATION MODAL */}
+      {/* ================================================================= */}
+      {customizingScenario && (
+        <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-[60] p-4">
+          <div className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[80vh] flex flex-col">
+            {/* Header */}
+            <div className="p-6 border-b border-neutral-200 bg-gradient-to-r from-amber-50 to-orange-50">
+              <div className="flex items-center justify-between">
+                <div>
+                  <h2 className="text-xl font-bold text-neutral-900 flex items-center gap-2">
+                    ⚙️ Customize Scenario
+                  </h2>
+                  <p className="text-neutral-600 text-sm mt-1">
+                    Adjust the values below to customize this workflow for your needs
+                  </p>
+                </div>
+                <button
+                  onClick={() => {
+                    setCustomizingScenario(null);
+                    setVariables([]);
+                  }}
+                  className="p-2 hover:bg-white/50 rounded-lg text-neutral-500 hover:text-neutral-700"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+
+            {/* Scenario Info */}
+            <div className="px-6 py-4 bg-neutral-50 border-b border-neutral-200">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-xs font-mono text-neutral-400">{customizingScenario.id}</span>
+                <span className={cn(
+                  'text-xs px-2 py-0.5 rounded-full font-medium',
+                  priorityColors[customizingScenario.priority]?.bg,
+                  priorityColors[customizingScenario.priority]?.text
+                )}>
+                  {customizingScenario.priority}
+                </span>
+              </div>
+              <h3 className="font-semibold text-neutral-900">{customizingScenario.name}</h3>
+            </div>
+
+            {/* Variables Editor */}
+            <div className="flex-1 overflow-y-auto p-6">
+              <div className="space-y-4">
+                {variables.map((variable, idx) => (
+                  <div key={variable.id} className="flex items-center gap-4">
+                    <div className="w-32 text-sm font-medium text-neutral-600">
+                      {variable.type === 'quarter' && '📅'}
+                      {variable.type === 'year' && '📆'}
+                      {variable.type === 'amount' && '💰'}
+                      {variable.type === 'percentage' && '📊'}
+                      {variable.type === 'duration' && '⏱️'}
+                      {variable.type === 'count' && '🔢'}
+                      {variable.type === 'date' && '📅'}
+                      {' '}{variable.type.charAt(0).toUpperCase() + variable.type.slice(1)}
+                    </div>
+                    <div className="flex-1">
+                      {variable.options ? (
+                        <select
+                          value={variable.currentValue}
+                          onChange={(e) => {
+                            const newVars = [...variables];
+                            newVars[idx] = { ...variable, currentValue: e.target.value };
+                            setVariables(newVars);
+                          }}
+                          className="w-full px-3 py-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        >
+                          {variable.options.map((opt) => (
+                            <option key={opt} value={opt}>{opt}</option>
+                          ))}
+                        </select>
+                      ) : (
+                        <input
+                          type="text"
+                          value={variable.currentValue}
+                          onChange={(e) => {
+                            const newVars = [...variables];
+                            newVars[idx] = { ...variable, currentValue: e.target.value };
+                            setVariables(newVars);
+                          }}
+                          className="w-full px-3 py-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        />
+                      )}
+                    </div>
+                    <div className="text-xs text-neutral-400 w-24">
+                      was: {variable.originalValue}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Preview */}
+              <div className="mt-6 p-4 bg-neutral-100 rounded-xl">
+                <div className="text-xs font-medium text-neutral-500 uppercase tracking-wider mb-2">
+                  Preview
+                </div>
+                <p className="text-sm text-neutral-700 leading-relaxed">
+                  {applyVariables(customizingScenario.councilQuestion, variables)}
+                </p>
+              </div>
+            </div>
+
+            {/* Footer */}
+            <div className="p-4 border-t border-neutral-200 bg-neutral-50 flex items-center justify-between">
+              <button
+                onClick={() => {
+                  setCustomizingScenario(null);
+                  setVariables([]);
+                }}
+                className="px-4 py-2 text-neutral-600 hover:text-neutral-800"
+              >
+                ← Back
+              </button>
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={() => {
+                    // Reset to original values
+                    setVariables(variables.map(v => ({ ...v, currentValue: v.originalValue })));
+                  }}
+                  className="px-4 py-2 text-neutral-600 hover:text-neutral-800"
+                >
+                  Reset
+                </button>
+                <button
+                  onClick={() => {
+                    // Apply customizations and select
+                    const customizedScenario = {
+                      ...customizingScenario,
+                      councilQuestion: applyVariables(customizingScenario.councilQuestion, variables),
+                    };
+                    onSelect(customizedScenario);
+                    setCustomizingScenario(null);
+                    setVariables([]);
+                    onClose();
+                  }}
+                  className="px-6 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 font-medium"
+                >
+                  Load Scenario →
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
