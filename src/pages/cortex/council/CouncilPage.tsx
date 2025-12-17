@@ -2600,7 +2600,7 @@ export const CouncilPage: React.FC = () => {
         <div className="divide-y divide-neutral-800">
           {recentDecisions.length > 0 ? (
             recentDecisions.map((result) => (
-              <div key={result.id} className="p-6">
+              <div key={result.id} id={`decision-${result.id}`} className="p-6 transition-all duration-300">
                 {/* Session Header */}
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-2">
@@ -3124,14 +3124,31 @@ export const CouncilPage: React.FC = () => {
       {/* ================================================================= */}
       {deliberations.length > 0 && (
         <div className="bg-white rounded-xl border border-neutral-200 p-6 mt-6">
-          <h2 className="text-lg font-semibold text-neutral-900 mb-4">Active Deliberations</h2>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-lg font-semibold text-neutral-900">Active Deliberations</h2>
+            <span className="text-xs text-neutral-500">Click to scroll to live view ↑</span>
+          </div>
           <div className="space-y-4">
             {deliberations.map((deliberation) => (
               <DeliberationCard
                 key={deliberation.id}
                 deliberation={deliberation}
                 agents={allAgents}
-                onClick={() => navigate(`/cortex/council/deliberation/${deliberation.id}`)}
+                onClick={() => {
+                  // Find the corresponding decision in Recent Decisions and scroll to it
+                  const decisionElement = document.getElementById(`decision-${deliberation.id}`);
+                  if (decisionElement) {
+                    decisionElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    // Add highlight effect
+                    decisionElement.classList.add('ring-2', 'ring-primary-500', 'ring-offset-2');
+                    setTimeout(() => {
+                      decisionElement.classList.remove('ring-2', 'ring-primary-500', 'ring-offset-2');
+                    }, 2000);
+                  } else {
+                    // Fallback: navigate to deliberation page
+                    navigate(`/cortex/council/deliberation/${deliberation.id}`);
+                  }
+                }}
               />
             ))}
           </div>
