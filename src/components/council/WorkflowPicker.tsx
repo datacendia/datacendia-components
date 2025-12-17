@@ -49,6 +49,45 @@ interface DetectedVariable {
 }
 
 // =============================================================================
+// VARIABLE TOOLTIPS
+// =============================================================================
+
+const VARIABLE_TOOLTIPS: Record<DetectedVariable['type'], { description: string; hint: string }> = {
+  quarter: {
+    description: 'Fiscal quarter of the year',
+    hint: 'Q1 (Jan-Mar), Q2 (Apr-Jun), Q3 (Jul-Sep), Q4 (Oct-Dec)',
+  },
+  year: {
+    description: 'Calendar or fiscal year',
+    hint: 'Select the year this scenario applies to',
+  },
+  amount: {
+    description: 'Monetary value',
+    hint: 'Use K for thousands, M for millions, B for billions (e.g., $4.2M)',
+  },
+  percentage: {
+    description: 'Percentage value',
+    hint: 'Enter as a number with % sign (e.g., 15%, 7.5%)',
+  },
+  duration: {
+    description: 'Time period',
+    hint: 'Format: number + unit (e.g., 90 days, 6 months, 2 weeks)',
+  },
+  count: {
+    description: 'Quantity or number of items',
+    hint: 'Enter a whole number',
+  },
+  date: {
+    description: 'Specific month and year',
+    hint: 'Format: Month Year (e.g., January 2025, Dec 2024)',
+  },
+  text: {
+    description: 'Free-form text',
+    hint: 'Enter any text value',
+  },
+};
+
+// =============================================================================
 // VARIABLE DETECTION PATTERNS
 // =============================================================================
 
@@ -470,51 +509,76 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
             {/* Variables Editor */}
             <div className="flex-1 overflow-y-auto p-6">
               <div className="space-y-4">
-                {variables.map((variable, idx) => (
-                  <div key={variable.id} className="flex items-center gap-4">
-                    <div className="w-32 text-sm font-medium text-neutral-600">
-                      {variable.type === 'quarter' && '📅'}
-                      {variable.type === 'year' && '📆'}
-                      {variable.type === 'amount' && '💰'}
-                      {variable.type === 'percentage' && '📊'}
-                      {variable.type === 'duration' && '⏱️'}
-                      {variable.type === 'count' && '🔢'}
-                      {variable.type === 'date' && '📅'}
-                      {' '}{variable.type.charAt(0).toUpperCase() + variable.type.slice(1)}
+                {variables.map((variable, idx) => {
+                  const tooltip = VARIABLE_TOOLTIPS[variable.type];
+                  return (
+                    <div key={variable.id} className="group">
+                      <div className="flex items-center gap-4">
+                        {/* Label with tooltip */}
+                        <div className="w-36 relative">
+                          <div className="flex items-center gap-1.5 text-sm font-medium text-neutral-600">
+                            {variable.type === 'quarter' && '📅'}
+                            {variable.type === 'year' && '📆'}
+                            {variable.type === 'amount' && '💰'}
+                            {variable.type === 'percentage' && '📊'}
+                            {variable.type === 'duration' && '⏱️'}
+                            {variable.type === 'count' && '🔢'}
+                            {variable.type === 'date' && '📅'}
+                            {variable.type === 'text' && '📝'}
+                            <span>{variable.type.charAt(0).toUpperCase() + variable.type.slice(1)}</span>
+                            {/* Info icon with tooltip */}
+                            <div className="relative inline-block">
+                              <span className="text-neutral-400 hover:text-neutral-600 cursor-help text-xs">ⓘ</span>
+                              <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-56 p-3 bg-neutral-800 text-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 pointer-events-none">
+                                <div className="text-xs font-medium mb-1">{tooltip.description}</div>
+                                <div className="text-[10px] text-neutral-300">{tooltip.hint}</div>
+                                <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-neutral-800"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        {/* Input field */}
+                        <div className="flex-1">
+                          {variable.options ? (
+                            <select
+                              value={variable.currentValue}
+                              onChange={(e) => {
+                                const newVars = [...variables];
+                                newVars[idx] = { ...variable, currentValue: e.target.value };
+                                setVariables(newVars);
+                              }}
+                              className="w-full px-3 py-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+                              title={tooltip.hint}
+                            >
+                              {variable.options.map((opt) => (
+                                <option key={opt} value={opt}>{opt}</option>
+                              ))}
+                            </select>
+                          ) : (
+                            <input
+                              type="text"
+                              value={variable.currentValue}
+                              onChange={(e) => {
+                                const newVars = [...variables];
+                                newVars[idx] = { ...variable, currentValue: e.target.value };
+                                setVariables(newVars);
+                              }}
+                              placeholder={tooltip.hint}
+                              title={tooltip.hint}
+                              className="w-full px-3 py-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 placeholder:text-neutral-400 placeholder:text-xs"
+                            />
+                          )}
+                        </div>
+                        
+                        {/* Original value badge */}
+                        <div className="text-xs text-neutral-400 w-24 text-right">
+                          <span className="bg-neutral-100 px-2 py-1 rounded">was: {variable.originalValue}</span>
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex-1">
-                      {variable.options ? (
-                        <select
-                          value={variable.currentValue}
-                          onChange={(e) => {
-                            const newVars = [...variables];
-                            newVars[idx] = { ...variable, currentValue: e.target.value };
-                            setVariables(newVars);
-                          }}
-                          className="w-full px-3 py-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
-                        >
-                          {variable.options.map((opt) => (
-                            <option key={opt} value={opt}>{opt}</option>
-                          ))}
-                        </select>
-                      ) : (
-                        <input
-                          type="text"
-                          value={variable.currentValue}
-                          onChange={(e) => {
-                            const newVars = [...variables];
-                            newVars[idx] = { ...variable, currentValue: e.target.value };
-                            setVariables(newVars);
-                          }}
-                          className="w-full px-3 py-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
-                        />
-                      )}
-                    </div>
-                    <div className="text-xs text-neutral-400 w-24">
-                      was: {variable.originalValue}
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
 
               {/* Preview */}
