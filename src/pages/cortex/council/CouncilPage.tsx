@@ -776,6 +776,7 @@ export const CouncilPage: React.FC = () => {
 
   // Premium Features Modal & Hook
   const [showPremiumModal, setShowPremiumModal] = useState(false);
+  const [showPantheon, setShowPantheon] = useState(false);
   const premium = usePremiumFeatures();
 
   // Policy-based permissions (Casbin integration)
@@ -1462,6 +1463,15 @@ export const CouncilPage: React.FC = () => {
                 </span>
               </div>
             )}
+            
+            {/* Pantheon Button */}
+            <button
+              onClick={() => setShowPantheon(true)}
+              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg hover:opacity-90 transition-all shadow-md hover:shadow-lg"
+            >
+              <span>🏛️</span>
+              <span className="font-medium">Pantheon</span>
+            </button>
             
             {/* Premium Features Button */}
             <button
@@ -3165,6 +3175,233 @@ export const CouncilPage: React.FC = () => {
         }}
         currentMode={selectedMode}
       />
+
+      {/* ================================================================= */}
+      {/* PANTHEON - AI AGENT SHOWCASE */}
+      {/* ================================================================= */}
+      {showPantheon && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
+          <div className="bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-950 rounded-2xl shadow-2xl w-[95vw] max-w-6xl max-h-[90vh] overflow-hidden border border-indigo-500/30">
+            {/* Header */}
+            <div className="relative p-6 border-b border-indigo-500/30 bg-gradient-to-r from-indigo-900/50 to-purple-900/50">
+              <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0djItSDI0di0yaDEyek0zNiAzMHYySDI0di0yaDEyek0zNiAyNnYySDI0di0yaDEyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
+              <div className="relative flex items-center justify-between">
+                <div className="flex items-center gap-4">
+                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-3xl shadow-lg shadow-amber-500/30">
+                    🏛️
+                  </div>
+                  <div>
+                    <h2 className="text-2xl font-bold text-white">The Pantheon</h2>
+                    <p className="text-indigo-300 text-sm">Your Council of AI Executives</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div className="text-right">
+                    <div className="text-sm text-indigo-300">Active Agents</div>
+                    <div className="text-2xl font-bold text-emerald-400">
+                      {allAgents.filter(a => a.status === 'online').length} / {allAgents.length}
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => setShowPantheon(false)}
+                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors"
+                  >
+                    ✕
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Agent Grid */}
+            <div className="p-6 overflow-y-auto max-h-[calc(90vh-120px)]">
+              {/* Core C-Suite */}
+              <div className="mb-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-8 h-8 rounded-lg bg-indigo-500/30 flex items-center justify-center text-lg">👔</div>
+                  <h3 className="text-lg font-semibold text-white">Core C-Suite</h3>
+                  <div className="flex-1 h-px bg-gradient-to-r from-indigo-500/50 to-transparent" />
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  {allAgents
+                    .filter(a => !a.premium && !a.isCustom && ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cro', 'cdo', 'risk'].includes(a.code))
+                    .map((agent) => (
+                      <div
+                        key={agent.id}
+                        className={cn(
+                          'relative p-4 rounded-xl border transition-all hover:scale-105 cursor-pointer group',
+                          agent.status === 'online'
+                            ? 'bg-gradient-to-br from-slate-800/80 to-slate-900/80 border-emerald-500/50 shadow-lg shadow-emerald-500/10'
+                            : 'bg-slate-900/50 border-slate-700/50 opacity-60'
+                        )}
+                        onClick={() => {
+                          toggleAgentSelection(agent.id);
+                          setShowPantheon(false);
+                        }}
+                      >
+                        {/* Status indicator */}
+                        <div className={cn(
+                          'absolute top-3 right-3 w-3 h-3 rounded-full',
+                          agent.status === 'online' ? 'bg-emerald-400 animate-pulse' : 'bg-slate-600'
+                        )} />
+                        
+                        {/* Avatar */}
+                        <div 
+                          className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl mb-3"
+                          style={{ backgroundColor: `${agent.color}20`, border: `2px solid ${agent.color}40` }}
+                        >
+                          {agent.avatar}
+                        </div>
+                        
+                        {/* Info */}
+                        <div className="text-white font-semibold text-sm mb-1 group-hover:text-indigo-300 transition-colors">
+                          {agent.name}
+                        </div>
+                        <div className="text-slate-400 text-xs mb-2">{agent.role}</div>
+                        
+                        {/* Capabilities */}
+                        <div className="flex flex-wrap gap-1">
+                          {agent.capabilities.slice(0, 2).map((cap, i) => (
+                            <span key={i} className="text-[10px] px-1.5 py-0.5 bg-indigo-500/20 text-indigo-300 rounded">
+                              {cap}
+                            </span>
+                          ))}
+                        </div>
+                        
+                        {/* Selection indicator */}
+                        {selectedAgents.includes(agent.id) && (
+                          <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-emerald-500 flex items-center justify-center text-white text-xs font-bold shadow-lg">
+                            ✓
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                </div>
+              </div>
+
+              {/* Premium Agents */}
+              {allAgents.filter(a => a.premium && premium.hasAgentAccess(a.id)).length > 0 && (
+                <div className="mb-8">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-8 h-8 rounded-lg bg-amber-500/30 flex items-center justify-center text-lg">⭐</div>
+                    <h3 className="text-lg font-semibold text-white">Premium Agents</h3>
+                    <span className="text-xs px-2 py-0.5 bg-amber-500/20 text-amber-400 rounded-full">Unlocked</span>
+                    <div className="flex-1 h-px bg-gradient-to-r from-amber-500/50 to-transparent" />
+                  </div>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {allAgents
+                      .filter(a => a.premium && premium.hasAgentAccess(a.id))
+                      .map((agent) => (
+                        <div
+                          key={agent.id}
+                          className={cn(
+                            'relative p-4 rounded-xl border transition-all hover:scale-105 cursor-pointer group',
+                            agent.status === 'online'
+                              ? 'bg-gradient-to-br from-amber-900/30 to-orange-900/30 border-amber-500/50 shadow-lg shadow-amber-500/10'
+                              : 'bg-slate-900/50 border-slate-700/50 opacity-60'
+                          )}
+                          onClick={() => {
+                            toggleAgentSelection(agent.id);
+                            setShowPantheon(false);
+                          }}
+                        >
+                          <div className={cn(
+                            'absolute top-3 right-3 w-3 h-3 rounded-full',
+                            agent.status === 'online' ? 'bg-emerald-400 animate-pulse' : 'bg-slate-600'
+                          )} />
+                          <div 
+                            className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl mb-3"
+                            style={{ backgroundColor: `${agent.color}20`, border: `2px solid ${agent.color}40` }}
+                          >
+                            {agent.avatar}
+                          </div>
+                          <div className="text-white font-semibold text-sm mb-1 group-hover:text-amber-300 transition-colors">
+                            {agent.name}
+                          </div>
+                          <div className="text-slate-400 text-xs mb-2">{agent.role}</div>
+                          <div className="flex flex-wrap gap-1">
+                            {agent.capabilities.slice(0, 2).map((cap, i) => (
+                              <span key={i} className="text-[10px] px-1.5 py-0.5 bg-amber-500/20 text-amber-300 rounded">
+                                {cap}
+                              </span>
+                            ))}
+                          </div>
+                          {selectedAgents.includes(agent.id) && (
+                            <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-emerald-500 flex items-center justify-center text-white text-xs font-bold shadow-lg">
+                              ✓
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Custom Agents */}
+              {allAgents.filter(a => a.isCustom).length > 0 && (
+                <div>
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-8 h-8 rounded-lg bg-purple-500/30 flex items-center justify-center text-lg">✨</div>
+                    <h3 className="text-lg font-semibold text-white">Custom Agents</h3>
+                    <div className="flex-1 h-px bg-gradient-to-r from-purple-500/50 to-transparent" />
+                  </div>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {allAgents
+                      .filter(a => a.isCustom)
+                      .map((agent) => (
+                        <div
+                          key={agent.id}
+                          className={cn(
+                            'relative p-4 rounded-xl border transition-all hover:scale-105 cursor-pointer group',
+                            'bg-gradient-to-br from-purple-900/30 to-indigo-900/30 border-purple-500/50 shadow-lg shadow-purple-500/10'
+                          )}
+                          onClick={() => {
+                            toggleAgentSelection(agent.id);
+                            setShowPantheon(false);
+                          }}
+                        >
+                          <div className="absolute top-3 right-3 w-3 h-3 rounded-full bg-emerald-400 animate-pulse" />
+                          <div 
+                            className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl mb-3"
+                            style={{ backgroundColor: `${agent.color}20`, border: `2px solid ${agent.color}40` }}
+                          >
+                            {agent.avatar}
+                          </div>
+                          <div className="text-white font-semibold text-sm mb-1 group-hover:text-purple-300 transition-colors">
+                            {agent.name}
+                          </div>
+                          <div className="text-slate-400 text-xs mb-2">{agent.role}</div>
+                          {selectedAgents.includes(agent.id) && (
+                            <div className="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-emerald-500 flex items-center justify-center text-white text-xs font-bold shadow-lg">
+                              ✓
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Footer */}
+            <div className="p-4 border-t border-indigo-500/30 bg-slate-900/50 flex items-center justify-between">
+              <div className="text-sm text-slate-400">
+                Click an agent to add them to your deliberation roster
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-sm text-indigo-300">
+                  {selectedAgents.length} agents selected
+                </span>
+                <button
+                  onClick={() => setShowPantheon(false)}
+                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg transition-colors"
+                >
+                  Done
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
