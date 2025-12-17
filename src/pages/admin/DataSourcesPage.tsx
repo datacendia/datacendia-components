@@ -480,9 +480,40 @@ export const DataSourcesPage: React.FC = () => {
     setIsTesting(true);
     setTestResult(null);
 
+    // Check if using demo data - simulate successful connection
+    const type = selectedSource?.type || newSourceType;
+    const demoConfig = type ? DEMO_CONFIGS[type] : null;
+    const isDemoData = demoConfig && (
+      formData.host === demoConfig.host ||
+      formData.account === demoConfig.account ||
+      formData.connectionString === demoConfig.connectionString ||
+      formData.projectId === demoConfig.projectId
+    );
+
+    if (isDemoData) {
+      // Simulate connection test for demo data
+      await new Promise(resolve => setTimeout(resolve, 1500)); // Fake delay
+      setTestResult({
+        success: true,
+        message: 'Demo connection successful! Ready to explore sample data.',
+        metadata: {
+          mode: 'demo',
+          tables: type === 'SNOWFLAKE' ? ['trades', 'portfolios', 'positions', 'market_data'] :
+                  type === 'POSTGRESQL' ? ['customers', 'orders', 'products', 'employees'] :
+                  type === 'MONGODB' ? ['patients', 'encounters', 'diagnoses', 'medications'] :
+                  type === 'MYSQL' ? ['products', 'customers', 'orders', 'reviews'] :
+                  ['demo_table_1', 'demo_table_2', 'demo_table_3'],
+          recordCount: type === 'SNOWFLAKE' ? 100000 : 
+                       type === 'POSTGRESQL' ? 50000 :
+                       type === 'MONGODB' ? 25000 : 75000,
+        },
+      });
+      setIsTesting(false);
+      return;
+    }
+
     try {
       const sourceId = selectedSource?.id;
-      const type = selectedSource?.type || newSourceType;
       if (sourceId) {
         // Test existing source
         const res = await api.post<ConnectionTestResult>(`/data-sources/${sourceId}/test`);
