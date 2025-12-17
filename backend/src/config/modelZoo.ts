@@ -754,15 +754,33 @@ export function getModelsForTask(taskType: string): string[] {
  * Get inference options for a model
  */
 export function getInferenceOptions(modelId: string, overrides?: Partial<ModelConfig>) {
-  const config = MODEL_REGISTRY[modelId] || MODEL_REGISTRY['qwen2.5:7b'];
+  const config = MODEL_REGISTRY[modelId] ?? MODEL_REGISTRY['qwen2.5:7b'];
+  
+  // Default values if config is still undefined
+  const defaults: ModelConfig = {
+    id: 'default',
+    name: 'Default',
+    description: 'Default configuration',
+    contextWindow: 8192,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 2048,
+    specializations: [],
+    ramRequired: '4GB+',
+    priority: 'fallback',
+  };
+  
+  const finalConfig = config ?? defaults;
   
   return {
-    temperature: overrides?.temperature ?? config.temperature,
-    top_p: overrides?.topP ?? config.topP,
-    top_k: overrides?.topK ?? config.topK,
-    repeat_penalty: overrides?.repeatPenalty ?? config.repeatPenalty,
-    num_predict: overrides?.numPredict ?? config.numPredict,
-    num_ctx: config.contextWindow,
+    temperature: overrides?.temperature ?? finalConfig.temperature,
+    top_p: overrides?.topP ?? finalConfig.topP,
+    top_k: overrides?.topK ?? finalConfig.topK,
+    repeat_penalty: overrides?.repeatPenalty ?? finalConfig.repeatPenalty,
+    num_predict: overrides?.numPredict ?? finalConfig.numPredict,
+    num_ctx: finalConfig.contextWindow,
   };
 }
 
