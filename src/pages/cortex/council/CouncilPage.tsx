@@ -21,6 +21,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import PremiumFeaturesModal from '../../../components/premium/PremiumFeaturesModal';
 import { usePremiumFeatures } from '../../../hooks/usePremiumFeatures';
 import { PageGuide, GUIDES } from '../../../components/PageGuide';
+import { WorkflowPicker } from '../../../components/council/WorkflowPicker';
 
 // =============================================================================
 // TYPES
@@ -769,6 +770,7 @@ export const CouncilPage: React.FC = () => {
   const [queryMode, setQueryMode] = useState<'quick' | 'deliberation'>('quick');
   const [selectedMode, setSelectedMode] = useState<string>('war-room');
   const [showModesLibrary, setShowModesLibrary] = useState(false);
+  const [showWorkflowPicker, setShowWorkflowPicker] = useState(false);
 
   // Document attachments for deliberation
   const [attachedFiles, setAttachedFiles] = useState<File[]>([]);
@@ -2208,6 +2210,14 @@ export const CouncilPage: React.FC = () => {
             <div className="flex items-center gap-3">
               <button
                 type="button"
+                onClick={() => setShowWorkflowPicker(true)}
+                className="flex items-center gap-2 px-3 py-2 bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 rounded-lg text-sm transition-colors text-amber-200"
+              >
+                <span>📋</span>
+                <span>Load Scenario</span>
+              </button>
+              <button
+                type="button"
                 onClick={() => fileInputRef.current?.click()}
                 className="flex items-center gap-2 px-3 py-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg text-sm transition-colors"
               >
@@ -2989,6 +2999,25 @@ export const CouncilPage: React.FC = () => {
 
       {/* Page Guide */}
       <PageGuide {...GUIDES.council} />
+
+      {/* ================================================================= */}
+      {/* WORKFLOW PICKER MODAL */}
+      {/* ================================================================= */}
+      <WorkflowPicker
+        isOpen={showWorkflowPicker}
+        onClose={() => setShowWorkflowPicker(false)}
+        onSelect={(scenario) => {
+          // Auto-fill the question
+          setQueryInput(scenario.councilQuestion);
+          // Set the council mode
+          if (scenario.councilMode && COUNCIL_MODES[scenario.councilMode]) {
+            setSelectedMode(scenario.councilMode);
+          }
+          // Focus the input
+          queryInputRef.current?.focus();
+        }}
+        currentMode={selectedMode}
+      />
     </div>
   );
 };
