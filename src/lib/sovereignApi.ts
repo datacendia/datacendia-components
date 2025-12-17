@@ -54,51 +54,92 @@ export interface SovereignHealthStatus {
 export const druidApi = {
   /**
    * Query timeline events (powers CendiaChronos™)
+   * Uses the new /api/v1/druid/chronos/decisions endpoint
    */
   async queryTimeline(
     startTime: Date,
     endTime: Date,
-    eventTypes?: string[],
-    limit = 100
+    _eventTypes?: string[],
+    limit = 500
   ): Promise<TimelineEvent[]> {
-    const response = await fetch(`${SOVEREIGN_API_BASE}/druid/timeline`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ startTime, endTime, eventTypes, limit }),
-    });
-    const data = await response.json();
-    return data.success ? data.data : [];
+    try {
+      const params = new URLSearchParams({
+        startTime: startTime.toISOString(),
+        endTime: endTime.toISOString(),
+        limit: String(limit),
+      });
+      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/chronos/decisions?${params}`);
+      const data = await response.json();
+      return data.success ? data.data : [];
+    } catch (error) {
+      console.warn('[Druid] Timeline query failed:', error);
+      return [];
+    }
   },
 
   /**
-   * Query aggregated metrics
+   * Query aggregated metrics (agent performance)
    */
   async queryMetrics(
-    metric: string,
+    _metric: string,
     startTime: Date,
     endTime: Date,
     granularity: 'minute' | 'hour' | 'day' = 'hour'
   ): Promise<any[]> {
-    const response = await fetch(`${SOVEREIGN_API_BASE}/druid/metrics`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ metric, startTime, endTime, granularity }),
-    });
-    const data = await response.json();
-    return data.success ? data.data : [];
+    try {
+      const params = new URLSearchParams({
+        startTime: startTime.toISOString(),
+        endTime: endTime.toISOString(),
+        granularity,
+      });
+      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/pulse/agents?${params}`);
+      const data = await response.json();
+      return data.success ? data.data : [];
+    } catch (error) {
+      console.warn('[Druid] Metrics query failed:', error);
+      return [];
+    }
   },
 
   /**
-   * Ingest events to Druid
+   * Get risk trend data
    */
-  async ingestEvents(datasource: string, events: any[]): Promise<boolean> {
-    const response = await fetch(`${SOVEREIGN_API_BASE}/druid/ingest`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ datasource, events }),
-    });
-    const data = await response.json();
-    return data.success;
+  async getRiskTrend(days = 30): Promise<any[]> {
+    try {
+      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/chronos/risk-trend?days=${days}`);
+      const data = await response.json();
+      return data.success ? data.data : [];
+    } catch (error) {
+      console.warn('[Druid] Risk trend query failed:', error);
+      return [];
+    }
+  },
+
+  /**
+   * Get audit trail (CendiaWitness™)
+   */
+  async getAuditTrail(options?: {
+    resourceType?: string;
+    actorId?: string;
+    startTime?: Date;
+    endTime?: Date;
+    limit?: number;
+  }): Promise<any[]> {
+    try {
+      const params = new URLSearchParams();
+      if (options?.resourceType) params.append('resourceType', options.resourceType);
+      if (options?.actorId) params.append('actorId', options.actorId);
+      if (options?.startTime) params.append('startTime', options.startTime.toISOString());
+      if (options?.endTime) params.append('endTime', options.endTime.toISOString());
+      if (options?.limit) params.append('limit', String(options.limit));
+      
+      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/witness/audit?${params}`);
+      const data = await response.json();
+      return data.success ? data.data : [];
+    } catch (error) {
+      console.warn('[Druid] Audit trail query failed:', error);
+      return [];
+    }
   },
 
   /**
@@ -109,6 +150,19 @@ export const druidApi = {
       const response = await fetch(`${SOVEREIGN_API_BASE}/druid/health`);
       const data = await response.json();
       return data.available;
+    } catch {
+      return false;
+    }
+  },
+
+  /**
+   * Seed demo data
+   */
+  async seedData(): Promise<boolean> {
+    try {
+      const response = await fetch(`${SOVEREIGN_API_BASE}/druid/seed`, { method: 'POST' });
+      const data = await response.json();
+      return data.success;
     } catch {
       return false;
     }
