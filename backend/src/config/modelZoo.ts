@@ -448,6 +448,16 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     useChainOfThought: false,
     useEnsemble: false,
   },
+  {
+    agentCode: 'devils-advocate',
+    agentName: 'CendiaDevil',
+    primaryModel: 'qwq:32b',  // Deep reasoning for contrarian analysis
+    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    systemPromptEnhancements: 'Challenge assumptions. Argue opposing positions. Find blind spots.',
+    optimalTemperature: 0.7,  // Higher creativity for contrarian thinking
+    useChainOfThought: true,  // Step-by-step challenge reasoning
+    useEnsemble: false,
+  },
 
   // =========================================================================
   // HEALTHCARE INDUSTRY AGENTS (Premium)

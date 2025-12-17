@@ -1,8 +1,9 @@
 // =============================================================================
 // PREMIUM FEATURES & TIERS FOR AI COUNCIL
+// Simplified 3-Tier Structure: Free → Pro → Enterprise
 // =============================================================================
 
-export type PremiumTier = 'standard' | 'professional' | 'enterprise';
+export type PremiumTier = 'free' | 'pro' | 'enterprise';
 
 export interface PremiumFeature {
   id: string;
@@ -32,29 +33,35 @@ export interface PremiumBundle {
 }
 
 // =============================================================================
-// TIER DEFINITIONS
+// SIMPLIFIED TIER DEFINITIONS
 // =============================================================================
 export const PREMIUM_TIERS: Record<
   PremiumTier,
-  { name: string; color: string; bgGradient: string; icon: string }
+  { name: string; color: string; bgGradient: string; icon: string; price: number; agents: number }
 > = {
-  standard: {
-    name: 'Standard',
-    color: '#8B5CF6',
-    bgGradient: 'from-purple-500 to-indigo-500',
-    icon: '⭐',
+  free: {
+    name: 'Free',
+    color: '#6B7280',
+    bgGradient: 'from-gray-500 to-slate-600',
+    icon: '🆓',
+    price: 0,
+    agents: 15, // Core C-Suite + Devil's Advocate
   },
-  professional: {
-    name: 'Professional',
-    color: '#F59E0B',
-    bgGradient: 'from-amber-500 to-orange-500',
-    icon: '🏆',
+  pro: {
+    name: 'Pro',
+    color: '#8B5CF6',
+    bgGradient: 'from-purple-500 to-indigo-600',
+    icon: '⚡',
+    price: 99,
+    agents: 25, // +10 Pro agents
   },
   enterprise: {
     name: 'Enterprise',
-    color: '#EF4444',
-    bgGradient: 'from-red-500 to-rose-600',
-    icon: '💎',
+    color: '#F59E0B',
+    bgGradient: 'from-amber-500 to-orange-600',
+    icon: '👑',
+    price: 299,
+    agents: 40, // +15 Industry specialists + Custom Builder
   },
 };
 
@@ -68,7 +75,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'Export & Reporting Pack',
     description: 'Professional document export with branded templates',
     icon: '📄',
-    tier: 'standard',
+    tier: 'pro',
     price: 99,
     annualDiscount: 20,
     features: [
@@ -87,7 +94,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'Analytics & Insights Pack',
     description: 'Deep analytics on council decisions and agent performance',
     icon: '📊',
-    tier: 'standard',
+    tier: 'pro',
     price: 149,
     annualDiscount: 20,
     features: [
@@ -106,7 +113,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'Custom Council Modes',
     description: 'Design your own council modes with custom behaviors',
     icon: '🎯',
-    tier: 'standard',
+    tier: 'pro',
     price: 179,
     annualDiscount: 20,
     features: [
@@ -126,7 +133,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'Agent Builder Pack',
     description: 'Create unlimited custom AI agents',
     icon: '✨',
-    tier: 'standard',
+    tier: 'pro',
     price: 199,
     annualDiscount: 20,
     features: [
@@ -145,7 +152,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'Document Analysis Pack',
     description: 'Upload documents for council analysis',
     icon: '📁',
-    tier: 'standard',
+    tier: 'pro',
     price: 199,
     annualDiscount: 20,
     features: [
@@ -166,7 +173,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'Team Collaboration Pack',
     description: 'Multi-user access with roles and sharing',
     icon: '👥',
-    tier: 'professional',
+    tier: 'enterprise',
     price: 249,
     annualDiscount: 25,
     features: [
@@ -186,7 +193,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'Audit Excellence Pack',
     description: 'External & Internal Auditor agents',
     icon: '🔎',
-    tier: 'professional',
+    tier: 'enterprise',
     price: 299,
     annualDiscount: 25,
     features: [
@@ -206,7 +213,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'API Access Pack',
     description: 'Programmatic access and integrations',
     icon: '🔗',
-    tier: 'professional',
+    tier: 'enterprise',
     price: 299,
     annualDiscount: 25,
     features: [
@@ -226,7 +233,7 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
     name: 'Compliance & Audit Trail',
     description: 'Full audit logging for regulatory compliance',
     icon: '🔒',
-    tier: 'professional',
+    tier: 'enterprise',
     price: 349,
     annualDiscount: 25,
     features: [
@@ -374,7 +381,7 @@ export const PREMIUM_BUNDLES: PremiumBundle[] = [
     name: 'Starter Bundle',
     description: 'Essential premium features to supercharge your council',
     icon: '🚀',
-    tier: 'standard',
+    tier: 'pro',
     price: 299,
     annualDiscount: 25,
     includedFeatures: ['export-reporting', 'analytics-insights'],
@@ -386,7 +393,7 @@ export const PREMIUM_BUNDLES: PremiumBundle[] = [
     name: 'Creator Bundle',
     description: 'Full customization: custom agents and custom modes',
     icon: '🎨',
-    tier: 'standard',
+    tier: 'pro',
     price: 299,
     annualDiscount: 25,
     includedFeatures: ['agent-builder', 'custom-modes'],
@@ -397,7 +404,7 @@ export const PREMIUM_BUNDLES: PremiumBundle[] = [
     name: 'Professional Bundle',
     description: 'Everything a growing team needs',
     icon: '💼',
-    tier: 'professional',
+    tier: 'enterprise',
     price: 699,
     annualDiscount: 30,
     includedFeatures: ['team-collaboration', 'api-access', 'compliance-audit', 'audit-excellence'],
