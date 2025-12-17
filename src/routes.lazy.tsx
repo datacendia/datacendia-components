@@ -141,6 +141,9 @@ const EntityDetailsPage = lazy(() =>
 const DeliberationViewPage = lazy(() =>
   import('./pages/cortex/council/subpages').then((m) => ({ default: m.DeliberationViewPage }))
 );
+const DecisionsPage = lazy(() =>
+  import('./pages/cortex/council/DecisionsPage').then((m) => ({ default: m.DecisionsPage }))
+);
 const AgentProfilePage = lazy(() =>
   import('./pages/cortex/council/subpages').then((m) => ({ default: m.AgentProfilePage }))
 );
@@ -1214,6 +1217,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <AgentProfilePage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'decisions',
+        element: (
+          <SuspenseWrapper>
+            <DecisionsPage />
           </SuspenseWrapper>
         ),
       },
