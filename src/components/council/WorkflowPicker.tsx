@@ -49,6 +49,50 @@ interface DetectedVariable {
 }
 
 // =============================================================================
+// CURRENCY OPTIONS
+// =============================================================================
+
+const CURRENCY_OPTIONS = [
+  { symbol: '$', code: 'USD', name: 'US Dollar' },
+  { symbol: '€', code: 'EUR', name: 'Euro' },
+  { symbol: '£', code: 'GBP', name: 'British Pound' },
+  { symbol: '¥', code: 'JPY', name: 'Japanese Yen' },
+  { symbol: '¥', code: 'CNY', name: 'Chinese Yuan' },
+  { symbol: '₹', code: 'INR', name: 'Indian Rupee' },
+  { symbol: 'A$', code: 'AUD', name: 'Australian Dollar' },
+  { symbol: 'C$', code: 'CAD', name: 'Canadian Dollar' },
+  { symbol: 'CHF', code: 'CHF', name: 'Swiss Franc' },
+  { symbol: 'kr', code: 'SEK', name: 'Swedish Krona' },
+  { symbol: 'R$', code: 'BRL', name: 'Brazilian Real' },
+  { symbol: '₩', code: 'KRW', name: 'South Korean Won' },
+  { symbol: 'S$', code: 'SGD', name: 'Singapore Dollar' },
+  { symbol: 'HK$', code: 'HKD', name: 'Hong Kong Dollar' },
+  { symbol: 'zł', code: 'PLN', name: 'Polish Złoty' },
+  { symbol: 'R', code: 'ZAR', name: 'South African Rand' },
+  { symbol: '₪', code: 'ILS', name: 'Israeli Shekel' },
+  { symbol: 'د.إ', code: 'AED', name: 'UAE Dirham' },
+  { symbol: 'ر.س', code: 'SAR', name: 'Saudi Riyal' },
+  { symbol: '₱', code: 'PHP', name: 'Philippine Peso' },
+];
+
+// Extract currency symbol from amount string
+function extractCurrency(amount: string): { symbol: string; value: string } {
+  // Match currency symbols at the start
+  const match = amount.match(/^([^\d\s,]+)\s*([\d,]+(?:\.\d+)?[KMB]?)$/);
+  if (match && match[1] && match[2]) {
+    return { symbol: match[1], value: match[2] };
+  }
+  // Default: assume $ if no symbol found
+  const numMatch = amount.match(/([\d,]+(?:\.\d+)?[KMB]?)/);
+  return { symbol: '$', value: numMatch && numMatch[1] ? numMatch[1] : amount };
+}
+
+// Combine currency symbol with value
+function formatCurrencyAmount(symbol: string, value: string): string {
+  return `${symbol}${value}`;
+}
+
+// =============================================================================
 // VARIABLE TOOLTIPS
 // =============================================================================
 
@@ -555,6 +599,40 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
                                 <option key={opt} value={opt}>{opt}</option>
                               ))}
                             </select>
+                          ) : variable.type === 'amount' ? (
+                            // Special currency + amount input
+                            <div className="flex gap-2">
+                              <select
+                                value={extractCurrency(variable.currentValue).symbol}
+                                onChange={(e) => {
+                                  const { value } = extractCurrency(variable.currentValue);
+                                  const newVars = [...variables];
+                                  newVars[idx] = { ...variable, currentValue: formatCurrencyAmount(e.target.value, value) };
+                                  setVariables(newVars);
+                                }}
+                                className="w-24 px-2 py-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 text-sm"
+                                title="Select currency"
+                              >
+                                {CURRENCY_OPTIONS.map((curr) => (
+                                  <option key={curr.code} value={curr.symbol}>
+                                    {curr.symbol} {curr.code}
+                                  </option>
+                                ))}
+                              </select>
+                              <input
+                                type="text"
+                                value={extractCurrency(variable.currentValue).value}
+                                onChange={(e) => {
+                                  const { symbol } = extractCurrency(variable.currentValue);
+                                  const newVars = [...variables];
+                                  newVars[idx] = { ...variable, currentValue: formatCurrencyAmount(symbol, e.target.value) };
+                                  setVariables(newVars);
+                                }}
+                                placeholder="e.g., 4.2M, 380K"
+                                title={tooltip.hint}
+                                className="flex-1 px-3 py-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 placeholder:text-neutral-400 placeholder:text-xs"
+                              />
+                            </div>
                           ) : (
                             <input
                               type="text"
