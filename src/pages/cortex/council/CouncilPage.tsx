@@ -796,9 +796,9 @@ export const CouncilPage: React.FC = () => {
         setCanApprove(approveResult.allowed);
         setPolicyReason(vetoResult.reason || approveResult.reason || '');
       } catch (error) {
-        // Default to allowed if policy service unavailable (dev mode)
-        setCanVeto(true);
-        setCanApprove(true);
+        // Default to NOT showing governance badge if policy service unavailable
+        setCanVeto(false);
+        setCanApprove(false);
       }
     };
     checkPermissions();
@@ -1451,11 +1451,17 @@ export const CouncilPage: React.FC = () => {
               </div>
             )}
             
-            {/* Governance Permissions Badge */}
+            {/* Governance Permissions Badge - Only shows when user has actual permissions */}
             {(canVeto || canApprove) && (
               <div 
-                className="flex items-center gap-2 px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-lg border border-indigo-200"
-                title={policyReason || 'Governance permissions active'}
+                className="flex items-center gap-2 px-3 py-1.5 bg-indigo-50 text-indigo-700 rounded-lg border border-indigo-200 cursor-help"
+                title={
+                  canVeto && canApprove 
+                    ? `Full Authority: You can approve or veto council decisions. ${policyReason ? `Reason: ${policyReason}` : ''}`
+                    : canVeto 
+                    ? `Veto Power: You can block council decisions that don't meet governance standards. ${policyReason ? `Reason: ${policyReason}` : ''}`
+                    : `Approval Power: You can approve council decisions for implementation. ${policyReason ? `Reason: ${policyReason}` : ''}`
+                }
               >
                 <span>🏛️</span>
                 <span className="text-sm font-medium">
