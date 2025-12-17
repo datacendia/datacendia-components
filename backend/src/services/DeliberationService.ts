@@ -5,6 +5,7 @@
 
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
+import { druidEventStream } from './DruidEventStream.js';
 // Note: Database persistence can be added later when Prisma model is created
 
 // =============================================================================
@@ -147,6 +148,22 @@ export class DeliberationService extends BaseService {
     this.deliberationCache.set(deliberation.organizationId, orgDeliberations.slice(0, 100));
 
     this.logger.info(`Saved deliberation ${id} to cache`);
+
+    // Stream to Druid for CendiaChronos™ analytics
+    druidEventStream.logDecision({
+      organizationId: deliberation.organizationId,
+      sessionId: id,
+      decisionId: id,
+      question: deliberation.question,
+      agentsInvolved: deliberation.agentResponses.map(r => r.agentName),
+      consensusReached: deliberation.confidence > 70,
+      finalRecommendation: deliberation.synthesis?.substring(0, 200) || 'No synthesis',
+      confidenceScore: deliberation.confidence,
+      riskLevel: deliberation.confidence < 50 ? 'high' : deliberation.confidence < 70 ? 'medium' : 'low',
+      deliberationTimeMs: deliberation.agentResponses.reduce((sum, r) => sum + r.duration, 0),
+      department: deliberation.tags?.[0] || 'General',
+      tags: deliberation.tags || [],
+    });
 
     this.incrementCounter('deliberations_saved', 1);
     return saved;

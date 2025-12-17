@@ -9,6 +9,7 @@
  */
 
 import crypto from 'crypto';
+import { druidEventStream } from '../services/DruidEventStream.js';
 
 export type AuditEventType =
   // Authentication
@@ -166,6 +167,22 @@ class AuditService {
       user: event.userName || event.userId,
       resource: `${event.resource.type}:${event.resource.id}`,
       outcome: event.outcome,
+    });
+
+    // Stream to Druid for CendiaWitness™ analytics
+    druidEventStream.logAudit({
+      organizationId: event.organizationId,
+      eventType: event.eventType,
+      actorId: event.userId || 'system',
+      actorType: event.userId ? 'user' : 'system',
+      resourceType: event.resource.type,
+      resourceId: event.resource.id || 'unknown',
+      action: event.action,
+      outcome: event.outcome,
+      riskScore: event.severity === 'critical' ? 100 : event.severity === 'warning' ? 50 : 10,
+      ipAddress: event.ipAddress,
+      userAgent: event.userAgent,
+      metadata: event.details as Record<string, any>,
     });
 
     // Trigger alerts for critical events
