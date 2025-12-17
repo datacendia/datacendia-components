@@ -38,6 +38,39 @@ interface WorkflowPickerProps {
   currentMode?: string;
 }
 
+// =============================================================================
+// AVAILABLE AI AGENTS
+// =============================================================================
+
+const AVAILABLE_AGENTS = [
+  // Core Agents
+  { id: 'CendiaCouncil', name: 'Council', emoji: '🏛️', category: 'Core', description: 'Multi-agent deliberation orchestrator' },
+  { id: 'CendiaSynthesis', name: 'Synthesis', emoji: '🔮', category: 'Core', description: 'Cross-agent insight synthesis' },
+  { id: 'CendiaChronos', name: 'Chronos', emoji: '⏳', category: 'Core', description: 'Temporal pattern analysis' },
+  { id: 'CendiaOrbit', name: 'Orbit', emoji: '🌐', category: 'Core', description: 'Relationship graph traversal' },
+  { id: 'CendiaCascade', name: 'Cascade', emoji: '🦋', category: 'Core', description: 'Consequence prediction engine' },
+  // Intelligence Agents
+  { id: 'CendiaRainmaker', name: 'Rainmaker', emoji: '💰', category: 'Intelligence', description: 'Revenue opportunity detection' },
+  { id: 'CendiaRedTeam', name: 'Red Team', emoji: '🔴', category: 'Intelligence', description: 'Adversarial risk analysis' },
+  { id: 'CendiaDissent', name: 'Dissent', emoji: '⚖️', category: 'Intelligence', description: 'Devil\'s advocate reasoning' },
+  { id: 'CendiaApotheosis', name: 'Apotheosis', emoji: '🚀', category: 'Intelligence', description: 'Self-improvement engine' },
+  { id: 'CendiaDocket', name: 'Docket', emoji: '📋', category: 'Intelligence', description: 'Compliance verification' },
+  // Sovereign Agents
+  { id: 'CendiaVault', name: 'Vault', emoji: '🔐', category: 'Sovereign', description: 'Secure document storage' },
+  { id: 'CendiaDataDiode', name: 'Data Diode', emoji: '📥', category: 'Sovereign', description: 'Unidirectional data ingest' },
+  { id: 'CendiaShadowCouncil', name: 'Shadow Council', emoji: '👥', category: 'Sovereign', description: 'Sandbox deliberation mode' },
+  { id: 'CendiaTimeLock', name: 'Time Lock', emoji: '🔒', category: 'Sovereign', description: 'Embargoed decision release' },
+  // Enterprise Agents
+  { id: 'SynthesisEngine', name: 'Synthesis Engine', emoji: '⚙️', category: 'Enterprise', description: 'Multi-agent orchestration' },
+  { id: 'LogicGate', name: 'Logic Gate', emoji: '🚦', category: 'Enterprise', description: 'Parallel task execution' },
+  { id: 'CendiaGraph', name: 'Graph', emoji: '🕸️', category: 'Enterprise', description: 'Knowledge graph queries' },
+  { id: 'CendiaIngest', name: 'Ingest', emoji: '📄', category: 'Enterprise', description: 'Document vectorization' },
+  // Strategic Agents
+  { id: 'WarGames', name: 'War Games', emoji: '🎮', category: 'Strategic', description: 'Crisis simulation' },
+  { id: 'Union', name: 'Union', emoji: '🛡️', category: 'Strategic', description: 'Defense synthesis' },
+  { id: 'RDP', name: 'RDP', emoji: '📦', category: 'Strategic', description: 'Rapid deployment protocol' },
+];
+
 interface DetectedVariable {
   id: string;
   type: 'quarter' | 'year' | 'amount' | 'percentage' | 'duration' | 'count' | 'date' | 'text';
@@ -279,6 +312,8 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
   // Customization state
   const [customizingScenario, setCustomizingScenario] = useState<WorkflowScenario | null>(null);
   const [variables, setVariables] = useState<DetectedVariable[]>([]);
+  const [selectedAgents, setSelectedAgents] = useState<string[]>([]);
+  const [showAgentPicker, setShowAgentPicker] = useState(false);
 
   // Load scenarios from backend
   useEffect(() => {
@@ -467,16 +502,12 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
                       <button
                         key={scenario.id}
                         onClick={() => {
-                          // Extract variables and open customization step
+                          // Always open customization to allow agent management
                           const detectedVars = extractVariables(scenario.councilQuestion);
-                          if (detectedVars.length > 0) {
-                            setCustomizingScenario(scenario);
-                            setVariables(detectedVars);
-                          } else {
-                            // No variables to customize, select directly
-                            onSelect(scenario);
-                            onClose();
-                          }
+                          setCustomizingScenario(scenario);
+                          setVariables(detectedVars);
+                          setSelectedAgents([...scenario.services]);
+                          setShowAgentPicker(false);
                         }}
                         className={cn(
                           'w-full text-left p-4 rounded-xl border transition-all',
@@ -514,8 +545,27 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
                             </p>
                             <div className="flex items-center gap-3 mt-2 text-xs text-neutral-500">
                               <span>⏱️ {scenario.estimatedDuration}</span>
-                              <span>🔧 {scenario.services.length} services</span>
                               <span>📝 {scenario.steps.length} steps</span>
+                            </div>
+                            {/* Agents involved */}
+                            <div className="flex flex-wrap gap-1 mt-2">
+                              {scenario.services.slice(0, 5).map((service) => {
+                                const agent = AVAILABLE_AGENTS.find(a => a.id === service);
+                                return (
+                                  <span
+                                    key={service}
+                                    className="inline-flex items-center gap-1 px-2 py-0.5 bg-indigo-50 text-indigo-700 rounded text-xs"
+                                    title={agent?.description || service}
+                                  >
+                                    {agent?.emoji || '🤖'} {agent?.name || service}
+                                  </span>
+                                );
+                              })}
+                              {scenario.services.length > 5 && (
+                                <span className="px-2 py-0.5 bg-neutral-100 text-neutral-500 rounded text-xs">
+                                  +{scenario.services.length - 5} more
+                                </span>
+                              )}
                             </div>
                           </div>
                           <div className="text-indigo-500 text-xl">→</div>
@@ -696,6 +746,94 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
                 })}
               </div>
 
+              {/* AI Agents Section */}
+              <div className="mt-6 p-4 bg-indigo-50 rounded-xl border border-indigo-100">
+                <div className="flex items-center justify-between mb-3">
+                  <div className="text-xs font-medium text-indigo-700 uppercase tracking-wider">
+                    🤖 AI Agents ({selectedAgents.length})
+                  </div>
+                  <button
+                    onClick={() => setShowAgentPicker(!showAgentPicker)}
+                    className="text-xs px-3 py-1 bg-indigo-100 hover:bg-indigo-200 text-indigo-700 rounded-lg transition-colors"
+                  >
+                    {showAgentPicker ? '✕ Close' : '+ Add Agent'}
+                  </button>
+                </div>
+                
+                {/* Selected Agents */}
+                <div className="flex flex-wrap gap-2 mb-3">
+                  {selectedAgents.map((agentId) => {
+                    const agent = AVAILABLE_AGENTS.find(a => a.id === agentId);
+                    return (
+                      <div
+                        key={agentId}
+                        className="group inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-indigo-200 rounded-lg text-sm"
+                        title={agent?.description || agentId}
+                      >
+                        <span>{agent?.emoji || '🤖'}</span>
+                        <span className="text-neutral-700">{agent?.name || agentId}</span>
+                        <button
+                          onClick={() => setSelectedAgents(selectedAgents.filter(id => id !== agentId))}
+                          className="ml-1 text-neutral-400 hover:text-red-500 opacity-0 group-hover:opacity-100 transition-opacity"
+                          title="Remove agent"
+                        >
+                          ✕
+                        </button>
+                      </div>
+                    );
+                  })}
+                  {selectedAgents.length === 0 && (
+                    <span className="text-sm text-indigo-400 italic">No agents selected</span>
+                  )}
+                </div>
+
+                {/* Agent Picker Dropdown */}
+                {showAgentPicker && (
+                  <div className="mt-3 p-3 bg-white rounded-lg border border-indigo-200 max-h-48 overflow-y-auto">
+                    <div className="grid gap-1">
+                      {Object.entries(
+                        AVAILABLE_AGENTS.reduce((acc, agent) => {
+                          if (!acc[agent.category]) acc[agent.category] = [];
+                          acc[agent.category].push(agent);
+                          return acc;
+                        }, {} as Record<string, typeof AVAILABLE_AGENTS>)
+                      ).map(([category, agents]) => (
+                        <div key={category}>
+                          <div className="text-[10px] font-semibold text-neutral-400 uppercase tracking-wider mt-2 mb-1">
+                            {category}
+                          </div>
+                          {agents.map((agent) => {
+                            const isSelected = selectedAgents.includes(agent.id);
+                            return (
+                              <button
+                                key={agent.id}
+                                onClick={() => {
+                                  if (isSelected) {
+                                    setSelectedAgents(selectedAgents.filter(id => id !== agent.id));
+                                  } else {
+                                    setSelectedAgents([...selectedAgents, agent.id]);
+                                  }
+                                }}
+                                className={cn(
+                                  'w-full flex items-center gap-2 px-2 py-1.5 rounded text-left text-sm transition-colors',
+                                  isSelected
+                                    ? 'bg-indigo-100 text-indigo-700'
+                                    : 'hover:bg-neutral-50 text-neutral-600'
+                                )}
+                              >
+                                <span>{agent.emoji}</span>
+                                <span className="flex-1">{agent.name}</span>
+                                {isSelected && <span className="text-indigo-500">✓</span>}
+                              </button>
+                            );
+                          })}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
               {/* Preview */}
               <div className="mt-6 p-4 bg-neutral-100 rounded-xl">
                 <div className="text-xs font-medium text-neutral-500 uppercase tracking-wider mb-2">
@@ -723,6 +861,7 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
                   onClick={() => {
                     // Reset to original values
                     setVariables(variables.map(v => ({ ...v, currentValue: v.originalValue })));
+                    setSelectedAgents([...customizingScenario.services]);
                   }}
                   className="px-4 py-2 text-neutral-600 hover:text-neutral-800"
                 >
@@ -734,10 +873,13 @@ export const WorkflowPicker: React.FC<WorkflowPickerProps> = ({
                     const customizedScenario = {
                       ...customizingScenario,
                       councilQuestion: applyVariables(customizingScenario.councilQuestion, variables),
+                      services: selectedAgents,
                     };
                     onSelect(customizedScenario);
                     setCustomizingScenario(null);
                     setVariables([]);
+                    setSelectedAgents([]);
+                    setShowAgentPicker(false);
                     onClose();
                   }}
                   className="px-6 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 font-medium"
