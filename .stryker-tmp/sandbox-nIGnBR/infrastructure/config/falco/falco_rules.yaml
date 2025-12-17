@@ -1,0 +1,68 @@
+# =============================================================================
+# DATACENDIA FALCO RULES - Runtime Security Detection
+# =============================================================================
+# Minimal rules for CendiaWatchdog™ - Falco 0.39.x compatible
+
+# -----------------------------------------------------------------------------
+# MACRO DEFINITIONS
+# -----------------------------------------------------------------------------
+
+- macro: container
+  condition: container.id != host
+
+- macro: spawned_process
+  condition: evt.type = execve and evt.dir=<
+
+- macro: open_read
+  condition: evt.type in (open, openat, openat2) and evt.is_open_read=true and fd.typechar='f'
+
+# -----------------------------------------------------------------------------
+# LISTS
+# -----------------------------------------------------------------------------
+
+- list: shell_binaries
+  items: [bash, csh, ksh, sh, tcsh, zsh, dash]
+
+- list: sensitive_files
+  items: [/etc/shadow, /etc/passwd, /etc/sudoers]
+
+- list: mining_binaries
+  items: [xmrig, minerd, minergate, stratum, cpuminer]
+
+# -----------------------------------------------------------------------------
+# RULES
+# -----------------------------------------------------------------------------
+
+- rule: Terminal shell in container
+  desc: Detect a shell spawned in a container with an attached terminal
+  condition: >
+    spawned_process and container
+    and proc.name in (shell_binaries)
+    and proc.tty != 0
+  output: >
+    Shell spawned in container (user=%user.name container=%container.name 
+    shell=%proc.name parent=%proc.pname cmdline=%proc.cmdline)
+  priority: NOTICE
+  tags: [container, shell, datacendia]
+
+- rule: Container drift detected
+  desc: Detect new executable in running container
+  condition: >
+    spawned_process and container
+    and proc.is_exe_upper_layer=true
+  output: >
+    New executable in container (user=%user.name container=%container.name 
+    process=%proc.name file=%proc.exepath)
+  priority: ERROR
+  tags: [container, drift, datacendia]
+
+- rule: Crypto mining detection
+  desc: Detect potential cryptocurrency mining
+  condition: >
+    spawned_process and container
+    and proc.name in (mining_binaries)
+  output: >
+    Potential crypto mining detected (user=%user.name container=%container.name 
+    process=%proc.name cmdline=%proc.cmdline)
+  priority: CRITICAL
+  tags: [cryptomining, datacendia]

@@ -1,0 +1,45 @@
+# Datacendia - Robots.txt
+# https://datacendia.com
+
+User-agent: *
+Allow: /
+
+# Public pages - fully indexable
+Allow: /pricing
+Allow: /product
+Allow: /about
+Allow: /contact
+Allow: /demo
+Allow: /services
+Allow: /packages
+Allow: /showcases
+Allow: /downloads
+Allow: /license
+Allow: /manifesto
+Allow: /privacy
+Allow: /terms
+Allow: /login
+Allow: /register
+
+# Disallow authenticated/private areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /cortex/settings/
+Disallow: /cortex/data/
+Disallow: /cortex/security/
+
+# Allow specific cortex pages for marketing/demos
+Allow: /cortex/$
+Allow: /cortex/dashboard$
+Allow: /cortex/council$
+Allow: /cortex/graph$
+Allow: /cortex/pulse$
+Allow: /cortex/lens$
+Allow: /cortex/bridge$
+Allow: /cortex/pillars/
+
+# Sitemap
+Sitemap: https://datacendia.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

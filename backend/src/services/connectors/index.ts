@@ -5,6 +5,12 @@
 
 import { logger } from '../../utils/logger.js';
 
+// Helper to extract error message safely
+function getErrorMessage(error: unknown): string {
+  if (error instanceof Error) return error.message;
+  return String(error);
+}
+
 // =============================================================================
 // TYPES
 // =============================================================================
@@ -80,12 +86,12 @@ export const postgresConnector: DataSourceConnector = {
           schemas: [config.schema as string || 'public'],
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('PostgreSQL connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to PostgreSQL',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -143,20 +149,23 @@ export const mysqlConnector: DataSourceConnector = {
       
       await connection.end();
       
+      const versionData = versionRows as Array<{ version?: string }>;
+      const tableData = tableRows as Array<{ count?: number }>;
+      
       return {
         success: true,
         message: 'Successfully connected to MySQL',
         metadata: {
-          version: (versionRows as any)[0]?.version,
-          tables: (tableRows as any)[0]?.count,
+          version: versionData[0]?.version,
+          tables: tableData[0]?.count,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('MySQL connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to MySQL',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -200,12 +209,12 @@ export const mongoConnector: DataSourceConnector = {
           schemas: collections.map(c => c.name),
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('MongoDB connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to MongoDB',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -255,12 +264,12 @@ export const restApiConnector: DataSourceConnector = {
           version: response.headers.get('x-api-version') || 'Unknown',
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('REST API connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to REST API',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -319,12 +328,12 @@ export const salesforceConnector: DataSourceConnector = {
           instanceUrl: auth.instance_url,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Salesforce connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Salesforce',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -378,12 +387,12 @@ export const snowflakeConnector: DataSourceConnector = {
           account,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Snowflake connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Snowflake',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -420,11 +429,11 @@ export const csvConnector: DataSourceConnector = {
           sizeBytes: stats.size,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       return {
         success: false,
         message: 'CSV file not found',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -468,12 +477,12 @@ export const sapConnector: DataSourceConnector = {
           client,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('SAP connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to SAP',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -556,12 +565,12 @@ export const awsConnector: DataSourceConnector = {
           service,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('AWS connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to AWS',
-        error: error.message || 'Authentication failed',
+        error: getErrorMessage(error) || 'Authentication failed',
       };
     }
   },
@@ -747,12 +756,12 @@ export const azureConnector: DataSourceConnector = {
         message: 'Azure credentials required',
         error: 'Please provide storage credentials or service principal credentials',
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Azure connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Azure',
-        error: error.message || 'Authentication failed',
+        error: getErrorMessage(error) || 'Authentication failed',
       };
     }
   },
@@ -849,12 +858,12 @@ export const hubspotConnector: DataSourceConnector = {
           version: 'CRM API v3',
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('HubSpot connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to HubSpot',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -892,12 +901,12 @@ export const bigqueryConnector: DataSourceConnector = {
           serviceAccount: keyData.client_email,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('BigQuery connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to BigQuery',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -928,12 +937,12 @@ export const oracleConnector: DataSourceConnector = {
           connectionString: `${host}:${port}/${serviceName}`,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Oracle connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Oracle',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -983,12 +992,12 @@ export const graphqlConnector: DataSourceConnector = {
           typesCount: data.data?.__schema?.types?.length || 0,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('GraphQL connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to GraphQL',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -1004,10 +1013,10 @@ export const redisConnector: DataSourceConnector = {
   
   async testConnection(config, credentials): Promise<ConnectionResult> {
     try {
-      const RedisModule = await import('ioredis');
-      const Redis = RedisModule.default || RedisModule;
+      const ioredis = await import('ioredis');
+      const Redis = ioredis.default as typeof ioredis.default;
       
-      const client = new (Redis as any)({
+      const client = new Redis({
         host: config.host as string || 'localhost',
         port: config.port as number || 6379,
         password: credentials.password || undefined,
@@ -1033,12 +1042,12 @@ export const redisConnector: DataSourceConnector = {
           pong,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Redis connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Redis',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -1089,12 +1098,12 @@ export const neo4jConnector: DataSourceConnector = {
           relationships,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Neo4j connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Neo4j',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -1154,12 +1163,12 @@ export const slackConnector: DataSourceConnector = {
           user: data.user,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Slack connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Slack',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -1200,12 +1209,12 @@ export const emailConnector: DataSourceConnector = {
           secure: config.secure || false,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('SMTP connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to SMTP server',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -1259,12 +1268,12 @@ export const webhookConnector: DataSourceConnector = {
           status: response.status,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Webhook test failed:', error);
       return {
         success: false,
         message: 'Failed to reach webhook endpoint',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -1333,12 +1342,12 @@ export const teamsConnector: DataSourceConnector = {
         message: 'Please provide a Teams webhook URL or OAuth token',
         error: 'Missing credentials',
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Teams connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Microsoft Teams',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -1402,12 +1411,12 @@ export const jiraConnector: DataSourceConnector = {
           projectCount: Array.isArray(projects) ? projects.length : 0,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Jira connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Jira',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },
@@ -1465,12 +1474,12 @@ export const tableauConnector: DataSourceConnector = {
           siteId: data.credentials?.site?.id,
         },
       };
-    } catch (error: any) {
+    } catch (error) {
       logger.error('Tableau connection failed:', error);
       return {
         success: false,
         message: 'Failed to connect to Tableau',
-        error: error.message,
+        error: getErrorMessage(error),
       };
     }
   },

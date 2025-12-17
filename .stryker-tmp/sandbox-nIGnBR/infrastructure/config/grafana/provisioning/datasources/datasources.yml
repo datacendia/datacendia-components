@@ -1,0 +1,42 @@
+# =============================================================================
+# GRAFANA DATASOURCES - CendiaPulse™ Data Connections
+# =============================================================================
+
+apiVersion: 1
+
+datasources:
+  # Prometheus - Metrics
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    url: http://prometheus:9090
+    isDefault: true
+    editable: false
+
+  # Loki - Logs
+  - name: Loki
+    type: loki
+    access: proxy
+    url: http://loki:3100
+    editable: false
+
+  # PostgreSQL - Relational Data
+  - name: PostgreSQL
+    type: postgres
+    url: postgres:5432
+    database: datacendia
+    user: cendia
+    secureJsonData:
+      password: cendia_sovereign_2025
+    jsonData:
+      sslmode: disable
+      maxOpenConns: 10
+      maxIdleConns: 10
+      connMaxLifetime: 14400
+    editable: false
+
+  # Apache Druid - Analytics
+  - name: Druid
+    type: grafana-druid-datasource
+    url: http://druid-router:8888
+    editable: false

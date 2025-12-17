@@ -175,11 +175,12 @@ export async function generateRSAKeyPair(): Promise<{ publicKey: string; private
 
 /**
  * Sign data with RSA private key
+ * Note: RSA signing uses PKCS1 padding (not OAEP which is for encryption)
  */
 export function signData(data: string, privateKey: string): string {
   const sign = crypto.createSign('RSA-SHA512');
   sign.update(data);
-  return sign.sign({ key: privateKey, padding: CryptoConfig.RSA_PADDING }, 'base64');
+  return sign.sign({ key: privateKey, padding: crypto.constants.RSA_PKCS1_PADDING }, 'base64');
 }
 
 /**
@@ -189,7 +190,7 @@ export function verifySignature(data: string, signature: string, publicKey: stri
   try {
     const verify = crypto.createVerify('RSA-SHA512');
     verify.update(data);
-    return verify.verify({ key: publicKey, padding: CryptoConfig.RSA_PADDING }, signature, 'base64');
+    return verify.verify({ key: publicKey, padding: crypto.constants.RSA_PKCS1_PADDING }, signature, 'base64');
   } catch {
     return false;
   }

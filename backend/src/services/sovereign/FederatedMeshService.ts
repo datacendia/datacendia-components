@@ -5,6 +5,9 @@
 // Enables knowledge sharing across multiple air-gapped Datacendia instances
 // via portable model deltas. Each site stays sovereign but benefits from
 // collective intelligence. Zero network connectivity required.
+//
+// DEMO MODE: Simulates federation with virtual organizations for showcasing
+// the federated learning workflow without requiring multiple instances.
 // =============================================================================
 
 import { EventEmitter } from 'events';
@@ -13,6 +16,109 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as zlib from 'zlib';
 import { logger } from '../../utils/logger.js';
+
+// =============================================================================
+// SIMULATED FEDERATION - Virtual Organizations for Demo Mode
+// =============================================================================
+
+interface VirtualOrganization {
+  id: string;
+  name: string;
+  industry: string;
+  region: string;
+  size: 'small' | 'medium' | 'large' | 'enterprise';
+  specializations: string[];
+  dataQuality: number;
+  contributionScore: number;
+  lastActive: Date;
+}
+
+const VIRTUAL_ORGANIZATIONS: VirtualOrganization[] = [
+  {
+    id: 'vorg-acme',
+    name: 'Acme Financial Services',
+    industry: 'finance',
+    region: 'North America',
+    size: 'enterprise',
+    specializations: ['fraud-detection', 'risk-modeling', 'regulatory-compliance'],
+    dataQuality: 0.94,
+    contributionScore: 87,
+    lastActive: new Date(Date.now() - 2 * 60 * 60 * 1000),
+  },
+  {
+    id: 'vorg-nexus',
+    name: 'Nexus Healthcare Systems',
+    industry: 'healthcare',
+    region: 'Europe',
+    size: 'large',
+    specializations: ['patient-outcomes', 'clinical-decisions', 'resource-optimization'],
+    dataQuality: 0.91,
+    contributionScore: 82,
+    lastActive: new Date(Date.now() - 4 * 60 * 60 * 1000),
+  },
+  {
+    id: 'vorg-titan',
+    name: 'Titan Manufacturing',
+    industry: 'manufacturing',
+    region: 'Asia Pacific',
+    size: 'enterprise',
+    specializations: ['supply-chain', 'predictive-maintenance', 'quality-control'],
+    dataQuality: 0.89,
+    contributionScore: 79,
+    lastActive: new Date(Date.now() - 1 * 60 * 60 * 1000),
+  },
+  {
+    id: 'vorg-quantum',
+    name: 'Quantum Energy Corp',
+    industry: 'energy',
+    region: 'Middle East',
+    size: 'large',
+    specializations: ['grid-optimization', 'demand-forecasting', 'sustainability'],
+    dataQuality: 0.92,
+    contributionScore: 85,
+    lastActive: new Date(Date.now() - 30 * 60 * 1000),
+  },
+  {
+    id: 'vorg-stellar',
+    name: 'Stellar Retail Group',
+    industry: 'retail',
+    region: 'North America',
+    size: 'medium',
+    specializations: ['inventory-optimization', 'customer-behavior', 'pricing-strategy'],
+    dataQuality: 0.87,
+    contributionScore: 73,
+    lastActive: new Date(Date.now() - 6 * 60 * 60 * 1000),
+  },
+];
+
+interface FederatedQuery {
+  id: string;
+  query: string;
+  queryType: 'benchmark' | 'pattern' | 'insight' | 'model';
+  filters: {
+    industries?: string[];
+    regions?: string[];
+    minDataQuality?: number;
+  };
+  requestedBy: string;
+  requestedAt: Date;
+  status: 'pending' | 'aggregating' | 'complete' | 'failed';
+  participantCount: number;
+  results?: FederatedQueryResult;
+}
+
+interface FederatedQueryResult {
+  aggregatedData: any;
+  participantContributions: {
+    organizationId: string;
+    organizationName: string;
+    contributed: boolean;
+    dataPoints: number;
+  }[];
+  privacyBudgetUsed: number;
+  confidence: number;
+  completedAt: Date;
+}
 
 // =============================================================================
 // TYPES
@@ -207,12 +313,368 @@ class FederatedMeshService extends EventEmitter {
   private manifests: Map<string, SyncManifest> = new Map();
   private storagePath: string;
   private privateKey: string | null = null;
+  
+  // Demo mode - simulated federation
+  private demoMode: boolean = true;
+  private virtualOrgs: VirtualOrganization[] = VIRTUAL_ORGANIZATIONS;
+  private federatedQueries: Map<string, FederatedQuery> = new Map();
+  private sharedInsights: Map<string, any> = new Map();
 
   constructor() {
     super();
     this.storagePath = process.env.MESH_STORAGE_PATH || '/var/datacendia/mesh';
     this.ensureDirectories();
-    logger.info('[FederatedMesh] Service initialized - Multi-site learning ready');
+    this.initializeDemoMode();
+    logger.info('[FederatedMesh] Service initialized - Multi-site learning ready (Demo Mode: ON)');
+  }
+
+  // ===========================================================================
+  // DEMO MODE - Simulated Federation
+  // ===========================================================================
+
+  private initializeDemoMode(): void {
+    if (!this.demoMode) return;
+
+    // Create virtual nodes from organizations
+    for (const org of this.virtualOrgs) {
+      const virtualNode: MeshNode = {
+        id: `node-${org.id}`,
+        name: `${org.name} Node`,
+        organizationId: org.id,
+        nodeType: org.size === 'enterprise' ? 'primary' : 'secondary',
+        region: org.region,
+        publicKey: this.generateVirtualPublicKey(org.id),
+        publicKeyFingerprint: crypto.createHash('sha256').update(org.id).digest('hex').slice(0, 16),
+        capabilities: {
+          canExportDecisions: true,
+          canExportModels: true,
+          canExportPolicies: org.size !== 'small',
+          canExportPatterns: true,
+          canImportDecisions: true,
+          canImportModels: true,
+          canImportPolicies: true,
+          canImportPatterns: true,
+          availableModels: ['qwen2.5:7b', 'llama3.2:3b'],
+          maxModelSize: 1024 * 1024 * 100,
+        },
+        status: 'active',
+        lastSyncAt: org.lastActive,
+        deltasExported: Math.floor(Math.random() * 50) + 10,
+        deltasImported: Math.floor(Math.random() * 40) + 5,
+        registeredAt: new Date(Date.now() - Math.random() * 90 * 24 * 60 * 60 * 1000),
+      };
+      this.knownNodes.set(virtualNode.id, virtualNode);
+    }
+
+    // Generate sample deltas from virtual orgs
+    this.generateSampleDeltas();
+    
+    // Generate shared insights
+    this.generateSharedInsights();
+    
+    logger.info(`[FederatedMesh] Demo mode initialized with ${this.virtualOrgs.length} virtual organizations`);
+  }
+
+  private generateVirtualPublicKey(seed: string): string {
+    return `-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A${crypto.createHash('sha256').update(seed).digest('base64').slice(0, 128)}\n-----END PUBLIC KEY-----`;
+  }
+
+  private generateSampleDeltas(): void {
+    const deltaTypes: ModelDelta['deltaType'][] = ['lora_adapter', 'embedding_update', 'pattern_weights', 'decision_summary'];
+    const models = ['qwen2.5:7b', 'llama3.2:3b', 'mistral:7b'];
+    
+    for (const org of this.virtualOrgs) {
+      const numDeltas = Math.floor(Math.random() * 3) + 1;
+      
+      for (let i = 0; i < numDeltas; i++) {
+        const deltaType = deltaTypes[Math.floor(Math.random() * deltaTypes.length)];
+        const baseModel = models[Math.floor(Math.random() * models.length)];
+        
+        const delta: ModelDelta = {
+          id: `delta-${org.id}-${i}`,
+          sourceNodeId: `node-${org.id}`,
+          sourceNodeName: `${org.name} Node`,
+          deltaType,
+          baseModel,
+          deltaContent: {
+            format: 'safetensors',
+            compressed: true,
+            originalSize: Math.floor(Math.random() * 5000000) + 100000,
+            compressedSize: Math.floor(Math.random() * 1000000) + 50000,
+            data: Buffer.from(`simulated-delta-${org.id}-${i}`).toString('base64'),
+            checksum: crypto.createHash('sha256').update(`${org.id}-${i}`).digest('hex'),
+          },
+          differentialPrivacy: {
+            enabled: true,
+            epsilon: 1.0,
+            delta: 1e-5,
+            noiseMultiplier: 1.0,
+            maxGradNorm: 1.0,
+          },
+          signature: Buffer.from(`sig-${org.id}-${i}`).toString('base64'),
+          contentHash: crypto.createHash('sha256').update(`content-${org.id}-${i}`).digest('hex'),
+          trainingDataSummary: {
+            sampleCount: Math.floor(Math.random() * 50000) + 5000,
+            positiveCount: Math.floor(Math.random() * 25000) + 2500,
+            negativeCount: Math.floor(Math.random() * 25000) + 2500,
+            agentsCovered: org.specializations.slice(0, 2),
+            topicsCovered: org.specializations,
+            averageConfidence: 0.85 + Math.random() * 0.1,
+            dataStartDate: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000),
+            dataEndDate: new Date(),
+          },
+          createdAt: new Date(Date.now() - Math.random() * 7 * 24 * 60 * 60 * 1000),
+          applied: Math.random() > 0.6,
+          appliedAt: Math.random() > 0.6 ? new Date(Date.now() - Math.random() * 3 * 24 * 60 * 60 * 1000) : undefined,
+        };
+        
+        this.deltas.set(delta.id, delta);
+      }
+    }
+  }
+
+  private generateSharedInsights(): void {
+    const insights = [
+      {
+        id: 'insight-fraud-patterns',
+        title: 'Cross-Industry Fraud Pattern Detection',
+        category: 'security',
+        description: 'Aggregated patterns from 3 organizations reveal new synthetic identity fraud vectors',
+        contributors: ['vorg-acme', 'vorg-stellar', 'vorg-nexus'],
+        confidence: 0.89,
+        dataPoints: 127000,
+        createdAt: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000),
+      },
+      {
+        id: 'insight-supply-disruption',
+        title: 'Supply Chain Disruption Early Warning',
+        category: 'operations',
+        description: 'Combined logistics data predicts 78% of disruptions 14 days earlier',
+        contributors: ['vorg-titan', 'vorg-stellar', 'vorg-quantum'],
+        confidence: 0.92,
+        dataPoints: 89000,
+        createdAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
+      },
+      {
+        id: 'insight-decision-quality',
+        title: 'Decision Quality Benchmark',
+        category: 'governance',
+        description: 'Network-wide decision accuracy improved 12% through shared council patterns',
+        contributors: ['vorg-acme', 'vorg-nexus', 'vorg-titan', 'vorg-quantum', 'vorg-stellar'],
+        confidence: 0.95,
+        dataPoints: 234000,
+        createdAt: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000),
+      },
+    ];
+    
+    for (const insight of insights) {
+      this.sharedInsights.set(insight.id, insight);
+    }
+  }
+
+  /**
+   * Execute a federated query across virtual organizations
+   */
+  async executeFederatedQuery(params: {
+    query: string;
+    queryType: FederatedQuery['queryType'];
+    filters?: FederatedQuery['filters'];
+  }): Promise<FederatedQuery> {
+    const queryId = `fq-${crypto.randomUUID().slice(0, 8)}`;
+    
+    // Filter participating orgs
+    let participants = [...this.virtualOrgs];
+    if (params.filters?.industries?.length) {
+      participants = participants.filter(o => params.filters!.industries!.includes(o.industry));
+    }
+    if (params.filters?.regions?.length) {
+      participants = participants.filter(o => params.filters!.regions!.includes(o.region));
+    }
+    if (params.filters?.minDataQuality) {
+      participants = participants.filter(o => o.dataQuality >= params.filters!.minDataQuality!);
+    }
+    
+    const query: FederatedQuery = {
+      id: queryId,
+      query: params.query,
+      queryType: params.queryType,
+      filters: params.filters || {},
+      requestedBy: this.thisNode?.organizationId || 'demo',
+      requestedAt: new Date(),
+      status: 'aggregating',
+      participantCount: participants.length,
+    };
+    
+    this.federatedQueries.set(queryId, query);
+    
+    // Simulate async aggregation
+    setTimeout(() => this.completeFederatedQuery(queryId, participants), 1500);
+    
+    logger.info(`[FederatedMesh] Federated query ${queryId} started with ${participants.length} participants`);
+    this.emit('query:started', query);
+    
+    return query;
+  }
+
+  private completeFederatedQuery(queryId: string, participants: VirtualOrganization[]): void {
+    const query = this.federatedQueries.get(queryId);
+    if (!query) return;
+    
+    // Generate simulated aggregated results based on query type
+    let aggregatedData: any;
+    
+    switch (query.queryType) {
+      case 'benchmark':
+        aggregatedData = this.generateBenchmarkResults(participants);
+        break;
+      case 'pattern':
+        aggregatedData = this.generatePatternResults(participants);
+        break;
+      case 'insight':
+        aggregatedData = this.generateInsightResults(participants);
+        break;
+      case 'model':
+        aggregatedData = this.generateModelResults(participants);
+        break;
+    }
+    
+    query.status = 'complete';
+    query.results = {
+      aggregatedData,
+      participantContributions: participants.map(p => ({
+        organizationId: p.id,
+        organizationName: p.name,
+        contributed: Math.random() > 0.1,
+        dataPoints: Math.floor(Math.random() * 10000) + 1000,
+      })),
+      privacyBudgetUsed: 0.1 + Math.random() * 0.2,
+      confidence: 0.85 + Math.random() * 0.1,
+      completedAt: new Date(),
+    };
+    
+    logger.info(`[FederatedMesh] Federated query ${queryId} completed`);
+    this.emit('query:completed', query);
+  }
+
+  private generateBenchmarkResults(participants: VirtualOrganization[]): any {
+    return {
+      metrics: [
+        { name: 'Decision Accuracy', p25: 0.72, p50: 0.81, p75: 0.89, p90: 0.94, yourValue: 0.85 },
+        { name: 'Time to Decision', p25: 48, p50: 24, p75: 12, p90: 4, yourValue: 18, unit: 'hours' },
+        { name: 'Stakeholder Alignment', p25: 0.65, p50: 0.74, p75: 0.82, p90: 0.91, yourValue: 0.79 },
+        { name: 'Implementation Success', p25: 0.58, p50: 0.68, p75: 0.78, p90: 0.88, yourValue: 0.73 },
+      ],
+      participantCount: participants.length,
+      industries: [...new Set(participants.map(p => p.industry))],
+      dataPointsAggregated: participants.reduce((sum, p) => sum + Math.floor(Math.random() * 10000) + 5000, 0),
+    };
+  }
+
+  private generatePatternResults(participants: VirtualOrganization[]): any {
+    return {
+      patterns: [
+        { name: 'Consensus Building', frequency: 0.73, effectiveness: 0.85, adoptionTrend: 'increasing' },
+        { name: 'Rapid Iteration', frequency: 0.61, effectiveness: 0.79, adoptionTrend: 'stable' },
+        { name: 'Risk-First Analysis', frequency: 0.45, effectiveness: 0.91, adoptionTrend: 'increasing' },
+        { name: 'Stakeholder Pre-Alignment', frequency: 0.38, effectiveness: 0.88, adoptionTrend: 'increasing' },
+      ],
+      emergingPatterns: [
+        { name: 'AI-Assisted Deliberation', frequency: 0.12, growth: '+340%' },
+        { name: 'Async Decision Councils', frequency: 0.08, growth: '+210%' },
+      ],
+      participantCount: participants.length,
+    };
+  }
+
+  private generateInsightResults(participants: VirtualOrganization[]): any {
+    return {
+      insights: [
+        { title: 'Cross-Industry Risk Correlation', confidence: 0.87, impact: 'high', actionable: true },
+        { title: 'Decision Velocity Optimization', confidence: 0.82, impact: 'medium', actionable: true },
+        { title: 'Stakeholder Fatigue Indicators', confidence: 0.79, impact: 'medium', actionable: false },
+      ],
+      recommendations: [
+        'Consider implementing async deliberation for routine decisions',
+        'Risk signals from manufacturing sector correlate with your supply chain exposure',
+        'Decision quality improves 23% with pre-meeting alignment sessions',
+      ],
+      participantCount: participants.length,
+    };
+  }
+
+  private generateModelResults(participants: VirtualOrganization[]): any {
+    return {
+      availableDeltas: this.deltas.size,
+      compatibleDeltas: Math.floor(this.deltas.size * 0.7),
+      recommendedDeltas: Array.from(this.deltas.values())
+        .filter(d => !d.applied)
+        .slice(0, 3)
+        .map(d => ({
+          id: d.id,
+          type: d.deltaType,
+          source: d.sourceNodeName,
+          estimatedImprovement: `+${(Math.random() * 5 + 1).toFixed(1)}%`,
+          size: d.deltaContent.compressedSize,
+        })),
+      participantCount: participants.length,
+    };
+  }
+
+  /**
+   * Get federated query status
+   */
+  getFederatedQuery(queryId: string): FederatedQuery | undefined {
+    return this.federatedQueries.get(queryId);
+  }
+
+  /**
+   * List all federated queries
+   */
+  listFederatedQueries(): FederatedQuery[] {
+    return Array.from(this.federatedQueries.values())
+      .sort((a, b) => b.requestedAt.getTime() - a.requestedAt.getTime());
+  }
+
+  /**
+   * Get shared insights from the mesh
+   */
+  getSharedInsights(): any[] {
+    return Array.from(this.sharedInsights.values());
+  }
+
+  /**
+   * Get virtual organizations (demo mode)
+   */
+  getVirtualOrganizations(): VirtualOrganization[] {
+    return this.virtualOrgs;
+  }
+
+  /**
+   * Get mesh network overview for dashboard
+   */
+  getMeshOverview(): {
+    nodes: number;
+    activeNodes: number;
+    totalDeltas: number;
+    appliedDeltas: number;
+    sharedInsights: number;
+    recentQueries: number;
+    networkHealth: number;
+  } {
+    const nodes = Array.from(this.knownNodes.values());
+    const deltas = Array.from(this.deltas.values());
+    const queries = Array.from(this.federatedQueries.values());
+    const recentTime = Date.now() - 24 * 60 * 60 * 1000;
+    
+    return {
+      nodes: nodes.length,
+      activeNodes: nodes.filter(n => n.status === 'active').length,
+      totalDeltas: deltas.length,
+      appliedDeltas: deltas.filter(d => d.applied).length,
+      sharedInsights: this.sharedInsights.size,
+      recentQueries: queries.filter(q => q.requestedAt.getTime() > recentTime).length,
+      networkHealth: 0.97,
+    };
   }
 
   private ensureDirectories(): void {
