@@ -495,68 +495,155 @@ When a strategic question is posed, the Pantheon follows this process:
 
 ---
 
-# Part V: Services
+# Part V: The 47 Cendia Services
 
-## The 18 Core Services
+## Service Architecture
 
-Trimmed from 27 to 18. Every service maps to the philosophy. Nothing extraneous.
+All services follow the **Cendia*** naming convention for brand consistency. Services are organized into 5 categories based on their primary function.
 
-### Domain 1: Truth (Lineage + Guard)
-
-| Service | Pillar | What It Does | Philosophy Connection |
-|---------|--------|--------------|----------------------|
-| **Data Catalog** | Lineage | Discover and document all data assets | "Know what you have" |
-| **Lineage Explorer** | Lineage | Visualize data flow and dependencies | "Trace the path to truth" |
-| **Business Glossary** | Lineage | Single source for definitions | "Agree on meaning" |
-| **Access Control** | Guard | Manage permissions and policies | "Protect what matters" |
-| **Threat Detection** | Guard | Identify security anomalies | "Defend sovereignty" |
-
-### Domain 2: Understanding (Helm + Metrics)
-
-| Service | Pillar | What It Does | Philosophy Connection |
-|---------|--------|--------------|----------------------|
-| **Natural Query** | Helm | Ask questions in plain language | "Accessible intelligence" |
-| **Narrative Engine** | Helm | Generate explanations from data | "Understanding, not just data" |
-| **Metric Registry** | Metrics | Define and manage KPIs | "Measure what matters" |
-| **Alert Manager** | Metrics | Threshold monitoring and routing | "Know when it counts" |
-
-### Domain 3: Awareness (Health + Predict)
-
-| Service | Pillar | What It Does | Philosophy Connection |
-|---------|--------|--------------|----------------------|
-| **Health Monitor** | Health | System and process vitality | "Feel before you fail" |
-| **Bottleneck Detector** | Health | Find process constraints | "Efficiency as awareness" |
-| **Forecast Engine** | Predict | Time-series prediction | "See the future" |
-| **Scenario Planner** | Predict | What-if simulation | "Prepare, don't react" |
-
-### Domain 4: Governance (Ethics + Flow)
-
-| Service | Pillar | What It Does | Philosophy Connection |
-|---------|--------|--------------|----------------------|
-| **Compliance Center** | Ethics | Regulatory mapping and tracking | "Governed, not just compliant" |
-| **Decision Auditor** | Ethics | Trace and explain AI decisions | "Accountable intelligence" |
-| **Workflow Engine** | Flow | Visual workflow creation | "Turn insight into action" |
-| **Integration Hub** | Flow | Connect external systems | "Sovereignty includes interoperability" |
-| **Approval Gateway** | Flow | Human-in-the-loop controls | "Humans decide what matters" |
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           CENDIA SERVICE ARCHITECTURE                        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐        │
+│  │    CORE     │  │ INTELLIGENCE│  │  SOVEREIGN  │  │  STRATEGIC  │        │
+│  │  5 services │  │  9 services │  │ 11 services │  │  7 services │        │
+│  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘        │
+│         │                │                │                │                │
+│         └────────────────┴────────┬───────┴────────────────┘                │
+│                                   │                                          │
+│                          ┌────────▼────────┐                                │
+│                          │   ENTERPRISE    │                                │
+│                          │   15 services   │                                │
+│                          └─────────────────┘                                │
+│                                                                              │
+│                    Total: 47 Unique Services                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Cut List (Deferred to V2+)
+## Category 1: Core Services (5 services)
+*Platform foundation — the nervous system*
 
-These features exist but are **hidden from V1**:
+| Service | Description | Philosophy |
+|---------|-------------|------------|
+| **CendiaCouncil** | Multi-agent deliberation & voting | "Intelligence that reasons, not just computes" |
+| **CendiaCascade** | Consequence engineering & impact analysis | "See the butterfly effect before you act" |
+| **CendiaApotheosis** | Agent elevation & capability enhancement | "Agents that learn and improve" |
+| **CendiaDissent** | Dissent handling & anonymous feedback | "Minority voices matter" |
+| **CendiaTranslate** | Universal translation & localization | "Intelligence without language barriers" |
 
-| Feature | Reason Deferred |
-|---------|-----------------|
-| CendiaReality™ (AR/VR) | Cool but not core to sovereignty story |
-| CendiaQuantum™ (Post-Quantum) | Future-proofing, not V1 necessity |
-| CendiaEmpathy™ (Emotional UI) | Nice-to-have, not essential |
-| Civilization Simulators | Gen 4 R&D — not ready for customers |
-| Self-Evolving Architecture | Gen 5 R&D — research track only |
-| Visual Security (CCTV) | Niche use case, dilutes core message |
-| Geospatial Analytics | Vertical-specific, add later |
-| Social Media Intelligence | Vertical-specific, add later |
+---
 
-**Rule**: If it doesn't serve sovereignty, ethics, or understanding — it waits.
+## Category 2: Intelligence Services (9 services)
+*AI-powered analysis & monitoring — the senses*
+
+| Service | Description | Philosophy |
+|---------|-------------|------------|
+| **CendiaChronos** | Temporal analysis & forecasting | "See the future, not just the past" |
+| **CendiaPanopticon** | Surveillance & regulatory monitoring | "Awareness before crisis" |
+| **CendiaAegis** | Threat detection & security monitoring | "Defend sovereignty" |
+| **CendiaEternal** | Institutional memory & precedents | "Organizations that remember" |
+| **CendiaSymbiont** | Integration & connectivity | "Sovereignty includes interoperability" |
+| **CendiaVox** | Communication & distribution | "Intelligence must be accessible" |
+| **CendiaEcho** | Pattern recognition & historical matching | "History rhymes — we hear it" |
+| **CendiaRedTeam** | Adversarial analysis & stress testing | "Know your weaknesses before enemies do" |
+| **CendiaGnosis** | Deep knowledge queries & synthesis | "Understanding, not just data" |
+
+---
+
+## Category 3: Sovereign Services (11 services)
+*Air-gapped & security-first capabilities — the fortress*
+
+| Service | Description | Philosophy |
+|---------|-------------|------------|
+| **CendiaDiode** | One-way secure data transfer | "Data flows in, secrets don't flow out" |
+| **CendiaRLHF** | On-premise model training | "Your models, your data, your control" |
+| **CendiaDNA** | Immutable decision records | "Truth has lineage" |
+| **CendiaShadow** | Sandbox deliberation & what-if | "Test radical ideas safely" |
+| **CendiaReplay** | Bit-perfect audit replay | "Prove what happened, exactly" |
+| **CendiaBridge** | Zero-network QR transfer | "Air-gap without isolation" |
+| **CendiaCanary** | Honeypot intrusion detection | "Know when you're compromised" |
+| **CendiaAttest** | Hardware security & signing | "Trust rooted in silicon" |
+| **CendiaTimeLock** | Cryptographic time-locks | "Some decisions need to wait" |
+| **CendiaFederated** | Federated learning & privacy | "Learn together, stay separate" |
+| **CendiaPortable** | USB-bootable deployment | "Sovereignty in your pocket" |
+
+---
+
+## Category 4: Enterprise Services (15 services)
+*Business domain solutions — the organs*
+
+| Service | Description | Philosophy |
+|---------|-------------|------------|
+| **CendiaProcure** | Procurement & vendor management | "Know who you're dealing with" |
+| **CendiaGuardian** | Customer health monitoring | "Predict churn before it happens" |
+| **CendiaNerve** | Operational intelligence | "Feel your organization in real-time" |
+| **CendiaDocket** | Human-in-the-loop governance | "Humans decide what matters" |
+| **CendiaEquity** | Financial analysis & valuation | "Numbers with meaning" |
+| **CendiaNetMesh** | Network infrastructure | "Connected, resilient, sovereign" |
+| **CendiaFactory** | Manufacturing & production | "Quality at scale" |
+| **CendiaTransit** | Logistics & shipping | "Know where everything is" |
+| **CendiaAcademy** | Training & certification | "Competence, not just compliance" |
+| **CendiaResonance** | Communication & engagement | "Messages that land" |
+| **CendiaInventum** | Innovation & R&D | "Discover before competitors do" |
+| **CendiaHabitat** | Facilities & workspace | "Spaces that work" |
+| **CendiaRegent** | Strategic governance | "Wisdom from experience" |
+| **CendiaRainmaker** | Revenue & deal intelligence | "Find money, close deals" |
+| **CendiaScout** | Competitive intelligence | "Know the battlefield" |
+
+---
+
+## Category 5: Strategic Services (7 services)
+*Investor-aligned capabilities — the differentiators*
+
+| Service | Description | Investor Pitch |
+|---------|-------------|----------------|
+| **CendiaSynthesis** | Multi-agent orchestration | "Agents that debate and decide, not just chat" |
+| **CendiaGraph** | Knowledge graph & entity relationships | "The Institutional Brain — extract the physics of the bank" |
+| **CendiaIngest** | Document vectorization pipeline | "How data gets into the graph" |
+| **CendiaLogic** | Parallel processing & burst compute | "RedTeam and Union run simultaneously in 47ms" |
+| **CendiaDeploy** | Rapid deployment & containerization | "Deploy anywhere in minutes, air-gapped ready" |
+| **CendiaWarGames** | Crisis simulation & operator certification | "We create Super-Soldiers, not education" |
+| **CendiaUnion** | Defense synthesis & security response | "The Shield — synthesizes defensive strategies" |
+
+---
+
+## Service Relationships
+
+### The Deliberation Stack
+```
+CendiaSynthesis (orchestrates) → CendiaCouncil (deliberates) → CendiaDocket (approves)
+```
+
+### The Knowledge Stack
+```
+CendiaIngest (vectorizes) → CendiaGraph (connects) → CendiaGnosis (queries)
+```
+
+### The Security Stack
+```
+CendiaCanary (detects) → CendiaAegis (assesses) → CendiaUnion (responds)
+```
+
+### The Audit Stack
+```
+CendiaDNA (records) → CendiaReplay (replays) → CendiaDocket (certifies)
+```
+
+---
+
+## API Endpoints by Category
+
+| Category | Base Path | Example |
+|----------|-----------|---------|
+| Core | `/api/v1/council/*` | `/api/v1/council/deliberate` |
+| Intelligence | `/api/v1/intelligence/*` | `/api/v1/intelligence/chronos/forecast` |
+| Sovereign | `/api/v1/sovereign-arch/*` | `/api/v1/sovereign-arch/diode/ingest` |
+| Enterprise | `/api/v1/enterprise/*` | `/api/v1/enterprise/rainmaker/deals` |
+| Strategic | `/api/v1/strategic/*` | `/api/v1/strategic/synthesis/orchestrate` |
 
 ---
 
