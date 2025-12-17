@@ -89,6 +89,30 @@ services:
       retries: 5
 
   # ===========================================================================
+  # LAYER 0: ZOOKEEPER (Required for Druid coordination)
+  # ===========================================================================
+  zookeeper:
+    image: zookeeper:3.9
+    container_name: cendia-zookeeper
+    restart: unless-stopped
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_4LW_COMMANDS_WHITELIST: "*"
+    ports:
+      - "2181:2181"
+    networks:
+      - cendia-network
+    healthcheck:
+      test: ["CMD", "zkServer.sh", "status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  # ===========================================================================
   # LAYER 0: APACHE DRUID (High-Performance Analytics)
   # ===========================================================================
   # Powers: CendiaChronos™, CendiaWitness™, CendiaPulse™ dashboards
@@ -105,7 +129,16 @@ services:
       - "8081:8081"
     command: coordinator
     environment:
-      - DRUID_LOG4J=<?xml version="1.0" encoding="UTF-8" ?><Configuration status="WARN"><Appenders><Console name="Console" target="SYSTEM_OUT"><PatternLayout pattern="%d{ISO8601} %p [%t] %c - %m%n"/></Console></Appenders><Loggers><Root level="info"><AppenderRef ref="Console"/></Root></Loggers></Configuration>
+      - druid_zk_service_host=zookeeper
+      - druid_metadata_storage_type=derby
+      - druid_metadata_storage_connector_connectURI=jdbc:derby://localhost:1527/var/druid/metadata.db;create=true
+      - druid_storage_type=local
+      - druid_storage_storageDirectory=/opt/druid/var/druid/segments
+      - druid_indexer_logs_type=file
+      - druid_indexer_logs_directory=/opt/druid/var/druid/indexing-logs
+    depends_on:
+      zookeeper:
+        condition: service_healthy
     networks:
       - cendia-network
     deploy:
@@ -122,8 +155,14 @@ services:
     ports:
       - "8082:8082"
     command: broker
+    environment:
+      - druid_zk_service_host=zookeeper
+      - druid_processing_buffer_sizeBytes=256000000
     depends_on:
-      - druid-coordinator
+      zookeeper:
+        condition: service_healthy
+      druid-coordinator:
+        condition: service_started
     networks:
       - cendia-network
     deploy:
@@ -140,8 +179,16 @@ services:
     ports:
       - "8083:8083"
     command: historical
+    environment:
+      - druid_zk_service_host=zookeeper
+      - druid_processing_buffer_sizeBytes=256000000
+      - druid_storage_type=local
+      - druid_storage_storageDirectory=/opt/druid/var/druid/segments
     depends_on:
-      - druid-coordinator
+      zookeeper:
+        condition: service_healthy
+      druid-coordinator:
+        condition: service_started
     networks:
       - cendia-network
     deploy:
@@ -158,8 +205,13 @@ services:
     ports:
       - "8888:8888"
     command: router
+    environment:
+      - druid_zk_service_host=zookeeper
     depends_on:
-      - druid-broker
+      zookeeper:
+        condition: service_healthy
+      druid-broker:
+        condition: service_started
     networks:
       - cendia-network
     deploy:
