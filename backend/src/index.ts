@@ -105,6 +105,7 @@ import cascadeRoutes from './routes/cascade.js';
 import adaptersRoutes from './routes/adapters.js';
 import strategicRoutes from './routes/strategic.js';
 import sampleDataRoutes from './routes/sample-data.js';
+import druidRoutes from './routes/druid.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -303,6 +304,9 @@ app.use('/api/v1/strategic', strategicRoutes);
 
 // Sample Data - Auto-populate demo data for data sources
 app.use('/api/v1/sample-data', sampleDataRoutes);
+
+// Druid Analytics - CendiaChronos™, CendiaWitness™, CendiaPulse™
+app.use('/api/v1/druid', druidRoutes);
 
 // 404 handler
 app.use((_req, res) => {

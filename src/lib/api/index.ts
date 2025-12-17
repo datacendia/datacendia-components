@@ -1283,6 +1283,113 @@ export const gnosisApi = {
   },
 };
 
+// ============================================================================
+// DRUID API - Analytics for CendiaChronos™, CendiaWitness™, CendiaPulse™
+// ============================================================================
+export const druidApi = {
+  // Health check
+  async health() {
+    return api.get<{ available: boolean; datasources: string[] }>('/druid/health');
+  },
+
+  // Chronos - Decision Timeline
+  async getDecisions(params?: {
+    startTime?: string;
+    endTime?: string;
+    limit?: number;
+    riskLevel?: string;
+    department?: string;
+  }) {
+    const query = new URLSearchParams();
+    if (params?.startTime) query.append('startTime', params.startTime);
+    if (params?.endTime) query.append('endTime', params.endTime);
+    if (params?.limit) query.append('limit', String(params.limit));
+    if (params?.riskLevel) query.append('riskLevel', params.riskLevel);
+    if (params?.department) query.append('department', params.department);
+    return api.get<any>(`/druid/chronos/decisions?${query.toString()}`);
+  },
+
+  async getTimeline(params?: {
+    startDate?: string;
+    endDate?: string;
+    granularity?: 'hour' | 'day' | 'week';
+  }) {
+    const query = new URLSearchParams();
+    if (params?.startDate) query.append('startDate', params.startDate);
+    if (params?.endDate) query.append('endDate', params.endDate);
+    if (params?.granularity) query.append('granularity', params.granularity);
+    return api.get<any>(`/druid/chronos/timeline?${query.toString()}`);
+  },
+
+  async getRiskTrend(days?: number) {
+    return api.get<any>(`/druid/chronos/risk-trend?days=${days || 30}`);
+  },
+
+  async getDepartments() {
+    return api.get<any>('/druid/chronos/departments');
+  },
+
+  // Witness - Audit Trail
+  async getAuditTrail(params?: {
+    resourceType?: string;
+    resourceId?: string;
+    actorId?: string;
+    startTime?: string;
+    endTime?: string;
+    limit?: number;
+  }) {
+    const query = new URLSearchParams();
+    if (params?.resourceType) query.append('resourceType', params.resourceType);
+    if (params?.resourceId) query.append('resourceId', params.resourceId);
+    if (params?.actorId) query.append('actorId', params.actorId);
+    if (params?.startTime) query.append('startTime', params.startTime);
+    if (params?.endTime) query.append('endTime', params.endTime);
+    if (params?.limit) query.append('limit', String(params.limit));
+    return api.get<any>(`/druid/witness/audit?${query.toString()}`);
+  },
+
+  async getActivitySummary() {
+    return api.get<any>('/druid/witness/activity-summary');
+  },
+
+  // Pulse - Agent & System Metrics
+  async getAgentMetrics(params?: {
+    agentId?: string;
+    granularity?: 'minute' | 'hour' | 'day';
+    startTime?: string;
+    endTime?: string;
+  }) {
+    const query = new URLSearchParams();
+    if (params?.agentId) query.append('agentId', params.agentId);
+    if (params?.granularity) query.append('granularity', params.granularity);
+    if (params?.startTime) query.append('startTime', params.startTime);
+    if (params?.endTime) query.append('endTime', params.endTime);
+    return api.get<any>(`/druid/pulse/agents?${query.toString()}`);
+  },
+
+  async getSystemHealth() {
+    return api.get<any>('/druid/pulse/system');
+  },
+
+  async getAlerts(params?: { severity?: string; resolved?: boolean; limit?: number }) {
+    const query = new URLSearchParams();
+    if (params?.severity) query.append('severity', params.severity);
+    if (params?.resolved !== undefined) query.append('resolved', String(params.resolved));
+    if (params?.limit) query.append('limit', String(params.limit));
+    return api.get<any>(`/druid/pulse/alerts?${query.toString()}`);
+  },
+
+  // Seeding
+  async seedData() {
+    return api.post<any>('/druid/seed', {});
+  },
+
+  // Raw query (admin)
+  async query(sql: string) {
+    return api.post<any>('/druid/query', { sql });
+  },
+};
+
 // Default export with all APIs
 export default {
   auth: authApi,
@@ -1306,4 +1413,5 @@ export default {
   echo: echoApi,
   redteam: redteamApi,
   gnosis: gnosisApi,
+  druid: druidApi,
 };
