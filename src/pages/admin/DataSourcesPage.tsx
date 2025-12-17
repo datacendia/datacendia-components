@@ -10,19 +10,113 @@ import {
   RefreshCw,
   Check,
   X,
-  AlertCircle,
   ChevronRight,
   Eye,
   EyeOff,
   Trash2,
   TestTube,
   Settings,
-  Cloud,
-  Server,
-  FileSpreadsheet,
-  Link2,
+  Sparkles,
 } from 'lucide-react';
 import { api } from '../../lib/api';
+
+// =============================================================================
+// DEMO DATA CONFIGURATIONS
+// Pre-filled credentials for testing without real database connections
+// =============================================================================
+
+const DEMO_CONFIGS: Record<string, Record<string, string>> = {
+  POSTGRESQL: {
+    name: 'Demo PostgreSQL',
+    host: 'demo.datacendia.com',
+    port: '5432',
+    database: 'enterprise_erp',
+    schema: 'public',
+    username: 'demo_user',
+    password: 'demo_password_123',
+  },
+  MYSQL: {
+    name: 'Demo MySQL',
+    host: 'demo.datacendia.com',
+    port: '3306',
+    database: 'retail_ecommerce',
+    username: 'demo_user',
+    password: 'demo_password_123',
+  },
+  MONGODB: {
+    name: 'Demo MongoDB',
+    connectionString: 'mongodb://demo_user:demo_password@demo.datacendia.com:27017/healthcare_ehr',
+    database: 'healthcare_ehr',
+  },
+  REDIS: {
+    name: 'Demo Redis',
+    host: 'demo.datacendia.com',
+    port: '6379',
+    password: 'demo_redis_123',
+  },
+  NEO4J: {
+    name: 'Demo Neo4j',
+    uri: 'bolt://demo.datacendia.com:7687',
+    username: 'neo4j',
+    password: 'demo_password_123',
+  },
+  SNOWFLAKE: {
+    name: 'Demo Snowflake',
+    account: 'datacendia-demo.us-east-1',
+    warehouse: 'DEMO_WH',
+    database: 'FINANCIAL_TRADING',
+    schema: 'PUBLIC',
+    username: 'demo_user',
+    password: 'demo_password_123',
+  },
+  BIGQUERY: {
+    name: 'Demo BigQuery',
+    projectId: 'datacendia-demo-project',
+    serviceAccountKey: JSON.stringify({
+      type: 'service_account',
+      project_id: 'datacendia-demo-project',
+      private_key_id: 'demo-key-id',
+      private_key: '-----BEGIN PRIVATE KEY-----\nDEMO_KEY\n-----END PRIVATE KEY-----\n',
+      client_email: 'demo@datacendia-demo-project.iam.gserviceaccount.com',
+      client_id: '123456789',
+    }, null, 2),
+  },
+  SALESFORCE: {
+    name: 'Demo Salesforce',
+    sandbox: 'true',
+    username: 'demo@datacendia.com.sandbox',
+    password: 'demo_password_123',
+    securityToken: 'DEMO_TOKEN_ABC123',
+  },
+  HUBSPOT: {
+    name: 'Demo HubSpot',
+    accessToken: 'pat-demo-12345678-abcd-1234-efgh-123456789abc',
+  },
+  SAP: {
+    name: 'Demo SAP',
+    host: 'demo-sap.datacendia.com',
+    systemNumber: '00',
+    client: '100',
+    username: 'DEMO_USER',
+    password: 'demo_password_123',
+  },
+  ORACLE: {
+    name: 'Demo Oracle',
+    host: 'demo.datacendia.com',
+    port: '1521',
+    serviceName: 'DEMODB',
+    username: 'demo_user',
+    password: 'demo_password_123',
+  },
+  SQLSERVER: {
+    name: 'Demo SQL Server',
+    host: 'demo.datacendia.com',
+    port: '1433',
+    database: 'manufacturing_ops',
+    username: 'demo_user',
+    password: 'demo_password_123',
+  },
+};
 
 // =============================================================================
 // TYPES
@@ -441,8 +535,9 @@ export const DataSourcesPage: React.FC = () => {
           if (field.isCredential) {
             credentials[field.key] = formData[field.key];
           } else {
+            const fieldValue = formData[field.key];
             config[field.key] =
-              field.type === 'number' ? parseInt(formData[field.key]) : formData[field.key];
+              field.type === 'number' && fieldValue ? parseInt(fieldValue) : fieldValue;
           }
         }
       });
@@ -497,6 +592,18 @@ export const DataSourcesPage: React.FC = () => {
     }
   };
 
+  // Fill form with demo data for the current connector type
+  const handleUseDemoData = () => {
+    const type = selectedSource?.type || newSourceType;
+    if (type && DEMO_CONFIGS[type]) {
+      setFormData(DEMO_CONFIGS[type]);
+      setTestResult({
+        success: true,
+        message: 'Demo credentials loaded! These will simulate a connected data source.',
+      });
+    }
+  };
+
   const handleDelete = async (id: string) => {
     if (!confirm('Are you sure you want to delete this data source?')) {
       return;
@@ -546,10 +653,11 @@ export const DataSourcesPage: React.FC = () => {
   // Group connectors by category
   const connectorsByCategory = Object.entries(CONNECTOR_CONFIGS).reduce(
     (acc, [key, config]) => {
-      if (!acc[config.category]) {
-        acc[config.category] = [];
+      const category = config.category;
+      if (!acc[category]) {
+        acc[category] = [];
       }
-      acc[config.category].push({ key, ...config });
+      acc[category].push({ key, ...config });
       return acc;
     },
     {} as Record<string, Array<{ key: string; name: string; icon: string; category: string }>>
@@ -849,7 +957,17 @@ export const DataSourcesPage: React.FC = () => {
                       )}
 
                       {/* Actions */}
-                      <div className="flex items-center gap-3 pt-4">
+                      <div className="flex items-center gap-3 pt-4 flex-wrap">
+                        {/* Demo Data Button - Only show if demo config exists for this type */}
+                        {DEMO_CONFIGS[selectedSource?.type || newSourceType || ''] && (
+                          <button
+                            onClick={handleUseDemoData}
+                            className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-lg transition-all shadow-lg"
+                          >
+                            <Sparkles className="w-4 h-4" />
+                            Use Demo Data
+                          </button>
+                        )}
                         <button
                           onClick={handleTestConnection}
                           disabled={isTesting}
