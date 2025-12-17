@@ -1437,9 +1437,9 @@ export const CouncilPage: React.FC = () => {
       <div className="mb-8">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-neutral-900">{t('council.title')}</h1>
-            <p className="text-neutral-500 mt-1">
-              {t('council.subtitle')} — 12 {t('council.pre_built_modes')}
+            <h1 className="text-2xl font-bold text-white">{t('council.title')}</h1>
+            <p className="text-neutral-300 mt-1">
+              {t('council.subtitle')} — 24 {t('council.pre_built_modes')}
             </p>
           </div>
           <div className="flex items-center gap-3">
