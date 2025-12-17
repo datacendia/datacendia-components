@@ -10,13 +10,7 @@ import { cn, formatRelativeTime } from '../../../../lib/utils';
 import { councilApi } from '../../../lib/api';
 import { ollamaService, type DomainAgent } from '../../../lib/ollama';
 import { sovereignApi, enterpriseApi, vaultApi } from '../../../lib/sovereignApi';
-import {
-  COUNCIL_MODES,
-  MODE_CATEGORIES,
-  CORE_MODES,
-  isCoreMode,
-  type CouncilMode,
-} from '../../../data/councilModes';
+import { COUNCIL_MODES } from '../../../data/councilModes';
 import { useLanguage } from '@/contexts/LanguageContext';
 import PremiumFeaturesModal from '../../../components/premium/PremiumFeaturesModal';
 import { usePremiumFeatures } from '../../../hooks/usePremiumFeatures';
@@ -92,29 +86,6 @@ interface QueryResult {
   currentPhase?: string;
 }
 
-// Agent colors by code
-const agentColors: Record<string, string> = {
-  chief: '#6366F1',
-  cfo: '#10B981',
-  coo: '#F59E0B',
-  ciso: '#EF4444',
-  cmo: '#EC4899',
-  cro: '#8B5CF6',
-  cdo: '#06B6D4',
-  risk: '#F97316',
-};
-
-// Agent avatars by code
-const agentAvatars: Record<string, string> = {
-  chief: '👔',
-  cfo: '💰',
-  coo: '⚙️',
-  ciso: '🔒',
-  cmo: '📢',
-  cro: '📈',
-  cdo: '📊',
-  risk: '⚠️',
-};
 
 // =============================================================================
 // EMOJI PICKER FOR CUSTOM AGENTS
@@ -759,9 +730,9 @@ export const CouncilPage: React.FC = () => {
 
   // State
   const [agents, setAgents] = useState<Agent[]>([]);
-  const [deliberations, setDeliberations] = useState<Deliberation[]>([]);
+  const [deliberations, _setDeliberations] = useState<Deliberation[]>([]);
   const [recentDecisions, setRecentDecisions] = useState<QueryResult[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [_isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   const [queryInput, setQueryInput] = useState(searchParams.get('q') || '');
@@ -794,10 +765,10 @@ export const CouncilPage: React.FC = () => {
   const [showPremiumModal, setShowPremiumModal] = useState(false);
   const premium = usePremiumFeatures();
 
-  // Policy-based permissions (Casbin integration)
-  const [canVeto, setCanVeto] = useState(false);
-  const [canApprove, setCanApprove] = useState(false);
-  const [policyReason, setPolicyReason] = useState('');
+  // Policy-based permissions (Casbin integration) - used for future governance features
+  const [_canVeto, setCanVeto] = useState(false);
+  const [_canApprove, setCanApprove] = useState(false);
+  const [_policyReason, setPolicyReason] = useState('');
 
   // Check user permissions on mount
   useEffect(() => {
@@ -1116,10 +1087,10 @@ export const CouncilPage: React.FC = () => {
     }
   };
 
-  // State for streaming deliberation
-  const [streamingDecision, setStreamingDecision] = useState<QueryResult | null>(null);
-  const [currentStreamingAgent, setCurrentStreamingAgent] = useState<string | null>(null);
-  const [currentPhase, setCurrentPhase] = useState<string>('');
+  // State for streaming deliberation - used for real-time agent response display
+  const [_streamingDecision, setStreamingDecision] = useState<QueryResult | null>(null);
+  const [_currentStreamingAgent, setCurrentStreamingAgent] = useState<string | null>(null);
+  const [_currentPhase, setCurrentPhase] = useState<string>('');
 
   // C) Progressive disclosure - collapsible sections state
   const [expandedSections, setExpandedSections] = useState<Record<string, Record<string, boolean>>>(
@@ -1228,7 +1199,7 @@ export const CouncilPage: React.FC = () => {
         setRecentDecisions((prev) => [initialDecision, ...prev].slice(0, 10));
 
         // Run deliberation with streaming and cross-examination
-        const result = await ollamaService.deliberateWithStreaming(questionAsked, agentIds, {
+        const _result = await ollamaService.deliberateWithStreaming(questionAsked, agentIds, {
           onPhaseChange: (phase) => {
             setCurrentPhase(phase);
             setStreamingDecision((prev) => (prev ? { ...prev, currentPhase: phase } : null));
