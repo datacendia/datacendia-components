@@ -871,9 +871,9 @@ export const CouncilPage: React.FC = () => {
             color: a.color,
             status: a.status,
             capabilities: a.capabilities,
-            premium: a.premium,
-            premiumPackage: a.premiumPackage,
-            premiumPrice: a.premiumPrice,
+            ...(a.premium !== undefined && { premium: a.premium }),
+            ...(a.premiumPackage !== undefined && { premiumPackage: a.premiumPackage }),
+            ...(a.premiumPrice !== undefined && { premiumPrice: a.premiumPrice }),
           }))
         );
 
@@ -908,9 +908,9 @@ export const CouncilPage: React.FC = () => {
           color: a.color,
           status: a.status,
           capabilities: a.capabilities,
-          premium: a.premium,
-          premiumPackage: a.premiumPackage,
-          premiumPrice: a.premiumPrice,
+          ...(a.premium !== undefined && { premium: a.premium }),
+          ...(a.premiumPackage !== undefined && { premiumPackage: a.premiumPackage }),
+          ...(a.premiumPrice !== undefined && { premiumPrice: a.premiumPrice }),
         }))
       );
     }, 10000);
@@ -1110,7 +1110,7 @@ export const CouncilPage: React.FC = () => {
     setIsDragging(false);
 
     const files = Array.from(e.dataTransfer.files);
-    if (files.length > 0) {
+    if (files.length > 0 && files[0]) {
       // Process the first file (or could handle multiple)
       await handleFileDrop(files[0]);
     }
@@ -1544,23 +1544,23 @@ export const CouncilPage: React.FC = () => {
           </div>
 
           {/* Selected Mode Details */}
-          {selectedMode && (
+          {selectedMode && COUNCIL_MODES[selectedMode] && (
             <div className="p-6 bg-neutral-50 border-t border-neutral-200">
               <div className="flex items-start gap-4">
                 <div
                   className="w-16 h-16 rounded-xl flex items-center justify-center text-3xl"
-                  style={{ backgroundColor: `${COUNCIL_MODES[selectedMode].color}20` }}
+                  style={{ backgroundColor: `${COUNCIL_MODES[selectedMode]?.color ?? '#6366f1'}20` }}
                 >
-                  {COUNCIL_MODES[selectedMode].emoji}
+                  {COUNCIL_MODES[selectedMode]?.emoji}
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-bold text-neutral-900">
-                    {COUNCIL_MODES[selectedMode].name} Mode
+                    {COUNCIL_MODES[selectedMode]?.name} Mode
                   </h3>
                   <p className="text-primary-600 font-medium italic mb-2">
-                    "{COUNCIL_MODES[selectedMode].primeDirective}"
+                    "{COUNCIL_MODES[selectedMode]?.primeDirective}"
                   </p>
-                  <p className="text-neutral-600 mb-4">{COUNCIL_MODES[selectedMode].description}</p>
+                  <p className="text-neutral-600 mb-4">{COUNCIL_MODES[selectedMode]?.description}</p>
 
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
@@ -1568,7 +1568,7 @@ export const CouncilPage: React.FC = () => {
                         {t('council.modes.bestFor')}:
                       </h4>
                       <ul className="text-sm text-neutral-600 space-y-1">
-                        {COUNCIL_MODES[selectedMode].useCases.map((uc, i) => (
+                        {COUNCIL_MODES[selectedMode]?.useCases?.map((uc, i) => (
                           <li key={i} className="flex items-center gap-2">
                             <span className="text-primary-500">•</span> {uc}
                           </li>
@@ -1580,7 +1580,7 @@ export const CouncilPage: React.FC = () => {
                         {t('council.modes.agentBehavior')}:
                       </h4>
                       <ul className="text-sm text-neutral-600 space-y-1">
-                        {COUNCIL_MODES[selectedMode].agentBehaviors.slice(0, 4).map((ab, i) => (
+                        {COUNCIL_MODES[selectedMode]?.agentBehaviors?.slice(0, 4).map((ab, i) => (
                           <li key={i} className="flex items-start gap-2">
                             <span className="text-amber-500">→</span>
                             <span>{ab}</span>
@@ -1594,7 +1594,7 @@ export const CouncilPage: React.FC = () => {
                   <div className="mt-4 pt-4 border-t border-neutral-200">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-sm font-semibold text-neutral-700">
-                        📋 Example Scenarios for {COUNCIL_MODES[selectedMode].name}:
+                        📋 Example Scenarios for {COUNCIL_MODES[selectedMode]?.name}:
                       </h4>
                       <button
                         onClick={() => {
