@@ -761,6 +761,19 @@ export const CouncilPage: React.FC = () => {
   const [showAgentCreator, setShowAgentCreator] = useState(false);
   const [editingAgent, setEditingAgent] = useState<Agent | null>(null);
 
+  // Collapsible agent sections
+  const [expandedAgentSections, setExpandedAgentSections] = useState<Record<string, boolean>>({
+    audit: false,
+    healthcare: false,
+    finance: false,
+    legal: false,
+    custom: false,
+  });
+
+  const toggleAgentSection = (section: string) => {
+    setExpandedAgentSections(prev => ({ ...prev, [section]: !prev[section] }));
+  };
+
   // Premium Features Modal & Hook
   const [showPremiumModal, setShowPremiumModal] = useState(false);
   const premium = usePremiumFeatures();
@@ -1756,87 +1769,122 @@ export const CouncilPage: React.FC = () => {
           </div>
         </div>
 
-        {/* External & Audit Agents - Only show unlocked ones */}
+        {/* External & Audit Agents - Collapsible */}
         {allAgents.filter(
           (a) => a.premium && a.premiumPackage?.includes('Audit') && premium.hasAgentAccess(a.id)
         ).length > 0 && (
-          <div className="mb-6">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">
+          <div className="mb-4">
+            <button
+              onClick={() => toggleAgentSection('audit')}
+              className="w-full flex items-center gap-2 p-3 bg-neutral-50 hover:bg-neutral-100 rounded-lg transition-colors"
+            >
+              <span className={cn(
+                'text-neutral-400 transition-transform',
+                expandedAgentSections.audit && 'rotate-90'
+              )}>▶</span>
+              <span className="text-xs font-semibold text-neutral-600 uppercase tracking-wider">
                 External & Audit Agents
               </span>
-              <div className="flex-1 h-px bg-neutral-200" />
+              <span className="text-xs text-neutral-400">
+                ({allAgents.filter(a => a.premium && a.premiumPackage?.includes('Audit') && premium.hasAgentAccess(a.id)).length})
+              </span>
+              <div className="flex-1" />
               <span className="text-[10px] bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">
                 Premium
               </span>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {allAgents
-                .filter(
-                  (a) =>
-                    a.premium && a.premiumPackage?.includes('Audit') && premium.hasAgentAccess(a.id)
-                )
-                .map((agent) => (
-                  <AgentCard
-                    key={agent.id}
-                    agent={agent}
-                    isSelected={selectedAgents.includes(agent.id)}
-                    onSelect={() => toggleAgentSelection(agent.id)}
-                    compact
-                  />
-                ))}
-            </div>
+            </button>
+            {expandedAgentSections.audit && (
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3 pl-6">
+                {allAgents
+                  .filter(
+                    (a) =>
+                      a.premium && a.premiumPackage?.includes('Audit') && premium.hasAgentAccess(a.id)
+                  )
+                  .map((agent) => (
+                    <AgentCard
+                      key={agent.id}
+                      agent={agent}
+                      isSelected={selectedAgents.includes(agent.id)}
+                      onSelect={() => toggleAgentSelection(agent.id)}
+                      compact
+                    />
+                  ))}
+              </div>
+            )}
           </div>
         )}
 
-        {/* Clinical / Healthcare Agents - Only show unlocked ones */}
+        {/* Clinical / Healthcare Agents - Collapsible */}
         {allAgents.filter(
           (a) =>
             a.premium &&
             (a.premiumPackage?.includes('Healthcare') || a.premiumPackage?.includes('Clinical')) &&
             premium.hasAgentAccess(a.id)
         ).length > 0 && (
-          <div className="mb-6">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">
+          <div className="mb-4">
+            <button
+              onClick={() => toggleAgentSection('healthcare')}
+              className="w-full flex items-center gap-2 p-3 bg-neutral-50 hover:bg-neutral-100 rounded-lg transition-colors"
+            >
+              <span className={cn(
+                'text-neutral-400 transition-transform',
+                expandedAgentSections.healthcare && 'rotate-90'
+              )}>▶</span>
+              <span className="text-xs font-semibold text-neutral-600 uppercase tracking-wider">
                 Clinical / Healthcare Agents
               </span>
-              <div className="flex-1 h-px bg-neutral-200" />
+              <span className="text-xs text-neutral-400">
+                ({allAgents.filter(a => a.premium && (a.premiumPackage?.includes('Healthcare') || a.premiumPackage?.includes('Clinical')) && premium.hasAgentAccess(a.id)).length})
+              </span>
+              <div className="flex-1" />
               <span className="text-[10px] bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded-full font-medium">
                 Healthcare Pack
               </span>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {allAgents
-                .filter(
-                  (a) =>
-                    a.premium &&
-                    (a.premiumPackage?.includes('Healthcare') ||
-                      a.premiumPackage?.includes('Clinical')) &&
-                    premium.hasAgentAccess(a.id)
-                )
-                .map((agent) => (
-                  <AgentCard
-                    key={agent.id}
-                    agent={agent}
-                    isSelected={selectedAgents.includes(agent.id)}
-                    onSelect={() => toggleAgentSelection(agent.id)}
-                    compact
-                  />
-                ))}
-            </div>
+            </button>
+            {expandedAgentSections.healthcare && (
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3 pl-6">
+                {allAgents
+                  .filter(
+                    (a) =>
+                      a.premium &&
+                      (a.premiumPackage?.includes('Healthcare') ||
+                        a.premiumPackage?.includes('Clinical')) &&
+                      premium.hasAgentAccess(a.id)
+                  )
+                  .map((agent) => (
+                    <AgentCard
+                      key={agent.id}
+                      agent={agent}
+                      isSelected={selectedAgents.includes(agent.id)}
+                      onSelect={() => toggleAgentSelection(agent.id)}
+                      compact
+                    />
+                  ))}
+              </div>
+            )}
           </div>
         )}
 
-        {/* Custom Agents & Unlocked Industry Agents */}
-        <div>
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">
+        {/* Custom Agents & Unlocked Industry Agents - Collapsible */}
+        <div className="mb-4">
+          <button
+            onClick={() => toggleAgentSection('custom')}
+            className="w-full flex items-center gap-2 p-3 bg-neutral-50 hover:bg-neutral-100 rounded-lg transition-colors"
+          >
+            <span className={cn(
+              'text-neutral-400 transition-transform',
+              expandedAgentSections.custom && 'rotate-90'
+            )}>▶</span>
+            <span className="text-xs font-semibold text-neutral-600 uppercase tracking-wider">
               Custom Agents
             </span>
-            <div className="flex-1 h-px bg-neutral-200" />
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <span className="text-xs text-neutral-400">
+              ({allAgents.filter(a => a.isCustom || (a.premium && !a.premiumPackage?.includes('Audit') && !a.premiumPackage?.includes('Healthcare') && !a.premiumPackage?.includes('Clinical') && premium.hasAgentAccess(a.id))).length})
+            </span>
+            <div className="flex-1" />
+          </button>
+          {expandedAgentSections.custom && (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3 pl-6">
             {/* Show custom agents */}
             {allAgents
               .filter((a) => a.isCustom)
@@ -1944,6 +1992,7 @@ export const CouncilPage: React.FC = () => {
               )}
             </button>
           </div>
+          )}
         </div>
       </div>
       )}
