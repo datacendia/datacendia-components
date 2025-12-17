@@ -2,17 +2,13 @@
 // COUNCIL MODE ANALYTICS DASHBOARD - Admin Analytics Page
 // =============================================================================
 
-import React, { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
   BarChart3,
   TrendingUp,
   Clock,
-  Users,
   Target,
-  Calendar,
-  ChevronDown,
   Download,
-  RefreshCw,
   Loader2,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
