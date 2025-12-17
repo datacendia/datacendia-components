@@ -87,6 +87,7 @@ import { BridgePage } from './pages/cortex/bridge/BridgePage';
 // Cortex Sub-Pages
 import { LineageViewPage, EntityDetailsPage } from './pages/cortex/graph/subpages';
 import { DeliberationViewPage, AgentProfilePage } from './pages/cortex/council/subpages';
+import { DecisionsPage } from './pages/cortex/council/DecisionsPage';
 import { AlertsPage, MetricsPage } from './pages/cortex/pulse/subpages';
 import {
   ForecastDetailsPage,
@@ -415,6 +416,10 @@ export const router = createBrowserRouter([
       {
         path: 'council/agent/:agentId',
         element: <AgentProfilePage />,
+      },
+      {
+        path: 'decisions',
+        element: <DecisionsPage />,
       },
 
       // Pulse

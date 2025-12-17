@@ -2589,7 +2589,10 @@ export const CouncilPage: React.FC = () => {
       <div className="bg-neutral-900 rounded-xl border border-neutral-700 overflow-hidden">
         <div className="flex items-center justify-between px-6 py-4 border-b border-neutral-700">
           <h2 className="text-lg font-semibold text-white">{t('council.recent_decisions')}</h2>
-          <button className="text-sm text-primary-400 hover:text-primary-300 font-medium">
+          <button 
+            onClick={() => navigate('/cortex/decisions')}
+            className="text-sm text-primary-400 hover:text-primary-300 font-medium"
+          >
             {t('button.view_all')} →
           </button>
         </div>
