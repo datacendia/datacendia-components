@@ -2,7 +2,7 @@
 // COUNCIL MODE ANALYTICS DASHBOARD - Admin Analytics Page
 // =============================================================================
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   BarChart3,
   TrendingUp,
@@ -13,65 +13,63 @@ import {
   ChevronDown,
   Download,
   RefreshCw,
+  Loader2,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 import { COUNCIL_MODES } from '../../data/councilModes';
+import { api } from '../../lib/api/client';
 
-// Analytics data (would come from real API)
-const MOCK_ANALYTICS = {
+interface ModeAnalyticsData {
   summary: {
-    totalDeliberations: 1247,
-    totalDecisions: 892,
-    avgTimeToDecision: '4.2 min',
-    avgConfidence: 78,
-    periodStart: '2024-10-01',
-    periodEnd: '2024-10-31',
-  },
-  byMode: {
-    'war-room': { count: 312, avgTime: '6.8 min', avgConfidence: 82, decisionsMade: 287 },
-    'due-diligence': { count: 156, avgTime: '12.4 min', avgConfidence: 71, decisionsMade: 89 },
-    'innovation-lab': { count: 189, avgTime: '5.2 min', avgConfidence: 65, decisionsMade: 45 },
-    compliance: { count: 98, avgTime: '8.1 min', avgConfidence: 88, decisionsMade: 92 },
-    crisis: { count: 23, avgTime: '2.1 min', avgConfidence: 91, decisionsMade: 23 },
-    execution: { count: 201, avgTime: '7.3 min', avgConfidence: 85, decisionsMade: 198 },
-    research: { count: 134, avgTime: '9.6 min', avgConfidence: 74, decisionsMade: 67 },
-    investment: { count: 89, avgTime: '5.8 min', avgConfidence: 79, decisionsMade: 82 },
-    stakeholder: { count: 67, avgTime: '6.4 min', avgConfidence: 76, decisionsMade: 61 },
-    rapid: { count: 245, avgTime: '0.8 min', avgConfidence: 72, decisionsMade: 241 },
-    advisory: { count: 78, avgTime: '4.5 min', avgConfidence: 70, decisionsMade: 32 },
-    governance: { count: 45, avgTime: '11.2 min', avgConfidence: 84, decisionsMade: 42 },
-  },
-  topUsers: [
-    { name: 'Strategy Team', deliberations: 342, avgConfidence: 81 },
-    { name: 'Product Team', deliberations: 289, avgConfidence: 76 },
-    { name: 'Finance Team', deliberations: 201, avgConfidence: 84 },
-    { name: 'Engineering', deliberations: 178, avgConfidence: 79 },
-    { name: 'Executive Office', deliberations: 156, avgConfidence: 88 },
-  ],
-  recentActivity: [
-    { mode: 'war-room', query: 'Market expansion strategy Q1', confidence: 85, time: '2 min ago' },
-    { mode: 'execution', query: 'Product launch timeline', confidence: 92, time: '15 min ago' },
-    { mode: 'compliance', query: 'GDPR data retention review', confidence: 88, time: '1 hr ago' },
-    {
-      mode: 'investment',
-      query: 'New tool purchase evaluation',
-      confidence: 76,
-      time: '2 hrs ago',
-    },
-  ],
-};
+    totalDeliberations: number;
+    totalDecisions: number;
+    avgTimeToDecision: string;
+    avgConfidence: number;
+  };
+  byMode: Record<string, { count: number; avgConfidence: number; avgTime: string }>;
+  recentActivity: Array<{ mode: string; question: string; confidence: number; timestamp: string }>;
+  topUsers: Array<{ name: string; count: number }>;
+}
 
 export default function ModeAnalytics() {
   const [selectedPeriod, setSelectedPeriod] = useState('30d');
   const [selectedMode, setSelectedMode] = useState<string | null>(null);
+  const [analytics, setAnalytics] = useState<ModeAnalyticsData | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadAnalytics = async () => {
+      try {
+        setIsLoading(true);
+        const res = await api.get<{ data: ModeAnalyticsData }>('/admin/mode-analytics');
+        if (res.success && res.data) {
+          setAnalytics((res.data as any).data || res.data);
+        }
+      } catch (error) {
+        console.error('Failed to load mode analytics:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadAnalytics();
+  }, [selectedPeriod]);
 
   const sortedModes = useMemo(() => {
-    return Object.entries(MOCK_ANALYTICS.byMode)
+    if (!analytics?.byMode) return [];
+    return Object.entries(analytics.byMode)
       .map(([id, data]) => ({ id, ...data, mode: COUNCIL_MODES[id] }))
       .sort((a, b) => b.count - a.count);
-  }, []);
+  }, [analytics]);
 
-  const maxCount = Math.max(...sortedModes.map((m) => m.count));
+  const maxCount = Math.max(...sortedModes.map((m) => m.count), 1);
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-96">
+        <Loader2 className="w-8 h-8 animate-spin text-blue-500" />
+      </div>
+    );
+  }
 
   return (
     <div className="p-6 space-y-6">
@@ -104,25 +102,25 @@ export default function ModeAnalytics() {
         {[
           {
             label: 'Total Deliberations',
-            value: MOCK_ANALYTICS.summary.totalDeliberations.toLocaleString(),
+            value: (analytics?.summary.totalDeliberations || 0).toLocaleString(),
             icon: BarChart3,
             color: 'text-blue-400',
           },
           {
             label: 'Decisions Made',
-            value: MOCK_ANALYTICS.summary.totalDecisions.toLocaleString(),
+            value: (analytics?.summary.totalDecisions || 0).toLocaleString(),
             icon: Target,
             color: 'text-emerald-400',
           },
           {
             label: 'Avg Time to Decision',
-            value: MOCK_ANALYTICS.summary.avgTimeToDecision,
+            value: analytics?.summary.avgTimeToDecision || '0m',
             icon: Clock,
             color: 'text-amber-400',
           },
           {
             label: 'Avg Confidence',
-            value: `${MOCK_ANALYTICS.summary.avgConfidence}%`,
+            value: `${analytics?.summary.avgConfidence || 0}%`,
             icon: TrendingUp,
             color: 'text-purple-400',
           },
@@ -193,7 +191,7 @@ export default function ModeAnalytics() {
           <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
             <h3 className="text-lg font-semibold text-white mb-4">Top Teams</h3>
             <div className="space-y-3">
-              {MOCK_ANALYTICS.topUsers.map((user, i) => (
+              {(analytics?.topUsers || []).map((user, i) => (
                 <div key={i} className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 text-sm font-medium">
@@ -201,7 +199,7 @@ export default function ModeAnalytics() {
                     </div>
                     <span className="text-white">{user.name}</span>
                   </div>
-                  <span className="text-gray-400 text-sm">{user.deliberations}</span>
+                  <span className="text-gray-400 text-sm">{user.count}</span>
                 </div>
               ))}
             </div>
@@ -211,14 +209,14 @@ export default function ModeAnalytics() {
           <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
             <h3 className="text-lg font-semibold text-white mb-4">Recent Activity</h3>
             <div className="space-y-3">
-              {MOCK_ANALYTICS.recentActivity.map((activity, i) => {
+              {(analytics?.recentActivity || []).map((activity, i) => {
                 const mode = COUNCIL_MODES[activity.mode];
                 return (
                   <div key={i} className="flex items-start gap-3 text-sm">
                     <span className="text-lg">{mode?.emoji}</span>
                     <div className="flex-1 min-w-0">
-                      <div className="text-white truncate">{activity.query}</div>
-                      <div className="text-gray-500">{activity.time}</div>
+                      <div className="text-white truncate">{activity.question}</div>
+                      <div className="text-gray-500">{new Date(activity.timestamp).toLocaleString()}</div>
                     </div>
                     <span
                       className={cn(
