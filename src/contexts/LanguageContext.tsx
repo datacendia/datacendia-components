@@ -142,6 +142,16 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'council.create_agent': 'Create Agent',
   'council.agent_builder': 'Agent Builder Pack',
 
+  // Council Modes Library
+  'council.modes.title': 'Council Modes Library',
+  'council.modes.subtitle': 'The same 10 agents with different modes produce radically different outputs.',
+  'council.modes.cultureNote': 'The prompt IS the company culture.',
+  'council.modes.quickReference': 'Quick Reference',
+  'council.modes.mode': 'Mode',
+  'council.modes.primeDirective': 'Prime Directive',
+  'council.modes.bestFor': 'Best For',
+  'council.modes.agentBehavior': 'Agent Behavior',
+
   // Council Modes
   'mode.war_room': 'War Room',
   'mode.war_room.directive': 'Conflict before Consensus',
