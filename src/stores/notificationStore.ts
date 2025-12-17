@@ -1,6 +1,6 @@
 /**
  * Notification Store - Real-time notifications and alerts
- * 
+ *
  * Manages system notifications, alerts, and real-time updates.
  */
 
@@ -12,7 +12,7 @@ import { immer } from 'zustand/middleware/immer';
 // TYPES
 // =============================================================================
 
-export type NotificationType = 
+export type NotificationType =
   | 'alert'
   | 'decision'
   | 'deliberation'
@@ -53,28 +53,30 @@ export interface NotificationState {
   unreadCount: number;
   isLoading: boolean;
   error: string | null;
-  
+
   // Preferences
   preferences: NotificationPreferences;
-  
+
   // Connection
   isConnected: boolean;
-  
+
   // Actions
   setNotifications: (notifications: Notification[]) => void;
-  addNotification: (notification: Omit<Notification, 'id' | 'createdAt' | 'read' | 'archived'>) => void;
+  addNotification: (
+    notification: Omit<Notification, 'id' | 'createdAt' | 'read' | 'archived'>
+  ) => void;
   markAsRead: (id: string) => void;
   markAllAsRead: () => void;
   archiveNotification: (id: string) => void;
   deleteNotification: (id: string) => void;
   clearAll: () => void;
-  
+
   fetchNotifications: (limit?: number) => Promise<void>;
-  
+
   setPreferences: (preferences: Partial<NotificationPreferences>) => void;
   muteType: (type: NotificationType) => void;
   unmuteType: (type: NotificationType) => void;
-  
+
   setConnected: (connected: boolean) => void;
   setLoading: (loading: boolean) => void;
   setError: (error: string | null) => void;
@@ -112,16 +114,16 @@ function showDesktopNotification(title: string, body: string) {
 
 function isQuietHours(start?: string, end?: string): boolean {
   if (!start || !end) return false;
-  
+
   const now = new Date();
   const currentTime = now.getHours() * 60 + now.getMinutes();
-  
+
   const [startH, startM] = start.split(':').map(Number);
   const [endH, endM] = end.split(':').map(Number);
-  
+
   const startMinutes = startH * 60 + startM;
   const endMinutes = endH * 60 + endM;
-  
+
   if (startMinutes <= endMinutes) {
     return currentTime >= startMinutes && currentTime <= endMinutes;
   } else {
@@ -135,10 +137,7 @@ function isQuietHours(start?: string, end?: string): boolean {
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1';
 
-async function notificationApi<T>(
-  endpoint: string,
-  options: RequestInit = {}
-): Promise<T> {
+async function notificationApi<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
   const token = localStorage.getItem('datacendia-auth')
     ? JSON.parse(localStorage.getItem('datacendia-auth')!).state?.token
     : null;
@@ -189,17 +188,14 @@ export const useNotificationStore = create<NotificationState>()(
 
       addNotification: (notification) => {
         const { preferences } = get();
-        
+
         // Check if type is muted
         if (preferences.mutedTypes.includes(notification.type)) {
           return;
         }
-        
+
         // Check quiet hours
-        const inQuietHours = isQuietHours(
-          preferences.quietHoursStart,
-          preferences.quietHoursEnd
-        );
+        const inQuietHours = isQuietHours(preferences.quietHoursStart, preferences.quietHoursEnd);
 
         const newNotification: Notification = {
           ...notification,

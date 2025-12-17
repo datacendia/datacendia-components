@@ -38,7 +38,7 @@ export function initErrorTracking(): void {
   // Global error handler
   window.onerror = (message, source, lineno, colno, error) => {
     logError(error || new Error(String(message)), {
-      metadata: { source, lineno, colno }
+      metadata: { source, lineno, colno },
     });
     return false;
   };
@@ -46,7 +46,7 @@ export function initErrorTracking(): void {
   // Unhandled promise rejection handler
   window.onunhandledrejection = (event) => {
     logError(event.reason instanceof Error ? event.reason : new Error(String(event.reason)), {
-      metadata: { type: 'unhandledrejection' }
+      metadata: { type: 'unhandledrejection' },
     });
   };
 
@@ -99,21 +99,24 @@ export function logError(
 /**
  * Log error from React Error Boundary
  */
-export function logComponentError(
-  error: Error,
-  errorInfo: { componentStack?: string }
-): void {
-  logError(error, {
-    componentStack: errorInfo.componentStack,
-    metadata: { source: 'ErrorBoundary' },
-  }, 'high');
+export function logComponentError(error: Error, errorInfo: { componentStack?: string }): void {
+  logError(
+    error,
+    {
+      componentStack: errorInfo.componentStack,
+      metadata: { source: 'ErrorBoundary' },
+    },
+    'high'
+  );
 }
 
 /**
  * Flush error queue to backend
  */
 async function flushErrors(): Promise<void> {
-  if (errorQueue.length === 0) {return;}
+  if (errorQueue.length === 0) {
+    return;
+  }
 
   const errors = [...errorQueue];
   errorQueue = [];

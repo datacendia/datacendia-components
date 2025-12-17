@@ -2,7 +2,7 @@
 // CENDIA VOICE™ - AI C-SUITE IN REAL-TIME CONVERSATION
 // Your AI Executives Speak in Real-Time Through Voice Agents
 // "Walk Into a Room and Your Entire AI C-Suite Advises You"
-// 
+//
 // CAPABILITIES:
 // - Real-time voice interaction with AI executives
 // - Multi-agent conversations with different perspectives
@@ -14,7 +14,13 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { enterpriseService, voiceSynthesis, AIExecutive, VoiceMessage, ExecutiveRole } from '../../../services/EnterpriseService';
+import {
+  enterpriseService,
+  voiceSynthesis,
+  AIExecutive,
+  VoiceMessage,
+  ExecutiveRole,
+} from '../../../services/EnterpriseService';
 import { ollamaService } from '../../../lib/ollama';
 
 // =============================================================================
@@ -35,7 +41,12 @@ export const VoicePage: React.FC = () => {
   const navigate = useNavigate();
   const [mode, setMode] = useState<ConversationMode>('council');
   const [executives, setExecutives] = useState<AIExecutive[]>([]);
-  const [activeExecutives, setActiveExecutives] = useState<ExecutiveRole[]>(['cfo', 'cro', 'ciso', 'chro']);
+  const [activeExecutives, setActiveExecutives] = useState<ExecutiveRole[]>([
+    'cfo',
+    'cro',
+    'ciso',
+    'chro',
+  ]);
   const [messages, setMessages] = useState<VoiceMessage[]>([]);
   const [isListening, setIsListening] = useState(false);
   const [userInput, setUserInput] = useState('');
@@ -59,7 +70,9 @@ export const VoicePage: React.FC = () => {
   }, [messages]);
 
   const handleSubmit = async () => {
-    if (!userInput.trim() || isSending) {return;}
+    if (!userInput.trim() || isSending) {
+      return;
+    }
 
     setIsSending(true);
     setCurrentSpeaker(activeExecutives[0] || null);
@@ -69,7 +82,7 @@ export const VoicePage: React.FC = () => {
       const targetExec = mode === 'single' ? activeExecutives[0] : undefined;
       const responses = await enterpriseService.sendVoiceMessage(userInput, targetExec);
       setMessages(enterpriseService.getVoiceMessages());
-      
+
       // Speak the AI responses if voice is enabled
       if (voiceEnabled && voiceSynthesis.isAvailable()) {
         for (const response of responses) {
@@ -95,10 +108,8 @@ export const VoicePage: React.FC = () => {
   };
 
   const toggleExecutive = (role: ExecutiveRole) => {
-    setActiveExecutives(prev => 
-      prev.includes(role) 
-        ? prev.filter(r => r !== role)
-        : [...prev, role]
+    setActiveExecutives((prev) =>
+      prev.includes(role) ? prev.filter((r) => r !== role) : [...prev, role]
     );
   };
 
@@ -132,10 +143,12 @@ export const VoicePage: React.FC = () => {
                     VOICE AI
                   </span>
                 </h1>
-                <p className="text-violet-300 text-sm">AI C-Suite in Real-Time Conversation • Your Digital Boardroom</p>
+                <p className="text-violet-300 text-sm">
+                  AI C-Suite in Real-Time Conversation • Your Digital Boardroom
+                </p>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-4">
               {/* Mode Selector */}
               <div className="flex items-center gap-2 bg-black/30 rounded-lg p-1">
@@ -143,25 +156,25 @@ export const VoicePage: React.FC = () => {
                   { id: 'single', label: '1:1', icon: '👤' },
                   { id: 'council', label: 'Council', icon: '👥' },
                   { id: 'meeting', label: 'Meeting', icon: '🏛️' },
-                ].map(m => (
+                ].map((m) => (
                   <button
                     key={m.id}
                     onClick={() => setMode(m.id as ConversationMode)}
                     className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors flex items-center gap-1 ${
-                      mode === m.id
-                        ? 'bg-violet-600 text-white'
-                        : 'text-white/60 hover:text-white'
+                      mode === m.id ? 'bg-violet-600 text-white' : 'text-white/60 hover:text-white'
                     }`}
                   >
                     {m.icon} {m.label}
                   </button>
                 ))}
               </div>
-              
+
               {/* Voice Toggle */}
               <button
                 onClick={() => {
-                  if (isSpeaking) {voiceSynthesis.stop();}
+                  if (isSpeaking) {
+                    voiceSynthesis.stop();
+                  }
                   setVoiceEnabled(!voiceEnabled);
                 }}
                 className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-2 ${
@@ -170,9 +183,11 @@ export const VoicePage: React.FC = () => {
               >
                 {voiceEnabled ? '🔊' : '🔇'} Voice {voiceEnabled ? 'On' : 'Off'}
               </button>
-              
+
               <div className="flex items-center gap-2">
-                <div className={`w-3 h-3 rounded-full ${isSpeaking ? 'bg-green-400 animate-pulse' : currentSpeaker ? 'bg-amber-400' : 'bg-neutral-500'}`} />
+                <div
+                  className={`w-3 h-3 rounded-full ${isSpeaking ? 'bg-green-400 animate-pulse' : currentSpeaker ? 'bg-amber-400' : 'bg-neutral-500'}`}
+                />
                 <span className="text-sm text-white/60">
                   {isSpeaking ? 'Speaking...' : currentSpeaker ? 'Thinking...' : 'Ready'}
                 </span>
@@ -186,9 +201,11 @@ export const VoicePage: React.FC = () => {
         <div className="grid grid-cols-4 gap-6 h-[calc(100vh-200px)]">
           {/* Executive Panel */}
           <div className="bg-black/30 rounded-2xl p-4 border border-violet-800/50 overflow-y-auto">
-            <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">AI Executives</h3>
+            <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">
+              AI Executives
+            </h3>
             <div className="space-y-3">
-              {executives.map(exec => (
+              {executives.map((exec) => (
                 <div
                   key={exec.id}
                   onClick={() => toggleExecutive(exec.role)}
@@ -199,21 +216,32 @@ export const VoicePage: React.FC = () => {
                   } ${exec.status === 'speaking' ? 'ring-2 ring-green-400' : ''}`}
                 >
                   <div className="flex items-center gap-3">
-                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl ${
-                      exec.status === 'speaking' ? 'bg-green-600 animate-pulse' :
-                      activeExecutives.includes(exec.role) ? 'bg-violet-700' : 'bg-neutral-800'
-                    }`}>
+                    <div
+                      className={`w-12 h-12 rounded-xl flex items-center justify-center text-2xl ${
+                        exec.status === 'speaking'
+                          ? 'bg-green-600 animate-pulse'
+                          : activeExecutives.includes(exec.role)
+                            ? 'bg-violet-700'
+                            : 'bg-neutral-800'
+                      }`}
+                    >
                       {exec.avatar}
                     </div>
                     <div className="flex-1">
                       <div className="font-medium text-sm">{exec.name}</div>
                       <div className="text-xs text-white/50">{exec.title}</div>
                       <div className="flex items-center gap-1 mt-1">
-                        <div className={`w-2 h-2 rounded-full ${
-                          exec.status === 'speaking' ? 'bg-green-400' :
-                          exec.status === 'thinking' ? 'bg-amber-400' :
-                          activeExecutives.includes(exec.role) ? 'bg-violet-400' : 'bg-neutral-600'
-                        }`} />
+                        <div
+                          className={`w-2 h-2 rounded-full ${
+                            exec.status === 'speaking'
+                              ? 'bg-green-400'
+                              : exec.status === 'thinking'
+                                ? 'bg-amber-400'
+                                : activeExecutives.includes(exec.role)
+                                  ? 'bg-violet-400'
+                                  : 'bg-neutral-600'
+                          }`}
+                        />
                         <span className="text-xs text-white/40 capitalize">{exec.status}</span>
                       </div>
                     </div>
@@ -238,22 +266,26 @@ export const VoicePage: React.FC = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <h3 className="font-semibold">
-                    {mode === 'single' ? 'Executive Consultation' :
-                     mode === 'council' ? 'Executive Council Session' :
-                     'Board Meeting'}
+                    {mode === 'single'
+                      ? 'Executive Consultation'
+                      : mode === 'council'
+                        ? 'Executive Council Session'
+                        : 'Board Meeting'}
                   </h3>
                   <div className="text-sm text-white/50">
                     {activeExecutives.length} executives • {messages.length} messages
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
-                  {activeExecutives.slice(0, 4).map(role => {
-                    const exec = executives.find(e => e.role === role);
+                  {activeExecutives.slice(0, 4).map((role) => {
+                    const exec = executives.find((e) => e.role === role);
                     return (
                       <div
                         key={role}
                         className={`w-8 h-8 rounded-full flex items-center justify-center text-sm ${
-                          currentSpeaker === role ? 'bg-green-600 ring-2 ring-green-400' : 'bg-violet-800'
+                          currentSpeaker === role
+                            ? 'bg-green-600 ring-2 ring-green-400'
+                            : 'bg-violet-800'
                         }`}
                         title={exec?.name}
                       >
@@ -283,9 +315,9 @@ export const VoicePage: React.FC = () => {
                   <div className="flex flex-wrap justify-center gap-2">
                     {[
                       "What's our Q4 financial outlook?",
-                      "Review the security posture",
-                      "Analyze employee retention risk",
-                    ].map(q => (
+                      'Review the security posture',
+                      'Analyze employee retention risk',
+                    ].map((q) => (
                       <button
                         key={q}
                         onClick={() => setUserInput(q)}
@@ -297,44 +329,55 @@ export const VoicePage: React.FC = () => {
                   </div>
                 </div>
               ) : (
-                messages.map(msg => {
-                  const exec = executives.find(e => e.role === msg.speaker);
+                messages.map((msg) => {
+                  const exec = executives.find((e) => e.role === msg.speaker);
                   const isUser = msg.speaker === 'user';
-                  
+
                   return (
                     <div
                       key={msg.id}
                       className={`flex ${isUser ? 'justify-end' : 'justify-start'}`}
                     >
                       <div className={`max-w-[85%] ${isUser ? 'order-2' : 'order-1'}`}>
-                        <div className={`flex items-start gap-3 ${isUser ? 'flex-row-reverse' : ''}`}>
-                          <div className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg flex-shrink-0 ${
-                            isUser ? 'bg-violet-600' : 'bg-black/40'
-                          }`}>
+                        <div
+                          className={`flex items-start gap-3 ${isUser ? 'flex-row-reverse' : ''}`}
+                        >
+                          <div
+                            className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg flex-shrink-0 ${
+                              isUser ? 'bg-violet-600' : 'bg-black/40'
+                            }`}
+                          >
                             {isUser ? '👤' : exec?.avatar}
                           </div>
-                          <div className={`p-4 rounded-2xl ${
-                            isUser
-                              ? 'bg-violet-600 rounded-br-sm'
-                              : 'bg-black/40 rounded-bl-sm'
-                          }`}>
+                          <div
+                            className={`p-4 rounded-2xl ${
+                              isUser ? 'bg-violet-600 rounded-br-sm' : 'bg-black/40 rounded-bl-sm'
+                            }`}
+                          >
                             {!isUser && (
                               <div className="flex items-center gap-2 mb-2">
                                 <span className="font-semibold text-sm">{msg.speakerName}</span>
                                 {msg.sentiment && (
-                                  <span className={`text-xs px-2 py-0.5 rounded ${
-                                    msg.sentiment === 'positive' ? 'bg-green-900/50 text-green-300' :
-                                    msg.sentiment === 'warning' ? 'bg-red-900/50 text-red-300' :
-                                    msg.sentiment === 'cautious' ? 'bg-amber-900/50 text-amber-300' :
-                                    'bg-neutral-800 text-neutral-300'
-                                  }`}>
+                                  <span
+                                    className={`text-xs px-2 py-0.5 rounded ${
+                                      msg.sentiment === 'positive'
+                                        ? 'bg-green-900/50 text-green-300'
+                                        : msg.sentiment === 'warning'
+                                          ? 'bg-red-900/50 text-red-300'
+                                          : msg.sentiment === 'cautious'
+                                            ? 'bg-amber-900/50 text-amber-300'
+                                            : 'bg-neutral-800 text-neutral-300'
+                                    }`}
+                                  >
                                     {msg.sentiment}
                                   </span>
                                 )}
                               </div>
                             )}
                             <p className="text-sm leading-relaxed">{msg.content}</p>
-                            <div className={`text-xs mt-2 ${isUser ? 'text-violet-200' : 'text-white/40'}`}>
+                            <div
+                              className={`text-xs mt-2 ${isUser ? 'text-violet-200' : 'text-white/40'}`}
+                            >
                               {msg.timestamp.toLocaleTimeString()}
                             </div>
                           </div>
@@ -353,9 +396,7 @@ export const VoicePage: React.FC = () => {
                 <button
                   onClick={startVoiceInput}
                   className={`p-3 rounded-xl transition-all ${
-                    isListening
-                      ? 'bg-red-600 animate-pulse'
-                      : 'bg-violet-700 hover:bg-violet-600'
+                    isListening ? 'bg-red-600 animate-pulse' : 'bg-violet-700 hover:bg-violet-600'
                   }`}
                 >
                   <span className="text-xl">{isListening ? '🔴' : '🎤'}</span>
@@ -386,8 +427,10 @@ export const VoicePage: React.FC = () => {
 
           {/* Insights Panel */}
           <div className="bg-black/30 rounded-2xl p-4 border border-violet-800/50 overflow-y-auto">
-            <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">Session Insights</h3>
-            
+            <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">
+              Session Insights
+            </h3>
+
             {/* Live Metrics */}
             <div className="space-y-4 mb-6">
               <div className="p-3 bg-black/20 rounded-xl">
@@ -398,9 +441,7 @@ export const VoicePage: React.FC = () => {
               </div>
               <div className="p-3 bg-black/20 rounded-xl">
                 <div className="text-xs text-white/50 mb-1">Messages Exchanged</div>
-                <div className="text-xl font-bold text-amber-400">
-                  {messages.length}
-                </div>
+                <div className="text-xl font-bold text-amber-400">{messages.length}</div>
               </div>
               <div className="p-3 bg-black/20 rounded-xl">
                 <div className="text-xs text-white/50 mb-1">Consensus Level</div>
@@ -412,21 +453,26 @@ export const VoicePage: React.FC = () => {
 
             {/* Key Points */}
             <div className="mb-6">
-              <h4 className="text-xs font-semibold text-white/50 uppercase tracking-wider mb-3">Key Points</h4>
-              {messages.filter(m => m.speaker !== 'user').length > 0 ? (
+              <h4 className="text-xs font-semibold text-white/50 uppercase tracking-wider mb-3">
+                Key Points
+              </h4>
+              {messages.filter((m) => m.speaker !== 'user').length > 0 ? (
                 <div className="space-y-2">
-                  {messages.filter(m => m.speaker !== 'user').slice(-3).map(msg => {
-                    const exec = executives.find(e => e.role === msg.speaker);
-                    return (
-                      <div key={msg.id} className="p-2 bg-black/20 rounded-lg">
-                        <div className="flex items-center gap-2 mb-1">
-                          <span>{exec?.avatar}</span>
-                          <span className="text-xs font-medium">{exec?.name.split(' ')[0]}</span>
+                  {messages
+                    .filter((m) => m.speaker !== 'user')
+                    .slice(-3)
+                    .map((msg) => {
+                      const exec = executives.find((e) => e.role === msg.speaker);
+                      return (
+                        <div key={msg.id} className="p-2 bg-black/20 rounded-lg">
+                          <div className="flex items-center gap-2 mb-1">
+                            <span>{exec?.avatar}</span>
+                            <span className="text-xs font-medium">{exec?.name.split(' ')[0]}</span>
+                          </div>
+                          <p className="text-xs text-white/70 line-clamp-2">{msg.content}</p>
                         </div>
-                        <p className="text-xs text-white/70 line-clamp-2">{msg.content}</p>
-                      </div>
-                    );
-                  })}
+                      );
+                    })}
                 </div>
               ) : (
                 <div className="text-center py-4 text-white/40 text-sm">
@@ -437,7 +483,9 @@ export const VoicePage: React.FC = () => {
 
             {/* Quick Actions */}
             <div>
-              <h4 className="text-xs font-semibold text-white/50 uppercase tracking-wider mb-3">Quick Actions</h4>
+              <h4 className="text-xs font-semibold text-white/50 uppercase tracking-wider mb-3">
+                Quick Actions
+              </h4>
               <div className="space-y-2">
                 <button className="w-full px-3 py-2 bg-violet-900/50 rounded-lg text-sm text-left hover:bg-violet-800/50 transition-colors">
                   📋 Export Transcript

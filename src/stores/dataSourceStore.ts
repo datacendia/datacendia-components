@@ -1,6 +1,6 @@
 /**
  * Data Source Store - Data connection state management
- * 
+ *
  * Manages data sources, connections, sync status, and schemas.
  */
 
@@ -11,7 +11,7 @@ import { immer } from 'zustand/middleware/immer';
 // TYPES
 // =============================================================================
 
-export type DataSourceType = 
+export type DataSourceType =
   | 'postgresql'
   | 'mysql'
   | 'mongodb'
@@ -25,12 +25,7 @@ export type DataSourceType =
   | 'salesforce'
   | 'hubspot';
 
-export type DataSourceStatus = 
-  | 'connected'
-  | 'disconnected'
-  | 'syncing'
-  | 'error'
-  | 'pending';
+export type DataSourceStatus = 'connected' | 'disconnected' | 'syncing' | 'error' | 'pending';
 
 export interface DataSource {
   id: string;
@@ -56,35 +51,38 @@ export interface DataSourceState {
   isLoading: boolean;
   isSyncing: string | null; // ID of currently syncing source
   error: string | null;
-  
+
   // Schema
-  schemas: Record<string, {
-    tables: Array<{
-      name: string;
-      columns: Array<{
+  schemas: Record<
+    string,
+    {
+      tables: Array<{
         name: string;
-        type: string;
-        nullable: boolean;
+        columns: Array<{
+          name: string;
+          type: string;
+          nullable: boolean;
+        }>;
+        rowCount?: number;
       }>;
-      rowCount?: number;
-    }>;
-  }>;
-  
+    }
+  >;
+
   // Actions
   setDataSources: (sources: DataSource[]) => void;
   addDataSource: (source: DataSource) => void;
   updateDataSource: (id: string, updates: Partial<DataSource>) => void;
   removeDataSource: (id: string) => void;
   setActiveDataSource: (source: DataSource | null) => void;
-  
+
   fetchDataSources: () => Promise<void>;
   createDataSource: (config: CreateDataSourceConfig) => Promise<string | null>;
   testConnection: (id: string) => Promise<boolean>;
   syncDataSource: (id: string) => Promise<boolean>;
   deleteDataSource: (id: string) => Promise<boolean>;
-  
+
   loadSchema: (id: string) => Promise<void>;
-  
+
   setLoading: (loading: boolean) => void;
   setError: (error: string | null) => void;
   clearError: () => void;
@@ -104,10 +102,7 @@ export interface CreateDataSourceConfig {
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1';
 
-async function dataSourceApi<T>(
-  endpoint: string,
-  options: RequestInit = {}
-): Promise<T> {
+async function dataSourceApi<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
   const token = localStorage.getItem('datacendia-auth')
     ? JSON.parse(localStorage.getItem('datacendia-auth')!).state?.token
     : null;
@@ -186,9 +181,7 @@ export const useDataSourceStore = create<DataSourceState>()(
       });
 
       try {
-        const response = await dataSourceApi<{ dataSources: DataSource[] }>(
-          '/data-sources'
-        );
+        const response = await dataSourceApi<{ dataSources: DataSource[] }>('/data-sources');
 
         set((state) => {
           state.dataSources = response.dataSources;
@@ -209,13 +202,10 @@ export const useDataSourceStore = create<DataSourceState>()(
       });
 
       try {
-        const response = await dataSourceApi<{ dataSource: DataSource }>(
-          '/data-sources',
-          {
-            method: 'POST',
-            body: JSON.stringify(config),
-          }
-        );
+        const response = await dataSourceApi<{ dataSource: DataSource }>('/data-sources', {
+          method: 'POST',
+          body: JSON.stringify(config),
+        });
 
         set((state) => {
           state.dataSources.push(response.dataSource);
@@ -251,7 +241,7 @@ export const useDataSourceStore = create<DataSourceState>()(
 
       try {
         await dataSourceApi(`/data-sources/${id}/sync`, { method: 'POST' });
-        
+
         set((state) => {
           state.isSyncing = null;
           const source = state.dataSources.find((s: DataSource) => s.id === id);
@@ -260,7 +250,7 @@ export const useDataSourceStore = create<DataSourceState>()(
             source.lastSyncStatus = 'success';
           }
         });
-        
+
         return true;
       } catch (error) {
         set((state) => {

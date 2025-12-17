@@ -105,10 +105,10 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
       >
         <span className="text-xl">{localeConfig.flag}</span>
         <span className="text-sm font-medium text-neutral-700">{localeConfig.nativeName}</span>
-        <svg 
+        <svg
           className={`w-4 h-4 text-neutral-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
-          fill="none" 
-          viewBox="0 0 24 24" 
+          fill="none"
+          viewBox="0 0 24 24"
           stroke="currentColor"
         >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -116,7 +116,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
       </button>
 
       {isOpen && (
-        <div 
+        <div
           className="absolute right-0 mt-2 w-56 bg-white rounded-xl shadow-xl border border-neutral-200 py-2 z-50 max-h-80 overflow-y-auto"
           role="listbox"
         >
@@ -132,14 +132,20 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
             >
               <span className="text-xl">{loc.flag}</span>
               <div className="flex-1">
-                <p className={`text-sm font-medium ${loc.code === locale ? 'text-primary-600' : 'text-neutral-900'}`}>
+                <p
+                  className={`text-sm font-medium ${loc.code === locale ? 'text-primary-600' : 'text-neutral-900'}`}
+                >
                   {loc.nativeName}
                 </p>
                 <p className="text-xs text-neutral-500">{loc.name}</p>
               </div>
               {loc.code === locale && (
                 <svg className="w-5 h-5 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
                 </svg>
               )}
             </button>

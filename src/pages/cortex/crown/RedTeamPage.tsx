@@ -5,9 +5,24 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import {
-  Shield, AlertTriangle, Skull, Target, Zap, Play, Eye,
-  Lock, Unlock, CheckCircle, XCircle, RefreshCw, ChevronRight,
-  TrendingUp, TrendingDown, Activity, AlertCircle, Crosshair
+  Shield,
+  AlertTriangle,
+  Skull,
+  Target,
+  Zap,
+  Play,
+  Eye,
+  Lock,
+  Unlock,
+  CheckCircle,
+  XCircle,
+  RefreshCw,
+  ChevronRight,
+  TrendingUp,
+  TrendingDown,
+  Activity,
+  AlertCircle,
+  Crosshair,
 } from 'lucide-react';
 import { redteamApi } from '../../../lib/api';
 
@@ -122,18 +137,28 @@ const RedTeamPage = () => {
   };
 
   const getScoreColor = (score: number) => {
-    if (score >= 90) { return 'text-green-400'; }
-    if (score >= 70) { return 'text-amber-400'; }
-    if (score >= 50) { return 'text-orange-400'; }
+    if (score >= 90) {
+      return 'text-green-400';
+    }
+    if (score >= 70) {
+      return 'text-amber-400';
+    }
+    if (score >= 50) {
+      return 'text-orange-400';
+    }
     return 'text-red-400';
   };
 
   const getSeverityColor = (severity: string) => {
     switch (severity) {
-      case 'critical': return 'bg-red-500/20 text-red-400 border-red-500/30';
-      case 'high': return 'bg-orange-500/20 text-orange-400 border-orange-500/30';
-      case 'medium': return 'bg-amber-500/20 text-amber-400 border-amber-500/30';
-      default: return 'bg-blue-500/20 text-blue-400 border-blue-500/30';
+      case 'critical':
+        return 'bg-red-500/20 text-red-400 border-red-500/30';
+      case 'high':
+        return 'bg-orange-500/20 text-orange-400 border-orange-500/30';
+      case 'medium':
+        return 'bg-amber-500/20 text-amber-400 border-amber-500/30';
+      default:
+        return 'bg-blue-500/20 text-blue-400 border-blue-500/30';
     }
   };
 
@@ -149,29 +174,38 @@ const RedTeamPage = () => {
   }
 
   return (
-    <div className={`min-h-screen text-white p-6 ${view === 'evil-twin' ? 'bg-black' : 'bg-neutral-950'}`}>
+    <div
+      className={`min-h-screen text-white p-6 ${view === 'evil-twin' ? 'bg-black' : 'bg-neutral-950'}`}
+    >
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${
-              view === 'evil-twin' ? 'bg-gradient-to-br from-red-600 to-black' : 'bg-gradient-to-br from-red-500 to-orange-600'
-            }`}>
-              {view === 'evil-twin' ? <Skull className="w-6 h-6" /> : <Shield className="w-6 h-6" />}
+            <div
+              className={`w-12 h-12 rounded-xl flex items-center justify-center ${
+                view === 'evil-twin'
+                  ? 'bg-gradient-to-br from-red-600 to-black'
+                  : 'bg-gradient-to-br from-red-500 to-orange-600'
+              }`}
+            >
+              {view === 'evil-twin' ? (
+                <Skull className="w-6 h-6" />
+              ) : (
+                <Shield className="w-6 h-6" />
+              )}
             </div>
             <div>
               <h1 className="text-3xl font-bold">
                 {view === 'evil-twin' ? 'Evil Twin Instance' : 'CendiaRedTeam™'}
               </h1>
               <p className="text-neutral-400">
-                {view === 'evil-twin' 
+                {view === 'evil-twin'
                   ? 'Adversarial clone with inverted objectives'
-                  : 'Adversarial Security Engine'
-                }
+                  : 'Adversarial Security Engine'}
               </p>
             </div>
           </div>
-          
+
           <div className="flex items-center gap-3">
             <button
               onClick={() => setView(view === 'dashboard' ? 'evil-twin' : 'dashboard')}
@@ -181,10 +215,14 @@ const RedTeamPage = () => {
                   : 'bg-neutral-800 text-neutral-400 hover:bg-neutral-700'
               }`}
             >
-              {view === 'evil-twin' ? <Shield className="w-4 h-4" /> : <Skull className="w-4 h-4" />}
+              {view === 'evil-twin' ? (
+                <Shield className="w-4 h-4" />
+              ) : (
+                <Skull className="w-4 h-4" />
+              )}
               {view === 'evil-twin' ? 'Exit Evil Twin' : 'Enter Evil Twin'}
             </button>
-            
+
             <button
               onClick={runSimulation}
               disabled={simulating}
@@ -199,13 +237,13 @@ const RedTeamPage = () => {
             </button>
           </div>
         </div>
-        
+
         {view === 'evil-twin' && (
           <div className="mt-4 p-4 bg-red-500/10 border border-red-500/30 rounded-lg flex items-center gap-3">
             <AlertTriangle className="w-5 h-5 text-red-400" />
             <p className="text-red-400">
-              <strong>WARNING:</strong> You are viewing the adversarial clone. 
-              This instance actively attempts to bypass your security controls.
+              <strong>WARNING:</strong> You are viewing the adversarial clone. This instance
+              actively attempts to bypass your security controls.
             </p>
           </div>
         )}
@@ -221,14 +259,22 @@ const RedTeamPage = () => {
                 <span className="text-neutral-400">RedTeam Score</span>
                 <Target className="w-5 h-5 text-neutral-500" />
               </div>
-              
+
               <div className="relative w-32 h-32 mx-auto mb-4">
                 <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
                   <circle cx="50" cy="50" r="40" fill="none" stroke="#262626" strokeWidth="8" />
-                  <circle 
-                    cx="50" cy="50" r="40" 
-                    fill="none" 
-                    stroke={dashboard?.score && dashboard.score >= 70 ? '#10b981' : dashboard?.score && dashboard.score >= 50 ? '#f59e0b' : '#ef4444'}
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="40"
+                    fill="none"
+                    stroke={
+                      dashboard?.score && dashboard.score >= 70
+                        ? '#10b981'
+                        : dashboard?.score && dashboard.score >= 50
+                          ? '#f59e0b'
+                          : '#ef4444'
+                    }
                     strokeWidth="8"
                     strokeLinecap="round"
                     strokeDasharray={`${(dashboard?.score || 0) * 2.51} 251`}
@@ -240,22 +286,33 @@ const RedTeamPage = () => {
                   </span>
                 </div>
               </div>
-              
+
               <p className="text-center text-sm text-neutral-500">
-                {dashboard?.score && dashboard.score >= 90 ? 'Excellent Security Posture' :
-                 dashboard?.score && dashboard.score >= 70 ? 'Good Security Posture' :
-                 dashboard?.score && dashboard.score >= 50 ? 'Needs Improvement' :
-                 'Critical Vulnerabilities Detected'}
+                {dashboard?.score && dashboard.score >= 90
+                  ? 'Excellent Security Posture'
+                  : dashboard?.score && dashboard.score >= 70
+                    ? 'Good Security Posture'
+                    : dashboard?.score && dashboard.score >= 50
+                      ? 'Needs Improvement'
+                      : 'Critical Vulnerabilities Detected'}
               </p>
-              
-              <div className={`mt-4 flex items-center justify-center gap-2 px-3 py-2 rounded-lg ${
-                dashboard?.trend === 'improving' ? 'bg-green-500/10 text-green-400' :
-                dashboard?.trend === 'degrading' ? 'bg-red-500/10 text-red-400' :
-                'bg-neutral-800 text-neutral-400'
-              }`}>
-                {dashboard?.trend === 'improving' ? <TrendingUp className="w-4 h-4" /> :
-                 dashboard?.trend === 'degrading' ? <TrendingDown className="w-4 h-4" /> :
-                 <Activity className="w-4 h-4" />}
+
+              <div
+                className={`mt-4 flex items-center justify-center gap-2 px-3 py-2 rounded-lg ${
+                  dashboard?.trend === 'improving'
+                    ? 'bg-green-500/10 text-green-400'
+                    : dashboard?.trend === 'degrading'
+                      ? 'bg-red-500/10 text-red-400'
+                      : 'bg-neutral-800 text-neutral-400'
+                }`}
+              >
+                {dashboard?.trend === 'improving' ? (
+                  <TrendingUp className="w-4 h-4" />
+                ) : dashboard?.trend === 'degrading' ? (
+                  <TrendingDown className="w-4 h-4" />
+                ) : (
+                  <Activity className="w-4 h-4" />
+                )}
                 <span className="text-sm capitalize">{dashboard?.trend || 'stable'}</span>
               </div>
             </div>
@@ -266,7 +323,7 @@ const RedTeamPage = () => {
                 <Lock className="w-5 h-5 text-blue-500" />
                 Security Breakdown
               </h2>
-              
+
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {Object.entries(dashboard?.breakdown || {}).map(([key, value]) => (
                   <div key={key} className="p-4 bg-neutral-800/50 rounded-lg">
@@ -274,12 +331,10 @@ const RedTeamPage = () => {
                       <span className="text-sm text-neutral-400 capitalize">
                         {key.replace(/([A-Z])/g, ' $1').trim()}
                       </span>
-                      <span className={`text-sm font-bold ${getScoreColor(value)}`}>
-                        {value}%
-                      </span>
+                      <span className={`text-sm font-bold ${getScoreColor(value)}`}>{value}%</span>
                     </div>
                     <div className="h-2 bg-neutral-700 rounded-full overflow-hidden">
-                      <div 
+                      <div
                         className={`h-full rounded-full ${
                           value >= 80 ? 'bg-green-500' : value >= 60 ? 'bg-amber-500' : 'bg-red-500'
                         }`}
@@ -300,7 +355,7 @@ const RedTeamPage = () => {
                 <AlertTriangle className="w-5 h-5 text-amber-500" />
                 Vulnerability Summary
               </h2>
-              
+
               <div className="space-y-3">
                 <div className="flex justify-between items-center p-3 bg-red-500/10 rounded-lg border border-red-500/20">
                   <span className="text-red-400">Critical</span>
@@ -327,7 +382,7 @@ const RedTeamPage = () => {
                   </span>
                 </div>
               </div>
-              
+
               <div className="mt-4 pt-4 border-t border-neutral-800">
                 <p className="text-sm text-neutral-500">Total Potential Damage</p>
                 <p className="text-2xl font-bold text-red-400">
@@ -344,7 +399,7 @@ const RedTeamPage = () => {
                   Top 5 Exploitable Weaknesses
                 </h2>
               </div>
-              
+
               <div className="divide-y divide-neutral-800">
                 {(dashboard?.topWeaknesses || []).map((weakness) => (
                   <div key={weakness.id} className="p-4 hover:bg-neutral-800/50 transition">
@@ -352,7 +407,7 @@ const RedTeamPage = () => {
                       <div className="w-8 h-8 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
                         <span className="text-sm font-bold text-red-400">#{weakness.rank}</span>
                       </div>
-                      
+
                       <div className="flex-1 min-w-0">
                         <p className="font-medium">{weakness.title}</p>
                         <div className="flex items-center gap-3 mt-1 text-sm">
@@ -363,18 +418,21 @@ const RedTeamPage = () => {
                           </span>
                         </div>
                       </div>
-                      
+
                       <div className="flex items-center gap-2">
-                        <span className={`px-2 py-1 text-xs rounded-lg ${
-                          weakness.fixComplexity === 'trivial' || weakness.fixComplexity === 'easy'
-                            ? 'bg-green-500/20 text-green-400'
-                            : weakness.fixComplexity === 'moderate'
-                            ? 'bg-amber-500/20 text-amber-400'
-                            : 'bg-red-500/20 text-red-400'
-                        }`}>
+                        <span
+                          className={`px-2 py-1 text-xs rounded-lg ${
+                            weakness.fixComplexity === 'trivial' ||
+                            weakness.fixComplexity === 'easy'
+                              ? 'bg-green-500/20 text-green-400'
+                              : weakness.fixComplexity === 'moderate'
+                                ? 'bg-amber-500/20 text-amber-400'
+                                : 'bg-red-500/20 text-red-400'
+                          }`}
+                        >
                           {weakness.fixComplexity}
                         </span>
-                        
+
                         {weakness.autoFixAvailable && (
                           <button className="px-3 py-1 bg-green-500/20 text-green-400 text-sm rounded-lg hover:bg-green-500/30 transition flex items-center gap-1">
                             <Zap className="w-3 h-3" />
@@ -385,12 +443,14 @@ const RedTeamPage = () => {
                     </div>
                   </div>
                 ))}
-                
+
                 {(dashboard?.topWeaknesses || []).length === 0 && (
                   <div className="p-8 text-center text-neutral-500">
                     <CheckCircle className="w-12 h-12 mx-auto mb-3 text-green-500 opacity-50" />
                     <p>No critical weaknesses detected</p>
-                    <p className="text-sm mt-1">Run a simulation to discover potential vulnerabilities</p>
+                    <p className="text-sm mt-1">
+                      Run a simulation to discover potential vulnerabilities
+                    </p>
                   </div>
                 )}
               </div>
@@ -404,7 +464,7 @@ const RedTeamPage = () => {
                 <AlertCircle className="w-5 h-5 text-amber-500" />
                 Security Recommendations
               </h2>
-              
+
               <div className="space-y-3">
                 {(dashboard?.recommendations || []).map((rec, idx) => (
                   <div key={idx} className="flex gap-3 p-3 bg-neutral-800/50 rounded-lg">
@@ -422,21 +482,28 @@ const RedTeamPage = () => {
                 <Zap className="w-5 h-5 text-green-500" />
                 Immediate Actions Available
               </h2>
-              
+
               <div className="space-y-3">
                 {(dashboard?.immediateActions || []).map((action) => (
-                  <div key={action.id} className="flex items-center justify-between p-3 bg-neutral-800/50 rounded-lg">
+                  <div
+                    key={action.id}
+                    className="flex items-center justify-between p-3 bg-neutral-800/50 rounded-lg"
+                  >
                     <div className="flex items-center gap-3">
                       <div className="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center">
-                        {action.reversible ? <Unlock className="w-4 h-4 text-green-400" /> : <Lock className="w-4 h-4 text-amber-400" />}
+                        {action.reversible ? (
+                          <Unlock className="w-4 h-4 text-green-400" />
+                        ) : (
+                          <Lock className="w-4 h-4 text-amber-400" />
+                        )}
                       </div>
                       <div>
                         <p className="text-sm font-medium">{action.description}</p>
                         <p className="text-xs text-neutral-500">{action.patchType}</p>
                       </div>
                     </div>
-                    
-                    <button 
+
+                    <button
                       onClick={() => applyPatch(action.id)}
                       className="px-3 py-1 bg-green-500/20 text-green-400 text-sm rounded-lg hover:bg-green-500/30 transition"
                     >
@@ -444,7 +511,7 @@ const RedTeamPage = () => {
                     </button>
                   </div>
                 ))}
-                
+
                 {(dashboard?.immediateActions || []).length === 0 && (
                   <p className="text-neutral-500 text-sm text-center py-4">
                     No immediate actions available
@@ -466,7 +533,7 @@ const RedTeamPage = () => {
               </div>
               <p className="text-2xl font-bold text-red-400">{evilTwin?.evilTwinStatus}</p>
             </div>
-            
+
             <div className="bg-black/50 rounded-xl border border-red-900/50 p-5">
               <div className="flex items-center justify-between mb-3">
                 <span className="text-red-400/70 text-sm">Attack Vectors</span>
@@ -474,7 +541,7 @@ const RedTeamPage = () => {
               </div>
               <p className="text-2xl font-bold text-red-400">{evilTwin?.attackVectorsExplored}</p>
             </div>
-            
+
             <div className="bg-black/50 rounded-xl border border-red-900/50 p-5">
               <div className="flex items-center justify-between mb-3">
                 <span className="text-red-400/70 text-sm">Exploit Paths</span>
@@ -482,7 +549,7 @@ const RedTeamPage = () => {
               </div>
               <p className="text-2xl font-bold text-red-400">{evilTwin?.exploitPathsFound}</p>
             </div>
-            
+
             <div className="bg-black/50 rounded-xl border border-red-900/50 p-5">
               <div className="flex items-center justify-between mb-3">
                 <span className="text-red-400/70 text-sm">Objectives</span>
@@ -500,13 +567,18 @@ const RedTeamPage = () => {
               <Eye className="w-5 h-5" />
               Live Exploit Path Visualization
             </h2>
-            
+
             <div className="space-y-4">
               {(evilTwin?.topExploits || []).map((exploit, idx) => (
-                <div key={exploit.id} className="p-4 bg-black/30 border border-red-900/30 rounded-lg">
+                <div
+                  key={exploit.id}
+                  className="p-4 bg-black/30 border border-red-900/30 rounded-lg"
+                >
                   <div className="flex items-start justify-between">
                     <div className="flex items-start gap-4">
-                      <div className={`px-2 py-1 text-xs rounded border ${getSeverityColor(exploit.severity)}`}>
+                      <div
+                        className={`px-2 py-1 text-xs rounded border ${getSeverityColor(exploit.severity)}`}
+                      >
                         {exploit.severity.toUpperCase()}
                       </div>
                       <div>
@@ -516,10 +588,12 @@ const RedTeamPage = () => {
                     </div>
                     <div className="text-right">
                       <p className="text-sm text-red-400/70">Success Rate</p>
-                      <p className="text-xl font-bold text-red-400">{exploit.probabilityOfSuccess}%</p>
+                      <p className="text-xl font-bold text-red-400">
+                        {exploit.probabilityOfSuccess}%
+                      </p>
                     </div>
                   </div>
-                  
+
                   <div className="mt-4 pt-4 border-t border-red-900/30 flex items-center justify-between">
                     <span className="text-sm text-red-400/70">
                       Potential Damage: ${(exploit.potentialDamage / 1000).toFixed(0)}K
@@ -531,12 +605,14 @@ const RedTeamPage = () => {
                   </div>
                 </div>
               ))}
-              
+
               {(evilTwin?.topExploits || []).length === 0 && (
                 <div className="p-8 text-center text-red-400/50">
                   <Shield className="w-12 h-12 mx-auto mb-3 opacity-50" />
                   <p>No exploit paths discovered yet</p>
-                  <p className="text-sm mt-1">Run an attack simulation to discover vulnerabilities</p>
+                  <p className="text-sm mt-1">
+                    Run an attack simulation to discover vulnerabilities
+                  </p>
                 </div>
               )}
             </div>
@@ -549,10 +625,13 @@ const RedTeamPage = () => {
                 <Target className="w-5 h-5" />
                 Most Vulnerable Systems
               </h2>
-              
+
               <div className="space-y-3">
                 {(evilTwin?.mostVulnerableSystems || []).map((system, idx) => (
-                  <div key={system.system} className="flex items-center justify-between p-3 bg-black/30 rounded-lg">
+                  <div
+                    key={system.system}
+                    className="flex items-center justify-between p-3 bg-black/30 rounded-lg"
+                  >
                     <span className="text-red-100">{system.system}</span>
                     <span className="px-2 py-1 bg-red-500/20 text-red-400 text-sm rounded">
                       {system.vulnerabilityCount} vulns
@@ -567,13 +646,14 @@ const RedTeamPage = () => {
                 <Crosshair className="w-5 h-5" />
                 Attack Vectors Explored
               </h2>
-              
+
               <div className="space-y-3">
                 {Object.entries(evilTwin?.byAttackVector || {}).map(([vector, count]) => (
-                  <div key={vector} className="flex items-center justify-between p-3 bg-black/30 rounded-lg">
-                    <span className="text-red-100 capitalize">
-                      {vector.replace(/_/g, ' ')}
-                    </span>
+                  <div
+                    key={vector}
+                    className="flex items-center justify-between p-3 bg-black/30 rounded-lg"
+                  >
+                    <span className="text-red-100 capitalize">{vector.replace(/_/g, ' ')}</span>
                     <span className="px-2 py-1 bg-red-500/20 text-red-400 text-sm rounded">
                       {count} paths
                     </span>

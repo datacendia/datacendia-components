@@ -22,13 +22,10 @@ export const NotFoundPage: React.FC = () => {
         </div>
 
         {/* Message */}
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          Page Not Found
-        </h2>
-        
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">Page Not Found</h2>
+
         <p className="text-slate-400 text-lg mb-8 max-w-md mx-auto">
-          The page you're looking for doesn't exist or has been moved. 
-          Let's get you back on track.
+          The page you're looking for doesn't exist or has been moved. Let's get you back on track.
         </p>
 
         {/* Actions */}
@@ -40,7 +37,7 @@ export const NotFoundPage: React.FC = () => {
             <ArrowLeft className="w-4 h-4" />
             Go Back
           </button>
-          
+
           <Link
             to="/"
             className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-amber-500 text-black font-semibold rounded-lg hover:bg-amber-400 transition-colors"
@@ -54,19 +51,31 @@ export const NotFoundPage: React.FC = () => {
         <div className="border-t border-slate-800 pt-8">
           <p className="text-slate-500 text-sm mb-4">You might be looking for:</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/product" className="text-slate-400 hover:text-white text-sm transition-colors">
+            <Link
+              to="/product"
+              className="text-slate-400 hover:text-white text-sm transition-colors"
+            >
               Product
             </Link>
-            <Link to="/pricing" className="text-slate-400 hover:text-white text-sm transition-colors">
+            <Link
+              to="/pricing"
+              className="text-slate-400 hover:text-white text-sm transition-colors"
+            >
               Pricing
             </Link>
             <Link to="/about" className="text-slate-400 hover:text-white text-sm transition-colors">
               About Us
             </Link>
-            <Link to="/contact" className="text-slate-400 hover:text-white text-sm transition-colors">
+            <Link
+              to="/contact"
+              className="text-slate-400 hover:text-white text-sm transition-colors"
+            >
               Contact
             </Link>
-            <Link to="/cortex" className="text-slate-400 hover:text-white text-sm transition-colors">
+            <Link
+              to="/cortex"
+              className="text-slate-400 hover:text-white text-sm transition-colors"
+            >
               The Cortex
             </Link>
           </div>
@@ -76,7 +85,10 @@ export const NotFoundPage: React.FC = () => {
         <div className="mt-12 flex items-center justify-center gap-2 text-slate-600">
           <MessageCircle className="w-4 h-4" />
           <span className="text-sm">
-            Need help? <Link to="/contact" className="text-amber-500 hover:text-amber-400">Contact support</Link>
+            Need help?{' '}
+            <Link to="/contact" className="text-amber-500 hover:text-amber-400">
+              Contact support
+            </Link>
           </span>
         </div>
       </div>

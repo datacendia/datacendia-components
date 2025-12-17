@@ -27,7 +27,7 @@ export const RegisterPage: React.FC = () => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value, type, checked } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
       [name]: type === 'checkbox' ? checked : value,
     }));
@@ -35,9 +35,22 @@ export const RegisterPage: React.FC = () => {
 
   // List of personal email domains that are not allowed
   const personalEmailDomains = [
-    'gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 'aol.com',
-    'icloud.com', 'mail.com', 'protonmail.com', 'zoho.com', 'yandex.com',
-    'gmx.com', 'live.com', 'msn.com', 'me.com', 'qq.com', '163.com',
+    'gmail.com',
+    'yahoo.com',
+    'hotmail.com',
+    'outlook.com',
+    'aol.com',
+    'icloud.com',
+    'mail.com',
+    'protonmail.com',
+    'zoho.com',
+    'yandex.com',
+    'gmx.com',
+    'live.com',
+    'msn.com',
+    'me.com',
+    'qq.com',
+    '163.com',
   ];
 
   const isWorkEmail = (email: string): boolean => {
@@ -87,7 +100,9 @@ export const RegisterPage: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!validateStep2()) {return;}
+    if (!validateStep2()) {
+      return;
+    }
 
     setIsLoading(true);
     setError('');
@@ -129,12 +144,13 @@ export const RegisterPage: React.FC = () => {
         </div>
 
         <div>
-          <p className="text-xs text-gray-600 uppercase tracking-[0.3em] mb-4">Sovereign Intelligence Platform</p>
-          <h1 className="text-3xl font-light text-white mb-6">
-            Request Platform Access
-          </h1>
+          <p className="text-xs text-gray-600 uppercase tracking-[0.3em] mb-4">
+            Sovereign Intelligence Platform
+          </p>
+          <h1 className="text-3xl font-light text-white mb-6">Request Platform Access</h1>
           <p className="text-gray-400 mb-8">
-            Enterprise-only. Sovereign deployment.<br/>
+            Enterprise-only. Sovereign deployment.
+            <br />
             No cloud dependencies.
           </p>
 
@@ -154,9 +170,7 @@ export const RegisterPage: React.FC = () => {
           </div>
         </div>
 
-        <div className="text-gray-600 text-xs">
-          Work email required · Subject to approval
-        </div>
+        <div className="text-gray-600 text-xs">Work email required · Subject to approval</div>
       </div>
 
       {/* Right Panel - Registration Form */}
@@ -179,14 +193,18 @@ export const RegisterPage: React.FC = () => {
 
           {/* Progress indicator */}
           <div className="flex items-center justify-center gap-2 mb-6">
-            <div className={cn(
-              'w-8 h-1 rounded-full transition-colors',
-              step >= 1 ? 'bg-cyan-500' : 'bg-sovereign-border'
-            )} />
-            <div className={cn(
-              'w-8 h-1 rounded-full transition-colors',
-              step >= 2 ? 'bg-cyan-500' : 'bg-sovereign-border'
-            )} />
+            <div
+              className={cn(
+                'w-8 h-1 rounded-full transition-colors',
+                step >= 1 ? 'bg-cyan-500' : 'bg-sovereign-border'
+              )}
+            />
+            <div
+              className={cn(
+                'w-8 h-1 rounded-full transition-colors',
+                step >= 2 ? 'bg-cyan-500' : 'bg-sovereign-border'
+              )}
+            />
           </div>
 
           {step === 1 && (
@@ -194,7 +212,8 @@ export const RegisterPage: React.FC = () => {
               {/* Deployment Notice */}
               <div className="mb-6 p-4 bg-sovereign-card border border-sovereign-border rounded-lg">
                 <p className="text-xs text-gray-500 text-center">
-                  🔒 Access requests are processed during deployment setup.<br/>
+                  🔒 Access requests are processed during deployment setup.
+                  <br />
                   Your instance runs entirely on your infrastructure.
                 </p>
               </div>
@@ -202,7 +221,17 @@ export const RegisterPage: React.FC = () => {
           )}
 
           {/* Form */}
-          <form onSubmit={step === 2 ? handleSubmit : (e) => { e.preventDefault(); handleNextStep(); }} className="space-y-4">
+          <form
+            onSubmit={
+              step === 2
+                ? handleSubmit
+                : (e) => {
+                    e.preventDefault();
+                    handleNextStep();
+                  }
+            }
+            className="space-y-4"
+          >
             {error && (
               <div className="p-3 bg-crimson-900/20 border border-crimson-800/50 rounded-lg text-sm text-crimson-400">
                 {error}
@@ -213,7 +242,9 @@ export const RegisterPage: React.FC = () => {
               <>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-400 mb-1">{t('auth.register.firstName')}</label>
+                    <label className="block text-sm font-medium text-gray-400 mb-1">
+                      {t('auth.register.firstName')}
+                    </label>
                     <input
                       type="text"
                       name="firstName"
@@ -225,7 +256,9 @@ export const RegisterPage: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-400 mb-1">{t('auth.register.lastName')}</label>
+                    <label className="block text-sm font-medium text-gray-400 mb-1">
+                      {t('auth.register.lastName')}
+                    </label>
                     <input
                       type="text"
                       name="lastName"
@@ -239,7 +272,9 @@ export const RegisterPage: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-400 mb-1">Work Email <span className="text-crimson-400">*</span></label>
+                  <label className="block text-sm font-medium text-gray-400 mb-1">
+                    Work Email <span className="text-crimson-400">*</span>
+                  </label>
                   <input
                     type="email"
                     name="email"
@@ -249,11 +284,15 @@ export const RegisterPage: React.FC = () => {
                     className="w-full h-11 px-4 bg-sovereign-card border border-sovereign-border rounded-lg text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-cyan-500"
                     placeholder="john@company.com"
                   />
-                  <p className="text-xs text-gray-600 mt-1">Personal email domains (gmail, yahoo, etc.) are not accepted</p>
+                  <p className="text-xs text-gray-600 mt-1">
+                    Personal email domains (gmail, yahoo, etc.) are not accepted
+                  </p>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-400 mb-1">Organization</label>
+                  <label className="block text-sm font-medium text-gray-400 mb-1">
+                    Organization
+                  </label>
                   <input
                     type="text"
                     name="company"
@@ -283,7 +322,9 @@ export const RegisterPage: React.FC = () => {
                 </button>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-400 mb-1">{t('auth.register.password')}</label>
+                  <label className="block text-sm font-medium text-gray-400 mb-1">
+                    {t('auth.register.password')}
+                  </label>
                   <input
                     type="password"
                     name="password"
@@ -297,7 +338,9 @@ export const RegisterPage: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-400 mb-1">{t('auth.register.confirmPassword')}</label>
+                  <label className="block text-sm font-medium text-gray-400 mb-1">
+                    {t('auth.register.confirmPassword')}
+                  </label>
                   <input
                     type="password"
                     name="confirmPassword"
@@ -319,16 +362,21 @@ export const RegisterPage: React.FC = () => {
                   />
                   <span className="text-sm text-gray-400">
                     I agree to the{' '}
-                    <Link to="/terms" className="text-cyan-500 hover:underline">Terms of Service</Link>
-                    {' '}and{' '}
-                    <Link to="/privacy" className="text-cyan-500 hover:underline">Privacy Policy</Link>
+                    <Link to="/terms" className="text-cyan-500 hover:underline">
+                      Terms of Service
+                    </Link>{' '}
+                    and{' '}
+                    <Link to="/privacy" className="text-cyan-500 hover:underline">
+                      Privacy Policy
+                    </Link>
                   </span>
                 </label>
 
                 {/* Deployment Notice */}
                 <div className="p-3 bg-sovereign-card border border-sovereign-border rounded-lg">
                   <p className="text-xs text-gray-500 text-center">
-                    🏢 Credentials are configured during on-site deployment.<br/>
+                    🏢 Credentials are configured during on-site deployment.
+                    <br />
                     Our team will contact you to schedule setup.
                   </p>
                 </div>

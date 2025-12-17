@@ -1,6 +1,6 @@
 /**
  * Council Store - AI Council deliberation state management
- * 
+ *
  * Manages deliberation sessions, agent responses, and council queries.
  */
 
@@ -67,27 +67,34 @@ export interface CouncilState {
   isLoading: boolean;
   isDeliberating: boolean;
   error: string | null;
-  
+
   // Filters
   selectedAgents: string[];
   deliberationMode: 'consensus' | 'debate' | 'advisory' | 'voting';
-  
+
   // Actions
   setAgents: (agents: Agent[]) => void;
   selectAgent: (agentId: string) => void;
   deselectAgent: (agentId: string) => void;
   setSelectedAgents: (agentIds: string[]) => void;
   setDeliberationMode: (mode: 'consensus' | 'debate' | 'advisory' | 'voting') => void;
-  
-  startDeliberation: (question: string, context?: Record<string, unknown>) => Promise<string | null>;
+
+  startDeliberation: (
+    question: string,
+    context?: Record<string, unknown>
+  ) => Promise<string | null>;
   cancelDeliberation: (id: string) => void;
   addMessage: (message: DeliberationMessage) => void;
-  updateDeliberationStatus: (status: Deliberation['status'], phase?: string, progress?: number) => void;
+  updateDeliberationStatus: (
+    status: Deliberation['status'],
+    phase?: string,
+    progress?: number
+  ) => void;
   setDecision: (decision: Deliberation['decision']) => void;
-  
+
   loadDeliberation: (id: string) => Promise<void>;
   loadHistory: (limit?: number) => Promise<void>;
-  
+
   setLoading: (loading: boolean) => void;
   setError: (error: string | null) => void;
   clearError: () => void;
@@ -100,10 +107,7 @@ export interface CouncilState {
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1';
 
-async function councilApi<T>(
-  endpoint: string,
-  options: RequestInit = {}
-): Promise<T> {
+async function councilApi<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
   const token = localStorage.getItem('datacendia-auth')
     ? JSON.parse(localStorage.getItem('datacendia-auth')!).state?.token
     : null;
@@ -217,7 +221,7 @@ export const useCouncilStore = create<CouncilState>()(
 
     cancelDeliberation: (id) => {
       councilApi(`/council/deliberations/${id}/cancel`, { method: 'POST' }).catch(() => {});
-      
+
       set((state) => {
         if (state.activeDeliberation?.id === id) {
           state.activeDeliberation.status = 'cancelled';
@@ -339,5 +343,5 @@ export const useCouncilStore = create<CouncilState>()(
 export const selectAgents = (state: CouncilState) => state.agents;
 export const selectActiveDeliberation = (state: CouncilState) => state.activeDeliberation;
 export const selectIsDeliberating = (state: CouncilState) => state.isDeliberating;
-export const selectDeliberationMessages = (state: CouncilState) => 
+export const selectDeliberationMessages = (state: CouncilState) =>
   state.activeDeliberation?.messages ?? [];

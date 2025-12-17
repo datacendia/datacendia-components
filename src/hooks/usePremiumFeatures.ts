@@ -4,13 +4,13 @@
 // =============================================================================
 
 import { useState, useEffect, useCallback } from 'react';
-import { 
-  PREMIUM_FEATURES, 
-  PREMIUM_BUNDLES, 
+import {
+  PREMIUM_FEATURES,
+  PREMIUM_BUNDLES,
   getFeatureById,
   getBundleById,
   PremiumFeature,
-  PremiumBundle 
+  PremiumBundle,
 } from '../data/premiumFeatures';
 
 // Agent ID to Premium Feature mapping
@@ -61,43 +61,51 @@ export function usePremiumFeatures() {
   }, [state]);
 
   // Check if a specific feature is unlocked
-  const hasFeature = useCallback((featureId: string): boolean => {
-    // Direct feature purchase
-    if (state.purchasedFeatures.includes(featureId)) {
-      return true;
-    }
-    // Check if any purchased bundle includes this feature
-    for (const bundleId of state.purchasedBundles) {
-      const bundle = getBundleById(bundleId);
-      if (bundle?.includedFeatures.includes(featureId)) {
+  const hasFeature = useCallback(
+    (featureId: string): boolean => {
+      // Direct feature purchase
+      if (state.purchasedFeatures.includes(featureId)) {
         return true;
       }
-    }
-    return false;
-  }, [state]);
+      // Check if any purchased bundle includes this feature
+      for (const bundleId of state.purchasedBundles) {
+        const bundle = getBundleById(bundleId);
+        if (bundle?.includedFeatures.includes(featureId)) {
+          return true;
+        }
+      }
+      return false;
+    },
+    [state]
+  );
 
   // Check if a premium agent is accessible
-  const hasAgentAccess = useCallback((agentId: string): boolean => {
-    const requiredFeature = AGENT_FEATURE_MAP[agentId];
-    if (!requiredFeature) {
-      // Not a premium agent, or no mapping exists
-      return true;
-    }
-    return hasFeature(requiredFeature);
-  }, [hasFeature]);
+  const hasAgentAccess = useCallback(
+    (agentId: string): boolean => {
+      const requiredFeature = AGENT_FEATURE_MAP[agentId];
+      if (!requiredFeature) {
+        // Not a premium agent, or no mapping exists
+        return true;
+      }
+      return hasFeature(requiredFeature);
+    },
+    [hasFeature]
+  );
 
   // Get the required feature for an agent
   const getAgentRequiredFeature = useCallback((agentId: string): PremiumFeature | undefined => {
     const featureId = AGENT_FEATURE_MAP[agentId];
-    if (!featureId) {return undefined;}
+    if (!featureId) {
+      return undefined;
+    }
     return getFeatureById(featureId);
   }, []);
 
   // Purchase a feature
   const purchaseFeature = useCallback((featureId: string) => {
-    setState(prev => ({
+    setState((prev) => ({
       ...prev,
-      purchasedFeatures: [...new Set([...prev.purchasedFeatures, featureId])]
+      purchasedFeatures: [...new Set([...prev.purchasedFeatures, featureId])],
     }));
   }, []);
 
@@ -105,9 +113,9 @@ export function usePremiumFeatures() {
   const purchaseBundle = useCallback((bundleId: string) => {
     const bundle = getBundleById(bundleId);
     if (bundle) {
-      setState(prev => ({
+      setState((prev) => ({
         purchasedBundles: [...new Set([...prev.purchasedBundles, bundleId])],
-        purchasedFeatures: [...new Set([...prev.purchasedFeatures, ...bundle.includedFeatures])]
+        purchasedFeatures: [...new Set([...prev.purchasedFeatures, ...bundle.includedFeatures])],
       }));
     }
   }, []);
@@ -117,7 +125,7 @@ export function usePremiumFeatures() {
     const unlocked = new Set(state.purchasedFeatures);
     for (const bundleId of state.purchasedBundles) {
       const bundle = getBundleById(bundleId);
-      bundle?.includedFeatures.forEach(f => unlocked.add(f));
+      bundle?.includedFeatures.forEach((f) => unlocked.add(f));
     }
     return Array.from(unlocked);
   }, [state]);
@@ -145,8 +153,8 @@ export function usePremiumFeatures() {
   // Unlock all features (demo mode)
   const unlockAll = useCallback(() => {
     setState({
-      purchasedFeatures: PREMIUM_FEATURES.map(f => f.id),
-      purchasedBundles: PREMIUM_BUNDLES.map(b => b.id),
+      purchasedFeatures: PREMIUM_FEATURES.map((f) => f.id),
+      purchasedBundles: PREMIUM_BUNDLES.map((b) => b.id),
     });
   }, []);
 
@@ -154,18 +162,18 @@ export function usePremiumFeatures() {
     // State
     purchasedFeatures: state.purchasedFeatures,
     purchasedBundles: state.purchasedBundles,
-    
+
     // Feature checks
     hasFeature,
     hasAgentAccess,
     getAgentRequiredFeature,
     getUnlockedFeatures,
-    
+
     // Specific feature checks
     canCreateCustomAgents,
     hasApiAccess,
     hasTeamFeatures,
-    
+
     // Actions
     purchaseFeature,
     purchaseBundle,

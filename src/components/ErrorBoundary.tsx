@@ -28,7 +28,7 @@ class ErrorBoundary extends Component<Props, State> {
   public componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
     console.error('Uncaught error:', error, errorInfo);
     this.setState({ errorInfo });
-    
+
     // Send to error tracking service
     logComponentError(error, { componentStack: errorInfo.componentStack || undefined });
   }
@@ -53,20 +53,16 @@ class ErrorBoundary extends Component<Props, State> {
             <div className="w-16 h-16 bg-red-500/10 rounded-full flex items-center justify-center mx-auto mb-6">
               <AlertTriangle className="w-8 h-8 text-red-500" />
             </div>
-            
-            <h1 className="text-2xl font-bold text-white mb-2">
-              Something went wrong
-            </h1>
-            
+
+            <h1 className="text-2xl font-bold text-white mb-2">Something went wrong</h1>
+
             <p className="text-slate-400 mb-6">
               We're sorry, but something unexpected happened. Our team has been notified.
             </p>
 
             {this.state.error && (
               <div className="bg-slate-950 border border-slate-800 rounded-lg p-4 mb-6 text-left overflow-auto max-h-40">
-                <p className="text-red-400 text-sm font-mono">
-                  {this.state.error.toString()}
-                </p>
+                <p className="text-red-400 text-sm font-mono">{this.state.error.toString()}</p>
                 {this.state.errorInfo && (
                   <pre className="text-slate-500 text-xs mt-2 whitespace-pre-wrap">
                     {this.state.errorInfo.componentStack}
@@ -83,7 +79,7 @@ class ErrorBoundary extends Component<Props, State> {
                 <RefreshCw className="w-4 h-4" />
                 Reload Page
               </button>
-              
+
               <Link
                 to="/"
                 onClick={this.handleReset}

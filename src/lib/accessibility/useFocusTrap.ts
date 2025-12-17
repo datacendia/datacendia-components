@@ -17,13 +17,15 @@ export function useFocusTrap<T extends HTMLElement = HTMLDivElement>(
   options: UseFocusTrapOptions = {}
 ) {
   const { enabled = true, returnFocusOnDeactivate = true } = options;
-  
+
   const containerRef = useRef<T>(null);
   const focusTrapRef = useRef<FocusTrap | null>(null);
   const previousActiveElementRef = useRef<Element | null>(null);
 
   const activate = useCallback(() => {
-    if (!containerRef.current || !enabled) {return;}
+    if (!containerRef.current || !enabled) {
+      return;
+    }
 
     previousActiveElementRef.current = document.activeElement;
     focusTrapRef.current = new FocusTrap(containerRef.current);

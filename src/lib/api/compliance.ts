@@ -7,8 +7,21 @@ import { api } from './client';
 
 const API_BASE = '/compliance';
 
-export type ComplianceDomain = 'ethical_ai' | 'cybersecurity' | 'privacy' | 'governance' | 'industry';
-export type PillarId = 'helm' | 'lineage' | 'predict' | 'flow' | 'health' | 'guard' | 'ethics' | 'agents';
+export type ComplianceDomain =
+  | 'ethical_ai'
+  | 'cybersecurity'
+  | 'privacy'
+  | 'governance'
+  | 'industry';
+export type PillarId =
+  | 'helm'
+  | 'lineage'
+  | 'predict'
+  | 'flow'
+  | 'health'
+  | 'guard'
+  | 'ethics'
+  | 'agents';
 
 export interface ComplianceFramework {
   id: string;
@@ -115,12 +128,22 @@ export interface ComplianceBundle {
 // API Functions
 export const complianceApi = {
   // Frameworks
-  async getFrameworks(filters?: { domain?: ComplianceDomain; pillar?: PillarId; industry?: string }) {
+  async getFrameworks(filters?: {
+    domain?: ComplianceDomain;
+    pillar?: PillarId;
+    industry?: string;
+  }) {
     const params: Record<string, string> = {};
-    if (filters?.domain) {params.domain = filters.domain;}
-    if (filters?.pillar) {params.pillar = filters.pillar;}
-    if (filters?.industry) {params.industry = filters.industry;}
-    
+    if (filters?.domain) {
+      params.domain = filters.domain;
+    }
+    if (filters?.pillar) {
+      params.pillar = filters.pillar;
+    }
+    if (filters?.industry) {
+      params.industry = filters.industry;
+    }
+
     return api.get<ComplianceFramework[]>(`${API_BASE}/frameworks`, params);
   },
 
@@ -147,7 +170,12 @@ export const complianceApi = {
     });
   },
 
-  async runFrameworkAssessment(organizationId: string, frameworkId: string, pillarId: PillarId, assessor: string) {
+  async runFrameworkAssessment(
+    organizationId: string,
+    frameworkId: string,
+    pillarId: PillarId,
+    assessor: string
+  ) {
     return api.post<ComplianceAssessment>(`${API_BASE}/assessments/framework`, {
       organizationId,
       frameworkId,
@@ -160,11 +188,18 @@ export const complianceApi = {
     return api.get<ComplianceAssessment>(`${API_BASE}/assessments/${id}`);
   },
 
-  async getAssessments(organizationId: string, filters?: { domain?: ComplianceDomain; pillarId?: PillarId }) {
+  async getAssessments(
+    organizationId: string,
+    filters?: { domain?: ComplianceDomain; pillarId?: PillarId }
+  ) {
     const params: Record<string, string> = { organizationId };
-    if (filters?.domain) {params.domain = filters.domain;}
-    if (filters?.pillarId) {params.pillarId = filters.pillarId;}
-    
+    if (filters?.domain) {
+      params.domain = filters.domain;
+    }
+    if (filters?.pillarId) {
+      params.pillarId = filters.pillarId;
+    }
+
     return api.get<ComplianceAssessment[]>(`${API_BASE}/assessments`, params);
   },
 
@@ -222,8 +257,12 @@ export const complianceApi = {
 
   async getRules(filters?: { domain?: ComplianceDomain; framework?: string }) {
     const params: Record<string, string> = {};
-    if (filters?.domain) {params.domain = filters.domain;}
-    if (filters?.framework) {params.framework = filters.framework;}
+    if (filters?.domain) {
+      params.domain = filters.domain;
+    }
+    if (filters?.framework) {
+      params.framework = filters.framework;
+    }
     return api.get<unknown>(`${API_BASE}/rules`, params);
   },
 

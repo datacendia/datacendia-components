@@ -28,7 +28,12 @@ import {
   Terminal,
   Loader2,
 } from 'lucide-react';
-import { TECH_TEAM_AGENTS, TechTeamConfig, ErrorAnalysis, FixSuggestion } from '../../lib/agents/techTeam';
+import {
+  TECH_TEAM_AGENTS,
+  TechTeamConfig,
+  ErrorAnalysis,
+  FixSuggestion,
+} from '../../lib/agents/techTeam';
 import { AutoHealService } from '../../services/AutoHealService';
 
 // =============================================================================
@@ -61,7 +66,7 @@ export const TechTeamPanel: React.FC = () => {
       // Switch to fixes tab to show the new fix
       setActiveTab('fixes');
     };
-    
+
     window.addEventListener('autoheal:fix-generated', handleFixGenerated as EventListener);
 
     // Initial load
@@ -88,58 +93,66 @@ export const TechTeamPanel: React.FC = () => {
   };
 
   // Handle requesting a fix with loading state
-  const handleRequestFix = useCallback(async (errorId: string) => {
-    if (loadingFixes.has(errorId)) return; // Already loading
-    
-    setLoadingFixes(prev => new Set(prev).add(errorId));
-    setNotification('Generating fix...');
-    
-    try {
-      const fix = await AutoHealService.requestFix(errorId);
-      if (!fix) {
-        setNotification('Failed to generate fix - check if Ollama is running');
+  const handleRequestFix = useCallback(
+    async (errorId: string) => {
+      if (loadingFixes.has(errorId)) return; // Already loading
+
+      setLoadingFixes((prev) => new Set(prev).add(errorId));
+      setNotification('Generating fix...');
+
+      try {
+        const fix = await AutoHealService.requestFix(errorId);
+        if (!fix) {
+          setNotification('Failed to generate fix - check if Ollama is running');
+          setTimeout(() => setNotification(null), 3000);
+        }
+        // Success notification is handled by the event listener
+      } catch (e) {
+        console.error('[TechTeamPanel] Fix request failed:', e);
+        setNotification('Fix request failed');
         setTimeout(() => setNotification(null), 3000);
+      } finally {
+        setLoadingFixes((prev) => {
+          const next = new Set(prev);
+          next.delete(errorId);
+          return next;
+        });
       }
-      // Success notification is handled by the event listener
-    } catch (e) {
-      console.error('[TechTeamPanel] Fix request failed:', e);
-      setNotification('Fix request failed');
-      setTimeout(() => setNotification(null), 3000);
-    } finally {
-      setLoadingFixes(prev => {
-        const next = new Set(prev);
-        next.delete(errorId);
-        return next;
-      });
-    }
-  }, [loadingFixes]);
+    },
+    [loadingFixes]
+  );
 
   const getAgentIcon = (code: string) => {
     const icons: Record<string, React.ReactNode> = {
       'dev-lead': <Users size={16} />,
-      'frontend': <Code size={16} />,
-      'backend': <Database size={16} />,
-      'fullstack': <RefreshCw size={16} />,
-      'devops': <Rocket size={16} />,
-      'sre': <AlertTriangle size={16} />,
-      'dba': <Database size={16} />,
+      frontend: <Code size={16} />,
+      backend: <Database size={16} />,
+      fullstack: <RefreshCw size={16} />,
+      devops: <Rocket size={16} />,
+      sre: <AlertTriangle size={16} />,
+      dba: <Database size={16} />,
       'qa-lead': <Eye size={16} />,
       'test-auto': <Bug size={16} />,
       'security-eng': <Shield size={16} />,
       'ai-ml-eng': <Brain size={16} />,
       'perf-eng': <Zap size={16} />,
-      'docs': <FileText size={16} />,
+      docs: <FileText size={16} />,
     };
     return icons[code] || <Cpu size={16} />;
   };
 
   const getSeverityColor = (severity: string) => {
     switch (severity) {
-      case 'critical': return 'bg-red-500';
-      case 'high': return 'bg-orange-500';
-      case 'medium': return 'bg-yellow-500';
-      case 'low': return 'bg-blue-500';
-      default: return 'bg-gray-500';
+      case 'critical':
+        return 'bg-red-500';
+      case 'high':
+        return 'bg-orange-500';
+      case 'medium':
+        return 'bg-yellow-500';
+      case 'low':
+        return 'bg-blue-500';
+      default:
+        return 'bg-gray-500';
     }
   };
 
@@ -170,9 +183,12 @@ export const TechTeamPanel: React.FC = () => {
           </div>
           <div>
             <h3 className="font-semibold text-white">AI Tech Team</h3>
-            <p className="text-xs text-slate-400">{TECH_TEAM_AGENTS.length} agents • Auto-heal {config.autoHealEnabled ? 'ON' : 'OFF'}</p>
+            <p className="text-xs text-slate-400">
+              {TECH_TEAM_AGENTS.length} agents • Auto-heal {config.autoHealEnabled ? 'ON' : 'OFF'}
+            </p>
             <p className="text-[10px] text-slate-500 hidden group-hover:block max-w-[280px]">
-              Engineering agents that monitor, diagnose, and propose fixes across the Datacendia stack.
+              Engineering agents that monitor, diagnose, and propose fixes across the Datacendia
+              stack.
             </p>
           </div>
         </div>
@@ -196,9 +212,17 @@ export const TechTeamPanel: React.FC = () => {
       {/* Notification Toast */}
       {notification && (
         <div className="px-4 py-2 bg-cyan-500/20 border-b border-cyan-500/30 text-cyan-400 text-xs font-medium flex items-center gap-2">
-          <Loader2 size={12} className={notification.includes('Generating') ? 'animate-spin' : 'hidden'} />
+          <Loader2
+            size={12}
+            className={notification.includes('Generating') ? 'animate-spin' : 'hidden'}
+          />
           <CheckCircle size={12} className={notification.includes('generated') ? '' : 'hidden'} />
-          <AlertTriangle size={12} className={notification.includes('Failed') || notification.includes('failed') ? '' : 'hidden'} />
+          <AlertTriangle
+            size={12}
+            className={
+              notification.includes('Failed') || notification.includes('failed') ? '' : 'hidden'
+            }
+          />
           {notification}
         </div>
       )}
@@ -206,8 +230,12 @@ export const TechTeamPanel: React.FC = () => {
       {/* Stats Bar */}
       <div className="px-4 py-2 bg-slate-800/50 border-b border-slate-700/50 flex items-center gap-4 text-xs">
         <div className="flex items-center gap-1.5">
-          <div className={`w-2 h-2 rounded-full ${stats.isProcessing || loadingFixes.size > 0 ? 'bg-green-500 animate-pulse' : 'bg-slate-500'}`} />
-          <span className="text-slate-400">{stats.isProcessing || loadingFixes.size > 0 ? 'Processing' : 'Idle'}</span>
+          <div
+            className={`w-2 h-2 rounded-full ${stats.isProcessing || loadingFixes.size > 0 ? 'bg-green-500 animate-pulse' : 'bg-slate-500'}`}
+          />
+          <span className="text-slate-400">
+            {stats.isProcessing || loadingFixes.size > 0 ? 'Processing' : 'Idle'}
+          </span>
         </div>
         <div className="flex items-center gap-1.5 text-slate-400">
           <AlertTriangle size={12} />
@@ -225,7 +253,7 @@ export const TechTeamPanel: React.FC = () => {
 
       {/* Tabs */}
       <div className="px-4 py-2 border-b border-slate-700/50 flex gap-1">
-        {(['team', 'errors', 'fixes', 'settings'] as const).map(tab => (
+        {(['team', 'errors', 'fixes', 'settings'] as const).map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
@@ -249,7 +277,7 @@ export const TechTeamPanel: React.FC = () => {
       <div className="flex-1 overflow-y-auto p-4">
         {activeTab === 'team' && (
           <div className="space-y-2">
-            {TECH_TEAM_AGENTS.map(agent => (
+            {TECH_TEAM_AGENTS.map((agent) => (
               <div
                 key={agent.id}
                 className="p-3 rounded-lg bg-slate-800/50 border border-slate-700/50 hover:bg-slate-800 transition-colors"
@@ -283,16 +311,22 @@ export const TechTeamPanel: React.FC = () => {
                 <p>No errors in queue</p>
               </div>
             ) : (
-              errors.map(error => (
+              errors.map((error) => (
                 <div
                   key={error.id}
                   className="p-3 rounded-lg bg-slate-800/50 border border-slate-700/50"
                 >
                   <div className="flex items-start gap-3">
-                    <div className={`w-2 h-2 rounded-full mt-1.5 ${getSeverityColor(error.severity)}`} />
+                    <div
+                      className={`w-2 h-2 rounded-full mt-1.5 ${getSeverityColor(error.severity)}`}
+                    />
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm text-white font-medium truncate">{error.message.substring(0, 80)}</p>
-                      <p className="text-xs text-slate-400 mt-1">{error.file}:{error.line}</p>
+                      <p className="text-sm text-white font-medium truncate">
+                        {error.message.substring(0, 80)}
+                      </p>
+                      <p className="text-xs text-slate-400 mt-1">
+                        {error.file}:{error.line}
+                      </p>
                       <div className="flex items-center gap-2 mt-2">
                         <span className="text-xs px-2 py-0.5 rounded bg-slate-700 text-slate-300">
                           {error.assignedAgent}
@@ -335,48 +369,60 @@ export const TechTeamPanel: React.FC = () => {
                 <p>No fixes generated yet</p>
               </div>
             ) : (
-              fixes.slice().reverse().map(fix => (
-                <div
-                  key={fix.id}
-                  className="p-3 rounded-lg bg-slate-800/50 border border-slate-700/50"
-                >
-                  <div className="flex items-start justify-between">
-                    <div className="flex-1">
-                      <p className="text-sm text-white">{fix.description.substring(0, 100)}</p>
-                      <div className="flex items-center gap-2 mt-2 flex-wrap">
-                        <span className="text-xs px-2 py-0.5 rounded bg-slate-700 text-slate-300">
-                          {fix.agentCode}
-                        </span>
-                        <span className={`text-xs px-2 py-0.5 rounded ${
-                          fix.riskLevel === 'safe' ? 'bg-green-500/20 text-green-400' :
-                          fix.riskLevel === 'moderate' ? 'bg-yellow-500/20 text-yellow-400' :
-                          'bg-red-500/20 text-red-400'
-                        }`}>
-                          {fix.riskLevel}
-                        </span>
-                        <span className="text-xs text-slate-500">
-                          {Math.round(fix.confidence * 100)}% confidence
-                        </span>
-                        <button
-                          onClick={() => window.open(`/cortex/intelligence/chronos?timestamp=${new Date((fix as any).timestamp || Date.now()).toISOString()}`, '_blank')}
-                          className="text-[10px] px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500/20 transition-colors"
-                          title="View when this error occurred in Chronos"
-                        >
-                          ⏱️ View in Chronos
-                        </button>
+              fixes
+                .slice()
+                .reverse()
+                .map((fix) => (
+                  <div
+                    key={fix.id}
+                    className="p-3 rounded-lg bg-slate-800/50 border border-slate-700/50"
+                  >
+                    <div className="flex items-start justify-between">
+                      <div className="flex-1">
+                        <p className="text-sm text-white">{fix.description.substring(0, 100)}</p>
+                        <div className="flex items-center gap-2 mt-2 flex-wrap">
+                          <span className="text-xs px-2 py-0.5 rounded bg-slate-700 text-slate-300">
+                            {fix.agentCode}
+                          </span>
+                          <span
+                            className={`text-xs px-2 py-0.5 rounded ${
+                              fix.riskLevel === 'safe'
+                                ? 'bg-green-500/20 text-green-400'
+                                : fix.riskLevel === 'moderate'
+                                  ? 'bg-yellow-500/20 text-yellow-400'
+                                  : 'bg-red-500/20 text-red-400'
+                            }`}
+                          >
+                            {fix.riskLevel}
+                          </span>
+                          <span className="text-xs text-slate-500">
+                            {Math.round(fix.confidence * 100)}% confidence
+                          </span>
+                          <button
+                            onClick={() =>
+                              window.open(
+                                `/cortex/intelligence/chronos?timestamp=${new Date((fix as any).timestamp || Date.now()).toISOString()}`,
+                                '_blank'
+                              )
+                            }
+                            className="text-[10px] px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500/20 transition-colors"
+                            title="View when this error occurred in Chronos"
+                          >
+                            ⏱️ View in Chronos
+                          </button>
+                        </div>
                       </div>
+                      {fix.requiresReview && (
+                        <button
+                          onClick={() => AutoHealService.approveFix(fix.id)}
+                          className="px-2 py-1 rounded bg-green-500/20 text-green-400 text-xs hover:bg-green-500/30 transition-colors"
+                        >
+                          Approve
+                        </button>
+                      )}
                     </div>
-                    {fix.requiresReview && (
-                      <button
-                        onClick={() => AutoHealService.approveFix(fix.id)}
-                        className="px-2 py-1 rounded bg-green-500/20 text-green-400 text-xs hover:bg-green-500/30 transition-colors"
-                      >
-                        Approve
-                      </button>
-                    )}
                   </div>
-                </div>
-              ))
+                ))
             )}
           </div>
         )}
@@ -387,13 +433,17 @@ export const TechTeamPanel: React.FC = () => {
               <div>
                 <p className="text-sm font-medium text-white">Auto-Heal Enabled</p>
                 <p className="text-xs text-slate-400">Automatically process and fix errors</p>
-                <p className="text-[10px] text-amber-400/70 mt-0.5">⚠️ In sovereign mode, auto-heal remains off unless explicitly enabled</p>
+                <p className="text-[10px] text-amber-400/70 mt-0.5">
+                  ⚠️ In sovereign mode, auto-heal remains off unless explicitly enabled
+                </p>
               </div>
               <button
                 onClick={() => handleConfigChange({ autoHealEnabled: !config.autoHealEnabled })}
                 className={`w-12 h-6 rounded-full transition-colors ${config.autoHealEnabled ? 'bg-cyan-500' : 'bg-slate-600'}`}
               >
-                <div className={`w-5 h-5 rounded-full bg-white shadow transition-transform ${config.autoHealEnabled ? 'translate-x-6' : 'translate-x-0.5'}`} />
+                <div
+                  className={`w-5 h-5 rounded-full bg-white shadow transition-transform ${config.autoHealEnabled ? 'translate-x-6' : 'translate-x-0.5'}`}
+                />
               </button>
             </div>
 
@@ -406,14 +456,16 @@ export const TechTeamPanel: React.FC = () => {
                 onClick={() => handleConfigChange({ requireApproval: !config.requireApproval })}
                 className={`w-12 h-6 rounded-full transition-colors ${config.requireApproval ? 'bg-cyan-500' : 'bg-slate-600'}`}
               >
-                <div className={`w-5 h-5 rounded-full bg-white shadow transition-transform ${config.requireApproval ? 'translate-x-6' : 'translate-x-0.5'}`} />
+                <div
+                  className={`w-5 h-5 rounded-full bg-white shadow transition-transform ${config.requireApproval ? 'translate-x-6' : 'translate-x-0.5'}`}
+                />
               </button>
             </div>
 
             <div>
               <p className="text-sm font-medium text-white mb-2">Auto-Fix Severity Threshold</p>
               <div className="flex gap-2">
-                {(['critical', 'high', 'medium', 'all'] as const).map(level => (
+                {(['critical', 'high', 'medium', 'all'] as const).map((level) => (
                   <button
                     key={level}
                     onClick={() => handleConfigChange({ autoFixSeverity: level })}
@@ -436,7 +488,9 @@ export const TechTeamPanel: React.FC = () => {
                 min="1"
                 max="50"
                 value={config.maxAutoFixesPerHour}
-                onChange={(e) => handleConfigChange({ maxAutoFixesPerHour: parseInt(e.target.value) })}
+                onChange={(e) =>
+                  handleConfigChange({ maxAutoFixesPerHour: parseInt(e.target.value) })
+                }
                 className="w-full"
               />
               <p className="text-xs text-slate-400 mt-1">{config.maxAutoFixesPerHour} fixes/hour</p>

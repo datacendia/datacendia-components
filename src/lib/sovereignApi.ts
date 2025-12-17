@@ -130,9 +130,10 @@ export const storageApi = {
     metadata?: Record<string, string>,
     bucket = 'cendia-documents'
   ): Promise<{ url: string; etag: string } | null> {
-    const base64Content = typeof content === 'string' 
-      ? btoa(content) 
-      : btoa(String.fromCharCode(...new Uint8Array(content)));
+    const base64Content =
+      typeof content === 'string'
+        ? btoa(content)
+        : btoa(String.fromCharCode(...new Uint8Array(content)));
 
     const response = await fetch(`${SOVEREIGN_API_BASE}/storage/upload`, {
       method: 'POST',
@@ -160,7 +161,7 @@ export const storageApi = {
    * List files in bucket
    */
   async listFiles(bucket: string, prefix?: string): Promise<any[]> {
-    const url = prefix 
+    const url = prefix
       ? `${SOVEREIGN_API_BASE}/storage/list/${bucket}?prefix=${encodeURIComponent(prefix)}`
       : `${SOVEREIGN_API_BASE}/storage/list/${bucket}`;
     const response = await fetch(url);
@@ -217,11 +218,7 @@ export const vectorApi = {
   /**
    * Search similar documents (RAG retrieval)
    */
-  async searchSimilar(
-    query: string,
-    limit = 5,
-    threshold = 0.7
-  ): Promise<VectorSearchResult[]> {
+  async searchSimilar(query: string, limit = 5, threshold = 0.7): Promise<VectorSearchResult[]> {
     const response = await fetch(`${SOVEREIGN_API_BASE}/vector/search`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -368,7 +365,7 @@ export const queueApi = {
    * Get job status
    */
   async getJobStatus(jobId: string, queue?: string): Promise<any> {
-    const url = queue 
+    const url = queue
       ? `${SOVEREIGN_API_BASE}/queue/job/${jobId}?queue=${queue}`
       : `${SOVEREIGN_API_BASE}/queue/job/${jobId}`;
     const response = await fetch(url);
@@ -398,12 +395,7 @@ export const metricsApi = {
   /**
    * Query Prometheus for time-series metrics
    */
-  async queryRange(
-    query: string,
-    start: Date,
-    end: Date,
-    step = '1m'
-  ): Promise<any[]> {
+  async queryRange(query: string, start: Date, end: Date, step = '1m'): Promise<any[]> {
     const response = await fetch(`${SOVEREIGN_API_BASE}/prometheus/query`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -422,7 +414,9 @@ export const metricsApi = {
    * Get current metric value
    */
   async getCurrentValue(metricName: string): Promise<number | null> {
-    const response = await fetch(`${SOVEREIGN_API_BASE}/prometheus/metric/${encodeURIComponent(metricName)}`);
+    const response = await fetch(
+      `${SOVEREIGN_API_BASE}/prometheus/metric/${encodeURIComponent(metricName)}`
+    );
     const data = await response.json();
     if (data.success && data.data?.result?.[0]?.value) {
       return parseFloat(data.data.result[0].value[1]);
@@ -619,7 +613,9 @@ export const enterpriseApi = {
   /**
    * Detect document type
    */
-  async detectDocumentType(content: string): Promise<{ mimeType: string; formatName: string } | null> {
+  async detectDocumentType(
+    content: string
+  ): Promise<{ mimeType: string; formatName: string } | null> {
     const response = await fetch(`${ENTERPRISE_API_BASE}/documents/detect-type`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -692,7 +688,7 @@ export const vaultApi = {
       if (metadata) {
         formData.append('metadata', JSON.stringify(metadata));
       }
-      
+
       const response = await fetch(`${SOVEREIGN_API_BASE}/vault/upload`, {
         method: 'POST',
         body: formData,
@@ -720,7 +716,9 @@ export const vaultApi = {
    */
   async getDocument(bucket: string, path: string): Promise<Blob | null> {
     try {
-      const response = await fetch(`${SOVEREIGN_API_BASE}/vault/download?bucket=${bucket}&path=${encodeURIComponent(path)}`);
+      const response = await fetch(
+        `${SOVEREIGN_API_BASE}/vault/download?bucket=${bucket}&path=${encodeURIComponent(path)}`
+      );
       if (response.ok) {
         return await response.blob();
       }

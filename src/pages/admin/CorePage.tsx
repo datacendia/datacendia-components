@@ -7,12 +7,36 @@
 import React, { useState, useEffect } from 'react';
 import { api } from '../../lib/api';
 import {
-  Megaphone, Hammer, DollarSign, HeadphonesIcon, Eye,
-  TrendingUp, AlertTriangle, Calendar, FileText, Users,
-  Target, Zap, Brain, Shield, ArrowRight, RefreshCw,
-  CheckCircle2, Clock, Send, BarChart3, Sparkles,
-  Crown, MessageSquare, Settings, ChevronRight, Server,
-  Database, HardDrive, Activity, ExternalLink
+  Megaphone,
+  Hammer,
+  DollarSign,
+  HeadphonesIcon,
+  Eye,
+  TrendingUp,
+  AlertTriangle,
+  Calendar,
+  FileText,
+  Users,
+  Target,
+  Zap,
+  Brain,
+  Shield,
+  ArrowRight,
+  RefreshCw,
+  CheckCircle2,
+  Clock,
+  Send,
+  BarChart3,
+  Sparkles,
+  Crown,
+  MessageSquare,
+  Settings,
+  ChevronRight,
+  Server,
+  Database,
+  HardDrive,
+  Activity,
+  ExternalLink,
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -69,7 +93,8 @@ const CoreServices = [
     agent: 'The Evangelist',
     icon: Megaphone,
     color: '#8B5CF6',
-    description: 'Automated self-branding & marketing. Content generation, voice guard, launch timing.',
+    description:
+      'Automated self-branding & marketing. Content generation, voice guard, launch timing.',
     features: ['Content Engine', 'Voice Guard', 'Hype Cycle'],
   },
   {
@@ -139,10 +164,23 @@ export default function CorePage() {
       if (dashPayload.success !== false && rawDashboard) {
         setMetrics({
           brand: rawDashboard.brand || { contentQueue: 0, scheduledPosts: 0, voiceScore: 0 },
-          foundry: rawDashboard.foundry || { backlogItems: 0, technicalDebt: 0, topPriority: null, nagMessage: null },
+          foundry: rawDashboard.foundry || {
+            backlogItems: 0,
+            technicalDebt: 0,
+            topPriority: null,
+            nagMessage: null,
+          },
           revenue: rawDashboard.revenue || { mrr: 0, arr: 0, runwayMonths: 0, pricingAdvice: null },
-          support: rawDashboard.support || { openTickets: 0, atRiskCustomers: 0, avgResponseTime: 0 },
-          watch: rawDashboard.watch || { activeAlerts: 0, criticalAlert: null, competitorsTracked: 0 },
+          support: rawDashboard.support || {
+            openTickets: 0,
+            atRiskCustomers: 0,
+            avgResponseTime: 0,
+          },
+          watch: rawDashboard.watch || {
+            activeAlerts: 0,
+            criticalAlert: null,
+            competitorsTracked: 0,
+          },
         });
         console.log('[Core] Loaded dashboard from API');
       }
@@ -150,13 +188,15 @@ export default function CorePage() {
       const contentPayload = contentRes as any;
       const rawContent = contentPayload.content ?? contentPayload.data?.content;
       if (contentPayload.success !== false && rawContent && Array.isArray(rawContent)) {
-        setContentQueue(rawContent.map((c: any) => ({
-          id: c.id,
-          type: c.type || 'blog',
-          title: c.title || c.name,
-          status: c.status || 'draft',
-          scheduledFor: c.scheduledFor,
-        })));
+        setContentQueue(
+          rawContent.map((c: any) => ({
+            id: c.id,
+            type: c.type || 'blog',
+            title: c.title || c.name,
+            status: c.status || 'draft',
+            scheduledFor: c.scheduledFor,
+          }))
+        );
         console.log('[Core] Loaded', rawContent.length, 'content items from API');
       }
     } catch (error) {
@@ -164,15 +204,31 @@ export default function CorePage() {
       // Fallback data
       setMetrics({
         brand: { contentQueue: 5, scheduledPosts: 3, voiceScore: 92 },
-        foundry: { backlogItems: 12, technicalDebt: 4, topPriority: 'CendiaVoice Enhancement', nagMessage: null },
-        revenue: { mrr: 15000, arr: 180000, runwayMonths: 18, pricingAdvice: 'Consider 15% price increase on Enterprise tier' },
+        foundry: {
+          backlogItems: 12,
+          technicalDebt: 4,
+          topPriority: 'CendiaVoice Enhancement',
+          nagMessage: null,
+        },
+        revenue: {
+          mrr: 15000,
+          arr: 180000,
+          runwayMonths: 18,
+          pricingAdvice: 'Consider 15% price increase on Enterprise tier',
+        },
         support: { openTickets: 3, atRiskCustomers: 1, avgResponseTime: 2.4 },
         watch: { activeAlerts: 2, criticalAlert: null, competitorsTracked: 8 },
       });
       setContentQueue([
         { id: '1', type: 'linkedin', title: 'Pre-Mortem Feature Launch', status: 'draft' },
         { id: '2', type: 'blog', title: 'Why AI Councils Beat Single Agents', status: 'approved' },
-        { id: '3', type: 'newsletter', title: 'Week 48 Update', status: 'scheduled', scheduledFor: 'Monday 9am' },
+        {
+          id: '3',
+          type: 'newsletter',
+          title: 'Week 48 Update',
+          status: 'scheduled',
+          scheduledFor: 'Monday 9am',
+        },
       ]);
     } finally {
       setLoading(false);
@@ -192,12 +248,15 @@ export default function CorePage() {
       if (payload.success !== false) {
         const data = payload.data ?? payload;
         if (data.post) {
-          setContentQueue(prev => [{
-            id: Date.now().toString(),
-            type: type as any,
-            title: data.post.title || `Generated ${type} post`,
-            status: 'draft',
-          }, ...prev]);
+          setContentQueue((prev) => [
+            {
+              id: Date.now().toString(),
+              type: type as any,
+              title: data.post.title || `Generated ${type} post`,
+              status: 'draft',
+            },
+            ...prev,
+          ]);
           console.log('[Core] Generated content via API');
           return;
         }
@@ -205,14 +264,17 @@ export default function CorePage() {
     } catch (error) {
       console.error('[Core] Content generation failed:', error);
     }
-    
+
     // Fallback
-    setContentQueue(prev => [{
-      id: Date.now().toString(),
-      type: type as any,
-      title: `Generated ${type} post`,
-      status: 'draft',
-    }, ...prev]);
+    setContentQueue((prev) => [
+      {
+        id: Date.now().toString(),
+        type: type as any,
+        title: `Generated ${type} post`,
+        status: 'draft',
+      },
+      ...prev,
+    ]);
     setGenerating(false);
   };
 
@@ -241,7 +303,8 @@ export default function CorePage() {
           </div>
         </div>
         <p className="text-neutral-500 mt-4 max-w-2xl">
-          "I don't just sell this. I run my entire company on it." — The ultimate proof of confidence.
+          "I don't just sell this. I run my entire company on it." — The ultimate proof of
+          confidence.
         </p>
       </div>
 
@@ -249,11 +312,36 @@ export default function CorePage() {
       <div className="max-w-7xl mx-auto mb-8">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {[
-            { label: 'MRR', value: `$${metrics?.revenue.mrr.toLocaleString()}`, icon: DollarSign, color: 'text-emerald-400' },
-            { label: 'Runway', value: `${metrics?.revenue.runwayMonths} mo`, icon: Clock, color: 'text-blue-400' },
-            { label: 'Open Tickets', value: metrics?.support.openTickets, icon: HeadphonesIcon, color: 'text-amber-400' },
-            { label: 'Alerts', value: metrics?.watch.activeAlerts, icon: AlertTriangle, color: 'text-red-400' },
-            { label: 'Content Queue', value: metrics?.brand.contentQueue, icon: FileText, color: 'text-purple-400' },
+            {
+              label: 'MRR',
+              value: `$${metrics?.revenue.mrr.toLocaleString()}`,
+              icon: DollarSign,
+              color: 'text-emerald-400',
+            },
+            {
+              label: 'Runway',
+              value: `${metrics?.revenue.runwayMonths} mo`,
+              icon: Clock,
+              color: 'text-blue-400',
+            },
+            {
+              label: 'Open Tickets',
+              value: metrics?.support.openTickets,
+              icon: HeadphonesIcon,
+              color: 'text-amber-400',
+            },
+            {
+              label: 'Alerts',
+              value: metrics?.watch.activeAlerts,
+              icon: AlertTriangle,
+              color: 'text-red-400',
+            },
+            {
+              label: 'Content Queue',
+              value: metrics?.brand.contentQueue,
+              icon: FileText,
+              color: 'text-purple-400',
+            },
           ].map((stat, i) => (
             <div key={i} className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-4">
               <div className="flex items-center gap-2 mb-2">
@@ -269,7 +357,7 @@ export default function CorePage() {
       {/* Service Navigation */}
       <div className="max-w-7xl mx-auto mb-8">
         <div className="flex gap-2 overflow-x-auto pb-2">
-          {CoreServices.map(service => (
+          {CoreServices.map((service) => (
             <button
               key={service.id}
               onClick={() => setActiveService(service.id)}
@@ -288,15 +376,17 @@ export default function CorePage() {
 
       {/* Main Content Grid */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
-        
         {/* Service Detail Panel */}
         <div className="lg:col-span-2 space-y-6">
           {/* Active Service Card */}
-          {CoreServices.filter(s => s.id === activeService).map(service => (
-            <div key={service.id} className="bg-neutral-900/50 border border-neutral-800 rounded-2xl p-6">
+          {CoreServices.filter((s) => s.id === activeService).map((service) => (
+            <div
+              key={service.id}
+              className="bg-neutral-900/50 border border-neutral-800 rounded-2xl p-6"
+            >
               <div className="flex items-start justify-between mb-6">
                 <div className="flex items-center gap-4">
-                  <div 
+                  <div
                     className="w-14 h-14 rounded-xl flex items-center justify-center"
                     style={{ backgroundColor: `${service.color}20` }}
                   >
@@ -314,7 +404,7 @@ export default function CorePage() {
               <p className="text-neutral-400 mb-6">{service.description}</p>
               <div className="flex flex-wrap gap-2">
                 {service.features.map((feature, i) => (
-                  <span 
+                  <span
                     key={i}
                     className="px-3 py-1 rounded-full text-sm"
                     style={{ backgroundColor: `${service.color}15`, color: service.color }}
@@ -337,22 +427,36 @@ export default function CorePage() {
                     disabled={generating}
                     className="flex items-center gap-2 px-3 py-1.5 bg-purple-500/20 hover:bg-purple-500/30 text-purple-400 rounded-lg text-sm transition-colors disabled:opacity-50"
                   >
-                    {generating ? <RefreshCw className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4" />}
+                    {generating ? (
+                      <RefreshCw className="w-4 h-4 animate-spin" />
+                    ) : (
+                      <Sparkles className="w-4 h-4" />
+                    )}
                     Generate Post
                   </button>
                 </div>
               </div>
               <div className="space-y-3">
-                {contentQueue.map(item => (
-                  <div key={item.id} className="flex items-center justify-between p-4 bg-neutral-800/50 rounded-xl">
+                {contentQueue.map((item) => (
+                  <div
+                    key={item.id}
+                    className="flex items-center justify-between p-4 bg-neutral-800/50 rounded-xl"
+                  >
                     <div className="flex items-center gap-3">
-                      <div className={`w-2 h-2 rounded-full ${
-                        item.status === 'scheduled' ? 'bg-green-400' :
-                        item.status === 'approved' ? 'bg-blue-400' : 'bg-amber-400'
-                      }`} />
+                      <div
+                        className={`w-2 h-2 rounded-full ${
+                          item.status === 'scheduled'
+                            ? 'bg-green-400'
+                            : item.status === 'approved'
+                              ? 'bg-blue-400'
+                              : 'bg-amber-400'
+                        }`}
+                      />
                       <div>
                         <p className="text-white text-sm">{item.title}</p>
-                        <p className="text-neutral-500 text-xs capitalize">{item.type} • {item.status}</p>
+                        <p className="text-neutral-500 text-xs capitalize">
+                          {item.type} • {item.status}
+                        </p>
                       </div>
                     </div>
                     <div className="flex gap-2">
@@ -383,15 +487,21 @@ export default function CorePage() {
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-neutral-800/50 rounded-xl p-4">
                   <p className="text-neutral-500 text-sm mb-1">Monthly Recurring Revenue</p>
-                  <p className="text-2xl font-bold text-emerald-400">${metrics.revenue.mrr.toLocaleString()}</p>
+                  <p className="text-2xl font-bold text-emerald-400">
+                    ${metrics.revenue.mrr.toLocaleString()}
+                  </p>
                 </div>
                 <div className="bg-neutral-800/50 rounded-xl p-4">
                   <p className="text-neutral-500 text-sm mb-1">Annual Run Rate</p>
-                  <p className="text-2xl font-bold text-emerald-400">${metrics.revenue.arr.toLocaleString()}</p>
+                  <p className="text-2xl font-bold text-emerald-400">
+                    ${metrics.revenue.arr.toLocaleString()}
+                  </p>
                 </div>
                 <div className="bg-neutral-800/50 rounded-xl p-4">
                   <p className="text-neutral-500 text-sm mb-1">Runway</p>
-                  <p className="text-2xl font-bold text-blue-400">{metrics.revenue.runwayMonths} months</p>
+                  <p className="text-2xl font-bold text-blue-400">
+                    {metrics.revenue.runwayMonths} months
+                  </p>
                 </div>
                 <div className="bg-neutral-800/50 rounded-xl p-4">
                   <p className="text-neutral-500 text-sm mb-1">LTV:CAC Ratio</p>
@@ -417,7 +527,9 @@ export default function CorePage() {
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-neutral-800/50 rounded-xl p-4">
                   <p className="text-neutral-500 text-sm mb-1">Backlog Items</p>
-                  <p className="text-2xl font-bold text-amber-400">{metrics.foundry.backlogItems}</p>
+                  <p className="text-2xl font-bold text-amber-400">
+                    {metrics.foundry.backlogItems}
+                  </p>
                 </div>
                 <div className="bg-neutral-800/50 rounded-xl p-4">
                   <p className="text-neutral-500 text-sm mb-1">Technical Debt</p>
@@ -452,7 +564,9 @@ export default function CorePage() {
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-neutral-800/50 rounded-xl p-4">
                   <p className="text-neutral-500 text-sm mb-1">Competitors Tracked</p>
-                  <p className="text-2xl font-bold text-blue-400">{metrics.watch.competitorsTracked}</p>
+                  <p className="text-2xl font-bold text-blue-400">
+                    {metrics.watch.competitorsTracked}
+                  </p>
                 </div>
                 <div className="bg-neutral-800/50 rounded-xl p-4">
                   <p className="text-neutral-500 text-sm mb-1">Active Alerts</p>
@@ -472,7 +586,12 @@ export default function CorePage() {
                 <p className="text-neutral-500 text-sm">Tracked Keywords:</p>
                 <div className="flex flex-wrap gap-2">
                   {['Sovereign AI', 'Palantir', 'AI Council', 'Enterprise AI'].map((kw, i) => (
-                    <span key={i} className="px-2 py-1 bg-neutral-800 rounded text-xs text-neutral-400">{kw}</span>
+                    <span
+                      key={i}
+                      className="px-2 py-1 bg-neutral-800 rounded text-xs text-neutral-400"
+                    >
+                      {kw}
+                    </span>
                   ))}
                 </div>
               </div>
@@ -517,8 +636,8 @@ export default function CorePage() {
               </div>
             </div>
             <p className="text-neutral-300 text-sm italic">
-              "You're spending too much time on features and not enough on distribution. 
-              The best product doesn't win—the best-known product wins."
+              "You're spending too much time on features and not enough on distribution. The best
+              product doesn't win—the best-known product wins."
             </p>
             <button className="mt-4 text-amber-400 text-sm hover:text-amber-300 transition-colors flex items-center gap-1">
               Ask the Mirror <ChevronRight className="w-4 h-4" />
@@ -560,7 +679,7 @@ export default function CorePage() {
                 <span className="text-xs text-neutral-300">Grafana</span>
               </div>
             </div>
-            <Link 
+            <Link
               to="/admin/sovereign-stack"
               className="flex items-center justify-center gap-2 w-full py-2 bg-indigo-500/20 hover:bg-indigo-500/30 rounded-lg text-indigo-400 text-sm transition-colors"
             >
@@ -574,13 +693,35 @@ export default function CorePage() {
             <h3 className="text-lg font-semibold text-white mb-4">Recent Activity</h3>
             <div className="space-y-3">
               {[
-                { time: '2m ago', text: 'CendiaBrand generated LinkedIn post', icon: Megaphone, color: 'text-purple-400' },
-                { time: '1h ago', text: 'New support ticket triaged', icon: HeadphonesIcon, color: 'text-blue-400' },
-                { time: '3h ago', text: 'Competitor alert: Palantir AIP update', icon: Eye, color: 'text-red-400' },
-                { time: '1d ago', text: 'Pricing analysis complete', icon: DollarSign, color: 'text-emerald-400' },
+                {
+                  time: '2m ago',
+                  text: 'CendiaBrand generated LinkedIn post',
+                  icon: Megaphone,
+                  color: 'text-purple-400',
+                },
+                {
+                  time: '1h ago',
+                  text: 'New support ticket triaged',
+                  icon: HeadphonesIcon,
+                  color: 'text-blue-400',
+                },
+                {
+                  time: '3h ago',
+                  text: 'Competitor alert: Palantir AIP update',
+                  icon: Eye,
+                  color: 'text-red-400',
+                },
+                {
+                  time: '1d ago',
+                  text: 'Pricing analysis complete',
+                  icon: DollarSign,
+                  color: 'text-emerald-400',
+                },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
-                  <div className={`w-8 h-8 rounded-lg bg-neutral-800 flex items-center justify-center flex-shrink-0`}>
+                  <div
+                    className={`w-8 h-8 rounded-lg bg-neutral-800 flex items-center justify-center flex-shrink-0`}
+                  >
                     <item.icon className={`w-4 h-4 ${item.color}`} />
                   </div>
                   <div>

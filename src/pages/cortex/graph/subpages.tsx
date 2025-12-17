@@ -39,12 +39,18 @@ export const LineageViewPage: React.FC = () => {
 
   const getNodeColor = (type: string) => {
     switch (type) {
-      case 'dataset': return 'bg-blue-500';
-      case 'source': return 'bg-purple-500';
-      case 'dashboard': return 'bg-green-500';
-      case 'report': return 'bg-amber-500';
-      case 'process': return 'bg-teal-500';
-      default: return 'bg-neutral-500';
+      case 'dataset':
+        return 'bg-blue-500';
+      case 'source':
+        return 'bg-purple-500';
+      case 'dashboard':
+        return 'bg-green-500';
+      case 'report':
+        return 'bg-amber-500';
+      case 'process':
+        return 'bg-teal-500';
+      default:
+        return 'bg-neutral-500';
     }
   };
 
@@ -63,7 +69,7 @@ export const LineageViewPage: React.FC = () => {
             Data Lineage: {centralEntity.name}
           </h1>
         </div>
-        
+
         <div className="flex items-center gap-2">
           {(['upstream', 'both', 'downstream'] as const).map((dir) => (
             <button
@@ -95,9 +101,13 @@ export const LineageViewPage: React.FC = () => {
                   onClick={() => navigate(`/cortex/graph/entity/${node.id}`)}
                   className="flex items-center gap-3 p-3 bg-neutral-50 rounded-lg hover:bg-neutral-100 cursor-pointer group"
                 >
-                  <span className="text-sm text-neutral-500">{node.distance} hop{node.distance > 1 ? 's' : ''}</span>
+                  <span className="text-sm text-neutral-500">
+                    {node.distance} hop{node.distance > 1 ? 's' : ''}
+                  </span>
                   <div className={cn('w-3 h-3 rounded-full', getNodeColor(node.type))} />
-                  <span className="font-medium text-neutral-900 group-hover:text-primary-600">{node.name}</span>
+                  <span className="font-medium text-neutral-900 group-hover:text-primary-600">
+                    {node.name}
+                  </span>
                 </div>
               ))}
             </div>
@@ -110,7 +120,9 @@ export const LineageViewPage: React.FC = () => {
 
           {/* Central Entity */}
           <div className="p-6 bg-primary-50 border-2 border-primary-500 rounded-xl">
-            <div className={cn('w-4 h-4 rounded-full mx-auto mb-2', getNodeColor(centralEntity.type))} />
+            <div
+              className={cn('w-4 h-4 rounded-full mx-auto mb-2', getNodeColor(centralEntity.type))}
+            />
             <p className="font-bold text-lg text-neutral-900 text-center">{centralEntity.name}</p>
             <p className="text-sm text-neutral-500 text-center">{centralEntity.type}</p>
           </div>
@@ -130,9 +142,13 @@ export const LineageViewPage: React.FC = () => {
                   onClick={() => navigate(`/cortex/graph/entity/${node.id}`)}
                   className="flex items-center gap-3 p-3 bg-neutral-50 rounded-lg hover:bg-neutral-100 cursor-pointer group"
                 >
-                  <span className="font-medium text-neutral-900 group-hover:text-primary-600">{node.name}</span>
+                  <span className="font-medium text-neutral-900 group-hover:text-primary-600">
+                    {node.name}
+                  </span>
                   <div className={cn('w-3 h-3 rounded-full', getNodeColor(node.type))} />
-                  <span className="text-sm text-neutral-500">{node.distance} hop{node.distance > 1 ? 's' : ''}</span>
+                  <span className="text-sm text-neutral-500">
+                    {node.distance} hop{node.distance > 1 ? 's' : ''}
+                  </span>
                 </div>
               ))}
             </div>
@@ -173,7 +189,9 @@ export const LineageViewPage: React.FC = () => {
 export const EntityDetailsPage: React.FC = () => {
   const navigate = useNavigate();
   const { entityId } = useParams();
-  const [activeTab, setActiveTab] = useState<'overview' | 'schema' | 'lineage' | 'quality' | 'usage'>('overview');
+  const [activeTab, setActiveTab] = useState<
+    'overview' | 'schema' | 'lineage' | 'quality' | 'usage'
+  >('overview');
 
   // Mock entity data
   const entity = {
@@ -182,7 +200,8 @@ export const EntityDetailsPage: React.FC = () => {
     type: 'dataset',
     source: 'Salesforce CRM',
     owner: 'Sales Team',
-    description: 'Master customer data including contact information, account details, and customer lifecycle stage.',
+    description:
+      'Master customer data including contact information, account details, and customer lifecycle stage.',
     tags: ['core', 'pii', 'master-data'],
     created: 'Jan 15, 2024',
     lastUpdated: new Date(Date.now() - 3600000),
@@ -191,21 +210,83 @@ export const EntityDetailsPage: React.FC = () => {
   };
 
   const columns = [
-    { name: 'customer_id', type: 'string', nullable: false, pii: false, description: 'Unique customer identifier' },
-    { name: 'email', type: 'string', nullable: false, pii: true, description: 'Customer email address' },
-    { name: 'first_name', type: 'string', nullable: true, pii: true, description: 'Customer first name' },
-    { name: 'last_name', type: 'string', nullable: true, pii: true, description: 'Customer last name' },
+    {
+      name: 'customer_id',
+      type: 'string',
+      nullable: false,
+      pii: false,
+      description: 'Unique customer identifier',
+    },
+    {
+      name: 'email',
+      type: 'string',
+      nullable: false,
+      pii: true,
+      description: 'Customer email address',
+    },
+    {
+      name: 'first_name',
+      type: 'string',
+      nullable: true,
+      pii: true,
+      description: 'Customer first name',
+    },
+    {
+      name: 'last_name',
+      type: 'string',
+      nullable: true,
+      pii: true,
+      description: 'Customer last name',
+    },
     { name: 'company', type: 'string', nullable: true, pii: false, description: 'Company name' },
-    { name: 'lifecycle_stage', type: 'enum', nullable: false, pii: false, description: 'Customer lifecycle stage' },
-    { name: 'created_at', type: 'timestamp', nullable: false, pii: false, description: 'Record creation timestamp' },
-    { name: 'updated_at', type: 'timestamp', nullable: false, pii: false, description: 'Last update timestamp' },
+    {
+      name: 'lifecycle_stage',
+      type: 'enum',
+      nullable: false,
+      pii: false,
+      description: 'Customer lifecycle stage',
+    },
+    {
+      name: 'created_at',
+      type: 'timestamp',
+      nullable: false,
+      pii: false,
+      description: 'Record creation timestamp',
+    },
+    {
+      name: 'updated_at',
+      type: 'timestamp',
+      nullable: false,
+      pii: false,
+      description: 'Last update timestamp',
+    },
   ];
 
   const usageStats = [
-    { user: 'Revenue Dashboard', type: 'dashboard', lastAccess: new Date(Date.now() - 300000), frequency: 'Real-time' },
-    { user: 'Marketing Team', type: 'query', lastAccess: new Date(Date.now() - 3600000), frequency: 'Daily' },
-    { user: 'CendiaCFO Agent', type: 'agent', lastAccess: new Date(Date.now() - 7200000), frequency: 'On-demand' },
-    { user: 'Monthly Report', type: 'report', lastAccess: new Date(Date.now() - 86400000), frequency: 'Monthly' },
+    {
+      user: 'Revenue Dashboard',
+      type: 'dashboard',
+      lastAccess: new Date(Date.now() - 300000),
+      frequency: 'Real-time',
+    },
+    {
+      user: 'Marketing Team',
+      type: 'query',
+      lastAccess: new Date(Date.now() - 3600000),
+      frequency: 'Daily',
+    },
+    {
+      user: 'CendiaCFO Agent',
+      type: 'agent',
+      lastAccess: new Date(Date.now() - 7200000),
+      frequency: 'On-demand',
+    },
+    {
+      user: 'Monthly Report',
+      type: 'report',
+      lastAccess: new Date(Date.now() - 86400000),
+      frequency: 'Monthly',
+    },
   ];
 
   return (
@@ -222,16 +303,22 @@ export const EntityDetailsPage: React.FC = () => {
           </div>
           <div className="flex items-center gap-4">
             <h1 className="text-2xl font-bold text-neutral-900">{entity.name}</h1>
-            <span className="px-2 py-1 bg-blue-100 text-blue-700 text-sm rounded">{entity.type}</span>
-            <span className={cn(
-              'px-2 py-1 rounded text-sm',
-              entity.qualityScore >= 90 ? 'bg-success-light text-success-dark' : 'bg-warning-light text-warning-dark'
-            )}>
+            <span className="px-2 py-1 bg-blue-100 text-blue-700 text-sm rounded">
+              {entity.type}
+            </span>
+            <span
+              className={cn(
+                'px-2 py-1 rounded text-sm',
+                entity.qualityScore >= 90
+                  ? 'bg-success-light text-success-dark'
+                  : 'bg-warning-light text-warning-dark'
+              )}
+            >
               Quality: {entity.qualityScore}%
             </span>
           </div>
         </div>
-        
+
         <div className="flex gap-2">
           <button
             onClick={() => navigate(`/cortex/graph/lineage/${entity.id}`)}
@@ -279,7 +366,9 @@ export const EntityDetailsPage: React.FC = () => {
             <div className="grid grid-cols-3 gap-4">
               <div className="bg-white rounded-xl border border-neutral-200 p-4">
                 <p className="text-sm text-neutral-500">Records</p>
-                <p className="text-2xl font-bold text-neutral-900">{entity.recordCount.toLocaleString()}</p>
+                <p className="text-2xl font-bold text-neutral-900">
+                  {entity.recordCount.toLocaleString()}
+                </p>
               </div>
               <div className="bg-white rounded-xl border border-neutral-200 p-4">
                 <p className="text-sm text-neutral-500">Columns</p>
@@ -287,7 +376,9 @@ export const EntityDetailsPage: React.FC = () => {
               </div>
               <div className="bg-white rounded-xl border border-neutral-200 p-4">
                 <p className="text-sm text-neutral-500">PII Fields</p>
-                <p className="text-2xl font-bold text-warning-main">{columns.filter(c => c.pii).length}</p>
+                <p className="text-2xl font-bold text-warning-main">
+                  {columns.filter((c) => c.pii).length}
+                </p>
               </div>
             </div>
           </div>
@@ -310,13 +401,18 @@ export const EntityDetailsPage: React.FC = () => {
               </div>
               <div>
                 <dt className="text-sm text-neutral-500">Last Updated</dt>
-                <dd className="font-medium text-neutral-900">{formatRelativeTime(entity.lastUpdated)}</dd>
+                <dd className="font-medium text-neutral-900">
+                  {formatRelativeTime(entity.lastUpdated)}
+                </dd>
               </div>
               <div>
                 <dt className="text-sm text-neutral-500 mb-2">Tags</dt>
                 <dd className="flex flex-wrap gap-2">
                   {entity.tags.map((tag) => (
-                    <span key={tag} className="px-2 py-1 bg-neutral-100 text-neutral-600 text-sm rounded">
+                    <span
+                      key={tag}
+                      className="px-2 py-1 bg-neutral-100 text-neutral-600 text-sm rounded"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -332,11 +428,21 @@ export const EntityDetailsPage: React.FC = () => {
           <table className="w-full">
             <thead className="bg-neutral-50">
               <tr>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Column</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Type</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Nullable</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">PII</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Description</th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Column
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Type
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Nullable
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  PII
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Description
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -346,7 +452,11 @@ export const EntityDetailsPage: React.FC = () => {
                   <td className="px-4 py-3 font-mono text-sm text-neutral-600">{col.type}</td>
                   <td className="px-4 py-3 text-sm">{col.nullable ? 'Yes' : 'No'}</td>
                   <td className="px-4 py-3">
-                    {col.pii && <span className="px-2 py-0.5 bg-warning-light text-warning-dark text-xs rounded">PII</span>}
+                    {col.pii && (
+                      <span className="px-2 py-0.5 bg-warning-light text-warning-dark text-xs rounded">
+                        PII
+                      </span>
+                    )}
                   </td>
                   <td className="px-4 py-3 text-sm text-neutral-500">{col.description}</td>
                 </tr>
@@ -361,10 +471,18 @@ export const EntityDetailsPage: React.FC = () => {
           <table className="w-full">
             <thead className="bg-neutral-50">
               <tr>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Consumer</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Type</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Last Access</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Frequency</th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Consumer
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Type
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Last Access
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Frequency
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -376,7 +494,9 @@ export const EntityDetailsPage: React.FC = () => {
                       {usage.type}
                     </span>
                   </td>
-                  <td className="px-4 py-3 text-sm text-neutral-500">{formatRelativeTime(usage.lastAccess)}</td>
+                  <td className="px-4 py-3 text-sm text-neutral-500">
+                    {formatRelativeTime(usage.lastAccess)}
+                  </td>
                   <td className="px-4 py-3 text-sm text-neutral-600">{usage.frequency}</td>
                 </tr>
               ))}

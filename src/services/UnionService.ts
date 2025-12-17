@@ -12,7 +12,15 @@ import { ollamaService } from '../lib/ollama';
 
 export type EmployeeStatus = 'active' | 'on_leave' | 'probation' | 'notice_period' | 'terminated';
 export type BurnoutLevel = 'healthy' | 'caution' | 'warning' | 'critical' | 'emergency';
-export type RightType = 'compensation' | 'time_off' | 'workload' | 'safety' | 'privacy' | 'dignity' | 'growth' | 'voice';
+export type RightType =
+  | 'compensation'
+  | 'time_off'
+  | 'workload'
+  | 'safety'
+  | 'privacy'
+  | 'dignity'
+  | 'growth'
+  | 'voice';
 
 export interface Employee {
   id: string;
@@ -24,25 +32,25 @@ export interface Employee {
   startDate: Date;
   status: EmployeeStatus;
   managerId?: string;
-  
+
   // Compensation
   salary: number;
   bonus?: number;
   equity?: number;
   lastRaiseDate?: Date;
   lastRaisePercent?: number;
-  
+
   // Workload metrics
   avgHoursPerWeek: number;
   overtimeHoursThisMonth: number;
   ptoDaysRemaining: number;
   ptoUsedThisYear: number;
-  
+
   // Burnout indicators
   burnoutScore: number; // 0-100
   burnoutLevel: BurnoutLevel;
   burnoutFactors: BurnoutFactor[];
-  
+
   // Rights tracking
   rightsViolations: RightsViolation[];
   pendingRequests: EmployeeRequest[];
@@ -51,7 +59,14 @@ export interface Employee {
 
 export interface BurnoutFactor {
   id: string;
-  category: 'workload' | 'work_life' | 'recognition' | 'growth' | 'autonomy' | 'relationships' | 'values';
+  category:
+    | 'workload'
+    | 'work_life'
+    | 'recognition'
+    | 'growth'
+    | 'autonomy'
+    | 'relationships'
+    | 'values';
   name: string;
   score: number; // 0-100 (higher = worse)
   weight: number;
@@ -75,7 +90,14 @@ export interface RightsViolation {
 
 export interface EmployeeRequest {
   id: string;
-  type: 'raise' | 'promotion' | 'time_off' | 'transfer' | 'accommodation' | 'grievance' | 'feedback';
+  type:
+    | 'raise'
+    | 'promotion'
+    | 'time_off'
+    | 'transfer'
+    | 'accommodation'
+    | 'grievance'
+    | 'feedback';
   title: string;
   description: string;
   submittedAt: Date;
@@ -102,27 +124,27 @@ export interface NegotiationBrief {
   id: string;
   generatedAt: Date;
   context: string;
-  
+
   // Market data
   marketSalaryRange: { min: number; median: number; max: number };
   marketPosition: 'below' | 'at' | 'above';
   marketPercentile: number;
-  
+
   // Performance
   performanceRating: number;
   performanceHighlights: string[];
   impactMetrics: { metric: string; value: string; comparison: string }[];
-  
+
   // Leverage points
   leveragePoints: { point: string; strength: 'weak' | 'moderate' | 'strong' }[];
   riskFactors: { factor: string; mitigation: string }[];
-  
+
   // Strategy
   askRange: { minimum: number; target: number; stretch: number };
   talkingPoints: string[];
   objectionHandlers: { objection: string; response: string }[];
   walkawayConditions: string[];
-  
+
   // Timing
   bestTimeToAsk: string;
   budgetCycleContext: string;
@@ -172,13 +194,20 @@ const STORAGE_KEY = 'datacendia_union_service';
 // BURNOUT CALCULATION
 // =============================================================================
 
-function calculateBurnoutScore(employee: Partial<Employee>): { score: number; level: BurnoutLevel; factors: BurnoutFactor[] } {
+function calculateBurnoutScore(employee: Partial<Employee>): {
+  score: number;
+  level: BurnoutLevel;
+  factors: BurnoutFactor[];
+} {
   const factors: BurnoutFactor[] = [];
   let totalScore = 0;
   let totalWeight = 0;
 
   // Workload factor
-  const workloadScore = Math.min(100, ((employee.avgHoursPerWeek || 40) - 40) * 5 + (employee.overtimeHoursThisMonth || 0) * 2);
+  const workloadScore = Math.min(
+    100,
+    ((employee.avgHoursPerWeek || 40) - 40) * 5 + (employee.overtimeHoursThisMonth || 0) * 2
+  );
   if (workloadScore > 20) {
     factors.push({
       id: `factor-workload-${Date.now()}`,
@@ -202,9 +231,15 @@ function calculateBurnoutScore(employee: Partial<Employee>): { score: number; le
   }
 
   // Work-life balance (PTO usage)
-  const ptoScore = employee.ptoUsedThisYear !== undefined && employee.ptoDaysRemaining !== undefined
-    ? Math.max(0, 100 - (employee.ptoUsedThisYear / (employee.ptoUsedThisYear + employee.ptoDaysRemaining)) * 100)
-    : 50;
+  const ptoScore =
+    employee.ptoUsedThisYear !== undefined && employee.ptoDaysRemaining !== undefined
+      ? Math.max(
+          0,
+          100 -
+            (employee.ptoUsedThisYear / (employee.ptoUsedThisYear + employee.ptoDaysRemaining)) *
+              100
+        )
+      : 50;
   if (ptoScore > 60) {
     factors.push({
       id: `factor-pto-${Date.now()}`,
@@ -235,7 +270,10 @@ function calculateBurnoutScore(employee: Partial<Employee>): { score: number; le
 
   // Growth opportunities
   const growthScore = employee.lastRaiseDate
-    ? Math.min(100, (Date.now() - employee.lastRaiseDate.getTime()) / (365 * 24 * 60 * 60 * 1000) * 30)
+    ? Math.min(
+        100,
+        ((Date.now() - employee.lastRaiseDate.getTime()) / (365 * 24 * 60 * 60 * 1000)) * 30
+      )
     : 50;
   if (growthScore > 50) {
     factors.push({
@@ -245,7 +283,9 @@ function calculateBurnoutScore(employee: Partial<Employee>): { score: number; le
       score: growthScore,
       weight: 0.2,
       indicators: [
-        employee.lastRaiseDate ? `Last raise: ${employee.lastRaiseDate.toLocaleDateString()}` : 'No raise on record',
+        employee.lastRaiseDate
+          ? `Last raise: ${employee.lastRaiseDate.toLocaleDateString()}`
+          : 'No raise on record',
       ],
       recommendations: [
         'Schedule career development discussion',
@@ -260,14 +300,20 @@ function calculateBurnoutScore(employee: Partial<Employee>): { score: number; le
 
   // Normalize score
   const finalScore = totalWeight > 0 ? Math.round(totalScore / totalWeight) : 0;
-  
+
   // Determine level
   let level: BurnoutLevel;
-  if (finalScore >= 80) {level = 'emergency';}
-  else if (finalScore >= 65) {level = 'critical';}
-  else if (finalScore >= 50) {level = 'warning';}
-  else if (finalScore >= 30) {level = 'caution';}
-  else {level = 'healthy';}
+  if (finalScore >= 80) {
+    level = 'emergency';
+  } else if (finalScore >= 65) {
+    level = 'critical';
+  } else if (finalScore >= 50) {
+    level = 'warning';
+  } else if (finalScore >= 30) {
+    level = 'caution';
+  } else {
+    level = 'healthy';
+  }
 
   return { score: finalScore, level, factors };
 }
@@ -301,20 +347,28 @@ class UnionService {
         const data = JSON.parse(stored);
         data.employees?.forEach((e: Employee) => {
           e.startDate = new Date(e.startDate);
-          if (e.lastRaiseDate) {e.lastRaiseDate = new Date(e.lastRaiseDate);}
-          e.burnoutFactors.forEach(f => f.detectedAt = new Date(f.detectedAt));
-          e.rightsViolations.forEach(v => {
+          if (e.lastRaiseDate) {
+            e.lastRaiseDate = new Date(e.lastRaiseDate);
+          }
+          e.burnoutFactors.forEach((f) => (f.detectedAt = new Date(f.detectedAt)));
+          e.rightsViolations.forEach((v) => {
             v.occurredAt = new Date(v.occurredAt);
-            if (v.reportedAt) {v.reportedAt = new Date(v.reportedAt);}
-            v.auditTrail.forEach(a => a.timestamp = new Date(a.timestamp));
+            if (v.reportedAt) {
+              v.reportedAt = new Date(v.reportedAt);
+            }
+            v.auditTrail.forEach((a) => (a.timestamp = new Date(a.timestamp)));
           });
-          e.pendingRequests.forEach(r => {
+          e.pendingRequests.forEach((r) => {
             r.submittedAt = new Date(r.submittedAt);
-            if (r.resolvedAt) {r.resolvedAt = new Date(r.resolvedAt);}
+            if (r.resolvedAt) {
+              r.resolvedAt = new Date(r.resolvedAt);
+            }
           });
-          e.advocacySessions.forEach(s => {
+          e.advocacySessions.forEach((s) => {
             s.scheduledAt = new Date(s.scheduledAt);
-            if (s.completedAt) {s.completedAt = new Date(s.completedAt);}
+            if (s.completedAt) {
+              s.completedAt = new Date(s.completedAt);
+            }
           });
           this.employees.set(e.id, e);
         });
@@ -341,10 +395,21 @@ class UnionService {
   // EMPLOYEE MANAGEMENT
   // ---------------------------------------------------------------------------
 
-  addEmployee(employeeData: Omit<Employee, 'id' | 'burnoutScore' | 'burnoutLevel' | 'burnoutFactors' | 'rightsViolations' | 'pendingRequests' | 'advocacySessions'>): Employee {
+  addEmployee(
+    employeeData: Omit<
+      Employee,
+      | 'id'
+      | 'burnoutScore'
+      | 'burnoutLevel'
+      | 'burnoutFactors'
+      | 'rightsViolations'
+      | 'pendingRequests'
+      | 'advocacySessions'
+    >
+  ): Employee {
     const id = `emp-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
     const burnout = calculateBurnoutScore(employeeData);
-    
+
     const employee: Employee = {
       ...employeeData,
       id,
@@ -363,10 +428,12 @@ class UnionService {
 
   updateEmployee(id: string, updates: Partial<Employee>): Employee | null {
     const employee = this.employees.get(id);
-    if (!employee) {return null;}
+    if (!employee) {
+      return null;
+    }
 
     Object.assign(employee, updates);
-    
+
     // Recalculate burnout
     const burnout = calculateBurnoutScore(employee);
     employee.burnoutScore = burnout.score;
@@ -386,12 +453,15 @@ class UnionService {
   }
 
   getEmployeesByBurnoutLevel(level: BurnoutLevel): Employee[] {
-    return this.getAllEmployees().filter(e => e.burnoutLevel === level);
+    return this.getAllEmployees().filter((e) => e.burnoutLevel === level);
   }
 
   getAtRiskEmployees(): Employee[] {
-    return this.getAllEmployees().filter(e => 
-      e.burnoutLevel === 'warning' || e.burnoutLevel === 'critical' || e.burnoutLevel === 'emergency'
+    return this.getAllEmployees().filter(
+      (e) =>
+        e.burnoutLevel === 'warning' ||
+        e.burnoutLevel === 'critical' ||
+        e.burnoutLevel === 'emergency'
     );
   }
 
@@ -399,13 +469,22 @@ class UnionService {
   // BURNOUT ANALYSIS
   // ---------------------------------------------------------------------------
 
-  async analyzeBurnout(employeeId: string): Promise<{ score: number; level: BurnoutLevel; factors: BurnoutFactor[]; recommendations: string[] }> {
+  async analyzeBurnout(
+    employeeId: string
+  ): Promise<{
+    score: number;
+    level: BurnoutLevel;
+    factors: BurnoutFactor[];
+    recommendations: string[];
+  }> {
     const employee = this.employees.get(employeeId);
-    if (!employee) {throw new Error('Employee not found');}
+    if (!employee) {
+      throw new Error('Employee not found');
+    }
 
     const burnout = calculateBurnoutScore(employee);
-    
-    let recommendations: string[] = burnout.factors.flatMap(f => f.recommendations);
+
+    let recommendations: string[] = burnout.factors.flatMap((f) => f.recommendations);
 
     if (this.ollamaAvailable) {
       try {
@@ -416,7 +495,7 @@ Role: ${employee.role}
 Burnout Score: ${burnout.score}/100 (${burnout.level})
 
 Factors:
-${burnout.factors.map(f => `- ${f.name}: ${f.score}/100 - ${f.indicators.join(', ')}`).join('\n')}
+${burnout.factors.map((f) => `- ${f.name}: ${f.score}/100 - ${f.indicators.join(', ')}`).join('\n')}
 
 Provide recommendations in JSON format:
 {
@@ -454,7 +533,9 @@ Provide recommendations in JSON format:
     description: string
   ): RightsViolation {
     const employee = this.employees.get(employeeId);
-    if (!employee) {throw new Error('Employee not found');}
+    if (!employee) {
+      throw new Error('Employee not found');
+    }
 
     const violation: RightsViolation = {
       id: `violation-${Date.now()}`,
@@ -464,19 +545,21 @@ Provide recommendations in JSON format:
       occurredAt: new Date(),
       reportedAt: new Date(),
       status: 'reported',
-      auditTrail: [{
-        id: `audit-${Date.now()}`,
-        timestamp: new Date(),
-        action: 'Violation reported',
-        actor: 'system',
-        details: { type, severity, description },
-        hash: this.generateHash({ type, severity, description, timestamp: Date.now() }),
-      }],
+      auditTrail: [
+        {
+          id: `audit-${Date.now()}`,
+          timestamp: new Date(),
+          action: 'Violation reported',
+          actor: 'system',
+          details: { type, severity, description },
+          hash: this.generateHash({ type, severity, description, timestamp: Date.now() }),
+        },
+      ],
     };
 
     employee.rightsViolations.push(violation);
     this.saveToStorage();
-    
+
     // Generate insight
     this.addInsight({
       type: 'violation',
@@ -490,16 +573,27 @@ Provide recommendations in JSON format:
     return violation;
   }
 
-  updateViolationStatus(employeeId: string, violationId: string, status: RightsViolation['status'], resolution?: string): RightsViolation | null {
+  updateViolationStatus(
+    employeeId: string,
+    violationId: string,
+    status: RightsViolation['status'],
+    resolution?: string
+  ): RightsViolation | null {
     const employee = this.employees.get(employeeId);
-    if (!employee) {return null;}
+    if (!employee) {
+      return null;
+    }
 
-    const violation = employee.rightsViolations.find(v => v.id === violationId);
-    if (!violation) {return null;}
+    const violation = employee.rightsViolations.find((v) => v.id === violationId);
+    if (!violation) {
+      return null;
+    }
 
     violation.status = status;
-    if (resolution) {violation.resolution = resolution;}
-    
+    if (resolution) {
+      violation.resolution = resolution;
+    }
+
     violation.auditTrail.push({
       id: `audit-${Date.now()}`,
       timestamp: new Date(),
@@ -518,7 +612,7 @@ Provide recommendations in JSON format:
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
       const char = str.charCodeAt(i);
-      hash = ((hash << 5) - hash) + char;
+      hash = (hash << 5) - hash + char;
       hash = hash & hash;
     }
     return Math.abs(hash).toString(16).padStart(8, '0');
@@ -536,7 +630,9 @@ Provide recommendations in JSON format:
     priority: EmployeeRequest['priority'] = 'medium'
   ): EmployeeRequest {
     const employee = this.employees.get(employeeId);
-    if (!employee) {throw new Error('Employee not found');}
+    if (!employee) {
+      throw new Error('Employee not found');
+    }
 
     const request: EmployeeRequest = {
       id: `request-${Date.now()}`,
@@ -556,10 +652,14 @@ Provide recommendations in JSON format:
 
   async prepareNegotiation(employeeId: string, requestId: string): Promise<NegotiationBrief> {
     const employee = this.employees.get(employeeId);
-    if (!employee) {throw new Error('Employee not found');}
+    if (!employee) {
+      throw new Error('Employee not found');
+    }
 
-    const request = employee.pendingRequests.find(r => r.id === requestId);
-    if (!request) {throw new Error('Request not found');}
+    const request = employee.pendingRequests.find((r) => r.id === requestId);
+    if (!request) {
+      throw new Error('Request not found');
+    }
 
     // Calculate market data (simplified - would normally use external APIs)
     const marketRange = {
@@ -568,9 +668,12 @@ Provide recommendations in JSON format:
       max: Math.round(employee.salary * 1.25),
     };
 
-    const marketPosition: 'below' | 'at' | 'above' = 
-      employee.salary < marketRange.min ? 'below' :
-      employee.salary > marketRange.max ? 'above' : 'at';
+    const marketPosition: 'below' | 'at' | 'above' =
+      employee.salary < marketRange.min
+        ? 'below'
+        : employee.salary > marketRange.max
+          ? 'above'
+          : 'at';
 
     const marketPercentile = Math.round(
       ((employee.salary - marketRange.min) / (marketRange.max - marketRange.min)) * 100
@@ -590,17 +693,34 @@ Provide recommendations in JSON format:
         'Key contributor to recent project',
       ],
       impactMetrics: [
-        { metric: 'Tenure', value: `${Math.round((Date.now() - employee.startDate.getTime()) / (365 * 24 * 60 * 60 * 1000))} years`, comparison: 'above average' },
-        { metric: 'Overtime', value: `${employee.overtimeHoursThisMonth} hrs/month`, comparison: 'shows dedication' },
+        {
+          metric: 'Tenure',
+          value: `${Math.round((Date.now() - employee.startDate.getTime()) / (365 * 24 * 60 * 60 * 1000))} years`,
+          comparison: 'above average',
+        },
+        {
+          metric: 'Overtime',
+          value: `${employee.overtimeHoursThisMonth} hrs/month`,
+          comparison: 'shows dedication',
+        },
       ],
       leveragePoints: [
-        { point: 'Market rate is higher than current compensation', strength: marketPosition === 'below' ? 'strong' : 'moderate' },
+        {
+          point: 'Market rate is higher than current compensation',
+          strength: marketPosition === 'below' ? 'strong' : 'moderate',
+        },
         { point: 'Institutional knowledge and relationships', strength: 'moderate' },
         { point: 'Proven track record', strength: 'strong' },
       ],
       riskFactors: [
-        { factor: 'Budget constraints may limit approval', mitigation: 'Propose phased increase or alternative compensation' },
-        { factor: 'Timing may not align with review cycle', mitigation: 'Document for next cycle with interim benefits' },
+        {
+          factor: 'Budget constraints may limit approval',
+          mitigation: 'Propose phased increase or alternative compensation',
+        },
+        {
+          factor: 'Timing may not align with review cycle',
+          mitigation: 'Document for next cycle with interim benefits',
+        },
       ],
       askRange: {
         minimum: Math.round(employee.salary * 1.05),
@@ -613,8 +733,15 @@ Provide recommendations in JSON format:
         'Market research shows my current compensation is below industry standards',
       ],
       objectionHandlers: [
-        { objection: 'Budget is tight this year', response: 'I understand. Could we discuss a phased approach or non-monetary benefits?' },
-        { objection: 'Your performance hasn\'t justified a raise', response: 'I\'d like to understand what specific achievements would warrant reconsideration' },
+        {
+          objection: 'Budget is tight this year',
+          response: 'I understand. Could we discuss a phased approach or non-monetary benefits?',
+        },
+        {
+          objection: "Your performance hasn't justified a raise",
+          response:
+            "I'd like to understand what specific achievements would warrant reconsideration",
+        },
       ],
       walkawayConditions: [
         'No increase offered after multiple discussions',
@@ -670,10 +797,14 @@ Respond in JSON:
 
   submitRequest(employeeId: string, requestId: string): EmployeeRequest | null {
     const employee = this.employees.get(employeeId);
-    if (!employee) {return null;}
+    if (!employee) {
+      return null;
+    }
 
-    const request = employee.pendingRequests.find(r => r.id === requestId);
-    if (!request) {return null;}
+    const request = employee.pendingRequests.find((r) => r.id === requestId);
+    if (!request) {
+      return null;
+    }
 
     request.status = 'submitted';
     this.saveToStorage();
@@ -691,7 +822,9 @@ Respond in JSON:
     scheduledAt: Date
   ): AdvocacySession {
     const employee = this.employees.get(employeeId);
-    if (!employee) {throw new Error('Employee not found');}
+    if (!employee) {
+      throw new Error('Employee not found');
+    }
 
     const session: AdvocacySession = {
       id: `session-${Date.now()}`,
@@ -730,7 +863,7 @@ Respond in JSON:
 
   getWorkforceMetrics(): WorkforceMetrics {
     const employees = this.getAllEmployees();
-    
+
     if (employees.length === 0) {
       return {
         totalEmployees: 0,
@@ -757,9 +890,13 @@ Respond in JSON:
     }
 
     const burnoutDistribution: Record<BurnoutLevel, number> = {
-      healthy: 0, caution: 0, warning: 0, critical: 0, emergency: 0,
+      healthy: 0,
+      caution: 0,
+      warning: 0,
+      critical: 0,
+      emergency: 0,
     };
-    employees.forEach(e => burnoutDistribution[e.burnoutLevel]++);
+    employees.forEach((e) => burnoutDistribution[e.burnoutLevel]++);
 
     const rightsByType: Record<RightType, { violations: number; resolved: number }> = {
       compensation: { violations: 0, resolved: 0 },
@@ -771,22 +908,35 @@ Respond in JSON:
       growth: { violations: 0, resolved: 0 },
       voice: { violations: 0, resolved: 0 },
     };
-    employees.forEach(e => {
-      e.rightsViolations.forEach(v => {
+    employees.forEach((e) => {
+      e.rightsViolations.forEach((v) => {
         rightsByType[v.type].violations++;
-        if (v.status === 'resolved') {rightsByType[v.type].resolved++;}
+        if (v.status === 'resolved') {
+          rightsByType[v.type].resolved++;
+        }
       });
     });
 
-    const avgBurnoutScore = employees.reduce((sum, e) => sum + e.burnoutScore, 0) / employees.length;
-    const avgTenure = employees.reduce((sum, e) => 
-      sum + (Date.now() - e.startDate.getTime()) / (365 * 24 * 60 * 60 * 1000), 0) / employees.length;
-    const overtimeAverage = employees.reduce((sum, e) => sum + e.overtimeHoursThisMonth, 0) / employees.length;
-    
-    const openViolations = employees.reduce((sum, e) => 
-      sum + e.rightsViolations.filter(v => v.status !== 'resolved').length, 0);
-    const pendingRequests = employees.reduce((sum, e) => 
-      sum + e.pendingRequests.filter(r => r.status !== 'approved' && r.status !== 'denied').length, 0);
+    const avgBurnoutScore =
+      employees.reduce((sum, e) => sum + e.burnoutScore, 0) / employees.length;
+    const avgTenure =
+      employees.reduce(
+        (sum, e) => sum + (Date.now() - e.startDate.getTime()) / (365 * 24 * 60 * 60 * 1000),
+        0
+      ) / employees.length;
+    const overtimeAverage =
+      employees.reduce((sum, e) => sum + e.overtimeHoursThisMonth, 0) / employees.length;
+
+    const openViolations = employees.reduce(
+      (sum, e) => sum + e.rightsViolations.filter((v) => v.status !== 'resolved').length,
+      0
+    );
+    const pendingRequests = employees.reduce(
+      (sum, e) =>
+        sum +
+        e.pendingRequests.filter((r) => r.status !== 'approved' && r.status !== 'denied').length,
+      0
+    );
 
     return {
       totalEmployees: employees.length,

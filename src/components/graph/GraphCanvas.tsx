@@ -37,15 +37,15 @@ interface GraphCanvasProps {
 
 // Color scheme for different node types
 const nodeColors: Record<string, string> = {
-  Dataset: '#3B82F6',      // Blue
-  Metric: '#10B981',       // Green
-  Process: '#8B5CF6',      // Purple
-  Report: '#F59E0B',       // Amber
-  Dashboard: '#EC4899',    // Pink
-  Entity: '#6366F1',       // Indigo
-  User: '#14B8A6',         // Teal
-  Team: '#F97316',         // Orange
-  default: '#6B7280',      // Gray
+  Dataset: '#3B82F6', // Blue
+  Metric: '#10B981', // Green
+  Process: '#8B5CF6', // Purple
+  Report: '#F59E0B', // Amber
+  Dashboard: '#EC4899', // Pink
+  Entity: '#6366F1', // Indigo
+  User: '#14B8A6', // Teal
+  Team: '#F97316', // Orange
+  default: '#6B7280', // Gray
 };
 
 // Edge colors by relationship type
@@ -73,7 +73,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
   // Convert data to Cytoscape format
   const getCytoscapeElements = useCallback(() => {
-    const nodes = data.nodes.map(node => ({
+    const nodes = data.nodes.map((node) => ({
       data: {
         id: node.id,
         label: node.name,
@@ -98,7 +98,9 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
   // Initialize Cytoscape
   useEffect(() => {
-    if (!containerRef.current) {return;}
+    if (!containerRef.current) {
+      return;
+    }
 
     const cy = cytoscape({
       container: containerRef.current,
@@ -108,18 +110,19 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         {
           selector: 'node',
           style: {
-            'background-color': (ele: NodeSingular) => nodeColors[ele.data('type')] || nodeColors.default,
-            'label': 'data(label)',
+            'background-color': (ele: NodeSingular) =>
+              nodeColors[ele.data('type')] || nodeColors.default,
+            label: 'data(label)',
             'text-valign': 'bottom',
             'text-halign': 'center',
             'text-margin-y': 8,
             'font-size': 12,
             'font-weight': 500,
-            'color': '#374151',
+            color: '#374151',
             'text-outline-color': '#ffffff',
             'text-outline-width': 2,
-            'width': 40,
-            'height': 40,
+            width: 40,
+            height: 40,
             'border-width': 2,
             'border-color': '#ffffff',
             'transition-property': 'background-color, border-color, width, height',
@@ -132,8 +135,8 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           style: {
             'border-width': 3,
             'border-color': '#1D4ED8',
-            'width': 50,
-            'height': 50,
+            width: 50,
+            height: 50,
           } as cytoscape.Css.Node,
         },
         // Hovered node
@@ -147,14 +150,15 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         {
           selector: 'edge',
           style: {
-            'width': 2,
+            width: 2,
             'line-color': (ele: EdgeSingular) => edgeColors[ele.data('type')] || edgeColors.default,
-            'target-arrow-color': (ele: EdgeSingular) => edgeColors[ele.data('type')] || edgeColors.default,
+            'target-arrow-color': (ele: EdgeSingular) =>
+              edgeColors[ele.data('type')] || edgeColors.default,
             'target-arrow-shape': 'triangle',
             'curve-style': 'bezier',
-            'label': 'data(label)',
+            label: 'data(label)',
             'font-size': 10,
-            'color': '#6B7280',
+            color: '#6B7280',
             'text-rotation': 'autorotate',
             'text-margin-y': -10,
             'text-background-color': '#ffffff',
@@ -166,7 +170,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         {
           selector: 'edge:selected',
           style: {
-            'width': 3,
+            width: 3,
             'line-color': '#1D4ED8',
             'target-arrow-color': '#1D4ED8',
           } as cytoscape.Css.Edge,
@@ -182,7 +186,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         {
           selector: '.dimmed',
           style: {
-            'opacity': 0.2,
+            opacity: 0.2,
           } as cytoscape.Css.Node,
         },
         // Highlighted path
@@ -201,13 +205,15 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         animationDuration: 500,
         fit: true,
         padding: 50,
-        ...(layout === 'cose' ? {
-          nodeRepulsion: () => 8000,
-          idealEdgeLength: () => 100,
-          edgeElasticity: () => 100,
-          gravity: 0.25,
-          numIter: 1000,
-        } : {}),
+        ...(layout === 'cose'
+          ? {
+              nodeRepulsion: () => 8000,
+              idealEdgeLength: () => 100,
+              edgeElasticity: () => 100,
+              gravity: 0.25,
+              numIter: 1000,
+            }
+          : {}),
       },
       minZoom: 0.2,
       maxZoom: 3,
@@ -267,7 +273,9 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
   // Update elements when data changes
   useEffect(() => {
-    if (!cyRef.current || !isInitialized) {return;}
+    if (!cyRef.current || !isInitialized) {
+      return;
+    }
 
     const cy = cyRef.current;
     cy.elements().remove();
@@ -283,7 +291,9 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
   // Handle external selection
   useEffect(() => {
-    if (!cyRef.current || !isInitialized) {return;}
+    if (!cyRef.current || !isInitialized) {
+      return;
+    }
 
     const cy = cyRef.current;
     cy.elements().unselect();
@@ -319,14 +329,18 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   }, []);
 
   const highlightPath = useCallback((nodeIds: string[]) => {
-    if (!cyRef.current) {return;}
+    if (!cyRef.current) {
+      return;
+    }
 
     const cy = cyRef.current;
     cy.elements().removeClass('highlighted dimmed');
 
-    if (nodeIds.length === 0) {return;}
+    if (nodeIds.length === 0) {
+      return;
+    }
 
-    const nodes = cy.nodes().filter(n => nodeIds.includes(n.data('id')));
+    const nodes = cy.nodes().filter((n) => nodeIds.includes(n.data('id')));
     const edges = nodes.edgesWith(nodes);
 
     cy.elements().addClass('dimmed');
@@ -351,7 +365,12 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           title="Zoom In"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+            />
           </svg>
         </button>
         <button
@@ -370,7 +389,12 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           title="Fit to Screen"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
+            />
           </svg>
         </button>
         <button
@@ -379,7 +403,12 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           title="Reset View"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+            />
           </svg>
         </button>
       </div>
@@ -388,12 +417,15 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       <div className="absolute top-4 right-4 bg-white rounded-lg shadow-lg p-3">
         <h4 className="text-xs font-semibold text-gray-500 mb-2">LEGEND</h4>
         <div className="space-y-1">
-          {Object.entries(nodeColors).filter(([k]) => k !== 'default').slice(0, 5).map(([type, color]) => (
-            <div key={type} className="flex items-center gap-2 text-xs">
-              <span className="w-3 h-3 rounded-full" style={{ backgroundColor: color }} />
-              <span className="text-gray-600">{type}</span>
-            </div>
-          ))}
+          {Object.entries(nodeColors)
+            .filter(([k]) => k !== 'default')
+            .slice(0, 5)
+            .map(([type, color]) => (
+              <div key={type} className="flex items-center gap-2 text-xs">
+                <span className="w-3 h-3 rounded-full" style={{ backgroundColor: color }} />
+                <span className="text-gray-600">{type}</span>
+              </div>
+            ))}
         </div>
       </div>
     </div>

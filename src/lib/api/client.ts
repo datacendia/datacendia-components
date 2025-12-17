@@ -5,7 +5,8 @@
 
 // In development, use relative path to go through Vite's proxy
 // In production, use the full URL from environment
-const API_BASE_URL = import.meta.env.VITE_API_URL || 
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL ||
   (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
 
 // Header used to propagate the currently selected data source
@@ -104,7 +105,9 @@ class TokenManager {
   }
 
   private async _doRefresh(): Promise<boolean> {
-    if (!this.refreshToken) {return false;}
+    if (!this.refreshToken) {
+      return false;
+    }
 
     try {
       const response = await fetch(`${API_BASE_URL}/auth/refresh`, {
@@ -169,12 +172,9 @@ class ApiClient {
     this.baseUrl = baseUrl;
   }
 
-  private async request<T>(
-    endpoint: string,
-    options: RequestInit = {}
-  ): Promise<ApiResponse<T>> {
+  private async request<T>(endpoint: string, options: RequestInit = {}): Promise<ApiResponse<T>> {
     const url = `${this.baseUrl}${endpoint}`;
-    
+
     const headers: Record<string, string> = {
       'Content-Type': 'application/json',
       ...(options.headers as Record<string, string>),
@@ -210,7 +210,7 @@ class ApiClient {
       }
 
       const data: ApiResponse<T> = await response.json();
-      
+
       if (!response.ok && !data.error) {
         data.success = false;
         data.error = {
@@ -232,7 +232,10 @@ class ApiClient {
   }
 
   // HTTP methods
-  async get<T>(endpoint: string, params?: Record<string, string | number | boolean>): Promise<ApiResponse<T>> {
+  async get<T>(
+    endpoint: string,
+    params?: Record<string, string | number | boolean>
+  ): Promise<ApiResponse<T>> {
     let url = endpoint;
     if (params) {
       const searchParams = new URLSearchParams();
@@ -285,12 +288,14 @@ export function onAuthChange(listener: AuthListener): () => void {
   authListeners.push(listener);
   return () => {
     const index = authListeners.indexOf(listener);
-    if (index > -1) {authListeners.splice(index, 1);}
+    if (index > -1) {
+      authListeners.splice(index, 1);
+    }
   };
 }
 
 function notifyAuthChange(isAuthenticated: boolean): void {
-  authListeners.forEach(listener => listener(isAuthenticated));
+  authListeners.forEach((listener) => listener(isAuthenticated));
 }
 
 // Export convenience methods

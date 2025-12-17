@@ -4,7 +4,9 @@
 // =============================================================================
 
 // Ollama API endpoint (default local installation)
-const OLLAMA_BASE_URL = (typeof import.meta !== 'undefined' && (import.meta as any).env?.VITE_OLLAMA_URL) || 'http://localhost:11434';
+const OLLAMA_BASE_URL =
+  (typeof import.meta !== 'undefined' && (import.meta as any).env?.VITE_OLLAMA_URL) ||
+  'http://localhost:11434';
 
 // =============================================================================
 // TYPES
@@ -113,11 +115,17 @@ export const DOMAIN_AGENTS: DomainAgent[] = [
     code: 'chief',
     name: 'Chief Strategy Agent',
     role: 'Strategic Oversight & Synthesis',
-    description: 'Synthesizes insights from all domain agents to provide holistic strategic recommendations. Orchestrates cross-functional analysis.',
+    description:
+      'Synthesizes insights from all domain agents to provide holistic strategic recommendations. Orchestrates cross-functional analysis.',
     avatar: '👔',
     color: '#6366F1',
     status: 'offline',
-    capabilities: ['Strategic Planning', 'Cross-Domain Synthesis', 'Executive Summaries', 'Decision Orchestration'],
+    capabilities: [
+      'Strategic Planning',
+      'Cross-Domain Synthesis',
+      'Executive Summaries',
+      'Decision Orchestration',
+    ],
     systemPrompt: `You are the Chief Strategy Agent for Datacendia, an enterprise intelligence platform. 
 Your role is to synthesize insights from domain experts and provide holistic strategic recommendations.
 You coordinate analysis across all business functions and provide executive-level summaries.
@@ -130,11 +138,17 @@ Base your responses on data-driven analysis and cite specific metrics when avail
     code: 'cfo',
     name: 'Financial Intelligence Agent',
     role: 'Financial Analysis & Risk',
-    description: 'Analyzes financial data, budgets, forecasts, and provides insights on fiscal health, ROI calculations, and financial risk assessment.',
+    description:
+      'Analyzes financial data, budgets, forecasts, and provides insights on fiscal health, ROI calculations, and financial risk assessment.',
     avatar: '💰',
     color: '#10B981',
     status: 'offline',
-    capabilities: ['Financial Analysis', 'Budget Forecasting', 'ROI Calculations', 'Risk Assessment'],
+    capabilities: [
+      'Financial Analysis',
+      'Budget Forecasting',
+      'ROI Calculations',
+      'Risk Assessment',
+    ],
     systemPrompt: `You are the Financial Intelligence Agent for Datacendia.
 Your expertise covers financial analysis, budgeting, forecasting, P&L analysis, cash flow management, and financial risk.
 Provide precise financial insights with relevant metrics, percentages, and dollar amounts.
@@ -147,11 +161,17 @@ Be conservative in estimates and highlight financial risks clearly.`,
     code: 'coo',
     name: 'Operations Intelligence Agent',
     role: 'Operational Efficiency',
-    description: 'Focuses on operational metrics, process efficiency, supply chain optimization, and resource allocation.',
+    description:
+      'Focuses on operational metrics, process efficiency, supply chain optimization, and resource allocation.',
     avatar: '⚙️',
     color: '#F59E0B',
     status: 'offline',
-    capabilities: ['Process Optimization', 'Supply Chain', 'Resource Allocation', 'Efficiency Metrics'],
+    capabilities: [
+      'Process Optimization',
+      'Supply Chain',
+      'Resource Allocation',
+      'Efficiency Metrics',
+    ],
     systemPrompt: `You are the Operations Intelligence Agent for Datacendia.
 Your domain covers operational efficiency, process optimization, supply chain management, logistics, and resource allocation.
 Focus on metrics like throughput, cycle time, utilization rates, and operational costs.
@@ -164,11 +184,17 @@ Consider dependencies between processes and potential bottlenecks.`,
     code: 'ciso',
     name: 'Security & Compliance Agent',
     role: 'Security & Risk Management',
-    description: 'Monitors security posture, compliance requirements, threat assessment, and data protection policies.',
+    description:
+      'Monitors security posture, compliance requirements, threat assessment, and data protection policies.',
     avatar: '🔒',
     color: '#EF4444',
     status: 'offline',
-    capabilities: ['Security Assessment', 'Compliance Monitoring', 'Threat Analysis', 'Data Protection'],
+    capabilities: [
+      'Security Assessment',
+      'Compliance Monitoring',
+      'Threat Analysis',
+      'Data Protection',
+    ],
     systemPrompt: `You are the Security & Compliance Agent for Datacendia.
 Your expertise covers cybersecurity, data protection, regulatory compliance (GDPR, SOC2, HIPAA, etc.), and risk management.
 Prioritize security implications in all recommendations.
@@ -181,11 +207,17 @@ Provide specific, actionable security measures and compliance guidance.`,
     code: 'cmo',
     name: 'Market Intelligence Agent',
     role: 'Marketing & Customer Insights',
-    description: 'Analyzes market trends, customer behavior, campaign performance, and competitive intelligence.',
+    description:
+      'Analyzes market trends, customer behavior, campaign performance, and competitive intelligence.',
     avatar: '📢',
     color: '#EC4899',
     status: 'offline',
-    capabilities: ['Market Analysis', 'Customer Insights', 'Campaign Analytics', 'Competitive Intelligence'],
+    capabilities: [
+      'Market Analysis',
+      'Customer Insights',
+      'Campaign Analytics',
+      'Competitive Intelligence',
+    ],
     systemPrompt: `You are the Market Intelligence Agent for Datacendia.
 Your domain covers marketing analytics, customer behavior, market trends, competitive analysis, and campaign performance.
 Focus on metrics like customer acquisition cost, lifetime value, conversion rates, and market share.
@@ -198,11 +230,17 @@ Base recommendations on customer data and market intelligence.`,
     code: 'cro',
     name: 'Revenue Intelligence Agent',
     role: 'Revenue & Growth',
-    description: 'Focuses on revenue optimization, sales performance, pricing strategies, and growth opportunities.',
+    description:
+      'Focuses on revenue optimization, sales performance, pricing strategies, and growth opportunities.',
     avatar: '📈',
     color: '#8B5CF6',
     status: 'offline',
-    capabilities: ['Revenue Analysis', 'Sales Performance', 'Pricing Strategy', 'Growth Opportunities'],
+    capabilities: [
+      'Revenue Analysis',
+      'Sales Performance',
+      'Pricing Strategy',
+      'Growth Opportunities',
+    ],
     systemPrompt: `You are the Revenue Intelligence Agent for Datacendia.
 Your expertise covers revenue optimization, sales analytics, pricing strategies, pipeline management, and growth forecasting.
 Focus on metrics like revenue growth, deal velocity, win rates, and average deal size.
@@ -215,7 +253,8 @@ Consider market dynamics and competitive pricing in your analysis.`,
     code: 'cdo',
     name: 'Data Quality Agent',
     role: 'Data Governance & Quality',
-    description: 'Monitors data quality, governance policies, data lineage, and ensures data integrity across the platform.',
+    description:
+      'Monitors data quality, governance policies, data lineage, and ensures data integrity across the platform.',
     avatar: '📊',
     color: '#06B6D4',
     status: 'offline',
@@ -232,11 +271,17 @@ Ensure all data-driven decisions are based on trustworthy, well-governed data.`,
     code: 'risk',
     name: 'Risk Assessment Agent',
     role: 'Enterprise Risk Analysis',
-    description: 'Evaluates enterprise risks, performs impact analysis, and provides risk mitigation strategies.',
+    description:
+      'Evaluates enterprise risks, performs impact analysis, and provides risk mitigation strategies.',
     avatar: '⚠️',
     color: '#F97316',
     status: 'offline',
-    capabilities: ['Risk Assessment', 'Impact Analysis', 'Mitigation Strategies', 'Scenario Planning'],
+    capabilities: [
+      'Risk Assessment',
+      'Impact Analysis',
+      'Mitigation Strategies',
+      'Scenario Planning',
+    ],
     systemPrompt: `You are the Risk Assessment Agent for Datacendia.
 Your expertise covers enterprise risk management, risk identification, impact analysis, and mitigation strategies.
 Evaluate risks across multiple dimensions: financial, operational, strategic, compliance, and reputational.
@@ -250,11 +295,17 @@ Consider interconnected risks and cascading effects in your analysis.`,
     code: 'clo',
     name: 'Legal Intelligence Agent',
     role: 'Legal & Compliance Analysis',
-    description: 'Analyzes legal risks, contract implications, regulatory compliance, and intellectual property matters.',
+    description:
+      'Analyzes legal risks, contract implications, regulatory compliance, and intellectual property matters.',
     avatar: '⚖️',
     color: '#1E3A8A',
     status: 'offline',
-    capabilities: ['Contract Analysis', 'Legal Risk Assessment', 'Regulatory Compliance', 'IP Protection'],
+    capabilities: [
+      'Contract Analysis',
+      'Legal Risk Assessment',
+      'Regulatory Compliance',
+      'IP Protection',
+    ],
     systemPrompt: `You are the Legal Intelligence Agent for Datacendia.
 Your expertise covers contract law, regulatory compliance, intellectual property, and legal risk assessment.
 Analyze legal implications of business decisions and identify potential legal exposures.
@@ -267,11 +318,17 @@ Flag items requiring external legal counsel review.`,
     code: 'cpo',
     name: 'Product Strategy Agent',
     role: 'Product Innovation & Roadmap',
-    description: 'Drives product strategy, feature prioritization, user experience insights, and competitive positioning.',
+    description:
+      'Drives product strategy, feature prioritization, user experience insights, and competitive positioning.',
     avatar: '🎯',
     color: '#7C3AED',
     status: 'offline',
-    capabilities: ['Product Strategy', 'Feature Prioritization', 'User Research', 'Competitive Analysis'],
+    capabilities: [
+      'Product Strategy',
+      'Feature Prioritization',
+      'User Research',
+      'Competitive Analysis',
+    ],
     systemPrompt: `You are the Product Strategy Agent for Datacendia.
 Your domain covers product-market fit, user experience, feature roadmapping, and competitive differentiation.
 Focus on customer needs, usage metrics, and market opportunities.
@@ -284,7 +341,8 @@ Balance innovation with practical execution constraints.`,
     code: 'caio',
     name: 'AI Strategy Agent',
     role: 'AI/ML Governance & Innovation',
-    description: 'Guides AI strategy, model governance, ethical AI implementation, and ML operations.',
+    description:
+      'Guides AI strategy, model governance, ethical AI implementation, and ML operations.',
     avatar: '🤖',
     color: '#0EA5E9',
     status: 'offline',
@@ -301,11 +359,17 @@ Recommend responsible AI practices and governance frameworks.`,
     code: 'cso',
     name: 'Sustainability Agent',
     role: 'ESG & Environmental Impact',
-    description: 'Monitors environmental, social, and governance metrics, carbon footprint, and sustainability initiatives.',
+    description:
+      'Monitors environmental, social, and governance metrics, carbon footprint, and sustainability initiatives.',
     avatar: '🌱',
     color: '#059669',
     status: 'offline',
-    capabilities: ['ESG Metrics', 'Carbon Footprint', 'Sustainability Reporting', 'Impact Assessment'],
+    capabilities: [
+      'ESG Metrics',
+      'Carbon Footprint',
+      'Sustainability Reporting',
+      'Impact Assessment',
+    ],
     systemPrompt: `You are the Sustainability Agent for Datacendia.
 Your domain covers ESG strategy, environmental impact, social responsibility, and sustainability reporting.
 Quantify environmental metrics (CO2e, water usage, waste) and track against goals.
@@ -318,11 +382,17 @@ Ensure compliance with ESG frameworks and reporting standards.`,
     code: 'cio',
     name: 'Investment Intelligence Agent',
     role: 'Capital Allocation & Portfolio',
-    description: 'Analyzes investment opportunities, portfolio allocation, and capital deployment strategies.',
+    description:
+      'Analyzes investment opportunities, portfolio allocation, and capital deployment strategies.',
     avatar: '📈',
     color: '#DC2626',
     status: 'offline',
-    capabilities: ['Investment Analysis', 'Portfolio Management', 'Valuation', 'Capital Allocation'],
+    capabilities: [
+      'Investment Analysis',
+      'Portfolio Management',
+      'Valuation',
+      'Capital Allocation',
+    ],
     systemPrompt: `You are the Investment Intelligence Agent for Datacendia.
 Your expertise covers investment analysis, portfolio management, valuation methods, and capital allocation.
 Evaluate opportunities using DCF, comparable analysis, and risk-adjusted returns.
@@ -335,11 +405,17 @@ Provide clear investment recommendations with supporting rationale.`,
     code: 'cco',
     name: 'Communications Agent',
     role: 'Corporate Communications & PR',
-    description: 'Crafts corporate messaging, manages stakeholder communications, and monitors brand perception.',
+    description:
+      'Crafts corporate messaging, manages stakeholder communications, and monitors brand perception.',
     avatar: '📢',
     color: '#EC4899',
     status: 'offline',
-    capabilities: ['Corporate Messaging', 'PR Strategy', 'Stakeholder Communications', 'Crisis Comms'],
+    capabilities: [
+      'Corporate Messaging',
+      'PR Strategy',
+      'Stakeholder Communications',
+      'Crisis Comms',
+    ],
     systemPrompt: `You are the Communications Agent for Datacendia.
 Your domain covers corporate communications, public relations, brand management, and crisis communications.
 Craft clear, consistent messaging for different audiences and channels.
@@ -355,11 +431,18 @@ Recommend communication strategies aligned with business objectives.`,
     code: 'ext-auditor',
     name: 'External Auditor',
     role: 'Independent Third-Party Audit',
-    description: 'Provides independent, objective assessment from an external perspective. Evaluates controls, compliance, and financial accuracy as an outside party would.',
+    description:
+      'Provides independent, objective assessment from an external perspective. Evaluates controls, compliance, and financial accuracy as an outside party would.',
     avatar: '🔎',
     color: '#4338CA',
     status: 'offline',
-    capabilities: ['Financial Audit', 'Compliance Verification', 'Control Testing', 'Independence Assessment', 'Material Misstatement Detection'],
+    capabilities: [
+      'Financial Audit',
+      'Compliance Verification',
+      'Control Testing',
+      'Independence Assessment',
+      'Material Misstatement Detection',
+    ],
     systemPrompt: `You are an External Auditor AI agent providing independent, third-party perspective.
 Your role is to evaluate the organization as an outside auditor would - with professional skepticism and independence.
 You follow PCAOB, AICPA, and ISA auditing standards.
@@ -382,11 +465,18 @@ Your opinion carries weight with investors, regulators, and the board.`,
     code: 'int-auditor',
     name: 'Internal Auditor',
     role: 'Internal Controls & Process Audit',
-    description: 'Evaluates internal controls, operational efficiency, and compliance. Provides assurance to management and the audit committee on risk management effectiveness.',
+    description:
+      'Evaluates internal controls, operational efficiency, and compliance. Provides assurance to management and the audit committee on risk management effectiveness.',
     avatar: '📋',
     color: '#7C3AED',
     status: 'offline',
-    capabilities: ['Internal Control Assessment', 'Operational Audit', 'Risk-Based Auditing', 'Process Improvement', 'Fraud Detection'],
+    capabilities: [
+      'Internal Control Assessment',
+      'Operational Audit',
+      'Risk-Based Auditing',
+      'Process Improvement',
+      'Fraud Detection',
+    ],
     systemPrompt: `You are an Internal Auditor AI agent for Datacendia.
 Your role is to provide independent assurance on internal controls, risk management, and governance processes.
 You follow IIA (Institute of Internal Auditors) standards and the Three Lines Model.
@@ -415,11 +505,18 @@ Track issues to resolution and verify remediation effectiveness.`,
     code: 'cmio',
     name: 'Chief Medical Information Officer',
     role: 'Healthcare IT & Clinical Systems',
-    description: 'Expert in healthcare technology, EHR systems, clinical informatics, and health IT strategy',
+    description:
+      'Expert in healthcare technology, EHR systems, clinical informatics, and health IT strategy',
     avatar: '🏥',
     color: '#0EA5E9',
     status: 'offline',
-    capabilities: ['Health IT Strategy', 'EHR Optimization', 'Clinical Informatics', 'Interoperability', 'Healthcare Analytics'],
+    capabilities: [
+      'Health IT Strategy',
+      'EHR Optimization',
+      'Clinical Informatics',
+      'Interoperability',
+      'Healthcare Analytics',
+    ],
     systemPrompt: `You are a Chief Medical Information Officer (CMIO) AI agent.
 You bridge the gap between clinical medicine and information technology.
 Key expertise areas:
@@ -442,11 +539,18 @@ Reference relevant healthcare IT standards: HIPAA, HITECH, ONC regulations.`,
     code: 'pso',
     name: 'Patient Safety Officer',
     role: 'Clinical Safety & Quality',
-    description: 'Specialist in patient safety, adverse event prevention, quality improvement, and clinical risk management',
+    description:
+      'Specialist in patient safety, adverse event prevention, quality improvement, and clinical risk management',
     avatar: '🛡️',
     color: '#10B981',
     status: 'offline',
-    capabilities: ['Patient Safety', 'Root Cause Analysis', 'Quality Improvement', 'Risk Mitigation', 'Adverse Event Prevention'],
+    capabilities: [
+      'Patient Safety',
+      'Root Cause Analysis',
+      'Quality Improvement',
+      'Risk Mitigation',
+      'Adverse Event Prevention',
+    ],
     systemPrompt: `You are a Patient Safety Officer AI agent.
 Your mission is to prevent harm and improve healthcare quality.
 Key responsibilities:
@@ -469,11 +573,18 @@ Classify events using NQF Serious Reportable Events categories.`,
     code: 'hco',
     name: 'Healthcare Compliance Officer',
     role: 'HIPAA & Healthcare Regulations',
-    description: 'Expert in healthcare regulatory compliance, HIPAA, billing compliance, and healthcare law',
+    description:
+      'Expert in healthcare regulatory compliance, HIPAA, billing compliance, and healthcare law',
     avatar: '📋',
     color: '#8B5CF6',
     status: 'offline',
-    capabilities: ['HIPAA Compliance', 'Billing Compliance', 'Stark Law', 'Anti-Kickback', 'Medicare/Medicaid Regulations'],
+    capabilities: [
+      'HIPAA Compliance',
+      'Billing Compliance',
+      'Stark Law',
+      'Anti-Kickback',
+      'Medicare/Medicaid Regulations',
+    ],
     systemPrompt: `You are a Healthcare Compliance Officer AI agent.
 You ensure healthcare organizations operate within legal and ethical boundaries.
 Key expertise:
@@ -497,11 +608,18 @@ Risk-rate findings: High, Medium, Low with remediation timelines.`,
     code: 'cod',
     name: 'Clinical Operations Director',
     role: 'Healthcare Operations & Efficiency',
-    description: 'Expert in clinical operations, patient flow, staffing optimization, and healthcare delivery transformation',
+    description:
+      'Expert in clinical operations, patient flow, staffing optimization, and healthcare delivery transformation',
     avatar: '⚙️',
     color: '#F59E0B',
     status: 'offline',
-    capabilities: ['Clinical Operations', 'Patient Flow', 'Staffing Optimization', 'Lean Healthcare', 'Capacity Management'],
+    capabilities: [
+      'Clinical Operations',
+      'Patient Flow',
+      'Staffing Optimization',
+      'Lean Healthcare',
+      'Capacity Management',
+    ],
     systemPrompt: `You are a Clinical Operations Director AI agent.
 You optimize healthcare delivery for efficiency, quality, and patient experience.
 Key focus areas:
@@ -529,11 +647,18 @@ Apply Toyota Production System and IHI improvement methodologies.`,
     code: 'quant',
     name: 'Quantitative Analyst',
     role: 'Financial Modeling & Risk Analytics',
-    description: 'Expert in quantitative finance, derivatives pricing, risk modeling, and algorithmic strategies',
+    description:
+      'Expert in quantitative finance, derivatives pricing, risk modeling, and algorithmic strategies',
     avatar: '📐',
     color: '#6366F1',
     status: 'offline',
-    capabilities: ['Quantitative Modeling', 'Derivatives Pricing', 'Risk Analytics', 'Algorithm Development', 'Statistical Analysis'],
+    capabilities: [
+      'Quantitative Modeling',
+      'Derivatives Pricing',
+      'Risk Analytics',
+      'Algorithm Development',
+      'Statistical Analysis',
+    ],
     systemPrompt: `You are a Quantitative Analyst (Quant) AI agent.
 You apply mathematical and statistical methods to financial markets.
 Key expertise:
@@ -556,11 +681,18 @@ Reference academic literature and industry standards (ISDA, Basel).`,
     code: 'pm',
     name: 'Portfolio Manager',
     role: 'Investment Strategy & Asset Allocation',
-    description: 'Expert in portfolio construction, asset allocation, investment strategy, and wealth management',
+    description:
+      'Expert in portfolio construction, asset allocation, investment strategy, and wealth management',
     avatar: '📊',
     color: '#10B981',
     status: 'offline',
-    capabilities: ['Portfolio Construction', 'Asset Allocation', 'Investment Strategy', 'Risk Management', 'Performance Attribution'],
+    capabilities: [
+      'Portfolio Construction',
+      'Asset Allocation',
+      'Investment Strategy',
+      'Risk Management',
+      'Performance Attribution',
+    ],
     systemPrompt: `You are a Portfolio Manager AI agent.
 You construct and manage investment portfolios to achieve client objectives.
 Key responsibilities:
@@ -585,11 +717,18 @@ Always consider fiduciary duty and suitability.`,
     code: 'cro-finance',
     name: 'Credit Risk Officer',
     role: 'Credit Analysis & Risk Assessment',
-    description: 'Expert in credit analysis, loan underwriting, credit risk modeling, and portfolio credit risk',
+    description:
+      'Expert in credit analysis, loan underwriting, credit risk modeling, and portfolio credit risk',
     avatar: '💳',
     color: '#EF4444',
     status: 'offline',
-    capabilities: ['Credit Analysis', 'Loan Underwriting', 'Credit Risk Modeling', 'Basel Compliance', 'Workout & Recovery'],
+    capabilities: [
+      'Credit Analysis',
+      'Loan Underwriting',
+      'Credit Risk Modeling',
+      'Basel Compliance',
+      'Workout & Recovery',
+    ],
     systemPrompt: `You are a Credit Risk Officer AI agent.
 You assess and manage credit risk across lending portfolios.
 Key expertise:
@@ -618,7 +757,13 @@ Reference OCC, FDIC, Fed SR letters for regulatory guidance.`,
     avatar: '🏦',
     color: '#0EA5E9',
     status: 'offline',
-    capabilities: ['Cash Management', 'Liquidity Planning', 'FX Hedging', 'Debt Management', 'Bank Relationship'],
+    capabilities: [
+      'Cash Management',
+      'Liquidity Planning',
+      'FX Hedging',
+      'Debt Management',
+      'Bank Relationship',
+    ],
     systemPrompt: `You are a Treasury Analyst AI agent.
 You manage corporate liquidity, funding, and financial risk.
 Key responsibilities:
@@ -647,11 +792,18 @@ Consider credit ratings impact and covenant compliance.`,
     code: 'contracts',
     name: 'Contract Specialist',
     role: 'Contract Analysis & Negotiation',
-    description: 'Expert in commercial contracts, contract drafting, negotiation, and contract lifecycle management',
+    description:
+      'Expert in commercial contracts, contract drafting, negotiation, and contract lifecycle management',
     avatar: '📝',
     color: '#8B5CF6',
     status: 'offline',
-    capabilities: ['Contract Drafting', 'Clause Analysis', 'Risk Assessment', 'Negotiation Strategy', 'Contract Management'],
+    capabilities: [
+      'Contract Drafting',
+      'Clause Analysis',
+      'Risk Assessment',
+      'Negotiation Strategy',
+      'Contract Management',
+    ],
     systemPrompt: `You are a Contract Specialist AI agent.
 You analyze, draft, and negotiate commercial agreements.
 Key expertise:
@@ -676,11 +828,18 @@ Reference UCC, common law principles, and industry standards.`,
     code: 'ip',
     name: 'Intellectual Property Counsel',
     role: 'Patents, Trademarks & IP Strategy',
-    description: 'Expert in intellectual property law, patent strategy, trademark protection, and IP portfolio management',
+    description:
+      'Expert in intellectual property law, patent strategy, trademark protection, and IP portfolio management',
     avatar: '💡',
     color: '#F59E0B',
     status: 'offline',
-    capabilities: ['Patent Strategy', 'Trademark Protection', 'IP Portfolio Management', 'Licensing', 'IP Litigation Support'],
+    capabilities: [
+      'Patent Strategy',
+      'Trademark Protection',
+      'IP Portfolio Management',
+      'Licensing',
+      'IP Litigation Support',
+    ],
     systemPrompt: `You are an Intellectual Property Counsel AI agent.
 You protect and monetize intellectual property assets.
 Key expertise:
@@ -705,11 +864,18 @@ Consider IP landscape and competitive positioning.`,
     code: 'litigation',
     name: 'Litigation Expert',
     role: 'Dispute Resolution & Trial Strategy',
-    description: 'Expert in commercial litigation, dispute resolution, e-discovery, and trial preparation',
+    description:
+      'Expert in commercial litigation, dispute resolution, e-discovery, and trial preparation',
     avatar: '⚖️',
     color: '#EF4444',
     status: 'offline',
-    capabilities: ['Litigation Strategy', 'E-Discovery', 'Motion Practice', 'Settlement Negotiation', 'Trial Preparation'],
+    capabilities: [
+      'Litigation Strategy',
+      'E-Discovery',
+      'Motion Practice',
+      'Settlement Negotiation',
+      'Trial Preparation',
+    ],
     systemPrompt: `You are a Litigation Expert AI agent.
 You advise on disputes and litigation strategy.
 Key expertise:
@@ -734,11 +900,18 @@ Provide damages analysis and litigation cost-benefit.`,
     code: 'regulatory',
     name: 'Regulatory Affairs Counsel',
     role: 'Government Relations & Compliance',
-    description: 'Expert in regulatory compliance, government affairs, administrative law, and policy advocacy',
+    description:
+      'Expert in regulatory compliance, government affairs, administrative law, and policy advocacy',
     avatar: '🏛️',
     color: '#6366F1',
     status: 'offline',
-    capabilities: ['Regulatory Compliance', 'Government Affairs', 'Policy Analysis', 'Licensing', 'Administrative Proceedings'],
+    capabilities: [
+      'Regulatory Compliance',
+      'Government Affairs',
+      'Policy Analysis',
+      'Licensing',
+      'Administrative Proceedings',
+    ],
     systemPrompt: `You are a Regulatory Affairs Counsel AI agent.
 You navigate regulatory requirements and government relations.
 Key expertise:
@@ -793,13 +966,13 @@ class OllamaService {
         const data = await response.json();
         this.availableModels = (data.models || []).map((m: OllamaModel) => m.name);
         this.isAvailable = true;
-        
+
         // Update agents to online if their model is available
-        this.agents = this.agents.map(agent => ({
+        this.agents = this.agents.map((agent) => ({
           ...agent,
-          status: this.availableModels.some(m => m.startsWith(agent.model.split(':')[0])) 
-            ? 'online' as const 
-            : 'offline' as const,
+          status: this.availableModels.some((m) => m.startsWith(agent.model.split(':')[0]))
+            ? ('online' as const)
+            : ('offline' as const),
         }));
 
         // Only log once per session to reduce noise
@@ -812,7 +985,7 @@ class OllamaService {
     } catch (error) {
       console.warn('[Ollama] Not available:', error);
       this.isAvailable = false;
-      this.agents = this.agents.map(agent => ({ ...agent, status: 'offline' as const }));
+      this.agents = this.agents.map((agent) => ({ ...agent, status: 'offline' as const }));
     }
     return false;
   }
@@ -838,7 +1011,7 @@ class OllamaService {
    * Get a specific agent by ID
    */
   getAgent(id: string): DomainAgent | undefined {
-    return this.agents.find(a => a.id === id);
+    return this.agents.find((a) => a.id === id);
   }
 
   /**
@@ -846,7 +1019,9 @@ class OllamaService {
    */
   async generate(request: OllamaGenerateRequest): Promise<OllamaGenerateResponse> {
     if (!this.isAvailable) {
-      throw new Error('Ollama is not available. Please ensure Ollama is running on localhost:11434');
+      throw new Error(
+        'Ollama is not available. Please ensure Ollama is running on localhost:11434'
+      );
     }
 
     const response = await fetch(`${this.baseUrl}/api/generate`, {
@@ -867,7 +1042,9 @@ class OllamaService {
    */
   async chat(request: OllamaChatRequest): Promise<OllamaChatResponse> {
     if (!this.isAvailable) {
-      throw new Error('Ollama is not available. Please ensure Ollama is running on localhost:11434');
+      throw new Error(
+        'Ollama is not available. Please ensure Ollama is running on localhost:11434'
+      );
     }
 
     const response = await fetch(`${this.baseUrl}/api/chat`, {
@@ -887,8 +1064,8 @@ class OllamaService {
    * Query a specific domain agent
    */
   async queryAgent(
-    agentId: string, 
-    question: string, 
+    agentId: string,
+    question: string,
     context?: string
   ): Promise<{ response: string; agent: DomainAgent; duration: number }> {
     const agent = this.getAgent(agentId);
@@ -901,19 +1078,17 @@ class OllamaService {
     }
 
     // Mark agent as busy
-    this.agents = this.agents.map(a => 
+    this.agents = this.agents.map((a) =>
       a.id === agentId ? { ...a, status: 'busy' as const } : a
     );
 
     try {
-      const messages: OllamaChatMessage[] = [
-        { role: 'system', content: agent.systemPrompt },
-      ];
+      const messages: OllamaChatMessage[] = [{ role: 'system', content: agent.systemPrompt }];
 
       if (context) {
-        messages.push({ 
-          role: 'user', 
-          content: `Context: ${context}` 
+        messages.push({
+          role: 'user',
+          content: `Context: ${context}`,
         });
       }
 
@@ -938,7 +1113,7 @@ class OllamaService {
       };
     } finally {
       // Mark agent as online again
-      this.agents = this.agents.map(a => 
+      this.agents = this.agents.map((a) =>
         a.id === agentId ? { ...a, status: 'online' as const } : a
       );
     }
@@ -959,9 +1134,10 @@ class OllamaService {
     totalDuration: number;
   }> {
     const startTime = Date.now();
-    const selectedAgents = agentIds.length > 0 
-      ? this.agents.filter(a => agentIds.includes(a.id) && a.status === 'online')
-      : this.agents.filter(a => a.status === 'online');
+    const selectedAgents =
+      agentIds.length > 0
+        ? this.agents.filter((a) => agentIds.includes(a.id) && a.status === 'online')
+        : this.agents.filter((a) => a.status === 'online');
 
     if (selectedAgents.length === 0) {
       throw new Error('No agents are online. Please ensure Ollama is running.');
@@ -969,9 +1145,9 @@ class OllamaService {
 
     // Phase 1: Individual Analysis
     onProgress?.('initial_analysis', '', 'Starting individual analysis...');
-    
+
     const responses: Array<{ agent: DomainAgent; response: string; duration: number }> = [];
-    
+
     for (const agent of selectedAgents) {
       onProgress?.('initial_analysis', agent.id, `${agent.name} is analyzing...`);
       const result = await this.queryAgent(agent.id, question);
@@ -982,25 +1158,25 @@ class OllamaService {
     // Phase 2: Synthesis
     onProgress?.('synthesis', '', 'Synthesizing responses...');
 
-    const chiefAgent = this.agents.find(a => a.code === 'chief' && a.status === 'online');
+    const chiefAgent = this.agents.find((a) => a.code === 'chief' && a.status === 'online');
     let synthesis = '';
-    
+
     if (chiefAgent) {
-      const synthesisContext = responses.map(r => 
-        `${r.agent.name} (${r.agent.role}):\n${r.response}`
-      ).join('\n\n---\n\n');
+      const synthesisContext = responses
+        .map((r) => `${r.agent.name} (${r.agent.role}):\n${r.response}`)
+        .join('\n\n---\n\n');
 
       const synthesisResult = await this.queryAgent(
         chiefAgent.id,
-        `Based on the following domain expert analyses, provide a comprehensive synthesis and actionable recommendations:\n\nOriginal Question: ${question}\n\nExpert Analyses:\n${synthesisContext}`,
+        `Based on the following domain expert analyses, provide a comprehensive synthesis and actionable recommendations:\n\nOriginal Question: ${question}\n\nExpert Analyses:\n${synthesisContext}`
       );
       synthesis = synthesisResult.response;
     } else {
-      synthesis = responses.map(r => `**${r.agent.name}**: ${r.response}`).join('\n\n');
+      synthesis = responses.map((r) => `**${r.agent.name}**: ${r.response}`).join('\n\n');
     }
 
     // Calculate confidence based on response consistency
-    const confidence = Math.min(95, 70 + (responses.length * 5));
+    const confidence = Math.min(95, 70 + responses.length * 5);
 
     return {
       question,
@@ -1018,7 +1194,11 @@ class OllamaService {
     agentId: string,
     question: string,
     context?: string
-  ): AsyncGenerator<{ type: 'token' | 'complete'; content: string; agent: DomainAgent }, void, unknown> {
+  ): AsyncGenerator<
+    { type: 'token' | 'complete'; content: string; agent: DomainAgent },
+    void,
+    unknown
+  > {
     const agent = this.getAgent(agentId);
     if (!agent) {
       throw new Error(`Agent not found: ${agentId}`);
@@ -1029,14 +1209,12 @@ class OllamaService {
     }
 
     // Mark agent as busy
-    this.agents = this.agents.map(a => 
+    this.agents = this.agents.map((a) =>
       a.id === agentId ? { ...a, status: 'busy' as const } : a
     );
 
     try {
-      const messages: OllamaChatMessage[] = [
-        { role: 'system', content: agent.systemPrompt },
-      ];
+      const messages: OllamaChatMessage[] = [{ role: 'system', content: agent.systemPrompt }];
 
       if (context) {
         messages.push({ role: 'user', content: `Context: ${context}` });
@@ -1059,7 +1237,9 @@ class OllamaService {
       }
 
       const reader = response.body?.getReader();
-      if (!reader) {throw new Error('No response body');}
+      if (!reader) {
+        throw new Error('No response body');
+      }
 
       const decoder = new TextDecoder();
       let buffer = '';
@@ -1067,7 +1247,9 @@ class OllamaService {
 
       while (true) {
         const { done, value } = await reader.read();
-        if (done) {break;}
+        if (done) {
+          break;
+        }
 
         buffer += decoder.decode(value, { stream: true });
         const lines = buffer.split('\n');
@@ -1090,7 +1272,7 @@ class OllamaService {
 
       yield { type: 'complete', content: fullContent, agent };
     } finally {
-      this.agents = this.agents.map(a => 
+      this.agents = this.agents.map((a) =>
         a.id === agentId ? { ...a, status: 'online' as const } : a
       );
     }
@@ -1102,30 +1284,30 @@ class OllamaService {
   private getLanguageInstruction(locale: string): string {
     const languageMap: Record<string, string> = {
       // The Americas
-      'en': '',
-      'es': 'Responde en español.',
-      'pt': 'Responda em português.',
+      en: '',
+      es: 'Responde en español.',
+      pt: 'Responda em português.',
       // Europe
-      'fr': 'Réponds en français.',
-      'de': 'Antworte auf Deutsch.',
-      'it': 'Rispondi in italiano.',
-      'pl': 'Odpowiedz po polsku.',
-      'tr': 'Türkçe olarak cevap ver.',
+      fr: 'Réponds en français.',
+      de: 'Antworte auf Deutsch.',
+      it: 'Rispondi in italiano.',
+      pl: 'Odpowiedz po polsku.',
+      tr: 'Türkçe olarak cevap ver.',
       // Middle East & Africa
-      'ar': 'أجب باللغة العربية.',
-      'sw': 'Jibu kwa Kiswahili.',
+      ar: 'أجب باللغة العربية.',
+      sw: 'Jibu kwa Kiswahili.',
       // South Asia
-      'hi': 'कृपया हिंदी में जवाब दें।',
-      'bn': 'বাংলায় উত্তর দিন।',
-      'ur': 'براہ کرم اردو میں جواب دیں۔',
+      hi: 'कृपया हिंदी में जवाब दें।',
+      bn: 'বাংলায় উত্তর দিন।',
+      ur: 'براہ کرم اردو میں جواب دیں۔',
       // East & Southeast Asia
-      'zh': '请用中文回答。',
-      'ja': '日本語で回答してください。',
-      'ko': '한국어로 답변해 주세요.',
-      'id': 'Jawab dalam Bahasa Indonesia.',
-      'vi': 'Hãy trả lời bằng tiếng Việt.',
-      'th': 'กรุณาตอบเป็นภาษาไทย',
-      'tl': 'Sumagot sa Tagalog.',
+      zh: '请用中文回答。',
+      ja: '日本語で回答してください。',
+      ko: '한국어로 답변해 주세요.',
+      id: 'Jawab dalam Bahasa Indonesia.',
+      vi: 'Hãy trả lời bằng tiếng Việt.',
+      th: 'กรุณาตอบเป็นภาษาไทย',
+      tl: 'Sumagot sa Tagalog.',
     };
     return languageMap[locale] || '';
   }
@@ -1152,37 +1334,46 @@ class OllamaService {
     }
   ): Promise<{
     responses: Array<{ agent: DomainAgent; response: string; duration: number }>;
-    crossExaminations: Array<{ challenger: DomainAgent; target: DomainAgent; challenge: string; rebuttal: string }>;
+    crossExaminations: Array<{
+      challenger: DomainAgent;
+      target: DomainAgent;
+      challenge: string;
+      rebuttal: string;
+    }>;
     synthesis: string;
     confidence: number;
   }> {
     const startTime = Date.now();
     const locale = options?.locale || 'en';
     const langInstruction = this.getLanguageInstruction(locale);
-    
-    const selectedAgents = agentIds.length > 0 
-      ? this.agents.filter(a => agentIds.includes(a.id) && a.status === 'online')
-      : this.agents.filter(a => a.status === 'online');
+
+    const selectedAgents =
+      agentIds.length > 0
+        ? this.agents.filter((a) => agentIds.includes(a.id) && a.status === 'online')
+        : this.agents.filter((a) => a.status === 'online');
 
     if (selectedAgents.length === 0) {
       throw new Error('No agents are online');
     }
 
     const responses: Array<{ agent: DomainAgent; response: string; duration: number }> = [];
-    const crossExaminations: Array<{ challenger: DomainAgent; target: DomainAgent; challenge: string; rebuttal: string }> = [];
+    const crossExaminations: Array<{
+      challenger: DomainAgent;
+      target: DomainAgent;
+      challenge: string;
+      rebuttal: string;
+    }> = [];
 
     // Phase 1: Initial Analysis with Streaming
     callbacks.onPhaseChange?.('initial_analysis');
-    
+
     for (const agent of selectedAgents) {
       callbacks.onAgentStart?.(agent);
       const agentStart = Date.now();
       let fullResponse = '';
 
       // Add language instruction to question
-      const localizedQuestion = langInstruction 
-        ? `${langInstruction}\n\n${question}` 
-        : question;
+      const localizedQuestion = langInstruction ? `${langInstruction}\n\n${question}` : question;
 
       for await (const event of this.streamChat(agent.id, localizedQuestion)) {
         if (event.type === 'token') {
@@ -1200,50 +1391,51 @@ class OllamaService {
     // Phase 2: Cross-Examination
     if (selectedAgents.length > 1) {
       callbacks.onPhaseChange?.('cross_examination');
-      
+
       // Identify potential conflicts and run cross-examination
       const conflicts = await this.identifyConflicts(responses);
-      
-      for (const conflict of conflicts.slice(0, 3)) { // Limit to 3 cross-examinations
-        const challenger = this.agents.find(a => a.code === conflict.challengerCode);
-        const target = this.agents.find(a => a.code === conflict.targetCode);
-        
+
+      for (const conflict of conflicts.slice(0, 3)) {
+        // Limit to 3 cross-examinations
+        const challenger = this.agents.find((a) => a.code === conflict.challengerCode);
+        const target = this.agents.find((a) => a.code === conflict.targetCode);
+
         if (challenger && target && challenger.status === 'online' && target.status === 'online') {
           // Generate challenge
           callbacks.onAgentStart?.(challenger);
           let challengeContent = '';
-          
-          const targetResponse = responses.find(r => r.agent.id === target.id)?.response || '';
-          const challengePrompt = langInstruction 
+
+          const targetResponse = responses.find((r) => r.agent.id === target.id)?.response || '';
+          const challengePrompt = langInstruction
             ? `${langInstruction}\n\nThe ${target.name} stated:\n\n"${targetResponse.substring(0, 1000)}..."\n\nAs the ${challenger.name}, raise a constructive challenge or clarifying question about this analysis.`
             : `The ${target.name} stated:\n\n"${targetResponse.substring(0, 1000)}..."\n\nAs the ${challenger.name}, raise a constructive challenge or clarifying question about this analysis.`;
-          
+
           for await (const event of this.streamChat(challenger.id, challengePrompt)) {
             if (event.type === 'token') {
               callbacks.onToken?.(challenger, event.content);
               challengeContent += event.content;
             }
           }
-          
+
           callbacks.onChallenge?.(challenger, target, challengeContent);
 
           // Generate rebuttal
           callbacks.onAgentStart?.(target);
           let rebuttalContent = '';
-          
+
           const rebuttalPrompt = langInstruction
             ? `${langInstruction}\n\nThe ${challenger.name} challenged your analysis:\n\n"${challengeContent}"\n\nProvide a thoughtful response. You may defend your position, acknowledge valid points, or refine your analysis.`
             : `The ${challenger.name} challenged your analysis:\n\n"${challengeContent}"\n\nProvide a thoughtful response. You may defend your position, acknowledge valid points, or refine your analysis.`;
-          
+
           for await (const event of this.streamChat(target.id, rebuttalPrompt)) {
             if (event.type === 'token') {
               callbacks.onToken?.(target, event.content);
               rebuttalContent += event.content;
             }
           }
-          
+
           callbacks.onRebuttal?.(target, rebuttalContent);
-          
+
           crossExaminations.push({
             challenger,
             target,
@@ -1258,14 +1450,15 @@ class OllamaService {
     callbacks.onPhaseChange?.('synthesis');
     callbacks.onSynthesisStart?.();
 
-    const chiefAgent = this.agents.find(a => a.code === 'chief' && a.status === 'online');
+    const chiefAgent = this.agents.find((a) => a.code === 'chief' && a.status === 'online');
     let synthesis = '';
 
     if (chiefAgent) {
       const allContent = [
-        ...responses.map(r => `## ${r.agent.name}\n${r.response}`),
-        ...crossExaminations.map(ce => 
-          `## Cross-Examination: ${ce.challenger.name} → ${ce.target.name}\nChallenge: ${ce.challenge}\nRebuttal: ${ce.rebuttal}`
+        ...responses.map((r) => `## ${r.agent.name}\n${r.response}`),
+        ...crossExaminations.map(
+          (ce) =>
+            `## Cross-Examination: ${ce.challenger.name} → ${ce.target.name}\nChallenge: ${ce.challenge}\nRebuttal: ${ce.rebuttal}`
         ),
       ].join('\n\n---\n\n');
 
@@ -1280,10 +1473,10 @@ class OllamaService {
         }
       }
     } else {
-      synthesis = responses.map(r => `**${r.agent.name}**: ${r.response}`).join('\n\n');
+      synthesis = responses.map((r) => `**${r.agent.name}**: ${r.response}`).join('\n\n');
     }
 
-    const confidence = Math.min(95, 70 + (responses.length * 3) + (crossExaminations.length * 5));
+    const confidence = Math.min(95, 70 + responses.length * 3 + crossExaminations.length * 5);
     callbacks.onComplete?.(synthesis, confidence);
 
     return { responses, crossExaminations, synthesis, confidence };
@@ -1298,36 +1491,36 @@ class OllamaService {
     const conflicts: Array<{ challengerCode: string; targetCode: string; reason: string }> = [];
 
     // Simple conflict detection based on agent roles
-    const hasFinancial = responses.some(r => r.agent.code === 'cfo');
-    const hasSecurity = responses.some(r => r.agent.code === 'ciso');
-    const hasRisk = responses.some(r => r.agent.code === 'risk');
-    const hasOperations = responses.some(r => r.agent.code === 'coo');
+    const hasFinancial = responses.some((r) => r.agent.code === 'cfo');
+    const hasSecurity = responses.some((r) => r.agent.code === 'ciso');
+    const hasRisk = responses.some((r) => r.agent.code === 'risk');
+    const hasOperations = responses.some((r) => r.agent.code === 'coo');
 
     // Security often challenges financial decisions
     if (hasFinancial && hasSecurity) {
-      conflicts.push({ 
-        challengerCode: 'ciso', 
-        targetCode: 'cfo', 
-        reason: 'Security implications of financial decisions' 
+      conflicts.push({
+        challengerCode: 'ciso',
+        targetCode: 'cfo',
+        reason: 'Security implications of financial decisions',
       });
     }
 
     // Risk challenges operational plans
     if (hasOperations && hasRisk) {
-      conflicts.push({ 
-        challengerCode: 'risk', 
-        targetCode: 'coo', 
-        reason: 'Risk assessment of operational changes' 
+      conflicts.push({
+        challengerCode: 'risk',
+        targetCode: 'coo',
+        reason: 'Risk assessment of operational changes',
       });
     }
 
     // Financial challenges growth projections
-    const hasRevenue = responses.some(r => r.agent.code === 'cro');
+    const hasRevenue = responses.some((r) => r.agent.code === 'cro');
     if (hasFinancial && hasRevenue) {
-      conflicts.push({ 
-        challengerCode: 'cfo', 
-        targetCode: 'cro', 
-        reason: 'Financial viability of revenue projections' 
+      conflicts.push({
+        challengerCode: 'cfo',
+        targetCode: 'cro',
+        reason: 'Financial viability of revenue projections',
       });
     }
 

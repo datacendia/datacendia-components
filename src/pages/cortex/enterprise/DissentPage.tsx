@@ -5,9 +5,9 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { 
-  dissentService, 
-  Dissent, 
+import {
+  dissentService,
+  Dissent,
   DissenterProfile,
   OrganizationDissentMetrics,
   DissentType,
@@ -30,7 +30,7 @@ const getTimeRemaining = (deadline: Date | string): string => {
   const diff = target.getTime() - now.getTime();
   const hours = Math.floor(diff / (1000 * 60 * 60));
   const days = Math.floor(hours / 24);
-  
+
   if (diff < 0) return 'Overdue';
   if (days > 0) return `${days} days remaining`;
   if (hours > 0) return `${hours} hours remaining`;
@@ -39,13 +39,20 @@ const getTimeRemaining = (deadline: Date | string): string => {
 
 const getStatusColor = (status: Dissent['status']): string => {
   switch (status) {
-    case 'pending': return 'bg-amber-500/20 text-amber-400';
-    case 'acknowledged': return 'bg-blue-500/20 text-blue-400';
-    case 'accepted': return 'bg-green-500/20 text-green-400';
-    case 'overruled': return 'bg-red-500/20 text-red-400';
-    case 'clarification_requested': return 'bg-purple-500/20 text-purple-400';
-    case 'escalated': return 'bg-orange-500/20 text-orange-400';
-    default: return 'bg-white/20 text-white';
+    case 'pending':
+      return 'bg-amber-500/20 text-amber-400';
+    case 'acknowledged':
+      return 'bg-blue-500/20 text-blue-400';
+    case 'accepted':
+      return 'bg-green-500/20 text-green-400';
+    case 'overruled':
+      return 'bg-red-500/20 text-red-400';
+    case 'clarification_requested':
+      return 'bg-purple-500/20 text-purple-400';
+    case 'escalated':
+      return 'bg-orange-500/20 text-orange-400';
+    default:
+      return 'bg-white/20 text-white';
   }
 };
 
@@ -70,7 +77,9 @@ export const DissentPage: React.FC = () => {
   const navigate = useNavigate();
   const [dissents, setDissents] = useState<Dissent[]>([]);
   const [metrics, setMetrics] = useState<OrganizationDissentMetrics | null>(null);
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'file' | 'my-dissents' | 'respond' | 'analytics'>('dashboard');
+  const [activeTab, setActiveTab] = useState<
+    'dashboard' | 'file' | 'my-dissents' | 'respond' | 'analytics'
+  >('dashboard');
   const [isLoading, setIsLoading] = useState(true);
   const [showFileModal, setShowFileModal] = useState(false);
 
@@ -81,7 +90,7 @@ export const DissentPage: React.FC = () => {
         dissentService.getDissents(),
         dissentService.getOrganizationMetrics(),
       ]);
-      
+
       setDissents(dissentsData);
       setMetrics(metricsData);
     } catch (error) {
@@ -97,7 +106,7 @@ export const DissentPage: React.FC = () => {
     dissentService.initializeDemoData().catch(() => {});
   }, [loadData]);
 
-  const activeDissents = dissents.filter(d => d.status === 'pending');
+  const activeDissents = dissents.filter((d) => d.status === 'pending');
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-red-950 to-slate-950 text-white">
@@ -118,7 +127,9 @@ export const DissentPage: React.FC = () => {
                 </div>
                 <div>
                   <h1 className="text-xl font-bold">CendiaDissent™</h1>
-                  <p className="text-sm text-white/60">Formalized, Protected, Immutable Disagreement</p>
+                  <p className="text-sm text-white/60">
+                    Formalized, Protected, Immutable Disagreement
+                  </p>
                 </div>
               </div>
             </div>
@@ -140,10 +151,15 @@ export const DissentPage: React.FC = () => {
           <div className="flex gap-1">
             {[
               { id: 'dashboard', label: 'Dashboard', icon: '📊' },
-              { id: 'respond', label: 'Pending Response', icon: '⏳', count: activeDissents.length },
+              {
+                id: 'respond',
+                label: 'Pending Response',
+                icon: '⏳',
+                count: activeDissents.length,
+              },
               { id: 'my-dissents', label: 'My Dissents', icon: '📝' },
               { id: 'analytics', label: 'Organization Health', icon: '📈' },
-            ].map(tab => (
+            ].map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
@@ -181,21 +197,14 @@ export const DissentPage: React.FC = () => {
                 recentDissents={dissents.slice(0, 5)}
               />
             )}
-            
+
             {activeTab === 'respond' && (
-              <RespondView
-                dissents={activeDissents}
-                onRespond={loadData}
-              />
+              <RespondView dissents={activeDissents} onRespond={loadData} />
             )}
-            
-            {activeTab === 'my-dissents' && (
-              <MyDissentsView dissents={dissents} />
-            )}
-            
-            {activeTab === 'analytics' && metrics && (
-              <AnalyticsView metrics={metrics} />
-            )}
+
+            {activeTab === 'my-dissents' && <MyDissentsView dissents={dissents} />}
+
+            {activeTab === 'analytics' && metrics && <AnalyticsView metrics={metrics} />}
           </>
         )}
       </main>
@@ -225,22 +234,31 @@ interface DashboardViewProps {
   recentDissents: Dissent[];
 }
 
-const DashboardView: React.FC<DashboardViewProps> = ({ metrics, activeDissents, recentDissents }) => {
+const DashboardView: React.FC<DashboardViewProps> = ({
+  metrics,
+  activeDissents,
+  recentDissents,
+}) => {
   return (
     <div className="space-y-8">
       {/* Dissent Index */}
       <div className="bg-gradient-to-br from-red-900/50 to-rose-900/50 rounded-2xl border border-red-500/30 p-8">
         <div className="text-center mb-8">
           <h2 className="text-lg text-white/60 mb-2">DISSENT INDEX</h2>
-          <div className={`text-5xl font-bold ${
-            metrics.healthStatus === 'healthy' ? 'text-green-400' :
-            metrics.healthStatus === 'warning' ? 'text-amber-400' : 'text-red-400'
-          }`}>
+          <div
+            className={`text-5xl font-bold ${
+              metrics.healthStatus === 'healthy'
+                ? 'text-green-400'
+                : metrics.healthStatus === 'warning'
+                  ? 'text-amber-400'
+                  : 'text-red-400'
+            }`}
+          >
             {metrics.healthStatus.toUpperCase()}
           </div>
           <p className="mt-4 text-white/60 max-w-lg mx-auto">
-            {metrics.healthStatus === 'healthy' 
-              ? "Your organization has healthy dissent patterns. People feel safe to disagree, and dissent is acknowledged and tracked."
+            {metrics.healthStatus === 'healthy'
+              ? 'Your organization has healthy dissent patterns. People feel safe to disagree, and dissent is acknowledged and tracked.'
               : "There are concerns about your organization's dissent patterns."}
           </p>
         </div>
@@ -275,7 +293,7 @@ const DashboardView: React.FC<DashboardViewProps> = ({ metrics, activeDissents, 
         <div className="bg-white/5 rounded-xl border border-white/10 p-6">
           <h3 className="text-lg font-semibold mb-4">Dissents Requiring Response</h3>
           <div className="space-y-4">
-            {activeDissents.map(dissent => (
+            {activeDissents.map((dissent) => (
               <DissentCard key={dissent.id} dissent={dissent} showResponseButton />
             ))}
           </div>
@@ -293,8 +311,11 @@ const DashboardView: React.FC<DashboardViewProps> = ({ metrics, activeDissents, 
             These people's dissents should receive priority review.
           </p>
           <div className="space-y-3">
-            {metrics.highAccuracyDissenters.map(profile => (
-              <div key={profile.userId} className="flex items-center justify-between p-3 bg-black/20 rounded-lg">
+            {metrics.highAccuracyDissenters.map((profile) => (
+              <div
+                key={profile.userId}
+                className="flex items-center justify-between p-3 bg-black/20 rounded-lg"
+              >
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-yellow-500/20 flex items-center justify-center">
                     ⭐
@@ -317,7 +338,7 @@ const DashboardView: React.FC<DashboardViewProps> = ({ metrics, activeDissents, 
         <div className="bg-white/5 rounded-xl border border-white/10 p-6">
           <h3 className="text-lg font-semibold mb-4">Dissent by Department</h3>
           <div className="space-y-3">
-            {metrics.byDepartment.map(dept => (
+            {metrics.byDepartment.map((dept) => (
               <div key={dept.department} className="p-3 bg-black/20 rounded-lg">
                 <div className="flex items-center justify-between mb-2">
                   <span className="font-medium">{dept.department}</span>
@@ -326,14 +347,18 @@ const DashboardView: React.FC<DashboardViewProps> = ({ metrics, activeDissents, 
                     <span className={dept.accuracy >= 70 ? 'text-green-400' : 'text-white/50'}>
                       {dept.accuracy}% accuracy
                     </span>
-                    <span>
-                      {dept.trend === 'up' ? '↑' : dept.trend === 'down' ? '↓' : '→'}
-                    </span>
+                    <span>{dept.trend === 'up' ? '↑' : dept.trend === 'down' ? '↓' : '→'}</span>
                   </div>
                 </div>
                 <div className="flex gap-1">
-                  <div className="h-1.5 bg-green-500 rounded-full" style={{ width: `${dept.acceptedRate}%` }} />
-                  <div className="h-1.5 bg-red-500/50 rounded-full" style={{ width: `${100 - dept.acceptedRate}%` }} />
+                  <div
+                    className="h-1.5 bg-green-500 rounded-full"
+                    style={{ width: `${dept.acceptedRate}%` }}
+                  />
+                  <div
+                    className="h-1.5 bg-red-500/50 rounded-full"
+                    style={{ width: `${100 - dept.acceptedRate}%` }}
+                  />
                 </div>
                 <div className="text-xs text-white/40 mt-1">{dept.acceptedRate}% accepted</div>
               </div>
@@ -373,10 +398,10 @@ const DissentCard: React.FC<DissentCardProps> = ({ dissent, showResponseButton }
               {dissent.severity.replace('_', ' ')}
             </span>
           </div>
-          
+
           <h4 className="font-semibold">{dissent.decisionTitle}</h4>
           <p className="text-sm text-white/60 mt-1 line-clamp-2">{dissent.statement}</p>
-          
+
           <div className="flex items-center gap-4 mt-3 text-xs text-white/50">
             <span>From: {dissent.dissenterName}</span>
             <span>Filed: {formatDate(dissent.createdAt)}</span>
@@ -384,23 +409,31 @@ const DissentCard: React.FC<DissentCardProps> = ({ dissent, showResponseButton }
               {getTimeRemaining(dissent.responseDeadline)}
             </span>
           </div>
-          
+
           {dissent.response && (
             <div className="mt-3 p-3 bg-white/5 rounded-lg">
-              <div className="text-xs text-white/50 mb-1">Response from {dissent.response.responderName}:</div>
+              <div className="text-xs text-white/50 mb-1">
+                Response from {dissent.response.responderName}:
+              </div>
               <p className="text-sm">{dissent.response.reasoning}</p>
             </div>
           )}
-          
+
           {dissent.outcomeVerified && (
-            <div className={`mt-3 px-3 py-2 rounded-lg text-sm ${
-              dissent.dissenterWasRight ? 'bg-green-500/20 text-green-400' : 'bg-white/10 text-white/60'
-            }`}>
-              {dissent.dissenterWasRight ? '✓ Dissenter was RIGHT' : 'Outcome verified: dissenter was wrong'}
+            <div
+              className={`mt-3 px-3 py-2 rounded-lg text-sm ${
+                dissent.dissenterWasRight
+                  ? 'bg-green-500/20 text-green-400'
+                  : 'bg-white/10 text-white/60'
+              }`}
+            >
+              {dissent.dissenterWasRight
+                ? '✓ Dissenter was RIGHT'
+                : 'Outcome verified: dissenter was wrong'}
             </div>
           )}
         </div>
-        
+
         {showResponseButton && dissent.status === 'pending' && (
           <button className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-sm font-medium transition-colors">
             Respond
@@ -428,7 +461,7 @@ const RespondView: React.FC<RespondViewProps> = ({ dissents, onRespond }) => {
 
   const handleSubmit = async () => {
     if (!selectedDissent || !reasoning.trim()) return;
-    
+
     setIsSubmitting(true);
     try {
       await dissentService.respondToDissent(selectedDissent.id, {
@@ -452,7 +485,7 @@ const RespondView: React.FC<RespondViewProps> = ({ dissents, onRespond }) => {
         <h2 className="text-xl font-bold">Dissents Requiring Your Response</h2>
         <span className="text-white/50">{dissents.length} pending</span>
       </div>
-      
+
       {dissents.length === 0 ? (
         <div className="text-center py-12 text-white/50">
           <span className="text-4xl mb-4 block">✓</span>
@@ -462,37 +495,38 @@ const RespondView: React.FC<RespondViewProps> = ({ dissents, onRespond }) => {
         <div className="grid grid-cols-2 gap-6">
           {/* Dissent List */}
           <div className="space-y-4">
-            {dissents.map(dissent => (
+            {dissents.map((dissent) => (
               <div
                 key={dissent.id}
                 onClick={() => setSelectedDissent(dissent)}
                 className={`cursor-pointer transition-all ${
-                  selectedDissent?.id === dissent.id
-                    ? 'ring-2 ring-red-500'
-                    : 'hover:bg-white/5'
+                  selectedDissent?.id === dissent.id ? 'ring-2 ring-red-500' : 'hover:bg-white/5'
                 }`}
               >
                 <DissentCard dissent={dissent} />
               </div>
             ))}
           </div>
-          
+
           {/* Response Form */}
           <div className="bg-white/5 rounded-xl border border-white/10 p-6 sticky top-24">
             {selectedDissent ? (
               <>
                 <h3 className="text-lg font-semibold mb-4">Respond to Dissent</h3>
-                
+
                 <div className="mb-4">
                   <label className="block text-sm text-white/60 mb-2">Response Type</label>
                   <div className="space-y-2">
                     {[
                       { value: 'accept', label: 'Accept dissent (change the decision)' },
                       { value: 'partial_accept', label: 'Partial accept (modify the decision)' },
-                      { value: 'acknowledge_proceed', label: 'Acknowledge but proceed (explain why overruling)' },
+                      {
+                        value: 'acknowledge_proceed',
+                        label: 'Acknowledge but proceed (explain why overruling)',
+                      },
                       { value: 'request_clarification', label: 'Request clarification' },
                       { value: 'escalate_together', label: 'Escalate jointly to board' },
-                    ].map(option => (
+                    ].map((option) => (
                       <label key={option.value} className="flex items-center gap-2 cursor-pointer">
                         <input
                           type="radio"
@@ -507,22 +541,24 @@ const RespondView: React.FC<RespondViewProps> = ({ dissents, onRespond }) => {
                     ))}
                   </div>
                 </div>
-                
+
                 <div className="mb-4">
-                  <label className="block text-sm text-white/60 mb-2">Your Reasoning (required)</label>
+                  <label className="block text-sm text-white/60 mb-2">
+                    Your Reasoning (required)
+                  </label>
                   <textarea
                     value={reasoning}
-                    onChange={e => setReasoning(e.target.value)}
+                    onChange={(e) => setReasoning(e.target.value)}
                     rows={6}
                     className="w-full bg-black/20 border border-white/10 rounded-lg p-3 text-sm focus:outline-none focus:ring-2 focus:ring-red-500"
                     placeholder="Explain your response..."
                   />
                 </div>
-                
+
                 <div className="text-xs text-white/40 mb-4">
                   ⚠️ This response will be permanently recorded in CendiaLedger™
                 </div>
-                
+
                 <button
                   onClick={handleSubmit}
                   disabled={!reasoning.trim() || isSubmitting}
@@ -532,9 +568,7 @@ const RespondView: React.FC<RespondViewProps> = ({ dissents, onRespond }) => {
                 </button>
               </>
             ) : (
-              <div className="text-center py-12 text-white/50">
-                Select a dissent to respond
-              </div>
+              <div className="text-center py-12 text-white/50">Select a dissent to respond</div>
             )}
           </div>
         </div>
@@ -602,7 +636,7 @@ const MyDissentsView: React.FC<MyDissentsViewProps> = ({ dissents }) => {
           <h3 className="font-semibold">My Dissent History</h3>
         </div>
         <div className="divide-y divide-white/5">
-          {dissents.map(dissent => (
+          {dissents.map((dissent) => (
             <div key={dissent.id} className="p-4">
               <DissentCard dissent={dissent} />
             </div>
@@ -625,7 +659,7 @@ const AnalyticsView: React.FC<AnalyticsViewProps> = ({ metrics }) => {
   return (
     <div className="space-y-6">
       <h2 className="text-xl font-bold">Organization Dissent Health</h2>
-      
+
       {/* Key Metrics Grid */}
       <div className="grid grid-cols-4 gap-4">
         <div className="bg-white/5 rounded-xl border border-white/10 p-6 text-center">
@@ -647,15 +681,18 @@ const AnalyticsView: React.FC<AnalyticsViewProps> = ({ metrics }) => {
       </div>
 
       {/* Attention Required */}
-      {metrics.byDepartment.some(d => d.accuracy >= 75) && (
+      {metrics.byDepartment.some((d) => d.accuracy >= 75) && (
         <div className="bg-amber-500/10 border border-amber-500/30 rounded-xl p-4">
           <div className="flex items-start gap-3">
             <span className="text-xl">⚠️</span>
             <div>
               <h4 className="font-semibold">Attention Required</h4>
               <p className="text-sm text-white/70 mt-1">
-                {metrics.byDepartment.find(d => d.accuracy >= 75)?.department} dissents have {metrics.byDepartment.find(d => d.accuracy >= 75)?.accuracy}% accuracy — 
-                significantly higher than organization average. Consider elevating {metrics.byDepartment.find(d => d.accuracy >= 75)?.department} concerns in Council weighting.
+                {metrics.byDepartment.find((d) => d.accuracy >= 75)?.department} dissents have{' '}
+                {metrics.byDepartment.find((d) => d.accuracy >= 75)?.accuracy}% accuracy —
+                significantly higher than organization average. Consider elevating{' '}
+                {metrics.byDepartment.find((d) => d.accuracy >= 75)?.department} concerns in Council
+                weighting.
               </p>
             </div>
           </div>
@@ -693,7 +730,7 @@ const AnalyticsView: React.FC<AnalyticsViewProps> = ({ metrics }) => {
             </tr>
           </thead>
           <tbody className="divide-y divide-white/5">
-            {metrics.byDepartment.map(dept => (
+            {metrics.byDepartment.map((dept) => (
               <tr key={dept.department}>
                 <td className="py-3 font-medium">{dept.department}</td>
                 <td className="py-3">{dept.totalDissents}</td>
@@ -704,10 +741,15 @@ const AnalyticsView: React.FC<AnalyticsViewProps> = ({ metrics }) => {
                   </span>
                 </td>
                 <td className="py-3">
-                  <span className={
-                    dept.trend === 'up' ? 'text-green-400' :
-                    dept.trend === 'down' ? 'text-red-400' : 'text-white/50'
-                  }>
+                  <span
+                    className={
+                      dept.trend === 'up'
+                        ? 'text-green-400'
+                        : dept.trend === 'down'
+                          ? 'text-red-400'
+                          : 'text-white/50'
+                    }
+                  >
                     {dept.trend === 'up' ? '↑' : dept.trend === 'down' ? '↓' : '→'}
                   </span>
                 </td>
@@ -744,7 +786,7 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.statement.trim()) return;
-    
+
     setIsSubmitting(true);
     try {
       await onSubmit({
@@ -772,7 +814,7 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
             </button>
           </div>
         </div>
-        
+
         <form onSubmit={handleSubmit} className="p-6 space-y-6">
           {/* Decision Info */}
           <div>
@@ -780,18 +822,20 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
             <input
               type="text"
               value={formData.decisionTitle}
-              onChange={e => setFormData({ ...formData, decisionTitle: e.target.value })}
+              onChange={(e) => setFormData({ ...formData, decisionTitle: e.target.value })}
               className="w-full bg-black/20 border border-white/10 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-red-500"
               placeholder="e.g., Q1 Product Roadmap"
               required
             />
           </div>
-          
+
           {/* Dissent Type */}
           <div>
             <label className="block text-sm text-white/60 mb-2">Dissent Type</label>
             <div className="grid grid-cols-2 gap-2">
-              {(['factual', 'risk', 'ethical', 'process', 'strategic', 'resource'] as DissentType[]).map(type => (
+              {(
+                ['factual', 'risk', 'ethical', 'process', 'strategic', 'resource'] as DissentType[]
+              ).map((type) => (
                 <label
                   key={type}
                   className={`flex items-center gap-2 p-3 rounded-lg cursor-pointer transition-colors ${
@@ -813,20 +857,20 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
               ))}
             </div>
           </div>
-          
+
           {/* Statement */}
           <div>
             <label className="block text-sm text-white/60 mb-2">Your Statement</label>
             <textarea
               value={formData.statement}
-              onChange={e => setFormData({ ...formData, statement: e.target.value })}
+              onChange={(e) => setFormData({ ...formData, statement: e.target.value })}
               rows={6}
               className="w-full bg-black/20 border border-white/10 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-red-500"
               placeholder="Explain your objection clearly..."
               required
             />
           </div>
-          
+
           {/* Severity */}
           <div>
             <label className="block text-sm text-white/60 mb-2">Severity</label>
@@ -835,7 +879,7 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
                 { value: 'advisory', label: 'Advisory (for the record)' },
                 { value: 'formal_objection', label: 'Formal objection (requires response)' },
                 { value: 'blocking', label: 'Blocking (request decision halt pending review)' },
-              ].map(option => (
+              ].map((option) => (
                 <label
                   key={option.value}
                   className={`flex items-center gap-2 p-3 rounded-lg cursor-pointer transition-colors ${
@@ -849,7 +893,9 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
                     name="severity"
                     value={option.value}
                     checked={formData.severity === option.value}
-                    onChange={() => setFormData({ ...formData, severity: option.value as DissentSeverity })}
+                    onChange={() =>
+                      setFormData({ ...formData, severity: option.value as DissentSeverity })
+                    }
                     className="sr-only"
                   />
                   <span className="text-sm">{option.label}</span>
@@ -857,21 +903,23 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
               ))}
             </div>
           </div>
-          
+
           {/* Anonymous Option */}
           <label className="flex items-center gap-3 p-3 bg-black/20 rounded-lg cursor-pointer">
             <input
               type="checkbox"
               checked={formData.isAnonymous}
-              onChange={e => setFormData({ ...formData, isAnonymous: e.target.checked })}
+              onChange={(e) => setFormData({ ...formData, isAnonymous: e.target.checked })}
               className="rounded"
             />
             <div>
               <div className="font-medium">Submit Anonymously</div>
-              <div className="text-xs text-white/50">Your identity will be encrypted and protected</div>
+              <div className="text-xs text-white/50">
+                Your identity will be encrypted and protected
+              </div>
             </div>
           </label>
-          
+
           {/* Warning */}
           <div className="text-sm text-white/40 border-t border-white/10 pt-4">
             ⚠️ By submitting, you confirm:
@@ -881,7 +929,7 @@ const FileDissentModal: React.FC<FileDissentModalProps> = ({ onClose, onSubmit }
               <li>You are protected from retaliation</li>
             </ul>
           </div>
-          
+
           {/* Actions */}
           <div className="flex gap-3">
             <button

@@ -8,14 +8,12 @@ import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
 import { AVAILABLE_CONNECTORS } from '../../../components/cortex/DataSourceSelector';
 
-const CONNECTORS = AVAILABLE_CONNECTORS
-  .filter((connector) => connector.oauth)
-  .map((connector) => ({
-    id: connector.id || connector.type.toLowerCase(),
-    name: connector.name,
-    icon: connector.icon,
-    color: connector.color || 'bg-blue-500',
-  }));
+const CONNECTORS = AVAILABLE_CONNECTORS.filter((connector) => connector.oauth).map((connector) => ({
+  id: connector.id || connector.type.toLowerCase(),
+  name: connector.name,
+  icon: connector.icon,
+  color: connector.color || 'bg-blue-500',
+}));
 
 interface Session {
   id: string;
@@ -37,8 +35,10 @@ export const LiveDemoPage: React.FC = () => {
   const [isDeliberating, setIsDeliberating] = useState(false);
 
   const startSession = async () => {
-    if (!selectedConnector) {return;}
-    
+    if (!selectedConnector) {
+      return;
+    }
+
     setIsConnecting(true);
     try {
       const res = await api.post<any>('/premium/live-demo/session', {
@@ -46,7 +46,7 @@ export const LiveDemoPage: React.FC = () => {
         tier: 'enterprise',
       });
       const payload = res as any;
-      
+
       if (payload.success && payload.session) {
         setSession(payload.session as Session);
         // Simulate OAuth callback after 2s for demo
@@ -64,7 +64,7 @@ export const LiveDemoPage: React.FC = () => {
         authCode: 'demo-auth-code',
       });
       const payload = res as any;
-      
+
       if (payload.success && payload.session) {
         setSession(payload.session as Session);
         setIsConnecting(false);
@@ -76,8 +76,10 @@ export const LiveDemoPage: React.FC = () => {
   };
 
   const runDeliberation = async () => {
-    if (!question.trim() || !selectedConnector) {return;}
-    
+    if (!question.trim() || !selectedConnector) {
+      return;
+    }
+
     setIsDeliberating(true);
     try {
       const res = await api.post<any>('/premium/live-demo/deliberate', {
@@ -86,7 +88,7 @@ export const LiveDemoPage: React.FC = () => {
         tier: 'enterprise',
       });
       const payload = res as any;
-      
+
       if (payload.success && payload.result) {
         setDeliberationResult(payload.result);
       }
@@ -114,9 +116,7 @@ export const LiveDemoPage: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Connector Selection */}
           <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-neutral-900 mb-4">
-              Select a Data Source
-            </h2>
+            <h2 className="text-lg font-semibold text-neutral-900 mb-4">Select a Data Source</h2>
             <div className="grid grid-cols-2 gap-3">
               {CONNECTORS.map((connector) => (
                 <button
@@ -130,10 +130,13 @@ export const LiveDemoPage: React.FC = () => {
                   )}
                 >
                   <div className="flex items-center gap-3">
-                    <span className={cn(
-                      'w-10 h-10 rounded-lg flex items-center justify-center text-xl',
-                      connector.color, 'text-white'
-                    )}>
+                    <span
+                      className={cn(
+                        'w-10 h-10 rounded-lg flex items-center justify-center text-xl',
+                        connector.color,
+                        'text-white'
+                      )}
+                    >
                       {connector.icon}
                     </span>
                     <span className="font-medium">{connector.name}</span>
@@ -232,24 +235,20 @@ export const LiveDemoPage: React.FC = () => {
                 </div>
                 <div>
                   <h2 className="text-lg font-semibold text-green-800">
-                    Connected to {CONNECTORS.find(c => c.id === selectedConnector)?.name}
+                    Connected to {CONNECTORS.find((c) => c.id === selectedConnector)?.name}
                   </h2>
                   <p className="text-green-600">
                     {session.dataIngested.recordsScanned.toLocaleString()} records indexed
                   </p>
                 </div>
               </div>
-              <div className="text-sm text-green-600">
-                Session expires in 28 minutes
-              </div>
+              <div className="text-sm text-green-600">Session expires in 28 minutes</div>
             </div>
           </div>
 
           {/* Question Input */}
           <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-neutral-900 mb-4">
-              Ask Your Question
-            </h2>
+            <h2 className="text-lg font-semibold text-neutral-900 mb-4">Ask Your Question</h2>
             <div className="space-y-4">
               <textarea
                 value={question}
@@ -275,10 +274,8 @@ export const LiveDemoPage: React.FC = () => {
           {/* Deliberation Results */}
           {deliberationResult && (
             <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
-              <h2 className="text-lg font-semibold text-neutral-900 mb-4">
-                Deliberation Results
-              </h2>
-              
+              <h2 className="text-lg font-semibold text-neutral-900 mb-4">Deliberation Results</h2>
+
               <div className="mb-4 p-3 bg-neutral-50 rounded-lg">
                 <div className="text-sm text-neutral-500">
                   Analyzed {deliberationResult.dataPointsAnalyzed.toLocaleString()} data points in{' '}
@@ -295,7 +292,10 @@ export const LiveDemoPage: React.FC = () => {
                   <h3 className="font-medium text-neutral-900 mb-3">Your Data Highlights</h3>
                   <div className="grid grid-cols-2 gap-3">
                     {deliberationResult.realDataHighlights.map((highlight: any, idx: number) => (
-                      <div key={idx} className="p-3 bg-yellow-50 rounded-lg border border-yellow-200">
+                      <div
+                        key={idx}
+                        className="p-3 bg-yellow-50 rounded-lg border border-yellow-200"
+                      >
                         <div className="text-sm font-medium text-yellow-800">{highlight.name}</div>
                         <div className="text-lg font-bold text-yellow-900">{highlight.value}</div>
                         <div className="text-xs text-yellow-700">{highlight.context}</div>

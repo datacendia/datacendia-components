@@ -2,7 +2,7 @@
 // CENDIA MESH™ - CROSS-COMPANY DECISION NETWORK
 // Secure Decision-Sharing Network with Differential Privacy
 // "Palantir Foundry + McKinsey Insights + Network Effects"
-// 
+//
 // CAPABILITIES:
 // - Anonymized performance benchmarking
 // - Industry pattern detection
@@ -21,7 +21,15 @@ import { meshApi } from '../../../lib/api';
 // TYPES
 // =============================================================================
 
-type Industry = 'technology' | 'finance' | 'healthcare' | 'manufacturing' | 'retail' | 'energy' | 'aerospace' | 'pharma';
+type Industry =
+  | 'technology'
+  | 'finance'
+  | 'healthcare'
+  | 'manufacturing'
+  | 'retail'
+  | 'energy'
+  | 'aerospace'
+  | 'pharma';
 type SignalSeverity = 'critical' | 'high' | 'medium' | 'low' | 'info';
 type InsightCategory = 'benchmark' | 'risk' | 'opportunity' | 'trend' | 'disruption' | 'fraud';
 
@@ -276,7 +284,8 @@ const generateRiskSignals = (): RiskSignal[] => [
   {
     id: 'sig-001',
     title: 'Semiconductor Supply Chain Disruption',
-    description: 'Multiple tier-2 suppliers in Taiwan reporting capacity constraints due to power grid issues. Expected 15-20% reduction in chip availability for Q1 2025.',
+    description:
+      'Multiple tier-2 suppliers in Taiwan reporting capacity constraints due to power grid issues. Expected 15-20% reduction in chip availability for Q1 2025.',
     category: 'disruption',
     severity: 'high',
     affectedIndustries: ['technology', 'manufacturing', 'aerospace'],
@@ -295,7 +304,8 @@ const generateRiskSignals = (): RiskSignal[] => [
   {
     id: 'sig-002',
     title: 'Healthcare Cybersecurity Threat Escalation',
-    description: 'Coordinated ransomware campaign targeting healthcare organizations. 23 incidents reported in past 72 hours across network participants.',
+    description:
+      'Coordinated ransomware campaign targeting healthcare organizations. 23 incidents reported in past 72 hours across network participants.',
     category: 'risk',
     severity: 'critical',
     affectedIndustries: ['healthcare', 'pharma'],
@@ -315,7 +325,8 @@ const generateRiskSignals = (): RiskSignal[] => [
   {
     id: 'sig-003',
     title: 'Enterprise AI Adoption Acceleration',
-    description: 'Network data shows 340% increase in enterprise AI deployment plans for 2025. Companies not investing facing competitive disadvantage signals.',
+    description:
+      'Network data shows 340% increase in enterprise AI deployment plans for 2025. Companies not investing facing competitive disadvantage signals.',
     category: 'trend',
     severity: 'medium',
     affectedIndustries: ['technology', 'finance', 'healthcare', 'manufacturing', 'retail'],
@@ -334,7 +345,8 @@ const generateRiskSignals = (): RiskSignal[] => [
   {
     id: 'sig-004',
     title: 'Payment Fraud Pattern: New Vector',
-    description: 'Novel fraud pattern detected across 47 financial institutions. Synthetic identity combined with instant payment rails. Average loss per incident: $47K.',
+    description:
+      'Novel fraud pattern detected across 47 financial institutions. Synthetic identity combined with instant payment rails. Average loss per incident: $47K.',
     category: 'fraud',
     severity: 'high',
     affectedIndustries: ['finance', 'retail'],
@@ -353,7 +365,8 @@ const generateRiskSignals = (): RiskSignal[] => [
   {
     id: 'sig-005',
     title: 'Labor Market Cooling in Tech Sector',
-    description: 'Hiring velocity down 28% QoQ across technology sector. Salary growth decelerating. Opportunity for strategic hiring.',
+    description:
+      'Hiring velocity down 28% QoQ across technology sector. Salary growth decelerating. Opportunity for strategic hiring.',
     category: 'opportunity',
     severity: 'info',
     affectedIndustries: ['technology'],
@@ -423,24 +436,34 @@ const generateSupplyChainAlerts = (): SupplyChainAlert[] => [
   {
     id: 'sc-001',
     title: 'Port of Rotterdam Congestion',
-    description: 'Container processing delays of 4-6 days due to labor action. Affecting 23% of European shipments.',
+    description:
+      'Container processing delays of 4-6 days due to labor action. Affecting 23% of European shipments.',
     severity: 'high',
     affectedSuppliers: 156,
     affectedRegions: ['Europe', 'UK'],
     estimatedImpact: '8-12% increase in logistics costs',
-    mitigationOptions: ['Reroute via Hamburg', 'Air freight for critical items', 'Increase safety stock'],
+    mitigationOptions: [
+      'Reroute via Hamburg',
+      'Air freight for critical items',
+      'Increase safety stock',
+    ],
     detectedAt: new Date(Date.now() - 6 * 60 * 60 * 1000),
     expectedDuration: '7-14 days',
   },
   {
     id: 'sc-002',
     title: 'Rare Earth Materials Shortage',
-    description: 'China export restrictions impacting rare earth supply. 3-month lead time increase expected.',
+    description:
+      'China export restrictions impacting rare earth supply. 3-month lead time increase expected.',
     severity: 'critical',
     affectedSuppliers: 89,
     affectedRegions: ['Global'],
     estimatedImpact: '25-40% price increase, production delays',
-    mitigationOptions: ['Qualify alternative suppliers', 'Product redesign', 'Strategic stockpiling'],
+    mitigationOptions: [
+      'Qualify alternative suppliers',
+      'Product redesign',
+      'Strategic stockpiling',
+    ],
     detectedAt: new Date(Date.now() - 72 * 60 * 60 * 1000),
     expectedDuration: '6-12 months',
   },
@@ -457,7 +480,9 @@ export const MeshPage: React.FC = () => {
   const [riskSignals, setRiskSignals] = useState<RiskSignal[]>(generateRiskSignals);
   const [pricingIntel] = useState<PricingIntelligence[]>(generatePricingIntel);
   const [supplyChainAlerts] = useState<SupplyChainAlert[]>(generateSupplyChainAlerts);
-  const [activeTab, setActiveTab] = useState<'overview' | 'benchmarks' | 'signals' | 'pricing' | 'supply-chain'>('overview');
+  const [activeTab, setActiveTab] = useState<
+    'overview' | 'benchmarks' | 'signals' | 'pricing' | 'supply-chain'
+  >('overview');
   const [selectedIndustry, setSelectedIndustry] = useState<Industry | 'all'>('all');
   const [isLoading, setIsLoading] = useState(true);
 
@@ -466,7 +491,7 @@ export const MeshPage: React.FC = () => {
     const loadData = async () => {
       try {
         setIsLoading(true);
-        
+
         // Fetch network stats
         const statsRes = await meshApi.getStats();
         if (statsRes.success && statsRes.data) {
@@ -477,7 +502,7 @@ export const MeshPage: React.FC = () => {
             insightsGenerated: statsRes.data.insights_generated,
             avgResponseTime: statsRes.data.avg_response_ms,
             privacyScore: statsRes.data.privacy_score,
-            uptime: statsRes.data.uptime_percent
+            uptime: statsRes.data.uptime_percent,
           });
         }
 
@@ -496,13 +521,18 @@ export const MeshPage: React.FC = () => {
             trend: b.trend as 'up' | 'down' | 'stable',
             trendPercent: b.trend_percent,
             unit: b.unit,
-            participants: b.participants
+            participants: b.participants,
           }));
           // Group by unique name (take first of each name)
-          const uniqueBenchmarks = mappedBenchmarks.reduce((acc: BenchmarkMetric[], curr: BenchmarkMetric) => {
-            if (!acc.find(b => b.name === curr.name)) {acc.push(curr);}
-            return acc;
-          }, []);
+          const uniqueBenchmarks = mappedBenchmarks.reduce(
+            (acc: BenchmarkMetric[], curr: BenchmarkMetric) => {
+              if (!acc.find((b) => b.name === curr.name)) {
+                acc.push(curr);
+              }
+              return acc;
+            },
+            []
+          );
           setBenchmarks(uniqueBenchmarks.slice(0, 8));
         }
 
@@ -522,7 +552,7 @@ export const MeshPage: React.FC = () => {
             detectedAt: new Date(s.detected_at),
             validUntil: new Date(s.valid_until),
             recommendations: s.recommendations || [],
-            relatedSignals: []
+            relatedSignals: [],
           }));
           setRiskSignals(mappedSignals);
         }
@@ -536,7 +566,9 @@ export const MeshPage: React.FC = () => {
     loadData();
   }, []);
 
-  const criticalSignals = riskSignals.filter(s => s.severity === 'critical' || s.severity === 'high');
+  const criticalSignals = riskSignals.filter(
+    (s) => s.severity === 'critical' || s.severity === 'high'
+  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-cyan-950 via-blue-950 to-slate-950 text-white">
@@ -559,10 +591,12 @@ export const MeshPage: React.FC = () => {
                     NETWORK
                   </span>
                 </h1>
-                <p className="text-cyan-300 text-sm">Cross-Company Decision Network • Differential Privacy Protected</p>
+                <p className="text-cyan-300 text-sm">
+                  Cross-Company Decision Network • Differential Privacy Protected
+                </p>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
@@ -582,19 +616,27 @@ export const MeshPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 py-3">
           <div className="grid grid-cols-7 gap-4 text-center">
             <div>
-              <div className="text-2xl font-bold text-white">{networkStats.totalParticipants.toLocaleString()}</div>
+              <div className="text-2xl font-bold text-white">
+                {networkStats.totalParticipants.toLocaleString()}
+              </div>
               <div className="text-xs text-cyan-300">Network Participants</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-green-400">{networkStats.activeToday.toLocaleString()}</div>
+              <div className="text-2xl font-bold text-green-400">
+                {networkStats.activeToday.toLocaleString()}
+              </div>
               <div className="text-xs text-cyan-300">Active Today</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-white">{(networkStats.dataPointsShared / 1000000).toFixed(1)}M</div>
+              <div className="text-2xl font-bold text-white">
+                {(networkStats.dataPointsShared / 1000000).toFixed(1)}M
+              </div>
               <div className="text-xs text-cyan-300">Data Points</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-purple-400">{networkStats.insightsGenerated.toLocaleString()}</div>
+              <div className="text-2xl font-bold text-purple-400">
+                {networkStats.insightsGenerated.toLocaleString()}
+              </div>
               <div className="text-xs text-cyan-300">Insights Generated</div>
             </div>
             <div>
@@ -602,7 +644,9 @@ export const MeshPage: React.FC = () => {
               <div className="text-xs text-cyan-300">Active Alerts</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-cyan-400">{networkStats.avgResponseTime}ms</div>
+              <div className="text-2xl font-bold text-cyan-400">
+                {networkStats.avgResponseTime}ms
+              </div>
               <div className="text-xs text-cyan-300">Avg Response</div>
             </div>
             <div>
@@ -623,7 +667,7 @@ export const MeshPage: React.FC = () => {
               { id: 'signals', label: 'Risk Signals', icon: '⚠️' },
               { id: 'pricing', label: 'Pricing Intelligence', icon: '💰' },
               { id: 'supply-chain', label: 'Supply Chain', icon: '🔗' },
-            ].map(tab => (
+            ].map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
@@ -651,9 +695,10 @@ export const MeshPage: React.FC = () => {
                 <div>
                   <h2 className="text-lg font-semibold mb-1">Differential Privacy Protected</h2>
                   <p className="text-white/60 text-sm">
-                    All data shared on CendiaMesh is protected by differential privacy. Individual company data cannot be
-                    reverse-engineered from aggregate insights. Your participation strengthens the network while maintaining
-                    complete confidentiality.
+                    All data shared on CendiaMesh is protected by differential privacy. Individual
+                    company data cannot be reverse-engineered from aggregate insights. Your
+                    participation strengthens the network while maintaining complete
+                    confidentiality.
                   </p>
                 </div>
               </div>
@@ -666,15 +711,22 @@ export const MeshPage: React.FC = () => {
                   <span className="text-red-400">🚨</span> Critical Alerts
                 </h2>
                 <div className="space-y-3">
-                  {criticalSignals.slice(0, 3).map(signal => (
-                    <div key={signal.id} className={`p-4 rounded-xl border ${
-                      signal.severity === 'critical' ? 'bg-red-900/20 border-red-700/50' : 'bg-amber-900/20 border-amber-700/50'
-                    }`}>
+                  {criticalSignals.slice(0, 3).map((signal) => (
+                    <div
+                      key={signal.id}
+                      className={`p-4 rounded-xl border ${
+                        signal.severity === 'critical'
+                          ? 'bg-red-900/20 border-red-700/50'
+                          : 'bg-amber-900/20 border-amber-700/50'
+                      }`}
+                    >
                       <div className="flex items-center justify-between mb-2">
                         <h3 className="font-semibold">{signal.title}</h3>
-                        <span className={`px-2 py-0.5 rounded text-xs ${
-                          signal.severity === 'critical' ? 'bg-red-600' : 'bg-amber-600'
-                        }`}>
+                        <span
+                          className={`px-2 py-0.5 rounded text-xs ${
+                            signal.severity === 'critical' ? 'bg-red-600' : 'bg-amber-600'
+                          }`}
+                        >
                           {signal.severity.toUpperCase()}
                         </span>
                       </div>
@@ -682,7 +734,10 @@ export const MeshPage: React.FC = () => {
                       <div className="flex items-center gap-4 text-xs text-white/50">
                         <span>Confidence: {signal.confidence}%</span>
                         <span>Sources: {signal.sources}</span>
-                        <span>Detected: {Math.floor((Date.now() - signal.detectedAt.getTime()) / 3600000)}h ago</span>
+                        <span>
+                          Detected:{' '}
+                          {Math.floor((Date.now() - signal.detectedAt.getTime()) / 3600000)}h ago
+                        </span>
                       </div>
                     </div>
                   ))}
@@ -692,9 +747,11 @@ export const MeshPage: React.FC = () => {
 
             {/* Industry Distribution */}
             <div className="grid grid-cols-4 gap-4">
-              {(Object.keys(INDUSTRY_CONFIG) as Industry[]).map(industry => {
+              {(Object.keys(INDUSTRY_CONFIG) as Industry[]).map((industry) => {
                 const config = INDUSTRY_CONFIG[industry];
-                const participants = Math.floor(networkStats.totalParticipants * (0.08 + Math.random() * 0.12));
+                const participants = Math.floor(
+                  networkStats.totalParticipants * (0.08 + Math.random() * 0.12)
+                );
                 return (
                   <div
                     key={industry}
@@ -706,7 +763,9 @@ export const MeshPage: React.FC = () => {
                     }`}
                   >
                     <div className="flex items-center gap-3 mb-3">
-                      <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${config.color} flex items-center justify-center text-xl`}>
+                      <div
+                        className={`w-10 h-10 rounded-lg bg-gradient-to-br ${config.color} flex items-center justify-center text-xl`}
+                      >
                         {config.icon}
                       </div>
                       <div>
@@ -717,7 +776,9 @@ export const MeshPage: React.FC = () => {
                     <div className="h-1.5 bg-black/30 rounded-full overflow-hidden">
                       <div
                         className={`h-full bg-gradient-to-r ${config.color}`}
-                        style={{ width: `${(participants / networkStats.totalParticipants) * 100 * 5}%` }}
+                        style={{
+                          width: `${(participants / networkStats.totalParticipants) * 100 * 5}%`,
+                        }}
                       />
                     </div>
                   </div>
@@ -728,20 +789,32 @@ export const MeshPage: React.FC = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div className="bg-black/30 rounded-2xl p-6 border border-cyan-800/50">
-                <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">Your Benchmarks</h3>
+                <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">
+                  Your Benchmarks
+                </h3>
                 <div className="space-y-3">
-                  {benchmarks.slice(0, 4).map(b => (
+                  {benchmarks.slice(0, 4).map((b) => (
                     <div key={b.id} className="flex items-center justify-between">
                       <span className="text-sm text-white/70">{b.name}</span>
                       <div className="flex items-center gap-2">
-                        <span className="font-bold">{b.yourValue}{b.unit}</span>
-                        <span className={`text-xs ${
-                          b.yourValue >= b.industryP75 ? 'text-green-400' :
-                          b.yourValue >= b.industryP50 ? 'text-amber-400' :
-                          'text-red-400'
-                        }`}>
-                          {b.yourValue >= b.industryP75 ? 'Top 25%' :
-                           b.yourValue >= b.industryP50 ? 'Above Median' : 'Below Median'}
+                        <span className="font-bold">
+                          {b.yourValue}
+                          {b.unit}
+                        </span>
+                        <span
+                          className={`text-xs ${
+                            b.yourValue >= b.industryP75
+                              ? 'text-green-400'
+                              : b.yourValue >= b.industryP50
+                                ? 'text-amber-400'
+                                : 'text-red-400'
+                          }`}
+                        >
+                          {b.yourValue >= b.industryP75
+                            ? 'Top 25%'
+                            : b.yourValue >= b.industryP50
+                              ? 'Above Median'
+                              : 'Below Median'}
                         </span>
                       </div>
                     </div>
@@ -750,20 +823,30 @@ export const MeshPage: React.FC = () => {
               </div>
 
               <div className="bg-black/30 rounded-2xl p-6 border border-cyan-800/50">
-                <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">Recent Insights</h3>
+                <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">
+                  Recent Insights
+                </h3>
                 <div className="space-y-3">
-                  {riskSignals.slice(0, 4).map(s => (
+                  {riskSignals.slice(0, 4).map((s) => (
                     <div key={s.id} className="flex items-start gap-3">
-                      <span className={`text-lg ${
-                        s.category === 'risk' ? '⚠️' :
-                        s.category === 'opportunity' ? '💡' :
-                        s.category === 'trend' ? '📈' :
-                        s.category === 'fraud' ? '🚨' :
-                        '🔔'
-                      }`} />
+                      <span
+                        className={`text-lg ${
+                          s.category === 'risk'
+                            ? '⚠️'
+                            : s.category === 'opportunity'
+                              ? '💡'
+                              : s.category === 'trend'
+                                ? '📈'
+                                : s.category === 'fraud'
+                                  ? '🚨'
+                                  : '🔔'
+                        }`}
+                      />
                       <div>
                         <div className="text-sm font-medium">{s.title}</div>
-                        <div className="text-xs text-white/50">{s.affectedIndustries.length} industries affected</div>
+                        <div className="text-xs text-white/50">
+                          {s.affectedIndustries.length} industries affected
+                        </div>
                       </div>
                     </div>
                   ))}
@@ -771,7 +854,9 @@ export const MeshPage: React.FC = () => {
               </div>
 
               <div className="bg-black/30 rounded-2xl p-6 border border-cyan-800/50">
-                <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">Network Activity</h3>
+                <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-4">
+                  Network Activity
+                </h3>
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-white/70">Data contributions today</span>
@@ -800,26 +885,35 @@ export const MeshPage: React.FC = () => {
             <div className="bg-gradient-to-r from-cyan-900/30 to-blue-900/30 rounded-2xl p-6 border border-cyan-700/50">
               <h2 className="text-lg font-semibold mb-2">📊 Anonymized Performance Benchmarking</h2>
               <p className="text-white/60">
-                Compare your performance against industry peers across key metrics. All data is aggregated and anonymized—
-                individual company data is never exposed.
+                Compare your performance against industry peers across key metrics. All data is
+                aggregated and anonymized— individual company data is never exposed.
               </p>
             </div>
 
             <div className="space-y-4">
-              {benchmarks.map(b => (
+              {benchmarks.map((b) => (
                 <div key={b.id} className="bg-black/30 rounded-2xl p-6 border border-cyan-800/50">
                   <div className="flex items-center justify-between mb-4">
                     <div>
                       <h3 className="text-lg font-semibold">{b.name}</h3>
-                      <div className="text-sm text-white/50">{b.category} • {b.participants} participants</div>
+                      <div className="text-sm text-white/50">
+                        {b.category} • {b.participants} participants
+                      </div>
                     </div>
                     <div className="text-right">
-                      <div className="text-3xl font-bold">{b.yourValue}{b.unit}</div>
-                      <div className={`text-sm flex items-center gap-1 justify-end ${
-                        b.trend === 'up' ? 'text-green-400' :
-                        b.trend === 'down' ? 'text-red-400' :
-                        'text-white/50'
-                      }`}>
+                      <div className="text-3xl font-bold">
+                        {b.yourValue}
+                        {b.unit}
+                      </div>
+                      <div
+                        className={`text-sm flex items-center gap-1 justify-end ${
+                          b.trend === 'up'
+                            ? 'text-green-400'
+                            : b.trend === 'down'
+                              ? 'text-red-400'
+                              : 'text-white/50'
+                        }`}
+                      >
                         {b.trend === 'up' ? '↑' : b.trend === 'down' ? '↓' : '→'}
                         {Math.abs(b.trendPercent)}% vs last quarter
                       </div>
@@ -837,18 +931,35 @@ export const MeshPage: React.FC = () => {
                     <div
                       className="absolute top-0 bottom-0 w-1 bg-white shadow-lg shadow-white/50"
                       style={{
-                        left: `${Math.min(100, Math.max(0, 
-                          ((b.yourValue - b.industryP25) / (b.industryP90 - b.industryP25)) * 75 + 25
-                        ))}%`
+                        left: `${Math.min(
+                          100,
+                          Math.max(
+                            0,
+                            ((b.yourValue - b.industryP25) / (b.industryP90 - b.industryP25)) * 75 +
+                              25
+                          )
+                        )}%`,
                       }}
                     />
                   </div>
 
                   <div className="flex justify-between text-xs text-white/50">
-                    <span>P25: {b.industryP25}{b.unit}</span>
-                    <span>P50: {b.industryP50}{b.unit}</span>
-                    <span>P75: {b.industryP75}{b.unit}</span>
-                    <span>P90: {b.industryP90}{b.unit}</span>
+                    <span>
+                      P25: {b.industryP25}
+                      {b.unit}
+                    </span>
+                    <span>
+                      P50: {b.industryP50}
+                      {b.unit}
+                    </span>
+                    <span>
+                      P75: {b.industryP75}
+                      {b.unit}
+                    </span>
+                    <span>
+                      P90: {b.industryP90}
+                      {b.unit}
+                    </span>
                   </div>
                 </div>
               ))}
@@ -858,21 +969,33 @@ export const MeshPage: React.FC = () => {
 
         {activeTab === 'signals' && (
           <div className="space-y-4">
-            {riskSignals.map(signal => (
-              <div key={signal.id} className={`bg-black/30 rounded-2xl p-6 border ${
-                signal.severity === 'critical' ? 'border-red-700/50' :
-                signal.severity === 'high' ? 'border-amber-700/50' :
-                signal.severity === 'medium' ? 'border-yellow-700/50' :
-                'border-cyan-800/50'
-              }`}>
+            {riskSignals.map((signal) => (
+              <div
+                key={signal.id}
+                className={`bg-black/30 rounded-2xl p-6 border ${
+                  signal.severity === 'critical'
+                    ? 'border-red-700/50'
+                    : signal.severity === 'high'
+                      ? 'border-amber-700/50'
+                      : signal.severity === 'medium'
+                        ? 'border-yellow-700/50'
+                        : 'border-cyan-800/50'
+                }`}
+              >
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center gap-3">
                     <span className="text-2xl">
-                      {signal.category === 'risk' ? '⚠️' :
-                       signal.category === 'opportunity' ? '💡' :
-                       signal.category === 'trend' ? '📈' :
-                       signal.category === 'fraud' ? '🚨' :
-                       signal.category === 'disruption' ? '⛈️' : '📢'}
+                      {signal.category === 'risk'
+                        ? '⚠️'
+                        : signal.category === 'opportunity'
+                          ? '💡'
+                          : signal.category === 'trend'
+                            ? '📈'
+                            : signal.category === 'fraud'
+                              ? '🚨'
+                              : signal.category === 'disruption'
+                                ? '⛈️'
+                                : '📢'}
                     </span>
                     <div>
                       <h3 className="text-lg font-semibold">{signal.title}</h3>
@@ -881,13 +1004,19 @@ export const MeshPage: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <span className={`px-3 py-1 rounded-lg text-sm ${
-                    signal.severity === 'critical' ? 'bg-red-600' :
-                    signal.severity === 'high' ? 'bg-amber-600' :
-                    signal.severity === 'medium' ? 'bg-yellow-600' :
-                    signal.severity === 'low' ? 'bg-blue-600' :
-                    'bg-neutral-600'
-                  }`}>
+                  <span
+                    className={`px-3 py-1 rounded-lg text-sm ${
+                      signal.severity === 'critical'
+                        ? 'bg-red-600'
+                        : signal.severity === 'high'
+                          ? 'bg-amber-600'
+                          : signal.severity === 'medium'
+                            ? 'bg-yellow-600'
+                            : signal.severity === 'low'
+                              ? 'bg-blue-600'
+                              : 'bg-neutral-600'
+                    }`}
+                  >
                     {signal.severity.toUpperCase()}
                   </span>
                 </div>
@@ -898,7 +1027,7 @@ export const MeshPage: React.FC = () => {
                   <div>
                     <div className="text-xs text-white/50 mb-1">Affected Industries</div>
                     <div className="flex flex-wrap gap-1">
-                      {signal.affectedIndustries.map(ind => (
+                      {signal.affectedIndustries.map((ind) => (
                         <span key={ind} className="text-xs px-2 py-1 bg-cyan-900/50 rounded">
                           {INDUSTRY_CONFIG[ind].icon} {INDUSTRY_CONFIG[ind].name}
                         </span>
@@ -908,8 +1037,10 @@ export const MeshPage: React.FC = () => {
                   <div>
                     <div className="text-xs text-white/50 mb-1">Affected Regions</div>
                     <div className="flex flex-wrap gap-1">
-                      {signal.affectedRegions.map(reg => (
-                        <span key={reg} className="text-xs px-2 py-1 bg-blue-900/50 rounded">{reg}</span>
+                      {signal.affectedRegions.map((reg) => (
+                        <span key={reg} className="text-xs px-2 py-1 bg-blue-900/50 rounded">
+                          {reg}
+                        </span>
                       ))}
                     </div>
                   </div>
@@ -936,14 +1067,17 @@ export const MeshPage: React.FC = () => {
             <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/30 rounded-2xl p-6 border border-green-700/50">
               <h2 className="text-lg font-semibold mb-2">💰 Pricing Intelligence</h2>
               <p className="text-white/60">
-                Real-time market pricing data aggregated from network participants. Use these insights for
-                procurement negotiations, pricing strategy, and competitive analysis.
+                Real-time market pricing data aggregated from network participants. Use these
+                insights for procurement negotiations, pricing strategy, and competitive analysis.
               </p>
             </div>
 
             <div className="grid grid-cols-3 gap-6">
-              {pricingIntel.map(price => (
-                <div key={price.id} className="bg-black/30 rounded-2xl p-6 border border-cyan-800/50">
+              {pricingIntel.map((price) => (
+                <div
+                  key={price.id}
+                  className="bg-black/30 rounded-2xl p-6 border border-cyan-800/50"
+                >
                   <div className="text-xs text-white/50 mb-1">{price.category}</div>
                   <h3 className="text-lg font-semibold mb-4">{price.product}</h3>
 
@@ -969,17 +1103,21 @@ export const MeshPage: React.FC = () => {
 
                   <div className="grid grid-cols-2 gap-3 pt-4 border-t border-cyan-800/30">
                     <div className="text-center">
-                      <div className={`text-lg font-bold ${
-                        price.forecast30d < price.yourPrice ? 'text-green-400' : 'text-red-400'
-                      }`}>
+                      <div
+                        className={`text-lg font-bold ${
+                          price.forecast30d < price.yourPrice ? 'text-green-400' : 'text-red-400'
+                        }`}
+                      >
                         ${price.forecast30d}
                       </div>
                       <div className="text-xs text-white/50">30d Forecast</div>
                     </div>
                     <div className="text-center">
-                      <div className={`text-lg font-bold ${
-                        price.forecast90d < price.yourPrice ? 'text-green-400' : 'text-red-400'
-                      }`}>
+                      <div
+                        className={`text-lg font-bold ${
+                          price.forecast90d < price.yourPrice ? 'text-green-400' : 'text-red-400'
+                        }`}
+                      >
                         ${price.forecast90d}
                       </div>
                       <div className="text-xs text-white/50">90d Forecast</div>
@@ -987,18 +1125,26 @@ export const MeshPage: React.FC = () => {
                   </div>
 
                   <div className="flex items-center justify-center gap-2 mt-4">
-                    <span className={`px-2 py-0.5 rounded text-xs ${
-                      price.trend === 'rising' ? 'bg-red-900 text-red-300' :
-                      price.trend === 'falling' ? 'bg-green-900 text-green-300' :
-                      'bg-neutral-800 text-neutral-300'
-                    }`}>
+                    <span
+                      className={`px-2 py-0.5 rounded text-xs ${
+                        price.trend === 'rising'
+                          ? 'bg-red-900 text-red-300'
+                          : price.trend === 'falling'
+                            ? 'bg-green-900 text-green-300'
+                            : 'bg-neutral-800 text-neutral-300'
+                      }`}
+                    >
                       {price.trend}
                     </span>
-                    <span className={`px-2 py-0.5 rounded text-xs ${
-                      price.volatility === 'high' ? 'bg-amber-900 text-amber-300' :
-                      price.volatility === 'medium' ? 'bg-yellow-900 text-yellow-300' :
-                      'bg-blue-900 text-blue-300'
-                    }`}>
+                    <span
+                      className={`px-2 py-0.5 rounded text-xs ${
+                        price.volatility === 'high'
+                          ? 'bg-amber-900 text-amber-300'
+                          : price.volatility === 'medium'
+                            ? 'bg-yellow-900 text-yellow-300'
+                            : 'bg-blue-900 text-blue-300'
+                      }`}
+                    >
                       {price.volatility} volatility
                     </span>
                   </div>
@@ -1019,24 +1165,34 @@ export const MeshPage: React.FC = () => {
             </div>
 
             <div className="space-y-4">
-              {supplyChainAlerts.map(alert => (
-                <div key={alert.id} className={`bg-black/30 rounded-2xl p-6 border ${
-                  alert.severity === 'critical' ? 'border-red-700/50' :
-                  alert.severity === 'high' ? 'border-amber-700/50' :
-                  'border-cyan-800/50'
-                }`}>
+              {supplyChainAlerts.map((alert) => (
+                <div
+                  key={alert.id}
+                  className={`bg-black/30 rounded-2xl p-6 border ${
+                    alert.severity === 'critical'
+                      ? 'border-red-700/50'
+                      : alert.severity === 'high'
+                        ? 'border-amber-700/50'
+                        : 'border-cyan-800/50'
+                  }`}
+                >
                   <div className="flex items-center justify-between mb-4">
                     <div>
                       <h3 className="text-lg font-semibold">{alert.title}</h3>
                       <div className="text-sm text-white/50">
-                        {alert.affectedSuppliers} suppliers affected • Expected duration: {alert.expectedDuration}
+                        {alert.affectedSuppliers} suppliers affected • Expected duration:{' '}
+                        {alert.expectedDuration}
                       </div>
                     </div>
-                    <span className={`px-3 py-1 rounded-lg text-sm ${
-                      alert.severity === 'critical' ? 'bg-red-600' :
-                      alert.severity === 'high' ? 'bg-amber-600' :
-                      'bg-blue-600'
-                    }`}>
+                    <span
+                      className={`px-3 py-1 rounded-lg text-sm ${
+                        alert.severity === 'critical'
+                          ? 'bg-red-600'
+                          : alert.severity === 'high'
+                            ? 'bg-amber-600'
+                            : 'bg-blue-600'
+                      }`}
+                    >
                       {alert.severity.toUpperCase()}
                     </span>
                   </div>
@@ -1051,8 +1207,10 @@ export const MeshPage: React.FC = () => {
                     <div className="bg-black/20 rounded-xl p-3">
                       <div className="text-xs text-white/50 mb-1">Affected Regions</div>
                       <div className="flex flex-wrap gap-1">
-                        {alert.affectedRegions.map(reg => (
-                          <span key={reg} className="text-xs px-2 py-0.5 bg-cyan-900/50 rounded">{reg}</span>
+                        {alert.affectedRegions.map((reg) => (
+                          <span key={reg} className="text-xs px-2 py-0.5 bg-cyan-900/50 rounded">
+                            {reg}
+                          </span>
                         ))}
                       </div>
                     </div>

@@ -13,8 +13,15 @@ import { PageGuide, GUIDES } from '../../../components/PageGuide';
 interface DecisionEvent {
   id: string;
   timestamp: string;
-  type: 'created' | 'context_added' | 'premortem_run' | 'council_session' | 
-        'ghost_board' | 'decision_made' | 'outcome_recorded' | 'reopened';
+  type:
+    | 'created'
+    | 'context_added'
+    | 'premortem_run'
+    | 'council_session'
+    | 'ghost_board'
+    | 'decision_made'
+    | 'outcome_recorded'
+    | 'reopened';
   title: string;
   summary: string;
   data: Record<string, any>;
@@ -125,83 +132,224 @@ const SAMPLE_DECISIONS: DecisionSummary[] = [
 
 const SAMPLE_DECISIONS_DETAIL: Record<string, Decision> = {
   'sample-1': {
-  id: 'sample-1',
-  decisionId: 'DC-2025-0003',
-  title: 'Q2 Market Expansion Strategy',
-  description: 'Evaluate and decide on expanding into European markets, specifically Germany and UK, with a focus on enterprise clients.',
-  status: 'decided',
-  priority: 'high',
-  category: 'strategy',
-  createdAt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
-  updatedAt: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
-  budget: 500000,
-  timeframe: 'Q2 2025',
-  owner: { name: 'Jane Doe', role: 'CEO' },
-  councilConfidence: 92,
-  linkedWorkflows: [
-    { id: 'wf-1', name: 'EU Market Entry Checklist' },
-    { id: 'wf-2', name: 'UK Entity Formation' },
-    { id: 'wf-3', name: 'GDPR Compliance Review' },
-  ],
-  timeline: [
-    { id: 'e1', timestamp: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(), type: 'created', title: 'Decision Created', summary: 'Strategic decision initiated by CEO', data: {}, userId: 'user-1' },
-    { id: 'e2', timestamp: new Date(Date.now() - 6 * 24 * 60 * 60 * 1000).toISOString(), type: 'context_added', title: 'Market Research Added', summary: 'Added competitive analysis for EU markets', data: { documents: 3 }, userId: 'user-2' },
-    { id: 'e3', timestamp: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(), type: 'premortem_run', title: 'Pre-Mortem Analysis', summary: 'Identified 12 potential failure modes, 4 high-risk', data: { 
-      riskScore: 42,
-      totalExposure: 1850000,
-      recommendation: 'proceed',
-      failureModes: [
-        { title: 'Regulatory compliance delays', probability: 65, costImpact: 450000, category: 'Legal' },
-        { title: 'Currency fluctuation impact', probability: 55, costImpact: 320000, category: 'Financial' },
-        { title: 'Talent acquisition challenges', probability: 70, costImpact: 280000, category: 'Operations' },
-        { title: 'Brand localization missteps', probability: 35, costImpact: 180000, category: 'Marketing' },
-      ]
-    }, userId: 'user-1', agentsInvolved: ['CendiaCFO', 'CendiaCRO'] },
-    { id: 'e4', timestamp: new Date(Date.now() - 4 * 24 * 60 * 60 * 1000).toISOString(), type: 'council_session', title: 'Council Deliberation', summary: 'AI Council evaluated options with 85% confidence', data: { 
-      confidence: 0.85, 
-      recommendation: 'Proceed with UK first',
-      deliberation: [
-        { agent: 'CendiaCEO', stance: 'support', summary: 'Strategic alignment with 3-year growth plan. UK market offers lower regulatory friction than Germany.', confidence: 0.88 },
-        { agent: 'CendiaCFO', stance: 'cautious', summary: 'ROI projections solid but currency exposure needs hedging. Recommend phased capital deployment.', confidence: 0.82 },
-        { agent: 'CendiaCRO', stance: 'support', summary: 'Pipeline analysis shows 12 enterprise prospects in UK already engaged. Sales cycle ~6 months shorter than DACH.', confidence: 0.91 },
-        { agent: 'CendiaCMO', stance: 'support', summary: 'Brand recognition higher in UK. Existing content can be repurposed with minimal localization.', confidence: 0.85 },
-      ],
-      consensus: 'Proceed with UK expansion in Q2, defer Germany to Q4 pending UK validation.',
-      voteSummary: { support: 3, cautious: 1, oppose: 0 }
-    }, userId: 'user-1', agentsInvolved: ['CendiaCEO', 'CendiaCFO', 'CendiaCRO', 'CendiaCMO'] },
-    { id: 'e5', timestamp: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(), type: 'ghost_board', title: 'Ghost Board Simulation', summary: 'Simulated board review - 3 concerns raised', data: { 
-      preparednessScore: 78,
-      questions: [
-        { member: 'Board Chair', question: 'What is the exit strategy if UK expansion underperforms?', difficulty: 'hard', answered: true },
-        { member: 'Lead Investor', question: 'How does this affect our runway and next funding round?', difficulty: 'medium', answered: true },
-        { member: 'Independent Director', question: 'What are the regulatory risks with Brexit implications?', difficulty: 'hard', answered: false },
-      ],
-      concerns: ['Timeline aggressive', 'Currency risk', 'Talent acquisition']
-    }, userId: 'user-1' },
-    { id: 'e6', timestamp: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(), type: 'context_added', title: 'Financial Model Updated', summary: 'Added 3-year projection with sensitivity analysis', data: { npv: 2400000 }, userId: 'user-3' },
-    { id: 'e7', timestamp: new Date(Date.now() - 1.5 * 24 * 60 * 60 * 1000).toISOString(), type: 'council_session', title: 'Final Council Review', summary: 'Updated recommendation with mitigations', data: { 
-      confidence: 0.92,
-      recommendation: 'Proceed with mitigations in place',
-      deliberation: [
-        { agent: 'CendiaCEO', stance: 'support', summary: 'Risk mitigations address key concerns. Ready to proceed with phased approach.', confidence: 0.94 },
-        { agent: 'CendiaCFO', stance: 'support', summary: 'Currency hedging strategy approved. Budget milestones provide adequate controls.', confidence: 0.90 },
-      ],
-      consensus: 'Full approval to proceed. Mitigations validated by finance.',
-      voteSummary: { support: 2, cautious: 0, oppose: 0 }
-    }, userId: 'user-1', agentsInvolved: ['CendiaCEO', 'CendiaCFO'] },
-    { id: 'e8', timestamp: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(), type: 'decision_made', title: 'Decision Finalized', summary: 'Approved: UK expansion Q2, Germany Q4', data: { approved: true }, userId: 'user-1' },
-  ],
-  preMortems: [{ id: 'pm-1', risks: 12, highRisk: 4 }],
-  councilSessions: [{ id: 'cs-1', confidence: 0.92 }],
-  ghostBoardSimulations: [{ id: 'gb-1', concerns: 3 }],
-  finalDecision: 'Proceed with UK market expansion in Q2 2025, followed by Germany in Q4 2025. Initial investment capped at $500K with milestone-based releases.',
-  decisionMadeAt: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
-  auditHash: 'sha256:a1b2c3d4e5f6...',
+    id: 'sample-1',
+    decisionId: 'DC-2025-0003',
+    title: 'Q2 Market Expansion Strategy',
+    description:
+      'Evaluate and decide on expanding into European markets, specifically Germany and UK, with a focus on enterprise clients.',
+    status: 'decided',
+    priority: 'high',
+    category: 'strategy',
+    createdAt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
+    updatedAt: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
+    budget: 500000,
+    timeframe: 'Q2 2025',
+    owner: { name: 'Jane Doe', role: 'CEO' },
+    councilConfidence: 92,
+    linkedWorkflows: [
+      { id: 'wf-1', name: 'EU Market Entry Checklist' },
+      { id: 'wf-2', name: 'UK Entity Formation' },
+      { id: 'wf-3', name: 'GDPR Compliance Review' },
+    ],
+    timeline: [
+      {
+        id: 'e1',
+        timestamp: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'created',
+        title: 'Decision Created',
+        summary: 'Strategic decision initiated by CEO',
+        data: {},
+        userId: 'user-1',
+      },
+      {
+        id: 'e2',
+        timestamp: new Date(Date.now() - 6 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'context_added',
+        title: 'Market Research Added',
+        summary: 'Added competitive analysis for EU markets',
+        data: { documents: 3 },
+        userId: 'user-2',
+      },
+      {
+        id: 'e3',
+        timestamp: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'premortem_run',
+        title: 'Pre-Mortem Analysis',
+        summary: 'Identified 12 potential failure modes, 4 high-risk',
+        data: {
+          riskScore: 42,
+          totalExposure: 1850000,
+          recommendation: 'proceed',
+          failureModes: [
+            {
+              title: 'Regulatory compliance delays',
+              probability: 65,
+              costImpact: 450000,
+              category: 'Legal',
+            },
+            {
+              title: 'Currency fluctuation impact',
+              probability: 55,
+              costImpact: 320000,
+              category: 'Financial',
+            },
+            {
+              title: 'Talent acquisition challenges',
+              probability: 70,
+              costImpact: 280000,
+              category: 'Operations',
+            },
+            {
+              title: 'Brand localization missteps',
+              probability: 35,
+              costImpact: 180000,
+              category: 'Marketing',
+            },
+          ],
+        },
+        userId: 'user-1',
+        agentsInvolved: ['CendiaCFO', 'CendiaCRO'],
+      },
+      {
+        id: 'e4',
+        timestamp: new Date(Date.now() - 4 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'council_session',
+        title: 'Council Deliberation',
+        summary: 'AI Council evaluated options with 85% confidence',
+        data: {
+          confidence: 0.85,
+          recommendation: 'Proceed with UK first',
+          deliberation: [
+            {
+              agent: 'CendiaCEO',
+              stance: 'support',
+              summary:
+                'Strategic alignment with 3-year growth plan. UK market offers lower regulatory friction than Germany.',
+              confidence: 0.88,
+            },
+            {
+              agent: 'CendiaCFO',
+              stance: 'cautious',
+              summary:
+                'ROI projections solid but currency exposure needs hedging. Recommend phased capital deployment.',
+              confidence: 0.82,
+            },
+            {
+              agent: 'CendiaCRO',
+              stance: 'support',
+              summary:
+                'Pipeline analysis shows 12 enterprise prospects in UK already engaged. Sales cycle ~6 months shorter than DACH.',
+              confidence: 0.91,
+            },
+            {
+              agent: 'CendiaCMO',
+              stance: 'support',
+              summary:
+                'Brand recognition higher in UK. Existing content can be repurposed with minimal localization.',
+              confidence: 0.85,
+            },
+          ],
+          consensus: 'Proceed with UK expansion in Q2, defer Germany to Q4 pending UK validation.',
+          voteSummary: { support: 3, cautious: 1, oppose: 0 },
+        },
+        userId: 'user-1',
+        agentsInvolved: ['CendiaCEO', 'CendiaCFO', 'CendiaCRO', 'CendiaCMO'],
+      },
+      {
+        id: 'e5',
+        timestamp: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'ghost_board',
+        title: 'Ghost Board Simulation',
+        summary: 'Simulated board review - 3 concerns raised',
+        data: {
+          preparednessScore: 78,
+          questions: [
+            {
+              member: 'Board Chair',
+              question: 'What is the exit strategy if UK expansion underperforms?',
+              difficulty: 'hard',
+              answered: true,
+            },
+            {
+              member: 'Lead Investor',
+              question: 'How does this affect our runway and next funding round?',
+              difficulty: 'medium',
+              answered: true,
+            },
+            {
+              member: 'Independent Director',
+              question: 'What are the regulatory risks with Brexit implications?',
+              difficulty: 'hard',
+              answered: false,
+            },
+          ],
+          concerns: ['Timeline aggressive', 'Currency risk', 'Talent acquisition'],
+        },
+        userId: 'user-1',
+      },
+      {
+        id: 'e6',
+        timestamp: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'context_added',
+        title: 'Financial Model Updated',
+        summary: 'Added 3-year projection with sensitivity analysis',
+        data: { npv: 2400000 },
+        userId: 'user-3',
+      },
+      {
+        id: 'e7',
+        timestamp: new Date(Date.now() - 1.5 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'council_session',
+        title: 'Final Council Review',
+        summary: 'Updated recommendation with mitigations',
+        data: {
+          confidence: 0.92,
+          recommendation: 'Proceed with mitigations in place',
+          deliberation: [
+            {
+              agent: 'CendiaCEO',
+              stance: 'support',
+              summary:
+                'Risk mitigations address key concerns. Ready to proceed with phased approach.',
+              confidence: 0.94,
+            },
+            {
+              agent: 'CendiaCFO',
+              stance: 'support',
+              summary:
+                'Currency hedging strategy approved. Budget milestones provide adequate controls.',
+              confidence: 0.9,
+            },
+          ],
+          consensus: 'Full approval to proceed. Mitigations validated by finance.',
+          voteSummary: { support: 2, cautious: 0, oppose: 0 },
+        },
+        userId: 'user-1',
+        agentsInvolved: ['CendiaCEO', 'CendiaCFO'],
+      },
+      {
+        id: 'e8',
+        timestamp: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'decision_made',
+        title: 'Decision Finalized',
+        summary: 'Approved: UK expansion Q2, Germany Q4',
+        data: { approved: true },
+        userId: 'user-1',
+      },
+    ],
+    preMortems: [{ id: 'pm-1', risks: 12, highRisk: 4 }],
+    councilSessions: [{ id: 'cs-1', confidence: 0.92 }],
+    ghostBoardSimulations: [{ id: 'gb-1', concerns: 3 }],
+    finalDecision:
+      'Proceed with UK market expansion in Q2 2025, followed by Germany in Q4 2025. Initial investment capped at $500K with milestone-based releases.',
+    decisionMadeAt: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
+    auditHash: 'sha256:a1b2c3d4e5f6...',
   },
   'sample-2': {
     id: 'sample-2',
     title: 'Enterprise Pricing Model Revision',
-    description: 'Review and update enterprise pricing tiers based on competitive analysis and customer feedback.',
+    description:
+      'Review and update enterprise pricing tiers based on competitive analysis and customer feedback.',
     status: 'deliberating',
     priority: 'high',
     category: 'revenue',
@@ -210,22 +358,88 @@ const SAMPLE_DECISIONS_DETAIL: Record<string, Decision> = {
     budget: 0,
     timeframe: 'Q1 2025',
     timeline: [
-      { id: 'e1', timestamp: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(), type: 'created', title: 'Decision Created', summary: 'Pricing review initiated by CRO', data: {}, userId: 'user-1' },
-      { id: 'e2', timestamp: new Date(Date.now() - 2.5 * 24 * 60 * 60 * 1000).toISOString(), type: 'context_added', title: 'Competitive Analysis', summary: 'Added pricing benchmarks from 8 competitors', data: { competitors: 8 }, userId: 'user-2' },
-      { id: 'e3', timestamp: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(), type: 'premortem_run', title: 'Pre-Mortem Analysis', summary: 'Identified churn risk with aggressive pricing', data: { risks: 8, highRisk: 2 }, userId: 'user-1', agentsInvolved: ['CendiaCFO', 'CendiaCRO'] },
-      { id: 'e4', timestamp: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(), type: 'council_session', title: 'Council Deliberation', summary: 'AI Council analyzing pricing options', data: { 
-        confidence: 0.72,
-        recommendation: 'Implement value-based pricing',
-        deliberation: [
-          { agent: 'CendiaCFO', stance: 'support', summary: 'Value-based model aligns with enterprise expectations. 15% margin improvement projected.', confidence: 0.78 },
-          { agent: 'CendiaCRO', stance: 'cautious', summary: 'Concerned about mid-market churn. Suggest grandfather clause for existing customers.', confidence: 0.68 },
-          { agent: 'CendiaCMO', stance: 'support', summary: 'Premium positioning strengthens brand. Competitors moving same direction.', confidence: 0.75 },
-          { agent: 'CendiaChro', stance: 'cautious', summary: 'Sales team needs training on value selling. 30-day ramp period recommended.', confidence: 0.65 },
-        ],
-        consensus: 'Proceed with value-based pricing but include transition support for existing customers.',
-        voteSummary: { support: 2, cautious: 2, oppose: 0 }
-      }, userId: 'user-1', agentsInvolved: ['CendiaCFO', 'CendiaCRO', 'CendiaCMO', 'CendiaChro'] },
-      { id: 'e5', timestamp: new Date(Date.now() - 0.5 * 24 * 60 * 60 * 1000).toISOString(), type: 'context_added', title: 'Customer Survey Results', summary: 'Added feedback from 50 enterprise customers', data: { responses: 50, satisfaction: 0.72 }, userId: 'user-3' },
+      {
+        id: 'e1',
+        timestamp: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'created',
+        title: 'Decision Created',
+        summary: 'Pricing review initiated by CRO',
+        data: {},
+        userId: 'user-1',
+      },
+      {
+        id: 'e2',
+        timestamp: new Date(Date.now() - 2.5 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'context_added',
+        title: 'Competitive Analysis',
+        summary: 'Added pricing benchmarks from 8 competitors',
+        data: { competitors: 8 },
+        userId: 'user-2',
+      },
+      {
+        id: 'e3',
+        timestamp: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'premortem_run',
+        title: 'Pre-Mortem Analysis',
+        summary: 'Identified churn risk with aggressive pricing',
+        data: { risks: 8, highRisk: 2 },
+        userId: 'user-1',
+        agentsInvolved: ['CendiaCFO', 'CendiaCRO'],
+      },
+      {
+        id: 'e4',
+        timestamp: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'council_session',
+        title: 'Council Deliberation',
+        summary: 'AI Council analyzing pricing options',
+        data: {
+          confidence: 0.72,
+          recommendation: 'Implement value-based pricing',
+          deliberation: [
+            {
+              agent: 'CendiaCFO',
+              stance: 'support',
+              summary:
+                'Value-based model aligns with enterprise expectations. 15% margin improvement projected.',
+              confidence: 0.78,
+            },
+            {
+              agent: 'CendiaCRO',
+              stance: 'cautious',
+              summary:
+                'Concerned about mid-market churn. Suggest grandfather clause for existing customers.',
+              confidence: 0.68,
+            },
+            {
+              agent: 'CendiaCMO',
+              stance: 'support',
+              summary: 'Premium positioning strengthens brand. Competitors moving same direction.',
+              confidence: 0.75,
+            },
+            {
+              agent: 'CendiaChro',
+              stance: 'cautious',
+              summary:
+                'Sales team needs training on value selling. 30-day ramp period recommended.',
+              confidence: 0.65,
+            },
+          ],
+          consensus:
+            'Proceed with value-based pricing but include transition support for existing customers.',
+          voteSummary: { support: 2, cautious: 2, oppose: 0 },
+        },
+        userId: 'user-1',
+        agentsInvolved: ['CendiaCFO', 'CendiaCRO', 'CendiaCMO', 'CendiaChro'],
+      },
+      {
+        id: 'e5',
+        timestamp: new Date(Date.now() - 0.5 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'context_added',
+        title: 'Customer Survey Results',
+        summary: 'Added feedback from 50 enterprise customers',
+        data: { responses: 50, satisfaction: 0.72 },
+        userId: 'user-3',
+      },
     ],
     preMortems: [{ id: 'pm-1', risks: 8, highRisk: 2 }],
     councilSessions: [{ id: 'cs-1', confidence: 0.72 }],
@@ -235,7 +449,8 @@ const SAMPLE_DECISIONS_DETAIL: Record<string, Decision> = {
   'sample-3': {
     id: 'sample-3',
     title: 'Engineering Team Restructure',
-    description: 'Evaluate restructuring engineering into product-aligned squads vs current functional teams.',
+    description:
+      'Evaluate restructuring engineering into product-aligned squads vs current functional teams.',
     status: 'analyzing',
     priority: 'medium',
     category: 'operations',
@@ -244,19 +459,63 @@ const SAMPLE_DECISIONS_DETAIL: Record<string, Decision> = {
     budget: 50000,
     timeframe: 'Q1 2025',
     timeline: [
-      { id: 'e1', timestamp: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(), type: 'created', title: 'Decision Created', summary: 'Restructure proposal from VP Engineering', data: {}, userId: 'user-1' },
-      { id: 'e2', timestamp: new Date(Date.now() - 0.5 * 24 * 60 * 60 * 1000).toISOString(), type: 'context_added', title: 'Current State Analysis', summary: 'Documented existing team structure and dependencies', data: { teams: 6, engineers: 42 }, userId: 'user-2' },
-      { id: 'e3', timestamp: new Date(Date.now() - 0.2 * 24 * 60 * 60 * 1000).toISOString(), type: 'council_session', title: 'Initial Council Review', summary: 'AI Council providing initial assessment', data: { 
-        confidence: 0.58,
-        recommendation: 'More analysis needed',
-        deliberation: [
-          { agent: 'CendiaCEO', stance: 'cautious', summary: 'Timing concern - Q1 is critical for product launches. Consider Q2 implementation.', confidence: 0.55 },
-          { agent: 'CendiaChro', stance: 'support', summary: 'Squad model improves ownership and reduces handoffs. Similar transitions successful at peer companies.', confidence: 0.72 },
-          { agent: 'CendiaCTO', stance: 'support', summary: 'Technical debt reduction will accelerate with product-aligned ownership. Recommend pilot with Platform team.', confidence: 0.68 },
-        ],
-        consensus: 'Recommend pilot program before full restructure. Need more data on productivity impact.',
-        voteSummary: { support: 2, cautious: 1, oppose: 0 }
-      }, userId: 'user-1', agentsInvolved: ['CendiaCEO', 'CendiaChro', 'CendiaCTO'] },
+      {
+        id: 'e1',
+        timestamp: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'created',
+        title: 'Decision Created',
+        summary: 'Restructure proposal from VP Engineering',
+        data: {},
+        userId: 'user-1',
+      },
+      {
+        id: 'e2',
+        timestamp: new Date(Date.now() - 0.5 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'context_added',
+        title: 'Current State Analysis',
+        summary: 'Documented existing team structure and dependencies',
+        data: { teams: 6, engineers: 42 },
+        userId: 'user-2',
+      },
+      {
+        id: 'e3',
+        timestamp: new Date(Date.now() - 0.2 * 24 * 60 * 60 * 1000).toISOString(),
+        type: 'council_session',
+        title: 'Initial Council Review',
+        summary: 'AI Council providing initial assessment',
+        data: {
+          confidence: 0.58,
+          recommendation: 'More analysis needed',
+          deliberation: [
+            {
+              agent: 'CendiaCEO',
+              stance: 'cautious',
+              summary:
+                'Timing concern - Q1 is critical for product launches. Consider Q2 implementation.',
+              confidence: 0.55,
+            },
+            {
+              agent: 'CendiaChro',
+              stance: 'support',
+              summary:
+                'Squad model improves ownership and reduces handoffs. Similar transitions successful at peer companies.',
+              confidence: 0.72,
+            },
+            {
+              agent: 'CendiaCTO',
+              stance: 'support',
+              summary:
+                'Technical debt reduction will accelerate with product-aligned ownership. Recommend pilot with Platform team.',
+              confidence: 0.68,
+            },
+          ],
+          consensus:
+            'Recommend pilot program before full restructure. Need more data on productivity impact.',
+          voteSummary: { support: 2, cautious: 1, oppose: 0 },
+        },
+        userId: 'user-1',
+        agentsInvolved: ['CendiaCEO', 'CendiaChro', 'CendiaCTO'],
+      },
     ],
     preMortems: [],
     councilSessions: [{ id: 'cs-1', confidence: 0.58 }],
@@ -275,8 +534,10 @@ export const DecisionDNAPage: React.FC = () => {
   const [replayMode, setReplayMode] = useState(false);
   const [replayStep, setReplayStep] = useState(0);
   const [expandedEvent, setExpandedEvent] = useState<string | null>(null);
-  const [decisionFilter, setDecisionFilter] = useState<'all' | 'deciding' | 'decided' | 'at-risk'>('all');
-  
+  const [decisionFilter, setDecisionFilter] = useState<'all' | 'deciding' | 'decided' | 'at-risk'>(
+    'all'
+  );
+
   // New decision form
   const [newTitle, setNewTitle] = useState('');
   const [newDescription, setNewDescription] = useState('');
@@ -284,10 +545,12 @@ export const DecisionDNAPage: React.FC = () => {
   const [newTimeframe, setNewTimeframe] = useState('');
 
   // Filter decisions based on selected filter
-  const filteredDecisions = decisions.filter(d => {
+  const filteredDecisions = decisions.filter((d) => {
     if (decisionFilter === 'all') return true;
-    if (decisionFilter === 'deciding') return ['draft', 'analyzing', 'deliberating'].includes(d.status);
-    if (decisionFilter === 'decided') return ['decided', 'implemented', 'closed'].includes(d.status);
+    if (decisionFilter === 'deciding')
+      return ['draft', 'analyzing', 'deliberating'].includes(d.status);
+    if (decisionFilter === 'decided')
+      return ['decided', 'implemented', 'closed'].includes(d.status);
     if (decisionFilter === 'at-risk') return (d.riskScore || 0) >= 60;
     return true;
   });
@@ -313,7 +576,7 @@ export const DecisionDNAPage: React.FC = () => {
 
   const loadDecision = async (id: string) => {
     setIsLoading(true);
-    
+
     // Use sample data for demo decisions
     if (id.startsWith('sample-') && SAMPLE_DECISIONS_DETAIL[id]) {
       setSelectedDecision(SAMPLE_DECISIONS_DETAIL[id]);
@@ -322,7 +585,7 @@ export const DecisionDNAPage: React.FC = () => {
       setIsLoading(false);
       return;
     }
-    
+
     try {
       const res = await api.get<any>(`/decisions/${id}`);
       const payload = res as any;
@@ -338,8 +601,10 @@ export const DecisionDNAPage: React.FC = () => {
   };
 
   const createDecision = async () => {
-    if (!newTitle.trim() || !newDescription.trim()) {return;}
-    
+    if (!newTitle.trim() || !newDescription.trim()) {
+      return;
+    }
+
     setIsCreating(true);
     try {
       const res = await api.post<any>('/decisions', {
@@ -364,16 +629,20 @@ export const DecisionDNAPage: React.FC = () => {
   };
 
   const runPreMortem = async () => {
-    if (!selectedDecision) {return;}
+    if (!selectedDecision) {
+      return;
+    }
     setPreMortemError(null);
-    
+
     // For sample decisions or if backend unavailable, navigate to Pre-Mortem page
     if (selectedDecision.id.startsWith('sample-')) {
       // Navigate to Pre-Mortem page with decision context
-      navigate(`/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`);
+      navigate(
+        `/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`
+      );
       return;
     }
-    
+
     setIsLoading(true);
     try {
       const res = await api.post<any>(`/decisions/${selectedDecision.id}/premortem`, {});
@@ -381,12 +650,16 @@ export const DecisionDNAPage: React.FC = () => {
         loadDecision(selectedDecision.id);
       } else {
         // Fallback: navigate to Pre-Mortem page
-        navigate(`/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`);
+        navigate(
+          `/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`
+        );
       }
     } catch (error) {
       console.error('Failed to run pre-mortem:', error);
       // Fallback: navigate to Pre-Mortem page with decision context
-      navigate(`/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`);
+      navigate(
+        `/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`
+      );
     }
     setIsLoading(false);
   };
@@ -402,8 +675,12 @@ export const DecisionDNAPage: React.FC = () => {
   };
 
   const getVisibleEvents = () => {
-    if (!selectedDecision) {return [];}
-    if (!replayMode) {return selectedDecision.timeline;}
+    if (!selectedDecision) {
+      return [];
+    }
+    if (!replayMode) {
+      return selectedDecision.timeline;
+    }
     return selectedDecision.timeline.slice(0, replayStep + 1);
   };
 
@@ -417,7 +694,8 @@ export const DecisionDNAPage: React.FC = () => {
             <h1 className="text-3xl font-bold text-white">Decision DNA</h1>
           </div>
           <p className="text-slate-400 text-lg">
-            Full lifecycle tracking with step-by-step replay. Every decision, every analysis, every outcome.
+            Full lifecycle tracking with step-by-step replay. Every decision, every analysis, every
+            outcome.
           </p>
         </div>
 
@@ -474,7 +752,7 @@ export const DecisionDNAPage: React.FC = () => {
               <h3 className="text-white font-semibold mb-3 flex items-center gap-2">
                 <span>📋</span> Tracked Decisions ({filteredDecisions.length})
               </h3>
-              
+
               {/* Filter Tabs */}
               <div className="flex items-center gap-1 mb-3 p-1 bg-slate-700/50 rounded-lg">
                 {(['all', 'deciding', 'decided', 'at-risk'] as const).map((filter) => (
@@ -484,8 +762,8 @@ export const DecisionDNAPage: React.FC = () => {
                     className={cn(
                       'flex-1 px-2 py-1.5 rounded text-xs font-medium transition-all',
                       decisionFilter === filter
-                        ? filter === 'at-risk' 
-                          ? 'bg-red-600 text-white' 
+                        ? filter === 'at-risk'
+                          ? 'bg-red-600 text-white'
                           : 'bg-slate-600 text-white'
                         : 'text-slate-400 hover:text-white hover:bg-slate-600/50'
                     )}
@@ -501,7 +779,9 @@ export const DecisionDNAPage: React.FC = () => {
               <div className="space-y-2 max-h-96 overflow-y-auto">
                 {filteredDecisions.length === 0 ? (
                   <p className="text-slate-500 text-sm text-center py-4">
-                    {decisionFilter === 'all' ? 'No decisions tracked yet. Create one above!' : `No ${decisionFilter} decisions found.`}
+                    {decisionFilter === 'all'
+                      ? 'No decisions tracked yet. Create one above!'
+                      : `No ${decisionFilter} decisions found.`}
                   </p>
                 ) : (
                   filteredDecisions.map((d) => (
@@ -523,19 +803,25 @@ export const DecisionDNAPage: React.FC = () => {
                           </div>
                         </div>
                         <div className="flex flex-col items-end gap-1">
-                          <span className={cn(
-                            'px-2 py-0.5 rounded text-xs font-medium',
-                            STATUS_COLORS[d.status] || 'bg-gray-500'
-                          )}>
+                          <span
+                            className={cn(
+                              'px-2 py-0.5 rounded text-xs font-medium',
+                              STATUS_COLORS[d.status] || 'bg-gray-500'
+                            )}
+                          >
                             {d.status}
                           </span>
                           {d.riskScore !== undefined && (
-                            <span className={cn(
-                              'text-xs',
-                              d.riskScore > 60 ? 'text-red-400' :
-                              d.riskScore > 40 ? 'text-yellow-400' :
-                              'text-green-400'
-                            )}>
+                            <span
+                              className={cn(
+                                'text-xs',
+                                d.riskScore > 60
+                                  ? 'text-red-400'
+                                  : d.riskScore > 40
+                                    ? 'text-yellow-400'
+                                    : 'text-green-400'
+                              )}
+                            >
                               {d.riskScore}% risk
                             </span>
                           )}
@@ -553,9 +839,12 @@ export const DecisionDNAPage: React.FC = () => {
             {!selectedDecision ? (
               <div className="bg-slate-800/50 rounded-xl p-12 border border-slate-700 text-center">
                 <span className="text-6xl mb-4 block">🧬</span>
-                <h3 className="text-xl font-semibold text-white mb-2">Select or Create a Decision</h3>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Select or Create a Decision
+                </h3>
                 <p className="text-slate-400">
-                  Track the full DNA of any business decision - from initial context through analysis to outcome.
+                  Track the full DNA of any business decision - from initial context through
+                  analysis to outcome.
                 </p>
               </div>
             ) : (
@@ -566,43 +855,57 @@ export const DecisionDNAPage: React.FC = () => {
                     <div className="flex-1">
                       <h2 className="text-xl font-bold text-white">{selectedDecision.title}</h2>
                       <p className="text-slate-400 mt-1">{selectedDecision.description}</p>
-                      
+
                       {/* Decision ID & Owner Metadata Strip */}
                       <div className="flex flex-wrap items-center gap-3 mt-3 py-2 px-3 bg-slate-700/50 rounded-lg text-xs">
                         {selectedDecision.decisionId && (
                           <span className="text-slate-300">
                             <span className="text-slate-500">Decision ID:</span>{' '}
-                            <span className="font-mono font-medium text-cyan-400">{selectedDecision.decisionId}</span>
+                            <span className="font-mono font-medium text-cyan-400">
+                              {selectedDecision.decisionId}
+                            </span>
                           </span>
                         )}
                         {selectedDecision.owner && (
                           <span className="text-slate-300">
                             <span className="text-slate-500">Owner:</span>{' '}
-                            <span className="font-medium">{selectedDecision.owner.role} ({selectedDecision.owner.name})</span>
+                            <span className="font-medium">
+                              {selectedDecision.owner.role} ({selectedDecision.owner.name})
+                            </span>
                           </span>
                         )}
                         <span className="text-slate-300">
                           <span className="text-slate-500">Council Status:</span>{' '}
-                          <span className={cn(
-                            'font-medium',
-                            selectedDecision.status === 'decided' ? 'text-green-400' : 'text-amber-400'
-                          )}>
-                            {selectedDecision.status.charAt(0).toUpperCase() + selectedDecision.status.slice(1)}
-                            {selectedDecision.councilConfidence && ` (${selectedDecision.councilConfidence}% confidence)`}
+                          <span
+                            className={cn(
+                              'font-medium',
+                              selectedDecision.status === 'decided'
+                                ? 'text-green-400'
+                                : 'text-amber-400'
+                            )}
+                          >
+                            {selectedDecision.status.charAt(0).toUpperCase() +
+                              selectedDecision.status.slice(1)}
+                            {selectedDecision.councilConfidence &&
+                              ` (${selectedDecision.councilConfidence}% confidence)`}
                           </span>
                         </span>
                         <span className="text-slate-300">
                           <span className="text-slate-500">Last updated:</span>{' '}
-                          <span className="font-medium">{formatDate(selectedDecision.updatedAt)}</span>
+                          <span className="font-medium">
+                            {formatDate(selectedDecision.updatedAt)}
+                          </span>
                         </span>
                       </div>
 
                       {/* Status & Budget Row */}
                       <div className="flex items-center gap-4 mt-3 text-sm">
-                        <span className={cn(
-                          'px-2 py-0.5 rounded font-medium',
-                          STATUS_COLORS[selectedDecision.status] || 'bg-gray-500'
-                        )}>
+                        <span
+                          className={cn(
+                            'px-2 py-0.5 rounded font-medium',
+                            STATUS_COLORS[selectedDecision.status] || 'bg-gray-500'
+                          )}
+                        >
                           {selectedDecision.status}
                         </span>
                         {selectedDecision.budget && (
@@ -611,9 +914,7 @@ export const DecisionDNAPage: React.FC = () => {
                           </span>
                         )}
                         {selectedDecision.timeframe && (
-                          <span className="text-slate-400">
-                            📅 {selectedDecision.timeframe}
-                          </span>
+                          <span className="text-slate-400">📅 {selectedDecision.timeframe}</span>
                         )}
                       </div>
                     </div>
@@ -642,15 +943,19 @@ export const DecisionDNAPage: React.FC = () => {
 
                   {/* Immutable Hash Banner */}
                   {selectedDecision.auditHash && (
-                    <div 
+                    <div
                       className="mt-3 p-2 bg-green-900/30 border border-green-700/50 rounded-lg flex items-center justify-between group cursor-help"
                       title="Any change to this decision's record would change this hash. It's anchored in the immutable Chronos ledger."
                     >
                       <div className="flex items-center gap-2">
                         <span className="text-green-400 text-lg">🔐</span>
                         <div>
-                          <span className="text-green-400 text-xs font-medium">Immutable Hash (Chronos Ledger)</span>
-                          <span className="text-green-300 text-xs font-mono ml-2">{selectedDecision.auditHash}</span>
+                          <span className="text-green-400 text-xs font-medium">
+                            Immutable Hash (Chronos Ledger)
+                          </span>
+                          <span className="text-green-300 text-xs font-mono ml-2">
+                            {selectedDecision.auditHash}
+                          </span>
                         </div>
                       </div>
                       <span className="text-green-500/50 text-xs group-hover:text-green-400 transition-colors">
@@ -660,26 +965,32 @@ export const DecisionDNAPage: React.FC = () => {
                   )}
 
                   {/* Linked Workflows */}
-                  {selectedDecision.linkedWorkflows && selectedDecision.linkedWorkflows.length > 0 && (
-                    <div className="mt-3 flex items-center gap-2">
-                      <span className="text-slate-500 text-xs">Linked Workflows:</span>
-                      <div className="flex items-center gap-1">
-                        {selectedDecision.linkedWorkflows.map((wf) => (
-                          <button
-                            key={wf.id}
-                            onClick={() => window.open(`/cortex/bridge/workflows/${wf.id}`, '_blank')}
-                            className="px-2 py-0.5 bg-indigo-600/30 hover:bg-indigo-600/50 border border-indigo-500/30 rounded text-xs text-indigo-300 hover:text-indigo-200 transition-colors"
-                            title={`Open "${wf.name}" in Bridge`}
-                          >
-                            ⚙️ {wf.name}
-                          </button>
-                        ))}
+                  {selectedDecision.linkedWorkflows &&
+                    selectedDecision.linkedWorkflows.length > 0 && (
+                      <div className="mt-3 flex items-center gap-2">
+                        <span className="text-slate-500 text-xs">Linked Workflows:</span>
+                        <div className="flex items-center gap-1">
+                          {selectedDecision.linkedWorkflows.map((wf) => (
+                            <button
+                              key={wf.id}
+                              onClick={() =>
+                                window.open(`/cortex/bridge/workflows/${wf.id}`, '_blank')
+                              }
+                              className="px-2 py-0.5 bg-indigo-600/30 hover:bg-indigo-600/50 border border-indigo-500/30 rounded text-xs text-indigo-300 hover:text-indigo-200 transition-colors"
+                              title={`Open "${wf.name}" in Bridge`}
+                            >
+                              ⚙️ {wf.name}
+                            </button>
+                          ))}
+                        </div>
+                        <span
+                          className="text-slate-500 text-xs ml-1"
+                          title="These are the automations/actions this decision triggered"
+                        >
+                          ({selectedDecision.linkedWorkflows.length} workflows triggered)
+                        </span>
                       </div>
-                      <span className="text-slate-500 text-xs ml-1" title="These are the automations/actions this decision triggered">
-                        ({selectedDecision.linkedWorkflows.length} workflows triggered)
-                      </span>
-                    </div>
-                  )}
+                    )}
                 </div>
 
                 {/* Replay Controls */}
@@ -698,7 +1009,11 @@ export const DecisionDNAPage: React.FC = () => {
                           ◀ Prev
                         </button>
                         <button
-                          onClick={() => setReplayStep(Math.min(selectedDecision.timeline.length - 1, replayStep + 1))}
+                          onClick={() =>
+                            setReplayStep(
+                              Math.min(selectedDecision.timeline.length - 1, replayStep + 1)
+                            )
+                          }
                           disabled={replayStep >= selectedDecision.timeline.length - 1}
                           className="px-3 py-1 bg-purple-700 hover:bg-purple-600 disabled:opacity-50 text-white rounded text-sm"
                         >
@@ -730,7 +1045,7 @@ export const DecisionDNAPage: React.FC = () => {
                   <h3 className="text-white font-semibold mb-4 flex items-center gap-2">
                     <span>📜</span> Decision Timeline
                   </h3>
-                  
+
                   <div className="relative">
                     {/* Timeline line */}
                     <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-slate-600" />
@@ -746,11 +1061,15 @@ export const DecisionDNAPage: React.FC = () => {
                           )}
                         >
                           {/* Event dot */}
-                          <div className={cn(
-                            'absolute left-4 w-5 h-5 rounded-full flex items-center justify-center text-xs',
-                            EVENT_COLORS[event.type] || 'bg-gray-500',
-                            replayMode && idx === replayStep && 'ring-2 ring-purple-400 ring-offset-2 ring-offset-slate-800'
-                          )}>
+                          <div
+                            className={cn(
+                              'absolute left-4 w-5 h-5 rounded-full flex items-center justify-center text-xs',
+                              EVENT_COLORS[event.type] || 'bg-gray-500',
+                              replayMode &&
+                                idx === replayStep &&
+                                'ring-2 ring-purple-400 ring-offset-2 ring-offset-slate-800'
+                            )}
+                          >
                             {EVENT_ICONS[event.type] || '📌'}
                           </div>
 
@@ -762,14 +1081,19 @@ export const DecisionDNAPage: React.FC = () => {
                                 ? 'border-blue-500'
                                 : 'border-slate-600 hover:border-slate-500'
                             )}
-                            onClick={() => setExpandedEvent(expandedEvent === event.id ? null : event.id)}
+                            onClick={() =>
+                              setExpandedEvent(expandedEvent === event.id ? null : event.id)
+                            }
                           >
                             <div className="flex items-start justify-between">
                               <div className="flex-1">
                                 <div className="flex items-center gap-2">
                                   <span className="text-white font-medium">{event.title}</span>
                                   {/* Artefact type icon */}
-                                  <span className="text-slate-500 text-xs" title={`${event.type.replace('_', ' ')} artefact`}>
+                                  <span
+                                    className="text-slate-500 text-xs"
+                                    title={`${event.type.replace('_', ' ')} artefact`}
+                                  >
                                     {event.type === 'context_added' && '📄'}
                                     {event.type === 'premortem_run' && '⚠️'}
                                     {event.type === 'council_session' && '📋'}
@@ -783,7 +1107,10 @@ export const DecisionDNAPage: React.FC = () => {
                                   {formatDate(event.timestamp)}
                                 </span>
                                 {/* Open Artefact button */}
-                                {(event.type === 'premortem_run' || event.type === 'council_session' || event.type === 'ghost_board' || event.type === 'context_added') && (
+                                {(event.type === 'premortem_run' ||
+                                  event.type === 'council_session' ||
+                                  event.type === 'ghost_board' ||
+                                  event.type === 'context_added') && (
                                   <button
                                     onClick={(e) => {
                                       e.stopPropagation();
@@ -814,26 +1141,41 @@ export const DecisionDNAPage: React.FC = () => {
                                 {event.agentsInvolved && event.agentsInvolved.length > 0 && (
                                   <div className="mb-3 flex items-center gap-2 flex-wrap">
                                     <span className="text-slate-400 text-xs">Agents:</span>
-                                    {event.agentsInvolved.map(agent => (
-                                      <span key={agent} className="px-2 py-0.5 bg-slate-600 rounded text-xs text-white">
+                                    {event.agentsInvolved.map((agent) => (
+                                      <span
+                                        key={agent}
+                                        className="px-2 py-0.5 bg-slate-600 rounded text-xs text-white"
+                                      >
                                         {agent}
                                       </span>
                                     ))}
                                   </div>
                                 )}
-                                
+
                                 {/* Council Session formatted view */}
-                                {event.type === 'council_session' && (event.data.deliberation || event.data.agentResponses) ? (
+                                {event.type === 'council_session' &&
+                                (event.data.deliberation || event.data.agentResponses) ? (
                                   <div className="space-y-3">
                                     {/* Confidence & Consensus */}
                                     <div className="flex items-center gap-4 p-3 bg-slate-800 rounded-lg">
                                       <div className="text-center">
-                                        <div className={cn(
-                                          'text-2xl font-bold',
-                                          (event.data.confidence || event.data.consensusLevel / 100) >= 0.8 ? 'text-green-400' :
-                                          (event.data.confidence || event.data.consensusLevel / 100) >= 0.6 ? 'text-amber-400' : 'text-red-400'
-                                        )}>
-                                          {Math.round((event.data.confidence || event.data.consensusLevel / 100) * 100)}%
+                                        <div
+                                          className={cn(
+                                            'text-2xl font-bold',
+                                            (event.data.confidence ||
+                                              event.data.consensusLevel / 100) >= 0.8
+                                              ? 'text-green-400'
+                                              : (event.data.confidence ||
+                                                    event.data.consensusLevel / 100) >= 0.6
+                                                ? 'text-amber-400'
+                                                : 'text-red-400'
+                                          )}
+                                        >
+                                          {Math.round(
+                                            (event.data.confidence ||
+                                              event.data.consensusLevel / 100) * 100
+                                          )}
+                                          %
                                         </div>
                                         <div className="text-xs text-slate-400">Confidence</div>
                                       </div>
@@ -852,14 +1194,21 @@ export const DecisionDNAPage: React.FC = () => {
                                                 {event.data.voteSummary.oppose || 0} Oppose
                                               </span>
                                             </div>
-                                            <div className="text-xs text-slate-400">Agent Votes</div>
+                                            <div className="text-xs text-slate-400">
+                                              Agent Votes
+                                            </div>
                                           </>
                                         ) : (
                                           <>
                                             <div className="text-sm text-white font-medium">
-                                              {(event.data.deliberation || event.data.agentResponses)?.length || 0} Agents
+                                              {(
+                                                event.data.deliberation || event.data.agentResponses
+                                              )?.length || 0}{' '}
+                                              Agents
                                             </div>
-                                            <div className="text-xs text-slate-400">Participated</div>
+                                            <div className="text-xs text-slate-400">
+                                              Participated
+                                            </div>
                                           </>
                                         )}
                                       </div>
@@ -868,18 +1217,27 @@ export const DecisionDNAPage: React.FC = () => {
                                     {/* Consensus */}
                                     {(event.data.consensus || event.data.synthesis) && (
                                       <div className="p-3 bg-indigo-900/30 border border-indigo-700/50 rounded-lg">
-                                        <div className="text-xs text-indigo-400 font-medium mb-1">🏛️ Council Consensus</div>
-                                        <div className="text-white text-sm">{event.data.consensus || event.data.synthesis}</div>
+                                        <div className="text-xs text-indigo-400 font-medium mb-1">
+                                          🏛️ Council Consensus
+                                        </div>
+                                        <div className="text-white text-sm">
+                                          {event.data.consensus || event.data.synthesis}
+                                        </div>
                                       </div>
                                     )}
 
                                     {/* Agent Deliberations - supports both sample format and backend format */}
                                     <div>
                                       <div className="text-sm font-medium text-slate-300 mb-2">
-                                        Agent Deliberations ({(event.data.deliberation || event.data.agentResponses)?.length || 0})
+                                        Agent Deliberations (
+                                        {(event.data.deliberation || event.data.agentResponses)
+                                          ?.length || 0}
+                                        )
                                       </div>
                                       <div className="space-y-2 max-h-64 overflow-y-auto">
-                                        {(event.data.deliberation || event.data.agentResponses)?.map((d: any, i: number) => (
+                                        {(
+                                          event.data.deliberation || event.data.agentResponses
+                                        )?.map((d: any, i: number) => (
                                           <div key={i} className="p-3 bg-slate-800 rounded-lg">
                                             <div className="flex items-center justify-between mb-2">
                                               <div className="flex items-center gap-2">
@@ -887,14 +1245,21 @@ export const DecisionDNAPage: React.FC = () => {
                                                   {d.agent || d.agentName || d.agentId}
                                                 </span>
                                                 {d.stance && (
-                                                  <span className={cn(
-                                                    'px-2 py-0.5 rounded text-xs font-medium',
-                                                    d.stance === 'support' ? 'bg-green-600/30 text-green-400' :
-                                                    d.stance === 'cautious' ? 'bg-amber-600/30 text-amber-400' :
-                                                    'bg-red-600/30 text-red-400'
-                                                  )}>
-                                                    {d.stance === 'support' ? '✓ Support' : 
-                                                     d.stance === 'cautious' ? '⚠ Cautious' : '✗ Oppose'}
+                                                  <span
+                                                    className={cn(
+                                                      'px-2 py-0.5 rounded text-xs font-medium',
+                                                      d.stance === 'support'
+                                                        ? 'bg-green-600/30 text-green-400'
+                                                        : d.stance === 'cautious'
+                                                          ? 'bg-amber-600/30 text-amber-400'
+                                                          : 'bg-red-600/30 text-red-400'
+                                                    )}
+                                                  >
+                                                    {d.stance === 'support'
+                                                      ? '✓ Support'
+                                                      : d.stance === 'cautious'
+                                                        ? '⚠ Cautious'
+                                                        : '✗ Oppose'}
                                                   </span>
                                                 )}
                                               </div>
@@ -902,7 +1267,9 @@ export const DecisionDNAPage: React.FC = () => {
                                                 {Math.round((d.confidence || 0) * 100)}% confident
                                               </span>
                                             </div>
-                                            <p className="text-sm text-slate-300">{d.summary || d.response}</p>
+                                            <p className="text-sm text-slate-300">
+                                              {d.summary || d.response}
+                                            </p>
                                           </div>
                                         ))}
                                       </div>
@@ -913,11 +1280,16 @@ export const DecisionDNAPage: React.FC = () => {
                                     {/* Risk Summary */}
                                     <div className="flex items-center gap-4 p-3 bg-slate-800 rounded-lg">
                                       <div className="text-center">
-                                        <div className={cn(
-                                          'text-2xl font-bold',
-                                          event.data.riskScore >= 70 ? 'text-red-400' :
-                                          event.data.riskScore >= 40 ? 'text-amber-400' : 'text-green-400'
-                                        )}>
+                                        <div
+                                          className={cn(
+                                            'text-2xl font-bold',
+                                            event.data.riskScore >= 70
+                                              ? 'text-red-400'
+                                              : event.data.riskScore >= 40
+                                                ? 'text-amber-400'
+                                                : 'text-green-400'
+                                          )}
+                                        >
                                           {event.data.riskScore}%
                                         </div>
                                         <div className="text-xs text-slate-400">Risk Score</div>
@@ -931,11 +1303,16 @@ export const DecisionDNAPage: React.FC = () => {
                                       </div>
                                       <div className="h-10 w-px bg-slate-600" />
                                       <div className="text-center flex-1">
-                                        <div className={cn(
-                                          'text-lg font-semibold uppercase',
-                                          event.data.recommendation === 'proceed' ? 'text-green-400' :
-                                          event.data.recommendation === 'delay' ? 'text-amber-400' : 'text-red-400'
-                                        )}>
+                                        <div
+                                          className={cn(
+                                            'text-lg font-semibold uppercase',
+                                            event.data.recommendation === 'proceed'
+                                              ? 'text-green-400'
+                                              : event.data.recommendation === 'delay'
+                                                ? 'text-amber-400'
+                                                : 'text-red-400'
+                                          )}
+                                        >
                                           {event.data.recommendation}
                                         </div>
                                         <div className="text-xs text-slate-400">Recommendation</div>
@@ -949,17 +1326,27 @@ export const DecisionDNAPage: React.FC = () => {
                                       </div>
                                       <div className="space-y-2 max-h-64 overflow-y-auto">
                                         {event.data.failureModes.map((fm: any, i: number) => (
-                                          <div key={i} className="p-3 bg-slate-800 rounded-lg flex items-center justify-between">
+                                          <div
+                                            key={i}
+                                            className="p-3 bg-slate-800 rounded-lg flex items-center justify-between"
+                                          >
                                             <div className="flex items-center gap-3">
-                                              <div className={cn(
-                                                'w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold',
-                                                fm.probability >= 70 ? 'bg-red-500/20 text-red-400' :
-                                                fm.probability >= 50 ? 'bg-amber-500/20 text-amber-400' : 'bg-green-500/20 text-green-400'
-                                              )}>
+                                              <div
+                                                className={cn(
+                                                  'w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold',
+                                                  fm.probability >= 70
+                                                    ? 'bg-red-500/20 text-red-400'
+                                                    : fm.probability >= 50
+                                                      ? 'bg-amber-500/20 text-amber-400'
+                                                      : 'bg-green-500/20 text-green-400'
+                                                )}
+                                              >
                                                 {fm.probability}%
                                               </div>
                                               <div>
-                                                <div className="text-white font-medium">{fm.title}</div>
+                                                <div className="text-white font-medium">
+                                                  {fm.title}
+                                                </div>
                                                 <span className="px-2 py-0.5 bg-slate-700 rounded text-xs text-slate-400">
                                                   {fm.category}
                                                 </span>
@@ -981,11 +1368,16 @@ export const DecisionDNAPage: React.FC = () => {
                                     {/* Preparedness Score */}
                                     <div className="flex items-center gap-4 p-3 bg-slate-800 rounded-lg">
                                       <div className="text-center">
-                                        <div className={cn(
-                                          'text-2xl font-bold',
-                                          event.data.preparednessScore >= 80 ? 'text-green-400' :
-                                          event.data.preparednessScore >= 60 ? 'text-amber-400' : 'text-red-400'
-                                        )}>
+                                        <div
+                                          className={cn(
+                                            'text-2xl font-bold',
+                                            event.data.preparednessScore >= 80
+                                              ? 'text-green-400'
+                                              : event.data.preparednessScore >= 60
+                                                ? 'text-amber-400'
+                                                : 'text-red-400'
+                                          )}
+                                        >
                                           {event.data.preparednessScore}%
                                         </div>
                                         <div className="text-xs text-slate-400">Preparedness</div>
@@ -1019,17 +1411,24 @@ export const DecisionDNAPage: React.FC = () => {
                                                 {q.member}
                                               </span>
                                               <div className="flex items-center gap-2">
-                                                <span className={cn(
-                                                  'px-2 py-0.5 rounded text-xs',
-                                                  q.difficulty === 'hard' ? 'bg-red-600/30 text-red-400' :
-                                                  q.difficulty === 'medium' ? 'bg-amber-600/30 text-amber-400' : 'bg-green-600/30 text-green-400'
-                                                )}>
+                                                <span
+                                                  className={cn(
+                                                    'px-2 py-0.5 rounded text-xs',
+                                                    q.difficulty === 'hard'
+                                                      ? 'bg-red-600/30 text-red-400'
+                                                      : q.difficulty === 'medium'
+                                                        ? 'bg-amber-600/30 text-amber-400'
+                                                        : 'bg-green-600/30 text-green-400'
+                                                  )}
+                                                >
                                                   {q.difficulty}
                                                 </span>
-                                                <span className={cn(
-                                                  'text-xs',
-                                                  q.answered ? 'text-green-400' : 'text-red-400'
-                                                )}>
+                                                <span
+                                                  className={cn(
+                                                    'text-xs',
+                                                    q.answered ? 'text-green-400' : 'text-red-400'
+                                                  )}
+                                                >
                                                   {q.answered ? '✓ Answered' : '✗ Unanswered'}
                                                 </span>
                                               </div>
@@ -1043,10 +1442,15 @@ export const DecisionDNAPage: React.FC = () => {
                                     {/* Concerns */}
                                     {event.data.concerns && event.data.concerns.length > 0 && (
                                       <div className="p-3 bg-pink-900/30 border border-pink-700/50 rounded-lg">
-                                        <div className="text-xs text-pink-400 font-medium mb-2">👻 Board Concerns</div>
+                                        <div className="text-xs text-pink-400 font-medium mb-2">
+                                          👻 Board Concerns
+                                        </div>
                                         <div className="flex flex-wrap gap-2">
                                           {event.data.concerns.map((c: string, i: number) => (
-                                            <span key={i} className="px-2 py-1 bg-pink-600/20 border border-pink-600/30 rounded text-xs text-pink-300">
+                                            <span
+                                              key={i}
+                                              className="px-2 py-1 bg-pink-600/20 border border-pink-600/30 rounded text-xs text-pink-300"
+                                            >
                                               {c}
                                             </span>
                                           ))}
@@ -1056,16 +1460,24 @@ export const DecisionDNAPage: React.FC = () => {
                                   </div>
                                 ) : event.type === 'context_added' && event.data ? (
                                   <div className="p-3 bg-purple-900/30 border border-purple-700/50 rounded-lg">
-                                    <div className="text-xs text-purple-400 font-medium mb-2">📄 Context Added</div>
+                                    <div className="text-xs text-purple-400 font-medium mb-2">
+                                      📄 Context Added
+                                    </div>
                                     <div className="flex flex-wrap gap-3">
                                       {event.data.documents && (
                                         <span className="text-sm text-slate-300">
-                                          <span className="text-purple-400 font-medium">{event.data.documents}</span> documents attached
+                                          <span className="text-purple-400 font-medium">
+                                            {event.data.documents}
+                                          </span>{' '}
+                                          documents attached
                                         </span>
                                       )}
                                       {event.data.npv && (
                                         <span className="text-sm text-slate-300">
-                                          NPV: <span className="text-green-400 font-medium">${(event.data.npv / 1000000).toFixed(1)}M</span>
+                                          NPV:{' '}
+                                          <span className="text-green-400 font-medium">
+                                            ${(event.data.npv / 1000000).toFixed(1)}M
+                                          </span>
                                         </span>
                                       )}
                                     </div>
@@ -1089,20 +1501,29 @@ export const DecisionDNAPage: React.FC = () => {
                   <button
                     onClick={() => {
                       // Scroll to pre-mortem events in timeline
-                      const pmEvent = selectedDecision.timeline.find(e => e.type === 'premortem_run');
+                      const pmEvent = selectedDecision.timeline.find(
+                        (e) => e.type === 'premortem_run'
+                      );
                       if (pmEvent) setExpandedEvent(pmEvent.id);
                     }}
                     className="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-amber-500/50 hover:bg-slate-700/50 transition-all text-left group"
                     title="Click to view Pre-Mortem details in timeline"
                   >
                     <div className="text-amber-400 text-2xl mb-2">💀</div>
-                    <div className="text-white font-semibold group-hover:text-amber-300">Pre-Mortems</div>
+                    <div className="text-white font-semibold group-hover:text-amber-300">
+                      Pre-Mortems
+                    </div>
                     <div className="text-3xl font-bold text-white mt-1">
                       {selectedDecision.preMortems.length}
                     </div>
                     {selectedDecision.preMortems.length > 0 && (
                       <div className="text-slate-400 text-sm mt-1">
-                        Last risk: {selectedDecision.preMortems[selectedDecision.preMortems.length - 1]?.riskScore || selectedDecision.preMortems[selectedDecision.preMortems.length - 1]?.highRisk}%
+                        Last risk:{' '}
+                        {selectedDecision.preMortems[selectedDecision.preMortems.length - 1]
+                          ?.riskScore ||
+                          selectedDecision.preMortems[selectedDecision.preMortems.length - 1]
+                            ?.highRisk}
+                        %
                       </div>
                     )}
                     <div className="text-slate-500 text-xs mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -1112,14 +1533,18 @@ export const DecisionDNAPage: React.FC = () => {
                   <button
                     onClick={() => {
                       // Scroll to council events in timeline
-                      const csEvent = selectedDecision.timeline.find(e => e.type === 'council_session');
+                      const csEvent = selectedDecision.timeline.find(
+                        (e) => e.type === 'council_session'
+                      );
                       if (csEvent) setExpandedEvent(csEvent.id);
                     }}
                     className="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-indigo-500/50 hover:bg-slate-700/50 transition-all text-left group"
                     title="Click to view Council Session details in timeline"
                   >
                     <div className="text-indigo-400 text-2xl mb-2">🏛️</div>
-                    <div className="text-white font-semibold group-hover:text-indigo-300">Council Sessions</div>
+                    <div className="text-white font-semibold group-hover:text-indigo-300">
+                      Council Sessions
+                    </div>
                     <div className="text-3xl font-bold text-white mt-1">
                       {selectedDecision.councilSessions.length}
                     </div>
@@ -1130,14 +1555,18 @@ export const DecisionDNAPage: React.FC = () => {
                   <button
                     onClick={() => {
                       // Scroll to ghost board events in timeline
-                      const gbEvent = selectedDecision.timeline.find(e => e.type === 'ghost_board');
+                      const gbEvent = selectedDecision.timeline.find(
+                        (e) => e.type === 'ghost_board'
+                      );
                       if (gbEvent) setExpandedEvent(gbEvent.id);
                     }}
                     className="bg-slate-800/50 rounded-xl p-4 border border-slate-700 hover:border-pink-500/50 hover:bg-slate-700/50 transition-all text-left group"
                     title="Click to view Ghost Board details in timeline"
                   >
                     <div className="text-pink-400 text-2xl mb-2">👻</div>
-                    <div className="text-white font-semibold group-hover:text-pink-300">Board Simulations</div>
+                    <div className="text-white font-semibold group-hover:text-pink-300">
+                      Board Simulations
+                    </div>
                     <div className="text-3xl font-bold text-white mt-1">
                       {selectedDecision.ghostBoardSimulations.length}
                     </div>
@@ -1152,7 +1581,10 @@ export const DecisionDNAPage: React.FC = () => {
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-white font-semibold">🔒 Audit Export</h3>
-                      <p className="text-slate-400 text-sm" title="Full decision record for regulators, auditors, or M&A diligence">
+                      <p
+                        className="text-slate-400 text-sm"
+                        title="Full decision record for regulators, auditors, or M&A diligence"
+                      >
                         Export full decision record for compliance and auditing
                       </p>
                     </div>
@@ -1195,19 +1627,27 @@ export const DecisionDNAPage: React.FC = () => {
 
   <h2>Decision Timeline</h2>
   <div class="timeline">
-    ${selectedDecision.timeline.map(e => `
+    ${selectedDecision.timeline
+      .map(
+        (e) => `
       <div class="event">
         <div class="event-title">${e.title}</div>
         <div class="event-date">${new Date(e.timestamp).toLocaleString()}</div>
         <p>${e.summary}</p>
       </div>
-    `).join('')}
+    `
+      )
+      .join('')}
   </div>
 
-  ${selectedDecision.finalDecision ? `
+  ${
+    selectedDecision.finalDecision
+      ? `
     <h2>Final Decision</h2>
     <p>${selectedDecision.finalDecision}</p>
-  ` : ''}
+  `
+      : ''
+  }
 
   <h2>Cryptographic Verification</h2>
   <div class="hash">${selectedDecision.auditHash || 'Hash not yet generated'}</div>
@@ -1232,7 +1672,9 @@ export const DecisionDNAPage: React.FC = () => {
                       </button>
                       <button
                         onClick={() => {
-                          const blob = new Blob([JSON.stringify(selectedDecision, null, 2)], { type: 'application/json' });
+                          const blob = new Blob([JSON.stringify(selectedDecision, null, 2)], {
+                            type: 'application/json',
+                          });
                           const url = URL.createObjectURL(blob);
                           const a = document.createElement('a');
                           a.href = url;
@@ -1252,7 +1694,7 @@ export const DecisionDNAPage: React.FC = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Page Guide */}
       <PageGuide {...GUIDES.decisionDNA} />
     </div>

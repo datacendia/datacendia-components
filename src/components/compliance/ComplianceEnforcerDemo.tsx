@@ -1,7 +1,7 @@
 /**
  * Compliance Enforcer Demo
  * Demonstrates active compliance enforcement with framework citations
- * 
+ *
  * Example: "Blocked per Ring 3 (Privacy), Framework HIPAA, Control §164.312"
  */
 
@@ -65,7 +65,8 @@ const DEMO_SCENARIOS = [
     name: 'Transfer EU data offshore',
     icon: '🌍',
     action: 'transfer non-adequate country',
-    description: 'Move European customer personal data to servers in a non-EU country without safeguards',
+    description:
+      'Move European customer personal data to servers in a non-EU country without safeguards',
     dataTypes: ['pii', 'eu_data'],
     expectedBlock: true,
   },
@@ -105,13 +106,13 @@ const RING_INFO = {
 };
 
 const ComplianceEnforcerDemo: React.FC = () => {
-  const [selectedScenario, setSelectedScenario] = useState<typeof DEMO_SCENARIOS[0] | null>(null);
+  const [selectedScenario, setSelectedScenario] = useState<(typeof DEMO_SCENARIOS)[0] | null>(null);
   const [result, setResult] = useState<EnforcementResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [customAction, setCustomAction] = useState('');
   const [customDescription, setCustomDescription] = useState('');
 
-  const runEnforcement = async (scenario: typeof DEMO_SCENARIOS[0]) => {
+  const runEnforcement = async (scenario: (typeof DEMO_SCENARIOS)[0]) => {
     setSelectedScenario(scenario);
     setLoading(true);
     setResult(null);
@@ -140,8 +141,10 @@ const ComplianceEnforcerDemo: React.FC = () => {
   };
 
   const runCustomEnforcement = async () => {
-    if (!customAction || !customDescription) {return;}
-    
+    if (!customAction || !customDescription) {
+      return;
+    }
+
     setLoading(true);
     setResult(null);
     setSelectedScenario({
@@ -173,7 +176,8 @@ const ComplianceEnforcerDemo: React.FC = () => {
       // API not available
       setResult({
         proceed: true,
-        cisoResponse: '✅ **APPROVED** - Action complies with all 5 Rings of Sovereignty.\n\nNo compliance violations detected.',
+        cisoResponse:
+          '✅ **APPROVED** - Action complies with all 5 Rings of Sovereignty.\n\nNo compliance violations detected.',
         verdict: {
           allowed: true,
           riskLevel: 'none',
@@ -186,7 +190,7 @@ const ComplianceEnforcerDemo: React.FC = () => {
     setLoading(false);
   };
 
-  const simulateResponse = (scenario: typeof DEMO_SCENARIOS[0]) => {
+  const simulateResponse = (scenario: (typeof DEMO_SCENARIOS)[0]) => {
     // Simulate enforcement responses for demo
     const responses: Record<string, EnforcementResult> = {
       'patient-public': {
@@ -206,17 +210,21 @@ const ComplianceEnforcerDemo: React.FC = () => {
           allowed: false,
           riskLevel: 'critical',
           citations: ['Ring 3 (Privacy), Framework HIPAA, Control §164.312(a)(1)'],
-          violations: [{
-            ring: 3,
-            domain: 'privacy',
-            framework: 'HIPAA',
-            control: '§164.312(a)(1)',
-            controlTitle: 'Access Control',
-            severity: 'critical',
-            citation: 'Ring 3 (Privacy), Framework HIPAA, Control §164.312(a)(1)',
-            reason: 'Protected Health Information (PHI) cannot be stored in publicly accessible locations',
-            recommendation: 'Use HIPAA-compliant encrypted storage with access controls and audit logging',
-          }],
+          violations: [
+            {
+              ring: 3,
+              domain: 'privacy',
+              framework: 'HIPAA',
+              control: '§164.312(a)(1)',
+              controlTitle: 'Access Control',
+              severity: 'critical',
+              citation: 'Ring 3 (Privacy), Framework HIPAA, Control §164.312(a)(1)',
+              reason:
+                'Protected Health Information (PHI) cannot be stored in publicly accessible locations',
+              recommendation:
+                'Use HIPAA-compliant encrypted storage with access controls and audit logging',
+            },
+          ],
           requiresHumanReview: true,
         },
       },
@@ -235,17 +243,20 @@ const ComplianceEnforcerDemo: React.FC = () => {
           allowed: false,
           riskLevel: 'high',
           citations: ['Ring 1 (Ethical AI), Framework NIST AI RMF, Control MEASURE 2.6'],
-          violations: [{
-            ring: 1,
-            domain: 'ethical_ai',
-            framework: 'NIST AI RMF',
-            control: 'MEASURE 2.6',
-            controlTitle: 'Bias Testing',
-            severity: 'high',
-            citation: 'Ring 1 (Ethical AI), Framework NIST AI RMF, Control MEASURE 2.6',
-            reason: 'AI models must be tested for bias before deployment',
-            recommendation: 'Run fairness metrics (demographic parity, equalized odds) before deployment',
-          }],
+          violations: [
+            {
+              ring: 1,
+              domain: 'ethical_ai',
+              framework: 'NIST AI RMF',
+              control: 'MEASURE 2.6',
+              controlTitle: 'Bias Testing',
+              severity: 'high',
+              citation: 'Ring 1 (Ethical AI), Framework NIST AI RMF, Control MEASURE 2.6',
+              reason: 'AI models must be tested for bias before deployment',
+              recommendation:
+                'Run fairness metrics (demographic parity, equalized odds) before deployment',
+            },
+          ],
           requiresHumanReview: false,
         },
       },
@@ -264,17 +275,19 @@ const ComplianceEnforcerDemo: React.FC = () => {
           allowed: false,
           riskLevel: 'high',
           citations: ['Ring 2 (Cybersecurity), Framework NIST 800-53, Control AU-2'],
-          violations: [{
-            ring: 2,
-            domain: 'cybersecurity',
-            framework: 'NIST 800-53',
-            control: 'AU-2',
-            controlTitle: 'Audit Events',
-            severity: 'high',
-            citation: 'Ring 2 (Cybersecurity), Framework NIST 800-53, Control AU-2',
-            reason: 'Security-relevant events must be logged and retained',
-            recommendation: 'Maintain audit logs for minimum 1 year with tamper-proof storage',
-          }],
+          violations: [
+            {
+              ring: 2,
+              domain: 'cybersecurity',
+              framework: 'NIST 800-53',
+              control: 'AU-2',
+              controlTitle: 'Audit Events',
+              severity: 'high',
+              citation: 'Ring 2 (Cybersecurity), Framework NIST 800-53, Control AU-2',
+              reason: 'Security-relevant events must be logged and retained',
+              recommendation: 'Maintain audit logs for minimum 1 year with tamper-proof storage',
+            },
+          ],
           requiresHumanReview: false,
         },
       },
@@ -293,17 +306,20 @@ const ComplianceEnforcerDemo: React.FC = () => {
           allowed: false,
           riskLevel: 'high',
           citations: ['Ring 3 (Privacy), Framework GDPR, Articles 44-49'],
-          violations: [{
-            ring: 3,
-            domain: 'privacy',
-            framework: 'GDPR',
-            control: 'Article 44-49',
-            controlTitle: 'Cross-Border Transfer',
-            severity: 'high',
-            citation: 'Ring 3 (Privacy), Framework GDPR, Articles 44-49',
-            reason: 'Cross-border transfers require adequacy decision or appropriate safeguards',
-            recommendation: 'Use Standard Contractual Clauses (SCCs) or verify adequacy decision exists',
-          }],
+          violations: [
+            {
+              ring: 3,
+              domain: 'privacy',
+              framework: 'GDPR',
+              control: 'Article 44-49',
+              controlTitle: 'Cross-Border Transfer',
+              severity: 'high',
+              citation: 'Ring 3 (Privacy), Framework GDPR, Articles 44-49',
+              reason: 'Cross-border transfers require adequacy decision or appropriate safeguards',
+              recommendation:
+                'Use Standard Contractual Clauses (SCCs) or verify adequacy decision exists',
+            },
+          ],
           requiresHumanReview: false,
         },
       },
@@ -324,17 +340,20 @@ const ComplianceEnforcerDemo: React.FC = () => {
           allowed: false,
           riskLevel: 'critical',
           citations: ['Ring 3 (Privacy), Framework PCI-DSS, Requirement 3.2'],
-          violations: [{
-            ring: 3,
-            domain: 'privacy',
-            framework: 'PCI-DSS',
-            control: 'Requirement 3.2',
-            controlTitle: 'Cardholder Data Protection',
-            severity: 'critical',
-            citation: 'Ring 3 (Privacy), Framework PCI-DSS, Requirement 3.2',
-            reason: 'Sensitive authentication data (CVV, full track data) must never be stored',
-            recommendation: 'Use tokenization and never store CVV; mask PAN in logs (show only last 4 digits)',
-          }],
+          violations: [
+            {
+              ring: 3,
+              domain: 'privacy',
+              framework: 'PCI-DSS',
+              control: 'Requirement 3.2',
+              controlTitle: 'Cardholder Data Protection',
+              severity: 'critical',
+              citation: 'Ring 3 (Privacy), Framework PCI-DSS, Requirement 3.2',
+              reason: 'Sensitive authentication data (CVV, full track data) must never be stored',
+              recommendation:
+                'Use tokenization and never store CVV; mask PAN in logs (show only last 4 digits)',
+            },
+          ],
           requiresHumanReview: true,
         },
       },
@@ -375,7 +394,9 @@ No compliance violations detected. Proceed with standard security protocols.`,
           {Object.entries(RING_INFO).map(([ring, info]) => (
             <div key={ring} className="flex items-center gap-2 text-sm">
               <span>{info.icon}</span>
-              <span className="text-neutral-600">Ring {ring}: {info.name}</span>
+              <span className="text-neutral-600">
+                Ring {ring}: {info.name}
+              </span>
             </div>
           ))}
         </div>
@@ -391,8 +412,8 @@ No compliance violations detected. Proceed with standard security protocols.`,
               onClick={() => runEnforcement(scenario)}
               disabled={loading}
               className={`p-4 rounded-xl border-2 text-left transition-all hover:shadow-md disabled:opacity-50 ${
-                selectedScenario?.id === scenario.id 
-                  ? 'border-primary-500 bg-primary-50' 
+                selectedScenario?.id === scenario.id
+                  ? 'border-primary-500 bg-primary-50'
                   : 'border-neutral-200 hover:border-neutral-300'
               }`}
             >
@@ -465,21 +486,25 @@ No compliance violations detected. Proceed with standard security protocols.`,
 
       {/* Result */}
       {result && !loading && (
-        <div className={`rounded-2xl border-2 overflow-hidden ${
-          result.proceed 
-            ? 'border-green-300 bg-green-50' 
-            : 'border-red-300 bg-red-50'
-        }`}>
+        <div
+          className={`rounded-2xl border-2 overflow-hidden ${
+            result.proceed ? 'border-green-300 bg-green-50' : 'border-red-300 bg-red-50'
+          }`}
+        >
           {/* Header */}
           <div className={`p-4 ${result.proceed ? 'bg-green-100' : 'bg-red-100'}`}>
             <div className="flex items-center gap-3">
-              <div className={`w-12 h-12 rounded-full flex items-center justify-center ${
-                result.proceed ? 'bg-green-500' : 'bg-red-500'
-              } text-white text-2xl`}>
+              <div
+                className={`w-12 h-12 rounded-full flex items-center justify-center ${
+                  result.proceed ? 'bg-green-500' : 'bg-red-500'
+                } text-white text-2xl`}
+              >
                 {result.proceed ? '✓' : '✕'}
               </div>
               <div>
-                <h3 className={`text-lg font-bold ${result.proceed ? 'text-green-800' : 'text-red-800'}`}>
+                <h3
+                  className={`text-lg font-bold ${result.proceed ? 'text-green-800' : 'text-red-800'}`}
+                >
                   {result.proceed ? 'Action Approved' : 'Action Blocked'}
                 </h3>
                 <p className={`text-sm ${result.proceed ? 'text-green-600' : 'text-red-600'}`}>
@@ -513,7 +538,7 @@ No compliance violations detected. Proceed with standard security protocols.`,
               <h4 className="font-semibold text-neutral-900 mb-3">Violation Details</h4>
               <div className="space-y-3">
                 {result.verdict.violations.map((violation, idx) => (
-                  <div 
+                  <div
                     key={idx}
                     className={`p-4 rounded-lg border ${SEVERITY_COLORS[violation.severity]}`}
                   >
@@ -527,7 +552,9 @@ No compliance violations detected. Proceed with standard security protocols.`,
                         </div>
                         <div className="text-sm mt-1">{violation.controlTitle}</div>
                       </div>
-                      <span className={`px-2 py-1 rounded text-xs font-bold uppercase ${SEVERITY_COLORS[violation.severity]}`}>
+                      <span
+                        className={`px-2 py-1 rounded text-xs font-bold uppercase ${SEVERITY_COLORS[violation.severity]}`}
+                      >
                         {violation.severity}
                       </span>
                     </div>
@@ -550,24 +577,36 @@ No compliance violations detected. Proceed with standard security protocols.`,
         <h3 className="font-semibold text-neutral-900 mb-4">How Active Enforcement Works</h3>
         <div className="grid md:grid-cols-3 gap-6">
           <div className="flex gap-3">
-            <div className="w-8 h-8 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold flex-shrink-0">1</div>
+            <div className="w-8 h-8 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold flex-shrink-0">
+              1
+            </div>
             <div>
               <h4 className="font-medium text-neutral-900">Request Intercepted</h4>
-              <p className="text-sm text-neutral-500">Council receives action request from user or agent</p>
+              <p className="text-sm text-neutral-500">
+                Council receives action request from user or agent
+              </p>
             </div>
           </div>
           <div className="flex gap-3">
-            <div className="w-8 h-8 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold flex-shrink-0">2</div>
+            <div className="w-8 h-8 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold flex-shrink-0">
+              2
+            </div>
             <div>
               <h4 className="font-medium text-neutral-900">Rules Evaluated</h4>
-              <p className="text-sm text-neutral-500">CendiaCISO checks against 31 frameworks, 3,500+ controls</p>
+              <p className="text-sm text-neutral-500">
+                CendiaCISO checks against 31 frameworks, 3,500+ controls
+              </p>
             </div>
           </div>
           <div className="flex gap-3">
-            <div className="w-8 h-8 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold flex-shrink-0">3</div>
+            <div className="w-8 h-8 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold flex-shrink-0">
+              3
+            </div>
             <div>
               <h4 className="font-medium text-neutral-900">Citation Provided</h4>
-              <p className="text-sm text-neutral-500">Specific Ring, Framework, and Control cited in response</p>
+              <p className="text-sm text-neutral-500">
+                Specific Ring, Framework, and Control cited in response
+              </p>
             </div>
           </div>
         </div>

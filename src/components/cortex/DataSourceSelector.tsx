@@ -26,18 +26,66 @@ export const AVAILABLE_CONNECTORS: ConnectorDefinition[] = [
   { type: 'NEO4J', name: 'Neo4j', icon: '🔵', category: 'Database' },
   { type: 'SNOWFLAKE', name: 'Snowflake', icon: '❄️', category: 'Data Warehouse' },
   { type: 'BIGQUERY', name: 'Google BigQuery', icon: '📊', category: 'Data Warehouse' },
-  { type: 'SALESFORCE', name: 'Salesforce', icon: '☁️', category: 'CRM', id: 'salesforce', color: 'bg-blue-500', oauth: true },
-  { type: 'HUBSPOT', name: 'HubSpot', icon: '🧡', category: 'CRM', id: 'hubspot', color: 'bg-orange-500', oauth: true },
+  {
+    type: 'SALESFORCE',
+    name: 'Salesforce',
+    icon: '☁️',
+    category: 'CRM',
+    id: 'salesforce',
+    color: 'bg-blue-500',
+    oauth: true,
+  },
+  {
+    type: 'HUBSPOT',
+    name: 'HubSpot',
+    icon: '🧡',
+    category: 'CRM',
+    id: 'hubspot',
+    color: 'bg-orange-500',
+    oauth: true,
+  },
   { type: 'SAP', name: 'SAP', icon: '🏢', category: 'ERP' },
   { type: 'AWS', name: 'AWS (S3, Redshift)', icon: '🔶', category: 'Cloud' },
   { type: 'AZURE', name: 'Microsoft Azure', icon: '🔷', category: 'Cloud' },
   { type: 'REST_API', name: 'REST API', icon: '🔌', category: 'API' },
   { type: 'GRAPHQL', name: 'GraphQL', icon: '🔗', category: 'API' },
   { type: 'CSV_UPLOAD', name: 'CSV / Excel', icon: '📁', category: 'File' },
-  { type: 'SLACK', name: 'Slack', icon: '💬', category: 'SaaS', id: 'slack', color: 'bg-purple-500', oauth: true },
-  { type: 'JIRA', name: 'Jira', icon: '📋', category: 'SaaS', id: 'jira', color: 'bg-blue-600', oauth: true },
-  { type: 'GITHUB', name: 'GitHub', icon: '🐙', category: 'SaaS', id: 'github', color: 'bg-gray-800', oauth: true },
-  { type: 'STRIPE', name: 'Stripe', icon: '💳', category: 'SaaS', id: 'stripe', color: 'bg-indigo-500', oauth: true },
+  {
+    type: 'SLACK',
+    name: 'Slack',
+    icon: '💬',
+    category: 'SaaS',
+    id: 'slack',
+    color: 'bg-purple-500',
+    oauth: true,
+  },
+  {
+    type: 'JIRA',
+    name: 'Jira',
+    icon: '📋',
+    category: 'SaaS',
+    id: 'jira',
+    color: 'bg-blue-600',
+    oauth: true,
+  },
+  {
+    type: 'GITHUB',
+    name: 'GitHub',
+    icon: '🐙',
+    category: 'SaaS',
+    id: 'github',
+    color: 'bg-gray-800',
+    oauth: true,
+  },
+  {
+    type: 'STRIPE',
+    name: 'Stripe',
+    icon: '💳',
+    category: 'SaaS',
+    id: 'stripe',
+    color: 'bg-indigo-500',
+    oauth: true,
+  },
 ];
 
 interface DataSourceSelectorProps {
@@ -56,20 +104,29 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
 
   const getStatusColor = (status: DataSource['status']) => {
     switch (status) {
-      case 'connected': return 'bg-green-500';
-      case 'syncing': return 'bg-yellow-500 animate-pulse';
-      case 'disconnected': return 'bg-gray-500';
-      case 'error': return 'bg-red-500';
-      default: return 'bg-gray-500';
+      case 'connected':
+        return 'bg-green-500';
+      case 'syncing':
+        return 'bg-yellow-500 animate-pulse';
+      case 'disconnected':
+        return 'bg-gray-500';
+      case 'error':
+        return 'bg-red-500';
+      default:
+        return 'bg-gray-500';
     }
   };
 
   const getStatusIcon = (status: DataSource['status']) => {
     switch (status) {
-      case 'connected': return <Link2 className="w-3 h-3 text-green-400" />;
-      case 'syncing': return <RefreshCw className="w-3 h-3 text-yellow-400 animate-spin" />;
-      case 'error': return <AlertCircle className="w-3 h-3 text-red-400" />;
-      default: return null;
+      case 'connected':
+        return <Link2 className="w-3 h-3 text-green-400" />;
+      case 'syncing':
+        return <RefreshCw className="w-3 h-3 text-yellow-400 animate-spin" />;
+      case 'error':
+        return <AlertCircle className="w-3 h-3 text-red-400" />;
+      default:
+        return null;
     }
   };
 
@@ -78,30 +135,51 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
       case 'POSTGRESQL':
       case 'MYSQL':
       case 'MONGODB':
-      case 'ORACLE': return '🗄️';
-      case 'REDIS': return '🔴';
-      case 'NEO4J': return '🔵';
+      case 'ORACLE':
+        return '🗄️';
+      case 'REDIS':
+        return '🔴';
+      case 'NEO4J':
+        return '🔵';
       case 'REST_API':
-      case 'GRAPHQL': return '🔌';
-      case 'CSV_UPLOAD': return '📁';
-      case 'SALESFORCE': return '☁️';
-      case 'SAP': return '🏢';
+      case 'GRAPHQL':
+        return '🔌';
+      case 'CSV_UPLOAD':
+        return '📁';
+      case 'SALESFORCE':
+        return '☁️';
+      case 'SAP':
+        return '🏢';
       case 'SNOWFLAKE':
-      case 'BIGQUERY': return '❄️';
-      case 'AWS': return '🔶';
-      case 'AZURE': return '🔷';
-      case 'HUBSPOT': return '🟠';
-      case 'SLACK': return '💬';
-      case 'JIRA': return '📋';
-      case 'GITHUB': return '🐙';
-      case 'STRIPE': return '💳';
-      default: return '📊';
+      case 'BIGQUERY':
+        return '❄️';
+      case 'AWS':
+        return '🔶';
+      case 'AZURE':
+        return '🔷';
+      case 'HUBSPOT':
+        return '🟠';
+      case 'SLACK':
+        return '💬';
+      case 'JIRA':
+        return '📋';
+      case 'GITHUB':
+        return '🐙';
+      case 'STRIPE':
+        return '💳';
+      default:
+        return '📊';
     }
   };
 
   if (isLoading) {
     return (
-      <div className={cn("flex items-center gap-2 px-3 py-2 bg-sovereign-card rounded-lg border border-sovereign-border", className)}>
+      <div
+        className={cn(
+          'flex items-center gap-2 px-3 py-2 bg-sovereign-card rounded-lg border border-sovereign-border',
+          className
+        )}
+      >
         <RefreshCw className="w-4 h-4 text-cyan-500 animate-spin" />
         <span className="text-sm text-gray-400">Loading sources...</span>
       </div>
@@ -112,33 +190,40 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
   const availableConnectors = AVAILABLE_CONNECTORS;
 
   return (
-    <div className={cn("relative", className)}>
+    <div className={cn('relative', className)}>
       {/* Trigger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={cn(
-          "flex items-center gap-2 px-3 py-2 bg-sovereign-card hover:bg-sovereign-hover rounded-lg border border-sovereign-border transition-colors w-full",
-          isOpen && "ring-2 ring-cyan-500 border-cyan-500/50"
+          'flex items-center gap-2 px-3 py-2 bg-sovereign-card hover:bg-sovereign-hover rounded-lg border border-sovereign-border transition-colors w-full',
+          isOpen && 'ring-2 ring-cyan-500 border-cyan-500/50'
         )}
       >
         {selectedDataSource ? (
           <>
             <span className="text-lg">{getTypeIcon(selectedDataSource.type)}</span>
             <div className="flex-1 text-left">
-              <p className="text-sm font-medium text-white truncate">
-                {selectedDataSource.name}
-              </p>
+              <p className="text-sm font-medium text-white truncate">{selectedDataSource.name}</p>
               {showStatus && !compact && (
                 <p className="text-xs text-gray-400 flex items-center gap-1">
-                  <span className={cn("w-1.5 h-1.5 rounded-full", getStatusColor(selectedDataSource.status))} />
+                  <span
+                    className={cn(
+                      'w-1.5 h-1.5 rounded-full',
+                      getStatusColor(selectedDataSource.status)
+                    )}
+                  />
                   {selectedDataSource.status}
                   {selectedDataSource.recordCount && (
-                    <span className="ml-1">• {selectedDataSource.recordCount.toLocaleString()} records</span>
+                    <span className="ml-1">
+                      • {selectedDataSource.recordCount.toLocaleString()} records
+                    </span>
                   )}
                 </p>
               )}
             </div>
-            <ChevronDown className={cn("w-4 h-4 text-gray-400 transition-transform", isOpen && "rotate-180")} />
+            <ChevronDown
+              className={cn('w-4 h-4 text-gray-400 transition-transform', isOpen && 'rotate-180')}
+            />
           </>
         ) : (
           <>
@@ -146,7 +231,9 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
             <span className="text-sm text-white flex-1 text-left">
               {dataSources.length > 0 ? 'Select data source' : 'Connect a data source'}
             </span>
-            <ChevronDown className={cn("w-4 h-4 text-gray-400 transition-transform", isOpen && "rotate-180")} />
+            <ChevronDown
+              className={cn('w-4 h-4 text-gray-400 transition-transform', isOpen && 'rotate-180')}
+            />
           </>
         )}
       </button>
@@ -171,9 +258,11 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
                     }}
                     disabled={source.status === 'disconnected' || source.status === 'error'}
                     className={cn(
-                      "w-full flex items-center gap-3 px-3 py-2 hover:bg-sovereign-hover transition-colors",
-                      selectedDataSource?.id === source.id && "bg-sovereign-active border-l-2 border-cyan-500",
-                      (source.status === 'disconnected' || source.status === 'error') && "opacity-50 cursor-not-allowed"
+                      'w-full flex items-center gap-3 px-3 py-2 hover:bg-sovereign-hover transition-colors',
+                      selectedDataSource?.id === source.id &&
+                        'bg-sovereign-active border-l-2 border-cyan-500',
+                      (source.status === 'disconnected' || source.status === 'error') &&
+                        'opacity-50 cursor-not-allowed'
                     )}
                   >
                     <span className="text-lg">{getTypeIcon(source.type)}</span>
@@ -183,14 +272,20 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
                         {getStatusIcon(source.status)}
                       </div>
                       <p className="text-xs text-gray-400 flex items-center gap-1">
-                        <span className={cn("w-1.5 h-1.5 rounded-full", getStatusColor(source.status))} />
+                        <span
+                          className={cn('w-1.5 h-1.5 rounded-full', getStatusColor(source.status))}
+                        />
                         {source.status}
                         {source.recordCount && (
-                          <span className="ml-1">• {source.recordCount.toLocaleString()} records</span>
+                          <span className="ml-1">
+                            • {source.recordCount.toLocaleString()} records
+                          </span>
                         )}
                       </p>
                     </div>
-                    {selectedDataSource?.id === source.id && <Check className="w-4 h-4 text-cyan-400" />}
+                    {selectedDataSource?.id === source.id && (
+                      <Check className="w-4 h-4 text-cyan-400" />
+                    )}
                   </button>
                 ))}
                 <div className="h-px bg-sovereign-border-subtle my-1" />
@@ -201,45 +296,49 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
             <div className="px-3 py-2 text-xs font-semibold text-gray-600 uppercase tracking-wider bg-sovereign-elevated">
               Available Integrations
             </div>
-            
+
             {/* Group by category */}
-            {['Database', 'Data Warehouse', 'CRM', 'ERP', 'Cloud', 'API', 'File', 'SaaS'].map((category) => {
-              const categoryConnectors = availableConnectors.filter(c => c.category === category);
-              if (categoryConnectors.length === 0) {return null;}
-              
-              return (
-                <div key={category}>
-                  <div className="px-3 py-1 text-xs text-gray-500 bg-sovereign-base">
-                    {category}
+            {['Database', 'Data Warehouse', 'CRM', 'ERP', 'Cloud', 'API', 'File', 'SaaS'].map(
+              (category) => {
+                const categoryConnectors = availableConnectors.filter(
+                  (c) => c.category === category
+                );
+                if (categoryConnectors.length === 0) {
+                  return null;
+                }
+
+                return (
+                  <div key={category}>
+                    <div className="px-3 py-1 text-xs text-gray-500 bg-sovereign-base">
+                      {category}
+                    </div>
+                    {categoryConnectors.map((connector) => {
+                      const isConfigured = dataSources.some((ds) => ds.type === connector.type);
+                      return (
+                        <a
+                          key={connector.type}
+                          href="/admin/data-sources"
+                          onClick={() => setIsOpen(false)}
+                          className={cn(
+                            'w-full flex items-center gap-3 px-3 py-2 hover:bg-sovereign-hover transition-colors',
+                            isConfigured && 'opacity-50'
+                          )}
+                        >
+                          <span className="text-lg">{connector.icon}</span>
+                          <div className="flex-1 text-left">
+                            <p className="text-sm font-medium text-white">{connector.name}</p>
+                            <p className="text-xs text-gray-500">
+                              {isConfigured ? 'Configured' : 'Click to configure'}
+                            </p>
+                          </div>
+                          {!isConfigured && <span className="text-xs text-cyan-400">+ Add</span>}
+                        </a>
+                      );
+                    })}
                   </div>
-                  {categoryConnectors.map((connector) => {
-                    const isConfigured = dataSources.some(ds => ds.type === connector.type);
-                    return (
-                      <a
-                        key={connector.type}
-                        href="/admin/data-sources"
-                        onClick={() => setIsOpen(false)}
-                        className={cn(
-                          "w-full flex items-center gap-3 px-3 py-2 hover:bg-sovereign-hover transition-colors",
-                          isConfigured && "opacity-50"
-                        )}
-                      >
-                        <span className="text-lg">{connector.icon}</span>
-                        <div className="flex-1 text-left">
-                          <p className="text-sm font-medium text-white">{connector.name}</p>
-                          <p className="text-xs text-gray-500">
-                            {isConfigured ? 'Configured' : 'Click to configure'}
-                          </p>
-                        </div>
-                        {!isConfigured && (
-                          <span className="text-xs text-cyan-400">+ Add</span>
-                        )}
-                      </a>
-                    );
-                  })}
-                </div>
-              );
-            })}
+                );
+              }
+            )}
           </div>
         </>
       )}
@@ -259,7 +358,7 @@ export const WorkflowIndicator: React.FC = () => {
   }
 
   const currentStep = activeWorkflow.steps[activeWorkflow.currentStep];
-  const progress = ((activeWorkflow.currentStep) / activeWorkflow.steps.length) * 100;
+  const progress = (activeWorkflow.currentStep / activeWorkflow.steps.length) * 100;
 
   return (
     <div className="fixed bottom-4 left-1/2 -translate-x-1/2 bg-sovereign-card border border-sovereign-border rounded-xl p-4 shadow-2xl z-50 min-w-[400px]">
@@ -279,7 +378,7 @@ export const WorkflowIndicator: React.FC = () => {
 
       {/* Progress Bar */}
       <div className="h-1 bg-sovereign-border rounded-full mb-3 overflow-hidden">
-        <div 
+        <div
           className="h-full bg-gradient-to-r from-cyan-500 to-cyan-400 transition-all duration-300"
           style={{ width: `${progress}%` }}
         />
@@ -307,10 +406,12 @@ export const WorkflowIndicator: React.FC = () => {
           <div
             key={idx}
             className={cn(
-              "flex-1 h-1 rounded-full transition-colors",
-              step.completed ? "bg-green-500" :
-              idx === activeWorkflow.currentStep ? "bg-cyan-500" :
-              "bg-sovereign-border"
+              'flex-1 h-1 rounded-full transition-colors',
+              step.completed
+                ? 'bg-green-500'
+                : idx === activeWorkflow.currentStep
+                  ? 'bg-cyan-500'
+                  : 'bg-sovereign-border'
             )}
           />
         ))}
@@ -328,50 +429,50 @@ interface QuickActionsBarProps {
 }
 
 export const QuickActionsBar: React.FC<QuickActionsBarProps> = ({ currentPage }) => {
-  const { 
-    selectedEntity, 
+  const {
+    selectedEntity,
     selectedDataSource,
-    exploreInGraph, 
-    askCouncil, 
-    monitorInPulse, 
-    forecastInLens, 
-    automateInBridge 
+    exploreInGraph,
+    askCouncil,
+    monitorInPulse,
+    forecastInLens,
+    automateInBridge,
   } = useDataSource();
 
   const entityName = selectedEntity?.name || selectedDataSource?.name || 'this data';
 
   const actions = [
-    { 
-      page: 'graph' as const, 
-      label: 'Explore', 
+    {
+      page: 'graph' as const,
+      label: 'Explore',
       icon: '🔍',
       action: () => exploreInGraph(selectedEntity?.id),
       disabled: currentPage === 'graph',
     },
-    { 
-      page: 'council' as const, 
-      label: 'Ask Council', 
+    {
+      page: 'council' as const,
+      label: 'Ask Council',
       icon: '🧠',
       action: () => askCouncil(`What insights can you provide about ${entityName}?`),
       disabled: currentPage === 'council',
     },
-    { 
-      page: 'pulse' as const, 
-      label: 'Monitor', 
+    {
+      page: 'pulse' as const,
+      label: 'Monitor',
       icon: '💓',
       action: () => monitorInPulse(),
       disabled: currentPage === 'pulse',
     },
-    { 
-      page: 'lens' as const, 
-      label: 'Forecast', 
+    {
+      page: 'lens' as const,
+      label: 'Forecast',
       icon: '🔮',
       action: () => forecastInLens(),
       disabled: currentPage === 'lens',
     },
-    { 
-      page: 'bridge' as const, 
-      label: 'Automate', 
+    {
+      page: 'bridge' as const,
+      label: 'Automate',
       icon: '⚡',
       action: () => automateInBridge(),
       disabled: currentPage === 'bridge',
@@ -386,10 +487,10 @@ export const QuickActionsBar: React.FC<QuickActionsBarProps> = ({ currentPage })
           onClick={action.action}
           disabled={action.disabled}
           className={cn(
-            "flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm transition-colors",
-            action.disabled 
-              ? "bg-sovereign-active text-gray-500 cursor-default" 
-              : "hover:bg-sovereign-hover text-gray-400 hover:text-white"
+            'flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm transition-colors',
+            action.disabled
+              ? 'bg-sovereign-active text-gray-500 cursor-default'
+              : 'hover:bg-sovereign-hover text-gray-400 hover:text-white'
           )}
         >
           <span>{action.icon}</span>

@@ -49,9 +49,9 @@ export const Modal: React.FC<ModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-[9998] flex items-center justify-center p-4">
-      <div 
-        className="fixed inset-0 bg-black/50 animate-in fade-in duration-200" 
-        onClick={onClose} 
+      <div
+        className="fixed inset-0 bg-black/50 animate-in fade-in duration-200"
+        onClick={onClose}
       />
       <div
         ref={modalRef}
@@ -64,9 +64,7 @@ export const Modal: React.FC<ModalProps> = ({
           <div className="flex items-start justify-between mb-4">
             <div>
               <h2 className="text-xl font-semibold text-neutral-900">{title}</h2>
-              {description && (
-                <p className="text-neutral-500 text-sm mt-1">{description}</p>
-              )}
+              {description && <p className="text-neutral-500 text-sm mt-1">{description}</p>}
             </div>
             {showCloseButton && (
               <button
@@ -74,7 +72,12 @@ export const Modal: React.FC<ModalProps> = ({
                 className="p-1 text-neutral-400 hover:text-neutral-600 transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               </button>
             )}
@@ -139,7 +142,10 @@ export const ConfirmModal: React.FC<ConfirmModalProps> = ({
         <button
           onClick={onConfirm}
           disabled={isLoading}
-          className={cn('flex-1 px-4 py-2 rounded-lg transition-colors disabled:opacity-50', variants[variant])}
+          className={cn(
+            'flex-1 px-4 py-2 rounded-lg transition-colors disabled:opacity-50',
+            variants[variant]
+          )}
         >
           {isLoading ? 'Processing...' : confirmText}
         </button>

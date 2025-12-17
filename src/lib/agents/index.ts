@@ -34,7 +34,12 @@ export {
 } from './agentPersonalityDefaults';
 
 // Model switching system - Types
-export type { OllamaModel, ModelCapability, ModelCategory, AgentModelConfig } from './modelSwitching';
+export type {
+  OllamaModel,
+  ModelCapability,
+  ModelCategory,
+  AgentModelConfig,
+} from './modelSwitching';
 
 // Model switching system - Values & Functions
 export {

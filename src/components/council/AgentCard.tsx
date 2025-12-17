@@ -50,7 +50,7 @@ export const AgentCard: React.FC<AgentCardProps> = ({
   size = 'md',
 }) => {
   const colors = agentColors[agent.code] || agentColors.default;
-  
+
   const sizeClasses = {
     sm: 'p-2',
     md: 'p-4',
@@ -104,22 +104,19 @@ export const AgentCard: React.FC<AgentCardProps> = ({
 
         {/* Info */}
         <div className="flex-1 min-w-0">
-          <h3 className={cn(
-            'font-semibold text-neutral-900 truncate',
-            size === 'sm' ? 'text-sm' : size === 'lg' ? 'text-lg' : 'text-base'
-          )}>
+          <h3
+            className={cn(
+              'font-semibold text-neutral-900 truncate',
+              size === 'sm' ? 'text-sm' : size === 'lg' ? 'text-lg' : 'text-base'
+            )}
+          >
             {agent.name}
           </h3>
-          <p className={cn(
-            'text-neutral-500 truncate',
-            size === 'sm' ? 'text-xs' : 'text-sm'
-          )}>
+          <p className={cn('text-neutral-500 truncate', size === 'sm' ? 'text-xs' : 'text-sm')}>
             {agent.role}
           </p>
           {size !== 'sm' && (
-            <p className="text-xs text-neutral-400 mt-1 line-clamp-2">
-              {agent.description}
-            </p>
+            <p className="text-xs text-neutral-400 mt-1 line-clamp-2">{agent.description}</p>
           )}
         </div>
 
@@ -127,7 +124,11 @@ export const AgentCard: React.FC<AgentCardProps> = ({
         {isSelected && (
           <div className="flex-shrink-0">
             <svg className="w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clipRule="evenodd"
+              />
             </svg>
           </div>
         )}

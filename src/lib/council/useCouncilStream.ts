@@ -4,12 +4,12 @@
 // =============================================================================
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { 
-  CouncilStreamClient, 
-  getCouncilStreamClient, 
-  DeliberationState, 
+import {
+  CouncilStreamClient,
+  getCouncilStreamClient,
+  DeliberationState,
   StreamEvent,
-  AgentStreamState 
+  AgentStreamState,
 } from './CouncilStreamClient';
 
 // =============================================================================
@@ -39,7 +39,7 @@ export interface UseDeliberationOptions {
 
 export function useCouncilConnection(options: UseCouncilStreamOptions = {}) {
   const { autoConnect = true, onConnect, onDisconnect, onError } = options;
-  
+
   const [isConnected, setIsConnected] = useState(false);
   const [isConnecting, setIsConnecting] = useState(false);
   const clientRef = useRef<CouncilStreamClient | null>(null);
@@ -71,7 +71,9 @@ export function useCouncilConnection(options: UseCouncilStreamOptions = {}) {
   }, [autoConnect]);
 
   const connect = useCallback(async () => {
-    if (!clientRef.current) {return;}
+    if (!clientRef.current) {
+      return;
+    }
     setIsConnecting(true);
     try {
       await clientRef.current.connect();
@@ -122,10 +124,12 @@ export function useDeliberation(
   const clientRef = useRef<CouncilStreamClient | null>(null);
 
   useEffect(() => {
-    if (!deliberationId) {return;}
+    if (!deliberationId) {
+      return;
+    }
 
     clientRef.current = getCouncilStreamClient();
-    
+
     // Subscribe to deliberation
     clientRef.current.subscribe(deliberationId);
 
@@ -149,7 +153,9 @@ export function useDeliberation(
         case 'agent_start':
           setIsStreaming(true);
           setStreamingAgentId(event.agentId || null);
-          if (event.agentId) {onAgentStart?.(event.agentId);}
+          if (event.agentId) {
+            onAgentStart?.(event.agentId);
+          }
           break;
 
         case 'token':
@@ -236,42 +242,45 @@ export function useCouncilDeliberation() {
     clientRef.current = getCouncilStreamClient();
   }, []);
 
-  const startDeliberation = useCallback(async (
-    question: string,
-    options: {
-      agentIds?: string[];
-      context?: string;
-      config?: DeliberationConfig;
-    } = {}
-  ) => {
-    if (!clientRef.current) {
-      setError('Client not initialized');
-      return null;
-    }
-
-    setIsStarting(true);
-    setError(null);
-
-    try {
-      // Connect if not connected
-      if (!clientRef.current.isConnected()) {
-        await clientRef.current.connect();
+  const startDeliberation = useCallback(
+    async (
+      question: string,
+      options: {
+        agentIds?: string[];
+        context?: string;
+        config?: DeliberationConfig;
+      } = {}
+    ) => {
+      if (!clientRef.current) {
+        setError('Client not initialized');
+        return null;
       }
 
-      // Start deliberation via WebSocket
-      clientRef.current.startDeliberation(question, options);
+      setIsStarting(true);
+      setError(null);
 
-      // The deliberation ID will come back via WebSocket message
-      // We'll update the activeDeliberationId when we receive it
-      
-      return true;
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to start deliberation');
-      return null;
-    } finally {
-      setIsStarting(false);
-    }
-  }, []);
+      try {
+        // Connect if not connected
+        if (!clientRef.current.isConnected()) {
+          await clientRef.current.connect();
+        }
+
+        // Start deliberation via WebSocket
+        clientRef.current.startDeliberation(question, options);
+
+        // The deliberation ID will come back via WebSocket message
+        // We'll update the activeDeliberationId when we receive it
+
+        return true;
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Failed to start deliberation');
+        return null;
+      } finally {
+        setIsStarting(false);
+      }
+    },
+    []
+  );
 
   const cancelDeliberation = useCallback(() => {
     if (activeDeliberationId && clientRef.current) {
@@ -282,7 +291,9 @@ export function useCouncilDeliberation() {
 
   // Listen for new deliberation ID
   useEffect(() => {
-    if (!clientRef.current) {return;}
+    if (!clientRef.current) {
+      return;
+    }
 
     const unsubscribe = clientRef.current.onStateChange((state) => {
       if (!activeDeliberationId && state.status === 'initial_analysis') {
@@ -315,12 +326,16 @@ export function useAgentStream(deliberationId: string | null, agentId: string | 
   const [latency, setLatency] = useState<number | null>(null);
 
   useEffect(() => {
-    if (!deliberationId || !agentId) {return;}
+    if (!deliberationId || !agentId) {
+      return;
+    }
 
     const client = getCouncilStreamClient();
 
     const unsubscribe = client.onEvent(deliberationId, (event) => {
-      if (event.agentId !== agentId) {return;}
+      if (event.agentId !== agentId) {
+        return;
+      }
 
       switch (event.type) {
         case 'agent_start':
@@ -338,9 +353,15 @@ export function useAgentStream(deliberationId: string | null, agentId: string | 
         case 'agent_complete':
           setIsStreaming(false);
           setIsComplete(true);
-          if (event.content) {setContent(event.content);}
-          if (event.metadata?.confidence) {setConfidence(event.metadata.confidence);}
-          if (event.metadata?.latency) {setLatency(event.metadata.latency);}
+          if (event.content) {
+            setContent(event.content);
+          }
+          if (event.metadata?.confidence) {
+            setConfidence(event.metadata.confidence);
+          }
+          if (event.metadata?.latency) {
+            setLatency(event.metadata.latency);
+          }
           break;
       }
     });

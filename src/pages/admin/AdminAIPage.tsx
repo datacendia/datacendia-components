@@ -70,7 +70,7 @@ async function sendMessage(sessionId: string, message: string): Promise<AIRespon
 const renderMarkdown = (text: string): React.ReactNode => {
   const lines = text.split('\n');
   const elements: React.ReactNode[] = [];
-  
+
   lines.forEach((line, i) => {
     // Headers
     if (line.startsWith('## ')) {
@@ -91,8 +91,14 @@ const renderMarkdown = (text: string): React.ReactNode => {
       const parts = line.split(/\*\*(.*?)\*\*/g);
       elements.push(
         <p key={i} className="text-neutral-300 my-1">
-          {parts.map((part, j) => 
-            j % 2 === 1 ? <strong key={j} className="text-white">{part}</strong> : part
+          {parts.map((part, j) =>
+            j % 2 === 1 ? (
+              <strong key={j} className="text-white">
+                {part}
+              </strong>
+            ) : (
+              part
+            )
           )}
         </p>
       );
@@ -109,7 +115,10 @@ const renderMarkdown = (text: string): React.ReactNode => {
     // Code
     else if (line.startsWith('`') && line.endsWith('`')) {
       elements.push(
-        <code key={i} className="bg-neutral-700 px-2 py-1 rounded text-sm text-primary-300 my-1 inline-block">
+        <code
+          key={i}
+          className="bg-neutral-700 px-2 py-1 rounded text-sm text-primary-300 my-1 inline-block"
+        >
           {line.slice(1, -1)}
         </code>
       );
@@ -117,11 +126,13 @@ const renderMarkdown = (text: string): React.ReactNode => {
     // Regular paragraph
     else if (line.trim()) {
       elements.push(
-        <p key={i} className="text-neutral-300 my-1">{line}</p>
+        <p key={i} className="text-neutral-300 my-1">
+          {line}
+        </p>
       );
     }
   });
-  
+
   return elements;
 };
 
@@ -160,38 +171,43 @@ export const AdminAIPage: React.FC = () => {
   };
 
   const handleSend = async () => {
-    if (!input.trim() || !sessionId || loading) {return;}
+    if (!input.trim() || !sessionId || loading) {
+      return;
+    }
 
     const userMessage: Message = {
       role: 'user',
       content: input,
-      timestamp: new Date().toISOString()
+      timestamp: new Date().toISOString(),
     };
-    
-    setMessages(prev => [...prev, userMessage]);
+
+    setMessages((prev) => [...prev, userMessage]);
     setInput('');
     setLoading(true);
 
     try {
       const response = await sendMessage(sessionId, input);
-      
+
       const assistantMessage: Message = {
         role: 'assistant',
         content: response.message,
         timestamp: new Date().toISOString(),
         command: response.command,
         executed: response.executed,
-        suggestions: response.suggestions
+        suggestions: response.suggestions,
       };
-      
-      setMessages(prev => [...prev, assistantMessage]);
+
+      setMessages((prev) => [...prev, assistantMessage]);
     } catch (err) {
       console.error('Failed to send message:', err);
-      setMessages(prev => [...prev, {
-        role: 'assistant',
-        content: 'Sorry, I encountered an error. Please try again.',
-        timestamp: new Date().toISOString()
-      }]);
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: 'assistant',
+          content: 'Sorry, I encountered an error. Please try again.',
+          timestamp: new Date().toISOString(),
+        },
+      ]);
     } finally {
       setLoading(false);
       inputRef.current?.focus();
@@ -234,10 +250,7 @@ export const AdminAIPage: React.FC = () => {
         {messages.map((message, index) => (
           <div
             key={index}
-            className={cn(
-              'mb-4',
-              message.role === 'user' ? 'flex justify-end' : ''
-            )}
+            className={cn('mb-4', message.role === 'user' ? 'flex justify-end' : '')}
           >
             {message.role === 'user' ? (
               <div className="max-w-[70%] bg-primary-600 rounded-2xl rounded-br-sm px-4 py-3">
@@ -253,15 +266,17 @@ export const AdminAIPage: React.FC = () => {
                     <div className="prose prose-invert prose-sm max-w-none">
                       {renderMarkdown(message.content)}
                     </div>
-                    
+
                     {/* Command Indicator */}
                     {message.command && (
-                      <div className={cn(
-                        'mt-3 px-3 py-2 rounded-lg text-sm',
-                        message.executed 
-                          ? 'bg-success-main/20 text-success-main border border-success-main/30' 
-                          : 'bg-warning-main/20 text-warning-main border border-warning-main/30'
-                      )}>
+                      <div
+                        className={cn(
+                          'mt-3 px-3 py-2 rounded-lg text-sm',
+                          message.executed
+                            ? 'bg-success-main/20 text-success-main border border-success-main/30'
+                            : 'bg-warning-main/20 text-warning-main border border-warning-main/30'
+                        )}
+                      >
                         <div className="flex items-center gap-2">
                           <span>{message.executed ? '✅' : '⏳'}</span>
                           <span className="font-medium">
@@ -273,7 +288,7 @@ export const AdminAIPage: React.FC = () => {
                         </code>
                       </div>
                     )}
-                    
+
                     {/* Suggestions */}
                     {message.suggestions && message.suggestions.length > 0 && (
                       <div className="mt-3 flex flex-wrap gap-2">
@@ -294,7 +309,7 @@ export const AdminAIPage: React.FC = () => {
             )}
           </div>
         ))}
-        
+
         {/* Loading indicator */}
         {loading && (
           <div className="flex items-start gap-3 mb-4">
@@ -304,16 +319,25 @@ export const AdminAIPage: React.FC = () => {
             <div className="bg-neutral-800 rounded-2xl rounded-tl-sm px-4 py-3 border border-neutral-700">
               <div className="flex items-center gap-2">
                 <div className="flex gap-1">
-                  <span className="w-2 h-2 bg-primary-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></span>
-                  <span className="w-2 h-2 bg-primary-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></span>
-                  <span className="w-2 h-2 bg-primary-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></span>
+                  <span
+                    className="w-2 h-2 bg-primary-400 rounded-full animate-bounce"
+                    style={{ animationDelay: '0ms' }}
+                  ></span>
+                  <span
+                    className="w-2 h-2 bg-primary-400 rounded-full animate-bounce"
+                    style={{ animationDelay: '150ms' }}
+                  ></span>
+                  <span
+                    className="w-2 h-2 bg-primary-400 rounded-full animate-bounce"
+                    style={{ animationDelay: '300ms' }}
+                  ></span>
                 </div>
                 <span className="text-neutral-400 text-sm">Thinking...</span>
               </div>
             </div>
           </div>
         )}
-        
+
         <div ref={messagesEndRef} />
       </div>
 
@@ -343,11 +367,11 @@ export const AdminAIPage: React.FC = () => {
             Send
           </button>
         </div>
-        
+
         {/* Quick Commands */}
         <div className="flex gap-2 px-2 pt-2 border-t border-neutral-700 mt-2">
           <span className="text-xs text-neutral-500">Quick:</span>
-          {['Show status', 'List features', 'List agents', 'Show pricing', 'Help'].map(cmd => (
+          {['Show status', 'List features', 'List agents', 'Show pricing', 'Help'].map((cmd) => (
             <button
               key={cmd}
               onClick={() => handleSuggestion(cmd)}

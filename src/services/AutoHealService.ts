@@ -95,16 +95,17 @@ class AutoHealServiceClass {
     const originalConsoleError = console.error;
     console.error = (...args) => {
       // Check if it's a real error (not just a React warning)
-      const message = args.map(a => String(a)).join(' ');
+      const message = args.map((a) => String(a)).join(' ');
       const lower = message.toLowerCase();
       const isReactWarning = lower.startsWith('warning:');
 
-      if (!isReactWarning && (
-        lower.includes('error:') ||
-        lower.includes('typeerror') ||
-        lower.includes('uncaught') ||
-        lower.includes('cannot read')
-      )) {
+      if (
+        !isReactWarning &&
+        (lower.includes('error:') ||
+          lower.includes('typeerror') ||
+          lower.includes('uncaught') ||
+          lower.includes('cannot read'))
+      ) {
         this.captureError({
           type: 'console',
           message: message.substring(0, 500),
@@ -130,11 +131,16 @@ class AutoHealServiceClass {
     stack: string;
   }): void {
     // Parse stack trace to get file info
-    const { file, line, column } = this.parseStackTrace(errorInfo.stack, errorInfo.source, errorInfo.line, errorInfo.column);
-    
+    const { file, line, column } = this.parseStackTrace(
+      errorInfo.stack,
+      errorInfo.source,
+      errorInfo.line,
+      errorInfo.column
+    );
+
     // Determine severity
     const severity = this.determineSeverity(errorInfo.message, errorInfo.type);
-    
+
     // Create error analysis
     const error: ErrorAnalysis = {
       id: `err_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
@@ -171,9 +177,9 @@ class AutoHealServiceClass {
 
     // Notify listeners asynchronously to avoid React setState warnings during render
     setTimeout(() => {
-      this.listeners.forEach(listener => listener(error));
+      this.listeners.forEach((listener) => listener(error));
     }, 0);
-    
+
     // Process if auto-heal is enabled
     if (this.config.autoHealEnabled) {
       this.processErrorQueue();
@@ -182,7 +188,12 @@ class AutoHealServiceClass {
     console.log(`[AutoHeal] Captured ${severity} error:`, errorInfo.message.substring(0, 100));
   }
 
-  private parseStackTrace(stack: string, defaultSource: string, defaultLine: number, defaultColumn: number): {
+  private parseStackTrace(
+    stack: string,
+    defaultSource: string,
+    defaultLine: number,
+    defaultColumn: number
+  ): {
     file: string;
     line: number;
     column: number;
@@ -213,30 +224,33 @@ class AutoHealServiceClass {
 
   private determineSeverity(message: string, type: string): 'critical' | 'high' | 'medium' | 'low' {
     const lowerMessage = message.toLowerCase();
-    
+
     // Critical: App crashes, data loss, security
-    if (lowerMessage.includes('crash') || 
-        lowerMessage.includes('fatal') ||
-        lowerMessage.includes('security') ||
-        lowerMessage.includes('data loss')) {
+    if (
+      lowerMessage.includes('crash') ||
+      lowerMessage.includes('fatal') ||
+      lowerMessage.includes('security') ||
+      lowerMessage.includes('data loss')
+    ) {
       return 'critical';
     }
-    
+
     // High: Render failures, API failures
-    if (type === 'runtime' ||
-        lowerMessage.includes('cannot read') ||
-        lowerMessage.includes('undefined') ||
-        lowerMessage.includes('failed to fetch') ||
-        lowerMessage.includes('network error')) {
+    if (
+      type === 'runtime' ||
+      lowerMessage.includes('cannot read') ||
+      lowerMessage.includes('undefined') ||
+      lowerMessage.includes('failed to fetch') ||
+      lowerMessage.includes('network error')
+    ) {
       return 'high';
     }
-    
+
     // Medium: Warnings, deprecations
-    if (lowerMessage.includes('warning') ||
-        lowerMessage.includes('deprecated')) {
+    if (lowerMessage.includes('warning') || lowerMessage.includes('deprecated')) {
       return 'medium';
     }
-    
+
     return 'low';
   }
 
@@ -273,7 +287,7 @@ class AutoHealServiceClass {
       }
 
       console.log(`[AutoHeal] Processing error: ${error.id}`);
-      
+
       // Get assigned agent
       const agent = getTechAgent(error.assignedAgent);
       if (!agent) {
@@ -286,13 +300,13 @@ class AutoHealServiceClass {
 
       // Generate fix using AI
       const fix = await this.generateFix(error, agent);
-      
+
       if (fix) {
         error.suggestedFix = fix.description;
         this.fixHistory.push(fix);
-        
+
         console.log(`[AutoHeal] Fix suggested by ${agent.name}:`, fix.description);
-        
+
         // Auto-apply if configured and safe
         if (!this.config.requireApproval && fix.riskLevel === 'safe') {
           await this.applyFix(fix);
@@ -302,13 +316,12 @@ class AutoHealServiceClass {
       }
 
       // Remove from queue
-      this.errorQueue = this.errorQueue.filter(e => e.id !== error.id);
-
+      this.errorQueue = this.errorQueue.filter((e) => e.id !== error.id);
     } catch (e) {
       console.error('[AutoHeal] Processing error:', e);
     } finally {
       this.isProcessing = false;
-      
+
       // Process next if queue not empty
       if (this.errorQueue.length > 0) {
         setTimeout(() => this.processErrorQueue(), 1000);
@@ -319,14 +332,14 @@ class AutoHealServiceClass {
   private getNextEligibleError(): ErrorAnalysis | null {
     const severityOrder = ['critical', 'high', 'medium', 'low'];
     const thresholdIndex = severityOrder.indexOf(this.config.autoFixSeverity);
-    
+
     for (const error of this.errorQueue) {
       const errorIndex = severityOrder.indexOf(error.severity);
       if (errorIndex <= thresholdIndex) {
         return error;
       }
     }
-    
+
     return null;
   }
 
@@ -334,7 +347,7 @@ class AutoHealServiceClass {
     try {
       // Generate prompt
       const prompt = generateFixPrompt(error, agent);
-      
+
       // Call Ollama
       const response = await fetch('http://localhost:11434/api/generate', {
         method: 'POST',
@@ -361,7 +374,7 @@ class AutoHealServiceClass {
       const jsonMatch = responseText.match(/```json\n?([\s\S]*?)\n?```/);
       if (jsonMatch) {
         const parsed = JSON.parse(jsonMatch[1]);
-        
+
         return {
           id: `fix_${Date.now()}`,
           errorId: error.id,
@@ -390,7 +403,6 @@ class AutoHealServiceClass {
         riskLevel: 'moderate',
         requiresReview: true,
       };
-
     } catch (e) {
       console.error('[AutoHeal] Failed to generate fix:', e);
       return null;
@@ -401,19 +413,21 @@ class AutoHealServiceClass {
     // In a real implementation, this would apply the code change
     // For now, we log the suggested fix
     console.log('[AutoHeal] Would apply fix:', fix);
-    
+
     if (this.config.notifyOnFix) {
       this.notifyFixApplied(fix);
     }
-    
+
     return true;
   }
 
   private notifyFixApplied(fix: FixSuggestion): void {
     // Dispatch custom event for UI to handle
-    window.dispatchEvent(new CustomEvent('autoheal:fix-applied', {
-      detail: fix,
-    }));
+    window.dispatchEvent(
+      new CustomEvent('autoheal:fix-applied', {
+        detail: fix,
+      })
+    );
   }
 
   // ===========================================================================
@@ -446,7 +460,7 @@ class AutoHealServiceClass {
    * Manually trigger fix for an error
    */
   public async requestFix(errorId: string): Promise<FixSuggestion | null> {
-    const error = this.errorQueue.find(e => e.id === errorId);
+    const error = this.errorQueue.find((e) => e.id === errorId);
     if (!error) {
       console.warn('[AutoHeal] requestFix: Error not found in queue:', errorId);
       return null;
@@ -459,25 +473,25 @@ class AutoHealServiceClass {
     }
 
     console.log(`[AutoHeal] Generating fix for ${errorId} using ${agent.name}...`);
-    
+
     try {
       const fix = await this.generateFix(error, agent);
-      
+
       if (fix) {
         // Store the fix in history
         this.fixHistory.push(fix);
-        
+
         // Update the error with the suggested fix
         error.suggestedFix = fix.description;
-        
+
         // Notify listeners of the update
         this.notifyFixGenerated(fix);
-        
+
         console.log(`[AutoHeal] Fix generated successfully:`, fix.description.substring(0, 100));
       } else {
         console.warn('[AutoHeal] No fix generated');
       }
-      
+
       return fix;
     } catch (e) {
       console.error('[AutoHeal] requestFix failed:', e);
@@ -486,17 +500,21 @@ class AutoHealServiceClass {
   }
 
   private notifyFixGenerated(fix: FixSuggestion): void {
-    window.dispatchEvent(new CustomEvent('autoheal:fix-generated', {
-      detail: fix,
-    }));
+    window.dispatchEvent(
+      new CustomEvent('autoheal:fix-generated', {
+        detail: fix,
+      })
+    );
   }
 
   /**
    * Approve and apply a fix
    */
   public async approveFix(fixId: string): Promise<boolean> {
-    const fix = this.fixHistory.find(f => f.id === fixId);
-    if (!fix) {return false;}
+    const fix = this.fixHistory.find((f) => f.id === fixId);
+    if (!fix) {
+      return false;
+    }
 
     return this.applyFix(fix);
   }
@@ -519,7 +537,7 @@ class AutoHealServiceClass {
   } {
     return {
       errorsInQueue: this.errorQueue.length,
-      fixesApplied: this.fixHistory.filter(f => f.requiresReview === false).length,
+      fixesApplied: this.fixHistory.filter((f) => f.requiresReview === false).length,
       fixesThisHour: this.fixesAppliedThisHour,
       isProcessing: this.isProcessing,
     };

@@ -47,19 +47,21 @@ export const RegulatoryAbsorbPage: React.FC = () => {
   }, []);
 
   const absorbDocument = async () => {
-    if (!textContent.trim() && !file) {return;}
+    if (!textContent.trim() && !file) {
+      return;
+    }
 
     setIsProcessing(true);
     setProgress(0);
 
     // Simulate progress
     const progressInterval = setInterval(() => {
-      setProgress(p => Math.min(p + Math.random() * 15, 95));
+      setProgress((p) => Math.min(p + Math.random() * 15, 95));
     }, 500);
 
     try {
       let content = textContent;
-      
+
       if (file) {
         content = await file.text();
       }
@@ -90,11 +92,16 @@ export const RegulatoryAbsorbPage: React.FC = () => {
 
   const getSeverityColor = (severity: string) => {
     switch (severity) {
-      case 'critical': return 'bg-red-100 text-red-700';
-      case 'high': return 'bg-orange-100 text-orange-700';
-      case 'medium': return 'bg-yellow-100 text-yellow-700';
-      case 'low': return 'bg-green-100 text-green-700';
-      default: return 'bg-gray-100 text-gray-700';
+      case 'critical':
+        return 'bg-red-100 text-red-700';
+      case 'high':
+        return 'bg-orange-100 text-orange-700';
+      case 'medium':
+        return 'bg-yellow-100 text-yellow-700';
+      case 'low':
+        return 'bg-green-100 text-green-700';
+      default:
+        return 'bg-gray-100 text-gray-700';
     }
   };
 
@@ -163,7 +170,9 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                   className={cn(
                     'border-2 border-dashed rounded-lg p-12 text-center',
                     'transition-colors cursor-pointer',
-                    file ? 'border-teal-500 bg-teal-50' : 'border-neutral-300 hover:border-neutral-400'
+                    file
+                      ? 'border-teal-500 bg-teal-50'
+                      : 'border-neutral-300 hover:border-neutral-400'
                   )}
                 >
                   {file ? (
@@ -183,12 +192,8 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                   ) : (
                     <div>
                       <div className="text-4xl mb-2">📤</div>
-                      <div className="font-medium text-neutral-900">
-                        Drop your document here
-                      </div>
-                      <div className="text-sm text-neutral-500 mt-1">
-                        or click to browse
-                      </div>
+                      <div className="font-medium text-neutral-900">Drop your document here</div>
+                      <div className="text-sm text-neutral-500 mt-1">or click to browse</div>
                       <input
                         type="file"
                         onChange={handleFileChange}
@@ -233,9 +238,7 @@ export const RegulatoryAbsorbPage: React.FC = () => {
 
           {/* Example Documents */}
           <div className="bg-neutral-50 rounded-xl border border-neutral-200 p-6">
-            <h3 className="font-semibold text-neutral-900 mb-4">
-              Supported Document Types
-            </h3>
+            <h3 className="font-semibold text-neutral-900 mb-4">Supported Document Types</h3>
             <div className="space-y-3">
               {[
                 { icon: '🇪🇺', name: 'EU AI Act 2024', pages: 892, time: '47s' },
@@ -244,7 +247,10 @@ export const RegulatoryAbsorbPage: React.FC = () => {
                 { icon: '🔒', name: 'GDPR Requirements', pages: 88, time: '8s' },
                 { icon: '📋', name: 'Internal Policies', pages: 45, time: '4s' },
               ].map((doc, idx) => (
-                <div key={idx} className="flex items-center justify-between p-3 bg-white rounded-lg">
+                <div
+                  key={idx}
+                  className="flex items-center justify-between p-3 bg-white rounded-lg"
+                >
                   <div className="flex items-center gap-3">
                     <span className="text-xl">{doc.icon}</span>
                     <div>
@@ -359,15 +365,20 @@ export const RegulatoryAbsorbPage: React.FC = () => {
             </h3>
             <div className="space-y-2 max-h-[400px] overflow-y-auto">
               {result.extractedRequirements.map((req, idx) => (
-                <div key={idx} className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg">
+                <div
+                  key={idx}
+                  className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg"
+                >
                   <div className="flex-1">
                     <span className="font-medium text-neutral-900">{req.title}</span>
                     <span className="ml-2 text-xs text-neutral-500 uppercase">{req.category}</span>
                   </div>
-                  <span className={cn(
-                    'px-2 py-1 rounded text-xs font-medium',
-                    getSeverityColor(req.severity)
-                  )}>
+                  <span
+                    className={cn(
+                      'px-2 py-1 rounded text-xs font-medium',
+                      getSeverityColor(req.severity)
+                    )}
+                  >
                     {req.severity}
                   </span>
                 </div>

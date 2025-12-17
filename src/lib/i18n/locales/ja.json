@@ -270,9 +270,26 @@
       "alertResolved": "アラート「{{alert}}」解決済み",
       "reportGenerated": "レポート「{{report}}」生成"
     },
-    "sampleQueries": { "churnIncrease": "解約率が上昇した理由は？", "forecastRevenue": "Q4売上予測", "biggestRisk": "最大のリスクは何ですか？", "customerSentiment": "顧客センチメントのトレンドは？", "competitorAnalysis": "競合他社の価格分析" }
+    "sampleQueries": {
+      "churnIncrease": "解約率が上昇した理由は？",
+      "forecastRevenue": "Q4売上予測",
+      "biggestRisk": "最大のリスクは何ですか？",
+      "customerSentiment": "顧客センチメントのトレンドは？",
+      "competitorAnalysis": "競合他社の価格分析"
+    }
   },
-  "button": { "view_all": "すべて表示", "viewAll": "すべて表示", "viewMore": "もっと見る", "approve": "承認", "reject": "拒否", "save": "保存", "cancel": "キャンセル", "submit": "送信", "edit": "編集", "delete": "削除" },
+  "button": {
+    "view_all": "すべて表示",
+    "viewAll": "すべて表示",
+    "viewMore": "もっと見る",
+    "approve": "承認",
+    "reject": "拒否",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "submit": "送信",
+    "edit": "編集",
+    "delete": "削除"
+  },
   "commandPalette": {
     "searchPlaceholder": "コマンド、ページ、エージェントを検索...",
     "noResults": "結果なし：",
@@ -288,10 +305,35 @@
     "switchTo": "切り替え：",
     "changeLanguage": "言語を変更：",
     "categories": { "navigation": "ナビゲーション", "actions": "アクション", "agents": "エージェント", "modes": "評議会モード", "recent": "最近" },
-    "agents": { "chief": "チーフストラテジックエージェント", "chiefDesc": "戦略的統合", "cfo": "ファイナンシャルインテリジェンス", "cfoDesc": "財務分析", "coo": "オペレーションエージェント", "cooDesc": "運用効率", "ciso": "セキュリティエージェント", "cisoDesc": "セキュリティとコンプライアンス", "cmo": "マーケットインテリジェンス", "cmoDesc": "市場分析" }
+    "agents": {
+      "chief": "チーフストラテジックエージェント",
+      "chiefDesc": "戦略的統合",
+      "cfo": "ファイナンシャルインテリジェンス",
+      "cfoDesc": "財務分析",
+      "coo": "オペレーションエージェント",
+      "cooDesc": "運用効率",
+      "ciso": "セキュリティエージェント",
+      "cisoDesc": "セキュリティとコンプライアンス",
+      "cmo": "マーケットインテリジェンス",
+      "cmoDesc": "市場分析"
+    }
   },
   "cortex": { "sidebar": { "spaces": "スペース", "pillars": "ピラー", "system": "システム", "data": "データ", "security": "セキュリティ" } },
-  "sidebar": { "dashboard": "ダッシュボード", "the_council": "評議会", "the_graph": "グラフ", "the_pulse": "パルス", "the_lens": "レンズ", "the_bridge": "ブリッジ", "settings": "設定", "help": "ヘルプとサポート", "cortex": "Cortex", "spaces": "スペース", "pillars": "ピラー", "sovereign": "ソブリン", "admin": "管理者" },
+  "sidebar": {
+    "dashboard": "ダッシュボード",
+    "the_council": "評議会",
+    "the_graph": "グラフ",
+    "the_pulse": "パルス",
+    "the_lens": "レンズ",
+    "the_bridge": "ブリッジ",
+    "settings": "設定",
+    "help": "ヘルプとサポート",
+    "cortex": "Cortex",
+    "spaces": "スペース",
+    "pillars": "ピラー",
+    "sovereign": "ソブリン",
+    "admin": "管理者"
+  },
   "council": {
     "title": "評議会",
     "subtitle": "AI搭載の戦略的アドバイザリーパネル",
@@ -305,9 +347,41 @@
     "clearAll": "すべてクリア",
     "selectAll": "すべて選択",
     "agents": { "domain": "ドメインエージェント", "custom": "カスタムエージェント", "premium": "プレミアムエージェント", "createCustom": "カスタムエージェントを作成" },
-    "modes": { "title": "評議会モードライブラリ", "subtitle": "同じエージェントでも異なるモードでは異なる結果を生み出します。", "cultureNote": "プロンプトは企業文化そのものです。", "quickReference": "クイックリファレンス", "mode": "モード", "primeDirective": "最優先指令", "bestFor": "最適な用途", "agentBehavior": "エージェントの行動" },
-    "deliberation": { "phases": { "initial_analysis": "初期分析", "cross_examination": "クロス検証", "synthesis": "統合", "ethics_check": "倫理チェック" }, "inProgress": "審議中", "completed": "審議完了", "confidence": "信頼度" },
-    "customAgent": { "title": "カスタムエージェントを作成", "editTitle": "カスタムエージェントを編集", "subtitle": "専門知識を持つ独自のAIエージェントを設計", "premium": "エージェントビルダーパック", "avatar": "エージェントアバター", "color": "エージェントカラー", "name": "エージェント名", "namePlaceholder": "例：マーケットアナリスト", "role": "役割/タイトル", "rolePlaceholder": "例：市場調査と分析", "description": "説明", "descriptionPlaceholder": "このエージェントが何をするか説明してください...", "expertise": "専門知識と指示", "capabilities": "機能", "addCapability": "追加", "save": "エージェントを保存", "delete": "エージェントを削除" },
+    "modes": {
+      "title": "評議会モードライブラリ",
+      "subtitle": "同じエージェントでも異なるモードでは異なる結果を生み出します。",
+      "cultureNote": "プロンプトは企業文化そのものです。",
+      "quickReference": "クイックリファレンス",
+      "mode": "モード",
+      "primeDirective": "最優先指令",
+      "bestFor": "最適な用途",
+      "agentBehavior": "エージェントの行動"
+    },
+    "deliberation": {
+      "phases": { "initial_analysis": "初期分析", "cross_examination": "クロス検証", "synthesis": "統合", "ethics_check": "倫理チェック" },
+      "inProgress": "審議中",
+      "completed": "審議完了",
+      "confidence": "信頼度"
+    },
+    "customAgent": {
+      "title": "カスタムエージェントを作成",
+      "editTitle": "カスタムエージェントを編集",
+      "subtitle": "専門知識を持つ独自のAIエージェントを設計",
+      "premium": "エージェントビルダーパック",
+      "avatar": "エージェントアバター",
+      "color": "エージェントカラー",
+      "name": "エージェント名",
+      "namePlaceholder": "例：マーケットアナリスト",
+      "role": "役割/タイトル",
+      "rolePlaceholder": "例：市場調査と分析",
+      "description": "説明",
+      "descriptionPlaceholder": "このエージェントが何をするか説明してください...",
+      "expertise": "専門知識と指示",
+      "capabilities": "機能",
+      "addCapability": "追加",
+      "save": "エージェントを保存",
+      "delete": "エージェントを削除"
+    },
     "status": { "online": "オンライン", "offline": "オフライン", "busy": "ビジー" }
   },
   "agent": {
@@ -324,7 +398,11 @@
     "caio": { "name": "AI戦略エージェント", "role": "AI/MLガバナンスとイノベーション", "description": "AI戦略、モデルガバナンス、倫理的AI実装を指導します。" },
     "cso": { "name": "サステナビリティエージェント", "role": "ESGと環境影響", "description": "環境、社会、ガバナンス指標とサステナビリティイニシアチブを監視します。" },
     "cio": { "name": "投資インテリジェンスエージェント", "role": "資本配分とポートフォリオ", "description": "投資機会、ポートフォリオ配分、資本展開を分析します。" },
-    "cco": { "name": "コミュニケーションエージェント", "role": "コーポレートコミュニケーションとPR", "description": "企業メッセージを作成し、ステークホルダーコミュニケーションを管理し、ブランド認知を監視します。" },
+    "cco": {
+      "name": "コミュニケーションエージェント",
+      "role": "コーポレートコミュニケーションとPR",
+      "description": "企業メッセージを作成し、ステークホルダーコミュニケーションを管理し、ブランド認知を監視します。"
+    },
     "ext-auditor": { "name": "外部監査人", "role": "独立した第三者監査", "description": "外部の視点から独立した客観的な評価を提供します。" },
     "int-auditor": { "name": "内部監査人", "role": "内部統制とプロセス監査", "description": "内部統制、業務効率、コンプライアンスを評価します。" },
     "cmio": { "name": "最高医療情報責任者", "role": "ヘルスケアITと臨床システム", "description": "ヘルスケア技術、電子カルテシステム、臨床情報学の専門家。" },
@@ -341,7 +419,18 @@
     "regulatory": { "name": "規制当局アドバイザー", "role": "政府関係とコンプライアンス", "description": "規制コンプライアンス、政府関係、行政法の専門家。" }
   },
   "label": { "online": "オンライン", "offline": "オフライン", "busy": "ビジー", "premium": "プレミアム", "locked": "ロック中", "custom": "カスタム", "unlock": "ロック解除", "required": "必須" },
-  "settings": { "title": "設定", "organization": "組織", "users": "ユーザー", "teams": "チーム", "roles": "ロールと権限", "billing": "請求", "apiKeys": "APIキー", "integrations": "統合", "preferences": "環境設定", "security": "セキュリティ" },
+  "settings": {
+    "title": "設定",
+    "organization": "組織",
+    "users": "ユーザー",
+    "teams": "チーム",
+    "roles": "ロールと権限",
+    "billing": "請求",
+    "apiKeys": "APIキー",
+    "integrations": "統合",
+    "preferences": "環境設定",
+    "security": "セキュリティ"
+  },
   "errors": {
     "notFound": { "title": "ページが見つかりません", "message": "お探しのページは存在しません。", "backHome": "ホームに戻る" },
     "serverError": { "title": "サーバーエラー", "message": "サーバー側で問題が発生しました。後でもう一度お試しください。" },
@@ -349,8 +438,40 @@
     "unauthorized": { "title": "未認証", "message": "このリソースにアクセスする権限がありません。" },
     "sessionExpired": { "title": "セッション期限切れ", "message": "セッションが期限切れになりました。再度ログインしてください。" }
   },
-  "footer": { "company": "会社", "product": "製品", "resources": "リソース", "legal": "法的情報", "about": "会社概要", "careers": "採用情報", "contact": "お問い合わせ", "press": "プレス", "features": "機能", "integrations": "統合", "enterprise": "エンタープライズ", "documentation": "ドキュメント", "apiReference": "APIリファレンス", "status": "システムステータス", "community": "コミュニティ", "privacy": "プライバシーポリシー", "terms": "利用規約", "security": "セキュリティ", "cookies": "Cookieポリシー", "copyright": "© {{year}} Datacendia. All rights reserved.", "tagline": "主権エンタープライズインテリジェンス" },
-  "time": { "justNow": "たった今", "minutesAgo": "{{count}}分前", "minutesAgo_plural": "{{count}}分前", "hoursAgo": "{{count}}時間前", "hoursAgo_plural": "{{count}}時間前", "daysAgo": "{{count}}日前", "daysAgo_plural": "{{count}}日前", "weeksAgo": "{{count}}週間前", "weeksAgo_plural": "{{count}}週間前" },
+  "footer": {
+    "company": "会社",
+    "product": "製品",
+    "resources": "リソース",
+    "legal": "法的情報",
+    "about": "会社概要",
+    "careers": "採用情報",
+    "contact": "お問い合わせ",
+    "press": "プレス",
+    "features": "機能",
+    "integrations": "統合",
+    "enterprise": "エンタープライズ",
+    "documentation": "ドキュメント",
+    "apiReference": "APIリファレンス",
+    "status": "システムステータス",
+    "community": "コミュニティ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "security": "セキュリティ",
+    "cookies": "Cookieポリシー",
+    "copyright": "© {{year}} Datacendia. All rights reserved.",
+    "tagline": "主権エンタープライズインテリジェンス"
+  },
+  "time": {
+    "justNow": "たった今",
+    "minutesAgo": "{{count}}分前",
+    "minutesAgo_plural": "{{count}}分前",
+    "hoursAgo": "{{count}}時間前",
+    "hoursAgo_plural": "{{count}}時間前",
+    "daysAgo": "{{count}}日前",
+    "daysAgo_plural": "{{count}}日前",
+    "weeksAgo": "{{count}}週間前",
+    "weeksAgo_plural": "{{count}}週間前"
+  },
   "tooltips": {
     "pillars": {
       "helm": {
@@ -516,7 +637,14 @@
       "connectors": {
         "title": "エンタープライズデータコネクタ",
         "summary": "11業界バーティカルにわたる156+の事前構築コネクタ。政府、金融、医療、グローバルデータソースに接続。",
-        "features": ["政府: NOAA, FAA, FEMA, SEC, Census, USGS, EIA", "金融: Bloomberg, SWIFT, FIXプロトコル, Refinitiv", "医療: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO", "サプライチェーン: CBP, Maersk, 港湾API", "エネルギー: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool", "アビオニクス: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"],
+        "features": [
+          "政府: NOAA, FAA, FEMA, SEC, Census, USGS, EIA",
+          "金融: Bloomberg, SWIFT, FIXプロトコル, Refinitiv",
+          "医療: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO",
+          "サプライチェーン: CBP, Maersk, 港湾API",
+          "エネルギー: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool",
+          "アビオニクス: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"
+        ],
         "useCases": ["リアルタイム気象・気候データ統合", "金融市場データと規制フィード", "医療相互運用性と臨床データ", "サプライチェーン可視性", "電力網とエネルギー市場分析", "航空安全と運航"],
         "guidance": "業界別にコネクタを参照するか、特定のデータソースを検索してください。各コネクタには認証、レート制限、コンプライアンスマッピングが含まれます。"
       },
@@ -530,21 +658,42 @@
       "sovereignArch": {
         "title": "ソブリンアーキテクチャパターン",
         "summary": "エアギャップ、ゼロトラスト、完全ソブリンデプロイメント用の11のエンタープライズパターン。",
-        "features": ["データダイオード: 検疫付き単方向データ取り込み", "ローカルRLHF: クラウドフリー強化学習", "Decision DNA: ワンクリック監査エクスポート", "シャドウカウンシル: サンドボックスモード", "QRエアギャップブリッジ: メディアレスデータ転送", "TPM証明: ハードウェア署名決定"],
+        "features": [
+          "データダイオード: 検疫付き単方向データ取り込み",
+          "ローカルRLHF: クラウドフリー強化学習",
+          "Decision DNA: ワンクリック監査エクスポート",
+          "シャドウカウンシル: サンドボックスモード",
+          "QRエアギャップブリッジ: メディアレスデータ転送",
+          "TPM証明: ハードウェア署名決定"
+        ],
         "useCases": ["エアギャップ施設デプロイメント", "防衛・インテリジェンスアプリケーション", "規制産業コンプライアンス", "ゼロトラストエンタープライズアーキテクチャ"],
         "guidance": "ソブリンアーキテクチャパターンは最も制限された環境でのデプロイメントを可能にします。各パターンは独立して、または組み合わせて使用できます。"
       },
       "cascade": {
         "title": "CendiaCascade™ - バタフライエフェクト",
         "summary": "2次・3次の結果分析。意図しない結果がインシデントになる前に予測。",
-        "features": ["マルチレンズ分析（CFO、COO、CISO、人事、倫理）", "バタフライエフェクト検出（驚くべき3次+影響）", "自動緩和策生成（予防、検出、対応）", "ガードレール提案（カナリア、トリップワイヤー、サーキットブレーカー、ロールバック）", "タイムライン可視化（T+0、T+30、T+90、T+1年）", "SHA-256ハッシュによる監査証跡"],
+        "features": [
+          "マルチレンズ分析（CFO、COO、CISO、人事、倫理）",
+          "バタフライエフェクト検出（驚くべき3次+影響）",
+          "自動緩和策生成（予防、検出、対応）",
+          "ガードレール提案（カナリア、トリップワイヤー、サーキットブレーカー、ロールバック）",
+          "タイムライン可視化（T+0、T+30、T+90、T+1年）",
+          "SHA-256ハッシュによる監査証跡"
+        ],
         "useCases": ["実施前に人員変更を分析", "サプライヤー変更の影響を予測", "組織グラフでポリシー変更をモデル化", "フィードバックループを検出"],
         "guidance": "組織グラフをロードし、変更を提案し、CendiaCascadeに結果を追跡させます。競合他社は1手先のチェスをプレイ — CendiaCascadeは5手先をシミュレート。"
       },
       "adapters": {
         "title": "ソブリンアダプター - ユニバーサルコネクター",
         "summary": "156のベンダー固有コネクターの代わりに5つのユニバーサルアダプター。私たちはソケットを提供、クライアントがプラグを持参。",
-        "features": ["File Watcher: 航空、防衛、ファイルベース取り込み", "Webhook Ingest: SaaS、金融ゲートウェイプッシュイベント", "Database Adapter: ERP、サプライチェーンSQL/ODBC", "FHIRプロトコル: ヘルスケア標準", "FIXプロトコル: 金融標準", "MQTTプロトコル: IoTとエネルギーグリッド"],
+        "features": [
+          "File Watcher: 航空、防衛、ファイルベース取り込み",
+          "Webhook Ingest: SaaS、金融ゲートウェイプッシュイベント",
+          "Database Adapter: ERP、サプライチェーンSQL/ODBC",
+          "FHIRプロトコル: ヘルスケア標準",
+          "FIXプロトコル: 金融標準",
+          "MQTTプロトコル: IoTとエネルギーグリッド"
+        ],
         "useCases": ["オープン標準で任意のシステムに接続", "プロプライエタリAPIのライセンス責任を回避", "エアギャップと規制環境をサポート", "規制アダプター用BYO-keys"],
         "guidance": "統合パターンに合ったアダプタータイプを選択。各アダプターはリスクティア、エビデンスロギング、クォータコントロールを自動的に適用。"
       }
@@ -555,9 +704,21 @@
       "title": "Datacendiaへようこそ",
       "subtitle": "主権インテリジェンスへの旅がここから始まります",
       "steps": [
-        { "title": "コマンドセンターを知る", "description": "Cortexはエンタープライズインテリジェンスの統一ビューです。5つの相互接続されたスペースが完全な可視性とコントロールを提供します。", "action": "Cortexを探索" },
-        { "title": "8つの柱を理解する", "description": "各柱は重要な機能を提供します - 戦略指標（Helm）からAIガバナンス（Ethics）まで。システムとして連携して機能します。", "action": "柱の概要を見る" },
-        { "title": "最初のデータソースを接続", "description": "インテリジェンスにはデータが必要です。データベース、API、またはファイルソースを接続してナレッジベースの構築を開始しましょう。", "action": "データソースを追加" },
+        {
+          "title": "コマンドセンターを知る",
+          "description": "Cortexはエンタープライズインテリジェンスの統一ビューです。5つの相互接続されたスペースが完全な可視性とコントロールを提供します。",
+          "action": "Cortexを探索"
+        },
+        {
+          "title": "8つの柱を理解する",
+          "description": "各柱は重要な機能を提供します - 戦略指標（Helm）からAIガバナンス（Ethics）まで。システムとして連携して機能します。",
+          "action": "柱の概要を見る"
+        },
+        {
+          "title": "最初のデータソースを接続",
+          "description": "インテリジェンスにはデータが必要です。データベース、API、またはファイルソースを接続してナレッジベースの構築を開始しましょう。",
+          "action": "データソースを追加"
+        },
         { "title": "主要指標を定義", "description": "組織にとって最も重要なものは何ですか？エグゼクティブダッシュボードに表示されるKPIを定義してください。", "action": "最初の指標を作成" }
       ]
     },
@@ -567,11 +728,36 @@
       "persona": "経営幹部",
       "duration": "15分",
       "steps": [
-        { "title": "Pulseから始める", "description": "毎日、組織の健全性を即座に確認することから始めましょう。赤い指標は即座の注意が必要です。", "space": "pulse", "keyActions": ["健全性インジケーターを確認", "アクティブなアラートをチェック", "トレンド指標に注目"] },
-        { "title": "Helmを深掘り", "description": "戦略的KPIを検討します。四半期目標に向けて順調ですか？ギャップはどこにありますか？", "pillar": "helm", "keyActions": ["KPIステータスを確認", "目標と比較", "リスクのある目標を特定"] },
-        { "title": "Councilに相談", "description": "複雑な決定には、AIアドバイザーを集めましょう。状況を提示し、複数の視点を聞きます。", "space": "council", "keyActions": ["質問を策定", "エージェントの視点を確認", "統合を要求"] },
-        { "title": "Lensで探索", "description": "さまざまなシナリオをモデル化します。投資を増やしたら？ローンチを遅らせたら？Lensは可能な未来を表示します。", "space": "lens", "keyActions": ["シナリオパラメータを定義", "シミュレーションを実行", "結果を比較"] },
-        { "title": "Bridgeでアクション", "description": "決定をアクションに変換します。Bridgeは完全な監査証跡でシステム全体で実行します。", "space": "bridge", "keyActions": ["アクションを選択", "影響をプレビュー", "実行を承認"] }
+        {
+          "title": "Pulseから始める",
+          "description": "毎日、組織の健全性を即座に確認することから始めましょう。赤い指標は即座の注意が必要です。",
+          "space": "pulse",
+          "keyActions": ["健全性インジケーターを確認", "アクティブなアラートをチェック", "トレンド指標に注目"]
+        },
+        {
+          "title": "Helmを深掘り",
+          "description": "戦略的KPIを検討します。四半期目標に向けて順調ですか？ギャップはどこにありますか？",
+          "pillar": "helm",
+          "keyActions": ["KPIステータスを確認", "目標と比較", "リスクのある目標を特定"]
+        },
+        {
+          "title": "Councilに相談",
+          "description": "複雑な決定には、AIアドバイザーを集めましょう。状況を提示し、複数の視点を聞きます。",
+          "space": "council",
+          "keyActions": ["質問を策定", "エージェントの視点を確認", "統合を要求"]
+        },
+        {
+          "title": "Lensで探索",
+          "description": "さまざまなシナリオをモデル化します。投資を増やしたら？ローンチを遅らせたら？Lensは可能な未来を表示します。",
+          "space": "lens",
+          "keyActions": ["シナリオパラメータを定義", "シミュレーションを実行", "結果を比較"]
+        },
+        {
+          "title": "Bridgeでアクション",
+          "description": "決定をアクションに変換します。Bridgeは完全な監査証跡でシステム全体で実行します。",
+          "space": "bridge",
+          "keyActions": ["アクションを選択", "影響をプレビュー", "実行を承認"]
+        }
       ]
     },
     "dataEngineer": {
@@ -580,10 +766,30 @@
       "persona": "データエンジニア/アーキテクト",
       "duration": "30分",
       "steps": [
-        { "title": "Lineageでデータをマップ", "description": "データが組織をどのように流れるかを理解します。Lineageはソース、変換、宛先を自動的に発見します。", "pillar": "lineage", "keyActions": ["データソースを接続", "発見されたエンティティを確認", "変換を文書化"] },
-        { "title": "Healthで品質を監視", "description": "すべてのパイプラインでデータ品質メトリクスを追跡します。鮮度、完全性、正確性のアラートを設定します。", "pillar": "health", "keyActions": ["品質チェックを設定", "アラート閾値を設定", "品質スコアを確認"] },
-        { "title": "Meshでシステムを接続", "description": "システム間の統合を構築します。Meshはプロトコル、変換、信頼性を処理します。", "sovereign": "mesh", "keyActions": ["ソース/宛先を定義", "マッピングを設定", "統合をテスト"] },
-        { "title": "Flowで自動化", "description": "自動データパイプラインを作成します。タスクをスケジュールし、エラーを処理し、複雑なワークフローをオーケストレートします。", "pillar": "flow", "keyActions": ["ワークフローを設計", "トリガーを設定", "エラーハンドリングを設定"] }
+        {
+          "title": "Lineageでデータをマップ",
+          "description": "データが組織をどのように流れるかを理解します。Lineageはソース、変換、宛先を自動的に発見します。",
+          "pillar": "lineage",
+          "keyActions": ["データソースを接続", "発見されたエンティティを確認", "変換を文書化"]
+        },
+        {
+          "title": "Healthで品質を監視",
+          "description": "すべてのパイプラインでデータ品質メトリクスを追跡します。鮮度、完全性、正確性のアラートを設定します。",
+          "pillar": "health",
+          "keyActions": ["品質チェックを設定", "アラート閾値を設定", "品質スコアを確認"]
+        },
+        {
+          "title": "Meshでシステムを接続",
+          "description": "システム間の統合を構築します。Meshはプロトコル、変換、信頼性を処理します。",
+          "sovereign": "mesh",
+          "keyActions": ["ソース/宛先を定義", "マッピングを設定", "統合をテスト"]
+        },
+        {
+          "title": "Flowで自動化",
+          "description": "自動データパイプラインを作成します。タスクをスケジュールし、エラーを処理し、複雑なワークフローをオーケストレートします。",
+          "pillar": "flow",
+          "keyActions": ["ワークフローを設計", "トリガーを設定", "エラーハンドリングを設定"]
+        }
       ]
     },
     "complianceOfficer": {
@@ -592,10 +798,30 @@
       "persona": "コンプライアンス/リスク責任者",
       "duration": "20分",
       "steps": [
-        { "title": "Guardでセキュリティ態勢を確認", "description": "組織のセキュリティポジションを確認します。ポリシーコンプライアンス、アクセスパターン、アクティブな脅威をレビューします。", "pillar": "guard", "keyActions": ["コンプライアンススコアを確認", "ポリシー違反をチェック", "アクセスログを監査"] },
-        { "title": "AI倫理を検証", "description": "すべてのAIモデルが倫理基準を満たしていることを確認します。バイアスをチェックし、決定をレビューし、コンプライアンスを文書化します。", "pillar": "ethics", "keyActions": ["バイアスチェックを確認", "モデル決定を監査", "結果を文書化"] },
-        { "title": "Witnessから監査ログを抽出", "description": "すべてのシステムアクションの不変レコードにアクセスします。暗号証拠付きの監査人向けレポートを生成します。", "sovereign": "witness", "keyActions": ["監査範囲を定義", "証拠パッケージをエクスポート", "認証を生成"] },
-        { "title": "Glassで決定を説明", "description": "規制当局が理由を尋ねたとき、Glassが答えを提供します。すべてのAI決定の完全な説明可能性。", "sovereign": "glass", "keyActions": ["決定を選択", "説明を生成", "コンプライアンス文書を作成"] }
+        {
+          "title": "Guardでセキュリティ態勢を確認",
+          "description": "組織のセキュリティポジションを確認します。ポリシーコンプライアンス、アクセスパターン、アクティブな脅威をレビューします。",
+          "pillar": "guard",
+          "keyActions": ["コンプライアンススコアを確認", "ポリシー違反をチェック", "アクセスログを監査"]
+        },
+        {
+          "title": "AI倫理を検証",
+          "description": "すべてのAIモデルが倫理基準を満たしていることを確認します。バイアスをチェックし、決定をレビューし、コンプライアンスを文書化します。",
+          "pillar": "ethics",
+          "keyActions": ["バイアスチェックを確認", "モデル決定を監査", "結果を文書化"]
+        },
+        {
+          "title": "Witnessから監査ログを抽出",
+          "description": "すべてのシステムアクションの不変レコードにアクセスします。暗号証拠付きの監査人向けレポートを生成します。",
+          "sovereign": "witness",
+          "keyActions": ["監査範囲を定義", "証拠パッケージをエクスポート", "認証を生成"]
+        },
+        {
+          "title": "Glassで決定を説明",
+          "description": "規制当局が理由を尋ねたとき、Glassが答えを提供します。すべてのAI決定の完全な説明可能性。",
+          "sovereign": "glass",
+          "keyActions": ["決定を選択", "説明を生成", "コンプライアンス文書を作成"]
+        }
       ]
     },
     "quickStart": {
@@ -603,7 +829,11 @@
       "subtitle": "すぐに価値を得るための方向付け",
       "duration": "5分",
       "steps": [
-        { "title": "ダッシュボードを見る", "description": "パーソナライズされたコマンドセンターが最も重要なものを表示します。主要指標、アラート、最近のアクティビティを一目で確認。", "action": "ダッシュボードを開く" },
+        {
+          "title": "ダッシュボードを見る",
+          "description": "パーソナライズされたコマンドセンターが最も重要なものを表示します。主要指標、アラート、最近のアクティビティを一目で確認。",
+          "action": "ダッシュボードを開く"
+        },
         { "title": "組織の健全性を確認", "description": "組織の状態を示す1つの数字。緑は良好。詳細はクリックして確認。", "action": "健全性インジケーターを見る" },
         { "title": "質問する", "description": "組織についての質問を入力してください。AIエージェントが答えを見つけます。", "action": "AIアシスタントを開く" },
         { "title": "指標を探索", "description": "任意の指標をクリックして深掘りします。履歴、トレンド、変化の原因を確認できます。", "action": "指標を選択" }
@@ -615,12 +845,42 @@
       "persona": "インシデントリーダー",
       "duration": "即時対応",
       "steps": [
-        { "title": "Pulseで状況を評価", "description": "何が起きているかを即座に把握します。赤い指標が問題を特定します。カスケード影響がリアルタイムで表示されます。", "space": "pulse", "keyActions": ["影響を受けるシステムを特定", "重大度レベルを確認", "カスケードアラートを確認"] },
-        { "title": "Lineageで根本原因を追跡", "description": "データパスを逆方向にたどります。何が変わりましたか？どこで始まりましたか？Lineageは正確な障害点を表示します。", "pillar": "lineage", "keyActions": ["データフローを追跡", "原因となった変更を特定", "根本原因を文書化"] },
-        { "title": "Witnessで証拠を収集", "description": "何が起きたかの不変レコードをキャプチャします。事後分析とコンプライアンス要件に必要です。", "sovereign": "witness", "keyActions": ["インシデントタイムラインをエクスポート", "システム状態をキャプチャ", "監査ログを保存"] },
-        { "title": "Councilで対応を調整", "description": "異なるドメインのAI専門家を集めます。セキュリティ、運用、事業継続が対応計画で協力します。", "space": "council", "keyActions": ["対応チームを集める", "影響評価を取得", "アクションプランを作成"] },
-        { "title": "Bridgeで復旧を実行", "description": "影響を受けるシステムに修正とロールバックをプッシュします。Bridgeは監査証跡を維持しながら対応を調整します。", "space": "bridge", "keyActions": ["修正をデプロイ", "ロールバックを実行", "復旧を確認"] },
-        { "title": "Legacyで文書化と学習", "description": "何が起きたか、何を学んだかをキャプチャします。将来のチームが同様の状況に直面したとき感謝するでしょう。", "sovereign": "legacy", "keyActions": ["インシデントレポートを作成", "学んだ教訓を文書化", "プレイブックを更新"] }
+        {
+          "title": "Pulseで状況を評価",
+          "description": "何が起きているかを即座に把握します。赤い指標が問題を特定します。カスケード影響がリアルタイムで表示されます。",
+          "space": "pulse",
+          "keyActions": ["影響を受けるシステムを特定", "重大度レベルを確認", "カスケードアラートを確認"]
+        },
+        {
+          "title": "Lineageで根本原因を追跡",
+          "description": "データパスを逆方向にたどります。何が変わりましたか？どこで始まりましたか？Lineageは正確な障害点を表示します。",
+          "pillar": "lineage",
+          "keyActions": ["データフローを追跡", "原因となった変更を特定", "根本原因を文書化"]
+        },
+        {
+          "title": "Witnessで証拠を収集",
+          "description": "何が起きたかの不変レコードをキャプチャします。事後分析とコンプライアンス要件に必要です。",
+          "sovereign": "witness",
+          "keyActions": ["インシデントタイムラインをエクスポート", "システム状態をキャプチャ", "監査ログを保存"]
+        },
+        {
+          "title": "Councilで対応を調整",
+          "description": "異なるドメインのAI専門家を集めます。セキュリティ、運用、事業継続が対応計画で協力します。",
+          "space": "council",
+          "keyActions": ["対応チームを集める", "影響評価を取得", "アクションプランを作成"]
+        },
+        {
+          "title": "Bridgeで復旧を実行",
+          "description": "影響を受けるシステムに修正とロールバックをプッシュします。Bridgeは監査証跡を維持しながら対応を調整します。",
+          "space": "bridge",
+          "keyActions": ["修正をデプロイ", "ロールバックを実行", "復旧を確認"]
+        },
+        {
+          "title": "Legacyで文書化と学習",
+          "description": "何が起きたか、何を学んだかをキャプチャします。将来のチームが同様の状況に直面したとき感謝するでしょう。",
+          "sovereign": "legacy",
+          "keyActions": ["インシデントレポートを作成", "学んだ教訓を文書化", "プレイブックを更新"]
+        }
       ]
     },
     "boardPresentation": {
@@ -629,12 +889,42 @@
       "persona": "CEO / CFO / 取締役会プレゼンター",
       "duration": "30分",
       "steps": [
-        { "title": "Helmから戦略KPIを抽出", "description": "すべての主要指標を一箇所に集めます。Helmはトレンド分析付きで戦略目標に対する進捗を表示します。", "pillar": "helm", "keyActions": ["KPIダッシュボードをエクスポート", "トレンド分析を生成", "達成を強調"] },
-        { "title": "Predictで予測を構築", "description": "現在地だけでなく、将来地を示しましょう。信頼区間付きの予測を生成します。", "pillar": "predict", "keyActions": ["予測を生成", "収益予測を作成", "シナリオを作成"] },
-        { "title": "Lineageでデータを検証", "description": "取締役会メンバーは厳しい質問をします。すべての数字がどこから来ているか正確に把握しておきましょう。", "pillar": "lineage", "keyActions": ["主要数字を追跡", "ソースを文書化", "データリネージを準備"] },
-        { "title": "Lensでwhat-ifシナリオをモデル化", "description": "「もし...だったら？」の質問に備えましょう。事前に戦略シナリオをモデル化して回答を準備します。", "space": "lens", "keyActions": ["成長シナリオをモデル化", "リスク要因を分析", "代替計画を準備"] },
-        { "title": "OracleからAI統合を取得", "description": "Oracleにデータを主要インサイトと話題のポイントに統合するよう依頼します。人間が見逃すパターンを見つけます。", "sovereign": "oracle", "keyActions": ["インサイトを生成", "話題のポイントを要求", "盲点を特定"] },
-        { "title": "Guardでコンプライアンスを確保", "description": "提示する内容がコンプライアンスリスクを生じないことを確認します。Guardはすべてのデータがガバナンス要件を満たしていることを確認します。", "pillar": "guard", "keyActions": ["コンプライアンスチェックを実行", "データ分類を確認", "プレゼンテーションを承認"] }
+        {
+          "title": "Helmから戦略KPIを抽出",
+          "description": "すべての主要指標を一箇所に集めます。Helmはトレンド分析付きで戦略目標に対する進捗を表示します。",
+          "pillar": "helm",
+          "keyActions": ["KPIダッシュボードをエクスポート", "トレンド分析を生成", "達成を強調"]
+        },
+        {
+          "title": "Predictで予測を構築",
+          "description": "現在地だけでなく、将来地を示しましょう。信頼区間付きの予測を生成します。",
+          "pillar": "predict",
+          "keyActions": ["予測を生成", "収益予測を作成", "シナリオを作成"]
+        },
+        {
+          "title": "Lineageでデータを検証",
+          "description": "取締役会メンバーは厳しい質問をします。すべての数字がどこから来ているか正確に把握しておきましょう。",
+          "pillar": "lineage",
+          "keyActions": ["主要数字を追跡", "ソースを文書化", "データリネージを準備"]
+        },
+        {
+          "title": "Lensでwhat-ifシナリオをモデル化",
+          "description": "「もし...だったら？」の質問に備えましょう。事前に戦略シナリオをモデル化して回答を準備します。",
+          "space": "lens",
+          "keyActions": ["成長シナリオをモデル化", "リスク要因を分析", "代替計画を準備"]
+        },
+        {
+          "title": "OracleからAI統合を取得",
+          "description": "Oracleにデータを主要インサイトと話題のポイントに統合するよう依頼します。人間が見逃すパターンを見つけます。",
+          "sovereign": "oracle",
+          "keyActions": ["インサイトを生成", "話題のポイントを要求", "盲点を特定"]
+        },
+        {
+          "title": "Guardでコンプライアンスを確保",
+          "description": "提示する内容がコンプライアンスリスクを生じないことを確認します。Guardはすべてのデータがガバナンス要件を満たしていることを確認します。",
+          "pillar": "guard",
+          "keyActions": ["コンプライアンスチェックを実行", "データ分類を確認", "プレゼンテーションを承認"]
+        }
       ]
     },
     "strategist": {
@@ -643,11 +933,36 @@
       "persona": "戦略 / 計画",
       "duration": "45分",
       "steps": [
-        { "title": "Graphからインテリジェンスを収集", "description": "ナレッジベースを探索します。市場データ、内部メトリクス、競争インテリジェンス間の接続を発見します。", "space": "graph", "keyActions": ["トピックを検索", "接続を探索", "主要インサイトを保存"] },
-        { "title": "Predictでトレンドを予測", "description": "AIモデルを使用して主要メトリクスを予測します。現在のトレンドがどこに向かっているかを理解します。", "pillar": "predict", "keyActions": ["予測ターゲットを選択", "予測を確認", "信頼区間を分析"] },
-        { "title": "Oracleに質問", "description": "戦略的質問に対するAI駆動の回答を取得します。Oracleは利用可能なすべての知識を統合します。", "sovereign": "oracle", "keyActions": ["戦略的質問を策定", "回答を確認", "ソースを確認"] },
-        { "title": "Lensでシナリオをモデル化", "description": "戦略的シナリオを構築します。競合が動いたら？市場が変化したら？新しい規制が出現したら？", "space": "lens", "keyActions": ["シナリオ変数を定義", "複数の未来を実行", "最適な戦略を特定"] },
-        { "title": "Mirrorでテスト", "description": "コミットする前に戦略的イニシアチブをシミュレートします。Mirrorはリスクなしでテストできます。", "sovereign": "mirror", "keyActions": ["シミュレーションを作成", "イニシアチブテストを実行", "結果を分析"] }
+        {
+          "title": "Graphからインテリジェンスを収集",
+          "description": "ナレッジベースを探索します。市場データ、内部メトリクス、競争インテリジェンス間の接続を発見します。",
+          "space": "graph",
+          "keyActions": ["トピックを検索", "接続を探索", "主要インサイトを保存"]
+        },
+        {
+          "title": "Predictでトレンドを予測",
+          "description": "AIモデルを使用して主要メトリクスを予測します。現在のトレンドがどこに向かっているかを理解します。",
+          "pillar": "predict",
+          "keyActions": ["予測ターゲットを選択", "予測を確認", "信頼区間を分析"]
+        },
+        {
+          "title": "Oracleに質問",
+          "description": "戦略的質問に対するAI駆動の回答を取得します。Oracleは利用可能なすべての知識を統合します。",
+          "sovereign": "oracle",
+          "keyActions": ["戦略的質問を策定", "回答を確認", "ソースを確認"]
+        },
+        {
+          "title": "Lensでシナリオをモデル化",
+          "description": "戦略的シナリオを構築します。競合が動いたら？市場が変化したら？新しい規制が出現したら？",
+          "space": "lens",
+          "keyActions": ["シナリオ変数を定義", "複数の未来を実行", "最適な戦略を特定"]
+        },
+        {
+          "title": "Mirrorでテスト",
+          "description": "コミットする前に戦略的イニシアチブをシミュレートします。Mirrorはリスクなしでテストできます。",
+          "sovereign": "mirror",
+          "keyActions": ["シミュレーションを作成", "イニシアチブテストを実行", "結果を分析"]
+        }
       ]
     },
     "aiModelLaunch": {
@@ -656,12 +971,42 @@
       "persona": "MLエンジニア / データサイエンティスト",
       "duration": "1-2時間",
       "steps": [
-        { "title": "BlackBoxにモデルを登録", "description": "トレーニング済みモデルをレジストリにアップロードします。BlackBoxはバージョン、依存関係、トレーニング来歴を自動的に追跡します。", "sovereign": "blackbox", "keyActions": ["モデル成果物をアップロード", "メタデータを登録", "トレーニングデータをリンク"] },
-        { "title": "Ethicsでバイアスをチェック", "description": "モデルが本番に入る前に、倫理レビューを通過する必要があります。人口統計グループ全体でバイアス検出を実行します。", "pillar": "ethics", "keyActions": ["バイアス評価を実行", "公平性メトリクスを確認", "コンプライアンスを文書化"] },
-        { "title": "Mirageからの合成データでテスト", "description": "エッジケースと敵対的サンプルを生成します。モデルがプライバシーリスクなしで予期しない事態を処理できることを確認します。", "sovereign": "mirage", "keyActions": ["テストデータを生成", "ストレステストを実行", "エッジケースを検証"] },
-        { "title": "Mirrorでシミュレート", "description": "最初にデジタルツインにデプロイします。本番に触れる前に、実際のトラフィックパターンでモデルがどのように動作するかを確認します。", "sovereign": "mirror", "keyActions": ["Mirrorにデプロイ", "本番負荷をシミュレート", "予測を比較"] },
-        { "title": "Glassで説明可能性を設定", "description": "すべての予測は説明可能である必要があります。透明性のために要因帰属と反事実生成を設定します。", "sovereign": "glass", "keyActions": ["説明可能性を有効化", "要因を設定", "説明をテスト"] },
-        { "title": "Predictでデプロイと監視", "description": "自信を持って本番へ。Predictはパフォーマンスを監視し、ドリフトを検出し、劣化について警告します。", "pillar": "predict", "keyActions": ["本番に昇格", "監視を設定", "ドリフトアラートを設定"] }
+        {
+          "title": "BlackBoxにモデルを登録",
+          "description": "トレーニング済みモデルをレジストリにアップロードします。BlackBoxはバージョン、依存関係、トレーニング来歴を自動的に追跡します。",
+          "sovereign": "blackbox",
+          "keyActions": ["モデル成果物をアップロード", "メタデータを登録", "トレーニングデータをリンク"]
+        },
+        {
+          "title": "Ethicsでバイアスをチェック",
+          "description": "モデルが本番に入る前に、倫理レビューを通過する必要があります。人口統計グループ全体でバイアス検出を実行します。",
+          "pillar": "ethics",
+          "keyActions": ["バイアス評価を実行", "公平性メトリクスを確認", "コンプライアンスを文書化"]
+        },
+        {
+          "title": "Mirageからの合成データでテスト",
+          "description": "エッジケースと敵対的サンプルを生成します。モデルがプライバシーリスクなしで予期しない事態を処理できることを確認します。",
+          "sovereign": "mirage",
+          "keyActions": ["テストデータを生成", "ストレステストを実行", "エッジケースを検証"]
+        },
+        {
+          "title": "Mirrorでシミュレート",
+          "description": "最初にデジタルツインにデプロイします。本番に触れる前に、実際のトラフィックパターンでモデルがどのように動作するかを確認します。",
+          "sovereign": "mirror",
+          "keyActions": ["Mirrorにデプロイ", "本番負荷をシミュレート", "予測を比較"]
+        },
+        {
+          "title": "Glassで説明可能性を設定",
+          "description": "すべての予測は説明可能である必要があります。透明性のために要因帰属と反事実生成を設定します。",
+          "sovereign": "glass",
+          "keyActions": ["説明可能性を有効化", "要因を設定", "説明をテスト"]
+        },
+        {
+          "title": "Predictでデプロイと監視",
+          "description": "自信を持って本番へ。Predictはパフォーマンスを監視し、ドリフトを検出し、劣化について警告します。",
+          "pillar": "predict",
+          "keyActions": ["本番に昇格", "監視を設定", "ドリフトアラートを設定"]
+        }
       ]
     },
     "newEmployeeOnboarding": {
@@ -670,12 +1015,42 @@
       "persona": "新入社員 / 採用マネージャー",
       "duration": "自己ペース",
       "steps": [
-        { "title": "Key経由でワークスペースにアクセス", "description": "1回のログインで必要なすべてにアクセスできます。Keyはあなたの役割に基づいて権限を管理します。", "sovereign": "key", "keyActions": ["SSO設定を完了", "役割割り当てを確認", "付与されたシステムにアクセス"] },
-        { "title": "Graphで組織知識を探索", "description": "ナレッジユニバースをナビゲートします。新しい役割のためのドキュメント、専門家、コンテキストを見つけます。", "space": "graph", "keyActions": ["役割リソースを検索", "チーム知識を見つける", "主要連絡先を特定"] },
-        { "title": "Legacyから学ぶ", "description": "先人からの制度的知識にアクセスします。ベストプラクティス、意思決定の根拠、学んだ教訓。", "sovereign": "legacy", "keyActions": ["チームプレイブックを確認", "過去の決定を研究", "ベストプラクティスを学ぶ"] },
-        { "title": "Helmで自分のメトリクスを理解", "description": "すべての役割にはKPIがあります。何で測定されているか、進捗をどう追跡するかを学びます。", "pillar": "helm", "keyActions": ["割り当てられたメトリクスを確認", "目標を理解", "個人ダッシュボードを設定"] },
-        { "title": "Flowで自動ワークフローを設定", "description": "プロセスを再発明しないでください。既存のワークフローに接続し、初日から反復的なタスクを自動化します。", "pillar": "flow", "keyActions": ["チームワークフローに参加", "通知を設定", "レポートを自動化"] },
-        { "title": "AgentsでAIアシスタントに会う", "description": "助ける準備ができているAIチームメイトがいます。あなたの役割に関連するエージェントに会い、協力方法を学びます。", "pillar": "agents", "keyActions": ["ドメインエージェントに会う", "最初の質問をする", "役立つ回答を保存"] }
+        {
+          "title": "Key経由でワークスペースにアクセス",
+          "description": "1回のログインで必要なすべてにアクセスできます。Keyはあなたの役割に基づいて権限を管理します。",
+          "sovereign": "key",
+          "keyActions": ["SSO設定を完了", "役割割り当てを確認", "付与されたシステムにアクセス"]
+        },
+        {
+          "title": "Graphで組織知識を探索",
+          "description": "ナレッジユニバースをナビゲートします。新しい役割のためのドキュメント、専門家、コンテキストを見つけます。",
+          "space": "graph",
+          "keyActions": ["役割リソースを検索", "チーム知識を見つける", "主要連絡先を特定"]
+        },
+        {
+          "title": "Legacyから学ぶ",
+          "description": "先人からの制度的知識にアクセスします。ベストプラクティス、意思決定の根拠、学んだ教訓。",
+          "sovereign": "legacy",
+          "keyActions": ["チームプレイブックを確認", "過去の決定を研究", "ベストプラクティスを学ぶ"]
+        },
+        {
+          "title": "Helmで自分のメトリクスを理解",
+          "description": "すべての役割にはKPIがあります。何で測定されているか、進捗をどう追跡するかを学びます。",
+          "pillar": "helm",
+          "keyActions": ["割り当てられたメトリクスを確認", "目標を理解", "個人ダッシュボードを設定"]
+        },
+        {
+          "title": "Flowで自動ワークフローを設定",
+          "description": "プロセスを再発明しないでください。既存のワークフローに接続し、初日から反復的なタスクを自動化します。",
+          "pillar": "flow",
+          "keyActions": ["チームワークフローに参加", "通知を設定", "レポートを自動化"]
+        },
+        {
+          "title": "AgentsでAIアシスタントに会う",
+          "description": "助ける準備ができているAIチームメイトがいます。あなたの役割に関連するエージェントに会い、協力方法を学びます。",
+          "pillar": "agents",
+          "keyActions": ["ドメインエージェントに会う", "最初の質問をする", "役立つ回答を保存"]
+        }
       ]
     },
     "mergerIntegration": {
@@ -684,12 +1059,42 @@
       "persona": "統合リード / CIO",
       "duration": "継続的",
       "steps": [
-        { "title": "Lineageで両方のデータランドスケープをマップ", "description": "統合する前に、両側を理解する必要があります。Lineageはエンティティと関係の完全なマップを作成します。", "pillar": "lineage", "keyActions": ["買収側データをスキャン", "対象データをスキャン", "重複を特定"] },
-        { "title": "Helmでメトリクスを統一", "description": "異なる組織は異なる方法で測定します。単一の真実のソースのためにKPI定義を調和させます。", "pillar": "helm", "keyActions": ["メトリクス定義をマップ", "競合を解決", "統一ダッシュボードを作成"] },
-        { "title": "Mesh経由でシステムを接続", "description": "統合レイヤーを構築します。Meshは異なるプロトコルを持つ異種システムの接続の複雑さを処理します。", "sovereign": "mesh", "keyActions": ["ソースシステムをマップ", "統合を構築", "データフローをテスト"] },
-        { "title": "Legacyで制度的知識を保存", "description": "M&Aはしばしば重要な人材の喪失を意味します。移行前に彼らの知識をキャプチャします。", "sovereign": "legacy", "keyActions": ["主要人員にインタビュー", "プロセスを文書化", "部族的知識をアーカイブ"] },
-        { "title": "Key経由でアイデンティティシステムを統合", "description": "誰が何にアクセスできるかを統一します。Keyはアイデンティティプロバイダーを統合し、権限を調和させます。", "sovereign": "key", "keyActions": ["アイデンティティソースを統合", "権限を調整", "統一アクセスを有効化"] },
-        { "title": "統合の健全性を監視", "description": "統合の健全性をリアルタイムで追跡します。問題が問題になる前に検出します。", "pillar": "health", "keyActions": ["データ品質を監視", "同期状態を追跡", "異常について警告"] }
+        {
+          "title": "Lineageで両方のデータランドスケープをマップ",
+          "description": "統合する前に、両側を理解する必要があります。Lineageはエンティティと関係の完全なマップを作成します。",
+          "pillar": "lineage",
+          "keyActions": ["買収側データをスキャン", "対象データをスキャン", "重複を特定"]
+        },
+        {
+          "title": "Helmでメトリクスを統一",
+          "description": "異なる組織は異なる方法で測定します。単一の真実のソースのためにKPI定義を調和させます。",
+          "pillar": "helm",
+          "keyActions": ["メトリクス定義をマップ", "競合を解決", "統一ダッシュボードを作成"]
+        },
+        {
+          "title": "Mesh経由でシステムを接続",
+          "description": "統合レイヤーを構築します。Meshは異なるプロトコルを持つ異種システムの接続の複雑さを処理します。",
+          "sovereign": "mesh",
+          "keyActions": ["ソースシステムをマップ", "統合を構築", "データフローをテスト"]
+        },
+        {
+          "title": "Legacyで制度的知識を保存",
+          "description": "M&Aはしばしば重要な人材の喪失を意味します。移行前に彼らの知識をキャプチャします。",
+          "sovereign": "legacy",
+          "keyActions": ["主要人員にインタビュー", "プロセスを文書化", "部族的知識をアーカイブ"]
+        },
+        {
+          "title": "Key経由でアイデンティティシステムを統合",
+          "description": "誰が何にアクセスできるかを統一します。Keyはアイデンティティプロバイダーを統合し、権限を調和させます。",
+          "sovereign": "key",
+          "keyActions": ["アイデンティティソースを統合", "権限を調整", "統一アクセスを有効化"]
+        },
+        {
+          "title": "統合の健全性を監視",
+          "description": "統合の健全性をリアルタイムで追跡します。問題が問題になる前に検出します。",
+          "pillar": "health",
+          "keyActions": ["データ品質を監視", "同期状態を追跡", "異常について警告"]
+        }
       ]
     },
     "regulatoryAudit": {
@@ -698,12 +1103,42 @@
       "persona": "最高コンプライアンス責任者",
       "duration": "2-4時間",
       "steps": [
-        { "title": "Witnessから監査証拠を抽出", "description": "組織内のすべてのアクションが記録されています。Witnessは監査人のための暗号的に証明された証拠を提供します。", "sovereign": "witness", "keyActions": ["監査範囲を定義", "証拠パッケージをエクスポート", "証明書を生成"] },
-        { "title": "Guardでポリシーコンプライアンスを確認", "description": "監査人にポリシーが実際に施行されていることを示します。Guardはリアルタイムのコンプライアンス姿勢と違反履歴を提供します。", "pillar": "guard", "keyActions": ["コンプライアンスレポートを生成", "ポリシー施行を表示", "例外を文書化"] },
-        { "title": "EthicsでAIガバナンスを実証", "description": "AI規制が到来しています。バイアステスト、意思決定文書、倫理レビュープロセスを示します。", "pillar": "ethics", "keyActions": ["倫理レビューをエクスポート", "バイアステスト結果を表示", "AIガバナンスを文書化"] },
-        { "title": "GlassでAI決定を説明", "description": "監査人が「なぜシステムはこれを決定したのか？」と尋ねたとき、Glassは完全な説明を提供します。", "sovereign": "glass", "keyActions": ["決定レポートを生成", "要因帰属を表示", "反事実を提供"] },
-        { "title": "精度のためにデータリネージを追跡", "description": "数字が正確であることを示すために、どこから来ているかを示します。Lineageはソースからレポートまでのトレーサビリティを提供します。", "pillar": "lineage", "keyActions": ["リネージマップをエクスポート", "変換を文書化", "データ精度を証明"] },
-        { "title": "Key経由でアクセス制御を確認", "description": "誰がいつ何にアクセスしましたか？Keyは任意の期間の完全なアクセス監査証跡を提供します。", "sovereign": "key", "keyActions": ["アクセスログをエクスポート", "権限履歴を表示", "制御を文書化"] }
+        {
+          "title": "Witnessから監査証拠を抽出",
+          "description": "組織内のすべてのアクションが記録されています。Witnessは監査人のための暗号的に証明された証拠を提供します。",
+          "sovereign": "witness",
+          "keyActions": ["監査範囲を定義", "証拠パッケージをエクスポート", "証明書を生成"]
+        },
+        {
+          "title": "Guardでポリシーコンプライアンスを確認",
+          "description": "監査人にポリシーが実際に施行されていることを示します。Guardはリアルタイムのコンプライアンス姿勢と違反履歴を提供します。",
+          "pillar": "guard",
+          "keyActions": ["コンプライアンスレポートを生成", "ポリシー施行を表示", "例外を文書化"]
+        },
+        {
+          "title": "EthicsでAIガバナンスを実証",
+          "description": "AI規制が到来しています。バイアステスト、意思決定文書、倫理レビュープロセスを示します。",
+          "pillar": "ethics",
+          "keyActions": ["倫理レビューをエクスポート", "バイアステスト結果を表示", "AIガバナンスを文書化"]
+        },
+        {
+          "title": "GlassでAI決定を説明",
+          "description": "監査人が「なぜシステムはこれを決定したのか？」と尋ねたとき、Glassは完全な説明を提供します。",
+          "sovereign": "glass",
+          "keyActions": ["決定レポートを生成", "要因帰属を表示", "反事実を提供"]
+        },
+        {
+          "title": "精度のためにデータリネージを追跡",
+          "description": "数字が正確であることを示すために、どこから来ているかを示します。Lineageはソースからレポートまでのトレーサビリティを提供します。",
+          "pillar": "lineage",
+          "keyActions": ["リネージマップをエクスポート", "変換を文書化", "データ精度を証明"]
+        },
+        {
+          "title": "Key経由でアクセス制御を確認",
+          "description": "誰がいつ何にアクセスしましたか？Keyは任意の期間の完全なアクセス監査証跡を提供します。",
+          "sovereign": "key",
+          "keyActions": ["アクセスログをエクスポート", "権限履歴を表示", "制御を文書化"]
+        }
       ]
     },
     "customerChurnPrevention": {
@@ -712,12 +1147,42 @@
       "persona": "カスタマーサクセス / 収益オペレーション",
       "duration": "日次ワークフロー",
       "steps": [
-        { "title": "Predictでリスクのある顧客を特定", "description": "MLモデルは離反リスクをスコアリングするために何百ものシグナルを分析します。顧客自身が知る前に誰がリスクにあるかを知ります。", "pillar": "predict", "keyActions": ["リスクスコアを確認", "最大リスクを特定", "リスク要因を理解"] },
-        { "title": "Helmで顧客の健全性を理解", "description": "顧客健全性メトリクスを追跡します。使用トレンド、サポートチケット、エンゲージメントスコア - すべて一つのビューで。", "pillar": "helm", "keyActions": ["健全性スコアを確認", "エンゲージメントメトリクスをチェック", "トレンドを特定"] },
-        { "title": "Graphで顧客ジャーニーを探索", "description": "顧客の完全なストーリーを見ます。すべてのインタラクション、すべてのタッチポイント、すべてのシグナル - コンテキストで接続。", "space": "graph", "keyActions": ["顧客タイムラインを表示", "インタラクションを探索", "パターンを見つける"] },
-        { "title": "Councilから保持推奨を取得", "description": "保持戦略のためにAIアドバイザーを集めます。すべての顧客はユニーク - パーソナライズされたアプローチを取得します。", "space": "council", "keyActions": ["顧客プロファイルを提示", "保持アイデアを取得", "アクションを優先順位付け"] },
-        { "title": "Flowで保持ワークフローをトリガー", "description": "推奨をアクションに変えます。自動化されたアウトリーチ、エスカレーション、フォローアップ。", "pillar": "flow", "keyActions": ["アウトリーチをトリガー", "フォローアップをスケジュール", "チームにエスカレート"] },
-        { "title": "Lensで収益影響をモデル化", "description": "何が懸かっているかを定量化します。Lensは離反シナリオと介入成功の収益影響を表示します。", "space": "lens", "keyActions": ["離反影響をモデル化", "介入ROIを計算", "努力を優先順位付け"] }
+        {
+          "title": "Predictでリスクのある顧客を特定",
+          "description": "MLモデルは離反リスクをスコアリングするために何百ものシグナルを分析します。顧客自身が知る前に誰がリスクにあるかを知ります。",
+          "pillar": "predict",
+          "keyActions": ["リスクスコアを確認", "最大リスクを特定", "リスク要因を理解"]
+        },
+        {
+          "title": "Helmで顧客の健全性を理解",
+          "description": "顧客健全性メトリクスを追跡します。使用トレンド、サポートチケット、エンゲージメントスコア - すべて一つのビューで。",
+          "pillar": "helm",
+          "keyActions": ["健全性スコアを確認", "エンゲージメントメトリクスをチェック", "トレンドを特定"]
+        },
+        {
+          "title": "Graphで顧客ジャーニーを探索",
+          "description": "顧客の完全なストーリーを見ます。すべてのインタラクション、すべてのタッチポイント、すべてのシグナル - コンテキストで接続。",
+          "space": "graph",
+          "keyActions": ["顧客タイムラインを表示", "インタラクションを探索", "パターンを見つける"]
+        },
+        {
+          "title": "Councilから保持推奨を取得",
+          "description": "保持戦略のためにAIアドバイザーを集めます。すべての顧客はユニーク - パーソナライズされたアプローチを取得します。",
+          "space": "council",
+          "keyActions": ["顧客プロファイルを提示", "保持アイデアを取得", "アクションを優先順位付け"]
+        },
+        {
+          "title": "Flowで保持ワークフローをトリガー",
+          "description": "推奨をアクションに変えます。自動化されたアウトリーチ、エスカレーション、フォローアップ。",
+          "pillar": "flow",
+          "keyActions": ["アウトリーチをトリガー", "フォローアップをスケジュール", "チームにエスカレート"]
+        },
+        {
+          "title": "Lensで収益影響をモデル化",
+          "description": "何が懸かっているかを定量化します。Lensは離反シナリオと介入成功の収益影響を表示します。",
+          "space": "lens",
+          "keyActions": ["離反影響をモデル化", "介入ROIを計算", "努力を優先順位付け"]
+        }
       ]
     },
     "productLaunch": {
@@ -726,12 +1191,42 @@
       "persona": "プロダクトマネージャー / ローンチリード",
       "duration": "ローンチ日 + モニタリング",
       "steps": [
-        { "title": "HelmでローンチKPIを設定", "description": "ローンチ前に成功を定義します。採用、パフォーマンス、ビジネスメトリクスをリアルタイムで追跡します。", "pillar": "helm", "keyActions": ["成功メトリクスを定義", "目標を設定", "ダッシュボードを設定"] },
-        { "title": "Healthでシステム準備を確認", "description": "ローンチ前にすべてがグリーンですか？Healthはすべてのシステムが準備できている自信を与えます。", "pillar": "health", "keyActions": ["すべてのシステムをチェック", "容量を確認", "依存関係を確認"] },
-        { "title": "Mirrorでローンチ負荷をシミュレート", "description": "デジタルツインでローンチシナリオをテストします。予想される負荷でシステムがどのように動作するかを確認します。", "sovereign": "mirror", "keyActions": ["ローンチシミュレーションを作成", "負荷テストを実行", "ボトルネックを特定"] },
-        { "title": "Pulseでリアルタイム監視", "description": "ローンチ日の可視性。ローンチ中にメトリクス、エラー、ユーザー行動をウォッチします。", "space": "pulse", "keyActions": ["ローンチメトリクスを監視", "異常をウォッチ", "採用を追跡"] },
-        { "title": "Bridge経由で問題に対応", "description": "調整が必要な場合、迅速に行動します。Bridgeは即座にシステム間で変更をプッシュできます。", "space": "bridge", "keyActions": ["ホットフィックスをデプロイ", "設定を調整", "リソースをスケール"] },
-        { "title": "Legacyで学びをキャプチャ", "description": "何がうまくいったか、何がうまくいかなかったかを文書化します。将来のローンチがより良くなります。", "sovereign": "legacy", "keyActions": ["ローンチログを文書化", "問題を記録", "改善を記載"] }
+        {
+          "title": "HelmでローンチKPIを設定",
+          "description": "ローンチ前に成功を定義します。採用、パフォーマンス、ビジネスメトリクスをリアルタイムで追跡します。",
+          "pillar": "helm",
+          "keyActions": ["成功メトリクスを定義", "目標を設定", "ダッシュボードを設定"]
+        },
+        {
+          "title": "Healthでシステム準備を確認",
+          "description": "ローンチ前にすべてがグリーンですか？Healthはすべてのシステムが準備できている自信を与えます。",
+          "pillar": "health",
+          "keyActions": ["すべてのシステムをチェック", "容量を確認", "依存関係を確認"]
+        },
+        {
+          "title": "Mirrorでローンチ負荷をシミュレート",
+          "description": "デジタルツインでローンチシナリオをテストします。予想される負荷でシステムがどのように動作するかを確認します。",
+          "sovereign": "mirror",
+          "keyActions": ["ローンチシミュレーションを作成", "負荷テストを実行", "ボトルネックを特定"]
+        },
+        {
+          "title": "Pulseでリアルタイム監視",
+          "description": "ローンチ日の可視性。ローンチ中にメトリクス、エラー、ユーザー行動をウォッチします。",
+          "space": "pulse",
+          "keyActions": ["ローンチメトリクスを監視", "異常をウォッチ", "採用を追跡"]
+        },
+        {
+          "title": "Bridge経由で問題に対応",
+          "description": "調整が必要な場合、迅速に行動します。Bridgeは即座にシステム間で変更をプッシュできます。",
+          "space": "bridge",
+          "keyActions": ["ホットフィックスをデプロイ", "設定を調整", "リソースをスケール"]
+        },
+        {
+          "title": "Legacyで学びをキャプチャ",
+          "description": "何がうまくいったか、何がうまくいかなかったかを文書化します。将来のローンチがより良くなります。",
+          "sovereign": "legacy",
+          "keyActions": ["ローンチログを文書化", "問題を記録", "改善を記載"]
+        }
       ]
     },
     "dataQualityImprovement": {
@@ -740,12 +1235,42 @@
       "persona": "データスチュワード / 品質リード",
       "duration": "継続的プログラム",
       "steps": [
-        { "title": "Lineageで現在の品質を評価", "description": "測定しないものは改善できません。Lineageはデータジャーニーの各段階で品質をスコアリングします。", "pillar": "lineage", "keyActions": ["品質評価を実行", "問題領域を特定", "問題を優先順位付け"] },
-        { "title": "Helmで品質メトリクスを追跡", "description": "データ品質を一流のKPIにします。完全性、正確性、適時性、一貫性を追跡します。", "pillar": "helm", "keyActions": ["品質ダッシュボードを作成", "改善目標を設定", "進捗を追跡"] },
-        { "title": "Guardで品質ルールを設定", "description": "品質基準を定義し施行します。Guardはルールに対してデータを自動的に検証します。", "pillar": "guard", "keyActions": ["品質ルールを定義", "検証を設定", "アラートを設定"] },
-        { "title": "Flowで品質チェックを自動化", "description": "パイプラインに品質を組み込みます。自動化されたチェックが継続的に実行され、問題を早期にキャッチします。", "pillar": "flow", "keyActions": ["品質ワークフローを構築", "検証ステップを追加", "修復を設定"] },
-        { "title": "品質の健全性を監視", "description": "データ資産全体の品質トレンドをウォッチします。劣化を早期に検出し、改善を祝います。", "pillar": "health", "keyActions": ["品質トレンドを監視", "劣化について警告", "改善を報告"] },
-        { "title": "Legacyで基準を文書化", "description": "組織のための品質基準を成文化します。品質を個人的ではなく制度的にします。", "sovereign": "legacy", "keyActions": ["基準を文書化", "プレイブックを作成", "チームをトレーニング"] }
+        {
+          "title": "Lineageで現在の品質を評価",
+          "description": "測定しないものは改善できません。Lineageはデータジャーニーの各段階で品質をスコアリングします。",
+          "pillar": "lineage",
+          "keyActions": ["品質評価を実行", "問題領域を特定", "問題を優先順位付け"]
+        },
+        {
+          "title": "Helmで品質メトリクスを追跡",
+          "description": "データ品質を一流のKPIにします。完全性、正確性、適時性、一貫性を追跡します。",
+          "pillar": "helm",
+          "keyActions": ["品質ダッシュボードを作成", "改善目標を設定", "進捗を追跡"]
+        },
+        {
+          "title": "Guardで品質ルールを設定",
+          "description": "品質基準を定義し施行します。Guardはルールに対してデータを自動的に検証します。",
+          "pillar": "guard",
+          "keyActions": ["品質ルールを定義", "検証を設定", "アラートを設定"]
+        },
+        {
+          "title": "Flowで品質チェックを自動化",
+          "description": "パイプラインに品質を組み込みます。自動化されたチェックが継続的に実行され、問題を早期にキャッチします。",
+          "pillar": "flow",
+          "keyActions": ["品質ワークフローを構築", "検証ステップを追加", "修復を設定"]
+        },
+        {
+          "title": "品質の健全性を監視",
+          "description": "データ資産全体の品質トレンドをウォッチします。劣化を早期に検出し、改善を祝います。",
+          "pillar": "health",
+          "keyActions": ["品質トレンドを監視", "劣化について警告", "改善を報告"]
+        },
+        {
+          "title": "Legacyで基準を文書化",
+          "description": "組織のための品質基準を成文化します。品質を個人的ではなく制度的にします。",
+          "sovereign": "legacy",
+          "keyActions": ["基準を文書化", "プレイブックを作成", "チームをトレーニング"]
+        }
       ]
     },
     "securityThreatResponse": {
@@ -754,15 +1279,57 @@
       "persona": "セキュリティアナリスト / CISO",
       "duration": "即時対応",
       "steps": [
-        { "title": "Guardで脅威を検出", "description": "Guardの脅威検出エンジンが不審なアクティビティを特定します。重大度と信頼度でランク付けされます。", "pillar": "guard", "keyActions": ["脅威アラートを確認", "重大度を評価", "脅威を確認"] },
-        { "title": "Lineageで影響範囲を評価", "description": "どのシステムとデータが影響を受ける可能性がありますか？Lineageは脅威の潜在的影響をマッピングします。", "pillar": "lineage", "keyActions": ["影響を受けるシステムをマッピング", "機密データを特定", "露出を評価"] },
-        { "title": "Keyでアクセスログを確認", "description": "誰がいつ何にアクセスしましたか？Keyは攻撃ベクトルを理解するためのフォレンジックトレイルを提供します。", "sovereign": "key", "keyActions": ["アクセスログを抽出", "異常を特定", "攻撃パスを追跡"] },
-        { "title": "Witnessで証拠を保存", "description": "封じ込めが証拠を変更する前に、不変レコードをキャプチャします。調査に必要です。", "sovereign": "witness", "keyActions": ["システム状態をキャプチャ", "監査ログをエクスポート", "タイムラインを保存"] },
-        { "title": "Bridgeで封じ込めを実行", "description": "脅威を隔離します。Bridgeはアクセスの取り消し、システムの分離、対策のデプロイが可能です。", "space": "bridge", "keyActions": ["侵害されたアクセスを取り消し", "システムを分離", "パッチをデプロイ"] },
-        { "title": "Councilと調整", "description": "AIセキュリティ専門家を集めます。攻撃の分析と包括的な対応の推奨を支援します。", "space": "council", "keyActions": ["攻撃パターンを分析", "修復計画を取得", "リスクを評価"] }
+        {
+          "title": "Guardで脅威を検出",
+          "description": "Guardの脅威検出エンジンが不審なアクティビティを特定します。重大度と信頼度でランク付けされます。",
+          "pillar": "guard",
+          "keyActions": ["脅威アラートを確認", "重大度を評価", "脅威を確認"]
+        },
+        {
+          "title": "Lineageで影響範囲を評価",
+          "description": "どのシステムとデータが影響を受ける可能性がありますか？Lineageは脅威の潜在的影響をマッピングします。",
+          "pillar": "lineage",
+          "keyActions": ["影響を受けるシステムをマッピング", "機密データを特定", "露出を評価"]
+        },
+        {
+          "title": "Keyでアクセスログを確認",
+          "description": "誰がいつ何にアクセスしましたか？Keyは攻撃ベクトルを理解するためのフォレンジックトレイルを提供します。",
+          "sovereign": "key",
+          "keyActions": ["アクセスログを抽出", "異常を特定", "攻撃パスを追跡"]
+        },
+        {
+          "title": "Witnessで証拠を保存",
+          "description": "封じ込めが証拠を変更する前に、不変レコードをキャプチャします。調査に必要です。",
+          "sovereign": "witness",
+          "keyActions": ["システム状態をキャプチャ", "監査ログをエクスポート", "タイムラインを保存"]
+        },
+        {
+          "title": "Bridgeで封じ込めを実行",
+          "description": "脅威を隔離します。Bridgeはアクセスの取り消し、システムの分離、対策のデプロイが可能です。",
+          "space": "bridge",
+          "keyActions": ["侵害されたアクセスを取り消し", "システムを分離", "パッチをデプロイ"]
+        },
+        {
+          "title": "Councilと調整",
+          "description": "AIセキュリティ専門家を集めます。攻撃の分析と包括的な対応の推奨を支援します。",
+          "space": "council",
+          "keyActions": ["攻撃パターンを分析", "修復計画を取得", "リスクを評価"]
+        }
       ]
     }
   },
-  "accessibility": { "skipToMain": "メインコンテンツへスキップ", "skipToNav": "ナビゲーションへスキップ", "openMenu": "メニューを開く", "closeMenu": "メニューを閉じる", "expandSection": "セクションを展開", "collapseSection": "セクションを折りたたむ", "loading": "コンテンツを読み込み中", "newWindow": "新しいウィンドウで開く", "externalLink": "外部リンク", "required": "必須フィールド", "optional": "任意" },
+  "accessibility": {
+    "skipToMain": "メインコンテンツへスキップ",
+    "skipToNav": "ナビゲーションへスキップ",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる",
+    "expandSection": "セクションを展開",
+    "collapseSection": "セクションを折りたたむ",
+    "loading": "コンテンツを読み込み中",
+    "newWindow": "新しいウィンドウで開く",
+    "externalLink": "外部リンク",
+    "required": "必須フィールド",
+    "optional": "任意"
+  },
   "_meta": { "direction": "ltr", "language": "日本語", "completeness": "100%" }
 }

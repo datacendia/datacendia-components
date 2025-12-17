@@ -6,7 +6,10 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { cn } from '../../../lib/utils';
 import { wsClient } from '../../lib/api/websocket';
 import { councilApi } from '../../lib/api';
-import type { Deliberation as ApiDeliberation, DeliberationMessage as ApiDeliberationMessage } from '../../lib/api/types';
+import type {
+  Deliberation as ApiDeliberation,
+  DeliberationMessage as ApiDeliberationMessage,
+} from '../../lib/api/types';
 import AgentCard from './AgentCard';
 import { UserInterventionPanel, UserRole, UserIntervention } from './UserInterventionPanel';
 
@@ -81,35 +84,39 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
   const [error, setError] = useState<string | null>(null);
   const [isStreaming, setIsStreaming] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  
+
   // User intervention state
   const [showInterventionPanel, setShowInterventionPanel] = useState(false);
   const [savedUserRole, setSavedUserRole] = useState<UserRole | null>(null);
   const [userInterventions, setUserInterventions] = useState<UserIntervention[]>([]);
-  
+
   // Load saved user role
   useEffect(() => {
     const saved = localStorage.getItem('datacendia_user_role');
     if (saved) {
       try {
         setSavedUserRole(JSON.parse(saved));
-      } catch (e) { /* ignore */ }
+      } catch (e) {
+        /* ignore */
+      }
     }
   }, []);
-  
+
   const handleSaveUserRole = (role: UserRole) => {
     setSavedUserRole(role);
     localStorage.setItem('datacendia_user_role', JSON.stringify(role));
   };
-  
-  const handleUserIntervention = async (intervention: Omit<UserIntervention, 'id' | 'timestamp'>) => {
+
+  const handleUserIntervention = async (
+    intervention: Omit<UserIntervention, 'id' | 'timestamp'>
+  ) => {
     const newIntervention: UserIntervention = {
       ...intervention,
       id: `intervention-${Date.now()}`,
       timestamp: new Date(),
     };
-    setUserInterventions(prev => [...prev, newIntervention]);
-    
+    setUserInterventions((prev) => [...prev, newIntervention]);
+
     // Add user message to the messages stream
     const userMessage: DeliberationMessage = {
       id: `user-msg-${Date.now()}`,
@@ -118,8 +125,8 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
       content: `**[${intervention.userRole.title} - ${intervention.userRole.department}]**: ${intervention.content}`,
       timestamp: new Date().toISOString(),
     };
-    setMessages(prev => [...prev, userMessage]);
-    
+    setMessages((prev) => [...prev, userMessage]);
+
     // Send to backend (optional - for real integration)
     try {
       await councilApi.addUserIntervention(deliberationId, {
@@ -130,7 +137,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
     } catch (err) {
       console.log('User intervention sent locally');
     }
-    
+
     setShowInterventionPanel(false);
   };
 
@@ -150,12 +157,12 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
     const initialize = async () => {
       try {
         setIsLoading(true);
-        
+
         // Fetch current deliberation state
         const response = await councilApi.getDeliberation(deliberationId);
         if (response.success && response.data) {
           setDeliberation(response.data);
-          
+
           if (response.data.status === 'completed' && response.data.result) {
             onComplete?.(response.data.result);
           }
@@ -165,9 +172,11 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         const transcriptResponse = await councilApi.getDeliberationTranscript(deliberationId);
         if (transcriptResponse.success && transcriptResponse.data) {
           const allMessages: DeliberationMessage[] = [];
-          transcriptResponse.data.phases.forEach((phase: { phase: string; messages: DeliberationMessage[] }) => {
-            allMessages.push(...phase.messages);
-          });
+          transcriptResponse.data.phases.forEach(
+            (phase: { phase: string; messages: DeliberationMessage[] }) => {
+              allMessages.push(...phase.messages);
+            }
+          );
           setMessages(allMessages);
         }
 
@@ -180,7 +189,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         unsubscribe = wsClient.on('deliberation:message', (data: unknown) => {
           const message = data as DeliberationMessage & { deliberationId: string };
           if (message.deliberationId === deliberationId) {
-            setMessages(prev => [...prev, message]);
+            setMessages((prev) => [...prev, message]);
           }
         });
 
@@ -188,7 +197,9 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         wsClient.on('deliberation:phase', (data: unknown) => {
           const update = data as { deliberationId: string; phase: string; progress: number };
           if (update.deliberationId === deliberationId) {
-            setDeliberation(prev => prev ? { ...prev, phase: update.phase, progress: update.progress } : null);
+            setDeliberation((prev) =>
+              prev ? { ...prev, phase: update.phase, progress: update.progress } : null
+            );
           }
         });
 
@@ -196,11 +207,12 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         wsClient.on('deliberation:complete', (data: unknown) => {
           const result = data as { deliberationId: string; result: Deliberation['result'] };
           if (result.deliberationId === deliberationId) {
-            setDeliberation(prev => prev ? { ...prev, status: 'completed', result: result.result } : null);
+            setDeliberation((prev) =>
+              prev ? { ...prev, status: 'completed', result: result.result } : null
+            );
             onComplete?.(result.result);
           }
         });
-
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load deliberation');
       } finally {
@@ -234,7 +246,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
   };
 
   const getAgentById = (agentId: string) => {
-    return agents.find(a => a.id === agentId || a.code === agentId);
+    return agents.find((a) => a.id === agentId || a.code === agentId);
   };
 
   if (isLoading) {
@@ -256,7 +268,9 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
     );
   }
 
-  if (!deliberation) {return null;}
+  if (!deliberation) {
+    return null;
+  }
 
   return (
     <div className="flex flex-col h-full bg-white rounded-xl border border-neutral-200 overflow-hidden">
@@ -362,7 +376,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
                     )}
                   </div>
                   <div className="text-neutral-700 whitespace-pre-wrap">{message.content}</div>
-                  
+
                   {/* Sources */}
                   {message.sources && message.sources.length > 0 && (
                     <div className="mt-2 flex flex-wrap gap-1">
@@ -386,9 +400,18 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         {deliberation.status === 'in_progress' && (
           <div className="flex items-center gap-2 text-neutral-500 text-sm">
             <div className="flex gap-1">
-              <span className="w-2 h-2 bg-neutral-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
-              <span className="w-2 h-2 bg-neutral-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
-              <span className="w-2 h-2 bg-neutral-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+              <span
+                className="w-2 h-2 bg-neutral-400 rounded-full animate-bounce"
+                style={{ animationDelay: '0ms' }}
+              />
+              <span
+                className="w-2 h-2 bg-neutral-400 rounded-full animate-bounce"
+                style={{ animationDelay: '150ms' }}
+              />
+              <span
+                className="w-2 h-2 bg-neutral-400 rounded-full animate-bounce"
+                style={{ animationDelay: '300ms' }}
+              />
             </div>
             <span>Agents are deliberating...</span>
           </div>
@@ -396,7 +419,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
 
         <div ref={messagesEndRef} />
       </div>
-      
+
       {/* User Intervention Button */}
       {enableUserIntervention && deliberation.status === 'in_progress' && (
         <div className="flex-shrink-0 p-3 border-t border-neutral-200 bg-neutral-50">
@@ -417,7 +440,11 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         <div className="flex-shrink-0 p-4 border-t border-neutral-200 bg-green-50">
           <h3 className="font-semibold text-green-800 mb-2 flex items-center gap-2">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clipRule="evenodd"
+              />
             </svg>
             Council Decision
           </h3>
@@ -439,7 +466,7 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
           </div>
         </div>
       )}
-      
+
       {/* User Intervention Panel */}
       <UserInterventionPanel
         isOpen={showInterventionPanel}
@@ -447,9 +474,9 @@ export const DeliberationView: React.FC<DeliberationViewProps> = ({
         onSubmit={handleUserIntervention}
         currentPhase={phaseNames[deliberation.phase] || deliberation.phase}
         agentMessages={messages
-          .filter(m => m.agentId !== 'user')
+          .filter((m) => m.agentId !== 'user')
           .slice(-10)
-          .map(m => ({
+          .map((m) => ({
             agentId: m.agentId,
             agentName: getAgentById(m.agentId)?.name || m.agentId,
             content: m.content,

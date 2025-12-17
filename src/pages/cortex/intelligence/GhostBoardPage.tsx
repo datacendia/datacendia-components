@@ -5,23 +5,67 @@
 
 import React, { useState } from 'react';
 import { cn } from '../../../../lib/utils';
-import { decisionIntelligenceService, GhostBoardResult, BoardQuestion } from '../../../services/DecisionIntelligenceService';
+import {
+  decisionIntelligenceService,
+  GhostBoardResult,
+  BoardQuestion,
+} from '../../../services/DecisionIntelligenceService';
 import { ollamaService } from '../../../lib/ollama';
 
 // Types imported from service
 
 const BOARD_TYPES = [
-  { id: 'standard', name: 'Standard Board', description: 'Mixed independent and investor directors', tooltip: 'Balanced perspective with governance focus and strategic oversight.' },
-  { id: 'vc_backed', name: 'VC-Backed', description: 'Aggressive growth-focused investors', tooltip: 'Fast growth, burn vs runway, market size, competitive edge.' },
-  { id: 'public_company', name: 'Public Company', description: 'Governance and compliance focused', tooltip: 'Compliance, predictability, risk and downside protection.' },
-  { id: 'private_equity', name: 'Private Equity', description: 'Operations and returns focused', tooltip: 'Cash flow, leverage, covenant risk, exit timing.' },
+  {
+    id: 'standard',
+    name: 'Standard Board',
+    description: 'Mixed independent and investor directors',
+    tooltip: 'Balanced perspective with governance focus and strategic oversight.',
+  },
+  {
+    id: 'vc_backed',
+    name: 'VC-Backed',
+    description: 'Aggressive growth-focused investors',
+    tooltip: 'Fast growth, burn vs runway, market size, competitive edge.',
+  },
+  {
+    id: 'public_company',
+    name: 'Public Company',
+    description: 'Governance and compliance focused',
+    tooltip: 'Compliance, predictability, risk and downside protection.',
+  },
+  {
+    id: 'private_equity',
+    name: 'Private Equity',
+    description: 'Operations and returns focused',
+    tooltip: 'Cash flow, leverage, covenant risk, exit timing.',
+  },
 ];
 
 const DIFFICULTY_LEVELS = [
-  { id: 'easy', name: 'Warm-Up', description: 'Friendly questions', tooltip: 'Supportive, coaching tone.' },
-  { id: 'medium', name: 'Standard', description: 'Typical board scrutiny', tooltip: 'Realistic but fair.' },
-  { id: 'hard', name: 'Challenging', description: 'Tough questions', tooltip: 'Skeptical, detail-oriented.' },
-  { id: 'brutal', name: 'Brutal', description: 'Worst case scenario', tooltip: 'Hostile activist / down-round scenario.' },
+  {
+    id: 'easy',
+    name: 'Warm-Up',
+    description: 'Friendly questions',
+    tooltip: 'Supportive, coaching tone.',
+  },
+  {
+    id: 'medium',
+    name: 'Standard',
+    description: 'Typical board scrutiny',
+    tooltip: 'Realistic but fair.',
+  },
+  {
+    id: 'hard',
+    name: 'Challenging',
+    description: 'Tough questions',
+    tooltip: 'Skeptical, detail-oriented.',
+  },
+  {
+    id: 'brutal',
+    name: 'Brutal',
+    description: 'Worst case scenario',
+    tooltip: 'Hostile activist / down-round scenario.',
+  },
 ];
 
 const PROPOSAL_PLACEHOLDER = `We're proposing a $5M increase in annual AI infra spend to move Datacendia from hybrid to fully sovereign over the next 18 months...
@@ -49,7 +93,9 @@ export const GhostBoardPage: React.FC = () => {
   const [userAnswer, setUserAnswer] = useState('');
 
   const runSession = async () => {
-    if (!proposalTitle.trim() || !proposalContent.trim()) {return;}
+    if (!proposalTitle.trim() || !proposalContent.trim()) {
+      return;
+    }
 
     setIsRunning(true);
     try {
@@ -70,11 +116,16 @@ export const GhostBoardPage: React.FC = () => {
 
   const getDifficultyColor = (diff: string) => {
     switch (diff) {
-      case 'easy': return 'bg-green-100 text-green-700';
-      case 'medium': return 'bg-yellow-100 text-yellow-700';
-      case 'hard': return 'bg-orange-100 text-orange-700';
-      case 'brutal': return 'bg-red-100 text-red-700';
-      default: return 'bg-gray-100 text-gray-700';
+      case 'easy':
+        return 'bg-green-100 text-green-700';
+      case 'medium':
+        return 'bg-yellow-100 text-yellow-700';
+      case 'hard':
+        return 'bg-orange-100 text-orange-700';
+      case 'brutal':
+        return 'bg-red-100 text-red-700';
+      default:
+        return 'bg-gray-100 text-gray-700';
     }
   };
 
@@ -102,7 +153,7 @@ export const GhostBoardPage: React.FC = () => {
           <div className="space-y-6">
             <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
               <h2 className="text-lg font-semibold text-neutral-900 mb-4">Your Proposal</h2>
-              
+
               <div className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-neutral-700 mb-1">
@@ -122,7 +173,8 @@ export const GhostBoardPage: React.FC = () => {
                     Proposal Content *
                   </label>
                   <p className="text-xs text-neutral-500 mb-2">
-                    Include: current state, what you're asking for (e.g., $ amount, headcount, strategy change), and the time horizon.
+                    Include: current state, what you're asking for (e.g., $ amount, headcount,
+                    strategy change), and the time horizon.
                   </p>
                   <textarea
                     value={proposalContent}
@@ -136,7 +188,7 @@ export const GhostBoardPage: React.FC = () => {
 
             <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
               <h2 className="text-lg font-semibold text-neutral-900 mb-4">Board Configuration</h2>
-              
+
               <div className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-neutral-700 mb-2">
@@ -216,8 +268,8 @@ export const GhostBoardPage: React.FC = () => {
                 Prepare to Face the Board
               </h3>
               <p className="text-neutral-500 mb-6">
-                Your AI board members are waiting. They will challenge every assumption,
-                question every number, and probe for weaknesses.
+                Your AI board members are waiting. They will challenge every assumption, question
+                every number, and probe for weaknesses.
               </p>
               <div className="bg-white rounded-lg p-4 text-left">
                 <h4 className="font-medium text-neutral-900 mb-2">What to Expect:</h4>
@@ -226,8 +278,13 @@ export const GhostBoardPage: React.FC = () => {
                   <li>• Suggested answers for each question</li>
                   <li>• Preparedness score and gap analysis</li>
                   <li>• Specific areas needing more preparation</li>
-                  <li>• Question style and aggressiveness match your selected board type and difficulty</li>
-                  <li>• A downloadable <strong>Board Prep Brief</strong> you can share with your team</li>
+                  <li>
+                    • Question style and aggressiveness match your selected board type and
+                    difficulty
+                  </li>
+                  <li>
+                    • A downloadable <strong>Board Prep Brief</strong> you can share with your team
+                  </li>
                 </ul>
               </div>
             </div>
@@ -279,21 +336,28 @@ export const GhostBoardPage: React.FC = () => {
 ${result.overallAssessment}
 
 ## Top Questions You May Struggle With
-${result.questions.filter(q => q.difficulty === 'hard' || q.difficulty === 'brutal').slice(0, 10).map((q, i) => `${i + 1}. "${q.question}" - Asked by ${q.askedBy.name}`).join('\n')}
+${result.questions
+  .filter((q) => q.difficulty === 'hard' || q.difficulty === 'brutal')
+  .slice(0, 10)
+  .map((q, i) => `${i + 1}. "${q.question}" - Asked by ${q.askedBy.name}`)
+  .join('\n')}
 
 ## Suggested Answer Improvements
-${result.questions.slice(0, 5).map((q, i) => `${i + 1}. **${q.askedBy.name}**: "${q.question}"\n   → ${q.suggestedAnswer}`).join('\n\n')}
+${result.questions
+  .slice(0, 5)
+  .map((q, i) => `${i + 1}. **${q.askedBy.name}**: "${q.question}"\n   → ${q.suggestedAnswer}`)
+  .join('\n\n')}
 
 ## Key Gaps (Red Flags)
-${result.keyGaps.map(g => `⚠️ ${g}`).join('\n')}
+${result.keyGaps.map((g) => `⚠️ ${g}`).join('\n')}
 
 ## Strength Areas
-${result.strengthAreas.map(s => `✓ ${s}`).join('\n')}
+${result.strengthAreas.map((s) => `✓ ${s}`).join('\n')}
 
 ---
 *Generated by Datacendia Ghost Board™ | Logged to Decision DNA & Chronos*
 *This is a REHEARSAL session - not an actual board deliberation*`;
-                  
+
                   const blob = new Blob([brief], { type: 'text/markdown' });
                   const url = URL.createObjectURL(blob);
                   const a = document.createElement('a');
@@ -307,12 +371,15 @@ ${result.strengthAreas.map(s => `✓ ${s}`).join('\n')}
                 📄 Download Board Prep Brief
               </button>
             </div>
-            
+
             {/* Integration Notice */}
             <div className="mt-4 p-3 bg-purple-50 rounded-lg border border-purple-100">
               <p className="text-xs text-purple-700 flex items-center gap-2">
                 <span>📋</span>
-                <span>This session has been logged to <strong>Decision DNA</strong> and <strong>Chronos</strong> as a rehearsal artifact.</span>
+                <span>
+                  This session has been logged to <strong>Decision DNA</strong> and{' '}
+                  <strong>Chronos</strong> as a rehearsal artifact.
+                </span>
               </p>
             </div>
           </div>
@@ -360,10 +427,12 @@ ${result.strengthAreas.map(s => `✓ ${s}`).join('\n')}
                         <span className="font-medium text-neutral-900">
                           {question.askedBy.name}
                         </span>
-                        <span className={cn(
-                          'px-2 py-0.5 rounded text-xs font-medium',
-                          getDifficultyColor(question.difficulty)
-                        )}>
+                        <span
+                          className={cn(
+                            'px-2 py-0.5 rounded text-xs font-medium',
+                            getDifficultyColor(question.difficulty)
+                          )}
+                        >
                           {question.difficulty}
                         </span>
                       </div>
@@ -371,7 +440,7 @@ ${result.strengthAreas.map(s => `✓ ${s}`).join('\n')}
                     </div>
                     <span className="text-neutral-400">#{idx + 1}</span>
                   </div>
-                  
+
                   {selectedQuestion?.id === question.id && (
                     <div className="mt-4 pt-4 border-t border-purple-200">
                       <div className="text-sm font-medium text-purple-700 mb-2">

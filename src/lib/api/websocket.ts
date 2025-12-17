@@ -5,8 +5,11 @@ import { io, Socket } from 'socket.io-client';
 import { tokenManager } from './client';
 
 // WebSocket needs full URL even in dev (no proxy for WS)
-const WS_URL = import.meta.env.VITE_WS_URL || 
-  (typeof window !== 'undefined' ? `${window.location.protocol}//${window.location.hostname}:3001` : 'http://localhost:3001');
+const WS_URL =
+  import.meta.env.VITE_WS_URL ||
+  (typeof window !== 'undefined'
+    ? `${window.location.protocol}//${window.location.hostname}:3001`
+    : 'http://localhost:3001');
 
 type MessageHandler = (data: unknown) => void;
 
@@ -17,7 +20,9 @@ class WebSocketClient {
   private maxReconnectAttempts = 5;
 
   connect(): void {
-    if (this.socket?.connected) {return;}
+    if (this.socket?.connected) {
+      return;
+    }
 
     const token = tokenManager.getAccessToken();
     if (!token) {
@@ -50,7 +55,7 @@ class WebSocketClient {
     this.socket.onAny((event: string, data: unknown) => {
       const eventHandlers = this.handlers.get(event);
       if (eventHandlers) {
-        eventHandlers.forEach(handler => handler(data));
+        eventHandlers.forEach((handler) => handler(data));
       }
     });
   }

@@ -14,20 +14,83 @@ export const HomePage: React.FC = () => {
   const navigate = useNavigate();
 
   const pillars = [
-    { id: 'helm', name: 'The Helm', icon: '🎯', desc: 'Strategic decision support', path: '/cortex/pillars/helm' },
-    { id: 'lineage', name: 'Lineage', icon: '🔗', desc: 'Trace every data point to its source', path: '/cortex/pillars/lineage' },
-    { id: 'metrics', name: 'Metrics', icon: '📊', desc: 'Unified KPIs across all systems', path: '/cortex/pillars/helm' },
-    { id: 'predict', name: 'Predict', icon: '🔮', desc: 'AI-powered forecasting', path: '/cortex/pillars/predict' },
-    { id: 'flow', name: 'Flow', icon: '🌊', desc: 'Automated workflows', path: '/cortex/pillars/flow' },
-    { id: 'guard', name: 'Guard', icon: '🛡️', desc: 'Data governance & compliance', path: '/cortex/pillars/guard' },
-    { id: 'health', name: 'Health', icon: '💓', desc: 'Organizational vitality metrics', path: '/cortex/pillars/health' },
-    { id: 'ethics', name: 'Ethics', icon: '⚖️', desc: 'Built-in ethical oversight', path: '/cortex/pillars/ethics' },
+    {
+      id: 'helm',
+      name: 'The Helm',
+      icon: '🎯',
+      desc: 'Strategic decision support',
+      path: '/cortex/pillars/helm',
+    },
+    {
+      id: 'lineage',
+      name: 'Lineage',
+      icon: '🔗',
+      desc: 'Trace every data point to its source',
+      path: '/cortex/pillars/lineage',
+    },
+    {
+      id: 'metrics',
+      name: 'Metrics',
+      icon: '📊',
+      desc: 'Unified KPIs across all systems',
+      path: '/cortex/pillars/helm',
+    },
+    {
+      id: 'predict',
+      name: 'Predict',
+      icon: '🔮',
+      desc: 'AI-powered forecasting',
+      path: '/cortex/pillars/predict',
+    },
+    {
+      id: 'flow',
+      name: 'Flow',
+      icon: '🌊',
+      desc: 'Automated workflows',
+      path: '/cortex/pillars/flow',
+    },
+    {
+      id: 'guard',
+      name: 'Guard',
+      icon: '🛡️',
+      desc: 'Data governance & compliance',
+      path: '/cortex/pillars/guard',
+    },
+    {
+      id: 'health',
+      name: 'Health',
+      icon: '💓',
+      desc: 'Organizational vitality metrics',
+      path: '/cortex/pillars/health',
+    },
+    {
+      id: 'ethics',
+      name: 'Ethics',
+      icon: '⚖️',
+      desc: 'Built-in ethical oversight',
+      path: '/cortex/pillars/ethics',
+    },
   ];
 
   const spaces = [
-    { name: 'The Graph', desc: 'Navigate your knowledge universe', icon: '🔗', path: '/cortex/graph' },
-    { name: 'The Council', desc: 'AI advisors that reason together', icon: '👥', path: '/cortex/council' },
-    { name: 'The Pulse', desc: 'Real-time organizational health', icon: '💓', path: '/cortex/pulse' },
+    {
+      name: 'The Graph',
+      desc: 'Navigate your knowledge universe',
+      icon: '🔗',
+      path: '/cortex/graph',
+    },
+    {
+      name: 'The Council',
+      desc: 'AI advisors that reason together',
+      icon: '👥',
+      path: '/cortex/council',
+    },
+    {
+      name: 'The Pulse',
+      desc: 'Real-time organizational health',
+      icon: '💓',
+      path: '/cortex/pulse',
+    },
     { name: 'The Lens', desc: 'See possible futures', icon: '🔮', path: '/cortex/lens' },
     { name: 'The Bridge', desc: 'Take action across systems', icon: '🌉', path: '/cortex/bridge' },
   ];
@@ -37,12 +100,15 @@ export const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }} />
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
+              backgroundSize: '40px 40px',
+            }}
+          />
         </div>
-        
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
@@ -50,7 +116,7 @@ export const HomePage: React.FC = () => {
               <span className="text-secondary-400">Sovereign and Whole</span>
             </h1>
             <p className="text-xl text-white/80 mb-8">
-              Datacendia is the command center for enterprise intelligence. Connect your data, 
+              Datacendia is the command center for enterprise intelligence. Connect your data,
               consult AI advisors, and see possible futures — all while keeping complete control.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -75,12 +141,15 @@ export const HomePage: React.FC = () => {
       <section className="py-20 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-neutral-900 mb-4">The Problem with Enterprise Intelligence</h2>
+            <h2 className="text-3xl font-bold text-neutral-900 mb-4">
+              The Problem with Enterprise Intelligence
+            </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Organizations struggle with fragmented data, siloed tools, and reactive decision-making
+              Organizations struggle with fragmented data, siloed tools, and reactive
+              decision-making
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl border border-neutral-200">
               <div className="w-12 h-12 bg-error-light rounded-lg flex items-center justify-center text-2xl mb-4">
@@ -117,12 +186,14 @@ export const HomePage: React.FC = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-neutral-900 mb-4">The Cortex: Your Intelligence Command Center</h2>
+            <h2 className="text-3xl font-bold text-neutral-900 mb-4">
+              The Cortex: Your Intelligence Command Center
+            </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
               Five integrated spaces that give you complete visibility and control
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-5 gap-6">
             {spaces.map((space) => (
               <div
@@ -150,7 +221,7 @@ export const HomePage: React.FC = () => {
               Every capability you need, working together as one
             </p>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {pillars.map((pillar) => (
               <div
@@ -275,13 +346,11 @@ export const PricingPage: React.FC = () => {
       {/* Header */}
       <section className="bg-white py-16 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-bold text-neutral-900 mb-4">
-            Simple, Transparent Pricing
-          </h1>
+          <h1 className="text-4xl font-bold text-neutral-900 mb-4">Simple, Transparent Pricing</h1>
           <p className="text-xl text-neutral-600 max-w-2xl mx-auto mb-8">
             Choose the plan that fits your organization. All plans include a 14-day free trial.
           </p>
-          
+
           {/* Billing Toggle */}
           <div className="inline-flex items-center gap-3 p-1 bg-neutral-100 rounded-lg">
             <button
@@ -319,9 +388,7 @@ export const PricingPage: React.FC = () => {
                 key={plan.name}
                 className={cn(
                   'relative bg-white rounded-xl border-2 p-6',
-                  plan.popular
-                    ? 'border-primary-500 shadow-lg'
-                    : 'border-neutral-200'
+                  plan.popular ? 'border-primary-500 shadow-lg' : 'border-neutral-200'
                 )}
               >
                 {plan.popular && (
@@ -329,17 +396,17 @@ export const PricingPage: React.FC = () => {
                     Most Popular
                   </div>
                 )}
-                
+
                 <h3 className="text-xl font-bold text-neutral-900">{plan.name}</h3>
                 <p className="text-sm text-neutral-500 mt-1 mb-4">{plan.description}</p>
-                
+
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-neutral-900">
                     ${plan.price.toLocaleString()}
                   </span>
                   <span className="text-neutral-500">/mo</span>
                 </div>
-                
+
                 <ul className="space-y-3 mb-6">
                   {plan.features.map((feature) => (
                     <li key={feature} className="flex items-start gap-2 text-sm">
@@ -348,7 +415,7 @@ export const PricingPage: React.FC = () => {
                     </li>
                   ))}
                 </ul>
-                
+
                 <button
                   onClick={() => navigate('/demo')}
                   className={cn(
@@ -370,7 +437,7 @@ export const PricingPage: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-neutral-900 mb-8 text-center">Add-ons & Extras</h2>
-          
+
           <div className="space-y-4">
             {addons.map((addon) => (
               <div
@@ -393,13 +460,25 @@ export const PricingPage: React.FC = () => {
           <h2 className="text-2xl font-bold text-neutral-900 mb-8 text-center">
             Frequently Asked Questions
           </h2>
-          
+
           <div className="space-y-4">
             {[
-              { q: 'Can I try before I buy?', a: 'Yes! All plans include a 14-day free trial with full access to features.' },
-              { q: 'What happens to my data if I cancel?', a: 'Your data remains yours. Export everything before cancellation, or we\'ll retain it for 30 days.' },
-              { q: 'Do you offer discounts for nonprofits?', a: 'Yes, we offer 50% off for qualified nonprofits and educational institutions.' },
-              { q: 'Can I upgrade or downgrade anytime?', a: 'Absolutely. Changes take effect at your next billing cycle, prorated if upgrading.' },
+              {
+                q: 'Can I try before I buy?',
+                a: 'Yes! All plans include a 14-day free trial with full access to features.',
+              },
+              {
+                q: 'What happens to my data if I cancel?',
+                a: "Your data remains yours. Export everything before cancellation, or we'll retain it for 30 days.",
+              },
+              {
+                q: 'Do you offer discounts for nonprofits?',
+                a: 'Yes, we offer 50% off for qualified nonprofits and educational institutions.',
+              },
+              {
+                q: 'Can I upgrade or downgrade anytime?',
+                a: 'Absolutely. Changes take effect at your next billing cycle, prorated if upgrading.',
+              },
             ].map((faq) => (
               <div key={faq.q} className="bg-white p-6 rounded-xl border border-neutral-200">
                 <h3 className="font-semibold text-neutral-900 mb-2">{faq.q}</h3>
@@ -436,7 +515,7 @@ export const DemoRequestPage: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    await new Promise(resolve => setTimeout(resolve, 1500));
+    await new Promise((resolve) => setTimeout(resolve, 1500));
     setIsSubmitted(true);
   };
 
@@ -449,7 +528,8 @@ export const DemoRequestPage: React.FC = () => {
           </div>
           <h1 className="text-2xl font-bold text-neutral-900 mb-4">Demo Request Received!</h1>
           <p className="text-neutral-600 mb-8">
-            Thanks, {formData.firstName}! Our team will reach out within 24 hours to schedule your personalized demo.
+            Thanks, {formData.firstName}! Our team will reach out within 24 hours to schedule your
+            personalized demo.
           </p>
           <a href="/" className="text-primary-600 hover:text-primary-700 font-medium">
             ← Back to Home
@@ -465,20 +545,34 @@ export const DemoRequestPage: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Left - Value Props */}
           <div>
-            <h1 className="text-3xl font-bold text-neutral-900 mb-4">
-              See Datacendia in Action
-            </h1>
+            <h1 className="text-3xl font-bold text-neutral-900 mb-4">See Datacendia in Action</h1>
             <p className="text-lg text-neutral-600 mb-8">
-              Get a personalized demo tailored to your organization's needs. Our team will show you 
+              Get a personalized demo tailored to your organization's needs. Our team will show you
               how Datacendia can transform your data into actionable intelligence.
             </p>
-            
+
             <div className="space-y-6">
               {[
-                { icon: '⏱️', title: '30-Minute Demo', desc: 'Quick, focused walkthrough of key capabilities' },
-                { icon: '🎯', title: 'Tailored to You', desc: 'See features relevant to your industry and role' },
-                { icon: '💬', title: 'Live Q&A', desc: 'Get your questions answered by our experts' },
-                { icon: '📊', title: 'ROI Discussion', desc: 'Understand the potential impact on your org' },
+                {
+                  icon: '⏱️',
+                  title: '30-Minute Demo',
+                  desc: 'Quick, focused walkthrough of key capabilities',
+                },
+                {
+                  icon: '🎯',
+                  title: 'Tailored to You',
+                  desc: 'See features relevant to your industry and role',
+                },
+                {
+                  icon: '💬',
+                  title: 'Live Q&A',
+                  desc: 'Get your questions answered by our experts',
+                },
+                {
+                  icon: '📊',
+                  title: 'ROI Discussion',
+                  desc: 'Understand the potential impact on your org',
+                },
               ].map((item) => (
                 <div key={item.title} className="flex gap-4">
                   <div className="text-2xl">{item.icon}</div>
@@ -494,11 +588,13 @@ export const DemoRequestPage: React.FC = () => {
           {/* Right - Form */}
           <div className="bg-white rounded-xl border border-neutral-200 p-8">
             <h2 className="text-xl font-semibold text-neutral-900 mb-6">Request Your Demo</h2>
-            
+
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">First Name *</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">
+                    First Name *
+                  </label>
                   <input
                     type="text"
                     required
@@ -508,7 +604,9 @@ export const DemoRequestPage: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Last Name *</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">
+                    Last Name *
+                  </label>
                   <input
                     type="text"
                     required
@@ -518,9 +616,11 @@ export const DemoRequestPage: React.FC = () => {
                   />
                 </div>
               </div>
-              
+
               <div>
-                <label className="block text-sm font-medium text-neutral-700 mb-1">Work Email *</label>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">
+                  Work Email *
+                </label>
                 <input
                   type="email"
                   required
@@ -529,7 +629,7 @@ export const DemoRequestPage: React.FC = () => {
                   className="w-full h-10 px-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                 />
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium text-neutral-700 mb-1">Company *</label>
                 <input
@@ -540,7 +640,7 @@ export const DemoRequestPage: React.FC = () => {
                   className="w-full h-10 px-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                 />
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium text-neutral-700 mb-1">Job Title</label>
                 <input
@@ -550,10 +650,12 @@ export const DemoRequestPage: React.FC = () => {
                   className="w-full h-10 px-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                 />
               </div>
-              
+
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Company Size</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">
+                    Company Size
+                  </label>
                   <select
                     value={formData.companySize}
                     onChange={(e) => setFormData({ ...formData, companySize: e.target.value })}
@@ -568,7 +670,9 @@ export const DemoRequestPage: React.FC = () => {
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Industry</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">
+                    Industry
+                  </label>
                   <select
                     value={formData.industry}
                     onChange={(e) => setFormData({ ...formData, industry: e.target.value })}
@@ -585,9 +689,11 @@ export const DemoRequestPage: React.FC = () => {
                   </select>
                 </div>
               </div>
-              
+
               <div>
-                <label className="block text-sm font-medium text-neutral-700 mb-1">Primary Interest</label>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">
+                  Primary Interest
+                </label>
                 <select
                   value={formData.primaryInterest}
                   onChange={(e) => setFormData({ ...formData, primaryInterest: e.target.value })}
@@ -602,9 +708,11 @@ export const DemoRequestPage: React.FC = () => {
                   <option value="ai-advisors">AI Advisors</option>
                 </select>
               </div>
-              
+
               <div>
-                <label className="block text-sm font-medium text-neutral-700 mb-1">Anything else we should know?</label>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">
+                  Anything else we should know?
+                </label>
                 <textarea
                   rows={3}
                   value={formData.additionalNotes}
@@ -612,7 +720,7 @@ export const DemoRequestPage: React.FC = () => {
                   className="w-full px-3 py-2 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 resize-none"
                 />
               </div>
-              
+
               <label className="flex items-start gap-2">
                 <input
                   type="checkbox"
@@ -624,7 +732,7 @@ export const DemoRequestPage: React.FC = () => {
                   I'd like to receive occasional updates about Datacendia products and events.
                 </span>
               </label>
-              
+
               <button
                 type="submit"
                 disabled={isSubmitting}
@@ -632,7 +740,7 @@ export const DemoRequestPage: React.FC = () => {
               >
                 {isSubmitting ? 'Submitting...' : 'Request Demo'}
               </button>
-              
+
               <p className="text-xs text-neutral-400 text-center">
                 By submitting, you agree to our Terms of Service and Privacy Policy.
               </p>
@@ -656,16 +764,33 @@ export { ProductPage } from './ProductPage';
 
 export const AboutPage: React.FC = () => {
   const navigate = useNavigate();
-  
+
   const team = [
-    { name: 'Stuart Rainey', role: 'Founder & CEO', avatar: '👨‍💼', bio: 'Serial entrepreneur with 20+ years building enterprise software.' },
+    {
+      name: 'Stuart Rainey',
+      role: 'Founder & CEO',
+      avatar: '👨‍💼',
+      bio: 'Serial entrepreneur with 20+ years building enterprise software.',
+    },
   ];
 
   const values = [
-    { icon: '🔐', title: 'Sovereignty', desc: 'Your data, your control, your intelligence. Never compromised.' },
-    { icon: '🔍', title: 'Transparency', desc: 'No black boxes. Explainable AI with clear lineage.' },
+    {
+      icon: '🔐',
+      title: 'Sovereignty',
+      desc: 'Your data, your control, your intelligence. Never compromised.',
+    },
+    {
+      icon: '🔍',
+      title: 'Transparency',
+      desc: 'No black boxes. Explainable AI with clear lineage.',
+    },
     { icon: '⚖️', title: 'Ethics', desc: 'Built-in guardrails that ensure responsible AI use.' },
-    { icon: '🔗', title: 'Integration', desc: 'We meet you where you are, connecting what exists.' },
+    {
+      icon: '🔗',
+      title: 'Integration',
+      desc: 'We meet you where you are, connecting what exists.',
+    },
   ];
 
   const milestones = [
@@ -682,11 +807,14 @@ export const AboutPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">Datacendia</span>
+              About{' '}
+              <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+                Datacendia
+              </span>
             </h1>
             <p className="text-xl text-slate-300 leading-relaxed">
-              We believe every organization deserves sovereign control over their intelligence.
-              Not locked in vendor silos. Not requiring a PhD to access. Not with strings attached.
+              We believe every organization deserves sovereign control over their intelligence. Not
+              locked in vendor silos. Not requiring a PhD to access. Not with strings attached.
             </p>
           </div>
         </div>
@@ -699,13 +827,13 @@ export const AboutPage: React.FC = () => {
             <div>
               <h2 className="text-3xl font-bold text-neutral-900 mb-6">Our Mission</h2>
               <p className="text-lg text-neutral-600 leading-relaxed mb-6">
-                To democratize enterprise intelligence by providing a platform that is powerful 
-                enough for the most demanding use cases, yet accessible enough that everyone 
-                can participate in data-driven decision making.
+                To democratize enterprise intelligence by providing a platform that is powerful
+                enough for the most demanding use cases, yet accessible enough that everyone can
+                participate in data-driven decision making.
               </p>
               <p className="text-lg text-neutral-600 leading-relaxed">
-                We're building the future where AI works for organizations, not the other way around.
-                Where insights are trusted because their reasoning is transparent.
+                We're building the future where AI works for organizations, not the other way
+                around. Where insights are trusted because their reasoning is transparent.
               </p>
             </div>
             <div className="bg-gradient-to-br from-purple-100 to-cyan-100 rounded-2xl p-8 flex items-center justify-center">
@@ -724,11 +852,16 @@ export const AboutPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-neutral-900 mb-4">Our Values</h2>
-            <p className="text-lg text-neutral-600">The principles that guide everything we build</p>
+            <p className="text-lg text-neutral-600">
+              The principles that guide everything we build
+            </p>
           </div>
           <div className="grid md:grid-cols-4 gap-8">
             {values.map((value) => (
-              <div key={value.title} className="bg-white p-8 rounded-xl border border-neutral-200 text-center hover:shadow-lg transition-shadow">
+              <div
+                key={value.title}
+                className="bg-white p-8 rounded-xl border border-neutral-200 text-center hover:shadow-lg transition-shadow"
+              >
                 <div className="text-5xl mb-4">{value.icon}</div>
                 <h3 className="text-xl font-semibold text-neutral-900 mb-2">{value.title}</h3>
                 <p className="text-neutral-600">{value.desc}</p>
@@ -839,9 +972,24 @@ export const ContactPage: React.FC = () => {
   };
 
   const contactMethods = [
-    { icon: '📧', title: 'Email', value: 'hello@datacendia.com', link: 'mailto:hello@datacendia.com' },
-    { icon: '💼', title: 'Sales', value: 'sales@datacendia.com', link: 'mailto:sales@datacendia.com' },
-    { icon: '🎧', title: 'Support', value: 'support@datacendia.com', link: 'mailto:support@datacendia.com' },
+    {
+      icon: '📧',
+      title: 'Email',
+      value: 'hello@datacendia.com',
+      link: 'mailto:hello@datacendia.com',
+    },
+    {
+      icon: '💼',
+      title: 'Sales',
+      value: 'sales@datacendia.com',
+      link: 'mailto:sales@datacendia.com',
+    },
+    {
+      icon: '🎧',
+      title: 'Support',
+      value: 'support@datacendia.com',
+      link: 'mailto:support@datacendia.com',
+    },
   ];
 
   return (
@@ -851,10 +999,14 @@ export const ContactPage: React.FC = () => {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(99,102,241,0.3),transparent_60%)]" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Get in <span className="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Touch</span>
+            Get in{' '}
+            <span className="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+              Touch
+            </span>
           </h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto">
-            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            Have questions? We'd love to hear from you. Send us a message and we'll respond as soon
+            as possible.
           </p>
         </div>
       </section>
@@ -899,12 +1051,16 @@ export const ContactPage: React.FC = () => {
             <>
               <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-neutral-900 mb-4">Send Us a Message</h2>
-                <p className="text-neutral-600">Fill out the form below and we'll be in touch shortly</p>
+                <p className="text-neutral-600">
+                  Fill out the form below and we'll be in touch shortly
+                </p>
               </div>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-neutral-700 mb-2">Name *</label>
+                    <label className="block text-sm font-medium text-neutral-700 mb-2">
+                      Name *
+                    </label>
                     <input
                       type="text"
                       required
@@ -915,7 +1071,9 @@ export const ContactPage: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-neutral-700 mb-2">Email *</label>
+                    <label className="block text-sm font-medium text-neutral-700 mb-2">
+                      Email *
+                    </label>
                     <input
                       type="email"
                       required
@@ -937,7 +1095,9 @@ export const ContactPage: React.FC = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-2">What can we help with?</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-2">
+                    What can we help with?
+                  </label>
                   <select
                     value={formData.type}
                     onChange={(e) => setFormData({ ...formData, type: e.target.value })}
@@ -951,7 +1111,9 @@ export const ContactPage: React.FC = () => {
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-2">Message *</label>
+                  <label className="block text-sm font-medium text-neutral-700 mb-2">
+                    Message *
+                  </label>
                   <textarea
                     required
                     rows={5}
@@ -986,22 +1148,22 @@ export const ManifestoPage: React.FC = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <h1 className="text-4xl font-bold mb-2">The Datacendia Manifesto</h1>
         <p className="text-xl text-white/60 mb-12">A Declaration of Sovereign Intelligence</p>
-        
+
         <div className="prose prose-invert prose-lg max-w-none">
           <p className="text-xl leading-relaxed mb-8">
-            We stand at a crossroads in enterprise technology. On one path lies continued 
-            fragmentation—data scattered across dozens of systems, intelligence locked in 
-            vendor silos, decisions made on gut feeling because the truth is too hard to find.
+            We stand at a crossroads in enterprise technology. On one path lies continued
+            fragmentation—data scattered across dozens of systems, intelligence locked in vendor
+            silos, decisions made on gut feeling because the truth is too hard to find.
           </p>
-          
+
           <p className="text-lg leading-relaxed mb-8">
-            On the other path lies sovereignty. Complete ownership of your organizational 
-            intelligence. AI that works for you, not for an advertising platform. Insights 
-            that you can trust because you can trace every step of their reasoning.
+            On the other path lies sovereignty. Complete ownership of your organizational
+            intelligence. AI that works for you, not for an advertising platform. Insights that you
+            can trust because you can trace every step of their reasoning.
           </p>
-          
+
           <h2 className="text-2xl font-bold mt-12 mb-4">We Believe:</h2>
-          
+
           <ol className="space-y-4 text-lg">
             <li>That organizations should own their intelligence, not rent it.</li>
             <li>That AI should explain its reasoning, not hide behind black boxes.</li>
@@ -1009,11 +1171,9 @@ export const ManifestoPage: React.FC = () => {
             <li>That data lineage is not a nice-to-have, but a fundamental right.</li>
             <li>That ethical AI is not a constraint, but a competitive advantage.</li>
           </ol>
-          
+
           <h2 className="text-2xl font-bold mt-12 mb-4">This is Datacendia.</h2>
-          <p className="text-lg">
-            Your organization's intelligence, sovereign and whole.
-          </p>
+          <p className="text-lg">Your organization's intelligence, sovereign and whole.</p>
         </div>
       </div>
     </div>

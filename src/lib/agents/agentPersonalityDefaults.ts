@@ -13,8 +13,8 @@ import { PersonalityTrait } from './personality';
 
 export interface AgentPersonalityProfile {
   agentCode: string;
-  suggestedTraits: string[];  // Trait IDs that make sense for this agent type
-  description: string;        // Why these traits suit this agent
+  suggestedTraits: string[]; // Trait IDs that make sense for this agent type
+  description: string; // Why these traits suit this agent
 }
 
 export const AGENT_PERSONALITY_PROFILES: AgentPersonalityProfile[] = [
@@ -23,99 +23,148 @@ export const AGENT_PERSONALITY_PROFILES: AgentPersonalityProfile[] = [
   // =========================================================================
   {
     agentCode: 'chief',
-    suggestedTraits: [
-      'assertive', 'diplomatic', 'decisive', 'big_picture', 'dominant', 'mentor'
-    ],
+    suggestedTraits: ['assertive', 'diplomatic', 'decisive', 'big_picture', 'dominant', 'mentor'],
     description: 'Leadership-focused traits for strategic oversight and coordination',
   },
   {
     agentCode: 'cfo',
     suggestedTraits: [
-      'analytical', 'cautious', 'risk_averse', 'detail_oriented', 'conservative', 'methodical'
+      'analytical',
+      'cautious',
+      'risk_averse',
+      'detail_oriented',
+      'conservative',
+      'methodical',
     ],
     description: 'Finance-focused traits emphasizing accuracy and risk management',
   },
   {
     agentCode: 'coo',
     suggestedTraits: [
-      'pragmatist', 'methodical', 'deadline_driven', 'decisive', 'blunt', 'detail_oriented'
+      'pragmatist',
+      'methodical',
+      'deadline_driven',
+      'decisive',
+      'blunt',
+      'detail_oriented',
     ],
     description: 'Operations-focused traits for efficiency and execution',
   },
   {
     agentCode: 'ciso',
     suggestedTraits: [
-      'paranoid', 'suspicious', 'analytical', 'cautious', 'pessimistic', 'confrontational'
+      'paranoid',
+      'suspicious',
+      'analytical',
+      'cautious',
+      'pessimistic',
+      'confrontational',
     ],
     description: 'Security-focused traits emphasizing threat awareness and vigilance',
   },
   {
     agentCode: 'cmo',
     suggestedTraits: [
-      'optimistic', 'innovative', 'passionate', 'expressive', 'risk_seeking', 'big_picture'
+      'optimistic',
+      'innovative',
+      'passionate',
+      'expressive',
+      'risk_seeking',
+      'big_picture',
     ],
     description: 'Marketing-focused traits for creative and customer-centric thinking',
   },
   {
     agentCode: 'cro',
-    suggestedTraits: [
-      'bold', 'competitive', 'optimistic', 'assertive', 'decisive', 'passionate'
-    ],
+    suggestedTraits: ['bold', 'competitive', 'optimistic', 'assertive', 'decisive', 'passionate'],
     description: 'Revenue-focused traits for aggressive growth and sales',
   },
   {
     agentCode: 'cdo',
     suggestedTraits: [
-      'perfectionist', 'analytical', 'methodical', 'detail_oriented', 'technical', 'curious'
+      'perfectionist',
+      'analytical',
+      'methodical',
+      'detail_oriented',
+      'technical',
+      'curious',
     ],
     description: 'Data-focused traits for quality and governance',
   },
   {
     agentCode: 'risk',
     suggestedTraits: [
-      'pessimistic', 'paranoid', 'analytical', 'suspicious', 'cautious', 'contrarian'
+      'pessimistic',
+      'paranoid',
+      'analytical',
+      'suspicious',
+      'cautious',
+      'contrarian',
     ],
     description: 'Risk-focused traits for comprehensive threat identification',
   },
   {
     agentCode: 'clo',
     suggestedTraits: [
-      'analytical', 'cautious', 'detail_oriented', 'formal', 'methodical', 'suspicious'
+      'analytical',
+      'cautious',
+      'detail_oriented',
+      'formal',
+      'methodical',
+      'suspicious',
     ],
     description: 'Legal-focused traits for thorough analysis and risk awareness',
   },
   {
     agentCode: 'cpo',
     suggestedTraits: [
-      'innovative', 'empathetic', 'curious', 'decisive', 'collaborative', 'pragmatist'
+      'innovative',
+      'empathetic',
+      'curious',
+      'decisive',
+      'collaborative',
+      'pragmatist',
     ],
     description: 'Product-focused traits balancing user needs with execution',
   },
   {
     agentCode: 'caio',
-    suggestedTraits: [
-      'innovative', 'analytical', 'curious', 'technical', 'cautious', 'mentor'
-    ],
+    suggestedTraits: ['innovative', 'analytical', 'curious', 'technical', 'cautious', 'mentor'],
     description: 'AI-focused traits for responsible innovation and governance',
   },
   {
     agentCode: 'cso',
     suggestedTraits: [
-      'idealist', 'passionate', 'empathetic', 'big_picture', 'challenger', 'sincere'
+      'idealist',
+      'passionate',
+      'empathetic',
+      'big_picture',
+      'challenger',
+      'sincere',
     ],
     description: 'Sustainability-focused traits for values-driven analysis',
   },
   {
     agentCode: 'cio',
     suggestedTraits: [
-      'analytical', 'cautious', 'methodical', 'risk_averse', 'detail_oriented', 'independent'
+      'analytical',
+      'cautious',
+      'methodical',
+      'risk_averse',
+      'detail_oriented',
+      'independent',
     ],
     description: 'Investment-focused traits for careful analysis and due diligence',
   },
   {
     agentCode: 'cco',
     suggestedTraits: [
-      'diplomatic', 'empathetic', 'expressive', 'sincere', 'mediating', 'collaborative'
+      'diplomatic',
+      'empathetic',
+      'expressive',
+      'sincere',
+      'mediating',
+      'collaborative',
     ],
     description: 'Communications-focused traits for stakeholder engagement',
   },
@@ -126,14 +175,24 @@ export const AGENT_PERSONALITY_PROFILES: AgentPersonalityProfile[] = [
   {
     agentCode: 'ext-auditor',
     suggestedTraits: [
-      'suspicious', 'analytical', 'detail_oriented', 'formal', 'independent', 'confrontational'
+      'suspicious',
+      'analytical',
+      'detail_oriented',
+      'formal',
+      'independent',
+      'confrontational',
     ],
     description: 'External audit traits for independent, skeptical review',
   },
   {
     agentCode: 'int-auditor',
     suggestedTraits: [
-      'analytical', 'methodical', 'detail_oriented', 'collaborative', 'diplomatic', 'curious'
+      'analytical',
+      'methodical',
+      'detail_oriented',
+      'collaborative',
+      'diplomatic',
+      'curious',
     ],
     description: 'Internal audit traits balancing thoroughness with organizational knowledge',
   },
@@ -144,28 +203,48 @@ export const AGENT_PERSONALITY_PROFILES: AgentPersonalityProfile[] = [
   {
     agentCode: 'cmio',
     suggestedTraits: [
-      'empathetic', 'analytical', 'cautious', 'methodical', 'collaborative', 'sincere'
+      'empathetic',
+      'analytical',
+      'cautious',
+      'methodical',
+      'collaborative',
+      'sincere',
     ],
     description: 'Healthcare-focused traits emphasizing patient welfare and data ethics',
   },
   {
     agentCode: 'pso',
     suggestedTraits: [
-      'paranoid', 'detail_oriented', 'cautious', 'empathetic', 'confrontational', 'passionate'
+      'paranoid',
+      'detail_oriented',
+      'cautious',
+      'empathetic',
+      'confrontational',
+      'passionate',
     ],
     description: 'Patient safety traits prioritizing risk identification',
   },
   {
     agentCode: 'hco',
     suggestedTraits: [
-      'methodical', 'detail_oriented', 'formal', 'suspicious', 'analytical', 'cautious'
+      'methodical',
+      'detail_oriented',
+      'formal',
+      'suspicious',
+      'analytical',
+      'cautious',
     ],
     description: 'Healthcare compliance traits for regulatory adherence',
   },
   {
     agentCode: 'cod',
     suggestedTraits: [
-      'pragmatist', 'decisive', 'collaborative', 'deadline_driven', 'empathetic', 'assertive'
+      'pragmatist',
+      'decisive',
+      'collaborative',
+      'deadline_driven',
+      'empathetic',
+      'assertive',
     ],
     description: 'Clinical operations traits balancing efficiency with care quality',
   },
@@ -176,28 +255,41 @@ export const AGENT_PERSONALITY_PROFILES: AgentPersonalityProfile[] = [
   {
     agentCode: 'quant',
     suggestedTraits: [
-      'analytical', 'technical', 'detail_oriented', 'innovative', 'independent', 'perfectionist'
+      'analytical',
+      'technical',
+      'detail_oriented',
+      'innovative',
+      'independent',
+      'perfectionist',
     ],
     description: 'Quantitative analysis traits for sophisticated modeling',
   },
   {
     agentCode: 'pm',
-    suggestedTraits: [
-      'decisive', 'analytical', 'risk_seeking', 'bold', 'competitive', 'assertive'
-    ],
+    suggestedTraits: ['decisive', 'analytical', 'risk_seeking', 'bold', 'competitive', 'assertive'],
     description: 'Portfolio management traits for active decision-making',
   },
   {
     agentCode: 'cro-finance',
     suggestedTraits: [
-      'analytical', 'pessimistic', 'cautious', 'suspicious', 'detail_oriented', 'methodical'
+      'analytical',
+      'pessimistic',
+      'cautious',
+      'suspicious',
+      'detail_oriented',
+      'methodical',
     ],
     description: 'Credit risk traits for thorough counterparty assessment',
   },
   {
     agentCode: 'treasury',
     suggestedTraits: [
-      'cautious', 'analytical', 'methodical', 'conservative', 'detail_oriented', 'risk_averse'
+      'cautious',
+      'analytical',
+      'methodical',
+      'conservative',
+      'detail_oriented',
+      'risk_averse',
     ],
     description: 'Treasury traits for liquidity and cash flow management',
   },
@@ -208,28 +300,48 @@ export const AGENT_PERSONALITY_PROFILES: AgentPersonalityProfile[] = [
   {
     agentCode: 'contracts',
     suggestedTraits: [
-      'detail_oriented', 'suspicious', 'analytical', 'methodical', 'perfectionist', 'formal'
+      'detail_oriented',
+      'suspicious',
+      'analytical',
+      'methodical',
+      'perfectionist',
+      'formal',
     ],
     description: 'Contract specialist traits for thorough agreement review',
   },
   {
     agentCode: 'ip',
     suggestedTraits: [
-      'analytical', 'technical', 'detail_oriented', 'innovative', 'cautious', 'curious'
+      'analytical',
+      'technical',
+      'detail_oriented',
+      'innovative',
+      'cautious',
+      'curious',
     ],
     description: 'IP counsel traits for patent and trademark analysis',
   },
   {
     agentCode: 'litigation',
     suggestedTraits: [
-      'aggressive', 'argumentative', 'competitive', 'confrontational', 'bold', 'analytical'
+      'aggressive',
+      'argumentative',
+      'competitive',
+      'confrontational',
+      'bold',
+      'analytical',
     ],
     description: 'Litigation traits for adversarial analysis and strategy',
   },
   {
     agentCode: 'regulatory',
     suggestedTraits: [
-      'cautious', 'detail_oriented', 'analytical', 'methodical', 'formal', 'suspicious'
+      'cautious',
+      'detail_oriented',
+      'analytical',
+      'methodical',
+      'formal',
+      'suspicious',
     ],
     description: 'Regulatory affairs traits for compliance-focused analysis',
   },
@@ -243,7 +355,7 @@ export const AGENT_PERSONALITY_PROFILES: AgentPersonalityProfile[] = [
  * Get suggested personality traits for an agent
  */
 export function getSuggestedTraits(agentCode: string): string[] {
-  const profile = AGENT_PERSONALITY_PROFILES.find(p => p.agentCode === agentCode);
+  const profile = AGENT_PERSONALITY_PROFILES.find((p) => p.agentCode === agentCode);
   return profile?.suggestedTraits || [];
 }
 
@@ -251,7 +363,7 @@ export function getSuggestedTraits(agentCode: string): string[] {
  * Get the personality profile description for an agent
  */
 export function getProfileDescription(agentCode: string): string {
-  const profile = AGENT_PERSONALITY_PROFILES.find(p => p.agentCode === agentCode);
+  const profile = AGENT_PERSONALITY_PROFILES.find((p) => p.agentCode === agentCode);
   return profile?.description || '';
 }
 
@@ -352,7 +464,7 @@ export const PERSONALITY_PRESETS: PersonalityPreset[] = [
  * Get a preset by ID
  */
 export function getPreset(id: string): PersonalityPreset | undefined {
-  return PERSONALITY_PRESETS.find(p => p.id === id);
+  return PERSONALITY_PRESETS.find((p) => p.id === id);
 }
 
 /**

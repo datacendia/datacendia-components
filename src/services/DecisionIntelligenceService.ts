@@ -35,8 +35,15 @@ export interface Decision {
 export interface DecisionEvent {
   id: string;
   timestamp: Date;
-  type: 'created' | 'context_added' | 'premortem_run' | 'council_session' | 
-        'ghost_board' | 'decision_made' | 'outcome_recorded' | 'reopened';
+  type:
+    | 'created'
+    | 'context_added'
+    | 'premortem_run'
+    | 'council_session'
+    | 'ghost_board'
+    | 'decision_made'
+    | 'outcome_recorded'
+    | 'reopened';
   title: string;
   summary: string;
   data: Record<string, any>;
@@ -191,26 +198,110 @@ export interface StateSnapshot {
 
 const BOARD_MEMBERS: Record<string, BoardMember[]> = {
   standard: [
-    { id: 'chair', name: 'Victoria Sterling', role: 'Board Chair', icon: '👔', personality: 'Strategic, long-term focused' },
-    { id: 'investor1', name: 'James Chen', role: 'Lead Investor', icon: '💼', personality: 'Returns-focused, analytical' },
-    { id: 'independent1', name: 'Sarah Mitchell', role: 'Independent Director', icon: '🎓', personality: 'Governance-focused, objective' },
-    { id: 'industry', name: 'Michael Torres', role: 'Industry Expert', icon: '🏭', personality: 'Market-savvy, practical' },
+    {
+      id: 'chair',
+      name: 'Victoria Sterling',
+      role: 'Board Chair',
+      icon: '👔',
+      personality: 'Strategic, long-term focused',
+    },
+    {
+      id: 'investor1',
+      name: 'James Chen',
+      role: 'Lead Investor',
+      icon: '💼',
+      personality: 'Returns-focused, analytical',
+    },
+    {
+      id: 'independent1',
+      name: 'Sarah Mitchell',
+      role: 'Independent Director',
+      icon: '🎓',
+      personality: 'Governance-focused, objective',
+    },
+    {
+      id: 'industry',
+      name: 'Michael Torres',
+      role: 'Industry Expert',
+      icon: '🏭',
+      personality: 'Market-savvy, practical',
+    },
   ],
   vc_backed: [
-    { id: 'partner', name: 'Alexandra Reeves', role: 'Managing Partner', icon: '🚀', personality: 'Growth-obsessed, aggressive' },
-    { id: 'associate', name: 'Kevin Park', role: 'Partner', icon: '📊', personality: 'Metrics-driven, analytical' },
-    { id: 'founder', name: 'Rachel Green', role: 'Operating Partner', icon: '💡', personality: 'Execution-focused, hands-on' },
+    {
+      id: 'partner',
+      name: 'Alexandra Reeves',
+      role: 'Managing Partner',
+      icon: '🚀',
+      personality: 'Growth-obsessed, aggressive',
+    },
+    {
+      id: 'associate',
+      name: 'Kevin Park',
+      role: 'Partner',
+      icon: '📊',
+      personality: 'Metrics-driven, analytical',
+    },
+    {
+      id: 'founder',
+      name: 'Rachel Green',
+      role: 'Operating Partner',
+      icon: '💡',
+      personality: 'Execution-focused, hands-on',
+    },
   ],
   public_company: [
-    { id: 'chair', name: 'Robert Harrison', role: 'Board Chair', icon: '⚖️', personality: 'Governance-focused, conservative' },
-    { id: 'audit', name: 'Patricia Wells', role: 'Audit Committee Chair', icon: '📋', personality: 'Compliance-focused, detail-oriented' },
-    { id: 'comp', name: 'William Chang', role: 'Compensation Chair', icon: '💰', personality: 'Shareholder-focused, balanced' },
-    { id: 'nom', name: 'Elizabeth Foster', role: 'Nominating Chair', icon: '👥', personality: 'Culture-focused, strategic' },
+    {
+      id: 'chair',
+      name: 'Robert Harrison',
+      role: 'Board Chair',
+      icon: '⚖️',
+      personality: 'Governance-focused, conservative',
+    },
+    {
+      id: 'audit',
+      name: 'Patricia Wells',
+      role: 'Audit Committee Chair',
+      icon: '📋',
+      personality: 'Compliance-focused, detail-oriented',
+    },
+    {
+      id: 'comp',
+      name: 'William Chang',
+      role: 'Compensation Chair',
+      icon: '💰',
+      personality: 'Shareholder-focused, balanced',
+    },
+    {
+      id: 'nom',
+      name: 'Elizabeth Foster',
+      role: 'Nominating Chair',
+      icon: '👥',
+      personality: 'Culture-focused, strategic',
+    },
   ],
   private_equity: [
-    { id: 'deal', name: 'Marcus Webb', role: 'Deal Partner', icon: '📈', personality: 'EBITDA-obsessed, aggressive' },
-    { id: 'ops', name: 'Diana Rodriguez', role: 'Operating Partner', icon: '⚙️', personality: 'Efficiency-focused, demanding' },
-    { id: 'cfo', name: 'Thomas Barrett', role: 'Portfolio CFO', icon: '💹', personality: 'Cash-focused, analytical' },
+    {
+      id: 'deal',
+      name: 'Marcus Webb',
+      role: 'Deal Partner',
+      icon: '📈',
+      personality: 'EBITDA-obsessed, aggressive',
+    },
+    {
+      id: 'ops',
+      name: 'Diana Rodriguez',
+      role: 'Operating Partner',
+      icon: '⚙️',
+      personality: 'Efficiency-focused, demanding',
+    },
+    {
+      id: 'cfo',
+      name: 'Thomas Barrett',
+      role: 'Portfolio CFO',
+      icon: '💹',
+      personality: 'Cash-focused, analytical',
+    },
   ],
 };
 
@@ -243,7 +334,8 @@ class DecisionIntelligenceService {
         data.decisions?.forEach((d: Decision) => {
           d.createdAt = new Date(d.createdAt);
           d.updatedAt = new Date(d.updatedAt);
-          d.timeline = d.timeline?.map((e: any) => ({ ...e, timestamp: new Date(e.timestamp) })) || [];
+          d.timeline =
+            d.timeline?.map((e: any) => ({ ...e, timestamp: new Date(e.timestamp) })) || [];
           this.decisions.set(d.id, d);
         });
         data.preMortems?.forEach((p: PreMortemResult) => {
@@ -284,7 +376,9 @@ class DecisionIntelligenceService {
   // ---------------------------------------------------------------------------
 
   private initializeDefaultData(): void {
-    if (this.decisions.size > 0) {return;}
+    if (this.decisions.size > 0) {
+      return;
+    }
 
     // Create sample decisions
     const sampleDecisions: Partial<Decision>[] = [
@@ -318,16 +412,40 @@ class DecisionIntelligenceService {
       },
     ];
 
-    sampleDecisions.forEach(d => this.createDecision(d));
+    sampleDecisions.forEach((d) => this.createDecision(d));
 
     // Create sample pending decisions for debt tracking
     const samplePending: Partial<PendingDecision>[] = [
-      { title: 'Vendor Contract Renewal', department: 'Procurement', owner: 'Sarah Johnson', daysStuck: 23, estimatedDailyCost: 1500, priority: 'high', blockedBy: [{ name: 'Legal Review', type: 'department' }] },
-      { title: 'Product Roadmap Q1', department: 'Product', owner: 'Mike Chen', daysStuck: 15, estimatedDailyCost: 3200, priority: 'critical', blockedBy: [{ name: 'Budget Approval', type: 'process' }] },
-      { title: 'Engineering Hiring Plan', department: 'HR', owner: 'Lisa Park', daysStuck: 31, estimatedDailyCost: 2800, priority: 'high', blockedBy: [{ name: 'CFO Approval', type: 'person' }] },
+      {
+        title: 'Vendor Contract Renewal',
+        department: 'Procurement',
+        owner: 'Sarah Johnson',
+        daysStuck: 23,
+        estimatedDailyCost: 1500,
+        priority: 'high',
+        blockedBy: [{ name: 'Legal Review', type: 'department' }],
+      },
+      {
+        title: 'Product Roadmap Q1',
+        department: 'Product',
+        owner: 'Mike Chen',
+        daysStuck: 15,
+        estimatedDailyCost: 3200,
+        priority: 'critical',
+        blockedBy: [{ name: 'Budget Approval', type: 'process' }],
+      },
+      {
+        title: 'Engineering Hiring Plan',
+        department: 'HR',
+        owner: 'Lisa Park',
+        daysStuck: 31,
+        estimatedDailyCost: 2800,
+        priority: 'high',
+        blockedBy: [{ name: 'CFO Approval', type: 'person' }],
+      },
     ];
 
-    samplePending.forEach(p => this.createPendingDecision(p));
+    samplePending.forEach((p) => this.createPendingDecision(p));
   }
 
   // ---------------------------------------------------------------------------
@@ -335,8 +453,8 @@ class DecisionIntelligenceService {
   // ---------------------------------------------------------------------------
 
   getDecisions(): Decision[] {
-    return Array.from(this.decisions.values()).sort((a, b) => 
-      b.updatedAt.getTime() - a.updatedAt.getTime()
+    return Array.from(this.decisions.values()).sort(
+      (a, b) => b.updatedAt.getTime() - a.updatedAt.getTime()
     );
   }
 
@@ -347,7 +465,7 @@ class DecisionIntelligenceService {
   createDecision(partial: Partial<Decision>): Decision {
     const id = partial.id || `decision-${Date.now()}`;
     const now = new Date();
-    
+
     const decision: Decision = {
       id,
       title: partial.title || 'New Decision',
@@ -359,15 +477,17 @@ class DecisionIntelligenceService {
       timeframe: partial.timeframe,
       createdAt: now,
       updatedAt: now,
-      timeline: [{
-        id: `event-${Date.now()}`,
-        timestamp: now,
-        type: 'created',
-        title: 'Decision Created',
-        summary: `Decision "${partial.title}" was created`,
-        data: {},
-        userId: 'system',
-      }],
+      timeline: [
+        {
+          id: `event-${Date.now()}`,
+          timestamp: now,
+          type: 'created',
+          title: 'Decision Created',
+          summary: `Decision "${partial.title}" was created`,
+          data: {},
+          userId: 'system',
+        },
+      ],
       preMortems: [],
       councilSessions: [],
       ghostBoardSimulations: [],
@@ -384,7 +504,9 @@ class DecisionIntelligenceService {
 
   updateDecision(id: string, updates: Partial<Decision>): Decision | null {
     const decision = this.decisions.get(id);
-    if (!decision) {return null;}
+    if (!decision) {
+      return null;
+    }
 
     const updated = { ...decision, ...updates, updatedAt: new Date() };
     this.decisions.set(id, updated);
@@ -394,7 +516,9 @@ class DecisionIntelligenceService {
 
   addDecisionEvent(decisionId: string, event: Omit<DecisionEvent, 'id' | 'timestamp'>): void {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {return;}
+    if (!decision) {
+      return;
+    }
 
     decision.timeline.push({
       ...event,
@@ -415,7 +539,7 @@ class DecisionIntelligenceService {
     options?: { budget?: number; timeframe?: string; agents?: string[] }
   ): Promise<PreMortemResult> {
     const status = ollamaService.getStatus();
-    
+
     let failureModes: FailureMode[] = [];
     let recommendation: PreMortemResult['recommendation'] | null = null;
     let executiveSummary: string = '';
@@ -477,10 +601,12 @@ Provide analysis in JSON format:
       executiveSummary = `Analysis of "${decisionText.slice(0, 50)}..." identified ${failureModes.length} potential failure modes. ${recommendation.action === 'proceed' ? 'Proceed with standard precautions.' : recommendation.action === 'proceed_with_caution' ? 'Proceed with enhanced monitoring.' : 'Consider alternatives before proceeding.'}`;
     }
 
-    const totalRWE = failureModes.reduce((sum, fm) => 
-      sum + (fm.probability * fm.costImpact), 0);
-    const overallRisk = Math.min(100, failureModes.reduce((sum, fm) => 
-      sum + (fm.probability * 100), 0) / Math.max(1, failureModes.length));
+    const totalRWE = failureModes.reduce((sum, fm) => sum + fm.probability * fm.costImpact, 0);
+    const overallRisk = Math.min(
+      100,
+      failureModes.reduce((sum, fm) => sum + fm.probability * 100, 0) /
+        Math.max(1, failureModes.length)
+    );
 
     const result: PreMortemResult = {
       id: `premortem-${Date.now()}`,
@@ -490,7 +616,11 @@ Provide analysis in JSON format:
       failureModes,
       totalRiskWeightedExposure: totalRWE,
       overallRiskScore: Math.round(overallRisk),
-      recommendation: recommendation || { action: 'proceed_with_caution', reasoning: 'Analysis incomplete', conditions: [] },
+      recommendation: recommendation || {
+        action: 'proceed_with_caution',
+        reasoning: 'Analysis incomplete',
+        conditions: [],
+      },
       executiveSummary: executiveSummary || 'Analysis completed.',
       agentsUsed: options?.agents || ['cfo', 'ciso', 'pessimist'],
     };
@@ -517,7 +647,7 @@ Provide analysis in JSON format:
       {
         rank: 2,
         title: 'Stakeholder misalignment causes scope creep',
-        probability: 0.40,
+        probability: 0.4,
         costImpact: baseCost * 0.25,
         category: 'Operational',
         mitigations: [
@@ -529,7 +659,7 @@ Provide analysis in JSON format:
         rank: 3,
         title: 'Market conditions change during execution',
         probability: 0.25,
-        costImpact: baseCost * 0.40,
+        costImpact: baseCost * 0.4,
         category: 'Market',
         mitigations: [
           { action: 'Build checkpoints for go/no-go decisions', effectiveness: 0.7 },
@@ -539,8 +669,8 @@ Provide analysis in JSON format:
       {
         rank: 4,
         title: 'Technical implementation challenges',
-        probability: 0.30,
-        costImpact: baseCost * 0.20,
+        probability: 0.3,
+        costImpact: baseCost * 0.2,
         category: 'Technical',
         mitigations: [
           { action: 'Conduct proof-of-concept first', effectiveness: 0.8 },
@@ -551,7 +681,7 @@ Provide analysis in JSON format:
         rank: 5,
         title: 'Regulatory or compliance issues emerge',
         probability: 0.15,
-        costImpact: baseCost * 0.50,
+        costImpact: baseCost * 0.5,
         category: 'Regulatory',
         mitigations: [
           { action: 'Early legal and compliance review', effectiveness: 0.9 },
@@ -561,19 +691,24 @@ Provide analysis in JSON format:
     ];
   }
 
-  private generateDefaultRecommendation(failureModes: FailureMode[]): PreMortemResult['recommendation'] {
-    const avgProbability = failureModes.reduce((s, f) => s + f.probability, 0) / failureModes.length;
-    
+  private generateDefaultRecommendation(
+    failureModes: FailureMode[]
+  ): PreMortemResult['recommendation'] {
+    const avgProbability =
+      failureModes.reduce((s, f) => s + f.probability, 0) / failureModes.length;
+
     if (avgProbability > 0.5) {
       return {
         action: 'delay',
-        reasoning: 'High probability of multiple failure modes suggests further analysis or risk mitigation is needed.',
+        reasoning:
+          'High probability of multiple failure modes suggests further analysis or risk mitigation is needed.',
         conditions: ['Complete detailed risk mitigation plan', 'Secure executive sponsorship'],
       };
     } else if (avgProbability > 0.3) {
       return {
         action: 'proceed_with_caution',
-        reasoning: 'Moderate risk profile with manageable failure modes. Recommend enhanced monitoring.',
+        reasoning:
+          'Moderate risk profile with manageable failure modes. Recommend enhanced monitoring.',
         conditions: ['Implement key mitigations', 'Establish weekly risk reviews'],
       };
     } else {
@@ -626,9 +761,11 @@ ANSWER: [suggested answer]`;
 
           const qMatch = response.response.match(/QUESTION:\s*(.+?)(?=ANSWER:|$)/s);
           const aMatch = response.response.match(/ANSWER:\s*(.+?)$/s);
-          
+
           question = qMatch?.[1]?.trim() || this.getDefaultQuestion(member, proposalTitle);
-          suggestedAnswer = aMatch?.[1]?.trim() || 'Address the concern with specific data and a clear action plan.';
+          suggestedAnswer =
+            aMatch?.[1]?.trim() ||
+            'Address the concern with specific data and a clear action plan.';
         } catch (error) {
           question = this.getDefaultQuestion(member, proposalTitle);
           suggestedAnswer = 'Provide specific metrics and a clear implementation roadmap.';
@@ -663,11 +800,12 @@ ANSWER: [suggested answer]`;
       preparednessScore,
       keyGaps: ['Financial projections need more detail', 'Risk mitigation not fully addressed'],
       strengthAreas: ['Clear problem statement', 'Strong market analysis'],
-      overallAssessment: preparednessScore >= 80 
-        ? 'Well-prepared for board presentation. Minor refinements recommended.'
-        : preparednessScore >= 60
-        ? 'Moderately prepared. Address key gaps before presenting.'
-        : 'Additional preparation needed. Significant gaps identified.',
+      overallAssessment:
+        preparednessScore >= 80
+          ? 'Well-prepared for board presentation. Minor refinements recommended.'
+          : preparednessScore >= 60
+            ? 'Moderately prepared. Address key gaps before presenting.'
+            : 'Additional preparation needed. Significant gaps identified.',
       runAt: new Date(),
     };
 
@@ -700,7 +838,9 @@ ANSWER: [suggested answer]`;
       ],
     };
 
-    const memberQuestions = questions[member.role] || ['What is the risk-adjusted return on this initiative?'];
+    const memberQuestions = questions[member.role] || [
+      'What is the risk-adjusted return on this initiative?',
+    ];
     return memberQuestions[Math.floor(Math.random() * memberQuestions.length)];
   }
 
@@ -739,8 +879,9 @@ ANSWER: [suggested answer]`;
   getDecisionDebtDashboard(): DecisionDebtDashboard {
     const decisions = this.getPendingDecisions();
     const totalDecisions = decisions.length;
-    const blockedDecisions = decisions.filter(d => d.blockedBy.length > 0).length;
-    const avgDaysStuck = decisions.reduce((s, d) => s + d.daysStuck, 0) / Math.max(1, totalDecisions);
+    const blockedDecisions = decisions.filter((d) => d.blockedBy.length > 0).length;
+    const avgDaysStuck =
+      decisions.reduce((s, d) => s + d.daysStuck, 0) / Math.max(1, totalDecisions);
     const dailyCost = decisions.reduce((s, d) => s + d.estimatedDailyCost, 0);
     const totalAccrued = decisions.reduce((s, d) => s + d.totalCostAccrued, 0);
 
@@ -748,15 +889,28 @@ ANSWER: [suggested answer]`;
     let grade = 'A';
     let score = 95;
     let label = 'Excellent';
-    if (avgDaysStuck > 30) { grade = 'F'; score = 30; label = 'Critical'; }
-    else if (avgDaysStuck > 21) { grade = 'D'; score = 50; label = 'Poor'; }
-    else if (avgDaysStuck > 14) { grade = 'C'; score = 65; label = 'Fair'; }
-    else if (avgDaysStuck > 7) { grade = 'B'; score = 80; label = 'Good'; }
+    if (avgDaysStuck > 30) {
+      grade = 'F';
+      score = 30;
+      label = 'Critical';
+    } else if (avgDaysStuck > 21) {
+      grade = 'D';
+      score = 50;
+      label = 'Poor';
+    } else if (avgDaysStuck > 14) {
+      grade = 'C';
+      score = 65;
+      label = 'Fair';
+    } else if (avgDaysStuck > 7) {
+      grade = 'B';
+      score = 80;
+      label = 'Good';
+    }
 
     // Identify top blockers
     const blockerMap = new Map<string, { count: number; cost: number }>();
-    decisions.forEach(d => {
-      d.blockedBy.forEach(b => {
+    decisions.forEach((d) => {
+      d.blockedBy.forEach((b) => {
         const existing = blockerMap.get(b.name) || { count: 0, cost: 0 };
         blockerMap.set(b.name, {
           count: existing.count + 1,
@@ -782,15 +936,41 @@ ANSWER: [suggested answer]`;
         dailyCost,
         monthlyCost: dailyCost * 30,
         annualProjectedLoss: dailyCost * 365,
-        debtScore: { grade, score, label, color: grade === 'A' ? 'green' : grade === 'B' ? 'lime' : grade === 'C' ? 'yellow' : grade === 'D' ? 'orange' : 'red' },
+        debtScore: {
+          grade,
+          score,
+          label,
+          color:
+            grade === 'A'
+              ? 'green'
+              : grade === 'B'
+                ? 'lime'
+                : grade === 'C'
+                  ? 'yellow'
+                  : grade === 'D'
+                    ? 'orange'
+                    : 'red',
+        },
       },
       decisions: decisions.sort((a, b) => b.totalCostAccrued - a.totalCostAccrued),
       topBlockers,
-      criticalPath: decisions.filter(d => d.priority === 'critical').map(d => d.title),
+      criticalPath: decisions.filter((d) => d.priority === 'critical').map((d) => d.title),
       recommendations: [
-        { title: 'Clear top blocker', description: `Resolve "${topBlockers[0]?.blockerName || 'pending reviews'}" to unblock ${topBlockers[0]?.decisionsBlocked || 0} decisions`, estimatedSavings: topBlockers[0]?.totalCostImpact || 0 },
-        { title: 'Implement decision SLAs', description: 'Set maximum decision times by priority level', estimatedSavings: dailyCost * 10 },
-        { title: 'Weekly decision review', description: 'Review all stuck decisions in weekly leadership meeting', estimatedSavings: dailyCost * 5 },
+        {
+          title: 'Clear top blocker',
+          description: `Resolve "${topBlockers[0]?.blockerName || 'pending reviews'}" to unblock ${topBlockers[0]?.decisionsBlocked || 0} decisions`,
+          estimatedSavings: topBlockers[0]?.totalCostImpact || 0,
+        },
+        {
+          title: 'Implement decision SLAs',
+          description: 'Set maximum decision times by priority level',
+          estimatedSavings: dailyCost * 10,
+        },
+        {
+          title: 'Weekly decision review',
+          description: 'Review all stuck decisions in weekly leadership meeting',
+          estimatedSavings: dailyCost * 5,
+        },
       ],
     };
   }
@@ -800,9 +980,9 @@ ANSWER: [suggested answer]`;
   // ---------------------------------------------------------------------------
 
   getTimeline(startDate: Date, endDate: Date): TimelineEvent[] {
-    return this.timeline.filter(e => 
-      e.timestamp >= startDate && e.timestamp <= endDate
-    ).sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
+    return this.timeline
+      .filter((e) => e.timestamp >= startDate && e.timestamp <= endDate)
+      .sort((a, b) => a.timestamp.getTime() - b.timestamp.getTime());
   }
 
   addTimelineEvent(event: Omit<TimelineEvent, 'id'>): TimelineEvent {
@@ -826,10 +1006,10 @@ ANSWER: [suggested answer]`;
       metrics: {
         revenue: Math.round(baseRevenue * Math.pow(1 - growthRate, monthsAgo)),
         profit: Math.round(baseRevenue * 0.15 * Math.pow(1 - growthRate, monthsAgo)),
-        employees: Math.round(150 - (monthsAgo * 2)),
-        customers: Math.round(500 - (monthsAgo * 10)),
-        satisfaction: 4.2 - (monthsAgo * 0.05),
-        marketShare: 12 - (monthsAgo * 0.2),
+        employees: Math.round(150 - monthsAgo * 2),
+        customers: Math.round(500 - monthsAgo * 10),
+        satisfaction: 4.2 - monthsAgo * 0.05,
+        marketShare: 12 - monthsAgo * 0.2,
       },
     };
   }
@@ -848,10 +1028,12 @@ ANSWER: [suggested answer]`;
     const decisions = Array.from(this.decisions.values());
     return {
       totalDecisions: decisions.length,
-      activeDecisions: decisions.filter(d => !['closed', 'implemented'].includes(d.status)).length,
+      activeDecisions: decisions.filter((d) => !['closed', 'implemented'].includes(d.status))
+        .length,
       preMortemsRun: this.preMortems.size,
       ghostBoardsRun: this.ghostBoards.size,
-      avgRiskScore: decisions.reduce((s, d) => s + (d.riskScore || 50), 0) / Math.max(1, decisions.length),
+      avgRiskScore:
+        decisions.reduce((s, d) => s + (d.riskScore || 50), 0) / Math.max(1, decisions.length),
     };
   }
 }

@@ -36,7 +36,9 @@ export function useKeyboardNavigation<T extends HTMLElement = HTMLElement>(
   const containerRef = useRef<T>(null);
 
   const getItems = useCallback((): HTMLElement[] => {
-    if (!containerRef.current) {return [];}
+    if (!containerRef.current) {
+      return [];
+    }
     return Array.from(containerRef.current.querySelectorAll<HTMLElement>(selector));
   }, [selector]);
 
@@ -54,13 +56,13 @@ export function useKeyboardNavigation<T extends HTMLElement = HTMLElement>(
     const items = getItems();
     const currentIndex = items.findIndex((item) => item === document.activeElement);
     let nextIndex = currentIndex + 1;
-    
+
     if (loop && nextIndex >= items.length) {
       nextIndex = 0;
     } else {
       nextIndex = Math.min(nextIndex, items.length - 1);
     }
-    
+
     items[nextIndex]?.focus();
   }, [getItems, loop]);
 
@@ -68,18 +70,20 @@ export function useKeyboardNavigation<T extends HTMLElement = HTMLElement>(
     const items = getItems();
     const currentIndex = items.findIndex((item) => item === document.activeElement);
     let prevIndex = currentIndex - 1;
-    
+
     if (loop && prevIndex < 0) {
       prevIndex = items.length - 1;
     } else {
       prevIndex = Math.max(prevIndex, 0);
     }
-    
+
     items[prevIndex]?.focus();
   }, [getItems, loop]);
 
   useEffect(() => {
-    if (!enabled || !containerRef.current) {return;}
+    if (!enabled || !containerRef.current) {
+      return;
+    }
 
     const container = containerRef.current;
     const items = getItems();

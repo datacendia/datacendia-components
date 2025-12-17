@@ -118,14 +118,14 @@ export const CendiaSentryPage: React.FC = () => {
             <Sparkles className="w-4 h-4" />
             APEX PACKAGE
           </div>
-          
+
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Cendia<span className="text-red-400">Sentry</span>
           </h1>
-          
+
           <p className="text-xl text-slate-400 max-w-2xl mb-8">
-            Enterprise-grade security and compliance. Protect your data, meet
-            regulatory requirements, and manage risk with AI-powered vigilance.
+            Enterprise-grade security and compliance. Protect your data, meet regulatory
+            requirements, and manage risk with AI-powered vigilance.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-12">
@@ -152,15 +152,25 @@ export const CendiaSentryPage: React.FC = () => {
                 key={badge.name}
                 className="flex items-center gap-2 px-4 py-2 bg-slate-800/50 rounded-lg border border-slate-700"
               >
-                <ShieldCheck className={`w-5 h-5 ${
-                  badge.color === 'green' ? 'text-green-400' :
-                  badge.color === 'blue' ? 'text-blue-400' : 'text-yellow-400'
-                }`} />
+                <ShieldCheck
+                  className={`w-5 h-5 ${
+                    badge.color === 'green'
+                      ? 'text-green-400'
+                      : badge.color === 'blue'
+                        ? 'text-blue-400'
+                        : 'text-yellow-400'
+                  }`}
+                />
                 <span className="text-white font-medium">{badge.name}</span>
-                <span className={`text-xs px-2 py-0.5 rounded ${
-                  badge.color === 'green' ? 'bg-green-500/20 text-green-400' :
-                  badge.color === 'blue' ? 'bg-blue-500/20 text-blue-400' : 'bg-yellow-500/20 text-yellow-400'
-                }`}>
+                <span
+                  className={`text-xs px-2 py-0.5 rounded ${
+                    badge.color === 'green'
+                      ? 'bg-green-500/20 text-green-400'
+                      : badge.color === 'blue'
+                        ? 'bg-blue-500/20 text-blue-400'
+                        : 'bg-yellow-500/20 text-yellow-400'
+                  }`}
+                >
                   {badge.status}
                 </span>
               </div>
@@ -172,12 +182,10 @@ export const CendiaSentryPage: React.FC = () => {
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            6 Security & Compliance Services
-          </h2>
+          <h2 className="text-3xl font-bold text-white mb-4">6 Security & Compliance Services</h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Comprehensive protection for your organizational intelligence platform,
-            built on zero-trust principles.
+            Comprehensive protection for your organizational intelligence platform, built on
+            zero-trust principles.
           </p>
         </div>
 
@@ -192,21 +200,16 @@ export const CendiaSentryPage: React.FC = () => {
                   : 'bg-slate-800/50 border-slate-700 hover:border-slate-600'
               }`}
             >
-              <service.icon className={`w-10 h-10 mb-4 ${
-                activeService === index ? 'text-red-400' : 'text-slate-400'
-              }`} />
-              <h3 className="text-xl font-semibold text-white mb-2">
-                {service.title}
-              </h3>
-              <p className="text-slate-400 text-sm mb-4">
-                {service.description}
-              </p>
+              <service.icon
+                className={`w-10 h-10 mb-4 ${
+                  activeService === index ? 'text-red-400' : 'text-slate-400'
+                }`}
+              />
+              <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
+              <p className="text-slate-400 text-sm mb-4">{service.description}</p>
               <ul className="space-y-2">
                 {service.capabilities.slice(0, 3).map((cap) => (
-                  <li
-                    key={cap}
-                    className="flex items-center gap-2 text-sm text-slate-300"
-                  >
+                  <li key={cap} className="flex items-center gap-2 text-sm text-slate-300">
                     <Check className="w-4 h-4 text-green-400 flex-shrink-0" />
                     {cap}
                   </li>
@@ -225,10 +228,8 @@ export const CendiaSentryPage: React.FC = () => {
         <div className="bg-slate-800/50 rounded-2xl border border-slate-700 overflow-hidden">
           <div className="grid lg:grid-cols-2">
             <div className="p-8">
-              <h3 className="text-2xl font-bold text-white mb-6">
-                Real-Time Security Dashboard
-              </h3>
-              
+              <h3 className="text-2xl font-bold text-white mb-6">Real-Time Security Dashboard</h3>
+
               <div className="space-y-4">
                 <div className="p-4 bg-green-500/10 rounded-lg border border-green-500/30">
                   <div className="flex items-center gap-3 mb-2">
@@ -258,9 +259,7 @@ export const CendiaSentryPage: React.FC = () => {
                     <span className="font-medium text-white">Open Findings</span>
                     <span className="ml-auto text-lg font-semibold text-amber-400">3</span>
                   </div>
-                  <p className="text-sm text-slate-400">
-                    1 high • 2 medium • Due by next audit
-                  </p>
+                  <p className="text-sm text-slate-400">1 high • 2 medium • Due by next audit</p>
                 </div>
               </div>
             </div>
@@ -283,7 +282,7 @@ export const CendiaSentryPage: React.FC = () => {
         <h3 className="text-2xl font-bold text-white mb-8 text-center">
           Supported Compliance Frameworks
         </h3>
-        
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {[
             { name: 'SOC 2', icon: Scale },
@@ -313,8 +312,8 @@ export const CendiaSentryPage: React.FC = () => {
             Secure Your Organizational Intelligence
           </h3>
           <p className="text-red-100 mb-8 max-w-2xl mx-auto">
-            Get enterprise-grade security and compliance out of the box.
-            Schedule a security assessment today.
+            Get enterprise-grade security and compliance out of the box. Schedule a security
+            assessment today.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link

@@ -1,6 +1,6 @@
 /**
  * Auth Store - Zustand-based authentication state management
- * 
+ *
  * Replaces AuthContext for better performance and simpler patterns.
  * Provides authentication state, user info, and auth actions.
  */
@@ -26,7 +26,7 @@ export interface User {
   preferences?: UserPreferences;
 }
 
-export type UserRole = 
+export type UserRole =
   | 'admin'
   | 'analyst'
   | 'operator'
@@ -55,7 +55,7 @@ export interface AuthState {
   isLoading: boolean;
   error: string | null;
   lastActivity: number | null;
-  
+
   // Actions
   setUser: (user: User | null) => void;
   setTokens: (token: string, refreshToken?: string) => void;
@@ -77,10 +77,7 @@ export interface AuthState {
 
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1';
 
-async function authApi<T>(
-  endpoint: string,
-  options: RequestInit = {}
-): Promise<T> {
+async function authApi<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
   const response = await fetch(`${API_BASE}${endpoint}`, {
     ...options,
     headers: {

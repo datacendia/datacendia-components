@@ -3,20 +3,16 @@
  */
 export { default as AgentCard } from './AgentCard';
 export { default as DeliberationView } from './DeliberationView';
-export { 
-  CouncilModeSelector, 
-  CouncilModeBadge, 
+export {
+  CouncilModeSelector,
+  CouncilModeBadge,
   CouncilModeCard,
-  CouncilModeQuickSwitch 
+  CouncilModeQuickSwitch,
 } from './CouncilModeSelector';
-export { 
-  ExecutiveSummary,
-  type ExecutiveSummaryData,
-  type ActionItem 
-} from './ExecutiveSummary';
-export { 
+export { ExecutiveSummary, type ExecutiveSummaryData, type ActionItem } from './ExecutiveSummary';
+export {
   UserInterventionPanel,
   type UserRole,
-  type UserIntervention 
+  type UserIntervention,
 } from './UserInterventionPanel';
 export { default as PostDeliberationPanel } from './PostDeliberationPanel';

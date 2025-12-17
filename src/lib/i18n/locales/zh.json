@@ -270,9 +270,26 @@
       "alertResolved": "警报\"{{alert}}\"已解决",
       "reportGenerated": "报告\"{{report}}\"已生成"
     },
-    "sampleQueries": { "churnIncrease": "为什么流失率增加了？", "forecastRevenue": "预测Q4收入", "biggestRisk": "我们最大的风险是什么？", "customerSentiment": "客户情绪趋势是什么？", "competitorAnalysis": "分析竞争对手定价" }
+    "sampleQueries": {
+      "churnIncrease": "为什么流失率增加了？",
+      "forecastRevenue": "预测Q4收入",
+      "biggestRisk": "我们最大的风险是什么？",
+      "customerSentiment": "客户情绪趋势是什么？",
+      "competitorAnalysis": "分析竞争对手定价"
+    }
   },
-  "button": { "view_all": "查看全部", "viewAll": "查看全部", "viewMore": "查看更多", "approve": "批准", "reject": "拒绝", "save": "保存", "cancel": "取消", "submit": "提交", "edit": "编辑", "delete": "删除" },
+  "button": {
+    "view_all": "查看全部",
+    "viewAll": "查看全部",
+    "viewMore": "查看更多",
+    "approve": "批准",
+    "reject": "拒绝",
+    "save": "保存",
+    "cancel": "取消",
+    "submit": "提交",
+    "edit": "编辑",
+    "delete": "删除"
+  },
   "commandPalette": {
     "searchPlaceholder": "搜索命令、页面、代理...",
     "noResults": "无结果：",
@@ -288,10 +305,35 @@
     "switchTo": "切换到",
     "changeLanguage": "更改语言为",
     "categories": { "navigation": "导航", "actions": "操作", "agents": "代理", "modes": "委员会模式", "recent": "最近" },
-    "agents": { "chief": "首席战略代理", "chiefDesc": "战略综合", "cfo": "财务智能", "cfoDesc": "财务分析", "coo": "运营代理", "cooDesc": "运营效率", "ciso": "安全代理", "cisoDesc": "安全与合规", "cmo": "市场智能", "cmoDesc": "市场分析" }
+    "agents": {
+      "chief": "首席战略代理",
+      "chiefDesc": "战略综合",
+      "cfo": "财务智能",
+      "cfoDesc": "财务分析",
+      "coo": "运营代理",
+      "cooDesc": "运营效率",
+      "ciso": "安全代理",
+      "cisoDesc": "安全与合规",
+      "cmo": "市场智能",
+      "cmoDesc": "市场分析"
+    }
   },
   "cortex": { "sidebar": { "spaces": "空间", "pillars": "支柱", "system": "系统", "data": "数据", "security": "安全" } },
-  "sidebar": { "dashboard": "仪表板", "the_council": "委员会", "the_graph": "图谱", "the_pulse": "脉搏", "the_lens": "透镜", "the_bridge": "桥梁", "settings": "设置", "help": "帮助与支持", "cortex": "Cortex", "spaces": "空间", "pillars": "支柱", "sovereign": "主权", "admin": "管理" },
+  "sidebar": {
+    "dashboard": "仪表板",
+    "the_council": "委员会",
+    "the_graph": "图谱",
+    "the_pulse": "脉搏",
+    "the_lens": "透镜",
+    "the_bridge": "桥梁",
+    "settings": "设置",
+    "help": "帮助与支持",
+    "cortex": "Cortex",
+    "spaces": "空间",
+    "pillars": "支柱",
+    "sovereign": "主权",
+    "admin": "管理"
+  },
   "council": {
     "title": "委员会",
     "subtitle": "AI驱动的战略咨询面板",
@@ -305,9 +347,41 @@
     "clearAll": "全部清除",
     "selectAll": "全选",
     "agents": { "domain": "领域代理", "custom": "自定义代理", "premium": "高级代理", "createCustom": "创建自定义代理" },
-    "modes": { "title": "委员会模式库", "subtitle": "相同的代理在不同模式下产生不同的结果。", "cultureNote": "提示语就是公司文化。", "quickReference": "快速参考", "mode": "模式", "primeDirective": "首要指令", "bestFor": "最适合", "agentBehavior": "代理行为" },
-    "deliberation": { "phases": { "initial_analysis": "初步分析", "cross_examination": "交叉检验", "synthesis": "综合", "ethics_check": "伦理检查" }, "inProgress": "讨论进行中", "completed": "讨论完成", "confidence": "置信度" },
-    "customAgent": { "title": "创建自定义代理", "editTitle": "编辑自定义代理", "subtitle": "设计具有专业知识的AI代理", "premium": "代理构建包", "avatar": "代理头像", "color": "代理颜色", "name": "代理名称", "namePlaceholder": "例如：市场分析师", "role": "角色/职位", "rolePlaceholder": "例如：市场研究与分析", "description": "描述", "descriptionPlaceholder": "描述此代理的功能...", "expertise": "专业知识与指令", "capabilities": "能力", "addCapability": "添加", "save": "保存代理", "delete": "删除代理" },
+    "modes": {
+      "title": "委员会模式库",
+      "subtitle": "相同的代理在不同模式下产生不同的结果。",
+      "cultureNote": "提示语就是公司文化。",
+      "quickReference": "快速参考",
+      "mode": "模式",
+      "primeDirective": "首要指令",
+      "bestFor": "最适合",
+      "agentBehavior": "代理行为"
+    },
+    "deliberation": {
+      "phases": { "initial_analysis": "初步分析", "cross_examination": "交叉检验", "synthesis": "综合", "ethics_check": "伦理检查" },
+      "inProgress": "讨论进行中",
+      "completed": "讨论完成",
+      "confidence": "置信度"
+    },
+    "customAgent": {
+      "title": "创建自定义代理",
+      "editTitle": "编辑自定义代理",
+      "subtitle": "设计具有专业知识的AI代理",
+      "premium": "代理构建包",
+      "avatar": "代理头像",
+      "color": "代理颜色",
+      "name": "代理名称",
+      "namePlaceholder": "例如：市场分析师",
+      "role": "角色/职位",
+      "rolePlaceholder": "例如：市场研究与分析",
+      "description": "描述",
+      "descriptionPlaceholder": "描述此代理的功能...",
+      "expertise": "专业知识与指令",
+      "capabilities": "能力",
+      "addCapability": "添加",
+      "save": "保存代理",
+      "delete": "删除代理"
+    },
     "status": { "online": "在线", "offline": "离线", "busy": "忙碌" }
   },
   "agent": {
@@ -341,7 +415,18 @@
     "regulatory": { "name": "监管事务顾问", "role": "政府关系与合规", "description": "监管合规、政府事务和行政法专家。" }
   },
   "label": { "online": "在线", "offline": "离线", "busy": "忙碌", "premium": "高级", "locked": "已锁定", "custom": "自定义", "unlock": "解锁", "required": "必填" },
-  "settings": { "title": "设置", "organization": "组织", "users": "用户", "teams": "团队", "roles": "角色与权限", "billing": "计费", "apiKeys": "API密钥", "integrations": "集成", "preferences": "偏好设置", "security": "安全" },
+  "settings": {
+    "title": "设置",
+    "organization": "组织",
+    "users": "用户",
+    "teams": "团队",
+    "roles": "角色与权限",
+    "billing": "计费",
+    "apiKeys": "API密钥",
+    "integrations": "集成",
+    "preferences": "偏好设置",
+    "security": "安全"
+  },
   "errors": {
     "notFound": { "title": "页面未找到", "message": "您要查找的页面不存在。", "backHome": "返回首页" },
     "serverError": { "title": "服务器错误", "message": "我们这边出了问题，请稍后重试。" },
@@ -349,8 +434,40 @@
     "unauthorized": { "title": "未授权", "message": "您没有权限访问此资源。" },
     "sessionExpired": { "title": "会话已过期", "message": "您的会话已过期，请重新登录。" }
   },
-  "footer": { "company": "公司", "product": "产品", "resources": "资源", "legal": "法律", "about": "关于我们", "careers": "招聘", "contact": "联系我们", "press": "新闻", "features": "功能", "integrations": "集成", "enterprise": "企业", "documentation": "文档", "apiReference": "API参考", "status": "系统状态", "community": "社区", "privacy": "隐私政策", "terms": "服务条款", "security": "安全", "cookies": "Cookie政策", "copyright": "© {{year}} Datacendia. 保留所有权利。", "tagline": "主权企业智能" },
-  "time": { "justNow": "刚刚", "minutesAgo": "{{count}}分钟前", "minutesAgo_plural": "{{count}}分钟前", "hoursAgo": "{{count}}小时前", "hoursAgo_plural": "{{count}}小时前", "daysAgo": "{{count}}天前", "daysAgo_plural": "{{count}}天前", "weeksAgo": "{{count}}周前", "weeksAgo_plural": "{{count}}周前" },
+  "footer": {
+    "company": "公司",
+    "product": "产品",
+    "resources": "资源",
+    "legal": "法律",
+    "about": "关于我们",
+    "careers": "招聘",
+    "contact": "联系我们",
+    "press": "新闻",
+    "features": "功能",
+    "integrations": "集成",
+    "enterprise": "企业",
+    "documentation": "文档",
+    "apiReference": "API参考",
+    "status": "系统状态",
+    "community": "社区",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "security": "安全",
+    "cookies": "Cookie政策",
+    "copyright": "© {{year}} Datacendia. 保留所有权利。",
+    "tagline": "主权企业智能"
+  },
+  "time": {
+    "justNow": "刚刚",
+    "minutesAgo": "{{count}}分钟前",
+    "minutesAgo_plural": "{{count}}分钟前",
+    "hoursAgo": "{{count}}小时前",
+    "hoursAgo_plural": "{{count}}小时前",
+    "daysAgo": "{{count}}天前",
+    "daysAgo_plural": "{{count}}天前",
+    "weeksAgo": "{{count}}周前",
+    "weeksAgo_plural": "{{count}}周前"
+  },
   "tooltips": {
     "pillars": {
       "helm": {
@@ -516,7 +633,14 @@
       "connectors": {
         "title": "企业数据连接器",
         "summary": "156+预构建连接器覆盖11个行业垂直领域。连接政府、金融、医疗和全球数据源。",
-        "features": ["政府: NOAA, FAA, FEMA, SEC, 人口普查, USGS, EIA", "金融: 彭博, SWIFT, FIX协议, Refinitiv", "医疗: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO", "供应链: CBP, 马士基, 港口API", "能源: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool", "航空电子: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"],
+        "features": [
+          "政府: NOAA, FAA, FEMA, SEC, 人口普查, USGS, EIA",
+          "金融: 彭博, SWIFT, FIX协议, Refinitiv",
+          "医疗: HL7 FHIR, Epic, Cerner, CDC, FDA, WHO",
+          "供应链: CBP, 马士基, 港口API",
+          "能源: CAISO, PJM, ERCOT, ENTSO-E, Nord Pool",
+          "航空电子: ARINC 429/664, ADS-B, ACARS, MIL-STD-1553"
+        ],
         "useCases": ["实时天气和气候数据集成", "金融市场数据和监管信息流", "医疗互操作性和临床数据", "供应链可见性", "电网和能源市场分析", "航空安全和飞行运营"],
         "guidance": "按垂直行业浏览连接器或搜索特定数据源。每个连接器包含身份验证、速率限制和合规映射。"
       },
@@ -537,14 +661,28 @@
       "cascade": {
         "title": "CendiaCascade™ - 蝴蝶效应",
         "summary": "二阶和三阶后果分析。在意外后果变成事故之前预测它们。",
-        "features": ["多视角分析（CFO、COO、CISO、人员、伦理）", "蝴蝶效应检测（惊人的3阶+影响）", "自动缓解措施生成（预防、检测、响应）", "护栏建议（金丝雀、触发器、断路器、回滚）", "时间线可视化（T+0、T+30、T+90、T+1年）", "带SHA-256哈希的审计跟踪"],
+        "features": [
+          "多视角分析（CFO、COO、CISO、人员、伦理）",
+          "蝴蝶效应检测（惊人的3阶+影响）",
+          "自动缓解措施生成（预防、检测、响应）",
+          "护栏建议（金丝雀、触发器、断路器、回滚）",
+          "时间线可视化（T+0、T+30、T+90、T+1年）",
+          "带SHA-256哈希的审计跟踪"
+        ],
         "useCases": ["在实施前分析人员变动", "预测供应商更换的后果", "在组织图中建模政策变化", "检测反馈循环"],
         "guidance": "加载您的组织图，提出变更，让CendiaCascade追踪后果。您的竞争对手下棋只看一步 — CendiaCascade模拟5步。"
       },
       "adapters": {
         "title": "主权适配器 - 通用连接器",
         "summary": "5个通用适配器取代156个供应商特定连接器。我们提供插座；客户带来插头。",
-        "features": ["File Watcher: 航空、国防、基于文件的摄取", "Webhook Ingest: SaaS、金融网关推送事件", "Database Adapter: ERP、供应链SQL/ODBC", "FHIR协议: 医疗标准", "FIX协议: 金融标准", "MQTT协议: 物联网和能源网格"],
+        "features": [
+          "File Watcher: 航空、国防、基于文件的摄取",
+          "Webhook Ingest: SaaS、金融网关推送事件",
+          "Database Adapter: ERP、供应链SQL/ODBC",
+          "FHIR协议: 医疗标准",
+          "FIX协议: 金融标准",
+          "MQTT协议: 物联网和能源网格"
+        ],
         "useCases": ["通过开放标准连接任何系统", "避免专有API许可责任", "支持气隙和受监管环境", "受监管适配器的BYO-keys"],
         "guidance": "选择与您的集成模式匹配的适配器类型。每个适配器自动执行风险等级、证据记录和配额控制。"
       }
@@ -581,7 +719,12 @@
       "duration": "30分钟",
       "steps": [
         { "title": "用Lineage映射数据", "description": "了解数据如何流经组织。Lineage自动发现源、转换和目标。", "pillar": "lineage", "keyActions": ["连接数据源", "审查发现的实体", "记录转换"] },
-        { "title": "用Health监控质量", "description": "跨所有管道跟踪数据质量指标。设置新鲜度、完整性和准确性警报。", "pillar": "health", "keyActions": ["配置质量检查", "设置警报阈值", "审查质量分数"] },
+        {
+          "title": "用Health监控质量",
+          "description": "跨所有管道跟踪数据质量指标。设置新鲜度、完整性和准确性警报。",
+          "pillar": "health",
+          "keyActions": ["配置质量检查", "设置警报阈值", "审查质量分数"]
+        },
         { "title": "用Mesh连接系统", "description": "构建系统间集成。Mesh处理协议、转换和可靠性。", "sovereign": "mesh", "keyActions": ["定义源/目标", "配置映射", "测试集成"] },
         { "title": "用Flow自动化", "description": "创建自动化数据管道。调度任务、处理错误、编排复杂工作流。", "pillar": "flow", "keyActions": ["设计工作流", "配置触发器", "设置错误处理"] }
       ]
@@ -592,9 +735,19 @@
       "persona": "合规/风险官",
       "duration": "20分钟",
       "steps": [
-        { "title": "用Guard检查安全态势", "description": "查看组织的安全状况。审查策略合规性、访问模式和活动威胁。", "pillar": "guard", "keyActions": ["查看合规分数", "检查策略违规", "审计访问日志"] },
+        {
+          "title": "用Guard检查安全态势",
+          "description": "查看组织的安全状况。审查策略合规性、访问模式和活动威胁。",
+          "pillar": "guard",
+          "keyActions": ["查看合规分数", "检查策略违规", "审计访问日志"]
+        },
         { "title": "验证AI伦理", "description": "确保所有AI模型符合伦理标准。检查偏见、审查决策、记录合规性。", "pillar": "ethics", "keyActions": ["审查偏见检查", "审计模型决策", "记录发现"] },
-        { "title": "从Witness提取审计日志", "description": "访问所有系统操作的不可变记录。生成带加密证据的审计员报告。", "sovereign": "witness", "keyActions": ["定义审计范围", "导出证据包", "生成认证"] },
+        {
+          "title": "从Witness提取审计日志",
+          "description": "访问所有系统操作的不可变记录。生成带加密证据的审计员报告。",
+          "sovereign": "witness",
+          "keyActions": ["定义审计范围", "导出证据包", "生成认证"]
+        },
         { "title": "用Glass解释决策", "description": "当监管机构询问原因时，Glass提供答案。所有AI决策的完整可解释性。", "sovereign": "glass", "keyActions": ["选择决策", "生成解释", "创建合规文档"] }
       ]
     },
@@ -615,12 +768,32 @@
       "persona": "事件负责人",
       "duration": "立即响应",
       "steps": [
-        { "title": "用Pulse评估情况", "description": "立即了解正在发生什么。红色指标精确定位问题。实时显示级联影响。", "space": "pulse", "keyActions": ["识别受影响系统", "确认严重级别", "检查级联警报"] },
-        { "title": "用Lineage追踪根本原因", "description": "回溯数据路径。什么改变了？从哪里开始？Lineage显示确切的故障点。", "pillar": "lineage", "keyActions": ["追踪数据流", "识别引发变更", "记录根本原因"] },
+        {
+          "title": "用Pulse评估情况",
+          "description": "立即了解正在发生什么。红色指标精确定位问题。实时显示级联影响。",
+          "space": "pulse",
+          "keyActions": ["识别受影响系统", "确认严重级别", "检查级联警报"]
+        },
+        {
+          "title": "用Lineage追踪根本原因",
+          "description": "回溯数据路径。什么改变了？从哪里开始？Lineage显示确切的故障点。",
+          "pillar": "lineage",
+          "keyActions": ["追踪数据流", "识别引发变更", "记录根本原因"]
+        },
         { "title": "用Witness收集证据", "description": "捕获发生事件的不可变记录。事后分析和合规要求需要。", "sovereign": "witness", "keyActions": ["导出事件时间线", "捕获系统状态", "保存审计日志"] },
-        { "title": "与Council协调响应", "description": "召集不同领域的AI专家。安全、运营和业务连续性共同制定响应计划。", "space": "council", "keyActions": ["召集响应团队", "获取影响评估", "制定行动计划"] },
+        {
+          "title": "与Council协调响应",
+          "description": "召集不同领域的AI专家。安全、运营和业务连续性共同制定响应计划。",
+          "space": "council",
+          "keyActions": ["召集响应团队", "获取影响评估", "制定行动计划"]
+        },
         { "title": "通过Bridge执行恢复", "description": "将修复和回滚推送到受影响系统。Bridge协调响应同时保持审计追踪。", "space": "bridge", "keyActions": ["部署修复", "执行回滚", "验证恢复"] },
-        { "title": "用Legacy记录和学习", "description": "捕获发生了什么以及学到了什么。未来团队面临类似情况时会感谢您。", "sovereign": "legacy", "keyActions": ["创建事件报告", "记录经验教训", "更新操作手册"] }
+        {
+          "title": "用Legacy记录和学习",
+          "description": "捕获发生了什么以及学到了什么。未来团队面临类似情况时会感谢您。",
+          "sovereign": "legacy",
+          "keyActions": ["创建事件报告", "记录经验教训", "更新操作手册"]
+        }
       ]
     },
     "boardPresentation": {
@@ -633,8 +806,18 @@
         { "title": "用Predict构建预测", "description": "不仅展示现在，还展示未来。生成带置信区间的预测。", "pillar": "predict", "keyActions": ["生成预测", "创建收入预测", "构建场景"] },
         { "title": "用Lineage验证数据", "description": "董事会成员会问尖锐问题。确切了解每个数字的来源。", "pillar": "lineage", "keyActions": ["追踪关键数字", "记录来源", "准备数据血缘"] },
         { "title": "用Lens模拟假设场景", "description": "准备好回答'如果...?'问题。提前模拟战略场景并准备答案。", "space": "lens", "keyActions": ["模拟增长场景", "分析风险因素", "准备替代计划"] },
-        { "title": "从Oracle获取AI综合", "description": "要求Oracle将数据综合成关键洞察和讨论要点。它会发现人类可能错过的模式。", "sovereign": "oracle", "keyActions": ["生成洞察", "请求讨论要点", "识别盲点"] },
-        { "title": "用Guard确保合规", "description": "确保您呈现的内容不会产生合规风险。Guard验证所有数据符合治理要求。", "pillar": "guard", "keyActions": ["运行合规检查", "验证数据分类", "批准演示"] }
+        {
+          "title": "从Oracle获取AI综合",
+          "description": "要求Oracle将数据综合成关键洞察和讨论要点。它会发现人类可能错过的模式。",
+          "sovereign": "oracle",
+          "keyActions": ["生成洞察", "请求讨论要点", "识别盲点"]
+        },
+        {
+          "title": "用Guard确保合规",
+          "description": "确保您呈现的内容不会产生合规风险。Guard验证所有数据符合治理要求。",
+          "pillar": "guard",
+          "keyActions": ["运行合规检查", "验证数据分类", "批准演示"]
+        }
       ]
     },
     "strategist": {
@@ -656,12 +839,37 @@
       "persona": "ML工程师 / 数据科学家",
       "duration": "1-2小时",
       "steps": [
-        { "title": "在BlackBox注册模型", "description": "将训练好的模型上传到注册表。BlackBox自动跟踪版本、依赖项和训练来源。", "sovereign": "blackbox", "keyActions": ["上传模型工件", "注册元数据", "链接训练数据"] },
-        { "title": "在Ethics检查偏见", "description": "任何模型上线前必须通过伦理审查。在人口统计群体中运行偏见检测。", "pillar": "ethics", "keyActions": ["运行偏见评估", "审查公平性指标", "记录合规性"] },
-        { "title": "用Mirage的合成数据测试", "description": "生成边缘案例和对抗性示例。确保模型在没有隐私风险的情况下处理意外情况。", "sovereign": "mirage", "keyActions": ["生成测试数据", "运行压力测试", "验证边缘案例"] },
-        { "title": "在Mirror中模拟", "description": "首先部署到数字孪生。在触及生产之前查看模型在真实流量模式下的表现。", "sovereign": "mirror", "keyActions": ["部署到Mirror", "模拟生产负载", "比较预测"] },
+        {
+          "title": "在BlackBox注册模型",
+          "description": "将训练好的模型上传到注册表。BlackBox自动跟踪版本、依赖项和训练来源。",
+          "sovereign": "blackbox",
+          "keyActions": ["上传模型工件", "注册元数据", "链接训练数据"]
+        },
+        {
+          "title": "在Ethics检查偏见",
+          "description": "任何模型上线前必须通过伦理审查。在人口统计群体中运行偏见检测。",
+          "pillar": "ethics",
+          "keyActions": ["运行偏见评估", "审查公平性指标", "记录合规性"]
+        },
+        {
+          "title": "用Mirage的合成数据测试",
+          "description": "生成边缘案例和对抗性示例。确保模型在没有隐私风险的情况下处理意外情况。",
+          "sovereign": "mirage",
+          "keyActions": ["生成测试数据", "运行压力测试", "验证边缘案例"]
+        },
+        {
+          "title": "在Mirror中模拟",
+          "description": "首先部署到数字孪生。在触及生产之前查看模型在真实流量模式下的表现。",
+          "sovereign": "mirror",
+          "keyActions": ["部署到Mirror", "模拟生产负载", "比较预测"]
+        },
         { "title": "在Glass配置可解释性", "description": "每个预测都需要可解释。设置因素归因和反事实生成以实现透明度。", "sovereign": "glass", "keyActions": ["启用可解释性", "配置因素", "测试解释"] },
-        { "title": "用Predict部署和监控", "description": "自信地上线生产。Predict监控性能、检测漂移并对性能下降发出警报。", "pillar": "predict", "keyActions": ["提升到生产", "设置监控", "配置漂移警报"] }
+        {
+          "title": "用Predict部署和监控",
+          "description": "自信地上线生产。Predict监控性能、检测漂移并对性能下降发出警报。",
+          "pillar": "predict",
+          "keyActions": ["提升到生产", "设置监控", "配置漂移警报"]
+        }
       ]
     },
     "newEmployeeOnboarding": {
@@ -674,8 +882,18 @@
         { "title": "在Graph探索组织知识", "description": "导航知识宇宙。找到新角色的文档、专家和上下文。", "space": "graph", "keyActions": ["搜索角色资源", "查找团队知识", "识别关键联系人"] },
         { "title": "从Legacy学习", "description": "访问前辈的机构知识。最佳实践、决策理由和经验教训。", "sovereign": "legacy", "keyActions": ["审查团队手册", "研究过去决策", "学习最佳实践"] },
         { "title": "在Helm了解您的指标", "description": "每个角色都有KPI。了解您被衡量的标准以及如何跟踪进度。", "pillar": "helm", "keyActions": ["审查分配的指标", "理解目标", "设置个人仪表板"] },
-        { "title": "在Flow设置自动化工作流", "description": "不要重新发明流程。连接到现有工作流并从第一天起自动化重复任务。", "pillar": "flow", "keyActions": ["加入团队工作流", "设置通知", "自动化报告"] },
-        { "title": "在Agents认识AI助手", "description": "您有随时准备帮助的AI队友。认识与您角色相关的代理并学习协作。", "pillar": "agents", "keyActions": ["认识领域代理", "提出第一个问题", "保存有用的回答"] }
+        {
+          "title": "在Flow设置自动化工作流",
+          "description": "不要重新发明流程。连接到现有工作流并从第一天起自动化重复任务。",
+          "pillar": "flow",
+          "keyActions": ["加入团队工作流", "设置通知", "自动化报告"]
+        },
+        {
+          "title": "在Agents认识AI助手",
+          "description": "您有随时准备帮助的AI队友。认识与您角色相关的代理并学习协作。",
+          "pillar": "agents",
+          "keyActions": ["认识领域代理", "提出第一个问题", "保存有用的回答"]
+        }
       ]
     },
     "mergerIntegration": {
@@ -684,7 +902,12 @@
       "persona": "整合负责人 / CIO",
       "duration": "持续",
       "steps": [
-        { "title": "用Lineage映射双方数据景观", "description": "在合并之前需要了解双方。Lineage创建实体和关系的完整地图。", "pillar": "lineage", "keyActions": ["扫描收购方数据", "扫描目标数据", "识别重叠"] },
+        {
+          "title": "用Lineage映射双方数据景观",
+          "description": "在合并之前需要了解双方。Lineage创建实体和关系的完整地图。",
+          "pillar": "lineage",
+          "keyActions": ["扫描收购方数据", "扫描目标数据", "识别重叠"]
+        },
         { "title": "在Helm统一指标", "description": "不同的组织衡量方式不同。为单一真相来源统一KPI定义。", "pillar": "helm", "keyActions": ["映射指标定义", "解决冲突", "创建统一仪表板"] },
         { "title": "通过Mesh连接系统", "description": "构建集成层。Mesh处理连接具有不同协议的异构系统的复杂性。", "sovereign": "mesh", "keyActions": ["映射源系统", "构建集成", "测试数据流"] },
         { "title": "在Legacy保存机构知识", "description": "并购通常意味着失去关键人员。在过渡之前捕获他们的知识。", "sovereign": "legacy", "keyActions": ["访谈关键人员", "记录流程", "存档部落知识"] },
@@ -698,11 +921,36 @@
       "persona": "首席合规官",
       "duration": "2-4小时",
       "steps": [
-        { "title": "从Witness提取审计证据", "description": "组织中的每个行动都被记录。Witness为审计员提供加密证明的证据。", "sovereign": "witness", "keyActions": ["定义审计范围", "导出证据包", "生成证明"] },
-        { "title": "在Guard验证政策合规", "description": "向审计员展示您的政策确实被执行。Guard提供实时合规状态和违规历史。", "pillar": "guard", "keyActions": ["生成合规报告", "显示政策执行", "记录例外"] },
-        { "title": "在Ethics展示AI治理", "description": "AI法规已经到来。展示您的偏见测试、决策文档和伦理审查流程。", "pillar": "ethics", "keyActions": ["导出伦理审查", "显示偏见测试结果", "记录AI治理"] },
-        { "title": "用Glass解释AI决策", "description": "当审计员问'系统为什么做出这个决定？'时，Glass提供完整的解释。", "sovereign": "glass", "keyActions": ["生成决策报告", "显示因素归因", "提供反事实"] },
-        { "title": "追踪数据血缘以确保准确性", "description": "通过展示数字来源来证明其准确性。Lineage提供从源到报告的可追溯性。", "pillar": "lineage", "keyActions": ["导出血缘图", "记录转换", "证明数据准确性"] },
+        {
+          "title": "从Witness提取审计证据",
+          "description": "组织中的每个行动都被记录。Witness为审计员提供加密证明的证据。",
+          "sovereign": "witness",
+          "keyActions": ["定义审计范围", "导出证据包", "生成证明"]
+        },
+        {
+          "title": "在Guard验证政策合规",
+          "description": "向审计员展示您的政策确实被执行。Guard提供实时合规状态和违规历史。",
+          "pillar": "guard",
+          "keyActions": ["生成合规报告", "显示政策执行", "记录例外"]
+        },
+        {
+          "title": "在Ethics展示AI治理",
+          "description": "AI法规已经到来。展示您的偏见测试、决策文档和伦理审查流程。",
+          "pillar": "ethics",
+          "keyActions": ["导出伦理审查", "显示偏见测试结果", "记录AI治理"]
+        },
+        {
+          "title": "用Glass解释AI决策",
+          "description": "当审计员问'系统为什么做出这个决定？'时，Glass提供完整的解释。",
+          "sovereign": "glass",
+          "keyActions": ["生成决策报告", "显示因素归因", "提供反事实"]
+        },
+        {
+          "title": "追踪数据血缘以确保准确性",
+          "description": "通过展示数字来源来证明其准确性。Lineage提供从源到报告的可追溯性。",
+          "pillar": "lineage",
+          "keyActions": ["导出血缘图", "记录转换", "证明数据准确性"]
+        },
         { "title": "通过Key审查访问控制", "description": "谁在何时访问了什么？Key提供任何时期的完整访问审计追踪。", "sovereign": "key", "keyActions": ["导出访问日志", "显示权限历史", "记录控制"] }
       ]
     },
@@ -712,10 +960,30 @@
       "persona": "客户成功 / 收入运营",
       "duration": "每日工作流",
       "steps": [
-        { "title": "用Predict识别风险客户", "description": "ML模型分析数百个信号来评分流失风险。在客户自己知道之前知道谁有风险。", "pillar": "predict", "keyActions": ["审查风险评分", "识别最高风险", "理解风险因素"] },
-        { "title": "在Helm了解客户健康", "description": "跟踪客户健康指标。使用趋势、支持工单、参与度评分 - 全部在一个视图中。", "pillar": "helm", "keyActions": ["审查健康评分", "检查参与度指标", "识别趋势"] },
-        { "title": "在Graph探索客户旅程", "description": "查看完整的客户故事。每次互动、每个接触点、每个信号 - 在上下文中连接。", "space": "graph", "keyActions": ["查看客户时间线", "探索互动", "寻找模式"] },
-        { "title": "从Council获取留存建议", "description": "召集AI顾问制定留存策略。每个客户都是独特的 - 获取个性化方法。", "space": "council", "keyActions": ["展示客户档案", "获取留存想法", "优先排序行动"] },
+        {
+          "title": "用Predict识别风险客户",
+          "description": "ML模型分析数百个信号来评分流失风险。在客户自己知道之前知道谁有风险。",
+          "pillar": "predict",
+          "keyActions": ["审查风险评分", "识别最高风险", "理解风险因素"]
+        },
+        {
+          "title": "在Helm了解客户健康",
+          "description": "跟踪客户健康指标。使用趋势、支持工单、参与度评分 - 全部在一个视图中。",
+          "pillar": "helm",
+          "keyActions": ["审查健康评分", "检查参与度指标", "识别趋势"]
+        },
+        {
+          "title": "在Graph探索客户旅程",
+          "description": "查看完整的客户故事。每次互动、每个接触点、每个信号 - 在上下文中连接。",
+          "space": "graph",
+          "keyActions": ["查看客户时间线", "探索互动", "寻找模式"]
+        },
+        {
+          "title": "从Council获取留存建议",
+          "description": "召集AI顾问制定留存策略。每个客户都是独特的 - 获取个性化方法。",
+          "space": "council",
+          "keyActions": ["展示客户档案", "获取留存想法", "优先排序行动"]
+        },
         { "title": "在Flow触发留存工作流", "description": "将建议转化为行动。自动化外联、升级和跟进。", "pillar": "flow", "keyActions": ["触发外联", "安排跟进", "升级到团队"] },
         { "title": "在Lens模拟收入影响", "description": "量化风险。Lens显示流失场景的收入影响和干预成功率。", "space": "lens", "keyActions": ["模拟流失影响", "计算干预ROI", "优先排序努力"] }
       ]
@@ -740,7 +1008,12 @@
       "persona": "数据管理员 / 质量负责人",
       "duration": "持续计划",
       "steps": [
-        { "title": "在Lineage评估当前质量", "description": "无法改进无法衡量的东西。Lineage在数据旅程的每个阶段评分质量。", "pillar": "lineage", "keyActions": ["运行质量评估", "识别问题区域", "优先排序问题"] },
+        {
+          "title": "在Lineage评估当前质量",
+          "description": "无法改进无法衡量的东西。Lineage在数据旅程的每个阶段评分质量。",
+          "pillar": "lineage",
+          "keyActions": ["运行质量评估", "识别问题区域", "优先排序问题"]
+        },
         { "title": "在Helm跟踪质量指标", "description": "使数据质量成为一流KPI。跟踪完整性、准确性、及时性和一致性。", "pillar": "helm", "keyActions": ["创建质量仪表板", "设定改进目标", "跟踪进度"] },
         { "title": "在Guard设置质量规则", "description": "定义并执行质量标准。Guard根据您的规则自动验证数据。", "pillar": "guard", "keyActions": ["定义质量规则", "配置验证", "设置警报"] },
         { "title": "在Flow自动化质量检查", "description": "在管道中构建质量。自动化检查持续运行，尽早发现问题。", "pillar": "flow", "keyActions": ["构建质量工作流", "添加验证步骤", "配置修复"] },
@@ -755,7 +1028,12 @@
       "duration": "立即响应",
       "steps": [
         { "title": "用Guard检测威胁", "description": "Guard的威胁检测引擎识别可疑活动。按严重性和置信度排名。", "pillar": "guard", "keyActions": ["审查威胁警报", "评估严重性", "确认威胁"] },
-        { "title": "用Lineage评估爆炸半径", "description": "哪些系统和数据可能受到影响？Lineage映射威胁的潜在影响。", "pillar": "lineage", "keyActions": ["映射受影响系统", "识别敏感数据", "评估暴露"] },
+        {
+          "title": "用Lineage评估爆炸半径",
+          "description": "哪些系统和数据可能受到影响？Lineage映射威胁的潜在影响。",
+          "pillar": "lineage",
+          "keyActions": ["映射受影响系统", "识别敏感数据", "评估暴露"]
+        },
         { "title": "用Key审查访问日志", "description": "谁在何时访问了什么？Key提供取证追踪以理解攻击向量。", "sovereign": "key", "keyActions": ["提取访问日志", "识别异常", "追踪攻击路径"] },
         { "title": "用Witness保存证据", "description": "在遏制改变证据之前捕获不可变记录。调查需要。", "sovereign": "witness", "keyActions": ["捕获系统状态", "导出审计日志", "保存时间线"] },
         { "title": "通过Bridge执行遏制", "description": "隔离威胁。Bridge可以撤销访问、隔离系统和部署对策。", "space": "bridge", "keyActions": ["撤销受损访问", "隔离系统", "部署补丁"] },
@@ -763,6 +1041,18 @@
       ]
     }
   },
-  "accessibility": { "skipToMain": "跳转到主要内容", "skipToNav": "跳转到导航", "openMenu": "打开菜单", "closeMenu": "关闭菜单", "expandSection": "展开部分", "collapseSection": "折叠部分", "loading": "正在加载内容", "newWindow": "在新窗口打开", "externalLink": "外部链接", "required": "必填字段", "optional": "可选" },
+  "accessibility": {
+    "skipToMain": "跳转到主要内容",
+    "skipToNav": "跳转到导航",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "expandSection": "展开部分",
+    "collapseSection": "折叠部分",
+    "loading": "正在加载内容",
+    "newWindow": "在新窗口打开",
+    "externalLink": "外部链接",
+    "required": "必填字段",
+    "optional": "可选"
+  },
   "_meta": { "direction": "ltr", "language": "简体中文", "completeness": "100%" }
 }

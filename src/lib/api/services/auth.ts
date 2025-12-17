@@ -10,7 +10,7 @@ export const authApi = {
    */
   async login(credentials: LoginRequest): Promise<ApiResponse<LoginResponse>> {
     const response = await api.post<LoginResponse>('/auth/login', credentials);
-    
+
     if (response.success && response.data) {
       tokenManager.setTokens({
         accessToken: response.data.accessToken,
@@ -18,7 +18,7 @@ export const authApi = {
         expiresIn: response.data.expiresIn,
       });
     }
-    
+
     return response;
   },
 
@@ -27,7 +27,7 @@ export const authApi = {
    */
   async register(data: RegisterRequest): Promise<ApiResponse<LoginResponse>> {
     const response = await api.post<LoginResponse>('/auth/register', data);
-    
+
     if (response.success && response.data) {
       tokenManager.setTokens({
         accessToken: response.data.accessToken,
@@ -35,7 +35,7 @@ export const authApi = {
         expiresIn: response.data.expiresIn,
       });
     }
-    
+
     return response;
   },
 

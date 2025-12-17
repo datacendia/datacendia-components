@@ -62,12 +62,15 @@ export const ResetPasswordPage: React.FC = () => {
         setStatus('success');
         setTimeout(() => {
           navigate('/auth/login', {
-            state: { message: 'Password reset successful! Please log in with your new password.' }
+            state: { message: 'Password reset successful! Please log in with your new password.' },
           });
         }, 3000);
       } else {
         setError(response.error?.message || 'Failed to reset password');
-        if (response.error?.message?.includes('expired') || response.error?.message?.includes('invalid')) {
+        if (
+          response.error?.message?.includes('expired') ||
+          response.error?.message?.includes('invalid')
+        ) {
           setStatus('error');
         }
       }
@@ -86,9 +89,7 @@ export const ResetPasswordPage: React.FC = () => {
             <XCircle className="w-8 h-8 text-yellow-400" />
           </div>
           <h2 className="text-xl font-semibold text-white mb-2">Invalid Reset Link</h2>
-          <p className="text-gray-400 mb-6">
-            This password reset link is invalid or has expired.
-          </p>
+          <p className="text-gray-400 mb-6">This password reset link is invalid or has expired.</p>
           <Link
             to="/auth/forgot-password"
             className="block w-full py-3 px-4 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors"
@@ -108,9 +109,7 @@ export const ResetPasswordPage: React.FC = () => {
             <CheckCircle className="w-8 h-8 text-green-400" />
           </div>
           <h2 className="text-xl font-semibold text-white mb-2">Password Reset!</h2>
-          <p className="text-gray-400 mb-4">
-            Your password has been reset successfully.
-          </p>
+          <p className="text-gray-400 mb-4">Your password has been reset successfully.</p>
           <p className="text-sm text-gray-500">Redirecting to login...</p>
         </div>
       </div>
@@ -146,9 +145,7 @@ export const ResetPasswordPage: React.FC = () => {
             <KeyRound className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-2xl font-bold text-white">Create New Password</h1>
-          <p className="mt-2 text-gray-400">
-            Enter a strong password for your account.
-          </p>
+          <p className="mt-2 text-gray-400">Enter a strong password for your account.</p>
         </div>
 
         {/* Form Card */}
@@ -193,7 +190,11 @@ export const ResetPasswordPage: React.FC = () => {
                         key={level}
                         className={`h-1 flex-1 rounded-full ${
                           passwordStrength >= level
-                            ? passwordStrength >= 4 ? 'bg-green-500' : passwordStrength >= 3 ? 'bg-yellow-500' : 'bg-red-500'
+                            ? passwordStrength >= 4
+                              ? 'bg-green-500'
+                              : passwordStrength >= 3
+                                ? 'bg-yellow-500'
+                                : 'bg-red-500'
                             : 'bg-gray-700'
                         }`}
                       />
@@ -221,7 +222,10 @@ export const ResetPasswordPage: React.FC = () => {
             </div>
 
             <div>
-              <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-300 mb-2">
+              <label
+                htmlFor="confirmPassword"
+                className="block text-sm font-medium text-gray-300 mb-2"
+              >
                 Confirm Password
               </label>
               <div className="relative">
@@ -243,7 +247,13 @@ export const ResetPasswordPage: React.FC = () => {
 
             <button
               type="submit"
-              disabled={isLoading || !password || !confirmPassword || password !== confirmPassword || passwordStrength < 4}
+              disabled={
+                isLoading ||
+                !password ||
+                !confirmPassword ||
+                password !== confirmPassword ||
+                passwordStrength < 4
+              }
               className="w-full py-3 px-4 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-medium rounded-lg transition-all flex items-center justify-center gap-2"
             >
               {isLoading ? (

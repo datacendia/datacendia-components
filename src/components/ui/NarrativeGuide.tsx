@@ -45,7 +45,13 @@ interface Narrative {
   steps: NarrativeStep[];
 }
 
-type NarrativeId = 'welcome' | 'executive' | 'dataEngineer' | 'complianceOfficer' | 'strategist' | 'quickStart';
+type NarrativeId =
+  | 'welcome'
+  | 'executive'
+  | 'dataEngineer'
+  | 'complianceOfficer'
+  | 'strategist'
+  | 'quickStart';
 
 interface NarrativeGuideProps {
   narrativeId: NarrativeId;
@@ -83,9 +89,7 @@ export const NarrativeSelector: React.FC<NarrativeSelectorProps> = ({
 
   return (
     <div className={`space-y-3 ${className}`}>
-      <h3 className="text-sm font-semibold text-neutral-900">
-        {t('common.select')} a Journey
-      </h3>
+      <h3 className="text-sm font-semibold text-neutral-900">{t('common.select')} a Journey</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {narratives.map(({ id, icon, color }) => {
           const title = t(`narratives.${id}.title`);
@@ -99,16 +103,14 @@ export const NarrativeSelector: React.FC<NarrativeSelectorProps> = ({
               onClick={() => onSelect(id)}
               className="flex items-start gap-3 p-4 bg-white rounded-xl border border-neutral-200 hover:border-primary-300 hover:shadow-md transition-all text-left group"
             >
-              <div className={`${color} text-white p-2 rounded-lg group-hover:scale-110 transition-transform`}>
+              <div
+                className={`${color} text-white p-2 rounded-lg group-hover:scale-110 transition-transform`}
+              >
                 {icon}
               </div>
               <div className="flex-1 min-w-0">
-                <h4 className="text-sm font-semibold text-neutral-900 truncate">
-                  {title}
-                </h4>
-                <p className="text-xs text-neutral-500 line-clamp-2 mt-0.5">
-                  {subtitle}
-                </p>
+                <h4 className="text-sm font-semibold text-neutral-900 truncate">{title}</h4>
+                <p className="text-xs text-neutral-500 line-clamp-2 mt-0.5">{subtitle}</p>
                 <div className="flex items-center gap-3 mt-2 text-xs text-neutral-400">
                   {duration && !duration.includes('.duration') && (
                     <span className="flex items-center gap-1">
@@ -204,10 +206,10 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
 
   const goToNext = () => {
     if (currentStep < narrative.steps.length - 1) {
-      setCompletedSteps(prev => new Set([...prev, currentStep]));
+      setCompletedSteps((prev) => new Set([...prev, currentStep]));
       setCurrentStep(currentStep + 1);
     } else {
-      setCompletedSteps(prev => new Set([...prev, currentStep]));
+      setCompletedSteps((prev) => new Set([...prev, currentStep]));
       onComplete?.();
     }
   };
@@ -235,7 +237,7 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
       <div className={`fixed bottom-4 right-4 z-50 ${className}`}>
         <div className="bg-white rounded-2xl shadow-2xl border border-neutral-200 overflow-hidden w-80">
           {/* Header */}
-          <div 
+          <div
             className="bg-gradient-to-r from-primary-600 to-primary-500 px-4 py-3 cursor-pointer"
             onClick={() => setIsExpanded(!isExpanded)}
           >
@@ -252,7 +254,7 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
             </div>
             {/* Progress bar */}
             <div className="mt-2 h-1 bg-white/30 rounded-full overflow-hidden">
-              <div 
+              <div
                 className="h-full bg-white rounded-full transition-all duration-300"
                 style={{ width: `${progress}%` }}
               />
@@ -340,7 +342,7 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
           )}
           {/* Progress bar */}
           <div className="mt-3 h-1.5 bg-white/30 rounded-full overflow-hidden">
-            <div 
+            <div
               className="h-full bg-white rounded-full transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
@@ -361,17 +363,19 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
                   isActive
                     ? 'bg-primary-50 border border-primary-200'
                     : isCompleted
-                    ? 'bg-green-50 border border-green-200'
-                    : 'hover:bg-neutral-50 border border-transparent'
+                      ? 'bg-green-50 border border-green-200'
+                      : 'hover:bg-neutral-50 border border-transparent'
                 }`}
               >
-                <div className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center ${
-                  isCompleted
-                    ? 'bg-green-500 text-white'
-                    : isActive
-                    ? 'bg-primary-500 text-white'
-                    : 'bg-neutral-200 text-neutral-500'
-                }`}>
+                <div
+                  className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center ${
+                    isCompleted
+                      ? 'bg-green-500 text-white'
+                      : isActive
+                        ? 'bg-primary-500 text-white'
+                        : 'bg-neutral-200 text-neutral-500'
+                  }`}
+                >
                   {isCompleted ? (
                     <CheckCircle2 className="w-4 h-4" />
                   ) : (
@@ -379,15 +383,19 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
                   )}
                 </div>
                 <div className="flex-1 min-w-0">
-                  <h4 className={`text-sm font-medium ${
-                    isActive ? 'text-primary-700' : isCompleted ? 'text-green-700' : 'text-neutral-700'
-                  }`}>
+                  <h4
+                    className={`text-sm font-medium ${
+                      isActive
+                        ? 'text-primary-700'
+                        : isCompleted
+                          ? 'text-green-700'
+                          : 'text-neutral-700'
+                    }`}
+                  >
                     {step.title}
                   </h4>
                   {isActive && (
-                    <p className="text-xs text-neutral-500 mt-1 line-clamp-2">
-                      {step.description}
-                    </p>
+                    <p className="text-xs text-neutral-500 mt-1 line-clamp-2">{step.description}</p>
                   )}
                 </div>
               </button>
@@ -431,7 +439,7 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
           </span>
           {/* Progress bar */}
           <div className="mt-1 w-24 h-1.5 bg-neutral-200 rounded-full overflow-hidden">
-            <div 
+            <div
               className="h-full bg-primary-500 rounded-full transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
@@ -441,18 +449,17 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
 
       {currentStepData && (
         <div className="bg-neutral-50 rounded-lg p-4 mb-4">
-          <h4 className="text-base font-semibold text-neutral-900 mb-2">
-            {currentStepData.title}
-          </h4>
-          <p className="text-sm text-neutral-600 leading-relaxed">
-            {currentStepData.description}
-          </p>
+          <h4 className="text-base font-semibold text-neutral-900 mb-2">{currentStepData.title}</h4>
+          <p className="text-sm text-neutral-600 leading-relaxed">{currentStepData.description}</p>
 
           {/* Key actions */}
           {currentStepData.keyActions && currentStepData.keyActions.length > 0 && (
             <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-2">
               {currentStepData.keyActions.map((action, idx) => (
-                <div key={idx} className="flex items-center gap-2 text-sm text-neutral-600 bg-white px-3 py-2 rounded-lg">
+                <div
+                  key={idx}
+                  className="flex items-center gap-2 text-sm text-neutral-600 bg-white px-3 py-2 rounded-lg"
+                >
                   <Circle className="w-3 h-3 text-primary-500" />
                   <span>{action}</span>
                 </div>
@@ -480,8 +487,8 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
                 index === currentStep
                   ? 'w-6 bg-primary-500'
                   : completedSteps.has(index)
-                  ? 'bg-green-500'
-                  : 'bg-neutral-300 hover:bg-neutral-400'
+                    ? 'bg-green-500'
+                    : 'bg-neutral-300 hover:bg-neutral-400'
               }`}
             />
           ))}

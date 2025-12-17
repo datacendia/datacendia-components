@@ -2,7 +2,7 @@
 // CENDIA CHRONOS™ - THE ENTERPRISE TIME MACHINE
 // Premium Package: Time-travel through your organization's history and future
 // "The Black Box Flight Recorder for Corporate Intent"
-// 
+//
 // ENHANCED FEATURES:
 // - Diff View: Side-by-side comparison of any two dates
 // - Pivotal Moment Detection: AI identifies critical decision points
@@ -13,7 +13,7 @@
 // - Causal Analysis: Trace metrics to root decisions
 // - Animated Graph Preview: Knowledge graph morphs with timeline
 // - Monte Carlo Simulations: Run 1000+ scenarios
-// 
+//
 // CHRONOS-ERP™ - Enterprise System Time Travel:
 // - Salesforce: CRM pipelines, opportunities, forecasts
 // - SAP/NetSuite: ERP transactions, GL entries, purchase orders
@@ -159,7 +159,15 @@ interface MonteCarloResult {
 // CHRONOS-ERP™ TYPES - Enterprise System Time Travel
 // =============================================================================
 
-type ERPSource = 'salesforce' | 'sap' | 'workday' | 'jira' | 'servicenow' | 'github' | 'sharepoint' | 'netsuite';
+type ERPSource =
+  | 'salesforce'
+  | 'sap'
+  | 'workday'
+  | 'jira'
+  | 'servicenow'
+  | 'github'
+  | 'sharepoint'
+  | 'netsuite';
 
 interface ERPConnector {
   id: string;
@@ -207,7 +215,13 @@ interface HREvent {
   id: string;
   timestamp: Date;
   source: 'workday' | 'bamboohr' | 'adp';
-  eventType: 'hire' | 'termination' | 'promotion' | 'transfer' | 'compensation_change' | 'performance_review';
+  eventType:
+    | 'hire'
+    | 'termination'
+    | 'promotion'
+    | 'transfer'
+    | 'compensation_change'
+    | 'performance_review';
   department: string;
   position: string;
   level?: string;
@@ -644,20 +658,65 @@ interface ZeroKnowledgeProof {
 const generateEvents = (): TimelineEvent[] => {
   const events: TimelineEvent[] = [];
   const now = new Date();
-  
+
   const templates = [
-    { type: 'decision' as const, titles: ['Board Approved Q3 Budget', 'Council Greenlit Acquisition', 'Authorized Series C Terms', 'Approved Hiring Freeze Lift', 'Sanctioned Market Expansion'] },
-    { type: 'metric' as const, titles: ['Revenue Milestone: $10M ARR', 'Churn Spike Detected', 'NPS Score Jump to 72', 'CAC Reduced by 23%', 'LTV:CAC Hit 4.2x'] },
-    { type: 'personnel' as const, titles: ['VP Sales Departure', 'CTO Transition', 'Engineering +12 Headcount', 'CFO Hired from Goldman', 'Sales Team Restructure'] },
-    { type: 'financial' as const, titles: ['Series B Close: $45M', 'Q2 Earnings Beat', 'Debt Facility Secured', 'Tax Credit Realized', 'Bridge Round Complete'] },
-    { type: 'milestone' as const, titles: ['1,000th Enterprise Customer', 'SOC2 Type II Certified', 'GDPR Compliance Achieved', 'Product Hunt Launch', 'First $1M Contract'] },
+    {
+      type: 'decision' as const,
+      titles: [
+        'Board Approved Q3 Budget',
+        'Council Greenlit Acquisition',
+        'Authorized Series C Terms',
+        'Approved Hiring Freeze Lift',
+        'Sanctioned Market Expansion',
+      ],
+    },
+    {
+      type: 'metric' as const,
+      titles: [
+        'Revenue Milestone: $10M ARR',
+        'Churn Spike Detected',
+        'NPS Score Jump to 72',
+        'CAC Reduced by 23%',
+        'LTV:CAC Hit 4.2x',
+      ],
+    },
+    {
+      type: 'personnel' as const,
+      titles: [
+        'VP Sales Departure',
+        'CTO Transition',
+        'Engineering +12 Headcount',
+        'CFO Hired from Goldman',
+        'Sales Team Restructure',
+      ],
+    },
+    {
+      type: 'financial' as const,
+      titles: [
+        'Series B Close: $45M',
+        'Q2 Earnings Beat',
+        'Debt Facility Secured',
+        'Tax Credit Realized',
+        'Bridge Round Complete',
+      ],
+    },
+    {
+      type: 'milestone' as const,
+      titles: [
+        '1,000th Enterprise Customer',
+        'SOC2 Type II Certified',
+        'GDPR Compliance Achieved',
+        'Product Hunt Launch',
+        'First $1M Contract',
+      ],
+    },
   ];
-  
+
   for (let i = 0; i < 80; i++) {
     const daysAgo = Math.floor(Math.random() * 730);
     const hoursAgo = Math.floor(Math.random() * 24);
     const template = templates[Math.floor(Math.random() * templates.length)];
-    
+
     events.push({
       id: `evt-${i}`,
       timestamp: new Date(now.getTime() - (daysAgo * 24 + hoursAgo) * 60 * 60 * 1000),
@@ -666,12 +725,17 @@ const generateEvents = (): TimelineEvent[] => {
       description: 'Full audit trail available. Click to replay Council deliberation.',
       impact: ['positive', 'negative', 'neutral'][Math.floor(Math.random() * 3)] as any,
       magnitude: Math.floor(Math.random() * 10) + 1,
-      department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal'][Math.floor(Math.random() * 6)],
-      actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council'].slice(0, Math.floor(Math.random() * 3) + 1),
+      department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal'][
+        Math.floor(Math.random() * 6)
+      ],
+      actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council'].slice(
+        0,
+        Math.floor(Math.random() * 3) + 1
+      ),
       deliberationId: Math.random() > 0.5 ? `dlb-${i}` : undefined,
     });
   }
-  
+
   return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
 };
 
@@ -681,9 +745,9 @@ const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
   const isPast = daysDiff > 0;
   const factor = isPast ? Math.pow(0.9992, daysDiff) : Math.pow(1.0008, -daysDiff);
   const volatility = mode === 'fastforward' ? 0.15 : 0.05;
-  
+
   const randomize = (base: number) => base * factor * (1 + (Math.random() - 0.5) * volatility);
-  
+
   return {
     timestamp: date,
     metrics: {
@@ -697,9 +761,14 @@ const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
       runway: Math.round(randomize(18)),
     },
     council: {
-      activeAgents: ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'].slice(0, Math.floor(Math.random() * 2) + 4),
+      activeAgents: ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'].slice(
+        0,
+        Math.floor(Math.random() * 2) + 4
+      ),
       pendingDecisions: Math.floor(Math.random() * 8),
-      totalDeliberations: Math.floor(daysDiff > 0 ? 450 - daysDiff * 0.5 : 450 + Math.abs(daysDiff) * 0.3),
+      totalDeliberations: Math.floor(
+        daysDiff > 0 ? 450 - daysDiff * 0.5 : 450 + Math.abs(daysDiff) * 0.3
+      ),
       consensusRate: Math.min(100, randomize(78)),
     },
     graph: {
@@ -714,21 +783,31 @@ const generateSnapshot = (date: Date, mode: ChronosMode): StateSnapshot => {
 // Generate Pivotal Moments (AI-detected critical points)
 const generatePivotalMoments = (events: TimelineEvent[]): PivotalMoment[] => {
   return events
-    .filter(e => e.magnitude >= 7)
+    .filter((e) => e.magnitude >= 7)
     .slice(0, 8)
-    .map(event => ({
+    .map((event) => ({
       id: `pivot-${event.id}`,
       timestamp: event.timestamp,
       event,
       significance: event.magnitude * 10 + Math.floor(Math.random() * 20),
-      reason: event.impact === 'positive' 
-        ? `Major growth catalyst - ${event.title.toLowerCase()}`
-        : event.impact === 'negative'
-        ? `Critical inflection point - ${event.title.toLowerCase()}`
-        : `Strategic pivot opportunity - ${event.title.toLowerCase()}`,
-      impactedMetrics: ['revenue', 'profit', 'customers'].slice(0, Math.floor(Math.random() * 2) + 2),
-      beforeState: { revenue: 10000000 + Math.random() * 2000000, profit: 2000000 + Math.random() * 500000 },
-      afterState: { revenue: 11000000 + Math.random() * 3000000, profit: 2200000 + Math.random() * 800000 },
+      reason:
+        event.impact === 'positive'
+          ? `Major growth catalyst - ${event.title.toLowerCase()}`
+          : event.impact === 'negative'
+            ? `Critical inflection point - ${event.title.toLowerCase()}`
+            : `Strategic pivot opportunity - ${event.title.toLowerCase()}`,
+      impactedMetrics: ['revenue', 'profit', 'customers'].slice(
+        0,
+        Math.floor(Math.random() * 2) + 2
+      ),
+      beforeState: {
+        revenue: 10000000 + Math.random() * 2000000,
+        profit: 2000000 + Math.random() * 500000,
+      },
+      afterState: {
+        revenue: 11000000 + Math.random() * 3000000,
+        profit: 2200000 + Math.random() * 800000,
+      },
     }));
 };
 
@@ -744,12 +823,13 @@ const generateCouncilReplay = (event: TimelineEvent): CouncilReplay => {
     duration: 180 + Math.floor(Math.random() * 120),
     phases: agents.slice(0, 4).map((agent, i) => ({
       agent,
-      statement: [
-        `Based on my analysis, the financial implications suggest ${event.impact === 'positive' ? 'strong upside potential' : 'careful risk management'}.`,
-        `From an operational standpoint, we need to consider resource allocation and timeline impacts.`,
-        `Security and compliance review indicates ${Math.random() > 0.5 ? 'green light' : 'minor concerns to address'}.`,
-        `Market positioning analysis shows ${event.impact === 'positive' ? 'competitive advantage' : 'need for differentiation'}.`,
-      ][i] || 'I concur with the assessment and recommend proceeding with caution.',
+      statement:
+        [
+          `Based on my analysis, the financial implications suggest ${event.impact === 'positive' ? 'strong upside potential' : 'careful risk management'}.`,
+          `From an operational standpoint, we need to consider resource allocation and timeline impacts.`,
+          `Security and compliance review indicates ${Math.random() > 0.5 ? 'green light' : 'minor concerns to address'}.`,
+          `Market positioning analysis shows ${event.impact === 'positive' ? 'competitive advantage' : 'need for differentiation'}.`,
+        ][i] || 'I concur with the assessment and recommend proceeding with caution.',
       sentiment: ['positive', 'neutral', 'positive', 'neutral'][i] as any,
       timestamp: (i + 1) * 45,
     })),
@@ -761,11 +841,17 @@ const generateCouncilReplay = (event: TimelineEvent): CouncilReplay => {
 // Generate Causal Chain (Impact Tracing)
 const generateCausalChain = (event: TimelineEvent, allEvents: TimelineEvent[]): CausalChain => {
   const effects = allEvents
-    .filter(e => e.timestamp > event.timestamp && e.timestamp < new Date(event.timestamp.getTime() + 90 * 24 * 60 * 60 * 1000))
+    .filter(
+      (e) =>
+        e.timestamp > event.timestamp &&
+        e.timestamp < new Date(event.timestamp.getTime() + 90 * 24 * 60 * 60 * 1000)
+    )
     .slice(0, 4)
-    .map(e => ({
+    .map((e) => ({
       event: e,
-      delay: Math.floor((e.timestamp.getTime() - event.timestamp.getTime()) / (24 * 60 * 60 * 1000)),
+      delay: Math.floor(
+        (e.timestamp.getTime() - event.timestamp.getTime()) / (24 * 60 * 60 * 1000)
+      ),
       correlation: 0.5 + Math.random() * 0.45,
     }));
 
@@ -787,7 +873,7 @@ const generateMonteCarloResults = (variable: string): MonteCarloResult => {
     { scenario: 'Pessimistic', probability: 0.15, revenue: 9000000, profit: 1500000 },
     { scenario: 'Conservative', probability: 0.25, revenue: 11000000, profit: 2200000 },
     { scenario: 'Base Case', probability: 0.35, revenue: 12500000, profit: 2800000 },
-    { scenario: 'Optimistic', probability: 0.20, revenue: 15000000, profit: 3500000 },
+    { scenario: 'Optimistic', probability: 0.2, revenue: 15000000, profit: 3500000 },
     { scenario: 'Best Case', probability: 0.05, revenue: 18000000, profit: 4500000 },
   ];
 
@@ -906,15 +992,31 @@ const generateERPConnectors = (): ERPConnector[] => [
 
 const generateCRMEvents = (days: number = 90): CRMPipelineEvent[] => {
   const events: CRMPipelineEvent[] = [];
-  const stages = ['Prospecting', 'Qualification', 'Proposal', 'Negotiation', 'Closed Won', 'Closed Lost'];
-  const accounts = ['Acme Corp', 'TechGiant Inc', 'GlobalBank', 'MegaRetail', 'HealthFirst', 'EduPrime', 'AutoMax', 'EnergyPlus'];
+  const stages = [
+    'Prospecting',
+    'Qualification',
+    'Proposal',
+    'Negotiation',
+    'Closed Won',
+    'Closed Lost',
+  ];
+  const accounts = [
+    'Acme Corp',
+    'TechGiant Inc',
+    'GlobalBank',
+    'MegaRetail',
+    'HealthFirst',
+    'EduPrime',
+    'AutoMax',
+    'EnergyPlus',
+  ];
   const owners = ['Sarah Chen', 'Mike Johnson', 'Emily Davis', 'James Wilson', 'Lisa Brown'];
 
   for (let i = 0; i < 150; i++) {
     const daysAgo = Math.floor(Math.random() * days);
     const amount = Math.floor(Math.random() * 500000) + 25000;
     const stageIdx = Math.floor(Math.random() * stages.length);
-    
+
     events.push({
       id: `crm-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
@@ -935,14 +1037,20 @@ const generateCRMEvents = (days: number = 90): CRMPipelineEvent[] => {
 
 const generateERPTransactions = (days: number = 90): ERPTransactionEvent[] => {
   const events: ERPTransactionEvent[] = [];
-  const types: ERPTransactionEvent['transactionType'][] = ['purchase_order', 'sales_order', 'invoice', 'payment', 'journal_entry'];
+  const types: ERPTransactionEvent['transactionType'][] = [
+    'purchase_order',
+    'sales_order',
+    'invoice',
+    'payment',
+    'journal_entry',
+  ];
   const costCenters = ['CC-1000', 'CC-2000', 'CC-3000', 'CC-4000', 'CC-5000'];
   const glAccounts = ['4000-Revenue', '5000-COGS', '6000-OpEx', '7000-Payroll', '8000-Other'];
 
   for (let i = 0; i < 200; i++) {
     const daysAgo = Math.floor(Math.random() * days);
     const type = types[Math.floor(Math.random() * types.length)];
-    
+
     events.push({
       id: `erp-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
@@ -962,15 +1070,31 @@ const generateERPTransactions = (days: number = 90): ERPTransactionEvent[] => {
 
 const generateHREvents = (days: number = 180): HREvent[] => {
   const events: HREvent[] = [];
-  const eventTypes: HREvent['eventType'][] = ['hire', 'termination', 'promotion', 'transfer', 'compensation_change', 'performance_review'];
-  const departments = ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Product', 'HR', 'Legal'];
+  const eventTypes: HREvent['eventType'][] = [
+    'hire',
+    'termination',
+    'promotion',
+    'transfer',
+    'compensation_change',
+    'performance_review',
+  ];
+  const departments = [
+    'Engineering',
+    'Sales',
+    'Marketing',
+    'Finance',
+    'Operations',
+    'Product',
+    'HR',
+    'Legal',
+  ];
   const positions = ['Engineer', 'Manager', 'Director', 'VP', 'Analyst', 'Specialist', 'Lead'];
   const locations = ['San Francisco', 'New York', 'Austin', 'Seattle', 'London', 'Singapore'];
 
   for (let i = 0; i < 100; i++) {
     const daysAgo = Math.floor(Math.random() * days);
     const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)];
-    
+
     events.push({
       id: `hr-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
@@ -981,7 +1105,9 @@ const generateHREvents = (days: number = 180): HREvent[] => {
       level: ['IC1', 'IC2', 'IC3', 'M1', 'M2', 'D1', 'VP'][Math.floor(Math.random() * 7)],
       location: locations[Math.floor(Math.random() * locations.length)],
       headcountDelta: eventType === 'hire' ? 1 : eventType === 'termination' ? -1 : 0,
-      compensationBand: ['$80k-100k', '$100k-130k', '$130k-160k', '$160k-200k', '$200k+'][Math.floor(Math.random() * 5)],
+      compensationBand: ['$80k-100k', '$100k-130k', '$130k-160k', '$160k-200k', '$200k+'][
+        Math.floor(Math.random() * 5)
+      ],
     });
   }
   return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
@@ -989,14 +1115,20 @@ const generateHREvents = (days: number = 180): HREvent[] => {
 
 const generateEngineeringEvents = (days: number = 90): EngineeringEvent[] => {
   const events: EngineeringEvent[] = [];
-  const eventTypes: EngineeringEvent['eventType'][] = ['sprint_complete', 'release', 'incident', 'pr_merged', 'deployment'];
+  const eventTypes: EngineeringEvent['eventType'][] = [
+    'sprint_complete',
+    'release',
+    'incident',
+    'pr_merged',
+    'deployment',
+  ];
   const projects = ['Platform', 'API', 'Frontend', 'Mobile', 'Infrastructure', 'Data Pipeline'];
   const teams = ['Alpha', 'Beta', 'Gamma', 'Delta', 'Core', 'Growth'];
 
   for (let i = 0; i < 120; i++) {
     const daysAgo = Math.floor(Math.random() * days);
     const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)];
-    
+
     events.push({
       id: `eng-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
@@ -1005,11 +1137,15 @@ const generateEngineeringEvents = (days: number = 90): EngineeringEvent[] => {
       project: projects[Math.floor(Math.random() * projects.length)],
       team: teams[Math.floor(Math.random() * teams.length)],
       velocity: eventType === 'sprint_complete' ? Math.floor(Math.random() * 30) + 20 : undefined,
-      storyPoints: eventType === 'sprint_complete' ? Math.floor(Math.random() * 50) + 30 : undefined,
+      storyPoints:
+        eventType === 'sprint_complete' ? Math.floor(Math.random() * 50) + 30 : undefined,
       leadTime: Math.floor(Math.random() * 10) + 2,
       cycleTime: Math.floor(Math.random() * 5) + 1,
       deployFrequency: eventType === 'deployment' ? Math.floor(Math.random() * 5) + 1 : undefined,
-      incidentSeverity: eventType === 'incident' ? ['critical', 'high', 'medium', 'low'][Math.floor(Math.random() * 4)] as any : undefined,
+      incidentSeverity:
+        eventType === 'incident'
+          ? (['critical', 'high', 'medium', 'low'][Math.floor(Math.random() * 4)] as any)
+          : undefined,
     });
   }
   return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
@@ -1024,7 +1160,7 @@ const generateServiceTickets = (days: number = 60): ServiceTicketEvent[] => {
   for (let i = 0; i < 80; i++) {
     const daysAgo = Math.floor(Math.random() * days);
     const isResolved = Math.random() > 0.3;
-    
+
     events.push({
       id: `svc-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
@@ -1032,7 +1168,9 @@ const generateServiceTickets = (days: number = 60): ServiceTicketEvent[] => {
       ticketId: `INC${300000 + i}`,
       category: categories[Math.floor(Math.random() * categories.length)],
       priority: priorities[Math.floor(Math.random() * priorities.length)],
-      status: isResolved ? 'resolved' : ['open', 'in_progress'][Math.floor(Math.random() * 2)] as any,
+      status: isResolved
+        ? 'resolved'
+        : (['open', 'in_progress'][Math.floor(Math.random() * 2)] as any),
       assignee: assignees[Math.floor(Math.random() * assignees.length)],
       resolution: isResolved ? 'Issue resolved per standard procedure' : undefined,
       slaBreached: Math.random() > 0.85,
@@ -1045,15 +1183,35 @@ const generateServiceTickets = (days: number = 60): ServiceTicketEvent[] => {
 
 const generateDocumentRevisions = (days: number = 180): DocumentRevisionEvent[] => {
   const events: DocumentRevisionEvent[] = [];
-  const docTypes: DocumentRevisionEvent['documentType'][] = ['policy', 'contract', 'spec', 'report', 'presentation'];
-  const changeTypes: DocumentRevisionEvent['changeType'][] = ['created', 'modified', 'approved', 'published', 'archived'];
+  const docTypes: DocumentRevisionEvent['documentType'][] = [
+    'policy',
+    'contract',
+    'spec',
+    'report',
+    'presentation',
+  ];
+  const changeTypes: DocumentRevisionEvent['changeType'][] = [
+    'created',
+    'modified',
+    'approved',
+    'published',
+    'archived',
+  ];
   const authors = ['Legal Team', 'Finance Team', 'Product Team', 'Executive Office', 'Compliance'];
-  const docs = ['Q3 Financial Report', 'Security Policy', 'Vendor Agreement', 'Product Roadmap', 'Employee Handbook', 'SOX Controls', 'Data Governance Policy'];
+  const docs = [
+    'Q3 Financial Report',
+    'Security Policy',
+    'Vendor Agreement',
+    'Product Roadmap',
+    'Employee Handbook',
+    'SOX Controls',
+    'Data Governance Policy',
+  ];
 
   for (let i = 0; i < 60; i++) {
     const daysAgo = Math.floor(Math.random() * days);
     const version = `${Math.floor(Math.random() * 5) + 1}.${Math.floor(Math.random() * 10)}`;
-    
+
     events.push({
       id: `doc-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
@@ -1075,7 +1233,7 @@ const generateERPSnapshot = (date: Date): ERPStateSnapshot => {
   const now = new Date();
   const daysDiff = (now.getTime() - date.getTime()) / (24 * 60 * 60 * 1000);
   const factor = Math.pow(0.9995, daysDiff);
-  const randomize = (base: number, variance: number = 0.1) => 
+  const randomize = (base: number, variance: number = 0.1) =>
     base * factor * (1 + (Math.random() - 0.5) * variance);
 
   return {
@@ -1132,7 +1290,7 @@ const generateHash = (data: string): string => {
   let hash = 0;
   for (let i = 0; i < data.length; i++) {
     const char = data.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
+    hash = (hash << 5) - hash + char;
     hash = hash & hash;
   }
   return Math.abs(hash).toString(16).padStart(64, '0').slice(0, 64);
@@ -1142,7 +1300,7 @@ const generateHash = (data: string): string => {
 const generateLedger = (): ChronosLedger => {
   const genesisTimestamp = new Date(Date.now() - 730 * 24 * 60 * 60 * 1000);
   const genesisHash = generateHash(`genesis-${genesisTimestamp.toISOString()}`);
-  
+
   const genesisBlock: LedgerBlock = {
     blockNumber: 0,
     timestamp: genesisTimestamp,
@@ -1207,12 +1365,34 @@ const generateCourtExport = (timeRange: { start: Date; end: Date }): CourtAdmiss
   includedBlocks: Array.from({ length: 50 }, (_, i) => 4300 + i),
   merkleProof: Array.from({ length: 8 }, () => generateHash(`proof-${Math.random()}`)),
   signatures: [
-    { signer: 'CEO', role: 'Chief Executive Officer', timestamp: new Date(), signature: generateHash('ceo-sig'), publicKey: 'pk_ceo_...' },
-    { signer: 'CFO', role: 'Chief Financial Officer', timestamp: new Date(), signature: generateHash('cfo-sig'), publicKey: 'pk_cfo_...' },
-    { signer: 'General Counsel', role: 'Legal', timestamp: new Date(), signature: generateHash('gc-sig'), publicKey: 'pk_gc_...' },
+    {
+      signer: 'CEO',
+      role: 'Chief Executive Officer',
+      timestamp: new Date(),
+      signature: generateHash('ceo-sig'),
+      publicKey: 'pk_ceo_...',
+    },
+    {
+      signer: 'CFO',
+      role: 'Chief Financial Officer',
+      timestamp: new Date(),
+      signature: generateHash('cfo-sig'),
+      publicKey: 'pk_cfo_...',
+    },
+    {
+      signer: 'General Counsel',
+      role: 'Legal',
+      timestamp: new Date(),
+      signature: generateHash('gc-sig'),
+      publicKey: 'pk_gc_...',
+    },
   ],
   witnessStatements: [
-    { witness: 'Internal Audit', statement: 'Verified data integrity and chain of custody.', timestamp: new Date() },
+    {
+      witness: 'Internal Audit',
+      statement: 'Verified data integrity and chain of custody.',
+      timestamp: new Date(),
+    },
   ],
   deliberationTranscripts: [],
   hashChainVerification: {
@@ -1230,11 +1410,46 @@ const generateCourtExport = (timeRange: { start: Date; end: Date }): CourtAdmiss
 
 // Default redaction rules
 const DEFAULT_REDACTION_RULES: RedactionRule[] = [
-  { id: 'r1', field: 'ssn', pattern: /\d{3}-\d{2}-\d{4}/, replacement: '***-**-****', category: 'pii', preserveFinancialTruth: true },
-  { id: 'r2', field: 'email', pattern: /@.*\.com/, replacement: '@[REDACTED]', category: 'pii', preserveFinancialTruth: true },
-  { id: 'r3', field: 'name', pattern: /[A-Z][a-z]+ [A-Z][a-z]+/, replacement: '[NAME REDACTED]', category: 'personnel', preserveFinancialTruth: true },
-  { id: 'r4', field: 'salary', pattern: /\$[\d,]+/, replacement: '$[REDACTED]', category: 'personnel', preserveFinancialTruth: false },
-  { id: 'r5', field: 'medical', pattern: /diagnosis|treatment|patient/i, replacement: '[PHI REDACTED]', category: 'phi', preserveFinancialTruth: true },
+  {
+    id: 'r1',
+    field: 'ssn',
+    pattern: /\d{3}-\d{2}-\d{4}/,
+    replacement: '***-**-****',
+    category: 'pii',
+    preserveFinancialTruth: true,
+  },
+  {
+    id: 'r2',
+    field: 'email',
+    pattern: /@.*\.com/,
+    replacement: '@[REDACTED]',
+    category: 'pii',
+    preserveFinancialTruth: true,
+  },
+  {
+    id: 'r3',
+    field: 'name',
+    pattern: /[A-Z][a-z]+ [A-Z][a-z]+/,
+    replacement: '[NAME REDACTED]',
+    category: 'personnel',
+    preserveFinancialTruth: true,
+  },
+  {
+    id: 'r4',
+    field: 'salary',
+    pattern: /\$[\d,]+/,
+    replacement: '$[REDACTED]',
+    category: 'personnel',
+    preserveFinancialTruth: false,
+  },
+  {
+    id: 'r5',
+    field: 'medical',
+    pattern: /diagnosis|treatment|patient/i,
+    replacement: '[PHI REDACTED]',
+    category: 'phi',
+    preserveFinancialTruth: true,
+  },
 ];
 
 // =============================================================================
@@ -1242,10 +1457,29 @@ const DEFAULT_REDACTION_RULES: RedactionRule[] = [
 // =============================================================================
 
 const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
-  const services = ['DataIngestionService', 'TransformEngine', 'ValidationService', 'AIAnalytics', 'DecisionService'];
-  const datasets = ['CRM_Pipeline', 'ERP_Transactions', 'HR_Records', 'Engineering_Metrics', 'Financial_Ledger'];
-  const agents = ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent', 'CRO Agent'];
-  
+  const services = [
+    'DataIngestionService',
+    'TransformEngine',
+    'ValidationService',
+    'AIAnalytics',
+    'DecisionService',
+  ];
+  const datasets = [
+    'CRM_Pipeline',
+    'ERP_Transactions',
+    'HR_Records',
+    'Engineering_Metrics',
+    'Financial_Ledger',
+  ];
+  const agents = [
+    'Chief Strategic',
+    'CFO Agent',
+    'COO Agent',
+    'CISO Agent',
+    'CMO Agent',
+    'CRO Agent',
+  ];
+
   return {
     eventId: event.id,
     originSource: {
@@ -1282,7 +1516,7 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
       method: ['process', 'analyze', 'validate', 'transform'][i % 4],
       latency: 10 + Math.floor(Math.random() * 50),
     })),
-    datasetLineage: datasets.slice(0, 2 + Math.floor(Math.random() * 2)).map(d => ({
+    datasetLineage: datasets.slice(0, 2 + Math.floor(Math.random() * 2)).map((d) => ({
       datasetId: `ds-${generateHash(d).slice(0, 8)}`,
       datasetName: d,
       source: ['Salesforce', 'SAP', 'Workday', 'Internal'][Math.floor(Math.random() * 4)],
@@ -1291,9 +1525,14 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
       quality: 0.9 + Math.random() * 0.09,
     })),
     frameworkGovernance: {
-      framework: ['NIST CSF', 'ISO 27001', 'SOC 2', 'GDPR', 'OECD AI'][Math.floor(Math.random() * 5)],
+      framework: ['NIST CSF', 'ISO 27001', 'SOC 2', 'GDPR', 'OECD AI'][
+        Math.floor(Math.random() * 5)
+      ],
       policy: `${event.department || 'Corporate'} Data Governance Policy v2.1`,
-      controls: ['Access Control', 'Data Classification', 'Audit Logging', 'Encryption'].slice(0, 2 + Math.floor(Math.random() * 2)),
+      controls: ['Access Control', 'Data Classification', 'Audit Logging', 'Encryption'].slice(
+        0,
+        2 + Math.floor(Math.random() * 2)
+      ),
       validatedAt: new Date(event.timestamp.getTime() - 60000),
       validatedBy: 'Compliance Engine v3.2',
     },
@@ -1350,11 +1589,27 @@ const generateEventComplianceSnapshot = (event: TimelineEvent): EventComplianceS
       auditLogIntegrity: 99 + Math.random(),
     },
     stakeholderImpact: {
-      customersAffected: event.type === 'milestone' ? Math.floor(Math.random() * 10000) : Math.floor(Math.random() * 500),
-      employeesAffected: event.type === 'personnel' ? Math.floor(Math.random() * 50) : Math.floor(Math.random() * 10),
+      customersAffected:
+        event.type === 'milestone'
+          ? Math.floor(Math.random() * 10000)
+          : Math.floor(Math.random() * 500),
+      employeesAffected:
+        event.type === 'personnel'
+          ? Math.floor(Math.random() * 50)
+          : Math.floor(Math.random() * 10),
       partnersAffected: Math.floor(Math.random() * 5),
-      financialExposure: event.type === 'financial' ? Math.floor(Math.random() * 5000000) : Math.floor(Math.random() * 500000),
-      reputationalRisk: riskLevel < 0.1 ? 'critical' : riskLevel < 0.25 ? 'high' : riskLevel < 0.5 ? 'medium' : 'low',
+      financialExposure:
+        event.type === 'financial'
+          ? Math.floor(Math.random() * 5000000)
+          : Math.floor(Math.random() * 500000),
+      reputationalRisk:
+        riskLevel < 0.1
+          ? 'critical'
+          : riskLevel < 0.25
+            ? 'high'
+            : riskLevel < 0.5
+              ? 'medium'
+              : 'low',
     },
     driftScore: {
       modelDrift: Math.random() * 0.15,
@@ -1374,7 +1629,7 @@ const generateReverseTimeCheck = (targetDate: Date, mode: ChronosMode): ReverseT
   const hasMismatch = Math.random() < 0.05; // 5% chance of detecting a mismatch
   const expectedHash = generateHash(`expected-${targetDate.toISOString()}`);
   const actualHash = hasMismatch ? generateHash(`actual-${Date.now()}`) : expectedHash;
-  
+
   return {
     id: `rtc-${Date.now()}`,
     targetDate,
@@ -1385,29 +1640,51 @@ const generateReverseTimeCheck = (targetDate: Date, mode: ChronosMode): ReverseT
     reconstructedState: generateSnapshot(targetDate, mode),
     expectedHash,
     actualHash,
-    mismatches: hasMismatch ? [
-      {
-        field: 'metrics.revenue',
-        expected: 12500000,
-        actual: 12487500,
-        severity: 'medium',
-        possibleCauses: ['Late transaction reconciliation', 'Currency conversion timing', 'Rounding differences'],
-      },
-    ] : [],
+    mismatches: hasMismatch
+      ? [
+          {
+            field: 'metrics.revenue',
+            expected: 12500000,
+            actual: 12487500,
+            severity: 'medium',
+            possibleCauses: [
+              'Late transaction reconciliation',
+              'Currency conversion timing',
+              'Rounding differences',
+            ],
+          },
+        ]
+      : [],
     tamperProofSignal: {
       isValid: !hasMismatch,
       validationMethod: 'Merkle Tree + Digital Signatures',
-      merkleProof: Array.from({ length: 8 }, (_, i) => generateHash(`proof-${i}-${targetDate.toISOString()}`)),
+      merkleProof: Array.from({ length: 8 }, (_, i) =>
+        generateHash(`proof-${i}-${targetDate.toISOString()}`)
+      ),
       blockRange: [4000, 4382],
-      witnessSignatures: ['Chronos Node 1', 'Chronos Node 2', 'Chronos Node 3'].map(w => generateHash(`witness-${w}`)),
+      witnessSignatures: ['Chronos Node 1', 'Chronos Node 2', 'Chronos Node 3'].map((w) =>
+        generateHash(`witness-${w}`)
+      ),
     },
     forensicReport: {
       generatedAt: new Date(),
-      findings: hasMismatch 
-        ? ['Minor discrepancy detected in revenue metrics', 'All other fields validated successfully', 'Hash chain integrity maintained']
-        : ['All state reconstructions match stored hashes', 'No tampering detected', 'Full audit trail verified'],
+      findings: hasMismatch
+        ? [
+            'Minor discrepancy detected in revenue metrics',
+            'All other fields validated successfully',
+            'Hash chain integrity maintained',
+          ]
+        : [
+            'All state reconstructions match stored hashes',
+            'No tampering detected',
+            'Full audit trail verified',
+          ],
       recommendations: hasMismatch
-        ? ['Review transaction logs for the affected period', 'Verify ERP sync status', 'Consider manual reconciliation']
+        ? [
+            'Review transaction logs for the affected period',
+            'Verify ERP sync status',
+            'Consider manual reconciliation',
+          ]
         : ['Continue regular monitoring', 'Schedule next integrity check'],
       legalAdmissible: true,
     },
@@ -1448,7 +1725,10 @@ const generateZKProof = (
     },
     metadata: {
       dataPointsProven: 10000 + Math.floor(Math.random() * 50000),
-      timeRangeCovered: { start: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000), end: new Date() },
+      timeRangeCovered: {
+        start: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000),
+        end: new Date(),
+      },
       piiExposed: false,
       secretsRevealed: false,
     },
@@ -1462,18 +1742,20 @@ const generateZKProof = (
 export const ChronosPage: React.FC = () => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  
+
   // Core State
   const [mode, setMode] = useState<ChronosMode>('rewind');
   const [currentDate, setCurrentDate] = useState(new Date());
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
   const [events, setEvents] = useState<TimelineEvent[]>([]);
-  const [snapshot, setSnapshot] = useState<StateSnapshot>(() => generateSnapshot(new Date(), 'rewind'));
+  const [snapshot, setSnapshot] = useState<StateSnapshot>(() =>
+    generateSnapshot(new Date(), 'rewind')
+  );
   const [realMetrics, setRealMetrics] = useState<any[]>([]);
   const [realDeliberations, setRealDeliberations] = useState<any[]>([]);
   const [isLoadingData, setIsLoadingData] = useState(true);
-  
+
   // Enhanced State
   const [enhancedView, setEnhancedView] = useState<EnhancedView>('standard');
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
@@ -1484,7 +1766,7 @@ export const ChronosPage: React.FC = () => {
   const [causalChain, setCausalChain] = useState<CausalChain | null>(null);
   const [monteCarloResult, setMonteCarloResult] = useState<MonteCarloResult | null>(null);
   const [showBookmarkModal, setShowBookmarkModal] = useState(false);
-  const [graphNodes, setGraphNodes] = useState<Array<{x: number; y: number; size: number}>>([]);
+  const [graphNodes, setGraphNodes] = useState<Array<{ x: number; y: number; size: number }>>([]);
   const [realGraphStats, setRealGraphStats] = useState<{
     entities: number;
     relationships: number;
@@ -1495,19 +1777,25 @@ export const ChronosPage: React.FC = () => {
 
   const departments = useMemo(() => {
     const set = new Set<string>();
-    events.forEach(e => {
-      if (e.department) { set.add(e.department); }
+    events.forEach((e) => {
+      if (e.department) {
+        set.add(e.department);
+      }
     });
     return Array.from(set).sort();
   }, [events]);
 
   const filteredEvents = useMemo(() => {
-    if (selectedDepartment === 'All Departments') { return events; }
-    return events.filter(e => e.department === selectedDepartment);
+    if (selectedDepartment === 'All Departments') {
+      return events;
+    }
+    return events.filter((e) => e.department === selectedDepartment);
   }, [events, selectedDepartment]);
   const filteredPivotalMoments = useMemo(() => {
-    if (selectedDepartment === 'All Departments') { return pivotalMoments; }
-    return pivotalMoments.filter(m => m.event.department === selectedDepartment);
+    if (selectedDepartment === 'All Departments') {
+      return pivotalMoments;
+    }
+    return pivotalMoments.filter((m) => m.event.department === selectedDepartment);
   }, [pivotalMoments, selectedDepartment]);
   const [branches, setBranches] = useState<BranchTimeline[]>([]);
   const [selectedBranch, setSelectedBranch] = useState<string | null>(null);
@@ -1517,7 +1805,9 @@ export const ChronosPage: React.FC = () => {
 
   // Enterprise Compliance State (The Undefeatable 5%)
   const [ledger, setLedger] = useState<ChronosLedger>(() => generateLedger());
-  const [liveSyncStatus, setLiveSyncStatus] = useState<LiveSyncStatus>(() => generateLiveSyncStatus());
+  const [liveSyncStatus, setLiveSyncStatus] = useState<LiveSyncStatus>(() =>
+    generateLiveSyncStatus()
+  );
   const [witnessSessions, setWitnessSessions] = useState<WitnessSession[]>([]);
   const [showCompliancePanel, setShowCompliancePanel] = useState(false);
   const [showCourtExportModal, setShowCourtExportModal] = useState(false);
@@ -1529,7 +1819,9 @@ export const ChronosPage: React.FC = () => {
   const [erpConnectors] = useState<ERPConnector[]>(() => generateERPConnectors());
   const [showERPPanel, setShowERPPanel] = useState(false);
   const [selectedERPSource, setSelectedERPSource] = useState<ERPSource | 'all'>('all');
-  const [erpSnapshot, setErpSnapshot] = useState<ERPStateSnapshot>(() => generateERPSnapshot(new Date()));
+  const [erpSnapshot, setErpSnapshot] = useState<ERPStateSnapshot>(() =>
+    generateERPSnapshot(new Date())
+  );
   const [crmEvents] = useState(() => generateCRMEvents());
   const [erpTransactions] = useState(() => generateERPTransactions());
   const [hrEvents] = useState(() => generateHREvents());
@@ -1540,26 +1832,27 @@ export const ChronosPage: React.FC = () => {
   // =========================================================================
   // NEW FEATURE STATES - The 5 Power Features
   // =========================================================================
-  
+
   // (1) Full Traceability Views
   const [showTraceability, setShowTraceability] = useState(false);
   const [traceabilityView, setTraceabilityView] = useState<TraceabilityView | null>(null);
-  
+
   // (2) Per-Event Compliance Snapshot
   const [showComplianceSnapshot, setShowComplianceSnapshot] = useState(false);
-  const [eventComplianceSnapshot, setEventComplianceSnapshot] = useState<EventComplianceSnapshot | null>(null);
-  
+  const [eventComplianceSnapshot, setEventComplianceSnapshot] =
+    useState<EventComplianceSnapshot | null>(null);
+
   // (3) Reverse Time Checks - Chronos Integrity Validation
   const [showReverseTimeCheck, setShowReverseTimeCheck] = useState(false);
   const [reverseTimeCheck, setReverseTimeCheck] = useState<ReverseTimeCheck | null>(null);
   const [reverseTimeProgress, setReverseTimeProgress] = useState(0);
   const [isRebuildingState, setIsRebuildingState] = useState(false);
-  
+
   // (4) Regulator Mode
   const [regulatorMode, setRegulatorMode] = useState(false);
   const [regulatorSession, setRegulatorSession] = useState<RegulatorSession | null>(null);
   const [showRegulatorSetup, setShowRegulatorSetup] = useState(false);
-  
+
   // (5) Zero-Knowledge Audits
   const [showZKAudit, setShowZKAudit] = useState(false);
   const [zkProofs, setZkProofs] = useState<ZeroKnowledgeProof[]>([]);
@@ -1592,18 +1885,18 @@ export const ChronosPage: React.FC = () => {
     const now = new Date();
     const daysDiff = (now.getTime() - currentDate.getTime()) / (24 * 60 * 60 * 1000);
     const isPast = daysDiff > 0;
-    
+
     // Growth/decay factor based on time distance
     // Past: values were lower, Future: values projected higher (with uncertainty)
     const growthRate = 0.0008; // ~30% annual growth rate
-    const factor = isPast 
-      ? Math.pow(1 - growthRate, daysDiff) 
+    const factor = isPast
+      ? Math.pow(1 - growthRate, daysDiff)
       : Math.pow(1 + growthRate, -daysDiff);
-    
+
     // Add some volatility for future projections
     const volatility = mode === 'fastforward' ? 0.15 : 0.05;
     const randomFactor = 1 + (Math.random() - 0.5) * volatility;
-    
+
     // Apply time-based transformation
     const projectValue = (baseValue: number, isWholeNumber: boolean = false): number => {
       const projected = baseValue * factor * randomFactor;
@@ -1613,9 +1906,10 @@ export const ChronosPage: React.FC = () => {
     // Try to use real metrics as base values
     const getMetricValue = (code: string, fallback: number): number => {
       if (realMetrics.length > 0) {
-        const metric = realMetrics.find((m: any) => 
-          m.code?.toLowerCase().includes(code.toLowerCase()) ||
-          m.name?.toLowerCase().includes(code.toLowerCase())
+        const metric = realMetrics.find(
+          (m: any) =>
+            m.code?.toLowerCase().includes(code.toLowerCase()) ||
+            m.name?.toLowerCase().includes(code.toLowerCase())
         );
         return metric?.current_value || metric?.value || fallback;
       }
@@ -1636,20 +1930,41 @@ export const ChronosPage: React.FC = () => {
         runway: Math.max(0, projectValue(getMetricValue('runway', 18), true)),
       },
       council: {
-        activeAgents: ['Chief Strategic', 'CFO Agent', 'COO Agent', 'CISO Agent', 'CMO Agent'].slice(0, Math.floor(Math.random() * 2) + 4),
-        pendingDecisions: Math.max(0, Math.floor(realDeliberations.filter((d: any) => d.status === 'PENDING' || d.status === 'IN_PROGRESS').length * factor)),
+        activeAgents: [
+          'Chief Strategic',
+          'CFO Agent',
+          'COO Agent',
+          'CISO Agent',
+          'CMO Agent',
+        ].slice(0, Math.floor(Math.random() * 2) + 4),
+        pendingDecisions: Math.max(
+          0,
+          Math.floor(
+            realDeliberations.filter(
+              (d: any) => d.status === 'PENDING' || d.status === 'IN_PROGRESS'
+            ).length * factor
+          )
+        ),
         totalDeliberations: Math.max(0, Math.floor(realDeliberations.length * factor)),
         consensusRate: Math.min(100, Math.max(50, projectValue(78))),
       },
       graph: {
         // Use real Neo4j stats if available, otherwise fallback
         entities: projectValue(realGraphStats?.entities || getMetricValue('entities', 15420), true),
-        relationships: projectValue(realGraphStats?.relationships || getMetricValue('relationships', 48930), true),
-        dataPoints: projectValue(realGraphStats?.dataPoints || getMetricValue('datapoints', 2340000), true),
-        freshness: realGraphStats?.freshness ?? Math.max(0, Math.min(100, 95 - (isPast ? daysDiff * 0.1 : -daysDiff * 0.02))),
+        relationships: projectValue(
+          realGraphStats?.relationships || getMetricValue('relationships', 48930),
+          true
+        ),
+        dataPoints: projectValue(
+          realGraphStats?.dataPoints || getMetricValue('datapoints', 2340000),
+          true
+        ),
+        freshness:
+          realGraphStats?.freshness ??
+          Math.max(0, Math.min(100, 95 - (isPast ? daysDiff * 0.1 : -daysDiff * 0.02))),
       },
     };
-    
+
     setSnapshot(projectedSnapshot);
     setErpSnapshot(generateERPSnapshot(currentDate));
   }, [currentDate, mode, realMetrics, realDeliberations, realGraphStats]);
@@ -1658,10 +1973,10 @@ export const ChronosPage: React.FC = () => {
   useEffect(() => {
     if (isPlaying) {
       playIntervalRef.current = setInterval(() => {
-        setCurrentDate(prev => {
+        setCurrentDate((prev) => {
           const increment = (mode === 'rewind' ? -1 : 1) * playbackSpeed * 24 * 60 * 60 * 1000; // 1 day per tick
           const newDate = new Date(prev.getTime() + increment);
-          
+
           if (newDate < timeRange.min || newDate > timeRange.max) {
             setIsPlaying(false);
             return prev;
@@ -1672,21 +1987,25 @@ export const ChronosPage: React.FC = () => {
     } else if (playIntervalRef.current) {
       clearInterval(playIntervalRef.current);
     }
-    
+
     return () => {
-      if (playIntervalRef.current) {clearInterval(playIntervalRef.current);}
+      if (playIntervalRef.current) {
+        clearInterval(playIntervalRef.current);
+      }
     };
   }, [isPlaying, playbackSpeed, mode, timeRange]);
 
   // Initialize pivotal moments with AI detection
   useEffect(() => {
     const detectPivotalMomentsWithAI = async () => {
-      if (events.length === 0) {return;}
-      
+      if (events.length === 0) {
+        return;
+      }
+
       try {
         // Call AI to detect pivotal moments
         const response = await decisionIntelApi.detectPivotalMoments({
-          events: events.map(e => ({
+          events: events.map((e) => ({
             id: e.id,
             timestamp: e.timestamp.toISOString(),
             type: e.type,
@@ -1705,7 +2024,7 @@ export const ChronosPage: React.FC = () => {
           // Map AI response to PivotalMoment format
           const aiMoments: PivotalMoment[] = [];
           for (const m of response.data as any[]) {
-            const event = events.find(e => e.id === m.eventId);
+            const event = events.find((e) => e.id === m.eventId);
             if (event) {
               aiMoments.push({
                 id: `pivot-${m.eventId}`,
@@ -1719,7 +2038,7 @@ export const ChronosPage: React.FC = () => {
               });
             }
           }
-          
+
           if (aiMoments.length > 0) {
             setPivotalMoments(aiMoments);
             return;
@@ -1728,11 +2047,11 @@ export const ChronosPage: React.FC = () => {
       } catch (error) {
         console.log('[ChronosAI] AI detection failed, using fallback:', error);
       }
-      
+
       // Fallback to local generation
       setPivotalMoments(generatePivotalMoments(events));
     };
-    
+
     detectPivotalMomentsWithAI();
   }, [events, selectedDepartment]);
 
@@ -1742,14 +2061,15 @@ export const ChronosPage: React.FC = () => {
       setIsLoadingData(true);
       try {
         // Fetch all data sources in parallel
-        const [snapshotsRes, metricsRes, deliberationsRes, alertsRes, decisionsRes, graphStatsRes] = await Promise.all([
-          decisionIntelApi.getChronosSnapshots(),
-          metricsApi.getMetrics(),
-          councilApi.getActiveDeliberations(),
-          alertsApi.getAlerts(),
-          councilApi.getRecentDecisions(50),
-          graphApi.getStats(),
-        ]);
+        const [snapshotsRes, metricsRes, deliberationsRes, alertsRes, decisionsRes, graphStatsRes] =
+          await Promise.all([
+            decisionIntelApi.getChronosSnapshots(),
+            metricsApi.getMetrics(),
+            councilApi.getActiveDeliberations(),
+            alertsApi.getAlerts(),
+            councilApi.getRecentDecisions(50),
+            graphApi.getStats(),
+          ]);
 
         // Process snapshots
         if (snapshotsRes.success && snapshotsRes.data) {
@@ -1773,7 +2093,7 @@ export const ChronosPage: React.FC = () => {
           console.log('[Chronos] Loaded', (metricsRes.data as any[]).length, 'metrics');
         }
 
-        // Process deliberations into timeline events  
+        // Process deliberations into timeline events
         if (deliberationsRes.success && deliberationsRes.data) {
           setRealDeliberations(deliberationsRes.data as any[]);
           console.log('[Chronos] Loaded', (deliberationsRes.data as any[]).length, 'deliberations');
@@ -1808,7 +2128,12 @@ export const ChronosPage: React.FC = () => {
               type: 'system',
               title: a.title || 'System Alert',
               description: a.message || (a as any).description || 'Alert triggered',
-              impact: a.severity === 'critical' ? 'negative' : a.severity === 'warning' ? 'neutral' : 'positive',
+              impact:
+                a.severity === 'critical'
+                  ? 'negative'
+                  : a.severity === 'warning'
+                    ? 'neutral'
+                    : 'positive',
               department: 'Operations',
               magnitude: a.severity === 'critical' ? 9 : a.severity === 'warning' ? 7 : 5,
             });
@@ -1834,7 +2159,7 @@ export const ChronosPage: React.FC = () => {
 
         // Sort by timestamp and set
         realEvents.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
-        
+
         // If we have real events, use them; otherwise fall back to generated
         if (realEvents.length > 0) {
           setEvents(realEvents);
@@ -1843,7 +2168,6 @@ export const ChronosPage: React.FC = () => {
           setEvents(generateEvents());
           console.log('[Chronos] No real events, using generated fallback');
         }
-
       } catch (error) {
         console.log('[Chronos] API error, using generated fallback:', error);
         setEvents(generateEvents());
@@ -1903,7 +2227,7 @@ export const ChronosPage: React.FC = () => {
       createdAt: new Date(),
       sharedUrl: `${window.location.origin}/cortex/intelligence/chronos?t=${currentDate.getTime()}`,
     };
-    setBookmarks(prev => [...prev, bookmark]);
+    setBookmarks((prev) => [...prev, bookmark]);
     setShowBookmarkModal(false);
   };
 
@@ -1916,7 +2240,7 @@ export const ChronosPage: React.FC = () => {
   // Start impact trace with AI analysis
   const startImpactTrace = async (event: TimelineEvent) => {
     setEnhancedView('impact');
-    
+
     // Try AI-powered causal chain analysis
     try {
       const response = await decisionIntelApi.analyzeCausalChain({
@@ -1928,7 +2252,7 @@ export const ChronosPage: React.FC = () => {
           description: event.description,
           impact: event.impact,
         },
-        all_events: events.map(e => ({
+        all_events: events.map((e) => ({
           id: e.id,
           timestamp: e.timestamp.toISOString(),
           type: e.type,
@@ -1938,18 +2262,27 @@ export const ChronosPage: React.FC = () => {
         })),
       });
 
-      if (response.success && response.data && Array.isArray(response.data) && response.data.length > 0) {
+      if (
+        response.success &&
+        response.data &&
+        Array.isArray(response.data) &&
+        response.data.length > 0
+      ) {
         console.log('[ChronosAI] Causal chain analysis complete:', response.data.length, 'links');
-        
+
         // Build causal chain from AI response
-        const effects = (response.data as any[]).map(link => {
-          const linkedEvent = events.find(e => e.id === link.toEventId);
-          return {
-            event: linkedEvent || event,
-            delay: Math.floor((new Date().getTime() - event.timestamp.getTime()) / (24 * 60 * 60 * 1000)),
-            correlation: link.strength || 0.7,
-          };
-        }).filter(e => e.event !== event);
+        const effects = (response.data as any[])
+          .map((link) => {
+            const linkedEvent = events.find((e) => e.id === link.toEventId);
+            return {
+              event: linkedEvent || event,
+              delay: Math.floor(
+                (new Date().getTime() - event.timestamp.getTime()) / (24 * 60 * 60 * 1000)
+              ),
+              correlation: link.strength || 0.7,
+            };
+          })
+          .filter((e) => e.event !== event);
 
         setCausalChain({
           id: `chain-${event.id}`,
@@ -1966,7 +2299,7 @@ export const ChronosPage: React.FC = () => {
     } catch (error) {
       console.log('[ChronosAI] Causal chain analysis failed, using fallback:', error);
     }
-    
+
     // Fallback to local generation
     setCausalChain(generateCausalChain(event, events));
   };
@@ -1980,12 +2313,12 @@ export const ChronosPage: React.FC = () => {
   // Run Monte Carlo with AI scenario generation
   const runMonteCarlo = async (variable: string) => {
     setEnhancedView('monte-carlo');
-    
+
     // Try AI-powered scenario generation
     try {
       const response = await decisionIntelApi.generateFutureScenarios({
         current_metrics: snapshot.metrics,
-        recent_events: events.slice(0, 10).map(e => ({
+        recent_events: events.slice(0, 10).map((e) => ({
           id: e.id,
           timestamp: e.timestamp.toISOString(),
           title: e.title,
@@ -1994,15 +2327,20 @@ export const ChronosPage: React.FC = () => {
         time_horizon: '12 months',
       });
 
-      if (response.success && response.data && Array.isArray(response.data) && response.data.length > 0) {
+      if (
+        response.success &&
+        response.data &&
+        Array.isArray(response.data) &&
+        response.data.length > 0
+      ) {
         console.log('[ChronosAI] Generated', response.data.length, 'future scenarios via AI');
-        
+
         // Map AI scenarios to MonteCarloResult format
         const aiResult: MonteCarloResult = {
           id: `mc-${Date.now()}`,
           variable,
           simulations: 10000,
-          outcomes: (response.data as any[]).map(s => ({
+          outcomes: (response.data as any[]).map((s) => ({
             scenario: s.name,
             probability: s.probability,
             revenue: s.metrics?.revenue || 12500000,
@@ -2011,14 +2349,14 @@ export const ChronosPage: React.FC = () => {
           optimalPath: (response.data as any[])[2]?.description || 'Base case trajectory',
           confidenceInterval: [10500000, 14500000],
         };
-        
+
         setMonteCarloResult(aiResult);
         return;
       }
     } catch (error) {
       console.log('[ChronosAI] Scenario generation failed, using fallback:', error);
     }
-    
+
     // Fallback to local generation
     setMonteCarloResult(generateMonteCarloResults(variable));
   };
@@ -2039,14 +2377,14 @@ export const ChronosPage: React.FC = () => {
       original,
       alternate,
       divergence: Math.random() * 30 + 10,
-      snapshots: Array.from({ length: 12 }, (_, i) => 
+      snapshots: Array.from({ length: 12 }, (_, i) =>
         generateSnapshot(new Date(currentDate.getTime() + i * 30 * 24 * 60 * 60 * 1000), 'replay')
       ),
       outcome: ['better', 'worse', 'similar'][Math.floor(Math.random() * 3)] as any,
       deltaRevenue: (Math.random() - 0.3) * 5000000,
       deltaProfit: (Math.random() - 0.4) * 1500000,
     };
-    setBranches(prev => [...prev, branch]);
+    setBranches((prev) => [...prev, branch]);
     setSelectedBranch(branch.id);
     setShowBranchModal(false);
   };
@@ -2064,7 +2402,11 @@ export const ChronosPage: React.FC = () => {
   }, []);
 
   // Add witness session
-  const addWitnessSession = (org: string, role: string, accessLevel: WitnessSession['accessLevel']) => {
+  const addWitnessSession = (
+    org: string,
+    role: string,
+    accessLevel: WitnessSession['accessLevel']
+  ) => {
     const session: WitnessSession = {
       id: `witness-${Date.now()}`,
       witnessId: `${org.toLowerCase().replace(/\s/g, '-')}-${Date.now()}`,
@@ -2078,21 +2420,26 @@ export const ChronosPage: React.FC = () => {
       viewedBlocks: [],
       isLive: true,
     };
-    setWitnessSessions(prev => [...prev, session]);
+    setWitnessSessions((prev) => [...prev, session]);
     setShowWitnessModal(false);
   };
 
   // Generate court-admissible export
-  const generateExport = async (format: CourtAdmissibleExport['format'], withRedaction: boolean) => {
+  const generateExport = async (
+    format: CourtAdmissibleExport['format'],
+    withRedaction: boolean
+  ) => {
     setExportInProgress(true);
     // Simulate export generation
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise((resolve) => setTimeout(resolve, 2000));
     const exportData = generateCourtExport({ start: timeRange.min, end: currentDate });
     console.log('Court-admissible export generated:', exportData);
     setExportInProgress(false);
     setShowCourtExportModal(false);
     // In production, this would trigger a download
-    alert(`✅ Export generated: ${format.toUpperCase()}\nBlocks: ${exportData.includedBlocks.length}\nSignatures: ${exportData.signatures.length}`);
+    alert(
+      `✅ Export generated: ${format.toUpperCase()}\nBlocks: ${exportData.includedBlocks.length}\nSignatures: ${exportData.signatures.length}`
+    );
   };
 
   // ==========================================================================
@@ -2118,13 +2465,13 @@ export const ChronosPage: React.FC = () => {
     setIsRebuildingState(true);
     setReverseTimeProgress(0);
     setShowReverseTimeCheck(true);
-    
+
     // Simulate progressive reconstruction
     for (let i = 0; i <= 100; i += 5) {
-      await new Promise(resolve => setTimeout(resolve, 100));
+      await new Promise((resolve) => setTimeout(resolve, 100));
       setReverseTimeProgress(i);
     }
-    
+
     const check = generateReverseTimeCheck(targetDate, mode);
     setReverseTimeCheck(check);
     setIsRebuildingState(false);
@@ -2170,30 +2517,37 @@ export const ChronosPage: React.FC = () => {
     claim: string
   ) => {
     setIsGeneratingProof(true);
-    
+
     // Simulate ZK proof generation (computationally intensive in real implementation)
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    const proofType: ZeroKnowledgeProof['proofType'] = 
-      framework === 'GDPR' || framework === 'CCPA' ? 'privacy' :
-      framework === 'SOX' ? 'financial' :
-      framework === 'HIPAA' ? 'privacy' :
-      framework === 'NIST' || framework === 'ISO27001' || framework === 'SOC2' ? 'security' :
-      'compliance';
-    
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+
+    const proofType: ZeroKnowledgeProof['proofType'] =
+      framework === 'GDPR' || framework === 'CCPA'
+        ? 'privacy'
+        : framework === 'SOX'
+          ? 'financial'
+          : framework === 'HIPAA'
+            ? 'privacy'
+            : framework === 'NIST' || framework === 'ISO27001' || framework === 'SOC2'
+              ? 'security'
+              : 'compliance';
+
     const proof = generateZKProof(proofType, framework, claim);
-    setZkProofs(prev => [...prev, proof]);
+    setZkProofs((prev) => [...prev, proof]);
     setIsGeneratingProof(false);
   };
 
   const getModeStyles = () => {
     switch (mode) {
-      case 'rewind': return { gradient: 'from-amber-600 to-orange-700', accent: 'amber', icon: '⏪' };
-      case 'replay': return { gradient: 'from-purple-600 to-pink-700', accent: 'purple', icon: '🔀' };
-      case 'fastforward': return { gradient: 'from-cyan-600 to-blue-700', accent: 'cyan', icon: '⏩' };
+      case 'rewind':
+        return { gradient: 'from-amber-600 to-orange-700', accent: 'amber', icon: '⏪' };
+      case 'replay':
+        return { gradient: 'from-purple-600 to-pink-700', accent: 'purple', icon: '🔀' };
+      case 'fastforward':
+        return { gradient: 'from-cyan-600 to-blue-700', accent: 'cyan', icon: '⏩' };
     }
   };
-  
+
   const styles = getModeStyles();
 
   return (
@@ -2225,8 +2579,10 @@ export const ChronosPage: React.FC = () => {
                 className="bg-neutral-900 border border-neutral-700 text-xs rounded px-2 py-1 text-neutral-100"
               >
                 <option value="All Departments">All Departments</option>
-                {departments.map(dep => (
-                  <option key={dep} value={dep}>{dep}</option>
+                {departments.map((dep) => (
+                  <option key={dep} value={dep}>
+                    {dep}
+                  </option>
                 ))}
               </select>
             </div>
@@ -2253,396 +2609,607 @@ export const ChronosPage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             {/* Left Column - Time Machine Controls & State */}
             <div className="col-span-2 space-y-6">
-            {/* State at This Time */}
-            <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-xl font-semibold flex items-center gap-2">
-                  <span>{styles.icon}</span>
-                  Organization State
-                  <span className="text-sm font-normal text-neutral-500">
-                    @ {currentDate.toLocaleString()}
-                  </span>
-                </h2>
-                {mode === 'rewind' && selectedEvent?.deliberationId && (
-                  <button 
-                    onClick={() => startCouncilReplay(selectedEvent)}
-                    className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium transition-colors"
-                  >
-                    🎬 Replay Council Deliberation
-                  </button>
-                )}
+              {/* State at This Time */}
+              <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
+                <div className="flex items-center justify-between mb-4">
+                  <h2 className="text-xl font-semibold flex items-center gap-2">
+                    <span>{styles.icon}</span>
+                    Organization State
+                    <span className="text-sm font-normal text-neutral-500">
+                      @ {currentDate.toLocaleString()}
+                    </span>
+                  </h2>
+                  {mode === 'rewind' && selectedEvent?.deliberationId && (
+                    <button
+                      onClick={() => startCouncilReplay(selectedEvent)}
+                      className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium transition-colors"
+                    >
+                      🎬 Replay Council Deliberation
+                    </button>
+                  )}
+                </div>
+
+                <MetricsGrid snapshot={snapshot} mode={mode} />
               </div>
-              
-              <MetricsGrid snapshot={snapshot} mode={mode} />
+
+              {/* Council State */}
+              <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
+                <h2 className="text-xl font-semibold mb-4">🧠 Council State</h2>
+                <CouncilState council={snapshot.council} mode={mode} />
+              </div>
+
+              {/* Knowledge Graph State */}
+              <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
+                <h2 className="text-xl font-semibold mb-4">🕸️ Knowledge Graph</h2>
+                <GraphState graph={snapshot.graph} mode={mode} />
+              </div>
+
+              {/* Animated Graph Preview */}
+              <AnimatedGraphPreview nodes={graphNodes} snapshot={snapshot} />
+
+              {/* Alternate Timelines (Replay Mode) */}
+              {mode === 'replay' && branches.length > 0 && (
+                <div className="bg-neutral-900 rounded-2xl p-6 border border-purple-800">
+                  <h2 className="text-xl font-semibold mb-4">🌀 Alternate Timelines</h2>
+                  <BranchList
+                    branches={branches}
+                    selectedId={selectedBranch}
+                    onSelect={setSelectedBranch}
+                  />
+                </div>
+              )}
             </div>
 
-            {/* Council State */}
-            <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-              <h2 className="text-xl font-semibold mb-4">🧠 Council State</h2>
-              <CouncilState council={snapshot.council} mode={mode} />
-            </div>
-
-            {/* Knowledge Graph State */}
-            <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-              <h2 className="text-xl font-semibold mb-4">🕸️ Knowledge Graph</h2>
-              <GraphState graph={snapshot.graph} mode={mode} />
-            </div>
-
-            {/* Animated Graph Preview */}
-            <AnimatedGraphPreview nodes={graphNodes} snapshot={snapshot} />
-
-            {/* Alternate Timelines (Replay Mode) */}
-            {mode === 'replay' && branches.length > 0 && (
-              <div className="bg-neutral-900 rounded-2xl p-6 border border-purple-800">
-                <h2 className="text-xl font-semibold mb-4">🌀 Alternate Timelines</h2>
-                <BranchList 
-                  branches={branches} 
-                  selectedId={selectedBranch}
-                  onSelect={setSelectedBranch}
+            {/* Right Column - Events & Actions */}
+            <div className="space-y-6">
+              {/* Events at This Time */}
+              <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
+                <h2 className="text-lg font-semibold mb-4">📅 Events</h2>
+                <EventsList
+                  events={filteredEvents}
+                  currentDate={currentDate}
+                  onSelect={setSelectedEvent}
+                  selectedId={selectedEvent?.id}
                 />
               </div>
-            )}
-          </div>
 
-          {/* Right Column - Events & Actions */}
-          <div className="space-y-6">
-            {/* Events at This Time */}
-            <div className="bg-neutral-900 rounded-2xl p-6 border border-neutral-800">
-              <h2 className="text-lg font-semibold mb-4">📅 Events</h2>
-              <EventsList
-                events={filteredEvents}
-                currentDate={currentDate}
-                onSelect={setSelectedEvent}
-                selectedId={selectedEvent?.id}
+              {/* Replay Actions */}
+              {mode === 'replay' && (
+                <div className="bg-purple-900/30 rounded-2xl p-6 border border-purple-700">
+                  <h2 className="text-lg font-semibold mb-4">🔀 Create Alternate Timeline</h2>
+                  <VariableSelector onCreateBranch={() => setShowBranchModal(true)} />
+                </div>
+              )}
+
+              {/* Fast Forward Predictions */}
+              {mode === 'fastforward' && (
+                <div className="bg-cyan-900/30 rounded-2xl p-6 border border-cyan-700">
+                  <h2 className="text-lg font-semibold mb-4">🔮 Prediction Confidence</h2>
+                  <PredictionConfidence currentDate={currentDate} />
+                </div>
+              )}
+
+              {/* Audit Trail (Rewind) */}
+              {mode === 'rewind' && (
+                <div className="bg-amber-900/30 rounded-2xl p-6 border border-amber-700">
+                  <h2 className="text-lg font-semibold mb-4">📋 Export Audit Package</h2>
+                  <AuditExport currentDate={currentDate} />
+                </div>
+              )}
+
+              {/* Pivotal Moments */}
+              <PivotalMomentsPanel
+                moments={filteredPivotalMoments}
+                onJumpTo={setCurrentDate}
+                onStartImpactTrace={startImpactTrace}
               />
-            </div>
-
-            {/* Replay Actions */}
-            {mode === 'replay' && (
-              <div className="bg-purple-900/30 rounded-2xl p-6 border border-purple-700">
-                <h2 className="text-lg font-semibold mb-4">🔀 Create Alternate Timeline</h2>
-                <VariableSelector onCreateBranch={() => setShowBranchModal(true)} />
-              </div>
-            )}
-
-            {/* Fast Forward Predictions */}
-            {mode === 'fastforward' && (
-              <div className="bg-cyan-900/30 rounded-2xl p-6 border border-cyan-700">
-                <h2 className="text-lg font-semibold mb-4">🔮 Prediction Confidence</h2>
-                <PredictionConfidence currentDate={currentDate} />
-              </div>
-            )}
-
-            {/* Audit Trail (Rewind) */}
-            {mode === 'rewind' && (
-              <div className="bg-amber-900/30 rounded-2xl p-6 border border-amber-700">
-                <h2 className="text-lg font-semibold mb-4">📋 Export Audit Package</h2>
-                <AuditExport currentDate={currentDate} />
-              </div>
-            )}
-
-            {/* Pivotal Moments */}
-            <PivotalMomentsPanel
-              moments={filteredPivotalMoments}
-              onJumpTo={setCurrentDate}
-              onStartImpactTrace={startImpactTrace}
-            />
             </div>
           </div>
         )}
 
-      {/* Branch Creation Modal */}
-      {showBranchModal && (
-        <BranchModal
-          branchPoint={currentDate}
-          onClose={() => setShowBranchModal(false)}
-          onCreate={createBranch}
-        />
-      )}
+        {/* Branch Creation Modal */}
+        {showBranchModal && (
+          <BranchModal
+            branchPoint={currentDate}
+            onClose={() => setShowBranchModal(false)}
+            onCreate={createBranch}
+          />
+        )}
 
-      {/* Bookmark Modal */}
-      {showBookmarkModal && (
-        <BookmarkModal
-          currentDate={currentDate}
-          onSave={addBookmark}
-          onClose={() => setShowBookmarkModal(false)}
-        />
-      )}
+        {/* Bookmark Modal */}
+        {showBookmarkModal && (
+          <BookmarkModal
+            currentDate={currentDate}
+            onSave={addBookmark}
+            onClose={() => setShowBookmarkModal(false)}
+          />
+        )}
 
-      {/* Court-Admissible Export Modal */}
-      {showCourtExportModal && (
-        <CourtExportModal
-          timeRange={timeRange}
-          currentDate={currentDate}
-          onExport={generateExport}
-          onClose={() => setShowCourtExportModal(false)}
-          isExporting={exportInProgress}
-        />
-      )}
+        {/* Court-Admissible Export Modal */}
+        {showCourtExportModal && (
+          <CourtExportModal
+            timeRange={timeRange}
+            currentDate={currentDate}
+            onExport={generateExport}
+            onClose={() => setShowCourtExportModal(false)}
+            isExporting={exportInProgress}
+          />
+        )}
 
-      {/* Witness Session Modal */}
-      {showWitnessModal && (
-        <WitnessModal
-          onAdd={addWitnessSession}
-          onClose={() => setShowWitnessModal(false)}
-        />
-      )}
+        {/* Witness Session Modal */}
+        {showWitnessModal && (
+          <WitnessModal onAdd={addWitnessSession} onClose={() => setShowWitnessModal(false)} />
+        )}
 
-      {/* Full Traceability Modal */}
-      {showTraceability && traceabilityView && (
-        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
-          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-5xl max-h-[90vh] overflow-hidden">
-            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
-              <div>
-                <h2 className="text-2xl font-bold text-white flex items-center gap-3">🔍 Full Traceability View</h2>
-                <p className="text-neutral-400 text-sm mt-1">Court-level causality proof: Origin → Intermediate → Final</p>
-              </div>
-              <button onClick={() => setShowTraceability(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
-            </div>
-            <div className="p-6 overflow-y-auto max-h-[70vh] space-y-6">
-              <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
-                <h3 className="text-emerald-400 font-semibold mb-3">📥 Origin Source</h3>
-                <div className="grid grid-cols-3 gap-4 text-sm">
-                  <div><span className="text-neutral-400">Dataset:</span> <span className="text-white font-mono">{traceabilityView.originSource.dataset}</span></div>
-                  <div><span className="text-neutral-400">Table:</span> <span className="text-white font-mono">{traceabilityView.originSource.table}</span></div>
-                  <div><span className="text-neutral-400">Field:</span> <span className="text-white font-mono">{traceabilityView.originSource.field}</span></div>
+        {/* Full Traceability Modal */}
+        {showTraceability && traceabilityView && (
+          <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+            <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-5xl max-h-[90vh] overflow-hidden">
+              <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+                <div>
+                  <h2 className="text-2xl font-bold text-white flex items-center gap-3">
+                    🔍 Full Traceability View
+                  </h2>
+                  <p className="text-neutral-400 text-sm mt-1">
+                    Court-level causality proof: Origin → Intermediate → Final
+                  </p>
                 </div>
+                <button
+                  onClick={() => setShowTraceability(false)}
+                  className="text-neutral-400 hover:text-white text-2xl"
+                >
+                  ×
+                </button>
               </div>
-              <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
-                <h3 className="text-amber-400 font-semibold mb-3">⚙️ Transforms ({traceabilityView.intermediateTransforms.length})</h3>
-                <div className="space-y-2">
-                  {traceabilityView.intermediateTransforms.map((t: { step: number; service: string; operation: string; outputHash: string; duration: number }, i: number) => (
-                    <div key={i} className="flex items-center gap-3 bg-black/30 rounded-lg p-3">
-                      <span className="w-6 h-6 bg-amber-600 rounded-full flex items-center justify-center text-xs font-bold">{t.step}</span>
-                      <div className="flex-1">
-                        <div className="text-white font-medium">{t.service} → {t.operation}</div>
-                        <div className="text-xs text-neutral-400 font-mono">Hash: {t.outputHash.slice(0, 16)}...</div>
-                      </div>
-                      <div className="text-xs text-neutral-400">{t.duration}ms</div>
+              <div className="p-6 overflow-y-auto max-h-[70vh] space-y-6">
+                <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
+                  <h3 className="text-emerald-400 font-semibold mb-3">📥 Origin Source</h3>
+                  <div className="grid grid-cols-3 gap-4 text-sm">
+                    <div>
+                      <span className="text-neutral-400">Dataset:</span>{' '}
+                      <span className="text-white font-mono">
+                        {traceabilityView.originSource.dataset}
+                      </span>
                     </div>
-                  ))}
-                </div>
-              </div>
-              <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
-                <h3 className="text-purple-400 font-semibold mb-3">🤖 Agent Provenance</h3>
-                <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 bg-purple-600/50 rounded-full flex items-center justify-center text-2xl">🧠</div>
-                  <div>
-                    <div className="text-white font-bold">{traceabilityView.agentProvenance.agentName}</div>
-                    <div className="text-neutral-400 text-sm">{traceabilityView.agentProvenance.agentRole}</div>
-                    <div className="text-neutral-300 text-sm mt-2 italic">"{traceabilityView.agentProvenance.reasoning}"</div>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-green-900/30 rounded-xl p-4 border border-green-700">
-                <h3 className="text-green-400 font-semibold mb-3">✅ Integrity Proof</h3>
-                <div className="font-mono text-xs text-neutral-300 bg-black/30 p-3 rounded-lg">
-                  <div>Merkle Root: {traceabilityView.integrityProof.merkleRoot}</div>
-                  <div>Block: #{traceabilityView.integrityProof.blockNumber}</div>
-                  <div>Signature: {traceabilityView.integrityProof.signature.slice(0, 32)}...</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Per-Event Compliance Snapshot Modal */}
-      {showComplianceSnapshot && eventComplianceSnapshot && (
-        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
-          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
-            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
-              <div>
-                <h2 className="text-2xl font-bold text-white">📊 Compliance Snapshot</h2>
-                <p className="text-neutral-400 text-sm mt-1">At the time this decision was made</p>
-              </div>
-              <button onClick={() => setShowComplianceSnapshot(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
-            </div>
-            <div className="p-6 overflow-y-auto max-h-[70vh] grid grid-cols-2 gap-4">
-              <div className="bg-blue-900/30 rounded-xl p-4 border border-blue-700">
-                <h3 className="text-blue-400 font-semibold mb-3">🛡️ NIST CSF</h3>
-                <div className="text-4xl font-bold text-white mb-3">{eventComplianceSnapshot.nistScore.overall}%</div>
-              </div>
-              <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
-                <h3 className="text-purple-400 font-semibold mb-3">🌐 OECD AI</h3>
-                <div className="text-4xl font-bold text-white mb-3">{eventComplianceSnapshot.oecdScore.overall}%</div>
-              </div>
-              <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
-                <h3 className="text-emerald-400 font-semibold mb-3">🔒 Privacy</h3>
-                <div className="space-y-2 text-sm">
-                  <div className="flex justify-between"><span className="text-neutral-400">GDPR</span><span className={`px-2 py-0.5 rounded text-xs ${eventComplianceSnapshot.privacyCompliance.gdprStatus === 'compliant' ? 'bg-green-600' : 'bg-amber-600'}`}>{eventComplianceSnapshot.privacyCompliance.gdprStatus.toUpperCase()}</span></div>
-                  <div className="flex justify-between"><span className="text-neutral-400">CCPA</span><span className={`px-2 py-0.5 rounded text-xs ${eventComplianceSnapshot.privacyCompliance.ccpaStatus === 'compliant' ? 'bg-green-600' : 'bg-amber-600'}`}>{eventComplianceSnapshot.privacyCompliance.ccpaStatus.toUpperCase()}</span></div>
-                </div>
-              </div>
-              <div className="bg-red-900/30 rounded-xl p-4 border border-red-700">
-                <h3 className="text-red-400 font-semibold mb-3">🔐 Security</h3>
-                <div className="text-4xl font-bold text-white mb-3">{eventComplianceSnapshot.securityPosture.overallScore}%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Reverse Time Check Modal */}
-      {showReverseTimeCheck && (
-        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
-          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-3xl">
-            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
-              <div>
-                <h2 className="text-2xl font-bold text-white">🔄 Chronos Integrity Validation</h2>
-                <p className="text-neutral-400 text-sm mt-1">Rebuilding company state as of {currentDate.toLocaleDateString()}</p>
-              </div>
-              <button onClick={() => setShowReverseTimeCheck(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
-            </div>
-            <div className="p-6">
-              {isRebuildingState ? (
-                <div className="text-center py-12">
-                  <div className="text-6xl mb-4 animate-spin">⏳</div>
-                  <div className="text-white font-bold text-xl mb-2">Reconstructing State...</div>
-                  <div className="w-full bg-neutral-700 rounded-full h-3 mb-4">
-                    <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-3 rounded-full transition-all" style={{ width: `${reverseTimeProgress}%` }} />
-                  </div>
-                  <div className="text-neutral-400">{reverseTimeProgress}% complete</div>
-                </div>
-              ) : reverseTimeCheck && (
-                <div className="space-y-6">
-                  <div className={`p-6 rounded-xl ${reverseTimeCheck.status === 'complete' ? 'bg-green-900/30 border border-green-700' : 'bg-red-900/30 border border-red-700'}`}>
-                    <div className="flex items-center gap-4">
-                      <span className="text-5xl">{reverseTimeCheck.status === 'complete' ? '✅' : '⚠️'}</span>
-                      <div>
-                        <div className={`text-2xl font-bold ${reverseTimeCheck.status === 'complete' ? 'text-green-400' : 'text-red-400'}`}>
-                          {reverseTimeCheck.status === 'complete' ? 'INTEGRITY VERIFIED' : 'MISMATCH DETECTED'}
-                        </div>
-                        <div className="text-neutral-400">{reverseTimeCheck.status === 'complete' ? 'All state reconstructions match stored hashes.' : 'Discrepancies found.'}</div>
-                      </div>
+                    <div>
+                      <span className="text-neutral-400">Table:</span>{' '}
+                      <span className="text-white font-mono">
+                        {traceabilityView.originSource.table}
+                      </span>
+                    </div>
+                    <div>
+                      <span className="text-neutral-400">Field:</span>{' '}
+                      <span className="text-white font-mono">
+                        {traceabilityView.originSource.field}
+                      </span>
                     </div>
                   </div>
-                  <div className="bg-black/30 rounded-xl p-4">
-                    <h3 className="text-white font-semibold mb-3">🔐 Hash Verification</h3>
-                    <div className="font-mono text-xs space-y-2">
-                      <div className="flex justify-between"><span className="text-neutral-400">Expected:</span><span className="text-white">{reverseTimeCheck.expectedHash.slice(0, 32)}...</span></div>
-                      <div className="flex justify-between"><span className="text-neutral-400">Actual:</span><span className={reverseTimeCheck.expectedHash === reverseTimeCheck.actualHash ? 'text-green-400' : 'text-red-400'}>{reverseTimeCheck.actualHash.slice(0, 32)}...</span></div>
-                    </div>
-                  </div>
-                  {reverseTimeCheck.forensicReport.legalAdmissible && (
-                    <div className="mt-3 text-green-400 text-sm">⚖️ This report is court-admissible</div>
-                  )}
                 </div>
-              )}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Regulator Mode Setup Modal */}
-      {showRegulatorSetup && (
-        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
-          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-2xl">
-            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
-              <div>
-                <h2 className="text-2xl font-bold text-white">🏛️ Regulator Mode Setup</h2>
-                <p className="text-neutral-400 text-sm mt-1">Read-only access for regulatory inspection</p>
-              </div>
-              <button onClick={() => setShowRegulatorSetup(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
-            </div>
-            <div className="p-6 space-y-4">
-              <div className="grid grid-cols-2 gap-4">
-                {(['SEC', 'FDIC', 'OCC', 'FRB', 'DOJ', 'FTC', 'HHS', 'Custom'] as const).map(org => (
-                  <button key={org} onClick={() => startRegulatorSession(org, `${org} Auditor`, 'full_audit', { start: timeRange.min, end: currentDate })} className="p-4 bg-neutral-800 hover:bg-neutral-700 rounded-xl text-left transition-colors">
-                    <div className="text-white font-bold">{org}</div>
-                    <div className="text-neutral-400 text-sm">{org === 'SEC' ? 'Securities & Exchange' : org === 'FDIC' ? 'Federal Deposit Insurance' : org === 'Custom' ? 'Custom Regulatory Body' : `${org} Agency`}</div>
-                  </button>
-                ))}
-              </div>
-              <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
-                <div className="text-amber-400 font-semibold">⚠️ Important</div>
-                <div className="text-neutral-300 text-sm mt-1">Regulator Mode provides read-only access with automatic redaction. All access is logged.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Regulator Mode Banner */}
-      {regulatorMode && regulatorSession && (
-        <div className="fixed top-0 left-0 right-0 bg-red-600 text-white py-2 px-4 z-50 flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <span className="text-xl">🔴</span>
-            <div>
-              <span className="font-bold">REGULATOR MODE ACTIVE</span>
-              <span className="ml-4 text-sm opacity-80">{regulatorSession.regulatorOrg} - Expires: {regulatorSession.expiresAt.toLocaleTimeString()}</span>
-            </div>
-          </div>
-          <button onClick={endRegulatorSession} className="bg-white text-red-600 px-4 py-1 rounded-lg font-bold hover:bg-red-100">End Session</button>
-        </div>
-      )}
-
-      {/* Zero-Knowledge Audit Modal */}
-      {showZKAudit && (
-        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
-          <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
-            <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
-              <div>
-                <h2 className="text-2xl font-bold text-white">🔐 Zero-Knowledge Audits</h2>
-                <p className="text-neutral-400 text-sm mt-1">Prove compliance without revealing sensitive data</p>
-              </div>
-              <button onClick={() => setShowZKAudit(false)} className="text-neutral-400 hover:text-white text-2xl">×</button>
-            </div>
-            <div className="p-6 overflow-y-auto max-h-[70vh]">
-              <div className="bg-gradient-to-r from-cyan-900/50 to-blue-900/50 rounded-xl p-4 border border-cyan-700 mb-6">
-                <h3 className="text-cyan-400 font-semibold mb-3">Generate New ZK Proof</h3>
-                <div className="grid grid-cols-4 gap-3">
-                  {(['GDPR', 'HIPAA', 'SOX', 'SOC2', 'NIST', 'ISO27001', 'CCPA', 'OECD_AI'] as const).map(fw => (
-                    <button key={fw} onClick={() => generateZKAuditProof(fw, `We are compliant with ${fw} requirements`)} disabled={isGeneratingProof} className="p-3 bg-black/30 hover:bg-black/50 rounded-lg text-center transition-colors disabled:opacity-50">
-                      <div className="text-white font-bold">{fw}</div>
-                      <div className="text-xs text-neutral-400">Generate Proof</div>
-                    </button>
-                  ))}
-                </div>
-                {isGeneratingProof && <div className="mt-4 text-center text-cyan-400"><span className="animate-spin inline-block mr-2">⚡</span>Generating cryptographic proof...</div>}
-              </div>
-              <div>
-                <h3 className="text-white font-semibold mb-3">Generated Proofs ({zkProofs.length})</h3>
-                {zkProofs.length === 0 ? (
-                  <div className="text-neutral-400 text-center py-8">No proofs generated yet. Click a framework above.</div>
-                ) : (
-                  <div className="space-y-3">
-                    {zkProofs.map((proof: ZeroKnowledgeProof, i: number) => (
-                      <div key={i} className="bg-neutral-800 rounded-xl p-4">
-                        <div className="flex items-center justify-between mb-3">
-                          <div className="flex items-center gap-3">
-                            <span className="text-2xl">✅</span>
-                            <div>
-                              <div className="text-white font-bold">{proof.framework} Compliance Proof</div>
-                              <div className="text-neutral-400 text-sm">{proof.claim}</div>
+                <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
+                  <h3 className="text-amber-400 font-semibold mb-3">
+                    ⚙️ Transforms ({traceabilityView.intermediateTransforms.length})
+                  </h3>
+                  <div className="space-y-2">
+                    {traceabilityView.intermediateTransforms.map(
+                      (
+                        t: {
+                          step: number;
+                          service: string;
+                          operation: string;
+                          outputHash: string;
+                          duration: number;
+                        },
+                        i: number
+                      ) => (
+                        <div key={i} className="flex items-center gap-3 bg-black/30 rounded-lg p-3">
+                          <span className="w-6 h-6 bg-amber-600 rounded-full flex items-center justify-center text-xs font-bold">
+                            {t.step}
+                          </span>
+                          <div className="flex-1">
+                            <div className="text-white font-medium">
+                              {t.service} → {t.operation}
+                            </div>
+                            <div className="text-xs text-neutral-400 font-mono">
+                              Hash: {t.outputHash.slice(0, 16)}...
                             </div>
                           </div>
-                          <span className="px-3 py-1 bg-green-600 rounded-full text-xs font-bold">VERIFIED</span>
+                          <div className="text-xs text-neutral-400">{t.duration}ms</div>
                         </div>
-                        <div className="grid grid-cols-3 gap-4 text-sm">
-                          <div><span className="text-neutral-400">Data Points:</span><span className="text-white ml-2">{proof.metadata.dataPointsProven.toLocaleString()}</span></div>
-                          <div><span className="text-neutral-400">PII Exposed:</span><span className="text-green-400 ml-2">NONE</span></div>
-                          <div><span className="text-neutral-400">Secrets:</span><span className="text-green-400 ml-2">NONE</span></div>
-                        </div>
-                        <div className="mt-3 p-2 bg-black/30 rounded-lg font-mono text-xs text-neutral-400">Proof Hash: {proof.verification.verificationHash.slice(0, 48)}...</div>
-                      </div>
-                    ))}
+                      )
+                    )}
                   </div>
-                )}
-              </div>
-              <div className="mt-6 bg-purple-900/30 rounded-xl p-4 border border-purple-700">
-                <h3 className="text-purple-400 font-semibold mb-2">🔮 How Zero-Knowledge Proofs Work</h3>
-                <div className="text-neutral-300 text-sm">Zero-knowledge proofs allow you to prove statements about your data without revealing the data itself. Demonstrate GDPR compliance without exposing PII.</div>
+                </div>
+                <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
+                  <h3 className="text-purple-400 font-semibold mb-3">🤖 Agent Provenance</h3>
+                  <div className="flex items-center gap-4">
+                    <div className="w-16 h-16 bg-purple-600/50 rounded-full flex items-center justify-center text-2xl">
+                      🧠
+                    </div>
+                    <div>
+                      <div className="text-white font-bold">
+                        {traceabilityView.agentProvenance.agentName}
+                      </div>
+                      <div className="text-neutral-400 text-sm">
+                        {traceabilityView.agentProvenance.agentRole}
+                      </div>
+                      <div className="text-neutral-300 text-sm mt-2 italic">
+                        "{traceabilityView.agentProvenance.reasoning}"
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-green-900/30 rounded-xl p-4 border border-green-700">
+                  <h3 className="text-green-400 font-semibold mb-3">✅ Integrity Proof</h3>
+                  <div className="font-mono text-xs text-neutral-300 bg-black/30 p-3 rounded-lg">
+                    <div>Merkle Root: {traceabilityView.integrityProof.merkleRoot}</div>
+                    <div>Block: #{traceabilityView.integrityProof.blockNumber}</div>
+                    <div>
+                      Signature: {traceabilityView.integrityProof.signature.slice(0, 32)}...
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      )}
-    </div>
+        )}
+
+        {/* Per-Event Compliance Snapshot Modal */}
+        {showComplianceSnapshot && eventComplianceSnapshot && (
+          <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+            <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
+              <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+                <div>
+                  <h2 className="text-2xl font-bold text-white">📊 Compliance Snapshot</h2>
+                  <p className="text-neutral-400 text-sm mt-1">
+                    At the time this decision was made
+                  </p>
+                </div>
+                <button
+                  onClick={() => setShowComplianceSnapshot(false)}
+                  className="text-neutral-400 hover:text-white text-2xl"
+                >
+                  ×
+                </button>
+              </div>
+              <div className="p-6 overflow-y-auto max-h-[70vh] grid grid-cols-2 gap-4">
+                <div className="bg-blue-900/30 rounded-xl p-4 border border-blue-700">
+                  <h3 className="text-blue-400 font-semibold mb-3">🛡️ NIST CSF</h3>
+                  <div className="text-4xl font-bold text-white mb-3">
+                    {eventComplianceSnapshot.nistScore.overall}%
+                  </div>
+                </div>
+                <div className="bg-purple-900/30 rounded-xl p-4 border border-purple-700">
+                  <h3 className="text-purple-400 font-semibold mb-3">🌐 OECD AI</h3>
+                  <div className="text-4xl font-bold text-white mb-3">
+                    {eventComplianceSnapshot.oecdScore.overall}%
+                  </div>
+                </div>
+                <div className="bg-emerald-900/30 rounded-xl p-4 border border-emerald-700">
+                  <h3 className="text-emerald-400 font-semibold mb-3">🔒 Privacy</h3>
+                  <div className="space-y-2 text-sm">
+                    <div className="flex justify-between">
+                      <span className="text-neutral-400">GDPR</span>
+                      <span
+                        className={`px-2 py-0.5 rounded text-xs ${eventComplianceSnapshot.privacyCompliance.gdprStatus === 'compliant' ? 'bg-green-600' : 'bg-amber-600'}`}
+                      >
+                        {eventComplianceSnapshot.privacyCompliance.gdprStatus.toUpperCase()}
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-neutral-400">CCPA</span>
+                      <span
+                        className={`px-2 py-0.5 rounded text-xs ${eventComplianceSnapshot.privacyCompliance.ccpaStatus === 'compliant' ? 'bg-green-600' : 'bg-amber-600'}`}
+                      >
+                        {eventComplianceSnapshot.privacyCompliance.ccpaStatus.toUpperCase()}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-red-900/30 rounded-xl p-4 border border-red-700">
+                  <h3 className="text-red-400 font-semibold mb-3">🔐 Security</h3>
+                  <div className="text-4xl font-bold text-white mb-3">
+                    {eventComplianceSnapshot.securityPosture.overallScore}%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Reverse Time Check Modal */}
+        {showReverseTimeCheck && (
+          <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+            <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-3xl">
+              <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+                <div>
+                  <h2 className="text-2xl font-bold text-white">🔄 Chronos Integrity Validation</h2>
+                  <p className="text-neutral-400 text-sm mt-1">
+                    Rebuilding company state as of {currentDate.toLocaleDateString()}
+                  </p>
+                </div>
+                <button
+                  onClick={() => setShowReverseTimeCheck(false)}
+                  className="text-neutral-400 hover:text-white text-2xl"
+                >
+                  ×
+                </button>
+              </div>
+              <div className="p-6">
+                {isRebuildingState ? (
+                  <div className="text-center py-12">
+                    <div className="text-6xl mb-4 animate-spin">⏳</div>
+                    <div className="text-white font-bold text-xl mb-2">Reconstructing State...</div>
+                    <div className="w-full bg-neutral-700 rounded-full h-3 mb-4">
+                      <div
+                        className="bg-gradient-to-r from-cyan-500 to-blue-500 h-3 rounded-full transition-all"
+                        style={{ width: `${reverseTimeProgress}%` }}
+                      />
+                    </div>
+                    <div className="text-neutral-400">{reverseTimeProgress}% complete</div>
+                  </div>
+                ) : (
+                  reverseTimeCheck && (
+                    <div className="space-y-6">
+                      <div
+                        className={`p-6 rounded-xl ${reverseTimeCheck.status === 'complete' ? 'bg-green-900/30 border border-green-700' : 'bg-red-900/30 border border-red-700'}`}
+                      >
+                        <div className="flex items-center gap-4">
+                          <span className="text-5xl">
+                            {reverseTimeCheck.status === 'complete' ? '✅' : '⚠️'}
+                          </span>
+                          <div>
+                            <div
+                              className={`text-2xl font-bold ${reverseTimeCheck.status === 'complete' ? 'text-green-400' : 'text-red-400'}`}
+                            >
+                              {reverseTimeCheck.status === 'complete'
+                                ? 'INTEGRITY VERIFIED'
+                                : 'MISMATCH DETECTED'}
+                            </div>
+                            <div className="text-neutral-400">
+                              {reverseTimeCheck.status === 'complete'
+                                ? 'All state reconstructions match stored hashes.'
+                                : 'Discrepancies found.'}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="bg-black/30 rounded-xl p-4">
+                        <h3 className="text-white font-semibold mb-3">🔐 Hash Verification</h3>
+                        <div className="font-mono text-xs space-y-2">
+                          <div className="flex justify-between">
+                            <span className="text-neutral-400">Expected:</span>
+                            <span className="text-white">
+                              {reverseTimeCheck.expectedHash.slice(0, 32)}...
+                            </span>
+                          </div>
+                          <div className="flex justify-between">
+                            <span className="text-neutral-400">Actual:</span>
+                            <span
+                              className={
+                                reverseTimeCheck.expectedHash === reverseTimeCheck.actualHash
+                                  ? 'text-green-400'
+                                  : 'text-red-400'
+                              }
+                            >
+                              {reverseTimeCheck.actualHash.slice(0, 32)}...
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      {reverseTimeCheck.forensicReport.legalAdmissible && (
+                        <div className="mt-3 text-green-400 text-sm">
+                          ⚖️ This report is court-admissible
+                        </div>
+                      )}
+                    </div>
+                  )
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Regulator Mode Setup Modal */}
+        {showRegulatorSetup && (
+          <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+            <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-2xl">
+              <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+                <div>
+                  <h2 className="text-2xl font-bold text-white">🏛️ Regulator Mode Setup</h2>
+                  <p className="text-neutral-400 text-sm mt-1">
+                    Read-only access for regulatory inspection
+                  </p>
+                </div>
+                <button
+                  onClick={() => setShowRegulatorSetup(false)}
+                  className="text-neutral-400 hover:text-white text-2xl"
+                >
+                  ×
+                </button>
+              </div>
+              <div className="p-6 space-y-4">
+                <div className="grid grid-cols-2 gap-4">
+                  {(['SEC', 'FDIC', 'OCC', 'FRB', 'DOJ', 'FTC', 'HHS', 'Custom'] as const).map(
+                    (org) => (
+                      <button
+                        key={org}
+                        onClick={() =>
+                          startRegulatorSession(org, `${org} Auditor`, 'full_audit', {
+                            start: timeRange.min,
+                            end: currentDate,
+                          })
+                        }
+                        className="p-4 bg-neutral-800 hover:bg-neutral-700 rounded-xl text-left transition-colors"
+                      >
+                        <div className="text-white font-bold">{org}</div>
+                        <div className="text-neutral-400 text-sm">
+                          {org === 'SEC'
+                            ? 'Securities & Exchange'
+                            : org === 'FDIC'
+                              ? 'Federal Deposit Insurance'
+                              : org === 'Custom'
+                                ? 'Custom Regulatory Body'
+                                : `${org} Agency`}
+                        </div>
+                      </button>
+                    )
+                  )}
+                </div>
+                <div className="bg-amber-900/30 rounded-xl p-4 border border-amber-700">
+                  <div className="text-amber-400 font-semibold">⚠️ Important</div>
+                  <div className="text-neutral-300 text-sm mt-1">
+                    Regulator Mode provides read-only access with automatic redaction. All access is
+                    logged.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Regulator Mode Banner */}
+        {regulatorMode && regulatorSession && (
+          <div className="fixed top-0 left-0 right-0 bg-red-600 text-white py-2 px-4 z-50 flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <span className="text-xl">🔴</span>
+              <div>
+                <span className="font-bold">REGULATOR MODE ACTIVE</span>
+                <span className="ml-4 text-sm opacity-80">
+                  {regulatorSession.regulatorOrg} - Expires:{' '}
+                  {regulatorSession.expiresAt.toLocaleTimeString()}
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={endRegulatorSession}
+              className="bg-white text-red-600 px-4 py-1 rounded-lg font-bold hover:bg-red-100"
+            >
+              End Session
+            </button>
+          </div>
+        )}
+
+        {/* Zero-Knowledge Audit Modal */}
+        {showZKAudit && (
+          <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-6">
+            <div className="bg-neutral-900 rounded-2xl border border-neutral-700 w-full max-w-4xl max-h-[90vh] overflow-hidden">
+              <div className="p-6 border-b border-neutral-700 flex items-center justify-between">
+                <div>
+                  <h2 className="text-2xl font-bold text-white">🔐 Zero-Knowledge Audits</h2>
+                  <p className="text-neutral-400 text-sm mt-1">
+                    Prove compliance without revealing sensitive data
+                  </p>
+                </div>
+                <button
+                  onClick={() => setShowZKAudit(false)}
+                  className="text-neutral-400 hover:text-white text-2xl"
+                >
+                  ×
+                </button>
+              </div>
+              <div className="p-6 overflow-y-auto max-h-[70vh]">
+                <div className="bg-gradient-to-r from-cyan-900/50 to-blue-900/50 rounded-xl p-4 border border-cyan-700 mb-6">
+                  <h3 className="text-cyan-400 font-semibold mb-3">Generate New ZK Proof</h3>
+                  <div className="grid grid-cols-4 gap-3">
+                    {(
+                      [
+                        'GDPR',
+                        'HIPAA',
+                        'SOX',
+                        'SOC2',
+                        'NIST',
+                        'ISO27001',
+                        'CCPA',
+                        'OECD_AI',
+                      ] as const
+                    ).map((fw) => (
+                      <button
+                        key={fw}
+                        onClick={() =>
+                          generateZKAuditProof(fw, `We are compliant with ${fw} requirements`)
+                        }
+                        disabled={isGeneratingProof}
+                        className="p-3 bg-black/30 hover:bg-black/50 rounded-lg text-center transition-colors disabled:opacity-50"
+                      >
+                        <div className="text-white font-bold">{fw}</div>
+                        <div className="text-xs text-neutral-400">Generate Proof</div>
+                      </button>
+                    ))}
+                  </div>
+                  {isGeneratingProof && (
+                    <div className="mt-4 text-center text-cyan-400">
+                      <span className="animate-spin inline-block mr-2">⚡</span>Generating
+                      cryptographic proof...
+                    </div>
+                  )}
+                </div>
+                <div>
+                  <h3 className="text-white font-semibold mb-3">
+                    Generated Proofs ({zkProofs.length})
+                  </h3>
+                  {zkProofs.length === 0 ? (
+                    <div className="text-neutral-400 text-center py-8">
+                      No proofs generated yet. Click a framework above.
+                    </div>
+                  ) : (
+                    <div className="space-y-3">
+                      {zkProofs.map((proof: ZeroKnowledgeProof, i: number) => (
+                        <div key={i} className="bg-neutral-800 rounded-xl p-4">
+                          <div className="flex items-center justify-between mb-3">
+                            <div className="flex items-center gap-3">
+                              <span className="text-2xl">✅</span>
+                              <div>
+                                <div className="text-white font-bold">
+                                  {proof.framework} Compliance Proof
+                                </div>
+                                <div className="text-neutral-400 text-sm">{proof.claim}</div>
+                              </div>
+                            </div>
+                            <span className="px-3 py-1 bg-green-600 rounded-full text-xs font-bold">
+                              VERIFIED
+                            </span>
+                          </div>
+                          <div className="grid grid-cols-3 gap-4 text-sm">
+                            <div>
+                              <span className="text-neutral-400">Data Points:</span>
+                              <span className="text-white ml-2">
+                                {proof.metadata.dataPointsProven.toLocaleString()}
+                              </span>
+                            </div>
+                            <div>
+                              <span className="text-neutral-400">PII Exposed:</span>
+                              <span className="text-green-400 ml-2">NONE</span>
+                            </div>
+                            <div>
+                              <span className="text-neutral-400">Secrets:</span>
+                              <span className="text-green-400 ml-2">NONE</span>
+                            </div>
+                          </div>
+                          <div className="mt-3 p-2 bg-black/30 rounded-lg font-mono text-xs text-neutral-400">
+                            Proof Hash: {proof.verification.verificationHash.slice(0, 48)}...
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+                <div className="mt-6 bg-purple-900/30 rounded-xl p-4 border border-purple-700">
+                  <h3 className="text-purple-400 font-semibold mb-2">
+                    🔮 How Zero-Knowledge Proofs Work
+                  </h3>
+                  <div className="text-neutral-300 text-sm">
+                    Zero-knowledge proofs allow you to prove statements about your data without
+                    revealing the data itself. Demonstrate GDPR compliance without exposing PII.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
-
 
 // =============================================================================
 // SUB-COMPONENTS
@@ -2659,25 +3226,43 @@ const TimelineScrubber: React.FC<{
   onPlayPause: () => void;
   playbackSpeed: number;
   onSpeedChange: (speed: number) => void;
-}> = ({ currentDate, minDate, maxDate, onDateChange, mode, events, isPlaying, onPlayPause, playbackSpeed, onSpeedChange }) => {
+}> = ({
+  currentDate,
+  minDate,
+  maxDate,
+  onDateChange,
+  mode,
+  events,
+  isPlaying,
+  onPlayPause,
+  playbackSpeed,
+  onSpeedChange,
+}) => {
   const trackRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
-  
+
   const totalMs = maxDate.getTime() - minDate.getTime();
   const position = ((currentDate.getTime() - minDate.getTime()) / totalMs) * 100;
-  
+
   // Calculate date from mouse position
-  const getDateFromPosition = useCallback((clientX: number) => {
-    if (!trackRef.current) {return null;}
-    const rect = trackRef.current.getBoundingClientRect();
-    const x = Math.max(0, Math.min(clientX - rect.left, rect.width));
-    const pct = x / rect.width;
-    return new Date(minDate.getTime() + pct * totalMs);
-  }, [minDate, totalMs]);
+  const getDateFromPosition = useCallback(
+    (clientX: number) => {
+      if (!trackRef.current) {
+        return null;
+      }
+      const rect = trackRef.current.getBoundingClientRect();
+      const x = Math.max(0, Math.min(clientX - rect.left, rect.width));
+      const pct = x / rect.width;
+      return new Date(minDate.getTime() + pct * totalMs);
+    },
+    [minDate, totalMs]
+  );
 
   const handleTrackClick = (e: React.MouseEvent) => {
     const newDate = getDateFromPosition(e.clientX);
-    if (newDate) {onDateChange(newDate);}
+    if (newDate) {
+      onDateChange(newDate);
+    }
   };
 
   // Handle drag start
@@ -2685,16 +3270,22 @@ const TimelineScrubber: React.FC<{
     e.preventDefault();
     setIsDragging(true);
     const newDate = getDateFromPosition(e.clientX);
-    if (newDate) {onDateChange(newDate);}
+    if (newDate) {
+      onDateChange(newDate);
+    }
   };
 
   // Handle drag move and end
   useEffect(() => {
-    if (!isDragging) {return;}
+    if (!isDragging) {
+      return;
+    }
 
     const handleMouseMove = (e: MouseEvent) => {
       const newDate = getDateFromPosition(e.clientX);
-      if (newDate) {onDateChange(newDate);}
+      if (newDate) {
+        onDateChange(newDate);
+      }
     };
 
     const handleMouseUp = () => {
@@ -2712,22 +3303,27 @@ const TimelineScrubber: React.FC<{
 
   const getGradient = () => {
     switch (mode) {
-      case 'rewind': return 'from-amber-500 to-orange-600';
-      case 'replay': return 'from-purple-500 to-pink-600';
-      case 'fastforward': return 'from-cyan-500 to-blue-600';
+      case 'rewind':
+        return 'from-amber-500 to-orange-600';
+      case 'replay':
+        return 'from-purple-500 to-pink-600';
+      case 'fastforward':
+        return 'from-cyan-500 to-blue-600';
     }
   };
 
   // Event markers
   const markers = events
-    .filter(e => e.timestamp >= minDate && e.timestamp <= maxDate)
-    .map(e => ({
+    .filter((e) => e.timestamp >= minDate && e.timestamp <= maxDate)
+    .map((e) => ({
       position: ((e.timestamp.getTime() - minDate.getTime()) / totalMs) * 100,
       event: e,
     }));
 
   const handleJumpToNearestEvent = () => {
-    if (events.length === 0) { return; }
+    if (events.length === 0) {
+      return;
+    }
     let nearest = events[0];
     let nearestDiff = Math.abs(events[0].timestamp.getTime() - currentDate.getTime());
     for (const e of events) {
@@ -2748,8 +3344,15 @@ const TimelineScrubber: React.FC<{
           {minDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
         </div>
         <div className="text-center">
-          <div className={`text-2xl font-bold bg-gradient-to-r ${getGradient()} bg-clip-text text-transparent`}>
-            {currentDate.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' })}
+          <div
+            className={`text-2xl font-bold bg-gradient-to-r ${getGradient()} bg-clip-text text-transparent`}
+          >
+            {currentDate.toLocaleDateString('en-US', {
+              weekday: 'long',
+              month: 'long',
+              day: 'numeric',
+              year: 'numeric',
+            })}
           </div>
           <div className="text-neutral-400">
             {currentDate.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}
@@ -2761,46 +3364,53 @@ const TimelineScrubber: React.FC<{
       </div>
 
       {/* Track */}
-      <div 
+      <div
         ref={trackRef}
         className={`relative h-16 bg-neutral-800 rounded-xl cursor-pointer overflow-hidden select-none ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
         onMouseDown={handleMouseDown}
       >
         {/* Progress */}
-        <div 
+        <div
           className={`absolute inset-y-0 left-0 bg-gradient-to-r ${getGradient()} opacity-20`}
           style={{ width: `${position}%` }}
         />
-        
+
         {/* Event Markers */}
         {markers.map((m, i) => (
           <div
             key={i}
             className={`absolute top-2 bottom-2 w-0.5 rounded-full ${
-              m.event.impact === 'positive' ? 'bg-green-500' :
-              m.event.impact === 'negative' ? 'bg-red-500' : 'bg-neutral-600'
+              m.event.impact === 'positive'
+                ? 'bg-green-500'
+                : m.event.impact === 'negative'
+                  ? 'bg-red-500'
+                  : 'bg-neutral-600'
             } ${Math.abs(m.position - position) < 1 ? 'opacity-100 w-1' : 'opacity-40'}`}
             style={{ left: `${m.position}%` }}
             title={m.event.title}
           />
         ))}
-        
+
         {/* Now Marker */}
         {mode === 'fastforward' && (
-          <div 
+          <div
             className="absolute top-0 bottom-0 w-0.5 bg-white/50"
             style={{ left: `${((new Date().getTime() - minDate.getTime()) / totalMs) * 100}%` }}
           >
-            <div className="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-neutral-400 whitespace-nowrap">NOW</div>
+            <div className="absolute -top-6 left-1/2 -translate-x-1/2 text-xs text-neutral-400 whitespace-nowrap">
+              NOW
+            </div>
           </div>
         )}
-        
+
         {/* Playhead */}
-        <div 
+        <div
           className={`absolute top-0 bottom-0 w-1 bg-gradient-to-b ${getGradient()}`}
           style={{ left: `${position}%`, transform: 'translateX(-50%)' }}
         >
-          <div className={`absolute -top-2 left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-br ${getGradient()} border-2 border-white shadow-lg`} />
+          <div
+            className={`absolute -top-2 left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-br ${getGradient()} border-2 border-white shadow-lg`}
+          />
         </div>
       </div>
 
@@ -2828,15 +3438,17 @@ const TimelineScrubber: React.FC<{
         >
           ⏭️
         </button>
-        
+
         <div className="ml-4 flex items-center gap-2">
           <span className="text-sm text-neutral-500">Speed:</span>
-          {[1, 2, 5, 10].map(speed => (
+          {[1, 2, 5, 10].map((speed) => (
             <button
               key={speed}
               onClick={() => onSpeedChange(speed)}
               className={`px-2 py-1 text-xs rounded ${
-                playbackSpeed === speed ? 'bg-white text-neutral-900' : 'bg-neutral-800 text-neutral-400'
+                playbackSpeed === speed
+                  ? 'bg-white text-neutral-900'
+                  : 'bg-neutral-800 text-neutral-400'
               }`}
             >
               {speed}x
@@ -2855,19 +3467,46 @@ const TimelineScrubber: React.FC<{
       <div className="flex justify-center gap-2 mt-3">
         {mode === 'rewind' && (
           <>
-            <QuickJump label="Yesterday" onClick={() => onDateChange(new Date(Date.now() - 24 * 60 * 60 * 1000))} />
-            <QuickJump label="Last Week" onClick={() => onDateChange(new Date(Date.now() - 7 * 24 * 60 * 60 * 1000))} />
-            <QuickJump label="Last Month" onClick={() => onDateChange(new Date(Date.now() - 30 * 24 * 60 * 60 * 1000))} />
-            <QuickJump label="Last Quarter" onClick={() => onDateChange(new Date(Date.now() - 90 * 24 * 60 * 60 * 1000))} />
-            <QuickJump label="Last Year" onClick={() => onDateChange(new Date(Date.now() - 365 * 24 * 60 * 60 * 1000))} />
+            <QuickJump
+              label="Yesterday"
+              onClick={() => onDateChange(new Date(Date.now() - 24 * 60 * 60 * 1000))}
+            />
+            <QuickJump
+              label="Last Week"
+              onClick={() => onDateChange(new Date(Date.now() - 7 * 24 * 60 * 60 * 1000))}
+            />
+            <QuickJump
+              label="Last Month"
+              onClick={() => onDateChange(new Date(Date.now() - 30 * 24 * 60 * 60 * 1000))}
+            />
+            <QuickJump
+              label="Last Quarter"
+              onClick={() => onDateChange(new Date(Date.now() - 90 * 24 * 60 * 60 * 1000))}
+            />
+            <QuickJump
+              label="Last Year"
+              onClick={() => onDateChange(new Date(Date.now() - 365 * 24 * 60 * 60 * 1000))}
+            />
           </>
         )}
         {mode === 'fastforward' && (
           <>
-            <QuickJump label="+1 Month" onClick={() => onDateChange(new Date(Date.now() + 30 * 24 * 60 * 60 * 1000))} />
-            <QuickJump label="+1 Quarter" onClick={() => onDateChange(new Date(Date.now() + 90 * 24 * 60 * 60 * 1000))} />
-            <QuickJump label="+6 Months" onClick={() => onDateChange(new Date(Date.now() + 180 * 24 * 60 * 60 * 1000))} />
-            <QuickJump label="+1 Year" onClick={() => onDateChange(new Date(Date.now() + 365 * 24 * 60 * 60 * 1000))} />
+            <QuickJump
+              label="+1 Month"
+              onClick={() => onDateChange(new Date(Date.now() + 30 * 24 * 60 * 60 * 1000))}
+            />
+            <QuickJump
+              label="+1 Quarter"
+              onClick={() => onDateChange(new Date(Date.now() + 90 * 24 * 60 * 60 * 1000))}
+            />
+            <QuickJump
+              label="+6 Months"
+              onClick={() => onDateChange(new Date(Date.now() + 180 * 24 * 60 * 60 * 1000))}
+            />
+            <QuickJump
+              label="+1 Year"
+              onClick={() => onDateChange(new Date(Date.now() + 365 * 24 * 60 * 60 * 1000))}
+            />
           </>
         )}
       </div>
@@ -2884,15 +3523,43 @@ const QuickJump: React.FC<{ label: string; onClick: () => void }> = ({ label, on
   </button>
 );
 
-const MetricsGrid: React.FC<{ snapshot: StateSnapshot; mode: ChronosMode }> = ({ snapshot, mode }) => {
+const MetricsGrid: React.FC<{ snapshot: StateSnapshot; mode: ChronosMode }> = ({
+  snapshot,
+  mode,
+}) => {
   const metrics = [
-    { key: 'revenue', label: 'Revenue', icon: '💰', format: (v: number) => `$${(v / 1000000).toFixed(1)}M` },
-    { key: 'profit', label: 'Profit', icon: '📈', format: (v: number) => `$${(v / 1000000).toFixed(1)}M` },
+    {
+      key: 'revenue',
+      label: 'Revenue',
+      icon: '💰',
+      format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
+    },
+    {
+      key: 'profit',
+      label: 'Profit',
+      icon: '📈',
+      format: (v: number) => `$${(v / 1000000).toFixed(1)}M`,
+    },
     { key: 'employees', label: 'Employees', icon: '👥', format: (v: number) => v.toLocaleString() },
     { key: 'customers', label: 'Customers', icon: '🏢', format: (v: number) => v.toLocaleString() },
-    { key: 'satisfaction', label: 'NPS Score', icon: '😊', format: (v: number) => `${v.toFixed(0)}` },
-    { key: 'marketShare', label: 'Market Share', icon: '🎯', format: (v: number) => `${v.toFixed(1)}%` },
-    { key: 'burnRate', label: 'Burn Rate', icon: '🔥', format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo` },
+    {
+      key: 'satisfaction',
+      label: 'NPS Score',
+      icon: '😊',
+      format: (v: number) => `${v.toFixed(0)}`,
+    },
+    {
+      key: 'marketShare',
+      label: 'Market Share',
+      icon: '🎯',
+      format: (v: number) => `${v.toFixed(1)}%`,
+    },
+    {
+      key: 'burnRate',
+      label: 'Burn Rate',
+      icon: '🔥',
+      format: (v: number) => `$${(v / 1000).toFixed(0)}K/mo`,
+    },
     { key: 'runway', label: 'Runway', icon: '🛫', format: (v: number) => `${v} months` },
   ];
 
@@ -2904,19 +3571,18 @@ const MetricsGrid: React.FC<{ snapshot: StateSnapshot; mode: ChronosMode }> = ({
             <span>{icon}</span>
             <span>{label}</span>
           </div>
-          <div className="text-2xl font-bold">
-            {format((snapshot.metrics as any)[key])}
-          </div>
-          {mode === 'fastforward' && (
-            <div className="text-xs text-cyan-400 mt-1">Projected</div>
-          )}
+          <div className="text-2xl font-bold">{format((snapshot.metrics as any)[key])}</div>
+          {mode === 'fastforward' && <div className="text-xs text-cyan-400 mt-1">Projected</div>}
         </div>
       ))}
     </div>
   );
 };
 
-const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosMode }> = ({ council, mode }) => (
+const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosMode }> = ({
+  council,
+  mode,
+}) => (
   <div className="grid grid-cols-4 gap-4">
     <div className="bg-neutral-800/50 rounded-xl p-4">
       <div className="text-sm text-neutral-400 mb-1">Active Agents</div>
@@ -2929,7 +3595,9 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
     </div>
     <div className="bg-neutral-800/50 rounded-xl p-4">
       <div className="text-sm text-neutral-400 mb-1">Total Deliberations</div>
-      <div className="text-2xl font-bold">{council.totalDeliberations === 0 ? '—' : council.totalDeliberations}</div>
+      <div className="text-2xl font-bold">
+        {council.totalDeliberations === 0 ? '—' : council.totalDeliberations}
+      </div>
     </div>
     <div className="bg-neutral-800/50 rounded-xl p-4">
       <div className="text-sm text-neutral-400 mb-1">Consensus Rate</div>
@@ -2938,7 +3606,10 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
   </div>
 );
 
-const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }> = ({ graph, mode }) => (
+const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }> = ({
+  graph,
+  mode,
+}) => (
   <div className="grid grid-cols-4 gap-4">
     <div className="bg-neutral-800/50 rounded-xl p-4">
       <div className="text-sm text-neutral-400 mb-1">Entities</div>
@@ -2950,7 +3621,9 @@ const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }>
     </div>
     <div className="bg-neutral-800/50 rounded-xl p-4">
       <div className="text-sm text-neutral-400 mb-1">Data Points</div>
-      <div className="text-2xl font-bold">{graph.dataPoints === 0 ? '—' : `${(graph.dataPoints / 1000000).toFixed(1)}M`}</div>
+      <div className="text-2xl font-bold">
+        {graph.dataPoints === 0 ? '—' : `${(graph.dataPoints / 1000000).toFixed(1)}M`}
+      </div>
     </div>
     <div className="bg-neutral-800/50 rounded-xl p-4">
       <div className="text-sm text-neutral-400 mb-1">Freshness</div>
@@ -2965,27 +3638,35 @@ const EventsList: React.FC<{
   onSelect: (event: TimelineEvent) => void;
   selectedId?: string;
 }> = ({ events, currentDate, onSelect, selectedId }) => {
-  const visibleEvents = events
-    .filter(e => e.timestamp <= currentDate)
-    .slice(0, 8);
+  const visibleEvents = events.filter((e) => e.timestamp <= currentDate).slice(0, 8);
 
   const getTypeIcon = (type: TimelineEvent['type']) => {
     switch (type) {
-      case 'decision': return '⚖️';
-      case 'metric': return '📊';
-      case 'personnel': return '👤';
-      case 'financial': return '💵';
-      case 'system': return '⚙️';
-      case 'milestone': return '🏆';
+      case 'decision':
+        return '⚖️';
+      case 'metric':
+        return '📊';
+      case 'personnel':
+        return '👤';
+      case 'financial':
+        return '💵';
+      case 'system':
+        return '⚙️';
+      case 'milestone':
+        return '🏆';
     }
   };
 
   const getSeverityIcon = (impact: TimelineEvent['impact']) => {
     switch (impact) {
-      case 'negative': return '🔴';
-      case 'neutral': return '🟡';
-      case 'positive': return '🟢';
-      default: return '⚪';
+      case 'negative':
+        return '🔴';
+      case 'neutral':
+        return '🟡';
+      case 'positive':
+        return '🟢';
+      default:
+        return '⚪';
     }
   };
 
@@ -2994,15 +3675,18 @@ const EventsList: React.FC<{
       {visibleEvents.length === 0 ? (
         <div className="text-center text-neutral-500 py-8">No events at this time</div>
       ) : (
-        visibleEvents.map(event => (
+        visibleEvents.map((event) => (
           <button
             key={event.id}
             onClick={() => onSelect(event)}
             className={`w-full text-left p-3 rounded-lg transition-colors ${
-              selectedId === event.id ? 'bg-white/10 ring-1 ring-white/30' :
-              event.impact === 'positive' ? 'bg-green-900/20 hover:bg-green-900/30' :
-              event.impact === 'negative' ? 'bg-red-900/20 hover:bg-red-900/30' :
-              'bg-neutral-800/50 hover:bg-neutral-800'
+              selectedId === event.id
+                ? 'bg-white/10 ring-1 ring-white/30'
+                : event.impact === 'positive'
+                  ? 'bg-green-900/20 hover:bg-green-900/30'
+                  : event.impact === 'negative'
+                    ? 'bg-red-900/20 hover:bg-red-900/30'
+                    : 'bg-neutral-800/50 hover:bg-neutral-800'
             }`}
           >
             <div className="flex items-start gap-3">
@@ -3017,7 +3701,9 @@ const EventsList: React.FC<{
                 </p>
               </div>
               {event.deliberationId && (
-                <span className="text-xs bg-amber-600/30 text-amber-400 px-2 py-0.5 rounded">Replay</span>
+                <span className="text-xs bg-amber-600/30 text-amber-400 px-2 py-0.5 rounded">
+                  Replay
+                </span>
               )}
             </div>
           </button>
@@ -3030,7 +3716,8 @@ const EventsList: React.FC<{
 const VariableSelector: React.FC<{ onCreateBranch: () => void }> = ({ onCreateBranch }) => (
   <div className="space-y-4">
     <p className="text-sm text-purple-300">
-      Select a decision point from the events list, then create an alternate timeline to see what would have happened.
+      Select a decision point from the events list, then create an alternate timeline to see what
+      would have happened.
     </p>
     <button
       onClick={onCreateBranch}
@@ -3047,23 +3734,32 @@ const BranchList: React.FC<{
   onSelect: (id: string) => void;
 }> = ({ branches, selectedId, onSelect }) => (
   <div className="space-y-3">
-    {branches.map(branch => (
+    {branches.map((branch) => (
       <button
         key={branch.id}
         onClick={() => onSelect(branch.id)}
         className={`w-full text-left p-4 rounded-xl border transition-colors ${
-          selectedId === branch.id 
-            ? 'bg-purple-900/30 border-purple-500' 
+          selectedId === branch.id
+            ? 'bg-purple-900/30 border-purple-500'
             : 'bg-neutral-800/50 border-neutral-700 hover:border-neutral-600'
         }`}
       >
         <div className="flex items-center justify-between mb-2">
           <span className="font-semibold">{branch.name}</span>
-          <span className={`text-xs px-2 py-0.5 rounded-full ${
-            branch.outcome === 'better' ? 'bg-green-600' :
-            branch.outcome === 'worse' ? 'bg-red-600' : 'bg-neutral-600'
-          }`}>
-            {branch.outcome === 'better' ? '✓ Better' : branch.outcome === 'worse' ? '✗ Worse' : '≈ Similar'}
+          <span
+            className={`text-xs px-2 py-0.5 rounded-full ${
+              branch.outcome === 'better'
+                ? 'bg-green-600'
+                : branch.outcome === 'worse'
+                  ? 'bg-red-600'
+                  : 'bg-neutral-600'
+            }`}
+          >
+            {branch.outcome === 'better'
+              ? '✓ Better'
+              : branch.outcome === 'worse'
+                ? '✗ Worse'
+                : '≈ Similar'}
           </span>
         </div>
         <div className="text-sm text-neutral-400">
@@ -3073,10 +3769,12 @@ const BranchList: React.FC<{
         </div>
         <div className="flex gap-4 mt-2 text-sm">
           <span className={branch.deltaRevenue >= 0 ? 'text-green-400' : 'text-red-400'}>
-            Revenue: {branch.deltaRevenue >= 0 ? '+' : ''}{(branch.deltaRevenue / 1000000).toFixed(1)}M
+            Revenue: {branch.deltaRevenue >= 0 ? '+' : ''}
+            {(branch.deltaRevenue / 1000000).toFixed(1)}M
           </span>
           <span className={branch.deltaProfit >= 0 ? 'text-green-400' : 'text-red-400'}>
-            Profit: {branch.deltaProfit >= 0 ? '+' : ''}{(branch.deltaProfit / 1000000).toFixed(1)}M
+            Profit: {branch.deltaProfit >= 0 ? '+' : ''}
+            {(branch.deltaProfit / 1000000).toFixed(1)}M
           </span>
         </div>
       </button>
@@ -3087,18 +3785,26 @@ const BranchList: React.FC<{
 const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) => {
   const daysAhead = Math.floor((currentDate.getTime() - Date.now()) / (24 * 60 * 60 * 1000));
   const confidence = Math.max(10, 95 - daysAhead * 0.3);
-  
+
   return (
     <div className="space-y-4">
       <div>
         <div className="flex justify-between text-sm mb-1">
           <span className="text-neutral-400">Prediction Confidence</span>
-          <span className={confidence > 70 ? 'text-green-400' : confidence > 40 ? 'text-yellow-400' : 'text-red-400'}>
+          <span
+            className={
+              confidence > 70
+                ? 'text-green-400'
+                : confidence > 40
+                  ? 'text-yellow-400'
+                  : 'text-red-400'
+            }
+          >
             {confidence.toFixed(0)}%
           </span>
         </div>
         <div className="h-2 bg-neutral-800 rounded-full overflow-hidden">
-          <div 
+          <div
             className={`h-full rounded-full ${
               confidence > 70 ? 'bg-green-500' : confidence > 40 ? 'bg-yellow-500' : 'bg-red-500'
             }`}
@@ -3130,7 +3836,8 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
 const AuditExport: React.FC<{ currentDate: Date }> = ({ currentDate }) => (
   <div className="space-y-4">
     <p className="text-sm text-amber-300">
-      Generate a complete audit package for this point in time, including all Council deliberations, decisions, and supporting data.
+      Generate a complete audit package for this point in time, including all Council deliberations,
+      decisions, and supporting data.
     </p>
     <div className="space-y-2">
       <button className="w-full py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium transition-colors">
@@ -3158,12 +3865,36 @@ const BranchModal: React.FC<{
   const [alternate, setAlternate] = useState('');
 
   const variables = [
-    { variable: 'VP of Sales', original: 'Terminated', alternatives: ['Retained', 'Reassigned to EMEA', 'Promoted to CRO'] },
-    { variable: 'Q3 Marketing Budget', original: '$2.5M', alternatives: ['$1.5M (Conservative)', '$4M (Aggressive)', '$3M (Moderate)'] },
-    { variable: 'Product V2 Launch', original: 'September', alternatives: ['June (Early)', 'December (Delayed)', 'Cancelled'] },
-    { variable: 'Enterprise Pricing', original: '$500/seat', alternatives: ['$350/seat', '$650/seat', 'Usage-based'] },
-    { variable: 'Engineering Headcount', original: '+15', alternatives: ['+5 (Lean)', '+25 (Aggressive)', 'Hiring Freeze'] },
-    { variable: 'Series C Terms', original: '$50M @ $400M', alternatives: ['$30M @ $300M', '$75M @ $500M', 'Delayed 6mo'] },
+    {
+      variable: 'VP of Sales',
+      original: 'Terminated',
+      alternatives: ['Retained', 'Reassigned to EMEA', 'Promoted to CRO'],
+    },
+    {
+      variable: 'Q3 Marketing Budget',
+      original: '$2.5M',
+      alternatives: ['$1.5M (Conservative)', '$4M (Aggressive)', '$3M (Moderate)'],
+    },
+    {
+      variable: 'Product V2 Launch',
+      original: 'September',
+      alternatives: ['June (Early)', 'December (Delayed)', 'Cancelled'],
+    },
+    {
+      variable: 'Enterprise Pricing',
+      original: '$500/seat',
+      alternatives: ['$350/seat', '$650/seat', 'Usage-based'],
+    },
+    {
+      variable: 'Engineering Headcount',
+      original: '+15',
+      alternatives: ['+5 (Lean)', '+25 (Aggressive)', 'Hiring Freeze'],
+    },
+    {
+      variable: 'Series C Terms',
+      original: '$50M @ $400M',
+      alternatives: ['$30M @ $300M', '$75M @ $500M', 'Delayed 6mo'],
+    },
   ];
 
   return (
@@ -3177,20 +3908,25 @@ const BranchModal: React.FC<{
                 Branch from {branchPoint.toLocaleDateString()}
               </p>
             </div>
-            <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">×</button>
+            <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
+              ×
+            </button>
           </div>
         </div>
-        
+
         <div className="p-6 space-y-4">
           <p className="text-sm text-neutral-400">
             Select a variable to change. The Council will simulate the alternate timeline.
           </p>
-          
+
           <div className="space-y-2 max-h-60 overflow-y-auto">
-            {variables.map(v => (
+            {variables.map((v) => (
               <button
                 key={v.variable}
-                onClick={() => { setSelected(v); setAlternate(''); }}
+                onClick={() => {
+                  setSelected(v);
+                  setAlternate('');
+                }}
                 className={`w-full text-left p-3 rounded-lg transition-colors ${
                   selected?.variable === v.variable
                     ? 'bg-purple-900/50 ring-1 ring-purple-500'
@@ -3202,32 +3938,36 @@ const BranchModal: React.FC<{
               </button>
             ))}
           </div>
-          
+
           {selected && (
             <div className="pt-4 border-t border-neutral-800">
               <div className="text-sm text-neutral-400 mb-2">What if it was instead:</div>
               <div className="flex flex-wrap gap-2">
-                {variables.find(v => v.variable === selected.variable)?.alternatives.map(alt => (
-                  <button
-                    key={alt}
-                    onClick={() => setAlternate(alt)}
-                    className={`px-3 py-2 text-sm rounded-lg transition-colors ${
-                      alternate === alt
-                        ? 'bg-purple-600 text-white'
-                        : 'bg-neutral-800 hover:bg-neutral-700'
-                    }`}
-                  >
-                    {alt}
-                  </button>
-                ))}
+                {variables
+                  .find((v) => v.variable === selected.variable)
+                  ?.alternatives.map((alt) => (
+                    <button
+                      key={alt}
+                      onClick={() => setAlternate(alt)}
+                      className={`px-3 py-2 text-sm rounded-lg transition-colors ${
+                        alternate === alt
+                          ? 'bg-purple-600 text-white'
+                          : 'bg-neutral-800 hover:bg-neutral-700'
+                      }`}
+                    >
+                      {alt}
+                    </button>
+                  ))}
               </div>
             </div>
           )}
         </div>
-        
+
         <div className="p-6 pt-0">
           <button
-            onClick={() => selected && alternate && onCreate(selected.variable, selected.original, alternate)}
+            onClick={() =>
+              selected && alternate && onCreate(selected.variable, selected.original, alternate)
+            }
             disabled={!selected || !alternate}
             className={`w-full py-3 rounded-xl font-semibold transition-all ${
               selected && alternate
@@ -3279,7 +4019,7 @@ const DiffView: React.FC<{
           <span className="text-sm font-normal text-neutral-500">Compare two points in time</span>
         </h2>
         <div className="flex gap-2">
-          {quickDates.map(q => (
+          {quickDates.map((q) => (
             <button
               key={q.label}
               onClick={() => onSelectCompareDate(q.date)}
@@ -3320,14 +4060,19 @@ const DiffView: React.FC<{
             const current = (currentSnapshot.metrics as any)[key];
             const compare = (compareSnapshot.metrics as any)[key];
             const diff = current - compare;
-            const pctChange = ((diff) / compare) * 100;
-            
+            const pctChange = (diff / compare) * 100;
+
             return (
-              <div key={key} className="grid grid-cols-4 gap-4 items-center p-3 bg-neutral-800/50 rounded-lg">
+              <div
+                key={key}
+                className="grid grid-cols-4 gap-4 items-center p-3 bg-neutral-800/50 rounded-lg"
+              >
                 <div className="font-medium">{label}</div>
                 <div className="text-right text-amber-400">{format(current)}</div>
                 <div className="text-right text-cyan-400">{format(compare)}</div>
-                <div className={`text-right font-bold ${diff >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+                <div
+                  className={`text-right font-bold ${diff >= 0 ? 'text-green-400' : 'text-red-400'}`}
+                >
                   {diff >= 0 ? '↑' : '↓'} {Math.abs(pctChange).toFixed(1)}%
                 </div>
               </div>
@@ -3349,7 +4094,7 @@ const CouncilTheater: React.FC<{
 
   useEffect(() => {
     if (isPlaying && replay && currentPhase < replay.phases.length - 1) {
-      const timer = setTimeout(() => setCurrentPhase(p => p + 1), 3000);
+      const timer = setTimeout(() => setCurrentPhase((p) => p + 1), 3000);
       return () => clearTimeout(timer);
     } else if (currentPhase >= (replay?.phases.length || 0) - 1) {
       setIsPlaying(false);
@@ -3380,12 +4125,12 @@ const CouncilTheater: React.FC<{
       <div className="bg-gradient-to-r from-amber-900 to-orange-900 p-4">
         <div className="flex items-center justify-between">
           <div>
-            <h2 className="text-xl font-bold flex items-center gap-2">
-              🎬 Council Replay Theater
-            </h2>
+            <h2 className="text-xl font-bold flex items-center gap-2">🎬 Council Replay Theater</h2>
             <p className="text-amber-200 text-sm">{replay.query}</p>
           </div>
-          <button onClick={onClose} className="text-white/60 hover:text-white">✕</button>
+          <button onClick={onClose} className="text-white/60 hover:text-white">
+            ✕
+          </button>
         </div>
       </div>
 
@@ -3393,8 +4138,11 @@ const CouncilTheater: React.FC<{
       <div className="p-4 border-b border-neutral-800">
         <div className="flex items-center gap-2">
           <span className="text-sm text-neutral-500">Participants:</span>
-          {replay.participants.map(p => (
-            <span key={p} className={`px-2 py-1 text-xs rounded-full bg-gradient-to-r ${agentColors[p] || 'from-neutral-600 to-neutral-700'}`}>
+          {replay.participants.map((p) => (
+            <span
+              key={p}
+              className={`px-2 py-1 text-xs rounded-full bg-gradient-to-r ${agentColors[p] || 'from-neutral-600 to-neutral-700'}`}
+            >
               {p.replace(' Agent', '')}
             </span>
           ))}
@@ -3411,17 +4159,23 @@ const CouncilTheater: React.FC<{
             } ${idx === currentPhase ? 'ring-2 ring-amber-500' : ''}`}
           >
             <div className="flex items-start gap-3">
-              <div className={`w-10 h-10 rounded-full bg-gradient-to-br ${agentColors[phase.agent] || 'from-neutral-600 to-neutral-700'} flex items-center justify-center text-lg`}>
+              <div
+                className={`w-10 h-10 rounded-full bg-gradient-to-br ${agentColors[phase.agent] || 'from-neutral-600 to-neutral-700'} flex items-center justify-center text-lg`}
+              >
                 {phase.agent.charAt(0)}
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
                   <span className="font-semibold">{phase.agent}</span>
-                  <span className={`px-2 py-0.5 text-xs rounded-full ${
-                    phase.sentiment === 'positive' ? 'bg-green-900 text-green-300' :
-                    phase.sentiment === 'negative' ? 'bg-red-900 text-red-300' :
-                    'bg-neutral-700 text-neutral-300'
-                  }`}>
+                  <span
+                    className={`px-2 py-0.5 text-xs rounded-full ${
+                      phase.sentiment === 'positive'
+                        ? 'bg-green-900 text-green-300'
+                        : phase.sentiment === 'negative'
+                          ? 'bg-red-900 text-red-300'
+                          : 'bg-neutral-700 text-neutral-300'
+                    }`}
+                  >
                     {phase.sentiment}
                   </span>
                 </div>
@@ -3437,7 +4191,10 @@ const CouncilTheater: React.FC<{
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <button
-              onClick={() => { setCurrentPhase(0); setIsPlaying(true); }}
+              onClick={() => {
+                setCurrentPhase(0);
+                setIsPlaying(true);
+              }}
               className="px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg font-medium"
             >
               ▶️ Play from Start
@@ -3451,7 +4208,9 @@ const CouncilTheater: React.FC<{
           </div>
           <div className="text-right">
             <div className="text-sm text-neutral-400">Decision</div>
-            <div className={`font-bold ${replay.decision.includes('APPROVED') ? 'text-green-400' : 'text-red-400'}`}>
+            <div
+              className={`font-bold ${replay.decision.includes('APPROVED') ? 'text-green-400' : 'text-red-400'}`}
+            >
               {replay.decision}
             </div>
             <div className="text-xs text-neutral-500">{replay.confidence}% confidence</div>
@@ -3485,7 +4244,9 @@ const ImpactTraceView: React.FC<{
             <h2 className="text-xl font-bold">🔗 Impact Trace: Causal Analysis</h2>
             <p className="text-blue-200 text-sm">Root Cause: {causalChain.rootCause.title}</p>
           </div>
-          <button onClick={onClose} className="text-white/60 hover:text-white">✕</button>
+          <button onClick={onClose} className="text-white/60 hover:text-white">
+            ✕
+          </button>
         </div>
       </div>
 
@@ -3498,7 +4259,8 @@ const ImpactTraceView: React.FC<{
           <div>
             <div className="font-bold text-lg">{causalChain.rootCause.title}</div>
             <div className="text-sm text-neutral-400">
-              {causalChain.rootCause.timestamp.toLocaleDateString()} • {causalChain.rootCause.department}
+              {causalChain.rootCause.timestamp.toLocaleDateString()} •{' '}
+              {causalChain.rootCause.department}
             </div>
           </div>
         </div>
@@ -3516,7 +4278,7 @@ const ImpactTraceView: React.FC<{
                 <div className="flex items-center gap-4 text-sm">
                   <span className="text-neutral-400">Correlation:</span>
                   <div className="flex-1 h-2 bg-neutral-700 rounded-full overflow-hidden">
-                    <div 
+                    <div
                       className="h-full bg-gradient-to-r from-blue-500 to-indigo-500"
                       style={{ width: `${effect.correlation * 100}%` }}
                     />
@@ -3534,20 +4296,29 @@ const ImpactTraceView: React.FC<{
           <div className="grid grid-cols-3 gap-4">
             <div>
               <div className="text-sm text-neutral-400">Revenue Impact</div>
-              <div className={`text-xl font-bold ${causalChain.totalImpact.revenue >= 0 ? 'text-green-400' : 'text-red-400'}`}>
-                {causalChain.totalImpact.revenue >= 0 ? '+' : ''}{(causalChain.totalImpact.revenue / 1000000).toFixed(1)}M
+              <div
+                className={`text-xl font-bold ${causalChain.totalImpact.revenue >= 0 ? 'text-green-400' : 'text-red-400'}`}
+              >
+                {causalChain.totalImpact.revenue >= 0 ? '+' : ''}
+                {(causalChain.totalImpact.revenue / 1000000).toFixed(1)}M
               </div>
             </div>
             <div>
               <div className="text-sm text-neutral-400">Profit Impact</div>
-              <div className={`text-xl font-bold ${causalChain.totalImpact.profit >= 0 ? 'text-green-400' : 'text-red-400'}`}>
-                {causalChain.totalImpact.profit >= 0 ? '+' : ''}{(causalChain.totalImpact.profit / 1000000).toFixed(1)}M
+              <div
+                className={`text-xl font-bold ${causalChain.totalImpact.profit >= 0 ? 'text-green-400' : 'text-red-400'}`}
+              >
+                {causalChain.totalImpact.profit >= 0 ? '+' : ''}
+                {(causalChain.totalImpact.profit / 1000000).toFixed(1)}M
               </div>
             </div>
             <div>
               <div className="text-sm text-neutral-400">Customer Impact</div>
-              <div className={`text-xl font-bold ${causalChain.totalImpact.customers >= 0 ? 'text-green-400' : 'text-red-400'}`}>
-                {causalChain.totalImpact.customers >= 0 ? '+' : ''}{causalChain.totalImpact.customers}
+              <div
+                className={`text-xl font-bold ${causalChain.totalImpact.customers >= 0 ? 'text-green-400' : 'text-red-400'}`}
+              >
+                {causalChain.totalImpact.customers >= 0 ? '+' : ''}
+                {causalChain.totalImpact.customers}
               </div>
             </div>
           </div>
@@ -3563,7 +4334,13 @@ const MonteCarloView: React.FC<{
   onRun: (variable: string) => void;
   onClose: () => void;
 }> = ({ result, onRun, onClose }) => {
-  const variables = ['Q3 Marketing Budget', 'Hiring Strategy', 'Pricing Model', 'Product Roadmap', 'M&A Decision'];
+  const variables = [
+    'Q3 Marketing Budget',
+    'Hiring Strategy',
+    'Pricing Model',
+    'Product Roadmap',
+    'M&A Decision',
+  ];
 
   if (!result) {
     return (
@@ -3575,7 +4352,7 @@ const MonteCarloView: React.FC<{
           Run 10,000+ simulations to find the optimal decision path with probability distributions.
         </p>
         <div className="grid grid-cols-2 gap-3">
-          {variables.map(v => (
+          {variables.map((v) => (
             <button
               key={v}
               onClick={() => onRun(v)}
@@ -3590,7 +4367,7 @@ const MonteCarloView: React.FC<{
     );
   }
 
-  const maxProb = Math.max(...result.outcomes.map(o => o.probability));
+  const maxProb = Math.max(...result.outcomes.map((o) => o.probability));
 
   return (
     <div className="bg-neutral-900 rounded-2xl border border-green-800 overflow-hidden">
@@ -3602,22 +4379,28 @@ const MonteCarloView: React.FC<{
               Variable: {result.variable} • {result.simulations.toLocaleString()} simulations
             </p>
           </div>
-          <button onClick={onClose} className="text-white/60 hover:text-white">✕</button>
+          <button onClick={onClose} className="text-white/60 hover:text-white">
+            ✕
+          </button>
         </div>
       </div>
 
       <div className="p-6">
         {/* Probability Distribution */}
         <div className="mb-6">
-          <h3 className="text-sm font-semibold text-neutral-400 mb-3">OUTCOME PROBABILITY DISTRIBUTION</h3>
+          <h3 className="text-sm font-semibold text-neutral-400 mb-3">
+            OUTCOME PROBABILITY DISTRIBUTION
+          </h3>
           <div className="space-y-3">
             {result.outcomes.map((outcome, idx) => (
               <div key={idx} className="flex items-center gap-4">
                 <div className="w-28 text-sm">{outcome.scenario}</div>
                 <div className="flex-1 h-8 bg-neutral-800 rounded-lg overflow-hidden relative">
-                  <div 
+                  <div
                     className={`h-full bg-gradient-to-r ${
-                      idx === 2 ? 'from-green-500 to-emerald-500' : 'from-neutral-600 to-neutral-500'
+                      idx === 2
+                        ? 'from-green-500 to-emerald-500'
+                        : 'from-neutral-600 to-neutral-500'
                     }`}
                     style={{ width: `${(outcome.probability / maxProb) * 100}%` }}
                   />
@@ -3647,13 +4430,16 @@ const MonteCarloView: React.FC<{
           <div className="p-4 bg-neutral-800/50 rounded-xl">
             <div className="text-sm text-neutral-400">95% Confidence Interval</div>
             <div className="text-lg font-bold">
-              ${(result.confidenceInterval[0] / 1000000).toFixed(1)}M - ${(result.confidenceInterval[1] / 1000000).toFixed(1)}M
+              ${(result.confidenceInterval[0] / 1000000).toFixed(1)}M - $
+              {(result.confidenceInterval[1] / 1000000).toFixed(1)}M
             </div>
           </div>
           <div className="p-4 bg-neutral-800/50 rounded-xl">
             <div className="text-sm text-neutral-400">Expected Value</div>
             <div className="text-lg font-bold text-green-400">
-              ${((result.confidenceInterval[0] + result.confidenceInterval[1]) / 2000000).toFixed(1)}M
+              $
+              {((result.confidenceInterval[0] + result.confidenceInterval[1]) / 2000000).toFixed(1)}
+              M
             </div>
           </div>
         </div>
@@ -3684,7 +4470,7 @@ const PivotalMomentsPanel: React.FC<{
         ⚡ AI-Detected Pivotal Moments
       </h3>
       <div className="space-y-2 max-h-64 overflow-y-auto">
-        {moments.map(moment => {
+        {moments.map((moment) => {
           const { label, badgeClass, icon } = getSeverityMeta(moment.significance);
           return (
             <div
@@ -3693,12 +4479,12 @@ const PivotalMomentsPanel: React.FC<{
             >
               <div className="flex items-center justify-between mb-1">
                 <div className="flex items-center gap-2">
-                  <span className="text-sm" aria-hidden>{icon}</span>
+                  <span className="text-sm" aria-hidden>
+                    {icon}
+                  </span>
                   <span className="font-medium text-sm">{moment.event.title}</span>
                 </div>
-                <span className={`text-xs px-2 py-0.5 rounded-full ${badgeClass}`}>
-                  {label}
-                </span>
+                <span className={`text-xs px-2 py-0.5 rounded-full ${badgeClass}`}>{label}</span>
               </div>
               <p className="text-xs text-neutral-500 mb-2">{moment.reason}</p>
               <div className="flex gap-2">
@@ -3725,7 +4511,7 @@ const PivotalMomentsPanel: React.FC<{
 
 // Animated Graph Preview
 const AnimatedGraphPreview: React.FC<{
-  nodes: Array<{x: number; y: number; size: number}>;
+  nodes: Array<{ x: number; y: number; size: number }>;
   snapshot: StateSnapshot;
 }> = ({ nodes, snapshot }) => (
   <div className="bg-neutral-900 rounded-2xl p-4 border border-neutral-800">
@@ -3763,8 +4549,12 @@ const AnimatedGraphPreview: React.FC<{
       </svg>
       {/* Stats overlay */}
       <div className="absolute bottom-2 left-2 right-2 flex justify-between text-xs">
-        <span className="bg-black/50 px-2 py-1 rounded">{snapshot.graph.entities.toLocaleString()} entities</span>
-        <span className="bg-black/50 px-2 py-1 rounded">{snapshot.graph.relationships.toLocaleString()} relationships</span>
+        <span className="bg-black/50 px-2 py-1 rounded">
+          {snapshot.graph.entities.toLocaleString()} entities
+        </span>
+        <span className="bg-black/50 px-2 py-1 rounded">
+          {snapshot.graph.relationships.toLocaleString()} relationships
+        </span>
         <span className="bg-black/50 px-2 py-1 rounded">{snapshot.graph.freshness}% fresh</span>
       </div>
     </div>
@@ -3786,7 +4576,9 @@ const BookmarkModal: React.FC<{
         <div className="bg-gradient-to-r from-amber-900 to-orange-900 p-4">
           <div className="flex items-center justify-between">
             <h2 className="text-xl font-bold">🔖 Bookmark This Moment</h2>
-            <button onClick={onClose} className="text-white/60 hover:text-white">✕</button>
+            <button onClick={onClose} className="text-white/60 hover:text-white">
+              ✕
+            </button>
           </div>
         </div>
         <div className="p-6 space-y-4">
@@ -3850,7 +4642,9 @@ const CompliancePanel: React.FC<{
         <h2 className="text-xl font-bold flex items-center gap-2">
           🔒 Enterprise Compliance Dashboard
         </h2>
-        <button onClick={onClose} className="text-white/60 hover:text-white">✕</button>
+        <button onClick={onClose} className="text-white/60 hover:text-white">
+          ✕
+        </button>
       </div>
 
       <div className="grid grid-cols-4 gap-4">
@@ -3867,15 +4661,21 @@ const CompliancePanel: React.FC<{
             </div>
             <div className="flex justify-between">
               <span className="text-neutral-400">Total Blocks</span>
-              <span className="font-bold text-emerald-400">{ledger.totalBlocks.toLocaleString()}</span>
+              <span className="font-bold text-emerald-400">
+                {ledger.totalBlocks.toLocaleString()}
+              </span>
             </div>
             <div className="flex justify-between">
               <span className="text-neutral-400">Latest Hash</span>
-              <span className="font-mono text-[10px] text-neutral-500">{ledger.latestBlock.hash.slice(0, 16)}...</span>
+              <span className="font-mono text-[10px] text-neutral-500">
+                {ledger.latestBlock.hash.slice(0, 16)}...
+              </span>
             </div>
             <div className="flex justify-between">
               <span className="text-neutral-400">Integrity</span>
-              <span className={`font-bold ${ledger.integrityStatus === 'verified' ? 'text-green-400' : 'text-red-400'}`}>
+              <span
+                className={`font-bold ${ledger.integrityStatus === 'verified' ? 'text-green-400' : 'text-red-400'}`}
+              >
                 {ledger.integrityStatus.toUpperCase()}
               </span>
             </div>
@@ -3895,7 +4695,9 @@ const CompliancePanel: React.FC<{
           <div className="space-y-2 text-sm">
             <div className="flex justify-between">
               <span className="text-neutral-400">Status</span>
-              <span className={`font-bold ${liveSyncStatus.isConnected ? 'text-green-400' : 'text-red-400'}`}>
+              <span
+                className={`font-bold ${liveSyncStatus.isConnected ? 'text-green-400' : 'text-red-400'}`}
+              >
                 {liveSyncStatus.websocketStatus.toUpperCase()}
               </span>
             </div>
@@ -3930,11 +4732,13 @@ const CompliancePanel: React.FC<{
             <p className="text-sm text-neutral-500">No active witness sessions</p>
           ) : (
             <div className="space-y-2">
-              {witnessSessions.map(session => (
+              {witnessSessions.map((session) => (
                 <div key={session.id} className="p-2 bg-amber-900/20 rounded-lg text-sm">
                   <div className="flex items-center justify-between">
                     <span className="font-medium">{session.witnessOrg}</span>
-                    <span className={`w-2 h-2 rounded-full ${session.isLive ? 'bg-green-400' : 'bg-neutral-500'}`} />
+                    <span
+                      className={`w-2 h-2 rounded-full ${session.isLive ? 'bg-green-400' : 'bg-neutral-500'}`}
+                    />
                   </div>
                   <div className="text-xs text-neutral-400">{session.witnessRole}</div>
                   <div className="text-xs text-neutral-500">Access: {session.accessLevel}</div>
@@ -3956,14 +4760,19 @@ const CompliancePanel: React.FC<{
               <span className="font-bold">{redactionRules.length}</span>
             </div>
             <div className="space-y-1">
-              {redactionRules.slice(0, 3).map(rule => (
+              {redactionRules.slice(0, 3).map((rule) => (
                 <div key={rule.id} className="flex items-center gap-2">
-                  <span className={`w-2 h-2 rounded-full ${
-                    rule.category === 'pii' ? 'bg-red-400' :
-                    rule.category === 'phi' ? 'bg-purple-400' :
-                    rule.category === 'personnel' ? 'bg-amber-400' :
-                    'bg-neutral-400'
-                  }`} />
+                  <span
+                    className={`w-2 h-2 rounded-full ${
+                      rule.category === 'pii'
+                        ? 'bg-red-400'
+                        : rule.category === 'phi'
+                          ? 'bg-purple-400'
+                          : rule.category === 'personnel'
+                            ? 'bg-amber-400'
+                            : 'bg-neutral-400'
+                    }`}
+                  />
                   <span className="text-xs text-neutral-400">{rule.field}</span>
                   <span className="text-[10px] px-1 bg-neutral-700 rounded">{rule.category}</span>
                 </div>
@@ -4004,7 +4813,9 @@ const CourtExportModal: React.FC<{
                 Generate legally defensible evidence package
               </p>
             </div>
-            <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">×</button>
+            <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
+              ×
+            </button>
           </div>
         </div>
 
@@ -4026,7 +4837,7 @@ const CourtExportModal: React.FC<{
                 { id: 'pdf', label: '📄 PDF Report', desc: 'Human-readable' },
                 { id: 'json', label: '📋 JSON Data', desc: 'Machine-readable' },
                 { id: 'xml', label: '📑 XML/XBRL', desc: 'Regulatory format' },
-              ].map(opt => (
+              ].map((opt) => (
                 <button
                   key={opt.id}
                   onClick={() => setFormat(opt.id as any)}
@@ -4054,7 +4865,9 @@ const CourtExportModal: React.FC<{
               />
               <div>
                 <div className="font-medium text-sm">Apply PII Redaction</div>
-                <div className="text-xs text-neutral-400">Auto-redact personal data while preserving financial truth</div>
+                <div className="text-xs text-neutral-400">
+                  Auto-redact personal data while preserving financial truth
+                </div>
               </div>
             </label>
             <label className="flex items-center gap-3 p-3 bg-neutral-800 rounded-lg cursor-pointer">
@@ -4066,7 +4879,9 @@ const CourtExportModal: React.FC<{
               />
               <div>
                 <div className="font-medium text-sm">Include Council Transcripts</div>
-                <div className="text-xs text-neutral-400">Full deliberation records for audit trail</div>
+                <div className="text-xs text-neutral-400">
+                  Full deliberation records for audit trail
+                </div>
               </div>
             </label>
           </div>
@@ -4127,7 +4942,9 @@ const WitnessModal: React.FC<{
               <h2 className="text-xl font-bold">👁️ Add Witness Session</h2>
               <p className="text-blue-200 text-sm mt-1">Grant read-only timeline access</p>
             </div>
-            <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">×</button>
+            <button onClick={onClose} className="text-white/60 hover:text-white text-2xl">
+              ×
+            </button>
           </div>
         </div>
 
@@ -4136,10 +4953,13 @@ const WitnessModal: React.FC<{
           <div>
             <div className="text-sm text-neutral-400 mb-2">Quick Add</div>
             <div className="flex flex-wrap gap-2">
-              {presets.map(p => (
+              {presets.map((p) => (
                 <button
                   key={p.org}
-                  onClick={() => { setOrg(p.org); setRole(p.role); }}
+                  onClick={() => {
+                    setOrg(p.org);
+                    setRole(p.role);
+                  }}
                   className="px-3 py-1 text-xs bg-neutral-800 hover:bg-neutral-700 rounded-lg"
                 >
                   {p.org}
@@ -4180,7 +5000,7 @@ const WitnessModal: React.FC<{
                 { id: 'redacted', label: 'Redacted', desc: 'PII removed' },
                 { id: 'financial-only', label: 'Financial', desc: 'Numbers only' },
                 { id: 'full', label: 'Full Access', desc: 'Everything' },
-              ].map(opt => (
+              ].map((opt) => (
                 <button
                   key={opt.id}
                   onClick={() => setAccessLevel(opt.id as any)}
@@ -4200,7 +5020,8 @@ const WitnessModal: React.FC<{
           {/* Air-Gapped Key Notice */}
           <div className="p-3 bg-blue-900/20 border border-blue-800 rounded-lg text-sm">
             <p className="text-blue-300">
-              🔐 An air-gapped access key will be generated. The witness must complete a key ceremony to activate their session.
+              🔐 An air-gapped access key will be generated. The witness must complete a key
+              ceremony to activate their session.
             </p>
           </div>
 
@@ -4233,7 +5054,9 @@ const ERPPanel: React.FC<{
   currentDate: Date;
   onClose: () => void;
 }> = ({ connectors, erpSnapshot, selectedSource, onSourceChange, currentDate, onClose }) => {
-  const activeConnectors = connectors.filter(c => c.status === 'connected' || c.status === 'syncing');
+  const activeConnectors = connectors.filter(
+    (c) => c.status === 'connected' || c.status === 'syncing'
+  );
   const totalRecords = connectors.reduce((sum, c) => sum + c.recordCount, 0);
 
   return (
@@ -4243,18 +5066,26 @@ const ERPPanel: React.FC<{
         <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-xl font-bold flex items-center gap-2">
-              🏢 Chronos-ERP™ <span className="text-indigo-400 text-sm font-normal">Enterprise System Time Travel</span>
+              🏢 Chronos-ERP™{' '}
+              <span className="text-indigo-400 text-sm font-normal">
+                Enterprise System Time Travel
+              </span>
             </h2>
             <p className="text-sm text-neutral-400 mt-1">
-              Replay SAP, Workday, Salesforce, and more • {totalRecords.toLocaleString()} total records indexed
+              Replay SAP, Workday, Salesforce, and more • {totalRecords.toLocaleString()} total
+              records indexed
             </p>
           </div>
-          <button onClick={onClose} className="text-white/60 hover:text-white text-xl">✕</button>
+          <button onClick={onClose} className="text-white/60 hover:text-white text-xl">
+            ✕
+          </button>
         </div>
 
         {/* Connected Systems */}
         <div className="mb-6">
-          <h3 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-3">Connected Systems</h3>
+          <h3 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-3">
+            Connected Systems
+          </h3>
           <div className="flex flex-wrap gap-2">
             <button
               onClick={() => onSourceChange('all')}
@@ -4266,7 +5097,7 @@ const ERPPanel: React.FC<{
             >
               All Systems
             </button>
-            {connectors.map(c => (
+            {connectors.map((c) => (
               <button
                 key={c.id}
                 onClick={() => onSourceChange(c.source)}
@@ -4278,11 +5109,17 @@ const ERPPanel: React.FC<{
               >
                 <span>{c.icon}</span>
                 <span>{c.name}</span>
-                <span className={`w-2 h-2 rounded-full ${
-                  c.status === 'connected' ? 'bg-green-400' :
-                  c.status === 'syncing' ? 'bg-amber-400 animate-pulse' :
-                  c.status === 'error' ? 'bg-red-400' : 'bg-neutral-500'
-                }`} />
+                <span
+                  className={`w-2 h-2 rounded-full ${
+                    c.status === 'connected'
+                      ? 'bg-green-400'
+                      : c.status === 'syncing'
+                        ? 'bg-amber-400 animate-pulse'
+                        : c.status === 'error'
+                          ? 'bg-red-400'
+                          : 'bg-neutral-500'
+                  }`}
+                />
               </button>
             ))}
           </div>
@@ -4303,7 +5140,9 @@ const ERPPanel: React.FC<{
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Pipeline</span>
-                  <span className="font-bold text-blue-400">${(erpSnapshot.crm.totalPipeline / 1000000).toFixed(1)}M</span>
+                  <span className="font-bold text-blue-400">
+                    ${(erpSnapshot.crm.totalPipeline / 1000000).toFixed(1)}M
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Weighted</span>
@@ -4329,11 +5168,15 @@ const ERPPanel: React.FC<{
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Revenue</span>
-                  <span className="font-bold text-green-400">${(erpSnapshot.erp.revenue / 1000000).toFixed(1)}M</span>
+                  <span className="font-bold text-green-400">
+                    ${(erpSnapshot.erp.revenue / 1000000).toFixed(1)}M
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Expenses</span>
-                  <span className="text-red-400">${(erpSnapshot.erp.expenses / 1000000).toFixed(1)}M</span>
+                  <span className="text-red-400">
+                    ${(erpSnapshot.erp.expenses / 1000000).toFixed(1)}M
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Cash</span>
@@ -4363,7 +5206,11 @@ const ERPPanel: React.FC<{
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Attrition</span>
-                  <span className={erpSnapshot.hr.attritionRate > 15 ? 'text-red-400' : 'text-green-400'}>
+                  <span
+                    className={
+                      erpSnapshot.hr.attritionRate > 15 ? 'text-red-400' : 'text-green-400'
+                    }
+                  >
                     {erpSnapshot.hr.attritionRate.toFixed(1)}%
                   </span>
                 </div>
@@ -4383,11 +5230,19 @@ const ERPPanel: React.FC<{
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Velocity</span>
-                  <span className="font-bold text-cyan-400">{erpSnapshot.engineering.velocity} pts</span>
+                  <span className="font-bold text-cyan-400">
+                    {erpSnapshot.engineering.velocity} pts
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Sprint %</span>
-                  <span className={erpSnapshot.engineering.sprintCompletion > 80 ? 'text-green-400' : 'text-amber-400'}>
+                  <span
+                    className={
+                      erpSnapshot.engineering.sprintCompletion > 80
+                        ? 'text-green-400'
+                        : 'text-amber-400'
+                    }
+                  >
                     {erpSnapshot.engineering.sprintCompletion.toFixed(0)}%
                   </span>
                 </div>
@@ -4411,7 +5266,9 @@ const ERPPanel: React.FC<{
               <div className="space-y-2 text-xs">
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Open</span>
-                  <span className="font-bold text-rose-400">{erpSnapshot.serviceDesk.openTickets}</span>
+                  <span className="font-bold text-rose-400">
+                    {erpSnapshot.serviceDesk.openTickets}
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-400">Response</span>
@@ -4419,7 +5276,11 @@ const ERPPanel: React.FC<{
                 </div>
                 <div className="flex justify-between">
                   <span className="text-neutral-400">SLA %</span>
-                  <span className={erpSnapshot.serviceDesk.slaCompliance > 90 ? 'text-green-400' : 'text-red-400'}>
+                  <span
+                    className={
+                      erpSnapshot.serviceDesk.slaCompliance > 90 ? 'text-green-400' : 'text-red-400'
+                    }
+                  >
                     {erpSnapshot.serviceDesk.slaCompliance.toFixed(0)}%
                   </span>
                 </div>
@@ -4434,21 +5295,28 @@ const ERPPanel: React.FC<{
 
         {/* Connector Health */}
         <div>
-          <h3 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-3">Connector Health</h3>
+          <h3 className="text-sm font-semibold text-neutral-400 uppercase tracking-wider mb-3">
+            Connector Health
+          </h3>
           <div className="grid grid-cols-4 gap-3">
-            {connectors.map(c => (
+            {connectors.map((c) => (
               <div key={c.id} className="bg-black/20 rounded-lg p-3 border border-neutral-800">
                 <div className="flex items-center justify-between mb-2">
                   <div className="flex items-center gap-2">
                     <span>{c.icon}</span>
                     <span className="font-medium text-sm">{c.name}</span>
                   </div>
-                  <div className={`px-2 py-0.5 rounded text-xs ${
-                    c.status === 'connected' ? 'bg-green-900 text-green-300' :
-                    c.status === 'syncing' ? 'bg-amber-900 text-amber-300' :
-                    c.status === 'error' ? 'bg-red-900 text-red-300' :
-                    'bg-neutral-800 text-neutral-400'
-                  }`}>
+                  <div
+                    className={`px-2 py-0.5 rounded text-xs ${
+                      c.status === 'connected'
+                        ? 'bg-green-900 text-green-300'
+                        : c.status === 'syncing'
+                          ? 'bg-amber-900 text-amber-300'
+                          : c.status === 'error'
+                            ? 'bg-red-900 text-red-300'
+                            : 'bg-neutral-800 text-neutral-400'
+                    }`}
+                  >
                     {c.status}
                   </div>
                 </div>
@@ -4459,13 +5327,17 @@ const ERPPanel: React.FC<{
                   </div>
                   <div>
                     <span className="text-neutral-500">Health</span>
-                    <div className={`font-medium ${c.healthScore > 95 ? 'text-green-400' : c.healthScore > 80 ? 'text-amber-400' : 'text-red-400'}`}>
+                    <div
+                      className={`font-medium ${c.healthScore > 95 ? 'text-green-400' : c.healthScore > 80 ? 'text-amber-400' : 'text-red-400'}`}
+                    >
                       {c.healthScore}%
                     </div>
                   </div>
                   <div className="col-span-2">
                     <span className="text-neutral-500">Last Sync</span>
-                    <div className="font-medium">{Math.floor((Date.now() - c.lastSync.getTime()) / 60000)} min ago</div>
+                    <div className="font-medium">
+                      {Math.floor((Date.now() - c.lastSync.getTime()) / 60000)} min ago
+                    </div>
                   </div>
                 </div>
               </div>
@@ -4476,4 +5348,3 @@ const ERPPanel: React.FC<{
     </div>
   );
 };
-

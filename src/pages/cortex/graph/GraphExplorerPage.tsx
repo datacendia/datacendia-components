@@ -72,7 +72,9 @@ const EntityDetailsPanel: React.FC<{
   onViewImpact: () => void;
   onAskCouncil: () => void;
 }> = ({ entity, onClose, onViewLineage, onViewImpact, onAskCouncil }) => {
-  if (!entity) {return null;}
+  if (!entity) {
+    return null;
+  }
 
   const colors = nodeColors[entity.type] || nodeColors.entity;
 
@@ -154,8 +156,10 @@ const EntityDetailsPanel: React.FC<{
 // =============================================================================
 
 const MiniMap: React.FC<{ nodes: GraphNode[] }> = ({ nodes }) => {
-  if (nodes.length === 0) {return null;}
-  
+  if (nodes.length === 0) {
+    return null;
+  }
+
   return (
     <div className="absolute bottom-4 right-4 w-32 h-24 bg-neutral-800/90 rounded-lg border border-neutral-700 p-2 z-10">
       <div className="relative w-full h-full">
@@ -167,10 +171,10 @@ const MiniMap: React.FC<{ nodes: GraphNode[] }> = ({ nodes }) => {
             <div
               key={node.id}
               className="absolute w-2 h-2 rounded-full"
-              style={{ 
-                left: `${x}%`, 
-                top: `${y}%`, 
-                backgroundColor: colors.border 
+              style={{
+                left: `${x}%`,
+                top: `${y}%`,
+                backgroundColor: colors.border,
               }}
             />
           );
@@ -192,7 +196,7 @@ const FilterChips: React.FC<{
   onToggle: (type: string) => void;
 }> = ({ types, activeTypes, onToggle }) => (
   <div className="flex flex-wrap gap-2">
-    {types.map(type => {
+    {types.map((type) => {
       const colors = nodeColors[type] || nodeColors.entity;
       const isActive = activeTypes.includes(type) || activeTypes.length === 0;
       return (
@@ -239,14 +243,16 @@ export const GraphExplorerPage: React.FC = () => {
 
   // Search suggestions
   const suggestions = useMemo<SearchSuggestion[]>(() => {
-    if (!searchQuery || searchQuery.length < 2) {return [];}
+    if (!searchQuery || searchQuery.length < 2) {
+      return [];
+    }
     return nodes
-      .filter(n => {
+      .filter((n) => {
         const name = (n.name ?? '').toString();
         return name.toLowerCase().includes(searchQuery.toLowerCase());
       })
       .slice(0, 5)
-      .map(n => ({
+      .map((n) => ({
         id: n.id,
         name: (n.name ?? n.id ?? 'Unnamed') as string,
         type: n.type,
@@ -255,10 +261,8 @@ export const GraphExplorerPage: React.FC = () => {
 
   // Toggle filter
   const toggleFilter = useCallback((type: string) => {
-    setActiveFilters(prev => 
-      prev.includes(type) 
-        ? prev.filter(t => t !== type)
-        : [...prev, type]
+    setActiveFilters((prev) =>
+      prev.includes(type) ? prev.filter((t) => t !== type) : [...prev, type]
     );
   }, []);
 
@@ -282,13 +286,15 @@ export const GraphExplorerPage: React.FC = () => {
               name: e.name || e.label || e.id,
               properties: e.properties || {},
             }));
-            const lineageEdges: GraphEdge[] = (data.relationships || data.edges || []).map((r: any, idx: number) => ({
-              id: r.id || `edge-${idx}`,
-              source: r.sourceId || r.source,
-              target: r.targetId || r.target,
-              type: r.type || 'related',
-              label: r.label || r.type,
-            }));
+            const lineageEdges: GraphEdge[] = (data.relationships || data.edges || []).map(
+              (r: any, idx: number) => ({
+                id: r.id || `edge-${idx}`,
+                source: r.sourceId || r.source,
+                target: r.targetId || r.target,
+                type: r.type || 'related',
+                label: r.label || r.type,
+              })
+            );
             setNodes(lineageNodes);
             setEdges(lineageEdges);
           }
@@ -315,16 +321,18 @@ export const GraphExplorerPage: React.FC = () => {
               `;
 
               const relRes = await graphApi.executeQuery(relQuery, {
-                nodeIds: graphNodes.map(n => n.id),
+                nodeIds: graphNodes.map((n) => n.id),
               });
 
               if (relRes.success && Array.isArray(relRes.data)) {
-                const graphEdges: GraphEdge[] = (relRes.data as any[]).map((row: any) => ({
-                  source: String(row.sourceId ?? row.source ?? ''),
-                  target: String(row.targetId ?? row.target ?? ''),
-                  type: String(row.relType ?? row.type ?? 'related'),
-                  properties: row.properties || {},
-                })).filter(e => e.source && e.target);
+                const graphEdges: GraphEdge[] = (relRes.data as any[])
+                  .map((row: any) => ({
+                    source: String(row.sourceId ?? row.source ?? ''),
+                    target: String(row.targetId ?? row.target ?? ''),
+                    type: String(row.relType ?? row.type ?? 'related'),
+                    properties: row.properties || {},
+                  }))
+                  .filter((e) => e.source && e.target);
 
                 setEdges(graphEdges);
               } else {
@@ -365,9 +373,12 @@ export const GraphExplorerPage: React.FC = () => {
   }, []);
 
   // Handle node double-click (drill down)
-  const handleNodeDoubleClick = useCallback((node: GraphNode) => {
-    navigate(`/cortex/graph?entity=${node.id}`);
-  }, [navigate]);
+  const handleNodeDoubleClick = useCallback(
+    (node: GraphNode) => {
+      navigate(`/cortex/graph?entity=${node.id}`);
+    },
+    [navigate]
+  );
 
   // View lineage for selected entity
   const handleViewLineage = useCallback(() => {
@@ -388,16 +399,16 @@ export const GraphExplorerPage: React.FC = () => {
   }, [selectedEntity]);
 
   // Filter nodes
-  const filteredNodes = nodes.filter(node => {
+  const filteredNodes = nodes.filter((node) => {
     const name = (node.name ?? '').toString();
     const matchesSearch = name.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesType = activeFilters.length === 0 || activeFilters.includes(node.type);
     return matchesSearch && matchesType;
   });
 
-  const filteredEdges = edges.filter(edge => {
-    const sourceVisible = filteredNodes.some(n => n.id === edge.source);
-    const targetVisible = filteredNodes.some(n => n.id === edge.target);
+  const filteredEdges = edges.filter((edge) => {
+    const sourceVisible = filteredNodes.some((n) => n.id === edge.source);
+    const targetVisible = filteredNodes.some((n) => n.id === edge.target);
     return sourceVisible && targetVisible;
   });
 
@@ -408,7 +419,7 @@ export const GraphExplorerPage: React.FC = () => {
   };
 
   // Get unique types for filter
-  const nodeTypes = [...new Set(nodes.map(n => n.type))];
+  const nodeTypes = [...new Set(nodes.map((n) => n.type))];
 
   return (
     <div className="h-full flex flex-col bg-neutral-900">
@@ -417,9 +428,7 @@ export const GraphExplorerPage: React.FC = () => {
         <div className="flex items-center justify-between mb-4">
           <div>
             <h1 className="text-xl font-bold text-white">Graph Explorer</h1>
-            <p className="text-sm text-neutral-400">
-              Explore entities and their relationships
-            </p>
+            <p className="text-sm text-neutral-400">Explore entities and their relationships</p>
           </div>
           <div className="flex items-center gap-4">
             <span className="text-sm text-neutral-500">
@@ -446,7 +455,7 @@ export const GraphExplorerPage: React.FC = () => {
             {/* Search Suggestions Dropdown */}
             {showSuggestions && suggestions.length > 0 && (
               <div className="absolute top-full left-0 right-0 mt-1 bg-neutral-800 border border-neutral-700 rounded-lg shadow-xl z-20 overflow-hidden">
-                {suggestions.map(s => (
+                {suggestions.map((s) => (
                   <button
                     key={s.id}
                     onClick={() => {
@@ -468,11 +477,7 @@ export const GraphExplorerPage: React.FC = () => {
         </div>
 
         {/* Filter Chips */}
-        <FilterChips
-          types={nodeTypes}
-          activeTypes={activeFilters}
-          onToggle={toggleFilter}
-        />
+        <FilterChips types={nodeTypes} activeTypes={activeFilters} onToggle={toggleFilter} />
       </div>
 
       {/* Graph Canvas */}
@@ -521,14 +526,18 @@ export const GraphExplorerPage: React.FC = () => {
           onViewImpact={handleViewImpact}
           onAskCouncil={() => {
             if (selectedEntity) {
-              navigate(`/cortex/council?q=Tell me about the ${selectedEntity.type} "${selectedEntity.name}" - its purpose, data quality, dependencies, and any risks or concerns.`);
+              navigate(
+                `/cortex/council?q=Tell me about the ${selectedEntity.type} "${selectedEntity.name}" - its purpose, data quality, dependencies, and any risks or concerns.`
+              );
             }
           }}
         />
 
         {/* Legend - Node Types */}
         <div className="absolute top-4 right-4 bg-neutral-800/90 rounded-lg border border-neutral-700 p-3 z-10">
-          <p className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-2">Node Types</p>
+          <p className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-2">
+            Node Types
+          </p>
           <div className="space-y-1.5 mb-3">
             {Object.entries(nodeColors).map(([type, colors]) => (
               <div key={type} className="flex items-center gap-2 text-xs">
@@ -541,14 +550,13 @@ export const GraphExplorerPage: React.FC = () => {
             ))}
           </div>
           <div className="border-t border-neutral-700 pt-2 mt-2">
-            <p className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-2">Edge Types</p>
+            <p className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-2">
+              Edge Types
+            </p>
             <div className="space-y-1.5">
               {Object.entries(edgeTypes).map(([type, config]) => (
                 <div key={type} className="flex items-center gap-2 text-xs">
-                  <div
-                    className="w-4 h-0.5 rounded"
-                    style={{ backgroundColor: config.color }}
-                  />
+                  <div className="w-4 h-0.5 rounded" style={{ backgroundColor: config.color }} />
                   <span className="text-neutral-300">{config.label}</span>
                 </div>
               ))}

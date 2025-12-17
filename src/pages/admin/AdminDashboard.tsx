@@ -1,6 +1,6 @@
 /**
  * Admin Dashboard - Tenant Management & System Overview
- * 
+ *
  * Multi-tenant admin view showing all organizations, usage metrics,
  * health status, feature flags, and audit logs.
  */
@@ -56,27 +56,182 @@ interface ServiceHealth {
 
 // Mock data
 const mockTenants: Tenant[] = [
-  { id: 't1', name: 'Acme Corp', slug: 'acme', tier: 'enterprise', status: 'active', users: 156, deliberations: 2340, storageUsedMB: 4500, apiCallsToday: 12500, createdAt: new Date('2024-01-15'), lastActiveAt: new Date() },
-  { id: 't2', name: 'TechStart Inc', slug: 'techstart', tier: 'pro', status: 'active', users: 45, deliberations: 890, storageUsedMB: 1200, apiCallsToday: 3400, createdAt: new Date('2024-03-20'), lastActiveAt: new Date() },
-  { id: 't3', name: 'Global Finance', slug: 'globalfin', tier: 'sovereign', status: 'active', users: 320, deliberations: 5600, storageUsedMB: 12000, apiCallsToday: 45000, createdAt: new Date('2023-11-01'), lastActiveAt: new Date() },
-  { id: 't4', name: 'StartupXYZ', slug: 'startupxyz', tier: 'free', status: 'trial', users: 5, deliberations: 23, storageUsedMB: 50, apiCallsToday: 89, createdAt: new Date('2025-01-01'), lastActiveAt: new Date() },
-  { id: 't5', name: 'MedCare Health', slug: 'medcare', tier: 'enterprise', status: 'active', users: 89, deliberations: 1560, storageUsedMB: 3200, apiCallsToday: 8900, createdAt: new Date('2024-06-15'), lastActiveAt: new Date() },
+  {
+    id: 't1',
+    name: 'Acme Corp',
+    slug: 'acme',
+    tier: 'enterprise',
+    status: 'active',
+    users: 156,
+    deliberations: 2340,
+    storageUsedMB: 4500,
+    apiCallsToday: 12500,
+    createdAt: new Date('2024-01-15'),
+    lastActiveAt: new Date(),
+  },
+  {
+    id: 't2',
+    name: 'TechStart Inc',
+    slug: 'techstart',
+    tier: 'pro',
+    status: 'active',
+    users: 45,
+    deliberations: 890,
+    storageUsedMB: 1200,
+    apiCallsToday: 3400,
+    createdAt: new Date('2024-03-20'),
+    lastActiveAt: new Date(),
+  },
+  {
+    id: 't3',
+    name: 'Global Finance',
+    slug: 'globalfin',
+    tier: 'sovereign',
+    status: 'active',
+    users: 320,
+    deliberations: 5600,
+    storageUsedMB: 12000,
+    apiCallsToday: 45000,
+    createdAt: new Date('2023-11-01'),
+    lastActiveAt: new Date(),
+  },
+  {
+    id: 't4',
+    name: 'StartupXYZ',
+    slug: 'startupxyz',
+    tier: 'free',
+    status: 'trial',
+    users: 5,
+    deliberations: 23,
+    storageUsedMB: 50,
+    apiCallsToday: 89,
+    createdAt: new Date('2025-01-01'),
+    lastActiveAt: new Date(),
+  },
+  {
+    id: 't5',
+    name: 'MedCare Health',
+    slug: 'medcare',
+    tier: 'enterprise',
+    status: 'active',
+    users: 89,
+    deliberations: 1560,
+    storageUsedMB: 3200,
+    apiCallsToday: 8900,
+    createdAt: new Date('2024-06-15'),
+    lastActiveAt: new Date(),
+  },
 ];
 
 const mockFeatureFlags: FeatureFlag[] = [
-  { id: 'ff1', name: 'AI Cross-Examination', key: 'ai_cross_exam', description: 'Enable AI agents to challenge each other', enabled: true, enabledForTenants: [], rolloutPercentage: 100, createdAt: new Date('2024-06-01') },
-  { id: 'ff2', name: 'Monte Carlo Simulations', key: 'monte_carlo', description: 'Future prediction with uncertainty cones', enabled: true, enabledForTenants: ['t1', 't3'], rolloutPercentage: 50, createdAt: new Date('2024-09-15') },
-  { id: 'ff3', name: 'Custom Agents', key: 'custom_agents', description: 'Allow users to create custom AI agents', enabled: true, enabledForTenants: [], rolloutPercentage: 75, createdAt: new Date('2024-08-01') },
-  { id: 'ff4', name: 'Zero-Knowledge Proofs', key: 'zk_proofs', description: 'Privacy-preserving audit verification', enabled: false, enabledForTenants: ['t3'], rolloutPercentage: 0, createdAt: new Date('2025-01-01') },
-  { id: 'ff5', name: 'Real-time Collaboration', key: 'realtime_collab', description: 'Multiple users in same deliberation', enabled: false, enabledForTenants: [], rolloutPercentage: 0, createdAt: new Date('2025-01-10') },
+  {
+    id: 'ff1',
+    name: 'AI Cross-Examination',
+    key: 'ai_cross_exam',
+    description: 'Enable AI agents to challenge each other',
+    enabled: true,
+    enabledForTenants: [],
+    rolloutPercentage: 100,
+    createdAt: new Date('2024-06-01'),
+  },
+  {
+    id: 'ff2',
+    name: 'Monte Carlo Simulations',
+    key: 'monte_carlo',
+    description: 'Future prediction with uncertainty cones',
+    enabled: true,
+    enabledForTenants: ['t1', 't3'],
+    rolloutPercentage: 50,
+    createdAt: new Date('2024-09-15'),
+  },
+  {
+    id: 'ff3',
+    name: 'Custom Agents',
+    key: 'custom_agents',
+    description: 'Allow users to create custom AI agents',
+    enabled: true,
+    enabledForTenants: [],
+    rolloutPercentage: 75,
+    createdAt: new Date('2024-08-01'),
+  },
+  {
+    id: 'ff4',
+    name: 'Zero-Knowledge Proofs',
+    key: 'zk_proofs',
+    description: 'Privacy-preserving audit verification',
+    enabled: false,
+    enabledForTenants: ['t3'],
+    rolloutPercentage: 0,
+    createdAt: new Date('2025-01-01'),
+  },
+  {
+    id: 'ff5',
+    name: 'Real-time Collaboration',
+    key: 'realtime_collab',
+    description: 'Multiple users in same deliberation',
+    enabled: false,
+    enabledForTenants: [],
+    rolloutPercentage: 0,
+    createdAt: new Date('2025-01-10'),
+  },
 ];
 
 const mockAuditLog: AuditLogEntry[] = [
-  { id: 'a1', timestamp: new Date(), userId: 'u1', userName: 'John Admin', action: 'tenant.suspend', resource: 't4', details: 'Suspended tenant for payment failure', ipAddress: '192.168.1.100', severity: 'warning' },
-  { id: 'a2', timestamp: new Date(Date.now() - 3600000), userId: 'u2', userName: 'Sarah Ops', action: 'feature_flag.enable', resource: 'ff2', details: 'Enabled Monte Carlo for enterprise tenants', ipAddress: '192.168.1.101', severity: 'info' },
-  { id: 'a3', timestamp: new Date(Date.now() - 7200000), userId: 'u1', userName: 'John Admin', action: 'user.impersonate', resource: 'u123', details: 'Impersonated user for support ticket #4521', ipAddress: '192.168.1.100', severity: 'warning' },
-  { id: 'a4', timestamp: new Date(Date.now() - 86400000), userId: 'system', userName: 'System', action: 'backup.complete', resource: 'db', details: 'Daily backup completed successfully', ipAddress: '127.0.0.1', severity: 'info' },
-  { id: 'a5', timestamp: new Date(Date.now() - 172800000), userId: 'u3', userName: 'Mike Security', action: 'security.alert', resource: 'api', details: 'Detected unusual API pattern from IP 45.33.32.156', ipAddress: '192.168.1.102', severity: 'critical' },
+  {
+    id: 'a1',
+    timestamp: new Date(),
+    userId: 'u1',
+    userName: 'John Admin',
+    action: 'tenant.suspend',
+    resource: 't4',
+    details: 'Suspended tenant for payment failure',
+    ipAddress: '192.168.1.100',
+    severity: 'warning',
+  },
+  {
+    id: 'a2',
+    timestamp: new Date(Date.now() - 3600000),
+    userId: 'u2',
+    userName: 'Sarah Ops',
+    action: 'feature_flag.enable',
+    resource: 'ff2',
+    details: 'Enabled Monte Carlo for enterprise tenants',
+    ipAddress: '192.168.1.101',
+    severity: 'info',
+  },
+  {
+    id: 'a3',
+    timestamp: new Date(Date.now() - 7200000),
+    userId: 'u1',
+    userName: 'John Admin',
+    action: 'user.impersonate',
+    resource: 'u123',
+    details: 'Impersonated user for support ticket #4521',
+    ipAddress: '192.168.1.100',
+    severity: 'warning',
+  },
+  {
+    id: 'a4',
+    timestamp: new Date(Date.now() - 86400000),
+    userId: 'system',
+    userName: 'System',
+    action: 'backup.complete',
+    resource: 'db',
+    details: 'Daily backup completed successfully',
+    ipAddress: '127.0.0.1',
+    severity: 'info',
+  },
+  {
+    id: 'a5',
+    timestamp: new Date(Date.now() - 172800000),
+    userId: 'u3',
+    userName: 'Mike Security',
+    action: 'security.alert',
+    resource: 'api',
+    details: 'Detected unusual API pattern from IP 45.33.32.156',
+    ipAddress: '192.168.1.102',
+    severity: 'critical',
+  },
 ];
 
 const mockServices: ServiceHealth[] = [
@@ -104,12 +259,12 @@ const AdminDashboard: React.FC = () => {
   // Calculate overview stats
   const overviewStats = {
     totalTenants: tenants.length,
-    activeTenants: tenants.filter(t => t.status === 'active').length,
+    activeTenants: tenants.filter((t) => t.status === 'active').length,
     totalUsers: tenants.reduce((sum, t) => sum + t.users, 0),
     totalDeliberations: tenants.reduce((sum, t) => sum + t.deliberations, 0),
     totalStorageGB: (tenants.reduce((sum, t) => sum + t.storageUsedMB, 0) / 1024).toFixed(1),
     apiCallsToday: tenants.reduce((sum, t) => sum + t.apiCallsToday, 0),
-    healthyServices: services.filter(s => s.status === 'healthy').length,
+    healthyServices: services.filter((s) => s.status === 'healthy').length,
     totalServices: services.length,
     mrr: tenants.reduce((sum, t) => {
       const prices = { free: 0, pro: 299, enterprise: 1499, sovereign: 4999 };
@@ -118,13 +273,13 @@ const AdminDashboard: React.FC = () => {
   };
 
   const toggleFeatureFlag = (flagId: string) => {
-    setFeatureFlags(prev => prev.map(f => 
-      f.id === flagId ? { ...f, enabled: !f.enabled } : f
-    ));
+    setFeatureFlags((prev) =>
+      prev.map((f) => (f.id === flagId ? { ...f, enabled: !f.enabled } : f))
+    );
   };
 
   const handleImpersonate = (tenantId: string) => {
-    const tenant = tenants.find(t => t.id === tenantId);
+    const tenant = tenants.find((t) => t.id === tenantId);
     if (tenant && window.confirm(`Impersonate ${tenant.name}? This will be logged for audit.`)) {
       setImpersonating(tenantId);
       console.log(`[Admin] Impersonating tenant ${tenantId}`);
@@ -166,8 +321,8 @@ const AdminDashboard: React.FC = () => {
             <h1 className="text-2xl font-bold text-neutral-900">🛡️ Admin Dashboard</h1>
             {impersonating && (
               <div className="flex items-center gap-2 px-3 py-1.5 bg-amber-100 text-amber-800 rounded-full text-sm">
-                <span>👤 Impersonating: {tenants.find(t => t.id === impersonating)?.name}</span>
-                <button 
+                <span>👤 Impersonating: {tenants.find((t) => t.id === impersonating)?.name}</span>
+                <button
                   onClick={() => setImpersonating(null)}
                   className="font-bold hover:text-amber-900"
                 >
@@ -198,7 +353,7 @@ const AdminDashboard: React.FC = () => {
             { id: 'features', label: '🚀 Feature Flags', icon: '🚀' },
             { id: 'audit', label: '📋 Audit Log', icon: '📋' },
             { id: 'health', label: '💓 Health', icon: '💓' },
-          ].map(tab => (
+          ].map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id as AdminTab)}
@@ -224,22 +379,30 @@ const AdminDashboard: React.FC = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-white rounded-xl p-5 border border-neutral-200">
                 <div className="text-sm text-neutral-500">Total Tenants</div>
-                <div className="text-3xl font-bold text-neutral-900">{overviewStats.totalTenants}</div>
+                <div className="text-3xl font-bold text-neutral-900">
+                  {overviewStats.totalTenants}
+                </div>
                 <div className="text-sm text-green-600">+3 this month</div>
               </div>
               <div className="bg-white rounded-xl p-5 border border-neutral-200">
                 <div className="text-sm text-neutral-500">Active Users</div>
-                <div className="text-3xl font-bold text-neutral-900">{overviewStats.totalUsers.toLocaleString()}</div>
+                <div className="text-3xl font-bold text-neutral-900">
+                  {overviewStats.totalUsers.toLocaleString()}
+                </div>
                 <div className="text-sm text-green-600">+12% MoM</div>
               </div>
               <div className="bg-white rounded-xl p-5 border border-neutral-200">
                 <div className="text-sm text-neutral-500">Monthly Revenue</div>
-                <div className="text-3xl font-bold text-neutral-900">${overviewStats.mrr.toLocaleString()}</div>
+                <div className="text-3xl font-bold text-neutral-900">
+                  ${overviewStats.mrr.toLocaleString()}
+                </div>
                 <div className="text-sm text-green-600">+8% MoM</div>
               </div>
               <div className="bg-white rounded-xl p-5 border border-neutral-200">
                 <div className="text-sm text-neutral-500">System Health</div>
-                <div className="text-3xl font-bold text-green-600">{overviewStats.healthyServices}/{overviewStats.totalServices}</div>
+                <div className="text-3xl font-bold text-green-600">
+                  {overviewStats.healthyServices}/{overviewStats.totalServices}
+                </div>
                 <div className="text-sm text-neutral-500">services healthy</div>
               </div>
             </div>
@@ -255,7 +418,9 @@ const AdminDashboard: React.FC = () => {
               <div className="bg-white rounded-xl p-4 border border-neutral-200">
                 <div className="flex items-center justify-between">
                   <span className="text-neutral-500">API Calls Today</span>
-                  <span className="text-2xl font-bold">{overviewStats.apiCallsToday.toLocaleString()}</span>
+                  <span className="text-2xl font-bold">
+                    {overviewStats.apiCallsToday.toLocaleString()}
+                  </span>
                 </div>
               </div>
               <div className="bg-white rounded-xl p-4 border border-neutral-200">
@@ -267,7 +432,9 @@ const AdminDashboard: React.FC = () => {
               <div className="bg-white rounded-xl p-4 border border-neutral-200">
                 <div className="flex items-center justify-between">
                   <span className="text-neutral-500">Feature Flags</span>
-                  <span className="text-2xl font-bold">{featureFlags.filter(f => f.enabled).length}/{featureFlags.length}</span>
+                  <span className="text-2xl font-bold">
+                    {featureFlags.filter((f) => f.enabled).length}/{featureFlags.length}
+                  </span>
                 </div>
               </div>
             </div>
@@ -278,10 +445,15 @@ const AdminDashboard: React.FC = () => {
                 <h2 className="font-semibold text-neutral-900">Recent Activity</h2>
               </div>
               <div className="divide-y divide-neutral-100">
-                {auditLog.slice(0, 5).map(entry => (
+                {auditLog.slice(0, 5).map((entry) => (
                   <div key={entry.id} className="px-5 py-3 flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      <span className={cn('px-2 py-0.5 rounded text-xs font-medium', severityColors[entry.severity])}>
+                      <span
+                        className={cn(
+                          'px-2 py-0.5 rounded text-xs font-medium',
+                          severityColors[entry.severity]
+                        )}
+                      >
                         {entry.severity}
                       </span>
                       <span className="text-neutral-900">{entry.action}</span>
@@ -303,18 +475,32 @@ const AdminDashboard: React.FC = () => {
             <table className="w-full">
               <thead className="bg-neutral-50 border-b border-neutral-200">
                 <tr>
-                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">Organization</th>
+                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">
+                    Organization
+                  </th>
                   <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">Tier</th>
-                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">Status</th>
-                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">Users</th>
-                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">Deliberations</th>
-                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">API Calls</th>
-                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">Storage</th>
-                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">Actions</th>
+                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">
+                    Status
+                  </th>
+                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">
+                    Users
+                  </th>
+                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">
+                    Deliberations
+                  </th>
+                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">
+                    API Calls
+                  </th>
+                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">
+                    Storage
+                  </th>
+                  <th className="text-right px-5 py-3 text-sm font-medium text-neutral-500">
+                    Actions
+                  </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-neutral-100">
-                {tenants.map(tenant => (
+                {tenants.map((tenant) => (
                   <tr key={tenant.id} className="hover:bg-neutral-50">
                     <td className="px-5 py-4">
                       <div>
@@ -323,32 +509,54 @@ const AdminDashboard: React.FC = () => {
                       </div>
                     </td>
                     <td className="px-5 py-4">
-                      <span className={cn('px-2 py-1 rounded text-xs font-medium', tierColors[tenant.tier])}>
+                      <span
+                        className={cn(
+                          'px-2 py-1 rounded text-xs font-medium',
+                          tierColors[tenant.tier]
+                        )}
+                      >
                         {tenant.tier}
                       </span>
                     </td>
                     <td className="px-5 py-4">
-                      <span className={cn('px-2 py-1 rounded text-xs font-medium', statusColors[tenant.status])}>
+                      <span
+                        className={cn(
+                          'px-2 py-1 rounded text-xs font-medium',
+                          statusColors[tenant.status]
+                        )}
+                      >
                         {tenant.status}
                       </span>
                     </td>
                     <td className="px-5 py-4 text-right text-neutral-900">{tenant.users}</td>
-                    <td className="px-5 py-4 text-right text-neutral-900">{tenant.deliberations.toLocaleString()}</td>
-                    <td className="px-5 py-4 text-right text-neutral-900">{tenant.apiCallsToday.toLocaleString()}</td>
-                    <td className="px-5 py-4 text-right text-neutral-900">{(tenant.storageUsedMB / 1024).toFixed(1)} GB</td>
+                    <td className="px-5 py-4 text-right text-neutral-900">
+                      {tenant.deliberations.toLocaleString()}
+                    </td>
+                    <td className="px-5 py-4 text-right text-neutral-900">
+                      {tenant.apiCallsToday.toLocaleString()}
+                    </td>
+                    <td className="px-5 py-4 text-right text-neutral-900">
+                      {(tenant.storageUsedMB / 1024).toFixed(1)} GB
+                    </td>
                     <td className="px-5 py-4 text-right">
                       <div className="flex items-center justify-end gap-2">
-                        <button 
+                        <button
                           onClick={() => handleImpersonate(tenant.id)}
                           className="px-2 py-1 text-xs bg-neutral-100 hover:bg-neutral-200 rounded"
                           title="Impersonate"
                         >
                           👤
                         </button>
-                        <button className="px-2 py-1 text-xs bg-neutral-100 hover:bg-neutral-200 rounded" title="Edit">
+                        <button
+                          className="px-2 py-1 text-xs bg-neutral-100 hover:bg-neutral-200 rounded"
+                          title="Edit"
+                        >
                           ✏️
                         </button>
-                        <button className="px-2 py-1 text-xs bg-red-100 hover:bg-red-200 text-red-700 rounded" title="Suspend">
+                        <button
+                          className="px-2 py-1 text-xs bg-red-100 hover:bg-red-200 text-red-700 rounded"
+                          title="Suspend"
+                        >
                           ⏸️
                         </button>
                       </div>
@@ -370,18 +578,23 @@ const AdminDashboard: React.FC = () => {
               </button>
             </div>
             <div className="bg-white rounded-xl border border-neutral-200 divide-y divide-neutral-100">
-              {featureFlags.map(flag => (
+              {featureFlags.map((flag) => (
                 <div key={flag.id} className="p-5">
                   <div className="flex items-center justify-between">
                     <div className="flex-1">
                       <div className="flex items-center gap-3">
                         <h3 className="font-medium text-neutral-900">{flag.name}</h3>
-                        <code className="px-2 py-0.5 bg-neutral-100 rounded text-sm text-neutral-600">{flag.key}</code>
+                        <code className="px-2 py-0.5 bg-neutral-100 rounded text-sm text-neutral-600">
+                          {flag.key}
+                        </code>
                       </div>
                       <p className="text-sm text-neutral-500 mt-1">{flag.description}</p>
                       {flag.enabledForTenants.length > 0 && (
                         <p className="text-xs text-neutral-400 mt-2">
-                          Enabled for: {flag.enabledForTenants.map(id => tenants.find(t => t.id === id)?.name).join(', ')}
+                          Enabled for:{' '}
+                          {flag.enabledForTenants
+                            .map((id) => tenants.find((t) => t.id === id)?.name)
+                            .join(', ')}
                         </p>
                       )}
                     </div>
@@ -427,29 +640,48 @@ const AdminDashboard: React.FC = () => {
             <table className="w-full">
               <thead className="bg-neutral-50 border-b border-neutral-200">
                 <tr>
-                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">Timestamp</th>
-                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">Severity</th>
+                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">
+                    Timestamp
+                  </th>
+                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">
+                    Severity
+                  </th>
                   <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">User</th>
-                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">Action</th>
-                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">Details</th>
-                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">IP Address</th>
+                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">
+                    Action
+                  </th>
+                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">
+                    Details
+                  </th>
+                  <th className="text-left px-5 py-3 text-sm font-medium text-neutral-500">
+                    IP Address
+                  </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-neutral-100">
-                {auditLog.map(entry => (
+                {auditLog.map((entry) => (
                   <tr key={entry.id} className="hover:bg-neutral-50">
                     <td className="px-5 py-3 text-sm text-neutral-900">
                       {entry.timestamp.toLocaleString()}
                     </td>
                     <td className="px-5 py-3">
-                      <span className={cn('px-2 py-0.5 rounded text-xs font-medium', severityColors[entry.severity])}>
+                      <span
+                        className={cn(
+                          'px-2 py-0.5 rounded text-xs font-medium',
+                          severityColors[entry.severity]
+                        )}
+                      >
                         {entry.severity}
                       </span>
                     </td>
                     <td className="px-5 py-3 text-sm text-neutral-900">{entry.userName}</td>
                     <td className="px-5 py-3 text-sm font-mono text-neutral-700">{entry.action}</td>
-                    <td className="px-5 py-3 text-sm text-neutral-500 max-w-xs truncate">{entry.details}</td>
-                    <td className="px-5 py-3 text-sm font-mono text-neutral-500">{entry.ipAddress}</td>
+                    <td className="px-5 py-3 text-sm text-neutral-500 max-w-xs truncate">
+                      {entry.details}
+                    </td>
+                    <td className="px-5 py-3 text-sm font-mono text-neutral-500">
+                      {entry.ipAddress}
+                    </td>
                   </tr>
                 ))}
               </tbody>
@@ -468,12 +700,19 @@ const AdminDashboard: React.FC = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {services.map(service => (
-                <div key={service.name} className="bg-white rounded-xl p-5 border border-neutral-200">
+              {services.map((service) => (
+                <div
+                  key={service.name}
+                  className="bg-white rounded-xl p-5 border border-neutral-200"
+                >
                   <div className="flex items-center justify-between mb-3">
                     <h3 className="font-medium text-neutral-900">{service.name}</h3>
                     <span className={cn('text-2xl', healthColors[service.status])}>
-                      {service.status === 'healthy' ? '●' : service.status === 'degraded' ? '◐' : '○'}
+                      {service.status === 'healthy'
+                        ? '●'
+                        : service.status === 'degraded'
+                          ? '◐'
+                          : '○'}
                     </span>
                   </div>
                   <div className="space-y-2 text-sm">

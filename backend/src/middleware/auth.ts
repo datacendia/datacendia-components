@@ -4,6 +4,7 @@ import { config } from '../config/index.js';
 import { prisma } from '../config/database.js';
 import { cache } from '../config/redis.js';
 import { errors } from './errorHandler.js';
+import { logger } from '../utils/logger.js';
 
 interface AuthOrganization {
   id: string;
@@ -156,6 +157,14 @@ export const devAuth = async (
   
   // In development, use real seeded organization
   if (process.env.NODE_ENV !== 'production') {
+    logger.warn('⚠️  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {
+      path: req.path,
+      method: req.method,
+      ip: req.ip,
+      userAgent: req.get('user-agent'),
+      warning: 'This should NEVER appear in production logs',
+    });
+    
     // Try to get the seeded admin user
     const adminUser = await prisma.users.findUnique({
       where: { email: 'admin@datacendia.com' },

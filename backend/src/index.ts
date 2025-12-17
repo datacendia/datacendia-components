@@ -29,6 +29,7 @@ import {
   preventReplayAttack 
 } from './security/DefenseInDepth.js';
 import { honeypotMiddleware } from './security/Honeypot.js';
+import { csrfProtection, csrfTokenHandler, ensureCsrfToken } from './middleware/csrf.js';
 
 // Telemetry & Enterprise Services
 import { initTracing } from './telemetry/tracing.js';
@@ -174,6 +175,10 @@ app.use('/api/', limiter);
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
+// Cookie parser for CSRF tokens
+import cookieParser from 'cookie-parser';
+app.use(cookieParser());
+
 // Compression
 app.use(compression());
 
@@ -195,8 +200,16 @@ if (config.nodeEnv === 'production') {
 }
 // NOTE: Threat detection disabled in dev - SQL patterns too aggressive for AI content
 
+// CSRF Protection - apply to state-changing API routes
+// Token endpoint is exempt so clients can get initial token
+app.get('/api/v1/csrf-token', csrfTokenHandler);
+app.use('/api/', ensureCsrfToken);
+if (config.nodeEnv === 'production') {
+  app.use('/api/', csrfProtection);
+}
+
 // Health check endpoint (no auth required)
-app.get('/health', (req, res) => {
+app.get('/health', (_req, res) => {
   res.json({ status: 'healthy', timestamp: new Date().toISOString() });
 });
 
@@ -207,7 +220,7 @@ if (config.nodeEnv === 'development') {
     customCss: '.swagger-ui .topbar { display: none }',
     customSiteTitle: 'Datacendia API Documentation',
   }));
-  app.get('/api/docs.json', (req, res) => {
+  app.get('/api/docs.json', (_req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(swaggerSpec);
   });
@@ -288,7 +301,7 @@ app.use('/api/v1/adapters', adaptersRoutes);
 app.use('/api/v1/strategic', strategicRoutes);
 
 // 404 handler
-app.use((req, res) => {
+app.use((_req, res) => {
   res.status(404).json({
     success: false,
     error: { code: 'NOT_FOUND', message: 'Resource not found' },

@@ -1,6 +1,15 @@
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { HelpCircle, Mail, MessageSquare, Book, Clock, Shield, Phone, ArrowRight } from 'lucide-react';
+import {
+  HelpCircle,
+  Mail,
+  MessageSquare,
+  Book,
+  Clock,
+  Shield,
+  Phone,
+  ArrowRight,
+} from 'lucide-react';
 
 const ParticleField: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -9,15 +18,52 @@ const ParticleField: React.FC = () => {
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
-    canvas.width = window.innerWidth; canvas.height = window.innerHeight;
-    const particles: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
-    for (let i = 0; i < 25; i++) particles.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, vx: (Math.random() - 0.5) * 0.15, vy: (Math.random() - 0.5) * 0.15, size: Math.random() * 1.5 + 0.5, opacity: Math.random() * 0.25 + 0.05 });
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const particles: {
+      x: number;
+      y: number;
+      vx: number;
+      vy: number;
+      size: number;
+      opacity: number;
+    }[] = [];
+    for (let i = 0; i < 25; i++)
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.15,
+        vy: (Math.random() - 0.5) * 0.15,
+        size: Math.random() * 1.5 + 0.5,
+        opacity: Math.random() * 0.25 + 0.05,
+      });
     let animationId: number;
-    const animate = () => { ctx.clearRect(0, 0, canvas.width, canvas.height); particles.forEach((p) => { p.x += p.vx; p.y += p.vy; if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0; if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0; ctx.beginPath(); ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2); ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`; ctx.fill(); }); animationId = requestAnimationFrame(animate); };
+    const animate = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach((p) => {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0) p.x = canvas.width;
+        if (p.x > canvas.width) p.x = 0;
+        if (p.y < 0) p.y = canvas.height;
+        if (p.y > canvas.height) p.y = 0;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`;
+        ctx.fill();
+      });
+      animationId = requestAnimationFrame(animate);
+    };
     animate();
-    const handleResize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; };
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
     window.addEventListener('resize', handleResize);
-    return () => { cancelAnimationFrame(animationId); window.removeEventListener('resize', handleResize); };
+    return () => {
+      cancelAnimationFrame(animationId);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
   return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-0" />;
 };
@@ -74,16 +120,32 @@ export const SupportPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-black text-white font-light antialiased selection:bg-red-900/30 relative overflow-hidden">
       <ParticleField />
-      <div className="fixed inset-0 pointer-events-none z-10" style={{ background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)' }} />
+      <div
+        className="fixed inset-0 pointer-events-none z-10"
+        style={{
+          background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)',
+        }}
+      />
 
       {/* Header */}
       <nav className="relative z-30 border-b border-gray-900">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16">
-          <Link to="/sovereign" className="text-xl font-extralight tracking-[0.2em] text-white hover:text-red-100 transition-colors">DATACENDIA</Link>
+          <Link
+            to="/sovereign"
+            className="text-xl font-extralight tracking-[0.2em] text-white hover:text-red-100 transition-colors"
+          >
+            DATACENDIA
+          </Link>
           <div className="flex items-center gap-8 text-xs tracking-[0.15em]">
-            <Link to="/docs" className="text-gray-500 hover:text-white transition-colors">DOCS</Link>
-            <Link to="/support" className="text-red-900">SUPPORT</Link>
-            <Link to="/sovereign" className="text-gray-500 hover:text-white transition-colors">SOVEREIGN</Link>
+            <Link to="/docs" className="text-gray-500 hover:text-white transition-colors">
+              DOCS
+            </Link>
+            <Link to="/support" className="text-red-900">
+              SUPPORT
+            </Link>
+            <Link to="/sovereign" className="text-gray-500 hover:text-white transition-colors">
+              SOVEREIGN
+            </Link>
           </div>
         </div>
       </nav>
@@ -104,11 +166,14 @@ export const SupportPage: React.FC = () => {
           <h2 className="text-lg font-light text-center mb-8 text-white">Get Help</h2>
           <div className="grid md:grid-cols-3 gap-4">
             {supportChannels.map((channel, index) => (
-              <div key={index} className="bg-black/50 backdrop-blur-sm border border-gray-800 hover:border-red-900/30 rounded p-6 text-center transition-colors">
+              <div
+                key={index}
+                className="bg-black/50 backdrop-blur-sm border border-gray-800 hover:border-red-900/30 rounded p-6 text-center transition-colors"
+              >
                 <channel.icon className="w-8 h-8 mx-auto mb-4 text-red-900" />
                 <h3 className="text-lg font-medium text-white mb-2">{channel.title}</h3>
                 <p className="text-gray-500 text-sm mb-4">{channel.description}</p>
-                <a 
+                <a
                   href={channel.href}
                   className="inline-block px-4 py-2 border border-red-900/50 text-white text-sm hover:bg-red-900/10 transition-colors"
                 >
@@ -130,20 +195,30 @@ export const SupportPage: React.FC = () => {
           <h2 className="text-lg font-light text-center mb-8 text-white">Support Tiers</h2>
           <div className="grid md:grid-cols-3 gap-4">
             {supportTiers.map((tier, index) => (
-              <div key={index} className={`rounded p-6 border ${
-                tier.name === 'Sovereign' 
-                  ? 'bg-red-900/10 border-red-900/50' 
-                  : 'bg-black/50 border-gray-800'
-              }`}>
+              <div
+                key={index}
+                className={`rounded p-6 border ${
+                  tier.name === 'Sovereign'
+                    ? 'bg-red-900/10 border-red-900/50'
+                    : 'bg-black/50 border-gray-800'
+                }`}
+              >
                 <h3 className="text-lg font-medium text-white mb-2">{tier.name}</h3>
                 <div className="flex items-center gap-2 mb-4">
-                  <Clock className={`w-4 h-4 ${tier.name === 'Sovereign' ? 'text-red-400' : 'text-gray-500'}`} />
+                  <Clock
+                    className={`w-4 h-4 ${tier.name === 'Sovereign' ? 'text-red-400' : 'text-gray-500'}`}
+                  />
                   <span className="text-sm text-gray-400">{tier.responseTime} response</span>
                 </div>
                 <ul className="space-y-2">
                   {tier.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="text-sm flex items-center gap-2 text-gray-400">
-                      <Shield className={`w-3 h-3 ${tier.name === 'Sovereign' ? 'text-red-400' : 'text-gray-600'}`} />
+                    <li
+                      key={featureIndex}
+                      className="text-sm flex items-center gap-2 text-gray-400"
+                    >
+                      <Shield
+                        className={`w-3 h-3 ${tier.name === 'Sovereign' ? 'text-red-400' : 'text-gray-600'}`}
+                      />
                       {feature}
                     </li>
                   ))}
@@ -158,9 +233,11 @@ export const SupportPage: React.FC = () => {
       <section className="relative z-20 py-16 border-t border-gray-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-xl font-light text-white mb-4">Still Need Help?</h2>
-          <p className="text-gray-500 mb-8 text-sm">Our team is available to answer any questions.</p>
-          <Link 
-            to="/sovereign" 
+          <p className="text-gray-500 mb-8 text-sm">
+            Our team is available to answer any questions.
+          </p>
+          <Link
+            to="/sovereign"
             className="group inline-flex items-center gap-2 px-8 py-4 border-2 border-red-900 text-white text-sm tracking-wider hover:bg-red-900/10 transition-all"
           >
             <Phone className="w-4 h-4 text-red-800" />

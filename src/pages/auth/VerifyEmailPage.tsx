@@ -26,20 +26,22 @@ export const VerifyEmailPage: React.FC = () => {
     const verifyEmail = async () => {
       try {
         const response = await api.post<{ message: string }>('/auth/verify-email', { token });
-        
+
         if (response.success) {
           setStatus('success');
           setMessage(response.data?.message || 'Your email has been verified successfully!');
-          
+
           // Redirect to login after 3 seconds
           setTimeout(() => {
-            navigate('/auth/login', { 
-              state: { message: 'Email verified! Please log in to continue.' } 
+            navigate('/auth/login', {
+              state: { message: 'Email verified! Please log in to continue.' },
             });
           }, 3000);
         } else {
           setStatus('error');
-          setMessage(response.error?.message || 'Failed to verify email. The link may have expired.');
+          setMessage(
+            response.error?.message || 'Failed to verify email. The link may have expired.'
+          );
         }
       } catch (error) {
         setStatus('error');

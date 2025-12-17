@@ -77,26 +77,89 @@ type TranslateFunc = (key: string, params?: Record<string, string>) => string;
 
 // Translated data getters - called inside component with t()
 const getTranslatedAlerts = (t: TranslateFunc): Alert[] => [
-  { id: '1', severity: 'critical', title: t('dashboard.sampleAlerts.databaseCpu'), timestamp: new Date(Date.now() - 300000) },
-  { id: '2', severity: 'critical', title: t('dashboard.sampleAlerts.paymentLatency'), timestamp: new Date(Date.now() - 600000) },
-  { id: '3', severity: 'warning', title: t('dashboard.sampleAlerts.diskUsage'), timestamp: new Date(Date.now() - 1800000) },
+  {
+    id: '1',
+    severity: 'critical',
+    title: t('dashboard.sampleAlerts.databaseCpu'),
+    timestamp: new Date(Date.now() - 300000),
+  },
+  {
+    id: '2',
+    severity: 'critical',
+    title: t('dashboard.sampleAlerts.paymentLatency'),
+    timestamp: new Date(Date.now() - 600000),
+  },
+  {
+    id: '3',
+    severity: 'warning',
+    title: t('dashboard.sampleAlerts.diskUsage'),
+    timestamp: new Date(Date.now() - 1800000),
+  },
 ];
 
 const getTranslatedApprovals = (t: TranslateFunc): Approval[] => [
-  { id: '1', type: 'workflow', title: t('dashboard.sampleApprovals.monthlyClose'), requestedBy: 'Sarah Chen' },
-  { id: '2', type: 'access', title: t('dashboard.sampleApprovals.prodDbAccess'), requestedBy: 'Emily Davis' },
+  {
+    id: '1',
+    type: 'workflow',
+    title: t('dashboard.sampleApprovals.monthlyClose'),
+    requestedBy: 'Sarah Chen',
+  },
+  {
+    id: '2',
+    type: 'access',
+    title: t('dashboard.sampleApprovals.prodDbAccess'),
+    requestedBy: 'Emily Davis',
+  },
 ];
 
 const getTranslatedMetrics = (t: TranslateFunc): Metric[] => [
-  { id: '1', name: t('dashboard.sampleMetrics.revenue'), value: 12400000, unit: 'USD', change: 12, changeType: 'increase' },
-  { id: '2', name: t('dashboard.sampleMetrics.pipeline'), value: 48200000, unit: 'USD', change: 8, changeType: 'increase' },
-  { id: '3', name: t('dashboard.sampleMetrics.burnRate'), value: 1200000, unit: 'USD/mo', change: -3, changeType: 'decrease' },
-  { id: '4', name: t('dashboard.sampleMetrics.nps'), value: 72, unit: 'pts', change: 5, changeType: 'increase' },
+  {
+    id: '1',
+    name: t('dashboard.sampleMetrics.revenue'),
+    value: 12400000,
+    unit: 'USD',
+    change: 12,
+    changeType: 'increase',
+  },
+  {
+    id: '2',
+    name: t('dashboard.sampleMetrics.pipeline'),
+    value: 48200000,
+    unit: 'USD',
+    change: 8,
+    changeType: 'increase',
+  },
+  {
+    id: '3',
+    name: t('dashboard.sampleMetrics.burnRate'),
+    value: 1200000,
+    unit: 'USD/mo',
+    change: -3,
+    changeType: 'decrease',
+  },
+  {
+    id: '4',
+    name: t('dashboard.sampleMetrics.nps'),
+    value: 72,
+    unit: 'pts',
+    change: 5,
+    changeType: 'increase',
+  },
 ];
 
 const getTranslatedActivity = (t: TranslateFunc): Activity[] => [
-  { id: '1', type: 'success', message: `Workflow "Monthly Close" ${t('common.completed') || 'completed'}`, timestamp: new Date(Date.now() - 120000) },
-  { id: '2', type: 'info', message: `Sarah ${t('common.queried') || 'queried'} revenue forecast`, timestamp: new Date(Date.now() - 900000) },
+  {
+    id: '1',
+    type: 'success',
+    message: `Workflow "Monthly Close" ${t('common.completed') || 'completed'}`,
+    timestamp: new Date(Date.now() - 120000),
+  },
+  {
+    id: '2',
+    type: 'info',
+    message: `Sarah ${t('common.queried') || 'queried'} revenue forecast`,
+    timestamp: new Date(Date.now() - 900000),
+  },
 ];
 
 const getTranslatedQueries = (t: TranslateFunc): string[] => [
@@ -113,14 +176,14 @@ export const DashboardPage: React.FC = () => {
   const navigate = useNavigate();
   const { t, language } = useLanguage();
   const [queryInput, setQueryInput] = useState('');
-  
+
   // Real data state
   const [alerts, setAlerts] = useState<Alert[]>([]);
   const [metrics, setMetrics] = useState<Metric[]>([]);
   const [healthScore, setHealthScore] = useState<HealthScore>(fallbackHealthScore);
   const [userName, setUserName] = useState('User');
   const [orgName, setOrgName] = useState('Your Company');
-  
+
   // Get translated fallback data
   const fallbackAlerts = getTranslatedAlerts(t);
   const fallbackApprovals = getTranslatedApprovals(t);
@@ -128,10 +191,18 @@ export const DashboardPage: React.FC = () => {
   const fallbackActivity = getTranslatedActivity(t);
   const recentQueries = getTranslatedQueries(t);
   const [isLoading, setIsLoading] = useState(true);
-  
+
   // User Journey State
   const [showJourneySelector, setShowJourneySelector] = useState(false);
-  const [activeJourney, setActiveJourney] = useState<'welcome' | 'executive' | 'dataEngineer' | 'complianceOfficer' | 'strategist' | 'quickStart' | null>(null);
+  const [activeJourney, setActiveJourney] = useState<
+    | 'welcome'
+    | 'executive'
+    | 'dataEngineer'
+    | 'complianceOfficer'
+    | 'strategist'
+    | 'quickStart'
+    | null
+  >(null);
   const [journeyCompleted, setJourneyCompleted] = useState(() => {
     return localStorage.getItem('datacendia_journey_completed') === 'true';
   });
@@ -148,7 +219,7 @@ export const DashboardPage: React.FC = () => {
             id: a.id,
             severity: a.severity,
             title: a.title,
-            timestamp: new Date(a.createdAt)
+            timestamp: new Date(a.createdAt),
           }));
           setAlerts(mappedAlerts.length > 0 ? mappedAlerts : fallbackAlerts);
         }
@@ -162,7 +233,12 @@ export const DashboardPage: React.FC = () => {
             value: m.current_value || 0,
             unit: m.unit || '',
             change: m.change_percent || 0,
-            changeType: (m.change_percent || 0) > 0 ? 'increase' : (m.change_percent || 0) < 0 ? 'decrease' : 'neutral'
+            changeType:
+              (m.change_percent || 0) > 0
+                ? 'increase'
+                : (m.change_percent || 0) < 0
+                  ? 'decrease'
+                  : 'neutral',
           }));
           setMetrics(mappedMetrics.length > 0 ? mappedMetrics : fallbackMetrics);
         }
@@ -205,20 +281,32 @@ export const DashboardPage: React.FC = () => {
 
   const getGreeting = () => {
     const hour = new Date().getHours();
-    if (hour < 12) {return t('dashboard.greetings.morning');}
-    if (hour < 18) {return t('dashboard.greetings.afternoon');}
+    if (hour < 12) {
+      return t('dashboard.greetings.morning');
+    }
+    if (hour < 18) {
+      return t('dashboard.greetings.afternoon');
+    }
     return t('dashboard.greetings.evening');
   };
 
   const getTrendIcon = (trend: 'up' | 'down' | 'stable') => {
-    if (trend === 'up') {return '↑';}
-    if (trend === 'down') {return '↓';}
+    if (trend === 'up') {
+      return '↑';
+    }
+    if (trend === 'down') {
+      return '↓';
+    }
     return '→';
   };
 
   const getTrendColor = (trend: 'up' | 'down' | 'stable', isPositive: boolean = true) => {
-    if (trend === 'stable') {return 'text-neutral-500';}
-    if (trend === 'up') {return isPositive ? 'text-success-main' : 'text-error-main';}
+    if (trend === 'stable') {
+      return 'text-neutral-500';
+    }
+    if (trend === 'up') {
+      return isPositive ? 'text-success-main' : 'text-error-main';
+    }
     return isPositive ? 'text-error-main' : 'text-success-main';
   };
 
@@ -228,7 +316,15 @@ export const DashboardPage: React.FC = () => {
     localStorage.setItem('datacendia_journey_completed', 'true');
   };
 
-  const handleSelectJourney = (journeyId: 'welcome' | 'executive' | 'dataEngineer' | 'complianceOfficer' | 'strategist' | 'quickStart') => {
+  const handleSelectJourney = (
+    journeyId:
+      | 'welcome'
+      | 'executive'
+      | 'dataEngineer'
+      | 'complianceOfficer'
+      | 'strategist'
+      | 'quickStart'
+  ) => {
     setActiveJourney(journeyId);
     setShowJourneySelector(false);
   };
@@ -242,9 +338,7 @@ export const DashboardPage: React.FC = () => {
         <h1 className="text-2xl font-bold text-neutral-900">
           {getGreeting()}, {userName}
         </h1>
-        <p className="text-neutral-500 mt-1">
-          {t('dashboard.subtitle', { company: orgName })}
-        </p>
+        <p className="text-neutral-500 mt-1">{t('dashboard.subtitle', { company: orgName })}</p>
       </div>
 
       {/* ================================================================= */}
@@ -256,20 +350,19 @@ export const DashboardPage: React.FC = () => {
           <div className="flex items-center gap-6">
             <div className="relative">
               <svg className="w-24 h-24 transform -rotate-90">
+                <circle cx="48" cy="48" r="40" fill="none" stroke="#E2E8F0" strokeWidth="8" />
                 <circle
                   cx="48"
                   cy="48"
                   r="40"
                   fill="none"
-                  stroke="#E2E8F0"
-                  strokeWidth="8"
-                />
-                <circle
-                  cx="48"
-                  cy="48"
-                  r="40"
-                  fill="none"
-                  stroke={healthScore.overall >= 80 ? '#22C55E' : healthScore.overall >= 60 ? '#F59E0B' : '#EF4444'}
+                  stroke={
+                    healthScore.overall >= 80
+                      ? '#22C55E'
+                      : healthScore.overall >= 60
+                        ? '#F59E0B'
+                        : '#EF4444'
+                  }
                   strokeWidth="8"
                   strokeLinecap="round"
                   strokeDasharray={`${(healthScore.overall / 100) * 251.2} 251.2`}
@@ -280,22 +373,31 @@ export const DashboardPage: React.FC = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-lg font-semibold text-neutral-900" title="Composite of Data, Operations, Security, and People – computed from the last 7 days of signals">{t('dashboard.health_score')} ℹ️</h2>
-              <p className="text-sm text-success-main font-medium">▲ +3 {t('dashboard.fromLastWeek')}</p>
+              <h2
+                className="text-lg font-semibold text-neutral-900"
+                title="Composite of Data, Operations, Security, and People – computed from the last 7 days of signals"
+              >
+                {t('dashboard.health_score')} ℹ️
+              </h2>
+              <p className="text-sm text-success-main font-medium">
+                ▲ +3 {t('dashboard.fromLastWeek')}
+              </p>
             </div>
           </div>
 
           {/* Dimensions */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 flex-1 lg:max-w-xl">
             {Object.entries(healthScore.dimensions).map(([key, data]) => {
-              const lowestScore = Math.min(...Object.values(healthScore.dimensions).map(d => d.score));
+              const lowestScore = Math.min(
+                ...Object.values(healthScore.dimensions).map((d) => d.score)
+              );
               const isLowest = data.score === lowestScore;
               return (
-                <div 
-                  key={key} 
+                <div
+                  key={key}
                   className={cn(
-                    "text-center p-3 rounded-lg cursor-pointer transition-all hover:shadow-md group relative",
-                    isLowest ? "bg-amber-50 ring-1 ring-amber-200" : "bg-neutral-50"
+                    'text-center p-3 rounded-lg cursor-pointer transition-all hover:shadow-md group relative',
+                    isLowest ? 'bg-amber-50 ring-1 ring-amber-200' : 'bg-neutral-50'
                   )}
                   onClick={() => navigate(`/cortex/intelligence/chronos?filter=${key}`)}
                   title={`Click to view ${key} events in Chronos`}
@@ -334,15 +436,27 @@ export const DashboardPage: React.FC = () => {
               {t('button.view_all')} →
             </button>
           </div>
-          
+
           <div className="space-y-3">
             {/* Summary badges */}
             <div className="flex gap-3 mb-4">
               <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-error-light text-error-dark">
-                🔴 {(alerts.length > 0 ? alerts : fallbackAlerts).filter(a => a.severity === 'critical').length} {t('dashboard.critical')}
+                🔴{' '}
+                {
+                  (alerts.length > 0 ? alerts : fallbackAlerts).filter(
+                    (a) => a.severity === 'critical'
+                  ).length
+                }{' '}
+                {t('dashboard.critical')}
               </span>
               <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-warning-light text-warning-dark">
-                🟡 {(alerts.length > 0 ? alerts : fallbackAlerts).filter(a => a.severity === 'warning').length} {t('dashboard.warning')}
+                🟡{' '}
+                {
+                  (alerts.length > 0 ? alerts : fallbackAlerts).filter(
+                    (a) => a.severity === 'warning'
+                  ).length
+                }{' '}
+                {t('dashboard.warning')}
               </span>
             </div>
 
@@ -350,15 +464,21 @@ export const DashboardPage: React.FC = () => {
             {(alerts.length > 0 ? alerts : fallbackAlerts).slice(0, 4).map((alert) => (
               <div
                 key={alert.id}
-                onClick={() => navigate(`/cortex/intelligence/chronos?alertId=${alert.id}&timestamp=${alert.timestamp.toISOString()}`)}
+                onClick={() =>
+                  navigate(
+                    `/cortex/intelligence/chronos?alertId=${alert.id}&timestamp=${alert.timestamp.toISOString()}`
+                  )
+                }
                 className="flex items-start gap-3 p-3 rounded-lg hover:bg-neutral-50 cursor-pointer transition-colors group"
               >
-                <span className={cn(
-                  'mt-0.5 w-2 h-2 rounded-full flex-shrink-0',
-                  alert.severity === 'critical' && 'bg-error-main',
-                  alert.severity === 'warning' && 'bg-warning-main',
-                  alert.severity === 'info' && 'bg-info-main'
-                )} />
+                <span
+                  className={cn(
+                    'mt-0.5 w-2 h-2 rounded-full flex-shrink-0',
+                    alert.severity === 'critical' && 'bg-error-main',
+                    alert.severity === 'warning' && 'bg-warning-main',
+                    alert.severity === 'info' && 'bg-info-main'
+                  )}
+                />
                 <div className="flex-1 min-w-0">
                   <p className="text-sm text-neutral-900 truncate">{alert.title}</p>
                   <p className="text-xs text-neutral-500">{formatRelativeTime(alert.timestamp)}</p>
@@ -374,7 +494,9 @@ export const DashboardPage: React.FC = () => {
         {/* Pending Approvals */}
         <div className="bg-white rounded-xl border border-neutral-200 p-6">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-semibold text-neutral-900">{t('dashboard.pending_approvals')}</h3>
+            <h3 className="text-lg font-semibold text-neutral-900">
+              {t('dashboard.pending_approvals')}
+            </h3>
             <button
               onClick={() => navigate('/cortex/bridge/approvals')}
               className="text-sm text-primary-600 hover:text-primary-700 font-medium"
@@ -386,13 +508,16 @@ export const DashboardPage: React.FC = () => {
           {/* Summary badges */}
           <div className="flex gap-3 mb-4">
             <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-primary-50 text-primary-700">
-              📋 {fallbackApprovals.filter(a => a.type === 'workflow').length} {t('dashboard.workflows')}
+              📋 {fallbackApprovals.filter((a) => a.type === 'workflow').length}{' '}
+              {t('dashboard.workflows')}
             </span>
             <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-secondary-50 text-secondary-700">
-              👤 {fallbackApprovals.filter(a => a.type === 'access').length} {t('dashboard.access')}
+              👤 {fallbackApprovals.filter((a) => a.type === 'access').length}{' '}
+              {t('dashboard.access')}
             </span>
             <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-accent-50 text-accent-700">
-              💰 {fallbackApprovals.filter(a => a.type === 'budget').length} {t('dashboard.budget')}
+              💰 {fallbackApprovals.filter((a) => a.type === 'budget').length}{' '}
+              {t('dashboard.budget')}
             </span>
           </div>
 
@@ -405,7 +530,9 @@ export const DashboardPage: React.FC = () => {
               >
                 <div className="flex-1 min-w-0">
                   <p className="text-sm text-neutral-900 truncate">{approval.title}</p>
-                  <p className="text-xs text-neutral-500">{t('dashboard.by')} {approval.requestedBy}</p>
+                  <p className="text-xs text-neutral-500">
+                    {t('dashboard.by')} {approval.requestedBy}
+                  </p>
                 </div>
                 <div className="flex gap-2 ml-4">
                   <button
@@ -438,18 +565,24 @@ export const DashboardPage: React.FC = () => {
                 {metric.unit === 'USD' || metric.unit === 'USD/mo'
                   ? formatCurrency(metric.value)
                   : metric.unit === '%' || metric.unit === 'pts'
-                  ? formatNumber(metric.value, 1)
-                  : formatNumber(metric.value)}
+                    ? formatNumber(metric.value, 1)
+                    : formatNumber(metric.value)}
                 {metric.unit === '%' && '%'}
               </p>
-              <p className={cn(
-                'text-xs font-medium mt-1',
-                metric.changeType === 'increase' ? 'text-success-main' : 
-                metric.changeType === 'decrease' && metric.name === 'Churn' ? 'text-success-main' :
-                metric.changeType === 'decrease' && metric.name === 'Burn Rate' ? 'text-success-main' :
-                'text-error-main'
-              )}>
-                {metric.changeType === 'increase' ? '▲' : '▼'} {Math.abs(metric.change)}{metric.unit === '%' ? 'pp' : '%'}
+              <p
+                className={cn(
+                  'text-xs font-medium mt-1',
+                  metric.changeType === 'increase'
+                    ? 'text-success-main'
+                    : metric.changeType === 'decrease' && metric.name === 'Churn'
+                      ? 'text-success-main'
+                      : metric.changeType === 'decrease' && metric.name === 'Burn Rate'
+                        ? 'text-success-main'
+                        : 'text-error-main'
+                )}
+              >
+                {metric.changeType === 'increase' ? '▲' : '▼'} {Math.abs(metric.change)}
+                {metric.unit === '%' ? 'pp' : '%'}
               </p>
             </div>
           ))}
@@ -465,7 +598,9 @@ export const DashboardPage: React.FC = () => {
           <div className="flex items-center justify-between mb-4">
             <div>
               <h3 className="text-lg font-semibold">{t('dashboard.askTheCouncil')}</h3>
-              <p className="text-xs text-white/60">Council: Multi-agent deliberation on live data</p>
+              <p className="text-xs text-white/60">
+                Council: Multi-agent deliberation on live data
+              </p>
             </div>
             <button
               onClick={() => navigate('/cortex/council?tab=decisions')}
@@ -474,7 +609,7 @@ export const DashboardPage: React.FC = () => {
               📝 Recent Decisions
             </button>
           </div>
-          
+
           <div className="relative mb-4">
             <input
               type="text"
@@ -516,7 +651,9 @@ export const DashboardPage: React.FC = () => {
         {/* Recent Activity */}
         <div className="bg-white rounded-xl border border-neutral-200 p-6">
           <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-semibold text-neutral-900">{t('dashboard.recentActivity')}</h3>
+            <h3 className="text-lg font-semibold text-neutral-900">
+              {t('dashboard.recentActivity')}
+            </h3>
             <button className="text-sm text-primary-600 hover:text-primary-700 font-medium">
               {t('dashboard.viewFullLog')} →
             </button>
@@ -525,16 +662,20 @@ export const DashboardPage: React.FC = () => {
           <div className="space-y-3">
             {fallbackActivity.map((activity) => (
               <div key={activity.id} className="flex items-start gap-3">
-                <span className={cn(
-                  'mt-1.5 w-2 h-2 rounded-full flex-shrink-0',
-                  activity.type === 'success' && 'bg-success-main',
-                  activity.type === 'info' && 'bg-info-main',
-                  activity.type === 'warning' && 'bg-warning-main',
-                  activity.type === 'error' && 'bg-error-main'
-                )} />
+                <span
+                  className={cn(
+                    'mt-1.5 w-2 h-2 rounded-full flex-shrink-0',
+                    activity.type === 'success' && 'bg-success-main',
+                    activity.type === 'info' && 'bg-info-main',
+                    activity.type === 'warning' && 'bg-warning-main',
+                    activity.type === 'error' && 'bg-error-main'
+                  )}
+                />
                 <div className="flex-1 min-w-0">
                   <p className="text-sm text-neutral-700">{activity.message}</p>
-                  <p className="text-xs text-neutral-400">{formatRelativeTime(activity.timestamp)}</p>
+                  <p className="text-xs text-neutral-400">
+                    {formatRelativeTime(activity.timestamp)}
+                  </p>
                 </div>
               </div>
             ))}
@@ -545,7 +686,7 @@ export const DashboardPage: React.FC = () => {
       {/* ================================================================= */}
       {/* USER JOURNEY / STORYBOARD */}
       {/* ================================================================= */}
-      
+
       {/* Start Journey Button (shown when no journey active) */}
       {!activeJourney && !showJourneySelector && (
         <button
@@ -564,7 +705,9 @@ export const DashboardPage: React.FC = () => {
             <div className="bg-gradient-to-r from-primary-600 to-primary-500 px-6 py-4 flex items-center justify-between">
               <div>
                 <h2 className="text-xl font-bold text-white">Choose Your Journey</h2>
-                <p className="text-primary-100 text-sm mt-1">Select a guided experience tailored to your role</p>
+                <p className="text-primary-100 text-sm mt-1">
+                  Select a guided experience tailored to your role
+                </p>
               </div>
               <button
                 onClick={() => setShowJourneySelector(false)}

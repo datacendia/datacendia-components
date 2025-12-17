@@ -51,23 +51,30 @@ interface HealthDimension {
 // SPARKLINE COMPONENT
 // =============================================================================
 
-const Sparkline: React.FC<{ data: number[]; color: string; height?: number }> = ({ 
-  data, 
-  color, 
-  height = 32 
+const Sparkline: React.FC<{ data: number[]; color: string; height?: number }> = ({
+  data,
+  color,
+  height = 32,
 }) => {
   const max = Math.max(...data);
   const min = Math.min(...data);
   const range = max - min || 1;
-  
-  const points = data.map((value, i) => {
-    const x = (i / (data.length - 1)) * 100;
-    const y = height - ((value - min) / range) * height;
-    return `${x},${y}`;
-  }).join(' ');
+
+  const points = data
+    .map((value, i) => {
+      const x = (i / (data.length - 1)) * 100;
+      const y = height - ((value - min) / range) * height;
+      return `${x},${y}`;
+    })
+    .join(' ');
 
   return (
-    <svg className="w-full" height={height} viewBox={`0 0 100 ${height}`} preserveAspectRatio="none">
+    <svg
+      className="w-full"
+      height={height}
+      viewBox={`0 0 100 ${height}`}
+      preserveAspectRatio="none"
+    >
       <polyline
         points={points}
         fill="none"
@@ -86,7 +93,7 @@ const Sparkline: React.FC<{ data: number[]; color: string; height?: number }> = 
 
 const HealthBarChart: React.FC<{ data: number[] }> = ({ data }) => {
   const maxValue = Math.max(...data, 100);
-  
+
   return (
     <div className="flex items-end gap-1 h-32">
       {data.map((value, index) => (
@@ -138,15 +145,17 @@ const SystemStatusGrid: React.FC<{ systems: SystemStatus[] }> = ({ systems }) =>
   <div className="bg-neutral-800/50 rounded-lg border border-neutral-700 p-4">
     <p className="text-xs text-neutral-400 uppercase tracking-wider mb-3">System Status</p>
     <div className="grid grid-cols-2 gap-3">
-      {systems.map(system => (
+      {systems.map((system) => (
         <div key={system.id} className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className={cn(
-              'w-2 h-2 rounded-full',
-              system.status === 'online' && 'bg-green-500',
-              system.status === 'degraded' && 'bg-yellow-500',
-              system.status === 'offline' && 'bg-red-500'
-            )} />
+            <div
+              className={cn(
+                'w-2 h-2 rounded-full',
+                system.status === 'online' && 'bg-green-500',
+                system.status === 'degraded' && 'bg-yellow-500',
+                system.status === 'offline' && 'bg-red-500'
+              )}
+            />
             <span className="text-sm text-neutral-300">{system.name}</span>
           </div>
           <span className="text-xs text-neutral-500">{system.latency}ms</span>
@@ -172,7 +181,7 @@ const ActivityFeed: React.FC<{ events: ActivityEvent[] }> = ({ events }) => {
     <div className="bg-neutral-800/50 rounded-lg border border-neutral-700 p-4">
       <p className="text-xs text-neutral-400 uppercase tracking-wider mb-3">Live Activity</p>
       <div className="space-y-3 max-h-48 overflow-y-auto">
-        {events.map(event => {
+        {events.map((event) => {
           const config = typeConfig[event.type];
           return (
             <div key={event.id} className="flex items-start gap-3">
@@ -200,11 +209,18 @@ const HealthDimensionCard: React.FC<{ dimension: HealthDimension }> = ({ dimensi
         <span className="text-lg">{dimension.icon}</span>
         <span className="text-sm text-neutral-300">{dimension.name}</span>
       </div>
-      <span className={cn(
-        'text-xs font-medium',
-        dimension.trend > 0 ? 'text-green-400' : dimension.trend < 0 ? 'text-red-400' : 'text-neutral-400'
-      )}>
-        {dimension.trend > 0 ? '+' : ''}{dimension.trend}%
+      <span
+        className={cn(
+          'text-xs font-medium',
+          dimension.trend > 0
+            ? 'text-green-400'
+            : dimension.trend < 0
+              ? 'text-red-400'
+              : 'text-neutral-400'
+        )}
+      >
+        {dimension.trend > 0 ? '+' : ''}
+        {dimension.trend}%
       </span>
     </div>
     <div className="flex items-center gap-2">
@@ -223,19 +239,34 @@ const HealthDimensionCard: React.FC<{ dimension: HealthDimension }> = ({ dimensi
 // ANOMALY CARD COMPONENT
 // =============================================================================
 
-const AnomalyCard: React.FC<{ anomaly: Anomaly; onAcknowledge?: () => void; onResolve?: () => void }> = ({ 
-  anomaly, 
-  onAcknowledge, 
-  onResolve 
-}) => {
+const AnomalyCard: React.FC<{
+  anomaly: Anomaly;
+  onAcknowledge?: () => void;
+  onResolve?: () => void;
+}> = ({ anomaly, onAcknowledge, onResolve }) => {
   const typeConfig = {
-    detected: { icon: '⚡', color: 'text-red-400', bg: 'bg-red-500/10', border: 'border-red-500/30' },
-    investigating: { icon: '🔍', color: 'text-yellow-400', bg: 'bg-yellow-500/10', border: 'border-yellow-500/30' },
-    resolved: { icon: '✓', color: 'text-green-400', bg: 'bg-green-500/10', border: 'border-green-500/30' },
+    detected: {
+      icon: '⚡',
+      color: 'text-red-400',
+      bg: 'bg-red-500/10',
+      border: 'border-red-500/30',
+    },
+    investigating: {
+      icon: '🔍',
+      color: 'text-yellow-400',
+      bg: 'bg-yellow-500/10',
+      border: 'border-yellow-500/30',
+    },
+    resolved: {
+      icon: '✓',
+      color: 'text-green-400',
+      bg: 'bg-green-500/10',
+      border: 'border-green-500/30',
+    },
   };
-  
+
   const config = typeConfig[anomaly.type];
-  
+
   return (
     <div className={cn('rounded-lg p-4 border', config.bg, config.border)}>
       <div className="flex items-start justify-between">
@@ -243,8 +274,11 @@ const AnomalyCard: React.FC<{ anomaly: Anomaly; onAcknowledge?: () => void; onRe
           <span className={cn('text-xl', config.color)}>{config.icon}</span>
           <div>
             <p className={cn('text-xs font-semibold uppercase tracking-wider mb-1', config.color)}>
-              {anomaly.type === 'detected' ? 'ANOMALY DETECTED' : 
-               anomaly.type === 'investigating' ? 'INVESTIGATING' : 'RESOLVED'}
+              {anomaly.type === 'detected'
+                ? 'ANOMALY DETECTED'
+                : anomaly.type === 'investigating'
+                  ? 'INVESTIGATING'
+                  : 'RESOLVED'}
             </p>
             <p className="text-white text-sm">{anomaly.title}</p>
             <p className="text-xs text-neutral-500 mt-1">{anomaly.source}</p>
@@ -282,31 +316,31 @@ const AnomalyCard: React.FC<{ anomaly: Anomaly; onAcknowledge?: () => void; onRe
 export const PulsePage: React.FC = () => {
   const navigate = useNavigate();
   const { t } = useLanguage();
-  
+
   // State
   const [healthScore, setHealthScore] = useState<number | null>(null);
   const [weeklyChange, setWeeklyChange] = useState<number>(0);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  
+
   // Health trend data (last 14 days)
   const [healthTrend, setHealthTrend] = useState<number[]>([]);
-  
+
   // Sparkline data for metrics
   const [latencyHistory, setLatencyHistory] = useState<number[]>([]);
   const [freshnessHistory, setFreshnessHistory] = useState<number[]>([]);
   const [apiLatency, setApiLatency] = useState<number>(0);
   const [dataFreshness, setDataFreshness] = useState<number>(0);
-  
+
   // System status - fetched from API
   const [systems, setSystems] = useState<SystemStatus[]>([]);
-  
+
   // Activity events - fetched from alerts API
   const [events, setEvents] = useState<ActivityEvent[]>([]);
-  
+
   // Health dimensions - fetched from API
   const [dimensions, setDimensions] = useState<HealthDimension[]>([]);
-  
+
   // Anomalies - fetched from alerts API
   const [anomalies, setAnomalies] = useState<Anomaly[]>([]);
 
@@ -319,7 +353,7 @@ export const PulsePage: React.FC = () => {
         healthApi.getTrend(14),
         healthApi.getSystemStatus(),
       ]);
-      
+
       if (scoreRes.success && scoreRes.data) {
         setHealthScore(scoreRes.data.overall);
         // Calculate weekly change from trend
@@ -329,53 +363,88 @@ export const PulsePage: React.FC = () => {
           setWeeklyChange(change);
         }
       }
-      
+
       if (dimensionsRes.success && dimensionsRes.data) {
         const dims = dimensionsRes.data;
         setDimensions([
-          { id: '1', name: 'Data Quality', score: dims.data?.score || 0, trend: dims.data?.change || 0, icon: '📊', color: '#3B82F6' },
-          { id: '2', name: 'Operations', score: dims.operations?.score || 0, trend: dims.operations?.change || 0, icon: '⚙️', color: '#F59E0B' },
-          { id: '3', name: 'Security', score: dims.security?.score || 0, trend: dims.security?.change || 0, icon: '🔒', color: '#10B981' },
-          { id: '4', name: 'People', score: dims.people?.score || 0, trend: dims.people?.change || 0, icon: '👥', color: '#8B5CF6' },
+          {
+            id: '1',
+            name: 'Data Quality',
+            score: dims.data?.score || 0,
+            trend: dims.data?.change || 0,
+            icon: '📊',
+            color: '#3B82F6',
+          },
+          {
+            id: '2',
+            name: 'Operations',
+            score: dims.operations?.score || 0,
+            trend: dims.operations?.change || 0,
+            icon: '⚙️',
+            color: '#F59E0B',
+          },
+          {
+            id: '3',
+            name: 'Security',
+            score: dims.security?.score || 0,
+            trend: dims.security?.change || 0,
+            icon: '🔒',
+            color: '#10B981',
+          },
+          {
+            id: '4',
+            name: 'People',
+            score: dims.people?.score || 0,
+            trend: dims.people?.change || 0,
+            icon: '👥',
+            color: '#8B5CF6',
+          },
         ]);
       }
-      
+
       if (trendRes.success && trendRes.data) {
         // Handle both array format and object with scores property
-        const scores = Array.isArray(trendRes.data) 
-          ? trendRes.data 
+        const scores = Array.isArray(trendRes.data)
+          ? trendRes.data
           : (trendRes.data as any).scores || [];
         setHealthTrend(scores.map((t: any) => t.score || t.overall));
       }
-      
-      if (systemsRes.success && systemsRes.data) {
-        const systemsData = systemsRes.data as Array<{ name: string; status: string; latency: string | null }>;
 
-        setSystems(systemsData.map((s, i) => {
-          const latencyValue = s.latency ? parseInt(String(s.latency).replace('ms', ''), 10) : 0;
-          return {
-            id: String(i + 1),
-            name: s.name,
-            status: s.status as 'online' | 'degraded' | 'offline',
-            latency: latencyValue,
-            uptime: 99.9, // Will be enhanced when uptime endpoint is added
-          };
-        }));
-        
+      if (systemsRes.success && systemsRes.data) {
+        const systemsData = systemsRes.data as Array<{
+          name: string;
+          status: string;
+          latency: string | null;
+        }>;
+
+        setSystems(
+          systemsData.map((s, i) => {
+            const latencyValue = s.latency ? parseInt(String(s.latency).replace('ms', ''), 10) : 0;
+            return {
+              id: String(i + 1),
+              name: s.name,
+              status: s.status as 'online' | 'degraded' | 'offline',
+              latency: latencyValue,
+              uptime: 99.9, // Will be enhanced when uptime endpoint is added
+            };
+          })
+        );
+
         // Calculate average latency for display
-        const avgLatency = systemsData.reduce((acc, s) => {
-          const latencyValue = s.latency ? parseInt(String(s.latency).replace('ms', ''), 10) : 0;
-          return acc + latencyValue;
-        }, 0) / systemsData.length;
+        const avgLatency =
+          systemsData.reduce((acc, s) => {
+            const latencyValue = s.latency ? parseInt(String(s.latency).replace('ms', ''), 10) : 0;
+            return acc + latencyValue;
+          }, 0) / systemsData.length;
 
         setApiLatency(avgLatency);
-        setLatencyHistory(prev => [...prev.slice(-9), avgLatency]);
+        setLatencyHistory((prev) => [...prev.slice(-9), avgLatency]);
       }
       // Also fetch real metrics from Prometheus (sovereign stack)
       try {
         const now = new Date();
         const oneHourAgo = new Date(now.getTime() - 60 * 60 * 1000);
-        
+
         // Fetch CPU usage from Prometheus
         const cpuMetrics = await sovereignApi.metrics.queryRange(
           'avg(rate(process_cpu_seconds_total[5m])) * 100',
@@ -383,16 +452,19 @@ export const PulsePage: React.FC = () => {
           now,
           '5m'
         );
-        
+
         if (cpuMetrics.length > 0 && cpuMetrics[0].values) {
           const latestCpu = cpuMetrics[0].values[cpuMetrics[0].values.length - 1];
           console.log('[Pulse] Prometheus CPU metric:', latestCpu);
         }
-        
+
         // Check sovereign stack health
         const sovereignHealth = await sovereignApi.getHealthStatus();
         if (sovereignHealth.healthy) {
-          console.log('[Pulse] Sovereign stack healthy, services:', Object.keys(sovereignHealth.services).length);
+          console.log(
+            '[Pulse] Sovereign stack healthy, services:',
+            Object.keys(sovereignHealth.services).length
+          );
         }
       } catch (prometheusError) {
         console.warn('[Pulse] Prometheus metrics unavailable:', prometheusError);
@@ -408,21 +480,25 @@ export const PulsePage: React.FC = () => {
   const loadAlerts = useCallback(async () => {
     try {
       const alertsRes = await alertsApi.getAlerts({ status: 'ACTIVE' });
-      
+
       if (alertsRes.success && alertsRes.data) {
         // Convert alerts to anomalies
-        const alertAnomalies: Anomaly[] = alertsRes.data.map(alert => ({
+        const alertAnomalies: Anomaly[] = alertsRes.data.map((alert) => ({
           id: alert.id,
-          type: alert.status === 'resolved' ? 'resolved' as const : 
-                alert.status === 'acknowledged' ? 'investigating' as const : 'detected' as const,
+          type:
+            alert.status === 'resolved'
+              ? ('resolved' as const)
+              : alert.status === 'acknowledged'
+                ? ('investigating' as const)
+                : ('detected' as const),
           title: alert.message || alert.title || 'Unknown alert',
           source: alert.source,
           timestamp: new Date(alert.createdAt),
         }));
         setAnomalies(alertAnomalies);
-        
+
         // Create activity events from recent alerts
-        const alertEvents: ActivityEvent[] = alertsRes.data.slice(0, 5).map(alert => ({
+        const alertEvents: ActivityEvent[] = alertsRes.data.slice(0, 5).map((alert) => ({
           id: alert.id,
           type: 'alert' as const,
           message: alert.title,
@@ -445,26 +521,26 @@ export const PulsePage: React.FC = () => {
     };
 
     loadAll();
-    
+
     // Poll for updates every 30 seconds
     const interval = setInterval(() => {
       loadHealthData();
       loadAlerts();
     }, 30000);
-    
+
     return () => clearInterval(interval);
   }, [loadHealthData, loadAlerts]);
 
   const handleAcknowledge = (id: string) => {
-    setAnomalies(prev => prev.map(a => 
-      a.id === id ? { ...a, type: 'investigating' as const } : a
-    ));
+    setAnomalies((prev) =>
+      prev.map((a) => (a.id === id ? { ...a, type: 'investigating' as const } : a))
+    );
   };
 
   const handleResolve = (id: string) => {
-    setAnomalies(prev => prev.map(a => 
-      a.id === id ? { ...a, type: 'resolved' as const } : a
-    ));
+    setAnomalies((prev) =>
+      prev.map((a) => (a.id === id ? { ...a, type: 'resolved' as const } : a))
+    );
   };
 
   return (
@@ -483,14 +559,14 @@ export const PulsePage: React.FC = () => {
               +{weeklyChange.toFixed(1)}% this week
             </span>
           </div>
-          
+
           {/* Big Score */}
           <div className="mb-8">
             <span className="text-6xl font-bold text-white">
               {healthScore !== null ? `${healthScore.toFixed(1)}%` : '--'}
             </span>
           </div>
-          
+
           {/* Bar Chart */}
           <HealthBarChart data={healthTrend} />
         </div>
@@ -518,11 +594,13 @@ export const PulsePage: React.FC = () => {
                 sparklineData={freshnessHistory}
               />
             </div>
-            
+
             {/* Health Dimensions */}
             <div className="bg-neutral-800/50 rounded-lg border border-neutral-700 p-4">
               <div className="flex items-center justify-between mb-3">
-                <p className="text-xs text-neutral-400 uppercase tracking-wider">Health Breakdown</p>
+                <p className="text-xs text-neutral-400 uppercase tracking-wider">
+                  Health Breakdown
+                </p>
                 <div className="flex gap-2">
                   <button
                     onClick={() => navigate('/cortex/intelligence/chronos?filter=health')}
@@ -533,18 +611,24 @@ export const PulsePage: React.FC = () => {
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-3">
-                {dimensions.map(dim => (
-                  <div 
+                {dimensions.map((dim) => (
+                  <div
                     key={dim.id}
                     className="cursor-pointer group"
-                    onClick={() => navigate(`/cortex/intelligence/chronos?filter=${dim.name.toLowerCase().replace(' ', '-')}`)}
+                    onClick={() =>
+                      navigate(
+                        `/cortex/intelligence/chronos?filter=${dim.name.toLowerCase().replace(' ', '-')}`
+                      )
+                    }
                   >
                     <HealthDimensionCard dimension={dim} />
                     <div className="mt-1 flex justify-between opacity-0 group-hover:opacity-100 transition-opacity">
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
-                          navigate(`/cortex/council?q=Why did ${dim.name} change by ${dim.trend}%? What factors are affecting it?`);
+                          navigate(
+                            `/cortex/council?q=Why did ${dim.name} change by ${dim.trend}%? What factors are affecting it?`
+                          );
                         }}
                         className="text-[10px] text-primary-400 hover:text-primary-300"
                       >
@@ -561,7 +645,7 @@ export const PulsePage: React.FC = () => {
           <div className="space-y-6">
             {/* System Status */}
             <SystemStatusGrid systems={systems} />
-            
+
             {/* Activity Feed */}
             <ActivityFeed events={events} />
           </div>
@@ -572,9 +656,9 @@ export const PulsePage: React.FC = () => {
         {/* ================================================================= */}
         <div className="space-y-4 mb-6">
           <p className="text-xs text-neutral-400 uppercase tracking-wider">Active Alerts</p>
-          {anomalies.map(anomaly => (
-            <AnomalyCard 
-              key={anomaly.id} 
+          {anomalies.map((anomaly) => (
+            <AnomalyCard
+              key={anomaly.id}
               anomaly={anomaly}
               onAcknowledge={() => handleAcknowledge(anomaly.id)}
               onResolve={() => handleResolve(anomaly.id)}
@@ -639,10 +723,16 @@ export const PulsePage: React.FC = () => {
               const report = {
                 timestamp: new Date().toISOString(),
                 healthScore,
-                dimensions: dimensions.map(d => ({ name: d.name, score: d.score, trend: d.trend })),
-                systems: systems.map(s => ({ name: s.name, status: s.status })),
+                dimensions: dimensions.map((d) => ({
+                  name: d.name,
+                  score: d.score,
+                  trend: d.trend,
+                })),
+                systems: systems.map((s) => ({ name: s.name, status: s.status })),
               };
-              const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+              const blob = new Blob([JSON.stringify(report, null, 2)], {
+                type: 'application/json',
+              });
               const url = URL.createObjectURL(blob);
               const a = document.createElement('a');
               a.href = url;

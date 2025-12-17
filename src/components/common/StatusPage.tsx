@@ -1,6 +1,6 @@
 /**
  * Public Status Page Component
- * 
+ *
  * Quick Win: Public status page showing system health
  * - Real-time service status
  * - Uptime history
@@ -42,14 +42,62 @@ interface MaintenanceWindow {
 
 const StatusPage: React.FC = () => {
   const [services, setServices] = useState<ServiceStatus[]>([
-    { name: 'API Gateway', status: 'operational', latency: 45, uptime: 99.99, lastChecked: new Date() },
-    { name: 'Council Deliberations', status: 'operational', latency: 1200, uptime: 99.95, lastChecked: new Date() },
-    { name: 'Knowledge Graph', status: 'operational', latency: 35, uptime: 99.98, lastChecked: new Date() },
-    { name: 'CendiaChronos', status: 'operational', latency: 28, uptime: 99.97, lastChecked: new Date() },
-    { name: 'Real-time Updates', status: 'operational', latency: 15, uptime: 99.99, lastChecked: new Date() },
-    { name: 'File Storage', status: 'operational', latency: 22, uptime: 99.99, lastChecked: new Date() },
-    { name: 'Authentication', status: 'operational', latency: 18, uptime: 99.99, lastChecked: new Date() },
-    { name: 'Analytics', status: 'operational', latency: 55, uptime: 99.90, lastChecked: new Date() },
+    {
+      name: 'API Gateway',
+      status: 'operational',
+      latency: 45,
+      uptime: 99.99,
+      lastChecked: new Date(),
+    },
+    {
+      name: 'Council Deliberations',
+      status: 'operational',
+      latency: 1200,
+      uptime: 99.95,
+      lastChecked: new Date(),
+    },
+    {
+      name: 'Knowledge Graph',
+      status: 'operational',
+      latency: 35,
+      uptime: 99.98,
+      lastChecked: new Date(),
+    },
+    {
+      name: 'CendiaChronos',
+      status: 'operational',
+      latency: 28,
+      uptime: 99.97,
+      lastChecked: new Date(),
+    },
+    {
+      name: 'Real-time Updates',
+      status: 'operational',
+      latency: 15,
+      uptime: 99.99,
+      lastChecked: new Date(),
+    },
+    {
+      name: 'File Storage',
+      status: 'operational',
+      latency: 22,
+      uptime: 99.99,
+      lastChecked: new Date(),
+    },
+    {
+      name: 'Authentication',
+      status: 'operational',
+      latency: 18,
+      uptime: 99.99,
+      lastChecked: new Date(),
+    },
+    {
+      name: 'Analytics',
+      status: 'operational',
+      latency: 55,
+      uptime: 99.9,
+      lastChecked: new Date(),
+    },
   ]);
 
   const [incidents, setIncidents] = useState<Incident[]>([
@@ -62,9 +110,18 @@ const StatusPage: React.FC = () => {
       createdAt: new Date(Date.now() - 86400000 * 2),
       updatedAt: new Date(Date.now() - 86400000 * 2 + 3600000),
       updates: [
-        { timestamp: new Date(Date.now() - 86400000 * 2), message: 'Investigating elevated latency in EU region' },
-        { timestamp: new Date(Date.now() - 86400000 * 2 + 1800000), message: 'Identified cause as network congestion' },
-        { timestamp: new Date(Date.now() - 86400000 * 2 + 3600000), message: 'Issue resolved, latency returned to normal' },
+        {
+          timestamp: new Date(Date.now() - 86400000 * 2),
+          message: 'Investigating elevated latency in EU region',
+        },
+        {
+          timestamp: new Date(Date.now() - 86400000 * 2 + 1800000),
+          message: 'Identified cause as network congestion',
+        },
+        {
+          timestamp: new Date(Date.now() - 86400000 * 2 + 3600000),
+          message: 'Issue resolved, latency returned to normal',
+        },
       ],
     },
   ]);
@@ -82,20 +139,22 @@ const StatusPage: React.FC = () => {
   ]);
 
   const [uptimeData] = useState<number[]>([
-    99.99, 99.99, 99.95, 99.99, 99.99, 99.99, 99.99, 99.98, 99.99, 99.99,
-    99.99, 99.99, 99.90, 99.99, 99.99, 99.99, 99.99, 99.99, 99.95, 99.99,
-    99.99, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99,
+    99.99, 99.99, 99.95, 99.99, 99.99, 99.99, 99.99, 99.98, 99.99, 99.99, 99.99, 99.99, 99.9, 99.99,
+    99.99, 99.99, 99.99, 99.99, 99.95, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99, 99.99,
+    99.99, 99.99, 99.99,
   ]);
 
   const getOverallStatus = () => {
-    if (services.some(s => s.status === 'outage')) return 'outage';
-    if (services.some(s => s.status === 'degraded')) return 'degraded';
-    if (services.some(s => s.status === 'maintenance')) return 'maintenance';
+    if (services.some((s) => s.status === 'outage')) return 'outage';
+    if (services.some((s) => s.status === 'degraded')) return 'degraded';
+    if (services.some((s) => s.status === 'maintenance')) return 'maintenance';
     return 'operational';
   };
 
   const overallStatus = getOverallStatus();
-  const overallUptime = (services.reduce((sum, s) => sum + s.uptime, 0) / services.length).toFixed(2);
+  const overallUptime = (services.reduce((sum, s) => sum + s.uptime, 0) / services.length).toFixed(
+    2
+  );
 
   const statusConfig = {
     operational: { color: 'bg-green-500', text: 'All Systems Operational', icon: '✓' },
@@ -134,8 +193,8 @@ const StatusPage: React.FC = () => {
               <span className="text-2xl">🎯</span>
               <h1 className="text-xl font-bold text-neutral-900">Datacendia Status</h1>
             </div>
-            <a 
-              href="https://datacendia.com" 
+            <a
+              href="https://datacendia.com"
               className="text-sm text-primary-600 hover:text-primary-700"
             >
               ← Back to Datacendia
@@ -146,18 +205,13 @@ const StatusPage: React.FC = () => {
 
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Overall Status Banner */}
-        <div className={cn(
-          "rounded-xl p-6 mb-8 text-white",
-          statusConfig[overallStatus].color
-        )}>
+        <div className={cn('rounded-xl p-6 mb-8 text-white', statusConfig[overallStatus].color)}>
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <span className="text-3xl">{statusConfig[overallStatus].icon}</span>
               <div>
                 <h2 className="text-2xl font-bold">{statusConfig[overallStatus].text}</h2>
-                <p className="text-white/80">
-                  {overallUptime}% uptime over the last 30 days
-                </p>
+                <p className="text-white/80">{overallUptime}% uptime over the last 30 days</p>
               </div>
             </div>
             <div className="text-right">
@@ -175,9 +229,8 @@ const StatusPage: React.FC = () => {
               <div
                 key={i}
                 className={cn(
-                  "flex-1 rounded-t transition-all hover:opacity-80",
-                  uptime >= 99.95 ? 'bg-green-500' :
-                  uptime >= 99.0 ? 'bg-yellow-500' : 'bg-red-500'
+                  'flex-1 rounded-t transition-all hover:opacity-80',
+                  uptime >= 99.95 ? 'bg-green-500' : uptime >= 99.0 ? 'bg-yellow-500' : 'bg-red-500'
                 )}
                 style={{ height: `${Math.max(20, (uptime - 98) * 50)}%` }}
                 title={`Day ${i + 1}: ${uptime}%`}
@@ -196,26 +249,29 @@ const StatusPage: React.FC = () => {
             <h3 className="font-semibold text-neutral-900">Service Status</h3>
           </div>
           <div className="divide-y divide-neutral-100">
-            {services.map(service => (
+            {services.map((service) => (
               <div key={service.name} className="px-6 py-4 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className={cn(
-                    "w-3 h-3 rounded-full",
-                    serviceStatusColors[service.status]
-                  )} />
+                  <div
+                    className={cn('w-3 h-3 rounded-full', serviceStatusColors[service.status])}
+                  />
                   <span className="font-medium text-neutral-900">{service.name}</span>
                 </div>
                 <div className="flex items-center gap-6 text-sm">
-                  {service.latency && (
-                    <span className="text-neutral-500">{service.latency}ms</span>
-                  )}
+                  {service.latency && <span className="text-neutral-500">{service.latency}ms</span>}
                   <span className="text-neutral-500">{service.uptime}%</span>
-                  <span className={cn(
-                    "capitalize font-medium",
-                    service.status === 'operational' ? 'text-green-600' :
-                    service.status === 'degraded' ? 'text-yellow-600' :
-                    service.status === 'outage' ? 'text-red-600' : 'text-blue-600'
-                  )}>
+                  <span
+                    className={cn(
+                      'capitalize font-medium',
+                      service.status === 'operational'
+                        ? 'text-green-600'
+                        : service.status === 'degraded'
+                          ? 'text-yellow-600'
+                          : service.status === 'outage'
+                            ? 'text-red-600'
+                            : 'text-blue-600'
+                    )}
+                  >
                     {service.status}
                   </span>
                 </div>
@@ -231,22 +287,37 @@ const StatusPage: React.FC = () => {
               <h3 className="font-semibold text-neutral-900">Scheduled Maintenance</h3>
             </div>
             <div className="divide-y divide-neutral-100">
-              {maintenance.map(m => (
+              {maintenance.map((m) => (
                 <div key={m.id} className="px-6 py-4">
                   <div className="flex items-center justify-between mb-2">
                     <h4 className="font-medium text-neutral-900">{m.title}</h4>
-                    <span className={cn(
-                      "px-2 py-1 rounded text-xs font-medium",
-                      m.status === 'scheduled' ? 'bg-blue-100 text-blue-700' :
-                      m.status === 'in_progress' ? 'bg-yellow-100 text-yellow-700' :
-                      'bg-green-100 text-green-700'
-                    )}>
+                    <span
+                      className={cn(
+                        'px-2 py-1 rounded text-xs font-medium',
+                        m.status === 'scheduled'
+                          ? 'bg-blue-100 text-blue-700'
+                          : m.status === 'in_progress'
+                            ? 'bg-yellow-100 text-yellow-700'
+                            : 'bg-green-100 text-green-700'
+                      )}
+                    >
                       {m.status.replace('_', ' ')}
                     </span>
                   </div>
                   <p className="text-sm text-neutral-600 mb-2">{m.description}</p>
                   <div className="flex items-center gap-4 text-xs text-neutral-500">
-                    <span>📅 {m.scheduledStart.toLocaleDateString()} {m.scheduledStart.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} - {m.scheduledEnd.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
+                    <span>
+                      📅 {m.scheduledStart.toLocaleDateString()}{' '}
+                      {m.scheduledStart.toLocaleTimeString([], {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                      })}{' '}
+                      -{' '}
+                      {m.scheduledEnd.toLocaleTimeString([], {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                      })}
+                    </span>
                     <span>Affects: {m.affectedServices.join(', ')}</span>
                   </div>
                 </div>
@@ -266,29 +337,35 @@ const StatusPage: React.FC = () => {
             </div>
           ) : (
             <div className="divide-y divide-neutral-100">
-              {incidents.map(incident => (
+              {incidents.map((incident) => (
                 <div key={incident.id} className="px-6 py-4">
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center gap-3">
                       <h4 className="font-medium text-neutral-900">{incident.title}</h4>
-                      <span className={cn(
-                        "px-2 py-0.5 rounded text-xs font-medium",
-                        incidentSeverityColors[incident.severity]
-                      )}>
+                      <span
+                        className={cn(
+                          'px-2 py-0.5 rounded text-xs font-medium',
+                          incidentSeverityColors[incident.severity]
+                        )}
+                      >
                         {incident.severity}
                       </span>
                     </div>
-                    <span className={cn(
-                      "text-sm font-medium capitalize",
-                      incidentStatusColors[incident.status]
-                    )}>
+                    <span
+                      className={cn(
+                        'text-sm font-medium capitalize',
+                        incidentStatusColors[incident.status]
+                      )}
+                    >
                       {incident.status}
                     </span>
                   </div>
                   <div className="ml-4 border-l-2 border-neutral-200 pl-4 mt-3 space-y-2">
                     {incident.updates.map((update, i) => (
                       <div key={i} className="text-sm">
-                        <span className="text-neutral-400">{update.timestamp.toLocaleTimeString()}</span>
+                        <span className="text-neutral-400">
+                          {update.timestamp.toLocaleTimeString()}
+                        </span>
                         <span className="mx-2 text-neutral-300">—</span>
                         <span className="text-neutral-600">{update.message}</span>
                       </div>

@@ -11,7 +11,12 @@ import { Logo } from '../../components/brand';
 
 // Pillar data
 const pillars = [
-  { id: 'lineage', name: 'Lineage', icon: '🔗', description: 'Trace every data point to its source' },
+  {
+    id: 'lineage',
+    name: 'Lineage',
+    icon: '🔗',
+    description: 'Trace every data point to its source',
+  },
   { id: 'metrics', name: 'Metrics', icon: '📊', description: 'Unified KPIs across all systems' },
   { id: 'predict', name: 'Predict', icon: '🔮', description: 'AI-powered forecasting' },
   { id: 'flow', name: 'Flow', icon: '🔄', description: 'Automated workflows' },
@@ -46,13 +51,15 @@ const stats = [
 
 const testimonials = [
   {
-    quote: 'Datacendia transformed how we make strategic decisions. The AI Council gives us perspectives we never considered.',
+    quote:
+      'Datacendia transformed how we make strategic decisions. The AI Council gives us perspectives we never considered.',
     author: 'Sarah Chen',
     title: 'CFO, Fortune 500 Company',
     avatar: '👩‍💼',
   },
   {
-    quote: 'Finally, a platform that unifies all our data sources and gives us real predictive power.',
+    quote:
+      'Finally, a platform that unifies all our data sources and gives us real predictive power.',
     author: 'Michael Torres',
     title: 'CTO, Global Healthcare System',
     avatar: '👨‍💻',
@@ -66,10 +73,20 @@ const testimonials = [
 ];
 
 const apexPackages = [
-  { name: 'CendiaForecast', icon: '📈', description: 'Predictive Analytics', link: '/apex/forecast' },
+  {
+    name: 'CendiaForecast',
+    icon: '📈',
+    description: 'Predictive Analytics',
+    link: '/apex/forecast',
+  },
   { name: 'CendiaSentry', icon: '🛡️', description: 'Security & Compliance', link: '/apex/sentry' },
   { name: 'CendiaFlow', icon: '⚡', description: 'Workflow Automation', link: '/apex/flow' },
-  { name: 'CendiaInsight', icon: '💡', description: 'Business Intelligence', link: '/apex/insight' },
+  {
+    name: 'CendiaInsight',
+    icon: '💡',
+    description: 'Business Intelligence',
+    link: '/apex/insight',
+  },
 ];
 
 export const HomePage: React.FC = () => {
@@ -84,24 +101,39 @@ export const HomePage: React.FC = () => {
             <Link to="/" className="hover:opacity-90 transition-opacity">
               <Logo size="md" />
             </Link>
-            
+
             <div className="hidden md:flex items-center gap-1">
-              <Link to="/product" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all">
+              <Link
+                to="/product"
+                className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all"
+              >
                 Product
               </Link>
-              <Link to="/pricing" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all">
+              <Link
+                to="/pricing"
+                className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all"
+              >
                 Pricing
               </Link>
-              <Link to="/apex/forecast" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all">
+              <Link
+                to="/apex/forecast"
+                className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all"
+              >
                 Solutions
               </Link>
-              <Link to="/about" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all">
+              <Link
+                to="/about"
+                className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-neutral-100 rounded-lg transition-all"
+              >
                 About
               </Link>
             </div>
-            
+
             <div className="flex items-center gap-3">
-              <Link to="/login" className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors">
+              <Link
+                to="/login"
+                className="px-4 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors"
+              >
                 Sign In
               </Link>
               <Link
@@ -125,22 +157,25 @@ export const HomePage: React.FC = () => {
               <span>🚀</span>
               <span>Sovereign Enterprise Intelligence Platform</span>
             </div>
-            
-            <p className="text-xs text-neutral-500 uppercase tracking-widest mb-6">Datacendia is a Sovereign Enterprise Intelligence Platform</p>
-            
+
+            <p className="text-xs text-neutral-500 uppercase tracking-widest mb-6">
+              Datacendia is a Sovereign Enterprise Intelligence Platform
+            </p>
+
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-neutral-900 leading-tight mb-6">
               Your organization's intelligence,{' '}
               <span className="text-primary-600">sovereign and whole</span>
             </h1>
-            
+
             <p className="text-xl text-neutral-600 mb-4 max-w-2xl mx-auto">
-              A governed decision layer that runs on your infrastructure, replays any moment in time, and proves why you made each decision.
+              A governed decision layer that runs on your infrastructure, replays any moment in
+              time, and proves why you made each decision.
             </p>
-            
+
             <p className="text-base text-neutral-500 mb-10 max-w-xl mx-auto italic">
               "We do not host your data. We return your mind."
             </p>
-            
+
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link
                 to="/demo"
@@ -162,21 +197,45 @@ export const HomePage: React.FC = () => {
             <div className="aspect-video bg-gradient-to-br from-primary-100 via-white to-secondary-100 rounded-2xl shadow-2xl flex items-center justify-center relative overflow-hidden">
               {/* Animated circles */}
               <div className="absolute inset-0">
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 border-2 border-primary-200 rounded-full animate-ping opacity-20" style={{ animationDuration: '3s' }} />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 border-2 border-secondary-200 rounded-full animate-ping opacity-30" style={{ animationDuration: '2.5s' }} />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 border-2 border-primary-300 rounded-full animate-ping opacity-40" style={{ animationDuration: '2s' }} />
+                <div
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 border-2 border-primary-200 rounded-full animate-ping opacity-20"
+                  style={{ animationDuration: '3s' }}
+                />
+                <div
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 border-2 border-secondary-200 rounded-full animate-ping opacity-30"
+                  style={{ animationDuration: '2.5s' }}
+                />
+                <div
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 border-2 border-primary-300 rounded-full animate-ping opacity-40"
+                  style={{ animationDuration: '2s' }}
+                />
               </div>
-              
+
               {/* Floating nodes */}
-              <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-primary-500 rounded-full animate-bounce" style={{ animationDuration: '2s' }} />
-              <div className="absolute top-1/3 right-1/4 w-3 h-3 bg-secondary-500 rounded-full animate-bounce" style={{ animationDuration: '1.5s', animationDelay: '0.5s' }} />
-              <div className="absolute bottom-1/3 left-1/3 w-5 h-5 bg-primary-400 rounded-full animate-bounce" style={{ animationDuration: '2.5s', animationDelay: '0.3s' }} />
-              <div className="absolute bottom-1/4 right-1/3 w-3 h-3 bg-secondary-400 rounded-full animate-bounce" style={{ animationDuration: '1.8s', animationDelay: '0.7s' }} />
-              
+              <div
+                className="absolute top-1/4 left-1/4 w-4 h-4 bg-primary-500 rounded-full animate-bounce"
+                style={{ animationDuration: '2s' }}
+              />
+              <div
+                className="absolute top-1/3 right-1/4 w-3 h-3 bg-secondary-500 rounded-full animate-bounce"
+                style={{ animationDuration: '1.5s', animationDelay: '0.5s' }}
+              />
+              <div
+                className="absolute bottom-1/3 left-1/3 w-5 h-5 bg-primary-400 rounded-full animate-bounce"
+                style={{ animationDuration: '2.5s', animationDelay: '0.3s' }}
+              />
+              <div
+                className="absolute bottom-1/4 right-1/3 w-3 h-3 bg-secondary-400 rounded-full animate-bounce"
+                style={{ animationDuration: '1.8s', animationDelay: '0.7s' }}
+              />
+
               {/* Center brain icon with pulse */}
               <div className="relative z-10 text-center">
                 <div className="relative inline-block">
-                  <div className="absolute inset-0 bg-primary-500/20 rounded-full animate-pulse" style={{ animationDuration: '2s' }} />
+                  <div
+                    className="absolute inset-0 bg-primary-500/20 rounded-full animate-pulse"
+                    style={{ animationDuration: '2s' }}
+                  />
                   <p className="text-8xl relative z-10 drop-shadow-lg">🧠</p>
                 </div>
                 <p className="text-primary-600 font-semibold mt-4 animate-pulse">The Cortex</p>
@@ -193,39 +252,57 @@ export const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Chronos - Rewind Any Decision */}
-            <Link to="/cortex/intelligence/chronos" className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300">
+            <Link
+              to="/cortex/intelligence/chronos"
+              className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300"
+            >
               <div className="w-14 h-14 bg-gradient-to-br from-amber-100 to-orange-100 rounded-xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform">
                 ⏪
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-2">Rewind Any Decision</h3>
               <p className="text-neutral-600 text-sm leading-relaxed">
-                Travel back to any moment in your organization's history. See exactly what was known, who decided, and why. Built for audits and "why did we do that?" moments.
+                Travel back to any moment in your organization's history. See exactly what was
+                known, who decided, and why. Built for audits and "why did we do that?" moments.
               </p>
-              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">CendiaChronos™ →</p>
+              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">
+                CendiaChronos™ →
+              </p>
             </Link>
 
             {/* Council - Governed AI Council */}
-            <Link to="/cortex/council" className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300">
+            <Link
+              to="/cortex/council"
+              className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300"
+            >
               <div className="w-14 h-14 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform">
                 👥
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-2">Governed AI Council</h3>
               <p className="text-neutral-600 text-sm leading-relaxed">
-                Don't ask one AI. Convene a council. CFO, CISO, Ethics Officer—they debate, dissent, and reach consensus. Every deliberation is recorded.
+                Don't ask one AI. Convene a council. CFO, CISO, Ethics Officer—they debate, dissent,
+                and reach consensus. Every deliberation is recorded.
               </p>
-              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">The Council™ →</p>
+              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">
+                The Council™ →
+              </p>
             </Link>
 
             {/* Honesty Matrices - Radical Transparency */}
-            <Link to="/honesty" className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300">
+            <Link
+              to="/honesty"
+              className="group p-8 bg-white rounded-2xl border border-neutral-200 hover:border-primary-300 hover:shadow-xl transition-all duration-300"
+            >
               <div className="w-14 h-14 bg-gradient-to-br from-red-100 to-rose-100 rounded-xl flex items-center justify-center text-3xl mb-5 group-hover:scale-110 transition-transform">
                 🔍
               </div>
               <h3 className="text-xl font-bold text-neutral-900 mb-2">Radical Transparency</h3>
               <p className="text-neutral-600 text-sm leading-relaxed">
-                We publish what we can't do. Every limitation, every tradeoff, every honest answer—before you buy. See our Honesty Matrices.
+                We publish what we can't do. Every limitation, every tradeoff, every honest
+                answer—before you buy. See our Honesty Matrices.
               </p>
-              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">View Honesty Matrices →</p>
+              <p className="text-xs text-primary-600 font-medium mt-4 group-hover:underline">
+                View Honesty Matrices →
+              </p>
             </Link>
           </div>
         </div>
@@ -244,7 +321,7 @@ export const HomePage: React.FC = () => {
               Today's organizations are data-rich but insight-poor
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 bg-white rounded-2xl border border-neutral-200">
               <div className="w-12 h-12 bg-error-light rounded-xl flex items-center justify-center text-2xl mb-4">
@@ -252,29 +329,29 @@ export const HomePage: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold text-neutral-900 mb-2">Data Chaos</h3>
               <p className="text-neutral-600">
-                Critical information scattered across 200+ SaaS tools. No single source of truth. 
+                Critical information scattered across 200+ SaaS tools. No single source of truth.
                 Executives make decisions on incomplete data.
               </p>
             </div>
-            
+
             <div className="p-8 bg-white rounded-2xl border border-neutral-200">
               <div className="w-12 h-12 bg-warning-light rounded-xl flex items-center justify-center text-2xl mb-4">
                 🔧
               </div>
               <h3 className="text-xl font-semibold text-neutral-900 mb-2">Tool Sprawl</h3>
               <p className="text-neutral-600">
-                BI for analytics. CRM for customers. ERP for operations. Each silo speaks a different 
-                language. Integration is a nightmare.
+                BI for analytics. CRM for customers. ERP for operations. Each silo speaks a
+                different language. Integration is a nightmare.
               </p>
             </div>
-            
+
             <div className="p-8 bg-white rounded-2xl border border-neutral-200">
               <div className="w-12 h-12 bg-info-light rounded-xl flex items-center justify-center text-2xl mb-4">
                 🔮
               </div>
               <h3 className="text-xl font-semibold text-neutral-900 mb-2">No Foresight</h3>
               <p className="text-neutral-600">
-                Dashboards show yesterday. But what about tomorrow? Organizations react to crises 
+                Dashboards show yesterday. But what about tomorrow? Organizations react to crises
                 instead of preventing them.
               </p>
             </div>
@@ -295,7 +372,7 @@ export const HomePage: React.FC = () => {
               Five interconnected spaces that transform how you understand and run your organization
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-5 gap-6">
             {cortexSpaces.map((space, index) => (
               <div
@@ -324,7 +401,7 @@ export const HomePage: React.FC = () => {
               The foundational capabilities that power sovereign enterprise intelligence
             </p>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {pillars.map((pillar) => (
               <div
@@ -349,7 +426,8 @@ export const HomePage: React.FC = () => {
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-primary-600 mb-2">
-                  {stat.value}{stat.suffix}
+                  {stat.value}
+                  {stat.suffix}
                 </div>
                 <div className="text-neutral-600">{stat.label}</div>
               </div>
@@ -364,9 +442,7 @@ export const HomePage: React.FC = () => {
       <section className="py-20 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
-              Apex Packages
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">Apex Packages</h2>
             <p className="text-xl text-neutral-600 max-w-2xl mx-auto">
               Purpose-built solutions for your most critical business needs
             </p>
@@ -433,10 +509,7 @@ export const HomePage: React.FC = () => {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-12">
               {trustedBy.map((company, index) => (
-                <div
-                  key={index}
-                  className="flex items-center gap-2 text-neutral-400"
-                >
+                <div key={index} className="flex items-center gap-2 text-neutral-400">
                   <span className="text-3xl">{company.logo}</span>
                   <span className="text-lg font-semibold">{company.name}</span>
                 </div>
@@ -463,7 +536,11 @@ export const HomePage: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary-600/20 to-secondary-600/20" />
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
-                <svg className="w-8 h-8 text-primary-600 ml-1" fill="currentColor" viewBox="0 0 24 24">
+                <svg
+                  className="w-8 h-8 text-primary-600 ml-1"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
                   <path d="M8 5v14l11-7z" />
                 </svg>
               </div>
@@ -516,53 +593,119 @@ export const HomePage: React.FC = () => {
               </div>
               <p className="text-sm text-neutral-400">Sovereign Enterprise Intelligence</p>
             </div>
-            
+
             <div>
               <h4 className="font-semibold text-white mb-4">Product</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link to="/product" className="hover:text-white">Platform</Link></li>
-                <li><Link to="/product/pillars" className="hover:text-white">8 Pillars</Link></li>
-                <li><Link to="/product/cortex" className="hover:text-white">The Cortex</Link></li>
-                <li><Link to="/pricing" className="hover:text-white">Pricing</Link></li>
+                <li>
+                  <Link to="/product" className="hover:text-white">
+                    Platform
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/product/pillars" className="hover:text-white">
+                    8 Pillars
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/product/cortex" className="hover:text-white">
+                    The Cortex
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/pricing" className="hover:text-white">
+                    Pricing
+                  </Link>
+                </li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-semibold text-white mb-4">Company</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link to="/about" className="hover:text-white">About</Link></li>
-                <li><Link to="/manifesto" className="hover:text-white">Manifesto</Link></li>
-                <li><Link to="/careers" className="hover:text-white">Careers</Link></li>
-                <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
+                <li>
+                  <Link to="/about" className="hover:text-white">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/manifesto" className="hover:text-white">
+                    Manifesto
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/careers" className="hover:text-white">
+                    Careers
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="hover:text-white">
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-semibold text-white mb-4">Resources</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link to="/docs" className="hover:text-white">Documentation</Link></li>
-                <li><Link to="/downloads" className="hover:text-white">Downloads</Link></li>
-                <li><Link to="/blog" className="hover:text-white">Blog</Link></li>
-                <li><Link to="/support" className="hover:text-white">Support</Link></li>
+                <li>
+                  <Link to="/docs" className="hover:text-white">
+                    Documentation
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/downloads" className="hover:text-white">
+                    Downloads
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/blog" className="hover:text-white">
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/support" className="hover:text-white">
+                    Support
+                  </Link>
+                </li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="font-semibold text-white mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link to="/privacy" className="hover:text-white">Privacy</Link></li>
-                <li><Link to="/terms" className="hover:text-white">Terms</Link></li>
-                <li><Link to="/security" className="hover:text-white">Security</Link></li>
+                <li>
+                  <Link to="/privacy" className="hover:text-white">
+                    Privacy
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/terms" className="hover:text-white">
+                    Terms
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/security" className="hover:text-white">
+                    Security
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
-          
+
           <div className="pt-8 border-t border-neutral-800 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm">© 2025 Datacendia, Inc. All rights reserved.</p>
             <div className="flex items-center gap-4">
-              <a href="#" className="hover:text-white">Twitter</a>
-              <a href="#" className="hover:text-white">LinkedIn</a>
-              <a href="#" className="hover:text-white">GitHub</a>
+              <a href="#" className="hover:text-white">
+                Twitter
+              </a>
+              <a href="#" className="hover:text-white">
+                LinkedIn
+              </a>
+              <a href="#" className="hover:text-white">
+                GitHub
+              </a>
             </div>
           </div>
         </div>

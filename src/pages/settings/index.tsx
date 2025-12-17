@@ -7,7 +7,14 @@ import { useNavigate, Outlet, useLocation } from 'react-router-dom';
 import { useToast } from '../../../components/feedback';
 import { Modal, ConfirmModal, FormModal } from '../../components/ui/Modal';
 import { cn, formatRelativeTime, formatCurrency } from '../../../lib/utils';
-import { settingsService, type User, type Team, type Role, type ApiKey, type BillingInfo } from '../../services/SettingsService';
+import {
+  settingsService,
+  type User,
+  type Team,
+  type Role,
+  type ApiKey,
+  type BillingInfo,
+} from '../../services/SettingsService';
 
 // =============================================================================
 // SETTINGS LAYOUT
@@ -95,11 +102,13 @@ export const OrganizationSettingsPage: React.FC = () => {
       {/* Organization Profile */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Organization Profile</h2>
-        
+
         <div className="space-y-4">
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-neutral-700 mb-1">Organization Name</label>
+              <label className="block text-sm font-medium text-neutral-700 mb-1">
+                Organization Name
+              </label>
               <input
                 type="text"
                 value={orgData.name}
@@ -108,7 +117,9 @@ export const OrganizationSettingsPage: React.FC = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-neutral-700 mb-1">Organization ID</label>
+              <label className="block text-sm font-medium text-neutral-700 mb-1">
+                Organization ID
+              </label>
               <input
                 type="text"
                 value={orgData.id}
@@ -134,7 +145,9 @@ export const OrganizationSettingsPage: React.FC = () => {
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-neutral-700 mb-1">Company Size</label>
+              <label className="block text-sm font-medium text-neutral-700 mb-1">
+                Company Size
+              </label>
               <select
                 value={orgData.companySize}
                 onChange={(e) => setOrgData({ ...orgData, companySize: e.target.value })}
@@ -151,7 +164,9 @@ export const OrganizationSettingsPage: React.FC = () => {
 
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-neutral-700 mb-1">Primary Contact</label>
+              <label className="block text-sm font-medium text-neutral-700 mb-1">
+                Primary Contact
+              </label>
               <input
                 type="text"
                 value={orgData.primaryContact}
@@ -160,7 +175,9 @@ export const OrganizationSettingsPage: React.FC = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-neutral-700 mb-1">Primary Email</label>
+              <label className="block text-sm font-medium text-neutral-700 mb-1">
+                Primary Email
+              </label>
               <input
                 type="email"
                 value={orgData.primaryEmail}
@@ -175,7 +192,7 @@ export const OrganizationSettingsPage: React.FC = () => {
       {/* Regional Settings */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Regional Settings</h2>
-        
+
         <div className="grid grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium text-neutral-700 mb-1">Timezone</label>
@@ -234,19 +251,25 @@ export const OrganizationSettingsPage: React.FC = () => {
       {/* Danger Zone */}
       <div className="bg-white rounded-xl border border-error-main/20 p-6">
         <h2 className="text-lg font-semibold text-error-dark mb-4">Danger Zone</h2>
-        
+
         <div className="space-y-4">
           <div className="flex items-center justify-between p-4 bg-error-light/50 rounded-lg">
             <div>
               <p className="font-medium text-neutral-900">Export All Data</p>
-              <p className="text-sm text-neutral-500">Download all organization data as a ZIP file</p>
+              <p className="text-sm text-neutral-500">
+                Download all organization data as a ZIP file
+              </p>
             </div>
-            <button 
+            <button
               onClick={async () => {
                 setIsExporting(true);
-                await new Promise(r => setTimeout(r, 2000));
+                await new Promise((r) => setTimeout(r, 2000));
                 setIsExporting(false);
-                addToast({ status: 'success', title: 'Export Complete', description: 'Your data export is ready for download.' });
+                addToast({
+                  status: 'success',
+                  title: 'Export Complete',
+                  description: 'Your data export is ready for download.',
+                });
               }}
               disabled={isExporting}
               className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-white transition-colors disabled:opacity-50"
@@ -254,13 +277,15 @@ export const OrganizationSettingsPage: React.FC = () => {
               {isExporting ? 'Exporting...' : 'Export'}
             </button>
           </div>
-          
+
           <div className="flex items-center justify-between p-4 bg-error-light/50 rounded-lg">
             <div>
               <p className="font-medium text-neutral-900">Delete Organization</p>
-              <p className="text-sm text-neutral-500">Permanently delete this organization and all data</p>
+              <p className="text-sm text-neutral-500">
+                Permanently delete this organization and all data
+              </p>
             </div>
-            <button 
+            <button
               onClick={() => setShowDeleteModal(true)}
               className="px-4 py-2 bg-error-main text-white rounded-lg hover:bg-error-dark transition-colors"
             >
@@ -272,12 +297,16 @@ export const OrganizationSettingsPage: React.FC = () => {
 
       {/* Save Button */}
       <div className="mt-6 flex justify-end">
-        <button 
+        <button
           onClick={async () => {
             setIsSaving(true);
-            await new Promise(r => setTimeout(r, 1000));
+            await new Promise((r) => setTimeout(r, 1000));
             setIsSaving(false);
-            addToast({ status: 'success', title: 'Settings Saved', description: 'Organization settings have been updated.' });
+            addToast({
+              status: 'success',
+              title: 'Settings Saved',
+              description: 'Organization settings have been updated.',
+            });
           }}
           disabled={isSaving}
           className="px-6 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50"
@@ -293,10 +322,12 @@ export const OrganizationSettingsPage: React.FC = () => {
           <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
             <h2 className="text-xl font-semibold text-neutral-900 mb-2">Delete Organization</h2>
             <p className="text-neutral-600 mb-4">
-              This action cannot be undone. This will permanently delete the organization 
+              This action cannot be undone. This will permanently delete the organization
               <strong> {orgData.name}</strong> and all associated data.
             </p>
-            <p className="text-sm text-neutral-500 mb-2">Type <strong>{orgData.name}</strong> to confirm:</p>
+            <p className="text-sm text-neutral-500 mb-2">
+              Type <strong>{orgData.name}</strong> to confirm:
+            </p>
             <input
               type="text"
               value={deleteConfirmText}
@@ -306,7 +337,10 @@ export const OrganizationSettingsPage: React.FC = () => {
             />
             <div className="flex gap-3">
               <button
-                onClick={() => { setShowDeleteModal(false); setDeleteConfirmText(''); }}
+                onClick={() => {
+                  setShowDeleteModal(false);
+                  setDeleteConfirmText('');
+                }}
                 className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
               >
                 Cancel
@@ -314,8 +348,12 @@ export const OrganizationSettingsPage: React.FC = () => {
               <button
                 onClick={async () => {
                   setShowDeleteModal(false);
-                  addToast({ status: 'success', title: 'Organization Deleted', description: 'Redirecting to home...' });
-                  await new Promise(r => setTimeout(r, 1500));
+                  addToast({
+                    status: 'success',
+                    title: 'Organization Deleted',
+                    description: 'Redirecting to home...',
+                  });
+                  await new Promise((r) => setTimeout(r, 1500));
                   navigate('/');
                 }}
                 disabled={deleteConfirmText !== orgData.name}
@@ -338,7 +376,11 @@ export const OrganizationSettingsPage: React.FC = () => {
 export const UsersSettingsPage: React.FC = () => {
   const { addToast } = useToast();
   const [users, setUsers] = useState<User[]>([]);
-  const [metrics, setMetrics] = useState<{ totalUsers: number; activeUsers: number; pendingInvites: number } | null>(null);
+  const [metrics, setMetrics] = useState<{
+    totalUsers: number;
+    activeUsers: number;
+    pendingInvites: number;
+  } | null>(null);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [showInviteModal, setShowInviteModal] = useState(false);
@@ -364,10 +406,14 @@ export const UsersSettingsPage: React.FC = () => {
   const handleInviteUser = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsInviting(true);
-    await new Promise(r => setTimeout(r, 1500));
+    await new Promise((r) => setTimeout(r, 1500));
     setIsInviting(false);
     setShowInviteModal(false);
-    addToast({ status: 'success', title: 'Invitation Sent', description: `Invite sent to ${inviteData.email}` });
+    addToast({
+      status: 'success',
+      title: 'Invitation Sent',
+      description: `Invite sent to ${inviteData.email}`,
+    });
     setInviteData({ email: '', role: 'viewer', name: '' });
   };
 
@@ -378,7 +424,7 @@ export const UsersSettingsPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-neutral-900">Users</h1>
           <p className="text-neutral-500">Manage user access and permissions</p>
         </div>
-        <button 
+        <button
           onClick={() => setShowInviteModal(true)}
           className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
         >
@@ -405,7 +451,9 @@ export const UsersSettingsPage: React.FC = () => {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-neutral-700 mb-1">Email Address</label>
+                <label className="block text-sm font-medium text-neutral-700 mb-1">
+                  Email Address
+                </label>
                 <input
                   type="email"
                   required
@@ -452,14 +500,12 @@ export const UsersSettingsPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-lg font-semibold text-neutral-900">License Usage</h2>
-          <span className="text-sm text-neutral-500">
-            {metrics?.totalUsers || 0} of 50 users
-          </span>
+          <span className="text-sm text-neutral-500">{metrics?.totalUsers || 0} of 50 users</span>
         </div>
         <div className="w-full h-2 bg-neutral-200 rounded-full overflow-hidden">
-          <div 
-            className="h-full bg-primary-500 rounded-full transition-all" 
-            style={{ width: `${Math.min(((metrics?.totalUsers || 0) / 50) * 100, 100)}%` }} 
+          <div
+            className="h-full bg-primary-500 rounded-full transition-all"
+            style={{ width: `${Math.min(((metrics?.totalUsers || 0) / 50) * 100, 100)}%` }}
           />
         </div>
       </div>
@@ -475,7 +521,7 @@ export const UsersSettingsPage: React.FC = () => {
             className="w-full h-10 px-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500"
           />
         </div>
-        
+
         {loading ? (
           <div className="flex items-center justify-center py-12">
             <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-500"></div>
@@ -484,10 +530,18 @@ export const UsersSettingsPage: React.FC = () => {
           <table className="w-full">
             <thead className="bg-neutral-50 border-b border-neutral-200">
               <tr>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">User</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Role</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Status</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">Last Login</th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  User
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Role
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Status
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-500 uppercase">
+                  Last Login
+                </th>
                 <th className="px-4 py-3"></th>
               </tr>
             </thead>
@@ -498,7 +552,10 @@ export const UsersSettingsPage: React.FC = () => {
                     <div className="flex items-center gap-3">
                       <div className="w-9 h-9 bg-primary-100 rounded-full flex items-center justify-center">
                         <span className="text-primary-700 font-medium text-sm">
-                          {user.name.split(' ').map(n => n[0]).join('')}
+                          {user.name
+                            .split(' ')
+                            .map((n) => n[0])
+                            .join('')}
                         </span>
                       </div>
                       <div>
@@ -509,13 +566,15 @@ export const UsersSettingsPage: React.FC = () => {
                   </td>
                   <td className="px-4 py-3 text-sm text-neutral-600 capitalize">{user.role}</td>
                   <td className="px-4 py-3">
-                    <span className={cn(
-                      'px-2 py-1 rounded-full text-xs font-medium',
-                      user.status === 'active' && 'bg-success-light text-success-dark',
-                      user.status === 'pending' && 'bg-warning-light text-warning-dark',
-                      user.status === 'inactive' && 'bg-neutral-100 text-neutral-600',
-                      user.status === 'suspended' && 'bg-error-light text-error-dark'
-                    )}>
+                    <span
+                      className={cn(
+                        'px-2 py-1 rounded-full text-xs font-medium',
+                        user.status === 'active' && 'bg-success-light text-success-dark',
+                        user.status === 'pending' && 'bg-warning-light text-warning-dark',
+                        user.status === 'inactive' && 'bg-neutral-100 text-neutral-600',
+                        user.status === 'suspended' && 'bg-error-light text-error-dark'
+                      )}
+                    >
                       {user.status}
                     </span>
                   </td>
@@ -555,12 +614,16 @@ export const TeamsSettingsPage: React.FC = () => {
   const handleCreateTeam = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsCreating(true);
-    await new Promise(r => setTimeout(r, 1000));
-    const newId = Math.max(...teams.map(t => t.id)) + 1;
+    await new Promise((r) => setTimeout(r, 1000));
+    const newId = Math.max(...teams.map((t) => t.id)) + 1;
     setTeams([...teams, { id: newId, name: newTeam.name, members: 0, lead: newTeam.lead }]);
     setIsCreating(false);
     setShowCreateModal(false);
-    addToast({ status: 'success', title: 'Team Created', description: `${newTeam.name} has been created.` });
+    addToast({
+      status: 'success',
+      title: 'Team Created',
+      description: `${newTeam.name} has been created.`,
+    });
     setNewTeam({ name: '', lead: '' });
   };
 
@@ -568,7 +631,7 @@ export const TeamsSettingsPage: React.FC = () => {
     <div className="max-w-4xl">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold text-neutral-900">Teams</h1>
-        <button 
+        <button
           onClick={() => setShowCreateModal(true)}
           className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
         >
@@ -606,8 +669,20 @@ export const TeamsSettingsPage: React.FC = () => {
                 />
               </div>
               <div className="flex gap-3 pt-2">
-                <button type="button" onClick={() => setShowCreateModal(false)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Cancel</button>
-                <button type="submit" disabled={isCreating} className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50">{isCreating ? 'Creating...' : 'Create Team'}</button>
+                <button
+                  type="button"
+                  onClick={() => setShowCreateModal(false)}
+                  className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  disabled={isCreating}
+                  className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50"
+                >
+                  {isCreating ? 'Creating...' : 'Create Team'}
+                </button>
               </div>
             </form>
           </div>
@@ -616,16 +691,29 @@ export const TeamsSettingsPage: React.FC = () => {
 
       <div className="grid gap-4">
         {teams.map((team) => (
-          <div key={team.id} className="bg-white rounded-xl border border-neutral-200 p-6 hover:border-primary-300 transition-colors cursor-pointer">
+          <div
+            key={team.id}
+            className="bg-white rounded-xl border border-neutral-200 p-6 hover:border-primary-300 transition-colors cursor-pointer"
+          >
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="font-semibold text-neutral-900">{team.name}</h3>
-                <p className="text-sm text-neutral-500">{team.members} members • Lead: {team.lead}</p>
+                <p className="text-sm text-neutral-500">
+                  {team.members} members • Lead: {team.lead}
+                </p>
               </div>
-              <button 
-                onClick={() => addToast({ status: 'info', title: 'Team Options', description: 'Edit, archive, or delete team.' })}
+              <button
+                onClick={() =>
+                  addToast({
+                    status: 'info',
+                    title: 'Team Options',
+                    description: 'Edit, archive, or delete team.',
+                  })
+                }
                 className="text-neutral-400 hover:text-neutral-600"
-              >•••</button>
+              >
+                •••
+              </button>
             </div>
           </div>
         ))}
@@ -646,27 +734,55 @@ export const RolesSettingsPage: React.FC = () => {
   const [isCreating, setIsCreating] = useState(false);
   const [roles, setRoles] = useState([
     { id: 1, name: 'Admin', description: 'Full access to all features', users: 3, isSystem: true },
-    { id: 2, name: 'Editor', description: 'Can edit data and run workflows', users: 12, isSystem: true },
+    {
+      id: 2,
+      name: 'Editor',
+      description: 'Can edit data and run workflows',
+      users: 12,
+      isSystem: true,
+    },
     { id: 3, name: 'Viewer', description: 'Read-only access', users: 18, isSystem: true },
-    { id: 4, name: 'Finance Team', description: 'Custom role for finance users', users: 5, isSystem: false },
+    {
+      id: 4,
+      name: 'Finance Team',
+      description: 'Custom role for finance users',
+      users: 5,
+      isSystem: false,
+    },
   ]);
 
   const permissions = [
     { category: 'Data', items: ['View data', 'Edit data', 'Delete data', 'Export data'] },
     { category: 'Users', items: ['View users', 'Invite users', 'Manage users', 'Delete users'] },
-    { category: 'Settings', items: ['View settings', 'Edit organization', 'Manage billing', 'Manage integrations'] },
+    {
+      category: 'Settings',
+      items: ['View settings', 'Edit organization', 'Manage billing', 'Manage integrations'],
+    },
     { category: 'AI', items: ['Use Council', 'Create agents', 'View insights', 'Run automations'] },
   ];
 
   const handleCreateRole = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsCreating(true);
-    await new Promise(r => setTimeout(r, 1000));
-    const newId = Math.max(...roles.map(r => r.id)) + 1;
-    setRoles([...roles, { id: newId, name: newRole.name, description: newRole.description, users: 0, isSystem: false }]);
+    await new Promise((r) => setTimeout(r, 1000));
+    const newId = Math.max(...roles.map((r) => r.id)) + 1;
+    setRoles([
+      ...roles,
+      {
+        id: newId,
+        name: newRole.name,
+        description: newRole.description,
+        users: 0,
+        isSystem: false,
+      },
+    ]);
     setIsCreating(false);
     setShowCreateModal(false);
-    addToast({ status: 'success', title: 'Role Created', description: `${newRole.name} role has been created.` });
+    addToast({
+      status: 'success',
+      title: 'Role Created',
+      description: `${newRole.name} role has been created.`,
+    });
     setNewRole({ name: '', description: '' });
   };
 
@@ -674,7 +790,7 @@ export const RolesSettingsPage: React.FC = () => {
     <div className="max-w-4xl">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold text-neutral-900">Roles & Permissions</h1>
-        <button 
+        <button
           onClick={() => setShowCreateModal(true)}
           className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
         >
@@ -691,15 +807,43 @@ export const RolesSettingsPage: React.FC = () => {
             <form onSubmit={handleCreateRole} className="space-y-4">
               <div>
                 <label className="block text-sm font-medium text-neutral-700 mb-1">Role Name</label>
-                <input type="text" required value={newRole.name} onChange={(e) => setNewRole({ ...newRole, name: e.target.value })} className="w-full h-10 px-3 border border-neutral-300 rounded-lg" placeholder="e.g., Data Analyst" />
+                <input
+                  type="text"
+                  required
+                  value={newRole.name}
+                  onChange={(e) => setNewRole({ ...newRole, name: e.target.value })}
+                  className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  placeholder="e.g., Data Analyst"
+                />
               </div>
               <div>
-                <label className="block text-sm font-medium text-neutral-700 mb-1">Description</label>
-                <input type="text" required value={newRole.description} onChange={(e) => setNewRole({ ...newRole, description: e.target.value })} className="w-full h-10 px-3 border border-neutral-300 rounded-lg" placeholder="What can this role do?" />
+                <label className="block text-sm font-medium text-neutral-700 mb-1">
+                  Description
+                </label>
+                <input
+                  type="text"
+                  required
+                  value={newRole.description}
+                  onChange={(e) => setNewRole({ ...newRole, description: e.target.value })}
+                  className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  placeholder="What can this role do?"
+                />
               </div>
               <div className="flex gap-3 pt-2">
-                <button type="button" onClick={() => setShowCreateModal(false)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Cancel</button>
-                <button type="submit" disabled={isCreating} className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50">{isCreating ? 'Creating...' : 'Create Role'}</button>
+                <button
+                  type="button"
+                  onClick={() => setShowCreateModal(false)}
+                  className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  disabled={isCreating}
+                  className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50"
+                >
+                  {isCreating ? 'Creating...' : 'Create Role'}
+                </button>
               </div>
             </form>
           </div>
@@ -709,17 +853,29 @@ export const RolesSettingsPage: React.FC = () => {
       {/* Permissions Modal */}
       {showPermissionsModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          <div className="fixed inset-0 bg-black/50" onClick={() => setShowPermissionsModal(null)} />
+          <div
+            className="fixed inset-0 bg-black/50"
+            onClick={() => setShowPermissionsModal(null)}
+          />
           <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-lg p-6 max-h-[80vh] overflow-y-auto">
-            <h2 className="text-xl font-semibold text-neutral-900 mb-4">Permissions: {showPermissionsModal}</h2>
+            <h2 className="text-xl font-semibold text-neutral-900 mb-4">
+              Permissions: {showPermissionsModal}
+            </h2>
             <div className="space-y-4">
               {permissions.map((group) => (
                 <div key={group.category}>
                   <h3 className="font-medium text-neutral-700 mb-2">{group.category}</h3>
                   <div className="space-y-2">
                     {group.items.map((item) => (
-                      <label key={item} className="flex items-center gap-3 p-2 bg-neutral-50 rounded-lg">
-                        <input type="checkbox" defaultChecked={showPermissionsModal === 'Admin'} className="rounded text-primary-600" />
+                      <label
+                        key={item}
+                        className="flex items-center gap-3 p-2 bg-neutral-50 rounded-lg"
+                      >
+                        <input
+                          type="checkbox"
+                          defaultChecked={showPermissionsModal === 'Admin'}
+                          className="rounded text-primary-600"
+                        />
                         <span className="text-sm text-neutral-700">{item}</span>
                       </label>
                     ))}
@@ -728,8 +884,21 @@ export const RolesSettingsPage: React.FC = () => {
               ))}
             </div>
             <div className="flex gap-3 mt-6">
-              <button onClick={() => setShowPermissionsModal(null)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Close</button>
-              <button onClick={() => { setShowPermissionsModal(null); addToast({ status: 'success', title: 'Permissions Updated' }); }} className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700">Save Changes</button>
+              <button
+                onClick={() => setShowPermissionsModal(null)}
+                className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
+              >
+                Close
+              </button>
+              <button
+                onClick={() => {
+                  setShowPermissionsModal(null);
+                  addToast({ status: 'success', title: 'Permissions Updated' });
+                }}
+                className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+              >
+                Save Changes
+              </button>
             </div>
           </div>
         </div>
@@ -742,13 +911,15 @@ export const RolesSettingsPage: React.FC = () => {
               <div className="flex items-center gap-3">
                 <h3 className="font-semibold text-neutral-900">{role.name}</h3>
                 {role.isSystem && (
-                  <span className="px-2 py-0.5 bg-neutral-100 text-neutral-600 text-xs rounded-full">System</span>
+                  <span className="px-2 py-0.5 bg-neutral-100 text-neutral-600 text-xs rounded-full">
+                    System
+                  </span>
                 )}
               </div>
               <span className="text-sm text-neutral-500">{role.users} users</span>
             </div>
             <p className="text-sm text-neutral-500 mb-4">{role.description}</p>
-            <button 
+            <button
               onClick={() => setShowPermissionsModal(role.name)}
               className="text-primary-600 hover:text-primary-700 text-sm font-medium"
             >
@@ -783,9 +954,11 @@ export const BillingSettingsPage: React.FC = () => {
             <p className="text-3xl font-bold text-neutral-900 mt-2">Intelligence</p>
             <p className="text-neutral-500">{formatCurrency(10000)}/month</p>
           </div>
-          <span className="px-3 py-1 bg-success-light text-success-dark text-sm font-medium rounded-full">Active</span>
+          <span className="px-3 py-1 bg-success-light text-success-dark text-sm font-medium rounded-full">
+            Active
+          </span>
         </div>
-        <button 
+        <button
           onClick={() => navigate('/pricing')}
           className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors"
         >
@@ -807,13 +980,22 @@ export const BillingSettingsPage: React.FC = () => {
             <div key={item.name} className="p-4 bg-neutral-50 rounded-lg">
               <p className="text-sm text-neutral-500 mb-1">{item.name}</p>
               <p className="text-xl font-bold text-neutral-900">
-                {item.used.toLocaleString()}{item.unit ? ` ${item.unit}` : ''}
-                {item.limit && <span className="text-sm font-normal text-neutral-400"> / {item.limit.toLocaleString()}</span>}
+                {item.used.toLocaleString()}
+                {item.unit ? ` ${item.unit}` : ''}
+                {item.limit && (
+                  <span className="text-sm font-normal text-neutral-400">
+                    {' '}
+                    / {item.limit.toLocaleString()}
+                  </span>
+                )}
               </p>
               {item.limit && (
                 <div className="mt-2 h-1.5 bg-neutral-200 rounded-full overflow-hidden">
                   <div
-                    className={cn('h-full rounded-full', (item.used / item.limit) > 0.9 ? 'bg-error-main' : 'bg-primary-500')}
+                    className={cn(
+                      'h-full rounded-full',
+                      item.used / item.limit > 0.9 ? 'bg-error-main' : 'bg-primary-500'
+                    )}
                     style={{ width: `${(item.used / item.limit) * 100}%` }}
                   />
                 </div>
@@ -836,10 +1018,18 @@ export const BillingSettingsPage: React.FC = () => {
               <p className="text-sm text-neutral-500">Expires 12/2026</p>
             </div>
           </div>
-          <button 
-                      onClick={() => addToast({ status: 'info', title: 'Update Payment', description: 'Contact billing@datacendia.com to update payment method.' })}
-                      className="text-primary-600 hover:text-primary-700 text-sm font-medium"
-                    >Update</button>
+          <button
+            onClick={() =>
+              addToast({
+                status: 'info',
+                title: 'Update Payment',
+                description: 'Contact billing@datacendia.com to update payment method.',
+              })
+            }
+            className="text-primary-600 hover:text-primary-700 text-sm font-medium"
+          >
+            Update
+          </button>
         </div>
       </div>
 
@@ -864,12 +1054,22 @@ export const BillingSettingsPage: React.FC = () => {
               <tr key={i} className="border-b border-neutral-100">
                 <td className="py-3 text-sm text-neutral-600">{invoice.date}</td>
                 <td className="py-3 text-sm text-neutral-900">{invoice.desc}</td>
-                <td className="py-3 text-sm text-neutral-900 text-right">{formatCurrency(invoice.amount)}</td>
+                <td className="py-3 text-sm text-neutral-900 text-right">
+                  {formatCurrency(invoice.amount)}
+                </td>
                 <td className="py-3 text-right">
-                  <button 
-                          onClick={() => addToast({ status: 'success', title: 'Invoice Downloaded', description: 'Invoice PDF saved to downloads.' })}
-                          className="text-primary-600 hover:text-primary-700 text-sm"
-                        >Download</button>
+                  <button
+                    onClick={() =>
+                      addToast({
+                        status: 'success',
+                        title: 'Invoice Downloaded',
+                        description: 'Invoice PDF saved to downloads.',
+                      })
+                    }
+                    className="text-primary-600 hover:text-primary-700 text-sm"
+                  >
+                    Download
+                  </button>
                 </td>
               </tr>
             ))}
@@ -891,27 +1091,66 @@ export const ApiKeysSettingsPage: React.FC = () => {
   const [createdKey, setCreatedKey] = useState<string | null>(null);
   const [isCreating, setIsCreating] = useState(false);
   const [revealedKeys, setRevealedKeys] = useState<Set<number>>(new Set());
-  
+
   const [keys, setKeys] = useState([
-    { id: 1, name: 'Production API', prefix: 'dc_live_', key: 'dc_live_sk_1234567890abcdef', lastUsed: new Date(Date.now() - 3600000), created: 'Oct 15, 2025' },
-    { id: 2, name: 'Development', prefix: 'dc_test_', key: 'dc_test_sk_0987654321fedcba', lastUsed: new Date(Date.now() - 86400000), created: 'Sep 1, 2025' },
-    { id: 3, name: 'CI/CD Pipeline', prefix: 'dc_live_', key: 'dc_live_sk_abcdef1234567890', lastUsed: new Date(Date.now() - 7200000), created: 'Aug 20, 2025' },
+    {
+      id: 1,
+      name: 'Production API',
+      prefix: 'dc_live_',
+      key: 'dc_live_sk_1234567890abcdef',
+      lastUsed: new Date(Date.now() - 3600000),
+      created: 'Oct 15, 2025',
+    },
+    {
+      id: 2,
+      name: 'Development',
+      prefix: 'dc_test_',
+      key: 'dc_test_sk_0987654321fedcba',
+      lastUsed: new Date(Date.now() - 86400000),
+      created: 'Sep 1, 2025',
+    },
+    {
+      id: 3,
+      name: 'CI/CD Pipeline',
+      prefix: 'dc_live_',
+      key: 'dc_live_sk_abcdef1234567890',
+      lastUsed: new Date(Date.now() - 7200000),
+      created: 'Aug 20, 2025',
+    },
   ]);
 
   const handleCreateKey = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsCreating(true);
-    await new Promise(r => setTimeout(r, 1000));
+    await new Promise((r) => setTimeout(r, 1000));
     const newKey = `dc_live_sk_${Math.random().toString(36).slice(2, 18)}`;
-    const newId = Math.max(...keys.map(k => k.id)) + 1;
-    setKeys([...keys, { id: newId, name: newKeyName, prefix: 'dc_live_', key: newKey, lastUsed: new Date(), created: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) }]);
+    const newId = Math.max(...keys.map((k) => k.id)) + 1;
+    setKeys([
+      ...keys,
+      {
+        id: newId,
+        name: newKeyName,
+        prefix: 'dc_live_',
+        key: newKey,
+        lastUsed: new Date(),
+        created: new Date().toLocaleDateString('en-US', {
+          month: 'short',
+          day: 'numeric',
+          year: 'numeric',
+        }),
+      },
+    ]);
     setCreatedKey(newKey);
     setIsCreating(false);
   };
 
   const handleRevoke = (id: number, name: string) => {
-    setKeys(keys.filter(k => k.id !== id));
-    addToast({ status: 'warning', title: 'API Key Revoked', description: `${name} has been permanently revoked.` });
+    setKeys(keys.filter((k) => k.id !== id));
+    addToast({
+      status: 'warning',
+      title: 'API Key Revoked',
+      description: `${name} has been permanently revoked.`,
+    });
   };
 
   return (
@@ -932,21 +1171,39 @@ export const ApiKeysSettingsPage: React.FC = () => {
       {/* Create Key Modal */}
       {showCreateModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          <div className="fixed inset-0 bg-black/50" onClick={() => { setShowCreateModal(false); setCreatedKey(null); setNewKeyName(''); }} />
+          <div
+            className="fixed inset-0 bg-black/50"
+            onClick={() => {
+              setShowCreateModal(false);
+              setCreatedKey(null);
+              setNewKeyName('');
+            }}
+          />
           <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
             {createdKey ? (
               <>
                 <h2 className="text-xl font-semibold text-neutral-900 mb-4">API Key Created</h2>
-                <p className="text-neutral-600 mb-4">Copy this key now. You won't be able to see it again.</p>
-                <div className="p-3 bg-neutral-100 rounded-lg font-mono text-sm break-all mb-4">{createdKey}</div>
+                <p className="text-neutral-600 mb-4">
+                  Copy this key now. You won't be able to see it again.
+                </p>
+                <div className="p-3 bg-neutral-100 rounded-lg font-mono text-sm break-all mb-4">
+                  {createdKey}
+                </div>
                 <button
-                  onClick={() => { navigator.clipboard.writeText(createdKey); addToast({ status: 'success', title: 'Copied to clipboard' }); }}
+                  onClick={() => {
+                    navigator.clipboard.writeText(createdKey);
+                    addToast({ status: 'success', title: 'Copied to clipboard' });
+                  }}
                   className="w-full px-4 py-2 border border-neutral-300 rounded-lg hover:bg-neutral-50 mb-2"
                 >
                   Copy to Clipboard
                 </button>
                 <button
-                  onClick={() => { setShowCreateModal(false); setCreatedKey(null); setNewKeyName(''); }}
+                  onClick={() => {
+                    setShowCreateModal(false);
+                    setCreatedKey(null);
+                    setNewKeyName('');
+                  }}
                   className="w-full px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
                 >
                   Done
@@ -957,7 +1214,9 @@ export const ApiKeysSettingsPage: React.FC = () => {
                 <h2 className="text-xl font-semibold text-neutral-900 mb-4">Create API Key</h2>
                 <form onSubmit={handleCreateKey}>
                   <div className="mb-4">
-                    <label className="block text-sm font-medium text-neutral-700 mb-1">Key Name</label>
+                    <label className="block text-sm font-medium text-neutral-700 mb-1">
+                      Key Name
+                    </label>
                     <input
                       type="text"
                       required
@@ -968,8 +1227,20 @@ export const ApiKeysSettingsPage: React.FC = () => {
                     />
                   </div>
                   <div className="flex gap-3">
-                    <button type="button" onClick={() => setShowCreateModal(false)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Cancel</button>
-                    <button type="submit" disabled={isCreating} className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50">{isCreating ? 'Creating...' : 'Create Key'}</button>
+                    <button
+                      type="button"
+                      onClick={() => setShowCreateModal(false)}
+                      className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      type="submit"
+                      disabled={isCreating}
+                      className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 disabled:opacity-50"
+                    >
+                      {isCreating ? 'Creating...' : 'Create Key'}
+                    </button>
                   </div>
                 </form>
               </>
@@ -994,7 +1265,7 @@ export const ApiKeysSettingsPage: React.FC = () => {
                 </p>
               </div>
               <div className="flex items-center gap-2">
-                <button 
+                <button
                   onClick={() => {
                     if (revealedKeys.has(key.id)) {
                       const newSet = new Set(revealedKeys);
@@ -1008,7 +1279,7 @@ export const ApiKeysSettingsPage: React.FC = () => {
                 >
                   {revealedKeys.has(key.id) ? 'Hide' : 'Reveal'}
                 </button>
-                <button 
+                <button
                   onClick={() => handleRevoke(key.id, key.name)}
                   className="px-3 py-1.5 text-sm text-error-main border border-error-main/20 rounded-lg hover:bg-error-light transition-colors"
                 >
@@ -1022,8 +1293,8 @@ export const ApiKeysSettingsPage: React.FC = () => {
 
       <div className="mt-6 p-4 bg-warning-light/50 rounded-lg">
         <p className="text-sm text-warning-dark">
-          <strong>Security Tip:</strong> Keep your API keys secure and never expose them in client-side code. 
-          Rotate keys periodically and revoke any that may have been compromised.
+          <strong>Security Tip:</strong> Keep your API keys secure and never expose them in
+          client-side code. Rotate keys periodically and revoke any that may have been compromised.
         </p>
       </div>
     </div>
@@ -1038,10 +1309,34 @@ export const IntegrationSettingsPage: React.FC = () => {
   const { addToast } = useToast();
   const [showAddModal, setShowAddModal] = useState(false);
   const [integrations, setIntegrations] = useState([
-    { id: 'salesforce', name: 'Salesforce', icon: '☁️', status: 'connected', lastSync: new Date(Date.now() - 300000) },
-    { id: 'slack', name: 'Slack', icon: '💬', status: 'connected', lastSync: new Date(Date.now() - 60000) },
-    { id: 'sap', name: 'SAP', icon: '📊', status: 'connected', lastSync: new Date(Date.now() - 3600000) },
-    { id: 'snowflake', name: 'Snowflake', icon: '❄️', status: 'connected', lastSync: new Date(Date.now() - 1800000) },
+    {
+      id: 'salesforce',
+      name: 'Salesforce',
+      icon: '☁️',
+      status: 'connected',
+      lastSync: new Date(Date.now() - 300000),
+    },
+    {
+      id: 'slack',
+      name: 'Slack',
+      icon: '💬',
+      status: 'connected',
+      lastSync: new Date(Date.now() - 60000),
+    },
+    {
+      id: 'sap',
+      name: 'SAP',
+      icon: '📊',
+      status: 'connected',
+      lastSync: new Date(Date.now() - 3600000),
+    },
+    {
+      id: 'snowflake',
+      name: 'Snowflake',
+      icon: '❄️',
+      status: 'connected',
+      lastSync: new Date(Date.now() - 1800000),
+    },
     { id: 'workday', name: 'Workday', icon: '👥', status: 'error', lastSync: null },
     { id: 'hubspot', name: 'HubSpot', icon: '🧡', status: 'disconnected', lastSync: null },
     { id: 'jira', name: 'Jira', icon: '📋', status: 'disconnected', lastSync: null },
@@ -1049,26 +1344,36 @@ export const IntegrationSettingsPage: React.FC = () => {
 
   const handleConnect = async (id: string, name: string) => {
     // Simulate connection
-    await new Promise(r => setTimeout(r, 1500));
-    setIntegrations(prev => prev.map(i => 
-      i.id === id ? { ...i, status: 'connected', lastSync: new Date() } : i
-    ));
+    await new Promise((r) => setTimeout(r, 1500));
+    setIntegrations((prev) =>
+      prev.map((i) => (i.id === id ? { ...i, status: 'connected', lastSync: new Date() } : i))
+    );
     addToast({ status: 'success', title: 'Connected', description: `${name} is now connected.` });
   };
 
   const handleDisconnect = (id: string, name: string) => {
-    setIntegrations(prev => prev.map(i => 
-      i.id === id ? { ...i, status: 'disconnected', lastSync: null } : i
-    ));
-    addToast({ status: 'info', title: 'Disconnected', description: `${name} has been disconnected.` });
+    setIntegrations((prev) =>
+      prev.map((i) => (i.id === id ? { ...i, status: 'disconnected', lastSync: null } : i))
+    );
+    addToast({
+      status: 'info',
+      title: 'Disconnected',
+      description: `${name} has been disconnected.`,
+    });
   };
 
   return (
     <div className="max-w-4xl">
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold text-neutral-900">Integrations</h1>
-        <button 
-          onClick={() => addToast({ status: 'info', title: 'Browse Integrations', description: 'Contact sales@datacendia.com for custom integrations.' })}
+        <button
+          onClick={() =>
+            addToast({
+              status: 'info',
+              title: 'Browse Integrations',
+              description: 'Contact sales@datacendia.com for custom integrations.',
+            })
+          }
           className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
         >
           + Add Integration
@@ -1084,28 +1389,31 @@ export const IntegrationSettingsPage: React.FC = () => {
                 <div>
                   <h3 className="font-medium text-neutral-900">{integration.name}</h3>
                   <p className="text-sm text-neutral-500">
-                    {integration.status === 'connected' && `Last synced ${formatRelativeTime(integration.lastSync!)}`}
+                    {integration.status === 'connected' &&
+                      `Last synced ${formatRelativeTime(integration.lastSync!)}`}
                     {integration.status === 'error' && 'Connection error - click to retry'}
                     {integration.status === 'disconnected' && 'Not connected'}
                   </p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <span className={cn(
-                  'w-2.5 h-2.5 rounded-full',
-                  integration.status === 'connected' && 'bg-success-main',
-                  integration.status === 'error' && 'bg-error-main',
-                  integration.status === 'disconnected' && 'bg-neutral-300'
-                )} />
+                <span
+                  className={cn(
+                    'w-2.5 h-2.5 rounded-full',
+                    integration.status === 'connected' && 'bg-success-main',
+                    integration.status === 'error' && 'bg-error-main',
+                    integration.status === 'disconnected' && 'bg-neutral-300'
+                  )}
+                />
                 {integration.status === 'connected' ? (
-                  <button 
+                  <button
                     onClick={() => handleDisconnect(integration.id, integration.name)}
                     className="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors border border-neutral-300 text-neutral-700 hover:bg-neutral-50"
                   >
                     Disconnect
                   </button>
                 ) : (
-                  <button 
+                  <button
                     onClick={() => handleConnect(integration.id, integration.name)}
                     className="px-3 py-1.5 text-sm font-medium rounded-lg transition-colors bg-primary-600 text-white hover:bg-primary-700"
                   >
@@ -1187,9 +1495,21 @@ export const PreferencesSettingsPage: React.FC = () => {
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Notifications</h2>
         <div className="space-y-4">
           {[
-            { key: 'email', label: 'Email notifications', desc: 'Receive alerts and updates via email' },
-            { key: 'push', label: 'Push notifications', desc: 'Browser notifications for important events' },
-            { key: 'slack', label: 'Slack notifications', desc: 'Send alerts to your Slack channel' },
+            {
+              key: 'email',
+              label: 'Email notifications',
+              desc: 'Receive alerts and updates via email',
+            },
+            {
+              key: 'push',
+              label: 'Push notifications',
+              desc: 'Browser notifications for important events',
+            },
+            {
+              key: 'slack',
+              label: 'Slack notifications',
+              desc: 'Send alerts to your Slack channel',
+            },
           ].map((item) => (
             <div key={item.key} className="flex items-center justify-between">
               <div>
@@ -1197,13 +1517,16 @@ export const PreferencesSettingsPage: React.FC = () => {
                 <p className="text-sm text-neutral-500">{item.desc}</p>
               </div>
               <button
-                onClick={() => setPrefs({
-                  ...prefs,
-                  notifications: {
-                    ...prefs.notifications,
-                    [item.key]: !prefs.notifications[item.key as keyof typeof prefs.notifications]
-                  }
-                })}
+                onClick={() =>
+                  setPrefs({
+                    ...prefs,
+                    notifications: {
+                      ...prefs.notifications,
+                      [item.key]:
+                        !prefs.notifications[item.key as keyof typeof prefs.notifications],
+                    },
+                  })
+                }
                 className={cn(
                   'w-11 h-6 rounded-full transition-colors relative',
                   prefs.notifications[item.key as keyof typeof prefs.notifications]
@@ -1211,12 +1534,14 @@ export const PreferencesSettingsPage: React.FC = () => {
                     : 'bg-neutral-200'
                 )}
               >
-                <span className={cn(
-                  'absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform',
-                  prefs.notifications[item.key as keyof typeof prefs.notifications]
-                    ? 'left-5'
-                    : 'left-0.5'
-                )} />
+                <span
+                  className={cn(
+                    'absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform',
+                    prefs.notifications[item.key as keyof typeof prefs.notifications]
+                      ? 'left-5'
+                      : 'left-0.5'
+                  )}
+                />
               </button>
             </div>
           ))}
@@ -1224,12 +1549,16 @@ export const PreferencesSettingsPage: React.FC = () => {
       </div>
 
       <div className="flex justify-end">
-        <button 
+        <button
           onClick={async () => {
             setIsSaving(true);
-            await new Promise(r => setTimeout(r, 1000));
+            await new Promise((r) => setTimeout(r, 1000));
             setIsSaving(false);
-            addToast({ status: 'success', title: 'Preferences Saved', description: 'Your preferences have been updated.' });
+            addToast({
+              status: 'success',
+              title: 'Preferences Saved',
+              description: 'Your preferences have been updated.',
+            });
           }}
           disabled={isSaving}
           className="px-6 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors disabled:opacity-50"
@@ -1253,18 +1582,38 @@ export const SecuritySettingsPage: React.FC = () => {
   const [showSSOModal, setShowSSOModal] = useState(false);
   const [sessions, setSessions] = useState([
     { id: 1, device: 'MacBook Pro', location: 'New York, US', current: true, lastActive: 'Now' },
-    { id: 2, device: 'iPhone 15', location: 'New York, US', current: false, lastActive: '2 hours ago' },
-    { id: 3, device: 'Chrome on Windows', location: 'Chicago, US', current: false, lastActive: '1 day ago' },
+    {
+      id: 2,
+      device: 'iPhone 15',
+      location: 'New York, US',
+      current: false,
+      lastActive: '2 hours ago',
+    },
+    {
+      id: 3,
+      device: 'Chrome on Windows',
+      location: 'Chicago, US',
+      current: false,
+      lastActive: '1 day ago',
+    },
   ]);
 
   const handleRevokeSession = (id: number, device: string) => {
-    setSessions(sessions.filter(s => s.id !== id));
-    addToast({ status: 'warning', title: 'Session Revoked', description: `${device} has been signed out.` });
+    setSessions(sessions.filter((s) => s.id !== id));
+    addToast({
+      status: 'warning',
+      title: 'Session Revoked',
+      description: `${device} has been signed out.`,
+    });
   };
 
   const handleRevokeAllSessions = () => {
-    setSessions(sessions.filter(s => s.current));
-    addToast({ status: 'warning', title: 'All Sessions Revoked', description: 'All other devices have been signed out.' });
+    setSessions(sessions.filter((s) => s.current));
+    addToast({
+      status: 'warning',
+      title: 'All Sessions Revoked',
+      description: 'All other devices have been signed out.',
+    });
   };
 
   return (
@@ -1275,7 +1624,7 @@ export const SecuritySettingsPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Password</h2>
         <p className="text-neutral-500 mb-4">Last changed 45 days ago</p>
-        <button 
+        <button
           onClick={() => setShowPasswordModal(true)}
           className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors"
         >
@@ -1289,24 +1638,64 @@ export const SecuritySettingsPage: React.FC = () => {
           <div className="fixed inset-0 bg-black/50" onClick={() => setShowPasswordModal(false)} />
           <div className="relative bg-white rounded-xl shadow-2xl w-full max-w-md p-6">
             <h2 className="text-xl font-semibold text-neutral-900 mb-4">Change Password</h2>
-            <form onSubmit={async (e) => { e.preventDefault(); await new Promise(r => setTimeout(r, 1000)); setShowPasswordModal(false); addToast({ status: 'success', title: 'Password Changed', description: 'Your password has been updated.' }); }}>
+            <form
+              onSubmit={async (e) => {
+                e.preventDefault();
+                await new Promise((r) => setTimeout(r, 1000));
+                setShowPasswordModal(false);
+                addToast({
+                  status: 'success',
+                  title: 'Password Changed',
+                  description: 'Your password has been updated.',
+                });
+              }}
+            >
               <div className="space-y-4 mb-4">
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Current Password</label>
-                  <input type="password" required className="w-full h-10 px-3 border border-neutral-300 rounded-lg" />
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">
+                    Current Password
+                  </label>
+                  <input
+                    type="password"
+                    required
+                    className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">New Password</label>
-                  <input type="password" required className="w-full h-10 px-3 border border-neutral-300 rounded-lg" />
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">
+                    New Password
+                  </label>
+                  <input
+                    type="password"
+                    required
+                    className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-neutral-700 mb-1">Confirm New Password</label>
-                  <input type="password" required className="w-full h-10 px-3 border border-neutral-300 rounded-lg" />
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">
+                    Confirm New Password
+                  </label>
+                  <input
+                    type="password"
+                    required
+                    className="w-full h-10 px-3 border border-neutral-300 rounded-lg"
+                  />
                 </div>
               </div>
               <div className="flex gap-3">
-                <button type="button" onClick={() => setShowPasswordModal(false)} className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50">Cancel</button>
-                <button type="submit" className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700">Update Password</button>
+                <button
+                  type="button"
+                  onClick={() => setShowPasswordModal(false)}
+                  className="flex-1 px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="flex-1 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+                >
+                  Update Password
+                </button>
               </div>
             </form>
           </div>
@@ -1320,10 +1709,19 @@ export const SecuritySettingsPage: React.FC = () => {
             <h2 className="text-lg font-semibold text-neutral-900">Two-Factor Authentication</h2>
             <p className="text-neutral-500">Add an extra layer of security to your account</p>
           </div>
-          <span className="px-2 py-1 bg-success-light text-success-dark text-xs font-medium rounded-full">Enabled</span>
+          <span className="px-2 py-1 bg-success-light text-success-dark text-xs font-medium rounded-full">
+            Enabled
+          </span>
         </div>
-        <button 
-          onClick={() => addToast({ status: 'info', title: '2FA Settings', description: 'Your authenticator app is configured. Backup codes available in your profile.' })}
+        <button
+          onClick={() =>
+            addToast({
+              status: 'info',
+              title: '2FA Settings',
+              description:
+                'Your authenticator app is configured. Backup codes available in your profile.',
+            })
+          }
           className="px-4 py-2 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50 transition-colors"
         >
           Manage 2FA
@@ -1335,18 +1733,25 @@ export const SecuritySettingsPage: React.FC = () => {
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Active Sessions</h2>
         <div className="space-y-4">
           {sessions.map((session) => (
-            <div key={session.id} className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg">
+            <div
+              key={session.id}
+              className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg"
+            >
               <div>
                 <div className="flex items-center gap-2">
                   <p className="font-medium text-neutral-900">{session.device}</p>
                   {session.current && (
-                    <span className="px-2 py-0.5 bg-primary-100 text-primary-700 text-xs rounded-full">Current</span>
+                    <span className="px-2 py-0.5 bg-primary-100 text-primary-700 text-xs rounded-full">
+                      Current
+                    </span>
                   )}
                 </div>
-                <p className="text-sm text-neutral-500">{session.location} • {session.lastActive}</p>
+                <p className="text-sm text-neutral-500">
+                  {session.location} • {session.lastActive}
+                </p>
               </div>
               {!session.current && (
-                <button 
+                <button
                   onClick={() => handleRevokeSession(session.id, session.device)}
                   className="text-error-main hover:text-error-dark text-sm font-medium"
                 >
@@ -1356,8 +1761,8 @@ export const SecuritySettingsPage: React.FC = () => {
             </div>
           ))}
         </div>
-        {sessions.filter(s => !s.current).length > 0 && (
-          <button 
+        {sessions.filter((s) => !s.current).length > 0 && (
+          <button
             onClick={handleRevokeAllSessions}
             className="mt-4 text-error-main hover:text-error-dark text-sm font-medium"
           >
@@ -1370,8 +1775,14 @@ export const SecuritySettingsPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Single Sign-On (SSO)</h2>
         <p className="text-neutral-500 mb-4">Configure SAML-based SSO for your organization</p>
-        <button 
-          onClick={() => addToast({ status: 'info', title: 'SSO Configuration', description: 'Contact your administrator to configure enterprise SSO.' })}
+        <button
+          onClick={() =>
+            addToast({
+              status: 'info',
+              title: 'SSO Configuration',
+              description: 'Contact your administrator to configure enterprise SSO.',
+            })
+          }
           className="px-4 py-2 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
         >
           Configure SSO

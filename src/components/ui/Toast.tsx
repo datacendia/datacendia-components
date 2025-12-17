@@ -98,14 +98,22 @@ const ToastItem: React.FC<{ toast: Toast; onClose: () => void }> = ({ toast, onC
         styles[toast.type]
       )}
     >
-      <div className={cn('w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0', iconStyles[toast.type])}>
+      <div
+        className={cn(
+          'w-6 h-6 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0',
+          iconStyles[toast.type]
+        )}
+      >
         {icons[toast.type]}
       </div>
       <div className="flex-1 min-w-0">
         <p className="font-semibold text-sm">{toast.title}</p>
         {toast.message && <p className="text-sm opacity-90 mt-0.5">{toast.message}</p>}
       </div>
-      <button onClick={onClose} className="text-current opacity-50 hover:opacity-100 transition-opacity">
+      <button
+        onClick={onClose}
+        className="text-current opacity-50 hover:opacity-100 transition-opacity"
+      >
         ✕
       </button>
     </div>

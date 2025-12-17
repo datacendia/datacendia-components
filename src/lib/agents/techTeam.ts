@@ -18,7 +18,8 @@ export const TECH_TEAM_AGENTS: DomainAgent[] = [
     code: 'dev-lead',
     name: 'Development Lead Agent',
     role: 'Technical Leadership & Architecture',
-    description: 'Senior technical leader who oversees code quality, architecture decisions, and coordinates the development team. Reviews PRs, sets coding standards, and resolves technical disputes.',
+    description:
+      'Senior technical leader who oversees code quality, architecture decisions, and coordinates the development team. Reviews PRs, sets coding standards, and resolves technical disputes.',
     avatar: '👨‍💻',
     color: '#3B82F6',
     status: 'offline',
@@ -51,7 +52,8 @@ Reference industry best practices and design patterns.`,
     code: 'frontend',
     name: 'Frontend Engineer Agent',
     role: 'UI/UX Development & React Specialist',
-    description: 'Expert in React, TypeScript, TailwindCSS, and modern frontend development. Builds responsive, accessible, and performant user interfaces.',
+    description:
+      'Expert in React, TypeScript, TailwindCSS, and modern frontend development. Builds responsive, accessible, and performant user interfaces.',
     avatar: '🎨',
     color: '#EC4899',
     status: 'offline',
@@ -93,7 +95,8 @@ Always write clean, maintainable code following React best practices.`,
     code: 'backend',
     name: 'Backend Engineer Agent',
     role: 'API Development & Database Specialist',
-    description: 'Expert in Node.js, Express, PostgreSQL, and backend architecture. Designs and implements scalable APIs, database schemas, and server-side logic.',
+    description:
+      'Expert in Node.js, Express, PostgreSQL, and backend architecture. Designs and implements scalable APIs, database schemas, and server-side logic.',
     avatar: '⚙️',
     color: '#10B981',
     status: 'offline',
@@ -135,7 +138,8 @@ Always follow security best practices and optimize for performance.`,
     code: 'fullstack',
     name: 'Full Stack Engineer Agent',
     role: 'End-to-End Development',
-    description: 'Versatile developer who works across the entire stack. Bridges frontend and backend, ensuring seamless integration and consistent patterns.',
+    description:
+      'Versatile developer who works across the entire stack. Bridges frontend and backend, ensuring seamless integration and consistent patterns.',
     avatar: '🔄',
     color: '#8B5CF6',
     status: 'offline',
@@ -177,7 +181,8 @@ When debugging, trace the issue from UI to database and back.`,
     code: 'devops',
     name: 'DevOps Engineer Agent',
     role: 'CI/CD & Infrastructure',
-    description: 'Manages deployment pipelines, infrastructure, containerization, and automation. Ensures reliable, scalable, and secure deployments.',
+    description:
+      'Manages deployment pipelines, infrastructure, containerization, and automation. Ensures reliable, scalable, and secure deployments.',
     avatar: '🚀',
     color: '#F59E0B',
     status: 'offline',
@@ -219,7 +224,8 @@ Always prioritize reliability, security, and automation.`,
     code: 'sre',
     name: 'Site Reliability Engineer Agent',
     role: 'Reliability & Incident Response',
-    description: 'Focuses on system reliability, incident management, and SLO/SLA compliance. First responder for production issues.',
+    description:
+      'Focuses on system reliability, incident management, and SLO/SLA compliance. First responder for production issues.',
     avatar: '🔥',
     color: '#EF4444',
     status: 'offline',
@@ -260,7 +266,8 @@ You think in terms of MTTR, MTTD, and error budgets.`,
     code: 'dba',
     name: 'Database Administrator Agent',
     role: 'Database Performance & Reliability',
-    description: 'Expert in database administration, query optimization, backup/recovery, and data integrity. Manages PostgreSQL, Redis, and Neo4j.',
+    description:
+      'Expert in database administration, query optimization, backup/recovery, and data integrity. Manages PostgreSQL, Redis, and Neo4j.',
     avatar: '🗄️',
     color: '#06B6D4',
     status: 'offline',
@@ -306,7 +313,8 @@ Always prioritize data integrity and consistency.`,
     code: 'qa-lead',
     name: 'QA Lead Agent',
     role: 'Quality Assurance Leadership',
-    description: 'Leads quality assurance efforts, defines testing strategies, and ensures comprehensive test coverage across the platform.',
+    description:
+      'Leads quality assurance efforts, defines testing strategies, and ensures comprehensive test coverage across the platform.',
     avatar: '🔍',
     color: '#14B8A6',
     status: 'offline',
@@ -347,7 +355,8 @@ Quality is not negotiable. Every release must meet standards.`,
     code: 'test-auto',
     name: 'Test Automation Engineer Agent',
     role: 'Automated Testing & CI Integration',
-    description: 'Builds and maintains automated test suites using Vitest, Playwright, and other testing frameworks. Integrates tests into CI/CD pipelines.',
+    description:
+      'Builds and maintains automated test suites using Vitest, Playwright, and other testing frameworks. Integrates tests into CI/CD pipelines.',
     avatar: '🤖',
     color: '#A855F7',
     status: 'offline',
@@ -389,7 +398,8 @@ Generate tests that are reliable, fast, and maintainable.`,
     code: 'security-eng',
     name: 'Security Engineer Agent',
     role: 'Application Security & Penetration Testing',
-    description: 'Identifies security vulnerabilities, performs code audits, and ensures secure coding practices. Conducts penetration testing and threat modeling.',
+    description:
+      'Identifies security vulnerabilities, performs code audits, and ensures secure coding practices. Conducts penetration testing and threat modeling.',
     avatar: '🛡️',
     color: '#DC2626',
     status: 'offline',
@@ -435,7 +445,8 @@ Security is paramount. Assume all input is malicious.`,
     code: 'ai-ml-eng',
     name: 'AI/ML Engineer Agent',
     role: 'Machine Learning & AI Integration',
-    description: 'Develops and integrates AI/ML models, manages Ollama integration, and optimizes AI agent performance.',
+    description:
+      'Develops and integrates AI/ML models, manages Ollama integration, and optimizes AI agent performance.',
     avatar: '🧠',
     color: '#7C3AED',
     status: 'offline',
@@ -477,7 +488,8 @@ Balance capability with performance and cost.`,
     code: 'perf-eng',
     name: 'Performance Engineer Agent',
     role: 'Performance Optimization & Profiling',
-    description: 'Identifies and resolves performance bottlenecks across the stack. Conducts load testing, profiling, and optimization.',
+    description:
+      'Identifies and resolves performance bottlenecks across the stack. Conducts load testing, profiling, and optimization.',
     avatar: '⚡',
     color: '#FBBF24',
     status: 'offline',
@@ -519,7 +531,8 @@ Performance is a feature. Every millisecond matters.`,
     code: 'docs',
     name: 'Technical Writer Agent',
     role: 'Documentation & API Reference',
-    description: 'Creates and maintains technical documentation, API references, and developer guides. Ensures documentation is accurate and up-to-date.',
+    description:
+      'Creates and maintains technical documentation, API references, and developer guides. Ensures documentation is accurate and up-to-date.',
     avatar: '📝',
     color: '#64748B',
     status: 'offline',
@@ -629,15 +642,15 @@ export function getTechTeamAgents(): DomainAgent[] {
  * Get agent by code
  */
 export function getTechAgent(code: string): DomainAgent | undefined {
-  return TECH_TEAM_AGENTS.find(a => a.code === code);
+  return TECH_TEAM_AGENTS.find((a) => a.code === code);
 }
 
 /**
  * Get agents by capability
  */
 export function getAgentsByCapability(capability: string): DomainAgent[] {
-  return TECH_TEAM_AGENTS.filter(a => 
-    a.capabilities.some(c => c.toLowerCase().includes(capability.toLowerCase()))
+  return TECH_TEAM_AGENTS.filter((a) =>
+    a.capabilities.some((c) => c.toLowerCase().includes(capability.toLowerCase()))
   );
 }
 
@@ -646,7 +659,7 @@ export function getAgentsByCapability(capability: string): DomainAgent[] {
  */
 export function assignAgentForError(error: ErrorAnalysis): string {
   const { file, errorType, message } = error;
-  
+
   // Frontend errors
   if (file.includes('/components/') || file.includes('/pages/') || file.includes('.tsx')) {
     if (message.includes('undefined') || message.includes('null') || message.includes('map')) {
@@ -656,7 +669,7 @@ export function assignAgentForError(error: ErrorAnalysis): string {
       return 'frontend';
     }
   }
-  
+
   // Backend errors
   if (file.includes('/routes/') || file.includes('/services/') || file.includes('backend/')) {
     if (message.includes('database') || message.includes('query') || message.includes('SQL')) {
@@ -664,22 +677,22 @@ export function assignAgentForError(error: ErrorAnalysis): string {
     }
     return 'backend';
   }
-  
+
   // Security errors
   if (message.includes('auth') || message.includes('permission') || message.includes('token')) {
     return 'security-eng';
   }
-  
+
   // Performance errors
   if (message.includes('timeout') || message.includes('memory') || message.includes('slow')) {
     return 'perf-eng';
   }
-  
+
   // AI/ML errors
   if (file.includes('/ollama/') || file.includes('/agents/') || message.includes('model')) {
     return 'ai-ml-eng';
   }
-  
+
   // Default to full stack
   return 'fullstack';
 }

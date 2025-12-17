@@ -1,6 +1,6 @@
 /**
  * DecisionLifecycle - A unified visualization of how decisions flow through Datacendia modules
- * 
+ *
  * Shows the complete journey:
  * 1. Question asked in Council
  * 2. Council produces synthesis + confidence + dissent
@@ -12,13 +12,13 @@
  */
 
 import React, { useState } from 'react';
-import { 
-  MessageSquare, 
-  Brain, 
-  Dna, 
-  FlaskConical, 
-  Users, 
-  Shield, 
+import {
+  MessageSquare,
+  Brain,
+  Dna,
+  FlaskConical,
+  Users,
+  Shield,
   Archive,
   ArrowRight,
   CheckCircle,
@@ -27,7 +27,7 @@ import {
   Play,
   ChevronDown,
   ChevronUp,
-  ExternalLink
+  ExternalLink,
 } from 'lucide-react';
 
 // Decision lifecycle stages
@@ -39,8 +39,13 @@ const LIFECYCLE_STAGES = [
     icon: <MessageSquare className="w-6 h-6" />,
     color: 'cyan',
     description: 'Question submitted, agents deliberate, synthesis produced',
-    outputs: ['Executive synthesis', 'Confidence score', 'Dissent registry', 'Cross-examination log'],
-    link: '/cortex/intelligence/council'
+    outputs: [
+      'Executive synthesis',
+      'Confidence score',
+      'Dissent registry',
+      'Cross-examination log',
+    ],
+    link: '/cortex/intelligence/council',
   },
   {
     id: 'dna',
@@ -50,7 +55,7 @@ const LIFECYCLE_STAGES = [
     color: 'purple',
     description: 'Decision recorded with full provenance and rationale',
     outputs: ['Immutable record', 'Linked evidence', 'Stakeholder sign-offs', 'Version history'],
-    link: '/cortex/intelligence/decision-dna'
+    link: '/cortex/intelligence/decision-dna',
   },
   {
     id: 'crucible',
@@ -61,7 +66,7 @@ const LIFECYCLE_STAGES = [
     description: 'Decision tested against multiple failure scenarios',
     outputs: ['Resilience score', 'Break points', 'Mitigation plan', 'Monte Carlo results'],
     link: '/sovereign/crucible',
-    optional: true
+    optional: true,
   },
   {
     id: 'vox',
@@ -72,7 +77,7 @@ const LIFECYCLE_STAGES = [
     description: 'Stakeholder voices gathered, vetoes checked',
     outputs: ['Voice assembly', 'Veto check', 'Sentiment analysis', 'Resolution record'],
     link: '/sovereign/vox',
-    optional: true
+    optional: true,
   },
   {
     id: 'compliance',
@@ -82,7 +87,7 @@ const LIFECYCLE_STAGES = [
     color: 'emerald',
     description: 'Regulatory and security exposure assessed',
     outputs: ['Compliance impact', 'Security assessment', 'Risk flags', 'Remediation items'],
-    link: '/sovereign/panopticon'
+    link: '/sovereign/panopticon',
   },
   {
     id: 'eternal',
@@ -92,8 +97,8 @@ const LIFECYCLE_STAGES = [
     color: 'amber',
     description: 'Final decision pack archived for long-term preservation',
     outputs: ['Archived artifact', 'Hash chain entry', 'Successor access', 'Retention policy'],
-    link: '/sovereign/eternal'
-  }
+    link: '/sovereign/eternal',
+  },
 ];
 
 // Example decision journey data
@@ -103,13 +108,28 @@ const EXAMPLE_JOURNEY = {
   status: 'in_progress',
   currentStage: 'vox',
   stages: {
-    council: { status: 'completed', timestamp: '2025-01-10 09:00', confidence: 82, hasDissent: true },
+    council: {
+      status: 'completed',
+      timestamp: '2025-01-10 09:00',
+      confidence: 82,
+      hasDissent: true,
+    },
     dna: { status: 'completed', timestamp: '2025-01-10 09:15', recordId: 'DNA-2025-042' },
-    crucible: { status: 'completed', timestamp: '2025-01-10 10:30', resilienceScore: 68, breakPoints: 3 },
-    vox: { status: 'vetoed', timestamp: '2025-01-10 11:00', vetoBy: 'Environment', reason: 'Irreversible harm' },
+    crucible: {
+      status: 'completed',
+      timestamp: '2025-01-10 10:30',
+      resilienceScore: 68,
+      breakPoints: 3,
+    },
+    vox: {
+      status: 'vetoed',
+      timestamp: '2025-01-10 11:00',
+      vetoBy: 'Environment',
+      reason: 'Irreversible harm',
+    },
     compliance: { status: 'pending' },
-    eternal: { status: 'pending' }
-  }
+    eternal: { status: 'pending' },
+  },
 };
 
 interface DecisionLifecycleProps {
@@ -121,19 +141,49 @@ interface DecisionLifecycleProps {
 export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
   variant = 'full',
   showExample = true,
-  onStageClick
+  onStageClick,
 }) => {
   const [expandedStage, setExpandedStage] = useState<string | null>(null);
   const [showJourneyExample, setShowJourneyExample] = useState(showExample);
 
   const getColorClasses = (color: string, isActive: boolean = false) => {
     const colors: Record<string, { bg: string; border: string; text: string; bgActive: string }> = {
-      cyan: { bg: 'bg-cyan-500/10', border: 'border-cyan-500/30', text: 'text-cyan-400', bgActive: 'bg-cyan-500/20' },
-      purple: { bg: 'bg-purple-500/10', border: 'border-purple-500/30', text: 'text-purple-400', bgActive: 'bg-purple-500/20' },
-      orange: { bg: 'bg-orange-500/10', border: 'border-orange-500/30', text: 'text-orange-400', bgActive: 'bg-orange-500/20' },
-      teal: { bg: 'bg-teal-500/10', border: 'border-teal-500/30', text: 'text-teal-400', bgActive: 'bg-teal-500/20' },
-      emerald: { bg: 'bg-emerald-500/10', border: 'border-emerald-500/30', text: 'text-emerald-400', bgActive: 'bg-emerald-500/20' },
-      amber: { bg: 'bg-amber-500/10', border: 'border-amber-500/30', text: 'text-amber-400', bgActive: 'bg-amber-500/20' },
+      cyan: {
+        bg: 'bg-cyan-500/10',
+        border: 'border-cyan-500/30',
+        text: 'text-cyan-400',
+        bgActive: 'bg-cyan-500/20',
+      },
+      purple: {
+        bg: 'bg-purple-500/10',
+        border: 'border-purple-500/30',
+        text: 'text-purple-400',
+        bgActive: 'bg-purple-500/20',
+      },
+      orange: {
+        bg: 'bg-orange-500/10',
+        border: 'border-orange-500/30',
+        text: 'text-orange-400',
+        bgActive: 'bg-orange-500/20',
+      },
+      teal: {
+        bg: 'bg-teal-500/10',
+        border: 'border-teal-500/30',
+        text: 'text-teal-400',
+        bgActive: 'bg-teal-500/20',
+      },
+      emerald: {
+        bg: 'bg-emerald-500/10',
+        border: 'border-emerald-500/30',
+        text: 'text-emerald-400',
+        bgActive: 'bg-emerald-500/20',
+      },
+      amber: {
+        bg: 'bg-amber-500/10',
+        border: 'border-amber-500/30',
+        text: 'text-amber-400',
+        bgActive: 'bg-amber-500/20',
+      },
     };
     return colors[color] || colors.purple;
   };
@@ -145,10 +195,14 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
 
   const getStatusIcon = (status: string) => {
     switch (status) {
-      case 'completed': return <CheckCircle className="w-4 h-4 text-emerald-400" />;
-      case 'vetoed': return <AlertTriangle className="w-4 h-4 text-red-400" />;
-      case 'in_progress': return <Clock className="w-4 h-4 text-amber-400 animate-pulse" />;
-      default: return <Clock className="w-4 h-4 text-slate-500" />;
+      case 'completed':
+        return <CheckCircle className="w-4 h-4 text-emerald-400" />;
+      case 'vetoed':
+        return <AlertTriangle className="w-4 h-4 text-red-400" />;
+      case 'in_progress':
+        return <Clock className="w-4 h-4 text-amber-400 animate-pulse" />;
+      default:
+        return <Clock className="w-4 h-4 text-slate-500" />;
     }
   };
 
@@ -169,7 +223,9 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
                   className={`w-8 h-8 rounded-full ${colors.bg} ${colors.border} border flex items-center justify-center hover:${colors.bgActive} transition-all`}
                   title={stage.name}
                 >
-                  <span className={colors.text}>{React.cloneElement(stage.icon, { className: 'w-4 h-4' })}</span>
+                  <span className={colors.text}>
+                    {React.cloneElement(stage.icon, { className: 'w-4 h-4' })}
+                  </span>
                 </button>
                 {i < LIFECYCLE_STAGES.length - 1 && (
                   <ArrowRight className="w-3 h-3 text-slate-600" />
@@ -232,7 +288,7 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
             const colors = getColorClasses(stage.color);
             const isExpanded = expandedStage === stage.id;
             const status = showJourneyExample ? getStageStatus(stage.id) : 'pending';
-            
+
             return (
               <div key={stage.id} className="relative">
                 {/* Connector Arrow (hidden on first item and mobile) */}
@@ -241,7 +297,7 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
                     <ArrowRight className="w-4 h-4 text-slate-600" />
                   </div>
                 )}
-                
+
                 <div
                   className={`p-4 rounded-xl border ${colors.border} ${colors.bg} hover:${colors.bgActive} transition-all cursor-pointer ${
                     status === 'vetoed' ? 'ring-2 ring-red-500/50' : ''
@@ -255,25 +311,31 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
                     </div>
                     <div className="flex items-center gap-1">
                       {stage.optional && (
-                        <span className="text-[10px] text-slate-500 px-1.5 py-0.5 bg-slate-700 rounded">Optional</span>
+                        <span className="text-[10px] text-slate-500 px-1.5 py-0.5 bg-slate-700 rounded">
+                          Optional
+                        </span>
                       )}
                       {showJourneyExample && getStatusIcon(status)}
                     </div>
                   </div>
-                  
+
                   {/* Title */}
                   <h3 className="font-semibold text-white text-sm mb-1">{stage.name}</h3>
                   <p className="text-xs text-slate-500 mb-2">{stage.module}</p>
-                  
+
                   {/* Description */}
                   <p className="text-xs text-slate-400 mb-3">{stage.description}</p>
-                  
+
                   {/* Expand/Collapse */}
                   <button className="flex items-center gap-1 text-xs text-slate-500 hover:text-slate-300">
-                    {isExpanded ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
+                    {isExpanded ? (
+                      <ChevronUp className="w-3 h-3" />
+                    ) : (
+                      <ChevronDown className="w-3 h-3" />
+                    )}
                     {isExpanded ? 'Less' : 'More'}
                   </button>
-                  
+
                   {/* Expanded Content */}
                   {isExpanded && (
                     <div className="mt-3 pt-3 border-t border-slate-700 space-y-2">
@@ -316,34 +378,44 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
               Veto Active
             </span>
           </div>
-          
+
           <div className="flex items-center gap-2 flex-wrap">
             {LIFECYCLE_STAGES.map((stage, i) => {
-              const stageData = EXAMPLE_JOURNEY.stages[stage.id as keyof typeof EXAMPLE_JOURNEY.stages];
+              const stageData =
+                EXAMPLE_JOURNEY.stages[stage.id as keyof typeof EXAMPLE_JOURNEY.stages];
               const status = stageData?.status || 'pending';
-              
+
               return (
                 <React.Fragment key={stage.id}>
-                  <div className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs ${
-                    status === 'completed' ? 'bg-emerald-500/10 text-emerald-300' :
-                    status === 'vetoed' ? 'bg-red-500/10 text-red-300' :
-                    status === 'in_progress' ? 'bg-amber-500/10 text-amber-300' :
-                    'bg-slate-800 text-slate-500'
-                  }`}>
+                  <div
+                    className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs ${
+                      status === 'completed'
+                        ? 'bg-emerald-500/10 text-emerald-300'
+                        : status === 'vetoed'
+                          ? 'bg-red-500/10 text-red-300'
+                          : status === 'in_progress'
+                            ? 'bg-amber-500/10 text-amber-300'
+                            : 'bg-slate-800 text-slate-500'
+                    }`}
+                  >
                     {getStatusIcon(status)}
                     <span>{stage.name.split(' ')[0]}</span>
                     {stageData && 'timestamp' in stageData && stageData.timestamp && (
-                      <span className="text-[10px] text-slate-500">{stageData.timestamp.split(' ')[1]}</span>
+                      <span className="text-[10px] text-slate-500">
+                        {stageData.timestamp.split(' ')[1]}
+                      </span>
                     )}
                   </div>
                   {i < LIFECYCLE_STAGES.length - 1 && (
-                    <ArrowRight className={`w-3 h-3 ${status === 'pending' ? 'text-slate-700' : 'text-slate-500'}`} />
+                    <ArrowRight
+                      className={`w-3 h-3 ${status === 'pending' ? 'text-slate-700' : 'text-slate-500'}`}
+                    />
                   )}
                 </React.Fragment>
               );
             })}
           </div>
-          
+
           {/* Veto Details */}
           <div className="mt-4 p-3 bg-red-500/10 border border-red-500/30 rounded-lg">
             <div className="flex items-center gap-2 text-red-400 text-sm font-medium mb-1">
@@ -351,7 +423,8 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
               Veto Triggered: Environment Stakeholder
             </div>
             <p className="text-xs text-slate-300">
-              Reason: Irreversible environmental harm. Decision requires mitigation plan before proceeding.
+              Reason: Irreversible environmental harm. Decision requires mitigation plan before
+              proceeding.
             </p>
           </div>
         </div>

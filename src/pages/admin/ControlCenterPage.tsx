@@ -64,7 +64,12 @@ interface PricingTier {
 }
 
 interface ControlDashboard {
-  features: { total: number; enabled: number; disabled: number; byCategory: Record<string, number> };
+  features: {
+    total: number;
+    enabled: number;
+    disabled: number;
+    byCategory: Record<string, number>;
+  };
   agents: { total: number; enabled: number; disabled: number };
   suites: { total: number; enabled: number };
   pricing: { total: number; active: number };
@@ -267,7 +272,11 @@ async function updatePricing(id: string, updates: Partial<PricingTier>): Promise
 // COMPONENTS
 // =============================================================================
 
-const Toggle: React.FC<{ enabled: boolean; onChange: () => void; disabled?: boolean }> = ({ enabled, onChange, disabled }) => (
+const Toggle: React.FC<{ enabled: boolean; onChange: () => void; disabled?: boolean }> = ({
+  enabled,
+  onChange,
+  disabled,
+}) => (
   <button
     onClick={onChange}
     disabled={disabled}
@@ -277,31 +286,39 @@ const Toggle: React.FC<{ enabled: boolean; onChange: () => void; disabled?: bool
       disabled && 'opacity-50 cursor-not-allowed'
     )}
   >
-    <span className={cn(
-      'absolute top-1 w-4 h-4 bg-white rounded-full transition-all',
-      enabled ? 'left-7' : 'left-1'
-    )} />
+    <span
+      className={cn(
+        'absolute top-1 w-4 h-4 bg-white rounded-full transition-all',
+        enabled ? 'left-7' : 'left-1'
+      )}
+    />
   </button>
 );
 
-const VisibilityBadge: React.FC<{ visibility: string; onClick?: () => void }> = ({ visibility, onClick }) => {
+const VisibilityBadge: React.FC<{ visibility: string; onClick?: () => void }> = ({
+  visibility,
+  onClick,
+}) => {
   const colors = {
     public: 'bg-green-500/20 text-green-400',
     authenticated: 'bg-blue-500/20 text-blue-400',
     admin: 'bg-purple-500/20 text-purple-400',
-    hidden: 'bg-neutral-500/20 text-neutral-400'
+    hidden: 'bg-neutral-500/20 text-neutral-400',
   };
   const icons = {
     public: '🌐',
     authenticated: '🔒',
     admin: '👑',
-    hidden: '👁️‍🗨️'
+    hidden: '👁️‍🗨️',
   };
-  
+
   return (
     <button
       onClick={onClick}
-      className={cn('px-2 py-1 rounded-full text-xs font-medium', colors[visibility as keyof typeof colors])}
+      className={cn(
+        'px-2 py-1 rounded-full text-xs font-medium',
+        colors[visibility as keyof typeof colors]
+      )}
     >
       {icons[visibility as keyof typeof icons]} {visibility}
     </button>
@@ -313,7 +330,9 @@ const VisibilityBadge: React.FC<{ visibility: string; onClick?: () => void }> = 
 // =============================================================================
 
 export const ControlCenterPage: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'overview' | 'features' | 'agents' | 'suites' | 'pricing'>('overview');
+  const [activeTab, setActiveTab] = useState<
+    'overview' | 'features' | 'agents' | 'suites' | 'pricing'
+  >('overview');
   const [dashboard, setDashboard] = useState<ControlDashboard | null>(null);
   const [features, setFeatures] = useState<Feature[]>([]);
   const [agents, setAgents] = useState<Agent[]>([]);
@@ -334,7 +353,7 @@ export const ControlCenterPage: React.FC = () => {
         fetchFeatures(),
         fetchAgents(),
         fetchSuites(),
-        fetchPricing()
+        fetchPricing(),
       ]);
       setDashboard(dashboardData);
       setFeatures(featuresData);
@@ -351,7 +370,7 @@ export const ControlCenterPage: React.FC = () => {
   const handleToggleFeature = async (id: string, currentEnabled: boolean) => {
     try {
       await toggleFeature(id, !currentEnabled);
-      setFeatures(features.map(f => f.id === id ? { ...f, enabled: !currentEnabled } : f));
+      setFeatures(features.map((f) => (f.id === id ? { ...f, enabled: !currentEnabled } : f)));
       loadData(); // Refresh dashboard
     } catch (err) {
       console.error('Failed to toggle feature:', err);
@@ -361,7 +380,7 @@ export const ControlCenterPage: React.FC = () => {
   const handleSetVisibility = async (id: string, visibility: string) => {
     try {
       await setVisibility(id, visibility);
-      setFeatures(features.map(f => f.id === id ? { ...f, visibility: visibility as any } : f));
+      setFeatures(features.map((f) => (f.id === id ? { ...f, visibility: visibility as any } : f)));
     } catch (err) {
       console.error('Failed to set visibility:', err);
     }
@@ -370,7 +389,7 @@ export const ControlCenterPage: React.FC = () => {
   const handleToggleAgent = async (id: string, currentEnabled: boolean) => {
     try {
       await toggleAgent(id, !currentEnabled);
-      setAgents(agents.map(a => a.id === id ? { ...a, enabled: !currentEnabled } : a));
+      setAgents(agents.map((a) => (a.id === id ? { ...a, enabled: !currentEnabled } : a)));
       loadData();
     } catch (err) {
       console.error('Failed to toggle agent:', err);
@@ -386,9 +405,13 @@ export const ControlCenterPage: React.FC = () => {
     }
   };
 
-  const handleToggleCapabilityRole = async (featureId: string, capability: string, role: string) => {
+  const handleToggleCapabilityRole = async (
+    featureId: string,
+    capability: string,
+    role: string
+  ) => {
     try {
-      const feature = features.find(f => f.id === featureId);
+      const feature = features.find((f) => f.id === featureId);
       if (!feature) return;
 
       const featureConfig: any = feature.config || {};
@@ -396,7 +419,7 @@ export const ControlCenterPage: React.FC = () => {
       const currentRoles: string[] = existingPermissions[capability] || ['ADMIN'];
 
       const nextRoles = currentRoles.includes(role)
-        ? currentRoles.filter(r => r !== role)
+        ? currentRoles.filter((r) => r !== role)
         : [...currentRoles, role];
 
       const newPermissions = {
@@ -411,9 +434,9 @@ export const ControlCenterPage: React.FC = () => {
 
       const updated = await updateFeatureConfig(featureId, newConfig);
 
-      setFeatures(features.map(f =>
-        f.id === featureId ? { ...f, config: (updated as any).config } : f
-      ));
+      setFeatures(
+        features.map((f) => (f.id === featureId ? { ...f, config: (updated as any).config } : f))
+      );
     } catch (err) {
       console.error('Failed to update feature permissions:', err);
     }
@@ -422,7 +445,11 @@ export const ControlCenterPage: React.FC = () => {
   const handleUpdatePrice = async (id: string, monthlyPrice: number) => {
     try {
       await updatePricing(id, { monthlyPrice, annualPrice: monthlyPrice * 10 });
-      setPricing(pricing.map(p => p.id === id ? { ...p, monthlyPrice, annualPrice: monthlyPrice * 10 } : p));
+      setPricing(
+        pricing.map((p) =>
+          p.id === id ? { ...p, monthlyPrice, annualPrice: monthlyPrice * 10 } : p
+        )
+      );
       setEditingPrice(null);
     } catch (err) {
       console.error('Failed to update price:', err);
@@ -441,19 +468,21 @@ export const ControlCenterPage: React.FC = () => {
     <div>
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-white">Control Center</h1>
-        <p className="text-neutral-400">Manage all platform features, agents, suites, and pricing</p>
+        <p className="text-neutral-400">
+          Manage all platform features, agents, suites, and pricing
+        </p>
       </div>
 
       {/* Tabs */}
       <div className="flex gap-2 mb-6">
-        {(['overview', 'features', 'agents', 'suites', 'pricing'] as const).map(tab => (
+        {(['overview', 'features', 'agents', 'suites', 'pricing'] as const).map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
             className={cn(
               'px-4 py-2 rounded-lg font-medium capitalize transition-colors',
-              activeTab === tab 
-                ? 'bg-primary-600 text-white' 
+              activeTab === tab
+                ? 'bg-primary-600 text-white'
                 : 'bg-neutral-800 text-neutral-400 hover:text-white'
             )}
           >
@@ -469,22 +498,30 @@ export const ControlCenterPage: React.FC = () => {
           <div className="grid grid-cols-5 gap-4">
             <div className="bg-neutral-800 rounded-xl p-6 border border-neutral-700">
               <p className="text-neutral-400 text-sm mb-1">Features</p>
-              <p className="text-3xl font-bold text-white">{dashboard.features.enabled}/{dashboard.features.total}</p>
+              <p className="text-3xl font-bold text-white">
+                {dashboard.features.enabled}/{dashboard.features.total}
+              </p>
               <p className="text-xs text-success-main mt-1">enabled</p>
             </div>
             <div className="bg-neutral-800 rounded-xl p-6 border border-neutral-700">
               <p className="text-neutral-400 text-sm mb-1">AI Agents</p>
-              <p className="text-3xl font-bold text-white">{dashboard.agents.enabled}/{dashboard.agents.total}</p>
+              <p className="text-3xl font-bold text-white">
+                {dashboard.agents.enabled}/{dashboard.agents.total}
+              </p>
               <p className="text-xs text-success-main mt-1">active</p>
             </div>
             <div className="bg-neutral-800 rounded-xl p-6 border border-neutral-700">
               <p className="text-neutral-400 text-sm mb-1">Suites</p>
-              <p className="text-3xl font-bold text-white">{dashboard.suites.enabled}/{dashboard.suites.total}</p>
+              <p className="text-3xl font-bold text-white">
+                {dashboard.suites.enabled}/{dashboard.suites.total}
+              </p>
               <p className="text-xs text-success-main mt-1">enabled</p>
             </div>
             <div className="bg-neutral-800 rounded-xl p-6 border border-neutral-700">
               <p className="text-neutral-400 text-sm mb-1">Pricing Tiers</p>
-              <p className="text-3xl font-bold text-white">{dashboard.pricing.active}/{dashboard.pricing.total}</p>
+              <p className="text-3xl font-bold text-white">
+                {dashboard.pricing.active}/{dashboard.pricing.total}
+              </p>
               <p className="text-xs text-success-main mt-1">active</p>
             </div>
             <div className="bg-neutral-800 rounded-xl p-6 border border-neutral-700">
@@ -498,7 +535,7 @@ export const ControlCenterPage: React.FC = () => {
           <div className="bg-neutral-800 rounded-xl p-6 border border-neutral-700">
             <h2 className="text-lg font-semibold text-white mb-4">Quick Actions</h2>
             <div className="grid grid-cols-3 gap-4">
-              <button 
+              <button
                 onClick={() => setActiveTab('features')}
                 className="p-4 bg-neutral-700/50 rounded-lg hover:bg-neutral-700 transition-colors text-left"
               >
@@ -506,7 +543,7 @@ export const ControlCenterPage: React.FC = () => {
                 <p className="font-medium text-white mt-2">Manage Features</p>
                 <p className="text-sm text-neutral-400">Toggle services on/off</p>
               </button>
-              <button 
+              <button
                 onClick={() => setActiveTab('agents')}
                 className="p-4 bg-neutral-700/50 rounded-lg hover:bg-neutral-700 transition-colors text-left"
               >
@@ -514,7 +551,7 @@ export const ControlCenterPage: React.FC = () => {
                 <p className="font-medium text-white mt-2">Configure Agents</p>
                 <p className="text-sm text-neutral-400">Enable/disable AI agents</p>
               </button>
-              <button 
+              <button
                 onClick={() => setActiveTab('pricing')}
                 className="p-4 bg-neutral-700/50 rounded-lg hover:bg-neutral-700 transition-colors text-left"
               >
@@ -542,7 +579,12 @@ export const ControlCenterPage: React.FC = () => {
                 <p className="text-sm text-neutral-400">👁️‍🗨️ Hidden</p>
               </div>
               <div className="text-center">
-                <p className="text-2xl font-bold text-purple-400">{dashboard.routes.total - dashboard.routes.public - dashboard.routes.authenticated - dashboard.routes.hidden}</p>
+                <p className="text-2xl font-bold text-purple-400">
+                  {dashboard.routes.total -
+                    dashboard.routes.public -
+                    dashboard.routes.authenticated -
+                    dashboard.routes.hidden}
+                </p>
                 <p className="text-sm text-neutral-400">👑 Admin Only</p>
               </div>
             </div>
@@ -554,18 +596,28 @@ export const ControlCenterPage: React.FC = () => {
       {activeTab === 'features' && (
         <div className="space-y-4">
           {Object.entries(
-            features.reduce((acc, f) => {
-              if (!acc[f.category]) {acc[f.category] = [];}
-              acc[f.category].push(f);
-              return acc;
-            }, {} as Record<string, Feature[]>)
+            features.reduce(
+              (acc, f) => {
+                if (!acc[f.category]) {
+                  acc[f.category] = [];
+                }
+                acc[f.category].push(f);
+                return acc;
+              },
+              {} as Record<string, Feature[]>
+            )
           ).map(([category, categoryFeatures]) => (
-            <div key={category} className="bg-neutral-800 rounded-xl border border-neutral-700 overflow-hidden">
+            <div
+              key={category}
+              className="bg-neutral-800 rounded-xl border border-neutral-700 overflow-hidden"
+            >
               <div className="px-4 py-3 bg-neutral-900/50 border-b border-neutral-700">
-                <h3 className="font-semibold text-white capitalize">{category.replace('-', ' ')}</h3>
+                <h3 className="font-semibold text-white capitalize">
+                  {category.replace('-', ' ')}
+                </h3>
               </div>
               <div className="divide-y divide-neutral-700">
-                {categoryFeatures.map(feature => (
+                {categoryFeatures.map((feature) => (
                   <div key={feature.id} className="px-4 py-4 flex items-center justify-between">
                     <div className="flex items-center gap-4">
                       <span className="text-2xl">{feature.icon || '📦'}</span>
@@ -573,8 +625,13 @@ export const ControlCenterPage: React.FC = () => {
                         <p className="font-medium text-white">{feature.name}</p>
                         <p className="text-sm text-neutral-400">{feature.description}</p>
                         <div className="flex gap-2 mt-1">
-                          {feature.routes.map(route => (
-                            <code key={route} className="text-xs bg-neutral-700 px-1.5 py-0.5 rounded text-neutral-300">{route}</code>
+                          {feature.routes.map((route) => (
+                            <code
+                              key={route}
+                              className="text-xs bg-neutral-700 px-1.5 py-0.5 rounded text-neutral-300"
+                            >
+                              {route}
+                            </code>
                           ))}
                         </div>
                         {(feature.id === 'cendia-persona' || feature.id === 'cendia-autopilot') && (
@@ -585,19 +642,22 @@ export const ControlCenterPage: React.FC = () => {
                                 : 'Who can manage Autopilot rules?'}
                             </p>
                             <div className="flex gap-2">
-                              {['ADMIN', 'ANALYST', 'VIEWER'].map(role => {
+                              {['ADMIN', 'ANALYST', 'VIEWER'].map((role) => {
                                 const capability =
                                   feature.id === 'cendia-persona'
                                     ? 'persona.createTwin'
                                     : 'autopilot.manageRules';
                                 const featureConfig: any = feature.config || {};
-                                const permissions: Record<string, string[]> = featureConfig.permissions || {};
+                                const permissions: Record<string, string[]> =
+                                  featureConfig.permissions || {};
                                 const allowedRoles: string[] = permissions[capability] || ['ADMIN'];
                                 const isActive = allowedRoles.includes(role);
                                 return (
                                   <button
                                     key={role}
-                                    onClick={() => handleToggleCapabilityRole(feature.id, capability, role)}
+                                    onClick={() =>
+                                      handleToggleCapabilityRole(feature.id, capability, role)
+                                    }
                                     className={cn(
                                       'px-2 py-0.5 rounded-full text-xs border',
                                       isActive
@@ -605,7 +665,11 @@ export const ControlCenterPage: React.FC = () => {
                                         : 'bg-neutral-800 text-neutral-400 border-neutral-600'
                                     )}
                                   >
-                                    {role === 'ADMIN' ? 'Org Admin' : role === 'ANALYST' ? 'Analyst' : 'Viewer'}
+                                    {role === 'ADMIN'
+                                      ? 'Org Admin'
+                                      : role === 'ANALYST'
+                                        ? 'Analyst'
+                                        : 'Viewer'}
                                   </button>
                                 );
                               })}
@@ -625,9 +689,9 @@ export const ControlCenterPage: React.FC = () => {
                         <option value="admin">👑 Admin</option>
                         <option value="hidden">👁️‍🗨️ Hidden</option>
                       </select>
-                      <Toggle 
-                        enabled={feature.enabled} 
-                        onChange={() => handleToggleFeature(feature.id, feature.enabled)} 
+                      <Toggle
+                        enabled={feature.enabled}
+                        onChange={() => handleToggleFeature(feature.id, feature.enabled)}
                       />
                     </div>
                   </div>
@@ -642,7 +706,7 @@ export const ControlCenterPage: React.FC = () => {
       {activeTab === 'agents' && (
         <div className="bg-neutral-800 rounded-xl border border-neutral-700 overflow-hidden">
           <div className="divide-y divide-neutral-700">
-            {agents.map(agent => (
+            {agents.map((agent) => (
               <div key={agent.id} className="px-4 py-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
@@ -660,16 +724,19 @@ export const ControlCenterPage: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <Toggle 
-                    enabled={agent.enabled} 
-                    onChange={() => handleToggleAgent(agent.id, agent.enabled)} 
+                  <Toggle
+                    enabled={agent.enabled}
+                    onChange={() => handleToggleAgent(agent.id, agent.enabled)}
                   />
                 </div>
                 <div className="mt-3 pl-16">
                   <p className="text-xs text-neutral-500 mb-1">Capabilities:</p>
                   <div className="flex flex-wrap gap-1">
-                    {agent.capabilities.map(cap => (
-                      <span key={cap} className="text-xs bg-neutral-700 text-neutral-300 px-2 py-0.5 rounded">
+                    {agent.capabilities.map((cap) => (
+                      <span
+                        key={cap}
+                        className="text-xs bg-neutral-700 text-neutral-300 px-2 py-0.5 rounded"
+                      >
                         {cap}
                       </span>
                     ))}
@@ -684,7 +751,7 @@ export const ControlCenterPage: React.FC = () => {
       {/* Suites Tab */}
       {activeTab === 'suites' && (
         <div className="space-y-4">
-          {suites.map(suite => (
+          {suites.map((suite) => (
             <div key={suite.id} className="bg-neutral-800 rounded-xl border border-neutral-700 p-6">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-4">
@@ -695,30 +762,36 @@ export const ControlCenterPage: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
-                  <span className={cn(
-                    'px-3 py-1 rounded-full text-sm font-medium',
-                    suite.enabled ? 'bg-success-main/20 text-success-main' : 'bg-neutral-600/20 text-neutral-400'
-                  )}>
+                  <span
+                    className={cn(
+                      'px-3 py-1 rounded-full text-sm font-medium',
+                      suite.enabled
+                        ? 'bg-success-main/20 text-success-main'
+                        : 'bg-neutral-600/20 text-neutral-400'
+                    )}
+                  >
                     {suite.enabled ? 'Enabled' : 'Disabled'}
                   </span>
-                  <Toggle 
-                    enabled={suite.enabled} 
-                    onChange={() => handleToggleSuite(suite.id, suite.enabled)} 
+                  <Toggle
+                    enabled={suite.enabled}
+                    onChange={() => handleToggleSuite(suite.id, suite.enabled)}
                   />
                 </div>
               </div>
               <div className="border-t border-neutral-700 pt-4">
-                <p className="text-sm text-neutral-500 mb-2">Included Features ({suite.features.length}):</p>
+                <p className="text-sm text-neutral-500 mb-2">
+                  Included Features ({suite.features.length}):
+                </p>
                 <div className="flex flex-wrap gap-2">
-                  {suite.features.map(featureId => {
-                    const feature = features.find(f => f.id === featureId);
+                  {suite.features.map((featureId) => {
+                    const feature = features.find((f) => f.id === featureId);
                     return (
-                      <span 
-                        key={featureId} 
+                      <span
+                        key={featureId}
                         className={cn(
                           'px-3 py-1 rounded-lg text-sm',
-                          feature?.enabled 
-                            ? 'bg-success-main/10 text-success-main border border-success-main/30' 
+                          feature?.enabled
+                            ? 'bg-success-main/10 text-success-main border border-success-main/30'
                             : 'bg-neutral-700 text-neutral-400'
                         )}
                       >
@@ -736,9 +809,9 @@ export const ControlCenterPage: React.FC = () => {
       {/* Pricing Tab */}
       {activeTab === 'pricing' && (
         <div className="grid grid-cols-4 gap-4">
-          {pricing.map(tier => (
-            <div 
-              key={tier.id} 
+          {pricing.map((tier) => (
+            <div
+              key={tier.id}
               className={cn(
                 'bg-neutral-800 rounded-xl border p-6',
                 tier.visible ? 'border-neutral-700' : 'border-neutral-700/50 opacity-60'
@@ -746,15 +819,17 @@ export const ControlCenterPage: React.FC = () => {
             >
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-lg font-semibold text-white">{tier.name}</h3>
-                <Toggle 
-                  enabled={tier.visible} 
+                <Toggle
+                  enabled={tier.visible}
                   onChange={async () => {
                     await updatePricing(tier.id, { visible: !tier.visible });
-                    setPricing(pricing.map(p => p.id === tier.id ? { ...p, visible: !tier.visible } : p));
-                  }} 
+                    setPricing(
+                      pricing.map((p) => (p.id === tier.id ? { ...p, visible: !tier.visible } : p))
+                    );
+                  }}
                 />
               </div>
-              
+
               {editingPrice === tier.id ? (
                 <div className="mb-4">
                   <input
@@ -771,7 +846,7 @@ export const ControlCenterPage: React.FC = () => {
                   />
                 </div>
               ) : (
-                <div 
+                <div
                   className="mb-4 cursor-pointer hover:bg-neutral-700/50 rounded-lg p-2 -ml-2"
                   onClick={() => setEditingPrice(tier.id)}
                 >
@@ -780,15 +855,19 @@ export const ControlCenterPage: React.FC = () => {
                   <p className="text-sm text-neutral-500">${tier.annualPrice}/year</p>
                 </div>
               )}
-              
+
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between text-neutral-400">
                   <span>Users</span>
-                  <span className="text-white">{tier.userLimit === -1 ? 'Unlimited' : tier.userLimit}</span>
+                  <span className="text-white">
+                    {tier.userLimit === -1 ? 'Unlimited' : tier.userLimit}
+                  </span>
                 </div>
                 <div className="flex justify-between text-neutral-400">
                   <span>Agents</span>
-                  <span className="text-white">{tier.agentLimit === -1 ? 'Unlimited' : tier.agentLimit}</span>
+                  <span className="text-white">
+                    {tier.agentLimit === -1 ? 'Unlimited' : tier.agentLimit}
+                  </span>
                 </div>
               </div>
             </div>

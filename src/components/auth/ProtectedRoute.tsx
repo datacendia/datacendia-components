@@ -55,14 +55,11 @@ function AccessDenied({ reason }: { reason: 'role' | 'permission' }) {
         <div className="mx-auto w-16 h-16 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center mb-6">
           <Shield className="w-8 h-8 text-red-600 dark:text-red-400" />
         </div>
-        <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-          Access Denied
-        </h1>
+        <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Access Denied</h1>
         <p className="text-gray-600 dark:text-gray-400 mb-6">
-          {reason === 'role' 
+          {reason === 'role'
             ? "You don't have the required role to access this page."
-            : "You don't have the required permissions to access this page."
-          }
+            : "You don't have the required permissions to access this page."}
         </p>
         <div className="flex items-center justify-center gap-2 text-sm text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-900/20 rounded-lg p-4">
           <AlertTriangle className="w-5 h-5 flex-shrink-0" />
@@ -105,10 +102,10 @@ export function ProtectedRoute({
   // Not authenticated - redirect to login
   if (!isAuthenticated || !user) {
     return (
-      <Navigate 
-        to={redirectTo} 
-        state={{ from: location.pathname, message: 'Please sign in to continue' }} 
-        replace 
+      <Navigate
+        to={redirectTo}
+        state={{ from: location.pathname, message: 'Please sign in to continue' }}
+        replace
       />
     );
   }
@@ -122,7 +119,7 @@ export function ProtectedRoute({
 
   // Check permission requirements
   if (requiredPermissions && requiredPermissions.length > 0) {
-    const hasAllPermissions = requiredPermissions.every(p => hasPermission(p));
+    const hasAllPermissions = requiredPermissions.every((p) => hasPermission(p));
     if (!hasAllPermissions) {
       return fallback ? <>{fallback}</> : <AccessDenied reason="permission" />;
     }
@@ -137,11 +134,7 @@ export function ProtectedRoute({
 // =============================================================================
 
 export function AdminRoute({ children }: { children: React.ReactNode }) {
-  return (
-    <ProtectedRoute requiredRoles={['ADMIN', 'SUPER_ADMIN']}>
-      {children}
-    </ProtectedRoute>
-  );
+  return <ProtectedRoute requiredRoles={['ADMIN', 'SUPER_ADMIN']}>{children}</ProtectedRoute>;
 }
 
 // =============================================================================
@@ -150,9 +143,7 @@ export function AdminRoute({ children }: { children: React.ReactNode }) {
 
 export function AnalystRoute({ children }: { children: React.ReactNode }) {
   return (
-    <ProtectedRoute requiredRoles={['ANALYST', 'ADMIN', 'SUPER_ADMIN']}>
-      {children}
-    </ProtectedRoute>
+    <ProtectedRoute requiredRoles={['ANALYST', 'ADMIN', 'SUPER_ADMIN']}>{children}</ProtectedRoute>
   );
 }
 

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Build outputs
+dist/
+build/
+backend/dist/
+.next/
+
+# Coverage
+coverage/
+playwright-report/
+test-results/
+
+# Generated files
+package-lock.json
+backend/package-lock.json
+*.min.js
+*.min.css
+
+# Prisma
+backend/prisma/migrations/
+
+# Documentation (preserve manual formatting)
+*.md
+
+# Environment
+.env*
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -33,11 +33,14 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
   const [selectedTier, setSelectedTier] = useState<PremiumTier | 'all'>('all');
   const [expandedFeature, setExpandedFeature] = useState<string | null>(null);
 
-  if (!isOpen) {return null;}
+  if (!isOpen) {
+    return null;
+  }
 
-  const filteredFeatures = selectedTier === 'all' 
-    ? PREMIUM_FEATURES 
-    : PREMIUM_FEATURES.filter(f => f.tier === selectedTier);
+  const filteredFeatures =
+    selectedTier === 'all'
+      ? PREMIUM_FEATURES
+      : PREMIUM_FEATURES.filter((f) => f.tier === selectedTier);
 
   const getPrice = (price: number, discount: number) => {
     if (billingCycle === 'annual') {
@@ -57,14 +60,18 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
         key={feature.id}
         className={cn(
           'relative bg-white rounded-xl border-2 overflow-hidden transition-all',
-          isOwned ? 'border-green-300 bg-green-50' : 'border-neutral-200 hover:border-neutral-300 hover:shadow-lg'
+          isOwned
+            ? 'border-green-300 bg-green-50'
+            : 'border-neutral-200 hover:border-neutral-300 hover:shadow-lg'
         )}
       >
         {/* Tier Badge */}
-        <div className={cn(
-          'absolute top-3 right-3 text-white text-[10px] font-bold px-2 py-0.5 rounded-full',
-          `bg-gradient-to-r ${tier.bgGradient}`
-        )}>
+        <div
+          className={cn(
+            'absolute top-3 right-3 text-white text-[10px] font-bold px-2 py-0.5 rounded-full',
+            `bg-gradient-to-r ${tier.bgGradient}`
+          )}
+        >
           {tier.icon} {tier.name.toUpperCase()}
         </div>
 
@@ -78,7 +85,7 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
         <div className="p-5">
           {/* Icon & Name */}
           <div className="flex items-start gap-3 mb-3 mt-4">
-            <div 
+            <div
               className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl"
               style={{ backgroundColor: `${tier.color}20` }}
             >
@@ -146,10 +153,12 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
 
   const renderBundleCard = (bundle: PremiumBundle) => {
     const tier = PREMIUM_TIERS[bundle.tier];
-    const includedFeatures = bundle.includedFeatures.map(id => getFeatureById(id)).filter(Boolean) as PremiumFeature[];
+    const includedFeatures = bundle.includedFeatures
+      .map((id) => getFeatureById(id))
+      .filter(Boolean) as PremiumFeature[];
     const totalValue = getTotalFeaturesValue(bundle.includedFeatures);
     const displayPrice = getPrice(bundle.price, bundle.annualDiscount);
-    const allOwned = bundle.includedFeatures.every(id => currentFeatures.includes(id));
+    const allOwned = bundle.includedFeatures.every((id) => currentFeatures.includes(id));
 
     return (
       <div
@@ -174,17 +183,19 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
         )}
 
         {/* Tier Badge */}
-        <div className={cn(
-          'absolute top-3 right-3 text-white text-[10px] font-bold px-2 py-0.5 rounded-full',
-          `bg-gradient-to-r ${tier.bgGradient}`
-        )}>
+        <div
+          className={cn(
+            'absolute top-3 right-3 text-white text-[10px] font-bold px-2 py-0.5 rounded-full',
+            `bg-gradient-to-r ${tier.bgGradient}`
+          )}
+        >
           {tier.icon} {tier.name.toUpperCase()}
         </div>
 
         <div className="p-6 pt-8">
           {/* Icon & Name */}
           <div className="text-center mb-4">
-            <div 
+            <div
               className="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-3"
               style={{ backgroundColor: `${tier.color}20` }}
             >
@@ -201,7 +212,9 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               <span className="text-neutral-500">/month</span>
             </div>
             <div className="flex items-center justify-center gap-2 mt-2">
-              <span className="text-sm text-neutral-400 line-through">${totalValue}/mo separately</span>
+              <span className="text-sm text-neutral-400 line-through">
+                ${totalValue}/mo separately
+              </span>
               <span className="text-sm bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-semibold">
                 Save ${bundle.savings}/mo
               </span>
@@ -216,8 +229,8 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
           {/* Included Features */}
           <div className="space-y-2 mb-6">
             <p className="text-xs font-semibold text-neutral-500">INCLUDES:</p>
-            {includedFeatures.map(feature => (
-              <div 
+            {includedFeatures.map((feature) => (
+              <div
                 key={feature.id}
                 className="flex items-center gap-2 p-2 bg-neutral-50 rounded-lg"
               >
@@ -278,7 +291,9 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
                 onClick={() => setViewMode('bundles')}
                 className={cn(
                   'px-4 py-2 rounded-md text-sm font-medium transition-all',
-                  viewMode === 'bundles' ? 'bg-white text-primary-600' : 'text-white hover:bg-white/10'
+                  viewMode === 'bundles'
+                    ? 'bg-white text-primary-600'
+                    : 'text-white hover:bg-white/10'
                 )}
               >
                 💎 Bundles
@@ -287,7 +302,9 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
                 onClick={() => setViewMode('features')}
                 className={cn(
                   'px-4 py-2 rounded-md text-sm font-medium transition-all',
-                  viewMode === 'features' ? 'bg-white text-primary-600' : 'text-white hover:bg-white/10'
+                  viewMode === 'features'
+                    ? 'bg-white text-primary-600'
+                    : 'text-white hover:bg-white/10'
                 )}
               >
                 📦 Individual Features
@@ -296,7 +313,9 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
                 onClick={() => setViewMode('agents')}
                 className={cn(
                   'px-4 py-2 rounded-md text-sm font-medium transition-all',
-                  viewMode === 'agents' ? 'bg-white text-primary-600' : 'text-white hover:bg-white/10'
+                  viewMode === 'agents'
+                    ? 'bg-white text-primary-600'
+                    : 'text-white hover:bg-white/10'
                 )}
               >
                 🤖 Premium Agents
@@ -305,22 +324,36 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
 
             {/* Billing Toggle */}
             <div className="flex items-center gap-3">
-              <span className={cn('text-sm', billingCycle === 'monthly' ? 'text-white' : 'text-white/60')}>
+              <span
+                className={cn(
+                  'text-sm',
+                  billingCycle === 'monthly' ? 'text-white' : 'text-white/60'
+                )}
+              >
                 Monthly
               </span>
               <button
-                onClick={() => setBillingCycle(prev => prev === 'monthly' ? 'annual' : 'monthly')}
+                onClick={() =>
+                  setBillingCycle((prev) => (prev === 'monthly' ? 'annual' : 'monthly'))
+                }
                 className={cn(
                   'relative w-14 h-7 rounded-full transition-colors',
                   billingCycle === 'annual' ? 'bg-green-500' : 'bg-white/30'
                 )}
               >
-                <div className={cn(
-                  'absolute top-1 w-5 h-5 bg-white rounded-full transition-transform',
-                  billingCycle === 'annual' ? 'translate-x-8' : 'translate-x-1'
-                )} />
+                <div
+                  className={cn(
+                    'absolute top-1 w-5 h-5 bg-white rounded-full transition-transform',
+                    billingCycle === 'annual' ? 'translate-x-8' : 'translate-x-1'
+                  )}
+                />
               </button>
-              <span className={cn('text-sm', billingCycle === 'annual' ? 'text-white' : 'text-white/60')}>
+              <span
+                className={cn(
+                  'text-sm',
+                  billingCycle === 'annual' ? 'text-white' : 'text-white/60'
+                )}
+              >
                 Annual
                 <span className="ml-1 text-green-300 text-xs">Save up to 40%</span>
               </span>
@@ -338,8 +371,8 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
                   onClick={() => setSelectedTier('all')}
                   className={cn(
                     'px-3 py-1.5 rounded-lg text-sm font-medium transition-all',
-                    selectedTier === 'all' 
-                      ? 'bg-neutral-900 text-white' 
+                    selectedTier === 'all'
+                      ? 'bg-neutral-900 text-white'
                       : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
                   )}
                 >
@@ -351,8 +384,8 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
                     onClick={() => setSelectedTier(key as PremiumTier)}
                     className={cn(
                       'px-3 py-1.5 rounded-lg text-sm font-medium transition-all flex items-center gap-1',
-                      selectedTier === key 
-                        ? `bg-gradient-to-r ${tier.bgGradient} text-white` 
+                      selectedTier === key
+                        ? `bg-gradient-to-r ${tier.bgGradient} text-white`
                         : 'bg-neutral-100 text-neutral-600 hover:bg-neutral-200'
                     )}
                   >
@@ -368,37 +401,50 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
         <div className="flex-1 overflow-y-auto p-6">
           {viewMode === 'bundles' ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {PREMIUM_BUNDLES.map(bundle => renderBundleCard(bundle))}
+              {PREMIUM_BUNDLES.map((bundle) => renderBundleCard(bundle))}
             </div>
           ) : viewMode === 'features' ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filteredFeatures.map(feature => renderFeatureCard(feature))}
+              {filteredFeatures.map((feature) => renderFeatureCard(feature))}
             </div>
           ) : (
             <div className="space-y-6">
               {/* Premium Agents Tab Content */}
               <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-4 mb-4">
                 <p className="text-sm text-amber-800">
-                  <span className="font-semibold">🔓 Unlock Premium Agents</span> — Get access to specialized AI agents for compliance, healthcare, finance, and legal domains by purchasing the relevant feature packs above.
+                  <span className="font-semibold">🔓 Unlock Premium Agents</span> — Get access to
+                  specialized AI agents for compliance, healthcare, finance, and legal domains by
+                  purchasing the relevant feature packs above.
                 </p>
               </div>
-              
+
               {/* Audit & Compliance Agents */}
               <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-sm font-semibold text-neutral-700">External & Audit Agents</span>
-                  <span className="text-[10px] bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">Audit Excellence Pack</span>
+                  <span className="text-sm font-semibold text-neutral-700">
+                    External & Audit Agents
+                  </span>
+                  <span className="text-[10px] bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">
+                    Audit Excellence Pack
+                  </span>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   {[
                     { name: 'External Auditor', desc: 'Independent Third-Party Audit', icon: '🔍' },
-                    { name: 'Internal Auditor', desc: 'Internal Controls & Process Audit', icon: '📋' },
+                    {
+                      name: 'Internal Auditor',
+                      desc: 'Internal Controls & Process Audit',
+                      icon: '📋',
+                    },
                   ].map((agent, i) => (
-                    <div key={i} className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow">
+                    <div
+                      key={i}
+                      className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow"
+                    >
                       <div className="text-2xl mb-2">{agent.icon}</div>
                       <p className="font-medium text-neutral-900 text-sm">{agent.name}</p>
                       <p className="text-xs text-neutral-500">{agent.desc}</p>
-                      <button 
+                      <button
                         onClick={() => onPurchase?.('audit-excellence', 'feature')}
                         className="mt-3 w-full text-xs py-1.5 bg-amber-100 text-amber-700 rounded-lg hover:bg-amber-200 transition-colors"
                       >
@@ -412,21 +458,44 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               {/* Healthcare Agents */}
               <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-sm font-semibold text-neutral-700">Clinical / Healthcare Agents</span>
-                  <span className="text-[10px] bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded-full font-medium">Healthcare Industry Pack</span>
+                  <span className="text-sm font-semibold text-neutral-700">
+                    Clinical / Healthcare Agents
+                  </span>
+                  <span className="text-[10px] bg-cyan-100 text-cyan-700 px-2 py-0.5 rounded-full font-medium">
+                    Healthcare Industry Pack
+                  </span>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   {[
-                    { name: 'Chief Medical Information Officer', desc: 'Healthcare IT & Clinical Systems', icon: '🏥' },
-                    { name: 'Patient Safety Officer', desc: 'Clinical Safety & Quality', icon: '🛡️' },
-                    { name: 'Healthcare Compliance Officer', desc: 'HIPAA & Healthcare Regulations', icon: '⚖️' },
-                    { name: 'Clinical Operations Director', desc: 'Healthcare Operations & Efficiency', icon: '📊' },
+                    {
+                      name: 'Chief Medical Information Officer',
+                      desc: 'Healthcare IT & Clinical Systems',
+                      icon: '🏥',
+                    },
+                    {
+                      name: 'Patient Safety Officer',
+                      desc: 'Clinical Safety & Quality',
+                      icon: '🛡️',
+                    },
+                    {
+                      name: 'Healthcare Compliance Officer',
+                      desc: 'HIPAA & Healthcare Regulations',
+                      icon: '⚖️',
+                    },
+                    {
+                      name: 'Clinical Operations Director',
+                      desc: 'Healthcare Operations & Efficiency',
+                      icon: '📊',
+                    },
                   ].map((agent, i) => (
-                    <div key={i} className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow">
+                    <div
+                      key={i}
+                      className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow"
+                    >
                       <div className="text-2xl mb-2">{agent.icon}</div>
                       <p className="font-medium text-neutral-900 text-sm">{agent.name}</p>
                       <p className="text-xs text-neutral-500">{agent.desc}</p>
-                      <button 
+                      <button
                         onClick={() => onPurchase?.('healthcare-industry', 'feature')}
                         className="mt-3 w-full text-xs py-1.5 bg-cyan-100 text-cyan-700 rounded-lg hover:bg-cyan-200 transition-colors"
                       >
@@ -440,21 +509,40 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               {/* Finance Agents */}
               <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-sm font-semibold text-neutral-700">Finance & Investment Agents</span>
-                  <span className="text-[10px] bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full font-medium">Finance Industry Pack</span>
+                  <span className="text-sm font-semibold text-neutral-700">
+                    Finance & Investment Agents
+                  </span>
+                  <span className="text-[10px] bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full font-medium">
+                    Finance Industry Pack
+                  </span>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   {[
-                    { name: 'Quantitative Analyst', desc: 'Financial Modeling & Risk Analytics', icon: '📈' },
-                    { name: 'Portfolio Manager', desc: 'Investment Strategy & Asset Allocation', icon: '💼' },
-                    { name: 'Credit Risk Officer', desc: 'Credit Analysis & Risk Assessment', icon: '🏦' },
+                    {
+                      name: 'Quantitative Analyst',
+                      desc: 'Financial Modeling & Risk Analytics',
+                      icon: '📈',
+                    },
+                    {
+                      name: 'Portfolio Manager',
+                      desc: 'Investment Strategy & Asset Allocation',
+                      icon: '💼',
+                    },
+                    {
+                      name: 'Credit Risk Officer',
+                      desc: 'Credit Analysis & Risk Assessment',
+                      icon: '🏦',
+                    },
                     { name: 'Treasury Analyst', desc: 'Cash Management & Liquidity', icon: '💰' },
                   ].map((agent, i) => (
-                    <div key={i} className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow">
+                    <div
+                      key={i}
+                      className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow"
+                    >
                       <div className="text-2xl mb-2">{agent.icon}</div>
                       <p className="font-medium text-neutral-900 text-sm">{agent.name}</p>
                       <p className="text-xs text-neutral-500">{agent.desc}</p>
-                      <button 
+                      <button
                         onClick={() => onPurchase?.('finance-industry', 'feature')}
                         className="mt-3 w-full text-xs py-1.5 bg-emerald-100 text-emerald-700 rounded-lg hover:bg-emerald-200 transition-colors"
                       >
@@ -468,21 +556,44 @@ const PremiumFeaturesModal: React.FC<PremiumFeaturesModalProps> = ({
               {/* Legal Agents */}
               <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-sm font-semibold text-neutral-700">Legal & Compliance Agents</span>
-                  <span className="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full font-medium">Legal Industry Pack</span>
+                  <span className="text-sm font-semibold text-neutral-700">
+                    Legal & Compliance Agents
+                  </span>
+                  <span className="text-[10px] bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full font-medium">
+                    Legal Industry Pack
+                  </span>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                   {[
-                    { name: 'Contract Specialist', desc: 'Contract Analysis & Negotiation', icon: '📝' },
-                    { name: 'Intellectual Property Counsel', desc: 'Patents, Trademarks & IP Strategy', icon: '💡' },
-                    { name: 'Litigation Expert', desc: 'Dispute Resolution & Trial Strategy', icon: '⚖️' },
-                    { name: 'Regulatory Affairs Counsel', desc: 'Government Relations & Compliance', icon: '🏛️' },
+                    {
+                      name: 'Contract Specialist',
+                      desc: 'Contract Analysis & Negotiation',
+                      icon: '📝',
+                    },
+                    {
+                      name: 'Intellectual Property Counsel',
+                      desc: 'Patents, Trademarks & IP Strategy',
+                      icon: '💡',
+                    },
+                    {
+                      name: 'Litigation Expert',
+                      desc: 'Dispute Resolution & Trial Strategy',
+                      icon: '⚖️',
+                    },
+                    {
+                      name: 'Regulatory Affairs Counsel',
+                      desc: 'Government Relations & Compliance',
+                      icon: '🏛️',
+                    },
                   ].map((agent, i) => (
-                    <div key={i} className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow">
+                    <div
+                      key={i}
+                      className="p-4 bg-white border border-neutral-200 rounded-xl hover:shadow-md transition-shadow"
+                    >
                       <div className="text-2xl mb-2">{agent.icon}</div>
                       <p className="font-medium text-neutral-900 text-sm">{agent.name}</p>
                       <p className="text-xs text-neutral-500">{agent.desc}</p>
-                      <button 
+                      <button
                         onClick={() => onPurchase?.('legal-industry', 'feature')}
                         className="mt-3 w-full text-xs py-1.5 bg-purple-100 text-purple-700 rounded-lg hover:bg-purple-200 transition-colors"
                       >

@@ -14,7 +14,7 @@ export type VetoAgentRole = 'ciso' | 'ethics' | 'compliance' | 'risk' | 'legal' 
 
 export type VetoStatus = 'pending' | 'approved' | 'vetoed' | 'override_requested' | 'escalated';
 
-export type VetoReason = 
+export type VetoReason =
   | 'security_risk'
   | 'compliance_violation'
   | 'ethical_concern'
@@ -47,15 +47,15 @@ export interface VetoDecision {
   submittedBy: string;
   submittedAt: Date;
   status: VetoStatus;
-  
+
   // Agent reviews
   reviews: VetoReview[];
-  
+
   // Final outcome
   finalDecision?: 'approved' | 'vetoed';
   decidedAt?: Date;
   decidedBy?: string;
-  
+
   // Override tracking
   overrideRequested?: boolean;
   overrideRequestedBy?: string;
@@ -131,11 +131,18 @@ export const VETO_AGENTS: VetoAgent[] = [
     name: 'CISO Guardian',
     title: 'Chief Information Security Officer',
     avatar: '🛡️',
-    jurisdiction: ['data_security', 'cyber_risk', 'access_control', 'encryption', 'incident_response'],
+    jurisdiction: [
+      'data_security',
+      'cyber_risk',
+      'access_control',
+      'encryption',
+      'incident_response',
+    ],
     vetoThreshold: 70,
     canBlockAutomatic: true,
     requiresHumanOverride: true,
-    description: 'Blocks proposals with security vulnerabilities, data exposure risks, or insufficient access controls.',
+    description:
+      'Blocks proposals with security vulnerabilities, data exposure risks, or insufficient access controls.',
   },
   {
     id: 'veto-ethics',
@@ -167,7 +174,13 @@ export const VETO_AGENTS: VetoAgent[] = [
     name: 'Risk Assessor',
     title: 'Chief Risk Officer',
     avatar: '📊',
-    jurisdiction: ['operational_risk', 'market_risk', 'credit_risk', 'liquidity_risk', 'strategic_risk'],
+    jurisdiction: [
+      'operational_risk',
+      'market_risk',
+      'credit_risk',
+      'liquidity_risk',
+      'strategic_risk',
+    ],
     vetoThreshold: 75,
     canBlockAutomatic: false,
     requiresHumanOverride: false,
@@ -209,8 +222,18 @@ const DEFAULT_POLICIES: VetoPolicy[] = [
     name: 'Security Review Required',
     description: 'All proposals involving data, systems, or infrastructure must pass CISO review',
     triggerConditions: [
-      { type: 'keyword', operator: 'contains', value: ['data', 'system', 'api', 'database', 'cloud', 'server'], agentToNotify: 'ciso' },
-      { type: 'category', operator: 'in', value: ['infrastructure', 'data', 'integration'], agentToNotify: 'ciso' },
+      {
+        type: 'keyword',
+        operator: 'contains',
+        value: ['data', 'system', 'api', 'database', 'cloud', 'server'],
+        agentToNotify: 'ciso',
+      },
+      {
+        type: 'category',
+        operator: 'in',
+        value: ['infrastructure', 'data', 'integration'],
+        agentToNotify: 'ciso',
+      },
     ],
     requiredAgents: ['ciso'],
     autoVetoThreshold: 85,
@@ -222,9 +245,15 @@ const DEFAULT_POLICIES: VetoPolicy[] = [
   {
     id: 'policy-compliance',
     name: 'Regulatory Compliance Gate',
-    description: 'Proposals affecting customer data or financial operations require compliance review',
+    description:
+      'Proposals affecting customer data or financial operations require compliance review',
     triggerConditions: [
-      { type: 'keyword', operator: 'contains', value: ['customer', 'pii', 'financial', 'payment', 'gdpr', 'hipaa'], agentToNotify: 'compliance' },
+      {
+        type: 'keyword',
+        operator: 'contains',
+        value: ['customer', 'pii', 'financial', 'payment', 'gdpr', 'hipaa'],
+        agentToNotify: 'compliance',
+      },
       { type: 'amount', operator: 'greater_than', value: 100000, agentToNotify: 'compliance' },
     ],
     requiredAgents: ['compliance', 'legal'],
@@ -239,8 +268,18 @@ const DEFAULT_POLICIES: VetoPolicy[] = [
     name: 'Ethics Review Gate',
     description: 'AI/ML decisions and workforce changes require ethics review',
     triggerConditions: [
-      { type: 'keyword', operator: 'contains', value: ['ai', 'ml', 'algorithm', 'automation', 'layoff', 'termination'], agentToNotify: 'ethics' },
-      { type: 'category', operator: 'in', value: ['ai', 'hr', 'workforce'], agentToNotify: 'ethics' },
+      {
+        type: 'keyword',
+        operator: 'contains',
+        value: ['ai', 'ml', 'algorithm', 'automation', 'layoff', 'termination'],
+        agentToNotify: 'ethics',
+      },
+      {
+        type: 'category',
+        operator: 'in',
+        value: ['ai', 'hr', 'workforce'],
+        agentToNotify: 'ethics',
+      },
     ],
     requiredAgents: ['ethics'],
     autoVetoThreshold: 70,
@@ -255,7 +294,12 @@ const DEFAULT_POLICIES: VetoPolicy[] = [
     description: 'High-value proposals require CFO review',
     triggerConditions: [
       { type: 'amount', operator: 'greater_than', value: 500000, agentToNotify: 'finance' },
-      { type: 'keyword', operator: 'contains', value: ['acquisition', 'merger', 'investment', 'budget'], agentToNotify: 'finance' },
+      {
+        type: 'keyword',
+        operator: 'contains',
+        value: ['acquisition', 'merger', 'investment', 'budget'],
+        agentToNotify: 'finance',
+      },
     ],
     requiredAgents: ['finance', 'risk'],
     autoVetoThreshold: 90,
@@ -284,10 +328,10 @@ class VetoService {
   constructor() {
     this.loadFromStorage();
     this.checkOllamaStatus();
-    
+
     // Initialize default policies if none exist
     if (this.policies.size === 0) {
-      DEFAULT_POLICIES.forEach(p => this.policies.set(p.id, p));
+      DEFAULT_POLICIES.forEach((p) => this.policies.set(p.id, p));
       this.saveToStorage();
     }
   }
@@ -307,8 +351,10 @@ class VetoService {
         const data = JSON.parse(stored);
         data.decisions?.forEach((d: VetoDecision) => {
           d.submittedAt = new Date(d.submittedAt);
-          if (d.decidedAt) {d.decidedAt = new Date(d.decidedAt);}
-          d.reviews.forEach(r => r.reviewedAt = new Date(r.reviewedAt));
+          if (d.decidedAt) {
+            d.decidedAt = new Date(d.decidedAt);
+          }
+          d.reviews.forEach((r) => (r.reviewedAt = new Date(r.reviewedAt)));
           this.decisions.set(d.id, d);
         });
         data.policies?.forEach((p: VetoPolicy) => {
@@ -343,7 +389,7 @@ class VetoService {
   }
 
   getVetoAgent(role: VetoAgentRole): VetoAgent | undefined {
-    return VETO_AGENTS.find(a => a.role === role);
+    return VETO_AGENTS.find((a) => a.role === role);
   }
 
   // ---------------------------------------------------------------------------
@@ -358,10 +404,10 @@ class VetoService {
     amount?: number
   ): Promise<VetoDecision> {
     const id = `veto-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
-    
+
     // Determine which agents need to review based on policies
     const requiredAgents = this.determineRequiredAgents(title, description, category, amount);
-    
+
     const decision: VetoDecision = {
       id,
       proposalId: id,
@@ -374,7 +420,7 @@ class VetoService {
     };
 
     this.decisions.set(id, decision);
-    
+
     // Automatically run reviews for required agents
     for (const agentRole of requiredAgents) {
       await this.runAgentReview(id, agentRole);
@@ -382,7 +428,7 @@ class VetoService {
 
     // Check if any automatic vetoes triggered
     this.evaluateDecision(id);
-    
+
     this.saveToStorage();
     return this.decisions.get(id)!;
   }
@@ -396,8 +442,10 @@ class VetoService {
     const required = new Set<VetoAgentRole>();
     const text = `${title} ${description}`.toLowerCase();
 
-    this.policies.forEach(policy => {
-      if (!policy.isActive) {return;}
+    this.policies.forEach((policy) => {
+      if (!policy.isActive) {
+        return;
+      }
 
       for (const trigger of policy.triggerConditions) {
         let matches = false;
@@ -405,7 +453,7 @@ class VetoService {
         switch (trigger.type) {
           case 'keyword':
             if (trigger.operator === 'contains' && Array.isArray(trigger.value)) {
-              matches = trigger.value.some(kw => text.includes(kw.toLowerCase()));
+              matches = trigger.value.some((kw) => text.includes(kw.toLowerCase()));
             }
             break;
           case 'category':
@@ -444,10 +492,14 @@ class VetoService {
 
   async runAgentReview(decisionId: string, agentRole: VetoAgentRole): Promise<VetoReview> {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {throw new Error('Decision not found');}
+    if (!decision) {
+      throw new Error('Decision not found');
+    }
 
     const agent = this.getVetoAgent(agentRole);
-    if (!agent) {throw new Error('Agent not found');}
+    if (!agent) {
+      throw new Error('Agent not found');
+    }
 
     let review: VetoReview;
 
@@ -495,11 +547,11 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
       const response = await ollamaService.generate({ prompt, model: 'llama3.2:latest' });
       const responseText = response.response || '';
       const jsonMatch = responseText.match(/\{[\s\S]*\}/);
-      
+
       if (jsonMatch) {
         const parsed = JSON.parse(jsonMatch[0]);
         const isBlocking = agent.canBlockAutomatic && parsed.riskScore >= agent.vetoThreshold;
-        
+
         return {
           id: `review-${Date.now()}`,
           agentId: agent.id,
@@ -526,7 +578,7 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   private runFallbackReview(decision: VetoDecision, agent: VetoAgent): VetoReview {
     const text = `${decision.proposalTitle} ${decision.proposalDescription}`.toLowerCase();
-    
+
     // Intelligent fallback based on keywords
     const riskIndicators: { keyword: string; score: number; category: VetoReason }[] = [
       { keyword: 'delete', score: 30, category: 'data_privacy' },
@@ -552,7 +604,11 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
     riskIndicators.forEach((indicator, i) => {
       if (text.includes(indicator.keyword)) {
         riskScore += indicator.score;
-        if (agent.jurisdiction.some(j => indicator.category.includes(j) || j.includes(indicator.category.split('_')[0]))) {
+        if (
+          agent.jurisdiction.some(
+            (j) => indicator.category.includes(j) || j.includes(indicator.category.split('_')[0])
+          )
+        ) {
           concerns.push({
             id: `concern-${i}`,
             category: indicator.category,
@@ -576,7 +632,10 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
       confidence: 70,
       reasoning: `${agent.name} reviewed this proposal. Risk score: ${riskScore}/100. ${concerns.length} concerns identified within ${agent.role} jurisdiction.`,
       concerns,
-      conditions: riskScore >= 50 ? ['Requires additional documentation', 'Stakeholder sign-off recommended'] : undefined,
+      conditions:
+        riskScore >= 50
+          ? ['Requires additional documentation', 'Stakeholder sign-off recommended']
+          : undefined,
       reviewedAt: new Date(),
       isBlocking,
     };
@@ -588,17 +647,19 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   private evaluateDecision(decisionId: string): void {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {return;}
+    if (!decision) {
+      return;
+    }
 
     // Check if any blocking review exists
-    const blockingReview = decision.reviews.find(r => r.isBlocking && r.status === 'vetoed');
-    
+    const blockingReview = decision.reviews.find((r) => r.isBlocking && r.status === 'vetoed');
+
     if (blockingReview) {
       decision.status = 'vetoed';
       decision.finalDecision = 'vetoed';
       decision.decidedAt = new Date();
       decision.decidedBy = blockingReview.agentRole;
-    } else if (decision.reviews.every(r => r.status === 'approved')) {
+    } else if (decision.reviews.every((r) => r.status === 'approved')) {
       decision.status = 'approved';
       decision.finalDecision = 'approved';
       decision.decidedAt = new Date();
@@ -614,7 +675,9 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   requestOverride(decisionId: string, requestedBy: string, reason: string): VetoDecision | null {
     const decision = this.decisions.get(decisionId);
-    if (!decision || decision.status !== 'vetoed') {return null;}
+    if (!decision || decision.status !== 'vetoed') {
+      return null;
+    }
 
     decision.status = 'override_requested';
     decision.overrideRequested = true;
@@ -627,7 +690,9 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   approveOverride(decisionId: string, approvedBy: string): VetoDecision | null {
     const decision = this.decisions.get(decisionId);
-    if (!decision || decision.status !== 'override_requested') {return null;}
+    if (!decision || decision.status !== 'override_requested') {
+      return null;
+    }
 
     decision.status = 'approved';
     decision.finalDecision = 'approved';
@@ -642,7 +707,9 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   denyOverride(decisionId: string): VetoDecision | null {
     const decision = this.decisions.get(decisionId);
-    if (!decision || decision.status !== 'override_requested') {return null;}
+    if (!decision || decision.status !== 'override_requested') {
+      return null;
+    }
 
     decision.status = 'vetoed';
     decision.overrideApproved = false;
@@ -660,16 +727,19 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
   }
 
   getAllDecisions(): VetoDecision[] {
-    return Array.from(this.decisions.values())
-      .sort((a, b) => b.submittedAt.getTime() - a.submittedAt.getTime());
+    return Array.from(this.decisions.values()).sort(
+      (a, b) => b.submittedAt.getTime() - a.submittedAt.getTime()
+    );
   }
 
   getPendingDecisions(): VetoDecision[] {
-    return this.getAllDecisions().filter(d => d.status === 'pending' || d.status === 'override_requested');
+    return this.getAllDecisions().filter(
+      (d) => d.status === 'pending' || d.status === 'override_requested'
+    );
   }
 
   getVetoedDecisions(): VetoDecision[] {
-    return this.getAllDecisions().filter(d => d.finalDecision === 'vetoed');
+    return this.getAllDecisions().filter((d) => d.finalDecision === 'vetoed');
   }
 
   // ---------------------------------------------------------------------------
@@ -695,7 +765,9 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   togglePolicy(policyId: string): VetoPolicy | null {
     const policy = this.policies.get(policyId);
-    if (!policy) {return null;}
+    if (!policy) {
+      return null;
+    }
 
     policy.isActive = !policy.isActive;
     policy.updatedAt = new Date();
@@ -709,24 +781,35 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
 
   getMetrics(): VetoMetrics {
     const decisions = this.getAllDecisions();
-    
+
     const vetosByAgent: Record<VetoAgentRole, number> = {
-      ciso: 0, ethics: 0, compliance: 0, risk: 0, legal: 0, finance: 0,
+      ciso: 0,
+      ethics: 0,
+      compliance: 0,
+      risk: 0,
+      legal: 0,
+      finance: 0,
     };
-    
+
     const vetosByReason: Record<VetoReason, number> = {
-      security_risk: 0, compliance_violation: 0, ethical_concern: 0,
-      financial_risk: 0, legal_liability: 0, regulatory_breach: 0,
-      reputational_damage: 0, data_privacy: 0, operational_risk: 0,
+      security_risk: 0,
+      compliance_violation: 0,
+      ethical_concern: 0,
+      financial_risk: 0,
+      legal_liability: 0,
+      regulatory_breach: 0,
+      reputational_damage: 0,
+      data_privacy: 0,
+      operational_risk: 0,
       strategic_misalignment: 0,
     };
 
-    decisions.forEach(d => {
+    decisions.forEach((d) => {
       if (d.finalDecision === 'vetoed') {
-        const blockingReview = d.reviews.find(r => r.isBlocking);
+        const blockingReview = d.reviews.find((r) => r.isBlocking);
         if (blockingReview) {
           vetosByAgent[blockingReview.agentRole]++;
-          blockingReview.concerns.forEach(c => {
+          blockingReview.concerns.forEach((c) => {
             if (vetosByReason[c.category] !== undefined) {
               vetosByReason[c.category]++;
             }
@@ -735,28 +818,27 @@ Analyze for risks in your jurisdiction. Respond in JSON format:
       }
     });
 
-    const riskScores = decisions.flatMap(d => d.reviews.map(r => r.riskScore));
+    const riskScores = decisions.flatMap((d) => d.reviews.map((r) => r.riskScore));
     const riskDistribution = [
-      { range: '0-25', count: riskScores.filter(s => s <= 25).length },
-      { range: '26-50', count: riskScores.filter(s => s > 25 && s <= 50).length },
-      { range: '51-75', count: riskScores.filter(s => s > 50 && s <= 75).length },
-      { range: '76-100', count: riskScores.filter(s => s > 75).length },
+      { range: '0-25', count: riskScores.filter((s) => s <= 25).length },
+      { range: '26-50', count: riskScores.filter((s) => s > 25 && s <= 50).length },
+      { range: '51-75', count: riskScores.filter((s) => s > 50 && s <= 75).length },
+      { range: '76-100', count: riskScores.filter((s) => s > 75).length },
     ];
 
     const reviewTimes = decisions
-      .filter(d => d.decidedAt)
-      .map(d => (d.decidedAt!.getTime() - d.submittedAt.getTime()) / (1000 * 60 * 60));
-    const avgReviewTime = reviewTimes.length > 0 
-      ? reviewTimes.reduce((a, b) => a + b, 0) / reviewTimes.length 
-      : 0;
+      .filter((d) => d.decidedAt)
+      .map((d) => (d.decidedAt!.getTime() - d.submittedAt.getTime()) / (1000 * 60 * 60));
+    const avgReviewTime =
+      reviewTimes.length > 0 ? reviewTimes.reduce((a, b) => a + b, 0) / reviewTimes.length : 0;
 
     return {
       totalProposals: decisions.length,
-      approvedProposals: decisions.filter(d => d.finalDecision === 'approved').length,
-      vetoedProposals: decisions.filter(d => d.finalDecision === 'vetoed').length,
-      pendingProposals: decisions.filter(d => d.status === 'pending').length,
-      overrideRequests: decisions.filter(d => d.overrideRequested).length,
-      overridesApproved: decisions.filter(d => d.overrideApproved).length,
+      approvedProposals: decisions.filter((d) => d.finalDecision === 'approved').length,
+      vetoedProposals: decisions.filter((d) => d.finalDecision === 'vetoed').length,
+      pendingProposals: decisions.filter((d) => d.status === 'pending').length,
+      overrideRequests: decisions.filter((d) => d.overrideRequested).length,
+      overridesApproved: decisions.filter((d) => d.overrideApproved).length,
       avgReviewTime,
       vetosByAgent,
       vetosByReason,

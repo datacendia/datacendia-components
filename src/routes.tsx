@@ -88,8 +88,17 @@ import { BridgePage } from './pages/cortex/bridge/BridgePage';
 import { LineageViewPage, EntityDetailsPage } from './pages/cortex/graph/subpages';
 import { DeliberationViewPage, AgentProfilePage } from './pages/cortex/council/subpages';
 import { AlertsPage, MetricsPage } from './pages/cortex/pulse/subpages';
-import { ForecastDetailsPage, ScenarioDetailsPage, ScenarioBuilderPage } from './pages/cortex/lens/subpages';
-import { WorkflowsListPage, WorkflowBuilderPage, ApprovalsPage, BridgeIntegrationsPage } from './pages/cortex/bridge/subpages';
+import {
+  ForecastDetailsPage,
+  ScenarioDetailsPage,
+  ScenarioBuilderPage,
+} from './pages/cortex/lens/subpages';
+import {
+  WorkflowsListPage,
+  WorkflowBuilderPage,
+  ApprovalsPage,
+  BridgeIntegrationsPage,
+} from './pages/cortex/bridge/subpages';
 
 // Pillar Pages (8 Foundational Layers)
 import {
@@ -839,29 +848,30 @@ export const routes = {
   // Cortex
   cortex: '/cortex',
   dashboard: '/cortex/dashboard',
-  
+
   // Graph
   graph: '/cortex/graph',
-  lineage: (entityId?: string) => entityId ? `/cortex/graph/lineage/${entityId}` : '/cortex/graph/lineage',
+  lineage: (entityId?: string) =>
+    entityId ? `/cortex/graph/lineage/${entityId}` : '/cortex/graph/lineage',
   entity: (entityId: string) => `/cortex/graph/entity/${entityId}`,
-  
+
   // Council
   council: '/cortex/council',
   deliberation: (id: string) => `/cortex/council/deliberation/${id}`,
   agent: (id: string) => `/cortex/council/agent/${id}`,
-  
+
   // Pulse
   pulse: '/cortex/pulse',
   alerts: '/cortex/pulse/alerts',
   metrics: '/cortex/pulse/metrics',
-  
+
   // Lens
   lens: '/cortex/lens',
   forecast: (id: string) => `/cortex/lens/forecast/${id}`,
   scenario: (id: string) => `/cortex/lens/scenarios/${id}`,
   scenarioEdit: (id: string) => `/cortex/lens/scenarios/${id}/edit`,
   newScenario: '/cortex/lens/scenarios/new',
-  
+
   // Bridge
   bridge: '/cortex/bridge',
   workflows: '/cortex/bridge/workflows',
@@ -869,20 +879,20 @@ export const routes = {
   newWorkflow: '/cortex/bridge/workflows/new',
   approvals: '/cortex/bridge/approvals',
   bridgeIntegrations: '/cortex/bridge/integrations',
-  
+
   // Data
   data: '/cortex/data',
   dataSources: '/cortex/data/sources',
   dataCatalog: '/cortex/data/catalog',
   dataQuality: '/cortex/data/quality',
   dataImportExport: '/cortex/data/import-export',
-  
+
   // Security
   security: '/cortex/security',
   accessControl: '/cortex/security/access',
   auditLog: '/cortex/security/audit',
   securityPolicies: '/cortex/security/policies',
-  
+
   // Settings
   settings: '/cortex/settings',
   settingsOrganization: '/cortex/settings/organization',
@@ -894,7 +904,7 @@ export const routes = {
   settingsIntegrations: '/cortex/settings/integrations',
   settingsPreferences: '/cortex/settings/preferences',
   settingsSecurity: '/cortex/settings/security',
-  
+
   // Admin
   admin: '/admin',
   adminDashboard: '/admin/dashboard',

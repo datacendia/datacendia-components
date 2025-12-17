@@ -2,7 +2,8 @@
 // ADMIN SERVICE - Platform Owner Admin API Client
 // =============================================================================
 
-const API_BASE = import.meta.env.VITE_API_URL || 
+const API_BASE =
+  import.meta.env.VITE_API_URL ||
   (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
 
 // =============================================================================
@@ -140,10 +141,16 @@ class AdminService {
     search?: string;
   }): Promise<{ tenants: Tenant[]; total: number }> {
     const params = new URLSearchParams();
-    if (filters?.status) {params.append('status', filters.status);}
-    if (filters?.plan) {params.append('plan', filters.plan);}
-    if (filters?.search) {params.append('search', filters.search);}
-    
+    if (filters?.status) {
+      params.append('status', filters.status);
+    }
+    if (filters?.plan) {
+      params.append('plan', filters.plan);
+    }
+    if (filters?.search) {
+      params.append('search', filters.search);
+    }
+
     const query = params.toString();
     return this.request(`/tenants${query ? `?${query}` : ''}`);
   }
@@ -194,9 +201,13 @@ class AdminService {
     type?: string;
   }): Promise<{ licenses: License[]; total: number }> {
     const params = new URLSearchParams();
-    if (filters?.status) {params.append('status', filters.status);}
-    if (filters?.type) {params.append('type', filters.type);}
-    
+    if (filters?.status) {
+      params.append('status', filters.status);
+    }
+    if (filters?.type) {
+      params.append('type', filters.type);
+    }
+
     const query = params.toString();
     return this.request(`/licenses${query ? `?${query}` : ''}`);
   }

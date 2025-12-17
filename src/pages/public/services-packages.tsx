@@ -22,16 +22,30 @@ const PageHeader: React.FC = () => {
           <span className="text-xl font-bold text-neutral-900">Datacendia</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <Link to="/product" className="text-neutral-600 hover:text-neutral-900">Product</Link>
-          <Link to="/pricing" className="text-neutral-600 hover:text-neutral-900">Pricing</Link>
-          <Link to="/services" className="text-neutral-600 hover:text-neutral-900">Services</Link>
-          <Link to="/packages" className="text-neutral-600 hover:text-neutral-900">Packages</Link>
+          <Link to="/product" className="text-neutral-600 hover:text-neutral-900">
+            Product
+          </Link>
+          <Link to="/pricing" className="text-neutral-600 hover:text-neutral-900">
+            Pricing
+          </Link>
+          <Link to="/services" className="text-neutral-600 hover:text-neutral-900">
+            Services
+          </Link>
+          <Link to="/packages" className="text-neutral-600 hover:text-neutral-900">
+            Packages
+          </Link>
         </nav>
         <div className="flex items-center gap-3">
-          <button onClick={() => navigate('/login')} className="text-neutral-600 hover:text-neutral-900 font-medium">
+          <button
+            onClick={() => navigate('/login')}
+            className="text-neutral-600 hover:text-neutral-900 font-medium"
+          >
             Sign In
           </button>
-          <button onClick={() => navigate('/demo')} className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700">
+          <button
+            onClick={() => navigate('/demo')}
+            className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+          >
             Request Demo
           </button>
         </div>
@@ -60,25 +74,61 @@ const PageFooter: React.FC = () => (
         <div>
           <h4 className="font-semibold mb-3">Product</h4>
           <ul className="space-y-2 text-neutral-400 text-sm">
-            <li><Link to="/product" className="hover:text-white">Features</Link></li>
-            <li><Link to="/pricing" className="hover:text-white">Pricing</Link></li>
-            <li><Link to="/downloads" className="hover:text-white">Downloads</Link></li>
+            <li>
+              <Link to="/product" className="hover:text-white">
+                Features
+              </Link>
+            </li>
+            <li>
+              <Link to="/pricing" className="hover:text-white">
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link to="/downloads" className="hover:text-white">
+                Downloads
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
           <h4 className="font-semibold mb-3">Services</h4>
           <ul className="space-y-2 text-neutral-400 text-sm">
-            <li><Link to="/services" className="hover:text-white">Professional Services</Link></li>
-            <li><Link to="/packages" className="hover:text-white">Solution Packages</Link></li>
-            <li><Link to="/demo" className="hover:text-white">Request Demo</Link></li>
+            <li>
+              <Link to="/services" className="hover:text-white">
+                Professional Services
+              </Link>
+            </li>
+            <li>
+              <Link to="/packages" className="hover:text-white">
+                Solution Packages
+              </Link>
+            </li>
+            <li>
+              <Link to="/demo" className="hover:text-white">
+                Request Demo
+              </Link>
+            </li>
           </ul>
         </div>
         <div>
           <h4 className="font-semibold mb-3">Legal</h4>
           <ul className="space-y-2 text-neutral-400 text-sm">
-            <li><Link to="/privacy" className="hover:text-white">Privacy Policy</Link></li>
-            <li><Link to="/terms" className="hover:text-white">Terms of Service</Link></li>
-            <li><Link to="/license" className="hover:text-white">License</Link></li>
+            <li>
+              <Link to="/privacy" className="hover:text-white">
+                Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link to="/terms" className="hover:text-white">
+                Terms of Service
+              </Link>
+            </li>
+            <li>
+              <Link to="/license" className="hover:text-white">
+                License
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
@@ -103,9 +153,24 @@ export const ServicesPage: React.FC = () => {
       icon: '🚀',
       description: 'Get up and running with expert guidance',
       services: [
-        { name: 'Quick Start', duration: '2 weeks', price: 15000, description: 'Basic setup with 3 integrations' },
-        { name: 'Standard Implementation', duration: '4-6 weeks', price: 35000, description: 'Full setup with 10 integrations + training' },
-        { name: 'Enterprise Deployment', duration: '8-12 weeks', price: 75000, description: 'Complex deployment with custom requirements' },
+        {
+          name: 'Quick Start',
+          duration: '2 weeks',
+          price: 15000,
+          description: 'Basic setup with 3 integrations',
+        },
+        {
+          name: 'Standard Implementation',
+          duration: '4-6 weeks',
+          price: 35000,
+          description: 'Full setup with 10 integrations + training',
+        },
+        {
+          name: 'Enterprise Deployment',
+          duration: '8-12 weeks',
+          price: 75000,
+          description: 'Complex deployment with custom requirements',
+        },
       ],
     },
     {
@@ -114,9 +179,25 @@ export const ServicesPage: React.FC = () => {
       icon: '💼',
       description: 'Strategic guidance from our experts',
       services: [
-        { name: 'Data Strategy Workshop', duration: '2 days', price: 8000, description: 'Define your data intelligence roadmap' },
-        { name: 'Architecture Review', duration: '1 week', price: 12000, description: 'Technical assessment and recommendations' },
-        { name: 'Executive Advisory', duration: 'Ongoing', price: 5000, unit: '/month', description: 'Monthly strategic consultation' },
+        {
+          name: 'Data Strategy Workshop',
+          duration: '2 days',
+          price: 8000,
+          description: 'Define your data intelligence roadmap',
+        },
+        {
+          name: 'Architecture Review',
+          duration: '1 week',
+          price: 12000,
+          description: 'Technical assessment and recommendations',
+        },
+        {
+          name: 'Executive Advisory',
+          duration: 'Ongoing',
+          price: 5000,
+          unit: '/month',
+          description: 'Monthly strategic consultation',
+        },
       ],
     },
     {
@@ -125,9 +206,24 @@ export const ServicesPage: React.FC = () => {
       icon: '🎓',
       description: 'Empower your team to maximize value',
       services: [
-        { name: 'Admin Training', duration: '1 day', price: 2500, description: 'System administration essentials' },
-        { name: 'Power User Bootcamp', duration: '2 days', price: 4000, description: 'Advanced platform capabilities' },
-        { name: 'Custom Training Program', duration: 'Varies', price: 8000, description: 'Tailored curriculum for your org' },
+        {
+          name: 'Admin Training',
+          duration: '1 day',
+          price: 2500,
+          description: 'System administration essentials',
+        },
+        {
+          name: 'Power User Bootcamp',
+          duration: '2 days',
+          price: 4000,
+          description: 'Advanced platform capabilities',
+        },
+        {
+          name: 'Custom Training Program',
+          duration: 'Varies',
+          price: 8000,
+          description: 'Tailored curriculum for your org',
+        },
       ],
     },
     {
@@ -136,9 +232,24 @@ export const ServicesPage: React.FC = () => {
       icon: '🔧',
       description: 'Extend the platform for your needs',
       services: [
-        { name: 'Custom Integration', duration: '2-4 weeks', price: 20000, description: 'Build connector for your system' },
-        { name: 'Custom Agent', duration: '4-6 weeks', price: 40000, description: 'Domain-specific AI agent' },
-        { name: 'White-Label Solution', duration: '8-12 weeks', price: 100000, description: 'Fully branded deployment' },
+        {
+          name: 'Custom Integration',
+          duration: '2-4 weeks',
+          price: 20000,
+          description: 'Build connector for your system',
+        },
+        {
+          name: 'Custom Agent',
+          duration: '4-6 weeks',
+          price: 40000,
+          description: 'Domain-specific AI agent',
+        },
+        {
+          name: 'White-Label Solution',
+          duration: '8-12 weeks',
+          price: 100000,
+          description: 'Fully branded deployment',
+        },
       ],
     },
     {
@@ -147,9 +258,26 @@ export const ServicesPage: React.FC = () => {
       icon: '🛟',
       description: 'Get help when you need it',
       services: [
-        { name: 'Standard Support', duration: 'Ongoing', price: 0, description: 'Email support, 48hr response (included)' },
-        { name: 'Priority Support', duration: 'Ongoing', price: 2500, unit: '/month', description: '4hr response, phone support' },
-        { name: 'Premium Support', duration: 'Ongoing', price: 5000, unit: '/month', description: '1hr response, dedicated CSM, 24/7' },
+        {
+          name: 'Standard Support',
+          duration: 'Ongoing',
+          price: 0,
+          description: 'Email support, 48hr response (included)',
+        },
+        {
+          name: 'Priority Support',
+          duration: 'Ongoing',
+          price: 2500,
+          unit: '/month',
+          description: '4hr response, phone support',
+        },
+        {
+          name: 'Premium Support',
+          duration: 'Ongoing',
+          price: 5000,
+          unit: '/month',
+          description: '1hr response, dedicated CSM, 24/7',
+        },
       ],
     },
   ];
@@ -157,7 +285,7 @@ export const ServicesPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-neutral-50">
       <PageHeader />
-      
+
       {/* Hero */}
       <section className="bg-white py-16 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -173,7 +301,10 @@ export const ServicesPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-12">
             {serviceCategories.map((category) => (
-              <div key={category.id} className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+              <div
+                key={category.id}
+                className="bg-white rounded-xl border border-neutral-200 overflow-hidden"
+              >
                 <div className="p-6 border-b border-neutral-100">
                   <div className="flex items-center gap-4">
                     <span className="text-4xl">{category.icon}</span>
@@ -183,7 +314,7 @@ export const ServicesPage: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="p-6">
                   <div className="grid md:grid-cols-3 gap-4">
                     {category.services.map((service) => (
@@ -198,7 +329,9 @@ export const ServicesPage: React.FC = () => {
                             <span className="text-2xl font-bold text-neutral-900">
                               {service.price === 0 ? 'Included' : formatCurrency(service.price)}
                             </span>
-                            {service.unit && <span className="text-neutral-500">{service.unit}</span>}
+                            {service.unit && (
+                              <span className="text-neutral-500">{service.unit}</span>
+                            )}
                           </div>
                           <span className="text-sm text-neutral-400">{service.duration}</span>
                         </div>
@@ -227,7 +360,7 @@ export const ServicesPage: React.FC = () => {
           </button>
         </div>
       </section>
-      
+
       <PageFooter />
     </div>
   );
@@ -320,7 +453,7 @@ export const PackagesPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-neutral-50">
       <PageHeader />
-      
+
       {/* Hero */}
       <section className="bg-white py-16 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -335,7 +468,7 @@ export const PackagesPage: React.FC = () => {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-neutral-900 mb-8 text-center">Value Bundles</h2>
-          
+
           <div className="grid md:grid-cols-3 gap-6">
             {packages.map((pkg) => (
               <div
@@ -350,10 +483,10 @@ export const PackagesPage: React.FC = () => {
                     Most Popular
                   </div>
                 )}
-                
+
                 <h3 className="text-xl font-bold text-neutral-900">{pkg.name}</h3>
                 <p className="text-sm text-neutral-500 mt-1 mb-4">{pkg.description}</p>
-                
+
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-neutral-900">
                     {formatCurrency(pkg.price)}
@@ -362,7 +495,7 @@ export const PackagesPage: React.FC = () => {
                     Save {formatCurrency(pkg.savings)} vs. à la carte
                   </p>
                 </div>
-                
+
                 <div className="space-y-3 mb-6">
                   <p className="text-sm font-medium text-neutral-500 uppercase">Includes:</p>
                   {pkg.includes.map((item) => (
@@ -370,12 +503,14 @@ export const PackagesPage: React.FC = () => {
                       <span className="text-success-main mt-0.5">✓</span>
                       <div className="flex-1">
                         <p className="text-sm text-neutral-700">{item.item}</p>
-                        <p className="text-xs text-neutral-400">Value: {formatCurrency(item.value)}</p>
+                        <p className="text-xs text-neutral-400">
+                          Value: {formatCurrency(item.value)}
+                        </p>
                       </div>
                     </div>
                   ))}
                 </div>
-                
+
                 <button
                   onClick={() => navigate('/demo')}
                   className={cn(
@@ -396,11 +531,13 @@ export const PackagesPage: React.FC = () => {
       {/* Industry Packages */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-neutral-900 mb-2 text-center">Industry Solutions</h2>
+          <h2 className="text-2xl font-bold text-neutral-900 mb-2 text-center">
+            Industry Solutions
+          </h2>
           <p className="text-neutral-600 text-center mb-8">
             Pre-configured for your industry's specific needs
           </p>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {industryPackages.map((pkg) => (
               <div
@@ -450,7 +587,7 @@ export const PackagesPage: React.FC = () => {
           </div>
         </div>
       </section>
-      
+
       <PageFooter />
     </div>
   );

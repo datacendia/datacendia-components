@@ -2,7 +2,7 @@
 // CENDIA GOVERN™ - LEGAL-GRADE POLICY & AUDIT MAPPING
 // Real-Time Regulatory Compliance Engine
 // "Your AI Compliance Officer That Never Sleeps"
-// 
+//
 // CAPABILITIES:
 // - Real-time law & regulation parsing
 // - Policy-to-procedure mapping
@@ -21,10 +21,27 @@ import { governApi } from '../../../lib/api';
 // TYPES
 // =============================================================================
 
-type ComplianceFramework = 'sox' | 'gdpr' | 'hipaa' | 'soc2' | 'fedramp' | 'pci-dss' | 'iso27001' | 'ccpa' | 'nist' | 'dora';
+type ComplianceFramework =
+  | 'sox'
+  | 'gdpr'
+  | 'hipaa'
+  | 'soc2'
+  | 'fedramp'
+  | 'pci-dss'
+  | 'iso27001'
+  | 'ccpa'
+  | 'nist'
+  | 'dora';
 type ControlStatus = 'compliant' | 'partial' | 'non-compliant' | 'not-applicable' | 'under-review';
 type RiskLevel = 'critical' | 'high' | 'medium' | 'low';
-type EvidenceType = 'policy' | 'procedure' | 'screenshot' | 'log' | 'attestation' | 'report' | 'audit-trail';
+type EvidenceType =
+  | 'policy'
+  | 'procedure'
+  | 'screenshot'
+  | 'log'
+  | 'attestation'
+  | 'report'
+  | 'audit-trail';
 
 interface Regulation {
   id: string;
@@ -164,18 +181,19 @@ interface ComplianceMetrics {
 // MOCK DATA
 // =============================================================================
 
-const FRAMEWORK_CONFIG: Record<ComplianceFramework, { icon: string; name: string; color: string }> = {
-  sox: { icon: '📊', name: 'SOX', color: 'from-blue-600 to-indigo-600' },
-  gdpr: { icon: '🇪🇺', name: 'GDPR', color: 'from-purple-600 to-violet-600' },
-  hipaa: { icon: '🏥', name: 'HIPAA', color: 'from-red-600 to-rose-600' },
-  soc2: { icon: '🔐', name: 'SOC 2', color: 'from-green-600 to-emerald-600' },
-  fedramp: { icon: '🏛️', name: 'FedRAMP', color: 'from-slate-600 to-gray-600' },
-  'pci-dss': { icon: '💳', name: 'PCI-DSS', color: 'from-amber-600 to-orange-600' },
-  iso27001: { icon: '🌐', name: 'ISO 27001', color: 'from-cyan-600 to-blue-600' },
-  ccpa: { icon: '🐻', name: 'CCPA', color: 'from-yellow-600 to-amber-600' },
-  nist: { icon: '🇺🇸', name: 'NIST CSF', color: 'from-red-600 to-blue-600' },
-  dora: { icon: '🏦', name: 'DORA', color: 'from-teal-600 to-cyan-600' },
-};
+const FRAMEWORK_CONFIG: Record<ComplianceFramework, { icon: string; name: string; color: string }> =
+  {
+    sox: { icon: '📊', name: 'SOX', color: 'from-blue-600 to-indigo-600' },
+    gdpr: { icon: '🇪🇺', name: 'GDPR', color: 'from-purple-600 to-violet-600' },
+    hipaa: { icon: '🏥', name: 'HIPAA', color: 'from-red-600 to-rose-600' },
+    soc2: { icon: '🔐', name: 'SOC 2', color: 'from-green-600 to-emerald-600' },
+    fedramp: { icon: '🏛️', name: 'FedRAMP', color: 'from-slate-600 to-gray-600' },
+    'pci-dss': { icon: '💳', name: 'PCI-DSS', color: 'from-amber-600 to-orange-600' },
+    iso27001: { icon: '🌐', name: 'ISO 27001', color: 'from-cyan-600 to-blue-600' },
+    ccpa: { icon: '🐻', name: 'CCPA', color: 'from-yellow-600 to-amber-600' },
+    nist: { icon: '🇺🇸', name: 'NIST CSF', color: 'from-red-600 to-blue-600' },
+    dora: { icon: '🏦', name: 'DORA', color: 'from-teal-600 to-cyan-600' },
+  };
 
 const generateControls = (): Control[] => [
   {
@@ -195,8 +213,30 @@ const generateControls = (): Control[] => [
     riskRating: 'high',
     mappedRequirements: ['SOX 404', 'SOC2 CC6.1', 'ISO 27001 A.9'],
     evidence: [
-      { id: 'ev-001', type: 'policy', name: 'Access Control Policy v3.2', description: 'Current policy document', collectedAt: new Date(), collectedBy: 'System', source: 'SharePoint', isAutomated: true, validUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000), status: 'valid' },
-      { id: 'ev-002', type: 'screenshot', name: 'RBAC Configuration', description: 'Okta RBAC settings', collectedAt: new Date(), collectedBy: 'Security Team', source: 'Okta', isAutomated: true, validUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), status: 'valid' },
+      {
+        id: 'ev-001',
+        type: 'policy',
+        name: 'Access Control Policy v3.2',
+        description: 'Current policy document',
+        collectedAt: new Date(),
+        collectedBy: 'System',
+        source: 'SharePoint',
+        isAutomated: true,
+        validUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000),
+        status: 'valid',
+      },
+      {
+        id: 'ev-002',
+        type: 'screenshot',
+        name: 'RBAC Configuration',
+        description: 'Okta RBAC settings',
+        collectedAt: new Date(),
+        collectedBy: 'Security Team',
+        source: 'Okta',
+        isAutomated: true,
+        validUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+        status: 'valid',
+      },
     ],
     findings: [],
   },
@@ -217,7 +257,18 @@ const generateControls = (): Control[] => [
     riskRating: 'high',
     mappedRequirements: ['SOX 404', 'SOC2 CC6.2', 'GDPR Art.25'],
     evidence: [
-      { id: 'ev-003', type: 'audit-trail', name: 'Provisioning Logs', description: 'Last 30 days of provisioning activity', collectedAt: new Date(), collectedBy: 'System', source: 'Okta', isAutomated: true, validUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), status: 'valid' },
+      {
+        id: 'ev-003',
+        type: 'audit-trail',
+        name: 'Provisioning Logs',
+        description: 'Last 30 days of provisioning activity',
+        collectedAt: new Date(),
+        collectedBy: 'System',
+        source: 'Okta',
+        isAutomated: true,
+        validUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+        status: 'valid',
+      },
     ],
     findings: [],
   },
@@ -238,10 +289,32 @@ const generateControls = (): Control[] => [
     riskRating: 'medium',
     mappedRequirements: ['GDPR Art.5', 'CCPA 1798.100'],
     evidence: [
-      { id: 'ev-004', type: 'policy', name: 'Data Classification Policy', description: 'Policy document needs update', collectedAt: new Date(Date.now() - 180 * 24 * 60 * 60 * 1000), collectedBy: 'DPO', source: 'SharePoint', isAutomated: false, validUntil: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000), status: 'expired' },
+      {
+        id: 'ev-004',
+        type: 'policy',
+        name: 'Data Classification Policy',
+        description: 'Policy document needs update',
+        collectedAt: new Date(Date.now() - 180 * 24 * 60 * 60 * 1000),
+        collectedBy: 'DPO',
+        source: 'SharePoint',
+        isAutomated: false,
+        validUntil: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000),
+        status: 'expired',
+      },
     ],
     findings: [
-      { id: 'find-001', title: 'Outdated Data Classification Policy', description: 'Policy has not been reviewed in 6 months', severity: 'medium', status: 'in-progress', identifiedAt: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000), dueDate: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000), owner: 'DPO', remediationPlan: 'Update policy to include new data categories and AI processing requirements' },
+      {
+        id: 'find-001',
+        title: 'Outdated Data Classification Policy',
+        description: 'Policy has not been reviewed in 6 months',
+        severity: 'medium',
+        status: 'in-progress',
+        identifiedAt: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000),
+        dueDate: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),
+        owner: 'DPO',
+        remediationPlan:
+          'Update policy to include new data categories and AI processing requirements',
+      },
     ],
   },
   {
@@ -261,8 +334,30 @@ const generateControls = (): Control[] => [
     riskRating: 'critical',
     mappedRequirements: ['SOX 302', 'SOX 404'],
     evidence: [
-      { id: 'ev-005', type: 'procedure', name: 'Close Checklist', description: 'Q3 close checklist - all items complete', collectedAt: new Date(), collectedBy: 'Controller', source: 'NetSuite', isAutomated: false, validUntil: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000), status: 'valid' },
-      { id: 'ev-006', type: 'attestation', name: 'Management Certification', description: 'CFO certification of Q3 financials', collectedAt: new Date(), collectedBy: 'CFO', source: 'DocuSign', isAutomated: false, validUntil: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000), status: 'valid' },
+      {
+        id: 'ev-005',
+        type: 'procedure',
+        name: 'Close Checklist',
+        description: 'Q3 close checklist - all items complete',
+        collectedAt: new Date(),
+        collectedBy: 'Controller',
+        source: 'NetSuite',
+        isAutomated: false,
+        validUntil: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
+        status: 'valid',
+      },
+      {
+        id: 'ev-006',
+        type: 'attestation',
+        name: 'Management Certification',
+        description: 'CFO certification of Q3 financials',
+        collectedAt: new Date(),
+        collectedBy: 'CFO',
+        source: 'DocuSign',
+        isAutomated: false,
+        validUntil: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
+        status: 'valid',
+      },
     ],
     findings: [],
   },
@@ -283,10 +378,31 @@ const generateControls = (): Control[] => [
     riskRating: 'critical',
     mappedRequirements: ['PCI-DSS 3.4', 'HIPAA 164.312'],
     evidence: [
-      { id: 'ev-007', type: 'screenshot', name: 'Encryption Configuration', description: 'AWS KMS settings', collectedAt: new Date(), collectedBy: 'System', source: 'AWS', isAutomated: true, validUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), status: 'valid' },
+      {
+        id: 'ev-007',
+        type: 'screenshot',
+        name: 'Encryption Configuration',
+        description: 'AWS KMS settings',
+        collectedAt: new Date(),
+        collectedBy: 'System',
+        source: 'AWS',
+        isAutomated: true,
+        validUntil: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000),
+        status: 'valid',
+      },
     ],
     findings: [
-      { id: 'find-002', title: 'Legacy Database Unencrypted', description: 'Legacy Oracle database contains PII without encryption', severity: 'critical', status: 'open', identifiedAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000), dueDate: new Date(Date.now() + 10 * 24 * 60 * 60 * 1000), owner: 'Database Admin', remediationPlan: 'Implement TDE on legacy Oracle instance or migrate to AWS RDS' },
+      {
+        id: 'find-002',
+        title: 'Legacy Database Unencrypted',
+        description: 'Legacy Oracle database contains PII without encryption',
+        severity: 'critical',
+        status: 'open',
+        identifiedAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
+        dueDate: new Date(Date.now() + 10 * 24 * 60 * 60 * 1000),
+        owner: 'Database Admin',
+        remediationPlan: 'Implement TDE on legacy Oracle instance or migrate to AWS RDS',
+      },
     ],
   },
 ];
@@ -360,14 +476,22 @@ const generateBoardPackets = (): BoardPacket[] => [
 ];
 
 const calculateMetrics = (controls: Control[]): ComplianceMetrics => {
-  const compliant = controls.filter(c => c.status === 'compliant').length;
-  const partial = controls.filter(c => c.status === 'partial').length;
-  const nonCompliant = controls.filter(c => c.status === 'non-compliant').length;
-  const allFindings = controls.flatMap(c => c.findings);
-  
+  const compliant = controls.filter((c) => c.status === 'compliant').length;
+  const partial = controls.filter((c) => c.status === 'partial').length;
+  const nonCompliant = controls.filter((c) => c.status === 'non-compliant').length;
+  const allFindings = controls.flatMap((c) => c.findings);
+
   const frameworkScores: Record<ComplianceFramework, number> = {
-    sox: 94, gdpr: 78, hipaa: 85, soc2: 91, fedramp: 72, 
-    'pci-dss': 68, iso27001: 88, ccpa: 82, nist: 79, dora: 65
+    sox: 94,
+    gdpr: 78,
+    hipaa: 85,
+    soc2: 91,
+    fedramp: 72,
+    'pci-dss': 68,
+    iso27001: 88,
+    ccpa: 82,
+    nist: 79,
+    dora: 65,
   };
 
   return {
@@ -377,9 +501,14 @@ const calculateMetrics = (controls: Control[]): ComplianceMetrics => {
     controlsCompliant: compliant,
     controlsPartial: partial,
     controlsNonCompliant: nonCompliant,
-    openFindings: allFindings.filter(f => f.status === 'open' || f.status === 'in-progress').length,
-    criticalFindings: allFindings.filter(f => f.severity === 'critical' && f.status !== 'remediated').length,
-    overdueRemediations: allFindings.filter(f => f.dueDate < new Date() && f.status !== 'remediated').length,
+    openFindings: allFindings.filter((f) => f.status === 'open' || f.status === 'in-progress')
+      .length,
+    criticalFindings: allFindings.filter(
+      (f) => f.severity === 'critical' && f.status !== 'remediated'
+    ).length,
+    overdueRemediations: allFindings.filter(
+      (f) => f.dueDate < new Date() && f.status !== 'remediated'
+    ).length,
     upcomingAudits: 2,
     policiesExpiringSoon: 3,
   };
@@ -394,7 +523,9 @@ export const GovernPage: React.FC = () => {
   const [controls, setControls] = useState<Control[]>(generateControls);
   const [auditProjects, setAuditProjects] = useState<AuditProject[]>(generateAuditProjects);
   const [boardPackets] = useState<BoardPacket[]>(generateBoardPackets);
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'controls' | 'regulations' | 'audits' | 'board-packets'>('dashboard');
+  const [activeTab, setActiveTab] = useState<
+    'dashboard' | 'controls' | 'regulations' | 'audits' | 'board-packets'
+  >('dashboard');
   const [selectedFramework, setSelectedFramework] = useState<ComplianceFramework | 'all'>('all');
   const [selectedControl, setSelectedControl] = useState<Control | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -405,9 +536,9 @@ export const GovernPage: React.FC = () => {
       try {
         const [policiesRes, auditsRes] = await Promise.all([
           governApi.getPolicies(),
-          governApi.getAudits()
+          governApi.getAudits(),
         ]);
-        
+
         if (policiesRes.success && policiesRes.data) {
           console.log('[Govern] Loaded', policiesRes.data.length, 'policies from database');
         }
@@ -425,9 +556,10 @@ export const GovernPage: React.FC = () => {
 
   const metrics = useMemo(() => calculateMetrics(controls), [controls]);
 
-  const filteredControls = selectedFramework === 'all' 
-    ? controls 
-    : controls.filter(c => c.framework === selectedFramework);
+  const filteredControls =
+    selectedFramework === 'all'
+      ? controls
+      : controls.filter((c) => c.framework === selectedFramework);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-emerald-950 via-green-950 to-slate-950 text-white">
@@ -450,18 +582,26 @@ export const GovernPage: React.FC = () => {
                     COMPLIANCE
                   </span>
                 </h1>
-                <p className="text-emerald-300 text-sm">Legal-Grade Policy & Audit Mapping • Real-Time Compliance</p>
+                <p className="text-emerald-300 text-sm">
+                  Legal-Grade Policy & Audit Mapping • Real-Time Compliance
+                </p>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-6">
               <div className="text-right">
                 <div className="text-sm text-white/60">Compliance Score</div>
-                <div className={`text-2xl font-bold ${
-                  metrics.overallScore >= 90 ? 'text-green-400' :
-                  metrics.overallScore >= 70 ? 'text-amber-400' :
-                  'text-red-400'
-                }`}>{metrics.overallScore}%</div>
+                <div
+                  className={`text-2xl font-bold ${
+                    metrics.overallScore >= 90
+                      ? 'text-green-400'
+                      : metrics.overallScore >= 70
+                        ? 'text-amber-400'
+                        : 'text-red-400'
+                  }`}
+                >
+                  {metrics.overallScore}%
+                </div>
               </div>
               {metrics.criticalFindings > 0 && (
                 <div className="px-3 py-2 bg-red-600 rounded-lg animate-pulse">
@@ -507,7 +647,9 @@ export const GovernPage: React.FC = () => {
               <div className="text-xs text-emerald-300">Upcoming Audits</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-amber-400">{metrics.policiesExpiringSoon}</div>
+              <div className="text-2xl font-bold text-amber-400">
+                {metrics.policiesExpiringSoon}
+              </div>
               <div className="text-xs text-emerald-300">Policies Expiring</div>
             </div>
           </div>
@@ -524,7 +666,7 @@ export const GovernPage: React.FC = () => {
               { id: 'regulations', label: 'Regulations', icon: '📜' },
               { id: 'audits', label: 'Audit Projects', icon: '🔍' },
               { id: 'board-packets', label: 'Board Packets', icon: '📋' },
-            ].map(tab => (
+            ].map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
@@ -549,7 +691,12 @@ export const GovernPage: React.FC = () => {
             <div className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50">
               <h2 className="text-lg font-semibold mb-4">Framework Compliance Scores</h2>
               <div className="grid grid-cols-5 gap-4">
-                {(Object.entries(FRAMEWORK_CONFIG) as [ComplianceFramework, typeof FRAMEWORK_CONFIG[ComplianceFramework]][]).map(([key, config]) => {
+                {(
+                  Object.entries(FRAMEWORK_CONFIG) as [
+                    ComplianceFramework,
+                    (typeof FRAMEWORK_CONFIG)[ComplianceFramework],
+                  ][]
+                ).map(([key, config]) => {
                   const score = metrics.frameworkScores[key];
                   return (
                     <div
@@ -565,17 +712,25 @@ export const GovernPage: React.FC = () => {
                         <span className="text-2xl">{config.icon}</span>
                         <span className="font-medium">{config.name}</span>
                       </div>
-                      <div className={`text-3xl font-bold ${
-                        score >= 90 ? 'text-green-400' :
-                        score >= 70 ? 'text-amber-400' :
-                        'text-red-400'
-                      }`}>{score}%</div>
+                      <div
+                        className={`text-3xl font-bold ${
+                          score >= 90
+                            ? 'text-green-400'
+                            : score >= 70
+                              ? 'text-amber-400'
+                              : 'text-red-400'
+                        }`}
+                      >
+                        {score}%
+                      </div>
                       <div className="h-2 bg-black/30 rounded-full overflow-hidden mt-2">
                         <div
                           className={`h-full ${
-                            score >= 90 ? 'bg-green-500' :
-                            score >= 70 ? 'bg-amber-500' :
-                            'bg-red-500'
+                            score >= 90
+                              ? 'bg-green-500'
+                              : score >= 70
+                                ? 'bg-amber-500'
+                                : 'bg-red-500'
                           }`}
                           style={{ width: `${score}%` }}
                         />
@@ -594,26 +749,37 @@ export const GovernPage: React.FC = () => {
                   <span className="text-red-400">🚨</span> Critical Findings
                 </h3>
                 <div className="space-y-3">
-                  {controls.flatMap(c => c.findings).filter(f => f.severity === 'critical').map(finding => (
-                    <div key={finding.id} className="p-4 bg-red-900/20 rounded-xl border border-red-700/50">
-                      <div className="flex items-center justify-between mb-2">
-                        <h4 className="font-semibold">{finding.title}</h4>
-                        <span className={`px-2 py-0.5 rounded text-xs ${
-                          finding.status === 'open' ? 'bg-red-600' :
-                          finding.status === 'in-progress' ? 'bg-amber-600' :
-                          'bg-green-600'
-                        }`}>
-                          {finding.status}
-                        </span>
+                  {controls
+                    .flatMap((c) => c.findings)
+                    .filter((f) => f.severity === 'critical')
+                    .map((finding) => (
+                      <div
+                        key={finding.id}
+                        className="p-4 bg-red-900/20 rounded-xl border border-red-700/50"
+                      >
+                        <div className="flex items-center justify-between mb-2">
+                          <h4 className="font-semibold">{finding.title}</h4>
+                          <span
+                            className={`px-2 py-0.5 rounded text-xs ${
+                              finding.status === 'open'
+                                ? 'bg-red-600'
+                                : finding.status === 'in-progress'
+                                  ? 'bg-amber-600'
+                                  : 'bg-green-600'
+                            }`}
+                          >
+                            {finding.status}
+                          </span>
+                        </div>
+                        <p className="text-sm text-white/70 mb-2">{finding.description}</p>
+                        <div className="flex justify-between text-xs text-white/50">
+                          <span>Owner: {finding.owner}</span>
+                          <span>Due: {finding.dueDate.toLocaleDateString()}</span>
+                        </div>
                       </div>
-                      <p className="text-sm text-white/70 mb-2">{finding.description}</p>
-                      <div className="flex justify-between text-xs text-white/50">
-                        <span>Owner: {finding.owner}</span>
-                        <span>Due: {finding.dueDate.toLocaleDateString()}</span>
-                      </div>
-                    </div>
-                  ))}
-                  {controls.flatMap(c => c.findings).filter(f => f.severity === 'critical').length === 0 && (
+                    ))}
+                  {controls.flatMap((c) => c.findings).filter((f) => f.severity === 'critical')
+                    .length === 0 && (
                     <div className="text-center py-8 text-white/50">
                       <div className="text-4xl mb-2">✅</div>
                       <div>No critical findings</div>
@@ -628,19 +794,27 @@ export const GovernPage: React.FC = () => {
                   <span>🔍</span> Active & Upcoming Audits
                 </h3>
                 <div className="space-y-3">
-                  {auditProjects.map(audit => (
-                    <div key={audit.id} className="p-4 bg-black/20 rounded-xl border border-emerald-800/30">
+                  {auditProjects.map((audit) => (
+                    <div
+                      key={audit.id}
+                      className="p-4 bg-black/20 rounded-xl border border-emerald-800/30"
+                    >
                       <div className="flex items-center justify-between mb-2">
                         <div className="flex items-center gap-2">
                           <span>{FRAMEWORK_CONFIG[audit.framework].icon}</span>
                           <h4 className="font-semibold">{audit.name}</h4>
                         </div>
-                        <span className={`px-2 py-0.5 rounded text-xs ${
-                          audit.status === 'planning' ? 'bg-blue-600' :
-                          audit.status === 'fieldwork' ? 'bg-amber-600' :
-                          audit.status === 'reporting' ? 'bg-purple-600' :
-                          'bg-green-600'
-                        }`}>
+                        <span
+                          className={`px-2 py-0.5 rounded text-xs ${
+                            audit.status === 'planning'
+                              ? 'bg-blue-600'
+                              : audit.status === 'fieldwork'
+                                ? 'bg-amber-600'
+                                : audit.status === 'reporting'
+                                  ? 'bg-purple-600'
+                                  : 'bg-green-600'
+                          }`}
+                        >
                           {audit.status}
                         </span>
                       </div>
@@ -651,11 +825,15 @@ export const GovernPage: React.FC = () => {
                         </div>
                         <div>
                           <span className="text-white/50">Progress:</span>
-                          <div className="font-medium">{audit.controlsTested}/{audit.controlsInScope} controls</div>
+                          <div className="font-medium">
+                            {audit.controlsTested}/{audit.controlsInScope} controls
+                          </div>
                         </div>
                         <div>
                           <span className="text-white/50">Findings:</span>
-                          <div className={`font-medium ${audit.criticalFindings > 0 ? 'text-red-400' : ''}`}>
+                          <div
+                            className={`font-medium ${audit.criticalFindings > 0 ? 'text-red-400' : ''}`}
+                          >
                             {audit.findingsCount} ({audit.criticalFindings} critical)
                           </div>
                         </div>
@@ -664,7 +842,9 @@ export const GovernPage: React.FC = () => {
                         <div className="h-2 bg-black/30 rounded-full overflow-hidden">
                           <div
                             className="h-full bg-emerald-500"
-                            style={{ width: `${(audit.controlsTested / audit.controlsInScope) * 100}%` }}
+                            style={{
+                              width: `${(audit.controlsTested / audit.controlsInScope) * 100}%`,
+                            }}
                           />
                         </div>
                       </div>
@@ -706,29 +886,40 @@ export const GovernPage: React.FC = () => {
               >
                 All Frameworks
               </button>
-              {(Object.entries(FRAMEWORK_CONFIG) as [ComplianceFramework, typeof FRAMEWORK_CONFIG[ComplianceFramework]][]).slice(0, 6).map(([key, config]) => (
-                <button
-                  key={key}
-                  onClick={() => setSelectedFramework(key)}
-                  className={`px-4 py-2 rounded-lg text-sm transition-colors flex items-center gap-2 ${
-                    selectedFramework === key
-                      ? 'bg-emerald-600 text-white'
-                      : 'bg-black/30 text-white/60 hover:text-white'
-                  }`}
-                >
-                  {config.icon} {config.name}
-                </button>
-              ))}
+              {(
+                Object.entries(FRAMEWORK_CONFIG) as [
+                  ComplianceFramework,
+                  (typeof FRAMEWORK_CONFIG)[ComplianceFramework],
+                ][]
+              )
+                .slice(0, 6)
+                .map(([key, config]) => (
+                  <button
+                    key={key}
+                    onClick={() => setSelectedFramework(key)}
+                    className={`px-4 py-2 rounded-lg text-sm transition-colors flex items-center gap-2 ${
+                      selectedFramework === key
+                        ? 'bg-emerald-600 text-white'
+                        : 'bg-black/30 text-white/60 hover:text-white'
+                    }`}
+                  >
+                    {config.icon} {config.name}
+                  </button>
+                ))}
             </div>
 
-            {filteredControls.map(control => (
+            {filteredControls.map((control) => (
               <div
                 key={control.id}
-                onClick={() => setSelectedControl(selectedControl?.id === control.id ? null : control)}
+                onClick={() =>
+                  setSelectedControl(selectedControl?.id === control.id ? null : control)
+                }
                 className={`bg-black/30 rounded-2xl p-6 border cursor-pointer transition-all ${
-                  control.status === 'compliant' ? 'border-green-800/50 hover:border-green-600' :
-                  control.status === 'partial' ? 'border-amber-800/50 hover:border-amber-600' :
-                  'border-red-800/50 hover:border-red-600'
+                  control.status === 'compliant'
+                    ? 'border-green-800/50 hover:border-green-600'
+                    : control.status === 'partial'
+                      ? 'border-amber-800/50 hover:border-amber-600'
+                      : 'border-red-800/50 hover:border-red-600'
                 }`}
               >
                 <div className="flex items-center justify-between mb-3">
@@ -739,23 +930,34 @@ export const GovernPage: React.FC = () => {
                         <span className="font-mono text-sm text-white/50">{control.code}</span>
                         <h3 className="font-semibold">{control.name}</h3>
                       </div>
-                      <div className="text-sm text-white/50">{control.category} • {control.department}</div>
+                      <div className="text-sm text-white/50">
+                        {control.category} • {control.department}
+                      </div>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className={`px-3 py-1 rounded-lg text-sm ${
-                      control.riskRating === 'critical' ? 'bg-red-900 text-red-300' :
-                      control.riskRating === 'high' ? 'bg-amber-900 text-amber-300' :
-                      control.riskRating === 'medium' ? 'bg-yellow-900 text-yellow-300' :
-                      'bg-green-900 text-green-300'
-                    }`}>
+                    <span
+                      className={`px-3 py-1 rounded-lg text-sm ${
+                        control.riskRating === 'critical'
+                          ? 'bg-red-900 text-red-300'
+                          : control.riskRating === 'high'
+                            ? 'bg-amber-900 text-amber-300'
+                            : control.riskRating === 'medium'
+                              ? 'bg-yellow-900 text-yellow-300'
+                              : 'bg-green-900 text-green-300'
+                      }`}
+                    >
                       {control.riskRating} risk
                     </span>
-                    <span className={`px-3 py-1 rounded-lg text-sm ${
-                      control.status === 'compliant' ? 'bg-green-600' :
-                      control.status === 'partial' ? 'bg-amber-600' :
-                      'bg-red-600'
-                    }`}>
+                    <span
+                      className={`px-3 py-1 rounded-lg text-sm ${
+                        control.status === 'compliant'
+                          ? 'bg-green-600'
+                          : control.status === 'partial'
+                            ? 'bg-amber-600'
+                            : 'bg-red-600'
+                      }`}
+                    >
                       {control.status}
                     </span>
                   </div>
@@ -774,11 +976,15 @@ export const GovernPage: React.FC = () => {
                   </div>
                   <div>
                     <span className="text-white/50">Automation:</span>
-                    <div className={`font-medium ${
-                      control.automationLevel === 'fully-automated' ? 'text-green-400' :
-                      control.automationLevel === 'semi-automated' ? 'text-amber-400' :
-                      'text-red-400'
-                    }`}>
+                    <div
+                      className={`font-medium ${
+                        control.automationLevel === 'fully-automated'
+                          ? 'text-green-400'
+                          : control.automationLevel === 'semi-automated'
+                            ? 'text-amber-400'
+                            : 'text-red-400'
+                      }`}
+                    >
                       {control.automationLevel}
                     </div>
                   </div>
@@ -793,27 +999,41 @@ export const GovernPage: React.FC = () => {
                   <div className="mt-4 pt-4 border-t border-emerald-800/30 space-y-4">
                     {/* Evidence */}
                     <div>
-                      <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-2">Evidence</h4>
+                      <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-2">
+                        Evidence
+                      </h4>
                       <div className="grid grid-cols-2 gap-3">
-                        {control.evidence.map(ev => (
-                          <div key={ev.id} className="p-3 bg-black/20 rounded-xl flex items-center gap-3">
+                        {control.evidence.map((ev) => (
+                          <div
+                            key={ev.id}
+                            className="p-3 bg-black/20 rounded-xl flex items-center gap-3"
+                          >
                             <span className="text-xl">
-                              {ev.type === 'policy' ? '📄' :
-                               ev.type === 'procedure' ? '📋' :
-                               ev.type === 'screenshot' ? '📸' :
-                               ev.type === 'log' ? '📝' :
-                               ev.type === 'attestation' ? '✍️' :
-                               '📁'}
+                              {ev.type === 'policy'
+                                ? '📄'
+                                : ev.type === 'procedure'
+                                  ? '📋'
+                                  : ev.type === 'screenshot'
+                                    ? '📸'
+                                    : ev.type === 'log'
+                                      ? '📝'
+                                      : ev.type === 'attestation'
+                                        ? '✍️'
+                                        : '📁'}
                             </span>
                             <div className="flex-1">
                               <div className="font-medium text-sm">{ev.name}</div>
                               <div className="text-xs text-white/50">{ev.description}</div>
                             </div>
-                            <span className={`px-2 py-0.5 rounded text-xs ${
-                              ev.status === 'valid' ? 'bg-green-900 text-green-300' :
-                              ev.status === 'expired' ? 'bg-red-900 text-red-300' :
-                              'bg-amber-900 text-amber-300'
-                            }`}>
+                            <span
+                              className={`px-2 py-0.5 rounded text-xs ${
+                                ev.status === 'valid'
+                                  ? 'bg-green-900 text-green-300'
+                                  : ev.status === 'expired'
+                                    ? 'bg-red-900 text-red-300'
+                                    : 'bg-amber-900 text-amber-300'
+                              }`}
+                            >
                               {ev.status}
                             </span>
                           </div>
@@ -824,21 +1044,32 @@ export const GovernPage: React.FC = () => {
                     {/* Findings */}
                     {control.findings.length > 0 && (
                       <div>
-                        <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-2">Findings</h4>
+                        <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-2">
+                          Findings
+                        </h4>
                         <div className="space-y-2">
-                          {control.findings.map(finding => (
-                            <div key={finding.id} className={`p-3 rounded-xl ${
-                              finding.severity === 'critical' ? 'bg-red-900/30 border border-red-700/50' :
-                              finding.severity === 'high' ? 'bg-amber-900/30 border border-amber-700/50' :
-                              'bg-yellow-900/30 border border-yellow-700/50'
-                            }`}>
+                          {control.findings.map((finding) => (
+                            <div
+                              key={finding.id}
+                              className={`p-3 rounded-xl ${
+                                finding.severity === 'critical'
+                                  ? 'bg-red-900/30 border border-red-700/50'
+                                  : finding.severity === 'high'
+                                    ? 'bg-amber-900/30 border border-amber-700/50'
+                                    : 'bg-yellow-900/30 border border-yellow-700/50'
+                              }`}
+                            >
                               <div className="flex items-center justify-between mb-1">
                                 <span className="font-medium">{finding.title}</span>
-                                <span className={`px-2 py-0.5 rounded text-xs ${
-                                  finding.status === 'open' ? 'bg-red-600' :
-                                  finding.status === 'in-progress' ? 'bg-amber-600' :
-                                  'bg-green-600'
-                                }`}>
+                                <span
+                                  className={`px-2 py-0.5 rounded text-xs ${
+                                    finding.status === 'open'
+                                      ? 'bg-red-600'
+                                      : finding.status === 'in-progress'
+                                        ? 'bg-amber-600'
+                                        : 'bg-green-600'
+                                  }`}
+                                >
                                   {finding.status}
                                 </span>
                               </div>
@@ -851,10 +1082,17 @@ export const GovernPage: React.FC = () => {
 
                     {/* Mapped Requirements */}
                     <div>
-                      <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-2">Mapped Requirements</h4>
+                      <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-2">
+                        Mapped Requirements
+                      </h4>
                       <div className="flex flex-wrap gap-2">
-                        {control.mappedRequirements.map(req => (
-                          <span key={req} className="px-3 py-1 bg-emerald-900/50 rounded-lg text-sm">{req}</span>
+                        {control.mappedRequirements.map((req) => (
+                          <span
+                            key={req}
+                            className="px-3 py-1 bg-emerald-900/50 rounded-lg text-sm"
+                          >
+                            {req}
+                          </span>
                         ))}
                       </div>
                     </div>
@@ -882,8 +1120,11 @@ export const GovernPage: React.FC = () => {
               </div>
             </div>
 
-            {boardPackets.map(packet => (
-              <div key={packet.id} className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50">
+            {boardPackets.map((packet) => (
+              <div
+                key={packet.id}
+                className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50"
+              >
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <h3 className="text-lg font-semibold">{packet.name}</h3>
@@ -891,12 +1132,17 @@ export const GovernPage: React.FC = () => {
                       Generated: {packet.generatedAt.toLocaleDateString()} • Period: {packet.period}
                     </div>
                   </div>
-                  <span className={`px-3 py-1 rounded-lg text-sm ${
-                    packet.status === 'draft' ? 'bg-neutral-600' :
-                    packet.status === 'review' ? 'bg-amber-600' :
-                    packet.status === 'approved' ? 'bg-green-600' :
-                    'bg-blue-600'
-                  }`}>
+                  <span
+                    className={`px-3 py-1 rounded-lg text-sm ${
+                      packet.status === 'draft'
+                        ? 'bg-neutral-600'
+                        : packet.status === 'review'
+                          ? 'bg-amber-600'
+                          : packet.status === 'approved'
+                            ? 'bg-green-600'
+                            : 'bg-blue-600'
+                    }`}
+                  >
                     {packet.status}
                   </span>
                 </div>
@@ -904,16 +1150,25 @@ export const GovernPage: React.FC = () => {
                 <div className="grid grid-cols-2 gap-6">
                   {/* Sections */}
                   <div>
-                    <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">Sections</h4>
+                    <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">
+                      Sections
+                    </h4>
                     <div className="space-y-2">
-                      {packet.sections.map(section => (
-                        <div key={section.name} className="flex items-center justify-between p-3 bg-black/20 rounded-xl">
+                      {packet.sections.map((section) => (
+                        <div
+                          key={section.name}
+                          className="flex items-center justify-between p-3 bg-black/20 rounded-xl"
+                        >
                           <span>{section.name}</span>
-                          <span className={`px-2 py-0.5 rounded text-xs ${
-                            section.status === 'complete' ? 'bg-green-900 text-green-300' :
-                            section.status === 'pending' ? 'bg-amber-900 text-amber-300' :
-                            'bg-red-900 text-red-300'
-                          }`}>
+                          <span
+                            className={`px-2 py-0.5 rounded text-xs ${
+                              section.status === 'complete'
+                                ? 'bg-green-900 text-green-300'
+                                : section.status === 'pending'
+                                  ? 'bg-amber-900 text-amber-300'
+                                  : 'bg-red-900 text-red-300'
+                            }`}
+                          >
                             {section.status}
                           </span>
                         </div>
@@ -923,10 +1178,15 @@ export const GovernPage: React.FC = () => {
 
                   {/* Approvers */}
                   <div>
-                    <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">Approvers</h4>
+                    <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">
+                      Approvers
+                    </h4>
                     <div className="space-y-2">
-                      {packet.approvers.map(approver => (
-                        <div key={approver.name} className="flex items-center justify-between p-3 bg-black/20 rounded-xl">
+                      {packet.approvers.map((approver) => (
+                        <div
+                          key={approver.name}
+                          className="flex items-center justify-between p-3 bg-black/20 rounded-xl"
+                        >
                           <span>{approver.name}</span>
                           {approver.approved ? (
                             <span className="flex items-center gap-2 text-green-400 text-sm">
@@ -964,8 +1224,8 @@ export const GovernPage: React.FC = () => {
             <div className="text-6xl mb-4">📜</div>
             <h2 className="text-2xl font-bold mb-2">Regulation Library</h2>
             <p className="text-white/60 max-w-md mx-auto">
-              Access the full regulatory library with real-time updates on SOX, GDPR, HIPAA, PCI-DSS, 
-              FedRAMP, DORA, and 50+ other frameworks.
+              Access the full regulatory library with real-time updates on SOX, GDPR, HIPAA,
+              PCI-DSS, FedRAMP, DORA, and 50+ other frameworks.
             </p>
             <button className="mt-6 px-6 py-3 bg-gradient-to-r from-emerald-600 to-green-600 rounded-xl font-medium hover:opacity-90 transition-all">
               Browse Regulations
@@ -975,8 +1235,11 @@ export const GovernPage: React.FC = () => {
 
         {activeTab === 'audits' && (
           <div className="space-y-4">
-            {auditProjects.map(audit => (
-              <div key={audit.id} className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50">
+            {auditProjects.map((audit) => (
+              <div
+                key={audit.id}
+                className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50"
+              >
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-3">
                     <span className="text-2xl">{FRAMEWORK_CONFIG[audit.framework].icon}</span>
@@ -987,12 +1250,17 @@ export const GovernPage: React.FC = () => {
                       </div>
                     </div>
                   </div>
-                  <span className={`px-4 py-2 rounded-lg text-sm font-medium ${
-                    audit.status === 'planning' ? 'bg-blue-600' :
-                    audit.status === 'fieldwork' ? 'bg-amber-600' :
-                    audit.status === 'reporting' ? 'bg-purple-600' :
-                    'bg-green-600'
-                  }`}>
+                  <span
+                    className={`px-4 py-2 rounded-lg text-sm font-medium ${
+                      audit.status === 'planning'
+                        ? 'bg-blue-600'
+                        : audit.status === 'fieldwork'
+                          ? 'bg-amber-600'
+                          : audit.status === 'reporting'
+                            ? 'bg-purple-600'
+                            : 'bg-green-600'
+                    }`}
+                  >
                     {audit.status.toUpperCase()}
                   </span>
                 </div>
@@ -1003,11 +1271,15 @@ export const GovernPage: React.FC = () => {
                     <div className="text-xs text-white/50">Controls in Scope</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
-                    <div className="text-2xl font-bold text-emerald-400">{audit.controlsTested}</div>
+                    <div className="text-2xl font-bold text-emerald-400">
+                      {audit.controlsTested}
+                    </div>
                     <div className="text-xs text-white/50">Tested</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
-                    <div className="text-2xl font-bold">{Math.round((audit.controlsTested / audit.controlsInScope) * 100)}%</div>
+                    <div className="text-2xl font-bold">
+                      {Math.round((audit.controlsTested / audit.controlsInScope) * 100)}%
+                    </div>
                     <div className="text-xs text-white/50">Progress</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
@@ -1015,7 +1287,9 @@ export const GovernPage: React.FC = () => {
                     <div className="text-xs text-white/50">Findings</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
-                    <div className={`text-2xl font-bold ${audit.criticalFindings > 0 ? 'text-red-400' : 'text-green-400'}`}>
+                    <div
+                      className={`text-2xl font-bold ${audit.criticalFindings > 0 ? 'text-red-400' : 'text-green-400'}`}
+                    >
                       {audit.criticalFindings}
                     </div>
                     <div className="text-xs text-white/50">Critical</div>

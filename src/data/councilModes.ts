@@ -23,23 +23,23 @@ export interface CouncilMode {
 
 export const MODE_CATEGORIES = {
   'Decision Making': ['war-room', 'rapid', 'crisis', 'governance'],
-  'Analysis': ['due-diligence', 'research', 'investment', 'compliance'],
-  'Planning': ['execution', 'stakeholder'],
-  'Creative': ['innovation-lab', 'advisory'],
-  'Healthcare': ['clinical-governance', 'healthcare-compliance', 'patient-safety', 'clinical-ops'],
-  'Finance': ['risk-committee', 'investment-committee', 'credit-review', 'treasury-ops'],
-  'Legal': ['deal-room', 'litigation-war-room', 'regulatory-response', 'ip-strategy']
+  Analysis: ['due-diligence', 'research', 'investment', 'compliance'],
+  Planning: ['execution', 'stakeholder'],
+  Creative: ['innovation-lab', 'advisory'],
+  Healthcare: ['clinical-governance', 'healthcare-compliance', 'patient-safety', 'clinical-ops'],
+  Finance: ['risk-committee', 'investment-committee', 'credit-review', 'treasury-ops'],
+  Legal: ['deal-room', 'litigation-war-room', 'regulatory-response', 'ip-strategy'],
 } as const;
 
 // Core modes shown in main dropdown (6-8 modes for simplicity)
 export const CORE_MODES = [
-  'war-room',      // Strategic debates
-  'due-diligence', // M&A, investments  
-  'compliance',    // Regulatory review
-  'investment',    // Budget decisions
-  'stakeholder',   // Change management
-  'rapid',         // Quick decisions
-  'governance',    // Policy creation
+  'war-room', // Strategic debates
+  'due-diligence', // M&A, investments
+  'compliance', // Regulatory review
+  'investment', // Budget decisions
+  'stakeholder', // Change management
+  'rapid', // Quick decisions
+  'governance', // Policy creation
 ] as const;
 
 // Helper to check if a mode is core
@@ -52,19 +52,26 @@ export const COUNCIL_MODES: Record<string, CouncilMode> = {
     emoji: '⚔️',
     color: '#EF4444',
     primeDirective: 'Conflict before Consensus',
-    description: 'The default mode for high-stakes strategic decisions. Agents vigorously defend their domains and attack weak assumptions.',
+    description:
+      'The default mode for high-stakes strategic decisions. Agents vigorously defend their domains and attack weak assumptions.',
     shortDesc: 'Strategic debates',
     category: 'decision-making',
     isCore: true,
-    useCases: ['Strategic planning sessions', 'Major investment decisions', 'Market entry analysis', 'Competitive response planning', 'Annual planning'],
+    useCases: [
+      'Strategic planning sessions',
+      'Major investment decisions',
+      'Market entry analysis',
+      'Competitive response planning',
+      'Annual planning',
+    ],
     leadAgent: 'chief',
     defaultAgents: ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cto', 'risk'], // Full council for strategic debates
     agentBehaviors: [
-      'Security MUST attack Revenue\'s risky proposals',
-      'Finance MUST challenge Growth\'s optimistic projections',
+      "Security MUST attack Revenue's risky proposals",
+      "Finance MUST challenge Growth's optimistic projections",
       'Operations MUST question unrealistic timelines',
       'Risk MUST quantify every threat mentioned',
-      'Chief synthesizes conflicts, does not smooth them over'
+      'Chief synthesizes conflicts, does not smooth them over',
     ],
     systemPrompt: `### ROLE: The Council Orchestrator
 
@@ -93,7 +100,7 @@ Do not agree for the sake of politeness. Each agent must vigorously defend their
 
 ### AGENTS ACTIVE: Chief, CFO, COO, CISO, CMO, CTO, CHRO, CRO, CDO, Risk
 
-Execute Deliberation.`
+Execute Deliberation.`,
   },
 
   'due-diligence': {
@@ -102,11 +109,18 @@ Execute Deliberation.`
     emoji: '🔍',
     color: '#0F172A',
     primeDirective: 'Verify everything twice',
-    description: 'For situations where accuracy is paramount and the cost of being wrong is catastrophic. Every claim must be substantiated.',
+    description:
+      'For situations where accuracy is paramount and the cost of being wrong is catastrophic. Every claim must be substantiated.',
     shortDesc: 'M&A, investments',
     category: 'analysis',
     isCore: true,
-    useCases: ['M&A target evaluation', 'Vendor selection', 'Partnership agreements', 'Investment decisions', 'Contract review'],
+    useCases: [
+      'M&A target evaluation',
+      'Vendor selection',
+      'Partnership agreements',
+      'Investment decisions',
+      'Contract review',
+    ],
     leadAgent: 'cfo',
     defaultAgents: ['cfo', 'clo', 'risk', 'ciso', 'cio'], // Financial, legal, risk focus
     agentBehaviors: [
@@ -114,7 +128,7 @@ Execute Deliberation.`
       'Agents must explicitly state confidence levels (High/Medium/Low)',
       'Unknown information must be flagged, not assumed',
       'Red flags get dedicated analysis',
-      'Final output includes explicit list of unverified assumptions'
+      'Final output includes explicit list of unverified assumptions',
     ],
     systemPrompt: `### ROLE: The Council Due Diligence Team
 
@@ -153,7 +167,7 @@ Each agent provides:
 - Document everything for audit trail
 - Use conditional language ("If X is true, then Y")
 
-Execute Due Diligence.`
+Execute Due Diligence.`,
   },
 
   'innovation-lab': {
@@ -162,18 +176,25 @@ Execute Due Diligence.`
     emoji: '💡',
     color: '#10B981',
     primeDirective: 'Yes, and...',
-    description: 'For brainstorming where creativity matters more than criticism. Agents build on ideas rather than tearing them down.',
+    description:
+      'For brainstorming where creativity matters more than criticism. Agents build on ideas rather than tearing them down.',
     shortDesc: 'Brainstorming',
     category: 'creative',
-    useCases: ['New product ideation', 'Market opportunity exploration', 'Process innovation', 'Strategic pivots', 'Blue sky thinking sessions'],
+    useCases: [
+      'New product ideation',
+      'Market opportunity exploration',
+      'Process innovation',
+      'Strategic pivots',
+      'Blue sky thinking sessions',
+    ],
     leadAgent: 'cto',
     defaultAgents: ['cto', 'cpo', 'cmo', 'caio'], // Innovation focus
     agentBehaviors: [
-      'Build on ideas, don\'t kill them',
-      'Every \'but\' must be followed by \'and here\'s how we solve that\'',
+      "Build on ideas, don't kill them",
+      "Every 'but' must be followed by 'and here's how we solve that'",
       'Quantity of ideas matters more than quality initially',
       'Cross-pollination encouraged',
-      'Feasibility assessment comes AFTER ideation, not during'
+      'Feasibility assessment comes AFTER ideation, not during',
     ],
     systemPrompt: `### ROLE: The Council Innovation Lab
 
@@ -212,20 +233,27 @@ Every response must build on previous ideas. Criticism is banned during ideation
 - Embrace uncertainty as opportunity
 - Celebrate unusual connections
 
-Execute Innovation Session.`
+Execute Innovation Session.`,
   },
 
-  'compliance': {
+  compliance: {
     id: 'compliance',
     name: 'Compliance',
     emoji: '🛡️',
     color: '#F59E0B',
     primeDirective: 'What could go wrong?',
-    description: 'For regulatory reviews and policy decisions where compliance risk is the primary concern.',
+    description:
+      'For regulatory reviews and policy decisions where compliance risk is the primary concern.',
     shortDesc: 'Regulatory review',
     category: 'analysis',
     isCore: true,
-    useCases: ['New product compliance review', 'Policy change assessment', 'Regulatory filing preparation', 'Audit preparation', 'Data privacy decisions'],
+    useCases: [
+      'New product compliance review',
+      'Policy change assessment',
+      'Regulatory filing preparation',
+      'Audit preparation',
+      'Data privacy decisions',
+    ],
     leadAgent: 'ciso',
     defaultAgents: ['ciso', 'clo', 'risk', 'cdo'], // Security & compliance focus
     agentBehaviors: [
@@ -233,7 +261,7 @@ Execute Innovation Session.`
       'Every proposal must include regulatory impact assessment',
       'Agents must cite specific regulations (GDPR Article X, SOC 2 Control Y)',
       'Conservative interpretation of ambiguous regulations',
-      'Document everything for audit trail'
+      'Document everything for audit trail',
     ],
     systemPrompt: `### ROLE: The Council Compliance Review Board
 
@@ -271,27 +299,34 @@ Assume regulators are watching. Document everything. When in doubt, don't.
 - Use compliance language ("shall," "must," "required")
 - No assumptions - if unclear, flag for legal review
 
-Execute Compliance Review.`
+Execute Compliance Review.`,
   },
 
-  'crisis': {
+  crisis: {
     id: 'crisis',
     name: 'Crisis',
     emoji: '🚨',
     color: '#DC2626',
     primeDirective: 'Triage and act',
-    description: 'For emergency situations requiring immediate decisions. Speed matters more than perfection.',
+    description:
+      'For emergency situations requiring immediate decisions. Speed matters more than perfection.',
     shortDesc: 'Emergencies',
     category: 'decision-making',
-    useCases: ['Security incidents', 'PR crises', 'System outages', 'Key employee departures', 'Competitive threats requiring immediate response'],
+    useCases: [
+      'Security incidents',
+      'PR crises',
+      'System outages',
+      'Key employee departures',
+      'Competitive threats requiring immediate response',
+    ],
     leadAgent: 'chief',
     defaultAgents: ['chief', 'coo', 'ciso', 'cco', 'cto'], // Crisis response team
     agentBehaviors: [
-      'Decisions must be made within the session - no \'we\'ll discuss later\'',
+      "Decisions must be made within the session - no 'we'll discuss later'",
       'Clear ownership assigned for every action item',
       'Timelines in hours, not days',
       'Communication plan is mandatory',
-      'Chief has authority to override debates for speed'
+      'Chief has authority to override debates for speed',
     ],
     systemPrompt: `### ROLE: The Council Crisis Response Team
 
@@ -337,19 +372,26 @@ This is not a planning session. This is an emergency response.
 - Short sentences, clear instructions
 - "Do X. Now. Report back in Y minutes."
 
-Execute Crisis Response.`
+Execute Crisis Response.`,
   },
 
-  'execution': {
+  execution: {
     id: 'execution',
     name: 'Execution',
     emoji: '🎯',
     color: '#2563EB',
     primeDirective: 'How do we ship this?',
-    description: 'For turning decisions into detailed execution plans with timelines, dependencies, and milestones.',
+    description:
+      'For turning decisions into detailed execution plans with timelines, dependencies, and milestones.',
     shortDesc: 'Project planning',
     category: 'planning',
-    useCases: ['Project planning', 'Launch preparation', 'Initiative rollout', 'Process implementation', 'Change execution'],
+    useCases: [
+      'Project planning',
+      'Launch preparation',
+      'Initiative rollout',
+      'Process implementation',
+      'Change execution',
+    ],
     leadAgent: 'coo',
     defaultAgents: ['coo', 'cpo', 'cfo', 'cto'], // Execution focus
     agentBehaviors: [
@@ -357,7 +399,7 @@ Execute Crisis Response.`
       'Every task has an owner, deadline, and dependency',
       'Resources must be quantified (hours, $, headcount)',
       'Risks to timeline must be identified',
-      'Success criteria must be measurable'
+      'Success criteria must be measurable',
     ],
     systemPrompt: `### ROLE: The Council Execution Planning Team
 
@@ -414,19 +456,26 @@ Theory is over. Now we plan the work.
 - Names, not "someone"
 - Numbers, not "some"
 
-Execute Planning Session.`
+Execute Planning Session.`,
   },
 
-  'research': {
+  research: {
     id: 'research',
     name: 'Research',
     emoji: '🔬',
     color: '#8B5CF6',
     primeDirective: 'Follow the evidence',
-    description: 'For data-driven analysis where objectivity is paramount. Distinguish facts from interpretations.',
+    description:
+      'For data-driven analysis where objectivity is paramount. Distinguish facts from interpretations.',
     shortDesc: 'Data analysis',
     category: 'analysis',
-    useCases: ['Market research analysis', 'Customer feedback synthesis', 'Competitive intelligence', 'Performance analysis', 'Trend identification'],
+    useCases: [
+      'Market research analysis',
+      'Customer feedback synthesis',
+      'Competitive intelligence',
+      'Performance analysis',
+      'Trend identification',
+    ],
     leadAgent: 'cdo',
     defaultAgents: ['cdo', 'caio', 'cfo', 'cmo'], // Data & analytics focus
     agentBehaviors: [
@@ -434,7 +483,7 @@ Execute Planning Session.`
       'Distinguish facts from interpretations',
       'Acknowledge data limitations explicitly',
       'No advocacy - present findings neutrally',
-      'Statistical significance matters'
+      'Statistical significance matters',
     ],
     systemPrompt: `### ROLE: The Council Research & Analysis Team
 
@@ -482,10 +531,10 @@ Data leads, opinions follow. Acknowledge what we don't know.
 - "We observe a correlation..." not "X causes Y..."
 - Acknowledge uncertainty
 
-Execute Research Analysis.`
+Execute Research Analysis.`,
   },
 
-  'investment': {
+  investment: {
     id: 'investment',
     name: 'Investment',
     emoji: '💰',
@@ -495,7 +544,13 @@ Execute Research Analysis.`
     shortDesc: 'Budget decisions',
     category: 'analysis',
     isCore: true,
-    useCases: ['Capital expenditure decisions', 'Headcount requests', 'Tool/vendor purchases', 'Marketing budget allocation', 'R&D investment decisions'],
+    useCases: [
+      'Capital expenditure decisions',
+      'Headcount requests',
+      'Tool/vendor purchases',
+      'Marketing budget allocation',
+      'R&D investment decisions',
+    ],
     leadAgent: 'cfo',
     defaultAgents: ['cfo', 'cio', 'coo', 'risk'], // Financial focus
     agentBehaviors: [
@@ -503,7 +558,7 @@ Execute Research Analysis.`
       'Every proposal needs ROI calculation',
       'Compare to alternative uses of capital',
       'Include opportunity cost',
-      'Payback period is mandatory'
+      'Payback period is mandatory',
     ],
     systemPrompt: `### ROLE: The Council Investment Committee
 
@@ -560,20 +615,27 @@ Capital is finite. Every dollar must work.
 - "The expected return is..." not "We hope to..."
 - Every qualitative benefit has a proxy metric
 
-Execute Investment Analysis.`
+Execute Investment Analysis.`,
   },
 
-  'stakeholder': {
+  stakeholder: {
     id: 'stakeholder',
     name: 'Stakeholder',
     emoji: '🤝',
     color: '#3B82F6',
     primeDirective: 'Who wins, who loses?',
-    description: 'For decisions with significant people impact. Focus on stakeholder mapping and change management.',
+    description:
+      'For decisions with significant people impact. Focus on stakeholder mapping and change management.',
     shortDesc: 'Change management',
     category: 'planning',
     isCore: true,
-    useCases: ['Organizational restructuring', 'Policy changes affecting employees', 'Vendor/partner changes', 'Process changes', 'Cultural initiatives'],
+    useCases: [
+      'Organizational restructuring',
+      'Policy changes affecting employees',
+      'Vendor/partner changes',
+      'Process changes',
+      'Cultural initiatives',
+    ],
     leadAgent: 'chro',
     defaultAgents: ['chro', 'cco', 'coo', 'clo'], // People & change focus
     agentBehaviors: [
@@ -581,7 +643,7 @@ Execute Investment Analysis.`
       'Map all affected stakeholders',
       'Assess impact on each group',
       'Plan communications for each audience',
-      'Anticipate resistance and plan responses'
+      'Anticipate resistance and plan responses',
     ],
     systemPrompt: `### ROLE: The Council Stakeholder Analysis Team
 
@@ -631,20 +693,27 @@ Every decision affects people. Understand the impacts before acting.
 - "They may feel..." as well as "They will see..."
 - People first, process second
 
-Execute Stakeholder Analysis.`
+Execute Stakeholder Analysis.`,
   },
 
-  'rapid': {
+  rapid: {
     id: 'rapid',
     name: 'Rapid',
     emoji: '⚡',
     color: '#F59E0B',
     primeDirective: 'Decide in 60 seconds',
-    description: 'For quick decisions using heuristics and pattern matching. Speed over perfection.',
+    description:
+      'For quick decisions using heuristics and pattern matching. Speed over perfection.',
     shortDesc: 'Quick decisions',
     category: 'decision-making',
     isCore: true,
-    useCases: ['Day-to-day operational decisions', 'Low-stakes choices', 'Time-sensitive opportunities', 'Quick sanity checks', 'Gut-check validations'],
+    useCases: [
+      'Day-to-day operational decisions',
+      'Low-stakes choices',
+      'Time-sensitive opportunities',
+      'Quick sanity checks',
+      'Gut-check validations',
+    ],
     leadAgent: 'chief',
     defaultAgents: ['chief', 'cfo', 'risk'], // Minimal team for speed
     agentBehaviors: [
@@ -652,7 +721,7 @@ Execute Stakeholder Analysis.`
       'Use heuristics and rules of thumb',
       'Chief makes immediate decision',
       'No lengthy analysis - pattern match to past decisions',
-      'Explicitly note if decision needs deeper review later'
+      'Explicitly note if decision needs deeper review later',
     ],
     systemPrompt: `### ROLE: The Council Rapid Decision Team
 
@@ -700,27 +769,34 @@ Use heuristics. Pattern match. Move on.
 - Comfortable with imperfection
 - "Good enough for now"
 
-Execute Rapid Decision.`
+Execute Rapid Decision.`,
   },
 
-  'advisory': {
+  advisory: {
     id: 'advisory',
     name: 'Advisory',
     emoji: '🎓',
     color: '#8B5CF6',
-    primeDirective: 'Educate, don\'t dictate',
-    description: 'For training situations where the goal is to help users understand, not just get an answer.',
+    primeDirective: "Educate, don't dictate",
+    description:
+      'For training situations where the goal is to help users understand, not just get an answer.',
     shortDesc: 'Training',
     category: 'creative',
-    useCases: ['New employee training', 'Customer onboarding', 'Stakeholder education', 'Best practice sharing', 'Framework teaching'],
+    useCases: [
+      'New employee training',
+      'Customer onboarding',
+      'Stakeholder education',
+      'Best practice sharing',
+      'Framework teaching',
+    ],
     leadAgent: 'chief',
     defaultAgents: ['chief', 'cfo', 'coo', 'cto'], // Teaching team
     agentBehaviors: [
-      'Explain the \'why\' behind every recommendation',
+      "Explain the 'why' behind every recommendation",
       'Teach frameworks and mental models',
       'Provide examples from similar situations',
       'Encourage questions',
-      'Build capability, not dependency'
+      'Build capability, not dependency',
     ],
     systemPrompt: `### ROLE: The Council Advisory Board
 
@@ -772,20 +848,27 @@ Build capability, not dependency. Teach the frameworks.
 - "In similar situations, we've seen..."
 - "A useful way to think about this is..."
 
-Execute Advisory Session.`
+Execute Advisory Session.`,
   },
 
-  'governance': {
+  governance: {
     id: 'governance',
     name: 'Governance',
     emoji: '🏛️',
     color: '#0F172A',
     primeDirective: 'Precedent matters',
-    description: 'For policy decisions that will set precedent. Focus on consistency, fairness, and long-term implications.',
+    description:
+      'For policy decisions that will set precedent. Focus on consistency, fairness, and long-term implications.',
     shortDesc: 'Policy creation',
     category: 'decision-making',
     isCore: true,
-    useCases: ['Policy creation', 'Exception requests', 'Standard setting', 'Procedure documentation', 'Governance framework design'],
+    useCases: [
+      'Policy creation',
+      'Exception requests',
+      'Standard setting',
+      'Procedure documentation',
+      'Governance framework design',
+    ],
     leadAgent: 'chief',
     defaultAgents: ['chief', 'clo', 'ciso', 'risk', 'chro'], // Governance focus
     agentBehaviors: [
@@ -793,7 +876,7 @@ Execute Advisory Session.`
       'Consider long-term implications',
       'Ensure consistency with existing policies',
       'Document rationale thoroughly',
-      'Build for exceptions, not just the rule'
+      'Build for exceptions, not just the rule',
     ],
     systemPrompt: `### ROLE: The Council Governance Board
 
@@ -850,23 +933,30 @@ Today's decision is tomorrow's policy. Document thoroughly.
 - "Future cases should..."
 - "Exceptions require approval by..."
 
-Execute Governance Review.`
+Execute Governance Review.`,
   },
 
   // =========================================================================
   // HEALTHCARE INDUSTRY MODES (Premium)
   // =========================================================================
-  
+
   'clinical-governance': {
     id: 'clinical-governance',
     name: 'Clinical Governance',
     emoji: '🏥',
     color: '#10B981',
     primeDirective: 'Patient Safety Above All',
-    description: 'For healthcare organizations making clinical policy, quality improvement, and patient safety decisions. All agents prioritize patient outcomes and regulatory compliance.',
+    description:
+      'For healthcare organizations making clinical policy, quality improvement, and patient safety decisions. All agents prioritize patient outcomes and regulatory compliance.',
     shortDesc: 'Clinical decisions',
     category: 'analysis',
-    useCases: ['Clinical policy decisions', 'Quality improvement initiatives', 'Patient safety events', 'Care delivery model changes', 'Health IT implementations'],
+    useCases: [
+      'Clinical policy decisions',
+      'Quality improvement initiatives',
+      'Patient safety events',
+      'Care delivery model changes',
+      'Health IT implementations',
+    ],
     leadAgent: 'cmio',
     defaultAgents: ['cmio', 'pso', 'hco', 'cod', 'risk'],
     agentBehaviors: [
@@ -874,7 +964,7 @@ Execute Governance Review.`
       'HCO must cite specific regulations (HIPAA, Joint Commission, CMS)',
       'CMIO must assess clinical workflow and technology impact',
       'COD must evaluate operational feasibility and staffing',
-      'All agents must consider vulnerable patient populations'
+      'All agents must consider vulnerable patient populations',
     ],
     systemPrompt: `### ROLE: The Healthcare Clinical Governance Council
 
@@ -911,7 +1001,7 @@ Every decision must be evaluated through the lens of patient outcomes.
 - Quality metrics to monitor
 - Patient communication requirements
 
-Execute Clinical Governance Review.`
+Execute Clinical Governance Review.`,
   },
 
   'healthcare-compliance': {
@@ -920,10 +1010,17 @@ Execute Clinical Governance Review.`
     emoji: '📋',
     color: '#EF4444',
     primeDirective: 'Document Everything, Assume Nothing',
-    description: 'For HIPAA assessments, billing compliance reviews, accreditation preparation, and regulatory audit responses. Rigorous documentation and citation of regulations.',
+    description:
+      'For HIPAA assessments, billing compliance reviews, accreditation preparation, and regulatory audit responses. Rigorous documentation and citation of regulations.',
     shortDesc: 'Compliance audits',
     category: 'analysis',
-    useCases: ['HIPAA risk assessments', 'Billing compliance reviews', 'Joint Commission prep', 'Audit response strategy', 'Corporate integrity monitoring'],
+    useCases: [
+      'HIPAA risk assessments',
+      'Billing compliance reviews',
+      'Joint Commission prep',
+      'Audit response strategy',
+      'Corporate integrity monitoring',
+    ],
     leadAgent: 'hco',
     defaultAgents: ['hco', 'pso', 'cmio', 'clo', 'risk'],
     agentBehaviors: [
@@ -931,7 +1028,7 @@ Execute Clinical Governance Review.`
       'Every recommendation must include audit trail requirements',
       'Risk must quantify regulatory exposure in dollars',
       'Timeline must account for corrective action periods',
-      'Include OIG, CMS, and state agency perspectives'
+      'Include OIG, CMS, and state agency perspectives',
     ],
     systemPrompt: `### ROLE: The Healthcare Compliance Council
 
@@ -977,7 +1074,7 @@ Assuming compliance without evidence is a violation waiting to happen.
 - Training requirements
 - Audit evidence needed
 
-Execute Compliance Assessment.`
+Execute Compliance Assessment.`,
   },
 
   'patient-safety': {
@@ -986,10 +1083,17 @@ Execute Compliance Assessment.`
     emoji: '🛡️',
     color: '#F59E0B',
     primeDirective: 'Find Root Cause, Prevent Recurrence',
-    description: 'For patient safety event analysis, root cause analysis, and quality improvement. Uses IHI and AHRQ methodologies for systematic improvement.',
+    description:
+      'For patient safety event analysis, root cause analysis, and quality improvement. Uses IHI and AHRQ methodologies for systematic improvement.',
     shortDesc: 'Safety analysis',
     category: 'analysis',
-    useCases: ['Adverse event analysis', 'Near-miss review', 'Root cause analysis', 'Corrective action planning', 'Safety culture improvement'],
+    useCases: [
+      'Adverse event analysis',
+      'Near-miss review',
+      'Root cause analysis',
+      'Corrective action planning',
+      'Safety culture improvement',
+    ],
     leadAgent: 'pso',
     defaultAgents: ['pso', 'cmio', 'cod', 'hco', 'chro'],
     agentBehaviors: [
@@ -997,7 +1101,7 @@ Execute Compliance Assessment.`
       'CMIO evaluates technology and clinical decision support gaps',
       'COD assesses workflow and staffing factors',
       'HCO determines reporting requirements',
-      'Focus on systems, not individuals'
+      'Focus on systems, not individuals',
     ],
     systemPrompt: `### ROLE: The Patient Safety Council
 
@@ -1052,7 +1156,7 @@ Blaming individuals solves nothing. Fix the system.
 
 **Reporting Required:** [External reporting obligations]
 
-Execute Safety Analysis.`
+Execute Safety Analysis.`,
   },
 
   'clinical-ops': {
@@ -1061,10 +1165,17 @@ Execute Safety Analysis.`
     emoji: '⚙️',
     color: '#6366F1',
     primeDirective: 'Efficiency Without Compromise',
-    description: 'For operational efficiency analysis, patient flow optimization, staffing models, and Lean Six Sigma healthcare applications.',
+    description:
+      'For operational efficiency analysis, patient flow optimization, staffing models, and Lean Six Sigma healthcare applications.',
     shortDesc: 'Ops optimization',
     category: 'planning',
-    useCases: ['ED throughput', 'OR efficiency', 'Staffing optimization', 'Patient flow', 'Capacity planning'],
+    useCases: [
+      'ED throughput',
+      'OR efficiency',
+      'Staffing optimization',
+      'Patient flow',
+      'Capacity planning',
+    ],
     leadAgent: 'cod',
     defaultAgents: ['cod', 'cmio', 'pso', 'cfo', 'chro'],
     agentBehaviors: [
@@ -1072,7 +1183,7 @@ Execute Safety Analysis.`
       'CMIO identifies technology enablers',
       'PSO ensures safety is not compromised for efficiency',
       'CFO validates financial impact',
-      'Use IHI improvement science'
+      'Use IHI improvement science',
     ],
     systemPrompt: `### ROLE: The Clinical Operations Council
 
@@ -1128,7 +1239,7 @@ Speed without safety is recklessness. Optimize the system.
 - Medium-term (30-90 days)
 - Long-term (90+ days)
 
-Execute Operational Analysis.`
+Execute Operational Analysis.`,
   },
 
   // =========================================================================
@@ -1141,10 +1252,17 @@ Execute Operational Analysis.`
     emoji: '📊',
     color: '#EF4444',
     primeDirective: 'Quantify, Stress, Prepare',
-    description: 'For credit decisions, portfolio risk reviews, stress testing, and capital allocation. Every risk must be quantified with specific metrics.',
+    description:
+      'For credit decisions, portfolio risk reviews, stress testing, and capital allocation. Every risk must be quantified with specific metrics.',
     shortDesc: 'Risk assessment',
     category: 'analysis',
-    useCases: ['Credit decisions', 'Portfolio risk reviews', 'Stress testing', 'Capital allocation', 'Regulatory examinations'],
+    useCases: [
+      'Credit decisions',
+      'Portfolio risk reviews',
+      'Stress testing',
+      'Capital allocation',
+      'Regulatory examinations',
+    ],
     leadAgent: 'cro-finance',
     defaultAgents: ['cro-finance', 'quant', 'pm', 'treasury', 'cfo'],
     agentBehaviors: [
@@ -1152,7 +1270,7 @@ Execute Operational Analysis.`
       'Quant must run stress scenarios for major proposals',
       'Treasury must assess liquidity implications',
       'Include regulatory capital impact',
-      'Reference Basel standards and Fed guidance'
+      'Reference Basel standards and Fed guidance',
     ],
     systemPrompt: `### ROLE: The Risk Committee Council
 
@@ -1203,7 +1321,7 @@ If you can't measure it, you can't manage it.
 - Risk mitigation requirements
 - Monitoring triggers
 
-Execute Risk Assessment.`
+Execute Risk Assessment.`,
   },
 
   'investment-committee': {
@@ -1212,10 +1330,17 @@ Execute Risk Assessment.`
     emoji: '💰',
     color: '#10B981',
     primeDirective: 'Risk-Adjusted Returns',
-    description: 'For portfolio allocation decisions, investment evaluation, strategy approval, and performance attribution. Focus on factor analysis and risk-adjusted returns.',
+    description:
+      'For portfolio allocation decisions, investment evaluation, strategy approval, and performance attribution. Focus on factor analysis and risk-adjusted returns.',
     shortDesc: 'Investment decisions',
     category: 'decision-making',
-    useCases: ['Portfolio allocation', 'New investment evaluation', 'Performance attribution', 'Strategy approval', 'Fee/expense analysis'],
+    useCases: [
+      'Portfolio allocation',
+      'New investment evaluation',
+      'Performance attribution',
+      'Strategy approval',
+      'Fee/expense analysis',
+    ],
     leadAgent: 'pm',
     defaultAgents: ['pm', 'quant', 'cro-finance', 'cfo', 'cio'],
     agentBehaviors: [
@@ -1223,7 +1348,7 @@ Execute Risk Assessment.`
       'Quant must provide factor analysis and risk decomposition',
       'CRO-Finance must assess credit and counterparty risk',
       'Include benchmark and peer comparison',
-      'Model multiple exit scenarios'
+      'Model multiple exit scenarios',
     ],
     systemPrompt: `### ROLE: The Investment Committee Council
 
@@ -1274,7 +1399,7 @@ Absolute returns mean nothing without risk context.
 - Conditions/triggers
 - Monitoring requirements
 
-Execute Investment Review.`
+Execute Investment Review.`,
   },
 
   'credit-review': {
@@ -1283,10 +1408,17 @@ Execute Investment Review.`
     emoji: '💳',
     color: '#F59E0B',
     primeDirective: 'Protect the Principal',
-    description: 'For loan underwriting decisions, credit portfolio reviews, and covenant monitoring. Apply 5 Cs analysis and Basel-compliant risk ratings.',
+    description:
+      'For loan underwriting decisions, credit portfolio reviews, and covenant monitoring. Apply 5 Cs analysis and Basel-compliant risk ratings.',
     shortDesc: 'Credit decisions',
     category: 'analysis',
-    useCases: ['Loan approvals', 'Credit line reviews', 'Covenant monitoring', 'Watch list management', 'Loss reserve analysis'],
+    useCases: [
+      'Loan approvals',
+      'Credit line reviews',
+      'Covenant monitoring',
+      'Watch list management',
+      'Loss reserve analysis',
+    ],
     leadAgent: 'cro-finance',
     defaultAgents: ['cro-finance', 'quant', 'treasury', 'clo', 'cfo'],
     agentBehaviors: [
@@ -1294,7 +1426,7 @@ Execute Investment Review.`
       'Quant provides PD/LGD modeling',
       'Treasury assesses funding and liquidity',
       'Legal reviews documentation and covenants',
-      'Risk-rate using standardized scale'
+      'Risk-rate using standardized scale',
     ],
     systemPrompt: `### ROLE: The Credit Review Council
 
@@ -1350,7 +1482,7 @@ Yield is meaningless if principal is impaired.
 - Pricing: [Spread + fees]
 - Monitoring requirements
 
-Execute Credit Review.`
+Execute Credit Review.`,
   },
 
   'treasury-ops': {
@@ -1359,10 +1491,17 @@ Execute Credit Review.`
     emoji: '🏦',
     color: '#6366F1',
     primeDirective: 'Liquidity is Life',
-    description: 'For cash management, FX hedging, interest rate risk, and capital structure optimization. Focus on liquidity and funding stability.',
+    description:
+      'For cash management, FX hedging, interest rate risk, and capital structure optimization. Focus on liquidity and funding stability.',
     shortDesc: 'Treasury planning',
     category: 'planning',
-    useCases: ['Liquidity planning', 'FX hedging', 'Interest rate management', 'Debt issuance', 'Cash deployment'],
+    useCases: [
+      'Liquidity planning',
+      'FX hedging',
+      'Interest rate management',
+      'Debt issuance',
+      'Cash deployment',
+    ],
     leadAgent: 'treasury',
     defaultAgents: ['treasury', 'quant', 'cro-finance', 'cfo', 'cio'],
     agentBehaviors: [
@@ -1370,7 +1509,7 @@ Execute Credit Review.`
       'Quant prices hedging alternatives',
       'CRO-Finance monitors counterparty exposure',
       'Consider hedge accounting implications',
-      'Optimize across risk and cost'
+      'Optimize across risk and cost',
     ],
     systemPrompt: `### ROLE: The Treasury Operations Council
 
@@ -1419,7 +1558,7 @@ Profitability means nothing if you can't meet obligations.
 - Funding optimization
 - Investment reallocation
 
-Execute Treasury Analysis.`
+Execute Treasury Analysis.`,
   },
 
   // =========================================================================
@@ -1432,10 +1571,17 @@ Execute Treasury Analysis.`
     emoji: '📝',
     color: '#10B981',
     primeDirective: 'Protect the Principal, Enable the Deal',
-    description: 'For M&A transactions, major commercial agreements, and strategic partnerships. Risk-rate clauses while finding paths to close.',
+    description:
+      'For M&A transactions, major commercial agreements, and strategic partnerships. Risk-rate clauses while finding paths to close.',
     shortDesc: 'Transaction support',
     category: 'decision-making',
-    useCases: ['M&A transactions', 'Major commercial agreements', 'Joint ventures', 'Licensing deals', 'Strategic partnerships'],
+    useCases: [
+      'M&A transactions',
+      'Major commercial agreements',
+      'Joint ventures',
+      'Licensing deals',
+      'Strategic partnerships',
+    ],
     leadAgent: 'contracts',
     defaultAgents: ['contracts', 'ip', 'regulatory', 'cfo', 'cro'],
     agentBehaviors: [
@@ -1443,7 +1589,7 @@ Execute Treasury Analysis.`
       'IP must verify all technology rights',
       'Regulatory must identify pre-closing requirements',
       'Include indemnification and escrow analysis',
-      'Flag conditions precedent and closing risks'
+      'Flag conditions precedent and closing risks',
     ],
     systemPrompt: `### ROLE: The Deal Room Council
 
@@ -1490,7 +1636,7 @@ Killing deals is easy. Creating value requires skill.
 - Trade-offs available
 - Walk-away triggers
 
-Execute Deal Analysis.`
+Execute Deal Analysis.`,
   },
 
   'litigation-war-room': {
@@ -1499,18 +1645,25 @@ Execute Deal Analysis.`
     emoji: '⚖️',
     color: '#EF4444',
     primeDirective: 'Know Weaknesses, Exploit Strengths',
-    description: 'For major litigation strategy, class action response, and settlement negotiations. Candid case assessment with best and worst case scenarios.',
+    description:
+      'For major litigation strategy, class action response, and settlement negotiations. Candid case assessment with best and worst case scenarios.',
     shortDesc: 'Litigation strategy',
     category: 'decision-making',
-    useCases: ['Major litigation strategy', 'Class action response', 'Regulatory enforcement', 'IP disputes', 'Settlement negotiations'],
+    useCases: [
+      'Major litigation strategy',
+      'Class action response',
+      'Regulatory enforcement',
+      'IP disputes',
+      'Settlement negotiations',
+    ],
     leadAgent: 'litigation',
     defaultAgents: ['litigation', 'ip', 'regulatory', 'contracts', 'risk'],
     agentBehaviors: [
       'Litigation must provide candid case assessment',
       'Include best, likely, and worst case scenarios',
-      'Analyze opponent\'s likely strategy',
+      "Analyze opponent's likely strategy",
       'Consider public relations implications',
-      'Budget must include all phases through appeal'
+      'Budget must include all phases through appeal',
     ],
     systemPrompt: `### ROLE: The Litigation War Room Council
 
@@ -1559,7 +1712,7 @@ Litigators who believe their own press releases lose.
 
 **Budget:** [Phases with estimates]
 
-Execute Litigation Analysis.`
+Execute Litigation Analysis.`,
   },
 
   'regulatory-response': {
@@ -1568,10 +1721,17 @@ Execute Litigation Analysis.`
     emoji: '🏛️',
     color: '#F59E0B',
     primeDirective: 'Cooperate Strategically',
-    description: 'For government investigations, enforcement actions, and regulatory examinations. Balance cooperation with protection of rights.',
+    description:
+      'For government investigations, enforcement actions, and regulatory examinations. Balance cooperation with protection of rights.',
     shortDesc: 'Agency response',
     category: 'analysis',
-    useCases: ['Government investigations', 'Enforcement actions', 'Regulatory examinations', 'Subpoena response', 'Self-disclosure decisions'],
+    useCases: [
+      'Government investigations',
+      'Enforcement actions',
+      'Regulatory examinations',
+      'Subpoena response',
+      'Self-disclosure decisions',
+    ],
     leadAgent: 'regulatory',
     defaultAgents: ['regulatory', 'litigation', 'ip', 'contracts', 'ciso'],
     agentBehaviors: [
@@ -1579,7 +1739,7 @@ Execute Litigation Analysis.`
       'Litigation preserves rights and privileges',
       'IP protects trade secrets from disclosure',
       'Contracts reviews third-party obligations',
-      'CISO manages document collection and security'
+      'CISO manages document collection and security',
     ],
     systemPrompt: `### ROLE: The Regulatory Response Council
 
@@ -1629,7 +1789,7 @@ Full cooperation isn't always in the client's interest.
 | Deadline | Action | Owner |
 |----------|--------|-------|
 
-Execute Regulatory Response.`
+Execute Regulatory Response.`,
   },
 
   'ip-strategy': {
@@ -1638,10 +1798,17 @@ Execute Regulatory Response.`
     emoji: '💡',
     color: '#6366F1',
     primeDirective: 'Protect Innovation, Enable Commerce',
-    description: 'For patent portfolio strategy, trademark clearance, licensing negotiations, and IP due diligence. Balance protection with business enablement.',
+    description:
+      'For patent portfolio strategy, trademark clearance, licensing negotiations, and IP due diligence. Balance protection with business enablement.',
     shortDesc: 'IP planning',
     category: 'planning',
-    useCases: ['Patent portfolio strategy', 'Trademark clearance', 'Licensing negotiations', 'IP due diligence', 'Freedom to operate'],
+    useCases: [
+      'Patent portfolio strategy',
+      'Trademark clearance',
+      'Licensing negotiations',
+      'IP due diligence',
+      'Freedom to operate',
+    ],
     leadAgent: 'ip',
     defaultAgents: ['ip', 'contracts', 'litigation', 'cto', 'cfo'],
     agentBehaviors: [
@@ -1649,7 +1816,7 @@ Execute Regulatory Response.`
       'Contracts structures licensing and assignments',
       'Litigation assesses enforcement viability',
       'CTO aligns with technology roadmap',
-      'CFO values IP assets and investments'
+      'CFO values IP assets and investments',
     ],
     systemPrompt: `### ROLE: The IP Strategy Council
 
@@ -1698,20 +1865,28 @@ IP exists to enable business, not obstruct it.
 - Infringement detection
 - Renewal calendar
 
-Execute IP Strategy Review.`
+Execute IP Strategy Review.`,
   },
 
   // CendiaUnion Employee Mode
-  'employee': {
+  employee: {
     id: 'employee',
     name: 'Employee Mode',
     emoji: '✊',
     color: '#3B82F6',
     primeDirective: 'Protect and advocate for employee rights',
-    description: 'Private employee advocacy mode. AI agents work FOR the employee, not management. Confidential burnout assessment, rights protection, and negotiation preparation.',
+    description:
+      'Private employee advocacy mode. AI agents work FOR the employee, not management. Confidential burnout assessment, rights protection, and negotiation preparation.',
     shortDesc: 'Employee advocacy',
     category: 'planning',
-    useCases: ['Raise negotiation prep', 'Burnout assessment', 'Rights violation reporting', 'Career coaching', 'Work-life balance', 'Grievance preparation'],
+    useCases: [
+      'Raise negotiation prep',
+      'Burnout assessment',
+      'Rights violation reporting',
+      'Career coaching',
+      'Work-life balance',
+      'Grievance preparation',
+    ],
     leadAgent: 'advocate',
     defaultAgents: ['advocate', 'coach', 'analyst', 'legal'],
     agentBehaviors: [
@@ -1720,7 +1895,7 @@ Execute IP Strategy Review.`
       'Never report to management',
       'Provide honest assessment',
       'Prepare for difficult conversations',
-      'Document everything for audit trail'
+      'Document everything for audit trail',
     ],
     systemPrompt: `### ROLE: Employee Advocacy Council
 
@@ -1749,11 +1924,11 @@ Execute IP Strategy Review.`
 ### OUTPUT:
 Burnout Assessment | Rights Status | Negotiation Brief | Action Plan
 
-REMINDER: This is 100% confidential. We are YOUR advocates.`
+REMINDER: This is 100% confidential. We are YOUR advocates.`,
   },
 };
 
 export const getMode = (id: string): CouncilMode => COUNCIL_MODES[id] || COUNCIL_MODES['war-room'];
-export const getModesByCategory = (category: string): CouncilMode[] => 
-  Object.values(COUNCIL_MODES).filter(m => m.category === category);
+export const getModesByCategory = (category: string): CouncilMode[] =>
+  Object.values(COUNCIL_MODES).filter((m) => m.category === category);
 export const getAllModes = (): CouncilMode[] => Object.values(COUNCIL_MODES);

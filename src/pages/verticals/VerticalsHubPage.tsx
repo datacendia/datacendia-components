@@ -60,7 +60,12 @@ const verticals: Vertical[] = [
     description: 'Fraud detection, regulatory intelligence, and credit decisioning',
     keyMetric: '40% fraud reduction',
     route: '/verticals/financial-services',
-    agents: ['Quantitative Analyst', 'Portfolio Manager', 'Credit Risk Officer', 'Treasury Analyst'],
+    agents: [
+      'Quantitative Analyst',
+      'Portfolio Manager',
+      'Credit Risk Officer',
+      'Treasury Analyst',
+    ],
     compliance: ['SOX', 'Basel III/IV', 'GDPR', 'AML/BSA', 'CFPB'],
     status: 'ga',
   },
@@ -104,7 +109,12 @@ const verticals: Vertical[] = [
     description: 'Pipeline decisions and regulatory acceleration for life sciences',
     keyMetric: '31% faster Phase II decisions',
     route: '/verticals/pharmaceutical',
-    agents: ['Chief Scientific Officer', 'Regulatory Affairs', 'Clinical Operations', 'Medical Affairs'],
+    agents: [
+      'Chief Scientific Officer',
+      'Regulatory Affairs',
+      'Clinical Operations',
+      'Medical Affairs',
+    ],
     compliance: ['21 CFR Part 11', 'FDA AI Guidance', 'GxP', 'ICH Guidelines'],
     status: 'ga',
   },
@@ -161,7 +171,12 @@ const verticals: Vertical[] = [
     description: 'Pricing optimization and revenue management intelligence',
     keyMetric: '19% margin improvement',
     route: '/verticals/retail-hospitality',
-    agents: ['Merchandising Director', 'Revenue Manager', 'Store Operations', 'Customer Experience'],
+    agents: [
+      'Merchandising Director',
+      'Revenue Manager',
+      'Store Operations',
+      'Customer Experience',
+    ],
     compliance: ['PCI-DSS', 'GDPR', 'CCPA', 'ADA'],
     status: 'ga',
   },
@@ -175,7 +190,12 @@ const verticals: Vertical[] = [
     description: 'Development decisions, project intelligence, and property analytics',
     keyMetric: '22% project cost savings',
     route: '/verticals/real-estate',
-    agents: ['Development Director', 'Construction Manager', 'Investment Analyst', 'Property Manager'],
+    agents: [
+      'Development Director',
+      'Construction Manager',
+      'Investment Analyst',
+      'Property Manager',
+    ],
     compliance: ['Zoning Laws', 'Building Codes', 'Environmental', 'ADA'],
     status: 'ga',
   },
@@ -260,7 +280,12 @@ const verticals: Vertical[] = [
     description: 'Network optimization and churn prediction',
     keyMetric: 'Coming Q2 2026',
     route: '/verticals/telecommunications',
-    agents: ['Network Operations', 'Customer Intelligence', 'Spectrum Manager', 'Revenue Assurance'],
+    agents: [
+      'Network Operations',
+      'Customer Intelligence',
+      'Spectrum Manager',
+      'Revenue Assurance',
+    ],
     compliance: ['FCC', 'CPNI', 'E911', 'Net Neutrality'],
     status: 'coming-soon',
   },
@@ -303,9 +328,8 @@ export const VerticalsHubPage: React.FC = () => {
   const [selectedTier, setSelectedTier] = useState<VerticalTier | 'all'>('all');
   const [hoveredVertical, setHoveredVertical] = useState<string | null>(null);
 
-  const filteredVerticals = selectedTier === 'all' 
-    ? verticals 
-    : verticals.filter(v => v.tier === selectedTier);
+  const filteredVerticals =
+    selectedTier === 'all' ? verticals : verticals.filter((v) => v.tier === selectedTier);
 
   const tierColors = {
     priority: 'border-primary-500 bg-primary-500/10',
@@ -330,8 +354,8 @@ export const VerticalsHubPage: React.FC = () => {
               Industry <span className="text-primary-400">Verticals</span>
             </h1>
             <p className="text-xl text-neutral-400 max-w-3xl mx-auto">
-              Purpose-built AI decision intelligence for regulated industries. 
-              Each vertical includes specialized agents, compliance frameworks, and industry-specific overlays.
+              Purpose-built AI decision intelligence for regulated industries. Each vertical
+              includes specialized agents, compliance frameworks, and industry-specific overlays.
             </p>
           </div>
 
@@ -342,8 +366,11 @@ export const VerticalsHubPage: React.FC = () => {
               { label: 'Healthcare Share', value: '43%', subtext: 'Largest vertical' },
               { label: 'Average ROI', value: '27%', subtext: '18-month benchmark' },
               { label: 'Time to Value', value: '2-4 wks', subtext: 'vs 6-18mo consulting' },
-            ].map(stat => (
-              <div key={stat.label} className="bg-neutral-800/50 rounded-xl p-6 border border-neutral-700 text-center">
+            ].map((stat) => (
+              <div
+                key={stat.label}
+                className="bg-neutral-800/50 rounded-xl p-6 border border-neutral-700 text-center"
+              >
                 <p className="text-3xl font-bold text-primary-400">{stat.value}</p>
                 <p className="font-medium mt-1">{stat.label}</p>
                 <p className="text-sm text-neutral-500">{stat.subtext}</p>
@@ -360,10 +387,22 @@ export const VerticalsHubPage: React.FC = () => {
           <div className="flex gap-2">
             {[
               { id: 'all', label: 'All Verticals', count: verticals.length },
-              { id: 'priority', label: '⭐ Priority', count: verticals.filter(v => v.tier === 'priority').length },
-              { id: 'growth', label: '📈 Growth', count: verticals.filter(v => v.tier === 'growth').length },
-              { id: 'coming-soon', label: '🔜 Coming Soon', count: verticals.filter(v => v.tier === 'coming-soon').length },
-            ].map(filter => (
+              {
+                id: 'priority',
+                label: '⭐ Priority',
+                count: verticals.filter((v) => v.tier === 'priority').length,
+              },
+              {
+                id: 'growth',
+                label: '📈 Growth',
+                count: verticals.filter((v) => v.tier === 'growth').length,
+              },
+              {
+                id: 'coming-soon',
+                label: '🔜 Coming Soon',
+                count: verticals.filter((v) => v.tier === 'coming-soon').length,
+              },
+            ].map((filter) => (
               <button
                 key={filter.id}
                 onClick={() => setSelectedTier(filter.id as typeof selectedTier)}
@@ -379,13 +418,15 @@ export const VerticalsHubPage: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-2 text-sm text-neutral-400">
-            <span>Showing {filteredVerticals.length} of {verticals.length}</span>
+            <span>
+              Showing {filteredVerticals.length} of {verticals.length}
+            </span>
           </div>
         </div>
 
         {/* Vertical Grid */}
         <div className="grid grid-cols-3 gap-6">
-          {filteredVerticals.map(vertical => (
+          {filteredVerticals.map((vertical) => (
             <div
               key={vertical.id}
               onClick={() => vertical.status !== 'coming-soon' && navigate(vertical.route)}
@@ -397,11 +438,15 @@ export const VerticalsHubPage: React.FC = () => {
             >
               {/* Tier Badge */}
               <div className="absolute top-4 right-4">
-                <span className={`px-2 py-1 rounded text-xs font-medium ${
-                  vertical.tier === 'priority' ? 'bg-primary-500/20 text-primary-400' :
-                  vertical.tier === 'growth' ? 'bg-green-500/20 text-green-400' :
-                  'bg-neutral-500/20 text-neutral-400'
-                }`}>
+                <span
+                  className={`px-2 py-1 rounded text-xs font-medium ${
+                    vertical.tier === 'priority'
+                      ? 'bg-primary-500/20 text-primary-400'
+                      : vertical.tier === 'growth'
+                        ? 'bg-green-500/20 text-green-400'
+                        : 'bg-neutral-500/20 text-neutral-400'
+                  }`}
+                >
                   {tierLabels[vertical.tier].badge}
                 </span>
               </div>
@@ -412,7 +457,9 @@ export const VerticalsHubPage: React.FC = () => {
                 <div>
                   <h3 className="text-xl font-bold">{vertical.name}</h3>
                   {vertical.marketShare && (
-                    <p className="text-sm text-neutral-400">{vertical.marketShare} of vertical AI market</p>
+                    <p className="text-sm text-neutral-400">
+                      {vertical.marketShare} of vertical AI market
+                    </p>
                   )}
                 </div>
               </div>
@@ -442,7 +489,7 @@ export const VerticalsHubPage: React.FC = () => {
               <div className="mb-4">
                 <p className="text-xs text-neutral-400 mb-2">Specialized Agents</p>
                 <div className="flex flex-wrap gap-1">
-                  {vertical.agents.slice(0, 3).map(agent => (
+                  {vertical.agents.slice(0, 3).map((agent) => (
                     <span key={agent} className="px-2 py-0.5 bg-neutral-800 rounded text-xs">
                       {agent}
                     </span>
@@ -459,8 +506,11 @@ export const VerticalsHubPage: React.FC = () => {
               <div>
                 <p className="text-xs text-neutral-400 mb-2">Compliance Frameworks</p>
                 <div className="flex flex-wrap gap-1">
-                  {vertical.compliance.slice(0, 4).map(c => (
-                    <span key={c} className="px-2 py-0.5 bg-neutral-700/50 rounded text-xs text-neutral-300">
+                  {vertical.compliance.slice(0, 4).map((c) => (
+                    <span
+                      key={c}
+                      className="px-2 py-0.5 bg-neutral-700/50 rounded text-xs text-neutral-300"
+                    >
                       {c}
                     </span>
                   ))}
@@ -501,13 +551,13 @@ export const VerticalsHubPage: React.FC = () => {
             Our platform works across industries. Many customers use multiple vertical packs.
           </p>
           <div className="flex justify-center gap-4">
-            <button 
+            <button
               onClick={() => navigate('/demo')}
               className="px-6 py-3 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition-colors"
             >
               Request Demo
             </button>
-            <button 
+            <button
               onClick={() => navigate('/pricing')}
               className="px-6 py-3 border border-neutral-600 text-white rounded-lg font-medium hover:bg-neutral-800 transition-colors"
             >

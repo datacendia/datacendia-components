@@ -1,18 +1,18 @@
 // =============================================================================
 // CENDIA APOTHEOSIS™ — ORGANIZATIONAL SUPERINTELLIGENCE ENGINE
-// "We don't just make your company smarter today. We make it literally 
+// "We don't just make your company smarter today. We make it literally
 // impossible for you to stay stupid tomorrow."
 // =============================================================================
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { 
-  apotheosisService, 
-  ApotheosisScore, 
-  ApotheosisRun, 
-  Escalation, 
-  PatternBan, 
-  UpskillAssignment 
+import {
+  apotheosisService,
+  ApotheosisScore,
+  ApotheosisRun,
+  Escalation,
+  PatternBan,
+  UpskillAssignment,
 } from '../../../services/ApotheosisService';
 
 // =============================================================================
@@ -41,7 +41,7 @@ const getTimeRemaining = (deadline: Date | string): string => {
   const diff = target.getTime() - now.getTime();
   const hours = Math.floor(diff / (1000 * 60 * 60));
   const days = Math.floor(hours / 24);
-  
+
   if (days > 0) return `${days} days remaining`;
   if (hours > 0) return `${hours} hours remaining`;
   return 'Overdue';
@@ -58,7 +58,9 @@ export const ApotheosisPage: React.FC = () => {
   const [escalations, setEscalations] = useState<Escalation[]>([]);
   const [bannedPatterns, setBannedPatterns] = useState<PatternBan[]>([]);
   const [upskillAssignments, setUpskillAssignments] = useState<UpskillAssignment[]>([]);
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'escalations' | 'patterns' | 'upskill' | 'history'>('dashboard');
+  const [activeTab, setActiveTab] = useState<
+    'dashboard' | 'escalations' | 'patterns' | 'upskill' | 'history'
+  >('dashboard');
   const [isLoading, setIsLoading] = useState(true);
 
   const loadData = useCallback(async () => {
@@ -71,7 +73,7 @@ export const ApotheosisPage: React.FC = () => {
         apotheosisService.getBannedPatterns(),
         apotheosisService.getUpskillAssignments(),
       ]);
-      
+
       setScore(scoreData);
       setLatestRun(runData);
       setEscalations(escData);
@@ -88,7 +90,10 @@ export const ApotheosisPage: React.FC = () => {
     loadData();
   }, [loadData]);
 
-  const handleEscalationResponse = async (id: string, response: 'approved' | 'rejected' | 'deferred') => {
+  const handleEscalationResponse = async (
+    id: string,
+    response: 'approved' | 'rejected' | 'deferred'
+  ) => {
     const reason = prompt(`Enter reason for ${response}:`);
     if (reason) {
       await apotheosisService.respondToEscalation(id, response, reason);
@@ -138,10 +143,15 @@ export const ApotheosisPage: React.FC = () => {
             {[
               { id: 'dashboard', label: 'Dashboard', icon: '📊' },
               { id: 'escalations', label: 'Escalations', icon: '⚠️', count: escalations.length },
-              { id: 'patterns', label: 'Banned Patterns', icon: '🚫', count: bannedPatterns.length },
+              {
+                id: 'patterns',
+                label: 'Banned Patterns',
+                icon: '🚫',
+                count: bannedPatterns.length,
+              },
               { id: 'upskill', label: 'Upskilling', icon: '📚', count: upskillAssignments.length },
               { id: 'history', label: 'Run History', icon: '📜' },
-            ].map(tab => (
+            ].map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
@@ -182,25 +192,16 @@ export const ApotheosisPage: React.FC = () => {
                 onEscalationResponse={handleEscalationResponse}
               />
             )}
-            
+
             {activeTab === 'escalations' && (
-              <EscalationsView
-                escalations={escalations}
-                onResponse={handleEscalationResponse}
-              />
+              <EscalationsView escalations={escalations} onResponse={handleEscalationResponse} />
             )}
-            
-            {activeTab === 'patterns' && (
-              <BannedPatternsView patterns={bannedPatterns} />
-            )}
-            
-            {activeTab === 'upskill' && (
-              <UpskillView assignments={upskillAssignments} />
-            )}
-            
-            {activeTab === 'history' && (
-              <HistoryView />
-            )}
+
+            {activeTab === 'patterns' && <BannedPatternsView patterns={bannedPatterns} />}
+
+            {activeTab === 'upskill' && <UpskillView assignments={upskillAssignments} />}
+
+            {activeTab === 'history' && <HistoryView />}
           </>
         )}
       </main>
@@ -268,7 +269,9 @@ const DashboardView: React.FC<DashboardViewProps> = ({
               <div className="text-xs text-white/50 mt-2 capitalize">
                 {key.replace(/([A-Z])/g, ' $1').trim()}
               </div>
-              <div className="text-xs text-white/30">({(comp.weight * 100).toFixed(0)}% weight)</div>
+              <div className="text-xs text-white/30">
+                ({(comp.weight * 100).toFixed(0)}% weight)
+              </div>
             </div>
           ))}
         </div>
@@ -282,15 +285,20 @@ const DashboardView: React.FC<DashboardViewProps> = ({
             {formatDate(latestRun.startedAt)} {formatTime(latestRun.startedAt)}
           </span>
         </div>
-        
+
         <div className="grid grid-cols-4 gap-4">
           <div className="bg-black/20 rounded-xl p-4 text-center">
-            <div className="text-3xl font-bold text-white">{latestRun.scenariosTested.toLocaleString()}</div>
+            <div className="text-3xl font-bold text-white">
+              {latestRun.scenariosTested.toLocaleString()}
+            </div>
             <div className="text-sm text-white/50 mt-1">Scenarios Tested</div>
           </div>
           <div className="bg-black/20 rounded-xl p-4 text-center">
             <div className="text-3xl font-bold text-amber-400">
-              {latestRun.criticalCount + latestRun.highCount + latestRun.mediumCount + latestRun.lowCount}
+              {latestRun.criticalCount +
+                latestRun.highCount +
+                latestRun.mediumCount +
+                latestRun.lowCount}
             </div>
             <div className="text-sm text-white/50 mt-1">Weaknesses Found</div>
             <div className="text-xs text-white/30 mt-1">
@@ -313,7 +321,7 @@ const DashboardView: React.FC<DashboardViewProps> = ({
         <div className="bg-white/5 rounded-xl border border-white/10 p-6">
           <h3 className="text-lg font-semibold mb-4">Pending Human Decisions</h3>
           <div className="space-y-4">
-            {escalations.slice(0, 3).map(esc => (
+            {escalations.slice(0, 3).map((esc) => (
               <div
                 key={esc.id}
                 className={`rounded-xl p-4 border ${
@@ -327,9 +335,11 @@ const DashboardView: React.FC<DashboardViewProps> = ({
                     <span className="text-xl">{esc.severity === 'critical' ? '⚠️' : '🟡'}</span>
                     <div>
                       <div className="flex items-center gap-2">
-                        <span className={`text-xs px-2 py-0.5 rounded-full ${
-                          esc.severity === 'critical' ? 'bg-red-500/30' : 'bg-amber-500/30'
-                        }`}>
+                        <span
+                          className={`text-xs px-2 py-0.5 rounded-full ${
+                            esc.severity === 'critical' ? 'bg-red-500/30' : 'bg-amber-500/30'
+                          }`}
+                        >
                           {esc.severity.toUpperCase()}
                         </span>
                         <h4 className="font-semibold">{esc.title}</h4>
@@ -374,15 +384,20 @@ const DashboardView: React.FC<DashboardViewProps> = ({
         <div className="bg-white/5 rounded-xl border border-white/10 p-6">
           <h3 className="text-lg font-semibold mb-4">Humans Requiring Upskill</h3>
           <div className="space-y-3">
-            {upskillAssignments.map(assignment => (
-              <div key={assignment.id} className="flex items-center justify-between p-3 bg-black/20 rounded-lg">
+            {upskillAssignments.map((assignment) => (
+              <div
+                key={assignment.id}
+                className="flex items-center justify-between p-3 bg-black/20 rounded-lg"
+              >
                 <div>
                   <div className="font-medium">{assignment.userName}</div>
                   <div className="text-sm text-white/50">{assignment.gapIdentified}</div>
                 </div>
                 <div className="text-right">
                   <div className="text-sm">{assignment.trainingDuration} min</div>
-                  <div className="text-xs text-white/50">{getTimeRemaining(assignment.deadline)}</div>
+                  <div className="text-xs text-white/50">
+                    {getTimeRemaining(assignment.deadline)}
+                  </div>
                 </div>
               </div>
             ))}
@@ -393,8 +408,11 @@ const DashboardView: React.FC<DashboardViewProps> = ({
         <div className="bg-white/5 rounded-xl border border-white/10 p-6">
           <h3 className="text-lg font-semibold mb-4">Banned Patterns</h3>
           <div className="space-y-3">
-            {bannedPatterns.map(pattern => (
-              <div key={pattern.id} className="flex items-center justify-between p-3 bg-black/20 rounded-lg">
+            {bannedPatterns.map((pattern) => (
+              <div
+                key={pattern.id}
+                className="flex items-center justify-between p-3 bg-black/20 rounded-lg"
+              >
                 <div>
                   <div className="font-medium">{pattern.pattern}</div>
                   <div className="text-sm text-white/50">Banned {formatDate(pattern.bannedAt)}</div>
@@ -428,14 +446,14 @@ const EscalationsView: React.FC<EscalationsViewProps> = ({ escalations, onRespon
         <h2 className="text-xl font-bold">Pending Escalations</h2>
         <span className="text-white/50">{escalations.length} items requiring human decision</span>
       </div>
-      
+
       {escalations.length === 0 ? (
         <div className="text-center py-12 text-white/50">
           <span className="text-4xl mb-4 block">✓</span>
           No pending escalations. All clear!
         </div>
       ) : (
-        escalations.map(esc => (
+        escalations.map((esc) => (
           <div
             key={esc.id}
             className={`rounded-xl p-6 border ${
@@ -448,16 +466,18 @@ const EscalationsView: React.FC<EscalationsViewProps> = ({ escalations, onRespon
               <span className="text-2xl">{esc.severity === 'critical' ? '⚠️' : '🟡'}</span>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className={`text-xs px-2 py-0.5 rounded-full ${
-                    esc.severity === 'critical' ? 'bg-red-500/30' : 'bg-amber-500/30'
-                  }`}>
+                  <span
+                    className={`text-xs px-2 py-0.5 rounded-full ${
+                      esc.severity === 'critical' ? 'bg-red-500/30' : 'bg-amber-500/30'
+                    }`}
+                  >
                     {esc.severity.toUpperCase()}
                   </span>
                   <h3 className="text-lg font-semibold">{esc.title}</h3>
                 </div>
-                
+
                 <p className="text-white/70 mb-4">{esc.description}</p>
-                
+
                 <div className="grid grid-cols-3 gap-4 mb-4 text-sm">
                   <div className="bg-black/20 rounded-lg p-3">
                     <div className="text-white/50">Reason for escalation</div>
@@ -465,14 +485,18 @@ const EscalationsView: React.FC<EscalationsViewProps> = ({ escalations, onRespon
                   </div>
                   <div className="bg-black/20 rounded-lg p-3">
                     <div className="text-white/50">Estimated cost to fix</div>
-                    <div className="font-medium text-green-400">{formatCurrency(esc.estimatedCostToFix)}</div>
+                    <div className="font-medium text-green-400">
+                      {formatCurrency(esc.estimatedCostToFix)}
+                    </div>
                   </div>
                   <div className="bg-black/20 rounded-lg p-3">
                     <div className="text-white/50">Risk if not fixed</div>
-                    <div className="font-medium text-red-400">{formatCurrency(esc.riskIfNotFixed)}</div>
+                    <div className="font-medium text-red-400">
+                      {formatCurrency(esc.riskIfNotFixed)}
+                    </div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-white/50">
                     Deadline: {getTimeRemaining(esc.deadline)}
@@ -522,8 +546,8 @@ const BannedPatternsView: React.FC<BannedPatternsViewProps> = ({ patterns }) => 
         <h2 className="text-xl font-bold">Banned Decision Patterns</h2>
         <span className="text-white/50">{patterns.length} patterns banned</span>
       </div>
-      
-      {patterns.map(pattern => (
+
+      {patterns.map((pattern) => (
         <div key={pattern.id} className="bg-white/5 rounded-xl border border-white/10 p-6">
           <div className="flex items-start justify-between mb-4">
             <div>
@@ -535,30 +559,38 @@ const BannedPatternsView: React.FC<BannedPatternsViewProps> = ({ patterns }) => 
             </div>
             <div className="text-right">
               <div className="text-red-400 font-bold">{pattern.failureRate}% failure rate</div>
-              <div className="text-sm text-white/50">Total cost: {formatCurrency(pattern.totalCost)}</div>
+              <div className="text-sm text-white/50">
+                Total cost: {formatCurrency(pattern.totalCost)}
+              </div>
             </div>
           </div>
-          
+
           <div className="bg-black/20 rounded-lg p-4 mb-4">
-            <h4 className="text-sm font-medium text-white/50 mb-3">Instances that led to this ban:</h4>
+            <h4 className="text-sm font-medium text-white/50 mb-3">
+              Instances that led to this ban:
+            </h4>
             <div className="space-y-2">
               {pattern.instances.map((instance, i) => (
                 <div key={i} className="flex items-center justify-between text-sm">
                   <div className="flex items-center gap-2">
-                    <span className={instance.outcome === 'failure' ? 'text-red-400' : 'text-green-400'}>
+                    <span
+                      className={instance.outcome === 'failure' ? 'text-red-400' : 'text-green-400'}
+                    >
                       {instance.outcome === 'failure' ? '❌' : '✓'}
                     </span>
                     <span>{instance.decisionTitle}</span>
                   </div>
                   <div className="flex items-center gap-4 text-white/50">
                     <span>{formatDate(instance.date)}</span>
-                    {instance.cost && <span className="text-red-400">{formatCurrency(instance.cost)}</span>}
+                    {instance.cost && (
+                      <span className="text-red-400">{formatCurrency(instance.cost)}</span>
+                    )}
                   </div>
                 </div>
               ))}
             </div>
           </div>
-          
+
           <div className="flex items-center justify-between text-sm">
             <div className="text-white/50">
               Banned: {formatDate(pattern.bannedAt)} by {pattern.bannedBy}
@@ -584,10 +616,14 @@ interface UpskillViewProps {
 const UpskillView: React.FC<UpskillViewProps> = ({ assignments }) => {
   const getStatusColor = (status: UpskillAssignment['status']) => {
     switch (status) {
-      case 'completed': return 'text-green-400 bg-green-500/20';
-      case 'in_progress': return 'text-blue-400 bg-blue-500/20';
-      case 'overdue': return 'text-red-400 bg-red-500/20';
-      default: return 'text-amber-400 bg-amber-500/20';
+      case 'completed':
+        return 'text-green-400 bg-green-500/20';
+      case 'in_progress':
+        return 'text-blue-400 bg-blue-500/20';
+      case 'overdue':
+        return 'text-red-400 bg-red-500/20';
+      default:
+        return 'text-amber-400 bg-amber-500/20';
     }
   };
 
@@ -597,8 +633,8 @@ const UpskillView: React.FC<UpskillViewProps> = ({ assignments }) => {
         <h2 className="text-xl font-bold">Human Upskill Assignments</h2>
         <span className="text-white/50">{assignments.length} active assignments</span>
       </div>
-      
-      {assignments.map(assignment => (
+
+      {assignments.map((assignment) => (
         <div key={assignment.id} className="bg-white/5 rounded-xl border border-white/10 p-6">
           <div className="flex items-start justify-between mb-4">
             <div>
@@ -613,7 +649,9 @@ const UpskillView: React.FC<UpskillViewProps> = ({ assignments }) => {
               </div>
             </div>
             <div className="text-right">
-              <span className={`px-2 py-1 rounded text-xs font-medium ${getStatusColor(assignment.status)}`}>
+              <span
+                className={`px-2 py-1 rounded text-xs font-medium ${getStatusColor(assignment.status)}`}
+              >
                 {assignment.status.replace('_', ' ').toUpperCase()}
               </span>
               {assignment.blockingActions && (
@@ -621,7 +659,7 @@ const UpskillView: React.FC<UpskillViewProps> = ({ assignments }) => {
               )}
             </div>
           </div>
-          
+
           <div className="bg-black/20 rounded-lg p-4 mb-4">
             <div className="flex items-center justify-between mb-3">
               <h4 className="font-medium">{assignment.trainingTopic}</h4>
@@ -641,7 +679,7 @@ const UpskillView: React.FC<UpskillViewProps> = ({ assignments }) => {
               ))}
             </div>
           </div>
-          
+
           <div className="flex items-center justify-between text-sm">
             <span className="text-white/50">Deadline: {getTimeRemaining(assignment.deadline)}</span>
             <button className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium transition-colors">
@@ -685,7 +723,7 @@ const HistoryView: React.FC = () => {
         <h2 className="text-xl font-bold">Run History</h2>
         <span className="text-white/50">Last 14 days</span>
       </div>
-      
+
       <div className="bg-white/5 rounded-xl border border-white/10 overflow-hidden">
         <table className="w-full">
           <thead className="bg-black/20">
@@ -700,7 +738,7 @@ const HistoryView: React.FC = () => {
             </tr>
           </thead>
           <tbody className="divide-y divide-white/5">
-            {runs.map(run => (
+            {runs.map((run) => (
               <tr key={run.id} className="hover:bg-white/5">
                 <td className="px-4 py-3">
                   <div>{formatDate(run.startedAt)}</div>
@@ -721,7 +759,8 @@ const HistoryView: React.FC = () => {
                 <td className="px-4 py-3 font-medium">{run.apotheosisScore.toFixed(1)}%</td>
                 <td className="px-4 py-3">
                   <span className={run.scoreDelta >= 0 ? 'text-green-400' : 'text-red-400'}>
-                    {run.scoreDelta >= 0 ? '+' : ''}{run.scoreDelta.toFixed(1)}
+                    {run.scoreDelta >= 0 ? '+' : ''}
+                    {run.scoreDelta.toFixed(1)}
                   </span>
                 </td>
               </tr>

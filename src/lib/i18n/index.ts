@@ -3,7 +3,14 @@
 // Enterprise-grade multi-language support
 // =============================================================================
 
-import React, { createContext, useContext, useState, useCallback, useEffect, ReactNode } from 'react';
+import React, {
+  createContext,
+  useContext,
+  useState,
+  useCallback,
+  useEffect,
+  ReactNode,
+} from 'react';
 
 // Import all locales - 20 languages
 // The Americas
@@ -37,17 +44,33 @@ import tl from './locales/tl.json';
 // TYPES
 // =============================================================================
 
-export type SupportedLocale = 
+export type SupportedLocale =
   // The Americas
-  | 'en' | 'es' | 'pt'
+  | 'en'
+  | 'es'
+  | 'pt'
   // Europe
-  | 'fr' | 'de' | 'it' | 'pl' | 'tr'
+  | 'fr'
+  | 'de'
+  | 'it'
+  | 'pl'
+  | 'tr'
   // Middle East & Africa
-  | 'ar' | 'he' | 'sw'
+  | 'ar'
+  | 'he'
+  | 'sw'
   // South Asia
-  | 'hi' | 'bn' | 'ur'
+  | 'hi'
+  | 'bn'
+  | 'ur'
   // East & Southeast Asia
-  | 'zh' | 'ja' | 'ko' | 'id' | 'vi' | 'th' | 'tl';
+  | 'zh'
+  | 'ja'
+  | 'ko'
+  | 'id'
+  | 'vi'
+  | 'th'
+  | 'tl';
 
 export interface LocaleConfig {
   code: SupportedLocale;
@@ -315,14 +338,14 @@ const translations: Record<SupportedLocale, Record<string, unknown>> = {
 function getNestedValue(obj: Record<string, unknown>, path: string): string | undefined {
   const keys = path.split('.');
   let current: unknown = obj;
-  
+
   for (const key of keys) {
     if (current === null || current === undefined || typeof current !== 'object') {
       return undefined;
     }
     current = (current as Record<string, unknown>)[key];
   }
-  
+
   return typeof current === 'string' ? current : undefined;
 }
 
@@ -330,8 +353,10 @@ function getNestedValue(obj: Record<string, unknown>, path: string): string | un
  * Interpolate parameters into translation string
  */
 function interpolate(str: string, params?: Record<string, string | number>): string {
-  if (!params) {return str;}
-  
+  if (!params) {
+    return str;
+  }
+
   return str.replace(/\{\{(\w+)\}\}/g, (_, key) => {
     return params[key]?.toString() ?? `{{${key}}}`;
   });
@@ -341,15 +366,17 @@ function interpolate(str: string, params?: Record<string, string | number>): str
  * Detect user's preferred locale from browser
  */
 export function detectBrowserLocale(): SupportedLocale {
-  if (typeof window === 'undefined') {return 'en';}
-  
+  if (typeof window === 'undefined') {
+    return 'en';
+  }
+
   const browserLang = navigator.language.split('-')[0];
   const supportedLocales = Object.keys(localeConfigs) as SupportedLocale[];
-  
+
   if (supportedLocales.includes(browserLang as SupportedLocale)) {
     return browserLang as SupportedLocale;
   }
-  
+
   return 'en';
 }
 
@@ -357,13 +384,15 @@ export function detectBrowserLocale(): SupportedLocale {
  * Get stored locale from localStorage
  */
 export function getStoredLocale(): SupportedLocale | null {
-  if (typeof window === 'undefined') {return null;}
-  
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
   const stored = localStorage.getItem('datacendia_locale');
   if (stored && Object.keys(localeConfigs).includes(stored)) {
     return stored as SupportedLocale;
   }
-  
+
   return null;
 }
 
@@ -391,10 +420,7 @@ interface I18nProviderProps {
   defaultLocale?: SupportedLocale;
 }
 
-export const I18nProvider: React.FC<I18nProviderProps> = ({ 
-  children, 
-  defaultLocale 
-}) => {
+export const I18nProvider: React.FC<I18nProviderProps> = ({ children, defaultLocale }) => {
   const [locale, setLocaleState] = useState<SupportedLocale>(() => {
     // Priority: stored > default > browser detection > 'en'
     return getStoredLocale() || defaultLocale || detectBrowserLocale();
@@ -416,71 +442,96 @@ export const I18nProvider: React.FC<I18nProviderProps> = ({
   /**
    * Translate function
    */
-  const t = useCallback((key: string, params?: Record<string, string | number>): string => {
-    const translation = getNestedValue(translations[locale], key);
-    
-    if (!translation) {
-      // Fallback to English
-      const fallback = getNestedValue(translations.en, key);
-      if (fallback) {
-        return interpolate(fallback, params);
+  const t = useCallback(
+    (key: string, params?: Record<string, string | number>): string => {
+      const translation = getNestedValue(translations[locale], key);
+
+      if (!translation) {
+        // Fallback to English
+        const fallback = getNestedValue(translations.en, key);
+        if (fallback) {
+          return interpolate(fallback, params);
+        }
+        // Return key if no translation found
+        console.warn(`[i18n] Missing translation for key: ${key}`);
+        return key;
       }
-      // Return key if no translation found
-      console.warn(`[i18n] Missing translation for key: ${key}`);
-      return key;
-    }
-    
-    return interpolate(translation, params);
-  }, [locale]);
+
+      return interpolate(translation, params);
+    },
+    [locale]
+  );
 
   /**
    * Format number according to locale
    */
-  const formatNumber = useCallback((value: number, options?: Intl.NumberFormatOptions): string => {
-    return new Intl.NumberFormat(locale, options).format(value);
-  }, [locale]);
+  const formatNumber = useCallback(
+    (value: number, options?: Intl.NumberFormatOptions): string => {
+      return new Intl.NumberFormat(locale, options).format(value);
+    },
+    [locale]
+  );
 
   /**
    * Format currency
    */
-  const formatCurrency = useCallback((value: number, currency?: string): string => {
-    return new Intl.NumberFormat(locale, {
-      style: 'currency',
-      currency: currency || localeConfig.numberFormat.currency,
-    }).format(value);
-  }, [locale, localeConfig]);
+  const formatCurrency = useCallback(
+    (value: number, currency?: string): string => {
+      return new Intl.NumberFormat(locale, {
+        style: 'currency',
+        currency: currency || localeConfig.numberFormat.currency,
+      }).format(value);
+    },
+    [locale, localeConfig]
+  );
 
   /**
    * Format date
    */
-  const formatDate = useCallback((date: Date | string, options?: Intl.DateTimeFormatOptions): string => {
-    const dateObj = typeof date === 'string' ? new Date(date) : date;
-    return new Intl.DateTimeFormat(locale, options).format(dateObj);
-  }, [locale]);
+  const formatDate = useCallback(
+    (date: Date | string, options?: Intl.DateTimeFormatOptions): string => {
+      const dateObj = typeof date === 'string' ? new Date(date) : date;
+      return new Intl.DateTimeFormat(locale, options).format(dateObj);
+    },
+    [locale]
+  );
 
   /**
    * Format relative time (e.g., "2 hours ago")
    */
-  const formatRelativeTime = useCallback((date: Date | string): string => {
-    const dateObj = typeof date === 'string' ? new Date(date) : date;
-    const now = new Date();
-    const diffMs = now.getTime() - dateObj.getTime();
-    const diffSec = Math.floor(diffMs / 1000);
-    const diffMin = Math.floor(diffSec / 60);
-    const diffHour = Math.floor(diffMin / 60);
-    const diffDay = Math.floor(diffHour / 24);
-    const diffWeek = Math.floor(diffDay / 7);
+  const formatRelativeTime = useCallback(
+    (date: Date | string): string => {
+      const dateObj = typeof date === 'string' ? new Date(date) : date;
+      const now = new Date();
+      const diffMs = now.getTime() - dateObj.getTime();
+      const diffSec = Math.floor(diffMs / 1000);
+      const diffMin = Math.floor(diffSec / 60);
+      const diffHour = Math.floor(diffMin / 60);
+      const diffDay = Math.floor(diffHour / 24);
+      const diffWeek = Math.floor(diffDay / 7);
 
-    const rtf = new Intl.RelativeTimeFormat(locale, { numeric: 'auto' });
+      const rtf = new Intl.RelativeTimeFormat(locale, { numeric: 'auto' });
 
-    if (diffSec < 60) {return rtf.format(-diffSec, 'second');}
-    if (diffMin < 60) {return rtf.format(-diffMin, 'minute');}
-    if (diffHour < 24) {return rtf.format(-diffHour, 'hour');}
-    if (diffDay < 7) {return rtf.format(-diffDay, 'day');}
-    if (diffWeek < 4) {return rtf.format(-diffWeek, 'week');}
-    
-    return formatDate(dateObj);
-  }, [locale, formatDate]);
+      if (diffSec < 60) {
+        return rtf.format(-diffSec, 'second');
+      }
+      if (diffMin < 60) {
+        return rtf.format(-diffMin, 'minute');
+      }
+      if (diffHour < 24) {
+        return rtf.format(-diffHour, 'hour');
+      }
+      if (diffDay < 7) {
+        return rtf.format(-diffDay, 'day');
+      }
+      if (diffWeek < 4) {
+        return rtf.format(-diffWeek, 'week');
+      }
+
+      return formatDate(dateObj);
+    },
+    [locale, formatDate]
+  );
 
   const value: I18nContextType = {
     locale,

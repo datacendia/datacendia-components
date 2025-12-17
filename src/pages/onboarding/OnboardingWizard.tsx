@@ -93,39 +93,39 @@ export const OnboardingWizard: React.FC = () => {
   };
 
   const updateOrg = (field: string, value: string) => {
-    setData(prev => ({
+    setData((prev) => ({
       ...prev,
       organization: { ...prev.organization, [field]: value },
     }));
   };
 
   const toggleDataSource = (source: string) => {
-    setData(prev => ({
+    setData((prev) => ({
       ...prev,
       dataSources: prev.dataSources.includes(source)
-        ? prev.dataSources.filter(s => s !== source)
+        ? prev.dataSources.filter((s) => s !== source)
         : [...prev.dataSources, source],
     }));
   };
 
   const toggleGoal = (goal: string) => {
-    setData(prev => ({
+    setData((prev) => ({
       ...prev,
       goals: prev.goals.includes(goal)
-        ? prev.goals.filter(g => g !== goal)
+        ? prev.goals.filter((g) => g !== goal)
         : [...prev.goals, goal],
     }));
   };
 
   const addInvite = () => {
-    setData(prev => ({
+    setData((prev) => ({
       ...prev,
       team: { invites: [...prev.team.invites, ''] },
     }));
   };
 
   const updateInvite = (index: number, value: string) => {
-    setData(prev => ({
+    setData((prev) => ({
       ...prev,
       team: {
         invites: prev.team.invites.map((email, i) => (i === index ? value : email)),
@@ -163,9 +163,7 @@ export const OnboardingWizard: React.FC = () => {
         <div className="bg-slate-800/50 backdrop-blur-xl rounded-2xl border border-slate-700 p-8">
           {/* Step Content */}
           <div className="min-h-[400px]">
-            {currentStepConfig.id === 'welcome' && (
-              <WelcomeStep />
-            )}
+            {currentStepConfig.id === 'welcome' && <WelcomeStep />}
             {currentStepConfig.id === 'organization' && (
               <OrganizationStep data={data.organization} update={updateOrg} />
             )}
@@ -177,17 +175,12 @@ export const OnboardingWizard: React.FC = () => {
               />
             )}
             {currentStepConfig.id === 'data' && (
-              <DataSourcesStep
-                selected={data.dataSources}
-                toggle={toggleDataSource}
-              />
+              <DataSourcesStep selected={data.dataSources} toggle={toggleDataSource} />
             )}
             {currentStepConfig.id === 'goals' && (
               <GoalsStep selected={data.goals} toggle={toggleGoal} />
             )}
-            {currentStepConfig.id === 'complete' && (
-              <CompleteStep data={data} />
-            )}
+            {currentStepConfig.id === 'complete' && <CompleteStep data={data} />}
           </div>
 
           {/* Navigation */}
@@ -248,23 +241,18 @@ const WelcomeStep: React.FC = () => (
     <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-purple-500 to-cyan-500 rounded-2xl flex items-center justify-center">
       <Brain className="w-10 h-10 text-white" />
     </div>
-    <h1 className="text-3xl font-bold text-white mb-4">
-      Welcome to Datacendia
-    </h1>
+    <h1 className="text-3xl font-bold text-white mb-4">Welcome to Datacendia</h1>
     <p className="text-slate-400 text-lg max-w-lg mx-auto mb-8">
-      Your AI-powered organizational intelligence platform. Let's set up your
-      account in just a few minutes.
+      Your AI-powered organizational intelligence platform. Let's set up your account in just a few
+      minutes.
     </p>
     <div className="grid grid-cols-3 gap-4 max-w-md mx-auto text-left">
       {[
         { icon: Brain, label: 'AI Council', desc: 'Multi-persona deliberation' },
         { icon: BarChart3, label: 'Real-time Analytics', desc: 'Pulse monitoring' },
         { icon: Shield, label: 'Enterprise Security', desc: 'SOC 2 ready' },
-      ].map(feature => (
-        <div
-          key={feature.label}
-          className="p-4 bg-slate-800/50 rounded-lg border border-slate-700"
-        >
+      ].map((feature) => (
+        <div key={feature.label} className="p-4 bg-slate-800/50 rounded-lg border border-slate-700">
           <feature.icon className="w-6 h-6 text-purple-400 mb-2" />
           <div className="text-sm font-medium text-white">{feature.label}</div>
           <div className="text-xs text-slate-500">{feature.desc}</div>
@@ -281,42 +269,39 @@ interface OrgStepProps {
 
 const OrganizationStep: React.FC<OrgStepProps> = ({ data, update }) => {
   const industries = [
-    'Technology', 'Financial Services', 'Healthcare', 'Manufacturing',
-    'Retail', 'Energy', 'Education', 'Government', 'Other',
+    'Technology',
+    'Financial Services',
+    'Healthcare',
+    'Manufacturing',
+    'Retail',
+    'Energy',
+    'Education',
+    'Government',
+    'Other',
   ];
-  const sizes = [
-    '1-10', '11-50', '51-200', '201-500', '501-1000', '1000+',
-  ];
+  const sizes = ['1-10', '11-50', '51-200', '201-500', '501-1000', '1000+'];
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-white mb-2">
-        Tell us about your organization
-      </h2>
-      <p className="text-slate-400 mb-8">
-        This helps us customize Datacendia for your needs.
-      </p>
+      <h2 className="text-2xl font-bold text-white mb-2">Tell us about your organization</h2>
+      <p className="text-slate-400 mb-8">This helps us customize Datacendia for your needs.</p>
 
       <div className="space-y-6">
         <div>
-          <label className="block text-sm font-medium text-slate-300 mb-2">
-            Organization Name
-          </label>
+          <label className="block text-sm font-medium text-slate-300 mb-2">Organization Name</label>
           <input
             type="text"
             value={data.name}
-            onChange={e => update('name', e.target.value)}
+            onChange={(e) => update('name', e.target.value)}
             placeholder="Acme Corporation"
             className="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-300 mb-2">
-            Industry
-          </label>
+          <label className="block text-sm font-medium text-slate-300 mb-2">Industry</label>
           <div className="grid grid-cols-3 gap-2">
-            {industries.map(industry => (
+            {industries.map((industry) => (
               <button
                 key={industry}
                 onClick={() => update('industry', industry)}
@@ -333,11 +318,9 @@ const OrganizationStep: React.FC<OrgStepProps> = ({ data, update }) => {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-slate-300 mb-2">
-            Company Size
-          </label>
+          <label className="block text-sm font-medium text-slate-300 mb-2">Company Size</label>
           <div className="flex gap-2 flex-wrap">
-            {sizes.map(size => (
+            {sizes.map((size) => (
               <button
                 key={size}
                 onClick={() => update('size', size)}
@@ -365,9 +348,7 @@ interface TeamStepProps {
 
 const TeamStep: React.FC<TeamStepProps> = ({ invites, addInvite, updateInvite }) => (
   <div>
-    <h2 className="text-2xl font-bold text-white mb-2">
-      Invite your team
-    </h2>
+    <h2 className="text-2xl font-bold text-white mb-2">Invite your team</h2>
     <p className="text-slate-400 mb-8">
       Datacendia works best with your whole team. You can skip this and add people later.
     </p>
@@ -378,7 +359,7 @@ const TeamStep: React.FC<TeamStepProps> = ({ invites, addInvite, updateInvite })
           key={index}
           type="email"
           value={email}
-          onChange={e => updateInvite(index, e.target.value)}
+          onChange={(e) => updateInvite(index, e.target.value)}
           placeholder="colleague@company.com"
           className="w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-purple-500"
         />
@@ -426,15 +407,13 @@ const DataSourcesStep: React.FC<DataSourcesStepProps> = ({ selected, toggle }) =
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-white mb-2">
-        Connect your data sources
-      </h2>
+      <h2 className="text-2xl font-bold text-white mb-2">Connect your data sources</h2>
       <p className="text-slate-400 mb-8">
         Select the systems you'd like to connect. You can add more later.
       </p>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        {sources.map(source => (
+        {sources.map((source) => (
           <button
             key={source.id}
             onClick={() => toggle(source.id)}
@@ -463,25 +442,37 @@ interface GoalsStepProps {
 
 const GoalsStep: React.FC<GoalsStepProps> = ({ selected, toggle }) => {
   const goals = [
-    { id: 'strategic', label: 'Strategic Decision Making', desc: 'AI-powered deliberation for major decisions' },
-    { id: 'analytics', label: 'Real-time Analytics', desc: 'Monitor KPIs and organizational health' },
+    {
+      id: 'strategic',
+      label: 'Strategic Decision Making',
+      desc: 'AI-powered deliberation for major decisions',
+    },
+    {
+      id: 'analytics',
+      label: 'Real-time Analytics',
+      desc: 'Monitor KPIs and organizational health',
+    },
     { id: 'automation', label: 'Workflow Automation', desc: 'Automate approval processes' },
-    { id: 'forecasting', label: 'Predictive Forecasting', desc: 'Scenario planning and predictions' },
-    { id: 'compliance', label: 'Compliance & Governance', desc: 'Audit trails and policy enforcement' },
+    {
+      id: 'forecasting',
+      label: 'Predictive Forecasting',
+      desc: 'Scenario planning and predictions',
+    },
+    {
+      id: 'compliance',
+      label: 'Compliance & Governance',
+      desc: 'Audit trails and policy enforcement',
+    },
     { id: 'integration', label: 'System Integration', desc: 'Unify data across platforms' },
   ];
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-white mb-2">
-        What are your main goals?
-      </h2>
-      <p className="text-slate-400 mb-8">
-        This helps us prioritize features for you.
-      </p>
+      <h2 className="text-2xl font-bold text-white mb-2">What are your main goals?</h2>
+      <p className="text-slate-400 mb-8">This helps us prioritize features for you.</p>
 
       <div className="space-y-3">
-        {goals.map(goal => (
+        {goals.map((goal) => (
           <button
             key={goal.id}
             onClick={() => toggle(goal.id)}
@@ -493,14 +484,10 @@ const GoalsStep: React.FC<GoalsStepProps> = ({ selected, toggle }) => {
           >
             <div
               className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 mt-0.5 ${
-                selected.includes(goal.id)
-                  ? 'bg-purple-500 border-purple-500'
-                  : 'border-slate-600'
+                selected.includes(goal.id) ? 'bg-purple-500 border-purple-500' : 'border-slate-600'
               }`}
             >
-              {selected.includes(goal.id) && (
-                <Check className="w-4 h-4 text-white" />
-              )}
+              {selected.includes(goal.id) && <Check className="w-4 h-4 text-white" />}
             </div>
             <div>
               <div className="font-medium text-white">{goal.label}</div>
@@ -522,9 +509,7 @@ const CompleteStep: React.FC<CompleteStepProps> = ({ data }) => (
     <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center">
       <Check className="w-10 h-10 text-white" />
     </div>
-    <h2 className="text-3xl font-bold text-white mb-4">
-      You're all set!
-    </h2>
+    <h2 className="text-3xl font-bold text-white mb-4">You're all set!</h2>
     <p className="text-slate-400 text-lg max-w-lg mx-auto mb-8">
       Your Datacendia workspace is ready. Let's explore what you can do.
     </p>
@@ -555,9 +540,7 @@ const CompleteStep: React.FC<CompleteStepProps> = ({ data }) => (
     {data.organization.name && (
       <div className="mt-8 p-4 bg-slate-900/50 rounded-lg border border-slate-700 max-w-md mx-auto">
         <div className="text-sm text-slate-500">Your organization</div>
-        <div className="text-lg font-semibold text-white">
-          {data.organization.name}
-        </div>
+        <div className="text-lg font-semibold text-white">{data.organization.name}</div>
         <div className="text-sm text-slate-400">
           {data.organization.industry} • {data.organization.size} employees
         </div>

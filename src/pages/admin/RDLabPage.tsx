@@ -13,7 +13,14 @@ import { useNavigate } from 'react-router-dom';
 
 type ResearchStatus = 'conceptual' | 'theoretical' | 'prototyping' | 'testing' | 'paused';
 type ResearchHorizon = '2025-2027' | '2028-2030' | '2030-2035' | '2035+' | 'indefinite';
-type ResearchCategory = 'neurotech' | 'space' | 'quantum' | 'biotech' | 'governance' | 'infrastructure' | 'economics';
+type ResearchCategory =
+  | 'neurotech'
+  | 'space'
+  | 'quantum'
+  | 'biotech'
+  | 'governance'
+  | 'infrastructure'
+  | 'economics';
 
 interface ResearchProject {
   id: string;
@@ -42,11 +49,13 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-neurolink',
     name: 'CendiaNeuro-Link™',
     codename: 'Project Synapse',
-    description: 'Direct Brain-Computer Interface (BCI) integration for "thought-speed" deliberation. Instant simulation of executive intent without verbal or typed input.',
+    description:
+      'Direct Brain-Computer Interface (BCI) integration for "thought-speed" deliberation. Instant simulation of executive intent without verbal or typed input.',
     status: 'conceptual',
     horizon: '2030-2035',
     category: 'neurotech',
-    potentialValue: 'Eliminates communication latency in critical decisions. Ultimate human-AI fusion.',
+    potentialValue:
+      'Eliminates communication latency in critical decisions. Ultimate human-AI fusion.',
     technicalChallenges: [
       'BCI hardware not mature (Neuralink, Synchron still in trials)',
       'FDA/regulatory approval pathway unclear',
@@ -62,11 +71,13 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-neurosovereign',
     name: 'CendiaNeuroSovereign™',
     codename: 'Project Psyche',
-    description: 'Model population-level psychological health, resilience, and unrest risk. National-scale mental health infrastructure.',
+    description:
+      'Model population-level psychological health, resilience, and unrest risk. National-scale mental health infrastructure.',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'neurotech',
-    potentialValue: '$20M-$45M/year. Stabilizes societies; prevents unrest and burnout at national scale.',
+    potentialValue:
+      '$20M-$45M/year. Stabilizes societies; prevents unrest and burnout at national scale.',
     technicalChallenges: [
       'Privacy concerns with population-level mental health data',
       'Model accuracy for predicting social unrest',
@@ -85,11 +96,13 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-interstellar',
     name: 'CendiaInterstellar Logistics™',
     codename: 'Project Horizon',
-    description: 'High-latency decision support for Mars/Space colonies. Governs off-world colonies where light-lag (4-24 min to Mars) prevents real-time Earth control.',
+    description:
+      'High-latency decision support for Mars/Space colonies. Governs off-world colonies where light-lag (4-24 min to Mars) prevents real-time Earth control.',
     status: 'conceptual',
     horizon: '2035+',
     category: 'space',
-    potentialValue: 'Monopoly on off-world governance infrastructure. $100M+/year when colonies exist.',
+    potentialValue:
+      'Monopoly on off-world governance infrastructure. $100M+/year when colonies exist.',
     technicalChallenges: [
       'No current market (SpaceX Mars colony 2030+ optimistically)',
       'Latency-tolerant consensus algorithms needed',
@@ -105,7 +118,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-terraform',
     name: 'CendiaTerraform Command™',
     codename: 'Project Genesis',
-    description: 'Off-World Resource Manager. Manages mining, water, energy, and habitat expansion for lunar and Martian colonies.',
+    description:
+      'Off-World Resource Manager. Manages mining, water, energy, and habitat expansion for lunar and Martian colonies.',
     status: 'conceptual',
     horizon: '2035+',
     category: 'space',
@@ -116,16 +130,22 @@ const RD_PROJECTS: ResearchProject[] = [
       'Communication latency for real-time management',
       'Unknown unknowns of off-world operations',
     ],
-    dependencies: ['Lunar Gateway operational', 'Artemis program success', 'SpaceX Starship reliability'],
+    dependencies: [
+      'Lunar Gateway operational',
+      'Artemis program success',
+      'SpaceX Starship reliability',
+    ],
     riskLevel: 'extreme',
     estimatedInvestment: '$40M-$150M',
-    notes: 'Partner with NASA/ESA for early lunar applications. Could be 5-year runway before relevance.',
+    notes:
+      'Partner with NASA/ESA for early lunar applications. Could be 5-year runway before relevance.',
   },
   {
     id: 'rd-astral',
     name: 'CendiaAstral Defense Grid™',
     codename: 'Project Sentinel',
-    description: 'Detect cosmic threats (asteroids, solar flares, orbital cascades) before they hit Earth. Planetary protection infrastructure.',
+    description:
+      'Detect cosmic threats (asteroids, solar flares, orbital cascades) before they hit Earth. Planetary protection infrastructure.',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'space',
@@ -139,13 +159,15 @@ const RD_PROJECTS: ResearchProject[] = [
     dependencies: ['NASA NEO Surveyor data access', 'ESA Hera mission results'],
     riskLevel: 'high',
     estimatedInvestment: '$25M-$60M',
-    notes: 'Most viable space project. Real market exists (planetary defense agencies). Pursue actively.',
+    notes:
+      'Most viable space project. Real market exists (planetary defense agencies). Pursue actively.',
   },
   {
     id: 'rd-exosphere',
     name: 'CendiaExosphere Command™',
     codename: 'Project Orbit',
-    description: 'Govern global airspace/drone/satellite traffic using autonomous AI. Coordinates 50,000+ satellites and millions of drones.',
+    description:
+      'Govern global airspace/drone/satellite traffic using autonomous AI. Coordinates 50,000+ satellites and millions of drones.',
     status: 'prototyping',
     horizon: '2025-2027',
     category: 'space',
@@ -168,7 +190,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-quantumnet',
     name: 'CendiaQuantumNet™',
     codename: 'Project Entangle',
-    description: 'Quantum-Secure Communication. Establishes an unhackable, quantum-state deliberation layer for cross-border intelligence sharing.',
+    description:
+      'Quantum-Secure Communication. Establishes an unhackable, quantum-state deliberation layer for cross-border intelligence sharing.',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'quantum',
@@ -182,7 +205,7 @@ const RD_PROJECTS: ResearchProject[] = [
     dependencies: ['Quantum repeater technology', 'Quantum computing threat timeline'],
     riskLevel: 'high',
     estimatedInvestment: '$30M-$70M',
-    notes: 'Monitor China\'s quantum satellite progress. Partner with IBM/Google quantum teams.',
+    notes: "Monitor China's quantum satellite progress. Partner with IBM/Google quantum teams.",
   },
 
   // BIOTECH
@@ -190,7 +213,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-genome',
     name: 'CendiaGenome Governance™',
     codename: 'Project Helix',
-    description: 'Population Bio-Risk Modeling. Analyzes health data to predict genetic risks, pathogen evolution, and emerging bio-threats to prevent pandemics.',
+    description:
+      'Population Bio-Risk Modeling. Analyzes health data to predict genetic risks, pathogen evolution, and emerging bio-threats to prevent pandemics.',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'biotech',
@@ -210,7 +234,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-bio',
     name: 'CendiaBio™',
     codename: 'Project Pulse',
-    description: 'Biometric wearables integration for workforce stress/health monitoring. "The Corporate Nervous System" - prevents burnout by measuring biological load.',
+    description:
+      'Biometric wearables integration for workforce stress/health monitoring. "The Corporate Nervous System" - prevents burnout by measuring biological load.',
     status: 'prototyping',
     horizon: '2025-2027',
     category: 'biotech',
@@ -233,7 +258,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-nation',
     name: 'CendiaNation™',
     codename: 'Project Polity',
-    description: 'OS for Special Economic Zones (SEZ) and charter cities. Replaces bureaucracy with code. Manages taxes, permits, and property rights algorithmically.',
+    description:
+      'OS for Special Economic Zones (SEZ) and charter cities. Replaces bureaucracy with code. Manages taxes, permits, and property rights algorithmically.',
     status: 'conceptual',
     horizon: '2030-2035',
     category: 'governance',
@@ -253,7 +279,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-echelons',
     name: 'CendiaEchelons™',
     codename: 'Project Dynasty',
-    description: 'Dynastic Governance. Long-term simulation for royal houses and family empires to ensure cultural and economic survival for 100+ years.',
+    description:
+      'Dynastic Governance. Long-term simulation for royal houses and family empires to ensure cultural and economic survival for 100+ years.',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'governance',
@@ -273,7 +300,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-100year',
     name: 'Cendia100-Year Strategy Engine™',
     codename: 'Project Epoch',
-    description: 'Multi-generational planning for Sovereign Wealth Funds. Optimizes assets for the next century, not the next quarter.',
+    description:
+      'Multi-generational planning for Sovereign Wealth Funds. Optimizes assets for the next century, not the next quarter.',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'governance',
@@ -295,11 +323,13 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-stratos',
     name: 'CendiaStratos™',
     codename: 'Project Cloudmaker',
-    description: 'Geoengineering Oversight. Models planetary impacts of climate interventions (cloud seeding, stratospheric aerosol injection) to ensure safety.',
+    description:
+      'Geoengineering Oversight. Models planetary impacts of climate interventions (cloud seeding, stratospheric aerosol injection) to ensure safety.',
     status: 'conceptual',
     horizon: '2030-2035',
     category: 'infrastructure',
-    potentialValue: 'Climate alliances, UN Environment Programme. $40M-$100M/year if geoengineering proceeds.',
+    potentialValue:
+      'Climate alliances, UN Environment Programme. $40M-$100M/year if geoengineering proceeds.',
     technicalChallenges: [
       'Geoengineering itself controversial and unproven',
       'Global coordination requirements',
@@ -315,7 +345,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-planetary',
     name: 'CendiaPlanetary Resource Balancer™',
     codename: 'Project Cycle',
-    description: 'Global supply chain connection to optimize waste/energy (Circular Economy). Waste from Company A becomes fuel for Company B automatically.',
+    description:
+      'Global supply chain connection to optimize waste/energy (Circular Economy). Waste from Company A becomes fuel for Company B automatically.',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'infrastructure',
@@ -335,7 +366,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-helios',
     name: 'CendiaHelios Framework™',
     codename: 'Project Sunbridge',
-    description: 'Planetary Energy OS. Optimizes global energy grids, balancing fusion, renewables, and consumption to prevent blackouts and climate impact.',
+    description:
+      'Planetary Energy OS. Optimizes global energy grids, balancing fusion, renewables, and consumption to prevent blackouts and climate impact.',
     status: 'theoretical',
     horizon: '2030-2035',
     category: 'infrastructure',
@@ -357,7 +389,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-market',
     name: 'CendiaMarket™',
     codename: 'Project Agora',
-    description: 'Marketplace for selling anonymized Council insights (ZK-proofs). Monetizes aggregate data without breaking privacy. "What does the manufacturing sector think?"',
+    description:
+      'Marketplace for selling anonymized Council insights (ZK-proofs). Monetizes aggregate data without breaking privacy. "What does the manufacturing sector think?"',
     status: 'paused',
     horizon: '2028-2030',
     category: 'economics',
@@ -377,7 +410,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-arbitration',
     name: 'CendiaArbitration Core™',
     codename: 'Project Themis',
-    description: 'AI Judge for settling B2B contract disputes instantly. Privatized, unbiased justice system. Replaces slow legal courts for contract breaches.',
+    description:
+      'AI Judge for settling B2B contract disputes instantly. Privatized, unbiased justice system. Replaces slow legal courts for contract breaches.',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'economics',
@@ -391,13 +425,15 @@ const RD_PROJECTS: ResearchProject[] = [
     dependencies: ['CendiaLedger™ decision provenance', 'Legal precedent for AI arbitration'],
     riskLevel: 'high',
     estimatedInvestment: '$15M-$40M',
-    notes: 'Kleros, Aragon doing blockchain arbitration. Our advantage: enterprise trust + audit trail.',
+    notes:
+      'Kleros, Aragon doing blockchain arbitration. Our advantage: enterprise trust + audit trail.',
   },
   {
     id: 'rd-synthetic',
     name: 'CendiaSynthetic User Groups™',
     codename: 'Project Mirror Market',
-    description: 'Simulation of 1M "Synthetic Customers" to test marketing/products. Replaces focus groups. Predicts market reaction with 99% accuracy before launch.',
+    description:
+      'Simulation of 1M "Synthetic Customers" to test marketing/products. Replaces focus groups. Predicts market reaction with 99% accuracy before launch.',
     status: 'prototyping',
     horizon: '2025-2027',
     category: 'economics',
@@ -418,7 +454,8 @@ const RD_PROJECTS: ResearchProject[] = [
     id: 'rd-diplomat',
     name: 'CendiaDiplomat Protocol™',
     codename: 'Project Handshake',
-    description: 'Standard for two Datacendia instances to negotiate contracts autonomously. "My AI talks to your AI and signs the deal."',
+    description:
+      'Standard for two Datacendia instances to negotiate contracts autonomously. "My AI talks to your AI and signs the deal."',
     status: 'theoretical',
     horizon: '2028-2030',
     category: 'economics',
@@ -427,7 +464,7 @@ const RD_PROJECTS: ResearchProject[] = [
       'Legal validity of AI-signed contracts',
       'Negotiation strategy confidentiality',
       'Deadlock resolution mechanisms',
-      'Trust between competing companies\' AIs',
+      "Trust between competing companies' AIs",
     ],
     dependencies: ['CendiaSenate™ federation protocol', '10+ mutual customers'],
     riskLevel: 'medium',
@@ -457,7 +494,7 @@ const getHorizonColor = (horizon: ResearchHorizon): string => {
     '2028-2030': 'text-cyan-400',
     '2030-2035': 'text-amber-400',
     '2035+': 'text-red-400',
-    'indefinite': 'text-slate-400',
+    indefinite: 'text-slate-400',
   };
   return colors[horizon];
 };
@@ -496,21 +533,50 @@ export const RDLabPage: React.FC = () => {
   const [filterHorizon, setFilterHorizon] = useState<ResearchHorizon | 'all'>('all');
   const [filterStatus, setFilterStatus] = useState<ResearchStatus | 'all'>('all');
 
-  const categories: ResearchCategory[] = ['neurotech', 'space', 'quantum', 'biotech', 'governance', 'infrastructure', 'economics'];
-  const horizons: ResearchHorizon[] = ['2025-2027', '2028-2030', '2030-2035', '2035+', 'indefinite'];
-  const statuses: ResearchStatus[] = ['conceptual', 'theoretical', 'prototyping', 'testing', 'paused'];
+  const categories: ResearchCategory[] = [
+    'neurotech',
+    'space',
+    'quantum',
+    'biotech',
+    'governance',
+    'infrastructure',
+    'economics',
+  ];
+  const horizons: ResearchHorizon[] = [
+    '2025-2027',
+    '2028-2030',
+    '2030-2035',
+    '2035+',
+    'indefinite',
+  ];
+  const statuses: ResearchStatus[] = [
+    'conceptual',
+    'theoretical',
+    'prototyping',
+    'testing',
+    'paused',
+  ];
 
-  const filteredProjects = RD_PROJECTS.filter(p => {
-    if (filterCategory !== 'all' && p.category !== filterCategory) {return false;}
-    if (filterHorizon !== 'all' && p.horizon !== filterHorizon) {return false;}
-    if (filterStatus !== 'all' && p.status !== filterStatus) {return false;}
+  const filteredProjects = RD_PROJECTS.filter((p) => {
+    if (filterCategory !== 'all' && p.category !== filterCategory) {
+      return false;
+    }
+    if (filterHorizon !== 'all' && p.horizon !== filterHorizon) {
+      return false;
+    }
+    if (filterStatus !== 'all' && p.status !== filterStatus) {
+      return false;
+    }
     return true;
   });
 
-  const projectsByCategory = categories.reduce((acc, cat) => {
-    acc[cat] = filteredProjects.filter(p => p.category === cat);
-    return acc;
-  }, {} as Record<ResearchCategory, ResearchProject[]>);
+  const projectsByCategory = categories.reduce(
+    (acc, cat) => {
+      acc[cat] = filteredProjects.filter((p) => p.category === cat);
+      return acc;
+    },
+    {} as Record<ResearchCategory, ResearchProject[]>
+  );
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950 text-white">
@@ -533,14 +599,14 @@ export const RDLabPage: React.FC = () => {
                     HORIZON 3+
                   </span>
                 </h1>
-                <p className="text-purple-300 text-sm">Future Technologies • Speculative Projects • Long-Term Vision</p>
+                <p className="text-purple-300 text-sm">
+                  Future Technologies • Speculative Projects • Long-Term Vision
+                </p>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-4">
-              <div className="text-sm text-white/60">
-                {filteredProjects.length} projects
-              </div>
+              <div className="text-sm text-white/60">{filteredProjects.length} projects</div>
             </div>
           </div>
         </div>
@@ -559,8 +625,10 @@ export const RDLabPage: React.FC = () => {
                 className="bg-black/30 border border-purple-700/50 rounded-lg px-3 py-1.5 text-sm"
               >
                 <option value="all">All Categories</option>
-                {categories.map(cat => (
-                  <option key={cat} value={cat}>{getCategoryIcon(cat)} {cat.charAt(0).toUpperCase() + cat.slice(1)}</option>
+                {categories.map((cat) => (
+                  <option key={cat} value={cat}>
+                    {getCategoryIcon(cat)} {cat.charAt(0).toUpperCase() + cat.slice(1)}
+                  </option>
                 ))}
               </select>
             </div>
@@ -574,8 +642,10 @@ export const RDLabPage: React.FC = () => {
                 className="bg-black/30 border border-purple-700/50 rounded-lg px-3 py-1.5 text-sm"
               >
                 <option value="all">All Horizons</option>
-                {horizons.map(h => (
-                  <option key={h} value={h}>{h}</option>
+                {horizons.map((h) => (
+                  <option key={h} value={h}>
+                    {h}
+                  </option>
                 ))}
               </select>
             </div>
@@ -589,8 +659,10 @@ export const RDLabPage: React.FC = () => {
                 className="bg-black/30 border border-purple-700/50 rounded-lg px-3 py-1.5 text-sm"
               >
                 <option value="all">All Statuses</option>
-                {statuses.map(s => (
-                  <option key={s} value={s}>{s.charAt(0).toUpperCase() + s.slice(1)}</option>
+                {statuses.map((s) => (
+                  <option key={s} value={s}>
+                    {s.charAt(0).toUpperCase() + s.slice(1)}
+                  </option>
                 ))}
               </select>
             </div>
@@ -615,20 +687,25 @@ export const RDLabPage: React.FC = () => {
         <div className="grid grid-cols-3 gap-6">
           {/* Project List */}
           <div className="col-span-2 space-y-6">
-            {categories.map(category => {
+            {categories.map((category) => {
               const projects = projectsByCategory[category];
-              if (projects.length === 0) {return null;}
-              
+              if (projects.length === 0) {
+                return null;
+              }
+
               return (
-                <div key={category} className="bg-black/30 rounded-2xl p-6 border border-purple-800/50">
+                <div
+                  key={category}
+                  className="bg-black/30 rounded-2xl p-6 border border-purple-800/50"
+                >
                   <h2 className="text-lg font-bold mb-4 flex items-center gap-2">
                     <span className="text-2xl">{getCategoryIcon(category)}</span>
                     {category.charAt(0).toUpperCase() + category.slice(1)}
                     <span className="text-sm font-normal text-white/50">({projects.length})</span>
                   </h2>
-                  
+
                   <div className="space-y-3">
-                    {projects.map(project => (
+                    {projects.map((project) => (
                       <div
                         key={project.id}
                         onClick={() => setSelectedProject(project)}
@@ -644,7 +721,9 @@ export const RDLabPage: React.FC = () => {
                             <p className="text-xs text-white/50">Codename: {project.codename}</p>
                           </div>
                           <div className="flex items-center gap-2">
-                            <span className={`px-2 py-0.5 rounded text-xs ${getStatusColor(project.status)}`}>
+                            <span
+                              className={`px-2 py-0.5 rounded text-xs ${getStatusColor(project.status)}`}
+                            >
                               {project.status}
                             </span>
                             <span className={`text-xs ${getHorizonColor(project.horizon)}`}>
@@ -676,40 +755,58 @@ export const RDLabPage: React.FC = () => {
                     <h2 className="text-xl font-bold">{selectedProject.name}</h2>
                     <p className="text-sm text-purple-400">{selectedProject.codename}</p>
                   </div>
-                  <span className={`px-3 py-1 rounded-full text-xs ${getStatusColor(selectedProject.status)}`}>
+                  <span
+                    className={`px-3 py-1 rounded-full text-xs ${getStatusColor(selectedProject.status)}`}
+                  >
                     {selectedProject.status}
                   </span>
                 </div>
 
                 <div className="space-y-4">
                   <div>
-                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">Description</h4>
+                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">
+                      Description
+                    </h4>
                     <p className="text-sm text-white/80">{selectedProject.description}</p>
                   </div>
 
                   <div className="grid grid-cols-2 gap-4">
                     <div>
-                      <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">Horizon</h4>
-                      <p className={`text-sm ${getHorizonColor(selectedProject.horizon)}`}>{selectedProject.horizon}</p>
+                      <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">
+                        Horizon
+                      </h4>
+                      <p className={`text-sm ${getHorizonColor(selectedProject.horizon)}`}>
+                        {selectedProject.horizon}
+                      </p>
                     </div>
                     <div>
-                      <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">Risk Level</h4>
-                      <p className={`text-sm ${getRiskColor(selectedProject.riskLevel)}`}>{selectedProject.riskLevel.toUpperCase()}</p>
+                      <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">
+                        Risk Level
+                      </h4>
+                      <p className={`text-sm ${getRiskColor(selectedProject.riskLevel)}`}>
+                        {selectedProject.riskLevel.toUpperCase()}
+                      </p>
                     </div>
                   </div>
 
                   <div>
-                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">Investment</h4>
+                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">
+                      Investment
+                    </h4>
                     <p className="text-sm text-amber-400">{selectedProject.estimatedInvestment}</p>
                   </div>
 
                   <div>
-                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">Potential Value</h4>
+                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">
+                      Potential Value
+                    </h4>
                     <p className="text-sm text-green-400">{selectedProject.potentialValue}</p>
                   </div>
 
                   <div>
-                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-2">Technical Challenges</h4>
+                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-2">
+                      Technical Challenges
+                    </h4>
                     <ul className="space-y-1">
                       {selectedProject.technicalChallenges.map((challenge, i) => (
                         <li key={i} className="text-xs text-white/60 flex items-start gap-2">
@@ -721,7 +818,9 @@ export const RDLabPage: React.FC = () => {
                   </div>
 
                   <div>
-                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-2">Dependencies</h4>
+                    <h4 className="text-xs font-semibold text-white/50 uppercase mb-2">
+                      Dependencies
+                    </h4>
                     <ul className="space-y-1">
                       {selectedProject.dependencies.map((dep, i) => (
                         <li key={i} className="text-xs text-white/60 flex items-start gap-2">
@@ -734,7 +833,9 @@ export const RDLabPage: React.FC = () => {
 
                   {selectedProject.principalInvestigator && (
                     <div>
-                      <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">Principal Investigator</h4>
+                      <h4 className="text-xs font-semibold text-white/50 uppercase mb-1">
+                        Principal Investigator
+                      </h4>
                       <p className="text-sm">{selectedProject.principalInvestigator}</p>
                     </div>
                   )}
@@ -761,15 +862,21 @@ export const RDLabPage: React.FC = () => {
             <div className="text-xs text-white/50">Total Projects</div>
           </div>
           <div className="bg-black/30 rounded-xl p-4 border border-purple-800/50 text-center">
-            <div className="text-2xl font-bold text-amber-400">{RD_PROJECTS.filter(p => p.status === 'prototyping').length}</div>
+            <div className="text-2xl font-bold text-amber-400">
+              {RD_PROJECTS.filter((p) => p.status === 'prototyping').length}
+            </div>
             <div className="text-xs text-white/50">In Prototyping</div>
           </div>
           <div className="bg-black/30 rounded-xl p-4 border border-purple-800/50 text-center">
-            <div className="text-2xl font-bold text-green-400">{RD_PROJECTS.filter(p => p.horizon === '2025-2027').length}</div>
+            <div className="text-2xl font-bold text-green-400">
+              {RD_PROJECTS.filter((p) => p.horizon === '2025-2027').length}
+            </div>
             <div className="text-xs text-white/50">Near-Term (2025-27)</div>
           </div>
           <div className="bg-black/30 rounded-xl p-4 border border-purple-800/50 text-center">
-            <div className="text-2xl font-bold text-red-400">{RD_PROJECTS.filter(p => p.riskLevel === 'extreme').length}</div>
+            <div className="text-2xl font-bold text-red-400">
+              {RD_PROJECTS.filter((p) => p.riskLevel === 'extreme').length}
+            </div>
             <div className="text-xs text-white/50">Extreme Risk</div>
           </div>
           <div className="bg-black/30 rounded-xl p-4 border border-purple-800/50 text-center">

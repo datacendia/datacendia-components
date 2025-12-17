@@ -39,9 +39,15 @@ export const CookiePolicyPage: React.FC = () => {
             <span className="text-xl font-bold text-neutral-900">Datacendia</span>
           </Link>
           <nav className="flex items-center gap-4 text-sm">
-            <Link to="/privacy" className="text-neutral-600 hover:text-neutral-900">Privacy</Link>
-            <Link to="/terms" className="text-neutral-600 hover:text-neutral-900">Terms</Link>
-            <Link to="/security" className="text-neutral-600 hover:text-neutral-900">Security</Link>
+            <Link to="/privacy" className="text-neutral-600 hover:text-neutral-900">
+              Privacy
+            </Link>
+            <Link to="/terms" className="text-neutral-600 hover:text-neutral-900">
+              Terms
+            </Link>
+            <Link to="/security" className="text-neutral-600 hover:text-neutral-900">
+              Security
+            </Link>
           </nav>
         </div>
       </header>
@@ -58,13 +64,13 @@ export const CookiePolicyPage: React.FC = () => {
 
         <div className="prose prose-neutral max-w-none">
           <p className="text-lg text-neutral-600 mb-8">
-            This policy explains how Datacendia uses cookies and similar technologies to recognize 
+            This policy explains how Datacendia uses cookies and similar technologies to recognize
             you when you visit our platform.
           </p>
 
           <h2 className="text-xl font-semibold mt-8 mb-4">What Are Cookies?</h2>
           <p className="text-neutral-600 mb-6">
-            Cookies are small data files placed on your device when you visit a website. They are 
+            Cookies are small data files placed on your device when you visit a website. They are
             widely used to make websites work more efficiently and provide reporting information.
           </p>
 
@@ -78,7 +84,9 @@ export const CookiePolicyPage: React.FC = () => {
                     <div className="flex items-center gap-2 mb-2">
                       <h3 className="font-semibold">{cookie.name}</h3>
                       {cookie.required && (
-                        <span className="px-2 py-0.5 text-xs bg-neutral-200 rounded-full">Required</span>
+                        <span className="px-2 py-0.5 text-xs bg-neutral-200 rounded-full">
+                          Required
+                        </span>
                       )}
                     </div>
                     <p className="text-neutral-600 mb-3">{cookie.description}</p>
@@ -93,14 +101,14 @@ export const CookiePolicyPage: React.FC = () => {
 
           <h2 className="text-xl font-semibold mt-8 mb-4">Air-Gapped Deployments</h2>
           <p className="text-neutral-600 mb-6">
-            For on-premise and air-gapped deployments, Datacendia operates with <strong>zero external 
-            cookies or tracking</strong>. Only essential session cookies are used, and all data 
-            remains within your infrastructure.
+            For on-premise and air-gapped deployments, Datacendia operates with{' '}
+            <strong>zero external cookies or tracking</strong>. Only essential session cookies are
+            used, and all data remains within your infrastructure.
           </p>
 
           <h2 className="text-xl font-semibold mt-8 mb-4">Managing Cookies</h2>
           <p className="text-neutral-600 mb-6">
-            You can control cookies through your browser settings. Note that disabling essential 
+            You can control cookies through your browser settings. Note that disabling essential
             cookies may prevent the platform from functioning correctly.
           </p>
 
@@ -119,9 +127,15 @@ export const CookiePolicyPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-neutral-500">
           <p>© {new Date().getFullYear()} Datacendia, Inc. All rights reserved.</p>
           <div className="flex items-center justify-center gap-4 mt-4">
-            <Link to="/privacy" className="hover:text-neutral-900">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-neutral-900">Terms of Service</Link>
-            <Link to="/security" className="hover:text-neutral-900">Security</Link>
+            <Link to="/privacy" className="hover:text-neutral-900">
+              Privacy Policy
+            </Link>
+            <Link to="/terms" className="hover:text-neutral-900">
+              Terms of Service
+            </Link>
+            <Link to="/security" className="hover:text-neutral-900">
+              Security
+            </Link>
           </div>
         </div>
       </footer>

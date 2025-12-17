@@ -5,7 +5,7 @@
 
 /**
  * Sovereign Theme Design System
- * 
+ *
  * Philosophy: Premium, minimal, authoritative
  * - Dark backgrounds signal security and sophistication
  * - Crimson accents tie to CendiaVeto™ (authority, veto power)
@@ -20,29 +20,29 @@
 export const colors = {
   // Background layers (darkest to lightest)
   background: {
-    base: '#030303',      // Pure dark - main background
-    elevated: '#0a0a0a',  // Slightly elevated surfaces
-    card: '#111111',      // Cards and panels
-    hover: '#1a1a1a',     // Hover states
-    active: '#222222',    // Active/selected states
+    base: '#030303', // Pure dark - main background
+    elevated: '#0a0a0a', // Slightly elevated surfaces
+    card: '#111111', // Cards and panels
+    hover: '#1a1a1a', // Hover states
+    active: '#222222', // Active/selected states
   },
-  
+
   // Border colors
   border: {
-    subtle: '#1f1f1f',    // Subtle separators
-    default: '#2a2a2a',   // Default borders
-    strong: '#3a3a3a',    // Emphasized borders
-    focus: '#404040',     // Focus rings
+    subtle: '#1f1f1f', // Subtle separators
+    default: '#2a2a2a', // Default borders
+    strong: '#3a3a3a', // Emphasized borders
+    focus: '#404040', // Focus rings
   },
-  
+
   // Text colors
   text: {
-    primary: '#ffffff',   // Primary text
+    primary: '#ffffff', // Primary text
     secondary: '#a1a1a1', // Secondary text
-    muted: '#6b6b6b',     // Muted/disabled text
-    inverse: '#000000',   // Text on light backgrounds
+    muted: '#6b6b6b', // Muted/disabled text
+    inverse: '#000000', // Text on light backgrounds
   },
-  
+
   // Brand - Crimson (Authority, CendiaVeto™)
   crimson: {
     50: '#fef2f2',
@@ -53,11 +53,11 @@ export const colors = {
     500: '#ef4444',
     600: '#dc2626',
     700: '#b91c1c',
-    800: '#991b1b',  // Primary accent
-    900: '#7f1d1d',  // Deep accent
+    800: '#991b1b', // Primary accent
+    900: '#7f1d1d', // Deep accent
     950: '#450a0a',
   },
-  
+
   // Interactive - Cyan (Constructive actions)
   cyan: {
     50: '#ecfeff',
@@ -65,14 +65,14 @@ export const colors = {
     200: '#a5f3fc',
     300: '#67e8f9',
     400: '#22d3ee',
-    500: '#06b6d4',  // Primary interactive
+    500: '#06b6d4', // Primary interactive
     600: '#0891b2',
     700: '#0e7490',
     800: '#155e75',
     900: '#164e63',
     950: '#083344',
   },
-  
+
   // Status colors
   status: {
     success: '#10b981',
@@ -93,23 +93,23 @@ export const semantic = {
   'bg-card': colors.background.card,
   'bg-hover': colors.background.hover,
   'bg-active': colors.background.active,
-  
+
   // Text
   'text-primary': colors.text.primary,
   'text-secondary': colors.text.secondary,
   'text-muted': colors.text.muted,
-  
+
   // Borders
   'border-subtle': colors.border.subtle,
   'border-default': colors.border.default,
   'border-strong': colors.border.strong,
-  
+
   // Actions
   'action-primary': colors.cyan[500],
   'action-primary-hover': colors.cyan[400],
   'action-destructive': colors.crimson[700],
   'action-destructive-hover': colors.crimson[600],
-  
+
   // Accents
   'accent-authority': colors.crimson[800],
   'accent-interactive': colors.cyan[500],
@@ -125,43 +125,45 @@ export const semantic = {
 export const tw = {
   // Page backgrounds
   page: 'bg-[#030303] min-h-screen',
-  
+
   // Cards and panels
   card: 'bg-[#111111] border border-[#2a2a2a] rounded-xl',
   cardHover: 'hover:bg-[#1a1a1a] hover:border-[#3a3a3a] transition-colors',
-  
+
   // Sidebar
   sidebar: 'bg-[#0a0a0a] border-r border-[#1f1f1f]',
-  
+
   // Header
   header: 'bg-[#0a0a0a] border-b border-[#1f1f1f]',
-  
+
   // Text
   textPrimary: 'text-white',
   textSecondary: 'text-[#a1a1a1]',
   textMuted: 'text-[#6b6b6b]',
-  
+
   // Buttons
   btnPrimary: 'bg-cyan-500 hover:bg-cyan-400 text-white font-medium',
   btnSecondary: 'bg-[#1a1a1a] hover:bg-[#222222] text-white border border-[#2a2a2a]',
   btnDestructive: 'bg-red-900 hover:bg-red-800 text-white',
   btnGhost: 'hover:bg-[#1a1a1a] text-[#a1a1a1] hover:text-white',
-  
+
   // Navigation items
-  navItem: 'flex items-center gap-3 px-3 py-2.5 rounded-lg text-[#a1a1a1] hover:bg-[#1a1a1a] hover:text-white transition-colors',
+  navItem:
+    'flex items-center gap-3 px-3 py-2.5 rounded-lg text-[#a1a1a1] hover:bg-[#1a1a1a] hover:text-white transition-colors',
   navItemActive: 'bg-[#1a1a1a] text-white border-l-2 border-cyan-500',
-  
+
   // Form inputs
-  input: 'bg-[#111111] border border-[#2a2a2a] rounded-lg text-white placeholder-[#6b6b6b] focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500',
-  
+  input:
+    'bg-[#111111] border border-[#2a2a2a] rounded-lg text-white placeholder-[#6b6b6b] focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500',
+
   // Dividers
   divider: 'border-t border-[#1f1f1f]',
-  
+
   // Badges/Tags
   badge: 'px-2 py-0.5 rounded text-xs font-medium',
   badgeCrimson: 'bg-red-900/20 text-red-400 border border-red-900/30',
   badgeCyan: 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30',
-  
+
   // Section headers
   sectionHeader: 'text-xs font-semibold text-[#6b6b6b] uppercase tracking-wider',
 } as const;
@@ -179,14 +181,15 @@ export const presets = {
     overlay: 'fixed inset-0 bg-black/80 backdrop-blur-sm z-50',
     content: 'bg-[#111111] border border-[#2a2a2a] rounded-xl shadow-2xl',
   },
-  
+
   // Dropdown
   dropdown: {
-    trigger: 'flex items-center gap-2 px-3 py-2 rounded-lg bg-[#1a1a1a] border border-[#2a2a2a] text-white hover:bg-[#222222] transition-colors',
+    trigger:
+      'flex items-center gap-2 px-3 py-2 rounded-lg bg-[#1a1a1a] border border-[#2a2a2a] text-white hover:bg-[#222222] transition-colors',
     content: 'bg-[#111111] border border-[#2a2a2a] rounded-xl shadow-xl overflow-hidden',
     item: 'w-full flex items-center gap-3 px-4 py-3 text-[#a1a1a1] hover:bg-[#1a1a1a] hover:text-white transition-colors',
   },
-  
+
   // Table
   table: {
     wrapper: 'bg-[#111111] border border-[#2a2a2a] rounded-xl overflow-hidden',
@@ -195,7 +198,7 @@ export const presets = {
     row: 'border-b border-[#1f1f1f] hover:bg-[#1a1a1a] transition-colors',
     cell: 'px-4 py-3 text-sm text-[#a1a1a1]',
   },
-  
+
   // Stats/Metrics
   stat: {
     card: 'bg-[#111111] border border-[#2a2a2a] rounded-xl p-6',

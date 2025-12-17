@@ -5,15 +5,15 @@
 
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { 
-  TrendingUp, 
-  Bell, 
-  ArrowRight, 
+import {
+  TrendingUp,
+  Bell,
+  ArrowRight,
   Sparkles,
   BarChart3,
   Shield,
   Zap,
-  Check
+  Check,
 } from 'lucide-react';
 
 interface ApexProduct {
@@ -34,7 +34,8 @@ const apexProducts: ApexProduct[] = [
     id: 'forecast',
     name: 'CendiaForecast™',
     tagline: 'AI-Powered Financial Forecasting',
-    description: 'Predict revenue, cash flow, and key metrics with enterprise-grade accuracy. Leverage machine learning to model scenarios and make data-driven decisions.',
+    description:
+      'Predict revenue, cash flow, and key metrics with enterprise-grade accuracy. Leverage machine learning to model scenarios and make data-driven decisions.',
     icon: <TrendingUp className="w-8 h-8" />,
     color: 'text-emerald-500',
     gradient: 'from-emerald-500 to-teal-600',
@@ -45,15 +46,16 @@ const apexProducts: ApexProduct[] = [
       'Seasonal pattern detection',
       'What-if analysis tools',
       'Executive dashboard exports',
-      'API integration ready'
+      'API integration ready',
     ],
-    pricing: 'Starting at $2,500/month'
+    pricing: 'Starting at $2,500/month',
   },
   {
     id: 'sentry',
     name: 'CendiaSentry™',
     tagline: 'Intelligent Alert & Monitoring',
-    description: 'Never miss a critical event. AI-powered anomaly detection monitors your entire organization and alerts the right people at the right time.',
+    description:
+      'Never miss a critical event. AI-powered anomaly detection monitors your entire organization and alerts the right people at the right time.',
     icon: <Bell className="w-8 h-8" />,
     color: 'text-orange-500',
     gradient: 'from-orange-500 to-red-600',
@@ -64,10 +66,10 @@ const apexProducts: ApexProduct[] = [
       'Customizable thresholds',
       'Integration with 50+ data sources',
       'Mobile push notifications',
-      'Incident timeline & postmortems'
+      'Incident timeline & postmortems',
     ],
-    pricing: 'Starting at $1,500/month'
-  }
+    pricing: 'Starting at $1,500/month',
+  },
 ];
 
 export const ApexLandingPage: React.FC = () => {
@@ -79,14 +81,14 @@ export const ApexLandingPage: React.FC = () => {
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-neutral-900/80" />
-        
+
         <div className="relative max-w-7xl mx-auto px-6 py-20">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-500/20 rounded-full mb-6">
               <Sparkles className="w-4 h-4 text-primary-400" />
               <span className="text-primary-300 text-sm font-medium">Apex Product Suite</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
               Premium Intelligence
               <br />
@@ -94,10 +96,10 @@ export const ApexLandingPage: React.FC = () => {
                 Standalone Solutions
               </span>
             </h1>
-            
+
             <p className="text-xl text-neutral-400 max-w-2xl mx-auto">
-              Purpose-built AI products that deliver immediate value. 
-              Deploy independently or integrate with the full Datacendia platform.
+              Purpose-built AI products that deliver immediate value. Deploy independently or
+              integrate with the full Datacendia platform.
             </p>
           </div>
 
@@ -109,12 +111,16 @@ export const ApexLandingPage: React.FC = () => {
                 className="group relative bg-neutral-800/50 backdrop-blur-sm rounded-2xl border border-neutral-700 hover:border-neutral-500 transition-all duration-300 overflow-hidden"
               >
                 {/* Gradient accent */}
-                <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${product.gradient}`} />
-                
+                <div
+                  className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${product.gradient}`}
+                />
+
                 <div className="p-8">
                   {/* Header */}
                   <div className="flex items-start justify-between mb-6">
-                    <div className={`p-3 rounded-xl bg-gradient-to-br ${product.gradient} text-white`}>
+                    <div
+                      className={`p-3 rounded-xl bg-gradient-to-br ${product.gradient} text-white`}
+                    >
                       {product.icon}
                     </div>
                     <span className="text-xs text-neutral-500 bg-neutral-700/50 px-3 py-1 rounded-full">
@@ -123,12 +129,8 @@ export const ApexLandingPage: React.FC = () => {
                   </div>
 
                   {/* Content */}
-                  <h2 className="text-2xl font-bold text-white mb-2">
-                    {product.name}
-                  </h2>
-                  <p className={`text-sm font-medium ${product.color} mb-4`}>
-                    {product.tagline}
-                  </p>
+                  <h2 className="text-2xl font-bold text-white mb-2">{product.name}</h2>
+                  <p className={`text-sm font-medium ${product.color} mb-4`}>{product.tagline}</p>
                   <p className="text-neutral-400 text-sm leading-relaxed mb-6">
                     {product.description}
                   </p>
@@ -207,17 +209,17 @@ export const ApexLandingPage: React.FC = () => {
             Ready to Transform Your Intelligence?
           </h2>
           <p className="text-neutral-300 mb-8 max-w-xl mx-auto">
-            Start with a single product or explore the full Datacendia platform. 
-            Our team is here to help you find the right solution.
+            Start with a single product or explore the full Datacendia platform. Our team is here to
+            help you find the right solution.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button 
+            <button
               onClick={() => navigate('/cortex')}
               className="px-8 py-3 bg-white text-neutral-900 font-medium rounded-xl hover:bg-neutral-100 transition-colors"
             >
               Explore Full Platform
             </button>
-            <button 
+            <button
               onClick={() => navigate('/contact')}
               className="px-8 py-3 border border-white/30 text-white font-medium rounded-xl hover:bg-white/10 transition-colors"
             >

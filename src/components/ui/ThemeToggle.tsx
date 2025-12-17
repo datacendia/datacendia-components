@@ -14,10 +14,10 @@ interface ThemeToggleProps {
   variant?: 'icon' | 'dropdown' | 'switch';
 }
 
-export const ThemeToggle: React.FC<ThemeToggleProps> = ({ 
-  className, 
+export const ThemeToggle: React.FC<ThemeToggleProps> = ({
+  className,
   showLabel = false,
-  variant = 'icon' 
+  variant = 'icon',
 }) => {
   const { theme, resolvedTheme, setTheme, toggleTheme } = useTheme();
 
@@ -33,15 +33,9 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({
         )}
         title={`Switch to ${resolvedTheme === 'dark' ? 'light' : 'dark'} mode`}
       >
-        {resolvedTheme === 'dark' ? (
-          <Sun className="w-5 h-5" />
-        ) : (
-          <Moon className="w-5 h-5" />
-        )}
+        {resolvedTheme === 'dark' ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
         {showLabel && (
-          <span className="ml-2 text-sm">
-            {resolvedTheme === 'dark' ? 'Light' : 'Dark'}
-          </span>
+          <span className="ml-2 text-sm">{resolvedTheme === 'dark' ? 'Light' : 'Dark'}</span>
         )}
       </button>
     );
@@ -55,9 +49,7 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({
           onClick={toggleTheme}
           className={cn(
             'relative w-12 h-6 rounded-full transition-colors',
-            resolvedTheme === 'dark' 
-              ? 'bg-cyan-600' 
-              : 'bg-neutral-300'
+            resolvedTheme === 'dark' ? 'bg-cyan-600' : 'bg-neutral-300'
           )}
         >
           <span
@@ -80,8 +72,8 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({
           onClick={() => setTheme('light')}
           className={cn(
             'p-2 rounded-md transition-colors',
-            theme === 'light' 
-              ? 'bg-white dark:bg-neutral-700 shadow-sm text-neutral-900 dark:text-white' 
+            theme === 'light'
+              ? 'bg-white dark:bg-neutral-700 shadow-sm text-neutral-900 dark:text-white'
               : 'text-neutral-500 hover:text-neutral-700 dark:hover:text-neutral-300'
           )}
           title="Light mode"
@@ -92,8 +84,8 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({
           onClick={() => setTheme('dark')}
           className={cn(
             'p-2 rounded-md transition-colors',
-            theme === 'dark' 
-              ? 'bg-white dark:bg-neutral-700 shadow-sm text-neutral-900 dark:text-white' 
+            theme === 'dark'
+              ? 'bg-white dark:bg-neutral-700 shadow-sm text-neutral-900 dark:text-white'
               : 'text-neutral-500 hover:text-neutral-700 dark:hover:text-neutral-300'
           )}
           title="Dark mode"
@@ -104,8 +96,8 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({
           onClick={() => setTheme('system')}
           className={cn(
             'p-2 rounded-md transition-colors',
-            theme === 'system' 
-              ? 'bg-white dark:bg-neutral-700 shadow-sm text-neutral-900 dark:text-white' 
+            theme === 'system'
+              ? 'bg-white dark:bg-neutral-700 shadow-sm text-neutral-900 dark:text-white'
               : 'text-neutral-500 hover:text-neutral-700 dark:hover:text-neutral-300'
           )}
           title="System preference"

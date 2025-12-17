@@ -31,7 +31,7 @@ export const PageGuide: React.FC<PageGuideProps> = ({
   className,
 }) => {
   const storageKey = `datacendia-guide-${pageId}`;
-  
+
   const [isVisible, setIsVisible] = useState(true);
   const [isSkipped, setIsSkipped] = useState(false);
   const [currentStep, setCurrentStep] = useState(0);
@@ -214,8 +214,8 @@ export const PageGuide: React.FC<PageGuideProps> = ({
               idx === currentStep
                 ? 'bg-indigo-500 w-4'
                 : idx < currentStep
-                ? 'bg-green-500'
-                : 'bg-slate-600 hover:bg-slate-500'
+                  ? 'bg-green-500'
+                  : 'bg-slate-600 hover:bg-slate-500'
             )}
             title={`Step ${idx + 1}`}
           />
@@ -229,12 +229,8 @@ export const PageGuide: React.FC<PageGuideProps> = ({
             {currentStepData.icon || `${currentStep + 1}`}
           </div>
           <div className="flex-1 min-w-0">
-            <h4 className="text-white font-semibold text-sm mb-1">
-              {currentStepData.title}
-            </h4>
-            <p className="text-slate-400 text-sm leading-relaxed">
-              {currentStepData.description}
-            </p>
+            <h4 className="text-white font-semibold text-sm mb-1">{currentStepData.title}</h4>
+            <p className="text-slate-400 text-sm leading-relaxed">{currentStepData.description}</p>
             {currentStepData.action && (
               <div className="mt-2 px-2 py-1 bg-amber-500/20 border border-amber-500/30 rounded text-amber-400 text-xs">
                 💡 {currentStepData.action}
@@ -258,7 +254,7 @@ export const PageGuide: React.FC<PageGuideProps> = ({
         >
           ← Previous
         </button>
-        
+
         <span className="text-slate-500 text-xs">
           {currentStep + 1} of {steps.length}
         </span>
@@ -302,37 +298,43 @@ export const GUIDES = {
     steps: [
       {
         title: 'Create a Decision',
-        description: 'Start by entering a decision title and description in the form on the left. Add optional budget and timeframe.',
+        description:
+          'Start by entering a decision title and description in the form on the left. Add optional budget and timeframe.',
         icon: '✏️',
         action: 'Try: "Close EU expansion deal" or "Approve $50M capex for new data centre"',
       },
       {
         title: 'View Tracked Decisions',
-        description: 'Your decisions appear in the list below. Use filters (All | Deciding | Decided | At Risk) to focus on what matters.',
+        description:
+          'Your decisions appear in the list below. Use filters (All | Deciding | Decided | At Risk) to focus on what matters.',
         icon: '📋',
         action: 'Click on a sample decision to explore its full timeline',
       },
       {
         title: 'Timeline & Artefacts',
-        description: 'Each timeline event links to real system outputs - Council minutes, Pre-Mortem analyses, Ghost Board simulations. Click "Open" to view the original artefact.',
+        description:
+          'Each timeline event links to real system outputs - Council minutes, Pre-Mortem analyses, Ghost Board simulations. Click "Open" to view the original artefact.',
         icon: '📜',
         action: 'Hover over any event and click "↗️ Open" to see the source',
       },
       {
         title: 'AI Council Deliberation',
-        description: 'Council events show how AI agents (CEO, CFO, CRO) deliberated - their stances, confidence levels, and consensus reached.',
+        description:
+          'Council events show how AI agents (CEO, CFO, CRO) deliberated - their stances, confidence levels, and consensus reached.',
         icon: '🏛️',
         action: 'Expand a Council Deliberation to see agent-by-agent analysis',
       },
       {
         title: 'Replay in Chronos',
-        description: 'Click "Replay in Chronos" to step through the decision history like a flight recorder. Every step is cryptographically anchored.',
+        description:
+          'Click "Replay in Chronos" to step through the decision history like a flight recorder. Every step is cryptographically anchored.',
         icon: '🎬',
         action: 'Watch the decision unfold step-by-step',
       },
       {
         title: 'Cryptographic Audit Trail',
-        description: 'Every decision here is: hashed into Chronos, replayable, and exportable for audits. The green hash banner proves immutability.',
+        description:
+          'Every decision here is: hashed into Chronos, replayable, and exportable for audits. The green hash banner proves immutability.',
         icon: '🔐',
         action: 'Export PDF for boards, JSON for integrations',
       },
@@ -342,7 +344,8 @@ export const GUIDES = {
   council: {
     pageId: 'council',
     title: 'AI Council Guide',
-    description: 'Get balanced analysis from multiple AI agents representing different perspectives.',
+    description:
+      'Get balanced analysis from multiple AI agents representing different perspectives.',
     steps: [
       {
         title: 'Enter Your Question',
@@ -352,13 +355,15 @@ export const GUIDES = {
       },
       {
         title: 'Select Agents',
-        description: 'Choose which AI agents (CEO, CFO, CRO, etc.) should participate in the deliberation.',
+        description:
+          'Choose which AI agents (CEO, CFO, CRO, etc.) should participate in the deliberation.',
         icon: '👥',
         action: 'Select 3-5 agents for diverse perspectives',
       },
       {
         title: 'Choose Mode',
-        description: 'Select the council mode: Deliberation for discussion, Debate for opposing views, or Consensus for agreement.',
+        description:
+          'Select the council mode: Deliberation for discussion, Debate for opposing views, or Consensus for agreement.',
         icon: '⚙️',
       },
       {
@@ -378,17 +383,19 @@ export const GUIDES = {
   preMortem: {
     pageId: 'pre-mortem',
     title: 'Pre-Mortem Guide',
-    description: 'Identify potential failure modes before they happen with AI-powered risk analysis.',
+    description:
+      'Identify potential failure modes before they happen with AI-powered risk analysis.',
     steps: [
       {
         title: 'Describe Your Decision',
         description: 'Enter the decision or initiative you want to analyze for potential failures.',
         icon: '📝',
-        action: 'Be specific about what you\'re planning',
+        action: "Be specific about what you're planning",
       },
       {
         title: 'Add Context',
-        description: 'Provide relevant context like budget, timeline, stakeholders, and constraints.',
+        description:
+          'Provide relevant context like budget, timeline, stakeholders, and constraints.',
         icon: '📋',
       },
       {
@@ -399,12 +406,14 @@ export const GUIDES = {
       },
       {
         title: 'Review Risks',
-        description: 'Examine each failure mode with probability, impact, and mitigation strategies.',
+        description:
+          'Examine each failure mode with probability, impact, and mitigation strategies.',
         icon: '⚠️',
       },
       {
         title: 'Get Recommendation',
-        description: 'See the overall risk score and recommendation: Proceed, Delay, or Reconsider.',
+        description:
+          'See the overall risk score and recommendation: Proceed, Delay, or Reconsider.',
         icon: '✅',
       },
     ],
@@ -413,7 +422,8 @@ export const GUIDES = {
   ghostBoard: {
     pageId: 'ghost-board',
     title: 'Ghost Board Guide',
-    description: 'Simulate a board meeting to prepare for tough questions before the real presentation.',
+    description:
+      'Simulate a board meeting to prepare for tough questions before the real presentation.',
     steps: [
       {
         title: 'Set Up Presentation',
@@ -450,12 +460,14 @@ export const GUIDES = {
     steps: [
       {
         title: 'View Key Metrics',
-        description: 'The dashboard shows your most important metrics with current values and trends.',
+        description:
+          'The dashboard shows your most important metrics with current values and trends.',
         icon: '📊',
       },
       {
         title: 'Filter by Category',
-        description: 'Use the category filter to focus on financial, operational, or customer metrics.',
+        description:
+          'Use the category filter to focus on financial, operational, or customer metrics.',
         icon: '🔍',
       },
       {
@@ -544,7 +556,7 @@ export const GUIDES = {
       },
       {
         title: 'Acknowledge Alerts',
-        description: 'Mark alerts as acknowledged once you\'ve reviewed them.',
+        description: "Mark alerts as acknowledged once you've reviewed them.",
         icon: '✓',
       },
       {

@@ -4,10 +4,25 @@
 // =============================================================================
 
 import { useState, useEffect, useCallback } from 'react';
-import { 
-  Activity, TrendingUp, TrendingDown, DollarSign, Target, Award,
-  ChevronRight, Calendar, Users, Brain, FileText, RefreshCw,
-  ArrowUpRight, ArrowDownRight, BarChart3, Zap, Check, X
+import {
+  Activity,
+  TrendingUp,
+  TrendingDown,
+  DollarSign,
+  Target,
+  Award,
+  ChevronRight,
+  Calendar,
+  Users,
+  Brain,
+  FileText,
+  RefreshCw,
+  ArrowUpRight,
+  ArrowDownRight,
+  BarChart3,
+  Zap,
+  Check,
+  X,
 } from 'lucide-react';
 import { echoApi } from '../../../lib/api';
 
@@ -169,7 +184,9 @@ const EchoPage = () => {
             <span className="text-neutral-400 text-sm">Net Impact</span>
             <DollarSign className="w-5 h-5 text-amber-500" />
           </div>
-          <p className={`text-3xl font-bold ${(dashboard?.summary.netImpact || 0) >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+          <p
+            className={`text-3xl font-bold ${(dashboard?.summary.netImpact || 0) >= 0 ? 'text-green-400' : 'text-red-400'}`}
+          >
             {formatCurrency(dashboard?.summary.netImpact || 0)}
           </p>
         </div>
@@ -191,7 +208,7 @@ const EchoPage = () => {
                     key={p}
                     onClick={() => setPeriod(p)}
                     className={`px-3 py-1 text-sm rounded-lg transition ${
-                      period === p 
+                      period === p
                         ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30'
                         : 'bg-neutral-800 text-neutral-400 hover:bg-neutral-700'
                     }`}
@@ -199,7 +216,7 @@ const EchoPage = () => {
                     {p.charAt(0).toUpperCase() + p.slice(1)}
                   </button>
                 ))}
-                <button 
+                <button
                   onClick={fetchData}
                   className="p-2 rounded-lg bg-neutral-800 hover:bg-neutral-700 transition"
                 >
@@ -208,21 +225,23 @@ const EchoPage = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="divide-y divide-neutral-800 max-h-[500px] overflow-y-auto">
             {leaderboard.map((decision, idx) => (
-              <div 
+              <div
                 key={decision.id}
                 onClick={() => setSelectedDecision(decision.id)}
                 className="p-4 hover:bg-neutral-800/50 cursor-pointer transition"
               >
                 <div className="flex items-center gap-4">
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${
-                    idx < 3 ? 'bg-amber-500/20 text-amber-400' : 'bg-neutral-800 text-neutral-400'
-                  }`}>
+                  <div
+                    className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${
+                      idx < 3 ? 'bg-amber-500/20 text-amber-400' : 'bg-neutral-800 text-neutral-400'
+                    }`}
+                  >
                     {idx + 1}
                   </div>
-                  
+
                   <div className="flex-1 min-w-0">
                     <p className="font-medium truncate">{decision.decisionTitle}</p>
                     <div className="flex items-center gap-3 mt-1 text-sm text-neutral-500">
@@ -240,23 +259,34 @@ const EchoPage = () => {
                       </span>
                     </div>
                   </div>
-                  
+
                   <div className="text-right">
-                    <p className={`text-lg font-bold ${
-                      decision.dollarImpact > 0 ? 'text-green-400' : 
-                      decision.dollarImpact < 0 ? 'text-red-400' : 'text-neutral-400'
-                    }`}>
-                      {decision.dollarImpact > 0 ? '+' : ''}{formatCurrency(decision.dollarImpact)}
+                    <p
+                      className={`text-lg font-bold ${
+                        decision.dollarImpact > 0
+                          ? 'text-green-400'
+                          : decision.dollarImpact < 0
+                            ? 'text-red-400'
+                            : 'text-neutral-400'
+                      }`}
+                    >
+                      {decision.dollarImpact > 0 ? '+' : ''}
+                      {formatCurrency(decision.dollarImpact)}
                     </p>
                     <p className="text-sm text-neutral-500">
                       ROI: {formatPercent(decision.roi * 100)}
                     </p>
                   </div>
-                  
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
-                    decision.status === 'positive' ? 'bg-green-500/20' :
-                    decision.status === 'negative' ? 'bg-red-500/20' : 'bg-neutral-800'
-                  }`}>
+
+                  <div
+                    className={`w-8 h-8 rounded-full flex items-center justify-center ${
+                      decision.status === 'positive'
+                        ? 'bg-green-500/20'
+                        : decision.status === 'negative'
+                          ? 'bg-red-500/20'
+                          : 'bg-neutral-800'
+                    }`}
+                  >
                     {decision.status === 'positive' ? (
                       <ArrowUpRight className="w-4 h-4 text-green-400" />
                     ) : decision.status === 'negative' ? (
@@ -268,12 +298,14 @@ const EchoPage = () => {
                 </div>
               </div>
             ))}
-            
+
             {leaderboard.length === 0 && (
               <div className="p-8 text-center text-neutral-500">
                 <Activity className="w-12 h-12 mx-auto mb-3 opacity-50" />
                 <p>No decision outcomes tracked yet</p>
-                <p className="text-sm mt-1">Link decisions to their outcomes to see the ROI leaderboard</p>
+                <p className="text-sm mt-1">
+                  Link decisions to their outcomes to see the ROI leaderboard
+                </p>
               </div>
             )}
           </div>
@@ -287,27 +319,37 @@ const EchoPage = () => {
               <Brain className="w-5 h-5 text-purple-500" />
               <h2 className="text-lg font-semibold">Agent Accuracy</h2>
             </div>
-            
+
             <div className="space-y-3">
-              {Object.entries(accuracy?.byAgent || {}).slice(0, 6).map(([agent, acc]) => (
-                <div key={agent}>
-                  <div className="flex justify-between text-sm mb-1">
-                    <span className="text-neutral-400">{agent}</span>
-                    <span className={acc >= 80 ? 'text-green-400' : acc >= 60 ? 'text-amber-400' : 'text-red-400'}>
-                      {formatPercent(acc)}
-                    </span>
+              {Object.entries(accuracy?.byAgent || {})
+                .slice(0, 6)
+                .map(([agent, acc]) => (
+                  <div key={agent}>
+                    <div className="flex justify-between text-sm mb-1">
+                      <span className="text-neutral-400">{agent}</span>
+                      <span
+                        className={
+                          acc >= 80
+                            ? 'text-green-400'
+                            : acc >= 60
+                              ? 'text-amber-400'
+                              : 'text-red-400'
+                        }
+                      >
+                        {formatPercent(acc)}
+                      </span>
+                    </div>
+                    <div className="h-2 bg-neutral-800 rounded-full overflow-hidden">
+                      <div
+                        className={`h-full rounded-full ${
+                          acc >= 80 ? 'bg-green-500' : acc >= 60 ? 'bg-amber-500' : 'bg-red-500'
+                        }`}
+                        style={{ width: `${acc}%` }}
+                      />
+                    </div>
                   </div>
-                  <div className="h-2 bg-neutral-800 rounded-full overflow-hidden">
-                    <div 
-                      className={`h-full rounded-full ${
-                        acc >= 80 ? 'bg-green-500' : acc >= 60 ? 'bg-amber-500' : 'bg-red-500'
-                      }`}
-                      style={{ width: `${acc}%` }}
-                    />
-                  </div>
-                </div>
-              ))}
-              
+                ))}
+
               {Object.keys(accuracy?.byAgent || {}).length === 0 && (
                 <p className="text-neutral-500 text-sm text-center py-4">
                   No agent accuracy data available yet
@@ -322,7 +364,7 @@ const EchoPage = () => {
               <Zap className="w-5 h-5 text-amber-500" />
               <h2 className="text-lg font-semibold">Recommendations</h2>
             </div>
-            
+
             <div className="space-y-3">
               {(accuracy?.recommendations || dashboard?.recommendations || []).map((rec, idx) => (
                 <div key={idx} className="flex gap-3 p-3 bg-neutral-800/50 rounded-lg">
@@ -332,7 +374,7 @@ const EchoPage = () => {
                   <p className="text-sm text-neutral-300">{rec}</p>
                 </div>
               ))}
-              
+
               {(accuracy?.recommendations || []).length === 0 && (
                 <p className="text-neutral-500 text-sm text-center py-4">
                   All metrics are within acceptable ranges
@@ -347,7 +389,7 @@ const EchoPage = () => {
               <FileText className="w-5 h-5 text-blue-500" />
               <h2 className="text-lg font-semibold">Quick Actions</h2>
             </div>
-            
+
             <div className="space-y-2">
               <button className="w-full flex items-center justify-between p-3 bg-neutral-800 rounded-lg hover:bg-neutral-700 transition">
                 <span className="flex items-center gap-2">
@@ -356,7 +398,7 @@ const EchoPage = () => {
                 </span>
                 <ChevronRight className="w-4 h-4 text-neutral-500" />
               </button>
-              
+
               <button className="w-full flex items-center justify-between p-3 bg-neutral-800 rounded-lg hover:bg-neutral-700 transition">
                 <span className="flex items-center gap-2">
                   <FileText className="w-4 h-4 text-blue-400" />
@@ -364,7 +406,7 @@ const EchoPage = () => {
                 </span>
                 <ChevronRight className="w-4 h-4 text-neutral-500" />
               </button>
-              
+
               <button className="w-full flex items-center justify-between p-3 bg-neutral-800 rounded-lg hover:bg-neutral-700 transition">
                 <span className="flex items-center gap-2">
                   <X className="w-4 h-4 text-red-400" />

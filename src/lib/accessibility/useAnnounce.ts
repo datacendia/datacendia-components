@@ -13,36 +13,47 @@ export function useAnnounce() {
   const isProcessingRef = useRef(false);
 
   const processQueue = useCallback(() => {
-    if (isProcessingRef.current || queueRef.current.length === 0) {return;}
+    if (isProcessingRef.current || queueRef.current.length === 0) {
+      return;
+    }
 
     isProcessingRef.current = true;
     const message = queueRef.current.shift()!;
-    
+
     announceToScreenReader(message, 'polite');
-    
+
     setTimeout(() => {
       isProcessingRef.current = false;
       processQueue();
     }, 500);
   }, []);
 
-  const announce = useCallback((message: string, priority: 'polite' | 'assertive' = 'polite') => {
-    if (priority === 'assertive') {
-      // Assertive messages bypass the queue
-      announceToScreenReader(message, 'assertive');
-    } else {
-      queueRef.current.push(message);
-      processQueue();
-    }
-  }, [processQueue]);
+  const announce = useCallback(
+    (message: string, priority: 'polite' | 'assertive' = 'polite') => {
+      if (priority === 'assertive') {
+        // Assertive messages bypass the queue
+        announceToScreenReader(message, 'assertive');
+      } else {
+        queueRef.current.push(message);
+        processQueue();
+      }
+    },
+    [processQueue]
+  );
 
-  const announcePolite = useCallback((message: string) => {
-    announce(message, 'polite');
-  }, [announce]);
+  const announcePolite = useCallback(
+    (message: string) => {
+      announce(message, 'polite');
+    },
+    [announce]
+  );
 
-  const announceAssertive = useCallback((message: string) => {
-    announce(message, 'assertive');
-  }, [announce]);
+  const announceAssertive = useCallback(
+    (message: string) => {
+      announce(message, 'assertive');
+    },
+    [announce]
+  );
 
   return {
     announce,

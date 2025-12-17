@@ -174,7 +174,11 @@ class ApotheosisService {
   /**
    * Respond to an escalation
    */
-  async respondToEscalation(id: string, response: 'approved' | 'rejected' | 'deferred', reason: string): Promise<void> {
+  async respondToEscalation(
+    id: string,
+    response: 'approved' | 'rejected' | 'deferred',
+    reason: string
+  ): Promise<void> {
     await api.post(`${this.baseUrl}/escalations/${id}/respond`, { response, reason });
   }
 
@@ -241,11 +245,11 @@ class ApotheosisService {
     return {
       overall: 94.7,
       components: {
-        redTeamSurvivalRate: { value: 93, weight: 0.30 },
+        redTeamSurvivalRate: { value: 93, weight: 0.3 },
         weaknessClosureRate: { value: 97, weight: 0.25 },
         decisionSuccessRate: { value: 89, weight: 0.25 },
-        humanReadiness: { value: 96, weight: 0.10 },
-        patternHealth: { value: 98, weight: 0.10 },
+        humanReadiness: { value: 96, weight: 0.1 },
+        patternHealth: { value: 98, weight: 0.1 },
       },
       trend: [
         { date: '2024-01', score: 78.2 },
@@ -288,7 +292,8 @@ class ApotheosisService {
         id: 'esc-1',
         weaknessId: 'w1',
         title: 'Single point of failure in Finance',
-        description: 'Only CFO can approve wire transfers >$100K. CFO unavailable = business stops.',
+        description:
+          'Only CFO can approve wire transfers >$100K. CFO unavailable = business stops.',
         severity: 'critical',
         reason: 'Requires policy change',
         estimatedCostToFix: 0,
@@ -301,7 +306,8 @@ class ApotheosisService {
         id: 'esc-2',
         weaknessId: 'w2',
         title: 'Vendor concentration risk',
-        description: '73% of cloud spend with single vendor (AWS). Price increase or outage = major impact.',
+        description:
+          '73% of cloud spend with single vendor (AWS). Price increase or outage = major impact.',
         severity: 'high',
         reason: 'Budget impact exceeds threshold',
         estimatedCostToFix: 150000,
@@ -314,7 +320,8 @@ class ApotheosisService {
         id: 'esc-3',
         weaknessId: 'w3',
         title: 'Knowledge concentration in Engineering',
-        description: '3 engineers hold 80% of critical system knowledge. Departure = 6-12 month recovery.',
+        description:
+          '3 engineers hold 80% of critical system knowledge. Departure = 6-12 month recovery.',
         severity: 'high',
         reason: 'Requires resource allocation',
         estimatedCostToFix: 45000,
@@ -333,9 +340,27 @@ class ApotheosisService {
         pattern: 'Skip process for urgent requests',
         description: 'Bypassing standard review for urgency claims',
         instances: [
-          { decisionId: 'd1', decisionTitle: 'Rush vendor onboarding', date: new Date('2024-09-15'), outcome: 'failure', cost: 120000 },
-          { decisionId: 'd2', decisionTitle: 'Skip QA for deadline', date: new Date('2024-06-10'), outcome: 'failure', cost: 45000 },
-          { decisionId: 'd3', decisionTitle: 'Skip legal review', date: new Date('2024-03-22'), outcome: 'failure', cost: 75000 },
+          {
+            decisionId: 'd1',
+            decisionTitle: 'Rush vendor onboarding',
+            date: new Date('2024-09-15'),
+            outcome: 'failure',
+            cost: 120000,
+          },
+          {
+            decisionId: 'd2',
+            decisionTitle: 'Skip QA for deadline',
+            date: new Date('2024-06-10'),
+            outcome: 'failure',
+            cost: 45000,
+          },
+          {
+            decisionId: 'd3',
+            decisionTitle: 'Skip legal review',
+            date: new Date('2024-03-22'),
+            outcome: 'failure',
+            cost: 75000,
+          },
         ],
         failureRate: 100,
         totalCost: 240000,
@@ -349,8 +374,20 @@ class ApotheosisService {
         pattern: 'Approve vendor without references',
         description: 'Onboarding vendors without reference checks',
         instances: [
-          { decisionId: 'd4', decisionTitle: 'New supplier approval', date: new Date('2024-06-01'), outcome: 'failure', cost: 85000 },
-          { decisionId: 'd5', decisionTitle: 'Contractor engagement', date: new Date('2024-04-15'), outcome: 'failure', cost: 62000 },
+          {
+            decisionId: 'd4',
+            decisionTitle: 'New supplier approval',
+            date: new Date('2024-06-01'),
+            outcome: 'failure',
+            cost: 85000,
+          },
+          {
+            decisionId: 'd5',
+            decisionTitle: 'Contractor engagement',
+            date: new Date('2024-04-15'),
+            outcome: 'failure',
+            cost: 62000,
+          },
         ],
         failureRate: 100,
         totalCost: 147000,
@@ -364,8 +401,20 @@ class ApotheosisService {
         pattern: 'Deploy Friday afternoon',
         description: 'Production deployments on Friday afternoons',
         instances: [
-          { decisionId: 'd6', decisionTitle: 'Feature release', date: new Date('2024-03-08'), outcome: 'failure', cost: 35000 },
-          { decisionId: 'd7', decisionTitle: 'Hotfix deployment', date: new Date('2024-02-16'), outcome: 'failure', cost: 28000 },
+          {
+            decisionId: 'd6',
+            decisionTitle: 'Feature release',
+            date: new Date('2024-03-08'),
+            outcome: 'failure',
+            cost: 35000,
+          },
+          {
+            decisionId: 'd7',
+            decisionTitle: 'Hotfix deployment',
+            date: new Date('2024-02-16'),
+            outcome: 'failure',
+            cost: 28000,
+          },
         ],
         failureRate: 83,
         totalCost: 63000,

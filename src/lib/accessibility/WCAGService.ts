@@ -83,7 +83,9 @@ export function getContrastRatio(foreground: string, background: string): number
   const fg = hexToRgb(foreground);
   const bg = hexToRgb(background);
 
-  if (!fg || !bg) {return 1;}
+  if (!fg || !bg) {
+    return 1;
+  }
 
   const l1 = getRelativeLuminance(fg.r, fg.g, fg.b);
   const l2 = getRelativeLuminance(bg.r, bg.g, bg.b);
@@ -104,12 +106,16 @@ export function meetsContrastRequirements(
   isLargeText: boolean = false
 ): boolean {
   const ratio = getContrastRatio(foreground, background);
-  
+
   if (level === 'AAA') {
-    return isLargeText ? ratio >= CONTRAST_RATIOS.AAA_LARGE_TEXT : ratio >= CONTRAST_RATIOS.AAA_NORMAL_TEXT;
+    return isLargeText
+      ? ratio >= CONTRAST_RATIOS.AAA_LARGE_TEXT
+      : ratio >= CONTRAST_RATIOS.AAA_NORMAL_TEXT;
   }
-  
-  return isLargeText ? ratio >= CONTRAST_RATIOS.AA_LARGE_TEXT : ratio >= CONTRAST_RATIOS.AA_NORMAL_TEXT;
+
+  return isLargeText
+    ? ratio >= CONTRAST_RATIOS.AA_LARGE_TEXT
+    : ratio >= CONTRAST_RATIOS.AA_NORMAL_TEXT;
 }
 
 /**
@@ -120,10 +126,13 @@ export function suggestAccessibleColor(
   background: string,
   level: WCAGLevel = 'AA'
 ): string {
-  const targetRatio = level === 'AAA' ? CONTRAST_RATIOS.AAA_NORMAL_TEXT : CONTRAST_RATIOS.AA_NORMAL_TEXT;
-  
+  const targetRatio =
+    level === 'AAA' ? CONTRAST_RATIOS.AAA_NORMAL_TEXT : CONTRAST_RATIOS.AA_NORMAL_TEXT;
+
   const rgb = hexToRgb(color);
-  if (!rgb) {return color;}
+  if (!rgb) {
+    return color;
+  }
 
   // Try darkening or lightening the color
   let adjustedColor = color;
@@ -138,11 +147,11 @@ export function suggestAccessibleColor(
     const newR = Math.min(255, Math.max(0, Math.round(rgb.r * factor)));
     const newG = Math.min(255, Math.max(0, Math.round(rgb.g * factor)));
     const newB = Math.min(255, Math.max(0, Math.round(rgb.b * factor)));
-    
+
     rgb.r = newR;
     rgb.g = newG;
     rgb.b = newB;
-    
+
     adjustedColor = `#${newR.toString(16).padStart(2, '0')}${newG.toString(16).padStart(2, '0')}${newB.toString(16).padStart(2, '0')}`;
     currentRatio = getContrastRatio(adjustedColor, background);
   }
@@ -185,7 +194,7 @@ export class FocusTrap {
   activate(): void {
     this.previousActiveElement = document.activeElement;
     this.container.addEventListener('keydown', this.handleKeyDown);
-    
+
     // Focus first element
     if (this.focusableElements.length > 0) {
       this.focusableElements[0].focus();
@@ -194,7 +203,7 @@ export class FocusTrap {
 
   deactivate(): void {
     this.container.removeEventListener('keydown', this.handleKeyDown);
-    
+
     // Restore focus
     if (this.previousActiveElement instanceof HTMLElement) {
       this.previousActiveElement.focus();
@@ -202,10 +211,12 @@ export class FocusTrap {
   }
 
   private handleKeyDown = (event: KeyboardEvent): void => {
-    if (event.key !== KEYBOARD_KEYS.TAB) {return;}
+    if (event.key !== KEYBOARD_KEYS.TAB) {
+      return;
+    }
 
     this.updateFocusableElements();
-    
+
     const firstElement = this.focusableElements[0];
     const lastElement = this.focusableElements[this.focusableElements.length - 1];
 
@@ -253,7 +264,7 @@ export function announceToScreenReader(
 ): void {
   const liveRegion = document.getElementById('a11y-announcer') || createLiveRegion();
   liveRegion.setAttribute('aria-live', priority);
-  
+
   // Clear and set new message (necessary for repeat announcements)
   liveRegion.textContent = '';
   setTimeout(() => {
@@ -301,7 +312,9 @@ export function createArrowKeyHandler(
 
   return (event: KeyboardEvent) => {
     const currentIndex = items.findIndex((item) => item === document.activeElement);
-    if (currentIndex === -1) {return;}
+    if (currentIndex === -1) {
+      return;
+    }
 
     let nextIndex = currentIndex;
 
@@ -354,8 +367,12 @@ export function createArrowKeyHandler(
 
     // Handle looping
     if (loop) {
-      if (nextIndex < 0) {nextIndex = items.length - 1;}
-      if (nextIndex >= items.length) {nextIndex = 0;}
+      if (nextIndex < 0) {
+        nextIndex = items.length - 1;
+      }
+      if (nextIndex >= items.length) {
+        nextIndex = 0;
+      }
     } else {
       nextIndex = Math.max(0, Math.min(items.length - 1, nextIndex));
     }
@@ -419,7 +436,11 @@ export function checkElementAccessibility(element: HTMLElement): AccessibilityIs
   }
 
   // Check for form labels
-  if (element.tagName === 'INPUT' || element.tagName === 'SELECT' || element.tagName === 'TEXTAREA') {
+  if (
+    element.tagName === 'INPUT' ||
+    element.tagName === 'SELECT' ||
+    element.tagName === 'TEXTAREA'
+  ) {
     const id = element.getAttribute('id');
     const hasLabel =
       element.getAttribute('aria-label') ||
@@ -445,7 +466,9 @@ export function checkElementAccessibility(element: HTMLElement): AccessibilityIs
     let previousLevel = 0;
 
     for (const h of previousHeadings) {
-      if (h === element) {break;}
+      if (h === element) {
+        break;
+      }
       previousLevel = parseInt(h.tagName[1]);
     }
 
@@ -463,9 +486,10 @@ export function checkElementAccessibility(element: HTMLElement): AccessibilityIs
 
   // Check for empty links
   if (element.tagName === 'A' && element.getAttribute('href')) {
-    const isEmpty = !element.textContent?.trim() && 
-                    !element.querySelector('img[alt]') &&
-                    !element.getAttribute('aria-label');
+    const isEmpty =
+      !element.textContent?.trim() &&
+      !element.querySelector('img[alt]') &&
+      !element.getAttribute('aria-label');
     if (isEmpty) {
       issues.push({
         type: 'error',
@@ -528,7 +552,7 @@ export function prefersReducedMotion(): boolean {
 export function onReducedMotionChange(callback: (prefersReduced: boolean) => void): () => void {
   const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
   const handler = (event: MediaQueryListEvent) => callback(event.matches);
-  
+
   mediaQuery.addEventListener('change', handler);
   return () => mediaQuery.removeEventListener('change', handler);
 }
@@ -541,16 +565,22 @@ export function onReducedMotionChange(callback: (prefersReduced: boolean) => voi
  * Check if user has high contrast mode enabled
  */
 export function prefersHighContrast(): boolean {
-  return window.matchMedia('(prefers-contrast: more)').matches ||
-         window.matchMedia('(-ms-high-contrast: active)').matches;
+  return (
+    window.matchMedia('(prefers-contrast: more)').matches ||
+    window.matchMedia('(-ms-high-contrast: active)').matches
+  );
 }
 
 /**
  * Get appropriate color scheme based on system preferences
  */
 export function getPreferredColorScheme(): 'light' | 'dark' | 'high-contrast' {
-  if (prefersHighContrast()) {return 'high-contrast';}
-  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {return 'dark';}
+  if (prefersHighContrast()) {
+    return 'high-contrast';
+  }
+  if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    return 'dark';
+  }
   return 'light';
 }
 
@@ -561,12 +591,16 @@ export function getPreferredColorScheme(): 'light' | 'dark' | 'high-contrast' {
 /**
  * Create skip link element
  */
-export function createSkipLink(targetId: string, text: string = 'Skip to main content'): HTMLAnchorElement {
+export function createSkipLink(
+  targetId: string,
+  text: string = 'Skip to main content'
+): HTMLAnchorElement {
   const link = document.createElement('a');
   link.href = `#${targetId}`;
   link.textContent = text;
-  link.className = 'sr-only focus:not-sr-only focus:absolute focus:z-50 focus:p-4 focus:bg-white focus:text-blue-600 focus:underline';
-  
+  link.className =
+    'sr-only focus:not-sr-only focus:absolute focus:z-50 focus:p-4 focus:bg-white focus:text-blue-600 focus:underline';
+
   link.addEventListener('click', (e) => {
     e.preventDefault();
     const target = document.getElementById(targetId);
@@ -598,13 +632,16 @@ class WCAGService {
    * Initialize WCAG service with global accessibility enhancements
    */
   initialize(): void {
-    if (this.initialized) {return;}
+    if (this.initialized) {
+      return;
+    }
 
     // Add live region for announcements
     createLiveRegion();
 
     // Add skip link if main content exists
-    const mainContent = document.querySelector('main[id]') || document.getElementById('main-content');
+    const mainContent =
+      document.querySelector('main[id]') || document.getElementById('main-content');
     if (mainContent && mainContent.id) {
       const skipLink = createSkipLink(mainContent.id);
       document.body.insertBefore(skipLink, document.body.firstChild);

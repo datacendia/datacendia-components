@@ -105,7 +105,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     // Listen for auth changes (e.g., from other tabs)
     const unsubscribe = onAuthChange((isAuthenticated) => {
       if (!isAuthenticated) {
-        setState(prev => ({
+        setState((prev) => ({
           ...prev,
           user: null,
           isAuthenticated: false,
@@ -118,7 +118,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Login
   const login = useCallback(async (email: string, password: string): Promise<boolean> => {
-    setState(prev => ({ ...prev, isLoading: true, error: null }));
+    setState((prev) => ({ ...prev, isLoading: true, error: null }));
 
     try {
       const response = await authApi.login({ email, password });
@@ -138,14 +138,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         }
       }
 
-      setState(prev => ({
+      setState((prev) => ({
         ...prev,
         isLoading: false,
         error: response.error?.message || 'Login failed',
       }));
       return false;
     } catch (error) {
-      setState(prev => ({
+      setState((prev) => ({
         ...prev,
         isLoading: false,
         error: error instanceof Error ? error.message : 'Login failed',
@@ -156,7 +156,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Register
   const register = useCallback(async (data: RegisterData): Promise<boolean> => {
-    setState(prev => ({ ...prev, isLoading: true, error: null }));
+    setState((prev) => ({ ...prev, isLoading: true, error: null }));
 
     try {
       const response = await authApi.register({
@@ -181,14 +181,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         }
       }
 
-      setState(prev => ({
+      setState((prev) => ({
         ...prev,
         isLoading: false,
         error: response.error?.message || 'Registration failed',
       }));
       return false;
     } catch (error) {
-      setState(prev => ({
+      setState((prev) => ({
         ...prev,
         isLoading: false,
         error: error instanceof Error ? error.message : 'Registration failed',
@@ -199,7 +199,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Logout
   const logout = useCallback(async () => {
-    setState(prev => ({ ...prev, isLoading: true }));
+    setState((prev) => ({ ...prev, isLoading: true }));
 
     try {
       await authApi.logout();
@@ -218,12 +218,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Refresh user data
   const refreshUser = useCallback(async () => {
-    if (!tokenManager.isAuthenticated()) {return;}
+    if (!tokenManager.isAuthenticated()) {
+      return;
+    }
 
     try {
       const response = await authApi.getCurrentUser();
       if (response.success && response.data) {
-        setState(prev => ({
+        setState((prev) => ({
           ...prev,
           user: response.data as User,
         }));
@@ -235,7 +237,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Update user locally (optimistic update)
   const updateUser = useCallback((updates: Partial<User>) => {
-    setState(prev => ({
+    setState((prev) => ({
       ...prev,
       user: prev.user ? { ...prev.user, ...updates } : null,
     }));
@@ -243,31 +245,46 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   // Clear error
   const clearError = useCallback(() => {
-    setState(prev => ({ ...prev, error: null }));
+    setState((prev) => ({ ...prev, error: null }));
   }, []);
 
   // Permission check - role-based for now
-  const hasPermission = useCallback((permission: string): boolean => {
-    if (!state.user) {return false;}
-    // Admins and Super Admins have all permissions
-    if (state.user.role === 'ADMIN' || state.user.role === 'SUPER_ADMIN') {return true;}
-    // Role-based permission mapping
-    const rolePermissions: Record<string, string[]> = {
-      'SUPER_ADMIN': ['*'],
-      'ADMIN': ['*'],
-      'ANALYST': ['read', 'write', 'analyze', 'council', 'graph', 'pulse', 'lens', 'bridge'],
-      'VIEWER': ['read', 'council'],
-    };
-    return rolePermissions[state.user.role]?.includes(permission) || 
-           rolePermissions[state.user.role]?.includes('*') || false;
-  }, [state.user]);
+  const hasPermission = useCallback(
+    (permission: string): boolean => {
+      if (!state.user) {
+        return false;
+      }
+      // Admins and Super Admins have all permissions
+      if (state.user.role === 'ADMIN' || state.user.role === 'SUPER_ADMIN') {
+        return true;
+      }
+      // Role-based permission mapping
+      const rolePermissions: Record<string, string[]> = {
+        SUPER_ADMIN: ['*'],
+        ADMIN: ['*'],
+        ANALYST: ['read', 'write', 'analyze', 'council', 'graph', 'pulse', 'lens', 'bridge'],
+        VIEWER: ['read', 'council'],
+      };
+      return (
+        rolePermissions[state.user.role]?.includes(permission) ||
+        rolePermissions[state.user.role]?.includes('*') ||
+        false
+      );
+    },
+    [state.user]
+  );
 
   // Role check
-  const hasRole = useCallback((roles: string | string[]): boolean => {
-    if (!state.user) {return false;}
-    const roleArray = Array.isArray(roles) ? roles : [roles];
-    return roleArray.includes(state.user.role);
-  }, [state.user]);
+  const hasRole = useCallback(
+    (roles: string | string[]): boolean => {
+      if (!state.user) {
+        return false;
+      }
+      const roleArray = Array.isArray(roles) ? roles : [roles];
+      return roleArray.includes(state.user.role);
+    },
+    [state.user]
+  );
 
   const value: AuthContextValue = {
     ...state,
@@ -281,11 +298,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     hasRole,
   };
 
-  return (
-    <AuthContext.Provider value={value}>
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }
 
 // =============================================================================

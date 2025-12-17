@@ -657,28 +657,14 @@
           "Alert thresholds with automated notifications",
           "Executive summary generation"
         ],
-        "useCases": [
-          "Track quarterly objectives across all departments",
-          "Monitor revenue metrics and growth indicators",
-          "Set and track strategic milestones"
-        ],
+        "useCases": ["Track quarterly objectives across all departments", "Monitor revenue metrics and growth indicators", "Set and track strategic milestones"],
         "guidance": "Start by defining your key metrics. The Helm works best when you have clear, measurable objectives aligned with your organization's strategy."
       },
       "lineage": {
         "title": "The Lineage - Data Provenance Tracker",
         "summary": "Complete visibility into your data's journey. Know where every number comes from and where it goes.",
-        "features": [
-          "Visual data flow mapping",
-          "Source-to-report traceability",
-          "Impact analysis for data changes",
-          "Data quality scoring at each stage",
-          "Automated documentation generation"
-        ],
-        "useCases": [
-          "Audit trail for regulatory compliance",
-          "Debug data discrepancies across systems",
-          "Plan system migrations with full impact visibility"
-        ],
+        "features": ["Visual data flow mapping", "Source-to-report traceability", "Impact analysis for data changes", "Data quality scoring at each stage", "Automated documentation generation"],
+        "useCases": ["Audit trail for regulatory compliance", "Debug data discrepancies across systems", "Plan system migrations with full impact visibility"],
         "guidance": "Connect your data sources first. The Lineage automatically discovers relationships and builds your data map."
       },
       "predict": {
@@ -691,11 +677,7 @@
           "Feature importance analysis",
           "Model performance monitoring"
         ],
-        "useCases": [
-          "Forecast demand and optimize inventory",
-          "Predict customer churn before it happens",
-          "Model financial scenarios for strategic planning"
-        ],
+        "useCases": ["Forecast demand and optimize inventory", "Predict customer churn before it happens", "Model financial scenarios for strategic planning"],
         "guidance": "Quality predictions require quality data. Start with clean historical data and let The Predict learn your patterns."
       },
       "flow": {
@@ -708,79 +690,35 @@
           "Approval chains with escalation rules",
           "Workflow analytics and optimization"
         ],
-        "useCases": [
-          "Automate data pipeline orchestration",
-          "Create intelligent approval workflows",
-          "Trigger actions based on AI insights"
-        ],
+        "useCases": ["Automate data pipeline orchestration", "Create intelligent approval workflows", "Trigger actions based on AI insights"],
         "guidance": "Map your current manual processes first. The Flow helps you identify automation opportunities and implement them step by step."
       },
       "health": {
         "title": "The Health - System Vitality Monitor",
         "summary": "Real-time pulse on your organization's vital signs. Know when something's wrong before it breaks.",
-        "features": [
-          "Component health dashboards",
-          "Performance trend analysis",
-          "Incident tracking and resolution",
-          "Capacity planning tools",
-          "Uptime and SLA monitoring"
-        ],
-        "useCases": [
-          "Monitor system health across all platforms",
-          "Track incident response and resolution times",
-          "Plan infrastructure capacity proactively"
-        ],
+        "features": ["Component health dashboards", "Performance trend analysis", "Incident tracking and resolution", "Capacity planning tools", "Uptime and SLA monitoring"],
+        "useCases": ["Monitor system health across all platforms", "Track incident response and resolution times", "Plan infrastructure capacity proactively"],
         "guidance": "Configure health checks for your critical systems. The Health aggregates signals to give you a unified view."
       },
       "guard": {
         "title": "The Guard - Security & Compliance Shield",
         "summary": "Automated protection for your data. Enforce policies, track access, and stay compliant.",
-        "features": [
-          "Policy enforcement engine",
-          "Access audit logging",
-          "Threat detection and alerting",
-          "Compliance framework mapping",
-          "Security posture scoring"
-        ],
-        "useCases": [
-          "Enforce data access policies automatically",
-          "Generate compliance reports for auditors",
-          "Detect and respond to security threats"
-        ],
+        "features": ["Policy enforcement engine", "Access audit logging", "Threat detection and alerting", "Compliance framework mapping", "Security posture scoring"],
+        "useCases": ["Enforce data access policies automatically", "Generate compliance reports for auditors", "Detect and respond to security threats"],
         "guidance": "Define your security policies and compliance requirements. The Guard monitors continuously and alerts on violations."
       },
       "ethics": {
         "title": "The Ethics - AI Governance Center",
         "summary": "Responsible AI built-in. Ensure fairness, transparency, and accountability in every decision.",
-        "features": [
-          "Bias detection and monitoring",
-          "Model explainability tools",
-          "Ethics review workflows",
-          "Fairness metric tracking",
-          "Decision audit trails"
-        ],
-        "useCases": [
-          "Review AI models for bias before deployment",
-          "Document decision rationale for compliance",
-          "Monitor fairness metrics in production"
-        ],
+        "features": ["Bias detection and monitoring", "Model explainability tools", "Ethics review workflows", "Fairness metric tracking", "Decision audit trails"],
+        "useCases": ["Review AI models for bias before deployment", "Document decision rationale for compliance", "Monitor fairness metrics in production"],
         "guidance": "Establish your ethical principles first. The Ethics helps you operationalize them across all AI systems."
       },
       "agents": {
         "title": "The Agents - AI Advisory Council",
         "summary": "Specialized AI advisors for every domain. Get expert guidance on demand.",
-        "features": [
-          "Domain-specialized AI agents",
-          "Multi-agent collaboration",
-          "Context-aware recommendations",
-          "Natural language interaction",
-          "Continuous learning from feedback"
-        ],
-        "useCases": [
-          "Get strategic advice from business analysts",
-          "Consult technical experts for architecture decisions",
-          "Receive compliance guidance from regulatory specialists"
-        ],
+        "features": ["Domain-specialized AI agents", "Multi-agent collaboration", "Context-aware recommendations", "Natural language interaction", "Continuous learning from feedback"],
+        "useCases": ["Get strategic advice from business analysts", "Consult technical experts for architecture decisions", "Receive compliance guidance from regulatory specialists"],
         "guidance": "Choose the right agent for your question. Each agent has specialized knowledge - the Council knows when to collaborate."
       }
     },
@@ -788,61 +726,31 @@
       "graph": {
         "title": "The Graph - Knowledge Navigator",
         "summary": "Navigate your organization's knowledge universe. See connections others miss.",
-        "features": [
-          "Interactive knowledge visualization",
-          "Semantic search across all data",
-          "Relationship discovery",
-          "Context-aware exploration",
-          "Knowledge gap identification"
-        ],
+        "features": ["Interactive knowledge visualization", "Semantic search across all data", "Relationship discovery", "Context-aware exploration", "Knowledge gap identification"],
         "guidance": "Explore by clicking any node. The Graph reveals connections and lets you drill down into details."
       },
       "council": {
         "title": "The Council - AI Collaboration Chamber",
         "summary": "Where AI advisors deliberate together. Complex problems need multiple perspectives.",
-        "features": [
-          "Multi-agent reasoning sessions",
-          "Structured deliberation frameworks",
-          "Conflict resolution protocols",
-          "Consensus building tools",
-          "Decision documentation"
-        ],
+        "features": ["Multi-agent reasoning sessions", "Structured deliberation frameworks", "Conflict resolution protocols", "Consensus building tools", "Decision documentation"],
         "guidance": "Present your question to The Council. Watch as different perspectives emerge and synthesize into recommendations."
       },
       "pulse": {
         "title": "The Pulse - Real-Time Operations Center",
         "summary": "Live view of your organization's heartbeat. Every metric, every moment.",
-        "features": [
-          "Real-time metric streaming",
-          "Customizable alert thresholds",
-          "Trend visualization",
-          "Anomaly highlighting",
-          "Historical comparison"
-        ],
+        "features": ["Real-time metric streaming", "Customizable alert thresholds", "Trend visualization", "Anomaly highlighting", "Historical comparison"],
         "guidance": "Configure your key metrics to appear on The Pulse. Set alert thresholds to get notified of changes."
       },
       "lens": {
         "title": "The Lens - Future Scenario Explorer",
         "summary": "See possible futures before they arrive. Model scenarios and plan accordingly.",
-        "features": [
-          "Scenario modeling engine",
-          "Monte Carlo simulations",
-          "Sensitivity analysis",
-          "Decision tree visualization",
-          "Outcome probability mapping"
-        ],
+        "features": ["Scenario modeling engine", "Monte Carlo simulations", "Sensitivity analysis", "Decision tree visualization", "Outcome probability mapping"],
         "guidance": "Define your scenario parameters. The Lens generates multiple futures and shows you the most likely outcomes."
       },
       "bridge": {
         "title": "The Bridge - Action Command Center",
         "summary": "Turn insights into action. Execute across all your connected systems.",
-        "features": [
-          "Cross-system action execution",
-          "Approval workflow integration",
-          "Action impact preview",
-          "Rollback capabilities",
-          "Execution audit trail"
-        ],
+        "features": ["Cross-system action execution", "Approval workflow integration", "Action impact preview", "Rollback capabilities", "Execution audit trail"],
         "guidance": "Select your action and preview its impact. The Bridge ensures safe execution with full traceability."
       }
     },
@@ -850,109 +758,55 @@
       "mirror": {
         "title": "Cendia Mirror - Digital Twin Engine",
         "summary": "Create living digital replicas of your organization. Test changes before they go live.",
-        "features": [
-          "Real-time data synchronization",
-          "Scenario simulation environment",
-          "Change impact modeling",
-          "A/B testing framework",
-          "Performance prediction"
-        ],
+        "features": ["Real-time data synchronization", "Scenario simulation environment", "Change impact modeling", "A/B testing framework", "Performance prediction"],
         "guidance": "Mirror creates a safe sandbox of your organization. Experiment freely - changes here won't affect production."
       },
       "witness": {
         "title": "Cendia Witness - Immutable Audit Trail",
         "summary": "Blockchain-backed evidence of every action. Prove what happened and when.",
-        "features": [
-          "Cryptographic timestamping",
-          "Tamper-proof audit logs",
-          "Chain of custody tracking",
-          "Evidence export for legal",
-          "Compliance attestation"
-        ],
+        "features": ["Cryptographic timestamping", "Tamper-proof audit logs", "Chain of custody tracking", "Evidence export for legal", "Compliance attestation"],
         "guidance": "Witness automatically records critical actions. Access the immutable record anytime for audits or investigations."
       },
       "oracle": {
         "title": "Cendia Oracle - Predictive Intelligence Hub",
         "summary": "Advanced AI that speaks truth to power. Get answers that matter.",
-        "features": [
-          "Natural language query interface",
-          "Cross-domain reasoning",
-          "Predictive question answering",
-          "Confidence scoring",
-          "Source citation"
-        ],
+        "features": ["Natural language query interface", "Cross-domain reasoning", "Predictive question answering", "Confidence scoring", "Source citation"],
         "guidance": "Ask Oracle anything about your organization. It synthesizes knowledge from all sources to give you accurate answers."
       },
       "legacy": {
         "title": "Cendia Legacy - Knowledge Preservation",
         "summary": "Capture institutional knowledge before it walks out the door. Preserve wisdom for the future.",
-        "features": [
-          "Expert knowledge capture",
-          "Decision rationale archiving",
-          "Best practice documentation",
-          "Knowledge transfer workflows",
-          "Successor onboarding tools"
-        ],
+        "features": ["Expert knowledge capture", "Decision rationale archiving", "Best practice documentation", "Knowledge transfer workflows", "Successor onboarding tools"],
         "guidance": "Record critical knowledge as it's created. Legacy ensures your organization's wisdom outlives any individual."
       },
       "mirage": {
         "title": "Cendia Mirage - Synthetic Data Generator",
         "summary": "Create realistic data without privacy risks. Train, test, and develop safely.",
-        "features": [
-          "Statistical data synthesis",
-          "Privacy-preserving generation",
-          "Correlation maintenance",
-          "Edge case amplification",
-          "Quality validation"
-        ],
+        "features": ["Statistical data synthesis", "Privacy-preserving generation", "Correlation maintenance", "Edge case amplification", "Quality validation"],
         "guidance": "Define your data requirements. Mirage generates synthetic datasets that match your real data's characteristics."
       },
       "key": {
         "title": "Cendia Key - Identity & Access Vault",
         "summary": "One key to rule them all. Unified identity management across your entire ecosystem.",
-        "features": [
-          "Single sign-on hub",
-          "Role-based access control",
-          "Privileged access management",
-          "Identity lifecycle automation",
-          "Zero-trust enforcement"
-        ],
+        "features": ["Single sign-on hub", "Role-based access control", "Privileged access management", "Identity lifecycle automation", "Zero-trust enforcement"],
         "guidance": "Connect your identity providers. Key unifies access control and enforces policies across all systems."
       },
       "mesh": {
         "title": "Cendia Mesh - Integration Fabric",
         "summary": "Connect everything to everything. The intelligent integration layer for your enterprise.",
-        "features": [
-          "Universal API gateway",
-          "Event-driven architecture",
-          "Data transformation engine",
-          "Service mesh management",
-          "Integration monitoring"
-        ],
+        "features": ["Universal API gateway", "Event-driven architecture", "Data transformation engine", "Service mesh management", "Integration monitoring"],
         "guidance": "Configure your system connections through Mesh. It handles protocols, transformations, and routing automatically."
       },
       "blackbox": {
         "title": "Cendia BlackBox - Model Registry",
         "summary": "Central command for all your AI models. Version, deploy, and monitor with confidence.",
-        "features": [
-          "Model versioning and lineage",
-          "Deployment orchestration",
-          "A/B testing framework",
-          "Performance monitoring",
-          "Rollback automation"
-        ],
+        "features": ["Model versioning and lineage", "Deployment orchestration", "A/B testing framework", "Performance monitoring", "Rollback automation"],
         "guidance": "Register your models in BlackBox. It tracks versions, manages deployments, and monitors performance automatically."
       },
       "glass": {
         "title": "Cendia Glass - Transparency Dashboard",
         "summary": "Complete visibility into AI decisions. See exactly why and how decisions were made.",
-        "features": [
-          "Decision explainability",
-          "Factor contribution analysis",
-          "Counterfactual exploration",
-          "Stakeholder reporting",
-          "Audit-ready documentation"
-        ],
+        "features": ["Decision explainability", "Factor contribution analysis", "Counterfactual exploration", "Stakeholder reporting", "Audit-ready documentation"],
         "guidance": "Select any AI decision in Glass. It breaks down the factors, shows alternatives, and explains the reasoning."
       }
     },
@@ -967,12 +821,7 @@
           "Decision pattern banning",
           "Apotheosis Score tracking"
         ],
-        "useCases": [
-          "Continuous organizational improvement",
-          "Proactive risk mitigation",
-          "Automated compliance hardening",
-          "Executive decision support"
-        ],
+        "useCases": ["Continuous organizational improvement", "Proactive risk mitigation", "Automated compliance hardening", "Executive decision support"],
         "guidance": "Apotheosis runs every night, attacking your organization from 1000+ angles, patching what it finds, and making you permanently immune to your own mistakes."
       },
       "dissent": {
@@ -985,12 +834,7 @@
           "Retaliation detection and protection",
           "Dissent accuracy tracking"
         ],
-        "useCases": [
-          "Ensuring minority voices are heard",
-          "Creating organizational memory",
-          "Protecting whistleblowers",
-          "Improving decision quality"
-        ],
+        "useCases": ["Ensuring minority voices are heard", "Creating organizational memory", "Protecting whistleblowers", "Improving decision quality"],
         "guidance": "File a dissent against any decision you disagree with. Your objection will be permanently recorded, acknowledged, and tracked for accuracy over time."
       },
       "connectors": {
@@ -1024,12 +868,7 @@
           "Merkle tree integrity verification",
           "Legal evidence bundle generation"
         ],
-        "useCases": [
-          "Audit-ready test evidence for compliance",
-          "Procurement and security review documentation",
-          "SOC 2 Type II / ISO 27001 / GDPR evidence",
-          "Tamper-proof execution records"
-        ],
+        "useCases": ["Audit-ready test evidence for compliance", "Procurement and security review documentation", "SOC 2 Type II / ISO 27001 / GDPR evidence", "Tamper-proof execution records"],
         "guidance": "All test executions are automatically recorded with cryptographic signatures. Generate legal evidence bundles for auditors with one click."
       },
       "sovereignArch": {
@@ -1043,12 +882,7 @@
           "QR Air-Gap Bridge: Zero-media data transfer",
           "TPM Attestation: Hardware-signed decisions"
         ],
-        "useCases": [
-          "Air-gapped secure facility deployments",
-          "Defense and intelligence applications",
-          "Regulated industry compliance",
-          "Zero-trust enterprise architecture"
-        ],
+        "useCases": ["Air-gapped secure facility deployments", "Defense and intelligence applications", "Regulated industry compliance", "Zero-trust enterprise architecture"],
         "guidance": "Sovereign Architecture patterns enable deployment in the most restricted environments. Each pattern can be used independently or combined."
       },
       "cascade": {

@@ -5,7 +5,11 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '../../../../lib/utils';
-import { decisionIntelligenceService, DecisionDebtDashboard, PendingDecision } from '../../../services/DecisionIntelligenceService';
+import {
+  decisionIntelligenceService,
+  DecisionDebtDashboard,
+  PendingDecision,
+} from '../../../services/DecisionIntelligenceService';
 
 // Types imported from DecisionIntelligenceService
 
@@ -37,8 +41,10 @@ export const DecisionDebtPage: React.FC = () => {
   };
 
   const handleAddDecision = () => {
-    if (!newDecisionTitle.trim()) {return;}
-    
+    if (!newDecisionTitle.trim()) {
+      return;
+    }
+
     decisionIntelligenceService.createPendingDecision({
       title: newDecisionTitle,
       department: newDecisionDepartment || 'General',
@@ -46,7 +52,7 @@ export const DecisionDebtPage: React.FC = () => {
       estimatedDailyCost: parseFloat(newDecisionCost) || 1000,
       priority: 'medium',
     });
-    
+
     setNewDecisionTitle('');
     setNewDecisionDepartment('');
     setNewDecisionOwner('');
@@ -57,22 +63,33 @@ export const DecisionDebtPage: React.FC = () => {
 
   const getPriorityColor = (priority: string) => {
     switch (priority) {
-      case 'critical': return 'bg-red-100 text-red-700 border-red-200';
-      case 'high': return 'bg-orange-100 text-orange-700 border-orange-200';
-      case 'medium': return 'bg-yellow-100 text-yellow-700 border-yellow-200';
-      case 'low': return 'bg-green-100 text-green-700 border-green-200';
-      default: return 'bg-gray-100 text-gray-700';
+      case 'critical':
+        return 'bg-red-100 text-red-700 border-red-200';
+      case 'high':
+        return 'bg-orange-100 text-orange-700 border-orange-200';
+      case 'medium':
+        return 'bg-yellow-100 text-yellow-700 border-yellow-200';
+      case 'low':
+        return 'bg-green-100 text-green-700 border-green-200';
+      default:
+        return 'bg-gray-100 text-gray-700';
     }
   };
 
   const getGradeColor = (grade: string) => {
     switch (grade) {
-      case 'A': return 'text-green-600 bg-green-100';
-      case 'B': return 'text-lime-600 bg-lime-100';
-      case 'C': return 'text-yellow-600 bg-yellow-100';
-      case 'D': return 'text-orange-600 bg-orange-100';
-      case 'F': return 'text-red-600 bg-red-100';
-      default: return 'text-gray-600 bg-gray-100';
+      case 'A':
+        return 'text-green-600 bg-green-100';
+      case 'B':
+        return 'text-lime-600 bg-lime-100';
+      case 'C':
+        return 'text-yellow-600 bg-yellow-100';
+      case 'D':
+        return 'text-orange-600 bg-orange-100';
+      case 'F':
+        return 'text-red-600 bg-red-100';
+      default:
+        return 'text-gray-600 bg-gray-100';
     }
   };
 
@@ -113,10 +130,12 @@ export const DecisionDebtPage: React.FC = () => {
         {/* Debt Score */}
         <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
           <div className="text-center">
-            <div className={cn(
-              'w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-2',
-              getGradeColor(dashboard.summary.debtScore.grade)
-            )}>
+            <div
+              className={cn(
+                'w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-2',
+                getGradeColor(dashboard.summary.debtScore.grade)
+              )}
+            >
               <span className="text-4xl font-bold">{dashboard.summary.debtScore.grade}</span>
             </div>
             <div className="text-lg font-semibold text-neutral-900">
@@ -178,12 +197,16 @@ export const DecisionDebtPage: React.FC = () => {
                   <div className="flex items-start justify-between mb-2">
                     <div>
                       <h3 className="font-medium text-neutral-900">{decision.title}</h3>
-                      <p className="text-sm text-neutral-500">{decision.department} • {decision.owner}</p>
+                      <p className="text-sm text-neutral-500">
+                        {decision.department} • {decision.owner}
+                      </p>
                     </div>
-                    <span className={cn(
-                      'px-2 py-1 rounded text-xs font-medium border',
-                      getPriorityColor(decision.priority)
-                    )}>
+                    <span
+                      className={cn(
+                        'px-2 py-1 rounded text-xs font-medium border',
+                        getPriorityColor(decision.priority)
+                      )}
+                    >
                       {decision.priority}
                     </span>
                   </div>
@@ -207,12 +230,10 @@ export const DecisionDebtPage: React.FC = () => {
 
           {/* Critical Path */}
           <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-neutral-900 mb-4">
-              Critical Path
-            </h2>
+            <h2 className="text-lg font-semibold text-neutral-900 mb-4">Critical Path</h2>
             <div className="flex items-center gap-2 flex-wrap">
               {dashboard.criticalPath.map((decId, idx) => {
-                const dec = dashboard.decisions.find(d => d.id === decId);
+                const dec = dashboard.decisions.find((d) => d.id === decId);
                 return (
                   <React.Fragment key={decId}>
                     <div className="px-3 py-2 bg-red-50 border border-red-200 rounded-lg text-sm">
@@ -235,9 +256,7 @@ export const DecisionDebtPage: React.FC = () => {
         <div className="space-y-6">
           {/* Top Blockers */}
           <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-neutral-900 mb-4">
-              Top Blockers
-            </h2>
+            <h2 className="text-lg font-semibold text-neutral-900 mb-4">Top Blockers</h2>
             <div className="space-y-3">
               {dashboard.topBlockers.slice(0, 5).map((blocker, idx) => (
                 <div key={idx} className="flex items-center justify-between">
@@ -257,9 +276,7 @@ export const DecisionDebtPage: React.FC = () => {
 
           {/* Recommendations */}
           <div className="bg-white rounded-xl border border-neutral-200 p-6 shadow-sm">
-            <h2 className="text-lg font-semibold text-neutral-900 mb-4">
-              Recommendations
-            </h2>
+            <h2 className="text-lg font-semibold text-neutral-900 mb-4">Recommendations</h2>
             <div className="space-y-4">
               {dashboard.recommendations.map((rec, idx) => (
                 <div key={idx} className="p-3 bg-green-50 rounded-lg border border-green-200">

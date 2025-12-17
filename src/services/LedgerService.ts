@@ -8,7 +8,7 @@
 // TYPES
 // =============================================================================
 
-export type LedgerEventType = 
+export type LedgerEventType =
   | 'decision.proposed'
   | 'decision.deliberated'
   | 'decision.voted'
@@ -29,41 +29,49 @@ export type LedgerEventType =
   | 'override.approved'
   | 'override.denied';
 
-export type ComplianceFramework = 'GDPR' | 'SOX' | 'HIPAA' | 'PCI-DSS' | 'ISO27001' | 'SOC2' | 'CCPA' | 'NIST';
+export type ComplianceFramework =
+  | 'GDPR'
+  | 'SOX'
+  | 'HIPAA'
+  | 'PCI-DSS'
+  | 'ISO27001'
+  | 'SOC2'
+  | 'CCPA'
+  | 'NIST';
 
 export interface LedgerEntry {
   id: string;
   sequence: number;
   timestamp: Date;
   eventType: LedgerEventType;
-  
+
   // Entity references
   decisionId: string;
   organizationId: string;
   userId?: string;
   agentId?: string;
-  
+
   // Event data
   title: string;
   description: string;
   data: Record<string, any>;
-  
+
   // Confidence & voting
   confidenceScore?: number;
   vote?: 'approve' | 'reject' | 'abstain' | 'veto';
   voteWeight?: number;
-  
+
   // Chain integrity
   previousHash: string;
   hash: string;
   signature?: string;
-  
+
   // Compliance
   complianceFrameworks: ComplianceFramework[];
   retentionPeriodDays: number;
   sensitivityLevel: 'public' | 'internal' | 'confidential' | 'restricted';
   piiInvolved: boolean;
-  
+
   // Verification
   verified: boolean;
   verifiedAt?: Date;
@@ -77,21 +85,21 @@ export interface DecisionRecord {
   proposedBy: string;
   proposedAt: Date;
   status: 'proposed' | 'deliberating' | 'voting' | 'approved' | 'rejected' | 'vetoed' | 'executed';
-  
+
   // Participants
   agents: string[];
   voters: { agentId: string; vote: string; confidence: number; timestamp: Date }[];
-  
+
   // Outcome
   finalConfidence?: number;
   outcome?: string;
   outcomeRecordedAt?: Date;
-  
+
   // Ledger
   ledgerEntries: string[]; // Entry IDs
   firstEntryHash: string;
   latestEntryHash: string;
-  
+
   // Compliance
   complianceStatus: 'pending' | 'compliant' | 'review_needed' | 'violation';
   auditHistory: AuditRecord[];
@@ -154,7 +162,7 @@ function generateHash(data: string): string {
   let hash = 0;
   for (let i = 0; i < data.length; i++) {
     const char = data.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
+    hash = (hash << 5) - hash + char;
     hash = hash & hash;
   }
   return Math.abs(hash).toString(16).padStart(16, '0');
@@ -193,20 +201,26 @@ class LedgerService {
       if (stored) {
         const data = JSON.parse(stored);
         this.sequence = data.sequence || 0;
-        
+
         data.entries?.forEach((e: LedgerEntry) => {
           e.timestamp = new Date(e.timestamp);
-          if (e.verifiedAt) {e.verifiedAt = new Date(e.verifiedAt);}
+          if (e.verifiedAt) {
+            e.verifiedAt = new Date(e.verifiedAt);
+          }
           this.entries.set(e.id, e);
         });
-        
+
         data.decisions?.forEach((d: DecisionRecord) => {
           d.proposedAt = new Date(d.proposedAt);
-          if (d.outcomeRecordedAt) {d.outcomeRecordedAt = new Date(d.outcomeRecordedAt);}
-          d.voters.forEach(v => v.timestamp = new Date(v.timestamp));
-          d.auditHistory.forEach(a => {
+          if (d.outcomeRecordedAt) {
+            d.outcomeRecordedAt = new Date(d.outcomeRecordedAt);
+          }
+          d.voters.forEach((v) => (v.timestamp = new Date(v.timestamp)));
+          d.auditHistory.forEach((a) => {
             a.requestedAt = new Date(a.requestedAt);
-            if (a.completedAt) {a.completedAt = new Date(a.completedAt);}
+            if (a.completedAt) {
+              a.completedAt = new Date(a.completedAt);
+            }
           });
           this.decisions.set(d.id, d);
         });
@@ -234,10 +248,11 @@ class LedgerService {
   // ---------------------------------------------------------------------------
 
   private getLastHash(): string {
-    if (this.entries.size === 0) {return this.genesisHash;}
-    
-    const sortedEntries = Array.from(this.entries.values())
-      .sort((a, b) => a.sequence - b.sequence);
+    if (this.entries.size === 0) {
+      return this.genesisHash;
+    }
+
+    const sortedEntries = Array.from(this.entries.values()).sort((a, b) => a.sequence - b.sequence);
     return sortedEntries[sortedEntries.length - 1].hash;
   }
 
@@ -261,7 +276,7 @@ class LedgerService {
   ): LedgerEntry {
     this.sequence++;
     const id = `entry-${Date.now()}-${this.sequence}`;
-    
+
     const entryWithoutHash: Omit<LedgerEntry, 'hash'> = {
       id,
       sequence: this.sequence,
@@ -291,14 +306,14 @@ class LedgerService {
     };
 
     this.entries.set(id, entry);
-    
+
     // Update decision record
     const decision = this.decisions.get(decisionId);
     if (decision) {
       decision.ledgerEntries.push(id);
       decision.latestEntryHash = entry.hash;
     }
-    
+
     this.saveToStorage();
     return entry;
   }
@@ -314,7 +329,7 @@ class LedgerService {
     agents: string[]
   ): DecisionRecord {
     const id = `decision-${Date.now()}`;
-    
+
     const decision: DecisionRecord = {
       id,
       title,
@@ -332,7 +347,7 @@ class LedgerService {
     };
 
     this.decisions.set(id, decision);
-    
+
     // Create initial ledger entry
     const entry = this.createEntry(
       'decision.proposed',
@@ -342,10 +357,10 @@ class LedgerService {
       { proposedBy, agents },
       { userId: proposedBy }
     );
-    
+
     decision.firstEntryHash = entry.hash;
     decision.latestEntryHash = entry.hash;
-    
+
     this.saveToStorage();
     return decision;
   }
@@ -357,10 +372,12 @@ class LedgerService {
     confidenceScore: number
   ): LedgerEntry {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {throw new Error('Decision not found');}
+    if (!decision) {
+      throw new Error('Decision not found');
+    }
 
     decision.status = 'deliberating';
-    
+
     return this.createEntry(
       'agent.contributed',
       decisionId,
@@ -379,13 +396,15 @@ class LedgerService {
     reasoning: string
   ): LedgerEntry {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {throw new Error('Decision not found');}
+    if (!decision) {
+      throw new Error('Decision not found');
+    }
 
     decision.status = 'voting';
     decision.voters.push({ agentId, vote, confidence, timestamp: new Date() });
-    
+
     const eventType: LedgerEventType = vote === 'veto' ? 'agent.vetoed' : 'agent.voted';
-    
+
     return this.createEntry(
       eventType,
       decisionId,
@@ -402,15 +421,20 @@ class LedgerService {
     finalConfidence: number
   ): LedgerEntry {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {throw new Error('Decision not found');}
+    if (!decision) {
+      throw new Error('Decision not found');
+    }
 
     decision.status = status;
     decision.finalConfidence = finalConfidence;
-    
-    const eventType: LedgerEventType = 
-      status === 'vetoed' ? 'decision.vetoed' :
-      status === 'approved' ? 'decision.approved' : 'decision.voted';
-    
+
+    const eventType: LedgerEventType =
+      status === 'vetoed'
+        ? 'decision.vetoed'
+        : status === 'approved'
+          ? 'decision.approved'
+          : 'decision.voted';
+
     return this.createEntry(
       eventType,
       decisionId,
@@ -421,17 +445,15 @@ class LedgerService {
     );
   }
 
-  recordOutcome(
-    decisionId: string,
-    outcome: string,
-    metrics?: Record<string, any>
-  ): LedgerEntry {
+  recordOutcome(decisionId: string, outcome: string, metrics?: Record<string, any>): LedgerEntry {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {throw new Error('Decision not found');}
+    if (!decision) {
+      throw new Error('Decision not found');
+    }
 
     decision.outcome = outcome;
     decision.outcomeRecordedAt = new Date();
-    
+
     return this.createEntry(
       'decision.outcome_recorded',
       decisionId,
@@ -447,18 +469,17 @@ class LedgerService {
   // ---------------------------------------------------------------------------
 
   verifyChain(): ChainVerificationResult {
-    const sortedEntries = Array.from(this.entries.values())
-      .sort((a, b) => a.sequence - b.sequence);
+    const sortedEntries = Array.from(this.entries.values()).sort((a, b) => a.sequence - b.sequence);
 
     if (sortedEntries.length === 0) {
       return { valid: true, entriesChecked: 0, message: 'Empty chain is valid' };
     }
 
     let previousHash = this.genesisHash;
-    
+
     for (let i = 0; i < sortedEntries.length; i++) {
       const entry = sortedEntries[i];
-      
+
       // Verify previous hash link
       if (entry.previousHash !== previousHash) {
         return {
@@ -469,11 +490,11 @@ class LedgerService {
           message: `Chain broken at sequence ${entry.sequence}: previousHash mismatch`,
         };
       }
-      
+
       // Verify entry hash
       const { hash: _, ...entryWithoutHash } = entry;
       const expectedHash = createEntryHash(entryWithoutHash as Omit<LedgerEntry, 'hash'>);
-      
+
       if (entry.hash !== expectedHash) {
         return {
           valid: false,
@@ -483,7 +504,7 @@ class LedgerService {
           message: `Chain broken at sequence ${entry.sequence}: hash verification failed`,
         };
       }
-      
+
       previousHash = entry.hash;
     }
 
@@ -496,13 +517,15 @@ class LedgerService {
 
   verifyEntry(entryId: string): boolean {
     const entry = this.entries.get(entryId);
-    if (!entry) {return false;}
+    if (!entry) {
+      return false;
+    }
 
     const { hash: _, ...entryWithoutHash } = entry;
     const expectedHash = createEntryHash(entryWithoutHash as Omit<LedgerEntry, 'hash'>);
 
     const valid = entry.hash === expectedHash;
-    
+
     if (valid && !entry.verified) {
       entry.verified = true;
       entry.verifiedAt = new Date();
@@ -523,7 +546,9 @@ class LedgerService {
     framework: ComplianceFramework
   ): AuditRecord {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {throw new Error('Decision not found');}
+    if (!decision) {
+      throw new Error('Decision not found');
+    }
 
     const audit: AuditRecord = {
       id: `audit-${Date.now()}`,
@@ -536,7 +561,7 @@ class LedgerService {
     };
 
     decision.auditHistory.push(audit);
-    
+
     // Create ledger entry for audit request
     this.createEntry(
       'audit.requested',
@@ -558,10 +583,14 @@ class LedgerService {
     report: string
   ): AuditRecord | null {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {return null;}
+    if (!decision) {
+      return null;
+    }
 
-    const audit = decision.auditHistory.find(a => a.id === auditId);
-    if (!audit) {return null;}
+    const audit = decision.auditHistory.find((a) => a.id === auditId);
+    if (!audit) {
+      return null;
+    }
 
     audit.status = 'completed';
     audit.completedAt = new Date();
@@ -569,7 +598,9 @@ class LedgerService {
     audit.report = report;
 
     // Update compliance status
-    const criticalFindings = findings.filter(f => f.severity === 'critical' || f.severity === 'high');
+    const criticalFindings = findings.filter(
+      (f) => f.severity === 'critical' || f.severity === 'high'
+    );
     decision.complianceStatus = criticalFindings.length > 0 ? 'review_needed' : 'compliant';
 
     // Create ledger entry for audit completion
@@ -595,12 +626,11 @@ class LedgerService {
   }
 
   getAllEntries(): LedgerEntry[] {
-    return Array.from(this.entries.values())
-      .sort((a, b) => b.sequence - a.sequence);
+    return Array.from(this.entries.values()).sort((a, b) => b.sequence - a.sequence);
   }
 
   getEntriesForDecision(decisionId: string): LedgerEntry[] {
-    return this.getAllEntries().filter(e => e.decisionId === decisionId);
+    return this.getAllEntries().filter((e) => e.decisionId === decisionId);
   }
 
   getDecision(id: string): DecisionRecord | undefined {
@@ -608,8 +638,9 @@ class LedgerService {
   }
 
   getAllDecisions(): DecisionRecord[] {
-    return Array.from(this.decisions.values())
-      .sort((a, b) => b.proposedAt.getTime() - a.proposedAt.getTime());
+    return Array.from(this.decisions.values()).sort(
+      (a, b) => b.proposedAt.getTime() - a.proposedAt.getTime()
+    );
   }
 
   searchEntries(query: {
@@ -620,13 +651,28 @@ class LedgerService {
     complianceFramework?: ComplianceFramework;
     piiOnly?: boolean;
   }): LedgerEntry[] {
-    return this.getAllEntries().filter(e => {
-      if (query.eventType && e.eventType !== query.eventType) {return false;}
-      if (query.startDate && e.timestamp < query.startDate) {return false;}
-      if (query.endDate && e.timestamp > query.endDate) {return false;}
-      if (query.agentId && e.agentId !== query.agentId) {return false;}
-      if (query.complianceFramework && !e.complianceFrameworks.includes(query.complianceFramework)) {return false;}
-      if (query.piiOnly && !e.piiInvolved) {return false;}
+    return this.getAllEntries().filter((e) => {
+      if (query.eventType && e.eventType !== query.eventType) {
+        return false;
+      }
+      if (query.startDate && e.timestamp < query.startDate) {
+        return false;
+      }
+      if (query.endDate && e.timestamp > query.endDate) {
+        return false;
+      }
+      if (query.agentId && e.agentId !== query.agentId) {
+        return false;
+      }
+      if (
+        query.complianceFramework &&
+        !e.complianceFrameworks.includes(query.complianceFramework)
+      ) {
+        return false;
+      }
+      if (query.piiOnly && !e.piiInvolved) {
+        return false;
+      }
       return true;
     });
   }
@@ -637,7 +683,9 @@ class LedgerService {
 
   exportForAudit(decisionId: string): string {
     const decision = this.decisions.get(decisionId);
-    if (!decision) {throw new Error('Decision not found');}
+    if (!decision) {
+      throw new Error('Decision not found');
+    }
 
     const entries = this.getEntriesForDecision(decisionId);
     const verification = this.verifyChain();
@@ -650,13 +698,13 @@ class LedgerService {
         proposedAt: decision.proposedAt.toISOString(),
         outcomeRecordedAt: decision.outcomeRecordedAt?.toISOString(),
       },
-      entries: entries.map(e => ({
+      entries: entries.map((e) => ({
         ...e,
         timestamp: e.timestamp.toISOString(),
         verifiedAt: e.verifiedAt?.toISOString(),
       })),
       entryCount: entries.length,
-      hashChain: entries.map(e => ({ sequence: e.sequence, hash: e.hash })),
+      hashChain: entries.map((e) => ({ sequence: e.sequence, hash: e.hash })),
     };
 
     return JSON.stringify(report, null, 2);
@@ -669,10 +717,17 @@ class LedgerService {
   getMetrics(): LedgerMetrics {
     const entries = this.getAllEntries();
     const decisions = this.getAllDecisions();
-    
+
     const entriesByType: Record<LedgerEventType, number> = {} as any;
     const entriesByFramework: Record<ComplianceFramework, number> = {
-      GDPR: 0, SOX: 0, HIPAA: 0, 'PCI-DSS': 0, ISO27001: 0, SOC2: 0, CCPA: 0, NIST: 0,
+      GDPR: 0,
+      SOX: 0,
+      HIPAA: 0,
+      'PCI-DSS': 0,
+      ISO27001: 0,
+      SOC2: 0,
+      CCPA: 0,
+      NIST: 0,
     };
 
     let totalConfidence = 0;
@@ -681,23 +736,33 @@ class LedgerService {
     let approveCount = 0;
     let piiCount = 0;
 
-    entries.forEach(e => {
+    entries.forEach((e) => {
       entriesByType[e.eventType] = (entriesByType[e.eventType] || 0) + 1;
-      e.complianceFrameworks.forEach(f => entriesByFramework[f]++);
-      
+      e.complianceFrameworks.forEach((f) => entriesByFramework[f]++);
+
       if (e.confidenceScore !== undefined) {
         totalConfidence += e.confidenceScore;
         confidenceCount++;
       }
-      
-      if (e.vote === 'veto') {vetoCount++;}
-      if (e.vote === 'approve') {approveCount++;}
-      if (e.piiInvolved) {piiCount++;}
+
+      if (e.vote === 'veto') {
+        vetoCount++;
+      }
+      if (e.vote === 'approve') {
+        approveCount++;
+      }
+      if (e.piiInvolved) {
+        piiCount++;
+      }
     });
 
     const verification = this.verifyChain();
-    const pendingAudits = decisions.reduce((sum, d) => 
-      sum + d.auditHistory.filter(a => a.status === 'pending' || a.status === 'in_progress').length, 0);
+    const pendingAudits = decisions.reduce(
+      (sum, d) =>
+        sum +
+        d.auditHistory.filter((a) => a.status === 'pending' || a.status === 'in_progress').length,
+      0
+    );
 
     return {
       totalEntries: entries.length,
@@ -708,7 +773,7 @@ class LedgerService {
       vetoRate: entries.length > 0 ? Math.round((vetoCount / entries.length) * 100) : 0,
       approvalRate: entries.length > 0 ? Math.round((approveCount / entries.length) * 100) : 0,
       chainIntegrity: verification.valid ? 'valid' : 'broken',
-      lastVerifiedAt: entries.find(e => e.verified)?.verifiedAt,
+      lastVerifiedAt: entries.find((e) => e.verified)?.verifiedAt,
       piiEntriesCount: piiCount,
       pendingAudits,
     };

@@ -5,10 +5,32 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import {
-  Server, Database, HardDrive, Activity, Shield, Key, Search,
-  GitBranch, Workflow, ToggleLeft, Box, RefreshCw, ExternalLink,
-  CheckCircle2, AlertTriangle, XCircle, Clock, Cpu, MemoryStick,
-  Network, Zap, Settings, Play, Pause, RotateCcw, Terminal
+  Server,
+  Database,
+  HardDrive,
+  Activity,
+  Shield,
+  Key,
+  Search,
+  GitBranch,
+  Workflow,
+  ToggleLeft,
+  Box,
+  RefreshCw,
+  ExternalLink,
+  CheckCircle2,
+  AlertTriangle,
+  XCircle,
+  Clock,
+  Cpu,
+  MemoryStick,
+  Network,
+  Zap,
+  Settings,
+  Play,
+  Pause,
+  RotateCcw,
+  Terminal,
 } from 'lucide-react';
 import { sovereignApi, enterpriseApi } from '../../lib/sovereignApi';
 
@@ -269,28 +291,28 @@ const CATEGORIES: ServiceCategory[] = [
     name: 'Data Layer',
     description: 'Databases, storage, and search',
     color: '#3B82F6',
-    services: SOVEREIGN_SERVICES.filter(s => s.category === 'data'),
+    services: SOVEREIGN_SERVICES.filter((s) => s.category === 'data'),
   },
   {
     id: 'observability',
     name: 'Observability',
     description: 'Metrics, logs, and monitoring',
     color: '#10B981',
-    services: SOVEREIGN_SERVICES.filter(s => s.category === 'observability'),
+    services: SOVEREIGN_SERVICES.filter((s) => s.category === 'observability'),
   },
   {
     id: 'security',
     name: 'Security',
     description: 'Identity, secrets, and access control',
     color: '#EF4444',
-    services: SOVEREIGN_SERVICES.filter(s => s.category === 'security'),
+    services: SOVEREIGN_SERVICES.filter((s) => s.category === 'security'),
   },
   {
     id: 'orchestration',
     name: 'Orchestration',
     description: 'Workflows, flags, and automation',
     color: '#8B5CF6',
-    services: SOVEREIGN_SERVICES.filter(s => s.category === 'orchestration'),
+    services: SOVEREIGN_SERVICES.filter((s) => s.category === 'orchestration'),
   },
 ];
 
@@ -301,7 +323,12 @@ const CATEGORIES: ServiceCategory[] = [
 const StatusIndicator: React.FC<{ status: SovereignService['status'] }> = ({ status }) => {
   const config = {
     online: { icon: CheckCircle2, color: 'text-green-500', bg: 'bg-green-500/10', label: 'Online' },
-    degraded: { icon: AlertTriangle, color: 'text-amber-500', bg: 'bg-amber-500/10', label: 'Degraded' },
+    degraded: {
+      icon: AlertTriangle,
+      color: 'text-amber-500',
+      bg: 'bg-amber-500/10',
+      label: 'Degraded',
+    },
     offline: { icon: XCircle, color: 'text-red-500', bg: 'bg-red-500/10', label: 'Offline' },
     starting: { icon: Clock, color: 'text-blue-500', bg: 'bg-blue-500/10', label: 'Starting' },
   }[status];
@@ -394,19 +421,19 @@ export default function SovereignStackPage() {
 
   const checkServiceHealth = useCallback(async () => {
     setIsRefreshing(true);
-    
+
     try {
       // Use the sovereign API for real health checks
       const [healthStatus, secStatus] = await Promise.all([
         sovereignApi.getHealthStatus(),
         enterpriseApi.getSecurityStatus().catch(() => null),
       ]);
-      
+
       // Update enterprise security status
       if (secStatus) {
         setSecurityStatus(secStatus);
       }
-      
+
       // Map backend service names to our service IDs
       const serviceHealthMap: Record<string, boolean> = {
         druid: healthStatus.services?.druid?.available ?? false,
@@ -423,10 +450,11 @@ export default function SovereignStackPage() {
         meilisearch: true,
       };
 
-      const updatedServices = services.map(service => ({
+      const updatedServices = services.map((service) => ({
         ...service,
-        status: (serviceHealthMap[service.id] ?? false) ? 'online' as const : 'offline' as const,
-        metrics: healthStatus.services?.[service.id]?.latency 
+        status:
+          (serviceHealthMap[service.id] ?? false) ? ('online' as const) : ('offline' as const),
+        metrics: healthStatus.services?.[service.id]?.latency
           ? { ...service.metrics, latency: healthStatus.services[service.id].latency }
           : service.metrics,
       }));
@@ -434,14 +462,18 @@ export default function SovereignStackPage() {
       setServices(updatedServices);
     } catch (error) {
       console.error('[SovereignStack] Health check failed, falling back to direct checks:', error);
-      
+
       // Fallback to direct service checks
       const updatedServices = await Promise.all(
         services.map(async (service) => {
           try {
             const controller = new AbortController();
             const timeout = setTimeout(() => controller.abort(), 3000);
-            await fetch(service.url, { method: 'HEAD', signal: controller.signal, mode: 'no-cors' });
+            await fetch(service.url, {
+              method: 'HEAD',
+              signal: controller.signal,
+              mode: 'no-cors',
+            });
             clearTimeout(timeout);
             return { ...service, status: 'online' as const };
           } catch {
@@ -459,7 +491,7 @@ export default function SovereignStackPage() {
   useEffect(() => {
     // Initial health check
     checkServiceHealth();
-    
+
     // Refresh every 30 seconds
     const interval = setInterval(checkServiceHealth, 30000);
     return () => clearInterval(interval);
@@ -469,7 +501,7 @@ export default function SovereignStackPage() {
     window.open(service.url, '_blank');
   };
 
-  const onlineCount = services.filter(s => s.status === 'online').length;
+  const onlineCount = services.filter((s) => s.status === 'online').length;
   const totalCount = services.length;
 
   return (
@@ -514,13 +546,15 @@ export default function SovereignStackPage() {
 
       {/* Overall Health Banner */}
       <div className="max-w-7xl mx-auto mb-8">
-        <div className={`rounded-lg p-4 ${
-          onlineCount === totalCount 
-            ? 'bg-green-50 border border-green-200' 
-            : onlineCount > totalCount / 2 
-              ? 'bg-amber-50 border border-amber-200'
-              : 'bg-red-50 border border-red-200'
-        }`}>
+        <div
+          className={`rounded-lg p-4 ${
+            onlineCount === totalCount
+              ? 'bg-green-50 border border-green-200'
+              : onlineCount > totalCount / 2
+                ? 'bg-amber-50 border border-amber-200'
+                : 'bg-red-50 border border-red-200'
+          }`}
+        >
           <div className="flex items-center gap-3">
             {onlineCount === totalCount ? (
               <>
@@ -572,33 +606,45 @@ export default function SovereignStackPage() {
               </a>
             </div>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="bg-white/10 rounded-lg p-3">
               <div className="text-xs text-white/60 mb-1">Keycloak SSO</div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className={`w-4 h-4 ${securityStatus?.keycloak?.enabled ? 'text-green-400' : 'text-neutral-400'}`} />
-                <span className="text-sm font-medium">{securityStatus?.keycloak?.realm || 'cendia'}</span>
+                <CheckCircle2
+                  className={`w-4 h-4 ${securityStatus?.keycloak?.enabled ? 'text-green-400' : 'text-neutral-400'}`}
+                />
+                <span className="text-sm font-medium">
+                  {securityStatus?.keycloak?.realm || 'cendia'}
+                </span>
               </div>
             </div>
             <div className="bg-white/10 rounded-lg p-3">
               <div className="text-xs text-white/60 mb-1">Policy Engine</div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className={`w-4 h-4 ${securityStatus?.casbin?.enabled ? 'text-green-400' : 'text-neutral-400'}`} />
-                <span className="text-sm font-medium">{securityStatus?.casbin?.policyCount || 0} policies</span>
+                <CheckCircle2
+                  className={`w-4 h-4 ${securityStatus?.casbin?.enabled ? 'text-green-400' : 'text-neutral-400'}`}
+                />
+                <span className="text-sm font-medium">
+                  {securityStatus?.casbin?.policyCount || 0} policies
+                </span>
               </div>
             </div>
             <div className="bg-white/10 rounded-lg p-3">
               <div className="text-xs text-white/60 mb-1">Document Extraction</div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className={`w-4 h-4 ${securityStatus?.tika?.available ? 'text-green-400' : 'text-neutral-400'}`} />
+                <CheckCircle2
+                  className={`w-4 h-4 ${securityStatus?.tika?.available ? 'text-green-400' : 'text-neutral-400'}`}
+                />
                 <span className="text-sm font-medium">Apache Tika</span>
               </div>
             </div>
             <div className="bg-white/10 rounded-lg p-3">
               <div className="text-xs text-white/60 mb-1">Distributed Tracing</div>
               <div className="flex items-center gap-2">
-                <CheckCircle2 className={`w-4 h-4 ${securityStatus?.tempo?.enabled ? 'text-green-400' : 'text-neutral-400'}`} />
+                <CheckCircle2
+                  className={`w-4 h-4 ${securityStatus?.tempo?.enabled ? 'text-green-400' : 'text-neutral-400'}`}
+                />
                 <span className="text-sm font-medium">Tempo OTEL</span>
               </div>
             </div>
@@ -611,10 +657,7 @@ export default function SovereignStackPage() {
         {CATEGORIES.map((category) => (
           <div key={category.id}>
             <div className="flex items-center gap-3 mb-4">
-              <div 
-                className="w-1 h-6 rounded-full" 
-                style={{ backgroundColor: category.color }}
-              />
+              <div className="w-1 h-6 rounded-full" style={{ backgroundColor: category.color }} />
               <div>
                 <h2 className="text-lg font-semibold text-neutral-900">{category.name}</h2>
                 <p className="text-sm text-neutral-500">{category.description}</p>
@@ -625,7 +668,7 @@ export default function SovereignStackPage() {
               {category.services.map((service) => (
                 <ServiceCard
                   key={service.id}
-                  service={services.find(s => s.id === service.id) || service}
+                  service={services.find((s) => s.id === service.id) || service}
                   onOpenConsole={openConsole}
                 />
               ))}

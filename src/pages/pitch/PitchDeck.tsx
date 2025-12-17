@@ -39,15 +39,9 @@ const SLIDES: Slide[] = [
         <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-8">
           <Brain className="w-12 h-12 text-white" />
         </div>
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-          Datacendia
-        </h1>
-        <p className="text-2xl text-purple-300 mb-8">
-          Sovereign Enterprise Intelligence
-        </p>
-        <div className="text-slate-400 text-lg">
-          Investor Presentation • 2025
-        </div>
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">Datacendia</h1>
+        <p className="text-2xl text-purple-300 mb-8">Sovereign Enterprise Intelligence</p>
+        <div className="text-slate-400 text-lg">Investor Presentation • 2025</div>
       </div>
     ),
   },
@@ -56,18 +50,21 @@ const SLIDES: Slide[] = [
     title: 'The Problem',
     content: (
       <div className="h-full flex flex-col justify-center p-12">
-        <h2 className="text-4xl font-bold text-white mb-8">
-          The Enterprise Intelligence Crisis
-        </h2>
+        <h2 className="text-4xl font-bold text-white mb-8">The Enterprise Intelligence Crisis</h2>
         <div className="grid md:grid-cols-3 gap-6">
           {[
             { stat: '200+', label: 'SaaS tools per enterprise', icon: '🌊', color: 'red' },
             { stat: '73%', label: 'of data goes unused', icon: '📊', color: 'amber' },
             { stat: '$3.1T', label: 'lost to poor decisions annually', icon: '💸', color: 'red' },
           ].map((item) => (
-            <div key={item.label} className="p-6 bg-slate-800/50 rounded-xl border border-slate-700">
+            <div
+              key={item.label}
+              className="p-6 bg-slate-800/50 rounded-xl border border-slate-700"
+            >
               <div className="text-4xl mb-4">{item.icon}</div>
-              <div className={`text-4xl font-bold ${item.color === 'red' ? 'text-red-400' : 'text-amber-400'}`}>
+              <div
+                className={`text-4xl font-bold ${item.color === 'red' ? 'text-red-400' : 'text-amber-400'}`}
+              >
                 {item.stat}
               </div>
               <div className="text-slate-400 mt-2">{item.label}</div>
@@ -88,11 +85,10 @@ const SLIDES: Slide[] = [
     title: 'The Solution',
     content: (
       <div className="h-full flex flex-col justify-center p-12">
-        <h2 className="text-4xl font-bold text-white mb-4">
-          Introducing The Cortex
-        </h2>
+        <h2 className="text-4xl font-bold text-white mb-4">Introducing The Cortex</h2>
         <p className="text-xl text-slate-400 mb-8">
-          The unified intelligence platform that transforms how organizations think, decide, and act.
+          The unified intelligence platform that transforms how organizations think, decide, and
+          act.
         </p>
         <div className="grid md:grid-cols-5 gap-4">
           {[
@@ -102,7 +98,10 @@ const SLIDES: Slide[] = [
             { name: 'Lens', icon: '🔮', desc: 'Predictive Analytics' },
             { name: 'Bridge', icon: '🌉', desc: 'Action Orchestration' },
           ].map((space) => (
-            <div key={space.name} className="p-4 bg-slate-800/50 rounded-xl border border-slate-700 text-center">
+            <div
+              key={space.name}
+              className="p-4 bg-slate-800/50 rounded-xl border border-slate-700 text-center"
+            >
               <div className="text-3xl mb-2">{space.icon}</div>
               <div className="text-white font-semibold">{space.name}</div>
               <div className="text-xs text-slate-500">{space.desc}</div>
@@ -123,12 +122,16 @@ const SLIDES: Slide[] = [
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <p className="text-lg text-slate-300">
-              Unlike single-agent AI, Datacendia deploys an <strong className="text-purple-400">executive council</strong> of
-              specialized AI personas that debate, challenge, and synthesize insights.
+              Unlike single-agent AI, Datacendia deploys an{' '}
+              <strong className="text-purple-400">executive council</strong> of specialized AI
+              personas that debate, challenge, and synthesize insights.
             </p>
             <div className="grid grid-cols-3 gap-2">
               {['CFO', 'COO', 'CISO', 'CTO', 'CMO', 'CHRO'].map((role) => (
-                <div key={role} className="p-2 bg-purple-500/20 rounded text-center text-purple-300 text-sm">
+                <div
+                  key={role}
+                  className="p-2 bg-purple-500/20 rounded text-center text-purple-300 text-sm"
+                >
                   {role} Agent
                 </div>
               ))}
@@ -136,7 +139,8 @@ const SLIDES: Slide[] = [
             <div className="p-4 bg-green-500/10 rounded-lg border border-green-500/30">
               <div className="text-green-400 font-semibold">Key Differentiator</div>
               <p className="text-slate-400 text-sm">
-                Deliberation, not just generation. Our agents argue and converge on optimal decisions.
+                Deliberation, not just generation. Our agents argue and converge on optimal
+                decisions.
               </p>
             </div>
           </div>
@@ -167,16 +171,17 @@ const SLIDES: Slide[] = [
     title: 'Market',
     content: (
       <div className="h-full flex flex-col justify-center p-12">
-        <h2 className="text-4xl font-bold text-white mb-8">
-          $150B+ Total Addressable Market
-        </h2>
+        <h2 className="text-4xl font-bold text-white mb-8">$150B+ Total Addressable Market</h2>
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {[
             { label: 'TAM', value: '$150B', desc: 'Enterprise Intelligence' },
             { label: 'SAM', value: '$45B', desc: 'Mid-Market + Enterprise' },
             { label: 'SOM', value: '$2B', desc: 'Year 5 Target' },
           ].map((item) => (
-            <div key={item.label} className="p-6 bg-slate-800/50 rounded-xl border border-slate-700 text-center">
+            <div
+              key={item.label}
+              className="p-6 bg-slate-800/50 rounded-xl border border-slate-700 text-center"
+            >
               <div className="text-slate-500 text-sm mb-2">{item.label}</div>
               <div className="text-4xl font-bold text-cyan-400">{item.value}</div>
               <div className="text-slate-400 text-sm mt-2">{item.desc}</div>
@@ -188,16 +193,20 @@ const SLIDES: Slide[] = [
             <h3 className="text-white font-semibold mb-4">Competitive Landscape</h3>
             <div className="space-y-2 text-sm">
               <div className="flex justify-between text-slate-400">
-                <span>Palantir</span><span>Too complex, too expensive</span>
+                <span>Palantir</span>
+                <span>Too complex, too expensive</span>
               </div>
               <div className="flex justify-between text-slate-400">
-                <span>Snowflake</span><span>Data only, no intelligence</span>
+                <span>Snowflake</span>
+                <span>Data only, no intelligence</span>
               </div>
               <div className="flex justify-between text-slate-400">
-                <span>Tableau</span><span>Visualization, not prediction</span>
+                <span>Tableau</span>
+                <span>Visualization, not prediction</span>
               </div>
               <div className="flex justify-between text-purple-400 font-semibold">
-                <span>Datacendia</span><span>Full-stack intelligence</span>
+                <span>Datacendia</span>
+                <span>Full-stack intelligence</span>
               </div>
             </div>
           </div>
@@ -227,20 +236,23 @@ const SLIDES: Slide[] = [
     title: 'Business Model',
     content: (
       <div className="h-full flex flex-col justify-center p-12">
-        <h2 className="text-4xl font-bold text-white mb-8">
-          SaaS + Usage-Based Revenue
-        </h2>
+        <h2 className="text-4xl font-bold text-white mb-8">SaaS + Usage-Based Revenue</h2>
         <div className="grid md:grid-cols-3 gap-6 mb-8">
           {[
             { tier: 'Starter', price: '$2,500/mo', users: 'Up to 25 users', color: 'slate' },
             { tier: 'Professional', price: '$7,500/mo', users: 'Up to 100 users', color: 'purple' },
             { tier: 'Enterprise', price: 'Custom', users: 'Unlimited users', color: 'cyan' },
           ].map((plan) => (
-            <div key={plan.tier} className={`p-6 rounded-xl border ${
-              plan.color === 'purple' ? 'bg-purple-500/20 border-purple-500' :
-              plan.color === 'cyan' ? 'bg-cyan-500/20 border-cyan-500' :
-              'bg-slate-800/50 border-slate-700'
-            }`}>
+            <div
+              key={plan.tier}
+              className={`p-6 rounded-xl border ${
+                plan.color === 'purple'
+                  ? 'bg-purple-500/20 border-purple-500'
+                  : plan.color === 'cyan'
+                    ? 'bg-cyan-500/20 border-cyan-500'
+                    : 'bg-slate-800/50 border-slate-700'
+              }`}
+            >
               <div className="text-slate-400 text-sm mb-1">{plan.tier}</div>
               <div className="text-3xl font-bold text-white mb-2">{plan.price}</div>
               <div className="text-slate-400 text-sm">{plan.users}</div>
@@ -296,9 +308,7 @@ const SLIDES: Slide[] = [
     title: 'Traction',
     content: (
       <div className="h-full flex flex-col justify-center p-12">
-        <h2 className="text-4xl font-bold text-white mb-8">
-          Early Traction & Roadmap
-        </h2>
+        <h2 className="text-4xl font-bold text-white mb-8">Early Traction & Roadmap</h2>
         <div className="grid md:grid-cols-4 gap-6 mb-8">
           {[
             { value: '3', label: 'Pilot Customers', icon: Building2 },
@@ -306,7 +316,10 @@ const SLIDES: Slide[] = [
             { value: '12', label: 'Active Users', icon: Users },
             { value: '94%', label: 'Satisfaction', icon: Target },
           ].map((metric) => (
-            <div key={metric.label} className="p-6 bg-slate-800/50 rounded-xl border border-slate-700 text-center">
+            <div
+              key={metric.label}
+              className="p-6 bg-slate-800/50 rounded-xl border border-slate-700 text-center"
+            >
               <metric.icon className="w-8 h-8 text-cyan-400 mx-auto mb-3" />
               <div className="text-3xl font-bold text-white">{metric.value}</div>
               <div className="text-slate-400 text-sm">{metric.label}</div>
@@ -341,9 +354,7 @@ const SLIDES: Slide[] = [
     title: 'Team',
     content: (
       <div className="h-full flex flex-col justify-center p-12">
-        <h2 className="text-4xl font-bold text-white mb-8">
-          Leadership Team
-        </h2>
+        <h2 className="text-4xl font-bold text-white mb-8">Leadership Team</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
@@ -365,7 +376,10 @@ const SLIDES: Slide[] = [
               avatar: '🎓',
             },
           ].map((member) => (
-            <div key={member.name} className="p-6 bg-slate-800/50 rounded-xl border border-slate-700">
+            <div
+              key={member.name}
+              className="p-6 bg-slate-800/50 rounded-xl border border-slate-700"
+            >
               <div className="w-20 h-20 bg-gradient-to-br from-purple-500/20 to-cyan-500/20 rounded-full flex items-center justify-center text-4xl mx-auto mb-4">
                 {member.avatar}
               </div>
@@ -385,9 +399,7 @@ const SLIDES: Slide[] = [
     title: 'The Ask',
     content: (
       <div className="h-full flex flex-col justify-center p-12 text-center">
-        <h2 className="text-4xl font-bold text-white mb-8">
-          Seed Round: $2M
-        </h2>
+        <h2 className="text-4xl font-bold text-white mb-8">Seed Round: $2M</h2>
         <div className="max-w-2xl mx-auto mb-8">
           <div className="grid grid-cols-3 gap-6 mb-8">
             {[
@@ -395,7 +407,10 @@ const SLIDES: Slide[] = [
               { pct: '30%', label: 'Go-to-Market' },
               { pct: '20%', label: 'Operations' },
             ].map((item) => (
-              <div key={item.label} className="p-4 bg-slate-800/50 rounded-xl border border-slate-700">
+              <div
+                key={item.label}
+                className="p-4 bg-slate-800/50 rounded-xl border border-slate-700"
+              >
                 <div className="text-3xl font-bold text-purple-400">{item.pct}</div>
                 <div className="text-slate-400 text-sm">{item.label}</div>
               </div>
@@ -403,9 +418,7 @@ const SLIDES: Slide[] = [
           </div>
           <div className="p-6 bg-green-500/10 rounded-xl border border-green-500/30">
             <div className="text-2xl font-bold text-green-400 mb-2">18-Month Runway</div>
-            <div className="text-slate-400">
-              Path to $2M ARR and Series A readiness
-            </div>
+            <div className="text-slate-400">Path to $2M ARR and Series A readiness</div>
           </div>
         </div>
         <div className="flex justify-center gap-4">
@@ -433,9 +446,7 @@ const SLIDES: Slide[] = [
         <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-8">
           <Brain className="w-12 h-12 text-white" />
         </div>
-        <h1 className="text-5xl font-bold text-white mb-4">
-          Thank You
-        </h1>
+        <h1 className="text-5xl font-bold text-white mb-4">Thank You</h1>
         <p className="text-2xl text-purple-300 mb-8">
           Let's build the future of enterprise intelligence together
         </p>
@@ -461,8 +472,12 @@ export const PitchDeck: React.FC = () => {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'ArrowRight' || e.key === ' ') {nextSlide();}
-    if (e.key === 'ArrowLeft') {prevSlide();}
+    if (e.key === 'ArrowRight' || e.key === ' ') {
+      nextSlide();
+    }
+    if (e.key === 'ArrowLeft') {
+      prevSlide();
+    }
   };
 
   return (
@@ -500,9 +515,7 @@ export const PitchDeck: React.FC = () => {
       <div className="flex-1 flex">
         {/* Slide content */}
         <div className="flex-1 relative">
-          <div className="absolute inset-0 overflow-hidden">
-            {SLIDES[currentSlide].content}
-          </div>
+          <div className="absolute inset-0 overflow-hidden">{SLIDES[currentSlide].content}</div>
         </div>
       </div>
 
@@ -528,9 +541,7 @@ export const PitchDeck: React.FC = () => {
               key={slide.id}
               onClick={() => setCurrentSlide(index)}
               className={`w-3 h-3 rounded-full transition ${
-                index === currentSlide
-                  ? 'bg-purple-500'
-                  : 'bg-slate-700 hover:bg-slate-600'
+                index === currentSlide ? 'bg-purple-500' : 'bg-slate-700 hover:bg-slate-600'
               }`}
             />
           ))}

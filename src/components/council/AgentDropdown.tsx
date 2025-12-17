@@ -5,27 +5,39 @@
 // =============================================================================
 
 import React, { useState, useRef, useEffect } from 'react';
-import { ChevronDown, Check, Search, Users, Zap, Shield, Brain, TrendingUp, Database, Scale, Target } from 'lucide-react';
+import {
+  ChevronDown,
+  Check,
+  Search,
+  Users,
+  Zap,
+  Shield,
+  Brain,
+  TrendingUp,
+  Database,
+  Scale,
+  Target,
+} from 'lucide-react';
 import { cn } from '../../../lib/utils';
 
 // Agent category definitions
 const AGENT_CATEGORIES = {
-  'Executive': {
+  Executive: {
     icon: Users,
     color: '#6366F1',
     description: 'C-Suite strategic advisors',
   },
-  'Financial': {
+  Financial: {
     icon: TrendingUp,
     color: '#10B981',
     description: 'Financial analysis & planning',
   },
-  'Operations': {
+  Operations: {
     icon: Target,
     color: '#F59E0B',
     description: 'Operational excellence',
   },
-  'Technology': {
+  Technology: {
     icon: Database,
     color: '#3B82F6',
     description: 'Technical strategy & security',
@@ -35,7 +47,7 @@ const AGENT_CATEGORIES = {
     color: '#EF4444',
     description: 'Risk management & governance',
   },
-  'Custom': {
+  Custom: {
     icon: Brain,
     color: '#8B5CF6',
     description: 'Your custom agents',
@@ -72,11 +84,11 @@ interface AgentDropdownProps {
 // Categorize agents
 function categorizeAgents(agents: Agent[]): Record<string, Agent[]> {
   const categories: Record<string, Agent[]> = {};
-  
+
   for (const agent of agents) {
     // Determine category based on agent code/role
     let category: string;
-    
+
     if (agent.isCustom) {
       category = 'Custom';
     } else if (['chief', 'ceo'].includes(agent.code.toLowerCase())) {
@@ -92,13 +104,13 @@ function categorizeAgents(agents: Agent[]): Record<string, Agent[]> {
     } else {
       category = 'Executive';
     }
-    
+
     if (!categories[category]) {
       categories[category] = [];
     }
     categories[category].push(agent);
   }
-  
+
   return categories;
 }
 
@@ -113,7 +125,9 @@ export function AgentDropdown({
 }: AgentDropdownProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
-  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set(Object.keys(AGENT_CATEGORIES)));
+  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(
+    new Set(Object.keys(AGENT_CATEGORIES))
+  );
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   // Close on click outside
@@ -128,10 +142,11 @@ export function AgentDropdown({
   }, []);
 
   // Filter agents by search
-  const filteredAgents = agents.filter(agent =>
-    agent.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    agent.role.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    agent.description.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredAgents = agents.filter(
+    (agent) =>
+      agent.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      agent.role.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      agent.description.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   // Categorize filtered agents
@@ -140,7 +155,7 @@ export function AgentDropdown({
   // Toggle agent selection
   const toggleAgent = (agentId: string) => {
     if (selectedAgents.includes(agentId)) {
-      onSelectionChange(selectedAgents.filter(id => id !== agentId));
+      onSelectionChange(selectedAgents.filter((id) => id !== agentId));
     } else {
       onSelectionChange([...selectedAgents, agentId]);
     }
@@ -159,35 +174,34 @@ export function AgentDropdown({
 
   // Select all agents in category
   const selectCategory = (category: string) => {
-    const categoryAgentIds = categorizedAgents[category]
-      ?.filter(a => a.status === 'online')
-      .map(a => a.id) || [];
-    
+    const categoryAgentIds =
+      categorizedAgents[category]?.filter((a) => a.status === 'online').map((a) => a.id) || [];
+
     const newSelection = new Set([...selectedAgents, ...categoryAgentIds]);
     onSelectionChange(Array.from(newSelection));
   };
 
   // Get selected agents display
-  const selectedAgentsList = agents.filter(a => selectedAgents.includes(a.id));
-  const onlineCount = agents.filter(a => a.status === 'online').length;
+  const selectedAgentsList = agents.filter((a) => selectedAgents.includes(a.id));
+  const onlineCount = agents.filter((a) => a.status === 'online').length;
 
   return (
-    <div className={cn("relative", className)} ref={dropdownRef}>
+    <div className={cn('relative', className)} ref={dropdownRef}>
       {/* Trigger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={cn(
-          "flex items-center gap-2 px-4 py-2 rounded-lg border transition-all",
+          'flex items-center gap-2 px-4 py-2 rounded-lg border transition-all',
           isOpen
-            ? "bg-white border-primary-300 ring-2 ring-primary-100"
-            : "bg-white border-neutral-200 hover:border-neutral-300",
-          compact && "px-3 py-1.5"
+            ? 'bg-white border-primary-300 ring-2 ring-primary-100'
+            : 'bg-white border-neutral-200 hover:border-neutral-300',
+          compact && 'px-3 py-1.5'
         )}
       >
         {/* Selected agents avatars */}
         {selectedAgentsList.length > 0 ? (
           <div className="flex -space-x-1.5">
-            {selectedAgentsList.slice(0, 4).map(agent => (
+            {selectedAgentsList.slice(0, 4).map((agent) => (
               <div
                 key={agent.id}
                 className="w-6 h-6 rounded-full flex items-center justify-center text-xs border-2 border-white"
@@ -206,17 +220,16 @@ export function AgentDropdown({
         ) : (
           <Users className="w-4 h-4 text-neutral-400" />
         )}
-        
-        <span className={cn("font-medium text-neutral-700", compact && "text-sm")}>
+
+        <span className={cn('font-medium text-neutral-700', compact && 'text-sm')}>
           {selectedAgents.length === 0
             ? 'All Agents'
             : `${selectedAgents.length} Agent${selectedAgents.length !== 1 ? 's' : ''}`}
         </span>
-        
-        <ChevronDown className={cn(
-          "w-4 h-4 text-neutral-400 transition-transform",
-          isOpen && "rotate-180"
-        )} />
+
+        <ChevronDown
+          className={cn('w-4 h-4 text-neutral-400 transition-transform', isOpen && 'rotate-180')}
+        />
       </button>
 
       {/* Dropdown Menu */}
@@ -234,12 +247,12 @@ export function AgentDropdown({
                 className="w-full pl-9 pr-4 py-2 text-sm border border-neutral-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-100 focus:border-primary-300"
               />
             </div>
-            
+
             {/* Quick Actions */}
             <div className="flex items-center gap-2 mt-2">
               <button
                 onClick={() => {
-                  const onlineIds = agents.filter(a => a.status === 'online').map(a => a.id);
+                  const onlineIds = agents.filter((a) => a.status === 'online').map((a) => a.id);
                   onSelectionChange(onlineIds);
                 }}
                 className="text-xs px-2 py-1 bg-primary-50 text-primary-600 rounded hover:bg-primary-100 transition-colors"
@@ -259,12 +272,16 @@ export function AgentDropdown({
           <div className="flex-1 overflow-y-auto">
             {Object.entries(AGENT_CATEGORIES).map(([categoryName, categoryInfo]) => {
               const categoryAgents = categorizedAgents[categoryName] || [];
-              if (categoryAgents.length === 0) {return null;}
-              
+              if (categoryAgents.length === 0) {
+                return null;
+              }
+
               const Icon = categoryInfo.icon;
               const isExpanded = expandedCategories.has(categoryName);
-              const selectedInCategory = categoryAgents.filter(a => selectedAgents.includes(a.id)).length;
-              const onlineInCategory = categoryAgents.filter(a => a.status === 'online').length;
+              const selectedInCategory = categoryAgents.filter((a) =>
+                selectedAgents.includes(a.id)
+              ).length;
+              const onlineInCategory = categoryAgents.filter((a) => a.status === 'online').length;
 
               return (
                 <div key={categoryName} className="border-b border-neutral-100 last:border-b-0">
@@ -298,30 +315,32 @@ export function AgentDropdown({
                       >
                         All
                       </button>
-                      <ChevronDown className={cn(
-                        "w-4 h-4 text-neutral-400 transition-transform",
-                        isExpanded && "rotate-180"
-                      )} />
+                      <ChevronDown
+                        className={cn(
+                          'w-4 h-4 text-neutral-400 transition-transform',
+                          isExpanded && 'rotate-180'
+                        )}
+                      />
                     </div>
                   </div>
 
                   {/* Category Agents */}
                   {isExpanded && (
                     <div className="p-2 space-y-1">
-                      {categoryAgents.map(agent => {
+                      {categoryAgents.map((agent) => {
                         const isSelected = selectedAgents.includes(agent.id);
                         const isOnline = agent.status === 'online';
-                        
+
                         return (
                           <div
                             key={agent.id}
                             onClick={() => isOnline && toggleAgent(agent.id)}
                             className={cn(
-                              "flex items-center gap-3 p-2 rounded-lg cursor-pointer transition-all",
+                              'flex items-center gap-3 p-2 rounded-lg cursor-pointer transition-all',
                               isSelected
-                                ? "bg-primary-50 border border-primary-200"
-                                : "hover:bg-neutral-50 border border-transparent",
-                              !isOnline && "opacity-50 cursor-not-allowed"
+                                ? 'bg-primary-50 border border-primary-200'
+                                : 'hover:bg-neutral-50 border border-transparent',
+                              !isOnline && 'opacity-50 cursor-not-allowed'
                             )}
                           >
                             {/* Avatar */}
@@ -334,8 +353,8 @@ export function AgentDropdown({
                               </div>
                               <span
                                 className={cn(
-                                  "absolute bottom-0 right-0 w-3 h-3 rounded-full border-2 border-white",
-                                  isOnline ? "bg-green-500" : "bg-neutral-300"
+                                  'absolute bottom-0 right-0 w-3 h-3 rounded-full border-2 border-white',
+                                  isOnline ? 'bg-green-500' : 'bg-neutral-300'
                                 )}
                               />
                             </div>
@@ -373,15 +392,15 @@ export function AgentDropdown({
                             </div>
 
                             {/* Selection Indicator */}
-                            <div className={cn(
-                              "w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all",
-                              isSelected
-                                ? "bg-primary-500 border-primary-500"
-                                : "border-neutral-300"
-                            )}>
-                              {isSelected && (
-                                <Check className="w-3 h-3 text-white" />
+                            <div
+                              className={cn(
+                                'w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all',
+                                isSelected
+                                  ? 'bg-primary-500 border-primary-500'
+                                  : 'border-neutral-300'
                               )}
+                            >
+                              {isSelected && <Check className="w-3 h-3 text-white" />}
                             </div>
                           </div>
                         );

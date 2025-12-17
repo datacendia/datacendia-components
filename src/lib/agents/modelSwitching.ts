@@ -21,7 +21,7 @@ export interface OllamaModel {
   default?: boolean;
 }
 
-export type ModelCapability = 
+export type ModelCapability =
   | 'reasoning'
   | 'coding'
   | 'analysis'
@@ -45,12 +45,25 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'qwen2.5:7b',
     name: 'Llama 3.3 70B',
     size: '70B',
-    description: 'Meta\'s flagship model. Best overall performance for complex tasks.',
-    capabilities: ['reasoning', 'analysis', 'creative', 'summarization', 'chat', 'instruction-following', 'multilingual'],
+    description: "Meta's flagship model. Best overall performance for complex tasks.",
+    capabilities: [
+      'reasoning',
+      'analysis',
+      'creative',
+      'summarization',
+      'chat',
+      'instruction-following',
+      'multilingual',
+    ],
     contextLength: 128000,
     speed: 'slow',
     quality: 'flagship',
-    useCase: ['Strategic analysis', 'Complex reasoning', 'Executive summaries', 'Multi-domain synthesis'],
+    useCase: [
+      'Strategic analysis',
+      'Complex reasoning',
+      'Executive summaries',
+      'Multi-domain synthesis',
+    ],
     memoryRequired: '48GB+',
     default: true,
   },
@@ -59,7 +72,14 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     name: 'Llama 3.3 (Default)',
     size: '70B',
     description: 'Latest Llama 3.3 with optimal quantization.',
-    capabilities: ['reasoning', 'analysis', 'creative', 'summarization', 'chat', 'instruction-following'],
+    capabilities: [
+      'reasoning',
+      'analysis',
+      'creative',
+      'summarization',
+      'chat',
+      'instruction-following',
+    ],
     contextLength: 128000,
     speed: 'slow',
     quality: 'flagship',
@@ -114,12 +134,18 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'qwen2.5:7b',
     name: 'QwQ 32B',
     size: '32B',
-    description: 'Alibaba\'s reasoning specialist. Exceptional for complex analysis.',
+    description: "Alibaba's reasoning specialist. Exceptional for complex analysis.",
     capabilities: ['reasoning', 'math', 'analysis', 'coding'],
     contextLength: 32768,
     speed: 'medium',
     quality: 'excellent',
-    useCase: ['Deep reasoning', 'Risk analysis', 'Legal review', 'Security assessment', 'Complex problem solving'],
+    useCase: [
+      'Deep reasoning',
+      'Risk analysis',
+      'Legal review',
+      'Security assessment',
+      'Complex problem solving',
+    ],
     memoryRequired: '24GB',
   },
   {
@@ -142,7 +168,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'qwen2.5:72b',
     name: 'Qwen 2.5 72B',
     size: '72B',
-    description: 'Alibaba\'s flagship general-purpose model.',
+    description: "Alibaba's flagship general-purpose model.",
     capabilities: ['reasoning', 'analysis', 'creative', 'multilingual', 'chat'],
     contextLength: 131072,
     speed: 'slow',
@@ -230,7 +256,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'deepseek-r1:70b',
     name: 'DeepSeek R1 70B',
     size: '70B',
-    description: 'DeepSeek\'s reasoning model with chain-of-thought.',
+    description: "DeepSeek's reasoning model with chain-of-thought.",
     capabilities: ['reasoning', 'math', 'coding', 'analysis'],
     contextLength: 64000,
     speed: 'slow',
@@ -294,7 +320,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'mistral-large:123b',
     name: 'Mistral Large 123B',
     size: '123B',
-    description: 'Mistral\'s flagship model.',
+    description: "Mistral's flagship model.",
     capabilities: ['reasoning', 'analysis', 'creative', 'multilingual'],
     contextLength: 128000,
     speed: 'slow',
@@ -334,7 +360,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'gemma2:27b',
     name: 'Gemma 2 27B',
     size: '27B',
-    description: 'Google\'s open model with strong reasoning.',
+    description: "Google's open model with strong reasoning.",
     capabilities: ['reasoning', 'chat', 'analysis', 'instruction-following'],
     contextLength: 8192,
     speed: 'medium',
@@ -374,7 +400,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'phi3:14b',
     name: 'Phi-3 14B',
     size: '14B',
-    description: 'Microsoft\'s efficient reasoning model.',
+    description: "Microsoft's efficient reasoning model.",
     capabilities: ['reasoning', 'math', 'coding'],
     contextLength: 128000,
     speed: 'medium',
@@ -402,7 +428,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'command-r:35b',
     name: 'Command R 35B',
     size: '35B',
-    description: 'Cohere\'s RAG-optimized model.',
+    description: "Cohere's RAG-optimized model.",
     capabilities: ['reasoning', 'analysis', 'summarization', 'chat'],
     contextLength: 128000,
     speed: 'medium',
@@ -414,7 +440,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'command-r-plus:104b',
     name: 'Command R+ 104B',
     size: '104B',
-    description: 'Cohere\'s flagship enterprise model.',
+    description: "Cohere's flagship enterprise model.",
     capabilities: ['reasoning', 'analysis', 'summarization', 'creative'],
     contextLength: 128000,
     speed: 'slow',
@@ -430,7 +456,7 @@ export const AVAILABLE_MODELS: OllamaModel[] = [
     id: 'codestral:22b',
     name: 'Codestral 22B',
     size: '22B',
-    description: 'Mistral\'s dedicated coding model.',
+    description: "Mistral's dedicated coding model.",
     capabilities: ['coding', 'reasoning'],
     contextLength: 32768,
     speed: 'medium',
@@ -512,7 +538,13 @@ export const MODEL_CATEGORIES: ModelCategory[] = [
     id: 'flagship',
     name: '🏆 Flagship Models',
     description: 'Best quality, highest resource usage',
-    models: ['qwen2.5:7b', 'qwen2.5:72b', 'deepseek-r1:70b', 'mistral-large:123b', 'command-r-plus:104b'],
+    models: [
+      'qwen2.5:7b',
+      'qwen2.5:72b',
+      'deepseek-r1:70b',
+      'mistral-large:123b',
+      'command-r-plus:104b',
+    ],
   },
   {
     id: 'reasoning',
@@ -565,32 +597,32 @@ export const MODEL_CATEGORIES: ModelCategory[] = [
 export const AGENT_MODEL_RECOMMENDATIONS: Record<string, string[]> = {
   // Strategic / Executive
   chief: ['qwen2.5:7b', 'qwen2.5:72b', 'command-r-plus:104b'],
-  
+
   // Financial
   cfo: ['qwen2.5:7b', 'qwen2.5:7b', 'deepseek-r1:70b'],
   cio: ['qwen2.5:7b', 'qwen2.5:7b'],
-  
+
   // Operations
   coo: ['llama3.2:3b', 'qwen2.5:7b', 'mistral:7b'],
-  
+
   // Security / Legal / Risk
   ciso: ['qwen2.5:7b', 'deepseek-r1:32b', 'gemma2:27b'],
   clo: ['qwen2.5:7b', 'command-r:35b'],
   risk: ['qwen2.5:7b', 'deepseek-r1:32b'],
-  
+
   // Marketing / Sales
   cmo: ['qwen2.5:7b', 'qwen2.5:7b'],
   cro: ['qwen2.5:7b', 'qwen2.5:7b'],
   cco: ['llama3.2:3b', 'qwen2.5:7b'],
-  
+
   // Data / Technical
   cdo: ['qwen2.5:7b', 'deepseek-coder-v2:236b'],
   caio: ['qwen2.5:7b', 'deepseek-r1:32b'],
-  
+
   // Product / Innovation
   cpo: ['qwen2.5:7b', 'qwen2.5:7b'],
   cso: ['qwen2.5:7b', 'qwen2.5:7b'],
-  
+
   // Premium Packs
   'ext-auditor': ['qwen2.5:7b', 'command-r:35b'],
   'int-auditor': ['qwen2.5:7b', 'qwen2.5:7b'],
@@ -623,28 +655,28 @@ export function getAvailableModels(): OllamaModel[] {
  * Get a model by ID
  */
 export function getModel(modelId: string): OllamaModel | undefined {
-  return AVAILABLE_MODELS.find(m => m.id === modelId);
+  return AVAILABLE_MODELS.find((m) => m.id === modelId);
 }
 
 /**
  * Get models by capability
  */
 export function getModelsByCapability(capability: ModelCapability): OllamaModel[] {
-  return AVAILABLE_MODELS.filter(m => m.capabilities.includes(capability));
+  return AVAILABLE_MODELS.filter((m) => m.capabilities.includes(capability));
 }
 
 /**
  * Get models by quality tier
  */
 export function getModelsByQuality(quality: OllamaModel['quality']): OllamaModel[] {
-  return AVAILABLE_MODELS.filter(m => m.quality === quality);
+  return AVAILABLE_MODELS.filter((m) => m.quality === quality);
 }
 
 /**
  * Get models by speed
  */
 export function getModelsBySpeed(speed: OllamaModel['speed']): OllamaModel[] {
-  return AVAILABLE_MODELS.filter(m => m.speed === speed);
+  return AVAILABLE_MODELS.filter((m) => m.speed === speed);
 }
 
 /**
@@ -652,16 +684,14 @@ export function getModelsBySpeed(speed: OllamaModel['speed']): OllamaModel[] {
  */
 export function getRecommendedModels(agentCode: string): OllamaModel[] {
   const recommendations = AGENT_MODEL_RECOMMENDATIONS[agentCode] || ['qwen2.5:7b'];
-  return recommendations
-    .map(id => getModel(id))
-    .filter((m): m is OllamaModel => m !== undefined);
+  return recommendations.map((id) => getModel(id)).filter((m): m is OllamaModel => m !== undefined);
 }
 
 /**
  * Get the default model
  */
 export function getDefaultModel(): OllamaModel {
-  return AVAILABLE_MODELS.find(m => m.default) || AVAILABLE_MODELS[0];
+  return AVAILABLE_MODELS.find((m) => m.default) || AVAILABLE_MODELS[0];
 }
 
 /**
@@ -676,13 +706,19 @@ export function getModelCategories(): ModelCategory[] {
  */
 export function estimateTokensPerSecond(modelId: string): number {
   const model = getModel(modelId);
-  if (!model) {return 20;}
-  
+  if (!model) {
+    return 20;
+  }
+
   switch (model.speed) {
-    case 'fast': return 50;
-    case 'medium': return 25;
-    case 'slow': return 10;
-    default: return 20;
+    case 'fast':
+      return 50;
+    case 'medium':
+      return 25;
+    case 'slow':
+      return 10;
+    default:
+      return 20;
   }
 }
 

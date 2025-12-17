@@ -125,14 +125,14 @@ export const CendiaForecastPage: React.FC = () => {
             <Sparkles className="w-4 h-4" />
             APEX PACKAGE
           </div>
-          
+
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
             Cendia<span className="text-indigo-400">Forecast</span>
           </h1>
-          
+
           <p className="text-xl text-slate-400 max-w-2xl mb-8">
-            Transform your planning with AI-powered predictions. Forecast revenue,
-            model scenarios, and identify risks before they impact your business.
+            Transform your planning with AI-powered predictions. Forecast revenue, model scenarios,
+            and identify risks before they impact your business.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-12">
@@ -171,12 +171,10 @@ export const CendiaForecastPage: React.FC = () => {
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            6 Powerful Forecasting Services
-          </h2>
+          <h2 className="text-3xl font-bold text-white mb-4">6 Powerful Forecasting Services</h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Each service is powered by state-of-the-art machine learning models,
-            trained on your data and continuously improving.
+            Each service is powered by state-of-the-art machine learning models, trained on your
+            data and continuously improving.
           </p>
         </div>
 
@@ -191,21 +189,16 @@ export const CendiaForecastPage: React.FC = () => {
                   : 'bg-slate-800/50 border-slate-700 hover:border-slate-600'
               }`}
             >
-              <service.icon className={`w-10 h-10 mb-4 ${
-                activeService === index ? 'text-indigo-400' : 'text-slate-400'
-              }`} />
-              <h3 className="text-xl font-semibold text-white mb-2">
-                {service.title}
-              </h3>
-              <p className="text-slate-400 text-sm mb-4">
-                {service.description}
-              </p>
+              <service.icon
+                className={`w-10 h-10 mb-4 ${
+                  activeService === index ? 'text-indigo-400' : 'text-slate-400'
+                }`}
+              />
+              <h3 className="text-xl font-semibold text-white mb-2">{service.title}</h3>
+              <p className="text-slate-400 text-sm mb-4">{service.description}</p>
               <ul className="space-y-2">
                 {service.capabilities.slice(0, 3).map((cap) => (
-                  <li
-                    key={cap}
-                    className="flex items-center gap-2 text-sm text-slate-300"
-                  >
+                  <li key={cap} className="flex items-center gap-2 text-sm text-slate-300">
                     <Check className="w-4 h-4 text-green-400 flex-shrink-0" />
                     {cap}
                   </li>
@@ -225,10 +218,8 @@ export const CendiaForecastPage: React.FC = () => {
           <div className="grid lg:grid-cols-2">
             {/* Left: Demo Controls */}
             <div className="p-8">
-              <h3 className="text-2xl font-bold text-white mb-6">
-                See It In Action
-              </h3>
-              
+              <h3 className="text-2xl font-bold text-white mb-6">See It In Action</h3>
+
               <div className="space-y-4">
                 <div className="p-4 bg-slate-900/50 rounded-lg">
                   <div className="flex items-center gap-3 mb-2">
@@ -248,7 +239,8 @@ export const CendiaForecastPage: React.FC = () => {
                     <span className="font-medium text-white">Risk Alert</span>
                   </div>
                   <p className="text-sm text-slate-400">
-                    Churn risk detected: <span className="text-amber-400">3 enterprise accounts</span>
+                    Churn risk detected:{' '}
+                    <span className="text-amber-400">3 enterprise accounts</span>
                     <br />
                     Recommended action: Proactive outreach
                   </p>
@@ -289,23 +281,38 @@ export const CendiaForecastPage: React.FC = () => {
         <h3 className="text-2xl font-bold text-white mb-8 text-center">
           Enterprise-Grade Technology
         </h3>
-        
+
         <div className="grid md:grid-cols-3 gap-6">
           {[
             {
               icon: Brain,
               title: 'Advanced ML Models',
-              items: ['XGBoost, LightGBM, Prophet', 'Neural networks (LSTM, Transformer)', 'Ensemble methods', 'AutoML optimization'],
+              items: [
+                'XGBoost, LightGBM, Prophet',
+                'Neural networks (LSTM, Transformer)',
+                'Ensemble methods',
+                'AutoML optimization',
+              ],
             },
             {
               icon: Shield,
               title: 'Security & Compliance',
-              items: ['SOC 2 Type II certified', 'GDPR compliant', 'Data encryption at rest', 'Role-based access control'],
+              items: [
+                'SOC 2 Type II certified',
+                'GDPR compliant',
+                'Data encryption at rest',
+                'Role-based access control',
+              ],
             },
             {
               icon: Clock,
               title: 'Real-time Processing',
-              items: ['Sub-second predictions', 'Streaming data ingestion', 'Automatic model refresh', '99.9% uptime SLA'],
+              items: [
+                'Sub-second predictions',
+                'Streaming data ingestion',
+                'Automatic model refresh',
+                '99.9% uptime SLA',
+              ],
             },
           ].map((section) => (
             <div
@@ -334,8 +341,8 @@ export const CendiaForecastPage: React.FC = () => {
             Ready to Transform Your Forecasting?
           </h3>
           <p className="text-indigo-100 mb-8 max-w-2xl mx-auto">
-            Join leading enterprises using CendiaForecast to predict the future
-            with confidence. Get started with a personalized demo.
+            Join leading enterprises using CendiaForecast to predict the future with confidence. Get
+            started with a personalized demo.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link

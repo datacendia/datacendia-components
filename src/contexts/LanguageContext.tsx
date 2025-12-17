@@ -50,7 +50,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   // App
   'app.name': 'Datacendia',
   'app.tagline': 'Enterprise Intelligence Platform',
-  
+
   // Common
   'button.save': 'Save',
   'button.cancel': 'Cancel',
@@ -74,7 +74,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'label.admin': 'Admin',
   'label.user': 'User',
   'label.lead': 'Lead',
-  
+
   // Common
   'common.completed': 'completed',
   'common.queried': 'queried',
@@ -87,7 +87,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'common.sort': 'Sort',
   'common.all': 'All',
   'common.none': 'None',
-  
+
   // Sidebar Navigation
   'sidebar.dashboard': 'Dashboard',
   'sidebar.the_graph': 'The Graph',
@@ -110,7 +110,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'sidebar.settings': 'Settings',
   'sidebar.help': 'Help',
   'sidebar.connect_data_source': 'Connect a data source',
-  
+
   // Top Navigation
   'nav.explore': 'Explore',
   'nav.ask_council': 'Ask Council',
@@ -121,7 +121,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'nav.dashboard': 'Dashboard',
   'nav.council': 'The Council',
   'nav.settings': 'Settings',
-  
+
   // Council
   'council.title': 'The Council',
   'council.subtitle': 'Programmable Organizational Intelligence',
@@ -141,7 +141,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'council.no_decisions': 'No decisions yet. Ask The Council a question!',
   'council.create_agent': 'Create Agent',
   'council.agent_builder': 'Agent Builder Pack',
-  
+
   // Council Modes
   'mode.war_room': 'War Room',
   'mode.war_room.directive': 'Conflict before Consensus',
@@ -150,52 +150,58 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'mode.compliance': 'Compliance',
   'mode.crisis': 'Crisis',
   'mode.execution': 'Execution',
-  
+
   // Core Agent Names
   'agent.chief.name': 'Chief Strategy Agent',
   'agent.chief.role': 'Strategic Synthesis',
   'agent.chief.description': 'Synthesizes insights from all agents into strategic recommendations.',
-  
+
   'agent.cfo.name': 'Financial Intelligence Agent',
   'agent.cfo.role': 'Financial Analysis & Risk',
-  'agent.cfo.description': 'Analyzes financial data, budgets, forecasts, and provides insights on fiscal health.',
-  
+  'agent.cfo.description':
+    'Analyzes financial data, budgets, forecasts, and provides insights on fiscal health.',
+
   'agent.coo.name': 'Operations Intelligence Agent',
   'agent.coo.role': 'Operational Efficiency',
   'agent.coo.description': 'Optimizes workflows, resource allocation, and operational performance.',
-  
+
   'agent.ciso.name': 'Security & Compliance Agent',
   'agent.ciso.role': 'Security & Risk Management',
-  'agent.ciso.description': 'Monitors security posture, compliance requirements, and risk mitigation.',
-  
+  'agent.ciso.description':
+    'Monitors security posture, compliance requirements, and risk mitigation.',
+
   'agent.cmo.name': 'Market Intelligence Agent',
   'agent.cmo.role': 'Marketing & Customer Insights',
-  'agent.cmo.description': 'Analyzes market trends, customer behavior, and marketing effectiveness.',
-  
+  'agent.cmo.description':
+    'Analyzes market trends, customer behavior, and marketing effectiveness.',
+
   'agent.cto.name': 'Technology Intelligence Agent',
   'agent.cto.role': 'Technology Strategy',
-  'agent.cto.description': 'Evaluates technology decisions, architecture, and digital transformation.',
-  
+  'agent.cto.description':
+    'Evaluates technology decisions, architecture, and digital transformation.',
+
   'agent.chro.name': 'People Intelligence Agent',
   'agent.chro.role': 'Human Resources & Culture',
-  'agent.chro.description': 'Analyzes workforce dynamics, talent management, and organizational culture.',
-  
+  'agent.chro.description':
+    'Analyzes workforce dynamics, talent management, and organizational culture.',
+
   'agent.cro.name': 'Revenue Intelligence Agent',
   'agent.cro.role': 'Revenue & Growth',
-  'agent.cro.description': 'Optimizes revenue streams, pricing strategies, and growth opportunities.',
-  
+  'agent.cro.description':
+    'Optimizes revenue streams, pricing strategies, and growth opportunities.',
+
   'agent.cdo.name': 'Data Intelligence Agent',
   'agent.cdo.role': 'Data Governance',
   'agent.cdo.description': 'Manages data quality, lineage, and governance across the organization.',
-  
+
   'agent.risk.name': 'Risk Intelligence Agent',
   'agent.risk.role': 'Risk Assessment',
   'agent.risk.description': 'Identifies, quantifies, and mitigates organizational risks.',
-  
+
   'agent.clo.name': 'Legal Intelligence Agent',
   'agent.clo.role': 'Legal & Compliance',
   'agent.clo.description': 'Analyzes legal risks, contracts, and regulatory compliance.',
-  
+
   // Premium Agents
   'agent.cpo.name': 'Product Strategy Agent',
   'agent.cpo.role': 'Product Innovation & Roadmap',
@@ -207,13 +213,13 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'agent.cio.role': 'Capital Allocation & Portfolio',
   'agent.cco.name': 'Communications Agent',
   'agent.cco.role': 'Corporate Communications & PR',
-  
+
   // Audit Agents
   'agent.ext-auditor.name': 'External Auditor',
   'agent.ext-auditor.role': 'Independent Third-Party Audit',
   'agent.int-auditor.name': 'Internal Auditor',
   'agent.int-auditor.role': 'Internal Controls & Process Audit',
-  
+
   // Healthcare Agents
   'agent.cmio.name': 'Chief Medical Information Officer',
   'agent.cmio.role': 'Healthcare IT & Clinical Systems',
@@ -223,7 +229,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'agent.hco.role': 'HIPAA & Healthcare Regulations',
   'agent.cod.name': 'Clinical Operations Director',
   'agent.cod.role': 'Healthcare Operations & Efficiency',
-  
+
   // Finance Agents
   'agent.quant.name': 'Quantitative Analyst',
   'agent.quant.role': 'Financial Modeling & Risk Analytics',
@@ -233,7 +239,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'agent.cro-finance.role': 'Credit Analysis & Risk Assessment',
   'agent.treasury.name': 'Treasury Analyst',
   'agent.treasury.role': 'Cash Management & Liquidity',
-  
+
   // Legal Agents
   'agent.contracts.name': 'Contract Specialist',
   'agent.contracts.role': 'Contract Analysis & Negotiation',
@@ -243,7 +249,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'agent.litigation.role': 'Dispute Resolution & Trial Strategy',
   'agent.regulatory.name': 'Regulatory Affairs Counsel',
   'agent.regulatory.role': 'Government Relations & Compliance',
-  
+
   // Settings
   'settings.language': 'Language',
   'settings.language.select': 'Select Language',
@@ -254,14 +260,14 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'settings.security': 'Security',
   'settings.appearance': 'Appearance',
   'settings.integrations': 'Integrations',
-  
+
   // Search
   'search.placeholder': 'Search anything...',
-  
+
   // Dashboard
   'dashboard.title': 'Dashboard',
   'dashboard.welcome': 'Welcome back',
-  'dashboard.subtitle': 'Here\'s what\'s happening at {{company}}',
+  'dashboard.subtitle': "Here's what's happening at {{company}}",
   'dashboard.health_score': 'Health Score',
   'dashboard.alerts': 'Alerts',
   'dashboard.critical_alerts': 'Critical Alerts',
@@ -312,8 +318,8 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   // Dashboard Sample Queries
   'dashboard.sampleQueries.churnIncrease': 'Why did churn increase last month?',
   'dashboard.sampleQueries.forecastRevenue': 'Forecast Q4 revenue scenarios',
-  'dashboard.sampleQueries.biggestRisk': 'What\'s our biggest operational risk?',
-  
+  'dashboard.sampleQueries.biggestRisk': "What's our biggest operational risk?",
+
   // Graph
   'graph.title': 'Knowledge Graph',
   'graph.subtitle': 'Explore your data universe',
@@ -323,7 +329,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'graph.relationships': 'Relationships',
   'graph.clusters': 'Clusters',
   'graph.no_results': 'No results found',
-  
+
   // Pulse
   'pulse.title': 'The Pulse',
   'pulse.subtitle': 'Real-time organizational health',
@@ -332,7 +338,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'pulse.alerts': 'Alerts',
   'pulse.metrics': 'Metrics',
   'pulse.anomalies': 'Anomalies',
-  
+
   // Lens
   'lens.title': 'The Lens',
   'lens.subtitle': 'See possible futures',
@@ -340,7 +346,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'lens.forecasts': 'Forecasts',
   'lens.simulations': 'Simulations',
   'lens.what_if': 'What-If Analysis',
-  
+
   // Bridge
   'bridge.title': 'The Bridge',
   'bridge.subtitle': 'Connect and automate',
@@ -348,7 +354,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'bridge.integrations': 'Integrations',
   'bridge.automations': 'Automations',
   'bridge.connectors': 'Connectors',
-  
+
   // Common page elements
   'page.loading': 'Loading...',
   'page.error': 'Something went wrong',
@@ -361,7 +367,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'page.confirm': 'Confirm',
   'page.not_found': 'Page not found',
   'page.go_home': 'Go to Dashboard',
-  
+
   // Time
   'time.just_now': 'Just now',
   'time.minutes_ago': 'minutes ago',
@@ -369,7 +375,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'time.days_ago': 'days ago',
   'time.today': 'Today',
   'time.yesterday': 'Yesterday',
-  
+
   // Status
   'status.active': 'Active',
   'status.inactive': 'Inactive',
@@ -378,7 +384,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'status.failed': 'Failed',
   'status.running': 'Running',
   'status.paused': 'Paused',
-  
+
   // Actions
   'action.create': 'Create',
   'action.update': 'Update',
@@ -390,7 +396,7 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'action.filter': 'Filter',
   'action.sort': 'Sort',
   'action.search': 'Search',
-  
+
   // Auth
   'auth.login': 'Login',
   'auth.logout': 'Logout',
@@ -411,7 +417,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
   es: {
     // App
     'app.tagline': 'Plataforma de Inteligencia Empresarial',
-    
+
     // Common buttons and labels
     'button.save': 'Guardar',
     'button.cancel': 'Cancelar',
@@ -435,7 +441,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'label.admin': 'Administrador',
     'label.user': 'Usuario',
     'label.lead': 'Líder',
-    
+
     // Sidebar Navigation
     'sidebar.dashboard': 'Panel',
     'sidebar.the_graph': 'El Grafo',
@@ -458,7 +464,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'sidebar.settings': 'Configuración',
     'sidebar.help': 'Ayuda',
     'sidebar.connect_data_source': 'Conectar fuente de datos',
-    
+
     // Top Navigation
     'nav.explore': 'Explorar',
     'nav.ask_council': 'Consultar Consejo',
@@ -469,7 +475,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'nav.dashboard': 'Panel',
     'nav.council': 'El Consejo',
     'nav.settings': 'Configuración',
-    
+
     // Council
     'council.title': 'El Consejo',
     'council.subtitle': 'Inteligencia Organizacional Programable',
@@ -489,7 +495,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'council.no_decisions': '¡Aún no hay decisiones. Haz una pregunta al Consejo!',
     'council.create_agent': 'Crear Agente',
     'council.agent_builder': 'Paquete Constructor de Agentes',
-    
+
     // Council Modes
     'mode.war_room': 'Sala de Guerra',
     'mode.war_room.directive': 'Conflicto antes del Consenso',
@@ -498,42 +504,51 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'mode.compliance': 'Cumplimiento',
     'mode.crisis': 'Crisis',
     'mode.execution': 'Ejecución',
-    
+
     // Core Agents
     'agent.chief.name': 'Agente Estratégico Principal',
     'agent.chief.role': 'Síntesis Estratégica',
-    'agent.chief.description': 'Sintetiza información de todos los agentes en recomendaciones estratégicas.',
+    'agent.chief.description':
+      'Sintetiza información de todos los agentes en recomendaciones estratégicas.',
     'agent.cfo.name': 'Agente de Inteligencia Financiera',
     'agent.cfo.role': 'Análisis Financiero y Riesgo',
-    'agent.cfo.description': 'Analiza datos financieros, presupuestos, pronósticos y proporciona información sobre salud fiscal.',
+    'agent.cfo.description':
+      'Analiza datos financieros, presupuestos, pronósticos y proporciona información sobre salud fiscal.',
     'agent.coo.name': 'Agente de Inteligencia Operativa',
     'agent.coo.role': 'Eficiencia Operacional',
-    'agent.coo.description': 'Optimiza flujos de trabajo, asignación de recursos y rendimiento operativo.',
+    'agent.coo.description':
+      'Optimiza flujos de trabajo, asignación de recursos y rendimiento operativo.',
     'agent.ciso.name': 'Agente de Seguridad y Cumplimiento',
     'agent.ciso.role': 'Gestión de Seguridad y Riesgo',
-    'agent.ciso.description': 'Monitorea postura de seguridad, requisitos de cumplimiento y mitigación de riesgos.',
+    'agent.ciso.description':
+      'Monitorea postura de seguridad, requisitos de cumplimiento y mitigación de riesgos.',
     'agent.cmo.name': 'Agente de Inteligencia de Mercado',
     'agent.cmo.role': 'Marketing e Insights del Cliente',
-    'agent.cmo.description': 'Analiza tendencias del mercado, comportamiento del cliente y efectividad del marketing.',
+    'agent.cmo.description':
+      'Analiza tendencias del mercado, comportamiento del cliente y efectividad del marketing.',
     'agent.cto.name': 'Agente de Inteligencia Tecnológica',
     'agent.cto.role': 'Estrategia Tecnológica',
-    'agent.cto.description': 'Evalúa decisiones tecnológicas, arquitectura y transformación digital.',
+    'agent.cto.description':
+      'Evalúa decisiones tecnológicas, arquitectura y transformación digital.',
     'agent.chro.name': 'Agente de Inteligencia de Personal',
     'agent.chro.role': 'Recursos Humanos y Cultura',
-    'agent.chro.description': 'Analiza dinámica laboral, gestión del talento y cultura organizacional.',
+    'agent.chro.description':
+      'Analiza dinámica laboral, gestión del talento y cultura organizacional.',
     'agent.cro.name': 'Agente de Inteligencia de Ingresos',
     'agent.cro.role': 'Ingresos y Crecimiento',
-    'agent.cro.description': 'Optimiza flujos de ingresos, estrategias de precios y oportunidades de crecimiento.',
+    'agent.cro.description':
+      'Optimiza flujos de ingresos, estrategias de precios y oportunidades de crecimiento.',
     'agent.cdo.name': 'Agente de Inteligencia de Datos',
     'agent.cdo.role': 'Gobernanza de Datos',
-    'agent.cdo.description': 'Gestiona calidad de datos, linaje y gobernanza en toda la organización.',
+    'agent.cdo.description':
+      'Gestiona calidad de datos, linaje y gobernanza en toda la organización.',
     'agent.risk.name': 'Agente de Inteligencia de Riesgos',
     'agent.risk.role': 'Evaluación de Riesgos',
     'agent.risk.description': 'Identifica, cuantifica y mitiga riesgos organizacionales.',
     'agent.clo.name': 'Agente de Inteligencia Legal',
     'agent.clo.role': 'Legal y Cumplimiento',
     'agent.clo.description': 'Analiza riesgos legales, contratos y cumplimiento regulatorio.',
-    
+
     // Premium Agents
     'agent.cpo.name': 'Agente de Estrategia de Producto',
     'agent.cpo.role': 'Innovación de Producto y Roadmap',
@@ -545,13 +560,13 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'agent.cio.role': 'Asignación de Capital y Portafolio',
     'agent.cco.name': 'Agente de Comunicaciones',
     'agent.cco.role': 'Comunicaciones Corporativas y RP',
-    
+
     // Audit Agents
     'agent.ext-auditor.name': 'Auditor Externo',
     'agent.ext-auditor.role': 'Auditoría Independiente de Terceros',
     'agent.int-auditor.name': 'Auditor Interno',
     'agent.int-auditor.role': 'Controles Internos y Auditoría de Procesos',
-    
+
     // Healthcare Agents
     'agent.cmio.name': 'Director Médico de Información',
     'agent.cmio.role': 'TI de Salud y Sistemas Clínicos',
@@ -561,7 +576,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'agent.hco.role': 'HIPAA y Regulaciones de Salud',
     'agent.cod.name': 'Director de Operaciones Clínicas',
     'agent.cod.role': 'Operaciones y Eficiencia de Salud',
-    
+
     // Finance Agents
     'agent.quant.name': 'Analista Cuantitativo',
     'agent.quant.role': 'Modelado Financiero y Análisis de Riesgo',
@@ -571,7 +586,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'agent.cro-finance.role': 'Análisis de Crédito y Evaluación de Riesgo',
     'agent.treasury.name': 'Analista de Tesorería',
     'agent.treasury.role': 'Gestión de Efectivo y Liquidez',
-    
+
     // Legal Agents
     'agent.contracts.name': 'Especialista en Contratos',
     'agent.contracts.role': 'Análisis y Negociación de Contratos',
@@ -581,7 +596,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'agent.litigation.role': 'Resolución de Disputas y Estrategia de Juicio',
     'agent.regulatory.name': 'Consejero de Asuntos Regulatorios',
     'agent.regulatory.role': 'Relaciones Gubernamentales y Cumplimiento',
-    
+
     // Settings
     'settings.language': 'Idioma',
     'settings.language.select': 'Seleccionar Idioma',
@@ -593,7 +608,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'settings.appearance': 'Apariencia',
     'settings.integrations': 'Integraciones',
     'search.placeholder': 'Buscar cualquier cosa...',
-    
+
     // Dashboard
     'dashboard.title': 'Panel',
     'dashboard.welcome': 'Bienvenido de nuevo',
@@ -615,7 +630,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'dashboard.operations': 'Operaciones',
     'dashboard.security': 'Seguridad',
     'dashboard.people': 'Personal',
-    
+
     // Graph
     'graph.title': 'Grafo de Conocimiento',
     'graph.subtitle': 'Explora tu universo de datos',
@@ -625,7 +640,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'graph.relationships': 'Relaciones',
     'graph.clusters': 'Grupos',
     'graph.no_results': 'Sin resultados',
-    
+
     // Pulse
     'pulse.title': 'El Pulso',
     'pulse.subtitle': 'Salud organizacional en tiempo real',
@@ -634,7 +649,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'pulse.alerts': 'Alertas',
     'pulse.metrics': 'Métricas',
     'pulse.anomalies': 'Anomalías',
-    
+
     // Lens
     'lens.title': 'El Lente',
     'lens.subtitle': 'Ve futuros posibles',
@@ -642,7 +657,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'lens.forecasts': 'Pronósticos',
     'lens.simulations': 'Simulaciones',
     'lens.what_if': 'Análisis Qué-Si',
-    
+
     // Bridge
     'bridge.title': 'El Puente',
     'bridge.subtitle': 'Conecta y automatiza',
@@ -650,7 +665,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'bridge.integrations': 'Integraciones',
     'bridge.automations': 'Automatizaciones',
     'bridge.connectors': 'Conectores',
-    
+
     // Common page elements
     'page.loading': 'Cargando...',
     'page.error': 'Algo salió mal',
@@ -663,7 +678,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'page.confirm': 'Confirmar',
     'page.not_found': 'Página no encontrada',
     'page.go_home': 'Ir al Panel',
-    
+
     // Time
     'time.just_now': 'Justo ahora',
     'time.minutes_ago': 'minutos atrás',
@@ -671,7 +686,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'time.days_ago': 'días atrás',
     'time.today': 'Hoy',
     'time.yesterday': 'Ayer',
-    
+
     // Status
     'status.active': 'Activo',
     'status.inactive': 'Inactivo',
@@ -680,7 +695,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'status.failed': 'Fallido',
     'status.running': 'Ejecutando',
     'status.paused': 'Pausado',
-    
+
     // Actions
     'action.create': 'Crear',
     'action.update': 'Actualizar',
@@ -692,7 +707,7 @@ const STATIC_TRANSLATIONS: Record<string, Record<string, string>> = {
     'action.filter': 'Filtrar',
     'action.sort': 'Ordenar',
     'action.search': 'Buscar',
-    
+
     // Auth
     'auth.login': 'Iniciar Sesión',
     'auth.logout': 'Cerrar Sesión',
@@ -799,18 +814,47 @@ const LanguageContext = createContext<LanguageContextType | null>(null);
 
 // Auto-detect browser language on first visit
 const detectBrowserLanguage = (): string => {
-  if (typeof window === 'undefined') {return 'en';}
-  
+  if (typeof window === 'undefined') {
+    return 'en';
+  }
+
   // Check if user has a saved preference
   const saved = localStorage.getItem('datacendia_language');
-  if (saved) {return saved;}
-  
+  if (saved) {
+    return saved;
+  }
+
   // Get browser language (e.g., 'en-US' -> 'en')
   const browserLang = navigator.language?.split('-')[0] || 'en';
-  
+
   // Supported languages
-  const supported = ['en', 'es', 'fr', 'de', 'zh', 'ja', 'ko', 'ar', 'pt', 'it', 'ru', 'nl', 'pl', 'tr', 'vi', 'th', 'hi', 'he', 'id', 'ms', 'sv', 'da', 'fi', 'no'];
-  
+  const supported = [
+    'en',
+    'es',
+    'fr',
+    'de',
+    'zh',
+    'ja',
+    'ko',
+    'ar',
+    'pt',
+    'it',
+    'ru',
+    'nl',
+    'pl',
+    'tr',
+    'vi',
+    'th',
+    'hi',
+    'he',
+    'id',
+    'ms',
+    'sv',
+    'da',
+    'fi',
+    'no',
+  ];
+
   return supported.includes(browserLang) ? browserLang : 'en';
 };
 
@@ -825,7 +869,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const cacheRef = useRef<Map<string, Record<string, string>>>(new Map());
 
   // Get current language info
-  const languageInfo = languages.find(l => l.code === language) || null;
+  const languageInfo = languages.find((l) => l.code === language) || null;
   const isRTL = languageInfo?.rtl || false;
 
   // Load available languages on mount
@@ -882,15 +926,17 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       // Background: Fetch additional translations from API (non-blocking)
       if (!loadingRef.current) {
         loadingRef.current = true;
-        
+
         try {
-          const response = await apiClient.api.get<{ 
+          const response = await apiClient.api.get<{
             translations: Record<string, string>;
             count: number;
           }>(`/i18n/translations/${language}`);
 
           if (response.success && response.data?.translations) {
-            const base = staticTrans ? { ...DEFAULT_TRANSLATIONS, ...staticTrans } : DEFAULT_TRANSLATIONS;
+            const base = staticTrans
+              ? { ...DEFAULT_TRANSLATIONS, ...staticTrans }
+              : DEFAULT_TRANSLATIONS;
             const newTranslations = { ...base, ...response.data.translations };
             setTranslations(newTranslations);
             cacheRef.current.set(language, newTranslations);
@@ -918,76 +964,97 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   }, [isRTL, language]);
 
   // Set language
-  const setLanguage = useCallback(async (code: string) => {
-    if (code === language) {return;}
-    
-    setLanguageState(code);
-    localStorage.setItem('datacendia_language', code);
+  const setLanguage = useCallback(
+    async (code: string) => {
+      if (code === language) {
+        return;
+      }
 
-    // Save preference to backend
-    try {
-      await apiClient.api.put('/i18n/user/preference', { language: code });
-    } catch (error) {
-      console.error('Failed to save language preference:', error);
-    }
-  }, [language]);
+      setLanguageState(code);
+      localStorage.setItem('datacendia_language', code);
+
+      // Save preference to backend
+      try {
+        await apiClient.api.put('/i18n/user/preference', { language: code });
+      } catch (error) {
+        console.error('Failed to save language preference:', error);
+      }
+    },
+    [language]
+  );
 
   // Translation function
-  const t = useCallback((key: string, interpolations?: Record<string, string>): string => {
-    let text = translations[key] || DEFAULT_TRANSLATIONS[key] || key;
-    
-    if (interpolations) {
-      Object.entries(interpolations).forEach(([k, v]) => {
-        text = text.replace(new RegExp(`\\{\\{${k}\\}\\}`, 'g'), v);
-      });
-    }
-    
-    return text;
-  }, [translations]);
+  const t = useCallback(
+    (key: string, interpolations?: Record<string, string>): string => {
+      let text = translations[key] || DEFAULT_TRANSLATIONS[key] || key;
+
+      if (interpolations) {
+        Object.entries(interpolations).forEach(([k, v]) => {
+          text = text.replace(new RegExp(`\\{\\{${k}\\}\\}`, 'g'), v);
+        });
+      }
+
+      return text;
+    },
+    [translations]
+  );
 
   // Translate dynamic content
-  const translateContent = useCallback(async (content: string): Promise<string> => {
-    if (language === 'en') {return content;}
-
-    try {
-      const response = await apiClient.api.post<{ translated: string }>('/i18n/translate/content', {
-        content,
-        targetLanguage: language,
-      });
-
-      if (response.success && response.data?.translated) {
-        return response.data.translated;
+  const translateContent = useCallback(
+    async (content: string): Promise<string> => {
+      if (language === 'en') {
+        return content;
       }
-    } catch (error) {
-      console.error('Content translation failed:', error);
-    }
 
-    return content;
-  }, [language]);
+      try {
+        const response = await apiClient.api.post<{ translated: string }>(
+          '/i18n/translate/content',
+          {
+            content,
+            targetLanguage: language,
+          }
+        );
+
+        if (response.success && response.data?.translated) {
+          return response.data.translated;
+        }
+      } catch (error) {
+        console.error('Content translation failed:', error);
+      }
+
+      return content;
+    },
+    [language]
+  );
 
   // Translate deliberation
-  const translateDeliberation = useCallback(async (content: {
-    question: string;
-    messages: Array<{ agent: string; content: string }>;
-    decision?: string;
-  }) => {
-    if (language === 'en') {return content;}
-
-    try {
-      const response = await apiClient.api.post<typeof content>('/i18n/translate/deliberation', {
-        ...content,
-        targetLanguage: language,
-      });
-
-      if (response.success && response.data) {
-        return response.data;
+  const translateDeliberation = useCallback(
+    async (content: {
+      question: string;
+      messages: Array<{ agent: string; content: string }>;
+      decision?: string;
+    }) => {
+      if (language === 'en') {
+        return content;
       }
-    } catch (error) {
-      console.error('Deliberation translation failed:', error);
-    }
 
-    return content;
-  }, [language]);
+      try {
+        const response = await apiClient.api.post<typeof content>('/i18n/translate/deliberation', {
+          ...content,
+          targetLanguage: language,
+        });
+
+        if (response.success && response.data) {
+          return response.data;
+        }
+      } catch (error) {
+        console.error('Deliberation translation failed:', error);
+      }
+
+      return content;
+    },
+    [language]
+  );
 
   const value: LanguageContextType = {
     language,
@@ -1003,11 +1070,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     translateDeliberation,
   };
 
-  return (
-    <LanguageContext.Provider value={value}>
-      {children}
-    </LanguageContext.Provider>
-  );
+  return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;
 }
 
 // =============================================================================
@@ -1034,13 +1097,14 @@ export function LanguageSelector({ className }: { className?: string }) {
   const [toastMessage, setToastMessage] = useState('');
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  const currentLanguage = languages.find(l => l.code === language);
+  const currentLanguage = languages.find((l) => l.code === language);
 
   // Filter languages by search query
-  const filteredLanguages = languages.filter(lang => 
-    lang.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    lang.nativeName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    lang.code.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredLanguages = languages.filter(
+    (lang) =>
+      lang.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      lang.nativeName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      lang.code.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   // Focus search input when dropdown opens
@@ -1048,7 +1112,9 @@ export function LanguageSelector({ className }: { className?: string }) {
     if (isOpen && searchInputRef.current) {
       setTimeout(() => searchInputRef.current?.focus(), 100);
     }
-    if (!isOpen) {setSearchQuery('');}
+    if (!isOpen) {
+      setSearchQuery('');
+    }
   }, [isOpen]);
 
   // Keyboard shortcut: Alt+L to toggle
@@ -1056,7 +1122,7 @@ export function LanguageSelector({ className }: { className?: string }) {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.altKey && e.key === 'l') {
         e.preventDefault();
-        setIsOpen(prev => !prev);
+        setIsOpen((prev) => !prev);
       }
       if (e.key === 'Escape' && isOpen) {
         setIsOpen(false);
@@ -1067,10 +1133,10 @@ export function LanguageSelector({ className }: { className?: string }) {
   }, [isOpen]);
 
   const handleLanguageChange = async (code: string) => {
-    const lang = languages.find(l => l.code === code);
+    const lang = languages.find((l) => l.code === code);
     await setLanguage(code);
     setIsOpen(false);
-    
+
     // Show toast notification
     if (lang) {
       setToastMessage(`🌐 ${lang.nativeName}`);
@@ -1107,7 +1173,12 @@ export function LanguageSelector({ className }: { className?: string }) {
         {isLoading && (
           <span className="w-4 h-4 border-2 border-primary-500 border-t-transparent rounded-full animate-spin" />
         )}
-        <svg className={`w-4 h-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg
+          className={`w-4 h-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
@@ -1119,7 +1190,9 @@ export function LanguageSelector({ className }: { className?: string }) {
             {/* Header with search */}
             <div className="p-3 border-b border-neutral-100 bg-gradient-to-b from-neutral-50 to-white">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="font-semibold text-sm text-neutral-900">{t('settings.language') || 'Language'}</h3>
+                <h3 className="font-semibold text-sm text-neutral-900">
+                  {t('settings.language') || 'Language'}
+                </h3>
                 <span className="text-xs text-neutral-400 bg-neutral-100 px-2 py-0.5 rounded-full">
                   {languages.length}
                 </span>
@@ -1134,12 +1207,22 @@ export function LanguageSelector({ className }: { className?: string }) {
                   placeholder="Search languages..."
                   className="w-full pl-8 pr-3 py-2 text-sm bg-white border border-neutral-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                 />
-                <svg className="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                <svg
+                  className="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
                 </svg>
               </div>
             </div>
-            
+
             {/* Language list */}
             <div className="max-h-72 overflow-y-auto py-1">
               {filteredLanguages.length === 0 ? (
@@ -1152,7 +1235,9 @@ export function LanguageSelector({ className }: { className?: string }) {
                     key={lang.code}
                     onClick={() => handleLanguageChange(lang.code)}
                     className={`w-full flex items-center justify-between px-4 py-2.5 text-left hover:bg-neutral-50 transition-all duration-150 ${
-                      language === lang.code ? 'bg-primary-50 border-l-2 border-primary-500' : 'border-l-2 border-transparent'
+                      language === lang.code
+                        ? 'bg-primary-50 border-l-2 border-primary-500'
+                        : 'border-l-2 border-transparent'
                     }`}
                   >
                     <div className="flex items-center gap-3">
@@ -1160,7 +1245,9 @@ export function LanguageSelector({ className }: { className?: string }) {
                         {lang.code}
                       </span>
                       <div>
-                        <p className={`font-medium text-sm ${language === lang.code ? 'text-primary-700' : 'text-neutral-900'}`}>
+                        <p
+                          className={`font-medium text-sm ${language === lang.code ? 'text-primary-700' : 'text-neutral-900'}`}
+                        >
                           {lang.nativeName}
                         </p>
                         <p className="text-xs text-neutral-500">{lang.name}</p>
@@ -1168,7 +1255,9 @@ export function LanguageSelector({ className }: { className?: string }) {
                     </div>
                     <div className="flex items-center gap-2">
                       {lang.rtl && (
-                        <span className="text-[10px] px-1.5 py-0.5 bg-amber-100 text-amber-700 rounded font-medium">RTL</span>
+                        <span className="text-[10px] px-1.5 py-0.5 bg-amber-100 text-amber-700 rounded font-medium">
+                          RTL
+                        </span>
                       )}
                       {language === lang.code && (
                         <span className="text-primary-600 text-lg">✓</span>
@@ -1178,11 +1267,22 @@ export function LanguageSelector({ className }: { className?: string }) {
                 ))
               )}
             </div>
-            
+
             {/* Footer with keyboard hint */}
             <div className="px-3 py-2 border-t border-neutral-100 bg-neutral-50 text-xs text-neutral-400 flex items-center justify-between">
-              <span>Press <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded text-neutral-600 font-mono text-[10px]">Alt+L</kbd> to toggle</span>
-              <span><kbd className="px-1.5 py-0.5 bg-neutral-200 rounded text-neutral-600 font-mono text-[10px]">Esc</kbd> to close</span>
+              <span>
+                Press{' '}
+                <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded text-neutral-600 font-mono text-[10px]">
+                  Alt+L
+                </kbd>{' '}
+                to toggle
+              </span>
+              <span>
+                <kbd className="px-1.5 py-0.5 bg-neutral-200 rounded text-neutral-600 font-mono text-[10px]">
+                  Esc
+                </kbd>{' '}
+                to close
+              </span>
             </div>
           </div>
         </>

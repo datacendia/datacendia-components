@@ -24,11 +24,56 @@ interface Workflow {
 }
 
 const FALLBACK_WORKFLOWS: Workflow[] = [
-  { id: 'wf-1', name: 'Monthly Financial Close', status: 'active', trigger: 'schedule', schedule: '1st of month', steps: 12, runs: { success: 24, failed: 1 }, lastRun: new Date(Date.now() - 86400000) },
-  { id: 'wf-2', name: 'Alert Escalation', status: 'active', trigger: 'event', schedule: 'On critical alert', steps: 5, runs: { success: 156, failed: 3 }, lastRun: new Date(Date.now() - 3600000) },
-  { id: 'wf-3', name: 'Customer Onboarding', status: 'active', trigger: 'manual', schedule: 'Manual', steps: 8, runs: { success: 89, failed: 2 }, lastRun: new Date(Date.now() - 7200000) },
-  { id: 'wf-4', name: 'Vendor Onboarding', status: 'draft', trigger: 'manual', schedule: 'Manual', steps: 18, runs: { success: 0, failed: 0 }, lastRun: null },
-  { id: 'wf-5', name: 'Employee Offboarding', status: 'paused', trigger: 'manual', schedule: 'Manual', steps: 22, runs: { success: 45, failed: 2 }, lastRun: new Date(Date.now() - 604800000) },
+  {
+    id: 'wf-1',
+    name: 'Monthly Financial Close',
+    status: 'active',
+    trigger: 'schedule',
+    schedule: '1st of month',
+    steps: 12,
+    runs: { success: 24, failed: 1 },
+    lastRun: new Date(Date.now() - 86400000),
+  },
+  {
+    id: 'wf-2',
+    name: 'Alert Escalation',
+    status: 'active',
+    trigger: 'event',
+    schedule: 'On critical alert',
+    steps: 5,
+    runs: { success: 156, failed: 3 },
+    lastRun: new Date(Date.now() - 3600000),
+  },
+  {
+    id: 'wf-3',
+    name: 'Customer Onboarding',
+    status: 'active',
+    trigger: 'manual',
+    schedule: 'Manual',
+    steps: 8,
+    runs: { success: 89, failed: 2 },
+    lastRun: new Date(Date.now() - 7200000),
+  },
+  {
+    id: 'wf-4',
+    name: 'Vendor Onboarding',
+    status: 'draft',
+    trigger: 'manual',
+    schedule: 'Manual',
+    steps: 18,
+    runs: { success: 0, failed: 0 },
+    lastRun: null,
+  },
+  {
+    id: 'wf-5',
+    name: 'Employee Offboarding',
+    status: 'paused',
+    trigger: 'manual',
+    schedule: 'Manual',
+    steps: 22,
+    runs: { success: 45, failed: 2 },
+    lastRun: new Date(Date.now() - 604800000),
+  },
 ];
 
 export const WorkflowsListPage: React.FC = () => {
@@ -63,9 +108,8 @@ export const WorkflowsListPage: React.FC = () => {
     fetchWorkflows();
   }, []);
 
-  const filteredWorkflows = filter === 'all' 
-    ? workflows 
-    : workflows.filter(w => w.status === filter);
+  const filteredWorkflows =
+    filter === 'all' ? workflows : workflows.filter((w) => w.status === filter);
 
   return (
     <div className="p-6 lg:p-8 max-w-6xl mx-auto">
@@ -110,12 +154,14 @@ export const WorkflowsListPage: React.FC = () => {
           >
             <div className="flex items-start justify-between">
               <div className="flex items-start gap-4">
-                <div className={cn(
-                  'w-10 h-10 rounded-lg flex items-center justify-center',
-                  workflow.status === 'active' && 'bg-success-light text-success-main',
-                  workflow.status === 'draft' && 'bg-neutral-100 text-neutral-500',
-                  workflow.status === 'paused' && 'bg-warning-light text-warning-main'
-                )}>
+                <div
+                  className={cn(
+                    'w-10 h-10 rounded-lg flex items-center justify-center',
+                    workflow.status === 'active' && 'bg-success-light text-success-main',
+                    workflow.status === 'draft' && 'bg-neutral-100 text-neutral-500',
+                    workflow.status === 'paused' && 'bg-warning-light text-warning-main'
+                  )}
+                >
                   {workflow.trigger === 'schedule' && '⏰'}
                   {workflow.trigger === 'event' && '📨'}
                   {workflow.trigger === 'manual' && '👤'}
@@ -123,12 +169,14 @@ export const WorkflowsListPage: React.FC = () => {
                 <div>
                   <h3 className="font-semibold text-neutral-900">{workflow.name}</h3>
                   <div className="flex items-center gap-4 mt-2 text-sm text-neutral-500">
-                    <span className={cn(
-                      'px-2 py-0.5 rounded-full text-xs font-medium capitalize',
-                      workflow.status === 'active' && 'bg-success-light text-success-dark',
-                      workflow.status === 'draft' && 'bg-neutral-100 text-neutral-600',
-                      workflow.status === 'paused' && 'bg-warning-light text-warning-dark'
-                    )}>
+                    <span
+                      className={cn(
+                        'px-2 py-0.5 rounded-full text-xs font-medium capitalize',
+                        workflow.status === 'active' && 'bg-success-light text-success-dark',
+                        workflow.status === 'draft' && 'bg-neutral-100 text-neutral-600',
+                        workflow.status === 'paused' && 'bg-warning-light text-warning-dark'
+                      )}
+                    >
                       {workflow.status}
                     </span>
                     <span>{workflow.steps} steps</span>
@@ -144,14 +192,16 @@ export const WorkflowsListPage: React.FC = () => {
                   )}
                 </div>
                 <p className="text-xs text-neutral-400 mt-1">
-                  {workflow.lastRun ? `Last run ${formatRelativeTime(workflow.lastRun)}` : 'Never run'}
+                  {workflow.lastRun
+                    ? `Last run ${formatRelativeTime(workflow.lastRun)}`
+                    : 'Never run'}
                 </p>
               </div>
             </div>
           </div>
         ))}
       </div>
-      
+
       {/* Page Guide */}
       <PageGuide {...GUIDES.workflows} />
     </div>
@@ -280,7 +330,7 @@ export const WorkflowBuilderPage: React.FC = () => {
                 <div className="bg-white rounded-xl border border-neutral-200 p-4 hover:border-primary-300 hover:shadow-sm transition-all cursor-pointer">
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 bg-neutral-100 rounded-lg flex items-center justify-center text-xl">
-                      {stepTypes.find(s => s.type === step.type)?.icon}
+                      {stepTypes.find((s) => s.type === step.type)?.icon}
                     </div>
                     <div className="flex-1">
                       <h4 className="font-medium text-neutral-900">{step.name}</h4>
@@ -289,7 +339,7 @@ export const WorkflowBuilderPage: React.FC = () => {
                     <button className="text-neutral-400 hover:text-neutral-600">•••</button>
                   </div>
                 </div>
-                
+
                 {index < workflow.steps.length - 1 && (
                   <div className="flex justify-center">
                     <div className="w-0.5 h-8 bg-neutral-300" />
@@ -326,16 +376,60 @@ export const ApprovalsPage: React.FC = () => {
   const [filter, setFilter] = useState<'pending' | 'approved' | 'rejected' | 'all'>('pending');
 
   const approvals = [
-    { id: 1, type: 'workflow', title: 'Monthly Close - CFO Approval', requestor: 'System', workflow: 'Monthly Financial Close', priority: 'high', requestedAt: new Date(Date.now() - 3600000), status: 'pending' },
-    { id: 2, type: 'access', title: 'Production Database Access', requestor: 'John Smith', details: 'Read access to production DB', priority: 'medium', requestedAt: new Date(Date.now() - 7200000), status: 'pending' },
-    { id: 3, type: 'budget', title: 'Q2 Marketing Budget Increase', requestor: 'Sarah Chen', details: '+$50,000 for campaign', priority: 'medium', requestedAt: new Date(Date.now() - 14400000), status: 'pending' },
-    { id: 4, type: 'vendor', title: 'New Vendor: CloudTech Inc', requestor: 'Mike Johnson', details: 'Data analytics vendor', priority: 'low', requestedAt: new Date(Date.now() - 86400000), status: 'approved' },
-    { id: 5, type: 'access', title: 'Admin Console Access', requestor: 'Emily Davis', details: 'Full admin access', priority: 'high', requestedAt: new Date(Date.now() - 172800000), status: 'rejected' },
+    {
+      id: 1,
+      type: 'workflow',
+      title: 'Monthly Close - CFO Approval',
+      requestor: 'System',
+      workflow: 'Monthly Financial Close',
+      priority: 'high',
+      requestedAt: new Date(Date.now() - 3600000),
+      status: 'pending',
+    },
+    {
+      id: 2,
+      type: 'access',
+      title: 'Production Database Access',
+      requestor: 'John Smith',
+      details: 'Read access to production DB',
+      priority: 'medium',
+      requestedAt: new Date(Date.now() - 7200000),
+      status: 'pending',
+    },
+    {
+      id: 3,
+      type: 'budget',
+      title: 'Q2 Marketing Budget Increase',
+      requestor: 'Sarah Chen',
+      details: '+$50,000 for campaign',
+      priority: 'medium',
+      requestedAt: new Date(Date.now() - 14400000),
+      status: 'pending',
+    },
+    {
+      id: 4,
+      type: 'vendor',
+      title: 'New Vendor: CloudTech Inc',
+      requestor: 'Mike Johnson',
+      details: 'Data analytics vendor',
+      priority: 'low',
+      requestedAt: new Date(Date.now() - 86400000),
+      status: 'approved',
+    },
+    {
+      id: 5,
+      type: 'access',
+      title: 'Admin Console Access',
+      requestor: 'Emily Davis',
+      details: 'Full admin access',
+      priority: 'high',
+      requestedAt: new Date(Date.now() - 172800000),
+      status: 'rejected',
+    },
   ];
 
-  const filteredApprovals = filter === 'all'
-    ? approvals
-    : approvals.filter(a => a.status === filter);
+  const filteredApprovals =
+    filter === 'all' ? approvals : approvals.filter((a) => a.status === filter);
 
   const typeIcons: Record<string, string> = {
     workflow: '🔄',
@@ -353,7 +447,7 @@ export const ApprovalsPage: React.FC = () => {
         </div>
         <div className="flex items-center gap-4">
           <span className="px-3 py-1 bg-warning-light text-warning-dark text-sm font-medium rounded-full">
-            {approvals.filter(a => a.status === 'pending').length} pending
+            {approvals.filter((a) => a.status === 'pending').length} pending
           </span>
         </div>
       </div>
@@ -414,11 +508,13 @@ export const ApprovalsPage: React.FC = () => {
                     </button>
                   </>
                 ) : (
-                  <span className={cn(
-                    'px-3 py-1.5 rounded-full text-sm font-medium capitalize',
-                    approval.status === 'approved' && 'bg-success-light text-success-dark',
-                    approval.status === 'rejected' && 'bg-error-light text-error-dark'
-                  )}>
+                  <span
+                    className={cn(
+                      'px-3 py-1.5 rounded-full text-sm font-medium capitalize',
+                      approval.status === 'approved' && 'bg-success-light text-success-dark',
+                      approval.status === 'rejected' && 'bg-error-light text-error-dark'
+                    )}
+                  >
                     {approval.status}
                   </span>
                 )}
@@ -445,18 +541,55 @@ interface Integration {
 }
 
 const FALLBACK_INTEGRATIONS: Integration[] = [
-  { id: 'salesforce', name: 'Salesforce', category: 'CRM', icon: '☁️', status: 'connected', lastSync: new Date(Date.now() - 300000) },
-  { id: 'hubspot', name: 'HubSpot', category: 'CRM', icon: '🧡', status: 'pending', lastSync: null },
-  { id: 'snowflake', name: 'Snowflake', category: 'Database', icon: '❄️', status: 'connected', lastSync: new Date(Date.now() - 1800000) },
-  { id: 'bigquery', name: 'BigQuery', category: 'Analytics', icon: '📦', status: 'connected', lastSync: new Date(Date.now() - 3600000) },
+  {
+    id: 'salesforce',
+    name: 'Salesforce',
+    category: 'CRM',
+    icon: '☁️',
+    status: 'connected',
+    lastSync: new Date(Date.now() - 300000),
+  },
+  {
+    id: 'hubspot',
+    name: 'HubSpot',
+    category: 'CRM',
+    icon: '🧡',
+    status: 'pending',
+    lastSync: null,
+  },
+  {
+    id: 'snowflake',
+    name: 'Snowflake',
+    category: 'Database',
+    icon: '❄️',
+    status: 'connected',
+    lastSync: new Date(Date.now() - 1800000),
+  },
+  {
+    id: 'bigquery',
+    name: 'BigQuery',
+    category: 'Analytics',
+    icon: '📦',
+    status: 'connected',
+    lastSync: new Date(Date.now() - 3600000),
+  },
   { id: 'sap', name: 'SAP', category: 'ERP', icon: '📊', status: 'syncing', lastSync: null },
 ];
 
 const getIconForType = (type: string): string => {
   const icons: Record<string, string> = {
-    SALESFORCE: '☁️', HUBSPOT: '🧡', POSTGRESQL: '🐘', MYSQL: '🐬',
-    SNOWFLAKE: '❄️', BIGQUERY: '📦', SAP: '📊', ORACLE: '🔴',
-    MONGODB: '🍃', REST_API: '🔗', GOOGLE_SHEETS: '📋', AIRTABLE: '📑',
+    SALESFORCE: '☁️',
+    HUBSPOT: '🧡',
+    POSTGRESQL: '🐘',
+    MYSQL: '🐬',
+    SNOWFLAKE: '❄️',
+    BIGQUERY: '📦',
+    SAP: '📊',
+    ORACLE: '🔴',
+    MONGODB: '🍃',
+    REST_API: '🔗',
+    GOOGLE_SHEETS: '📋',
+    AIRTABLE: '📑',
   };
   return icons[type] || '📊';
 };
@@ -491,9 +624,10 @@ export const BridgeIntegrationsPage: React.FC = () => {
     fetchDataSources();
   }, []);
 
-  const filtered = activeCategory === 'All'
-    ? integrations
-    : integrations.filter(i => i.category === activeCategory);
+  const filtered =
+    activeCategory === 'All'
+      ? integrations
+      : integrations.filter((i) => i.category === activeCategory);
 
   return (
     <div className="p-6 lg:p-8 max-w-6xl mx-auto">
@@ -540,30 +674,34 @@ export const BridgeIntegrationsPage: React.FC = () => {
                   <p className="text-sm text-neutral-500">{integration.category}</p>
                 </div>
               </div>
-              <span className={cn(
-                'w-2.5 h-2.5 rounded-full',
-                integration.status === 'connected' ? 'bg-success-main' : 'bg-neutral-300'
-              )} />
+              <span
+                className={cn(
+                  'w-2.5 h-2.5 rounded-full',
+                  integration.status === 'connected' ? 'bg-success-main' : 'bg-neutral-300'
+                )}
+              />
             </div>
-            
+
             <p className="text-sm text-neutral-400 mb-4">
-              {integration.status === 'connected' 
+              {integration.status === 'connected'
                 ? `Last sync ${formatRelativeTime(integration.lastSync!)}`
                 : 'Not connected'}
             </p>
 
-            <button className={cn(
-              'w-full py-2 rounded-lg font-medium text-sm transition-colors',
-              integration.status === 'connected'
-                ? 'border border-neutral-300 text-neutral-700 hover:bg-neutral-50'
-                : 'bg-primary-600 text-white hover:bg-primary-700'
-            )}>
+            <button
+              className={cn(
+                'w-full py-2 rounded-lg font-medium text-sm transition-colors',
+                integration.status === 'connected'
+                  ? 'border border-neutral-300 text-neutral-700 hover:bg-neutral-50'
+                  : 'bg-primary-600 text-white hover:bg-primary-700'
+              )}
+            >
               {integration.status === 'connected' ? 'Configure' : 'Connect'}
             </button>
           </div>
         ))}
       </div>
-      
+
       {/* Page Guide */}
       <PageGuide {...GUIDES.integrations} />
     </div>

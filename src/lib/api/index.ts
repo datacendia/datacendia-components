@@ -60,7 +60,9 @@ const mapGraphEntity = (raw: any): Types.GraphEntity => {
     props.id ?? raw.id ?? raw.elementId ?? `node-${Math.random().toString(36).slice(2)}`
   );
 
-  const rawType = (props.type ?? raw.type ?? (Array.isArray(raw.labels) ? raw.labels[0] : 'entity')) as string;
+  const rawType = (props.type ??
+    raw.type ??
+    (Array.isArray(raw.labels) ? raw.labels[0] : 'entity')) as string;
   const type = (rawType || 'entity').toString().toLowerCase();
 
   const name = (props.name ?? props.table ?? id ?? 'Unnamed') as string;
@@ -108,11 +110,19 @@ export const graphApi = {
     return api.delete(`/graph/entities/${id}`);
   },
 
-  async getNeighbors(id: string, params?: { direction?: 'incoming' | 'outgoing' | 'both'; depth?: number }) {
+  async getNeighbors(
+    id: string,
+    params?: { direction?: 'incoming' | 'outgoing' | 'both'; depth?: number }
+  ) {
     return api.get<Types.GraphEntity[]>(`/graph/entities/${id}/neighbors`, params);
   },
 
-  async createRelationship(data: { sourceId: string; targetId: string; type: string; properties?: Record<string, unknown> }) {
+  async createRelationship(data: {
+    sourceId: string;
+    targetId: string;
+    type: string;
+    properties?: Record<string, unknown>;
+  }) {
     return api.post<Types.GraphRelationship>('/graph/relationships', data);
   },
 
@@ -151,7 +161,10 @@ export const graphApi = {
 // LINEAGE API
 // ============================================================================
 export const lineageApi = {
-  async getLineage(entityId: string, params?: { direction?: 'upstream' | 'downstream' | 'both'; depth?: number }) {
+  async getLineage(
+    entityId: string,
+    params?: { direction?: 'upstream' | 'downstream' | 'both'; depth?: number }
+  ) {
     return api.get<Types.LineageResult>(`/lineage/${entityId}`, params);
   },
 
@@ -160,11 +173,18 @@ export const lineageApi = {
   },
 
   async getTransformations(entityId: string) {
-    return api.get<{ entityId: string; transformations: unknown[]; totalTransformations: number }>(`/lineage/${entityId}/transformations`);
+    return api.get<{ entityId: string; transformations: unknown[]; totalTransformations: number }>(
+      `/lineage/${entityId}/transformations`
+    );
   },
 
   async getQuality(entityId: string) {
-    return api.get<{ entityId: string; overallScore: number; dimensions: Record<string, number>; issues: unknown[] }>(`/lineage/${entityId}/quality`);
+    return api.get<{
+      entityId: string;
+      overallScore: number;
+      dimensions: Record<string, number>;
+      issues: unknown[];
+    }>(`/lineage/${entityId}/quality`);
   },
 };
 
@@ -232,11 +252,21 @@ export const councilApi = {
     return api.get<{ status: 'online' | 'offline' | 'busy' }>(`/council/agents/${agentId}/status`);
   },
 
-  async submitQuery(data: { query: string; agents?: string[]; context?: Record<string, unknown>; language?: string }) {
+  async submitQuery(data: {
+    query: string;
+    agents?: string[];
+    context?: Record<string, unknown>;
+    language?: string;
+  }) {
     return api.post<Types.CouncilQuery>('/council/query', data);
   },
 
-  async startDeliberation(data: { question: string; agents: string[]; config?: { maxDuration?: number; requireConsensus?: boolean }; language?: string }) {
+  async startDeliberation(data: {
+    question: string;
+    agents: string[];
+    config?: { maxDuration?: number; requireConsensus?: boolean };
+    language?: string;
+  }) {
     // Backend returns a lightweight status object; keep return type untyped for now.
     return api.post<any>('/council/deliberations', data);
   },
@@ -268,7 +298,10 @@ export const councilApi = {
     return response as any;
   },
 
-  async controlDeliberation(id: string, action: 'pause' | 'resume' | 'skip_to_synthesis' | 'cancel') {
+  async controlDeliberation(
+    id: string,
+    action: 'pause' | 'resume' | 'skip_to_synthesis' | 'cancel'
+  ) {
     return api.post(`/council/deliberations/${id}/control`, { action });
   },
 
@@ -284,14 +317,20 @@ export const councilApi = {
   },
 
   async getRecentDecisions(limit?: number) {
-    return api.get<Types.CouncilDecisionSummary[]>('/council/decisions/recent', limit ? { limit } : undefined);
+    return api.get<Types.CouncilDecisionSummary[]>(
+      '/council/decisions/recent',
+      limit ? { limit } : undefined
+    );
   },
 
-  async addUserIntervention(deliberationId: string, data: { 
-    role: { code: string; title: string; department: string; icon: string }; 
-    content: string; 
-    type: string;
-  }) {
+  async addUserIntervention(
+    deliberationId: string,
+    data: {
+      role: { code: string; title: string; department: string; icon: string };
+      content: string;
+      type: string;
+    }
+  ) {
     return api.post(`/council/deliberations/${deliberationId}/intervention`, data);
   },
 
@@ -345,7 +384,9 @@ export const metricsApi = {
   },
 
   async getKeyMetrics() {
-    return api.get<Array<Types.MetricDefinition & { currentValue: number; change: number }>>('/metrics/key');
+    return api.get<Array<Types.MetricDefinition & { currentValue: number; change: number }>>(
+      '/metrics/key'
+    );
   },
 
   async getMetric(id: string) {
@@ -356,11 +397,17 @@ export const metricsApi = {
     return api.post<Types.MetricDefinition>('/metrics', data);
   },
 
-  async calculateMetric(id: string, params?: { startDate?: string; endDate?: string; granularity?: string }) {
+  async calculateMetric(
+    id: string,
+    params?: { startDate?: string; endDate?: string; granularity?: string }
+  ) {
     return api.get<Types.MetricCalculation>(`/metrics/${id}/calculate`, params);
   },
 
-  async getMetricHistory(id: string, params?: { startDate?: string; endDate?: string; granularity?: string }) {
+  async getMetricHistory(
+    id: string,
+    params?: { startDate?: string; endDate?: string; granularity?: string }
+  ) {
     return api.get<Types.MetricValue[]>(`/metrics/${id}/history`, params);
   },
 };
@@ -378,11 +425,16 @@ export const healthApi = {
   },
 
   async getTrend(days?: number) {
-    return api.get<Array<{ date: string; score: number }>>('/health/trend', days ? { days } : undefined);
+    return api.get<Array<{ date: string; score: number }>>(
+      '/health/trend',
+      days ? { days } : undefined
+    );
   },
 
   async getSystemStatus() {
-    return api.get<Array<{ name: string; status: string; latency: string | null }>>('/health/systems/status');
+    return api.get<Array<{ name: string; status: string; latency: string | null }>>(
+      '/health/systems/status'
+    );
   },
 };
 
@@ -474,20 +526,24 @@ export const alertsApi = {
 const mapWorkflow = (w: any): Types.Workflow => {
   const trigger = (w.trigger ?? {}) as any;
   const rawTriggerType = String(trigger.type ?? 'manual').toLowerCase();
-  const triggerType = (rawTriggerType === 'schedule' || rawTriggerType === 'event' || rawTriggerType === 'webhook'
-    ? rawTriggerType
-    : 'manual') as Types.Workflow['triggerType'];
+  const triggerType = (
+    rawTriggerType === 'schedule' || rawTriggerType === 'event' || rawTriggerType === 'webhook'
+      ? rawTriggerType
+      : 'manual'
+  ) as Types.Workflow['triggerType'];
 
   const { type: _removedType, ...triggerConfig } = trigger ?? {};
 
   const rawStatus = String(w.status ?? 'DRAFT').toUpperCase();
-  const status = (rawStatus === 'ACTIVE'
-    ? 'active'
-    : rawStatus === 'PAUSED'
-      ? 'paused'
-      : rawStatus === 'ARCHIVED'
-        ? 'archived'
-        : 'draft') as Types.Workflow['status'];
+  const status = (
+    rawStatus === 'ACTIVE'
+      ? 'active'
+      : rawStatus === 'PAUSED'
+        ? 'paused'
+        : rawStatus === 'ARCHIVED'
+          ? 'archived'
+          : 'draft'
+  ) as Types.Workflow['status'];
 
   return {
     id: w.id,
@@ -534,7 +590,9 @@ const mapWorkflowExecution = (e: any): Types.WorkflowExecution => {
   const nodeStates: Types.WorkflowExecution['nodeStates'] = {};
   rawNodeStates.forEach((ns) => {
     const key = ns.node_id ?? ns.id;
-    if (!key) {return;}
+    if (!key) {
+      return;
+    }
     nodeStates[key] = {
       status: String(ns.status ?? 'COMPLETED').toLowerCase(),
       duration: ns.duration ?? undefined,
@@ -559,9 +617,15 @@ const mapWorkflowExecution = (e: any): Types.WorkflowExecution => {
 const buildWorkflowPayload = (data: Partial<Types.Workflow>): Record<string, unknown> => {
   const payload: Record<string, unknown> = {};
 
-  if (data.name !== undefined) {payload.name = data.name;}
-  if (data.description !== undefined) {payload.description = data.description;}
-  if (data.category !== undefined) {payload.category = data.category;}
+  if (data.name !== undefined) {
+    payload.name = data.name;
+  }
+  if (data.description !== undefined) {
+    payload.description = data.description;
+  }
+  if (data.category !== undefined) {
+    payload.category = data.category;
+  }
 
   if (data.triggerType !== undefined || data.triggerConfig !== undefined) {
     payload.trigger = {
@@ -667,7 +731,13 @@ export const forecastsApi = {
     return api.get<Types.Forecast>(`/predict/forecasts/${id}`);
   },
 
-  async createForecast(data: { name: string; targetMetric: string; horizon: { value: number; unit: string }; model?: string; features?: string[] }) {
+  async createForecast(data: {
+    name: string;
+    targetMetric: string;
+    horizon: { value: number; unit: string };
+    model?: string;
+    features?: string[];
+  }) {
     return api.post<Types.Forecast>('/predict/forecasts', data);
   },
 
@@ -683,8 +753,14 @@ export const forecastsApi = {
     return api.post<Types.Scenario>('/predict/scenarios', data);
   },
 
-  async compareScenarios(scenarioIds: string[], metrics: string[], timeRange?: { start: string; end: string }) {
-    return api.post<{ scenarios: Array<{ id: string; name: string; values: Record<string, number[]> }> }>('/predict/scenarios/compare', { scenarioIds, metrics, timeRange });
+  async compareScenarios(
+    scenarioIds: string[],
+    metrics: string[],
+    timeRange?: { start: string; end: string }
+  ) {
+    return api.post<{
+      scenarios: Array<{ id: string; name: string; values: Record<string, number[]> }>;
+    }>('/predict/scenarios/compare', { scenarioIds, metrics, timeRange });
   },
 };
 
@@ -730,7 +806,9 @@ export const organizationsApi = {
   },
 
   async getTeams() {
-    return api.get<Array<{ id: string; name: string; memberCount: number }>>('/organizations/current/teams');
+    return api.get<Array<{ id: string; name: string; memberCount: number }>>(
+      '/organizations/current/teams'
+    );
   },
 
   async createTeam(data: { name: string; description?: string }) {
@@ -738,7 +816,10 @@ export const organizationsApi = {
   },
 
   async getActivity(params?: { page?: number; limit?: number }) {
-    return api.get<Array<{ id: string; action: string; user: string; timestamp: string }>>('/organizations/current/activity', params);
+    return api.get<Array<{ id: string; action: string; user: string; timestamp: string }>>(
+      '/organizations/current/activity',
+      params
+    );
   },
 };
 
@@ -768,15 +849,22 @@ export const dataSourcesApi = {
 // ============================================================================
 export const integrationsApi = {
   async getIntegrations() {
-    return api.get<{ available: Types.Integration[]; connected: Types.IntegrationConnection[] }>('/integrations');
+    return api.get<{ available: Types.Integration[]; connected: Types.IntegrationConnection[] }>(
+      '/integrations'
+    );
   },
 
   async getIntegration(id: string) {
-    return api.get<Types.Integration & { configSchema: Record<string, unknown> }>(`/integrations/${id}`);
+    return api.get<Types.Integration & { configSchema: Record<string, unknown> }>(
+      `/integrations/${id}`
+    );
   },
 
   async connect(integrationId: string, data: { name: string; config: Record<string, unknown> }) {
-    return api.post<{ connectionId?: string; authUrl?: string; method?: string }>(`/integrations/${integrationId}/connect`, data);
+    return api.post<{ connectionId?: string; authUrl?: string; method?: string }>(
+      `/integrations/${integrationId}/connect`,
+      data
+    );
   },
 
   async getConnection(connectionId: string) {
@@ -784,7 +872,9 @@ export const integrationsApi = {
   },
 
   async testConnection(connectionId: string) {
-    return api.post<{ success: boolean; message: string; latency?: number }>(`/integrations/connections/${connectionId}/test`);
+    return api.post<{ success: boolean; message: string; latency?: number }>(
+      `/integrations/connections/${connectionId}/test`
+    );
   },
 
   async syncConnection(connectionId: string) {
@@ -796,7 +886,9 @@ export const integrationsApi = {
   },
 
   async getConnectionSchema(connectionId: string) {
-    return api.get<{ objects: Array<{ name: string; type: string; fields: unknown[] }> }>(`/integrations/connections/${connectionId}/schema`);
+    return api.get<{ objects: Array<{ name: string; type: string; fields: unknown[] }> }>(
+      `/integrations/connections/${connectionId}/schema`
+    );
   },
 };
 
@@ -805,7 +897,15 @@ export const integrationsApi = {
 // ============================================================================
 export const meshApi = {
   async getStats() {
-    return api.get<{ total_participants: number; active_today: number; data_points_shared: number; insights_generated: number; avg_response_ms: number; privacy_score: number; uptime_percent: number }>('/mesh/stats');
+    return api.get<{
+      total_participants: number;
+      active_today: number;
+      data_points_shared: number;
+      insights_generated: number;
+      avg_response_ms: number;
+      privacy_score: number;
+      uptime_percent: number;
+    }>('/mesh/stats');
   },
 
   async getParticipants(params?: { industry?: string; region?: string; limit?: number }) {
@@ -820,7 +920,16 @@ export const meshApi = {
     return api.get<unknown[]>('/mesh/signals', params);
   },
 
-  async createSignal(data: { title: string; description: string; category: string; severity: string; affected_industries?: string[]; affected_regions?: string[]; confidence?: number; sources?: number }) {
+  async createSignal(data: {
+    title: string;
+    description: string;
+    category: string;
+    severity: string;
+    affected_industries?: string[];
+    affected_regions?: string[];
+    confidence?: number;
+    sources?: number;
+  }) {
     return api.post<unknown>('/mesh/signals', data);
   },
 };
@@ -837,11 +946,21 @@ export const personaApi = {
     return api.get<unknown>(`/persona/twins/${id}`);
   },
 
-  async createTwin(data: { organization_id: string; name: string; role: string; department?: string; personality_config?: Record<string, unknown>; knowledge_domains?: string[] }) {
+  async createTwin(data: {
+    organization_id: string;
+    name: string;
+    role: string;
+    department?: string;
+    personality_config?: Record<string, unknown>;
+    knowledge_domains?: string[];
+  }) {
     return api.post<unknown>('/persona/twins', data);
   },
 
-  async addConversation(twinId: string, data: { user_id: string; messages: unknown[]; satisfaction?: number; duration_ms?: number }) {
+  async addConversation(
+    twinId: string,
+    data: { user_id: string; messages: unknown[]; satisfaction?: number; duration_ms?: number }
+  ) {
     return api.post<unknown>(`/persona/twins/${twinId}/conversation`, data);
   },
 };
@@ -854,7 +973,14 @@ export const autopilotApi = {
     return api.get<unknown[]>('/autopilot/rules', params);
   },
 
-  async createRule(data: { organization_id: string; name: string; trigger_type: string; trigger_config?: Record<string, unknown>; action_type: string; action_config?: Record<string, unknown> }) {
+  async createRule(data: {
+    organization_id: string;
+    name: string;
+    trigger_type: string;
+    trigger_config?: Record<string, unknown>;
+    action_type: string;
+    action_config?: Record<string, unknown>;
+  }) {
     return api.post<unknown>('/autopilot/rules', data);
   },
 
@@ -875,7 +1001,14 @@ export const governApi = {
     return api.get<unknown[]>('/govern/policies', params);
   },
 
-  async createPolicy(data: { organization_id: string; name: string; description: string; category: string; rules?: unknown[]; created_by: string }) {
+  async createPolicy(data: {
+    organization_id: string;
+    name: string;
+    description: string;
+    category: string;
+    rules?: unknown[];
+    created_by: string;
+  }) {
     return api.post<unknown>('/govern/policies', data);
   },
 
@@ -883,7 +1016,13 @@ export const governApi = {
     return api.get<unknown[]>('/govern/audits', params);
   },
 
-  async createAudit(data: { organization_id: string; policy_id?: string; audit_type: string; findings?: unknown[]; risk_score?: number }) {
+  async createAudit(data: {
+    organization_id: string;
+    policy_id?: string;
+    audit_type: string;
+    findings?: unknown[];
+    risk_score?: number;
+  }) {
     return api.post<unknown>('/govern/audits', data);
   },
 };
@@ -897,28 +1036,59 @@ export const decisionIntelApi = {
     return api.get<unknown[]>('/decision-intel/chronos/snapshots', params);
   },
 
-  async createChronosSnapshot(data: { organization_id: string; snapshot_type: string; name: string; data?: Record<string, unknown>; metrics?: Record<string, unknown>; created_by: string }) {
+  async createChronosSnapshot(data: {
+    organization_id: string;
+    snapshot_type: string;
+    name: string;
+    data?: Record<string, unknown>;
+    metrics?: Record<string, unknown>;
+    created_by: string;
+  }) {
     return api.post<unknown>('/decision-intel/chronos/snapshots', data);
   },
 
   // Chronos AI - Powered by Ollama
-  async detectPivotalMoments(data: { organization_id?: string; events: unknown[]; limit?: number; department?: string }) {
+  async detectPivotalMoments(data: {
+    organization_id?: string;
+    events: unknown[];
+    limit?: number;
+    department?: string;
+  }) {
     return api.post<unknown[]>('/decision-intel/chronos/ai/pivotal-moments', data);
   },
 
-  async analyzeCausalChain(data: { organization_id?: string; root_event: unknown; all_events: unknown[] }) {
+  async analyzeCausalChain(data: {
+    organization_id?: string;
+    root_event: unknown;
+    all_events: unknown[];
+  }) {
     return api.post<unknown[]>('/decision-intel/chronos/ai/causal-chain', data);
   },
 
-  async generateFutureScenarios(data: { organization_id?: string; current_metrics: Record<string, number>; recent_events: unknown[]; time_horizon?: string }) {
+  async generateFutureScenarios(data: {
+    organization_id?: string;
+    current_metrics: Record<string, number>;
+    recent_events: unknown[];
+    time_horizon?: string;
+  }) {
     return api.post<unknown[]>('/decision-intel/chronos/ai/future-scenarios', data);
   },
 
-  async getTimelineInsight(data: { organization_id?: string; start_date: string; end_date: string; events: unknown[]; metrics?: Record<string, number> }) {
+  async getTimelineInsight(data: {
+    organization_id?: string;
+    start_date: string;
+    end_date: string;
+    events: unknown[];
+    metrics?: Record<string, number>;
+  }) {
     return api.post<unknown>('/decision-intel/chronos/ai/timeline-insight', data);
   },
 
-  async analyzeWhatIf(data: { organization_id?: string; event: unknown; alternative_action: string }) {
+  async analyzeWhatIf(data: {
+    organization_id?: string;
+    event: unknown;
+    alternative_action: string;
+  }) {
     return api.post<unknown>('/decision-intel/chronos/ai/what-if', data);
   },
 
@@ -927,25 +1097,57 @@ export const decisionIntelApi = {
     return api.get<unknown[]>('/decision-intel/ghost-board/sessions', params);
   },
 
-  async createGhostBoardSession(data: { organization_id: string; title: string; scenario: string; board_composition?: unknown[]; created_by: string }) {
+  async createGhostBoardSession(data: {
+    organization_id: string;
+    title: string;
+    scenario: string;
+    board_composition?: unknown[];
+    created_by: string;
+  }) {
     return api.post<unknown>('/decision-intel/ghost-board/sessions', data);
   },
 
   // Pre-Mortem
-  async getPreMortemAnalyses(params?: { organization_id?: string; decision_id?: string; status?: string }) {
+  async getPreMortemAnalyses(params?: {
+    organization_id?: string;
+    decision_id?: string;
+    status?: string;
+  }) {
     return api.get<unknown[]>('/decision-intel/pre-mortem/analyses', params);
   },
 
-  async createPreMortemAnalysis(data: { organization_id: string; decision_id?: string; title: string; failure_modes?: unknown[]; risk_factors?: unknown[]; mitigations?: unknown[]; overall_risk?: number; created_by: string }) {
+  async createPreMortemAnalysis(data: {
+    organization_id: string;
+    decision_id?: string;
+    title: string;
+    failure_modes?: unknown[];
+    risk_factors?: unknown[];
+    mitigations?: unknown[];
+    overall_risk?: number;
+    created_by: string;
+  }) {
     return api.post<unknown>('/decision-intel/pre-mortem/analyses', data);
   },
 
   // Regulatory
-  async getRegulatoryItems(params?: { organization_id?: string; jurisdiction?: string; status?: string }) {
+  async getRegulatoryItems(params?: {
+    organization_id?: string;
+    jurisdiction?: string;
+    status?: string;
+  }) {
     return api.get<unknown[]>('/decision-intel/regulatory/items', params);
   },
 
-  async createRegulatoryItem(data: { organization_id: string; regulation_id: string; title: string; description: string; jurisdiction: string; category: string; impact_level?: string; required_actions?: unknown[] }) {
+  async createRegulatoryItem(data: {
+    organization_id: string;
+    regulation_id: string;
+    title: string;
+    description: string;
+    jurisdiction: string;
+    category: string;
+    impact_level?: string;
+    required_actions?: unknown[];
+  }) {
     return api.post<unknown>('/decision-intel/regulatory/items', data);
   },
 };

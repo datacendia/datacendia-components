@@ -68,11 +68,15 @@ export const ForecastDetailsPage: React.FC = () => {
       <div className="grid grid-cols-4 gap-4 mb-6">
         <div className="bg-white rounded-xl border border-neutral-200 p-5">
           <p className="text-sm text-neutral-500 mb-1">Current</p>
-          <p className="text-2xl font-bold text-neutral-900">{formatCurrency(forecast.currentValue)}</p>
+          <p className="text-2xl font-bold text-neutral-900">
+            {formatCurrency(forecast.currentValue)}
+          </p>
         </div>
         <div className="bg-white rounded-xl border border-neutral-200 p-5">
           <p className="text-sm text-neutral-500 mb-1">Predicted</p>
-          <p className="text-2xl font-bold text-success-main">{formatCurrency(forecast.predictedValue)}</p>
+          <p className="text-2xl font-bold text-success-main">
+            {formatCurrency(forecast.predictedValue)}
+          </p>
           <p className="text-sm text-success-main">↑ {forecast.change}%</p>
         </div>
         <div className="bg-white rounded-xl border border-neutral-200 p-5">
@@ -97,7 +101,9 @@ export const ForecastDetailsPage: React.FC = () => {
                   onClick={() => setTimeRange(range)}
                   className={cn(
                     'px-3 py-1 rounded text-sm transition-colors',
-                    timeRange === range ? 'bg-neutral-900 text-white' : 'text-neutral-600 hover:bg-neutral-100'
+                    timeRange === range
+                      ? 'bg-neutral-900 text-white'
+                      : 'text-neutral-600 hover:bg-neutral-100'
                   )}
                 >
                   {range}
@@ -117,19 +123,24 @@ export const ForecastDetailsPage: React.FC = () => {
             {forecast.factors.map((factor) => (
               <div key={factor.name} className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <span className={cn(
-                    'w-2 h-2 rounded-full',
-                    factor.impact === 'positive' && 'bg-success-main',
-                    factor.impact === 'negative' && 'bg-error-main',
-                    factor.impact === 'neutral' && 'bg-warning-main'
-                  )} />
+                  <span
+                    className={cn(
+                      'w-2 h-2 rounded-full',
+                      factor.impact === 'positive' && 'bg-success-main',
+                      factor.impact === 'negative' && 'bg-error-main',
+                      factor.impact === 'neutral' && 'bg-warning-main'
+                    )}
+                  />
                   <span className="text-sm text-neutral-600">{factor.name}</span>
                 </div>
-                <span className={cn(
-                  'text-sm font-medium',
-                  factor.contribution > 0 ? 'text-success-main' : 'text-error-main'
-                )}>
-                  {factor.contribution > 0 ? '+' : ''}{factor.contribution}%
+                <span
+                  className={cn(
+                    'text-sm font-medium',
+                    factor.contribution > 0 ? 'text-success-main' : 'text-error-main'
+                  )}
+                >
+                  {factor.contribution > 0 ? '+' : ''}
+                  {factor.contribution}%
                 </span>
               </div>
             ))}
@@ -146,11 +157,15 @@ export const ForecastDetailsPage: React.FC = () => {
               key={scenario.name}
               className={cn(
                 'p-4 rounded-lg border-2',
-                scenario.name === 'Base Case' ? 'border-primary-500 bg-primary-50' : 'border-neutral-200'
+                scenario.name === 'Base Case'
+                  ? 'border-primary-500 bg-primary-50'
+                  : 'border-neutral-200'
               )}
             >
               <p className="text-sm text-neutral-500">{scenario.name}</p>
-              <p className="text-2xl font-bold text-neutral-900">{formatCurrency(scenario.value)}</p>
+              <p className="text-2xl font-bold text-neutral-900">
+                {formatCurrency(scenario.value)}
+              </p>
               <p className="text-sm text-neutral-500">{scenario.probability}% probability</p>
             </div>
           ))}
@@ -208,10 +223,14 @@ export const ScenarioDetailsPage: React.FC = () => {
           </button>
           <div className="flex items-center gap-3">
             <h1 className="text-2xl font-bold text-neutral-900">{scenario.name}</h1>
-            <span className={cn(
-              'px-2 py-1 rounded-full text-xs font-medium capitalize',
-              scenario.status === 'active' ? 'bg-success-light text-success-dark' : 'bg-neutral-100 text-neutral-600'
-            )}>
+            <span
+              className={cn(
+                'px-2 py-1 rounded-full text-xs font-medium capitalize',
+                scenario.status === 'active'
+                  ? 'bg-success-light text-success-dark'
+                  : 'bg-neutral-100 text-neutral-600'
+              )}
+            >
               {scenario.status}
             </span>
           </div>
@@ -236,7 +255,10 @@ export const ScenarioDetailsPage: React.FC = () => {
           <h2 className="text-lg font-semibold text-neutral-900 mb-4">Assumptions</h2>
           <div className="space-y-3">
             {scenario.assumptions.map((assumption) => (
-              <div key={assumption.name} className="flex items-center justify-between py-2 border-b border-neutral-100 last:border-0">
+              <div
+                key={assumption.name}
+                className="flex items-center justify-between py-2 border-b border-neutral-100 last:border-0"
+              >
                 <div>
                   <p className="text-sm font-medium text-neutral-900">{assumption.name}</p>
                   <span className="text-xs text-neutral-400 capitalize">{assumption.type}</span>
@@ -271,11 +293,14 @@ export const ScenarioDetailsPage: React.FC = () => {
                     {metric.unit ? formatNumber(metric.scenario) : formatCurrency(metric.scenario)}
                     {metric.unit && ` ${metric.unit}`}
                   </td>
-                  <td className={cn(
-                    'py-3 text-right font-medium',
-                    metric.change > 0 ? 'text-success-main' : 'text-error-main'
-                  )}>
-                    {metric.change > 0 ? '+' : ''}{metric.change}%
+                  <td
+                    className={cn(
+                      'py-3 text-right font-medium',
+                      metric.change > 0 ? 'text-success-main' : 'text-error-main'
+                    )}
+                  >
+                    {metric.change > 0 ? '+' : ''}
+                    {metric.change}%
                   </td>
                 </tr>
               ))}
@@ -307,11 +332,13 @@ export const ScenarioBuilderPage: React.FC = () => {
   const [scenario, setScenario] = useState({
     name: isNew ? '' : 'European Market Expansion',
     description: isNew ? '' : 'Scenario modeling the impact of launching in the European market',
-    assumptions: isNew ? [] : [
-      { id: '1', name: 'Initial Investment', value: '15000000', unit: '$' },
-      { id: '2', name: 'Time to Market', value: '6', unit: 'months' },
-      { id: '3', name: 'Hiring Target', value: '20', unit: 'employees' },
-    ],
+    assumptions: isNew
+      ? []
+      : [
+          { id: '1', name: 'Initial Investment', value: '15000000', unit: '$' },
+          { id: '2', name: 'Time to Market', value: '6', unit: 'months' },
+          { id: '3', name: 'Hiring Target', value: '20', unit: 'employees' },
+        ],
     metrics: ['revenue', 'costs', 'ebitda', 'runway'],
   });
 
@@ -321,7 +348,7 @@ export const ScenarioBuilderPage: React.FC = () => {
     if (newAssumption.name && newAssumption.value) {
       setScenario({
         ...scenario,
-        assumptions: [...scenario.assumptions, { ...newAssumption, id: Date.now().toString() }]
+        assumptions: [...scenario.assumptions, { ...newAssumption, id: Date.now().toString() }],
       });
       setNewAssumption({ name: '', value: '', unit: '' });
     }
@@ -393,20 +420,27 @@ export const ScenarioBuilderPage: React.FC = () => {
       {/* Assumptions */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h2 className="text-lg font-semibold text-neutral-900 mb-4">Assumptions</h2>
-        
+
         {/* Existing Assumptions */}
         <div className="space-y-3 mb-4">
           {scenario.assumptions.map((assumption) => (
-            <div key={assumption.id} className="flex items-center gap-4 p-3 bg-neutral-50 rounded-lg">
+            <div
+              key={assumption.id}
+              className="flex items-center gap-4 p-3 bg-neutral-50 rounded-lg"
+            >
               <span className="flex-1 font-medium text-neutral-900">{assumption.name}</span>
               <span className="text-neutral-600">
-                {assumption.unit === '$' && '$'}{assumption.value}{assumption.unit !== '$' && ` ${assumption.unit}`}
+                {assumption.unit === '$' && '$'}
+                {assumption.value}
+                {assumption.unit !== '$' && ` ${assumption.unit}`}
               </span>
               <button
-                onClick={() => setScenario({
-                  ...scenario,
-                  assumptions: scenario.assumptions.filter(a => a.id !== assumption.id)
-                })}
+                onClick={() =>
+                  setScenario({
+                    ...scenario,
+                    assumptions: scenario.assumptions.filter((a) => a.id !== assumption.id),
+                  })
+                }
                 className="text-neutral-400 hover:text-error-main"
               >
                 ✕
@@ -456,7 +490,7 @@ export const ScenarioBuilderPage: React.FC = () => {
               key={metric.id}
               onClick={() => {
                 const newMetrics = scenario.metrics.includes(metric.id)
-                  ? scenario.metrics.filter(m => m !== metric.id)
+                  ? scenario.metrics.filter((m) => m !== metric.id)
                   : [...scenario.metrics, metric.id];
                 setScenario({ ...scenario, metrics: newMetrics });
               }}

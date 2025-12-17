@@ -10,8 +10,21 @@ import { cn } from '../../../lib/utils';
 // TYPES
 // =============================================================================
 
-type ClaimStatus = 'verified' | 'partially_verified' | 'unverified' | 'disputed' | 'assumption' | 'requires_human';
-type ActionCategory = 'immediate' | 'analyze' | 'iterate' | 'govern' | 'communicate' | 'monitor' | 'automate';
+type ClaimStatus =
+  | 'verified'
+  | 'partially_verified'
+  | 'unverified'
+  | 'disputed'
+  | 'assumption'
+  | 'requires_human';
+type ActionCategory =
+  | 'immediate'
+  | 'analyze'
+  | 'iterate'
+  | 'govern'
+  | 'communicate'
+  | 'monitor'
+  | 'automate';
 type ActionPriority = 'critical' | 'high' | 'medium' | 'low';
 
 interface Claim {
@@ -49,7 +62,10 @@ interface StatementOfFacts {
   verificationScore: number;
   claims: Claim[];
   keyAssumptions: string[];
-  claimsByAgent: Record<string, { agentName: string; totalClaims: number; verified: number; confidence: number }>;
+  claimsByAgent: Record<
+    string,
+    { agentName: string; totalClaims: number; verified: number; confidence: number }
+  >;
 }
 
 interface PostDeliberationAction {
@@ -110,11 +126,23 @@ const claimStatusConfig: Record<ClaimStatus, { icon: string; color: string; labe
 };
 
 const categoryConfig: Record<ActionCategory, { icon: string; color: string; label: string }> = {
-  immediate: { icon: '⚡', color: 'bg-green-500/20 border-green-500/30', label: 'Immediate Actions' },
+  immediate: {
+    icon: '⚡',
+    color: 'bg-green-500/20 border-green-500/30',
+    label: 'Immediate Actions',
+  },
   analyze: { icon: '🔬', color: 'bg-blue-500/20 border-blue-500/30', label: 'Analyze Further' },
-  iterate: { icon: '🔄', color: 'bg-purple-500/20 border-purple-500/30', label: 'Iterate & Refine' },
+  iterate: {
+    icon: '🔄',
+    color: 'bg-purple-500/20 border-purple-500/30',
+    label: 'Iterate & Refine',
+  },
   govern: { icon: '⚖️', color: 'bg-orange-500/20 border-orange-500/30', label: 'Govern & Comply' },
-  communicate: { icon: '📢', color: 'bg-cyan-500/20 border-cyan-500/30', label: 'Communicate & Share' },
+  communicate: {
+    icon: '📢',
+    color: 'bg-cyan-500/20 border-cyan-500/30',
+    label: 'Communicate & Share',
+  },
   monitor: { icon: '📊', color: 'bg-indigo-500/20 border-indigo-500/30', label: 'Monitor & Track' },
   automate: { icon: '🤖', color: 'bg-pink-500/20 border-pink-500/30', label: 'Automate' },
 };
@@ -139,7 +167,9 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
   const [session, setSession] = useState<PostDeliberationSession | null>(null);
   const [loading, setLoading] = useState(true);
   const [executing, setExecuting] = useState(false);
-  const [activeTab, setActiveTab] = useState<'summary' | 'facts' | 'actions' | 'outputs'>('summary');
+  const [activeTab, setActiveTab] = useState<'summary' | 'facts' | 'actions' | 'outputs'>(
+    'summary'
+  );
   const [selectedActions, setSelectedActions] = useState<Set<string>>(new Set());
   const [priorities, setPriorities] = useState<Record<string, ActionPriority>>({});
   const [expandedClaim, setExpandedClaim] = useState<string | null>(null);
@@ -159,8 +189,10 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ deliberationId }),
       });
-      
-      if (!res.ok) {throw new Error('Failed to create session');}
+
+      if (!res.ok) {
+        throw new Error('Failed to create session');
+      }
       const data = await res.json();
       setSession(data);
     } catch (err) {
@@ -171,7 +203,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
   };
 
   const toggleAction = (actionId: string) => {
-    setSelectedActions(prev => {
+    setSelectedActions((prev) => {
       const next = new Set(prev);
       if (next.has(actionId)) {
         next.delete(actionId);
@@ -183,11 +215,13 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
   };
 
   const setPriority = (actionId: string, priority: ActionPriority) => {
-    setPriorities(prev => ({ ...prev, [actionId]: priority }));
+    setPriorities((prev) => ({ ...prev, [actionId]: priority }));
   };
 
   const executeActions = async () => {
-    if (!session || selectedActions.size === 0) {return;}
+    if (!session || selectedActions.size === 0) {
+      return;
+    }
 
     try {
       setExecuting(true);
@@ -201,13 +235,15 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
         }),
       });
 
-      if (!res.ok) {throw new Error('Failed to execute actions');}
+      if (!res.ok) {
+        throw new Error('Failed to execute actions');
+      }
       const result = await res.json();
-      
+
       setSession(result);
       setOutputs(result.generatedOutputs || []);
       setActiveTab('outputs');
-      
+
       if (onActionComplete) {
         onActionComplete(result.generatedOutputs || []);
       }
@@ -272,7 +308,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
 
       {/* Tabs */}
       <div className="flex border-b border-neutral-700">
-        {(['summary', 'facts', 'actions', 'outputs'] as const).map(tab => (
+        {(['summary', 'facts', 'actions', 'outputs'] as const).map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
@@ -382,23 +418,33 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                 <p className="text-xs text-neutral-400">Total Claims</p>
               </div>
               <div className="bg-green-500/10 rounded-lg p-4 border border-green-500/30 text-center">
-                <p className="text-2xl font-bold text-green-400">{statementOfFacts.verifiedClaims}</p>
+                <p className="text-2xl font-bold text-green-400">
+                  {statementOfFacts.verifiedClaims}
+                </p>
                 <p className="text-xs text-neutral-400">Verified</p>
               </div>
               <div className="bg-yellow-500/10 rounded-lg p-4 border border-yellow-500/30 text-center">
-                <p className="text-2xl font-bold text-yellow-400">{statementOfFacts.partiallyVerified}</p>
+                <p className="text-2xl font-bold text-yellow-400">
+                  {statementOfFacts.partiallyVerified}
+                </p>
                 <p className="text-xs text-neutral-400">Partial</p>
               </div>
               <div className="bg-neutral-700/50 rounded-lg p-4 border border-neutral-600 text-center">
-                <p className="text-2xl font-bold text-neutral-400">{statementOfFacts.unverifiedClaims}</p>
+                <p className="text-2xl font-bold text-neutral-400">
+                  {statementOfFacts.unverifiedClaims}
+                </p>
                 <p className="text-xs text-neutral-400">Unverified</p>
               </div>
               <div className="bg-neutral-800 rounded-lg p-4 border border-neutral-700 text-center">
-                <p className="text-2xl font-bold text-white">{statementOfFacts.overallConfidence}%</p>
+                <p className="text-2xl font-bold text-white">
+                  {statementOfFacts.overallConfidence}%
+                </p>
                 <p className="text-xs text-neutral-400">Confidence</p>
               </div>
               <div className="bg-primary-500/10 rounded-lg p-4 border border-primary-500/30 text-center">
-                <p className="text-2xl font-bold text-primary-400">{statementOfFacts.verificationScore}%</p>
+                <p className="text-2xl font-bold text-primary-400">
+                  {statementOfFacts.verificationScore}%
+                </p>
                 <p className="text-xs text-neutral-400">Verified %</p>
               </div>
             </div>
@@ -444,8 +490,10 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
 
             {/* All Claims */}
             <div className="space-y-3">
-              <h4 className="font-semibold text-white">All Claims ({statementOfFacts.claims.length})</h4>
-              {statementOfFacts.claims.map(claim => {
+              <h4 className="font-semibold text-white">
+                All Claims ({statementOfFacts.claims.length})
+              </h4>
+              {statementOfFacts.claims.map((claim) => {
                 const statusCfg = claimStatusConfig[claim.status];
                 const isExpanded = expandedClaim === claim.id;
 
@@ -472,7 +520,9 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                       </div>
                       <div className="flex items-center gap-3">
                         <div className="w-16 text-right">
-                          <span className="text-sm font-medium text-white">{claim.confidence}%</span>
+                          <span className="text-sm font-medium text-white">
+                            {claim.confidence}%
+                          </span>
                         </div>
                         <span className="text-neutral-400">{isExpanded ? '▲' : '▼'}</span>
                       </div>
@@ -482,15 +532,19 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                     {isExpanded && claim.evidence.length > 0 && (
                       <div className="border-t border-neutral-700 p-4 bg-neutral-900/50">
                         <p className="text-xs font-medium text-neutral-400 mb-3">Evidence Chain:</p>
-                        {claim.evidence.map(ev => (
+                        {claim.evidence.map((ev) => (
                           <div key={ev.id} className="mb-3 last:mb-0">
                             <div className="flex items-start gap-3">
-                              <span className={cn(
-                                'px-2 py-0.5 rounded text-xs font-medium',
-                                ev.strength === 'strong' ? 'bg-green-500/20 text-green-400' :
-                                ev.strength === 'moderate' ? 'bg-yellow-500/20 text-yellow-400' :
-                                'bg-neutral-500/20 text-neutral-400'
-                              )}>
+                              <span
+                                className={cn(
+                                  'px-2 py-0.5 rounded text-xs font-medium',
+                                  ev.strength === 'strong'
+                                    ? 'bg-green-500/20 text-green-400'
+                                    : ev.strength === 'moderate'
+                                      ? 'bg-yellow-500/20 text-yellow-400'
+                                      : 'bg-neutral-500/20 text-neutral-400'
+                                )}
+                              >
                                 {ev.strength}
                               </span>
                               <div className="flex-1">
@@ -500,7 +554,9 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                                 </p>
                                 {ev.calculation && (
                                   <div className="mt-2 p-3 bg-neutral-800 rounded-lg text-xs font-mono">
-                                    <p className="text-primary-400 mb-1">Formula: {ev.calculation.formula}</p>
+                                    <p className="text-primary-400 mb-1">
+                                      Formula: {ev.calculation.formula}
+                                    </p>
                                     <p className="text-neutral-400">
                                       Inputs: {JSON.stringify(ev.calculation.inputs)}
                                     </p>
@@ -546,15 +602,19 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                       : 'bg-primary-600 hover:bg-primary-700 text-white'
                   )}
                 >
-                  {executing ? 'Executing...' : `Execute ${selectedActions.size} Action${selectedActions.size > 1 ? 's' : ''}`}
+                  {executing
+                    ? 'Executing...'
+                    : `Execute ${selectedActions.size} Action${selectedActions.size > 1 ? 's' : ''}`}
                 </button>
               </div>
             )}
 
             {/* Actions by Category */}
-            {(Object.keys(categoryConfig) as ActionCategory[]).map(category => {
-              const categoryActions = availableActions.filter(a => a.category === category);
-              if (categoryActions.length === 0) {return null;}
+            {(Object.keys(categoryConfig) as ActionCategory[]).map((category) => {
+              const categoryActions = availableActions.filter((a) => a.category === category);
+              if (categoryActions.length === 0) {
+                return null;
+              }
 
               const cfg = categoryConfig[category];
 
@@ -565,7 +625,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                     {cfg.label}
                   </h4>
                   <div className="grid grid-cols-2 gap-3">
-                    {categoryActions.map(action => {
+                    {categoryActions.map((action) => {
                       const isSelected = selectedActions.has(action.id);
                       const isUpgradeRequired = action.status === 'requires_upgrade';
 
@@ -575,7 +635,9 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                           className={cn(
                             'bg-neutral-800/80 rounded-lg p-4 border transition-all cursor-pointer',
                             isUpgradeRequired && 'opacity-50 cursor-not-allowed',
-                            isSelected ? 'border-primary-500 ring-2 ring-primary-500/30' : 'border-neutral-700 hover:border-neutral-500'
+                            isSelected
+                              ? 'border-primary-500 ring-2 ring-primary-500/30'
+                              : 'border-neutral-700 hover:border-neutral-500'
                           )}
                           onClick={() => !isUpgradeRequired && toggleAction(action.id)}
                         >
@@ -584,9 +646,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                             <div className="flex-1 min-w-0">
                               <div className="flex items-center gap-2">
                                 <p className="font-medium text-white">{action.name}</p>
-                                {isSelected && (
-                                  <span className="text-primary-400">✓</span>
-                                )}
+                                {isSelected && <span className="text-primary-400">✓</span>}
                               </div>
                               <p className="text-sm text-neutral-400 mt-1">{action.description}</p>
                               <div className="flex gap-2 mt-2">
@@ -608,21 +668,26 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                               </div>
                               {/* Priority selector (when selected) */}
                               {isSelected && (
-                                <div className="flex gap-1 mt-3" onClick={e => e.stopPropagation()}>
-                                  {(['critical', 'high', 'medium', 'low'] as ActionPriority[]).map(p => (
-                                    <button
-                                      key={p}
-                                      onClick={() => setPriority(action.id, p)}
-                                      className={cn(
-                                        'px-2 py-1 text-xs rounded transition-colors',
-                                        priorities[action.id] === p
-                                          ? `${priorityConfig[p].color} text-white`
-                                          : 'bg-neutral-700 text-neutral-400 hover:text-white'
-                                      )}
-                                    >
-                                      {priorityConfig[p].label}
-                                    </button>
-                                  ))}
+                                <div
+                                  className="flex gap-1 mt-3"
+                                  onClick={(e) => e.stopPropagation()}
+                                >
+                                  {(['critical', 'high', 'medium', 'low'] as ActionPriority[]).map(
+                                    (p) => (
+                                      <button
+                                        key={p}
+                                        onClick={() => setPriority(action.id, p)}
+                                        className={cn(
+                                          'px-2 py-1 text-xs rounded transition-colors',
+                                          priorities[action.id] === p
+                                            ? `${priorityConfig[p].color} text-white`
+                                            : 'bg-neutral-700 text-neutral-400 hover:text-white'
+                                        )}
+                                      >
+                                        {priorityConfig[p].label}
+                                      </button>
+                                    )
+                                  )}
                                 </div>
                               )}
                             </div>
@@ -651,11 +716,17 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                 <div key={i} className="bg-neutral-800 rounded-xl p-4 border border-neutral-700">
                   <div className="flex items-center gap-3 mb-3">
                     <span className="text-xl">
-                      {output.type === 'report' ? '📄' :
-                       output.type === 'simulation' ? '🔬' :
-                       output.type === 'task' ? '📋' :
-                       output.type === 'alert' ? '🔔' :
-                       output.type === 'data' ? '📊' : '📦'}
+                      {output.type === 'report'
+                        ? '📄'
+                        : output.type === 'simulation'
+                          ? '🔬'
+                          : output.type === 'task'
+                            ? '📋'
+                            : output.type === 'alert'
+                              ? '🔔'
+                              : output.type === 'data'
+                                ? '📊'
+                                : '📦'}
                     </span>
                     <div>
                       <p className="font-medium text-white">{output.name}</p>
@@ -667,7 +738,11 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
                   </div>
                   {output.data && (
                     <div className="bg-neutral-900 rounded-lg p-3 text-sm font-mono text-neutral-300 overflow-x-auto">
-                      <pre>{typeof output.data === 'string' ? output.data.substring(0, 500) : JSON.stringify(output.data, null, 2)}</pre>
+                      <pre>
+                        {typeof output.data === 'string'
+                          ? output.data.substring(0, 500)
+                          : JSON.stringify(output.data, null, 2)}
+                      </pre>
                     </div>
                   )}
                 </div>
@@ -679,9 +754,7 @@ export const PostDeliberationPanel: React.FC<PostDeliberationPanelProps> = ({
 
       {/* Footer */}
       <div className="border-t border-neutral-700 p-4 bg-neutral-800/50 flex justify-between items-center">
-        <p className="text-sm text-neutral-400">
-          Session: {session.id.substring(0, 12)}...
-        </p>
+        <p className="text-sm text-neutral-400">Session: {session.id.substring(0, 12)}...</p>
         <div className="flex gap-3">
           {activeTab !== 'actions' && (
             <button

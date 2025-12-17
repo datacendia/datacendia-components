@@ -2,13 +2,19 @@
 // CENDIA PERSONAFORGE™ - ENTERPRISE-TRAINED DIGITAL TWINS
 // AI Agents Trained on Your Organization's DNA
 // "Your Digital C-Suite That Never Sleeps"
-// 
+//
 // REAL OLLAMA LLM INTEGRATION - Enterprise Platinum Ready
 // =============================================================================
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { personaForgeService, ROLE_CONFIG, DigitalPersona, PersonaRole, ChatMessage } from '../../../services/PersonaForgeService';
+import {
+  personaForgeService,
+  ROLE_CONFIG,
+  DigitalPersona,
+  PersonaRole,
+  ChatMessage,
+} from '../../../services/PersonaForgeService';
 import { ollamaService } from '../../../lib/ollama';
 
 // =============================================================================
@@ -38,7 +44,12 @@ const AGENT_PACKS: AgentPack[] = [
     description: 'Essential C-suite digital twins for core business functions',
     personas: ['cfo', 'cio', 'clo'],
     price: 75000,
-    features: ['3 Digital Executives', 'Basic Training', 'Email & Document Integration', 'Standard Support'],
+    features: [
+      '3 Digital Executives',
+      'Basic Training',
+      'Email & Document Integration',
+      'Standard Support',
+    ],
     industries: ['All Industries'],
     deploymentTime: '4-6 weeks',
     supportLevel: 'standard',
@@ -49,7 +60,14 @@ const AGENT_PACKS: AgentPack[] = [
     description: 'Complete digital C-suite for enterprise-grade decision support',
     personas: ['cfo', 'cio', 'clo', 'chro', 'coo', 'ciso'],
     price: 150000,
-    features: ['6 Digital Executives', 'Advanced Training', 'Full System Integration', 'Custom Specializations', 'Premium Support', 'Quarterly Updates'],
+    features: [
+      '6 Digital Executives',
+      'Advanced Training',
+      'Full System Integration',
+      'Custom Specializations',
+      'Premium Support',
+      'Quarterly Updates',
+    ],
     industries: ['All Industries'],
     deploymentTime: '8-12 weeks',
     supportLevel: 'premium',
@@ -60,7 +78,13 @@ const AGENT_PACKS: AgentPack[] = [
     description: 'Specialized financial decision support agents',
     personas: ['cfo', 'cro'],
     price: 100000,
-    features: ['2 Finance Executives', 'SOX Compliance Training', 'ERP Deep Integration', 'Financial Modeling', 'Audit Support'],
+    features: [
+      '2 Finance Executives',
+      'SOX Compliance Training',
+      'ERP Deep Integration',
+      'Financial Modeling',
+      'Audit Support',
+    ],
     industries: ['Banking', 'Insurance', 'Investment', 'Corporate Finance'],
     deploymentTime: '6-8 weeks',
     supportLevel: 'premium',
@@ -71,7 +95,13 @@ const AGENT_PACKS: AgentPack[] = [
     description: 'Digital technology executives for IT transformation',
     personas: ['cio', 'ciso', 'cpo'],
     price: 125000,
-    features: ['3 Tech Executives', 'Security Focus', 'DevOps Integration', 'Cloud Architecture', 'Vendor Management'],
+    features: [
+      '3 Tech Executives',
+      'Security Focus',
+      'DevOps Integration',
+      'Cloud Architecture',
+      'Vendor Management',
+    ],
     industries: ['Technology', 'SaaS', 'FinTech', 'Healthcare IT'],
     deploymentTime: '6-10 weeks',
     supportLevel: 'premium',
@@ -86,11 +116,16 @@ export const PersonaForgePage: React.FC = () => {
   const navigate = useNavigate();
   const [personas, setPersonas] = useState<DigitalPersona[]>([]);
   const [selectedPersona, setSelectedPersona] = useState<DigitalPersona | null>(null);
-  const [activeTab, setActiveTab] = useState<'gallery' | 'training' | 'interact' | 'marketplace'>('gallery');
+  const [activeTab, setActiveTab] = useState<'gallery' | 'training' | 'interact' | 'marketplace'>(
+    'gallery'
+  );
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
   const [inputMessage, setInputMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [ollamaStatus, setOllamaStatus] = useState<{ available: boolean; models: string[] }>({ available: false, models: [] });
+  const [ollamaStatus, setOllamaStatus] = useState<{ available: boolean; models: string[] }>({
+    available: false,
+    models: [],
+  });
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [newPersonaRole, setNewPersonaRole] = useState<PersonaRole>('custom');
   const [newPersonaName, setNewPersonaName] = useState('');
@@ -102,17 +137,17 @@ export const PersonaForgePage: React.FC = () => {
       setPersonas(personaForgeService.getPersonas());
     };
     loadPersonas();
-    
+
     // Check Ollama status
     const status = ollamaService.getStatus();
     setOllamaStatus(status);
-    
+
     // Refresh periodically
     const interval = setInterval(() => {
       loadPersonas();
       setOllamaStatus(ollamaService.getStatus());
     }, 5000);
-    
+
     return () => clearInterval(interval);
   }, []);
 
@@ -123,17 +158,19 @@ export const PersonaForgePage: React.FC = () => {
     }
   }, [chatMessages]);
 
-  const readyPersonas = personas.filter(p => p.status === 'ready');
-  const trainingPersonas = personas.filter(p => p.status !== 'ready');
+  const readyPersonas = personas.filter((p) => p.status === 'ready');
+  const trainingPersonas = personas.filter((p) => p.status !== 'ready');
 
   // Real Ollama-powered chat
   const handleSendMessage = useCallback(async () => {
-    if (!inputMessage.trim() || !selectedPersona || isLoading) {return;}
-    
+    if (!inputMessage.trim() || !selectedPersona || isLoading) {
+      return;
+    }
+
     const userMessage = inputMessage.trim();
     setInputMessage('');
     setIsLoading(true);
-    
+
     // Add user message
     const userMsg: ChatMessage = {
       id: `msg-${Date.now()}-user`,
@@ -141,18 +178,21 @@ export const PersonaForgePage: React.FC = () => {
       content: userMessage,
       timestamp: new Date(),
     };
-    setChatMessages(prev => [...prev, userMsg]);
-    
+    setChatMessages((prev) => [...prev, userMsg]);
+
     // Add placeholder for assistant
     const assistantMsgId = `msg-${Date.now()}-assistant`;
-    setChatMessages(prev => [...prev, {
-      id: assistantMsgId,
-      role: 'assistant',
-      content: '',
-      timestamp: new Date(),
-      isStreaming: true,
-    }]);
-    
+    setChatMessages((prev) => [
+      ...prev,
+      {
+        id: assistantMsgId,
+        role: 'assistant',
+        content: '',
+        timestamp: new Date(),
+        isStreaming: true,
+      },
+    ]);
+
     try {
       // Use the service to chat with real Ollama
       const { response } = await personaForgeService.chat(
@@ -160,30 +200,36 @@ export const PersonaForgePage: React.FC = () => {
         userMessage,
         (token) => {
           // Stream tokens in real-time
-          setChatMessages(prev => prev.map(msg => 
-            msg.id === assistantMsgId 
-              ? { ...msg, content: msg.content + token }
-              : msg
-          ));
+          setChatMessages((prev) =>
+            prev.map((msg) =>
+              msg.id === assistantMsgId ? { ...msg, content: msg.content + token } : msg
+            )
+          );
         }
       );
-      
+
       // Mark streaming complete
-      setChatMessages(prev => prev.map(msg => 
-        msg.id === assistantMsgId 
-          ? { ...msg, isStreaming: false, content: response }
-          : msg
-      ));
-      
+      setChatMessages((prev) =>
+        prev.map((msg) =>
+          msg.id === assistantMsgId ? { ...msg, isStreaming: false, content: response } : msg
+        )
+      );
+
       // Refresh personas to get updated interaction counts
       setPersonas(personaForgeService.getPersonas());
     } catch (error) {
       console.error('Chat error:', error);
-      setChatMessages(prev => prev.map(msg => 
-        msg.id === assistantMsgId 
-          ? { ...msg, isStreaming: false, content: `Error: ${error instanceof Error ? error.message : 'Failed to get response'}. Please ensure Ollama is running.` }
-          : msg
-      ));
+      setChatMessages((prev) =>
+        prev.map((msg) =>
+          msg.id === assistantMsgId
+            ? {
+                ...msg,
+                isStreaming: false,
+                content: `Error: ${error instanceof Error ? error.message : 'Failed to get response'}. Please ensure Ollama is running.`,
+              }
+            : msg
+        )
+      );
     } finally {
       setIsLoading(false);
     }
@@ -191,14 +237,16 @@ export const PersonaForgePage: React.FC = () => {
 
   // Create new persona
   const handleCreatePersona = () => {
-    if (!newPersonaName.trim()) {return;}
-    
+    if (!newPersonaName.trim()) {
+      return;
+    }
+
     const persona = personaForgeService.createPersona({
       role: newPersonaRole,
       name: newPersonaName,
       status: 'not_started',
     });
-    
+
     setPersonas(personaForgeService.getPersonas());
     setShowCreateModal(false);
     setNewPersonaName('');
@@ -235,10 +283,12 @@ export const PersonaForgePage: React.FC = () => {
                     ENTERPRISE
                   </span>
                 </h1>
-                <p className="text-purple-300 text-sm">Enterprise-Trained Digital Twins • Your AI C-Suite</p>
+                <p className="text-purple-300 text-sm">
+                  Enterprise-Trained Digital Twins • Your AI C-Suite
+                </p>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-4">
               <div className="text-right">
                 <div className="text-sm text-white/60">Active Personas</div>
@@ -264,7 +314,7 @@ export const PersonaForgePage: React.FC = () => {
               { id: 'training', label: 'Training Studio', icon: '🏋️' },
               { id: 'interact', label: 'Interact', icon: '💬' },
               { id: 'marketplace', label: 'Agent Packs', icon: '🛒' },
-            ].map(tab => (
+            ].map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
@@ -285,7 +335,7 @@ export const PersonaForgePage: React.FC = () => {
       <main className="max-w-7xl mx-auto px-6 py-6">
         {activeTab === 'gallery' && (
           <div className="grid grid-cols-3 gap-6">
-            {personas.map(persona => {
+            {personas.map((persona) => {
               const config = ROLE_CONFIG[persona.role];
               return (
                 <div
@@ -298,19 +348,26 @@ export const PersonaForgePage: React.FC = () => {
                   }`}
                 >
                   <div className="flex items-center gap-4 mb-4">
-                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${config.color} flex items-center justify-center text-3xl`}>
+                    <div
+                      className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${config.color} flex items-center justify-center text-3xl`}
+                    >
                       {config.icon}
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold">{persona.name}</h3>
                       <div className="text-sm text-white/50">{persona.title}</div>
                       <div className="flex items-center gap-2 mt-1">
-                        <span className={`text-xs px-2 py-0.5 rounded ${
-                          persona.status === 'ready' ? 'bg-green-600' :
-                          persona.status === 'training' ? 'bg-blue-600' :
-                          persona.status === 'validating' ? 'bg-amber-600' :
-                          'bg-neutral-600'
-                        }`}>
+                        <span
+                          className={`text-xs px-2 py-0.5 rounded ${
+                            persona.status === 'ready'
+                              ? 'bg-green-600'
+                              : persona.status === 'training'
+                                ? 'bg-blue-600'
+                                : persona.status === 'validating'
+                                  ? 'bg-amber-600'
+                                  : 'bg-neutral-600'
+                          }`}
+                        >
                           {persona.status}
                         </span>
                         <span className="text-xs text-white/40">v{persona.version}</span>
@@ -335,7 +392,9 @@ export const PersonaForgePage: React.FC = () => {
 
                   <div className="grid grid-cols-2 gap-3 mb-4">
                     <div className="text-center p-2 bg-black/20 rounded-lg">
-                      <div className="text-lg font-bold text-purple-400">{persona.totalInteractions.toLocaleString()}</div>
+                      <div className="text-lg font-bold text-purple-400">
+                        {persona.totalInteractions.toLocaleString()}
+                      </div>
                       <div className="text-xs text-white/50">Interactions</div>
                     </div>
                     <div className="text-center p-2 bg-black/20 rounded-lg">
@@ -347,11 +406,15 @@ export const PersonaForgePage: React.FC = () => {
                   </div>
 
                   <div className="flex flex-wrap gap-1">
-                    {persona.specializations.slice(0, 3).map(spec => (
-                      <span key={spec} className="text-xs px-2 py-1 bg-purple-900/50 rounded">{spec}</span>
+                    {persona.specializations.slice(0, 3).map((spec) => (
+                      <span key={spec} className="text-xs px-2 py-1 bg-purple-900/50 rounded">
+                        {spec}
+                      </span>
                     ))}
                     {persona.specializations.length > 3 && (
-                      <span className="text-xs px-2 py-1 bg-neutral-800 rounded">+{persona.specializations.length - 3}</span>
+                      <span className="text-xs px-2 py-1 bg-neutral-800 rounded">
+                        +{persona.specializations.length - 3}
+                      </span>
                     )}
                   </div>
                 </div>
@@ -359,11 +422,13 @@ export const PersonaForgePage: React.FC = () => {
             })}
 
             {/* Add New Persona Card */}
-            <div 
+            <div
               onClick={() => setShowCreateModal(true)}
               className="bg-black/20 rounded-2xl p-6 border border-dashed border-purple-800/50 flex flex-col items-center justify-center text-center cursor-pointer hover:bg-black/30 hover:border-purple-600 transition-all"
             >
-              <div className="w-16 h-16 rounded-2xl bg-purple-900/30 flex items-center justify-center text-3xl mb-4">➕</div>
+              <div className="w-16 h-16 rounded-2xl bg-purple-900/30 flex items-center justify-center text-3xl mb-4">
+                ➕
+              </div>
               <h3 className="text-lg font-semibold mb-1">Create New Persona</h3>
               <p className="text-sm text-white/50">Train a custom digital executive</p>
             </div>
@@ -375,10 +440,12 @@ export const PersonaForgePage: React.FC = () => {
           <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50">
             <div className="bg-gradient-to-br from-purple-900/90 to-slate-900/90 rounded-2xl p-8 border border-purple-700/50 w-full max-w-lg">
               <h2 className="text-2xl font-bold mb-6">Create New Digital Persona</h2>
-              
+
               <div className="space-y-4">
                 <div>
-                  <label className="block text-sm font-medium text-white/60 mb-2">Persona Name</label>
+                  <label className="block text-sm font-medium text-white/60 mb-2">
+                    Persona Name
+                  </label>
                   <input
                     type="text"
                     value={newPersonaName}
@@ -387,11 +454,24 @@ export const PersonaForgePage: React.FC = () => {
                     className="w-full px-4 py-3 bg-black/30 border border-purple-800/50 rounded-xl focus:outline-none focus:border-purple-500"
                   />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium text-white/60 mb-2">Role Type</label>
                   <div className="grid grid-cols-5 gap-2">
-                    {(['cfo', 'cio', 'clo', 'chro', 'ciso', 'coo', 'cro', 'cso', 'cpo', 'custom'] as PersonaRole[]).map(role => {
+                    {(
+                      [
+                        'cfo',
+                        'cio',
+                        'clo',
+                        'chro',
+                        'ciso',
+                        'coo',
+                        'cro',
+                        'cso',
+                        'cpo',
+                        'custom',
+                      ] as PersonaRole[]
+                    ).map((role) => {
                       const config = ROLE_CONFIG[role];
                       return (
                         <button
@@ -410,7 +490,7 @@ export const PersonaForgePage: React.FC = () => {
                     })}
                   </div>
                 </div>
-                
+
                 <div className="pt-4 flex gap-3">
                   <button
                     onClick={() => setShowCreateModal(false)}
@@ -436,7 +516,8 @@ export const PersonaForgePage: React.FC = () => {
             <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 rounded-2xl p-6 border border-purple-700/50">
               <h2 className="text-lg font-semibold mb-2">🏋️ Training Studio</h2>
               <p className="text-white/60">
-                Configure data sources, calibrate risk profiles, and fine-tune communication styles for your digital executives.
+                Configure data sources, calibrate risk profiles, and fine-tune communication styles
+                for your digital executives.
               </p>
             </div>
 
@@ -446,24 +527,32 @@ export const PersonaForgePage: React.FC = () => {
                 <div className="bg-black/30 rounded-2xl p-6 border border-purple-800/50">
                   <h3 className="text-lg font-semibold mb-4">📊 Training Data Sources</h3>
                   <div className="space-y-3">
-                    {selectedPersona.dataSources.map(ds => (
+                    {selectedPersona.dataSources.map((ds) => (
                       <div key={ds.sourceType} className="p-3 bg-black/20 rounded-xl">
                         <div className="flex justify-between items-center mb-2">
-                          <span className="font-medium capitalize">{ds.sourceType.replace('_', ' ')}</span>
+                          <span className="font-medium capitalize">
+                            {ds.sourceType.replace('_', ' ')}
+                          </span>
                           <span className="text-xs text-green-400">Active</span>
                         </div>
                         <div className="grid grid-cols-3 gap-2 text-xs">
                           <div>
                             <span className="text-white/50">Records</span>
-                            <div className="font-medium">{ds.recordsProcessed.toLocaleString()}</div>
+                            <div className="font-medium">
+                              {ds.recordsProcessed.toLocaleString()}
+                            </div>
                           </div>
                           <div>
                             <span className="text-white/50">Tokens</span>
-                            <div className="font-medium">{(ds.tokensExtracted / 1000000).toFixed(0)}M</div>
+                            <div className="font-medium">
+                              {(ds.tokensExtracted / 1000000).toFixed(0)}M
+                            </div>
                           </div>
                           <div>
                             <span className="text-white/50">Patterns</span>
-                            <div className="font-medium">{ds.patternsIdentified.toLocaleString()}</div>
+                            <div className="font-medium">
+                              {ds.patternsIdentified.toLocaleString()}
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -478,15 +567,26 @@ export const PersonaForgePage: React.FC = () => {
                     {Object.entries(selectedPersona.riskProfile).map(([key, value]) => (
                       <div key={key}>
                         <div className="flex justify-between text-sm mb-1">
-                          <span className="text-white/60 capitalize">{key.replace(/([A-Z])/g, ' $1')}</span>
+                          <span className="text-white/60 capitalize">
+                            {key.replace(/([A-Z])/g, ' $1')}
+                          </span>
                           <span className="text-purple-400 capitalize">{value}</span>
                         </div>
                         <div className="h-2 bg-black/30 rounded-full overflow-hidden">
                           <div
                             className="h-full bg-gradient-to-r from-green-500 via-amber-500 to-red-500"
-                            style={{ 
-                              width: value === 'conservative' || value === 'cautious' || value === 'deliberate' || value === 'strict' ? '25%' :
-                                     value === 'moderate' || value === 'balanced' || value === 'pragmatic' ? '50%' : '75%'
+                            style={{
+                              width:
+                                value === 'conservative' ||
+                                value === 'cautious' ||
+                                value === 'deliberate' ||
+                                value === 'strict'
+                                  ? '25%'
+                                  : value === 'moderate' ||
+                                      value === 'balanced' ||
+                                      value === 'pragmatic'
+                                    ? '50%'
+                                    : '75%',
                             }}
                           />
                         </div>
@@ -499,7 +599,7 @@ export const PersonaForgePage: React.FC = () => {
                 <div className="col-span-2 bg-black/30 rounded-2xl p-6 border border-purple-800/50">
                   <h3 className="text-lg font-semibold mb-4">🎯 Capabilities</h3>
                   <div className="grid grid-cols-4 gap-4">
-                    {selectedPersona.capabilities.map(cap => (
+                    {selectedPersona.capabilities.map((cap) => (
                       <div key={cap.id} className="p-4 bg-black/20 rounded-xl">
                         <h4 className="font-medium mb-1">{cap.name}</h4>
                         <p className="text-xs text-white/50 mb-2">{cap.description}</p>
@@ -515,29 +615,38 @@ export const PersonaForgePage: React.FC = () => {
                 {/* Training Controls */}
                 <div className="col-span-2 bg-black/30 rounded-2xl p-6 border border-purple-800/50">
                   <h3 className="text-lg font-semibold mb-4">🚀 Training Controls</h3>
-                  
+
                   <div className="flex items-center justify-between mb-4">
                     <div>
                       <div className="text-sm text-white/60">Training Status</div>
                       <div className="flex items-center gap-2 mt-1">
-                        <span className={`px-3 py-1 rounded-lg text-sm ${
-                          selectedPersona.status === 'ready' ? 'bg-green-600' :
-                          selectedPersona.status === 'training' ? 'bg-blue-600' :
-                          selectedPersona.status === 'validating' ? 'bg-amber-600' :
-                          'bg-neutral-600'
-                        }`}>
+                        <span
+                          className={`px-3 py-1 rounded-lg text-sm ${
+                            selectedPersona.status === 'ready'
+                              ? 'bg-green-600'
+                              : selectedPersona.status === 'training'
+                                ? 'bg-blue-600'
+                                : selectedPersona.status === 'validating'
+                                  ? 'bg-amber-600'
+                                  : 'bg-neutral-600'
+                          }`}
+                        >
                           {selectedPersona.status}
                         </span>
-                        <span className="text-sm text-white/50">{selectedPersona.trainingProgress}% complete</span>
+                        <span className="text-sm text-white/50">
+                          {selectedPersona.trainingProgress}% complete
+                        </span>
                       </div>
                     </div>
-                    
+
                     {selectedPersona.status !== 'ready' && (
                       <button
                         onClick={() => handleStartTraining(selectedPersona.id)}
                         className="px-4 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl font-medium hover:opacity-90 transition-all"
                       >
-                        {selectedPersona.status === 'not_started' ? 'Start Training' : 'Resume Training'}
+                        {selectedPersona.status === 'not_started'
+                          ? 'Start Training'
+                          : 'Resume Training'}
                       </button>
                     )}
                   </div>
@@ -551,17 +660,23 @@ export const PersonaForgePage: React.FC = () => {
 
                   <div className="grid grid-cols-3 gap-4 text-center">
                     <div className="p-3 bg-black/20 rounded-xl">
-                      <div className="text-2xl font-bold text-purple-400">{selectedPersona.totalInteractions.toLocaleString()}</div>
+                      <div className="text-2xl font-bold text-purple-400">
+                        {selectedPersona.totalInteractions.toLocaleString()}
+                      </div>
                       <div className="text-xs text-white/50">Total Interactions</div>
                     </div>
                     <div className="p-3 bg-black/20 rounded-xl">
                       <div className="text-2xl font-bold text-amber-400">
-                        {selectedPersona.avgResponseQuality > 0 ? `${selectedPersona.avgResponseQuality}/5` : 'N/A'}
+                        {selectedPersona.avgResponseQuality > 0
+                          ? `${selectedPersona.avgResponseQuality}/5`
+                          : 'N/A'}
                       </div>
                       <div className="text-xs text-white/50">Quality Score</div>
                     </div>
                     <div className="p-3 bg-black/20 rounded-xl">
-                      <div className="text-2xl font-bold text-green-400">v{selectedPersona.version}</div>
+                      <div className="text-2xl font-bold text-green-400">
+                        v{selectedPersona.version}
+                      </div>
                       <div className="text-xs text-white/50">Version</div>
                     </div>
                   </div>
@@ -579,9 +694,11 @@ export const PersonaForgePage: React.FC = () => {
           <div className="grid grid-cols-4 gap-6 h-[calc(100vh-280px)]">
             {/* Persona Selector */}
             <div className="bg-black/30 rounded-2xl p-4 border border-purple-800/50 overflow-y-auto">
-              <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">Select Persona</h3>
+              <h3 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">
+                Select Persona
+              </h3>
               <div className="space-y-2">
-                {readyPersonas.map(persona => {
+                {readyPersonas.map((persona) => {
                   const config = ROLE_CONFIG[persona.role];
                   return (
                     <button
@@ -620,11 +737,15 @@ export const PersonaForgePage: React.FC = () => {
                         <span className="text-3xl">{ROLE_CONFIG[selectedPersona.role].icon}</span>
                         <div>
                           <h3 className="font-semibold">{selectedPersona.name}</h3>
-                          <div className="text-sm text-white/50">{selectedPersona.title} • {selectedPersona.department}</div>
+                          <div className="text-sm text-white/50">
+                            {selectedPersona.title} • {selectedPersona.department}
+                          </div>
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
-                        <span className={`w-2 h-2 rounded-full ${ollamaStatus.available ? 'bg-green-500' : 'bg-red-500'}`} />
+                        <span
+                          className={`w-2 h-2 rounded-full ${ollamaStatus.available ? 'bg-green-500' : 'bg-red-500'}`}
+                        />
                         <span className="text-xs text-white/50">
                           {ollamaStatus.available ? 'Ollama Connected' : 'Ollama Offline'}
                         </span>
@@ -636,15 +757,23 @@ export const PersonaForgePage: React.FC = () => {
                   <div ref={chatContainerRef} className="flex-1 overflow-y-auto p-4 space-y-4">
                     {chatMessages.length === 0 ? (
                       <div className="text-center py-12">
-                        <div className="text-4xl mb-4">{ROLE_CONFIG[selectedPersona.role].icon}</div>
-                        <h4 className="text-lg font-semibold mb-2">Start a conversation with {selectedPersona.name}</h4>
+                        <div className="text-4xl mb-4">
+                          {ROLE_CONFIG[selectedPersona.role].icon}
+                        </div>
+                        <h4 className="text-lg font-semibold mb-2">
+                          Start a conversation with {selectedPersona.name}
+                        </h4>
                         <p className="text-white/50 text-sm max-w-md mx-auto">
-                          {ollamaStatus.available 
+                          {ollamaStatus.available
                             ? 'This digital executive is powered by real Ollama LLM. Ask questions, seek advice, or request analysis.'
                             : 'Connect Ollama for AI-powered responses. Fallback responses will be used if offline.'}
                         </p>
                         <div className="flex flex-wrap justify-center gap-2 mt-4">
-                          {['What are our biggest financial risks?', 'Review the Q4 budget proposal', 'Analyze vendor contract terms'].map(q => (
+                          {[
+                            'What are our biggest financial risks?',
+                            'Review the Q4 budget proposal',
+                            'Analyze vendor contract terms',
+                          ].map((q) => (
                             <button
                               key={q}
                               onClick={() => setInputMessage(q)}
@@ -661,17 +790,21 @@ export const PersonaForgePage: React.FC = () => {
                           key={msg.id}
                           className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
                         >
-                          <div className={`max-w-[80%] p-4 rounded-2xl ${
-                            msg.role === 'user'
-                              ? 'bg-purple-600 rounded-br-sm'
-                              : 'bg-black/40 rounded-bl-sm'
-                          }`}>
+                          <div
+                            className={`max-w-[80%] p-4 rounded-2xl ${
+                              msg.role === 'user'
+                                ? 'bg-purple-600 rounded-br-sm'
+                                : 'bg-black/40 rounded-bl-sm'
+                            }`}
+                          >
                             {msg.role === 'assistant' && (
                               <div className="flex items-center gap-2 mb-2">
                                 <span>{ROLE_CONFIG[selectedPersona.role].icon}</span>
                                 <span className="text-sm font-medium">{selectedPersona.name}</span>
                                 {msg.isStreaming && (
-                                  <span className="text-xs text-purple-400 animate-pulse">thinking...</span>
+                                  <span className="text-xs text-purple-400 animate-pulse">
+                                    thinking...
+                                  </span>
                                 )}
                               </div>
                             )}
@@ -706,7 +839,9 @@ export const PersonaForgePage: React.FC = () => {
                             <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                             Thinking...
                           </>
-                        ) : 'Send'}
+                        ) : (
+                          'Send'
+                        )}
                       </button>
                     </div>
                   </div>
@@ -725,36 +860,46 @@ export const PersonaForgePage: React.FC = () => {
             <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 rounded-2xl p-6 border border-purple-700/50">
               <h2 className="text-lg font-semibold mb-2">🛒 Agent Packs Marketplace</h2>
               <p className="text-white/60">
-                Pre-configured digital executive packages optimized for specific industries and use cases.
-                Each pack includes trained personas, integrations, and dedicated support.
+                Pre-configured digital executive packages optimized for specific industries and use
+                cases. Each pack includes trained personas, integrations, and dedicated support.
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-6">
-              {AGENT_PACKS.map(pack => (
-                <div key={pack.id} className="bg-black/30 rounded-2xl p-6 border border-purple-800/50">
+              {AGENT_PACKS.map((pack) => (
+                <div
+                  key={pack.id}
+                  className="bg-black/30 rounded-2xl p-6 border border-purple-800/50"
+                >
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-xl font-semibold">{pack.name}</h3>
-                    <span className={`px-3 py-1 rounded-lg text-sm ${
-                      pack.supportLevel === 'enterprise' ? 'bg-amber-600' :
-                      pack.supportLevel === 'premium' ? 'bg-purple-600' :
-                      'bg-neutral-600'
-                    }`}>
+                    <span
+                      className={`px-3 py-1 rounded-lg text-sm ${
+                        pack.supportLevel === 'enterprise'
+                          ? 'bg-amber-600'
+                          : pack.supportLevel === 'premium'
+                            ? 'bg-purple-600'
+                            : 'bg-neutral-600'
+                      }`}
+                    >
                       {pack.supportLevel}
                     </span>
                   </div>
                   <p className="text-white/60 mb-4">{pack.description}</p>
 
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {pack.personas.map(role => (
-                      <span key={role} className="flex items-center gap-1 px-2 py-1 bg-purple-900/50 rounded text-sm">
+                    {pack.personas.map((role) => (
+                      <span
+                        key={role}
+                        className="flex items-center gap-1 px-2 py-1 bg-purple-900/50 rounded text-sm"
+                      >
                         {ROLE_CONFIG[role].icon} {ROLE_CONFIG[role].title.split(' ').pop()}
                       </span>
                     ))}
                   </div>
 
                   <div className="space-y-2 mb-4">
-                    {pack.features.map(feature => (
+                    {pack.features.map((feature) => (
                       <div key={feature} className="flex items-center gap-2 text-sm">
                         <span className="text-green-400">✓</span>
                         <span className="text-white/80">{feature}</span>

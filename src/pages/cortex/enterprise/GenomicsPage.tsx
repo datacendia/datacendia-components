@@ -2,7 +2,7 @@
 // CENDIA GENOMICS™ - HEALTHCARE & LIFE SCIENCES PACK
 // AI-Powered Healthcare Decision Intelligence
 // "The Highest AI-Paying Sector Meets Enterprise Decision Intelligence"
-// 
+//
 // CAPABILITIES:
 // - Patient flow processing & optimization
 // - Adverse outcome prediction
@@ -22,7 +22,14 @@ import { decisionIntelApi } from '../../../lib/api';
 // TYPES
 // =============================================================================
 
-type ClinicalDomain = 'cardiology' | 'oncology' | 'neurology' | 'immunology' | 'endocrinology' | 'genomics' | 'pharmacology';
+type ClinicalDomain =
+  | 'cardiology'
+  | 'oncology'
+  | 'neurology'
+  | 'immunology'
+  | 'endocrinology'
+  | 'genomics'
+  | 'pharmacology';
 type RiskLevel = 'critical' | 'high' | 'moderate' | 'low' | 'minimal';
 type TrialPhase = 'preclinical' | 'phase1' | 'phase2' | 'phase3' | 'phase4' | 'approved';
 type RegulatoryBody = 'fda' | 'ema' | 'pmda' | 'nmpa' | 'hc';
@@ -429,7 +436,9 @@ const calculateMetrics = (): HealthcareMetrics => ({
 
 export const GenomicsPage: React.FC = () => {
   const navigate = useNavigate();
-  const [activeTab, setActiveTab] = useState<'overview' | 'patients' | 'trials' | 'pipeline' | 'regulatory' | 'genomics'>('overview');
+  const [activeTab, setActiveTab] = useState<
+    'overview' | 'patients' | 'trials' | 'pipeline' | 'regulatory' | 'genomics'
+  >('overview');
   const [patientCohorts] = useState<PatientCohort[]>(generatePatientCohorts);
   const [clinicalTrials] = useState<ClinicalTrial[]>(generateClinicalTrials);
   const [drugCandidates] = useState<DrugCandidate[]>(generateDrugCandidates);
@@ -444,9 +453,9 @@ export const GenomicsPage: React.FC = () => {
       try {
         const [regulatoryRes, preMortemRes] = await Promise.all([
           decisionIntelApi.getRegulatoryItems(),
-          decisionIntelApi.getPreMortemAnalyses()
+          decisionIntelApi.getPreMortemAnalyses(),
         ]);
-        
+
         if (regulatoryRes.success && regulatoryRes.data) {
           console.log('[Genomics] Loaded', regulatoryRes.data.length, 'regulatory items');
         }
@@ -485,17 +494,21 @@ export const GenomicsPage: React.FC = () => {
                     HEALTHCARE
                   </span>
                 </h1>
-                <p className="text-teal-300 text-sm">Healthcare & Life Sciences Pack • HIPAA Compliant</p>
+                <p className="text-teal-300 text-sm">
+                  Healthcare & Life Sciences Pack • HIPAA Compliant
+                </p>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-4">
               <div className="px-3 py-1.5 bg-green-600/20 border border-green-500/30 rounded-lg">
                 <span className="text-green-400 text-sm font-medium">🔒 HIPAA Compliant</span>
               </div>
               <div className="text-right">
                 <div className="text-sm text-white/60">Pipeline Value</div>
-                <div className="text-xl font-bold text-teal-400">${(drugCandidates.reduce((s, d) => s + d.marketPotential, 0) / 1e9).toFixed(1)}B</div>
+                <div className="text-xl font-bold text-teal-400">
+                  ${(drugCandidates.reduce((s, d) => s + d.marketPotential, 0) / 1e9).toFixed(1)}B
+                </div>
               </div>
             </div>
           </div>
@@ -507,7 +520,9 @@ export const GenomicsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 py-3">
           <div className="grid grid-cols-8 gap-4 text-center">
             <div>
-              <div className="text-2xl font-bold text-white">{metrics.totalPatients.toLocaleString()}</div>
+              <div className="text-2xl font-bold text-white">
+                {metrics.totalPatients.toLocaleString()}
+              </div>
               <div className="text-xs text-teal-300">Total Patients</div>
             </div>
             <div>
@@ -527,15 +542,21 @@ export const GenomicsPage: React.FC = () => {
               <div className="text-xs text-teal-300">Active Trials</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-purple-400">{metrics.drugCandidatesPipeline}</div>
+              <div className="text-2xl font-bold text-purple-400">
+                {metrics.drugCandidatesPipeline}
+              </div>
               <div className="text-xs text-teal-300">Pipeline Drugs</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-blue-400">{metrics.fdaSubmissionsPending}</div>
+              <div className="text-2xl font-bold text-blue-400">
+                {metrics.fdaSubmissionsPending}
+              </div>
               <div className="text-xs text-teal-300">FDA Pending</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-emerald-400">${(metrics.researchSpend / 1e6).toFixed(0)}M</div>
+              <div className="text-2xl font-bold text-emerald-400">
+                ${(metrics.researchSpend / 1e6).toFixed(0)}M
+              </div>
               <div className="text-xs text-teal-300">R&D Spend</div>
             </div>
           </div>
@@ -553,7 +574,7 @@ export const GenomicsPage: React.FC = () => {
               { id: 'pipeline', label: 'Drug Pipeline', icon: '💊' },
               { id: 'regulatory', label: 'FDA Submissions', icon: '📋' },
               { id: 'genomics', label: 'Genetic Models', icon: '🧬' },
-            ].map(tab => (
+            ].map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
@@ -580,25 +601,38 @@ export const GenomicsPage: React.FC = () => {
                 <span className="text-red-400">🚨</span> AI-Predicted Adverse Events
               </h2>
               <div className="grid grid-cols-3 gap-4">
-                {adverseEvents.map(ae => (
-                  <div key={ae.id} className={`p-4 rounded-xl border ${
-                    ae.probability > 0.3 ? 'bg-red-900/20 border-red-700/50' :
-                    ae.probability > 0.15 ? 'bg-amber-900/20 border-amber-700/50' :
-                    'bg-yellow-900/20 border-yellow-700/50'
-                  }`}>
+                {adverseEvents.map((ae) => (
+                  <div
+                    key={ae.id}
+                    className={`p-4 rounded-xl border ${
+                      ae.probability > 0.3
+                        ? 'bg-red-900/20 border-red-700/50'
+                        : ae.probability > 0.15
+                          ? 'bg-amber-900/20 border-amber-700/50'
+                          : 'bg-yellow-900/20 border-yellow-700/50'
+                    }`}
+                  >
                     <div className="flex items-center justify-between mb-2">
                       <span className="font-mono text-sm text-white/60">{ae.patientId}</span>
-                      <span className={`text-xl font-bold ${
-                        ae.probability > 0.3 ? 'text-red-400' :
-                        ae.probability > 0.15 ? 'text-amber-400' :
-                        'text-yellow-400'
-                      }`}>{(ae.probability * 100).toFixed(0)}%</span>
+                      <span
+                        className={`text-xl font-bold ${
+                          ae.probability > 0.3
+                            ? 'text-red-400'
+                            : ae.probability > 0.15
+                              ? 'text-amber-400'
+                              : 'text-yellow-400'
+                        }`}
+                      >
+                        {(ae.probability * 100).toFixed(0)}%
+                      </span>
                     </div>
                     <h4 className="font-semibold mb-1">{ae.eventType}</h4>
                     <div className="text-xs text-white/50 mb-2">Within {ae.timeframe}</div>
                     <div className="flex flex-wrap gap-1 mb-2">
-                      {ae.riskFactors.slice(0, 2).map(rf => (
-                        <span key={rf} className="text-xs px-2 py-0.5 bg-black/30 rounded">{rf}</span>
+                      {ae.riskFactors.slice(0, 2).map((rf) => (
+                        <span key={rf} className="text-xs px-2 py-0.5 bg-black/30 rounded">
+                          {rf}
+                        </span>
                       ))}
                     </div>
                     <div className="text-xs text-white/40">
@@ -613,9 +647,19 @@ export const GenomicsPage: React.FC = () => {
             <div className="bg-black/30 rounded-2xl p-6 border border-teal-800/50">
               <h2 className="text-lg font-semibold mb-4">Clinical Domains</h2>
               <div className="grid grid-cols-7 gap-4">
-                {(Object.entries(DOMAIN_CONFIG) as [ClinicalDomain, typeof DOMAIN_CONFIG[ClinicalDomain]][]).map(([key, config]) => (
-                  <div key={key} className="text-center p-4 bg-black/20 rounded-xl hover:bg-black/30 transition-colors cursor-pointer">
-                    <div className={`w-14 h-14 mx-auto rounded-xl bg-gradient-to-br ${config.color} flex items-center justify-center text-2xl mb-2`}>
+                {(
+                  Object.entries(DOMAIN_CONFIG) as [
+                    ClinicalDomain,
+                    (typeof DOMAIN_CONFIG)[ClinicalDomain],
+                  ][]
+                ).map(([key, config]) => (
+                  <div
+                    key={key}
+                    className="text-center p-4 bg-black/20 rounded-xl hover:bg-black/30 transition-colors cursor-pointer"
+                  >
+                    <div
+                      className={`w-14 h-14 mx-auto rounded-xl bg-gradient-to-br ${config.color} flex items-center justify-center text-2xl mb-2`}
+                    >
                       {config.icon}
                     </div>
                     <div className="font-medium text-sm">{config.name}</div>
@@ -630,25 +674,37 @@ export const GenomicsPage: React.FC = () => {
               <div className="bg-black/30 rounded-2xl p-6 border border-teal-800/50">
                 <h3 className="text-lg font-semibold mb-4">Active Clinical Trials</h3>
                 <div className="space-y-3">
-                  {clinicalTrials.slice(0, 3).map(trial => (
+                  {clinicalTrials.slice(0, 3).map((trial) => (
                     <div key={trial.id} className="p-4 bg-black/20 rounded-xl">
                       <div className="flex items-center justify-between mb-2">
                         <span className="font-semibold">{trial.name}</span>
-                        <span className={`px-2 py-0.5 rounded text-xs ${
-                          trial.phase === 'phase3' ? 'bg-green-600' :
-                          trial.phase === 'phase2' ? 'bg-blue-600' :
-                          'bg-purple-600'
-                        }`}>{trial.phase.toUpperCase()}</span>
+                        <span
+                          className={`px-2 py-0.5 rounded text-xs ${
+                            trial.phase === 'phase3'
+                              ? 'bg-green-600'
+                              : trial.phase === 'phase2'
+                                ? 'bg-blue-600'
+                                : 'bg-purple-600'
+                          }`}
+                        >
+                          {trial.phase.toUpperCase()}
+                        </span>
                       </div>
                       <div className="text-sm text-white/60 mb-2">{trial.indication}</div>
                       <div className="flex justify-between text-xs">
-                        <span>Enrollment: {trial.enrollmentActual}/{trial.enrollmentTarget}</span>
-                        <span>{trial.sites} sites • {trial.countries.length} countries</span>
+                        <span>
+                          Enrollment: {trial.enrollmentActual}/{trial.enrollmentTarget}
+                        </span>
+                        <span>
+                          {trial.sites} sites • {trial.countries.length} countries
+                        </span>
                       </div>
                       <div className="mt-2 h-2 bg-black/30 rounded-full overflow-hidden">
                         <div
                           className="h-full bg-teal-500"
-                          style={{ width: `${(trial.enrollmentActual / trial.enrollmentTarget) * 100}%` }}
+                          style={{
+                            width: `${(trial.enrollmentActual / trial.enrollmentTarget) * 100}%`,
+                          }}
                         />
                       </div>
                     </div>
@@ -660,26 +716,38 @@ export const GenomicsPage: React.FC = () => {
               <div className="bg-black/30 rounded-2xl p-6 border border-teal-800/50">
                 <h3 className="text-lg font-semibold mb-4">FDA Submissions</h3>
                 <div className="space-y-3">
-                  {fdaSubmissions.map(sub => (
+                  {fdaSubmissions.map((sub) => (
                     <div key={sub.id} className="p-4 bg-black/20 rounded-xl">
                       <div className="flex items-center justify-between mb-2">
                         <div>
                           <span className="font-semibold">{sub.productName}</span>
-                          <span className="ml-2 text-xs px-2 py-0.5 bg-teal-900 rounded">{sub.type}</span>
+                          <span className="ml-2 text-xs px-2 py-0.5 bg-teal-900 rounded">
+                            {sub.type}
+                          </span>
                         </div>
-                        <span className={`px-2 py-0.5 rounded text-xs ${
-                          sub.status === 'approved' ? 'bg-green-600' :
-                          sub.status === 'under-review' ? 'bg-blue-600' :
-                          sub.status === 'preparation' ? 'bg-amber-600' :
-                          'bg-neutral-600'
-                        }`}>{sub.status}</span>
+                        <span
+                          className={`px-2 py-0.5 rounded text-xs ${
+                            sub.status === 'approved'
+                              ? 'bg-green-600'
+                              : sub.status === 'under-review'
+                                ? 'bg-blue-600'
+                                : sub.status === 'preparation'
+                                  ? 'bg-amber-600'
+                                  : 'bg-neutral-600'
+                          }`}
+                        >
+                          {sub.status}
+                        </span>
                       </div>
                       <div className="flex justify-between text-sm text-white/60 mb-2">
                         <span>Completeness: {sub.completeness}%</span>
                         <span>{sub.openIssues} open issues</span>
                       </div>
                       <div className="h-2 bg-black/30 rounded-full overflow-hidden">
-                        <div className="h-full bg-gradient-to-r from-teal-500 to-cyan-500" style={{ width: `${sub.completeness}%` }} />
+                        <div
+                          className="h-full bg-gradient-to-r from-teal-500 to-cyan-500"
+                          style={{ width: `${sub.completeness}%` }}
+                        />
                       </div>
                     </div>
                   ))}
@@ -700,30 +768,44 @@ export const GenomicsPage: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-2 gap-6">
-              {patientCohorts.map(cohort => (
-                <div key={cohort.id} className="bg-black/30 rounded-2xl p-6 border border-teal-800/50">
+              {patientCohorts.map((cohort) => (
+                <div
+                  key={cohort.id}
+                  className="bg-black/30 rounded-2xl p-6 border border-teal-800/50"
+                >
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-lg font-semibold">{cohort.name}</h3>
-                    <span className={`px-3 py-1 rounded-lg text-sm ${
-                      cohort.riskProfile === 'critical' ? 'bg-red-600' :
-                      cohort.riskProfile === 'high' ? 'bg-amber-600' :
-                      cohort.riskProfile === 'moderate' ? 'bg-yellow-600' :
-                      'bg-green-600'
-                    }`}>{cohort.riskProfile} risk</span>
+                    <span
+                      className={`px-3 py-1 rounded-lg text-sm ${
+                        cohort.riskProfile === 'critical'
+                          ? 'bg-red-600'
+                          : cohort.riskProfile === 'high'
+                            ? 'bg-amber-600'
+                            : cohort.riskProfile === 'moderate'
+                              ? 'bg-yellow-600'
+                              : 'bg-green-600'
+                      }`}
+                    >
+                      {cohort.riskProfile} risk
+                    </span>
                   </div>
 
                   <div className="mb-4">
                     <div className="text-sm text-white/60">{cohort.primaryCondition}</div>
                     <div className="flex flex-wrap gap-1 mt-2">
-                      {cohort.comorbidities.map(c => (
-                        <span key={c} className="text-xs px-2 py-0.5 bg-teal-900/50 rounded">{c}</span>
+                      {cohort.comorbidities.map((c) => (
+                        <span key={c} className="text-xs px-2 py-0.5 bg-teal-900/50 rounded">
+                          {c}
+                        </span>
                       ))}
                     </div>
                   </div>
 
                   <div className="grid grid-cols-4 gap-3">
                     <div className="text-center p-3 bg-black/20 rounded-xl">
-                      <div className="text-xl font-bold text-cyan-400">{cohort.size.toLocaleString()}</div>
+                      <div className="text-xl font-bold text-cyan-400">
+                        {cohort.size.toLocaleString()}
+                      </div>
                       <div className="text-xs text-white/50">Patients</div>
                     </div>
                     <div className="text-center p-3 bg-black/20 rounded-xl">
@@ -735,7 +817,9 @@ export const GenomicsPage: React.FC = () => {
                       <div className="text-xs text-white/50">Avg LOS (days)</div>
                     </div>
                     <div className="text-center p-3 bg-black/20 rounded-xl">
-                      <div className={`text-xl font-bold ${cohort.predictedOutcome >= 70 ? 'text-green-400' : 'text-red-400'}`}>
+                      <div
+                        className={`text-xl font-bold ${cohort.predictedOutcome >= 70 ? 'text-green-400' : 'text-red-400'}`}
+                      >
                         {cohort.predictedOutcome}%
                       </div>
                       <div className="text-xs text-white/50">Predicted Outcome</div>
@@ -758,8 +842,11 @@ export const GenomicsPage: React.FC = () => {
             </div>
 
             <div className="grid grid-cols-3 gap-6">
-              {geneticModels.map(model => (
-                <div key={model.id} className="bg-black/30 rounded-2xl p-6 border border-teal-800/50">
+              {geneticModels.map((model) => (
+                <div
+                  key={model.id}
+                  className="bg-black/30 rounded-2xl p-6 border border-teal-800/50"
+                >
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center text-2xl">
                       🧬
@@ -792,8 +879,13 @@ export const GenomicsPage: React.FC = () => {
                   <div>
                     <div className="text-xs text-white/50 mb-2">Target Genes</div>
                     <div className="flex flex-wrap gap-1">
-                      {model.genes.map(gene => (
-                        <span key={gene} className="text-xs px-2 py-1 bg-purple-900/50 rounded font-mono">{gene}</span>
+                      {model.genes.map((gene) => (
+                        <span
+                          key={gene}
+                          className="text-xs px-2 py-1 bg-purple-900/50 rounded font-mono"
+                        >
+                          {gene}
+                        </span>
                       ))}
                     </div>
                   </div>
@@ -805,27 +897,40 @@ export const GenomicsPage: React.FC = () => {
 
         {activeTab === 'trials' && (
           <div className="space-y-4">
-            {clinicalTrials.map(trial => (
+            {clinicalTrials.map((trial) => (
               <div key={trial.id} className="bg-black/30 rounded-2xl p-6 border border-teal-800/50">
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <h3 className="text-lg font-semibold">{trial.name}</h3>
-                    <div className="text-sm text-white/50">{trial.drug} • {trial.indication}</div>
+                    <div className="text-sm text-white/50">
+                      {trial.drug} • {trial.indication}
+                    </div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className={`px-3 py-1 rounded-lg text-sm ${
-                      trial.status === 'active' ? 'bg-green-600' :
-                      trial.status === 'recruiting' ? 'bg-blue-600' :
-                      trial.status === 'completed' ? 'bg-purple-600' :
-                      'bg-neutral-600'
-                    }`}>{trial.status}</span>
-                    <span className={`px-3 py-1 rounded-lg text-sm bg-teal-900`}>{trial.phase.toUpperCase()}</span>
+                    <span
+                      className={`px-3 py-1 rounded-lg text-sm ${
+                        trial.status === 'active'
+                          ? 'bg-green-600'
+                          : trial.status === 'recruiting'
+                            ? 'bg-blue-600'
+                            : trial.status === 'completed'
+                              ? 'bg-purple-600'
+                              : 'bg-neutral-600'
+                      }`}
+                    >
+                      {trial.status}
+                    </span>
+                    <span className={`px-3 py-1 rounded-lg text-sm bg-teal-900`}>
+                      {trial.phase.toUpperCase()}
+                    </span>
                   </div>
                 </div>
 
                 <div className="grid grid-cols-5 gap-4 mb-4">
                   <div className="text-center p-3 bg-black/20 rounded-xl">
-                    <div className="text-xl font-bold text-cyan-400">{trial.enrollmentActual}/{trial.enrollmentTarget}</div>
+                    <div className="text-xl font-bold text-cyan-400">
+                      {trial.enrollmentActual}/{trial.enrollmentTarget}
+                    </div>
                     <div className="text-xs text-white/50">Enrollment</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
@@ -837,7 +942,9 @@ export const GenomicsPage: React.FC = () => {
                     <div className="text-xs text-white/50">Countries</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
-                    <div className="text-xl font-bold text-green-400">${(trial.spent / 1e6).toFixed(0)}M</div>
+                    <div className="text-xl font-bold text-green-400">
+                      ${(trial.spent / 1e6).toFixed(0)}M
+                    </div>
                     <div className="text-xs text-white/50">Spent</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
@@ -857,19 +964,26 @@ export const GenomicsPage: React.FC = () => {
 
         {activeTab === 'pipeline' && (
           <div className="space-y-4">
-            {drugCandidates.map(drug => (
+            {drugCandidates.map((drug) => (
               <div key={drug.id} className="bg-black/30 rounded-2xl p-6 border border-teal-800/50">
                 <div className="flex items-center justify-between mb-4">
                   <div>
                     <h3 className="text-xl font-semibold">{drug.name}</h3>
                     <div className="text-sm text-white/50">{drug.targetIndication}</div>
                   </div>
-                  <span className={`px-4 py-2 rounded-lg text-sm font-medium ${
-                    drug.phase === 'phase3' ? 'bg-green-600' :
-                    drug.phase === 'phase2' ? 'bg-blue-600' :
-                    drug.phase === 'phase1' ? 'bg-purple-600' :
-                    'bg-neutral-600'
-                  }`}>{drug.phase.toUpperCase()}</span>
+                  <span
+                    className={`px-4 py-2 rounded-lg text-sm font-medium ${
+                      drug.phase === 'phase3'
+                        ? 'bg-green-600'
+                        : drug.phase === 'phase2'
+                          ? 'bg-blue-600'
+                          : drug.phase === 'phase1'
+                            ? 'bg-purple-600'
+                            : 'bg-neutral-600'
+                    }`}
+                  >
+                    {drug.phase.toUpperCase()}
+                  </span>
                 </div>
 
                 <div className="mb-4">
@@ -887,11 +1001,15 @@ export const GenomicsPage: React.FC = () => {
                     <div className="text-xs text-white/50">Safety</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
-                    <div className="text-xl font-bold text-purple-400">${(drug.marketPotential / 1e9).toFixed(1)}B</div>
+                    <div className="text-xl font-bold text-purple-400">
+                      ${(drug.marketPotential / 1e9).toFixed(1)}B
+                    </div>
                     <div className="text-xs text-white/50">Market Potential</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
-                    <div className="text-xl font-bold">${(drug.developmentCost / 1e6).toFixed(0)}M</div>
+                    <div className="text-xl font-bold">
+                      ${(drug.developmentCost / 1e6).toFixed(0)}M
+                    </div>
                     <div className="text-xs text-white/50">Dev Cost</div>
                   </div>
                   <div className="text-center p-3 bg-black/20 rounded-xl">
@@ -918,7 +1036,7 @@ export const GenomicsPage: React.FC = () => {
               </p>
             </div>
 
-            {fdaSubmissions.map(sub => (
+            {fdaSubmissions.map((sub) => (
               <div key={sub.id} className="bg-black/30 rounded-2xl p-6 border border-teal-800/50">
                 <div className="flex items-center justify-between mb-4">
                   <div>
@@ -932,33 +1050,54 @@ export const GenomicsPage: React.FC = () => {
                       </div>
                     )}
                   </div>
-                  <span className={`px-4 py-2 rounded-lg text-sm font-medium ${
-                    sub.status === 'approved' ? 'bg-green-600' :
-                    sub.status === 'under-review' ? 'bg-blue-600' :
-                    sub.status === 'preparation' ? 'bg-amber-600' :
-                    'bg-neutral-600'
-                  }`}>{sub.status.toUpperCase()}</span>
+                  <span
+                    className={`px-4 py-2 rounded-lg text-sm font-medium ${
+                      sub.status === 'approved'
+                        ? 'bg-green-600'
+                        : sub.status === 'under-review'
+                          ? 'bg-blue-600'
+                          : sub.status === 'preparation'
+                            ? 'bg-amber-600'
+                            : 'bg-neutral-600'
+                    }`}
+                  >
+                    {sub.status.toUpperCase()}
+                  </span>
                 </div>
 
                 <div className="grid grid-cols-2 gap-6">
                   <div>
-                    <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">Sections</h4>
+                    <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">
+                      Sections
+                    </h4>
                     <div className="space-y-2">
-                      {sub.sections.map(section => (
-                        <div key={section.name} className="flex items-center justify-between p-3 bg-black/20 rounded-lg">
+                      {sub.sections.map((section) => (
+                        <div
+                          key={section.name}
+                          className="flex items-center justify-between p-3 bg-black/20 rounded-lg"
+                        >
                           <span className="text-sm">{section.name}</span>
-                          <span className={`px-2 py-0.5 rounded text-xs ${
-                            section.status === 'complete' ? 'bg-green-900 text-green-300' :
-                            section.status === 'in-progress' ? 'bg-amber-900 text-amber-300' :
-                            section.status === 'needs-revision' ? 'bg-red-900 text-red-300' :
-                            'bg-neutral-800 text-neutral-300'
-                          }`}>{section.status}</span>
+                          <span
+                            className={`px-2 py-0.5 rounded text-xs ${
+                              section.status === 'complete'
+                                ? 'bg-green-900 text-green-300'
+                                : section.status === 'in-progress'
+                                  ? 'bg-amber-900 text-amber-300'
+                                  : section.status === 'needs-revision'
+                                    ? 'bg-red-900 text-red-300'
+                                    : 'bg-neutral-800 text-neutral-300'
+                            }`}
+                          >
+                            {section.status}
+                          </span>
                         </div>
                       ))}
                     </div>
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">Status</h4>
+                    <h4 className="text-sm font-semibold text-white/60 uppercase tracking-wider mb-3">
+                      Status
+                    </h4>
                     <div className="space-y-4">
                       <div>
                         <div className="flex justify-between text-sm mb-1">
@@ -966,12 +1105,17 @@ export const GenomicsPage: React.FC = () => {
                           <span className="font-bold">{sub.completeness}%</span>
                         </div>
                         <div className="h-3 bg-black/30 rounded-full overflow-hidden">
-                          <div className="h-full bg-gradient-to-r from-teal-500 to-cyan-500" style={{ width: `${sub.completeness}%` }} />
+                          <div
+                            className="h-full bg-gradient-to-r from-teal-500 to-cyan-500"
+                            style={{ width: `${sub.completeness}%` }}
+                          />
                         </div>
                       </div>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="p-3 bg-black/20 rounded-xl text-center">
-                          <div className="text-xl font-bold text-amber-400">{sub.reviewerQuestions}</div>
+                          <div className="text-xl font-bold text-amber-400">
+                            {sub.reviewerQuestions}
+                          </div>
                           <div className="text-xs text-white/50">Reviewer Questions</div>
                         </div>
                         <div className="p-3 bg-black/20 rounded-xl text-center">

@@ -3,10 +3,18 @@
 // =============================================================================
 
 import React, { useState } from 'react';
-import { 
-  ChevronDown, ChevronUp, Copy, Download, Share2, 
-  CheckCircle, AlertTriangle, Clock, Users, FileText,
-  Check
+import {
+  ChevronDown,
+  ChevronUp,
+  Copy,
+  Download,
+  Share2,
+  CheckCircle,
+  AlertTriangle,
+  Clock,
+  Users,
+  FileText,
+  Check,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 import { CouncilModeBadge } from './CouncilModeSelector';
@@ -44,12 +52,19 @@ function ConfidenceBadge({ confidence }: { confidence: { score: number; level: s
     medium: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', border: 'border-yellow-500/50' },
     low: { bg: 'bg-red-500/20', text: 'text-red-400', border: 'border-red-500/50' },
   };
-  
+
   const level = confidence.score >= 80 ? 'high' : confidence.score >= 60 ? 'medium' : 'low';
   const style = colors[level];
-  
+
   return (
-    <span className={cn("px-2 py-1 rounded-full text-xs font-medium border", style.bg, style.text, style.border)}>
+    <span
+      className={cn(
+        'px-2 py-1 rounded-full text-xs font-medium border',
+        style.bg,
+        style.text,
+        style.border
+      )}
+    >
       {confidence.score}% confidence
     </span>
   );
@@ -63,42 +78,49 @@ function RiskBadge({ severity }: { severity: number }) {
     high: { bg: 'bg-red-500/20', text: 'text-red-400' },
   };
   const style = colors[level];
-  
+
   return (
-    <span className={cn("px-2 py-0.5 rounded text-xs font-medium", style.bg, style.text)}>
+    <span className={cn('px-2 py-0.5 rounded text-xs font-medium', style.bg, style.text)}>
       {severity}/10
     </span>
   );
 }
 
-export function ExecutiveSummary({ data, isExpanded = true, onToggle, className }: ExecutiveSummaryProps) {
+export function ExecutiveSummary({
+  data,
+  isExpanded = true,
+  onToggle,
+  className,
+}: ExecutiveSummaryProps) {
   const [copied, setCopied] = useState(false);
   const [showShareMenu, setShowShareMenu] = useState(false);
 
   const handleCopy = async (format: 'tldr' | 'full' | 'email') => {
     let text = '';
-    
+
     switch (format) {
       case 'tldr':
         text = `TL;DR: ${data.decision} (${data.confidence.score}% confidence)\n\nNext Action: ${data.actionItems[0]?.action || 'N/A'}`;
         break;
       case 'email':
-        text = `Subject: Council Decision Summary\n\n${data.decision}\n\nConfidence: ${data.confidence.score}%\n\nKey Insights:\n${data.keyInsights.map(i => `• ${i}`).join('\n')}\n\nNext Steps:\n${data.actionItems.map(a => `• ${a.action} (${a.owner}, by ${a.deadline})`).join('\n')}`;
+        text = `Subject: Council Decision Summary\n\n${data.decision}\n\nConfidence: ${data.confidence.score}%\n\nKey Insights:\n${data.keyInsights.map((i) => `• ${i}`).join('\n')}\n\nNext Steps:\n${data.actionItems.map((a) => `• ${a.action} (${a.owner}, by ${a.deadline})`).join('\n')}`;
         break;
       case 'full':
       default:
         text = JSON.stringify(data, null, 2);
     }
-    
+
     await navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
 
   return (
-    <div className={cn("bg-slate-900 border border-slate-700 rounded-xl overflow-hidden", className)}>
+    <div
+      className={cn('bg-slate-900 border border-slate-700 rounded-xl overflow-hidden', className)}
+    >
       {/* Header */}
-      <div 
+      <div
         className="flex items-center justify-between p-4 cursor-pointer hover:bg-slate-800/50 transition-colors"
         onClick={onToggle}
       >
@@ -123,11 +145,12 @@ export function ExecutiveSummary({ data, isExpanded = true, onToggle, className 
             <Clock className="w-4 h-4" />
             <span>{(data.processingTime / 1000).toFixed(1)}s</span>
           </div>
-          {onToggle && (
-            isExpanded 
-              ? <ChevronUp className="w-5 h-5 text-slate-400" />
-              : <ChevronDown className="w-5 h-5 text-slate-400" />
-          )}
+          {onToggle &&
+            (isExpanded ? (
+              <ChevronUp className="w-5 h-5 text-slate-400" />
+            ) : (
+              <ChevronDown className="w-5 h-5 text-slate-400" />
+            ))}
         </div>
       </div>
 
@@ -161,7 +184,10 @@ export function ExecutiveSummary({ data, isExpanded = true, onToggle, className 
               <h4 className="text-sm font-medium text-slate-400 mb-2">Identified Risks</h4>
               <ul className="space-y-2">
                 {data.risks.map((risk, i) => (
-                  <li key={i} className="flex items-start justify-between gap-2 text-slate-300 bg-slate-800/50 rounded-lg p-2">
+                  <li
+                    key={i}
+                    className="flex items-start justify-between gap-2 text-slate-300 bg-slate-800/50 rounded-lg p-2"
+                  >
                     <div className="flex items-start gap-2">
                       <AlertTriangle className="w-4 h-4 text-amber-400 mt-0.5 flex-shrink-0" />
                       <span>{risk.description}</span>
@@ -179,13 +205,21 @@ export function ExecutiveSummary({ data, isExpanded = true, onToggle, className 
               <h4 className="text-sm font-medium text-slate-400 mb-2">Action Items</h4>
               <div className="space-y-2">
                 {data.actionItems.map((item, i) => (
-                  <div key={i} className="flex items-center justify-between bg-slate-800/50 rounded-lg p-3">
+                  <div
+                    key={i}
+                    className="flex items-center justify-between bg-slate-800/50 rounded-lg p-3"
+                  >
                     <div className="flex items-center gap-3">
-                      <div className={cn(
-                        "w-2 h-2 rounded-full",
-                        item.priority === 'high' ? 'bg-red-400' :
-                        item.priority === 'medium' ? 'bg-yellow-400' : 'bg-green-400'
-                      )} />
+                      <div
+                        className={cn(
+                          'w-2 h-2 rounded-full',
+                          item.priority === 'high'
+                            ? 'bg-red-400'
+                            : item.priority === 'medium'
+                              ? 'bg-yellow-400'
+                              : 'bg-green-400'
+                        )}
+                      />
                       <div>
                         <div className="text-white">{item.action}</div>
                         <div className="text-sm text-slate-400">{item.owner}</div>
@@ -212,7 +246,11 @@ export function ExecutiveSummary({ data, isExpanded = true, onToggle, className 
               onClick={() => handleCopy('tldr')}
               className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm text-slate-300 transition-colors"
             >
-              {copied ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
+              {copied ? (
+                <Check className="w-4 h-4 text-emerald-400" />
+              ) : (
+                <Copy className="w-4 h-4" />
+              )}
               {copied ? 'Copied!' : 'Copy TL;DR'}
             </button>
             <button

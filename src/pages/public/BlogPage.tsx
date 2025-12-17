@@ -11,20 +11,51 @@ const ParticleField: React.FC = () => {
     if (!ctx) return;
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    const particles: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
+    const particles: {
+      x: number;
+      y: number;
+      vx: number;
+      vy: number;
+      size: number;
+      opacity: number;
+    }[] = [];
     for (let i = 0; i < 25; i++) {
-      particles.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, vx: (Math.random() - 0.5) * 0.15, vy: (Math.random() - 0.5) * 0.15, size: Math.random() * 1.5 + 0.5, opacity: Math.random() * 0.25 + 0.05 });
+      particles.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.15,
+        vy: (Math.random() - 0.5) * 0.15,
+        size: Math.random() * 1.5 + 0.5,
+        opacity: Math.random() * 0.25 + 0.05,
+      });
     }
     let animationId: number;
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      particles.forEach((p) => { p.x += p.vx; p.y += p.vy; if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0; if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0; ctx.beginPath(); ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2); ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`; ctx.fill(); });
+      particles.forEach((p) => {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0) p.x = canvas.width;
+        if (p.x > canvas.width) p.x = 0;
+        if (p.y < 0) p.y = canvas.height;
+        if (p.y > canvas.height) p.y = 0;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(127, 29, 29, ${p.opacity})`;
+        ctx.fill();
+      });
       animationId = requestAnimationFrame(animate);
     };
     animate();
-    const handleResize = () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; };
+    const handleResize = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
     window.addEventListener('resize', handleResize);
-    return () => { cancelAnimationFrame(animationId); window.removeEventListener('resize', handleResize); };
+    return () => {
+      cancelAnimationFrame(animationId);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
   return <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none z-0" />;
 };
@@ -33,7 +64,8 @@ export const BlogPage: React.FC = () => {
   const posts = [
     {
       title: 'Introducing Chronos: See Your Organization Through Time',
-      excerpt: 'Navigate your company\'s past, present, and future with our new temporal intelligence feature.',
+      excerpt:
+        "Navigate your company's past, present, and future with our new temporal intelligence feature.",
       date: 'December 2024',
       author: 'Datacendia Team',
       category: 'Product',
@@ -41,7 +73,8 @@ export const BlogPage: React.FC = () => {
     },
     {
       title: 'The Case for Sovereign AI Deployment',
-      excerpt: 'Why enterprises need complete control over their AI infrastructure and decision systems.',
+      excerpt:
+        'Why enterprises need complete control over their AI infrastructure and decision systems.',
       date: 'November 2024',
       author: 'Datacendia Team',
       category: 'Insights',
@@ -68,18 +101,32 @@ export const BlogPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-black text-white font-light antialiased selection:bg-red-900/30 relative overflow-hidden">
       <ParticleField />
-      <div className="fixed inset-0 pointer-events-none z-10" style={{ background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)' }} />
+      <div
+        className="fixed inset-0 pointer-events-none z-10"
+        style={{
+          background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)',
+        }}
+      />
 
       {/* Header */}
       <nav className="relative z-30 border-b border-gray-900">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16">
-          <Link to="/sovereign" className="text-xl font-extralight tracking-[0.2em] text-white hover:text-red-100 transition-colors">
+          <Link
+            to="/sovereign"
+            className="text-xl font-extralight tracking-[0.2em] text-white hover:text-red-100 transition-colors"
+          >
             DATACENDIA
           </Link>
           <div className="flex items-center gap-8 text-xs tracking-[0.15em]">
-            <Link to="/product" className="text-gray-500 hover:text-white transition-colors">PRODUCT</Link>
-            <Link to="/blog" className="text-red-900">BLOG</Link>
-            <Link to="/docs" className="text-gray-500 hover:text-white transition-colors">DOCS</Link>
+            <Link to="/product" className="text-gray-500 hover:text-white transition-colors">
+              PRODUCT
+            </Link>
+            <Link to="/blog" className="text-red-900">
+              BLOG
+            </Link>
+            <Link to="/docs" className="text-gray-500 hover:text-white transition-colors">
+              DOCS
+            </Link>
           </div>
         </div>
       </nav>
@@ -101,7 +148,10 @@ export const BlogPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <div className="space-y-6">
             {posts.map((post, index) => (
-              <article key={index} className="bg-black/50 backdrop-blur-sm border border-gray-800 hover:border-red-900/30 rounded p-6 transition-colors">
+              <article
+                key={index}
+                className="bg-black/50 backdrop-blur-sm border border-gray-800 hover:border-red-900/30 rounded p-6 transition-colors"
+              >
                 <div className="flex items-center gap-4 text-xs text-gray-500 mb-3">
                   <span className="px-2 py-1 bg-red-900/20 text-red-400 rounded border border-red-900/30">
                     {post.category}
@@ -117,7 +167,7 @@ export const BlogPage: React.FC = () => {
                 </div>
                 <h2 className="text-lg font-medium text-white mb-2">{post.title}</h2>
                 <p className="text-gray-500 text-sm mb-4">{post.excerpt}</p>
-                <Link 
+                <Link
                   to={post.href}
                   className="inline-flex items-center gap-2 text-red-900 text-sm hover:text-red-700 transition-colors"
                 >
@@ -136,8 +186,8 @@ export const BlogPage: React.FC = () => {
           <p className="text-gray-500 mb-8 text-sm">
             Get notified about new features and insights.
           </p>
-          <Link 
-            to="/sovereign" 
+          <Link
+            to="/sovereign"
             className="group inline-flex items-center gap-2 px-8 py-4 border-2 border-red-900 text-white text-sm tracking-wider hover:bg-red-900/10 transition-all"
           >
             <span>Subscribe</span>

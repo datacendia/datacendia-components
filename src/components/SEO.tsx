@@ -31,7 +31,8 @@ interface PageSEOConfig {
 // =============================================================================
 
 const SITE_NAME = 'Datacendia';
-const DEFAULT_DESCRIPTION = 'Enterprise Intelligence Platform - Transform your organization with AI-powered decision intelligence, predictive analytics, and automated workflows.';
+const DEFAULT_DESCRIPTION =
+  'Enterprise Intelligence Platform - Transform your organization with AI-powered decision intelligence, predictive analytics, and automated workflows.';
 const DEFAULT_IMAGE = '/og-image.svg';
 const SITE_URL = typeof window !== 'undefined' ? window.location.origin : 'https://datacendia.com';
 
@@ -39,48 +40,103 @@ const SITE_URL = typeof window !== 'undefined' ? window.location.origin : 'https
 const PAGE_SEO: Record<string, PageSEOConfig> = {
   '/': {
     title: 'Datacendia - Enterprise Intelligence Platform',
-    description: 'Transform your organization with AI-powered decision intelligence. Real-time analytics, predictive insights, and automated workflows for modern enterprises.',
-    keywords: ['enterprise intelligence', 'AI analytics', 'business intelligence', 'decision support', 'predictive analytics'],
+    description:
+      'Transform your organization with AI-powered decision intelligence. Real-time analytics, predictive insights, and automated workflows for modern enterprises.',
+    keywords: [
+      'enterprise intelligence',
+      'AI analytics',
+      'business intelligence',
+      'decision support',
+      'predictive analytics',
+    ],
   },
   '/cortex/dashboard': {
     title: 'Dashboard | Datacendia',
-    description: 'Your organization\'s health at a glance. Real-time metrics, alerts, and KPIs powered by AI intelligence.',
-    keywords: ['dashboard', 'analytics dashboard', 'KPIs', 'business metrics', 'real-time monitoring'],
+    description:
+      "Your organization's health at a glance. Real-time metrics, alerts, and KPIs powered by AI intelligence.",
+    keywords: [
+      'dashboard',
+      'analytics dashboard',
+      'KPIs',
+      'business metrics',
+      'real-time monitoring',
+    ],
   },
   '/cortex/council': {
     title: 'The Council - AI Decision Intelligence | Datacendia',
-    description: 'Consult our AI Council of expert agents for strategic decisions. Get multi-perspective analysis from specialized AI personas.',
-    keywords: ['AI council', 'decision intelligence', 'AI agents', 'strategic planning', 'executive AI'],
+    description:
+      'Consult our AI Council of expert agents for strategic decisions. Get multi-perspective analysis from specialized AI personas.',
+    keywords: [
+      'AI council',
+      'decision intelligence',
+      'AI agents',
+      'strategic planning',
+      'executive AI',
+    ],
   },
   '/cortex/graph': {
     title: 'Knowledge Graph Explorer | Datacendia',
-    description: 'Visualize and explore your organization\'s knowledge graph. Discover relationships, lineage, and data dependencies.',
-    keywords: ['knowledge graph', 'data lineage', 'entity relationships', 'data visualization', 'graph analytics'],
+    description:
+      "Visualize and explore your organization's knowledge graph. Discover relationships, lineage, and data dependencies.",
+    keywords: [
+      'knowledge graph',
+      'data lineage',
+      'entity relationships',
+      'data visualization',
+      'graph analytics',
+    ],
   },
   '/cortex/pulse': {
     title: 'The Pulse - Real-Time Monitoring | Datacendia',
-    description: 'Real-time organizational health monitoring. Track anomalies, system status, and performance metrics.',
-    keywords: ['real-time monitoring', 'health monitoring', 'anomaly detection', 'system status', 'alerts'],
+    description:
+      'Real-time organizational health monitoring. Track anomalies, system status, and performance metrics.',
+    keywords: [
+      'real-time monitoring',
+      'health monitoring',
+      'anomaly detection',
+      'system status',
+      'alerts',
+    ],
   },
   '/cortex/lens': {
     title: 'The Lens - Predictive Analytics | Datacendia',
-    description: 'Scenario simulation and predictive analytics. Forecast outcomes and explore what-if scenarios.',
-    keywords: ['predictive analytics', 'scenario planning', 'forecasting', 'what-if analysis', 'simulation'],
+    description:
+      'Scenario simulation and predictive analytics. Forecast outcomes and explore what-if scenarios.',
+    keywords: [
+      'predictive analytics',
+      'scenario planning',
+      'forecasting',
+      'what-if analysis',
+      'simulation',
+    ],
   },
   '/cortex/bridge': {
     title: 'The Bridge - Workflow Automation | Datacendia',
-    description: 'Automate workflows with AI-powered orchestration. Connect systems, manage approvals, and streamline operations.',
-    keywords: ['workflow automation', 'process automation', 'integrations', 'orchestration', 'business automation'],
+    description:
+      'Automate workflows with AI-powered orchestration. Connect systems, manage approvals, and streamline operations.',
+    keywords: [
+      'workflow automation',
+      'process automation',
+      'integrations',
+      'orchestration',
+      'business automation',
+    ],
   },
   '/login': {
     title: 'Sign In | Datacendia',
-    description: 'Sign in to your Datacendia account to access enterprise intelligence tools and analytics.',
+    description:
+      'Sign in to your Datacendia account to access enterprise intelligence tools and analytics.',
     keywords: ['login', 'sign in', 'enterprise analytics'],
   },
   '/pricing': {
     title: 'Pricing | Datacendia',
     description: 'Flexible pricing plans for teams of all sizes. Start free and scale as you grow.',
-    keywords: ['pricing', 'enterprise pricing', 'AI platform pricing', 'business intelligence cost'],
+    keywords: [
+      'pricing',
+      'enterprise pricing',
+      'AI platform pricing',
+      'business intelligence cost',
+    ],
   },
 };
 
@@ -131,7 +187,7 @@ export function SEO({
     // Basic meta tags
     setMeta('description', finalDescription);
     setMeta('keywords', finalKeywords.join(', '));
-    
+
     // Robots
     setMeta('robots', noIndex ? 'noindex, nofollow' : 'index, follow');
 
@@ -180,7 +236,9 @@ export function SEO({
       },
     };
 
-    let scriptTag = document.querySelector('script[type="application/ld+json"]') as HTMLScriptElement;
+    let scriptTag = document.querySelector(
+      'script[type="application/ld+json"]'
+    ) as HTMLScriptElement;
     if (!scriptTag) {
       scriptTag = document.createElement('script');
       scriptTag.type = 'application/ld+json';
@@ -192,7 +250,16 @@ export function SEO({
     return () => {
       // Reset to default on page change (optional)
     };
-  }, [finalTitle, finalDescription, finalKeywords, canonicalUrl, image, type, noIndex, structuredData]);
+  }, [
+    finalTitle,
+    finalDescription,
+    finalKeywords,
+    canonicalUrl,
+    image,
+    type,
+    noIndex,
+    structuredData,
+  ]);
 
   return null; // This component doesn't render anything
 }

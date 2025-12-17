@@ -1,6 +1,6 @@
 /**
  * CrossModuleActions Component
- * 
+ *
  * Displays cross-module integration pathways and actions.
  * Makes the "moat" of module integration visible to users.
  */
@@ -33,55 +33,269 @@ interface CrossModuleActionsProps {
 // Define all cross-module integration pathways
 const MODULE_INTEGRATIONS: Record<string, CrossModuleAction[]> = {
   council: [
-    { id: 'council-to-dna', fromModule: 'council', toModule: 'decision-dna', action: 'Log to Decision DNA', description: 'Track this deliberation in your decision history', icon: '🧬', color: 'emerald' },
-    { id: 'council-to-crucible', fromModule: 'council', toModule: 'crucible', action: 'Stress Test Decision', description: 'Run simulations on this recommendation', icon: '🔥', color: 'orange' },
-    { id: 'council-to-vox', fromModule: 'council', toModule: 'vox', action: 'Run Stakeholder Assembly', description: 'Get stakeholder perspectives on this decision', icon: '🗣️', color: 'cyan' },
-    { id: 'council-to-eternal', fromModule: 'council', toModule: 'eternal', action: 'Archive for Posterity', description: 'Preserve this decision for future reference', icon: '📜', color: 'amber' },
+    {
+      id: 'council-to-dna',
+      fromModule: 'council',
+      toModule: 'decision-dna',
+      action: 'Log to Decision DNA',
+      description: 'Track this deliberation in your decision history',
+      icon: '🧬',
+      color: 'emerald',
+    },
+    {
+      id: 'council-to-crucible',
+      fromModule: 'council',
+      toModule: 'crucible',
+      action: 'Stress Test Decision',
+      description: 'Run simulations on this recommendation',
+      icon: '🔥',
+      color: 'orange',
+    },
+    {
+      id: 'council-to-vox',
+      fromModule: 'council',
+      toModule: 'vox',
+      action: 'Run Stakeholder Assembly',
+      description: 'Get stakeholder perspectives on this decision',
+      icon: '🗣️',
+      color: 'cyan',
+    },
+    {
+      id: 'council-to-eternal',
+      fromModule: 'council',
+      toModule: 'eternal',
+      action: 'Archive for Posterity',
+      description: 'Preserve this decision for future reference',
+      icon: '📜',
+      color: 'amber',
+    },
   ],
   'decision-dna': [
-    { id: 'dna-to-council', fromModule: 'decision-dna', toModule: 'council', action: 'Re-deliberate', description: 'Open a new Council session on this decision', icon: '⚖️', color: 'purple' },
-    { id: 'dna-to-chronos', fromModule: 'decision-dna', toModule: 'chronos', action: 'View in Timeline', description: 'See this decision in historical context', icon: '⏰', color: 'blue' },
-    { id: 'dna-to-crucible', fromModule: 'decision-dna', toModule: 'crucible', action: 'What-If Analysis', description: 'Simulate alternative outcomes', icon: '🔥', color: 'orange' },
+    {
+      id: 'dna-to-council',
+      fromModule: 'decision-dna',
+      toModule: 'council',
+      action: 'Re-deliberate',
+      description: 'Open a new Council session on this decision',
+      icon: '⚖️',
+      color: 'purple',
+    },
+    {
+      id: 'dna-to-chronos',
+      fromModule: 'decision-dna',
+      toModule: 'chronos',
+      action: 'View in Timeline',
+      description: 'See this decision in historical context',
+      icon: '⏰',
+      color: 'blue',
+    },
+    {
+      id: 'dna-to-crucible',
+      fromModule: 'decision-dna',
+      toModule: 'crucible',
+      action: 'What-If Analysis',
+      description: 'Simulate alternative outcomes',
+      icon: '🔥',
+      color: 'orange',
+    },
   ],
   crucible: [
-    { id: 'crucible-to-council', fromModule: 'crucible', toModule: 'council', action: 'Create Council Briefing', description: 'Deliberate on simulation findings', icon: '⚖️', color: 'purple' },
-    { id: 'crucible-to-dna', fromModule: 'crucible', toModule: 'decision-dna', action: 'Log Scenario Results', description: 'Record simulation outcomes', icon: '🧬', color: 'emerald' },
-    { id: 'crucible-to-vox', fromModule: 'crucible', toModule: 'vox', action: 'Stakeholder Impact', description: 'Assess stakeholder impact of scenario', icon: '🗣️', color: 'cyan' },
+    {
+      id: 'crucible-to-council',
+      fromModule: 'crucible',
+      toModule: 'council',
+      action: 'Create Council Briefing',
+      description: 'Deliberate on simulation findings',
+      icon: '⚖️',
+      color: 'purple',
+    },
+    {
+      id: 'crucible-to-dna',
+      fromModule: 'crucible',
+      toModule: 'decision-dna',
+      action: 'Log Scenario Results',
+      description: 'Record simulation outcomes',
+      icon: '🧬',
+      color: 'emerald',
+    },
+    {
+      id: 'crucible-to-vox',
+      fromModule: 'crucible',
+      toModule: 'vox',
+      action: 'Stakeholder Impact',
+      description: 'Assess stakeholder impact of scenario',
+      icon: '🗣️',
+      color: 'cyan',
+    },
   ],
   panopticon: [
-    { id: 'panopticon-to-council', fromModule: 'panopticon', toModule: 'council', action: 'Create Council Briefing', description: 'Deliberate on regulatory findings', icon: '⚖️', color: 'purple' },
-    { id: 'panopticon-to-crucible', fromModule: 'panopticon', toModule: 'crucible', action: 'Launch Stress Test', description: 'Simulate regulatory impact', icon: '🔥', color: 'orange' },
-    { id: 'panopticon-to-dna', fromModule: 'panopticon', toModule: 'decision-dna', action: 'Log Assessment', description: 'Record regulatory assessment', icon: '🧬', color: 'emerald' },
+    {
+      id: 'panopticon-to-council',
+      fromModule: 'panopticon',
+      toModule: 'council',
+      action: 'Create Council Briefing',
+      description: 'Deliberate on regulatory findings',
+      icon: '⚖️',
+      color: 'purple',
+    },
+    {
+      id: 'panopticon-to-crucible',
+      fromModule: 'panopticon',
+      toModule: 'crucible',
+      action: 'Launch Stress Test',
+      description: 'Simulate regulatory impact',
+      icon: '🔥',
+      color: 'orange',
+    },
+    {
+      id: 'panopticon-to-dna',
+      fromModule: 'panopticon',
+      toModule: 'decision-dna',
+      action: 'Log Assessment',
+      description: 'Record regulatory assessment',
+      icon: '🧬',
+      color: 'emerald',
+    },
   ],
   vox: [
-    { id: 'vox-to-council', fromModule: 'vox', toModule: 'council', action: 'Stakeholder Council', description: 'Run Council with stakeholder voices', icon: '⚖️', color: 'purple' },
-    { id: 'vox-to-dna', fromModule: 'vox', toModule: 'decision-dna', action: 'Log Veto Event', description: 'Record stakeholder veto in DNA', icon: '🧬', color: 'emerald' },
+    {
+      id: 'vox-to-council',
+      fromModule: 'vox',
+      toModule: 'council',
+      action: 'Stakeholder Council',
+      description: 'Run Council with stakeholder voices',
+      icon: '⚖️',
+      color: 'purple',
+    },
+    {
+      id: 'vox-to-dna',
+      fromModule: 'vox',
+      toModule: 'decision-dna',
+      action: 'Log Veto Event',
+      description: 'Record stakeholder veto in DNA',
+      icon: '🧬',
+      color: 'emerald',
+    },
   ],
   chronos: [
-    { id: 'chronos-to-council', fromModule: 'chronos', toModule: 'council', action: 'Replay Deliberation', description: 'View original Council session', icon: '⚖️', color: 'purple' },
-    { id: 'chronos-to-crucible', fromModule: 'chronos', toModule: 'crucible', action: 'What-If from Point', description: 'Branch simulation from this moment', icon: '🔥', color: 'orange' },
+    {
+      id: 'chronos-to-council',
+      fromModule: 'chronos',
+      toModule: 'council',
+      action: 'Replay Deliberation',
+      description: 'View original Council session',
+      icon: '⚖️',
+      color: 'purple',
+    },
+    {
+      id: 'chronos-to-crucible',
+      fromModule: 'chronos',
+      toModule: 'crucible',
+      action: 'What-If from Point',
+      description: 'Branch simulation from this moment',
+      icon: '🔥',
+      color: 'orange',
+    },
   ],
   eternal: [
-    { id: 'eternal-to-council', fromModule: 'eternal', toModule: 'council', action: 'Deliberate on Artifact', description: 'Discuss archived wisdom', icon: '⚖️', color: 'purple' },
-    { id: 'eternal-to-chronos', fromModule: 'eternal', toModule: 'chronos', action: 'View in Timeline', description: 'See artifact in historical context', icon: '⏰', color: 'blue' },
+    {
+      id: 'eternal-to-council',
+      fromModule: 'eternal',
+      toModule: 'council',
+      action: 'Deliberate on Artifact',
+      description: 'Discuss archived wisdom',
+      icon: '⚖️',
+      color: 'purple',
+    },
+    {
+      id: 'eternal-to-chronos',
+      fromModule: 'eternal',
+      toModule: 'chronos',
+      action: 'View in Timeline',
+      description: 'See artifact in historical context',
+      icon: '⏰',
+      color: 'blue',
+    },
   ],
   symbiont: [
-    { id: 'symbiont-to-council', fromModule: 'symbiont', toModule: 'council', action: 'Partner Deliberation', description: 'Deliberate on partnership decision', icon: '⚖️', color: 'purple' },
-    { id: 'symbiont-to-crucible', fromModule: 'symbiont', toModule: 'crucible', action: 'Stress Test Partnership', description: 'Simulate partnership scenarios', icon: '🔥', color: 'orange' },
+    {
+      id: 'symbiont-to-council',
+      fromModule: 'symbiont',
+      toModule: 'council',
+      action: 'Partner Deliberation',
+      description: 'Deliberate on partnership decision',
+      icon: '⚖️',
+      color: 'purple',
+    },
+    {
+      id: 'symbiont-to-crucible',
+      fromModule: 'symbiont',
+      toModule: 'crucible',
+      action: 'Stress Test Partnership',
+      description: 'Simulate partnership scenarios',
+      icon: '🔥',
+      color: 'orange',
+    },
   ],
   aegis: [
-    { id: 'aegis-to-council', fromModule: 'aegis', toModule: 'council', action: 'Threat Briefing', description: 'Deliberate on security threat', icon: '⚖️', color: 'purple' },
-    { id: 'aegis-to-crucible', fromModule: 'aegis', toModule: 'crucible', action: 'Attack Simulation', description: 'Simulate threat impact', icon: '🔥', color: 'orange' },
+    {
+      id: 'aegis-to-council',
+      fromModule: 'aegis',
+      toModule: 'council',
+      action: 'Threat Briefing',
+      description: 'Deliberate on security threat',
+      icon: '⚖️',
+      color: 'purple',
+    },
+    {
+      id: 'aegis-to-crucible',
+      fromModule: 'aegis',
+      toModule: 'crucible',
+      action: 'Attack Simulation',
+      description: 'Simulate threat impact',
+      icon: '🔥',
+      color: 'orange',
+    },
   ],
 };
 
 const colorClasses: Record<string, { bg: string; border: string; text: string; hover: string }> = {
-  purple: { bg: 'bg-purple-500/10', border: 'border-purple-500/30', text: 'text-purple-400', hover: 'hover:bg-purple-500/20' },
-  emerald: { bg: 'bg-emerald-500/10', border: 'border-emerald-500/30', text: 'text-emerald-400', hover: 'hover:bg-emerald-500/20' },
-  orange: { bg: 'bg-orange-500/10', border: 'border-orange-500/30', text: 'text-orange-400', hover: 'hover:bg-orange-500/20' },
-  cyan: { bg: 'bg-cyan-500/10', border: 'border-cyan-500/30', text: 'text-cyan-400', hover: 'hover:bg-cyan-500/20' },
-  amber: { bg: 'bg-amber-500/10', border: 'border-amber-500/30', text: 'text-amber-400', hover: 'hover:bg-amber-500/20' },
-  blue: { bg: 'bg-blue-500/10', border: 'border-blue-500/30', text: 'text-blue-400', hover: 'hover:bg-blue-500/20' },
+  purple: {
+    bg: 'bg-purple-500/10',
+    border: 'border-purple-500/30',
+    text: 'text-purple-400',
+    hover: 'hover:bg-purple-500/20',
+  },
+  emerald: {
+    bg: 'bg-emerald-500/10',
+    border: 'border-emerald-500/30',
+    text: 'text-emerald-400',
+    hover: 'hover:bg-emerald-500/20',
+  },
+  orange: {
+    bg: 'bg-orange-500/10',
+    border: 'border-orange-500/30',
+    text: 'text-orange-400',
+    hover: 'hover:bg-orange-500/20',
+  },
+  cyan: {
+    bg: 'bg-cyan-500/10',
+    border: 'border-cyan-500/30',
+    text: 'text-cyan-400',
+    hover: 'hover:bg-cyan-500/20',
+  },
+  amber: {
+    bg: 'bg-amber-500/10',
+    border: 'border-amber-500/30',
+    text: 'text-amber-400',
+    hover: 'hover:bg-amber-500/20',
+  },
+  blue: {
+    bg: 'bg-blue-500/10',
+    border: 'border-blue-500/30',
+    text: 'text-blue-400',
+    hover: 'hover:bg-blue-500/20',
+  },
 };
 
 export const CrossModuleActions: React.FC<CrossModuleActionsProps> = ({
@@ -106,7 +320,7 @@ export const CrossModuleActions: React.FC<CrossModuleActionsProps> = ({
   if (variant === 'inline') {
     return (
       <div className="flex flex-wrap gap-2">
-        {actions.map(action => {
+        {actions.map((action) => {
           const colors = colorClasses[action.color] || colorClasses.purple;
           return (
             <button
@@ -117,7 +331,9 @@ export const CrossModuleActions: React.FC<CrossModuleActionsProps> = ({
             >
               <span>{action.icon}</span>
               <span className={`text-sm font-medium ${colors.text}`}>{action.action}</span>
-              <span className="text-xs text-slate-500 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+              <span className="text-xs text-slate-500 opacity-0 group-hover:opacity-100 transition-opacity">
+                →
+              </span>
             </button>
           );
         })}
@@ -134,7 +350,7 @@ export const CrossModuleActions: React.FC<CrossModuleActionsProps> = ({
           <h3 className="font-semibold text-white">Cross-Module Actions</h3>
         </div>
         <div className="space-y-2">
-          {actions.map(action => {
+          {actions.map((action) => {
             const colors = colorClasses[action.color] || colorClasses.purple;
             return (
               <button
@@ -162,7 +378,7 @@ export const CrossModuleActions: React.FC<CrossModuleActionsProps> = ({
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40">
         <div className="bg-slate-900/95 backdrop-blur-xl rounded-2xl border border-slate-700 shadow-2xl px-4 py-3 flex items-center gap-3">
           <span className="text-sm text-slate-400">Actions:</span>
-          {actions.slice(0, 4).map(action => {
+          {actions.slice(0, 4).map((action) => {
             const colors = colorClasses[action.color] || colorClasses.purple;
             return (
               <button
@@ -197,7 +413,7 @@ export const CrossModuleQuickActions: React.FC<{
   return (
     <div className="flex items-center gap-2 pt-3 border-t border-slate-700/50">
       <span className="text-xs text-slate-500">Next:</span>
-      {actions.map(action => {
+      {actions.map((action) => {
         const colors = colorClasses[action.color] || colorClasses.purple;
         return (
           <button
@@ -237,14 +453,18 @@ export const IntegrationWorkflowBadge: React.FC<{
       <span className="text-xs text-slate-500 mr-1">Workflow:</span>
       {workflow.map((mod, idx) => (
         <React.Fragment key={mod}>
-          <span 
+          <span
             className={`text-sm ${idx <= currentStep ? 'opacity-100' : 'opacity-40'}`}
             title={mod}
           >
             {moduleIcons[mod] || '📦'}
           </span>
           {idx < workflow.length - 1 && (
-            <span className={`text-xs ${idx < currentStep ? 'text-emerald-400' : 'text-slate-600'}`}>→</span>
+            <span
+              className={`text-xs ${idx < currentStep ? 'text-emerald-400' : 'text-slate-600'}`}
+            >
+              →
+            </span>
           )}
         </React.Fragment>
       ))}

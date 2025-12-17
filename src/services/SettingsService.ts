@@ -2,7 +2,8 @@
 // SETTINGS SERVICE - Client Admin API Client
 // =============================================================================
 
-const API_BASE = import.meta.env.VITE_API_URL || 
+const API_BASE =
+  import.meta.env.VITE_API_URL ||
   (import.meta.env.DEV ? '/api/v1' : 'http://localhost:3001/api/v1');
 
 // =============================================================================
@@ -197,10 +198,16 @@ class SettingsService {
     search?: string;
   }): Promise<{ users: User[]; total: number; metrics: any }> {
     const params = new URLSearchParams();
-    if (filters?.role) {params.append('role', filters.role);}
-    if (filters?.status) {params.append('status', filters.status);}
-    if (filters?.search) {params.append('search', filters.search);}
-    
+    if (filters?.role) {
+      params.append('role', filters.role);
+    }
+    if (filters?.status) {
+      params.append('status', filters.status);
+    }
+    if (filters?.search) {
+      params.append('search', filters.search);
+    }
+
     const query = params.toString();
     return this.request(`/users${query ? `?${query}` : ''}`);
   }

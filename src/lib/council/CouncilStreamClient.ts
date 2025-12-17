@@ -4,7 +4,16 @@
 // =============================================================================
 
 export interface StreamEvent {
-  type: 'start' | 'token' | 'complete' | 'error' | 'phase_change' | 'agent_start' | 'agent_complete' | 'challenge' | 'synthesis';
+  type:
+    | 'start'
+    | 'token'
+    | 'complete'
+    | 'error'
+    | 'phase_change'
+    | 'agent_start'
+    | 'agent_complete'
+    | 'challenge'
+    | 'synthesis';
   deliberationId: string;
   agentId?: string;
   content?: string;
@@ -106,12 +115,12 @@ export class CouncilStreamClient {
           this.reconnectAttempts = 0;
           this.startHeartbeat();
           this.notifyConnectionListeners(true);
-          
+
           // Resubscribe to deliberations
           for (const id of this.subscribedDeliberations) {
             this.send({ type: 'subscribe', deliberationId: id });
           }
-          
+
           resolve();
         };
 
@@ -132,7 +141,6 @@ export class CouncilStreamClient {
         this.ws.onmessage = (event) => {
           this.handleMessage(event.data);
         };
-
       } catch (error) {
         this.isConnecting = false;
         reject(error);
@@ -190,7 +198,7 @@ export class CouncilStreamClient {
   private handleMessage(data: string): void {
     try {
       const message = JSON.parse(data);
-      
+
       switch (message.type) {
         case 'connected':
           console.log('[CouncilStream] Client ID:', message.clientId);
@@ -231,7 +239,7 @@ export class CouncilStreamClient {
 
   private handleStreamEvent(event: StreamEvent): void {
     const state = this.deliberationStates.get(event.deliberationId);
-    
+
     if (state) {
       // Update state based on event
       switch (event.type) {
@@ -269,9 +277,15 @@ export class CouncilStreamClient {
             const agentState = state.responses.get(event.agentId);
             if (agentState) {
               agentState.isStreaming = false;
-              if (event.content) {agentState.content = event.content;}
-              if (event.metadata?.confidence) {agentState.confidence = event.metadata.confidence;}
-              if (event.metadata?.latency) {agentState.latency = event.metadata.latency;}
+              if (event.content) {
+                agentState.content = event.content;
+              }
+              if (event.metadata?.confidence) {
+                agentState.confidence = event.metadata.confidence;
+              }
+              if (event.metadata?.latency) {
+                agentState.latency = event.metadata.latency;
+              }
             }
           }
           break;
@@ -295,8 +309,12 @@ export class CouncilStreamClient {
 
         case 'complete':
           state.status = 'completed';
-          if (event.content) {state.synthesis = event.content;}
-          if (event.metadata?.confidence) {state.confidence = event.metadata.confidence;}
+          if (event.content) {
+            state.synthesis = event.content;
+          }
+          if (event.metadata?.confidence) {
+            state.confidence = event.metadata.confidence;
+          }
           state.completedAt = new Date();
           break;
 
@@ -336,7 +354,7 @@ export class CouncilStreamClient {
 
   subscribe(deliberationId: string): void {
     this.subscribedDeliberations.add(deliberationId);
-    
+
     if (!this.deliberationStates.has(deliberationId)) {
       this.deliberationStates.set(deliberationId, {
         id: deliberationId,
@@ -421,16 +439,16 @@ export class CouncilStreamClient {
   private notifyEventListeners(deliberationId: string, event: StreamEvent): void {
     const listeners = this.eventListeners.get(deliberationId);
     if (listeners) {
-      listeners.forEach(callback => callback(event));
+      listeners.forEach((callback) => callback(event));
     }
   }
 
   private notifyStateListeners(state: DeliberationState): void {
-    this.stateListeners.forEach(callback => callback(state));
+    this.stateListeners.forEach((callback) => callback(state));
   }
 
   private notifyConnectionListeners(connected: boolean): void {
-    this.connectionListeners.forEach(callback => callback(connected));
+    this.connectionListeners.forEach((callback) => callback(connected));
   }
 
   // ===========================================================================

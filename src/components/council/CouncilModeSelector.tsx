@@ -15,11 +15,11 @@ interface CouncilModeSelectorProps {
 }
 
 // Compact dropdown selector
-export function CouncilModeSelector({ 
-  selectedMode, 
-  onModeChange, 
+export function CouncilModeSelector({
+  selectedMode,
+  onModeChange,
   compact = false,
-  className 
+  className,
 }: CouncilModeSelectorProps) {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -38,16 +38,18 @@ export function CouncilModeSelector({
 
   if (compact) {
     return (
-      <div className={cn("relative", className)} ref={dropdownRef}>
+      <div className={cn('relative', className)} ref={dropdownRef}>
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="flex items-center gap-2 px-3 py-2 bg-slate-800 rounded-lg border border-slate-700 hover:border-slate-600 transition-colors"
         >
           <span className="text-lg">{mode.emoji}</span>
           <span className="text-white font-medium">{mode.name}</span>
-          <ChevronDown className={cn("w-4 h-4 text-slate-400 transition-transform", isOpen && "rotate-180")} />
+          <ChevronDown
+            className={cn('w-4 h-4 text-slate-400 transition-transform', isOpen && 'rotate-180')}
+          />
         </button>
-        
+
         {isOpen && (
           <div className="absolute top-full left-0 mt-2 w-72 bg-slate-800 rounded-lg border border-slate-700 shadow-xl z-50 max-h-96 overflow-y-auto">
             {Object.entries(MODE_CATEGORIES).map(([category, modeIds]) => (
@@ -55,16 +57,21 @@ export function CouncilModeSelector({
                 <div className="px-3 py-2 text-xs font-semibold text-slate-500 uppercase tracking-wider bg-slate-900/50">
                   {category}
                 </div>
-                {modeIds.map(modeId => {
+                {modeIds.map((modeId) => {
                   const m = COUNCIL_MODES[modeId];
-                  if (!m) {return null;}
+                  if (!m) {
+                    return null;
+                  }
                   return (
                     <button
                       key={modeId}
-                      onClick={() => { onModeChange(modeId); setIsOpen(false); }}
+                      onClick={() => {
+                        onModeChange(modeId);
+                        setIsOpen(false);
+                      }}
                       className={cn(
-                        "w-full flex items-center gap-3 px-3 py-2 hover:bg-slate-700/50 transition-colors",
-                        selectedMode === modeId && "bg-slate-700"
+                        'w-full flex items-center gap-3 px-3 py-2 hover:bg-slate-700/50 transition-colors',
+                        selectedMode === modeId && 'bg-slate-700'
                       )}
                     >
                       <span className="text-lg">{m.emoji}</span>
@@ -72,9 +79,7 @@ export function CouncilModeSelector({
                         <div className="text-white font-medium">{m.name}</div>
                         <div className="text-xs text-slate-400">{m.shortDesc}</div>
                       </div>
-                      {selectedMode === modeId && (
-                        <Check className="w-4 h-4 text-emerald-500" />
-                      )}
+                      {selectedMode === modeId && <Check className="w-4 h-4 text-emerald-500" />}
                     </button>
                   );
                 })}
@@ -88,16 +93,16 @@ export function CouncilModeSelector({
 
   // Full grid view
   return (
-    <div className={cn("grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3", className)}>
-      {Object.values(COUNCIL_MODES).map(m => (
+    <div className={cn('grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3', className)}>
+      {Object.values(COUNCIL_MODES).map((m) => (
         <button
           key={m.id}
           onClick={() => onModeChange(m.id)}
           className={cn(
-            "p-4 rounded-lg border-2 transition-all text-left",
-            selectedMode === m.id 
-              ? "border-blue-500 bg-blue-500/10" 
-              : "border-slate-700 bg-slate-800/50 hover:border-slate-600"
+            'p-4 rounded-lg border-2 transition-all text-left',
+            selectedMode === m.id
+              ? 'border-blue-500 bg-blue-500/10'
+              : 'border-slate-700 bg-slate-800/50 hover:border-slate-600'
           )}
         >
           <div className="flex items-center gap-2 mb-2">
@@ -116,7 +121,7 @@ export function CouncilModeSelector({
 export function CouncilModeBadge({ modeId }: { modeId: string }) {
   const mode = COUNCIL_MODES[modeId] || COUNCIL_MODES['war-room'];
   return (
-    <span 
+    <span
       className="inline-flex items-center gap-1 px-2 py-1 rounded-full text-xs font-medium"
       style={{ backgroundColor: `${mode.color}20`, color: mode.color }}
     >
@@ -130,7 +135,7 @@ export function CouncilModeBadge({ modeId }: { modeId: string }) {
 export function CouncilModeCard({ modeId }: { modeId: string }) {
   const mode = COUNCIL_MODES[modeId] || COUNCIL_MODES['war-room'];
   return (
-    <div 
+    <div
       className="p-4 rounded-lg border"
       style={{ borderColor: `${mode.color}40`, backgroundColor: `${mode.color}10` }}
     >
@@ -138,7 +143,9 @@ export function CouncilModeCard({ modeId }: { modeId: string }) {
         <span className="text-3xl">{mode.emoji}</span>
         <div>
           <h3 className="font-bold text-lg text-white">{mode.name} Mode</h3>
-          <p className="text-sm italic" style={{ color: mode.color }}>"{mode.primeDirective}"</p>
+          <p className="text-sm italic" style={{ color: mode.color }}>
+            "{mode.primeDirective}"
+          </p>
         </div>
       </div>
       <p className="text-sm text-slate-300 mb-3">{mode.description}</p>
@@ -154,16 +161,16 @@ export function CouncilModeCard({ modeId }: { modeId: string }) {
 }
 
 // Quick Mode Switcher (horizontal pills)
-export function CouncilModeQuickSwitch({ 
-  selectedMode, 
+export function CouncilModeQuickSwitch({
+  selectedMode,
   onModeChange,
-  showAll = false 
-}: { 
-  selectedMode: string; 
+  showAll = false,
+}: {
+  selectedMode: string;
   onModeChange: (id: string) => void;
   showAll?: boolean;
 }) {
-  const quickModes = showAll 
+  const quickModes = showAll
     ? Object.values(COUNCIL_MODES)
     : [
         COUNCIL_MODES['war-room'],
@@ -174,15 +181,15 @@ export function CouncilModeQuickSwitch({
 
   return (
     <div className="flex flex-wrap gap-2">
-      {quickModes.map(mode => (
+      {quickModes.map((mode) => (
         <button
           key={mode.id}
           onClick={() => onModeChange(mode.id)}
           className={cn(
-            "flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm transition-all",
+            'flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm transition-all',
             selectedMode === mode.id
-              ? "bg-white/10 text-white border border-white/20"
-              : "bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700"
+              ? 'bg-white/10 text-white border border-white/20'
+              : 'bg-slate-800 text-slate-400 hover:text-white hover:bg-slate-700'
           )}
         >
           <span>{mode.emoji}</span>

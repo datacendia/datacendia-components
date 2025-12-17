@@ -50,29 +50,29 @@ export interface DataSourceContextValue {
   dataSources: DataSource[];
   selectedDataSource: DataSource | null;
   selectDataSource: (source: DataSource | null) => void;
-  
+
   // Selected Entity (from Graph)
   selectedEntity: SelectedEntity | null;
   selectEntity: (entity: SelectedEntity | null) => void;
-  
+
   // Cross-page workflow
   activeWorkflow: CortexWorkflow | null;
   startWorkflow: (name: string, steps: CortexWorkflowStep[]) => void;
   advanceWorkflow: (result?: unknown) => void;
   cancelWorkflow: () => void;
-  
+
   // Navigation helpers
   exploreInGraph: (entityId?: string) => void;
   askCouncil: (question?: string, context?: Record<string, unknown>) => void;
   monitorInPulse: (metricId?: string) => void;
   forecastInLens: (metricId?: string, scenarioId?: string) => void;
   automateInBridge: (workflowId?: string) => void;
-  
+
   // Shared state between pages
   sharedContext: Record<string, unknown>;
   setSharedContext: (key: string, value: unknown) => void;
   clearSharedContext: () => void;
-  
+
   // Loading state
   isLoading: boolean;
 }
@@ -90,7 +90,7 @@ const DataSourceContext = createContext<DataSourceContextValue | null>(null);
 export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const navigate = useNavigate();
   const location = useLocation();
-  
+
   // Data sources state
   const [dataSources, setDataSources] = useState<DataSource[]>([]);
   const [selectedDataSource, setSelectedDataSource] = useState<DataSource | null>(null);
@@ -118,7 +118,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
             metadata: ds.metadata,
           }));
           setDataSources(mapped);
-          
+
           // Auto-select first connected source if none selected
           if (!selectedDataSource) {
             const connected = mapped.find((ds: DataSource) => ds.status === 'connected');
@@ -157,7 +157,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     const params = new URLSearchParams(location.search);
     const dsId = params.get('dataSource');
     if (dsId && dataSources.length > 0 && !selectedDataSource) {
-      const source = dataSources.find(ds => ds.id === dsId);
+      const source = dataSources.find((ds) => ds.id === dsId);
       if (source) {
         setSelectedDataSource(source);
       }
@@ -170,71 +170,85 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
   }, [selectedDataSource]);
 
   // Select data source
-  const selectDataSource = useCallback((source: DataSource | null) => {
-    setSelectedDataSource(source);
-    // Clear entity when changing source
-    if (source?.id !== selectedDataSource?.id) {
-      setSelectedEntity(null);
-    }
-  }, [selectedDataSource]);
+  const selectDataSource = useCallback(
+    (source: DataSource | null) => {
+      setSelectedDataSource(source);
+      // Clear entity when changing source
+      if (source?.id !== selectedDataSource?.id) {
+        setSelectedEntity(null);
+      }
+    },
+    [selectedDataSource]
+  );
 
   // Select entity
-  const selectEntity = useCallback((entity: SelectedEntity | null) => {
-    setSelectedEntity(entity);
-    if (entity) {
-      // Auto-select the data source if not already
-      const source = dataSources.find(ds => ds.id === entity.dataSourceId);
-      if (source && source.id !== selectedDataSource?.id) {
-        setSelectedDataSource(source);
+  const selectEntity = useCallback(
+    (entity: SelectedEntity | null) => {
+      setSelectedEntity(entity);
+      if (entity) {
+        // Auto-select the data source if not already
+        const source = dataSources.find((ds) => ds.id === entity.dataSourceId);
+        if (source && source.id !== selectedDataSource?.id) {
+          setSelectedDataSource(source);
+        }
       }
-    }
-  }, [dataSources, selectedDataSource]);
+    },
+    [dataSources, selectedDataSource]
+  );
 
   // Start a cross-page workflow
-  const startWorkflow = useCallback((name: string, steps: CortexWorkflowStep[]) => {
-    const workflow: CortexWorkflow = {
-      id: `wf-${Date.now()}`,
-      name,
-      steps,
-      currentStep: 0,
-      status: 'active',
-    };
-    setActiveWorkflow(workflow);
-    
-    // Navigate to first step
-    if (steps.length > 0) {
-      navigate(`/cortex/${steps[0].page}`);
-    }
-  }, [navigate]);
+  const startWorkflow = useCallback(
+    (name: string, steps: CortexWorkflowStep[]) => {
+      const workflow: CortexWorkflow = {
+        id: `wf-${Date.now()}`,
+        name,
+        steps,
+        currentStep: 0,
+        status: 'active',
+      };
+      setActiveWorkflow(workflow);
+
+      // Navigate to first step
+      if (steps.length > 0) {
+        navigate(`/cortex/${steps[0].page}`);
+      }
+    },
+    [navigate]
+  );
 
   // Advance workflow to next step
-  const advanceWorkflow = useCallback((result?: unknown) => {
-    if (!activeWorkflow) {return;}
-    
-    const updatedSteps = [...activeWorkflow.steps];
-    updatedSteps[activeWorkflow.currentStep].completed = true;
-    updatedSteps[activeWorkflow.currentStep].result = result;
-    
-    const nextStep = activeWorkflow.currentStep + 1;
-    
-    if (nextStep >= activeWorkflow.steps.length) {
-      // Workflow complete
-      setActiveWorkflow({
-        ...activeWorkflow,
-        steps: updatedSteps,
-        currentStep: nextStep,
-        status: 'completed',
-      });
-    } else {
-      // Move to next step
-      setActiveWorkflow({
-        ...activeWorkflow,
-        steps: updatedSteps,
-        currentStep: nextStep,
-      });
-      navigate(`/cortex/${activeWorkflow.steps[nextStep].page}`);
-    }
-  }, [activeWorkflow, navigate]);
+  const advanceWorkflow = useCallback(
+    (result?: unknown) => {
+      if (!activeWorkflow) {
+        return;
+      }
+
+      const updatedSteps = [...activeWorkflow.steps];
+      updatedSteps[activeWorkflow.currentStep].completed = true;
+      updatedSteps[activeWorkflow.currentStep].result = result;
+
+      const nextStep = activeWorkflow.currentStep + 1;
+
+      if (nextStep >= activeWorkflow.steps.length) {
+        // Workflow complete
+        setActiveWorkflow({
+          ...activeWorkflow,
+          steps: updatedSteps,
+          currentStep: nextStep,
+          status: 'completed',
+        });
+      } else {
+        // Move to next step
+        setActiveWorkflow({
+          ...activeWorkflow,
+          steps: updatedSteps,
+          currentStep: nextStep,
+        });
+        navigate(`/cortex/${activeWorkflow.steps[nextStep].page}`);
+      }
+    },
+    [activeWorkflow, navigate]
+  );
 
   // Cancel workflow
   const cancelWorkflow = useCallback(() => {
@@ -242,67 +256,82 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
   }, []);
 
   // Navigation helpers with context passing
-  const exploreInGraph = useCallback((entityId?: string) => {
-    if (entityId) {
-      setSharedContextState(prev => ({ ...prev, focusEntityId: entityId }));
-      navigate(`/cortex/graph/entity/${entityId}`);
-    } else {
-      navigate('/cortex/graph');
-    }
-  }, [navigate]);
+  const exploreInGraph = useCallback(
+    (entityId?: string) => {
+      if (entityId) {
+        setSharedContextState((prev) => ({ ...prev, focusEntityId: entityId }));
+        navigate(`/cortex/graph/entity/${entityId}`);
+      } else {
+        navigate('/cortex/graph');
+      }
+    },
+    [navigate]
+  );
 
-  const askCouncil = useCallback((question?: string, context?: Record<string, unknown>) => {
-    const councilContext: Record<string, unknown> = {
-      ...context,
-      dataSource: selectedDataSource,
-      entity: selectedEntity,
-    };
-    
-    if (question) {
-      councilContext.prefillQuestion = question;
-    }
-    
-    setSharedContextState(prev => ({ ...prev, councilContext }));
-    navigate('/cortex/council');
-  }, [navigate, selectedDataSource, selectedEntity]);
+  const askCouncil = useCallback(
+    (question?: string, context?: Record<string, unknown>) => {
+      const councilContext: Record<string, unknown> = {
+        ...context,
+        dataSource: selectedDataSource,
+        entity: selectedEntity,
+      };
 
-  const monitorInPulse = useCallback((metricId?: string) => {
-    if (metricId) {
-      setSharedContextState(prev => ({ ...prev, focusMetricId: metricId }));
-    }
-    navigate('/cortex/pulse');
-  }, [navigate]);
+      if (question) {
+        councilContext.prefillQuestion = question;
+      }
 
-  const forecastInLens = useCallback((metricId?: string, scenarioId?: string) => {
-    const lensContext: Record<string, unknown> = {
-      dataSource: selectedDataSource,
-      entity: selectedEntity,
-    };
-    
-    if (metricId) {
-      lensContext.targetMetricId = metricId;
-    }
-    if (scenarioId) {
-      lensContext.scenarioId = scenarioId;
-    }
-    
-    setSharedContextState(prev => ({ ...prev, lensContext }));
-    navigate(scenarioId ? `/cortex/lens/scenarios/${scenarioId}` : '/cortex/lens');
-  }, [navigate, selectedDataSource, selectedEntity]);
+      setSharedContextState((prev) => ({ ...prev, councilContext }));
+      navigate('/cortex/council');
+    },
+    [navigate, selectedDataSource, selectedEntity]
+  );
 
-  const automateInBridge = useCallback((workflowId?: string) => {
-    const bridgeContext: Record<string, unknown> = {
-      dataSource: selectedDataSource,
-      entity: selectedEntity,
-    };
-    
-    setSharedContextState(prev => ({ ...prev, bridgeContext }));
-    navigate(workflowId ? `/cortex/bridge/workflows/${workflowId}` : '/cortex/bridge');
-  }, [navigate, selectedDataSource, selectedEntity]);
+  const monitorInPulse = useCallback(
+    (metricId?: string) => {
+      if (metricId) {
+        setSharedContextState((prev) => ({ ...prev, focusMetricId: metricId }));
+      }
+      navigate('/cortex/pulse');
+    },
+    [navigate]
+  );
+
+  const forecastInLens = useCallback(
+    (metricId?: string, scenarioId?: string) => {
+      const lensContext: Record<string, unknown> = {
+        dataSource: selectedDataSource,
+        entity: selectedEntity,
+      };
+
+      if (metricId) {
+        lensContext.targetMetricId = metricId;
+      }
+      if (scenarioId) {
+        lensContext.scenarioId = scenarioId;
+      }
+
+      setSharedContextState((prev) => ({ ...prev, lensContext }));
+      navigate(scenarioId ? `/cortex/lens/scenarios/${scenarioId}` : '/cortex/lens');
+    },
+    [navigate, selectedDataSource, selectedEntity]
+  );
+
+  const automateInBridge = useCallback(
+    (workflowId?: string) => {
+      const bridgeContext: Record<string, unknown> = {
+        dataSource: selectedDataSource,
+        entity: selectedEntity,
+      };
+
+      setSharedContextState((prev) => ({ ...prev, bridgeContext }));
+      navigate(workflowId ? `/cortex/bridge/workflows/${workflowId}` : '/cortex/bridge');
+    },
+    [navigate, selectedDataSource, selectedEntity]
+  );
 
   // Set shared context value
   const setSharedContext = useCallback((key: string, value: unknown) => {
-    setSharedContextState(prev => ({ ...prev, [key]: value }));
+    setSharedContextState((prev) => ({ ...prev, [key]: value }));
   }, []);
 
   // Clear shared context
@@ -331,11 +360,7 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     isLoading,
   };
 
-  return (
-    <DataSourceContext.Provider value={value}>
-      {children}
-    </DataSourceContext.Provider>
-  );
+  return <DataSourceContext.Provider value={value}>{children}</DataSourceContext.Provider>;
 };
 
 // =============================================================================
@@ -364,7 +389,7 @@ export function useGraphContext() {
 export function useCouncilContext() {
   const { selectedDataSource, selectedEntity, sharedContext, askCouncil } = useDataSource();
   const councilContext = sharedContext.councilContext as Record<string, unknown> | undefined;
-  
+
   return {
     dataSource: selectedDataSource,
     entity: selectedEntity,
@@ -376,7 +401,7 @@ export function useCouncilContext() {
 
 export function usePulseContext() {
   const { selectedDataSource, sharedContext, monitorInPulse } = useDataSource();
-  
+
   return {
     dataSource: selectedDataSource,
     focusMetricId: sharedContext.focusMetricId as string | undefined,
@@ -387,7 +412,7 @@ export function usePulseContext() {
 export function useLensContext() {
   const { selectedDataSource, selectedEntity, sharedContext, forecastInLens } = useDataSource();
   const lensContext = sharedContext.lensContext as Record<string, unknown> | undefined;
-  
+
   return {
     dataSource: selectedDataSource,
     entity: selectedEntity,
@@ -400,7 +425,7 @@ export function useLensContext() {
 export function useBridgeContext() {
   const { selectedDataSource, selectedEntity, sharedContext, automateInBridge } = useDataSource();
   const bridgeContext = sharedContext.bridgeContext as Record<string, unknown> | undefined;
-  
+
   return {
     dataSource: selectedDataSource,
     entity: selectedEntity,
@@ -420,14 +445,14 @@ export const WORKFLOW_PRESETS = {
     { page: 'council', action: 'Ask Council about implications', completed: false },
     { page: 'pulse', action: 'Monitor related metrics', completed: false },
   ],
-  
+
   // Analyze → Forecast → Automate
   predictiveAction: (metricName: string): CortexWorkflowStep[] => [
     { page: 'pulse', action: `Review ${metricName} health`, completed: false },
     { page: 'lens', action: 'Create forecast scenario', completed: false },
     { page: 'bridge', action: 'Set up automated response', completed: false },
   ],
-  
+
   // Full cycle: Explore → Analyze → Consult → Forecast → Automate
   fullAnalysis: (entityName: string): CortexWorkflowStep[] => [
     { page: 'graph', action: `Map ${entityName} relationships`, completed: false },

@@ -10,7 +10,14 @@ import { ollamaService } from '../lib/ollama';
 // AUTOPILOT TYPES
 // =============================================================================
 
-export type DecisionCategory = 'financial' | 'operational' | 'hr' | 'sales' | 'technology' | 'risk' | 'compliance';
+export type DecisionCategory =
+  | 'financial'
+  | 'operational'
+  | 'hr'
+  | 'sales'
+  | 'technology'
+  | 'risk'
+  | 'compliance';
 export type DecisionPriority = 'critical' | 'high' | 'medium' | 'low';
 export type DecisionStatus = 'pending' | 'approved' | 'rejected' | 'auto-executed' | 'escalated';
 export type AutomationLevel = 'full-auto' | 'semi-auto' | 'approval-required' | 'manual';
@@ -73,7 +80,15 @@ export interface SystemHealth {
 // SOVEREIGN TYPES
 // =============================================================================
 
-export type ModelFamily = 'llama' | 'mistral' | 'qwen' | 'phi' | 'gemma' | 'deepseek' | 'command-r' | 'custom';
+export type ModelFamily =
+  | 'llama'
+  | 'mistral'
+  | 'qwen'
+  | 'phi'
+  | 'gemma'
+  | 'deepseek'
+  | 'command-r'
+  | 'custom';
 export type NodeStatus = 'online' | 'busy' | 'draining' | 'offline' | 'error';
 export type DeploymentZone = 'on-prem' | 'private-cloud' | 'edge' | 'air-gapped';
 
@@ -245,14 +260,86 @@ export interface ThreatIntelligence {
 // =============================================================================
 
 const EXECUTIVES: AIExecutive[] = [
-  { id: 'exec-cfo', role: 'cfo', name: 'Alexandra Chen', title: 'Chief Financial Officer', avatar: '💰', personality: 'Analytical, risk-aware', specialties: ['Financial Planning', 'Risk Management'], status: 'idle' },
-  { id: 'exec-cro', role: 'cro', name: 'Marcus Williams', title: 'Chief Revenue Officer', avatar: '📈', personality: 'Growth-oriented', specialties: ['Sales Strategy', 'Pipeline'], status: 'idle' },
-  { id: 'exec-ciso', role: 'ciso', name: 'Sarah Patel', title: 'Chief Information Security Officer', avatar: '🔐', personality: 'Vigilant, thorough', specialties: ['Cybersecurity', 'Compliance'], status: 'idle' },
-  { id: 'exec-chro', role: 'chro', name: 'David Thompson', title: 'Chief Human Resources Officer', avatar: '👥', personality: 'Empathetic, people-first', specialties: ['Talent', 'Culture'], status: 'idle' },
-  { id: 'exec-clo', role: 'clo', name: 'Jennifer Kim', title: 'Chief Legal Officer', avatar: '⚖️', personality: 'Precise, cautious', specialties: ['Corporate Law', 'Compliance'], status: 'idle' },
-  { id: 'exec-coo', role: 'coo', name: 'Robert Martinez', title: 'Chief Operating Officer', avatar: '⚙️', personality: 'Efficient, process-driven', specialties: ['Operations', 'Supply Chain'], status: 'idle' },
-  { id: 'exec-cpo', role: 'cpo', name: 'Emily Zhang', title: 'Chief Product Officer', avatar: '🎯', personality: 'Innovative, user-centric', specialties: ['Product Strategy', 'UX'], status: 'idle' },
-  { id: 'exec-cmo', role: 'cmo', name: 'Michael Torres', title: 'Chief Marketing Officer', avatar: '📣', personality: 'Creative, data-driven', specialties: ['Brand', 'Growth Marketing'], status: 'idle' },
+  {
+    id: 'exec-cfo',
+    role: 'cfo',
+    name: 'Alexandra Chen',
+    title: 'Chief Financial Officer',
+    avatar: '💰',
+    personality: 'Analytical, risk-aware',
+    specialties: ['Financial Planning', 'Risk Management'],
+    status: 'idle',
+  },
+  {
+    id: 'exec-cro',
+    role: 'cro',
+    name: 'Marcus Williams',
+    title: 'Chief Revenue Officer',
+    avatar: '📈',
+    personality: 'Growth-oriented',
+    specialties: ['Sales Strategy', 'Pipeline'],
+    status: 'idle',
+  },
+  {
+    id: 'exec-ciso',
+    role: 'ciso',
+    name: 'Sarah Patel',
+    title: 'Chief Information Security Officer',
+    avatar: '🔐',
+    personality: 'Vigilant, thorough',
+    specialties: ['Cybersecurity', 'Compliance'],
+    status: 'idle',
+  },
+  {
+    id: 'exec-chro',
+    role: 'chro',
+    name: 'David Thompson',
+    title: 'Chief Human Resources Officer',
+    avatar: '👥',
+    personality: 'Empathetic, people-first',
+    specialties: ['Talent', 'Culture'],
+    status: 'idle',
+  },
+  {
+    id: 'exec-clo',
+    role: 'clo',
+    name: 'Jennifer Kim',
+    title: 'Chief Legal Officer',
+    avatar: '⚖️',
+    personality: 'Precise, cautious',
+    specialties: ['Corporate Law', 'Compliance'],
+    status: 'idle',
+  },
+  {
+    id: 'exec-coo',
+    role: 'coo',
+    name: 'Robert Martinez',
+    title: 'Chief Operating Officer',
+    avatar: '⚙️',
+    personality: 'Efficient, process-driven',
+    specialties: ['Operations', 'Supply Chain'],
+    status: 'idle',
+  },
+  {
+    id: 'exec-cpo',
+    role: 'cpo',
+    name: 'Emily Zhang',
+    title: 'Chief Product Officer',
+    avatar: '🎯',
+    personality: 'Innovative, user-centric',
+    specialties: ['Product Strategy', 'UX'],
+    status: 'idle',
+  },
+  {
+    id: 'exec-cmo',
+    role: 'cmo',
+    name: 'Michael Torres',
+    title: 'Chief Marketing Officer',
+    avatar: '📣',
+    personality: 'Creative, data-driven',
+    specialties: ['Brand', 'Growth Marketing'],
+    status: 'idle',
+  },
 ];
 
 const CATEGORY_CONFIG: Record<DecisionCategory, { icon: string; color: string; name: string }> = {
@@ -334,7 +421,9 @@ class EnterpriseService {
   // ---------------------------------------------------------------------------
 
   private initializeDefaultData(): void {
-    if (this.autoDecisions.size > 0 && this.gpuNodes.size > 0) {return;}
+    if (this.autoDecisions.size > 0 && this.gpuNodes.size > 0) {
+      return;
+    }
 
     // Initialize Autopilot decisions
     this.createAutoDecision({
@@ -343,7 +432,12 @@ class EnterpriseService {
       category: 'financial',
       priority: 'high',
       automationLevel: 'approval-required',
-      trigger: { condition: 'Revenue below forecast', metric: 'quarterly_revenue', threshold: -3, currentValue: -3.2 },
+      trigger: {
+        condition: 'Revenue below forecast',
+        metric: 'quarterly_revenue',
+        threshold: -3,
+        currentValue: -3.2,
+      },
       recommendation: 'Reduce discretionary spending by 2% ($450K)',
     });
 
@@ -353,13 +447,18 @@ class EnterpriseService {
       category: 'technology',
       priority: 'medium',
       automationLevel: 'approval-required',
-      trigger: { condition: 'Cloud cost increase', metric: 'cloud_spend', threshold: 15, currentValue: 18 },
+      trigger: {
+        condition: 'Cloud cost increase',
+        metric: 'cloud_spend',
+        threshold: 15,
+        currentValue: 18,
+      },
       recommendation: 'Migrate identified workloads to on-premise infrastructure',
     });
 
     // Initialize GPU nodes (simulating real Ollama connection)
     const ollamaStatus = ollamaService.getStatus();
-    
+
     this.createGPUNode({
       name: 'Sovereign-Primary-01',
       hostname: 'localhost',
@@ -372,20 +471,33 @@ class EnterpriseService {
     });
 
     // Initialize models based on actual Ollama models
-    ollamaStatus.models.forEach(model => {
+    ollamaStatus.models.forEach((model) => {
       this.createDeployedModel({
         name: model,
-        family: model.includes('llama') ? 'llama' : model.includes('mistral') ? 'mistral' : model.includes('qwen') ? 'qwen' : 'custom',
+        family: model.includes('llama')
+          ? 'llama'
+          : model.includes('mistral')
+            ? 'mistral'
+            : model.includes('qwen')
+              ? 'qwen'
+              : 'custom',
         status: 'active',
         complianceStatus: 'approved',
       });
     });
 
     // Initialize integrations
-    ['Salesforce', 'SAP', 'Workday', 'Jira', 'Slack'].forEach(name => {
+    ['Salesforce', 'SAP', 'Workday', 'Jira', 'Slack'].forEach((name) => {
       this.createIntegration({
         name,
-        type: name === 'Salesforce' ? 'crm' : name === 'SAP' ? 'erp' : name === 'Workday' ? 'hris' : 'communication',
+        type:
+          name === 'Salesforce'
+            ? 'crm'
+            : name === 'SAP'
+              ? 'erp'
+              : name === 'Workday'
+                ? 'hris'
+                : 'communication',
         status: 'connected',
         health: 95 + Math.floor(Math.random() * 5),
       });
@@ -409,8 +521,8 @@ class EnterpriseService {
   // ---------------------------------------------------------------------------
 
   getAutoDecisions(): AutoDecision[] {
-    return Array.from(this.autoDecisions.values()).sort((a, b) => 
-      b.createdAt.getTime() - a.createdAt.getTime()
+    return Array.from(this.autoDecisions.values()).sort(
+      (a, b) => b.createdAt.getTime() - a.createdAt.getTime()
     );
   }
 
@@ -448,7 +560,9 @@ class EnterpriseService {
 
   approveAutoDecision(id: string, approver: string): AutoDecision | null {
     const decision = this.autoDecisions.get(id);
-    if (!decision) {return null;}
+    if (!decision) {
+      return null;
+    }
 
     decision.status = 'approved';
     decision.approvedBy = approver;
@@ -459,7 +573,9 @@ class EnterpriseService {
 
   rejectAutoDecision(id: string): AutoDecision | null {
     const decision = this.autoDecisions.get(id);
-    if (!decision) {return null;}
+    if (!decision) {
+      return null;
+    }
 
     decision.status = 'rejected';
     this.saveToStorage();
@@ -468,18 +584,24 @@ class EnterpriseService {
 
   getSystemHealth(): SystemHealth {
     const decisions = this.getAutoDecisions();
-    const pending = decisions.filter(d => d.status === 'pending').length;
-    const autoExecuted = decisions.filter(d => d.status === 'auto-executed' && 
-      new Date(d.executedAt || 0).toDateString() === new Date().toDateString()).length;
-    const humanApproved = decisions.filter(d => d.status === 'approved' &&
-      new Date(d.approvedAt || 0).toDateString() === new Date().toDateString()).length;
-    const escalated = decisions.filter(d => d.status === 'escalated').length;
+    const pending = decisions.filter((d) => d.status === 'pending').length;
+    const autoExecuted = decisions.filter(
+      (d) =>
+        d.status === 'auto-executed' &&
+        new Date(d.executedAt || 0).toDateString() === new Date().toDateString()
+    ).length;
+    const humanApproved = decisions.filter(
+      (d) =>
+        d.status === 'approved' &&
+        new Date(d.approvedAt || 0).toDateString() === new Date().toDateString()
+    ).length;
+    const escalated = decisions.filter((d) => d.status === 'escalated').length;
 
-    const categories = Object.keys(CATEGORY_CONFIG).map(cat => ({
+    const categories = Object.keys(CATEGORY_CONFIG).map((cat) => ({
       category: cat as DecisionCategory,
       score: 75 + Math.floor(Math.random() * 20),
       trend: ['up', 'down', 'stable'][Math.floor(Math.random() * 3)] as 'up' | 'down' | 'stable',
-      activeDecisions: decisions.filter(d => d.category === cat && d.status === 'pending').length,
+      activeDecisions: decisions.filter((d) => d.category === cat && d.status === 'pending').length,
     }));
 
     return {
@@ -567,7 +689,7 @@ class EnterpriseService {
   getClusterMetrics(): ClusterMetrics {
     const nodes = this.getGPUNodes();
     const models = this.getDeployedModels();
-    const onlineNodes = nodes.filter(n => n.status === 'online');
+    const onlineNodes = nodes.filter((n) => n.status === 'online');
 
     return {
       totalNodes: nodes.length,
@@ -577,21 +699,22 @@ class EnterpriseService {
       totalVRAM: nodes.reduce((s, n) => s + n.totalVRAM, 0),
       usedVRAM: nodes.reduce((s, n) => s + n.usedVRAM, 0),
       totalModels: models.length,
-      activeModels: models.filter(m => m.status === 'active').length,
+      activeModels: models.filter((m) => m.status === 'active').length,
       requestsPerSecond: onlineNodes.reduce((s, n) => s + n.requestsPerSecond, 0),
-      avgLatency: onlineNodes.length > 0 
-        ? onlineNodes.reduce((s, n) => s + n.avgLatency, 0) / onlineNodes.length 
-        : 0,
-      tokensPerSecond: models.reduce((s, m) => s + (m.tokensGenerated / 3600), 0),
+      avgLatency:
+        onlineNodes.length > 0
+          ? onlineNodes.reduce((s, n) => s + n.avgLatency, 0) / onlineNodes.length
+          : 0,
+      tokensPerSecond: models.reduce((s, m) => s + m.tokensGenerated / 3600, 0),
       powerConsumption: nodes.reduce((s, n) => s + n.powerDraw, 0),
-      costPerHour: nodes.reduce((s, n) => s + (n.powerDraw * 0.12 / 1000), 0),
+      costPerHour: nodes.reduce((s, n) => s + (n.powerDraw * 0.12) / 1000, 0),
       uptime: 99.9,
     };
   }
 
   refreshOllamaStatus(): void {
     const status = ollamaService.getStatus();
-    
+
     // Update nodes
     const nodes = this.getGPUNodes();
     if (nodes.length > 0) {
@@ -603,8 +726,8 @@ class EnterpriseService {
     }
 
     // Update models
-    status.models.forEach(modelName => {
-      if (!Array.from(this.deployedModels.values()).find(m => m.name === modelName)) {
+    status.models.forEach((modelName) => {
+      if (!Array.from(this.deployedModels.values()).find((m) => m.name === modelName)) {
         this.createDeployedModel({ name: modelName, status: 'active' });
       }
     });
@@ -638,8 +761,8 @@ class EnterpriseService {
     this.voiceMessages.push(userMessage);
 
     const responses: VoiceMessage[] = [userMessage];
-    const executives = targetExecutive 
-      ? EXECUTIVES.filter(e => e.role === targetExecutive)
+    const executives = targetExecutive
+      ? EXECUTIVES.filter((e) => e.role === targetExecutive)
       : EXECUTIVES.slice(0, 3); // Top 3 relevant executives
 
     for (const exec of executives) {
@@ -682,23 +805,30 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
   private getDefaultExecutiveResponse(exec: AIExecutive, query: string): string {
     const responses: Record<ExecutiveRole, Record<string, string>> = {
       cfo: {
-        default: 'From a financial perspective, we need to analyze the cost-benefit ratio and ensure alignment with our quarterly targets.',
-        budget: 'I recommend a thorough review of our current allocations before committing additional resources.',
+        default:
+          'From a financial perspective, we need to analyze the cost-benefit ratio and ensure alignment with our quarterly targets.',
+        budget:
+          'I recommend a thorough review of our current allocations before committing additional resources.',
       },
       cro: {
-        default: 'This could significantly impact our revenue pipeline. Let me review the customer impact.',
-        sales: 'Our sales team is well-positioned to execute on this if we align resources properly.',
+        default:
+          'This could significantly impact our revenue pipeline. Let me review the customer impact.',
+        sales:
+          'Our sales team is well-positioned to execute on this if we align resources properly.',
       },
       ciso: {
-        default: 'Security implications are critical here. We should conduct a risk assessment before proceeding.',
-        security: 'I recommend implementing additional controls and monitoring before moving forward.',
+        default:
+          'Security implications are critical here. We should conduct a risk assessment before proceeding.',
+        security:
+          'I recommend implementing additional controls and monitoring before moving forward.',
       },
       chro: {
         default: 'We should consider the employee impact and ensure proper change management.',
-        hiring: 'Our talent acquisition team can support this initiative with the right prioritization.',
+        hiring:
+          'Our talent acquisition team can support this initiative with the right prioritization.',
       },
       clo: {
-        default: 'Legal review is essential. I\'ll flag any compliance or contractual concerns.',
+        default: "Legal review is essential. I'll flag any compliance or contractual concerns.",
         contract: 'There are several clauses we should negotiate before finalizing.',
       },
       coo: {
@@ -706,7 +836,7 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
         process: 'Let me map out the implementation timeline and resource requirements.',
       },
       cpo: {
-        default: 'From a product standpoint, this aligns with customer feedback we\'ve received.',
+        default: "From a product standpoint, this aligns with customer feedback we've received.",
         product: 'I recommend validating with our key customers before full rollout.',
       },
       cmo: {
@@ -717,7 +847,7 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
 
     const roleResponses = responses[exec.role];
     const lowerQuery = query.toLowerCase();
-    
+
     for (const [key, response] of Object.entries(roleResponses)) {
       if (key !== 'default' && lowerQuery.includes(key)) {
         return response;
@@ -728,9 +858,15 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
 
   private analyzeSentiment(text: string): 'positive' | 'neutral' | 'cautious' | 'warning' {
     const lower = text.toLowerCase();
-    if (lower.includes('risk') || lower.includes('concern') || lower.includes('caution')) {return 'cautious';}
-    if (lower.includes('critical') || lower.includes('urgent') || lower.includes('warning')) {return 'warning';}
-    if (lower.includes('opportunity') || lower.includes('recommend') || lower.includes('support')) {return 'positive';}
+    if (lower.includes('risk') || lower.includes('concern') || lower.includes('caution')) {
+      return 'cautious';
+    }
+    if (lower.includes('critical') || lower.includes('urgent') || lower.includes('warning')) {
+      return 'warning';
+    }
+    if (lower.includes('opportunity') || lower.includes('recommend') || lower.includes('support')) {
+      return 'positive';
+    }
     return 'neutral';
   }
 
@@ -767,7 +903,9 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
 
   syncIntegration(id: string): Integration | null {
     const integration = this.integrations.get(id);
-    if (!integration) {return null;}
+    if (!integration) {
+      return null;
+    }
 
     integration.status = 'syncing';
     this.integrations.set(id, integration);
@@ -818,8 +956,8 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
   // ---------------------------------------------------------------------------
 
   getSecurityAlerts(): SecurityAlert[] {
-    return Array.from(this.securityAlerts.values()).sort((a, b) => 
-      b.timestamp.getTime() - a.timestamp.getTime()
+    return Array.from(this.securityAlerts.values()).sort(
+      (a, b) => b.timestamp.getTime() - a.timestamp.getTime()
     );
   }
 
@@ -844,7 +982,9 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
 
   resolveAlert(id: string): SecurityAlert | null {
     const alert = this.securityAlerts.get(id);
-    if (!alert) {return null;}
+    if (!alert) {
+      return null;
+    }
 
     alert.status = 'resolved';
     this.saveToStorage();
@@ -863,10 +1003,12 @@ Respond to this query from the CEO in a concise, professional manner (2-3 senten
 
     return {
       totalAlerts: alerts.length,
-      openAlerts: alerts.filter(a => a.status === 'open').length,
-      criticalAlerts: alerts.filter(a => a.severity === 'critical' && a.status === 'open').length,
-      resolvedToday: alerts.filter(a => a.status === 'resolved' && a.timestamp.toDateString() === today).length,
-      threatScore: Math.max(0, 100 - (alerts.filter(a => a.status === 'open').length * 5)),
+      openAlerts: alerts.filter((a) => a.status === 'open').length,
+      criticalAlerts: alerts.filter((a) => a.severity === 'critical' && a.status === 'open').length,
+      resolvedToday: alerts.filter(
+        (a) => a.status === 'resolved' && a.timestamp.toDateString() === today
+      ).length,
+      threatScore: Math.max(0, 100 - alerts.filter((a) => a.status === 'open').length * 5),
     };
   }
 }
@@ -890,13 +1032,27 @@ class VoiceSynthesisService {
   }
 
   private loadVoices(): void {
-    if (!this.synth) {return;}
+    if (!this.synth) {
+      return;
+    }
     this.voices = this.synth.getVoices();
-    
+
     // Map executives to distinct voices
-    const femaleVoices = this.voices.filter(v => v.name.includes('Female') || v.name.includes('Samantha') || v.name.includes('Victoria') || v.name.includes('Karen'));
-    const maleVoices = this.voices.filter(v => v.name.includes('Male') || v.name.includes('Daniel') || v.name.includes('Alex') || v.name.includes('David'));
-    
+    const femaleVoices = this.voices.filter(
+      (v) =>
+        v.name.includes('Female') ||
+        v.name.includes('Samantha') ||
+        v.name.includes('Victoria') ||
+        v.name.includes('Karen')
+    );
+    const maleVoices = this.voices.filter(
+      (v) =>
+        v.name.includes('Male') ||
+        v.name.includes('Daniel') ||
+        v.name.includes('Alex') ||
+        v.name.includes('David')
+    );
+
     // Assign voices to executives for distinct personalities
     this.executiveVoices.set('cfo', femaleVoices[0] || this.voices[0] || null);
     this.executiveVoices.set('cro', maleVoices[0] || this.voices[1] || null);
@@ -927,11 +1083,13 @@ class VoiceSynthesisService {
       this.synth.cancel();
 
       const utterance = new SpeechSynthesisUtterance(text);
-      
+
       // Use executive-specific voice if available
       if (executive) {
         const voice = this.executiveVoices.get(executive);
-        if (voice) {utterance.voice = voice;}
+        if (voice) {
+          utterance.voice = voice;
+        }
       }
 
       // Professional speaking rate and pitch

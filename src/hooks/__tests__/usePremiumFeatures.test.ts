@@ -39,15 +39,15 @@ vi.mock('../../data/premiumFeatures', () => ({
     { id: 'unlimited-team', name: 'Unlimited Team' },
   ],
   PREMIUM_BUNDLES: [
-    { 
-      id: 'enterprise-bundle', 
+    {
+      id: 'enterprise-bundle',
       name: 'Enterprise Bundle',
-      includedFeatures: ['audit-excellence', 'api-access', 'team-collaboration']
+      includedFeatures: ['audit-excellence', 'api-access', 'team-collaboration'],
     },
     {
       id: 'healthcare-bundle',
       name: 'Healthcare Bundle',
-      includedFeatures: ['healthcare-pack', 'audit-excellence']
+      includedFeatures: ['healthcare-pack', 'audit-excellence'],
     },
   ],
   getFeatureById: vi.fn((id: string) => {
@@ -64,15 +64,15 @@ vi.mock('../../data/premiumFeatures', () => ({
   }),
   getBundleById: vi.fn((id: string) => {
     const bundles: Record<string, any> = {
-      'enterprise-bundle': { 
-        id: 'enterprise-bundle', 
+      'enterprise-bundle': {
+        id: 'enterprise-bundle',
         name: 'Enterprise Bundle',
-        includedFeatures: ['audit-excellence', 'api-access', 'team-collaboration']
+        includedFeatures: ['audit-excellence', 'api-access', 'team-collaboration'],
       },
       'healthcare-bundle': {
         id: 'healthcare-bundle',
         name: 'Healthcare Bundle',
-        includedFeatures: ['healthcare-pack', 'audit-excellence']
+        includedFeatures: ['healthcare-pack', 'audit-excellence'],
       },
     };
     return bundles[id];
@@ -92,19 +92,21 @@ describe('usePremiumFeatures', () => {
   describe('initial state', () => {
     it('should start with empty purchased features', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.purchasedFeatures).toEqual([]);
       expect(result.current.purchasedBundles).toEqual([]);
     });
 
     it('should load state from localStorage', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['audit-excellence'],
-        purchasedBundles: [],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['audit-excellence'],
+          purchasedBundles: [],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.purchasedFeatures).toContain('audit-excellence');
     });
 
@@ -112,37 +114,41 @@ describe('usePremiumFeatures', () => {
       localStorageMock.getItem.mockReturnValueOnce('invalid json');
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.purchasedFeatures).toEqual([]);
     });
   });
 
   describe('hasFeature', () => {
     it('should return true for purchased feature', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['audit-excellence'],
-        purchasedBundles: [],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['audit-excellence'],
+          purchasedBundles: [],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasFeature('audit-excellence')).toBe(true);
     });
 
     it('should return false for unpurchased feature', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasFeature('audit-excellence')).toBe(false);
     });
 
     it('should return true for feature included in purchased bundle', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: [],
-        purchasedBundles: ['enterprise-bundle'],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: [],
+          purchasedBundles: ['enterprise-bundle'],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasFeature('audit-excellence')).toBe(true);
       expect(result.current.hasFeature('api-access')).toBe(true);
     });
@@ -151,24 +157,26 @@ describe('usePremiumFeatures', () => {
   describe('hasAgentAccess', () => {
     it('should return true for non-premium agents', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasAgentAccess('agent-strategist')).toBe(true);
     });
 
     it('should return false for premium agent without feature', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasAgentAccess('agent-ext-auditor')).toBe(false);
     });
 
     it('should return true for premium agent with feature', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['audit-excellence'],
-        purchasedBundles: [],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['audit-excellence'],
+          purchasedBundles: [],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasAgentAccess('agent-ext-auditor')).toBe(true);
     });
   });
@@ -176,13 +184,13 @@ describe('usePremiumFeatures', () => {
   describe('getAgentRequiredFeature', () => {
     it('should return undefined for non-premium agent', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.getAgentRequiredFeature('agent-strategist')).toBeUndefined();
     });
 
     it('should return feature for premium agent', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       const feature = result.current.getAgentRequiredFeature('agent-ext-auditor');
       expect(feature?.id).toBe('audit-excellence');
     });
@@ -191,32 +199,34 @@ describe('usePremiumFeatures', () => {
   describe('purchaseFeature', () => {
     it('should add feature to purchased list', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       act(() => {
         result.current.purchaseFeature('audit-excellence');
       });
-      
+
       expect(result.current.purchasedFeatures).toContain('audit-excellence');
     });
 
     it('should not duplicate features', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       act(() => {
         result.current.purchaseFeature('audit-excellence');
         result.current.purchaseFeature('audit-excellence');
       });
-      
-      expect(result.current.purchasedFeatures.filter(f => f === 'audit-excellence')).toHaveLength(1);
+
+      expect(result.current.purchasedFeatures.filter((f) => f === 'audit-excellence')).toHaveLength(
+        1
+      );
     });
 
     it('should persist to localStorage', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       act(() => {
         result.current.purchaseFeature('audit-excellence');
       });
-      
+
       expect(localStorageMock.setItem).toHaveBeenCalled();
     });
   });
@@ -224,11 +234,11 @@ describe('usePremiumFeatures', () => {
   describe('purchaseBundle', () => {
     it('should add bundle and its features', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       act(() => {
         result.current.purchaseBundle('enterprise-bundle');
       });
-      
+
       expect(result.current.purchasedBundles).toContain('enterprise-bundle');
       expect(result.current.purchasedFeatures).toContain('audit-excellence');
       expect(result.current.purchasedFeatures).toContain('api-access');
@@ -237,24 +247,26 @@ describe('usePremiumFeatures', () => {
 
     it('should handle invalid bundle gracefully', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       act(() => {
         result.current.purchaseBundle('invalid-bundle');
       });
-      
+
       expect(result.current.purchasedBundles).not.toContain('invalid-bundle');
     });
   });
 
   describe('getUnlockedFeatures', () => {
     it('should return all unlocked features', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['finance-pack'],
-        purchasedBundles: ['enterprise-bundle'],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['finance-pack'],
+          purchasedBundles: ['enterprise-bundle'],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       const unlocked = result.current.getUnlockedFeatures();
       expect(unlocked).toContain('finance-pack');
       expect(unlocked).toContain('audit-excellence');
@@ -262,33 +274,37 @@ describe('usePremiumFeatures', () => {
     });
 
     it('should not have duplicates', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['audit-excellence'],
-        purchasedBundles: ['enterprise-bundle'],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['audit-excellence'],
+          purchasedBundles: ['enterprise-bundle'],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       const unlocked = result.current.getUnlockedFeatures();
-      expect(unlocked.filter(f => f === 'audit-excellence')).toHaveLength(1);
+      expect(unlocked.filter((f) => f === 'audit-excellence')).toHaveLength(1);
     });
   });
 
   describe('canCreateCustomAgents', () => {
     it('should return false without agent-builder', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.canCreateCustomAgents()).toBe(false);
     });
 
     it('should return true with agent-builder', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['agent-builder'],
-        purchasedBundles: [],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['agent-builder'],
+          purchasedBundles: [],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.canCreateCustomAgents()).toBe(true);
     });
   });
@@ -296,18 +312,20 @@ describe('usePremiumFeatures', () => {
   describe('hasApiAccess', () => {
     it('should return false without api-access', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasApiAccess()).toBe(false);
     });
 
     it('should return true with api-access', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['api-access'],
-        purchasedBundles: [],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['api-access'],
+          purchasedBundles: [],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasApiAccess()).toBe(true);
     });
   });
@@ -315,46 +333,52 @@ describe('usePremiumFeatures', () => {
   describe('hasTeamFeatures', () => {
     it('should return false without team features', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasTeamFeatures()).toBe(false);
     });
 
     it('should return true with team-collaboration', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['team-collaboration'],
-        purchasedBundles: [],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['team-collaboration'],
+          purchasedBundles: [],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasTeamFeatures()).toBe(true);
     });
 
     it('should return true with unlimited-team', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['unlimited-team'],
-        purchasedBundles: [],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['unlimited-team'],
+          purchasedBundles: [],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       expect(result.current.hasTeamFeatures()).toBe(true);
     });
   });
 
   describe('resetPurchases', () => {
     it('should clear all purchases', () => {
-      localStorageMock.getItem.mockReturnValueOnce(JSON.stringify({
-        purchasedFeatures: ['audit-excellence', 'api-access'],
-        purchasedBundles: ['enterprise-bundle'],
-      }));
+      localStorageMock.getItem.mockReturnValueOnce(
+        JSON.stringify({
+          purchasedFeatures: ['audit-excellence', 'api-access'],
+          purchasedBundles: ['enterprise-bundle'],
+        })
+      );
 
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       act(() => {
         result.current.resetPurchases();
       });
-      
+
       expect(result.current.purchasedFeatures).toEqual([]);
       expect(result.current.purchasedBundles).toEqual([]);
     });
@@ -363,11 +387,11 @@ describe('usePremiumFeatures', () => {
   describe('unlockAll', () => {
     it('should unlock all features and bundles', () => {
       const { result } = renderHook(() => usePremiumFeatures());
-      
+
       act(() => {
         result.current.unlockAll();
       });
-      
+
       expect(result.current.purchasedFeatures.length).toBeGreaterThan(0);
       expect(result.current.purchasedBundles.length).toBeGreaterThan(0);
     });

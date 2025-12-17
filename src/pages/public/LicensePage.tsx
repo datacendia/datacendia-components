@@ -122,10 +122,19 @@ export const LicensePage: React.FC = () => {
             <span className="text-xl font-bold text-neutral-900">Datacendia</span>
           </Link>
           <nav className="flex items-center gap-6">
-            <Link to="/product" className="text-neutral-600 hover:text-neutral-900">Product</Link>
-            <Link to="/pricing" className="text-neutral-600 hover:text-neutral-900">Pricing</Link>
-            <Link to="/downloads" className="text-neutral-600 hover:text-neutral-900">Downloads</Link>
-            <Link to="/login" className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700">
+            <Link to="/product" className="text-neutral-600 hover:text-neutral-900">
+              Product
+            </Link>
+            <Link to="/pricing" className="text-neutral-600 hover:text-neutral-900">
+              Pricing
+            </Link>
+            <Link to="/downloads" className="text-neutral-600 hover:text-neutral-900">
+              Downloads
+            </Link>
+            <Link
+              to="/login"
+              className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+            >
               Sign In
             </Link>
           </nav>
@@ -224,26 +233,40 @@ export const LicensePage: React.FC = () => {
 
                 <div className="prose prose-neutral max-w-none space-y-6">
                   <section>
-                    <h3 className="text-lg font-semibold text-neutral-900">1. Acceptance of Terms</h3>
+                    <h3 className="text-lg font-semibold text-neutral-900">
+                      1. Acceptance of Terms
+                    </h3>
                     <p className="text-neutral-600">
-                      By downloading, installing, or using Datacendia software ("Software"), you agree to be bound 
-                      by the terms of this End User License Agreement ("Agreement"). If you do not agree to these 
-                      terms, do not download, install, or use the Software.
+                      By downloading, installing, or using Datacendia software ("Software"), you
+                      agree to be bound by the terms of this End User License Agreement
+                      ("Agreement"). If you do not agree to these terms, do not download, install,
+                      or use the Software.
                     </p>
                   </section>
 
                   <section>
                     <h3 className="text-lg font-semibold text-neutral-900">2. Grant of License</h3>
                     <p className="text-neutral-600">
-                      Subject to the terms of this Agreement and payment of applicable fees, Datacendia grants you 
-                      a non-exclusive, non-transferable, limited license to use the Software in accordance with 
-                      your purchased license tier.
+                      Subject to the terms of this Agreement and payment of applicable fees,
+                      Datacendia grants you a non-exclusive, non-transferable, limited license to
+                      use the Software in accordance with your purchased license tier.
                     </p>
                     <ul className="list-disc pl-6 text-neutral-600 mt-2">
-                      <li><strong>Enterprise License:</strong> Permits use by unlimited users within your organization.</li>
-                      <li><strong>Commercial License:</strong> Permits use by the number of users specified in your order.</li>
-                      <li><strong>Academic License:</strong> Permits use for non-commercial educational purposes only.</li>
-                      <li><strong>Open Source License:</strong> Subject to AGPL-3.0 terms.</li>
+                      <li>
+                        <strong>Enterprise License:</strong> Permits use by unlimited users within
+                        your organization.
+                      </li>
+                      <li>
+                        <strong>Commercial License:</strong> Permits use by the number of users
+                        specified in your order.
+                      </li>
+                      <li>
+                        <strong>Academic License:</strong> Permits use for non-commercial
+                        educational purposes only.
+                      </li>
+                      <li>
+                        <strong>Open Source License:</strong> Subject to AGPL-3.0 terms.
+                      </li>
                     </ul>
                   </section>
 
@@ -252,7 +275,9 @@ export const LicensePage: React.FC = () => {
                     <p className="text-neutral-600">You may not:</p>
                     <ul className="list-disc pl-6 text-neutral-600 mt-2">
                       <li>Sublicense, sell, resell, or transfer the Software</li>
-                      <li>Modify, adapt, or create derivative works (except under Open Source License)</li>
+                      <li>
+                        Modify, adapt, or create derivative works (except under Open Source License)
+                      </li>
                       <li>Reverse engineer, decompile, or disassemble the Software</li>
                       <li>Remove any proprietary notices or labels</li>
                       <li>Use the Software for any unlawful purpose</li>
@@ -261,81 +286,99 @@ export const LicensePage: React.FC = () => {
                   </section>
 
                   <section>
-                    <h3 className="text-lg font-semibold text-neutral-900">4. Intellectual Property</h3>
+                    <h3 className="text-lg font-semibold text-neutral-900">
+                      4. Intellectual Property
+                    </h3>
                     <p className="text-neutral-600">
-                      Datacendia and its licensors retain all intellectual property rights in the Software. 
-                      This Agreement does not grant you any rights to trademarks or service marks of Datacendia.
+                      Datacendia and its licensors retain all intellectual property rights in the
+                      Software. This Agreement does not grant you any rights to trademarks or
+                      service marks of Datacendia.
                     </p>
                   </section>
 
                   <section>
                     <h3 className="text-lg font-semibold text-neutral-900">5. Data Privacy</h3>
                     <p className="text-neutral-600">
-                      Datacendia processes data in accordance with our Privacy Policy. For self-hosted deployments, 
-                      you retain full control over your data. For cloud deployments, data is processed in accordance 
-                      with our Data Processing Agreement.
+                      Datacendia processes data in accordance with our Privacy Policy. For
+                      self-hosted deployments, you retain full control over your data. For cloud
+                      deployments, data is processed in accordance with our Data Processing
+                      Agreement.
                     </p>
                   </section>
 
                   <section>
-                    <h3 className="text-lg font-semibold text-neutral-900">6. Support and Maintenance</h3>
+                    <h3 className="text-lg font-semibold text-neutral-900">
+                      6. Support and Maintenance
+                    </h3>
                     <p className="text-neutral-600">
-                      Support and maintenance terms vary by license tier. Enterprise and Commercial licenses 
-                      include software updates and support as specified in your service agreement.
+                      Support and maintenance terms vary by license tier. Enterprise and Commercial
+                      licenses include software updates and support as specified in your service
+                      agreement.
                     </p>
                   </section>
 
                   <section>
-                    <h3 className="text-lg font-semibold text-neutral-900">7. Warranty Disclaimer</h3>
+                    <h3 className="text-lg font-semibold text-neutral-900">
+                      7. Warranty Disclaimer
+                    </h3>
                     <p className="text-neutral-600">
-                      THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
-                      INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
-                      PURPOSE, AND NONINFRINGEMENT.
+                      THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                      IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+                      FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
                     </p>
                   </section>
 
                   <section>
-                    <h3 className="text-lg font-semibold text-neutral-900">8. Limitation of Liability</h3>
+                    <h3 className="text-lg font-semibold text-neutral-900">
+                      8. Limitation of Liability
+                    </h3>
                     <p className="text-neutral-600">
-                      IN NO EVENT SHALL DATACENDIA BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, 
-                      CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT, 
-                      REGARDLESS OF WHETHER SUCH DAMAGES ARE BASED ON WARRANTY, CONTRACT, TORT, STRICT 
-                      LIABILITY, OR ANY OTHER THEORY.
+                      IN NO EVENT SHALL DATACENDIA BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+                      CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATED TO THIS
+                      AGREEMENT, REGARDLESS OF WHETHER SUCH DAMAGES ARE BASED ON WARRANTY, CONTRACT,
+                      TORT, STRICT LIABILITY, OR ANY OTHER THEORY.
                     </p>
                   </section>
 
                   <section>
                     <h3 className="text-lg font-semibold text-neutral-900">9. Termination</h3>
                     <p className="text-neutral-600">
-                      This Agreement is effective until terminated. Your license rights terminate automatically 
-                      if you fail to comply with any term of this Agreement. Upon termination, you must destroy 
-                      all copies of the Software.
+                      This Agreement is effective until terminated. Your license rights terminate
+                      automatically if you fail to comply with any term of this Agreement. Upon
+                      termination, you must destroy all copies of the Software.
                     </p>
                   </section>
 
                   <section>
                     <h3 className="text-lg font-semibold text-neutral-900">10. Governing Law</h3>
                     <p className="text-neutral-600">
-                      This Agreement shall be governed by the laws of the State of Delaware, United States, 
-                      without regard to its conflict of laws provisions.
+                      This Agreement shall be governed by the laws of the State of Delaware, United
+                      States, without regard to its conflict of laws provisions.
                     </p>
                   </section>
 
                   <section>
-                    <h3 className="text-lg font-semibold text-neutral-900">11. Export Compliance</h3>
+                    <h3 className="text-lg font-semibold text-neutral-900">
+                      11. Export Compliance
+                    </h3>
                     <p className="text-neutral-600">
-                      You agree to comply with all applicable export control laws and regulations. The Software 
-                      may not be exported to countries subject to U.S. sanctions or to individuals on restricted 
-                      party lists.
+                      You agree to comply with all applicable export control laws and regulations.
+                      The Software may not be exported to countries subject to U.S. sanctions or to
+                      individuals on restricted party lists.
                     </p>
                   </section>
 
                   <section>
-                    <h3 className="text-lg font-semibold text-neutral-900">12. Contact Information</h3>
+                    <h3 className="text-lg font-semibold text-neutral-900">
+                      12. Contact Information
+                    </h3>
                     <p className="text-neutral-600">
-                      For questions about this Agreement, please contact:<br />
-                      Datacendia Legal<br />
-                      Email: legal@datacendia.com<br />
+                      For questions about this Agreement, please contact:
+                      <br />
+                      Datacendia Legal
+                      <br />
+                      Email: legal@datacendia.com
+                      <br />
                       Address: 100 Enterprise Way, Suite 500, San Francisco, CA 94105
                     </p>
                   </section>
@@ -357,30 +400,95 @@ export const LicensePage: React.FC = () => {
                   Third-Party Software Licenses
                 </h2>
                 <p className="text-neutral-600 mb-8">
-                  Datacendia incorporates the following open source components. We are grateful to 
+                  Datacendia incorporates the following open source components. We are grateful to
                   the open source community for their contributions.
                 </p>
 
                 <div className="space-y-6">
                   {[
                     { name: 'React', version: '18.2.0', license: 'MIT', url: 'https://react.dev' },
-                    { name: 'TypeScript', version: '5.3.0', license: 'Apache-2.0', url: 'https://typescriptlang.org' },
-                    { name: 'Tailwind CSS', version: '3.4.0', license: 'MIT', url: 'https://tailwindcss.com' },
-                    { name: 'Express.js', version: '4.18.0', license: 'MIT', url: 'https://expressjs.com' },
-                    { name: 'Prisma', version: '5.7.0', license: 'Apache-2.0', url: 'https://prisma.io' },
-                    { name: 'PostgreSQL', version: '16', license: 'PostgreSQL License', url: 'https://postgresql.org' },
-                    { name: 'Redis', version: '7.2', license: 'BSD-3-Clause', url: 'https://redis.io' },
+                    {
+                      name: 'TypeScript',
+                      version: '5.3.0',
+                      license: 'Apache-2.0',
+                      url: 'https://typescriptlang.org',
+                    },
+                    {
+                      name: 'Tailwind CSS',
+                      version: '3.4.0',
+                      license: 'MIT',
+                      url: 'https://tailwindcss.com',
+                    },
+                    {
+                      name: 'Express.js',
+                      version: '4.18.0',
+                      license: 'MIT',
+                      url: 'https://expressjs.com',
+                    },
+                    {
+                      name: 'Prisma',
+                      version: '5.7.0',
+                      license: 'Apache-2.0',
+                      url: 'https://prisma.io',
+                    },
+                    {
+                      name: 'PostgreSQL',
+                      version: '16',
+                      license: 'PostgreSQL License',
+                      url: 'https://postgresql.org',
+                    },
+                    {
+                      name: 'Redis',
+                      version: '7.2',
+                      license: 'BSD-3-Clause',
+                      url: 'https://redis.io',
+                    },
                     { name: 'Neo4j', version: '5.x', license: 'GPL-3.0', url: 'https://neo4j.com' },
-                    { name: 'Socket.IO', version: '4.6.0', license: 'MIT', url: 'https://socket.io' },
-                    { name: 'Cytoscape.js', version: '3.26.0', license: 'MIT', url: 'https://js.cytoscape.org' },
-                    { name: 'Chart.js', version: '4.4.0', license: 'MIT', url: 'https://chartjs.org' },
-                    { name: 'Lucide Icons', version: '0.300.0', license: 'ISC', url: 'https://lucide.dev' },
-                    { name: 'date-fns', version: '3.0.0', license: 'MIT', url: 'https://date-fns.org' },
+                    {
+                      name: 'Socket.IO',
+                      version: '4.6.0',
+                      license: 'MIT',
+                      url: 'https://socket.io',
+                    },
+                    {
+                      name: 'Cytoscape.js',
+                      version: '3.26.0',
+                      license: 'MIT',
+                      url: 'https://js.cytoscape.org',
+                    },
+                    {
+                      name: 'Chart.js',
+                      version: '4.4.0',
+                      license: 'MIT',
+                      url: 'https://chartjs.org',
+                    },
+                    {
+                      name: 'Lucide Icons',
+                      version: '0.300.0',
+                      license: 'ISC',
+                      url: 'https://lucide.dev',
+                    },
+                    {
+                      name: 'date-fns',
+                      version: '3.0.0',
+                      license: 'MIT',
+                      url: 'https://date-fns.org',
+                    },
                     { name: 'zod', version: '3.22.0', license: 'MIT', url: 'https://zod.dev' },
-                    { name: 'jsonwebtoken', version: '9.0.0', license: 'MIT', url: 'https://github.com/auth0/node-jsonwebtoken' },
-                    { name: 'bcrypt', version: '5.1.0', license: 'MIT', url: 'https://github.com/kelektiv/node.bcrypt.js' },
+                    {
+                      name: 'jsonwebtoken',
+                      version: '9.0.0',
+                      license: 'MIT',
+                      url: 'https://github.com/auth0/node-jsonwebtoken',
+                    },
+                    {
+                      name: 'bcrypt',
+                      version: '5.1.0',
+                      license: 'MIT',
+                      url: 'https://github.com/kelektiv/node.bcrypt.js',
+                    },
                   ].map((lib) => (
-                    <div 
+                    <div
                       key={lib.name}
                       className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg"
                     >
@@ -392,7 +500,7 @@ export const LicensePage: React.FC = () => {
                         <span className="px-2 py-1 bg-neutral-200 text-neutral-700 text-xs font-medium rounded">
                           {lib.license}
                         </span>
-                        <a 
+                        <a
                           href={lib.url}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -407,8 +515,9 @@ export const LicensePage: React.FC = () => {
 
                 <div className="mt-8 p-4 bg-neutral-100 rounded-lg">
                   <p className="text-sm text-neutral-600">
-                    <strong>Full License Texts:</strong> Complete license texts for all third-party 
-                    software are included in the <code className="px-1 py-0.5 bg-neutral-200 rounded">LICENSES</code> directory 
+                    <strong>Full License Texts:</strong> Complete license texts for all third-party
+                    software are included in the{' '}
+                    <code className="px-1 py-0.5 bg-neutral-200 rounded">LICENSES</code> directory
                     of the Datacendia installation.
                   </p>
                 </div>
@@ -421,9 +530,7 @@ export const LicensePage: React.FC = () => {
       {/* FAQ */}
       <section className="py-12 bg-white border-t border-neutral-200">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-neutral-900 mb-8 text-center">
-            Licensing FAQ
-          </h2>
+          <h2 className="text-2xl font-bold text-neutral-900 mb-8 text-center">Licensing FAQ</h2>
           <div className="space-y-4">
             {[
               {
@@ -467,33 +574,81 @@ export const LicensePage: React.FC = () => {
             <div>
               <h4 className="font-semibold mb-4">Product</h4>
               <ul className="space-y-2 text-neutral-400">
-                <li><Link to="/product" className="hover:text-white">Features</Link></li>
-                <li><Link to="/pricing" className="hover:text-white">Pricing</Link></li>
-                <li><Link to="/downloads" className="hover:text-white">Downloads</Link></li>
+                <li>
+                  <Link to="/product" className="hover:text-white">
+                    Features
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/pricing" className="hover:text-white">
+                    Pricing
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/downloads" className="hover:text-white">
+                    Downloads
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-neutral-400">
-                <li><Link to="/about" className="hover:text-white">About</Link></li>
-                <li><Link to="/manifesto" className="hover:text-white">Manifesto</Link></li>
-                <li><a href="mailto:careers@datacendia.com" className="hover:text-white">Careers</a></li>
+                <li>
+                  <Link to="/about" className="hover:text-white">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/manifesto" className="hover:text-white">
+                    Manifesto
+                  </Link>
+                </li>
+                <li>
+                  <a href="mailto:careers@datacendia.com" className="hover:text-white">
+                    Careers
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-neutral-400">
-                <li><Link to="/license" className="hover:text-white">Licensing</Link></li>
-                <li><Link to="/privacy" className="hover:text-white">Privacy Policy</Link></li>
-                <li><Link to="/terms" className="hover:text-white">Terms of Service</Link></li>
+                <li>
+                  <Link to="/license" className="hover:text-white">
+                    Licensing
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/privacy" className="hover:text-white">
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/terms" className="hover:text-white">
+                    Terms of Service
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-neutral-400">
-                <li><a href="https://docs.datacendia.com" className="hover:text-white">Documentation</a></li>
-                <li><a href="https://status.datacendia.com" className="hover:text-white">System Status</a></li>
-                <li><a href="mailto:support@datacendia.com" className="hover:text-white">Contact Support</a></li>
+                <li>
+                  <a href="https://docs.datacendia.com" className="hover:text-white">
+                    Documentation
+                  </a>
+                </li>
+                <li>
+                  <a href="https://status.datacendia.com" className="hover:text-white">
+                    System Status
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:support@datacendia.com" className="hover:text-white">
+                    Contact Support
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

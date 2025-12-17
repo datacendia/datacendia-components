@@ -10,5 +10,5 @@ export { ServiceTooltip, SimpleTooltip } from './ServiceTooltip';
 export { NarrativeGuide, NarrativeSelector } from './NarrativeGuide';
 
 // Re-export types if needed
-export type { } from './ServiceTooltip';
-export type { } from './NarrativeGuide';
+export type {} from './ServiceTooltip';
+export type {} from './NarrativeGuide';

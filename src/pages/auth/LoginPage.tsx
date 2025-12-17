@@ -28,7 +28,7 @@ export const LoginPage: React.FC = () => {
     try {
       // Call real backend API
       const response = await authApi.login({ email, password });
-      
+
       if (response.success) {
         navigate('/cortex/dashboard');
       } else {
@@ -59,15 +59,19 @@ export const LoginPage: React.FC = () => {
             <span className="text-white text-xl font-semibold tracking-wider">DATACENDIA</span>
           </div>
         </div>
-        
+
         <div>
-          <p className="text-xs text-gray-600 uppercase tracking-[0.3em] mb-4">Sovereign Intelligence Platform</p>
+          <p className="text-xs text-gray-600 uppercase tracking-[0.3em] mb-4">
+            Sovereign Intelligence Platform
+          </p>
           <h1 className="text-3xl font-light text-white mb-6 leading-relaxed">
-            We do not host your data.<br/>
+            We do not host your data.
+            <br />
             <span className="relative">
               We return your mind
               <span className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-crimson-900/0 via-crimson-800 to-crimson-900/0" />
-            </span>.
+            </span>
+            .
           </h1>
           <div className="flex items-center gap-6 text-gray-500 text-sm">
             <div className="text-center">
@@ -86,7 +90,7 @@ export const LoginPage: React.FC = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="text-gray-600 text-xs">
           Air-gapped operation · No external dependencies · Your infrastructure
         </div>
@@ -110,7 +114,9 @@ export const LoginPage: React.FC = () => {
 
           {/* Enterprise Identity - On-Premise */}
           <div className="mb-6">
-            <p className="text-xs text-gray-600 uppercase tracking-wider mb-3 text-center">Enterprise Identity</p>
+            <p className="text-xs text-gray-600 uppercase tracking-wider mb-3 text-center">
+              Enterprise Identity
+            </p>
             <div className="grid grid-cols-2 gap-2">
               <button
                 onClick={() => handleEnterpriseSSO('ad')}
@@ -161,7 +167,9 @@ export const LoginPage: React.FC = () => {
               <div className="w-full border-t border-sovereign-border-subtle" />
             </div>
             <div className="relative flex justify-center">
-              <span className="px-4 bg-sovereign-base text-sm text-gray-600">or continue with email</span>
+              <span className="px-4 bg-sovereign-base text-sm text-gray-600">
+                or continue with email
+              </span>
             </div>
           </div>
 

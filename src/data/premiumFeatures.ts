@@ -34,7 +34,10 @@ export interface PremiumBundle {
 // =============================================================================
 // TIER DEFINITIONS
 // =============================================================================
-export const PREMIUM_TIERS: Record<PremiumTier, { name: string; color: string; bgGradient: string; icon: string }> = {
+export const PREMIUM_TIERS: Record<
+  PremiumTier,
+  { name: string; color: string; bgGradient: string; icon: string }
+> = {
   standard: {
     name: 'Standard',
     color: '#8B5CF6',
@@ -76,7 +79,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Cross-examination summaries',
       'Scheduled report generation',
     ],
-    agentIntegration: 'Each agent response becomes a formatted report section with professional attribution',
+    agentIntegration:
+      'Each agent response becomes a formatted report section with professional attribution',
   },
   {
     id: 'analytics-insights',
@@ -94,7 +98,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Topic clustering analysis',
       'Expertise gap detection',
     ],
-    agentIntegration: 'Tracks agent usage patterns, measures agreement rates, identifies when no agent addressed a topic',
+    agentIntegration:
+      'Tracks agent usage patterns, measures agreement rates, identifies when no agent addressed a topic',
   },
   {
     id: 'custom-modes',
@@ -113,7 +118,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Mode-specific agent prompts',
       'Share modes with team',
     ],
-    agentIntegration: 'Customize which agents auto-select, their priority order, and behavior for each mode',
+    agentIntegration:
+      'Customize which agents auto-select, their priority order, and behavior for each mode',
   },
   {
     id: 'agent-builder',
@@ -131,7 +137,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Edit & delete anytime',
       'Persistent storage',
     ],
-    agentIntegration: 'Build agents with specialized expertise that participate alongside standard council members',
+    agentIntegration:
+      'Build agents with specialized expertise that participate alongside standard council members',
   },
   {
     id: 'document-analysis',
@@ -149,7 +156,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Document-referenced cross-examination',
       'OCR for scanned documents',
     ],
-    agentIntegration: 'Agents receive document context - CFO analyzes financials, CLO reviews contracts, etc.',
+    agentIntegration:
+      'Agents receive document context - CFO analyzes financials, CLO reviews contracts, etc.',
   },
 
   // ===== PROFESSIONAL TIER ($249-349) =====
@@ -170,7 +178,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Team voting on recommendations',
       'Activity feed',
     ],
-    agentIntegration: 'Assign agent responses to team members, vote on which agent advice to follow',
+    agentIntegration:
+      'Assign agent responses to team members, vote on which agent advice to follow',
   },
   {
     id: 'audit-excellence',
@@ -189,7 +198,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Fraud detection capabilities',
       'SOX compliance support',
     ],
-    agentIntegration: 'Two specialized auditor agents join your council for compliance and financial oversight',
+    agentIntegration:
+      'Two specialized auditor agents join your council for compliance and financial oversight',
   },
   {
     id: 'api-access',
@@ -208,7 +218,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       '10,000 API calls/month',
       'Batch processing',
     ],
-    agentIntegration: 'Query agents via API: POST /api/deliberate { agents: ["cfo", "cto"], question: "..." }',
+    agentIntegration:
+      'Query agents via API: POST /api/deliberate { agents: ["cfo", "cto"], question: "..." }',
   },
   {
     id: 'compliance-audit',
@@ -228,7 +239,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'GDPR compliance tools',
       'Export audit reports',
     ],
-    agentIntegration: 'Logs every agent queried, by whom, when, and tracks if advice was followed or overridden',
+    agentIntegration:
+      'Logs every agent queried, by whom, when, and tracks if advice was followed or overridden',
   },
 
   // ===== ENTERPRISE TIER ($399-599) =====
@@ -249,7 +261,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Clinical workflow analysis',
       'Patient outcome optimization',
     ],
-    agentIntegration: '4 healthcare-specialized agents that understand clinical operations, HIPAA, and patient safety',
+    agentIntegration:
+      '4 healthcare-specialized agents that understand clinical operations, HIPAA, and patient safety',
   },
   {
     id: 'finance-pack',
@@ -268,7 +281,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Risk modeling expertise',
       'Market analysis capabilities',
     ],
-    agentIntegration: '4 finance-specialized agents for investment analysis, risk modeling, and regulatory compliance',
+    agentIntegration:
+      '4 finance-specialized agents for investment analysis, risk modeling, and regulatory compliance',
   },
   {
     id: 'legal-pack',
@@ -287,7 +301,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Patent/trademark expertise',
       'Legal risk assessment',
     ],
-    agentIntegration: '4 legal-specialized agents for contracts, IP, litigation strategy, and regulatory matters',
+    agentIntegration:
+      '4 legal-specialized agents for contracts, IP, litigation strategy, and regulatory matters',
   },
   {
     id: 'unlimited-team',
@@ -306,7 +321,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Org-wide analytics',
       'Priority support',
     ],
-    agentIntegration: 'Enterprise-wide agent access with department-specific permissions and approval workflows',
+    agentIntegration:
+      'Enterprise-wide agent access with department-specific permissions and approval workflows',
   },
   {
     id: 'white-label',
@@ -344,7 +360,8 @@ export const PREMIUM_FEATURES: PremiumFeature[] = [
       'Model version control',
       '99.9% SLA guarantee',
     ],
-    agentIntegration: 'Agents run on dedicated, fine-tuned models trained specifically on your industry and data',
+    agentIntegration:
+      'Agents run on dedicated, fine-tuned models trained specifically on your industry and data',
   },
 ];
 
@@ -407,10 +424,21 @@ export const PREMIUM_BUNDLES: PremiumBundle[] = [
     price: 2499,
     annualDiscount: 40,
     includedFeatures: [
-      'export-reporting', 'analytics-insights', 'custom-modes', 'agent-builder',
-      'document-analysis', 'team-collaboration', 'audit-excellence', 'api-access',
-      'compliance-audit', 'healthcare-pack', 'finance-pack', 'legal-pack',
-      'unlimited-team', 'white-label', 'dedicated-models'
+      'export-reporting',
+      'analytics-insights',
+      'custom-modes',
+      'agent-builder',
+      'document-analysis',
+      'team-collaboration',
+      'audit-excellence',
+      'api-access',
+      'compliance-audit',
+      'healthcare-pack',
+      'finance-pack',
+      'legal-pack',
+      'unlimited-team',
+      'white-label',
+      'dedicated-models',
     ],
     savings: 2689, // All features = $5188, bundled at $2499
     enterprise: true,
@@ -421,15 +449,15 @@ export const PREMIUM_BUNDLES: PremiumBundle[] = [
 // HELPER FUNCTIONS
 // =============================================================================
 export const getFeatureById = (id: string): PremiumFeature | undefined => {
-  return PREMIUM_FEATURES.find(f => f.id === id);
+  return PREMIUM_FEATURES.find((f) => f.id === id);
 };
 
 export const getFeaturesByTier = (tier: PremiumTier): PremiumFeature[] => {
-  return PREMIUM_FEATURES.filter(f => f.tier === tier);
+  return PREMIUM_FEATURES.filter((f) => f.tier === tier);
 };
 
 export const getBundleById = (id: string): PremiumBundle | undefined => {
-  return PREMIUM_BUNDLES.find(b => b.id === id);
+  return PREMIUM_BUNDLES.find((b) => b.id === id);
 };
 
 export const calculateAnnualPrice = (monthlyPrice: number, discount: number): number => {

@@ -9,10 +9,28 @@ import { api } from '../lib/api';
 // TYPES
 // =============================================================================
 
-export type DissentType = 'factual' | 'risk' | 'ethical' | 'process' | 'strategic' | 'resource' | 'other';
+export type DissentType =
+  | 'factual'
+  | 'risk'
+  | 'ethical'
+  | 'process'
+  | 'strategic'
+  | 'resource'
+  | 'other';
 export type DissentSeverity = 'advisory' | 'formal_objection' | 'blocking';
-export type DissentStatus = 'pending' | 'acknowledged' | 'accepted' | 'overruled' | 'clarification_requested' | 'escalated';
-export type ResponseType = 'accept' | 'partial_accept' | 'acknowledge_proceed' | 'request_clarification' | 'escalate_together';
+export type DissentStatus =
+  | 'pending'
+  | 'acknowledged'
+  | 'accepted'
+  | 'overruled'
+  | 'clarification_requested'
+  | 'escalated';
+export type ResponseType =
+  | 'accept'
+  | 'partial_accept'
+  | 'acknowledge_proceed'
+  | 'request_clarification'
+  | 'escalate_together';
 
 export interface Dissent {
   id: string;
@@ -98,7 +116,13 @@ export interface RetaliationFlag {
   dissentId: string;
   dissenterId: string;
   dissenterName: string;
-  flagType: 'performance_review' | 'compensation' | 'role_change' | 'access_revocation' | 'meeting_exclusion' | 'communication_pattern';
+  flagType:
+    | 'performance_review'
+    | 'compensation'
+    | 'role_change'
+    | 'access_revocation'
+    | 'meeting_exclusion'
+    | 'communication_pattern';
   description: string;
   detectedAt: Date;
   status: 'new' | 'investigating' | 'confirmed' | 'false_positive' | 'resolved';
@@ -162,19 +186,21 @@ class DissentService {
   /**
    * Get all dissents
    */
-  async getDissents(options: {
-    status?: DissentStatus;
-    userId?: string;
-    decisionId?: string;
-    limit?: number;
-  } = {}): Promise<Dissent[]> {
+  async getDissents(
+    options: {
+      status?: DissentStatus;
+      userId?: string;
+      decisionId?: string;
+      limit?: number;
+    } = {}
+  ): Promise<Dissent[]> {
     try {
       const params = new URLSearchParams();
       if (options.status) params.append('status', options.status);
       if (options.userId) params.append('userId', options.userId);
       if (options.decisionId) params.append('decisionId', options.decisionId);
       if (options.limit) params.append('limit', options.limit.toString());
-      
+
       const response = await api.get<Dissent[]>(`${this.baseUrl}?${params.toString()}`);
       return response.data ?? this.getMockDissents();
     } catch (error) {
@@ -189,10 +215,10 @@ class DissentService {
   async getActiveDissents(): Promise<Dissent[]> {
     try {
       const response = await api.get<Dissent[]>(`${this.baseUrl}/active`);
-      return response.data ?? this.getMockDissents().filter(d => d.status === 'pending');
+      return response.data ?? this.getMockDissents().filter((d) => d.status === 'pending');
     } catch (error) {
       console.error('[Dissent] Error fetching active dissents:', error);
-      return this.getMockDissents().filter(d => d.status === 'pending');
+      return this.getMockDissents().filter((d) => d.status === 'pending');
     }
   }
 
@@ -236,7 +262,9 @@ class DissentService {
    */
   async getOrganizationMetrics(): Promise<OrganizationDissentMetrics> {
     try {
-      const response = await api.get<OrganizationDissentMetrics>(`${this.baseUrl}/metrics/organization`);
+      const response = await api.get<OrganizationDissentMetrics>(
+        `${this.baseUrl}/metrics/organization`
+      );
       return response.data ?? this.getMockMetrics();
     } catch (error) {
       console.error('[Dissent] Error fetching metrics:', error);
@@ -260,11 +288,18 @@ class DissentService {
   /**
    * Report potential retaliation
    */
-  async reportRetaliation(dissentId: string, flagType: RetaliationFlag['flagType'], description: string): Promise<RetaliationFlag> {
-    const response = await api.post<RetaliationFlag>(`${this.baseUrl}/${dissentId}/report-retaliation`, {
-      flagType,
-      description,
-    });
+  async reportRetaliation(
+    dissentId: string,
+    flagType: RetaliationFlag['flagType'],
+    description: string
+  ): Promise<RetaliationFlag> {
+    const response = await api.post<RetaliationFlag>(
+      `${this.baseUrl}/${dissentId}/report-retaliation`,
+      {
+        flagType,
+        description,
+      }
+    );
     if (!response.data) throw new Error('Failed to report retaliation');
     return response.data;
   }
@@ -286,7 +321,9 @@ class DissentService {
    */
   async checkDissentBlock(decisionId: string): Promise<{ blocked: boolean; dissents: Dissent[] }> {
     try {
-      const response = await api.get<{ blocked: boolean; dissents: Dissent[] }>(`${this.baseUrl}/check-block/${decisionId}`);
+      const response = await api.get<{ blocked: boolean; dissents: Dissent[] }>(
+        `${this.baseUrl}/check-block/${decisionId}`
+      );
       return response.data ?? { blocked: false, dissents: [] };
     } catch (error) {
       console.error('[Dissent] Error checking dissent block:', error);
@@ -337,7 +374,8 @@ class DissentService {
         decisionOwner: 'Product Council',
         dissentType: 'ethical',
         severity: 'formal_objection',
-        statement: 'The timeline for Feature X is unrealistic and sets the team up for burnout. We committed to sustainable pace in our engineering values. This decision violates that commitment.',
+        statement:
+          'The timeline for Feature X is unrealistic and sets the team up for burnout. We committed to sustainable pace in our engineering values. This decision violates that commitment.',
         isAnonymous: false,
         dissenterId: 'user-sarah',
         dissenterName: 'Sarah Chen',
@@ -360,7 +398,8 @@ class DissentService {
         decisionOwner: 'CTO',
         dissentType: 'risk',
         severity: 'formal_objection',
-        statement: 'Concentrating 100% of cloud spend with a single vendor creates unacceptable lock-in risk.',
+        statement:
+          'Concentrating 100% of cloud spend with a single vendor creates unacceptable lock-in risk.',
         isAnonymous: false,
         dissenterId: 'user-james',
         dissenterName: 'James Wilson',
@@ -459,11 +498,29 @@ class DissentService {
       retaliationFlags: 0,
       healthStatus: 'healthy',
       byDepartment: [
-        { department: 'Engineering', totalDissents: 23, acceptedRate: 39, accuracy: 71, trend: 'up' },
+        {
+          department: 'Engineering',
+          totalDissents: 23,
+          acceptedRate: 39,
+          accuracy: 71,
+          trend: 'up',
+        },
         { department: 'Sales', totalDissents: 8, acceptedRate: 25, accuracy: 50, trend: 'stable' },
         { department: 'Finance', totalDissents: 12, acceptedRate: 58, accuracy: 83, trend: 'up' },
-        { department: 'Marketing', totalDissents: 5, acceptedRate: 20, accuracy: 40, trend: 'down' },
-        { department: 'Operations', totalDissents: 7, acceptedRate: 57, accuracy: 57, trend: 'stable' },
+        {
+          department: 'Marketing',
+          totalDissents: 5,
+          acceptedRate: 20,
+          accuracy: 40,
+          trend: 'down',
+        },
+        {
+          department: 'Operations',
+          totalDissents: 7,
+          acceptedRate: 57,
+          accuracy: 57,
+          trend: 'stable',
+        },
       ],
       highAccuracyDissenters: [
         {

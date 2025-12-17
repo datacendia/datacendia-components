@@ -42,14 +42,14 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
 }) => {
   const [expandedCategories, setExpandedCategories] = useState<Set<TraitCategory>>(new Set());
   const [showConflicts, setShowConflicts] = useState(false);
-  
+
   const categories = getTraitCategories();
   const allTraits = getAvailableTraits();
-  
+
   const validation = useMemo(() => {
     return validateTraitCombination(enabledTraits);
   }, [enabledTraits]);
-  
+
   const toggleCategory = (category: TraitCategory) => {
     const newExpanded = new Set(expandedCategories);
     if (newExpanded.has(category)) {
@@ -59,44 +59,51 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
     }
     setExpandedCategories(newExpanded);
   };
-  
+
   const toggleTrait = (traitId: string) => {
     const newTraits = enabledTraits.includes(traitId)
-      ? enabledTraits.filter(id => id !== traitId)
+      ? enabledTraits.filter((id) => id !== traitId)
       : [...enabledTraits, traitId];
     onTraitsChange(newTraits);
   };
-  
+
   const clearAllTraits = () => {
     onTraitsChange([]);
   };
-  
+
   const isTraitConflicting = (traitId: string): boolean => {
-    if (!enabledTraits.includes(traitId)) {return false;}
-    return validation.conflicts.some(
-      ([t1, t2]) => t1 === traitId || t2 === traitId
-    );
+    if (!enabledTraits.includes(traitId)) {
+      return false;
+    }
+    return validation.conflicts.some(([t1, t2]) => t1 === traitId || t2 === traitId);
   };
-  
+
   const wouldConflict = (traitId: string): string[] => {
     const trait = getTrait(traitId);
-    if (!trait || enabledTraits.includes(traitId)) {return [];}
-    
+    if (!trait || enabledTraits.includes(traitId)) {
+      return [];
+    }
+
     return enabledTraits.filter(
-      enabledId => trait.conflictsWith?.includes(enabledId) ||
+      (enabledId) =>
+        trait.conflictsWith?.includes(enabledId) ||
         getTrait(enabledId)?.conflictsWith?.includes(traitId)
     );
   };
-  
+
   const getIntensityColor = (intensity: string): string => {
     switch (intensity) {
-      case 'subtle': return 'bg-blue-500/20 text-blue-400';
-      case 'moderate': return 'bg-amber-500/20 text-amber-400';
-      case 'strong': return 'bg-red-500/20 text-red-400';
-      default: return 'bg-slate-500/20 text-slate-400';
+      case 'subtle':
+        return 'bg-blue-500/20 text-blue-400';
+      case 'moderate':
+        return 'bg-amber-500/20 text-amber-400';
+      case 'strong':
+        return 'bg-red-500/20 text-red-400';
+      default:
+        return 'bg-slate-500/20 text-slate-400';
     }
   };
-  
+
   if (compact) {
     return (
       <div className="bg-slate-800/50 rounded-lg p-4 border border-slate-700">
@@ -105,27 +112,28 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
             <Settings size={16} className="text-indigo-400" />
             <span className="text-sm font-medium text-white">Personality Traits</span>
           </div>
-          <span className="text-xs text-slate-400">
-            {enabledTraits.length} active
-          </span>
+          <span className="text-xs text-slate-400">{enabledTraits.length} active</span>
         </div>
-        
+
         {enabledTraits.length === 0 ? (
           <p className="text-xs text-slate-500">All traits disabled (default behavior)</p>
         ) : (
           <div className="flex flex-wrap gap-1.5">
-            {enabledTraits.map(traitId => {
+            {enabledTraits.map((traitId) => {
               const trait = getTrait(traitId);
-              if (!trait) {return null;}
+              if (!trait) {
+                return null;
+              }
               return (
                 <button
                   key={traitId}
                   onClick={() => toggleTrait(traitId)}
                   className={`
                     px-2 py-1 rounded text-xs flex items-center gap-1
-                    ${isTraitConflicting(traitId) 
-                      ? 'bg-red-500/20 text-red-400 border border-red-500/30' 
-                      : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30'
+                    ${
+                      isTraitConflicting(traitId)
+                        ? 'bg-red-500/20 text-red-400 border border-red-500/30'
+                        : 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30'
                     }
                     hover:bg-opacity-30 transition-colors
                   `}
@@ -138,7 +146,7 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
             })}
           </div>
         )}
-        
+
         {!validation.valid && (
           <div className="mt-2 flex items-center gap-1.5 text-xs text-red-400">
             <AlertCircle size={12} />
@@ -148,7 +156,7 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
       </div>
     );
   }
-  
+
   return (
     <div className="bg-slate-900/50 rounded-xl border border-slate-700/50 overflow-hidden">
       {/* Header */}
@@ -163,18 +171,21 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
               Customize {agentName}'s personality and communication style
             </p>
           </div>
-          
+
           <div className="flex items-center gap-3">
-            <span className={`
+            <span
+              className={`
               px-3 py-1.5 rounded-full text-sm font-medium
-              ${enabledTraits.length === 0 
-                ? 'bg-slate-700 text-slate-300' 
-                : 'bg-indigo-500/20 text-indigo-400'
+              ${
+                enabledTraits.length === 0
+                  ? 'bg-slate-700 text-slate-300'
+                  : 'bg-indigo-500/20 text-indigo-400'
               }
-            `}>
+            `}
+            >
               {enabledTraits.length} / {allTraits.length} active
             </span>
-            
+
             {enabledTraits.length > 0 && (
               <button
                 onClick={clearAllTraits}
@@ -186,7 +197,7 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
             )}
           </div>
         </div>
-        
+
         {/* Conflict Warning */}
         {!validation.valid && (
           <div className="mt-4 p-3 rounded-lg bg-red-500/10 border border-red-500/30 flex items-start gap-3">
@@ -194,35 +205,36 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
             <div>
               <p className="text-sm font-medium text-red-400">Conflicting Traits Detected</p>
               <p className="text-xs text-red-300/70 mt-1">
-                {validation.conflicts.map(([t1, t2]) => (
-                  `${getTrait(t1)?.name} ↔ ${getTrait(t2)?.name}`
-                )).join(', ')}
+                {validation.conflicts
+                  .map(([t1, t2]) => `${getTrait(t1)?.name} ↔ ${getTrait(t2)?.name}`)
+                  .join(', ')}
               </p>
             </div>
           </div>
         )}
-        
+
         {/* Info Box */}
         <div className="mt-4 p-3 rounded-lg bg-indigo-500/10 border border-indigo-500/30 flex items-start gap-3">
           <Info size={18} className="text-indigo-400 flex-shrink-0 mt-0.5" />
           <div className="text-xs text-indigo-300/80">
             <p className="font-medium text-indigo-300">How Personality Traits Work</p>
             <p className="mt-1">
-              Traits modify how the AI agent communicates and reasons. All traits are <strong>OFF by default</strong> for 
-              standard professional behavior. Enable traits to customize agent personality for specific use cases 
-              like devil's advocate analysis, creative brainstorming, or risk assessment.
+              Traits modify how the AI agent communicates and reasons. All traits are{' '}
+              <strong>OFF by default</strong> for standard professional behavior. Enable traits to
+              customize agent personality for specific use cases like devil's advocate analysis,
+              creative brainstorming, or risk assessment.
             </p>
           </div>
         </div>
       </div>
-      
+
       {/* Categories */}
       <div className="divide-y divide-slate-700/50">
-        {categories.map(category => {
+        {categories.map((category) => {
           const categoryTraits = getTraitsByCategory(category.id);
-          const enabledCount = categoryTraits.filter(t => enabledTraits.includes(t.id)).length;
+          const enabledCount = categoryTraits.filter((t) => enabledTraits.includes(t.id)).length;
           const isExpanded = expandedCategories.has(category.id);
-          
+
           return (
             <div key={category.id}>
               {/* Category Header */}
@@ -241,11 +253,9 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
                     <p className="text-xs text-slate-400 mt-0.5">{category.description}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center gap-2">
-                  <span className="text-xs text-slate-500">
-                    {categoryTraits.length} traits
-                  </span>
+                  <span className="text-xs text-slate-500">{categoryTraits.length} traits</span>
                   {enabledCount > 0 && (
                     <span className="px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-400 text-xs font-medium">
                       {enabledCount} active
@@ -253,25 +263,26 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
                   )}
                 </div>
               </button>
-              
+
               {/* Traits Grid */}
               {isExpanded && (
                 <div className="px-6 pb-4 grid grid-cols-1 md:grid-cols-2 gap-3">
-                  {categoryTraits.map(trait => {
+                  {categoryTraits.map((trait) => {
                     const isEnabled = enabledTraits.includes(trait.id);
                     const conflicting = isTraitConflicting(trait.id);
                     const potentialConflicts = wouldConflict(trait.id);
-                    
+
                     return (
                       <div
                         key={trait.id}
                         className={`
                           relative p-4 rounded-lg border transition-all cursor-pointer
-                          ${isEnabled
-                            ? conflicting
-                              ? 'bg-red-500/10 border-red-500/30'
-                              : 'bg-indigo-500/10 border-indigo-500/30'
-                            : 'bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50'
+                          ${
+                            isEnabled
+                              ? conflicting
+                                ? 'bg-red-500/10 border-red-500/30'
+                                : 'bg-indigo-500/10 border-indigo-500/30'
+                              : 'bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50'
                           }
                         `}
                         onClick={() => toggleTrait(trait.id)}
@@ -281,21 +292,26 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
                             <span className="text-xl">{trait.icon}</span>
                             <div>
                               <h5 className="font-medium text-white">{trait.name}</h5>
-                              <span className={`text-xs px-1.5 py-0.5 rounded ${getIntensityColor(trait.intensity)}`}>
+                              <span
+                                className={`text-xs px-1.5 py-0.5 rounded ${getIntensityColor(trait.intensity)}`}
+                              >
                                 {trait.intensity}
                               </span>
                             </div>
                           </div>
-                          
-                          <div className={`
+
+                          <div
+                            className={`
                             w-6 h-6 rounded-full flex items-center justify-center
-                            ${isEnabled 
-                              ? conflicting 
-                                ? 'bg-red-500' 
-                                : 'bg-indigo-500' 
-                              : 'bg-slate-700'
+                            ${
+                              isEnabled
+                                ? conflicting
+                                  ? 'bg-red-500'
+                                  : 'bg-indigo-500'
+                                : 'bg-slate-700'
                             }
-                          `}>
+                          `}
+                          >
                             {isEnabled ? (
                               <Check size={14} className="text-white" />
                             ) : (
@@ -303,21 +319,20 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
                             )}
                           </div>
                         </div>
-                        
-                        <p className="text-xs text-slate-400 mt-2">
-                          {trait.description}
-                        </p>
-                        
+
+                        <p className="text-xs text-slate-400 mt-2">{trait.description}</p>
+
                         {/* Show potential conflicts for disabled traits */}
                         {!isEnabled && potentialConflicts.length > 0 && (
                           <div className="mt-2 flex items-center gap-1.5 text-xs text-amber-400">
                             <AlertCircle size={12} />
                             <span>
-                              Would conflict with: {potentialConflicts.map(id => getTrait(id)?.name).join(', ')}
+                              Would conflict with:{' '}
+                              {potentialConflicts.map((id) => getTrait(id)?.name).join(', ')}
                             </span>
                           </div>
                         )}
-                        
+
                         {/* Conflicts indicator for enabled traits */}
                         {isEnabled && conflicting && (
                           <div className="mt-2 flex items-center gap-1.5 text-xs text-red-400">
@@ -334,7 +349,7 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
           );
         })}
       </div>
-      
+
       {/* Footer with Active Traits Summary */}
       {enabledTraits.length > 0 && (
         <div className="px-6 py-4 bg-slate-800/30 border-t border-slate-700/50">
@@ -343,17 +358,20 @@ export const PersonalityTraitsPanel: React.FC<PersonalityTraitsPanelProps> = ({
             Active Personality Profile
           </h4>
           <div className="flex flex-wrap gap-2">
-            {enabledTraits.map(traitId => {
+            {enabledTraits.map((traitId) => {
               const trait = getTrait(traitId);
-              if (!trait) {return null;}
+              if (!trait) {
+                return null;
+              }
               return (
                 <span
                   key={traitId}
                   className={`
                     px-2.5 py-1 rounded-full text-xs font-medium flex items-center gap-1.5
-                    ${isTraitConflicting(traitId)
-                      ? 'bg-red-500/20 text-red-400'
-                      : 'bg-indigo-500/20 text-indigo-400'
+                    ${
+                      isTraitConflicting(traitId)
+                        ? 'bg-red-500/20 text-red-400'
+                        : 'bg-indigo-500/20 text-indigo-400'
                     }
                   `}
                 >
@@ -387,21 +405,22 @@ export const QuickTraitToggle: React.FC<QuickTraitToggleProps> = ({
   size = 'md',
 }) => {
   const trait = getTrait(traitId);
-  if (!trait) {return null;}
-  
-  const sizeClasses = size === 'sm' 
-    ? 'px-2 py-1 text-xs gap-1' 
-    : 'px-3 py-1.5 text-sm gap-1.5';
-  
+  if (!trait) {
+    return null;
+  }
+
+  const sizeClasses = size === 'sm' ? 'px-2 py-1 text-xs gap-1' : 'px-3 py-1.5 text-sm gap-1.5';
+
   return (
     <button
       onClick={onToggle}
       className={`
         rounded-lg flex items-center transition-all
         ${sizeClasses}
-        ${isEnabled
-          ? 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30'
-          : 'bg-slate-700/50 text-slate-400 border border-slate-600/50 hover:bg-slate-700'
+        ${
+          isEnabled
+            ? 'bg-indigo-500/20 text-indigo-400 border border-indigo-500/30'
+            : 'bg-slate-700/50 text-slate-400 border border-slate-600/50 hover:bg-slate-700'
         }
       `}
       title={trait.description}

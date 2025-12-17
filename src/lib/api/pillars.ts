@@ -14,20 +14,20 @@ export const helmApi = {
     const res = await fetch(`${API_BASE}/helm/dashboard?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getMetrics: async (organizationId: string = 'demo', category?: string) => {
-    const url = category 
+    const url = category
       ? `${API_BASE}/helm/metrics?organizationId=${organizationId}&category=${category}`
       : `${API_BASE}/helm/metrics?organizationId=${organizationId}`;
     const res = await fetch(url);
     return res.json();
   },
-  
+
   getMetricHistory: async (metricId: string, days: number = 30) => {
     const res = await fetch(`${API_BASE}/helm/metrics/${metricId}/history?days=${days}`);
     return res.json();
   },
-  
+
   updateMetric: async (metricId: string, value: number) => {
     const res = await fetch(`${API_BASE}/helm/metrics/${metricId}`, {
       method: 'PATCH',
@@ -36,12 +36,12 @@ export const helmApi = {
     });
     return res.json();
   },
-  
+
   getAlerts: async (organizationId: string = 'demo') => {
     const res = await fetch(`${API_BASE}/helm/alerts?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   acknowledgeAlert: async (alertId: string) => {
     const res = await fetch(`${API_BASE}/helm/alerts/${alertId}/acknowledge`, { method: 'POST' });
     return res.json();
@@ -57,27 +57,34 @@ export const lineageApi = {
     const res = await fetch(`${API_BASE}/lineage/graph?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getEntities: async (organizationId: string = 'demo', type?: string) => {
-    const url = type 
+    const url = type
       ? `${API_BASE}/lineage/entities?organizationId=${organizationId}&type=${type}`
       : `${API_BASE}/lineage/entities?organizationId=${organizationId}`;
     const res = await fetch(url);
     return res.json();
   },
-  
-  traceLineage: async (entityId: string, direction: 'upstream' | 'downstream' | 'both' = 'both') => {
-    const res = await fetch(`${API_BASE}/lineage/entities/${entityId}/trace?direction=${direction}`);
+
+  traceLineage: async (
+    entityId: string,
+    direction: 'upstream' | 'downstream' | 'both' = 'both'
+  ) => {
+    const res = await fetch(
+      `${API_BASE}/lineage/entities/${entityId}/trace?direction=${direction}`
+    );
     return res.json();
   },
-  
+
   getQualityOverview: async (organizationId: string = 'demo') => {
     const res = await fetch(`${API_BASE}/lineage/quality?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   checkQuality: async (entityId: string) => {
-    const res = await fetch(`${API_BASE}/lineage/entities/${entityId}/quality-check`, { method: 'POST' });
+    const res = await fetch(`${API_BASE}/lineage/entities/${entityId}/quality-check`, {
+      method: 'POST',
+    });
     return res.json();
   },
 };
@@ -91,17 +98,17 @@ export const predictApi = {
     const res = await fetch(`${API_BASE}/predict/models?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getModel: async (modelId: string) => {
     const res = await fetch(`${API_BASE}/predict/models/${modelId}`);
     return res.json();
   },
-  
+
   getFeatureImportance: async (modelId: string) => {
     const res = await fetch(`${API_BASE}/predict/models/${modelId}/features`);
     return res.json();
   },
-  
+
   predict: async (modelId: string, input: Record<string, unknown>) => {
     const res = await fetch(`${API_BASE}/predict/models/${modelId}/predict`, {
       method: 'POST',
@@ -110,17 +117,17 @@ export const predictApi = {
     });
     return res.json();
   },
-  
+
   trainModel: async (modelId: string) => {
     const res = await fetch(`${API_BASE}/predict/models/${modelId}/train`, { method: 'POST' });
     return res.json();
   },
-  
+
   getForecasts: async (organizationId: string = 'demo') => {
     const res = await fetch(`${API_BASE}/predict/forecasts?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getInsights: async (organizationId: string = 'demo') => {
     const res = await fetch(`${API_BASE}/predict/insights?organizationId=${organizationId}`);
     return res.json();
@@ -136,21 +143,25 @@ export const flowApi = {
     const res = await fetch(`${API_BASE}/flow/stats?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getWorkflows: async (organizationId: string = 'demo', status?: string) => {
-    const url = status 
+    const url = status
       ? `${API_BASE}/flow/workflows?organizationId=${organizationId}&status=${status}`
       : `${API_BASE}/flow/workflows?organizationId=${organizationId}`;
     const res = await fetch(url);
     return res.json();
   },
-  
+
   getWorkflow: async (workflowId: string) => {
     const res = await fetch(`${API_BASE}/flow/workflows/${workflowId}`);
     return res.json();
   },
-  
-  executeWorkflow: async (workflowId: string, triggeredBy: string = 'user', input?: Record<string, unknown>) => {
+
+  executeWorkflow: async (
+    workflowId: string,
+    triggeredBy: string = 'user',
+    input?: Record<string, unknown>
+  ) => {
     const res = await fetch(`${API_BASE}/flow/workflows/${workflowId}/execute`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -158,18 +169,25 @@ export const flowApi = {
     });
     return res.json();
   },
-  
+
   getExecutions: async (organizationId: string = 'demo', limit: number = 50) => {
-    const res = await fetch(`${API_BASE}/flow/executions?organizationId=${organizationId}&limit=${limit}`);
+    const res = await fetch(
+      `${API_BASE}/flow/executions?organizationId=${organizationId}&limit=${limit}`
+    );
     return res.json();
   },
-  
+
   getApprovals: async (organizationId: string = 'demo') => {
     const res = await fetch(`${API_BASE}/flow/approvals?organizationId=${organizationId}`);
     return res.json();
   },
-  
-  processApproval: async (approvalId: string, approved: boolean, decidedBy: string, reason?: string) => {
+
+  processApproval: async (
+    approvalId: string,
+    approved: boolean,
+    decidedBy: string,
+    reason?: string
+  ) => {
     const res = await fetch(`${API_BASE}/flow/approvals/${approvalId}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -188,24 +206,28 @@ export const healthPillarApi = {
     const res = await fetch(`${API_BASE}/health/status?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getAlerts: async (organizationId: string = 'demo', includeResolved: boolean = false) => {
-    const res = await fetch(`${API_BASE}/health/alerts?organizationId=${organizationId}&includeResolved=${includeResolved}`);
+    const res = await fetch(
+      `${API_BASE}/health/alerts?organizationId=${organizationId}&includeResolved=${includeResolved}`
+    );
     return res.json();
   },
-  
+
   acknowledgeAlert: async (alertId: string) => {
     const res = await fetch(`${API_BASE}/health/alerts/${alertId}/acknowledge`, { method: 'POST' });
     return res.json();
   },
-  
+
   resolveAlert: async (alertId: string) => {
     const res = await fetch(`${API_BASE}/health/alerts/${alertId}/resolve`, { method: 'POST' });
     return res.json();
   },
-  
+
   getTrends: async (organizationId: string = 'demo', hours: number = 24) => {
-    const res = await fetch(`${API_BASE}/health/trends?organizationId=${organizationId}&hours=${hours}`);
+    const res = await fetch(
+      `${API_BASE}/health/trends?organizationId=${organizationId}&hours=${hours}`
+    );
     return res.json();
   },
 };
@@ -219,12 +241,14 @@ export const guardApi = {
     const res = await fetch(`${API_BASE}/guard/posture?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getThreats: async (organizationId: string = 'demo', includeResolved: boolean = false) => {
-    const res = await fetch(`${API_BASE}/guard/threats?organizationId=${organizationId}&includeResolved=${includeResolved}`);
+    const res = await fetch(
+      `${API_BASE}/guard/threats?organizationId=${organizationId}&includeResolved=${includeResolved}`
+    );
     return res.json();
   },
-  
+
   updateThreatStatus: async (threatId: string, status: string) => {
     const res = await fetch(`${API_BASE}/guard/threats/${threatId}`, {
       method: 'PATCH',
@@ -233,12 +257,12 @@ export const guardApi = {
     });
     return res.json();
   },
-  
+
   getPolicies: async (organizationId: string = 'demo') => {
     const res = await fetch(`${API_BASE}/guard/policies?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   togglePolicy: async (policyId: string, enabled: boolean) => {
     const res = await fetch(`${API_BASE}/guard/policies/${policyId}`, {
       method: 'PATCH',
@@ -247,9 +271,11 @@ export const guardApi = {
     });
     return res.json();
   },
-  
+
   getAuditLogs: async (organizationId: string = 'demo', limit: number = 100) => {
-    const res = await fetch(`${API_BASE}/guard/audit?organizationId=${organizationId}&limit=${limit}`);
+    const res = await fetch(
+      `${API_BASE}/guard/audit?organizationId=${organizationId}&limit=${limit}`
+    );
     return res.json();
   },
 };
@@ -263,23 +289,23 @@ export const ethicsApi = {
     const res = await fetch(`${API_BASE}/ethics/stats?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getPrinciples: async (organizationId: string = 'demo', status?: string) => {
-    const url = status 
+    const url = status
       ? `${API_BASE}/ethics/principles?organizationId=${organizationId}&status=${status}`
       : `${API_BASE}/ethics/principles?organizationId=${organizationId}`;
     const res = await fetch(url);
     return res.json();
   },
-  
+
   getReviews: async (organizationId: string = 'demo', result?: string) => {
-    const url = result 
+    const url = result
       ? `${API_BASE}/ethics/reviews?organizationId=${organizationId}&result=${result}`
       : `${API_BASE}/ethics/reviews?organizationId=${organizationId}`;
     const res = await fetch(url);
     return res.json();
   },
-  
+
   requestReview: async (data: Record<string, unknown>) => {
     const res = await fetch(`${API_BASE}/ethics/reviews`, {
       method: 'POST',
@@ -288,8 +314,13 @@ export const ethicsApi = {
     });
     return res.json();
   },
-  
-  submitReviewDecision: async (reviewId: string, result: string, notes?: string, violations?: string[]) => {
+
+  submitReviewDecision: async (
+    reviewId: string,
+    result: string,
+    notes?: string,
+    violations?: string[]
+  ) => {
     const res = await fetch(`${API_BASE}/ethics/reviews/${reviewId}/decide`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -297,12 +328,12 @@ export const ethicsApi = {
     });
     return res.json();
   },
-  
+
   getBiasChecks: async (organizationId: string = 'demo') => {
     const res = await fetch(`${API_BASE}/ethics/bias-checks?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   performBiasCheck: async (organizationId: string = 'demo', modelId: string, modelName: string) => {
     const res = await fetch(`${API_BASE}/ethics/bias-check`, {
       method: 'POST',
@@ -322,17 +353,17 @@ export const agentsApi = {
     const res = await fetch(`${API_BASE}/agents/stats?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getAgents: async (organizationId: string = 'demo') => {
     const res = await fetch(`${API_BASE}/agents?organizationId=${organizationId}`);
     return res.json();
   },
-  
+
   getAgent: async (agentId: string) => {
     const res = await fetch(`${API_BASE}/agents/${agentId}`);
     return res.json();
   },
-  
+
   updateAgentStatus: async (agentId: string, status: string) => {
     const res = await fetch(`${API_BASE}/agents/${agentId}/status`, {
       method: 'PATCH',
@@ -341,7 +372,7 @@ export const agentsApi = {
     });
     return res.json();
   },
-  
+
   updateAgentConfig: async (agentId: string, config: Record<string, unknown>) => {
     const res = await fetch(`${API_BASE}/agents/${agentId}/config`, {
       method: 'PATCH',
@@ -350,12 +381,12 @@ export const agentsApi = {
     });
     return res.json();
   },
-  
+
   getInteractions: async (agentId: string, limit: number = 50) => {
     const res = await fetch(`${API_BASE}/agents/${agentId}/interactions?limit=${limit}`);
     return res.json();
   },
-  
+
   recordInteraction: async (agentId: string, data: Record<string, unknown>) => {
     const res = await fetch(`${API_BASE}/agents/${agentId}/interactions`, {
       method: 'POST',
@@ -364,7 +395,7 @@ export const agentsApi = {
     });
     return res.json();
   },
-  
+
   rateInteraction: async (interactionId: string, rating: number, feedback?: string) => {
     const res = await fetch(`${API_BASE}/agents/interactions/${interactionId}/rate`, {
       method: 'POST',

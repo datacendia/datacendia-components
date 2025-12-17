@@ -1,6 +1,6 @@
 /**
  * Auth Store Tests
- * 
+ *
  * Tests for the Zustand auth store
  */
 
@@ -28,7 +28,7 @@ describe('useAuthStore', () => {
   describe('initial state', () => {
     it('should have correct initial state', () => {
       const state = useAuthStore.getState();
-      
+
       expect(state.user).toBeNull();
       expect(state.token).toBeNull();
       expect(state.refreshToken).toBeNull();

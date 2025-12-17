@@ -62,11 +62,36 @@ const COMMON_ROLES: UserRole[] = [
 ];
 
 const INTERVENTION_TYPES = [
-  { code: 'perspective', label: 'Share Perspective', icon: '💭', description: 'Add your viewpoint to the discussion' },
-  { code: 'question', label: 'Ask Question', icon: '❓', description: 'Request clarification or more detail' },
-  { code: 'objection', label: 'Raise Objection', icon: '⚠️', description: 'Challenge a point or assumption' },
-  { code: 'support', label: 'Show Support', icon: '👍', description: 'Endorse an agent\'s position' },
-  { code: 'data', label: 'Provide Data', icon: '📊', description: 'Share relevant facts or figures' },
+  {
+    code: 'perspective',
+    label: 'Share Perspective',
+    icon: '💭',
+    description: 'Add your viewpoint to the discussion',
+  },
+  {
+    code: 'question',
+    label: 'Ask Question',
+    icon: '❓',
+    description: 'Request clarification or more detail',
+  },
+  {
+    code: 'objection',
+    label: 'Raise Objection',
+    icon: '⚠️',
+    description: 'Challenge a point or assumption',
+  },
+  {
+    code: 'support',
+    label: 'Show Support',
+    icon: '👍',
+    description: "Endorse an agent's position",
+  },
+  {
+    code: 'data',
+    label: 'Provide Data',
+    icon: '📊',
+    description: 'Share relevant facts or figures',
+  },
 ];
 
 // =============================================================================
@@ -130,7 +155,9 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
   };
 
   const handleSubmit = () => {
-    if (!selectedRole || !content.trim()) {return;}
+    if (!selectedRole || !content.trim()) {
+      return;
+    }
 
     onSubmit({
       userId: 'current-user', // Would come from auth context
@@ -144,7 +171,9 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
     onClose();
   };
 
-  if (!isOpen) {return null;}
+  if (!isOpen) {
+    return null;
+  }
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
@@ -166,27 +195,38 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
               className="p-2 hover:bg-white/20 rounded-lg transition-colors"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </button>
           </div>
-          
+
           {/* Progress indicator */}
           <div className="flex items-center gap-2 mt-4">
-            <div className={cn(
-              'w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-all',
-              step === 'role' ? 'bg-white text-primary-600' : 'bg-primary-500 text-white'
-            )}>
+            <div
+              className={cn(
+                'w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold transition-all',
+                step === 'role' ? 'bg-white text-primary-600' : 'bg-primary-500 text-white'
+              )}
+            >
               {step === 'role' ? '1' : '✓'}
             </div>
-            <div className={cn(
-              'flex-1 h-1 rounded',
-              step === 'intervention' ? 'bg-white' : 'bg-primary-500'
-            )} />
-            <div className={cn(
-              'w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold',
-              step === 'intervention' ? 'bg-white text-primary-600' : 'bg-primary-500 text-white'
-            )}>
+            <div
+              className={cn(
+                'flex-1 h-1 rounded',
+                step === 'intervention' ? 'bg-white' : 'bg-primary-500'
+              )}
+            />
+            <div
+              className={cn(
+                'w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold',
+                step === 'intervention' ? 'bg-white text-primary-600' : 'bg-primary-500 text-white'
+              )}
+            >
               2
             </div>
           </div>
@@ -245,7 +285,9 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
                         <input
                           type="text"
                           value={customRole.title}
-                          onChange={(e) => setCustomRole(prev => ({ ...prev, title: e.target.value }))}
+                          onChange={(e) =>
+                            setCustomRole((prev) => ({ ...prev, title: e.target.value }))
+                          }
                           placeholder="e.g., Senior Architect"
                           className="w-full px-3 py-2 rounded-lg border border-neutral-200 focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                         />
@@ -257,7 +299,9 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
                         <input
                           type="text"
                           value={customRole.department}
-                          onChange={(e) => setCustomRole(prev => ({ ...prev, department: e.target.value }))}
+                          onChange={(e) =>
+                            setCustomRole((prev) => ({ ...prev, department: e.target.value }))
+                          }
                           placeholder="e.g., Architecture"
                           className="w-full px-3 py-2 rounded-lg border border-neutral-200 focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
                         />
@@ -293,7 +337,9 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
                   <span className="text-xl">{selectedRole?.icon}</span>
                   <div>
                     <span className="font-medium text-primary-900">{selectedRole?.title}</span>
-                    <span className="text-primary-600 text-sm ml-2">({selectedRole?.department})</span>
+                    <span className="text-primary-600 text-sm ml-2">
+                      ({selectedRole?.department})
+                    </span>
                   </div>
                   <button
                     onClick={() => setStep('role')}
@@ -306,7 +352,8 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
                 {/* Current phase indicator */}
                 {currentPhase && (
                   <div className="mb-4 text-sm text-neutral-500">
-                    Current deliberation phase: <span className="font-medium text-neutral-700">{currentPhase}</span>
+                    Current deliberation phase:{' '}
+                    <span className="font-medium text-neutral-700">{currentPhase}</span>
                   </div>
                 )}
 
@@ -364,13 +411,13 @@ export const UserInterventionPanel: React.FC<UserInterventionPanelProps> = ({
                     value={content}
                     onChange={(e) => setContent(e.target.value)}
                     placeholder={
-                      interventionType === 'question' 
+                      interventionType === 'question'
                         ? 'What would you like to ask the Council?'
                         : interventionType === 'objection'
-                        ? 'What concern would you like to raise?'
-                        : interventionType === 'data'
-                        ? 'What data or facts would you like to share?'
-                        : 'Share your perspective with the Council...'
+                          ? 'What concern would you like to raise?'
+                          : interventionType === 'data'
+                            ? 'What data or facts would you like to share?'
+                            : 'Share your perspective with the Council...'
                     }
                     rows={5}
                     className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 resize-none"

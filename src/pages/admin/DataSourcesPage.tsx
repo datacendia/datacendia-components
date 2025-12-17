@@ -4,10 +4,23 @@
 // =============================================================================
 
 import React, { useState, useEffect } from 'react';
-import { 
-  Database, Plus, RefreshCw, Check, X, AlertCircle, 
-  ChevronRight, Eye, EyeOff, Trash2, TestTube, Settings,
-  Cloud, Server, FileSpreadsheet, Link2
+import {
+  Database,
+  Plus,
+  RefreshCw,
+  Check,
+  X,
+  AlertCircle,
+  ChevronRight,
+  Eye,
+  EyeOff,
+  Trash2,
+  TestTube,
+  Settings,
+  Cloud,
+  Server,
+  FileSpreadsheet,
+  Link2,
 } from 'lucide-react';
 import { api } from '../../lib/api';
 
@@ -33,20 +46,23 @@ interface ConnectionTestResult {
 }
 
 // Connector configurations
-const CONNECTOR_CONFIGS: Record<string, {
-  name: string;
-  icon: string;
-  category: string;
-  fields: Array<{
-    key: string;
-    label: string;
-    type: 'text' | 'password' | 'number' | 'select' | 'textarea';
-    placeholder?: string;
-    required?: boolean;
-    isCredential?: boolean;
-    options?: Array<{ value: string; label: string }>;
-  }>;
-}> = {
+const CONNECTOR_CONFIGS: Record<
+  string,
+  {
+    name: string;
+    icon: string;
+    category: string;
+    fields: Array<{
+      key: string;
+      label: string;
+      type: 'text' | 'password' | 'number' | 'select' | 'textarea';
+      placeholder?: string;
+      required?: boolean;
+      isCredential?: boolean;
+      options?: Array<{ value: string; label: string }>;
+    }>;
+  }
+> = {
   POSTGRESQL: {
     name: 'PostgreSQL',
     icon: '🗄️',
@@ -77,7 +93,13 @@ const CONNECTOR_CONFIGS: Record<string, {
     icon: '🍃',
     category: 'Database',
     fields: [
-      { key: 'connectionString', label: 'Connection String', type: 'text', placeholder: 'mongodb://...', required: true },
+      {
+        key: 'connectionString',
+        label: 'Connection String',
+        type: 'text',
+        placeholder: 'mongodb://...',
+        required: true,
+      },
       { key: 'database', label: 'Database', type: 'text', required: true },
     ],
   },
@@ -100,7 +122,14 @@ const CONNECTOR_CONFIGS: Record<string, {
       { key: 'host', label: 'Host', type: 'text', placeholder: 'localhost', required: true },
       { key: 'port', label: 'Bolt Port', type: 'number', placeholder: '7687', required: true },
       { key: 'uri', label: 'Connection URI', type: 'text', placeholder: 'bolt://localhost:7687' },
-      { key: 'username', label: 'Username', type: 'text', placeholder: 'neo4j', required: true, isCredential: true },
+      {
+        key: 'username',
+        label: 'Username',
+        type: 'text',
+        placeholder: 'neo4j',
+        required: true,
+        isCredential: true,
+      },
       { key: 'password', label: 'Password', type: 'password', required: true, isCredential: true },
     ],
   },
@@ -109,7 +138,13 @@ const CONNECTOR_CONFIGS: Record<string, {
     icon: '❄️',
     category: 'Data Warehouse',
     fields: [
-      { key: 'account', label: 'Account', type: 'text', placeholder: 'xyz12345.us-east-1', required: true },
+      {
+        key: 'account',
+        label: 'Account',
+        type: 'text',
+        placeholder: 'xyz12345.us-east-1',
+        required: true,
+      },
       { key: 'warehouse', label: 'Warehouse', type: 'text', required: true },
       { key: 'database', label: 'Database', type: 'text', required: true },
       { key: 'schema', label: 'Schema', type: 'text', placeholder: 'PUBLIC' },
@@ -123,7 +158,13 @@ const CONNECTOR_CONFIGS: Record<string, {
     category: 'Data Warehouse',
     fields: [
       { key: 'projectId', label: 'Project ID', type: 'text', required: true },
-      { key: 'serviceAccountKey', label: 'Service Account JSON', type: 'textarea', required: true, isCredential: true },
+      {
+        key: 'serviceAccountKey',
+        label: 'Service Account JSON',
+        type: 'textarea',
+        required: true,
+        isCredential: true,
+      },
     ],
   },
   SALESFORCE: {
@@ -131,12 +172,23 @@ const CONNECTOR_CONFIGS: Record<string, {
     icon: '☁️',
     category: 'CRM',
     fields: [
-      { key: 'sandbox', label: 'Environment', type: 'select', options: [
-        { value: 'false', label: 'Production' },
-        { value: 'true', label: 'Sandbox' },
-      ]},
+      {
+        key: 'sandbox',
+        label: 'Environment',
+        type: 'select',
+        options: [
+          { value: 'false', label: 'Production' },
+          { value: 'true', label: 'Sandbox' },
+        ],
+      },
       { key: 'clientId', label: 'Client ID', type: 'text', required: true, isCredential: true },
-      { key: 'clientSecret', label: 'Client Secret', type: 'password', required: true, isCredential: true },
+      {
+        key: 'clientSecret',
+        label: 'Client Secret',
+        type: 'password',
+        required: true,
+        isCredential: true,
+      },
       { key: 'username', label: 'Username', type: 'text', required: true, isCredential: true },
       { key: 'password', label: 'Password', type: 'password', required: true, isCredential: true },
       { key: 'securityToken', label: 'Security Token', type: 'password', isCredential: true },
@@ -147,7 +199,13 @@ const CONNECTOR_CONFIGS: Record<string, {
     icon: '🟠',
     category: 'CRM',
     fields: [
-      { key: 'apiKey', label: 'Private App Access Token', type: 'password', required: true, isCredential: true },
+      {
+        key: 'apiKey',
+        label: 'Private App Access Token',
+        type: 'password',
+        required: true,
+        isCredential: true,
+      },
     ],
   },
   SAP: {
@@ -168,14 +226,31 @@ const CONNECTOR_CONFIGS: Record<string, {
     category: 'Cloud',
     fields: [
       { key: 'region', label: 'Region', type: 'text', placeholder: 'us-east-1', required: true },
-      { key: 'service', label: 'Service', type: 'select', options: [
-        { value: 's3', label: 'S3 (Storage)' },
-        { value: 'redshift', label: 'Redshift (Data Warehouse)' },
-        { value: 'rds', label: 'RDS (Database)' },
-        { value: 'dynamodb', label: 'DynamoDB' },
-      ]},
-      { key: 'accessKeyId', label: 'Access Key ID', type: 'text', required: true, isCredential: true },
-      { key: 'secretAccessKey', label: 'Secret Access Key', type: 'password', required: true, isCredential: true },
+      {
+        key: 'service',
+        label: 'Service',
+        type: 'select',
+        options: [
+          { value: 's3', label: 'S3 (Storage)' },
+          { value: 'redshift', label: 'Redshift (Data Warehouse)' },
+          { value: 'rds', label: 'RDS (Database)' },
+          { value: 'dynamodb', label: 'DynamoDB' },
+        ],
+      },
+      {
+        key: 'accessKeyId',
+        label: 'Access Key ID',
+        type: 'text',
+        required: true,
+        isCredential: true,
+      },
+      {
+        key: 'secretAccessKey',
+        label: 'Secret Access Key',
+        type: 'password',
+        required: true,
+        isCredential: true,
+      },
     ],
   },
   AZURE: {
@@ -183,14 +258,25 @@ const CONNECTOR_CONFIGS: Record<string, {
     icon: '🔷',
     category: 'Cloud',
     fields: [
-      { key: 'service', label: 'Service', type: 'select', options: [
-        { value: 'blob', label: 'Blob Storage' },
-        { value: 'sql', label: 'SQL Database' },
-        { value: 'synapse', label: 'Synapse Analytics' },
-      ]},
+      {
+        key: 'service',
+        label: 'Service',
+        type: 'select',
+        options: [
+          { value: 'blob', label: 'Blob Storage' },
+          { value: 'sql', label: 'SQL Database' },
+          { value: 'synapse', label: 'Synapse Analytics' },
+        ],
+      },
       { key: 'accountName', label: 'Account/Server Name', type: 'text', required: true },
       { key: 'database', label: 'Database', type: 'text' },
-      { key: 'accessKey', label: 'Access Key / Password', type: 'password', required: true, isCredential: true },
+      {
+        key: 'accessKey',
+        label: 'Access Key / Password',
+        type: 'password',
+        required: true,
+        isCredential: true,
+      },
     ],
   },
   REST_API: {
@@ -198,13 +284,24 @@ const CONNECTOR_CONFIGS: Record<string, {
     icon: '🔌',
     category: 'API',
     fields: [
-      { key: 'baseUrl', label: 'Base URL', type: 'text', placeholder: 'https://api.example.com', required: true },
-      { key: 'authType', label: 'Auth Type', type: 'select', options: [
-        { value: 'none', label: 'None' },
-        { value: 'bearer', label: 'Bearer Token' },
-        { value: 'apikey', label: 'API Key' },
-        { value: 'basic', label: 'Basic Auth' },
-      ]},
+      {
+        key: 'baseUrl',
+        label: 'Base URL',
+        type: 'text',
+        placeholder: 'https://api.example.com',
+        required: true,
+      },
+      {
+        key: 'authType',
+        label: 'Auth Type',
+        type: 'select',
+        options: [
+          { value: 'none', label: 'None' },
+          { value: 'bearer', label: 'Bearer Token' },
+          { value: 'apikey', label: 'API Key' },
+          { value: 'basic', label: 'Basic Auth' },
+        ],
+      },
       { key: 'apiKey', label: 'API Key / Token', type: 'password', isCredential: true },
       { key: 'username', label: 'Username (Basic Auth)', type: 'text', isCredential: true },
       { key: 'password', label: 'Password (Basic Auth)', type: 'password', isCredential: true },
@@ -215,7 +312,13 @@ const CONNECTOR_CONFIGS: Record<string, {
     icon: '🔗',
     category: 'API',
     fields: [
-      { key: 'endpoint', label: 'Endpoint URL', type: 'text', placeholder: 'https://api.example.com/graphql', required: true },
+      {
+        key: 'endpoint',
+        label: 'Endpoint URL',
+        type: 'text',
+        placeholder: 'https://api.example.com/graphql',
+        required: true,
+      },
       { key: 'apiKey', label: 'Authorization Token', type: 'password', isCredential: true },
     ],
   },
@@ -261,7 +364,7 @@ export const DataSourcesPage: React.FC = () => {
     setSelectedSource(source);
     setIsEditing(false);
     setTestResult(null);
-    
+
     // Populate form with existing config
     const config = source.config as Record<string, string>;
     setFormData(config);
@@ -282,7 +385,7 @@ export const DataSourcesPage: React.FC = () => {
   const handleTestConnection = async () => {
     setIsTesting(true);
     setTestResult(null);
-    
+
     try {
       const sourceId = selectedSource?.id;
       const type = selectedSource?.type || newSourceType;
@@ -292,7 +395,9 @@ export const DataSourcesPage: React.FC = () => {
         if (res.success && res.data) {
           setTestResult(res.data);
         } else {
-          setTestResult(res.data || { success: false, message: res.error?.message || 'Test failed' });
+          setTestResult(
+            res.data || { success: false, message: res.error?.message || 'Test failed' }
+          );
         }
       } else {
         // Test new configuration
@@ -304,7 +409,9 @@ export const DataSourcesPage: React.FC = () => {
         if (res.success && res.data) {
           setTestResult(res.data);
         } else {
-          setTestResult(res.data || { success: false, message: res.error?.message || 'Test failed' });
+          setTestResult(
+            res.data || { success: false, message: res.error?.message || 'Test failed' }
+          );
         }
       }
     } catch (error) {
@@ -320,27 +427,26 @@ export const DataSourcesPage: React.FC = () => {
 
   const handleSave = async () => {
     setIsSaving(true);
-    
+
     try {
       const type = selectedSource?.type || newSourceType;
       const connectorConfig = CONNECTOR_CONFIGS[type || ''];
-      
+
       // Separate config and credentials
       const config: Record<string, unknown> = {};
       const credentials: Record<string, unknown> = {};
-      
-      connectorConfig?.fields.forEach(field => {
+
+      connectorConfig?.fields.forEach((field) => {
         if (formData[field.key]) {
           if (field.isCredential) {
             credentials[field.key] = formData[field.key];
           } else {
-            config[field.key] = field.type === 'number' 
-              ? parseInt(formData[field.key]) 
-              : formData[field.key];
+            config[field.key] =
+              field.type === 'number' ? parseInt(formData[field.key]) : formData[field.key];
           }
         }
       });
-      
+
       if (selectedSource) {
         // Update existing
         const res = await api.put<unknown>(`/data-sources/${selectedSource.id}`, {
@@ -376,18 +482,14 @@ export const DataSourcesPage: React.FC = () => {
     try {
       const res = await api.post<unknown>(`/data-sources/${id}/sync`);
       if (res.success) {
-        setDataSources(prev =>
-          prev.map(ds =>
-            ds.id === id
-              ? { ...ds, status: 'SYNCING' as DataSource['status'] }
-              : ds
+        setDataSources((prev) =>
+          prev.map((ds) =>
+            ds.id === id ? { ...ds, status: 'SYNCING' as DataSource['status'] } : ds
           )
         );
 
-        setSelectedSource(prev =>
-          prev && prev.id === id
-            ? { ...prev, status: 'SYNCING' as DataSource['status'] }
-            : prev
+        setSelectedSource((prev) =>
+          prev && prev.id === id ? { ...prev, status: 'SYNCING' as DataSource['status'] } : prev
         );
       }
     } catch (error) {
@@ -396,8 +498,10 @@ export const DataSourcesPage: React.FC = () => {
   };
 
   const handleDelete = async (id: string) => {
-    if (!confirm('Are you sure you want to delete this data source?')) {return;}
-    
+    if (!confirm('Are you sure you want to delete this data source?')) {
+      return;
+    }
+
     try {
       const res = await api.delete<unknown>(`/data-sources/${id}`);
       if (res.success) {
@@ -411,30 +515,45 @@ export const DataSourcesPage: React.FC = () => {
 
   const getStatusColor = (status: string) => {
     switch (status) {
-      case 'CONNECTED': return 'bg-green-500';
-      case 'SYNCING': return 'bg-yellow-500 animate-pulse';
-      case 'ERROR': return 'bg-red-500';
-      case 'PENDING': return 'bg-gray-500';
-      default: return 'bg-gray-500';
+      case 'CONNECTED':
+        return 'bg-green-500';
+      case 'SYNCING':
+        return 'bg-yellow-500 animate-pulse';
+      case 'ERROR':
+        return 'bg-red-500';
+      case 'PENDING':
+        return 'bg-gray-500';
+      default:
+        return 'bg-gray-500';
     }
   };
 
   const getStatusLabel = (status: string) => {
     switch (status) {
-      case 'CONNECTED': return 'Connected';
-      case 'SYNCING': return 'Syncing...';
-      case 'ERROR': return 'Error';
-      case 'PENDING': return 'Not Configured';
-      default: return status;
+      case 'CONNECTED':
+        return 'Connected';
+      case 'SYNCING':
+        return 'Syncing...';
+      case 'ERROR':
+        return 'Error';
+      case 'PENDING':
+        return 'Not Configured';
+      default:
+        return status;
     }
   };
 
   // Group connectors by category
-  const connectorsByCategory = Object.entries(CONNECTOR_CONFIGS).reduce((acc, [key, config]) => {
-    if (!acc[config.category]) {acc[config.category] = [];}
-    acc[config.category].push({ key, ...config });
-    return acc;
-  }, {} as Record<string, Array<{ key: string; name: string; icon: string; category: string }>>);
+  const connectorsByCategory = Object.entries(CONNECTOR_CONFIGS).reduce(
+    (acc, [key, config]) => {
+      if (!acc[config.category]) {
+        acc[config.category] = [];
+      }
+      acc[config.category].push({ key, ...config });
+      return acc;
+    },
+    {} as Record<string, Array<{ key: string; name: string; icon: string; category: string }>>
+  );
 
   return (
     <div className="min-h-screen bg-gray-900 p-6">
@@ -446,9 +565,7 @@ export const DataSourcesPage: React.FC = () => {
               <Database className="w-7 h-7 text-indigo-400" />
               Data Sources
             </h1>
-            <p className="text-gray-400 mt-1">
-              Configure and manage your data source connections
-            </p>
+            <p className="text-gray-400 mt-1">Configure and manage your data source connections</p>
           </div>
           <button
             onClick={() => setIsAddingNew(true)}
@@ -467,7 +584,7 @@ export const DataSourcesPage: React.FC = () => {
                 Configured Sources ({dataSources.length})
               </h2>
             </div>
-            
+
             <div className="divide-y divide-gray-700 max-h-[600px] overflow-y-auto">
               {isLoading ? (
                 <div className="p-8 text-center">
@@ -493,7 +610,9 @@ export const DataSourcesPage: React.FC = () => {
                       key={source.id}
                       onClick={() => handleSelectSource(source)}
                       className={`w-full p-4 text-left hover:bg-gray-700/50 transition-colors ${
-                        selectedSource?.id === source.id ? 'bg-gray-700/50 border-l-2 border-indigo-500' : ''
+                        selectedSource?.id === source.id
+                          ? 'bg-gray-700/50 border-l-2 border-indigo-500'
+                          : ''
                       }`}
                     >
                       <div className="flex items-center gap-3">
@@ -501,8 +620,12 @@ export const DataSourcesPage: React.FC = () => {
                         <div className="flex-1 min-w-0">
                           <p className="text-white font-medium truncate">{source.name}</p>
                           <div className="flex items-center gap-2 mt-1">
-                            <span className={`w-2 h-2 rounded-full ${getStatusColor(source.status)}`} />
-                            <span className="text-xs text-gray-400">{getStatusLabel(source.status)}</span>
+                            <span
+                              className={`w-2 h-2 rounded-full ${getStatusColor(source.status)}`}
+                            />
+                            <span className="text-xs text-gray-400">
+                              {getStatusLabel(source.status)}
+                            </span>
                           </div>
                         </div>
                         <ChevronRight className="w-4 h-4 text-gray-500" />
@@ -520,7 +643,7 @@ export const DataSourcesPage: React.FC = () => {
               // Select connector type
               <div className="bg-gray-800 rounded-xl border border-gray-700 p-6">
                 <h2 className="text-lg font-semibold text-white mb-6">Select Data Source Type</h2>
-                
+
                 {Object.entries(connectorsByCategory).map(([category, connectors]) => (
                   <div key={category} className="mb-6">
                     <h3 className="text-sm font-medium text-gray-400 uppercase tracking-wider mb-3">
@@ -540,7 +663,7 @@ export const DataSourcesPage: React.FC = () => {
                     </div>
                   </div>
                 ))}
-                
+
                 <button
                   onClick={() => setIsAddingNew(false)}
                   className="mt-4 text-gray-400 hover:text-white text-sm"
@@ -548,7 +671,7 @@ export const DataSourcesPage: React.FC = () => {
                   ← Cancel
                 </button>
               </div>
-            ) : (selectedSource || newSourceType) ? (
+            ) : selectedSource || newSourceType ? (
               // Configuration form
               <div className="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
                 {/* Header */}
@@ -556,7 +679,8 @@ export const DataSourcesPage: React.FC = () => {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
                       <span className="text-3xl">
-                        {CONNECTOR_CONFIGS[selectedSource?.type || newSourceType || '']?.icon || '📊'}
+                        {CONNECTOR_CONFIGS[selectedSource?.type || newSourceType || '']?.icon ||
+                          '📊'}
                       </span>
                       <div>
                         <h2 className="text-xl font-semibold text-white">
@@ -570,11 +694,15 @@ export const DataSourcesPage: React.FC = () => {
                     <div className="flex items-center gap-2">
                       {selectedSource && (
                         <>
-                          <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-                            selectedSource.status === 'CONNECTED' ? 'bg-green-900/50 text-green-400' :
-                            selectedSource.status === 'ERROR' ? 'bg-red-900/50 text-red-400' :
-                            'bg-gray-700 text-gray-400'
-                          }`}>
+                          <span
+                            className={`px-3 py-1 rounded-full text-xs font-medium ${
+                              selectedSource.status === 'CONNECTED'
+                                ? 'bg-green-900/50 text-green-400'
+                                : selectedSource.status === 'ERROR'
+                                  ? 'bg-red-900/50 text-red-400'
+                                  : 'bg-gray-700 text-gray-400'
+                            }`}
+                          >
                             {getStatusLabel(selectedSource.status)}
                           </span>
                           <button
@@ -597,7 +725,7 @@ export const DataSourcesPage: React.FC = () => {
 
                 {/* Form */}
                 <div className="p-6">
-                  {(isEditing || isAddingNew) ? (
+                  {isEditing || isAddingNew ? (
                     <div className="space-y-4">
                       {/* Name field for new sources */}
                       {isAddingNew && (
@@ -614,69 +742,98 @@ export const DataSourcesPage: React.FC = () => {
                           />
                         </div>
                       )}
-                      
+
                       {/* Dynamic fields */}
-                      {CONNECTOR_CONFIGS[selectedSource?.type || newSourceType || '']?.fields.map((field) => (
-                        <div key={field.key}>
-                          <label className="block text-sm font-medium text-gray-300 mb-2">
-                            {field.label}
-                            {field.required && <span className="text-red-400 ml-1">*</span>}
-                          </label>
-                          
-                          {field.type === 'select' ? (
-                            <select
-                              value={formData[field.key] || ''}
-                              onChange={(e) => setFormData({ ...formData, [field.key]: e.target.value })}
-                              className="w-full px-4 py-2 bg-gray-900 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                            >
-                              <option value="">Select...</option>
-                              {field.options?.map((opt) => (
-                                <option key={opt.value} value={opt.value}>{opt.label}</option>
-                              ))}
-                            </select>
-                          ) : field.type === 'textarea' ? (
-                            <textarea
-                              value={formData[field.key] || ''}
-                              onChange={(e) => setFormData({ ...formData, [field.key]: e.target.value })}
-                              placeholder={field.placeholder}
-                              rows={4}
-                              className="w-full px-4 py-2 bg-gray-900 border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 font-mono text-sm"
-                            />
-                          ) : (
-                            <div className="relative">
-                              <input
-                                type={field.type === 'password' && !showPasswords[field.key] ? 'password' : 'text'}
+                      {CONNECTOR_CONFIGS[selectedSource?.type || newSourceType || '']?.fields.map(
+                        (field) => (
+                          <div key={field.key}>
+                            <label className="block text-sm font-medium text-gray-300 mb-2">
+                              {field.label}
+                              {field.required && <span className="text-red-400 ml-1">*</span>}
+                            </label>
+
+                            {field.type === 'select' ? (
+                              <select
                                 value={formData[field.key] || ''}
-                                onChange={(e) => setFormData({ ...formData, [field.key]: e.target.value })}
+                                onChange={(e) =>
+                                  setFormData({ ...formData, [field.key]: e.target.value })
+                                }
+                                className="w-full px-4 py-2 bg-gray-900 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                              >
+                                <option value="">Select...</option>
+                                {field.options?.map((opt) => (
+                                  <option key={opt.value} value={opt.value}>
+                                    {opt.label}
+                                  </option>
+                                ))}
+                              </select>
+                            ) : field.type === 'textarea' ? (
+                              <textarea
+                                value={formData[field.key] || ''}
+                                onChange={(e) =>
+                                  setFormData({ ...formData, [field.key]: e.target.value })
+                                }
                                 placeholder={field.placeholder}
-                                className="w-full px-4 py-2 bg-gray-900 border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 pr-10"
+                                rows={4}
+                                className="w-full px-4 py-2 bg-gray-900 border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 font-mono text-sm"
                               />
-                              {field.type === 'password' && (
-                                <button
-                                  type="button"
-                                  onClick={() => setShowPasswords({ ...showPasswords, [field.key]: !showPasswords[field.key] })}
-                                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
-                                >
-                                  {showPasswords[field.key] ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-                                </button>
-                              )}
-                            </div>
-                          )}
-                        </div>
-                      ))}
+                            ) : (
+                              <div className="relative">
+                                <input
+                                  type={
+                                    field.type === 'password' && !showPasswords[field.key]
+                                      ? 'password'
+                                      : 'text'
+                                  }
+                                  value={formData[field.key] || ''}
+                                  onChange={(e) =>
+                                    setFormData({ ...formData, [field.key]: e.target.value })
+                                  }
+                                  placeholder={field.placeholder}
+                                  className="w-full px-4 py-2 bg-gray-900 border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 pr-10"
+                                />
+                                {field.type === 'password' && (
+                                  <button
+                                    type="button"
+                                    onClick={() =>
+                                      setShowPasswords({
+                                        ...showPasswords,
+                                        [field.key]: !showPasswords[field.key],
+                                      })
+                                    }
+                                    className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
+                                  >
+                                    {showPasswords[field.key] ? (
+                                      <EyeOff className="w-4 h-4" />
+                                    ) : (
+                                      <Eye className="w-4 h-4" />
+                                    )}
+                                  </button>
+                                )}
+                              </div>
+                            )}
+                          </div>
+                        )
+                      )}
 
                       {/* Test Result */}
                       {testResult && (
-                        <div className={`p-4 rounded-lg ${
-                          testResult.success ? 'bg-green-900/30 border border-green-800' : 'bg-red-900/30 border border-red-800'
-                        }`}>
+                        <div
+                          className={`p-4 rounded-lg ${
+                            testResult.success
+                              ? 'bg-green-900/30 border border-green-800'
+                              : 'bg-red-900/30 border border-red-800'
+                          }`}
+                        >
                           <div className="flex items-center gap-2">
                             {testResult.success ? (
                               <Check className="w-5 h-5 text-green-400" />
                             ) : (
                               <X className="w-5 h-5 text-red-400" />
                             )}
-                            <span className={testResult.success ? 'text-green-400' : 'text-red-400'}>
+                            <span
+                              className={testResult.success ? 'text-green-400' : 'text-red-400'}
+                            >
                               {testResult.message}
                             </span>
                           </div>
@@ -734,11 +891,18 @@ export const DataSourcesPage: React.FC = () => {
                     <div>
                       <div className="space-y-4">
                         {CONNECTOR_CONFIGS[selectedSource?.type || '']?.fields.map((field) => {
-                          const value = (selectedSource?.config as Record<string, unknown>)?.[field.key];
-                          if (!value && !field.isCredential) {return null;}
-                          
+                          const value = (selectedSource?.config as Record<string, unknown>)?.[
+                            field.key
+                          ];
+                          if (!value && !field.isCredential) {
+                            return null;
+                          }
+
                           return (
-                            <div key={field.key} className="flex items-center justify-between py-2 border-b border-gray-700">
+                            <div
+                              key={field.key}
+                              className="flex items-center justify-between py-2 border-b border-gray-700"
+                            >
                               <span className="text-gray-400">{field.label}</span>
                               <span className="text-white font-mono">
                                 {field.isCredential ? '••••••••' : String(value)}
@@ -747,7 +911,7 @@ export const DataSourcesPage: React.FC = () => {
                           );
                         })}
                       </div>
-                      
+
                       <div className="flex items-center gap-3 mt-6">
                         <button
                           onClick={handleStartEdit}
@@ -772,16 +936,22 @@ export const DataSourcesPage: React.FC = () => {
 
                       {/* Test Result */}
                       {testResult && (
-                        <div className={`mt-4 p-4 rounded-lg ${
-                          testResult.success ? 'bg-green-900/30 border border-green-800' : 'bg-red-900/30 border border-red-800'
-                        }`}>
+                        <div
+                          className={`mt-4 p-4 rounded-lg ${
+                            testResult.success
+                              ? 'bg-green-900/30 border border-green-800'
+                              : 'bg-red-900/30 border border-red-800'
+                          }`}
+                        >
                           <div className="flex items-center gap-2">
                             {testResult.success ? (
                               <Check className="w-5 h-5 text-green-400" />
                             ) : (
                               <X className="w-5 h-5 text-red-400" />
                             )}
-                            <span className={testResult.success ? 'text-green-400' : 'text-red-400'}>
+                            <span
+                              className={testResult.success ? 'text-green-400' : 'text-red-400'}
+                            >
                               {testResult.message}
                             </span>
                           </div>

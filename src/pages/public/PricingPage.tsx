@@ -52,30 +52,118 @@ const plans = [
 ];
 
 const features: PlanFeature[] = [
-  { name: 'Users', foundation: '10', intelligence: '50', governance: '200', sovereign: 'Unlimited' },
+  {
+    name: 'Users',
+    foundation: '10',
+    intelligence: '50',
+    governance: '200',
+    sovereign: 'Unlimited',
+  },
   { name: 'Agents', foundation: '1', intelligence: '3', governance: '5', sovereign: 'Unlimited' },
-  { name: 'Data Sources', foundation: '5', intelligence: '20', governance: '50', sovereign: 'Unlimited' },
-  { name: 'API Calls/month', foundation: '10K', intelligence: '100K', governance: '500K', sovereign: 'Unlimited' },
-  { name: 'Storage', foundation: '10 GB', intelligence: '50 GB', governance: '200 GB', sovereign: '1 TB' },
-  { name: 'Lineage Tracking', foundation: true, intelligence: true, governance: true, sovereign: true },
-  { name: 'Unified Metrics', foundation: true, intelligence: true, governance: true, sovereign: true },
+  {
+    name: 'Data Sources',
+    foundation: '5',
+    intelligence: '20',
+    governance: '50',
+    sovereign: 'Unlimited',
+  },
+  {
+    name: 'API Calls/month',
+    foundation: '10K',
+    intelligence: '100K',
+    governance: '500K',
+    sovereign: 'Unlimited',
+  },
+  {
+    name: 'Storage',
+    foundation: '10 GB',
+    intelligence: '50 GB',
+    governance: '200 GB',
+    sovereign: '1 TB',
+  },
+  {
+    name: 'Lineage Tracking',
+    foundation: true,
+    intelligence: true,
+    governance: true,
+    sovereign: true,
+  },
+  {
+    name: 'Unified Metrics',
+    foundation: true,
+    intelligence: true,
+    governance: true,
+    sovereign: true,
+  },
   { name: 'Basic Helm', foundation: true, intelligence: true, governance: true, sovereign: true },
-  { name: 'Predict (AI Forecasting)', foundation: false, intelligence: true, governance: true, sovereign: true },
-  { name: 'Health Monitoring', foundation: false, intelligence: true, governance: true, sovereign: true },
+  {
+    name: 'Predict (AI Forecasting)',
+    foundation: false,
+    intelligence: true,
+    governance: true,
+    sovereign: true,
+  },
+  {
+    name: 'Health Monitoring',
+    foundation: false,
+    intelligence: true,
+    governance: true,
+    sovereign: true,
+  },
   { name: 'Full Helm', foundation: false, intelligence: true, governance: true, sovereign: true },
-  { name: 'Guard (Governance)', foundation: false, intelligence: false, governance: true, sovereign: true },
-  { name: 'Ethics Engine', foundation: false, intelligence: false, governance: true, sovereign: true },
-  { name: 'Flow (Automation)', foundation: false, intelligence: false, governance: false, sovereign: true },
-  { name: 'Custom Agents', foundation: false, intelligence: false, governance: false, sovereign: true },
+  {
+    name: 'Guard (Governance)',
+    foundation: false,
+    intelligence: false,
+    governance: true,
+    sovereign: true,
+  },
+  {
+    name: 'Ethics Engine',
+    foundation: false,
+    intelligence: false,
+    governance: true,
+    sovereign: true,
+  },
+  {
+    name: 'Flow (Automation)',
+    foundation: false,
+    intelligence: false,
+    governance: false,
+    sovereign: true,
+  },
+  {
+    name: 'Custom Agents',
+    foundation: false,
+    intelligence: false,
+    governance: false,
+    sovereign: true,
+  },
   { name: 'SSO/SAML', foundation: false, intelligence: true, governance: true, sovereign: true },
-  { name: 'Audit Logs', foundation: '30 days', intelligence: '90 days', governance: '1 year', sovereign: '7 years' },
-  { name: 'Support', foundation: 'Email', intelligence: 'Priority', governance: 'Dedicated', sovereign: 'White Glove' },
+  {
+    name: 'Audit Logs',
+    foundation: '30 days',
+    intelligence: '90 days',
+    governance: '1 year',
+    sovereign: '7 years',
+  },
+  {
+    name: 'Support',
+    foundation: 'Email',
+    intelligence: 'Priority',
+    governance: 'Dedicated',
+    sovereign: 'White Glove',
+  },
 ];
 
 const addons = [
   { name: 'Additional Agent', price: 3000, description: 'Add another AI advisor to your Council' },
   { name: 'Custom Agent', price: 6000, description: 'Custom-trained agent for your domain' },
-  { name: 'Reference Implementation', price: 5000, description: 'Industry-specific workflows & templates' },
+  {
+    name: 'Reference Implementation',
+    price: 5000,
+    description: 'Industry-specific workflows & templates',
+  },
   { name: 'Air-Gapped Deployment', price: '+50%', description: 'Fully isolated deployment option' },
   { name: 'Premium Support', price: 4000, description: '24/7 support with 1-hour SLA' },
 ];
@@ -83,27 +171,33 @@ const addons = [
 const faqs = [
   {
     question: 'Can I try Datacendia before committing?',
-    answer: 'Yes! We offer a 14-day free trial for Foundation and Intelligence plans. For Governance and Sovereign plans, we provide a personalized demo and proof-of-concept.',
+    answer:
+      'Yes! We offer a 14-day free trial for Foundation and Intelligence plans. For Governance and Sovereign plans, we provide a personalized demo and proof-of-concept.',
   },
   {
     question: 'How does billing work?',
-    answer: 'All plans are billed annually. Monthly billing is available at a 20% premium. We accept credit cards, ACH, and wire transfers for enterprise accounts.',
+    answer:
+      'All plans are billed annually. Monthly billing is available at a 20% premium. We accept credit cards, ACH, and wire transfers for enterprise accounts.',
   },
   {
     question: 'Can I upgrade or downgrade my plan?',
-    answer: 'Yes, you can upgrade at any time and the price difference will be prorated. Downgrades take effect at the next billing cycle.',
+    answer:
+      'Yes, you can upgrade at any time and the price difference will be prorated. Downgrades take effect at the next billing cycle.',
   },
   {
     question: 'What happens if I exceed my usage limits?',
-    answer: 'We\'ll notify you when you reach 80% of any limit. Overages are billed at standard rates, or you can upgrade to a higher plan.',
+    answer:
+      "We'll notify you when you reach 80% of any limit. Overages are billed at standard rates, or you can upgrade to a higher plan.",
   },
   {
     question: 'Do you offer discounts for nonprofits or startups?',
-    answer: 'Yes! We offer 50% off for qualified nonprofits and a special startup program. Contact us for details.',
+    answer:
+      'Yes! We offer 50% off for qualified nonprofits and a special startup program. Contact us for details.',
   },
   {
     question: 'Is there a self-hosted option?',
-    answer: 'Yes, Sovereign plan includes the option for on-premise or private cloud deployment. Air-gapped deployments are available as an add-on.',
+    answer:
+      'Yes, Sovereign plan includes the option for on-premise or private cloud deployment. Air-gapped deployments are available as an add-on.',
   },
 ];
 
@@ -147,7 +241,12 @@ export const PricingPage: React.FC = () => {
 
           {/* Billing Toggle */}
           <div className="flex items-center justify-center gap-4">
-            <span className={cn('text-sm', billingCycle === 'monthly' ? 'text-neutral-900' : 'text-neutral-500')}>
+            <span
+              className={cn(
+                'text-sm',
+                billingCycle === 'monthly' ? 'text-neutral-900' : 'text-neutral-500'
+              )}
+            >
               Monthly
             </span>
             <button
@@ -164,7 +263,12 @@ export const PricingPage: React.FC = () => {
                 )}
               />
             </button>
-            <span className={cn('text-sm', billingCycle === 'annual' ? 'text-neutral-900' : 'text-neutral-500')}>
+            <span
+              className={cn(
+                'text-sm',
+                billingCycle === 'annual' ? 'text-neutral-900' : 'text-neutral-500'
+              )}
+            >
               Annual
             </span>
             {billingCycle === 'annual' && (
@@ -202,7 +306,9 @@ export const PricingPage: React.FC = () => {
                 <p className="text-sm text-neutral-500 mb-4">{plan.description}</p>
 
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-neutral-900">{getPrice(plan.price)}</span>
+                  <span className="text-4xl font-bold text-neutral-900">
+                    {getPrice(plan.price)}
+                  </span>
                   <span className="text-neutral-500">/month</span>
                 </div>
 
@@ -226,9 +332,7 @@ export const PricingPage: React.FC = () => {
       {/* Feature Comparison Table */}
       <section className="py-20 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-neutral-900 text-center mb-12">
-            Compare Plans
-          </h2>
+          <h2 className="text-3xl font-bold text-neutral-900 text-center mb-12">Compare Plans</h2>
 
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -236,7 +340,10 @@ export const PricingPage: React.FC = () => {
                 <tr className="border-b border-neutral-200">
                   <th className="text-left py-4 px-4 font-semibold text-neutral-900">Feature</th>
                   {plans.map((plan) => (
-                    <th key={plan.id} className="text-center py-4 px-4 font-semibold text-neutral-900">
+                    <th
+                      key={plan.id}
+                      className="text-center py-4 px-4 font-semibold text-neutral-900"
+                    >
                       {plan.name}
                     </th>
                   ))}
@@ -246,19 +353,21 @@ export const PricingPage: React.FC = () => {
                 {features.map((feature, index) => (
                   <tr key={index} className="border-b border-neutral-100">
                     <td className="py-4 px-4 text-sm text-neutral-600">{feature.name}</td>
-                    {(['foundation', 'intelligence', 'governance', 'sovereign'] as const).map((plan) => (
-                      <td key={plan} className="py-4 px-4 text-center">
-                        {typeof feature[plan] === 'boolean' ? (
-                          feature[plan] ? (
-                            <span className="text-success-main">✓</span>
+                    {(['foundation', 'intelligence', 'governance', 'sovereign'] as const).map(
+                      (plan) => (
+                        <td key={plan} className="py-4 px-4 text-center">
+                          {typeof feature[plan] === 'boolean' ? (
+                            feature[plan] ? (
+                              <span className="text-success-main">✓</span>
+                            ) : (
+                              <span className="text-neutral-300">—</span>
+                            )
                           ) : (
-                            <span className="text-neutral-300">—</span>
-                          )
-                        ) : (
-                          <span className="text-sm text-neutral-700">{feature[plan]}</span>
-                        )}
-                      </td>
-                    ))}
+                            <span className="text-sm text-neutral-700">{feature[plan]}</span>
+                          )}
+                        </td>
+                      )
+                    )}
                   </tr>
                 ))}
               </tbody>
@@ -281,7 +390,9 @@ export const PricingPage: React.FC = () => {
                 <h3 className="font-semibold text-neutral-900 mb-1">{addon.name}</h3>
                 <p className="text-sm text-neutral-500 mb-3">{addon.description}</p>
                 <p className="text-lg font-bold text-primary-600">
-                  {typeof addon.price === 'number' ? `${formatCurrency(addon.price)}/mo` : addon.price}
+                  {typeof addon.price === 'number'
+                    ? `${formatCurrency(addon.price)}/mo`
+                    : addon.price}
                 </p>
               </div>
             ))}
@@ -298,23 +409,26 @@ export const PricingPage: React.FC = () => {
 
           <div className="space-y-4">
             {faqs.map((faq, index) => (
-              <div key={index} className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+              <div
+                key={index}
+                className="bg-white rounded-xl border border-neutral-200 overflow-hidden"
+              >
                 <button
                   onClick={() => setExpandedFaq(expandedFaq === index ? null : index)}
                   className="w-full flex items-center justify-between p-6 text-left"
                 >
                   <span className="font-medium text-neutral-900">{faq.question}</span>
-                  <span className={cn(
-                    'text-xl text-neutral-400 transition-transform',
-                    expandedFaq === index && 'rotate-180'
-                  )}>
+                  <span
+                    className={cn(
+                      'text-xl text-neutral-400 transition-transform',
+                      expandedFaq === index && 'rotate-180'
+                    )}
+                  >
                     ▼
                   </span>
                 </button>
                 {expandedFaq === index && (
-                  <div className="px-6 pb-6 text-neutral-600">
-                    {faq.answer}
-                  </div>
+                  <div className="px-6 pb-6 text-neutral-600">{faq.answer}</div>
                 )}
               </div>
             ))}
@@ -325,9 +439,7 @@ export const PricingPage: React.FC = () => {
       {/* CTA */}
       <section className="py-20 bg-primary-600">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to get started?
-          </h2>
+          <h2 className="text-3xl font-bold text-white mb-4">Ready to get started?</h2>
           <p className="text-xl text-white/70 mb-8">
             Start your 14-day free trial or talk to our team about your needs.
           </p>

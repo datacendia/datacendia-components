@@ -2,7 +2,7 @@
 // CENDIA AUTOPILOT™ - SELF-DRIVING ENTERPRISE MODE
 // The System Proposes Decisions Automatically, Humans Approve
 // "AI-Run Enterprise Territory"
-// 
+//
 // CAPABILITIES:
 // - Autonomous decision recommendation engine
 // - Human-in-the-loop approval workflows
@@ -15,7 +15,13 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { enterpriseService, AutoDecision, AutomationRule, SystemHealth, DecisionCategory } from '../../../services/EnterpriseService';
+import {
+  enterpriseService,
+  AutoDecision,
+  AutomationRule,
+  SystemHealth,
+  DecisionCategory,
+} from '../../../services/EnterpriseService';
 import { ollamaService } from '../../../lib/ollama';
 import api from '../../../lib/api';
 
@@ -39,7 +45,8 @@ const generateDecisions = (): AutoDecision[] => [
   {
     id: 'dec-001',
     title: 'Q4 Budget Reallocation',
-    description: 'Revenue is trending 3.2% below forecast. Recommend adjusting Q4 budgets by 2% across non-critical teams to maintain margin targets.',
+    description:
+      'Revenue is trending 3.2% below forecast. Recommend adjusting Q4 budgets by 2% across non-critical teams to maintain margin targets.',
     category: 'financial',
     priority: 'high',
     status: 'pending',
@@ -50,21 +57,31 @@ const generateDecisions = (): AutoDecision[] => [
       threshold: -3,
       currentValue: -3.2,
     },
-    recommendation: 'Reduce discretionary spending by 2% ($450K) across Marketing, R&D, and G&A to protect EBITDA margin',
+    recommendation:
+      'Reduce discretionary spending by 2% ($450K) across Marketing, R&D, and G&A to protect EBITDA margin',
     impact: [
       { metric: 'EBITDA Margin', projectedChange: 0.8, unit: '%', confidence: 92 },
       { metric: 'Cash Runway', projectedChange: 2.1, unit: 'months', confidence: 88 },
       { metric: 'Team Morale', projectedChange: -5, unit: '%', confidence: 65 },
     ],
     risks: [
-      { description: 'Delayed product launches', probability: 25, mitigation: 'Prioritize critical path items' },
-      { description: 'Reduced marketing reach', probability: 40, mitigation: 'Focus on high-ROI channels' },
+      {
+        description: 'Delayed product launches',
+        probability: 25,
+        mitigation: 'Prioritize critical path items',
+      },
+      {
+        description: 'Reduced marketing reach',
+        probability: 40,
+        mitigation: 'Focus on high-ROI channels',
+      },
     ],
     alternatives: [
       { description: 'Accelerate collections on A/R', impact: 'Recover $200K within 30 days' },
       { description: 'Defer Q4 hiring', impact: 'Save $180K, delay 3 hires' },
     ],
-    aiReasoning: 'Historical analysis shows similar revenue shortfalls in 2022 and 2023 were addressed with 2-3% budget cuts, resulting in successful margin protection without significant operational impact. Current market conditions suggest conservative approach is prudent.',
+    aiReasoning:
+      'Historical analysis shows similar revenue shortfalls in 2022 and 2023 were addressed with 2-3% budget cuts, resulting in successful margin protection without significant operational impact. Current market conditions suggest conservative approach is prudent.',
     supportingData: [
       { source: 'SAP', value: 'YTD Revenue: $38.2M (vs $39.4M plan)' },
       { source: 'Workday', value: 'Headcount: 156 (vs 160 plan)' },
@@ -76,7 +93,8 @@ const generateDecisions = (): AutoDecision[] => [
   {
     id: 'dec-002',
     title: 'Cloud Cost Optimization',
-    description: 'Cloud infrastructure costs have increased 18% MoM. Analysis indicates 8% of workloads can be moved back on-premises for 34% cost reduction.',
+    description:
+      'Cloud infrastructure costs have increased 18% MoM. Analysis indicates 8% of workloads can be moved back on-premises for 34% cost reduction.',
     category: 'technology',
     priority: 'medium',
     status: 'pending',
@@ -94,14 +112,23 @@ const generateDecisions = (): AutoDecision[] => [
       { metric: 'Latency', projectedChange: 5, unit: 'ms', confidence: 70 },
     ],
     risks: [
-      { description: 'Migration complexity', probability: 30, mitigation: 'Phased migration over 6 weeks' },
-      { description: 'Capacity constraints', probability: 20, mitigation: 'Pre-provision on-prem capacity' },
+      {
+        description: 'Migration complexity',
+        probability: 30,
+        mitigation: 'Phased migration over 6 weeks',
+      },
+      {
+        description: 'Capacity constraints',
+        probability: 20,
+        mitigation: 'Pre-provision on-prem capacity',
+      },
     ],
     alternatives: [
       { description: 'Reserved instance commitments', impact: 'Save 25% on compute' },
       { description: 'Rightsizing instances', impact: 'Save 15% through optimization' },
     ],
-    aiReasoning: 'Workload analysis shows batch processing and dev/test environments are ideal candidates for on-prem migration. These workloads have consistent, predictable resource requirements and don\'t benefit from cloud elasticity.',
+    aiReasoning:
+      "Workload analysis shows batch processing and dev/test environments are ideal candidates for on-prem migration. These workloads have consistent, predictable resource requirements and don't benefit from cloud elasticity.",
     supportingData: [
       { source: 'AWS Cost Explorer', value: 'Monthly spend: $245K (+18% MoM)' },
       { source: 'Datadog', value: 'Avg utilization: 42%' },
@@ -113,7 +140,8 @@ const generateDecisions = (): AutoDecision[] => [
   {
     id: 'dec-003',
     title: 'Sales Team Retraining Initiative',
-    description: 'Sales conversion rate has dropped 12% this quarter. Data suggests skill gaps in enterprise selling. Recommend targeted training program.',
+    description:
+      'Sales conversion rate has dropped 12% this quarter. Data suggests skill gaps in enterprise selling. Recommend targeted training program.',
     category: 'sales',
     priority: 'high',
     status: 'auto-executed',
@@ -131,12 +159,17 @@ const generateDecisions = (): AutoDecision[] => [
       { metric: 'Quota Attainment', projectedChange: 12, unit: '%', confidence: 75 },
     ],
     risks: [
-      { description: 'Rep availability during training', probability: 60, mitigation: 'Schedule during low-activity periods' },
+      {
+        description: 'Rep availability during training',
+        probability: 60,
+        mitigation: 'Schedule during low-activity periods',
+      },
     ],
     alternatives: [
       { description: 'External sales coaching', impact: 'Higher cost, faster results' },
     ],
-    aiReasoning: 'Pattern recognition identified that reps who completed this training in 2023 showed 23% improvement in enterprise deal closure. Current cohort matches the profile of successful candidates.',
+    aiReasoning:
+      'Pattern recognition identified that reps who completed this training in 2023 showed 23% improvement in enterprise deal closure. Current cohort matches the profile of successful candidates.',
     supportingData: [
       { source: 'Salesforce', value: 'Conversion: 18% (vs 20.5% benchmark)' },
       { source: 'Gong', value: 'Talk ratio: 68% (ideal: 45%)' },
@@ -149,7 +182,8 @@ const generateDecisions = (): AutoDecision[] => [
   {
     id: 'dec-004',
     title: 'Retention Risk Intervention',
-    description: 'AI detected 4 high-performers in Engineering showing turnover risk signals. Recommend immediate retention actions.',
+    description:
+      'AI detected 4 high-performers in Engineering showing turnover risk signals. Recommend immediate retention actions.',
     category: 'hr',
     priority: 'critical',
     status: 'pending',
@@ -160,21 +194,37 @@ const generateDecisions = (): AutoDecision[] => [
       threshold: 75,
       currentValue: 82,
     },
-    recommendation: 'Initiate retention conversations with identified engineers, prepare competitive counter-offers',
+    recommendation:
+      'Initiate retention conversations with identified engineers, prepare competitive counter-offers',
     impact: [
       { metric: 'Retention Rate', projectedChange: 15, unit: '%', confidence: 70 },
       { metric: 'Replacement Cost Avoided', projectedChange: 480, unit: 'K USD', confidence: 85 },
       { metric: 'Project Continuity', projectedChange: 100, unit: '%', confidence: 90 },
     ],
     risks: [
-      { description: 'Salary compression with peers', probability: 45, mitigation: 'Use equity/bonus instead' },
-      { description: 'Others may expect similar treatment', probability: 35, mitigation: 'Position as recognition program' },
+      {
+        description: 'Salary compression with peers',
+        probability: 45,
+        mitigation: 'Use equity/bonus instead',
+      },
+      {
+        description: 'Others may expect similar treatment',
+        probability: 35,
+        mitigation: 'Position as recognition program',
+      },
     ],
     alternatives: [
-      { description: 'Enhanced career development track', impact: 'Lower cost, longer-term impact' },
-      { description: 'Project reassignment to high-visibility work', impact: 'No cost, moderate effectiveness' },
+      {
+        description: 'Enhanced career development track',
+        impact: 'Lower cost, longer-term impact',
+      },
+      {
+        description: 'Project reassignment to high-visibility work',
+        impact: 'No cost, moderate effectiveness',
+      },
     ],
-    aiReasoning: 'Behavioral signals detected: reduced code commits (-40%), calendar availability (-60%), LinkedIn activity (+300%), sentiment in Slack (-25%). Historical pattern matches 87% of engineers who departed within 60 days.',
+    aiReasoning:
+      'Behavioral signals detected: reduced code commits (-40%), calendar availability (-60%), LinkedIn activity (+300%), sentiment in Slack (-25%). Historical pattern matches 87% of engineers who departed within 60 days.',
     supportingData: [
       { source: 'GitHub', value: 'Commit frequency: -40% vs 90-day avg' },
       { source: 'Calendar', value: 'Meeting declines: +60%' },
@@ -186,7 +236,8 @@ const generateDecisions = (): AutoDecision[] => [
   {
     id: 'dec-005',
     title: 'Vendor Contract Renegotiation',
-    description: 'Annual renewal approaching for top SaaS vendor. Market analysis suggests 22% savings opportunity through renegotiation.',
+    description:
+      'Annual renewal approaching for top SaaS vendor. Market analysis suggests 22% savings opportunity through renegotiation.',
     category: 'operational',
     priority: 'medium',
     status: 'approved',
@@ -203,12 +254,17 @@ const generateDecisions = (): AutoDecision[] => [
       { metric: 'Savings', projectedChange: 85, unit: 'K USD', confidence: 75 },
     ],
     risks: [
-      { description: 'Vendor pushback', probability: 50, mitigation: 'Have alternative vendor ready' },
+      {
+        description: 'Vendor pushback',
+        probability: 50,
+        mitigation: 'Have alternative vendor ready',
+      },
     ],
     alternatives: [
       { description: 'Switch to competitor', impact: '$110K savings, 3-month migration' },
     ],
-    aiReasoning: 'CendiaMesh benchmark data shows similar-sized companies paying 22% less. Vendor recently lost two enterprise accounts and may be motivated to retain business.',
+    aiReasoning:
+      'CendiaMesh benchmark data shows similar-sized companies paying 22% less. Vendor recently lost two enterprise accounts and may be motivated to retain business.',
     supportingData: [
       { source: 'Contract DB', value: 'Current: $385K/year' },
       { source: 'CendiaMesh', value: 'Benchmark: $300K for comparable usage' },
@@ -229,14 +285,19 @@ const generateAutomationRules = (): AutomationRule[] => [
     enabled: true,
     automationLevel: 'approval-required',
     triggers: [{ metric: 'budget_variance', operator: 'gt', value: 5 }],
-    actions: ['Generate budget reallocation recommendation', 'Alert CFO', 'Prepare impact analysis'],
+    actions: [
+      'Generate budget reallocation recommendation',
+      'Alert CFO',
+      'Prepare impact analysis',
+    ],
     lastTriggered: new Date(Date.now() - 2 * 60 * 60 * 1000),
     triggerCount: 12,
   },
   {
     id: 'rule-002',
     name: 'High-Performer Retention',
-    description: 'Automatically flag and recommend retention actions for high-performers showing risk signals',
+    description:
+      'Automatically flag and recommend retention actions for high-performers showing risk signals',
     category: 'hr',
     enabled: true,
     automationLevel: 'approval-required',
@@ -253,7 +314,11 @@ const generateAutomationRules = (): AutomationRule[] => [
     enabled: true,
     automationLevel: 'full-auto',
     triggers: [{ metric: 'sales_conversion_rate', operator: 'lt', value: -10 }],
-    actions: ['Enroll in training program', 'Notify sales manager', 'Schedule follow-up assessment'],
+    actions: [
+      'Enroll in training program',
+      'Notify sales manager',
+      'Schedule follow-up assessment',
+    ],
     lastTriggered: new Date(Date.now() - 24 * 60 * 60 * 1000),
     triggerCount: 23,
   },
@@ -283,20 +348,22 @@ const generateAutomationRules = (): AutomationRule[] => [
 ];
 
 const calculateSystemHealth = (decisions: AutoDecision[]): SystemHealth => {
-  const categories: SystemHealth['categories'] = (Object.keys(CATEGORY_CONFIG) as DecisionCategory[]).map(cat => ({
+  const categories: SystemHealth['categories'] = (
+    Object.keys(CATEGORY_CONFIG) as DecisionCategory[]
+  ).map((cat) => ({
     category: cat,
     score: 70 + Math.random() * 25,
     trend: ['up', 'down', 'stable'][Math.floor(Math.random() * 3)] as 'up' | 'down' | 'stable',
-    activeDecisions: decisions.filter(d => d.category === cat && d.status === 'pending').length,
+    activeDecisions: decisions.filter((d) => d.category === cat && d.status === 'pending').length,
   }));
 
   return {
     overallScore: Math.round(categories.reduce((sum, c) => sum + c.score, 0) / categories.length),
     categories,
-    pendingDecisions: decisions.filter(d => d.status === 'pending').length,
-    autoExecutedToday: decisions.filter(d => d.status === 'auto-executed').length,
-    humanApprovedToday: decisions.filter(d => d.status === 'approved').length,
-    escalatedToday: decisions.filter(d => d.status === 'escalated').length,
+    pendingDecisions: decisions.filter((d) => d.status === 'pending').length,
+    autoExecutedToday: decisions.filter((d) => d.status === 'auto-executed').length,
+    humanApprovedToday: decisions.filter((d) => d.status === 'approved').length,
+    escalatedToday: decisions.filter((d) => d.status === 'escalated').length,
   };
 };
 
@@ -308,7 +375,9 @@ export const AutopilotPage: React.FC = () => {
   const navigate = useNavigate();
   const [decisions, setDecisions] = useState<AutoDecision[]>([]);
   const [automationRules, setAutomationRules] = useState<AutomationRule[]>([]);
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'decisions' | 'rules' | 'history'>('dashboard');
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'decisions' | 'rules' | 'history'>(
+    'dashboard'
+  );
   const [selectedDecision, setSelectedDecision] = useState<AutoDecision | null>(null);
   const [autopilotEnabled, setAutopilotEnabled] = useState(true);
   const [systemHealth, setSystemHealth] = useState<SystemHealth | null>(null);
@@ -320,9 +389,9 @@ export const AutopilotPage: React.FC = () => {
     try {
       const [rulesRes, executionsRes] = await Promise.all([
         api.autopilot.getRules(),
-        api.autopilot.getExecutions()
+        api.autopilot.getExecutions(),
       ]);
-      
+
       if (rulesRes.success && rulesRes.data) {
         console.log('[Autopilot] Loaded', rulesRes.data.length, 'rules from database');
       }
@@ -332,7 +401,7 @@ export const AutopilotPage: React.FC = () => {
     } catch (error) {
       console.log('[Autopilot] API unavailable, using local service');
     }
-    
+
     // Fall back to enterprise service
     setDecisions(enterpriseService.getAutoDecisions());
     setSystemHealth(enterpriseService.getSystemHealth());
@@ -345,8 +414,8 @@ export const AutopilotPage: React.FC = () => {
     return () => clearInterval(interval);
   }, [loadData]);
 
-  const pendingDecisions = decisions.filter(d => d.status === 'pending');
-  const criticalPending = pendingDecisions.filter(d => d.priority === 'critical');
+  const pendingDecisions = decisions.filter((d) => d.status === 'pending');
+  const criticalPending = pendingDecisions.filter((d) => d.priority === 'critical');
 
   const handleApprove = (decisionId: string) => {
     enterpriseService.approveAutoDecision(decisionId, 'Current User');
@@ -381,10 +450,12 @@ export const AutopilotPage: React.FC = () => {
                     AUTONOMOUS
                   </span>
                 </h1>
-                <p className="text-amber-300 text-sm">Self-Driving Enterprise Mode • AI Proposes, Humans Approve</p>
+                <p className="text-amber-300 text-sm">
+                  Self-Driving Enterprise Mode • AI Proposes, Humans Approve
+                </p>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-6">
               {/* Autopilot Toggle */}
               <div className="flex items-center gap-3">
@@ -395,11 +466,15 @@ export const AutopilotPage: React.FC = () => {
                     autopilotEnabled ? 'bg-green-600' : 'bg-neutral-700'
                   }`}
                 >
-                  <div className={`absolute top-1 w-5 h-5 rounded-full bg-white transition-transform ${
-                    autopilotEnabled ? 'translate-x-8' : 'translate-x-1'
-                  }`} />
+                  <div
+                    className={`absolute top-1 w-5 h-5 rounded-full bg-white transition-transform ${
+                      autopilotEnabled ? 'translate-x-8' : 'translate-x-1'
+                    }`}
+                  />
                 </button>
-                <span className={`text-sm font-medium ${autopilotEnabled ? 'text-green-400' : 'text-neutral-400'}`}>
+                <span
+                  className={`text-sm font-medium ${autopilotEnabled ? 'text-green-400' : 'text-neutral-400'}`}
+                >
                   {autopilotEnabled ? 'Active' : 'Paused'}
                 </span>
               </div>
@@ -420,27 +495,41 @@ export const AutopilotPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 py-3">
           <div className="grid grid-cols-6 gap-4 text-center">
             <div>
-              <div className={`text-3xl font-bold ${
-                (systemHealth?.overallScore ?? 0) >= 80 ? 'text-green-400' :
-                (systemHealth?.overallScore ?? 0) >= 60 ? 'text-amber-400' :
-                'text-red-400'
-              }`}>{systemHealth?.overallScore ?? 0}%</div>
+              <div
+                className={`text-3xl font-bold ${
+                  (systemHealth?.overallScore ?? 0) >= 80
+                    ? 'text-green-400'
+                    : (systemHealth?.overallScore ?? 0) >= 60
+                      ? 'text-amber-400'
+                      : 'text-red-400'
+                }`}
+              >
+                {systemHealth?.overallScore ?? 0}%
+              </div>
               <div className="text-xs text-amber-300">System Health</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-amber-400">{systemHealth?.pendingDecisions ?? 0}</div>
+              <div className="text-3xl font-bold text-amber-400">
+                {systemHealth?.pendingDecisions ?? 0}
+              </div>
               <div className="text-xs text-amber-300">Pending Decisions</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-400">{systemHealth?.autoExecutedToday ?? 0}</div>
+              <div className="text-3xl font-bold text-green-400">
+                {systemHealth?.autoExecutedToday ?? 0}
+              </div>
               <div className="text-xs text-amber-300">Auto-Executed</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-blue-400">{systemHealth?.humanApprovedToday ?? 0}</div>
+              <div className="text-3xl font-bold text-blue-400">
+                {systemHealth?.humanApprovedToday ?? 0}
+              </div>
               <div className="text-xs text-amber-300">Human Approved</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-purple-400">{automationRules.filter(r => r.enabled).length}</div>
+              <div className="text-3xl font-bold text-purple-400">
+                {automationRules.filter((r) => r.enabled).length}
+              </div>
               <div className="text-xs text-amber-300">Active Rules</div>
             </div>
             <div>
@@ -457,10 +546,15 @@ export const AutopilotPage: React.FC = () => {
           <div className="flex gap-1">
             {[
               { id: 'dashboard', label: 'Command Center', icon: '🎛️' },
-              { id: 'decisions', label: 'Pending Decisions', icon: '⏳', badge: pendingDecisions.length },
+              {
+                id: 'decisions',
+                label: 'Pending Decisions',
+                icon: '⏳',
+                badge: pendingDecisions.length,
+              },
               { id: 'rules', label: 'Automation Rules', icon: '⚙️' },
               { id: 'history', label: 'Decision History', icon: '📜' },
-            ].map(tab => (
+            ].map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
@@ -488,10 +582,11 @@ export const AutopilotPage: React.FC = () => {
             {criticalPending.length > 0 && (
               <div className="bg-red-900/30 rounded-2xl p-6 border border-red-700/50">
                 <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                  <span className="text-red-400 animate-pulse">🚨</span> Critical Decisions Requiring Attention
+                  <span className="text-red-400 animate-pulse">🚨</span> Critical Decisions
+                  Requiring Attention
                 </h2>
                 <div className="space-y-3">
-                  {criticalPending.map(d => (
+                  {criticalPending.map((d) => (
                     <div
                       key={d.id}
                       onClick={() => setSelectedDecision(d)}
@@ -502,7 +597,9 @@ export const AutopilotPage: React.FC = () => {
                           <span className="text-2xl">{CATEGORY_CONFIG[d.category].icon}</span>
                           <div>
                             <h3 className="font-semibold">{d.title}</h3>
-                            <p className="text-sm text-white/60">{d.description.slice(0, 100)}...</p>
+                            <p className="text-sm text-white/60">
+                              {d.description.slice(0, 100)}...
+                            </p>
                           </div>
                         </div>
                         <button className="px-4 py-2 bg-red-600 rounded-lg font-medium hover:bg-red-500 transition-colors">
@@ -519,25 +616,43 @@ export const AutopilotPage: React.FC = () => {
             <div className="bg-black/30 rounded-2xl p-6 border border-amber-800/50">
               <h2 className="text-lg font-semibold mb-4">System Health by Category</h2>
               <div className="grid grid-cols-7 gap-4">
-                {(systemHealth?.categories ?? []).map(cat => {
+                {(systemHealth?.categories ?? []).map((cat) => {
                   const config = CATEGORY_CONFIG[cat.category];
                   return (
                     <div key={cat.category} className="text-center p-4 bg-black/20 rounded-xl">
-                      <div className={`w-12 h-12 mx-auto rounded-xl bg-gradient-to-br ${config.color} flex items-center justify-center text-2xl mb-2`}>
+                      <div
+                        className={`w-12 h-12 mx-auto rounded-xl bg-gradient-to-br ${config.color} flex items-center justify-center text-2xl mb-2`}
+                      >
                         {config.icon}
                       </div>
-                      <div className={`text-2xl font-bold ${
-                        cat.score >= 80 ? 'text-green-400' :
-                        cat.score >= 60 ? 'text-amber-400' :
-                        'text-red-400'
-                      }`}>{Math.round(cat.score)}%</div>
+                      <div
+                        className={`text-2xl font-bold ${
+                          cat.score >= 80
+                            ? 'text-green-400'
+                            : cat.score >= 60
+                              ? 'text-amber-400'
+                              : 'text-red-400'
+                        }`}
+                      >
+                        {Math.round(cat.score)}%
+                      </div>
                       <div className="text-xs text-white/50">{config.name}</div>
                       <div className="flex items-center justify-center gap-1 mt-1">
-                        <span className={cat.trend === 'up' ? 'text-green-400' : cat.trend === 'down' ? 'text-red-400' : 'text-white/40'}>
+                        <span
+                          className={
+                            cat.trend === 'up'
+                              ? 'text-green-400'
+                              : cat.trend === 'down'
+                                ? 'text-red-400'
+                                : 'text-white/40'
+                          }
+                        >
                           {cat.trend === 'up' ? '↑' : cat.trend === 'down' ? '↓' : '→'}
                         </span>
                         {cat.activeDecisions > 0 && (
-                          <span className="text-xs px-1.5 py-0.5 bg-amber-600 rounded">{cat.activeDecisions}</span>
+                          <span className="text-xs px-1.5 py-0.5 bg-amber-600 rounded">
+                            {cat.activeDecisions}
+                          </span>
                         )}
                       </div>
                     </div>
@@ -551,42 +666,57 @@ export const AutopilotPage: React.FC = () => {
               <div className="bg-black/30 rounded-2xl p-6 border border-amber-800/50">
                 <h3 className="text-lg font-semibold mb-4">Recent Auto-Executed Decisions</h3>
                 <div className="space-y-3">
-                  {decisions.filter(d => d.status === 'auto-executed').slice(0, 3).map(d => (
-                    <div key={d.id} className="p-3 bg-green-900/20 rounded-xl border border-green-700/50">
-                      <div className="flex items-center gap-2 mb-1">
-                        <span>{CATEGORY_CONFIG[d.category].icon}</span>
-                        <span className="font-medium text-sm">{d.title}</span>
-                        <span className="text-xs px-2 py-0.5 bg-green-600 rounded">Auto</span>
+                  {decisions
+                    .filter((d) => d.status === 'auto-executed')
+                    .slice(0, 3)
+                    .map((d) => (
+                      <div
+                        key={d.id}
+                        className="p-3 bg-green-900/20 rounded-xl border border-green-700/50"
+                      >
+                        <div className="flex items-center gap-2 mb-1">
+                          <span>{CATEGORY_CONFIG[d.category].icon}</span>
+                          <span className="font-medium text-sm">{d.title}</span>
+                          <span className="text-xs px-2 py-0.5 bg-green-600 rounded">Auto</span>
+                        </div>
+                        <p className="text-xs text-white/60">{d.recommendation}</p>
                       </div>
-                      <p className="text-xs text-white/60">{d.recommendation}</p>
-                    </div>
-                  ))}
+                    ))}
                 </div>
               </div>
 
               <div className="bg-black/30 rounded-2xl p-6 border border-amber-800/50">
                 <h3 className="text-lg font-semibold mb-4">Recently Triggered Rules</h3>
                 <div className="space-y-3">
-                  {automationRules.filter(r => r.lastTriggered).slice(0, 3).map(r => (
-                    <div key={r.id} className="p-3 bg-black/20 rounded-xl">
-                      <div className="flex items-center justify-between mb-1">
-                        <div className="flex items-center gap-2">
-                          <span>{CATEGORY_CONFIG[r.category].icon}</span>
-                          <span className="font-medium text-sm">{r.name}</span>
+                  {automationRules
+                    .filter((r) => r.lastTriggered)
+                    .slice(0, 3)
+                    .map((r) => (
+                      <div key={r.id} className="p-3 bg-black/20 rounded-xl">
+                        <div className="flex items-center justify-between mb-1">
+                          <div className="flex items-center gap-2">
+                            <span>{CATEGORY_CONFIG[r.category].icon}</span>
+                            <span className="font-medium text-sm">{r.name}</span>
+                          </div>
+                          <span
+                            className={`text-xs px-2 py-0.5 rounded ${
+                              r.automationLevel === 'full-auto'
+                                ? 'bg-green-900 text-green-300'
+                                : r.automationLevel === 'semi-auto'
+                                  ? 'bg-amber-900 text-amber-300'
+                                  : 'bg-blue-900 text-blue-300'
+                            }`}
+                          >
+                            {r.automationLevel}
+                          </span>
                         </div>
-                        <span className={`text-xs px-2 py-0.5 rounded ${
-                          r.automationLevel === 'full-auto' ? 'bg-green-900 text-green-300' :
-                          r.automationLevel === 'semi-auto' ? 'bg-amber-900 text-amber-300' :
-                          'bg-blue-900 text-blue-300'
-                        }`}>
-                          {r.automationLevel}
-                        </span>
+                        <div className="text-xs text-white/50">
+                          Triggered{' '}
+                          {Math.floor((Date.now() - (r.lastTriggered?.getTime() || 0)) / 3600000)}h
+                          ago • {r.triggerCount} total
+                        </div>
                       </div>
-                      <div className="text-xs text-white/50">
-                        Triggered {Math.floor((Date.now() - (r.lastTriggered?.getTime() || 0)) / 3600000)}h ago • {r.triggerCount} total
-                      </div>
-                    </div>
-                  ))}
+                    ))}
                 </div>
               </div>
             </div>
@@ -602,40 +732,55 @@ export const AutopilotPage: React.FC = () => {
                 <p className="text-white/60">No pending decisions require your attention.</p>
               </div>
             ) : (
-              pendingDecisions.map(d => (
+              pendingDecisions.map((d) => (
                 <div
                   key={d.id}
                   onClick={() => setSelectedDecision(d)}
                   className={`bg-black/30 rounded-2xl p-6 border cursor-pointer transition-all hover:scale-[1.01] ${
-                    d.priority === 'critical' ? 'border-red-700/50 hover:border-red-500' :
-                    d.priority === 'high' ? 'border-amber-700/50 hover:border-amber-500' :
-                    'border-amber-800/50 hover:border-amber-600'
+                    d.priority === 'critical'
+                      ? 'border-red-700/50 hover:border-red-500'
+                      : d.priority === 'high'
+                        ? 'border-amber-700/50 hover:border-amber-500'
+                        : 'border-amber-800/50 hover:border-amber-600'
                   }`}
                 >
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-3">
-                      <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${CATEGORY_CONFIG[d.category].color} flex items-center justify-center text-2xl`}>
+                      <div
+                        className={`w-12 h-12 rounded-xl bg-gradient-to-br ${CATEGORY_CONFIG[d.category].color} flex items-center justify-center text-2xl`}
+                      >
                         {CATEGORY_CONFIG[d.category].icon}
                       </div>
                       <div>
                         <h3 className="text-lg font-semibold">{d.title}</h3>
-                        <div className="text-sm text-white/50">{CATEGORY_CONFIG[d.category].name}</div>
+                        <div className="text-sm text-white/50">
+                          {CATEGORY_CONFIG[d.category].name}
+                        </div>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <span className={`px-3 py-1 rounded-lg text-sm ${
-                        d.priority === 'critical' ? 'bg-red-600' :
-                        d.priority === 'high' ? 'bg-amber-600' :
-                        d.priority === 'medium' ? 'bg-blue-600' :
-                        'bg-neutral-600'
-                      }`}>
+                      <span
+                        className={`px-3 py-1 rounded-lg text-sm ${
+                          d.priority === 'critical'
+                            ? 'bg-red-600'
+                            : d.priority === 'high'
+                              ? 'bg-amber-600'
+                              : d.priority === 'medium'
+                                ? 'bg-blue-600'
+                                : 'bg-neutral-600'
+                        }`}
+                      >
                         {d.priority.toUpperCase()}
                       </span>
-                      <span className={`px-3 py-1 rounded-lg text-sm ${
-                        d.automationLevel === 'full-auto' ? 'bg-green-900 text-green-300' :
-                        d.automationLevel === 'semi-auto' ? 'bg-amber-900 text-amber-300' :
-                        'bg-blue-900 text-blue-300'
-                      }`}>
+                      <span
+                        className={`px-3 py-1 rounded-lg text-sm ${
+                          d.automationLevel === 'full-auto'
+                            ? 'bg-green-900 text-green-300'
+                            : d.automationLevel === 'semi-auto'
+                              ? 'bg-amber-900 text-amber-300'
+                              : 'bg-blue-900 text-blue-300'
+                        }`}
+                      >
                         {d.automationLevel}
                       </span>
                     </div>
@@ -644,15 +789,21 @@ export const AutopilotPage: React.FC = () => {
                   <p className="text-white/70 mb-4">{d.description}</p>
 
                   <div className="p-4 bg-amber-900/20 rounded-xl border border-amber-700/30 mb-4">
-                    <div className="text-xs text-amber-400 uppercase tracking-wider mb-1">Recommendation</div>
+                    <div className="text-xs text-amber-400 uppercase tracking-wider mb-1">
+                      Recommendation
+                    </div>
                     <p className="font-medium">{d.recommendation}</p>
                   </div>
 
                   <div className="grid grid-cols-3 gap-4">
                     {d.impact.slice(0, 3).map((imp, idx) => (
                       <div key={idx} className="text-center p-3 bg-black/20 rounded-xl">
-                        <div className={`text-xl font-bold ${imp.projectedChange > 0 ? 'text-green-400' : 'text-red-400'}`}>
-                          {imp.projectedChange > 0 ? '+' : ''}{imp.projectedChange}{imp.unit}
+                        <div
+                          className={`text-xl font-bold ${imp.projectedChange > 0 ? 'text-green-400' : 'text-red-400'}`}
+                        >
+                          {imp.projectedChange > 0 ? '+' : ''}
+                          {imp.projectedChange}
+                          {imp.unit}
                         </div>
                         <div className="text-xs text-white/50">{imp.metric}</div>
                         <div className="text-xs text-white/30">{imp.confidence}% confidence</div>
@@ -667,7 +818,7 @@ export const AutopilotPage: React.FC = () => {
 
         {activeTab === 'rules' && (
           <div className="space-y-4">
-            {automationRules.map(rule => (
+            {automationRules.map((rule) => (
               <div key={rule.id} className="bg-black/30 rounded-2xl p-6 border border-amber-800/50">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-3">
@@ -678,12 +829,17 @@ export const AutopilotPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className={`px-3 py-1 rounded-lg text-sm ${
-                      rule.automationLevel === 'full-auto' ? 'bg-green-900 text-green-300' :
-                      rule.automationLevel === 'semi-auto' ? 'bg-amber-900 text-amber-300' :
-                      rule.automationLevel === 'approval-required' ? 'bg-blue-900 text-blue-300' :
-                      'bg-neutral-800 text-neutral-300'
-                    }`}>
+                    <span
+                      className={`px-3 py-1 rounded-lg text-sm ${
+                        rule.automationLevel === 'full-auto'
+                          ? 'bg-green-900 text-green-300'
+                          : rule.automationLevel === 'semi-auto'
+                            ? 'bg-amber-900 text-amber-300'
+                            : rule.automationLevel === 'approval-required'
+                              ? 'bg-blue-900 text-blue-300'
+                              : 'bg-neutral-800 text-neutral-300'
+                      }`}
+                    >
                       {rule.automationLevel}
                     </span>
                     <button
@@ -691,9 +847,11 @@ export const AutopilotPage: React.FC = () => {
                         rule.enabled ? 'bg-green-600' : 'bg-neutral-700'
                       }`}
                     >
-                      <div className={`w-4 h-4 rounded-full bg-white mx-1 transition-transform ${
-                        rule.enabled ? 'translate-x-6' : ''
-                      }`} />
+                      <div
+                        className={`w-4 h-4 rounded-full bg-white mx-1 transition-transform ${
+                          rule.enabled ? 'translate-x-6' : ''
+                        }`}
+                      />
                     </button>
                   </div>
                 </div>
@@ -713,7 +871,9 @@ export const AutopilotPage: React.FC = () => {
                     <div className="text-xs text-white/50 mb-2">Actions</div>
                     <div className="space-y-1">
                       {rule.actions.map((a, idx) => (
-                        <div key={idx} className="text-sm">→ {a}</div>
+                        <div key={idx} className="text-sm">
+                          → {a}
+                        </div>
                       ))}
                     </div>
                   </div>
@@ -722,7 +882,9 @@ export const AutopilotPage: React.FC = () => {
                 <div className="flex justify-between text-xs text-white/40 mt-4 pt-4 border-t border-amber-800/30">
                   <span>Triggered {rule.triggerCount} times</span>
                   {rule.lastTriggered && (
-                    <span>Last: {Math.floor((Date.now() - rule.lastTriggered.getTime()) / 3600000)}h ago</span>
+                    <span>
+                      Last: {Math.floor((Date.now() - rule.lastTriggered.getTime()) / 3600000)}h ago
+                    </span>
                   )}
                 </div>
               </div>
@@ -732,37 +894,50 @@ export const AutopilotPage: React.FC = () => {
 
         {activeTab === 'history' && (
           <div className="space-y-4">
-            {decisions.filter(d => d.status !== 'pending').map(d => (
-              <div key={d.id} className={`bg-black/30 rounded-2xl p-6 border ${
-                d.status === 'approved' ? 'border-green-800/50' :
-                d.status === 'auto-executed' ? 'border-blue-800/50' :
-                d.status === 'rejected' ? 'border-red-800/50' :
-                'border-amber-800/50'
-              }`}>
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl">{CATEGORY_CONFIG[d.category].icon}</span>
-                    <div>
-                      <h3 className="font-semibold">{d.title}</h3>
-                      <p className="text-sm text-white/50">{d.recommendation}</p>
+            {decisions
+              .filter((d) => d.status !== 'pending')
+              .map((d) => (
+                <div
+                  key={d.id}
+                  className={`bg-black/30 rounded-2xl p-6 border ${
+                    d.status === 'approved'
+                      ? 'border-green-800/50'
+                      : d.status === 'auto-executed'
+                        ? 'border-blue-800/50'
+                        : d.status === 'rejected'
+                          ? 'border-red-800/50'
+                          : 'border-amber-800/50'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <span className="text-2xl">{CATEGORY_CONFIG[d.category].icon}</span>
+                      <div>
+                        <h3 className="font-semibold">{d.title}</h3>
+                        <p className="text-sm text-white/50">{d.recommendation}</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="text-right">
-                    <span className={`px-3 py-1 rounded-lg text-sm ${
-                      d.status === 'approved' ? 'bg-green-600' :
-                      d.status === 'auto-executed' ? 'bg-blue-600' :
-                      d.status === 'rejected' ? 'bg-red-600' :
-                      'bg-amber-600'
-                    }`}>
-                      {d.status}
-                    </span>
-                    <div className="text-xs text-white/40 mt-1">
-                      {d.approvedAt?.toLocaleDateString() || d.executedAt?.toLocaleDateString()}
+                    <div className="text-right">
+                      <span
+                        className={`px-3 py-1 rounded-lg text-sm ${
+                          d.status === 'approved'
+                            ? 'bg-green-600'
+                            : d.status === 'auto-executed'
+                              ? 'bg-blue-600'
+                              : d.status === 'rejected'
+                                ? 'bg-red-600'
+                                : 'bg-amber-600'
+                        }`}
+                      >
+                        {d.status}
+                      </span>
+                      <div className="text-xs text-white/40 mt-1">
+                        {d.approvedAt?.toLocaleDateString() || d.executedAt?.toLocaleDateString()}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
         )}
       </main>
@@ -771,16 +946,27 @@ export const AutopilotPage: React.FC = () => {
       {selectedDecision && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
           <div className="bg-neutral-900 rounded-2xl border border-amber-700/50 max-w-3xl w-full max-h-[90vh] overflow-y-auto">
-            <div className={`p-6 bg-gradient-to-r ${CATEGORY_CONFIG[selectedDecision.category].color}`}>
+            <div
+              className={`p-6 bg-gradient-to-r ${CATEGORY_CONFIG[selectedDecision.category].color}`}
+            >
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <span className="text-4xl">{CATEGORY_CONFIG[selectedDecision.category].icon}</span>
+                  <span className="text-4xl">
+                    {CATEGORY_CONFIG[selectedDecision.category].icon}
+                  </span>
                   <div>
                     <h2 className="text-xl font-bold">{selectedDecision.title}</h2>
-                    <p className="text-white/80">{CATEGORY_CONFIG[selectedDecision.category].name}</p>
+                    <p className="text-white/80">
+                      {CATEGORY_CONFIG[selectedDecision.category].name}
+                    </p>
                   </div>
                 </div>
-                <button onClick={() => setSelectedDecision(null)} className="text-white/60 hover:text-white text-2xl">×</button>
+                <button
+                  onClick={() => setSelectedDecision(null)}
+                  className="text-white/60 hover:text-white text-2xl"
+                >
+                  ×
+                </button>
               </div>
             </div>
 
@@ -788,7 +974,9 @@ export const AutopilotPage: React.FC = () => {
               <p className="text-white/80">{selectedDecision.description}</p>
 
               <div className="p-4 bg-amber-900/30 rounded-xl border border-amber-700/30">
-                <div className="text-xs text-amber-400 uppercase tracking-wider mb-2">AI Recommendation</div>
+                <div className="text-xs text-amber-400 uppercase tracking-wider mb-2">
+                  AI Recommendation
+                </div>
                 <p className="font-semibold text-lg">{selectedDecision.recommendation}</p>
               </div>
 
@@ -797,8 +985,12 @@ export const AutopilotPage: React.FC = () => {
                 <div className="grid grid-cols-3 gap-3">
                   {selectedDecision.impact.map((imp, idx) => (
                     <div key={idx} className="p-4 bg-black/30 rounded-xl text-center">
-                      <div className={`text-2xl font-bold ${imp.projectedChange > 0 ? 'text-green-400' : 'text-red-400'}`}>
-                        {imp.projectedChange > 0 ? '+' : ''}{imp.projectedChange}{imp.unit}
+                      <div
+                        className={`text-2xl font-bold ${imp.projectedChange > 0 ? 'text-green-400' : 'text-red-400'}`}
+                      >
+                        {imp.projectedChange > 0 ? '+' : ''}
+                        {imp.projectedChange}
+                        {imp.unit}
                       </div>
                       <div className="text-sm text-white/60">{imp.metric}</div>
                       <div className="text-xs text-white/40">{imp.confidence}% confidence</div>
@@ -809,14 +1001,19 @@ export const AutopilotPage: React.FC = () => {
 
               <div>
                 <h4 className="font-semibold mb-3">AI Reasoning</h4>
-                <p className="text-sm text-white/70 p-4 bg-black/30 rounded-xl">{selectedDecision.aiReasoning}</p>
+                <p className="text-sm text-white/70 p-4 bg-black/30 rounded-xl">
+                  {selectedDecision.aiReasoning}
+                </p>
               </div>
 
               <div>
                 <h4 className="font-semibold mb-3">Supporting Data</h4>
                 <div className="space-y-2">
                   {selectedDecision.supportingData.map((data, idx) => (
-                    <div key={idx} className="flex items-center justify-between p-3 bg-black/30 rounded-lg">
+                    <div
+                      key={idx}
+                      className="flex items-center justify-between p-3 bg-black/30 rounded-lg"
+                    >
                       <span className="text-sm text-white/50">{data.source}</span>
                       <span className="font-medium">{data.value}</span>
                     </div>
@@ -828,10 +1025,15 @@ export const AutopilotPage: React.FC = () => {
                 <h4 className="font-semibold mb-3">Risks</h4>
                 <div className="space-y-2">
                   {selectedDecision.risks.map((risk, idx) => (
-                    <div key={idx} className="p-3 bg-red-900/20 rounded-xl border border-red-700/30">
+                    <div
+                      key={idx}
+                      className="p-3 bg-red-900/20 rounded-xl border border-red-700/30"
+                    >
                       <div className="flex items-center justify-between mb-1">
                         <span className="font-medium">{risk.description}</span>
-                        <span className="text-xs px-2 py-0.5 bg-red-600 rounded">{risk.probability}% probability</span>
+                        <span className="text-xs px-2 py-0.5 bg-red-600 rounded">
+                          {risk.probability}% probability
+                        </span>
                       </div>
                       <p className="text-sm text-white/60">Mitigation: {risk.mitigation}</p>
                     </div>

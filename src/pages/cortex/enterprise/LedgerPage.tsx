@@ -7,14 +7,14 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { governApi, councilApi } from '../../../lib/api';
-import { 
-  ledgerService, 
-  LedgerEntry, 
+import {
+  ledgerService,
+  LedgerEntry,
   DecisionRecord,
   LedgerMetrics,
   ChainVerificationResult,
   ComplianceFramework,
-  LedgerEventType
+  LedgerEventType,
 } from '../../../services/LedgerService';
 
 // =============================================================================
@@ -65,7 +65,7 @@ export const LedgerPage: React.FC = () => {
           piiInvolved: false,
           verified: audit.status === 'completed',
         }));
-        
+
         if (realEntries.length > 0) {
           setEntries(realEntries);
           console.log('[Ledger] Loaded', realEntries.length, 'audit entries from API');
@@ -78,7 +78,7 @@ export const LedgerPage: React.FC = () => {
 
       // Map decisions from council
       if (decisionsRes.success && decisionsRes.data && Array.isArray(decisionsRes.data)) {
-        const realDecisions: DecisionRecord[] = (decisionsRes.data as any[]).map(d => ({
+        const realDecisions: DecisionRecord[] = (decisionsRes.data as any[]).map((d) => ({
           id: d.id,
           title: d.query || d.title || 'Council Decision',
           description: d.response || 'Decision made by AI Council',
@@ -94,7 +94,7 @@ export const LedgerPage: React.FC = () => {
           complianceStatus: 'compliant' as const,
           auditHistory: [],
         }));
-        
+
         if (realDecisions.length > 0) {
           setDecisions(realDecisions);
           console.log('[Ledger] Loaded', realDecisions.length, 'decisions from API');
@@ -108,7 +108,6 @@ export const LedgerPage: React.FC = () => {
       // Calculate metrics from real data
       setMetrics(ledgerService.getMetrics());
       setChainStatus(ledgerService.verifyChain());
-      
     } catch (error) {
       console.error('[Ledger] Failed to load data, using fallback:', error);
       setEntries(ledgerService.getAllEntries());
@@ -150,16 +149,25 @@ export const LedgerPage: React.FC = () => {
   };
 
   const getEventColor = (type: LedgerEventType) => {
-    if (type.includes('vetoed') || type.includes('denied')) {return 'border-red-600/50 bg-red-900/20';}
-    if (type.includes('approved') || type.includes('completed')) {return 'border-green-600/50 bg-green-900/20';}
-    if (type.includes('voted') || type.includes('contributed')) {return 'border-blue-600/50 bg-blue-900/20';}
-    if (type.includes('audit') || type.includes('compliance')) {return 'border-purple-600/50 bg-purple-900/20';}
+    if (type.includes('vetoed') || type.includes('denied')) {
+      return 'border-red-600/50 bg-red-900/20';
+    }
+    if (type.includes('approved') || type.includes('completed')) {
+      return 'border-green-600/50 bg-green-900/20';
+    }
+    if (type.includes('voted') || type.includes('contributed')) {
+      return 'border-blue-600/50 bg-blue-900/20';
+    }
+    if (type.includes('audit') || type.includes('compliance')) {
+      return 'border-purple-600/50 bg-purple-900/20';
+    }
     return 'border-amber-600/50 bg-amber-900/20';
   };
 
-  const filteredEntries = filterFramework === 'all' 
-    ? entries 
-    : entries.filter(e => e.complianceFrameworks.includes(filterFramework));
+  const filteredEntries =
+    filterFramework === 'all'
+      ? entries
+      : entries.filter((e) => e.complianceFrameworks.includes(filterFramework));
 
   const handleExport = (decisionId: string) => {
     const json = ledgerService.exportForAudit(decisionId);
@@ -193,15 +201,23 @@ export const LedgerPage: React.FC = () => {
                     BLOCKCHAIN
                   </span>
                 </h1>
-                <p className="text-emerald-300 text-sm">Immutable Decision Blockchain • Regulatory Audit Trail</p>
+                <p className="text-emerald-300 text-sm">
+                  Immutable Decision Blockchain • Regulatory Audit Trail
+                </p>
               </div>
             </div>
-            
+
             <div className="flex items-center gap-4">
               {chainStatus && (
-                <div className={`flex items-center gap-2 px-3 py-1.5 rounded-lg ${chainStatus.valid ? 'bg-green-900/50' : 'bg-red-900/50'}`}>
-                  <div className={`w-2 h-2 rounded-full ${chainStatus.valid ? 'bg-green-400 animate-pulse' : 'bg-red-400'}`} />
-                  <span className="text-xs">{chainStatus.valid ? 'Chain Valid' : 'Chain Broken!'}</span>
+                <div
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg ${chainStatus.valid ? 'bg-green-900/50' : 'bg-red-900/50'}`}
+                >
+                  <div
+                    className={`w-2 h-2 rounded-full ${chainStatus.valid ? 'bg-green-400 animate-pulse' : 'bg-red-400'}`}
+                  />
+                  <span className="text-xs">
+                    {chainStatus.valid ? 'Chain Valid' : 'Chain Broken!'}
+                  </span>
                 </div>
               )}
               <button
@@ -237,7 +253,9 @@ export const LedgerPage: React.FC = () => {
                 <div className="text-xs text-emerald-300">Veto Rate</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-purple-400">{metrics.averageConfidence}%</div>
+                <div className="text-2xl font-bold text-purple-400">
+                  {metrics.averageConfidence}%
+                </div>
                 <div className="text-xs text-emerald-300">Avg Confidence</div>
               </div>
               <div>
@@ -257,7 +275,7 @@ export const LedgerPage: React.FC = () => {
       <div className="border-b border-emerald-800/30 bg-black/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex gap-1">
-            {(['chain', 'decisions', 'audit', 'export'] as const).map(tab => (
+            {(['chain', 'decisions', 'audit', 'export'] as const).map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -284,7 +302,9 @@ export const LedgerPage: React.FC = () => {
                 <h2 className="text-lg font-bold">Blockchain Entries</h2>
                 <select
                   value={filterFramework}
-                  onChange={e => setFilterFramework(e.target.value as ComplianceFramework | 'all')}
+                  onChange={(e) =>
+                    setFilterFramework(e.target.value as ComplianceFramework | 'all')
+                  }
                   className="px-3 py-1.5 bg-black/30 border border-emerald-700/50 rounded-lg text-sm"
                 >
                   <option value="all">All Frameworks</option>
@@ -299,7 +319,7 @@ export const LedgerPage: React.FC = () => {
               <div className="relative">
                 {/* Chain line */}
                 <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-emerald-700/50" />
-                
+
                 <div className="space-y-4">
                   {filteredEntries.slice(0, 20).map((entry, i) => (
                     <div
@@ -308,13 +328,19 @@ export const LedgerPage: React.FC = () => {
                       className={`relative pl-14 cursor-pointer group`}
                     >
                       {/* Chain node */}
-                      <div className={`absolute left-4 w-5 h-5 rounded-full border-2 ${
-                        entry.verified ? 'border-green-500 bg-green-900' : 'border-emerald-500 bg-emerald-900'
-                      } flex items-center justify-center text-xs`}>
+                      <div
+                        className={`absolute left-4 w-5 h-5 rounded-full border-2 ${
+                          entry.verified
+                            ? 'border-green-500 bg-green-900'
+                            : 'border-emerald-500 bg-emerald-900'
+                        } flex items-center justify-center text-xs`}
+                      >
                         {i + 1}
                       </div>
-                      
-                      <div className={`p-4 rounded-xl border ${getEventColor(entry.eventType)} group-hover:border-emerald-400 transition-colors`}>
+
+                      <div
+                        className={`p-4 rounded-xl border ${getEventColor(entry.eventType)} group-hover:border-emerald-400 transition-colors`}
+                      >
                         <div className="flex items-start justify-between mb-2">
                           <div className="flex items-center gap-2">
                             <span className="text-xl">{getEventIcon(entry.eventType)}</span>
@@ -324,9 +350,13 @@ export const LedgerPage: React.FC = () => {
                             </div>
                           </div>
                           <div className="text-right">
-                            <div className="text-xs text-white/40">{entry.timestamp.toLocaleString()}</div>
+                            <div className="text-xs text-white/40">
+                              {entry.timestamp.toLocaleString()}
+                            </div>
                             {entry.confidenceScore !== undefined && (
-                              <div className="text-xs text-emerald-400">{entry.confidenceScore}% confidence</div>
+                              <div className="text-xs text-emerald-400">
+                                {entry.confidenceScore}% confidence
+                              </div>
                             )}
                           </div>
                         </div>
@@ -338,14 +368,19 @@ export const LedgerPage: React.FC = () => {
                           {entry.verified && (
                             <span className="text-xs text-green-400">✓ Verified</span>
                           )}
-                          {entry.complianceFrameworks.map(f => (
-                            <span key={f} className="text-xs bg-purple-900/50 px-1.5 py-0.5 rounded">{f}</span>
+                          {entry.complianceFrameworks.map((f) => (
+                            <span
+                              key={f}
+                              className="text-xs bg-purple-900/50 px-1.5 py-0.5 rounded"
+                            >
+                              {f}
+                            </span>
                           ))}
                         </div>
                       </div>
                     </div>
                   ))}
-                  
+
                   {entries.length === 0 && (
                     <div className="text-center py-12 text-white/40">
                       No entries yet. Create a decision to start the chain.
@@ -360,10 +395,14 @@ export const LedgerPage: React.FC = () => {
               <div className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50">
                 <h2 className="text-lg font-bold mb-4">Chain Integrity</h2>
                 {chainStatus && (
-                  <div className={`p-4 rounded-xl ${chainStatus.valid ? 'bg-green-900/30 border border-green-600/50' : 'bg-red-900/30 border border-red-600/50'}`}>
+                  <div
+                    className={`p-4 rounded-xl ${chainStatus.valid ? 'bg-green-900/30 border border-green-600/50' : 'bg-red-900/30 border border-red-600/50'}`}
+                  >
                     <div className="flex items-center gap-2 mb-2">
                       <span className="text-2xl">{chainStatus.valid ? '✅' : '❌'}</span>
-                      <span className="font-bold">{chainStatus.valid ? 'Chain Valid' : 'Chain Broken'}</span>
+                      <span className="font-bold">
+                        {chainStatus.valid ? 'Chain Valid' : 'Chain Broken'}
+                      </span>
                     </div>
                     <p className="text-sm text-white/70">{chainStatus.message}</p>
                     <div className="mt-2 text-xs text-white/50">
@@ -388,9 +427,11 @@ export const LedgerPage: React.FC = () => {
                         <span className="text-sm">{framework}</span>
                         <div className="flex items-center gap-2">
                           <div className="w-24 h-2 bg-black/30 rounded-full overflow-hidden">
-                            <div 
-                              className="h-full bg-emerald-500" 
-                              style={{ width: `${Math.min(100, (count / Math.max(1, metrics.totalEntries)) * 100)}%` }}
+                            <div
+                              className="h-full bg-emerald-500"
+                              style={{
+                                width: `${Math.min(100, (count / Math.max(1, metrics.totalEntries)) * 100)}%`,
+                              }}
                             />
                           </div>
                           <span className="text-xs text-white/50 w-8">{count}</span>
@@ -404,11 +445,13 @@ export const LedgerPage: React.FC = () => {
               <div className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50">
                 <h2 className="text-lg font-bold mb-4">Recent Activity</h2>
                 <div className="space-y-2">
-                  {entries.slice(0, 5).map(e => (
+                  {entries.slice(0, 5).map((e) => (
                     <div key={e.id} className="flex items-center gap-2 text-sm">
                       <span>{getEventIcon(e.eventType)}</span>
                       <span className="flex-1 truncate">{e.title}</span>
-                      <span className="text-xs text-white/40">{e.timestamp.toLocaleTimeString()}</span>
+                      <span className="text-xs text-white/40">
+                        {e.timestamp.toLocaleTimeString()}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -419,7 +462,7 @@ export const LedgerPage: React.FC = () => {
 
         {activeTab === 'decisions' && (
           <div className="space-y-4">
-            {decisions.map(decision => (
+            {decisions.map((decision) => (
               <div
                 key={decision.id}
                 className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50 cursor-pointer hover:border-emerald-500 transition-colors"
@@ -431,16 +474,20 @@ export const LedgerPage: React.FC = () => {
                     <p className="text-sm text-white/60">{decision.description}</p>
                   </div>
                   <div className="flex items-center gap-2">
-                    <span className={`px-3 py-1 rounded-full text-sm ${
-                      decision.status === 'approved' ? 'bg-green-600' :
-                      decision.status === 'vetoed' || decision.status === 'rejected' ? 'bg-red-600' :
-                      'bg-amber-600'
-                    }`}>
+                    <span
+                      className={`px-3 py-1 rounded-full text-sm ${
+                        decision.status === 'approved'
+                          ? 'bg-green-600'
+                          : decision.status === 'vetoed' || decision.status === 'rejected'
+                            ? 'bg-red-600'
+                            : 'bg-amber-600'
+                      }`}
+                    >
                       {decision.status.toUpperCase()}
                     </span>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center gap-6 text-sm text-white/50">
                   <span>Proposed: {decision.proposedAt.toLocaleDateString()}</span>
                   <span>{decision.ledgerEntries.length} chain entries</span>
@@ -473,32 +520,45 @@ export const LedgerPage: React.FC = () => {
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50">
               <h2 className="text-lg font-bold mb-4">Request Audit</h2>
-              <form onSubmit={(e) => {
-                e.preventDefault();
-                const form = e.target as HTMLFormElement;
-                const formData = new FormData(form);
-                const decisionId = formData.get('decisionId') as string;
-                const framework = formData.get('framework') as ComplianceFramework;
-                const reason = formData.get('reason') as string;
-                
-                if (decisionId && framework && reason) {
-                  ledgerService.requestAudit(decisionId, 'current-user', reason, framework);
-                  loadData();
-                  form.reset();
-                }
-              }} className="space-y-4">
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  const form = e.target as HTMLFormElement;
+                  const formData = new FormData(form);
+                  const decisionId = formData.get('decisionId') as string;
+                  const framework = formData.get('framework') as ComplianceFramework;
+                  const reason = formData.get('reason') as string;
+
+                  if (decisionId && framework && reason) {
+                    ledgerService.requestAudit(decisionId, 'current-user', reason, framework);
+                    loadData();
+                    form.reset();
+                  }
+                }}
+                className="space-y-4"
+              >
                 <div>
                   <label className="block text-sm text-white/60 mb-1">Decision</label>
-                  <select name="decisionId" required className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg">
+                  <select
+                    name="decisionId"
+                    required
+                    className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg"
+                  >
                     <option value="">Select decision</option>
-                    {decisions.map(d => (
-                      <option key={d.id} value={d.id}>{d.title}</option>
+                    {decisions.map((d) => (
+                      <option key={d.id} value={d.id}>
+                        {d.title}
+                      </option>
                     ))}
                   </select>
                 </div>
                 <div>
                   <label className="block text-sm text-white/60 mb-1">Compliance Framework</label>
-                  <select name="framework" required className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg">
+                  <select
+                    name="framework"
+                    required
+                    className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg"
+                  >
                     <option value="">Select framework</option>
                     <option value="GDPR">GDPR</option>
                     <option value="SOX">SOX</option>
@@ -510,9 +570,17 @@ export const LedgerPage: React.FC = () => {
                 </div>
                 <div>
                   <label className="block text-sm text-white/60 mb-1">Reason for Audit</label>
-                  <textarea name="reason" required className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg h-24" placeholder="Describe the reason for this audit request..." />
+                  <textarea
+                    name="reason"
+                    required
+                    className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg h-24"
+                    placeholder="Describe the reason for this audit request..."
+                  />
                 </div>
-                <button type="submit" className="w-full py-2 bg-purple-600 hover:bg-purple-500 rounded-lg">
+                <button
+                  type="submit"
+                  className="w-full py-2 bg-purple-600 hover:bg-purple-500 rounded-lg"
+                >
                   Request Audit
                 </button>
               </form>
@@ -521,31 +589,37 @@ export const LedgerPage: React.FC = () => {
             <div className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50">
               <h2 className="text-lg font-bold mb-4">Audit History</h2>
               <div className="space-y-3">
-                {decisions.flatMap(d => d.auditHistory.map(a => ({ ...a, decision: d }))).slice(0, 10).map(audit => (
-                  <div key={audit.id} className="p-4 bg-black/20 rounded-xl">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="font-semibold">{audit.decision.title}</span>
-                      <span className={`px-2 py-0.5 rounded text-xs ${
-                        audit.status === 'completed' ? 'bg-green-600' :
-                        audit.status === 'failed' ? 'bg-red-600' : 'bg-amber-600'
-                      }`}>
-                        {audit.status}
-                      </span>
+                {decisions
+                  .flatMap((d) => d.auditHistory.map((a) => ({ ...a, decision: d })))
+                  .slice(0, 10)
+                  .map((audit) => (
+                    <div key={audit.id} className="p-4 bg-black/20 rounded-xl">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="font-semibold">{audit.decision.title}</span>
+                        <span
+                          className={`px-2 py-0.5 rounded text-xs ${
+                            audit.status === 'completed'
+                              ? 'bg-green-600'
+                              : audit.status === 'failed'
+                                ? 'bg-red-600'
+                                : 'bg-amber-600'
+                          }`}
+                        >
+                          {audit.status}
+                        </span>
+                      </div>
+                      <div className="text-sm text-white/60">{audit.reason}</div>
+                      <div className="flex items-center gap-4 mt-2 text-xs text-white/40">
+                        <span>{audit.framework}</span>
+                        <span>{audit.requestedAt.toLocaleDateString()}</span>
+                        {audit.findings.length > 0 && (
+                          <span className="text-amber-400">{audit.findings.length} findings</span>
+                        )}
+                      </div>
                     </div>
-                    <div className="text-sm text-white/60">{audit.reason}</div>
-                    <div className="flex items-center gap-4 mt-2 text-xs text-white/40">
-                      <span>{audit.framework}</span>
-                      <span>{audit.requestedAt.toLocaleDateString()}</span>
-                      {audit.findings.length > 0 && (
-                        <span className="text-amber-400">{audit.findings.length} findings</span>
-                      )}
-                    </div>
-                  </div>
-                ))}
-                {decisions.flatMap(d => d.auditHistory).length === 0 && (
-                  <div className="text-center py-8 text-white/40">
-                    No audits requested yet
-                  </div>
+                  ))}
+                {decisions.flatMap((d) => d.auditHistory).length === 0 && (
+                  <div className="text-center py-8 text-white/40">No audits requested yet</div>
                 )}
               </div>
             </div>
@@ -557,11 +631,15 @@ export const LedgerPage: React.FC = () => {
             <div className="bg-black/30 rounded-2xl p-6 border border-emerald-800/50">
               <h2 className="text-lg font-bold mb-4">Export for Regulatory Audit</h2>
               <p className="text-sm text-white/60 mb-4">
-                Export complete decision records with full chain of custody for regulatory submission.
+                Export complete decision records with full chain of custody for regulatory
+                submission.
               </p>
               <div className="space-y-3">
-                {decisions.map(d => (
-                  <div key={d.id} className="flex items-center justify-between p-3 bg-black/20 rounded-lg">
+                {decisions.map((d) => (
+                  <div
+                    key={d.id}
+                    className="flex items-center justify-between p-3 bg-black/20 rounded-lg"
+                  >
                     <div>
                       <div className="font-medium">{d.title}</div>
                       <div className="text-xs text-white/50">{d.ledgerEntries.length} entries</div>
@@ -619,30 +697,54 @@ export const LedgerPage: React.FC = () => {
         <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
           <div className="bg-slate-900 rounded-2xl p-6 w-full max-w-lg border border-emerald-800/50">
             <h2 className="text-xl font-bold mb-4">Create Decision Record</h2>
-            <form onSubmit={(e) => {
-              e.preventDefault();
-              const form = e.target as HTMLFormElement;
-              const formData = new FormData(form);
-              ledgerService.createDecision(
-                formData.get('title') as string,
-                formData.get('description') as string,
-                'current-user',
-                ['strategic-agent', 'financial-agent', 'risk-agent']
-              );
-              loadData();
-              setShowNewDecision(false);
-            }} className="space-y-4">
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                const form = e.target as HTMLFormElement;
+                const formData = new FormData(form);
+                ledgerService.createDecision(
+                  formData.get('title') as string,
+                  formData.get('description') as string,
+                  'current-user',
+                  ['strategic-agent', 'financial-agent', 'risk-agent']
+                );
+                loadData();
+                setShowNewDecision(false);
+              }}
+              className="space-y-4"
+            >
               <div>
                 <label className="block text-sm text-white/60 mb-1">Decision Title</label>
-                <input name="title" required className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg" placeholder="e.g., Q4 Budget Allocation" />
+                <input
+                  name="title"
+                  required
+                  className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg"
+                  placeholder="e.g., Q4 Budget Allocation"
+                />
               </div>
               <div>
                 <label className="block text-sm text-white/60 mb-1">Description</label>
-                <textarea name="description" required className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg h-32" placeholder="Describe the decision to be recorded..." />
+                <textarea
+                  name="description"
+                  required
+                  className="w-full px-4 py-2 bg-black/30 border border-emerald-700/50 rounded-lg h-32"
+                  placeholder="Describe the decision to be recorded..."
+                />
               </div>
               <div className="flex gap-3">
-                <button type="button" onClick={() => setShowNewDecision(false)} className="flex-1 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg">Cancel</button>
-                <button type="submit" className="flex-1 px-4 py-2 bg-emerald-600 hover:bg-emerald-500 rounded-lg">Create & Record</button>
+                <button
+                  type="button"
+                  onClick={() => setShowNewDecision(false)}
+                  className="flex-1 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  className="flex-1 px-4 py-2 bg-emerald-600 hover:bg-emerald-500 rounded-lg"
+                >
+                  Create & Record
+                </button>
               </div>
             </form>
           </div>
@@ -651,8 +753,14 @@ export const LedgerPage: React.FC = () => {
 
       {/* Entry Detail Modal */}
       {selectedEntry && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50" onClick={() => setSelectedEntry(null)}>
-          <div className="bg-slate-900 rounded-2xl p-6 w-full max-w-2xl border border-emerald-800/50 max-h-[80vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 bg-black/80 flex items-center justify-center z-50"
+          onClick={() => setSelectedEntry(null)}
+        >
+          <div
+            className="bg-slate-900 rounded-2xl p-6 w-full max-w-2xl border border-emerald-800/50 max-h-[80vh] overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="flex items-center gap-3 mb-4">
               <span className="text-3xl">{getEventIcon(selectedEntry.eventType)}</span>
               <div>
@@ -685,11 +793,15 @@ export const LedgerPage: React.FC = () => {
             <div className="space-y-3 mb-6">
               <div className="p-3 bg-black/30 rounded-lg">
                 <div className="text-xs text-white/50 mb-1">Hash</div>
-                <code className="text-sm font-mono text-emerald-400 break-all">{selectedEntry.hash}</code>
+                <code className="text-sm font-mono text-emerald-400 break-all">
+                  {selectedEntry.hash}
+                </code>
               </div>
               <div className="p-3 bg-black/30 rounded-lg">
                 <div className="text-xs text-white/50 mb-1">Previous Hash</div>
-                <code className="text-sm font-mono text-emerald-400 break-all">{selectedEntry.previousHash}</code>
+                <code className="text-sm font-mono text-emerald-400 break-all">
+                  {selectedEntry.previousHash}
+                </code>
               </div>
             </div>
 
@@ -697,8 +809,10 @@ export const LedgerPage: React.FC = () => {
               <div className="mb-6">
                 <div className="text-xs text-white/50 mb-2">Compliance Frameworks</div>
                 <div className="flex gap-2">
-                  {selectedEntry.complianceFrameworks.map(f => (
-                    <span key={f} className="px-3 py-1 bg-purple-900/50 rounded-lg">{f}</span>
+                  {selectedEntry.complianceFrameworks.map((f) => (
+                    <span key={f} className="px-3 py-1 bg-purple-900/50 rounded-lg">
+                      {f}
+                    </span>
                   ))}
                 </div>
               </div>
@@ -715,7 +829,10 @@ export const LedgerPage: React.FC = () => {
               >
                 ✓ Verify Entry
               </button>
-              <button onClick={() => setSelectedEntry(null)} className="flex-1 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg">
+              <button
+                onClick={() => setSelectedEntry(null)}
+                className="flex-1 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg"
+              >
                 Close
               </button>
             </div>
@@ -725,17 +842,28 @@ export const LedgerPage: React.FC = () => {
 
       {/* Decision Detail Modal */}
       {selectedDecision && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50" onClick={() => setSelectedDecision(null)}>
-          <div className="bg-slate-900 rounded-2xl p-6 w-full max-w-3xl border border-emerald-800/50 max-h-[85vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 bg-black/80 flex items-center justify-center z-50"
+          onClick={() => setSelectedDecision(null)}
+        >
+          <div
+            className="bg-slate-900 rounded-2xl p-6 w-full max-w-3xl border border-emerald-800/50 max-h-[85vh] overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="flex items-start justify-between mb-4">
               <div>
                 <h2 className="text-xl font-bold">{selectedDecision.title}</h2>
                 <p className="text-sm text-white/60">{selectedDecision.description}</p>
               </div>
-              <span className={`px-3 py-1 rounded-full ${
-                selectedDecision.status === 'approved' ? 'bg-green-600' :
-                selectedDecision.status === 'vetoed' ? 'bg-red-600' : 'bg-amber-600'
-              }`}>
+              <span
+                className={`px-3 py-1 rounded-full ${
+                  selectedDecision.status === 'approved'
+                    ? 'bg-green-600'
+                    : selectedDecision.status === 'vetoed'
+                      ? 'bg-red-600'
+                      : 'bg-amber-600'
+                }`}
+              >
                 {selectedDecision.status.toUpperCase()}
               </span>
             </div>
@@ -750,7 +878,9 @@ export const LedgerPage: React.FC = () => {
                 <div className="text-xs text-white/50">Votes</div>
               </div>
               <div className="p-3 bg-black/30 rounded-lg text-center">
-                <div className="text-xl font-bold text-emerald-400">{selectedDecision.finalConfidence || '-'}%</div>
+                <div className="text-xl font-bold text-emerald-400">
+                  {selectedDecision.finalConfidence || '-'}%
+                </div>
                 <div className="text-xs text-white/50">Confidence</div>
               </div>
               <div className="p-3 bg-black/30 rounded-lg text-center">
@@ -761,12 +891,19 @@ export const LedgerPage: React.FC = () => {
 
             <h3 className="font-semibold mb-3">Chain Entries</h3>
             <div className="space-y-2 mb-6 max-h-60 overflow-y-auto">
-              {ledgerService.getEntriesForDecision(selectedDecision.id).map(entry => (
-                <div key={entry.id} className="flex items-center gap-3 p-2 bg-black/20 rounded-lg text-sm">
+              {ledgerService.getEntriesForDecision(selectedDecision.id).map((entry) => (
+                <div
+                  key={entry.id}
+                  className="flex items-center gap-3 p-2 bg-black/20 rounded-lg text-sm"
+                >
                   <span>{getEventIcon(entry.eventType)}</span>
                   <span className="flex-1">{entry.title}</span>
-                  <code className="text-xs text-emerald-400 font-mono">{entry.hash.substring(0, 8)}...</code>
-                  <span className="text-xs text-white/40">{entry.timestamp.toLocaleTimeString()}</span>
+                  <code className="text-xs text-emerald-400 font-mono">
+                    {entry.hash.substring(0, 8)}...
+                  </code>
+                  <span className="text-xs text-white/40">
+                    {entry.timestamp.toLocaleTimeString()}
+                  </span>
                 </div>
               ))}
             </div>
@@ -778,7 +915,10 @@ export const LedgerPage: React.FC = () => {
               >
                 📥 Export for Audit
               </button>
-              <button onClick={() => setSelectedDecision(null)} className="flex-1 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg">
+              <button
+                onClick={() => setSelectedDecision(null)}
+                className="flex-1 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg"
+              >
                 Close
               </button>
             </div>

@@ -1,6 +1,6 @@
 /**
  * UI Store - Global UI state management
- * 
+ *
  * Manages sidebar, modals, toasts, command palette, and other UI state.
  */
 
@@ -34,55 +34,55 @@ export interface UIState {
   // Sidebar
   sidebarOpen: boolean;
   sidebarCollapsed: boolean;
-  
+
   // Command Palette
   commandPaletteOpen: boolean;
-  
+
   // Search
   globalSearchOpen: boolean;
   globalSearchQuery: string;
-  
+
   // Modals
   activeModals: Modal[];
-  
+
   // Toasts
   toasts: Toast[];
-  
+
   // Loading States
   globalLoading: boolean;
   loadingMessage: string | null;
-  
+
   // Panels
   rightPanelOpen: boolean;
   rightPanelContent: string | null;
-  
+
   // Page State
   pageTitle: string;
   breadcrumbs: Array<{ label: string; path?: string }>;
-  
+
   // Actions
   toggleSidebar: () => void;
   setSidebarOpen: (open: boolean) => void;
   setSidebarCollapsed: (collapsed: boolean) => void;
-  
+
   toggleCommandPalette: () => void;
   setCommandPaletteOpen: (open: boolean) => void;
-  
+
   setGlobalSearchOpen: (open: boolean) => void;
   setGlobalSearchQuery: (query: string) => void;
-  
+
   openModal: (modal: Omit<Modal, 'id'>) => string;
   closeModal: (id: string) => void;
   closeAllModals: () => void;
-  
+
   addToast: (toast: Omit<Toast, 'id'>) => string;
   removeToast: (id: string) => void;
   clearToasts: () => void;
-  
+
   setGlobalLoading: (loading: boolean, message?: string) => void;
-  
+
   setRightPanel: (open: boolean, content?: string) => void;
-  
+
   setPageTitle: (title: string) => void;
   setBreadcrumbs: (breadcrumbs: Array<{ label: string; path?: string }>) => void;
 }
@@ -225,14 +225,14 @@ export const useUIStore = create<UIState>()(
     setGlobalLoading: (loading, message) =>
       set((state) => {
         state.globalLoading = loading;
-        state.loadingMessage = loading ? message ?? null : null;
+        state.loadingMessage = loading ? (message ?? null) : null;
       }),
 
     // Right Panel Actions
     setRightPanel: (open, content) =>
       set((state) => {
         state.rightPanelOpen = open;
-        state.rightPanelContent = open ? content ?? null : null;
+        state.rightPanelContent = open ? (content ?? null) : null;
       }),
 
     // Page Actions
@@ -258,14 +258,10 @@ export function useToast() {
   const removeToast = useUIStore((state) => state.removeToast);
 
   return {
-    success: (title: string, message?: string) =>
-      addToast({ type: 'success', title, message }),
-    error: (title: string, message?: string) =>
-      addToast({ type: 'error', title, message }),
-    warning: (title: string, message?: string) =>
-      addToast({ type: 'warning', title, message }),
-    info: (title: string, message?: string) =>
-      addToast({ type: 'info', title, message }),
+    success: (title: string, message?: string) => addToast({ type: 'success', title, message }),
+    error: (title: string, message?: string) => addToast({ type: 'error', title, message }),
+    warning: (title: string, message?: string) => addToast({ type: 'warning', title, message }),
+    info: (title: string, message?: string) => addToast({ type: 'info', title, message }),
     remove: removeToast,
   };
 }

@@ -4,7 +4,13 @@
 // =============================================================================
 
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { FEATURE_FLAGS, isFeatureEnabled, getAllFeatureFlags, useFeatureFlag, openUnleashDashboard } from '../featureFlags';
+import {
+  FEATURE_FLAGS,
+  isFeatureEnabled,
+  getAllFeatureFlags,
+  useFeatureFlag,
+  openUnleashDashboard,
+} from '../featureFlags';
 
 // Mock fetch
 const mockFetch = vi.fn();
@@ -81,7 +87,7 @@ describe('isFeatureEnabled', () => {
       expect.any(String),
       expect.objectContaining({
         headers: expect.objectContaining({
-          'Authorization': expect.any(String),
+          Authorization: expect.any(String),
           'Content-Type': 'application/json',
         }),
       })
@@ -111,13 +117,14 @@ describe('getAllFeatureFlags', () => {
   it('should return object with all flag keys', async () => {
     mockFetch.mockResolvedValueOnce({
       ok: true,
-      json: () => Promise.resolve({
-        features: [],
-      }),
+      json: () =>
+        Promise.resolve({
+          features: [],
+        }),
     });
 
     const result = await getAllFeatureFlags();
-    
+
     // Should have all flag keys
     expect(Object.keys(result).length).toBe(Object.keys(FEATURE_FLAGS).length);
   });
@@ -126,7 +133,7 @@ describe('getAllFeatureFlags', () => {
     mockFetch.mockRejectedValueOnce(new Error('Network error'));
 
     const result = await getAllFeatureFlags();
-    
+
     // Should have all flag keys even on error
     expect(Object.keys(result)).toHaveLength(Object.keys(FEATURE_FLAGS).length);
   });
@@ -154,7 +161,7 @@ describe('openUnleashDashboard', () => {
 
   it('should open Unleash dashboard in new tab', () => {
     openUnleashDashboard();
-    
+
     expect(mockWindowOpen).toHaveBeenCalledWith('http://localhost:4242', '_blank');
   });
 });

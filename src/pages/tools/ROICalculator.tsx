@@ -3,9 +3,17 @@
 // =============================================================================
 
 import React, { useState, useMemo } from 'react';
-import { 
-  Calculator, TrendingUp, DollarSign, Clock, Shield, 
-  Users, AlertTriangle, Download, Share2, ChevronRight
+import {
+  Calculator,
+  TrendingUp,
+  DollarSign,
+  Clock,
+  Shield,
+  Users,
+  AlertTriangle,
+  Download,
+  Share2,
+  ChevronRight,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 
@@ -26,10 +34,10 @@ const BENCHMARKS = {
 // Datacendia improvement factors
 const IMPROVEMENTS = {
   decision_time_reduction: 0.73,
-  compliance_time_reduction: 0.60,
-  shadow_ai_elimination: 0.90,
+  compliance_time_reduction: 0.6,
+  shadow_ai_elimination: 0.9,
   data_quality_improvement: 0.65,
-  strategic_delay_reduction: 0.70,
+  strategic_delay_reduction: 0.7,
 };
 
 const INDUSTRIES = [
@@ -73,8 +81,8 @@ export default function ROICalculator() {
   const [complianceHeavy, setComplianceHeavy] = useState(true);
 
   const roi = useMemo<ROIBreakdown>(() => {
-    const industryData = INDUSTRIES.find(i => i.id === industry) || INDUSTRIES[0];
-    
+    const industryData = INDUSTRIES.find((i) => i.id === industry) || INDUSTRIES[0];
+
     // Decision time savings
     const weeklyMeetingHours = BENCHMARKS.decision_meeting_hours_per_week * executives;
     const annualMeetingHours = weeklyMeetingHours * 48;
@@ -90,23 +98,27 @@ export default function ROICalculator() {
     const complianceSavings = complianceCostBefore - complianceCostAfter;
 
     // Shadow AI risk reduction
-    const shadowAICostBefore = BENCHMARKS.shadow_ai_incidents_per_year * BENCHMARKS.shadow_ai_cost_per_incident;
+    const shadowAICostBefore =
+      BENCHMARKS.shadow_ai_incidents_per_year * BENCHMARKS.shadow_ai_cost_per_incident;
     const shadowAICostAfter = shadowAICostBefore * (1 - IMPROVEMENTS.shadow_ai_elimination);
     const shadowAISavings = shadowAICostBefore - shadowAICostAfter;
 
     // Data quality improvement
     const dataIssuesPerYear = BENCHMARKS.data_quality_issues_per_month * 12;
     const dataQualityCostBefore = dataIssuesPerYear * BENCHMARKS.data_quality_cost_per_issue;
-    const dataQualityCostAfter = dataQualityCostBefore * (1 - IMPROVEMENTS.data_quality_improvement);
+    const dataQualityCostAfter =
+      dataQualityCostBefore * (1 - IMPROVEMENTS.data_quality_improvement);
     const dataQualitySavings = dataQualityCostBefore - dataQualityCostAfter;
 
     // Strategic delay reduction
-    const delaysCostBefore = BENCHMARKS.strategic_delays_per_year * BENCHMARKS.strategic_delay_opportunity_cost;
+    const delaysCostBefore =
+      BENCHMARKS.strategic_delays_per_year * BENCHMARKS.strategic_delay_opportunity_cost;
     const delaysCostAfter = delaysCostBefore * (1 - IMPROVEMENTS.strategic_delay_reduction);
     const delaySavings = delaysCostBefore - delaysCostAfter;
 
     // Total benefits
-    const totalBenefit = decisionSavings + complianceSavings + shadowAISavings + dataQualitySavings + delaySavings;
+    const totalBenefit =
+      decisionSavings + complianceSavings + shadowAISavings + dataQualitySavings + delaySavings;
 
     // Datacendia cost based on company size
     let datacendiaCost: number;
@@ -139,11 +151,36 @@ export default function ROICalculator() {
   }, [employees, executives, industry, currentAISpend, complianceHeavy]);
 
   const savingsBreakdown = [
-    { label: 'Decision Acceleration', value: roi.decisionSavings, icon: Clock, color: 'text-blue-400' },
-    { label: 'Compliance Efficiency', value: roi.complianceSavings, icon: Shield, color: 'text-amber-400' },
-    { label: 'Shadow AI Elimination', value: roi.shadowAISavings, icon: AlertTriangle, color: 'text-red-400' },
-    { label: 'Data Quality Improvement', value: roi.dataQualitySavings, icon: TrendingUp, color: 'text-green-400' },
-    { label: 'Strategic Speed', value: roi.delaySavings, icon: ChevronRight, color: 'text-purple-400' },
+    {
+      label: 'Decision Acceleration',
+      value: roi.decisionSavings,
+      icon: Clock,
+      color: 'text-blue-400',
+    },
+    {
+      label: 'Compliance Efficiency',
+      value: roi.complianceSavings,
+      icon: Shield,
+      color: 'text-amber-400',
+    },
+    {
+      label: 'Shadow AI Elimination',
+      value: roi.shadowAISavings,
+      icon: AlertTriangle,
+      color: 'text-red-400',
+    },
+    {
+      label: 'Data Quality Improvement',
+      value: roi.dataQualitySavings,
+      icon: TrendingUp,
+      color: 'text-green-400',
+    },
+    {
+      label: 'Strategic Speed',
+      value: roi.delaySavings,
+      icon: ChevronRight,
+      color: 'text-purple-400',
+    },
   ];
 
   return (
@@ -157,14 +194,16 @@ export default function ROICalculator() {
             </div>
             <h1 className="text-2xl font-bold text-white">ROI Calculator</h1>
           </div>
-          <p className="text-gray-400">Calculate the return on investment for Datacendia implementation</p>
+          <p className="text-gray-400">
+            Calculate the return on investment for Datacendia implementation
+          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Inputs */}
           <div className="bg-gray-900 rounded-xl border border-gray-800 p-6">
             <h2 className="text-lg font-semibold text-white mb-6">Organization Profile</h2>
-            
+
             <div className="space-y-5">
               <div>
                 <label className="block text-sm font-medium text-gray-400 mb-2">
@@ -206,16 +245,16 @@ export default function ROICalculator() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-400 mb-2">
-                  Industry
-                </label>
+                <label className="block text-sm font-medium text-gray-400 mb-2">Industry</label>
                 <select
                   value={industry}
                   onChange={(e) => setIndustry(e.target.value)}
                   className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2.5 text-white"
                 >
-                  {INDUSTRIES.map(ind => (
-                    <option key={ind.id} value={ind.id}>{ind.name}</option>
+                  {INDUSTRIES.map((ind) => (
+                    <option key={ind.id} value={ind.id}>
+                      {ind.name}
+                    </option>
                   ))}
                 </select>
               </div>
@@ -242,14 +281,16 @@ export default function ROICalculator() {
                 <button
                   onClick={() => setComplianceHeavy(!complianceHeavy)}
                   className={cn(
-                    "w-12 h-6 rounded-full transition-colors",
-                    complianceHeavy ? "bg-emerald-500" : "bg-gray-700"
+                    'w-12 h-6 rounded-full transition-colors',
+                    complianceHeavy ? 'bg-emerald-500' : 'bg-gray-700'
                   )}
                 >
-                  <div className={cn(
-                    "w-5 h-5 bg-white rounded-full transition-transform",
-                    complianceHeavy ? "translate-x-6" : "translate-x-0.5"
-                  )} />
+                  <div
+                    className={cn(
+                      'w-5 h-5 bg-white rounded-full transition-transform',
+                      complianceHeavy ? 'translate-x-6' : 'translate-x-0.5'
+                    )}
+                  />
                 </button>
               </div>
             </div>
@@ -261,7 +302,9 @@ export default function ROICalculator() {
             <div className="grid grid-cols-3 gap-4">
               <div className="bg-gradient-to-br from-emerald-500/20 to-emerald-600/10 border border-emerald-500/30 rounded-xl p-5">
                 <div className="text-sm text-emerald-400 mb-1">Annual Savings</div>
-                <div className="text-2xl font-bold text-white">{formatCurrency(roi.totalBenefit)}</div>
+                <div className="text-2xl font-bold text-white">
+                  {formatCurrency(roi.totalBenefit)}
+                </div>
               </div>
               <div className="bg-gradient-to-br from-blue-500/20 to-blue-600/10 border border-blue-500/30 rounded-xl p-5">
                 <div className="text-sm text-blue-400 mb-1">ROI</div>
@@ -269,7 +312,9 @@ export default function ROICalculator() {
               </div>
               <div className="bg-gradient-to-br from-purple-500/20 to-purple-600/10 border border-purple-500/30 rounded-xl p-5">
                 <div className="text-sm text-purple-400 mb-1">Payback Period</div>
-                <div className="text-2xl font-bold text-white">{roi.paybackMonths.toFixed(1)} mo</div>
+                <div className="text-2xl font-bold text-white">
+                  {roi.paybackMonths.toFixed(1)} mo
+                </div>
               </div>
             </div>
 
@@ -279,16 +324,18 @@ export default function ROICalculator() {
               <div className="space-y-4">
                 {savingsBreakdown.map((item, i) => (
                   <div key={i} className="flex items-center gap-4">
-                    <div className={cn("p-2 rounded-lg bg-gray-800", item.color)}>
+                    <div className={cn('p-2 rounded-lg bg-gray-800', item.color)}>
                       <item.icon className="w-4 h-4" />
                     </div>
                     <div className="flex-1">
                       <div className="flex justify-between mb-1">
                         <span className="text-sm text-gray-300">{item.label}</span>
-                        <span className="text-sm font-medium text-white">{formatCurrency(item.value)}</span>
+                        <span className="text-sm font-medium text-white">
+                          {formatCurrency(item.value)}
+                        </span>
                       </div>
                       <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
-                        <div 
+                        <div
                           className="h-full bg-gradient-to-r from-emerald-500 to-emerald-400 rounded-full"
                           style={{ width: `${(item.value / roi.totalBenefit) * 100}%` }}
                         />
@@ -302,11 +349,15 @@ export default function ROICalculator() {
                 <div className="flex justify-between items-center">
                   <div>
                     <div className="text-sm text-gray-400">Datacendia Investment</div>
-                    <div className="text-lg font-semibold text-white">{formatCurrency(roi.datacendiaCost)}/year</div>
+                    <div className="text-lg font-semibold text-white">
+                      {formatCurrency(roi.datacendiaCost)}/year
+                    </div>
                   </div>
                   <div className="text-right">
                     <div className="text-sm text-gray-400">Net Annual Benefit</div>
-                    <div className="text-lg font-semibold text-emerald-400">{formatCurrency(roi.netBenefit)}</div>
+                    <div className="text-lg font-semibold text-emerald-400">
+                      {formatCurrency(roi.netBenefit)}
+                    </div>
                   </div>
                 </div>
               </div>

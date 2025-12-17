@@ -5,14 +5,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from '../../lib/i18n';
-import { 
-  Info, 
-  Lightbulb, 
-  Target, 
-  CheckCircle2,
-  ChevronRight,
-  X
-} from 'lucide-react';
+import { Info, Lightbulb, Target, CheckCircle2, ChevronRight, X } from 'lucide-react';
 
 // =============================================================================
 // TYPES
@@ -113,21 +106,29 @@ export const ServiceTooltip: React.FC<ServiceTooltipProps> = ({
   // Arrow classes
   const arrowClasses = {
     top: 'top-full left-1/2 -translate-x-1/2 border-t-white border-l-transparent border-r-transparent border-b-transparent',
-    bottom: 'bottom-full left-1/2 -translate-x-1/2 border-b-white border-l-transparent border-r-transparent border-t-transparent',
+    bottom:
+      'bottom-full left-1/2 -translate-x-1/2 border-b-white border-l-transparent border-r-transparent border-t-transparent',
     left: 'left-full top-1/2 -translate-y-1/2 border-l-white border-t-transparent border-b-transparent border-r-transparent',
-    right: 'right-full top-1/2 -translate-y-1/2 border-r-white border-t-transparent border-b-transparent border-l-transparent',
+    right:
+      'right-full top-1/2 -translate-y-1/2 border-r-white border-t-transparent border-b-transparent border-l-transparent',
   };
 
   const handleMouseEnter = () => {
-    if (variant === 'hover') {setIsOpen(true);}
+    if (variant === 'hover') {
+      setIsOpen(true);
+    }
   };
 
   const handleMouseLeave = () => {
-    if (variant === 'hover') {setIsOpen(false);}
+    if (variant === 'hover') {
+      setIsOpen(false);
+    }
   };
 
   const handleClick = () => {
-    if (variant === 'click') {setIsOpen(!isOpen);}
+    if (variant === 'click') {
+      setIsOpen(!isOpen);
+    }
   };
 
   return (
@@ -153,9 +154,7 @@ export const ServiceTooltip: React.FC<ServiceTooltipProps> = ({
           onMouseLeave={handleMouseLeave}
         >
           {/* Arrow */}
-          <div
-            className={`absolute w-0 h-0 border-8 ${arrowClasses[position]}`}
-          />
+          <div className={`absolute w-0 h-0 border-8 ${arrowClasses[position]}`} />
 
           {/* Tooltip Content */}
           <div className="w-80 bg-white rounded-xl shadow-2xl border border-neutral-200 overflow-hidden">
@@ -174,9 +173,7 @@ export const ServiceTooltip: React.FC<ServiceTooltipProps> = ({
                   </button>
                 )}
               </div>
-              <p className="text-primary-100 text-xs mt-1 leading-relaxed">
-                {tooltipData.summary}
-              </p>
+              <p className="text-primary-100 text-xs mt-1 leading-relaxed">{tooltipData.summary}</p>
             </div>
 
             {/* Tabs */}
@@ -222,9 +219,7 @@ export const ServiceTooltip: React.FC<ServiceTooltipProps> = ({
                   <div className="flex items-start gap-2">
                     <Lightbulb className="w-4 h-4 text-amber-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <p className="text-xs font-medium text-neutral-700 mb-1">
-                        Getting Started
-                      </p>
+                      <p className="text-xs font-medium text-neutral-700 mb-1">Getting Started</p>
                       <p className="text-xs text-neutral-600 leading-relaxed">
                         {tooltipData.guidance}
                       </p>
@@ -297,10 +292,7 @@ export const SimpleTooltip: React.FC<SimpleTooltipProps> = ({
 
   return (
     <div className={`relative inline-block ${className}`}>
-      <div
-        onMouseEnter={() => setIsOpen(true)}
-        onMouseLeave={() => setIsOpen(false)}
-      >
+      <div onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
         {children}
       </div>
 

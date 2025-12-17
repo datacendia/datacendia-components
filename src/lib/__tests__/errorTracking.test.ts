@@ -40,11 +40,11 @@ Object.defineProperty(global, 'navigator', {
 });
 
 // Import after mocks are set up
-import { 
-  initErrorTracking, 
-  logError, 
-  logComponentError, 
-  cleanupErrorTracking 
+import {
+  initErrorTracking,
+  logError,
+  logComponentError,
+  cleanupErrorTracking,
 } from '../errorTracking';
 
 // =============================================================================
@@ -88,9 +88,9 @@ describe('errorTracking', () => {
     it('should log error to console', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Test error');
-      
+
       logError(error);
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         '[ErrorTracking]',
         'Test error',
@@ -105,9 +105,9 @@ describe('errorTracking', () => {
     it('should use default severity of medium', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Test error');
-      
+
       logError(error);
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.any(String),
         expect.any(String),
@@ -119,9 +119,9 @@ describe('errorTracking', () => {
     it('should accept custom severity', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Critical error');
-      
+
       logError(error, {}, 'critical');
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.any(String),
         expect.any(String),
@@ -134,16 +134,16 @@ describe('errorTracking', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Test error');
       const context = { componentStack: 'at Component' };
-      
+
       logError(error, context);
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.any(String),
         expect.any(String),
         expect.objectContaining({
           context: expect.objectContaining({
             componentStack: 'at Component',
-          })
+          }),
         })
       );
       consoleSpy.mockRestore();
@@ -152,16 +152,16 @@ describe('errorTracking', () => {
     it('should include URL in context', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Test error');
-      
+
       logError(error);
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.any(String),
         expect.any(String),
         expect.objectContaining({
           context: expect.objectContaining({
             url: 'http://localhost:3000/test',
-          })
+          }),
         })
       );
       consoleSpy.mockRestore();
@@ -170,16 +170,16 @@ describe('errorTracking', () => {
     it('should include userAgent in context', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Test error');
-      
+
       logError(error);
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.any(String),
         expect.any(String),
         expect.objectContaining({
           context: expect.objectContaining({
             userAgent: 'test-user-agent',
-          })
+          }),
         })
       );
       consoleSpy.mockRestore();
@@ -188,9 +188,9 @@ describe('errorTracking', () => {
     it('should generate session ID if not exists', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       mockSessionStorage.getItem.mockReturnValue(null);
-      
+
       logError(new Error('Test'));
-      
+
       expect(mockSessionStorage.setItem).toHaveBeenCalledWith(
         'datacendia_session_id',
         expect.stringContaining('session_')
@@ -200,9 +200,9 @@ describe('errorTracking', () => {
     it('should reuse existing session ID', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       mockSessionStorage.getItem.mockReturnValue('existing-session-id');
-      
+
       logError(new Error('Test'));
-      
+
       expect(mockSessionStorage.setItem).not.toHaveBeenCalled();
     });
 
@@ -212,9 +212,9 @@ describe('errorTracking', () => {
       const payload = btoa(JSON.stringify({ sub: 'user-123' }));
       const mockToken = `header.${payload}.signature`;
       mockLocalStorage.getItem.mockReturnValue(mockToken);
-      
+
       logError(new Error('Test'));
-      
+
       // User ID should be extracted from token
       expect(mockLocalStorage.getItem).toHaveBeenCalledWith('accessToken');
     });
@@ -222,7 +222,7 @@ describe('errorTracking', () => {
     it('should handle invalid JWT gracefully', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       mockLocalStorage.getItem.mockReturnValue('invalid-token');
-      
+
       // Should not throw
       expect(() => logError(new Error('Test'))).not.toThrow();
     });
@@ -230,9 +230,9 @@ describe('errorTracking', () => {
     it('should flush immediately for critical errors', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       vi.spyOn(console, 'log').mockImplementation(() => {});
-      
+
       logError(new Error('Critical'), {}, 'critical');
-      
+
       expect(mockFetch).toHaveBeenCalled();
     });
   });
@@ -241,9 +241,9 @@ describe('errorTracking', () => {
     it('should log with high severity', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Component error');
-      
+
       logComponentError(error, { componentStack: 'at MyComponent' });
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.any(String),
         expect.any(String),
@@ -255,16 +255,16 @@ describe('errorTracking', () => {
     it('should include component stack', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Component error');
-      
+
       logComponentError(error, { componentStack: 'at MyComponent\nat App' });
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.any(String),
         expect.any(String),
         expect.objectContaining({
           context: expect.objectContaining({
             componentStack: 'at MyComponent\nat App',
-          })
+          }),
         })
       );
       consoleSpy.mockRestore();
@@ -273,9 +273,9 @@ describe('errorTracking', () => {
     it('should include ErrorBoundary source metadata', () => {
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
       const error = new Error('Component error');
-      
+
       logComponentError(error, {});
-      
+
       expect(consoleSpy).toHaveBeenCalledWith(
         expect.any(String),
         expect.any(String),
@@ -283,8 +283,8 @@ describe('errorTracking', () => {
           context: expect.objectContaining({
             metadata: expect.objectContaining({
               source: 'ErrorBoundary',
-            })
-          })
+            }),
+          }),
         })
       );
       consoleSpy.mockRestore();
@@ -295,15 +295,15 @@ describe('errorTracking', () => {
     it('should flush remaining errors', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       vi.spyOn(console, 'log').mockImplementation(() => {});
-      
+
       // Add an error to queue
       logError(new Error('Test'), {}, 'low');
-      
+
       // Clear the fetch mock to check cleanup flush
       mockFetch.mockClear();
-      
+
       cleanupErrorTracking();
-      
+
       // Should attempt to flush
       expect(mockFetch).toHaveBeenCalled();
     });
@@ -313,18 +313,18 @@ describe('errorTracking', () => {
     it('should batch errors until BATCH_SIZE is reached', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       vi.spyOn(console, 'log').mockImplementation(() => {});
-      
+
       // Log 9 errors (less than batch size of 10)
       for (let i = 0; i < 9; i++) {
         logError(new Error(`Error ${i}`), {}, 'low');
       }
-      
+
       // Should not have flushed yet
       expect(mockFetch).not.toHaveBeenCalled();
-      
+
       // Log 10th error
       logError(new Error('Error 10'), {}, 'low');
-      
+
       // Should flush now
       expect(mockFetch).toHaveBeenCalled();
     });
@@ -335,15 +335,13 @@ describe('errorTracking', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
       mockFetch.mockResolvedValue({ ok: false });
-      
+
       logError(new Error('Test'), {}, 'critical');
-      
+
       // Wait for async flush
       await vi.runAllTimersAsync();
-      
-      expect(warnSpy).toHaveBeenCalledWith(
-        '[ErrorTracking] Failed to send errors, will retry'
-      );
+
+      expect(warnSpy).toHaveBeenCalledWith('[ErrorTracking] Failed to send errors, will retry');
       warnSpy.mockRestore();
     });
 
@@ -351,15 +349,13 @@ describe('errorTracking', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
       mockFetch.mockRejectedValue(new Error('Network error'));
-      
+
       logError(new Error('Test'), {}, 'critical');
-      
+
       // Wait for async flush
       await vi.runAllTimersAsync();
-      
-      expect(warnSpy).toHaveBeenCalledWith(
-        '[ErrorTracking] Network error, will retry'
-      );
+
+      expect(warnSpy).toHaveBeenCalledWith('[ErrorTracking] Network error, will retry');
       warnSpy.mockRestore();
     });
 
@@ -367,17 +363,17 @@ describe('errorTracking', () => {
       vi.spyOn(console, 'error').mockImplementation(() => {});
       vi.spyOn(console, 'log').mockImplementation(() => {});
       mockLocalStorage.getItem.mockReturnValue('test-access-token');
-      
+
       logError(new Error('Test'), {}, 'critical');
-      
+
       await vi.runAllTimersAsync();
-      
+
       expect(mockFetch).toHaveBeenCalledWith(
         expect.any(String),
         expect.objectContaining({
           headers: expect.objectContaining({
-            'Authorization': 'Bearer test-access-token',
-          })
+            Authorization: 'Bearer test-access-token',
+          }),
         })
       );
     });

@@ -35,14 +35,62 @@ export const DeliberationViewPage: React.FC = () => {
   };
 
   const transcript = [
-    { agent: 'chief', phase: 'initial', message: "I'll coordinate this analysis. Let me gather perspectives from the relevant agents on the European expansion question.", timestamp: new Date(Date.now() - 1800000) },
-    { agent: 'cfo', phase: 'initial', message: "From a financial perspective, European expansion in Q2 2026 would require approximately $15M in initial investment. Based on our current cash position of $45M and projected Q1 revenues, this is feasible but would reduce our runway to 18 months.", timestamp: new Date(Date.now() - 1700000) },
-    { agent: 'coo', phase: 'initial', message: "Operationally, we'd need to establish a legal entity, hire 15-20 local staff, and set up EU data infrastructure for GDPR compliance. Timeline estimate: 4-6 months prep before launch.", timestamp: new Date(Date.now() - 1600000) },
-    { agent: 'cro', phase: 'initial', message: "The European market represents a $2.3B TAM for our segment. Our analysis shows 3 primary competitors with <40% market penetration. I project we could capture 5% market share within 18 months, translating to ~$8-12M ARR.", timestamp: new Date(Date.now() - 1500000) },
-    { agent: 'risk', phase: 'initial', message: "Key risks include: currency fluctuation (EUR/USD), regulatory complexity across EU member states, and potential economic slowdown in the Eurozone. I recommend building in a 20% contingency buffer.", timestamp: new Date(Date.now() - 1400000) },
-    { agent: 'cfo', phase: 'cross_examination', message: "CendiaRisk, given the 20% contingency you mentioned, what's the worst-case scenario for our cash position if revenue projections are 30% below target?", timestamp: new Date(Date.now() - 1200000) },
-    { agent: 'risk', phase: 'cross_examination', message: "In a 30% revenue shortfall scenario with 20% contingency, we'd have 12 months runway remaining. This is below our 15-month threshold. I'd recommend either reducing initial investment or securing a line of credit.", timestamp: new Date(Date.now() - 1100000) },
-    { agent: 'cro', phase: 'cross_examination', message: "I want to challenge the 30% shortfall assumption. Our pipeline data shows strong European demand - 45 qualified leads from EMEA in Q4 alone. A more realistic downside is 15%.", timestamp: new Date(Date.now() - 1000000) },
+    {
+      agent: 'chief',
+      phase: 'initial',
+      message:
+        "I'll coordinate this analysis. Let me gather perspectives from the relevant agents on the European expansion question.",
+      timestamp: new Date(Date.now() - 1800000),
+    },
+    {
+      agent: 'cfo',
+      phase: 'initial',
+      message:
+        'From a financial perspective, European expansion in Q2 2026 would require approximately $15M in initial investment. Based on our current cash position of $45M and projected Q1 revenues, this is feasible but would reduce our runway to 18 months.',
+      timestamp: new Date(Date.now() - 1700000),
+    },
+    {
+      agent: 'coo',
+      phase: 'initial',
+      message:
+        "Operationally, we'd need to establish a legal entity, hire 15-20 local staff, and set up EU data infrastructure for GDPR compliance. Timeline estimate: 4-6 months prep before launch.",
+      timestamp: new Date(Date.now() - 1600000),
+    },
+    {
+      agent: 'cro',
+      phase: 'initial',
+      message:
+        'The European market represents a $2.3B TAM for our segment. Our analysis shows 3 primary competitors with <40% market penetration. I project we could capture 5% market share within 18 months, translating to ~$8-12M ARR.',
+      timestamp: new Date(Date.now() - 1500000),
+    },
+    {
+      agent: 'risk',
+      phase: 'initial',
+      message:
+        'Key risks include: currency fluctuation (EUR/USD), regulatory complexity across EU member states, and potential economic slowdown in the Eurozone. I recommend building in a 20% contingency buffer.',
+      timestamp: new Date(Date.now() - 1400000),
+    },
+    {
+      agent: 'cfo',
+      phase: 'cross_examination',
+      message:
+        "CendiaRisk, given the 20% contingency you mentioned, what's the worst-case scenario for our cash position if revenue projections are 30% below target?",
+      timestamp: new Date(Date.now() - 1200000),
+    },
+    {
+      agent: 'risk',
+      phase: 'cross_examination',
+      message:
+        "In a 30% revenue shortfall scenario with 20% contingency, we'd have 12 months runway remaining. This is below our 15-month threshold. I'd recommend either reducing initial investment or securing a line of credit.",
+      timestamp: new Date(Date.now() - 1100000),
+    },
+    {
+      agent: 'cro',
+      phase: 'cross_examination',
+      message:
+        'I want to challenge the 30% shortfall assumption. Our pipeline data shows strong European demand - 45 qualified leads from EMEA in Q4 alone. A more realistic downside is 15%.',
+      timestamp: new Date(Date.now() - 1000000),
+    },
   ];
 
   const phases = [
@@ -122,17 +170,21 @@ export const DeliberationViewPage: React.FC = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="font-semibold text-neutral-900">{agentInfo[msg.agent].name}</span>
+                    <span className="font-semibold text-neutral-900">
+                      {agentInfo[msg.agent].name}
+                    </span>
                     <span className="px-2 py-0.5 bg-neutral-100 text-neutral-500 text-xs rounded capitalize">
                       {msg.phase.replace('_', ' ')}
                     </span>
-                    <span className="text-xs text-neutral-400">{formatRelativeTime(msg.timestamp)}</span>
+                    <span className="text-xs text-neutral-400">
+                      {formatRelativeTime(msg.timestamp)}
+                    </span>
                   </div>
                   <p className="text-neutral-700">{msg.message}</p>
                 </div>
               </div>
             ))}
-            
+
             {isLive && (
               <div className="flex gap-4 items-center text-neutral-400">
                 <div className="w-10 h-10 rounded-full bg-neutral-100 flex items-center justify-center animate-pulse">
@@ -152,18 +204,24 @@ export const DeliberationViewPage: React.FC = () => {
             <div className="space-y-3">
               {phases.map((phase, i) => (
                 <div key={phase.id} className="flex items-center gap-3">
-                  <div className={cn(
-                    'w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium',
-                    phase.complete ? 'bg-success-main text-white' :
-                    phase.active ? 'bg-primary-600 text-white' :
-                    'bg-neutral-200 text-neutral-500'
-                  )}>
+                  <div
+                    className={cn(
+                      'w-6 h-6 rounded-full flex items-center justify-center text-xs font-medium',
+                      phase.complete
+                        ? 'bg-success-main text-white'
+                        : phase.active
+                          ? 'bg-primary-600 text-white'
+                          : 'bg-neutral-200 text-neutral-500'
+                    )}
+                  >
                     {phase.complete ? '✓' : i + 1}
                   </div>
-                  <span className={cn(
-                    'text-sm',
-                    phase.active ? 'font-medium text-neutral-900' : 'text-neutral-500'
-                  )}>
+                  <span
+                    className={cn(
+                      'text-sm',
+                      phase.active ? 'font-medium text-neutral-900' : 'text-neutral-500'
+                    )}
+                  >
                     {phase.name}
                   </span>
                 </div>
@@ -208,7 +266,8 @@ export const AgentProfilePage: React.FC = () => {
       icon: '👔',
       color: '#6366F1',
       status: 'online',
-      description: 'The orchestrator and coordinator of all agent activities. Synthesizes insights from specialized agents and provides executive-level recommendations.',
+      description:
+        'The orchestrator and coordinator of all agent activities. Synthesizes insights from specialized agents and provides executive-level recommendations.',
       capabilities: [
         'Multi-agent coordination',
         'Executive summary generation',
@@ -223,7 +282,10 @@ export const AgentProfilePage: React.FC = () => {
         satisfactionScore: 92,
       },
       recentActivity: [
-        { action: 'Completed deliberation on Q1 budget allocation', time: new Date(Date.now() - 3600000) },
+        {
+          action: 'Completed deliberation on Q1 budget allocation',
+          time: new Date(Date.now() - 3600000),
+        },
         { action: 'Synthesized European expansion analysis', time: new Date(Date.now() - 7200000) },
         { action: 'Coordinated security audit review', time: new Date(Date.now() - 86400000) },
       ],
@@ -235,7 +297,8 @@ export const AgentProfilePage: React.FC = () => {
       icon: '💰',
       color: '#10B981',
       status: 'online',
-      description: 'Financial intelligence agent specializing in budgeting, forecasting, cash flow analysis, and financial strategy.',
+      description:
+        'Financial intelligence agent specializing in budgeting, forecasting, cash flow analysis, and financial strategy.',
       capabilities: [
         'Financial modeling',
         'Cash flow forecasting',
@@ -281,11 +344,20 @@ export const AgentProfilePage: React.FC = () => {
           <div className="flex-1">
             <div className="flex items-center gap-3 mb-2">
               <h1 className="text-2xl font-bold text-neutral-900">{agent.name}</h1>
-              <span className={cn(
-                'flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-medium',
-                agent.status === 'online' ? 'bg-success-light text-success-dark' : 'bg-neutral-100 text-neutral-500'
-              )}>
-                <span className={cn('w-2 h-2 rounded-full', agent.status === 'online' ? 'bg-success-main' : 'bg-neutral-400')} />
+              <span
+                className={cn(
+                  'flex items-center gap-1.5 px-2 py-1 rounded-full text-xs font-medium',
+                  agent.status === 'online'
+                    ? 'bg-success-light text-success-dark'
+                    : 'bg-neutral-100 text-neutral-500'
+                )}
+              >
+                <span
+                  className={cn(
+                    'w-2 h-2 rounded-full',
+                    agent.status === 'online' ? 'bg-success-main' : 'bg-neutral-400'
+                  )}
+                />
                 {agent.status}
               </span>
             </div>
@@ -305,7 +377,10 @@ export const AgentProfilePage: React.FC = () => {
                 <span className="text-sm text-neutral-500 capitalize">
                   {key.replace(/([A-Z])/g, ' $1').trim()}
                 </span>
-                <span className="font-semibold text-neutral-900">{String(value)}{key.includes('Confidence') || key.includes('Score') ? '%' : ''}</span>
+                <span className="font-semibold text-neutral-900">
+                  {String(value)}
+                  {key.includes('Confidence') || key.includes('Score') ? '%' : ''}
+                </span>
               </div>
             ))}
           </div>

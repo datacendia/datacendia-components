@@ -307,17 +307,18 @@ export const DownloadsPage: React.FC = () => {
     }
   }, []);
 
-  const filteredDownloads = selectedPlatform === 'all' 
-    ? downloads 
-    : downloads.filter(d => d.platform === selectedPlatform);
+  const filteredDownloads =
+    selectedPlatform === 'all'
+      ? downloads
+      : downloads.filter((d) => d.platform === selectedPlatform);
 
-  const getDownloadsByPlatform = (platform: Platform) => 
-    downloads.filter(d => d.platform === platform);
+  const getDownloadsByPlatform = (platform: Platform) =>
+    downloads.filter((d) => d.platform === platform);
 
   const handleDownload = (item: DownloadItem) => {
     // Track download analytics
     console.log(`Download initiated: ${item.filename}`);
-    
+
     // For app store links, open in new tab
     if (item.downloadUrl.startsWith('http')) {
       window.open(item.downloadUrl, '_blank');
@@ -332,8 +333,11 @@ export const DownloadsPage: React.FC = () => {
     }
   };
 
-  const recommendedDownload = downloads.find(d => d.platform === detectedPlatform && 
-    (d.architecture === 'universal' || d.architecture === 'x64'));
+  const recommendedDownload = downloads.find(
+    (d) =>
+      d.platform === detectedPlatform &&
+      (d.architecture === 'universal' || d.architecture === 'x64')
+  );
 
   return (
     <div className="min-h-screen bg-neutral-50">
@@ -347,9 +351,16 @@ export const DownloadsPage: React.FC = () => {
             <span className="text-xl font-bold text-neutral-900">Datacendia</span>
           </Link>
           <nav className="flex items-center gap-6">
-            <Link to="/product" className="text-neutral-600 hover:text-neutral-900">Product</Link>
-            <Link to="/pricing" className="text-neutral-600 hover:text-neutral-900">Pricing</Link>
-            <Link to="/login" className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700">
+            <Link to="/product" className="text-neutral-600 hover:text-neutral-900">
+              Product
+            </Link>
+            <Link to="/pricing" className="text-neutral-600 hover:text-neutral-900">
+              Pricing
+            </Link>
+            <Link
+              to="/login"
+              className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700"
+            >
               Sign In
             </Link>
           </nav>
@@ -391,7 +402,8 @@ export const DownloadsPage: React.FC = () => {
                       Datacendia for {platformInfo[detectedPlatform].name}
                     </h2>
                     <p className="text-neutral-600">
-                      Version {recommendedDownload.version} • {recommendedDownload.size} • {recommendedDownload.architecture}
+                      Version {recommendedDownload.version} • {recommendedDownload.size} •{' '}
+                      {recommendedDownload.architecture}
                     </p>
                   </div>
                 </div>
@@ -400,7 +412,12 @@ export const DownloadsPage: React.FC = () => {
                   className="px-8 py-4 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors shadow-lg shadow-primary-500/25 flex items-center gap-2"
                 >
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                    />
                   </svg>
                   Download for {platformInfo[detectedPlatform].name}
                 </button>
@@ -453,11 +470,18 @@ export const DownloadsPage: React.FC = () => {
                 <h2 className="text-2xl font-bold text-neutral-900 mb-6">Desktop Applications</h2>
                 <div className="grid md:grid-cols-3 gap-6">
                   {['windows', 'macos', 'linux'].map((platform) => (
-                    <div key={platform} className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+                    <div
+                      key={platform}
+                      className="bg-white rounded-xl border border-neutral-200 overflow-hidden"
+                    >
                       <div className={`${platformInfo[platform as Platform].color} p-4`}>
                         <div className="flex items-center gap-3 text-white">
-                          <span className="text-3xl">{platformInfo[platform as Platform].icon}</span>
-                          <span className="text-xl font-semibold">{platformInfo[platform as Platform].name}</span>
+                          <span className="text-3xl">
+                            {platformInfo[platform as Platform].icon}
+                          </span>
+                          <span className="text-xl font-semibold">
+                            {platformInfo[platform as Platform].name}
+                          </span>
                         </div>
                       </div>
                       <div className="p-4 space-y-3">
@@ -471,8 +495,18 @@ export const DownloadsPage: React.FC = () => {
                               <p className="font-medium text-neutral-900">{item.architecture}</p>
                               <p className="text-sm text-neutral-500">{item.size}</p>
                             </div>
-                            <svg className="w-5 h-5 text-neutral-400 group-hover:text-primary-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            <svg
+                              className="w-5 h-5 text-neutral-400 group-hover:text-primary-600 transition-colors"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                              />
                             </svg>
                           </button>
                         ))}
@@ -487,13 +521,22 @@ export const DownloadsPage: React.FC = () => {
                 <h2 className="text-2xl font-bold text-neutral-900 mb-6">Mobile Applications</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   {['ios', 'android'].map((platform) => (
-                    <div key={platform} className="bg-white rounded-xl border border-neutral-200 p-6">
+                    <div
+                      key={platform}
+                      className="bg-white rounded-xl border border-neutral-200 p-6"
+                    >
                       <div className="flex items-center gap-4 mb-6">
-                        <div className={`w-16 h-16 ${platformInfo[platform as Platform].color} rounded-xl flex items-center justify-center`}>
-                          <span className="text-3xl">{platformInfo[platform as Platform].icon}</span>
+                        <div
+                          className={`w-16 h-16 ${platformInfo[platform as Platform].color} rounded-xl flex items-center justify-center`}
+                        >
+                          <span className="text-3xl">
+                            {platformInfo[platform as Platform].icon}
+                          </span>
                         </div>
                         <div>
-                          <h3 className="text-xl font-semibold text-neutral-900">{platformInfo[platform as Platform].name}</h3>
+                          <h3 className="text-xl font-semibold text-neutral-900">
+                            {platformInfo[platform as Platform].name}
+                          </h3>
                           <p className="text-neutral-500">Version {CURRENT_VERSION}</p>
                         </div>
                       </div>
@@ -505,8 +548,12 @@ export const DownloadsPage: React.FC = () => {
                             className="w-full p-4 bg-neutral-50 rounded-lg hover:bg-neutral-100 transition-colors text-left flex items-center justify-between group"
                           >
                             <div>
-                              <p className="font-medium text-neutral-900">{item.notes || item.filename}</p>
-                              <p className="text-sm text-neutral-500">{item.size} • {item.minOsVersion}</p>
+                              <p className="font-medium text-neutral-900">
+                                {item.notes || item.filename}
+                              </p>
+                              <p className="text-sm text-neutral-500">
+                                {item.size} • {item.minOsVersion}
+                              </p>
                             </div>
                             <span className="px-4 py-2 bg-primary-600 text-white rounded-lg text-sm font-medium group-hover:bg-primary-700 transition-colors">
                               {item.downloadUrl.startsWith('http') ? 'Get' : 'Download'}
@@ -523,34 +570,45 @@ export const DownloadsPage: React.FC = () => {
             // Show filtered downloads
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-neutral-900 mb-6">
-                {platformInfo[selectedPlatform].icon} {platformInfo[selectedPlatform].name} Downloads
+                {platformInfo[selectedPlatform].icon} {platformInfo[selectedPlatform].name}{' '}
+                Downloads
               </h2>
               <div className="grid md:grid-cols-2 gap-4">
                 {filteredDownloads.map((item) => (
-                  <div 
+                  <div
                     key={item.id}
                     className="bg-white rounded-xl border border-neutral-200 p-6 hover:border-primary-300 hover:shadow-md transition-all"
                   >
                     <div className="flex items-start justify-between mb-4">
                       <div>
                         <h3 className="font-semibold text-neutral-900">{item.filename}</h3>
-                        <p className="text-sm text-neutral-500">{item.architecture} • {item.size}</p>
+                        <p className="text-sm text-neutral-500">
+                          {item.architecture} • {item.size}
+                        </p>
                       </div>
                       <span className="px-2 py-1 bg-success-100 text-success-700 text-xs font-medium rounded">
                         v{item.version}
                       </span>
                     </div>
-                    {item.notes && (
-                      <p className="text-sm text-neutral-600 mb-4">{item.notes}</p>
-                    )}
+                    {item.notes && <p className="text-sm text-neutral-600 mb-4">{item.notes}</p>}
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-neutral-500">Requires {item.minOsVersion}</span>
                       <button
                         onClick={() => handleDownload(item)}
                         className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors flex items-center gap-2"
                       >
-                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        <svg
+                          className="w-4 h-4"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                          />
                         </svg>
                         Download
                       </button>
@@ -647,20 +705,29 @@ export const DownloadsPage: React.FC = () => {
       {/* System Requirements */}
       <section className="py-12 border-t border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-neutral-900 mb-8 text-center">System Requirements</h2>
+          <h2 className="text-2xl font-bold text-neutral-900 mb-8 text-center">
+            System Requirements
+          </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {Object.entries(systemRequirements).map(([platform, reqs]) => (
-              <div key={platform} className="bg-white rounded-xl border border-neutral-200 overflow-hidden">
+              <div
+                key={platform}
+                className="bg-white rounded-xl border border-neutral-200 overflow-hidden"
+              >
                 <div className="bg-neutral-100 p-4 flex items-center gap-3">
                   <span className="text-2xl">{platformInfo[platform as Platform].icon}</span>
-                  <span className="font-semibold text-neutral-900">{platformInfo[platform as Platform].name}</span>
+                  <span className="font-semibold text-neutral-900">
+                    {platformInfo[platform as Platform].name}
+                  </span>
                 </div>
                 <div className="p-4">
                   <div className="mb-4">
                     <h4 className="text-sm font-medium text-neutral-500 mb-2">Minimum</h4>
                     <ul className="text-sm text-neutral-600 space-y-1">
                       {Object.entries(reqs.minimum).map(([key, value]) => (
-                        <li key={key}><span className="font-medium">{key}:</span> {value}</li>
+                        <li key={key}>
+                          <span className="font-medium">{key}:</span> {value}
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -668,7 +735,9 @@ export const DownloadsPage: React.FC = () => {
                     <h4 className="text-sm font-medium text-neutral-500 mb-2">Recommended</h4>
                     <ul className="text-sm text-neutral-600 space-y-1">
                       {Object.entries(reqs.recommended).map(([key, value]) => (
-                        <li key={key}><span className="font-medium">{key}:</span> {value}</li>
+                        <li key={key}>
+                          <span className="font-medium">{key}:</span> {value}
+                        </li>
                       ))}
                     </ul>
                   </div>
@@ -684,7 +753,8 @@ export const DownloadsPage: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Verify Your Download</h2>
           <p className="text-neutral-400 mb-6">
-            All downloads are cryptographically signed. Verify the SHA-256 checksum to ensure file integrity.
+            All downloads are cryptographically signed. Verify the SHA-256 checksum to ensure file
+            integrity.
           </p>
           <div className="bg-neutral-800 rounded-lg p-4 text-left">
             <code className="text-green-400 text-sm font-mono break-all">
@@ -708,9 +778,15 @@ export const DownloadsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-neutral-500">
           <p>© {new Date().getFullYear()} Datacendia. All rights reserved.</p>
           <div className="flex items-center justify-center gap-4 mt-4">
-            <Link to="/privacy" className="hover:text-neutral-900">Privacy Policy</Link>
-            <Link to="/terms" className="hover:text-neutral-900">Terms of Service</Link>
-            <Link to="/security" className="hover:text-neutral-900">Security</Link>
+            <Link to="/privacy" className="hover:text-neutral-900">
+              Privacy Policy
+            </Link>
+            <Link to="/terms" className="hover:text-neutral-900">
+              Terms of Service
+            </Link>
+            <Link to="/security" className="hover:text-neutral-900">
+              Security
+            </Link>
           </div>
         </div>
       </footer>

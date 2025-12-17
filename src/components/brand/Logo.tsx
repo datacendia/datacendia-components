@@ -22,11 +22,7 @@ const sizes = {
   xl: { height: 64 },
 };
 
-export const Logo: React.FC<LogoProps> = ({
-  size = 'md',
-  variant = 'full',
-  className = '',
-}) => {
+export const Logo: React.FC<LogoProps> = ({ size = 'md', variant = 'full', className = '' }) => {
   const { height } = sizes[size];
   const width = Math.round(height * LOGO_ASPECT_RATIO);
 

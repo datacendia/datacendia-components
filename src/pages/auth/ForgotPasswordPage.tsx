@@ -12,7 +12,7 @@ import { LanguageSwitcher } from '../../components/i18n/LanguageSwitcher';
 
 export const ForgotPasswordPage: React.FC = () => {
   const { t } = useI18n();
-  
+
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -25,7 +25,7 @@ export const ForgotPasswordPage: React.FC = () => {
 
     try {
       const response = await api.post<{ message: string }>('/auth/forgot-password', { email });
-      
+
       if (response.success) {
         setIsSubmitted(true);
       } else {
@@ -49,13 +49,13 @@ export const ForgotPasswordPage: React.FC = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-900/50 mb-4">
               <CheckCircle className="w-8 h-8 text-green-400" />
             </div>
-            <h2 className="text-xl font-semibold text-white mb-2">{t('auth.forgotPassword.checkEmail')}</h2>
+            <h2 className="text-xl font-semibold text-white mb-2">
+              {t('auth.forgotPassword.checkEmail')}
+            </h2>
             <p className="text-gray-400 mb-6">
               {t('auth.forgotPassword.emailSentTo')} <strong className="text-white">{email}</strong>
             </p>
-            <p className="text-sm text-gray-500 mb-6">
-              {t('auth.forgotPassword.linkExpiry')}
-            </p>
+            <p className="text-sm text-gray-500 mb-6">{t('auth.forgotPassword.linkExpiry')}</p>
             <Link
               to="/auth/login"
               className="inline-flex items-center gap-2 text-indigo-400 hover:text-indigo-300 transition-colors"
@@ -78,9 +78,7 @@ export const ForgotPasswordPage: React.FC = () => {
             <KeyRound className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-2xl font-bold text-white">{t('auth.forgotPassword.title')}</h1>
-          <p className="mt-2 text-gray-400">
-            {t('auth.forgotPassword.subtitle')}
-          </p>
+          <p className="mt-2 text-gray-400">{t('auth.forgotPassword.subtitle')}</p>
         </div>
 
         {/* Form Card */}

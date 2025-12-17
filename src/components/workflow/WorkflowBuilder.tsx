@@ -5,7 +5,11 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import { cn } from '../../../lib/utils';
 import { workflowsApi } from '../../lib/api';
-import type { Workflow, WorkflowNode as ApiWorkflowNode, WorkflowEdge as ApiWorkflowEdge } from '../../lib/api/types';
+import type {
+  Workflow,
+  WorkflowNode as ApiWorkflowNode,
+  WorkflowEdge as ApiWorkflowEdge,
+} from '../../lib/api/types';
 
 // =============================================================================
 // TYPES
@@ -46,28 +50,124 @@ interface WorkflowBuilderProps {
 
 const nodeTypes = {
   triggers: [
-    { type: 'trigger', subtype: 'schedule', label: 'Schedule', icon: '⏰', description: 'Run on a schedule' },
-    { type: 'trigger', subtype: 'event', label: 'Event', icon: '📨', description: 'Triggered by an event' },
-    { type: 'trigger', subtype: 'webhook', label: 'Webhook', icon: '🔗', description: 'External webhook trigger' },
-    { type: 'trigger', subtype: 'manual', label: 'Manual', icon: '👤', description: 'Manual execution' },
+    {
+      type: 'trigger',
+      subtype: 'schedule',
+      label: 'Schedule',
+      icon: '⏰',
+      description: 'Run on a schedule',
+    },
+    {
+      type: 'trigger',
+      subtype: 'event',
+      label: 'Event',
+      icon: '📨',
+      description: 'Triggered by an event',
+    },
+    {
+      type: 'trigger',
+      subtype: 'webhook',
+      label: 'Webhook',
+      icon: '🔗',
+      description: 'External webhook trigger',
+    },
+    {
+      type: 'trigger',
+      subtype: 'manual',
+      label: 'Manual',
+      icon: '👤',
+      description: 'Manual execution',
+    },
   ],
   actions: [
-    { type: 'query', subtype: 'query', label: 'Query Data', icon: '📊', description: 'Query from data source' },
-    { type: 'transform', subtype: 'transform', label: 'Transform', icon: '🔄', description: 'Transform data' },
-    { type: 'action', subtype: 'create', label: 'Create Record', icon: '📝', description: 'Create a new record' },
-    { type: 'action', subtype: 'update', label: 'Update Record', icon: '✏️', description: 'Update existing record' },
-    { type: 'action', subtype: 'api', label: 'API Call', icon: '🔌', description: 'Call external API' },
+    {
+      type: 'query',
+      subtype: 'query',
+      label: 'Query Data',
+      icon: '📊',
+      description: 'Query from data source',
+    },
+    {
+      type: 'transform',
+      subtype: 'transform',
+      label: 'Transform',
+      icon: '🔄',
+      description: 'Transform data',
+    },
+    {
+      type: 'action',
+      subtype: 'create',
+      label: 'Create Record',
+      icon: '📝',
+      description: 'Create a new record',
+    },
+    {
+      type: 'action',
+      subtype: 'update',
+      label: 'Update Record',
+      icon: '✏️',
+      description: 'Update existing record',
+    },
+    {
+      type: 'action',
+      subtype: 'api',
+      label: 'API Call',
+      icon: '🔌',
+      description: 'Call external API',
+    },
   ],
   logic: [
-    { type: 'condition', subtype: 'if', label: 'If/Else', icon: '◇', description: 'Conditional branching' },
-    { type: 'condition', subtype: 'loop', label: 'Loop', icon: '⟳', description: 'Iterate over items' },
-    { type: 'approval', subtype: 'approval', label: 'Approval', icon: '✓', description: 'Request approval' },
-    { type: 'condition', subtype: 'wait', label: 'Wait', icon: '⏸', description: 'Wait for duration/condition' },
+    {
+      type: 'condition',
+      subtype: 'if',
+      label: 'If/Else',
+      icon: '◇',
+      description: 'Conditional branching',
+    },
+    {
+      type: 'condition',
+      subtype: 'loop',
+      label: 'Loop',
+      icon: '⟳',
+      description: 'Iterate over items',
+    },
+    {
+      type: 'approval',
+      subtype: 'approval',
+      label: 'Approval',
+      icon: '✓',
+      description: 'Request approval',
+    },
+    {
+      type: 'condition',
+      subtype: 'wait',
+      label: 'Wait',
+      icon: '⏸',
+      description: 'Wait for duration/condition',
+    },
   ],
   notifications: [
-    { type: 'notification', subtype: 'email', label: 'Email', icon: '📧', description: 'Send email' },
-    { type: 'notification', subtype: 'slack', label: 'Slack', icon: '💬', description: 'Send Slack message' },
-    { type: 'notification', subtype: 'alert', label: 'Alert', icon: '🔔', description: 'Create alert' },
+    {
+      type: 'notification',
+      subtype: 'email',
+      label: 'Email',
+      icon: '📧',
+      description: 'Send email',
+    },
+    {
+      type: 'notification',
+      subtype: 'slack',
+      label: 'Slack',
+      icon: '💬',
+      description: 'Send Slack message',
+    },
+    {
+      type: 'notification',
+      subtype: 'alert',
+      label: 'Alert',
+      icon: '🔔',
+      description: 'Create alert',
+    },
   ],
 };
 
@@ -118,7 +218,10 @@ const NodeComponent: React.FC<NodeComponentProps> = ({
         borderColor: colors.border,
         borderWidth: 2,
       }}
-      onClick={(e) => { e.stopPropagation(); onSelect(); }}
+      onClick={(e) => {
+        e.stopPropagation();
+        onSelect();
+      }}
       onMouseDown={onDragStart}
     >
       {/* Header */}
@@ -132,23 +235,27 @@ const NodeComponent: React.FC<NodeComponentProps> = ({
 
       {/* Body */}
       <div className="px-3 py-2">
-        <p className="text-xs text-neutral-500 truncate">
-          {getNodeDescription(node)}
-        </p>
+        <p className="text-xs text-neutral-500 truncate">{getNodeDescription(node)}</p>
       </div>
 
       {/* Actions (visible when selected) */}
       {isSelected && (
         <div className="absolute -top-3 -right-3 flex gap-1">
           <button
-            onClick={(e) => { e.stopPropagation(); onConfigure(); }}
+            onClick={(e) => {
+              e.stopPropagation();
+              onConfigure();
+            }}
             className="w-6 h-6 rounded-full bg-white border border-neutral-300 flex items-center justify-center text-xs hover:bg-neutral-100"
             title="Configure"
           >
             ⚙️
           </button>
           <button
-            onClick={(e) => { e.stopPropagation(); onDelete(); }}
+            onClick={(e) => {
+              e.stopPropagation();
+              onDelete();
+            }}
             className="w-6 h-6 rounded-full bg-white border border-red-300 flex items-center justify-center text-xs hover:bg-red-50"
             title="Delete"
           >
@@ -174,15 +281,29 @@ const NodeComponent: React.FC<NodeComponentProps> = ({
 
 function getNodeIcon(node: WorkflowNode): string {
   const config = node.config as { subtype?: string };
-  const allTypes = [...nodeTypes.triggers, ...nodeTypes.actions, ...nodeTypes.logic, ...nodeTypes.notifications];
-  const found = allTypes.find(t => t.type === node.type && (!config.subtype || t.subtype === config.subtype));
+  const allTypes = [
+    ...nodeTypes.triggers,
+    ...nodeTypes.actions,
+    ...nodeTypes.logic,
+    ...nodeTypes.notifications,
+  ];
+  const found = allTypes.find(
+    (t) => t.type === node.type && (!config.subtype || t.subtype === config.subtype)
+  );
   return found?.icon || '📦';
 }
 
 function getNodeDescription(node: WorkflowNode): string {
   const config = node.config as { subtype?: string };
-  const allTypes = [...nodeTypes.triggers, ...nodeTypes.actions, ...nodeTypes.logic, ...nodeTypes.notifications];
-  const found = allTypes.find(t => t.type === node.type && (!config.subtype || t.subtype === config.subtype));
+  const allTypes = [
+    ...nodeTypes.triggers,
+    ...nodeTypes.actions,
+    ...nodeTypes.logic,
+    ...nodeTypes.notifications,
+  ];
+  const found = allTypes.find(
+    (t) => t.type === node.type && (!config.subtype || t.subtype === config.subtype)
+  );
   return found?.description || 'Workflow step';
 }
 
@@ -217,12 +338,7 @@ const EdgeComponent: React.FC<EdgeComponentProps> = ({
   return (
     <g onClick={onSelect} className="cursor-pointer">
       {/* Invisible wider path for easier clicking */}
-      <path
-        d={path}
-        fill="none"
-        stroke="transparent"
-        strokeWidth={20}
-      />
+      <path d={path} fill="none" stroke="transparent" strokeWidth={20} />
       {/* Visible path */}
       <path
         d={path}
@@ -252,7 +368,7 @@ const EdgeComponent: React.FC<EdgeComponentProps> = ({
 // =============================================================================
 
 interface PaletteProps {
-  onDragStart: (nodeType: typeof nodeTypes.triggers[0]) => void;
+  onDragStart: (nodeType: (typeof nodeTypes.triggers)[0]) => void;
 }
 
 const Palette: React.FC<PaletteProps> = ({ onDragStart }) => {
@@ -271,17 +387,21 @@ const Palette: React.FC<PaletteProps> = ({ onDragStart }) => {
         <h3 className="font-semibold text-neutral-900">Components</h3>
         <p className="text-xs text-neutral-500">Drag to add to canvas</p>
       </div>
-      
-      {categories.map(category => (
+
+      {categories.map((category) => (
         <div key={category.key}>
           <button
-            onClick={() => setExpandedCategory(expandedCategory === category.key ? '' : category.key)}
+            onClick={() =>
+              setExpandedCategory(expandedCategory === category.key ? '' : category.key)
+            }
             className="w-full px-3 py-2 flex items-center justify-between text-sm font-medium text-neutral-700 hover:bg-neutral-50"
           >
             <span>{category.label}</span>
-            <span className="text-neutral-400">{expandedCategory === category.key ? '▼' : '▶'}</span>
+            <span className="text-neutral-400">
+              {expandedCategory === category.key ? '▼' : '▶'}
+            </span>
           </button>
-          
+
           {expandedCategory === category.key && (
             <div className="px-2 pb-2 space-y-1">
               {category.items.map((item, idx) => (
@@ -318,15 +438,19 @@ interface ConfigPanelProps {
 }
 
 const ConfigPanel: React.FC<ConfigPanelProps> = ({ node, onUpdate, onClose }) => {
-  if (!node) {return null;}
+  if (!node) {
+    return null;
+  }
 
   return (
     <div className="w-72 bg-white border-l border-neutral-200 overflow-y-auto">
       <div className="p-3 border-b border-neutral-200 flex items-center justify-between">
         <h3 className="font-semibold text-neutral-900">Configure: {node.label}</h3>
-        <button onClick={onClose} className="text-neutral-400 hover:text-neutral-600">✕</button>
+        <button onClick={onClose} className="text-neutral-400 hover:text-neutral-600">
+          ✕
+        </button>
       </div>
-      
+
       <div className="p-3 space-y-4">
         {/* Node Label */}
         <div>
@@ -342,7 +466,9 @@ const ConfigPanel: React.FC<ConfigPanelProps> = ({ node, onUpdate, onClose }) =>
         {/* Type-specific configuration */}
         {node.type === 'trigger' && (
           <div>
-            <label className="block text-sm font-medium text-neutral-700 mb-1">Schedule (cron)</label>
+            <label className="block text-sm font-medium text-neutral-700 mb-1">
+              Schedule (cron)
+            </label>
             <input
               type="text"
               placeholder="0 9 * * 1-5"
@@ -436,7 +562,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
   const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
   const [selectedEdgeId, setSelectedEdgeId] = useState<string | null>(null);
   const [configuringNode, setConfiguringNode] = useState<WorkflowNode | null>(null);
-  const [draggedType, setDraggedType] = useState<typeof nodeTypes.triggers[0] | null>(null);
+  const [draggedType, setDraggedType] = useState<(typeof nodeTypes.triggers)[0] | null>(null);
   const [draggingNodeId, setDraggingNodeId] = useState<string | null>(null);
   const [dragOffset, setDragOffset] = useState<Position>({ x: 0, y: 0 });
 
@@ -446,48 +572,65 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
   }, [nodes, edges, onChange]);
 
   // Handle dropping a new node from palette
-  const handleCanvasDrop = useCallback((e: React.DragEvent) => {
-    e.preventDefault();
-    if (!draggedType || !canvasRef.current) {return;}
+  const handleCanvasDrop = useCallback(
+    (e: React.DragEvent) => {
+      e.preventDefault();
+      if (!draggedType || !canvasRef.current) {
+        return;
+      }
 
-    const rect = canvasRef.current.getBoundingClientRect();
-    const x = e.clientX - rect.left - 80;
-    const y = e.clientY - rect.top - 40;
+      const rect = canvasRef.current.getBoundingClientRect();
+      const x = e.clientX - rect.left - 80;
+      const y = e.clientY - rect.top - 40;
 
-    const newNode: WorkflowNode = {
-      id: `node-${Date.now()}`,
-      type: draggedType.type as WorkflowNode['type'],
-      label: draggedType.label,
-      config: { subtype: draggedType.subtype },
-      position: { x, y },
-    };
+      const newNode: WorkflowNode = {
+        id: `node-${Date.now()}`,
+        type: draggedType.type as WorkflowNode['type'],
+        label: draggedType.label,
+        config: { subtype: draggedType.subtype },
+        position: { x, y },
+      };
 
-    setNodes(prev => [...prev, newNode]);
-    setDraggedType(null);
-  }, [draggedType]);
+      setNodes((prev) => [...prev, newNode]);
+      setDraggedType(null);
+    },
+    [draggedType]
+  );
 
   // Handle node dragging
-  const handleNodeDragStart = useCallback((nodeId: string, e: React.MouseEvent) => {
-    e.stopPropagation();
-    const node = nodes.find(n => n.id === nodeId);
-    if (!node) {return;}
+  const handleNodeDragStart = useCallback(
+    (nodeId: string, e: React.MouseEvent) => {
+      e.stopPropagation();
+      const node = nodes.find((n) => n.id === nodeId);
+      if (!node) {
+        return;
+      }
 
-    setDraggingNodeId(nodeId);
-    setDragOffset({
-      x: e.clientX - node.position.x,
-      y: e.clientY - node.position.y,
-    });
-  }, [nodes]);
+      setDraggingNodeId(nodeId);
+      setDragOffset({
+        x: e.clientX - node.position.x,
+        y: e.clientY - node.position.y,
+      });
+    },
+    [nodes]
+  );
 
-  const handleMouseMove = useCallback((e: React.MouseEvent) => {
-    if (!draggingNodeId) {return;}
+  const handleMouseMove = useCallback(
+    (e: React.MouseEvent) => {
+      if (!draggingNodeId) {
+        return;
+      }
 
-    setNodes(prev => prev.map(node =>
-      node.id === draggingNodeId
-        ? { ...node, position: { x: e.clientX - dragOffset.x, y: e.clientY - dragOffset.y } }
-        : node
-    ));
-  }, [draggingNodeId, dragOffset]);
+      setNodes((prev) =>
+        prev.map((node) =>
+          node.id === draggingNodeId
+            ? { ...node, position: { x: e.clientX - dragOffset.x, y: e.clientY - dragOffset.y } }
+            : node
+        )
+      );
+    },
+    [draggingNodeId, dragOffset]
+  );
 
   const handleMouseUp = useCallback(() => {
     setDraggingNodeId(null);
@@ -495,23 +638,30 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
 
   // Delete node
   const handleDeleteNode = useCallback((nodeId: string) => {
-    setNodes(prev => prev.filter(n => n.id !== nodeId));
-    setEdges(prev => prev.filter(e => e.from !== nodeId && e.to !== nodeId));
+    setNodes((prev) => prev.filter((n) => n.id !== nodeId));
+    setEdges((prev) => prev.filter((e) => e.from !== nodeId && e.to !== nodeId));
     setSelectedNodeId(null);
   }, []);
 
   // Update node config
-  const handleUpdateNodeConfig = useCallback((config: Record<string, unknown>) => {
-    if (!configuringNode) {return;}
-    setNodes(prev => prev.map(n =>
-      n.id === configuringNode.id ? { ...n, config: { ...n.config, ...config } } : n
-    ));
-  }, [configuringNode]);
+  const handleUpdateNodeConfig = useCallback(
+    (config: Record<string, unknown>) => {
+      if (!configuringNode) {
+        return;
+      }
+      setNodes((prev) =>
+        prev.map((n) =>
+          n.id === configuringNode.id ? { ...n, config: { ...n.config, ...config } } : n
+        )
+      );
+    },
+    [configuringNode]
+  );
 
   // Save workflow
   const handleSave = useCallback(async () => {
     onSave?.(nodes, edges);
-    
+
     if (workflowId) {
       try {
         await workflowsApi.updateWorkflow(workflowId, {
@@ -523,7 +673,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
     }
   }, [nodes, edges, workflowId, onSave]);
 
-  const selectedNode = nodes.find(n => n.id === selectedNodeId);
+  const selectedNode = nodes.find((n) => n.id === selectedNodeId);
 
   return (
     <div className="flex h-full bg-neutral-100">
@@ -539,7 +689,10 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
-        onClick={() => { setSelectedNodeId(null); setSelectedEdgeId(null); }}
+        onClick={() => {
+          setSelectedNodeId(null);
+          setSelectedEdgeId(null);
+        }}
       >
         {/* Grid background */}
         <svg className="absolute inset-0 w-full h-full pointer-events-none">
@@ -547,17 +700,26 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
             <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
               <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#E5E7EB" strokeWidth="0.5" />
             </pattern>
-            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <marker
+              id="arrowhead"
+              markerWidth="10"
+              markerHeight="7"
+              refX="9"
+              refY="3.5"
+              orient="auto"
+            >
               <polygon points="0 0, 10 3.5, 0 7" fill="#94A3B8" />
             </marker>
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)" />
-          
+
           {/* Edges */}
-          {edges.map(edge => {
-            const fromNode = nodes.find(n => n.id === edge.from);
-            const toNode = nodes.find(n => n.id === edge.to);
-            if (!fromNode || !toNode) {return null;}
+          {edges.map((edge) => {
+            const fromNode = nodes.find((n) => n.id === edge.from);
+            const toNode = nodes.find((n) => n.id === edge.to);
+            if (!fromNode || !toNode) {
+              return null;
+            }
             return (
               <EdgeComponent
                 key={edge.id}
@@ -572,7 +734,7 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
         </svg>
 
         {/* Nodes */}
-        {nodes.map(node => (
+        {nodes.map((node) => (
           <NodeComponent
             key={node.id}
             node={node}
@@ -589,7 +751,9 @@ export const WorkflowBuilder: React.FC<WorkflowBuilderProps> = ({
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <div className="text-center">
               <div className="text-4xl mb-2">📋</div>
-              <p className="text-neutral-500">Drag components from the left panel to build your workflow</p>
+              <p className="text-neutral-500">
+                Drag components from the left panel to build your workflow
+              </p>
             </div>
           </div>
         )}

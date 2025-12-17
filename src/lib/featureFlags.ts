@@ -11,22 +11,22 @@ export const FEATURE_FLAGS = {
   // Council Modes
   WAR_ROOM_MODE: 'council-war-room-mode',
   AGGRESSIVE_AGENTS: 'council-aggressive-agents',
-  
+
   // Enterprise Features
   CHRONOS_ERP_INTEGRATION: 'chronos-erp-integration',
   GNOSIS_RAG_ENABLED: 'gnosis-rag-enabled',
   CRUCIBLE_MONTE_CARLO: 'crucible-monte-carlo',
-  
+
   // Security Features
   ZERO_KNOWLEDGE_PROOFS: 'security-zk-proofs',
   REGULATOR_MODE: 'security-regulator-mode',
-  
+
   // Experimental
   AI_SELF_IMPROVEMENT: 'experimental-apotheosis',
   DISSENT_PROTECTION: 'experimental-dissent',
 } as const;
 
-type FeatureFlag = typeof FEATURE_FLAGS[keyof typeof FEATURE_FLAGS];
+type FeatureFlag = (typeof FEATURE_FLAGS)[keyof typeof FEATURE_FLAGS];
 
 // Cache for feature flag values
 const flagCache: Map<string, { value: boolean; timestamp: number }> = new Map();
@@ -45,7 +45,7 @@ export async function isFeatureEnabled(flag: FeatureFlag): Promise<boolean> {
   try {
     const response = await fetch(`${UNLEASH_URL}/client/features/${flag}`, {
       headers: {
-        'Authorization': UNLEASH_TOKEN,
+        Authorization: UNLEASH_TOKEN,
         'Content-Type': 'application/json',
       },
     });
@@ -77,7 +77,7 @@ export async function getAllFeatureFlags(): Promise<Record<FeatureFlag, boolean>
   try {
     const response = await fetch(`${UNLEASH_URL}/client/features`, {
       headers: {
-        'Authorization': UNLEASH_TOKEN,
+        Authorization: UNLEASH_TOKEN,
         'Content-Type': 'application/json',
       },
     });
@@ -95,7 +95,7 @@ export async function getAllFeatureFlags(): Promise<Record<FeatureFlag, boolean>
 
   // Return with defaults for any missing flags
   return Object.fromEntries(
-    Object.values(FEATURE_FLAGS).map(flag => [flag, flags[flag] ?? false])
+    Object.values(FEATURE_FLAGS).map((flag) => [flag, flags[flag] ?? false])
   ) as Record<FeatureFlag, boolean>;
 }
 

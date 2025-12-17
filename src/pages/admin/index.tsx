@@ -6,7 +6,13 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, Outlet, useLocation } from 'react-router-dom';
 import { cn, formatNumber, formatCurrency, formatRelativeTime } from '../../../lib/utils';
 import { LogoSimple } from '../../components/brand/Logo';
-import { adminService, type PlatformDashboard, type Tenant, type License, type HealthDashboard } from '../../services/AdminService';
+import {
+  adminService,
+  type PlatformDashboard,
+  type Tenant,
+  type License,
+  type HealthDashboard,
+} from '../../services/AdminService';
 
 // =============================================================================
 // ADMIN LAYOUT
@@ -39,10 +45,14 @@ export const AdminLayout: React.FC = () => {
         <div className="flex items-center gap-3">
           <LogoSimple size={32} />
           <span className="text-white font-semibold">Datacendia Admin</span>
-          <span className="px-2 py-0.5 bg-warning-main/20 text-warning-main text-xs rounded-full">Admin Console</span>
+          <span className="px-2 py-0.5 bg-warning-main/20 text-warning-main text-xs rounded-full">
+            Admin Console
+          </span>
         </div>
         <div className="ml-auto flex items-center gap-4">
-          <a href="/cortex" className="text-neutral-400 hover:text-white text-sm">← Back to Cortex</a>
+          <a href="/cortex" className="text-neutral-400 hover:text-white text-sm">
+            ← Back to Cortex
+          </a>
           <div className="w-8 h-8 bg-neutral-700 rounded-full flex items-center justify-center">
             <span className="text-white text-sm">A</span>
           </div>
@@ -106,10 +116,27 @@ export const AdminDashboardPage: React.FC = () => {
           system: { status: 'healthy', apiRequests24h: 12500000, avgLatency: 45, errorRate: 0.8 },
           users: { total: 3482 },
           recentActivity: [
-            { event: 'New tenant created', tenant: 'HealthTech Labs', time: new Date(Date.now() - 1800000).toISOString() },
-            { event: 'License upgraded', tenant: 'TechStart Inc', time: new Date(Date.now() - 3600000).toISOString() },
-            { event: 'User limit warning', tenant: 'GlobalCo', time: new Date(Date.now() - 7200000).toISOString(), isAlert: true },
-            { event: 'SSO configured', tenant: 'FinanceFirst', time: new Date(Date.now() - 14400000).toISOString() },
+            {
+              event: 'New tenant created',
+              tenant: 'HealthTech Labs',
+              time: new Date(Date.now() - 1800000).toISOString(),
+            },
+            {
+              event: 'License upgraded',
+              tenant: 'TechStart Inc',
+              time: new Date(Date.now() - 3600000).toISOString(),
+            },
+            {
+              event: 'User limit warning',
+              tenant: 'GlobalCo',
+              time: new Date(Date.now() - 7200000).toISOString(),
+              isAlert: true,
+            },
+            {
+              event: 'SSO configured',
+              tenant: 'FinanceFirst',
+              time: new Date(Date.now() - 14400000).toISOString(),
+            },
           ],
           lastUpdated: new Date().toISOString(),
         });
@@ -123,19 +150,45 @@ export const AdminDashboardPage: React.FC = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const stats = dashboard ? [
-    { label: 'Total Tenants', value: dashboard.tenants.total, change: +5, color: 'text-primary-400' },
-    { label: 'Active Users', value: dashboard.users.total, change: +142, color: 'text-success-main' },
-    { label: 'MRR', value: dashboard.revenue.mrr, isCurrency: true, change: +8.5, isPercent: true, color: 'text-success-main' },
-    { label: 'API Calls (24h)', value: dashboard.system.apiRequests24h, change: +12, isPercent: true, color: 'text-info-main' },
-  ] : [];
+  const stats = dashboard
+    ? [
+        {
+          label: 'Total Tenants',
+          value: dashboard.tenants.total,
+          change: +5,
+          color: 'text-primary-400',
+        },
+        {
+          label: 'Active Users',
+          value: dashboard.users.total,
+          change: +142,
+          color: 'text-success-main',
+        },
+        {
+          label: 'MRR',
+          value: dashboard.revenue.mrr,
+          isCurrency: true,
+          change: +8.5,
+          isPercent: true,
+          color: 'text-success-main',
+        },
+        {
+          label: 'API Calls (24h)',
+          value: dashboard.system.apiRequests24h,
+          change: +12,
+          isPercent: true,
+          color: 'text-info-main',
+        },
+      ]
+    : [];
 
-  const recentActivity = dashboard?.recentActivity.map(a => ({
-    event: a.event,
-    tenant: a.tenant,
-    time: new Date(a.time),
-    isAlert: a.isAlert,
-  })) || [];
+  const recentActivity =
+    dashboard?.recentActivity.map((a) => ({
+      event: a.event,
+      tenant: a.tenant,
+      time: new Date(a.time),
+      isAlert: a.isAlert,
+    })) || [];
 
   if (loading && !dashboard) {
     return (
@@ -149,9 +202,7 @@ export const AdminDashboardPage: React.FC = () => {
     <div>
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold text-white">Admin Dashboard</h1>
-        {error && (
-          <span className="text-warning-main text-sm">{error}</span>
-        )}
+        {error && <span className="text-warning-main text-sm">{error}</span>}
         {dashboard && (
           <span className="text-neutral-500 text-xs">
             Last updated: {formatRelativeTime(new Date(dashboard.lastUpdated))}
@@ -195,9 +246,17 @@ export const AdminDashboardPage: React.FC = () => {
         <h2 className="text-lg font-semibold text-white mb-4">Recent Activity</h2>
         <div className="space-y-3">
           {recentActivity.map((item, i) => (
-            <div key={i} className="flex items-center justify-between py-3 border-b border-neutral-700 last:border-0">
+            <div
+              key={i}
+              className="flex items-center justify-between py-3 border-b border-neutral-700 last:border-0"
+            >
               <div className="flex items-center gap-3">
-                <span className={cn('w-2 h-2 rounded-full', item.isAlert ? 'bg-warning-main' : 'bg-success-main')} />
+                <span
+                  className={cn(
+                    'w-2 h-2 rounded-full',
+                    item.isAlert ? 'bg-warning-main' : 'bg-success-main'
+                  )}
+                />
                 <div>
                   <p className="text-white">{item.event}</p>
                   <p className="text-sm text-neutral-400">{item.tenant}</p>
@@ -237,7 +296,11 @@ export const TenantsPage: React.FC = () => {
   }, [search]);
 
   const formatDate = (dateStr: string) => {
-    return new Date(dateStr).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    return new Date(dateStr).toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    });
   };
 
   return (
@@ -259,7 +322,7 @@ export const TenantsPage: React.FC = () => {
             className="w-full h-10 px-3 bg-neutral-700 border border-neutral-600 rounded-lg text-white placeholder:text-neutral-400 focus:ring-2 focus:ring-primary-500"
           />
         </div>
-        
+
         {loading ? (
           <div className="flex items-center justify-center py-12">
             <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-500"></div>
@@ -268,12 +331,24 @@ export const TenantsPage: React.FC = () => {
           <table className="w-full">
             <thead className="bg-neutral-900/50">
               <tr>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Tenant</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Plan</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Users</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Status</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">MRR</th>
-                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Created</th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                  Tenant
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                  Plan
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                  Users
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                  Status
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                  MRR
+                </th>
+                <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                  Created
+                </th>
                 <th className="px-4 py-3"></th>
               </tr>
             </thead>
@@ -291,18 +366,22 @@ export const TenantsPage: React.FC = () => {
                     {tenant.userCount} / {tenant.userLimit}
                   </td>
                   <td className="px-4 py-4">
-                    <span className={cn(
-                      'px-2 py-1 rounded-full text-xs font-medium',
-                      tenant.status === 'active' && 'bg-success-main/20 text-success-main',
-                      tenant.status === 'suspended' && 'bg-error-main/20 text-error-main',
-                      tenant.status === 'trial' && 'bg-info-main/20 text-info-main',
-                      tenant.status === 'churned' && 'bg-neutral-600/20 text-neutral-400'
-                    )}>
+                    <span
+                      className={cn(
+                        'px-2 py-1 rounded-full text-xs font-medium',
+                        tenant.status === 'active' && 'bg-success-main/20 text-success-main',
+                        tenant.status === 'suspended' && 'bg-error-main/20 text-error-main',
+                        tenant.status === 'trial' && 'bg-info-main/20 text-info-main',
+                        tenant.status === 'churned' && 'bg-neutral-600/20 text-neutral-400'
+                      )}
+                    >
                       {tenant.status}
                     </span>
                   </td>
                   <td className="px-4 py-4 text-neutral-300">{formatCurrency(tenant.mrr)}</td>
-                  <td className="px-4 py-4 text-neutral-400 text-sm">{formatDate(tenant.createdAt)}</td>
+                  <td className="px-4 py-4 text-neutral-400 text-sm">
+                    {formatDate(tenant.createdAt)}
+                  </td>
                   <td className="px-4 py-4 text-right">
                     <button className="text-neutral-400 hover:text-white">•••</button>
                   </td>
@@ -340,7 +419,11 @@ export const LicensesPage: React.FC = () => {
   }, []);
 
   const formatDate = (dateStr: string) => {
-    return new Date(dateStr).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    return new Date(dateStr).toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    });
   };
 
   const handleExtend = async (licenseId: string) => {
@@ -376,29 +459,34 @@ export const LicensesPage: React.FC = () => {
             <div className="flex items-start justify-between">
               <div>
                 <div className="flex items-center gap-3 mb-2">
-                  <code className="px-2 py-1 bg-neutral-700 text-neutral-300 text-sm rounded">{license.id}</code>
-                  <span className={cn(
-                    'px-2 py-1 rounded-full text-xs font-medium',
-                    license.status === 'active' && 'bg-success-main/20 text-success-main',
-                    license.status === 'expiring' && 'bg-warning-main/20 text-warning-main',
-                    license.status === 'expired' && 'bg-error-main/20 text-error-main',
-                    license.status === 'suspended' && 'bg-neutral-600/20 text-neutral-400'
-                  )}>
+                  <code className="px-2 py-1 bg-neutral-700 text-neutral-300 text-sm rounded">
+                    {license.id}
+                  </code>
+                  <span
+                    className={cn(
+                      'px-2 py-1 rounded-full text-xs font-medium',
+                      license.status === 'active' && 'bg-success-main/20 text-success-main',
+                      license.status === 'expiring' && 'bg-warning-main/20 text-warning-main',
+                      license.status === 'expired' && 'bg-error-main/20 text-error-main',
+                      license.status === 'suspended' && 'bg-neutral-600/20 text-neutral-400'
+                    )}
+                  >
                     {license.status}
                   </span>
                 </div>
                 <h3 className="text-lg font-semibold text-white">{license.tenantName}</h3>
                 <p className="text-neutral-400 mt-1">
-                  <span className="capitalize">{license.type}</span> • Expires {formatDate(license.expiresAt)}
+                  <span className="capitalize">{license.type}</span> • Expires{' '}
+                  {formatDate(license.expiresAt)}
                 </p>
                 <p className="text-sm text-neutral-500 mt-2">
-                  {license.features && typeof license.features === 'object' 
+                  {license.features && typeof license.features === 'object'
                     ? `${(license.features as { agents?: number; maxUsers?: number; maxDeliberationsPerMonth?: number }).agents || 0} agents • ${(license.features as { agents?: number; maxUsers?: number; maxDeliberationsPerMonth?: number }).maxUsers || 0} users • ${(license.features as { agents?: number; maxUsers?: number; maxDeliberationsPerMonth?: number }).maxDeliberationsPerMonth || 0} deliberations/mo`
                     : String(license.features || '')}
                 </p>
               </div>
               <div className="flex gap-2">
-                <button 
+                <button
                   onClick={() => handleExtend(license.id)}
                   className="px-3 py-1.5 bg-neutral-700 text-white text-sm rounded-lg hover:bg-neutral-600 transition-colors"
                 >
@@ -471,7 +559,9 @@ export const UsageAnalyticsPage: React.FC = () => {
             {topTenants.map((tenant) => (
               <tr key={tenant.name} className="border-b border-neutral-700/50">
                 <td className="py-3 text-white">{tenant.name}</td>
-                <td className="py-3 text-right text-neutral-300">{formatNumber(tenant.apiCalls)}</td>
+                <td className="py-3 text-right text-neutral-300">
+                  {formatNumber(tenant.apiCalls)}
+                </td>
                 <td className="py-3 text-right text-neutral-300">{tenant.users}</td>
                 <td className="py-3 text-right text-neutral-300">{tenant.storage}</td>
               </tr>
@@ -537,11 +627,22 @@ export const SystemHealthPage: React.FC = () => {
     <div>
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-2xl font-bold text-white">System Health</h1>
-        <span className={cn('flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium', statusColors[overallStatus])}>
-          <span className={cn('w-2 h-2 rounded-full animate-pulse', 
-            overallStatus === 'healthy' ? 'bg-success-main' : 
-            overallStatus === 'degraded' ? 'bg-warning-main' : 'bg-error-main'
-          )} />
+        <span
+          className={cn(
+            'flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium',
+            statusColors[overallStatus]
+          )}
+        >
+          <span
+            className={cn(
+              'w-2 h-2 rounded-full animate-pulse',
+              overallStatus === 'healthy'
+                ? 'bg-success-main'
+                : overallStatus === 'degraded'
+                  ? 'bg-warning-main'
+                  : 'bg-error-main'
+            )}
+          />
           {statusLabels[overallStatus]}
         </span>
       </div>
@@ -554,11 +655,21 @@ export const SystemHealthPage: React.FC = () => {
         <table className="w-full">
           <thead className="bg-neutral-900/50">
             <tr>
-              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Service</th>
-              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Status</th>
-              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Latency</th>
-              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Uptime (30d)</th>
-              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">Last Check</th>
+              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                Service
+              </th>
+              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                Status
+              </th>
+              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                Latency
+              </th>
+              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                Uptime (30d)
+              </th>
+              <th className="text-left px-4 py-3 text-xs font-semibold text-neutral-400 uppercase">
+                Last Check
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -566,22 +677,34 @@ export const SystemHealthPage: React.FC = () => {
               <tr key={service.name} className="border-b border-neutral-700">
                 <td className="px-4 py-4 text-white font-medium">{service.name}</td>
                 <td className="px-4 py-4">
-                  <span className={cn(
-                    'flex items-center gap-2',
-                    service.status === 'healthy' ? 'text-success-main' : 
-                    service.status === 'degraded' ? 'text-warning-main' : 'text-error-main'
-                  )}>
-                    <span className={cn(
-                      'w-2 h-2 rounded-full',
-                      service.status === 'healthy' ? 'bg-success-main' : 
-                      service.status === 'degraded' ? 'bg-warning-main' : 'bg-error-main'
-                    )} />
+                  <span
+                    className={cn(
+                      'flex items-center gap-2',
+                      service.status === 'healthy'
+                        ? 'text-success-main'
+                        : service.status === 'degraded'
+                          ? 'text-warning-main'
+                          : 'text-error-main'
+                    )}
+                  >
+                    <span
+                      className={cn(
+                        'w-2 h-2 rounded-full',
+                        service.status === 'healthy'
+                          ? 'bg-success-main'
+                          : service.status === 'degraded'
+                            ? 'bg-warning-main'
+                            : 'bg-error-main'
+                      )}
+                    />
                     {service.status}
                   </span>
                 </td>
                 <td className="px-4 py-4 text-neutral-300">{service.latency}ms</td>
                 <td className="px-4 py-4 text-neutral-300">{service.uptime}%</td>
-                <td className="px-4 py-4 text-neutral-400 text-sm">{formatRelativeTime(new Date(service.lastCheck))}</td>
+                <td className="px-4 py-4 text-neutral-400 text-sm">
+                  {formatRelativeTime(new Date(service.lastCheck))}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -596,23 +719,38 @@ export const SystemHealthPage: React.FC = () => {
         ) : (
           <div className="space-y-4">
             {alerts.map((alert) => (
-              <div key={alert.id} className="flex items-center justify-between p-4 bg-neutral-700/50 rounded-lg">
+              <div
+                key={alert.id}
+                className="flex items-center justify-between p-4 bg-neutral-700/50 rounded-lg"
+              >
                 <div className="flex items-center gap-4">
-                  <span className={cn(
-                    'w-3 h-3 rounded-full',
-                    alert.severity === 'critical' ? 'bg-error-main' : 
-                    alert.severity === 'warning' ? 'bg-warning-main' : 'bg-info-main'
-                  )} />
+                  <span
+                    className={cn(
+                      'w-3 h-3 rounded-full',
+                      alert.severity === 'critical'
+                        ? 'bg-error-main'
+                        : alert.severity === 'warning'
+                          ? 'bg-warning-main'
+                          : 'bg-info-main'
+                    )}
+                  />
                   <div>
                     <p className="text-white font-medium">{alert.message}</p>
-                    <p className="text-sm text-neutral-400">{alert.service} • {formatRelativeTime(new Date(alert.createdAt))}</p>
+                    <p className="text-sm text-neutral-400">
+                      {alert.service} • {formatRelativeTime(new Date(alert.createdAt))}
+                    </p>
                   </div>
                 </div>
-                <span className={cn(
-                  'px-2 py-1 rounded-full text-xs font-medium',
-                  alert.severity === 'critical' ? 'bg-error-main/20 text-error-main' : 
-                  alert.severity === 'warning' ? 'bg-warning-main/20 text-warning-main' : 'bg-info-main/20 text-info-main'
-                )}>
+                <span
+                  className={cn(
+                    'px-2 py-1 rounded-full text-xs font-medium',
+                    alert.severity === 'critical'
+                      ? 'bg-error-main/20 text-error-main'
+                      : alert.severity === 'warning'
+                        ? 'bg-warning-main/20 text-warning-main'
+                        : 'bg-info-main/20 text-info-main'
+                  )}
+                >
                   {alert.severity}
                 </span>
               </div>
@@ -630,15 +768,45 @@ export const SystemHealthPage: React.FC = () => {
 
 export const FeatureFlagsPage: React.FC = () => {
   const [flags, setFlags] = useState([
-    { id: 'agent_v2', name: 'Agent V2 Architecture', enabled: true, rollout: 100, description: 'New agent reasoning engine' },
-    { id: 'realtime_collab', name: 'Real-time Collaboration', enabled: true, rollout: 50, description: 'Multi-user editing features' },
-    { id: 'advanced_forecasting', name: 'Advanced Forecasting', enabled: false, rollout: 0, description: 'LSTM and ensemble models' },
-    { id: 'graph_visualizations', name: 'Enhanced Graph Viz', enabled: true, rollout: 25, description: '3D graph visualization' },
-    { id: 'ai_suggestions', name: 'AI Query Suggestions', enabled: false, rollout: 0, description: 'Proactive AI recommendations' },
+    {
+      id: 'agent_v2',
+      name: 'Agent V2 Architecture',
+      enabled: true,
+      rollout: 100,
+      description: 'New agent reasoning engine',
+    },
+    {
+      id: 'realtime_collab',
+      name: 'Real-time Collaboration',
+      enabled: true,
+      rollout: 50,
+      description: 'Multi-user editing features',
+    },
+    {
+      id: 'advanced_forecasting',
+      name: 'Advanced Forecasting',
+      enabled: false,
+      rollout: 0,
+      description: 'LSTM and ensemble models',
+    },
+    {
+      id: 'graph_visualizations',
+      name: 'Enhanced Graph Viz',
+      enabled: true,
+      rollout: 25,
+      description: '3D graph visualization',
+    },
+    {
+      id: 'ai_suggestions',
+      name: 'AI Query Suggestions',
+      enabled: false,
+      rollout: 0,
+      description: 'Proactive AI recommendations',
+    },
   ]);
 
   const toggleFlag = (id: string) => {
-    setFlags(flags.map(f => f.id === id ? { ...f, enabled: !f.enabled } : f));
+    setFlags(flags.map((f) => (f.id === id ? { ...f, enabled: !f.enabled } : f)));
   };
 
   return (
@@ -657,10 +825,12 @@ export const FeatureFlagsPage: React.FC = () => {
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
                   <h3 className="text-lg font-semibold text-white">{flag.name}</h3>
-                  <code className="px-2 py-0.5 bg-neutral-700 text-neutral-400 text-xs rounded">{flag.id}</code>
+                  <code className="px-2 py-0.5 bg-neutral-700 text-neutral-400 text-xs rounded">
+                    {flag.id}
+                  </code>
                 </div>
                 <p className="text-neutral-400 mb-4">{flag.description}</p>
-                
+
                 {flag.enabled && (
                   <div className="flex items-center gap-4">
                     <span className="text-sm text-neutral-400">Rollout:</span>
@@ -670,7 +840,13 @@ export const FeatureFlagsPage: React.FC = () => {
                         min="0"
                         max="100"
                         value={flag.rollout}
-                        onChange={(e) => setFlags(flags.map(f => f.id === flag.id ? { ...f, rollout: Number(e.target.value) } : f))}
+                        onChange={(e) =>
+                          setFlags(
+                            flags.map((f) =>
+                              f.id === flag.id ? { ...f, rollout: Number(e.target.value) } : f
+                            )
+                          )
+                        }
                         className="w-full"
                       />
                     </div>
@@ -678,7 +854,7 @@ export const FeatureFlagsPage: React.FC = () => {
                   </div>
                 )}
               </div>
-              
+
               <button
                 onClick={() => toggleFlag(flag.id)}
                 className={cn(
@@ -686,10 +862,12 @@ export const FeatureFlagsPage: React.FC = () => {
                   flag.enabled ? 'bg-success-main' : 'bg-neutral-600'
                 )}
               >
-                <span className={cn(
-                  'absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform',
-                  flag.enabled ? 'left-6' : 'left-0.5'
-                )} />
+                <span
+                  className={cn(
+                    'absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform',
+                    flag.enabled ? 'left-6' : 'left-0.5'
+                  )}
+                />
               </button>
             </div>
           </div>

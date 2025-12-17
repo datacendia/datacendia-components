@@ -6,7 +6,16 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
-import { X, ExternalLink, Play, AlertTriangle, Shield, Clock, TrendingUp, TrendingDown } from 'lucide-react';
+import {
+  X,
+  ExternalLink,
+  Play,
+  AlertTriangle,
+  Shield,
+  Clock,
+  TrendingUp,
+  TrendingDown,
+} from 'lucide-react';
 
 // =============================================================================
 // SHARED COMPONENTS
@@ -45,16 +54,21 @@ const MetricCard: React.FC<{
     <p className="text-sm text-neutral-500 mb-1">{label}</p>
     <div className="flex items-end gap-2">
       <span className="text-2xl font-bold text-neutral-900">
-        {value}{unit && <span className="text-base font-normal text-neutral-500">{unit}</span>}
+        {value}
+        {unit && <span className="text-base font-normal text-neutral-500">{unit}</span>}
       </span>
       {change !== undefined && (
-        <span className={cn(
-          'text-sm font-medium',
-          trend === 'up' && 'text-success-main',
-          trend === 'down' && 'text-error-main',
-          trend === 'stable' && 'text-neutral-500'
-        )}>
-          {trend === 'up' && '↑'}{trend === 'down' && '↓'}{Math.abs(change)}%
+        <span
+          className={cn(
+            'text-sm font-medium',
+            trend === 'up' && 'text-success-main',
+            trend === 'down' && 'text-error-main',
+            trend === 'stable' && 'text-neutral-500'
+          )}
+        >
+          {trend === 'up' && '↑'}
+          {trend === 'down' && '↓'}
+          {Math.abs(change)}%
         </span>
       )}
     </div>
@@ -104,26 +118,46 @@ interface HelmDashboard {
 
 // Category icons and colors
 const CATEGORY_CONFIG: Record<string, { icon: string; color: string; bg: string }> = {
-  'financial': { icon: '💰', color: '#10B981', bg: 'bg-emerald-50' },
-  'operational': { icon: '⚙️', color: '#6366F1', bg: 'bg-indigo-50' },
-  'customer': { icon: '❤️', color: '#EC4899', bg: 'bg-pink-50' },
-  'people': { icon: '👥', color: '#F59E0B', bg: 'bg-amber-50' },
-  'strategic': { icon: '🎯', color: '#8B5CF6', bg: 'bg-purple-50' },
-  'compliance': { icon: '⚖️', color: '#06B6D4', bg: 'bg-cyan-50' },
-  'default': { icon: '📊', color: '#64748B', bg: 'bg-slate-50' },
+  financial: { icon: '💰', color: '#10B981', bg: 'bg-emerald-50' },
+  operational: { icon: '⚙️', color: '#6366F1', bg: 'bg-indigo-50' },
+  customer: { icon: '❤️', color: '#EC4899', bg: 'bg-pink-50' },
+  people: { icon: '👥', color: '#F59E0B', bg: 'bg-amber-50' },
+  strategic: { icon: '🎯', color: '#8B5CF6', bg: 'bg-purple-50' },
+  compliance: { icon: '⚖️', color: '#06B6D4', bg: 'bg-cyan-50' },
+  default: { icon: '📊', color: '#64748B', bg: 'bg-slate-50' },
 };
 
 // Pre-built metric packs
 const METRIC_PACKS = [
-  { id: 'cfo', name: 'CFO Pack', icon: '💰', metrics: ['Revenue', 'Gross Margin', 'Cash Flow', 'Runway'] },
-  { id: 'coo', name: 'COO Pack', icon: '⚙️', metrics: ['Throughput', 'Defect Rate', 'Cycle Time', 'Utilization'] },
-  { id: 'chro', name: 'CHRO Pack', icon: '👥', metrics: ['Engagement Score', 'Time-to-Hire', 'Attrition Rate', 'eNPS'] },
+  {
+    id: 'cfo',
+    name: 'CFO Pack',
+    icon: '💰',
+    metrics: ['Revenue', 'Gross Margin', 'Cash Flow', 'Runway'],
+  },
+  {
+    id: 'coo',
+    name: 'COO Pack',
+    icon: '⚙️',
+    metrics: ['Throughput', 'Defect Rate', 'Cycle Time', 'Utilization'],
+  },
+  {
+    id: 'chro',
+    name: 'CHRO Pack',
+    icon: '👥',
+    metrics: ['Engagement Score', 'Time-to-Hire', 'Attrition Rate', 'eNPS'],
+  },
   { id: 'cmo', name: 'CMO Pack', icon: '📢', metrics: ['CAC', 'LTV', 'NPS', 'Brand Awareness'] },
 ];
 
 // Owner avatars
 const OWNER_AVATARS: Record<string, string> = {
-  'CFO': '💰', 'COO': '⚙️', 'CMO': '📢', 'CHRO': '👥', 'CTO': '💻', 'CEO': '👔',
+  CFO: '💰',
+  COO: '⚙️',
+  CMO: '📢',
+  CHRO: '👥',
+  CTO: '💻',
+  CEO: '👔',
 };
 
 export const HelmPage: React.FC = () => {
@@ -139,7 +173,9 @@ export const HelmPage: React.FC = () => {
     const loadHelmData = async () => {
       try {
         setIsLoading(true);
-        const res = await api.get<HelmDashboard>('/pillars/helm/dashboard', { organizationId: 'demo' });
+        const res = await api.get<HelmDashboard>('/pillars/helm/dashboard', {
+          organizationId: 'demo',
+        });
         if (res.success && res.data) {
           setDashboard(res.data);
         }
@@ -154,19 +190,27 @@ export const HelmPage: React.FC = () => {
 
   const getStatusStyle = (status: string) => {
     switch (status) {
-      case 'on_track': return 'bg-success-light text-success-dark';
-      case 'at_risk': return 'bg-warning-light text-warning-dark';
-      case 'critical': return 'bg-error-light text-error-dark';
-      default: return 'bg-neutral-100 text-neutral-600';
+      case 'on_track':
+        return 'bg-success-light text-success-dark';
+      case 'at_risk':
+        return 'bg-warning-light text-warning-dark';
+      case 'critical':
+        return 'bg-error-light text-error-dark';
+      default:
+        return 'bg-neutral-100 text-neutral-600';
     }
   };
 
   const getStatusLabel = (status: string) => {
     switch (status) {
-      case 'on_track': return 'On Track';
-      case 'at_risk': return 'At Risk';
-      case 'critical': return 'Critical';
-      default: return 'Stable';
+      case 'on_track':
+        return 'On Track';
+      case 'at_risk':
+        return 'At Risk';
+      case 'critical':
+        return 'Critical';
+      default:
+        return 'Stable';
     }
   };
 
@@ -181,26 +225,35 @@ export const HelmPage: React.FC = () => {
     const metrics = cat.metrics || [];
     return {
       total: metrics.length,
-      onTrack: metrics.filter(m => m.status === 'on_track' || m.status === 'stable').length,
-      atRisk: metrics.filter(m => m.status === 'at_risk').length,
-      critical: metrics.filter(m => m.status === 'critical').length,
-      owners: [...new Set(metrics.map(m => m.ownerRole).filter(Boolean))],
+      onTrack: metrics.filter((m) => m.status === 'on_track' || m.status === 'stable').length,
+      atRisk: metrics.filter((m) => m.status === 'at_risk').length,
+      critical: metrics.filter((m) => m.status === 'critical').length,
+      owners: [...new Set(metrics.map((m) => m.ownerRole).filter(Boolean))],
     };
   };
 
-  const healthScore = dashboard?.healthScore ?? Math.round(
-    ((dashboard?.onTarget ?? 0) / Math.max(1, dashboard?.totalMetrics ?? 1)) * 100
-  );
+  const healthScore =
+    dashboard?.healthScore ??
+    Math.round(((dashboard?.onTarget ?? 0) / Math.max(1, dashboard?.totalMetrics ?? 1)) * 100);
   const healthTrend = dashboard?.healthTrend ?? 3;
 
-  const onTargetPct = Math.round(((dashboard?.onTarget ?? 0) / Math.max(1, dashboard?.totalMetrics ?? 1)) * 100);
-  const atRiskPct = Math.round(((dashboard?.atRisk ?? 0) / Math.max(1, dashboard?.totalMetrics ?? 1)) * 100);
+  const onTargetPct = Math.round(
+    ((dashboard?.onTarget ?? 0) / Math.max(1, dashboard?.totalMetrics ?? 1)) * 100
+  );
+  const atRiskPct = Math.round(
+    ((dashboard?.atRisk ?? 0) / Math.max(1, dashboard?.totalMetrics ?? 1)) * 100
+  );
   const criticalPct = 100 - onTargetPct - atRiskPct;
 
   if (isLoading) {
     return (
       <div className="p-6">
-        <PillarHeader icon="🎯" name="The Helm" tagline="Single source of truth for organizational metrics" color="#6366F1" />
+        <PillarHeader
+          icon="🎯"
+          name="The Helm"
+          tagline="Single source of truth for organizational metrics"
+          color="#6366F1"
+        />
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-500"></div>
           <span className="ml-3 text-neutral-500">Loading metrics data...</span>
@@ -215,7 +268,9 @@ export const HelmPage: React.FC = () => {
       <div className="flex items-start justify-between mb-6">
         <div>
           <div className="flex items-center gap-4 mb-2">
-            <div className="w-14 h-14 rounded-xl flex items-center justify-center text-3xl bg-indigo-100">🎯</div>
+            <div className="w-14 h-14 rounded-xl flex items-center justify-center text-3xl bg-indigo-100">
+              🎯
+            </div>
             <div>
               <h1 className="text-2xl font-bold text-neutral-900">The Helm</h1>
               <p className="text-neutral-500">Single source of truth for organizational metrics</p>
@@ -236,7 +291,8 @@ export const HelmPage: React.FC = () => {
           </div>
           <p className="text-xs text-neutral-400">
             <Clock className="w-3 h-3 inline mr-1" />
-            Last updated: {dashboard?.lastUpdated ? new Date(dashboard.lastUpdated).toLocaleString() : 'Just now'}
+            Last updated:{' '}
+            {dashboard?.lastUpdated ? new Date(dashboard.lastUpdated).toLocaleString() : 'Just now'}
           </p>
         </div>
       </div>
@@ -246,7 +302,7 @@ export const HelmPage: React.FC = () => {
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-neutral-900">Organizational Health</h3>
           {(dashboard?.escalatedToCouncil ?? 0) > 0 && (
-            <button 
+            <button
               onClick={() => navigate('/cortex/intelligence/decision-dna?filter=escalated')}
               className="text-xs text-warning-dark bg-warning-light px-3 py-1 rounded-full hover:bg-warning-main hover:text-white transition-colors"
             >
@@ -260,7 +316,10 @@ export const HelmPage: React.FC = () => {
             <svg className="w-full h-full transform -rotate-90">
               <circle cx="56" cy="56" r="48" fill="none" stroke="#E5E7EB" strokeWidth="10" />
               <circle
-                cx="56" cy="56" r="48" fill="none"
+                cx="56"
+                cy="56"
+                r="48"
+                fill="none"
                 stroke={healthScore >= 80 ? '#10B981' : healthScore >= 60 ? '#F59E0B' : '#EF4444'}
                 strokeWidth="10"
                 strokeDasharray={`${healthScore * 3.02} 302`}
@@ -281,19 +340,33 @@ export const HelmPage: React.FC = () => {
               ) : (
                 <TrendingDown className="w-5 h-5 text-error-main" />
               )}
-              <span className={cn('text-lg font-semibold', healthTrend >= 0 ? 'text-success-dark' : 'text-error-dark')}>
-                {healthTrend >= 0 ? '+' : ''}{healthTrend}%
+              <span
+                className={cn(
+                  'text-lg font-semibold',
+                  healthTrend >= 0 ? 'text-success-dark' : 'text-error-dark'
+                )}
+              >
+                {healthTrend >= 0 ? '+' : ''}
+                {healthTrend}%
               </span>
             </div>
-            <p className="text-xs text-neutral-500">vs last {timeframe === '7d' ? 'week' : timeframe === '30d' ? 'month' : 'quarter'}</p>
+            <p className="text-xs text-neutral-500">
+              vs last {timeframe === '7d' ? 'week' : timeframe === '30d' ? 'month' : 'quarter'}
+            </p>
           </div>
 
           {/* Stacked Bar */}
           <div className="flex-1">
             <div className="flex items-center gap-4 mb-2 text-sm">
-              <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-success-main"></span> On Target {onTargetPct}%</span>
-              <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-warning-main"></span> At Risk {atRiskPct}%</span>
-              <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-error-main"></span> Critical {criticalPct}%</span>
+              <span className="flex items-center gap-1">
+                <span className="w-3 h-3 rounded bg-success-main"></span> On Target {onTargetPct}%
+              </span>
+              <span className="flex items-center gap-1">
+                <span className="w-3 h-3 rounded bg-warning-main"></span> At Risk {atRiskPct}%
+              </span>
+              <span className="flex items-center gap-1">
+                <span className="w-3 h-3 rounded bg-error-main"></span> Critical {criticalPct}%
+              </span>
             </div>
             <div className="h-4 bg-neutral-100 rounded-full overflow-hidden flex">
               <div className="h-full bg-success-main" style={{ width: `${onTargetPct}%` }} />
@@ -308,7 +381,9 @@ export const HelmPage: React.FC = () => {
               onClick={() => setStatusFilter(statusFilter === 'at_risk' ? 'all' : 'at_risk')}
               className={cn(
                 'px-3 py-1.5 rounded-lg text-sm font-medium transition-colors',
-                statusFilter === 'at_risk' ? 'bg-warning-main text-white' : 'bg-warning-light text-warning-dark hover:bg-warning-main hover:text-white'
+                statusFilter === 'at_risk'
+                  ? 'bg-warning-main text-white'
+                  : 'bg-warning-light text-warning-dark hover:bg-warning-main hover:text-white'
               )}
             >
               {dashboard?.atRisk ?? 0} At Risk
@@ -317,7 +392,9 @@ export const HelmPage: React.FC = () => {
               onClick={() => setStatusFilter(statusFilter === 'critical' ? 'all' : 'critical')}
               className={cn(
                 'px-3 py-1.5 rounded-lg text-sm font-medium transition-colors',
-                statusFilter === 'critical' ? 'bg-error-main text-white' : 'bg-error-light text-error-dark hover:bg-error-main hover:text-white'
+                statusFilter === 'critical'
+                  ? 'bg-error-main text-white'
+                  : 'bg-error-light text-error-dark hover:bg-error-main hover:text-white'
               )}
             >
               {dashboard?.critical ?? 0} Critical
@@ -329,70 +406,106 @@ export const HelmPage: React.FC = () => {
       {/* Metric Categories */}
       {(dashboard?.categories?.length ?? 0) > 0 ? (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {(dashboard?.categories || []).filter(cat => cat && typeof cat === 'object').map((cat, idx) => {
-            const config = getCategoryConfig(cat?.name);
-            const stats = getCategoryStats(cat);
-            const metrics = cat?.metrics || [];
-            const filteredMetrics = statusFilter === 'all' 
-              ? metrics 
-              : metrics.filter(m => m.status === statusFilter);
-            
-            if (statusFilter !== 'all' && filteredMetrics.length === 0) return null;
+          {(dashboard?.categories || [])
+            .filter((cat) => cat && typeof cat === 'object')
+            .map((cat, idx) => {
+              const config = getCategoryConfig(cat?.name);
+              const stats = getCategoryStats(cat);
+              const metrics = cat?.metrics || [];
+              const filteredMetrics =
+                statusFilter === 'all' ? metrics : metrics.filter((m) => m.status === statusFilter);
 
-            return (
-              <button
-                key={cat?.id || idx}
-                onClick={() => setSelectedCategory(cat)}
-                className={cn(
-                  'p-5 rounded-xl border border-neutral-200 text-left hover:border-primary-500 hover:shadow-md transition-all',
-                  config.bg
-                )}
-              >
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl">{cat?.icon || config.icon}</span>
-                    <div>
-                      <h3 className="text-lg font-semibold text-neutral-900">{cat?.name || 'Category'}</h3>
-                      <p className="text-sm text-neutral-500">{stats.total} metrics</p>
-                    </div>
-                  </div>
-                  {/* Owner avatars */}
-                  {stats.owners.length > 0 && (
-                    <div className="flex -space-x-2">
-                      {stats.owners.slice(0, 3).map((owner, i) => (
-                        <div key={i} className="w-8 h-8 rounded-full bg-white border-2 border-white shadow flex items-center justify-center text-sm" title={owner}>
-                          {OWNER_AVATARS[owner as string] || '👤'}
-                        </div>
-                      ))}
-                    </div>
+              if (statusFilter !== 'all' && filteredMetrics.length === 0) return null;
+
+              return (
+                <button
+                  key={cat?.id || idx}
+                  onClick={() => setSelectedCategory(cat)}
+                  className={cn(
+                    'p-5 rounded-xl border border-neutral-200 text-left hover:border-primary-500 hover:shadow-md transition-all',
+                    config.bg
                   )}
-                </div>
+                >
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-3">
+                      <span className="text-2xl">{cat?.icon || config.icon}</span>
+                      <div>
+                        <h3 className="text-lg font-semibold text-neutral-900">
+                          {cat?.name || 'Category'}
+                        </h3>
+                        <p className="text-sm text-neutral-500">{stats.total} metrics</p>
+                      </div>
+                    </div>
+                    {/* Owner avatars */}
+                    {stats.owners.length > 0 && (
+                      <div className="flex -space-x-2">
+                        {stats.owners.slice(0, 3).map((owner, i) => (
+                          <div
+                            key={i}
+                            className="w-8 h-8 rounded-full bg-white border-2 border-white shadow flex items-center justify-center text-sm"
+                            title={owner}
+                          >
+                            {OWNER_AVATARS[owner as string] || '👤'}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
 
-                {/* Mini status bar */}
-                <div className="h-2 bg-neutral-200 rounded-full overflow-hidden flex mb-3">
-                  {stats.onTrack > 0 && <div className="h-full bg-success-main" style={{ width: `${(stats.onTrack / stats.total) * 100}%` }} />}
-                  {stats.atRisk > 0 && <div className="h-full bg-warning-main" style={{ width: `${(stats.atRisk / stats.total) * 100}%` }} />}
-                  {stats.critical > 0 && <div className="h-full bg-error-main" style={{ width: `${(stats.critical / stats.total) * 100}%` }} />}
-                </div>
+                  {/* Mini status bar */}
+                  <div className="h-2 bg-neutral-200 rounded-full overflow-hidden flex mb-3">
+                    {stats.onTrack > 0 && (
+                      <div
+                        className="h-full bg-success-main"
+                        style={{ width: `${(stats.onTrack / stats.total) * 100}%` }}
+                      />
+                    )}
+                    {stats.atRisk > 0 && (
+                      <div
+                        className="h-full bg-warning-main"
+                        style={{ width: `${(stats.atRisk / stats.total) * 100}%` }}
+                      />
+                    )}
+                    {stats.critical > 0 && (
+                      <div
+                        className="h-full bg-error-main"
+                        style={{ width: `${(stats.critical / stats.total) * 100}%` }}
+                      />
+                    )}
+                  </div>
 
-                {/* Status pills */}
-                <div className="flex items-center gap-2 text-xs">
-                  {stats.onTrack > 0 && <span className="px-2 py-0.5 bg-success-light text-success-dark rounded-full">On target {stats.onTrack}</span>}
-                  {stats.atRisk > 0 && <span className="px-2 py-0.5 bg-warning-light text-warning-dark rounded-full">At risk {stats.atRisk}</span>}
-                  {stats.critical > 0 && <span className="px-2 py-0.5 bg-error-light text-error-dark rounded-full">Critical {stats.critical}</span>}
-                </div>
-              </button>
-            );
-          })}
+                  {/* Status pills */}
+                  <div className="flex items-center gap-2 text-xs">
+                    {stats.onTrack > 0 && (
+                      <span className="px-2 py-0.5 bg-success-light text-success-dark rounded-full">
+                        On target {stats.onTrack}
+                      </span>
+                    )}
+                    {stats.atRisk > 0 && (
+                      <span className="px-2 py-0.5 bg-warning-light text-warning-dark rounded-full">
+                        At risk {stats.atRisk}
+                      </span>
+                    )}
+                    {stats.critical > 0 && (
+                      <span className="px-2 py-0.5 bg-error-light text-error-dark rounded-full">
+                        Critical {stats.critical}
+                      </span>
+                    )}
+                  </div>
+                </button>
+              );
+            })}
         </div>
       ) : (
         /* Empty state with metric packs */
         <div className="bg-white rounded-xl border border-neutral-200 p-8 text-center">
           <div className="text-4xl mb-4">📊</div>
           <h3 className="text-lg font-semibold text-neutral-900 mb-2">No metrics configured yet</h3>
-          <p className="text-neutral-500 mb-6">Get started with one of our pre-built metric packs:</p>
+          <p className="text-neutral-500 mb-6">
+            Get started with one of our pre-built metric packs:
+          </p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            {METRIC_PACKS.map(pack => (
+            {METRIC_PACKS.map((pack) => (
               <button
                 key={pack.id}
                 className="p-4 border border-neutral-200 rounded-lg hover:border-primary-500 hover:bg-primary-50 transition-colors text-left"
@@ -408,17 +521,32 @@ export const HelmPage: React.FC = () => {
 
       {/* Category Detail Drawer */}
       {selectedCategory && (
-        <div className="fixed inset-0 bg-black/50 flex items-start justify-end z-50" onClick={() => setSelectedCategory(null)}>
-          <div className="w-[700px] h-full bg-white overflow-y-auto" onClick={e => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 bg-black/50 flex items-start justify-end z-50"
+          onClick={() => setSelectedCategory(null)}
+        >
+          <div
+            className="w-[700px] h-full bg-white overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="p-6 border-b border-neutral-200 sticky top-0 bg-white flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">{selectedCategory?.icon || getCategoryConfig(selectedCategory?.name).icon}</span>
+                <span className="text-2xl">
+                  {selectedCategory?.icon || getCategoryConfig(selectedCategory?.name).icon}
+                </span>
                 <div>
-                  <h2 className="text-xl font-bold text-neutral-900">{selectedCategory?.name || 'Category'}</h2>
-                  <p className="text-sm text-neutral-500">{(selectedCategory?.metrics || []).length} metrics</p>
+                  <h2 className="text-xl font-bold text-neutral-900">
+                    {selectedCategory?.name || 'Category'}
+                  </h2>
+                  <p className="text-sm text-neutral-500">
+                    {(selectedCategory?.metrics || []).length} metrics
+                  </p>
                 </div>
               </div>
-              <button onClick={() => setSelectedCategory(null)} className="text-neutral-400 hover:text-neutral-600">
+              <button
+                onClick={() => setSelectedCategory(null)}
+                className="text-neutral-400 hover:text-neutral-600"
+              >
                 <X className="w-5 h-5" />
               </button>
             </div>
@@ -457,30 +585,55 @@ export const HelmPage: React.FC = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {(selectedCategory?.metrics || []).map(metric => (
-                    <tr 
-                      key={metric.id} 
+                  {(selectedCategory?.metrics || []).map((metric) => (
+                    <tr
+                      key={metric.id}
                       className="border-b border-neutral-100 hover:bg-neutral-50 cursor-pointer"
                       onClick={() => setSelectedMetric(metric)}
                     >
                       <td className="py-3">
                         <div className="font-medium text-neutral-900">{metric.name}</div>
-                        {metric.type && <span className="text-xs text-neutral-400">{metric.type}</span>}
+                        {metric.type && (
+                          <span className="text-xs text-neutral-400">{metric.type}</span>
+                        )}
                       </td>
                       <td className="py-3">
-                        <span className="font-medium">{typeof metric.value === 'number' ? metric.value.toFixed(1) : metric.value}</span>
+                        <span className="font-medium">
+                          {typeof metric.value === 'number'
+                            ? metric.value.toFixed(1)
+                            : metric.value}
+                        </span>
                         <span className="text-neutral-500">{metric.unit}</span>
-                        {metric.target && <span className="text-xs text-neutral-400 ml-1">/ {metric.target}{metric.unit}</span>}
+                        {metric.target && (
+                          <span className="text-xs text-neutral-400 ml-1">
+                            / {metric.target}
+                            {metric.unit}
+                          </span>
+                        )}
                       </td>
                       <td className="py-3">
-                        <span className={cn('text-xs px-2 py-0.5 rounded-full', getStatusStyle(metric.status))}>
+                        <span
+                          className={cn(
+                            'text-xs px-2 py-0.5 rounded-full',
+                            getStatusStyle(metric.status)
+                          )}
+                        >
                           {getStatusLabel(metric.status)}
                         </span>
                       </td>
                       <td className="py-3 text-neutral-600">{metric.owner || '—'}</td>
                       <td className="py-3">
-                        <span className={cn('flex items-center gap-1', metric.trend >= 0 ? 'text-success-dark' : 'text-error-dark')}>
-                          {metric.trend >= 0 ? <TrendingUp className="w-3 h-3" /> : <TrendingDown className="w-3 h-3" />}
+                        <span
+                          className={cn(
+                            'flex items-center gap-1',
+                            metric.trend >= 0 ? 'text-success-dark' : 'text-error-dark'
+                          )}
+                        >
+                          {metric.trend >= 0 ? (
+                            <TrendingUp className="w-3 h-3" />
+                          ) : (
+                            <TrendingDown className="w-3 h-3" />
+                          )}
                           {Math.abs(metric.trend)}%
                         </span>
                       </td>
@@ -495,14 +648,25 @@ export const HelmPage: React.FC = () => {
 
       {/* Metric Detail Modal */}
       {selectedMetric && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setSelectedMetric(null)}>
-          <div className="bg-white rounded-xl border border-neutral-200 w-[550px] max-h-[80vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+          onClick={() => setSelectedMetric(null)}
+        >
+          <div
+            className="bg-white rounded-xl border border-neutral-200 w-[550px] max-h-[80vh] overflow-y-auto shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="p-6 border-b border-neutral-200 flex items-center justify-between">
               <div>
                 <h2 className="text-xl font-bold text-neutral-900">{selectedMetric.name}</h2>
-                <p className="text-sm text-neutral-500">{selectedMetric.type || 'Metric'} • {selectedMetric.owner || 'Unassigned'}</p>
+                <p className="text-sm text-neutral-500">
+                  {selectedMetric.type || 'Metric'} • {selectedMetric.owner || 'Unassigned'}
+                </p>
               </div>
-              <button onClick={() => setSelectedMetric(null)} className="text-neutral-400 hover:text-neutral-600">
+              <button
+                onClick={() => setSelectedMetric(null)}
+                className="text-neutral-400 hover:text-neutral-600"
+              >
                 <X className="w-5 h-5" />
               </button>
             </div>
@@ -511,20 +675,44 @@ export const HelmPage: React.FC = () => {
               <div className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg">
                 <div>
                   <p className="text-3xl font-bold text-neutral-900">
-                    {typeof selectedMetric.value === 'number' ? selectedMetric.value.toFixed(1) : selectedMetric.value}
-                    <span className="text-lg font-normal text-neutral-500">{selectedMetric.unit}</span>
+                    {typeof selectedMetric.value === 'number'
+                      ? selectedMetric.value.toFixed(1)
+                      : selectedMetric.value}
+                    <span className="text-lg font-normal text-neutral-500">
+                      {selectedMetric.unit}
+                    </span>
                   </p>
                   {selectedMetric.target && (
-                    <p className="text-sm text-neutral-500">Target: {selectedMetric.target}{selectedMetric.unit}</p>
+                    <p className="text-sm text-neutral-500">
+                      Target: {selectedMetric.target}
+                      {selectedMetric.unit}
+                    </p>
                   )}
                 </div>
                 <div className="text-right">
-                  <span className={cn('text-xs px-3 py-1 rounded-full', getStatusStyle(selectedMetric.status))}>
+                  <span
+                    className={cn(
+                      'text-xs px-3 py-1 rounded-full',
+                      getStatusStyle(selectedMetric.status)
+                    )}
+                  >
                     {getStatusLabel(selectedMetric.status)}
                   </span>
-                  <div className={cn('flex items-center gap-1 mt-2 justify-end', selectedMetric.trend >= 0 ? 'text-success-dark' : 'text-error-dark')}>
-                    {selectedMetric.trend >= 0 ? <TrendingUp className="w-4 h-4" /> : <TrendingDown className="w-4 h-4" />}
-                    <span className="font-medium">{selectedMetric.trend >= 0 ? '+' : ''}{selectedMetric.trend}%</span>
+                  <div
+                    className={cn(
+                      'flex items-center gap-1 mt-2 justify-end',
+                      selectedMetric.trend >= 0 ? 'text-success-dark' : 'text-error-dark'
+                    )}
+                  >
+                    {selectedMetric.trend >= 0 ? (
+                      <TrendingUp className="w-4 h-4" />
+                    ) : (
+                      <TrendingDown className="w-4 h-4" />
+                    )}
+                    <span className="font-medium">
+                      {selectedMetric.trend >= 0 ? '+' : ''}
+                      {selectedMetric.trend}%
+                    </span>
                   </div>
                 </div>
               </div>
@@ -533,12 +721,19 @@ export const HelmPage: React.FC = () => {
               <div className="grid grid-cols-2 gap-4 text-sm">
                 <div className="p-3 bg-neutral-50 rounded-lg">
                   <p className="text-neutral-500 mb-1">Owner</p>
-                  <p className="font-medium text-neutral-900">{selectedMetric.owner || 'Unassigned'}</p>
-                  {selectedMetric.ownerRole && <p className="text-xs text-neutral-400">{selectedMetric.ownerRole}</p>}
+                  <p className="font-medium text-neutral-900">
+                    {selectedMetric.owner || 'Unassigned'}
+                  </p>
+                  {selectedMetric.ownerRole && (
+                    <p className="text-xs text-neutral-400">{selectedMetric.ownerRole}</p>
+                  )}
                 </div>
                 <div className="p-3 bg-neutral-50 rounded-lg">
                   <p className="text-neutral-500 mb-1">Threshold</p>
-                  <p className="font-medium text-neutral-900">{selectedMetric.threshold ?? 'Not set'}{selectedMetric.threshold ? selectedMetric.unit : ''}</p>
+                  <p className="font-medium text-neutral-900">
+                    {selectedMetric.threshold ?? 'Not set'}
+                    {selectedMetric.threshold ? selectedMetric.unit : ''}
+                  </p>
                 </div>
               </div>
 
@@ -548,15 +743,31 @@ export const HelmPage: React.FC = () => {
                   <h4 className="font-medium text-error-dark mb-2">Critical Metric Tracking</h4>
                   <div className="space-y-2 text-sm">
                     {selectedMetric.linkedDecisionId ? (
-                      <button onClick={() => navigate(`/cortex/intelligence/decision-dna?id=${selectedMetric.linkedDecisionId}`)} className="flex items-center gap-2 text-error-dark hover:underline">
-                        <ExternalLink className="w-3 h-3" /> Decision DNA: {selectedMetric.linkedDecisionId}
+                      <button
+                        onClick={() =>
+                          navigate(
+                            `/cortex/intelligence/decision-dna?id=${selectedMetric.linkedDecisionId}`
+                          )
+                        }
+                        className="flex items-center gap-2 text-error-dark hover:underline"
+                      >
+                        <ExternalLink className="w-3 h-3" /> Decision DNA:{' '}
+                        {selectedMetric.linkedDecisionId}
                       </button>
                     ) : (
                       <p className="text-error-dark/70">No Decision DNA item attached</p>
                     )}
                     {selectedMetric.linkedCrucibleId ? (
-                      <button onClick={() => navigate(`/cortex/intelligence/crucible?id=${selectedMetric.linkedCrucibleId}`)} className="flex items-center gap-2 text-error-dark hover:underline">
-                        <ExternalLink className="w-3 h-3" /> Crucible Scenario: {selectedMetric.linkedCrucibleId}
+                      <button
+                        onClick={() =>
+                          navigate(
+                            `/cortex/intelligence/crucible?id=${selectedMetric.linkedCrucibleId}`
+                          )
+                        }
+                        className="flex items-center gap-2 text-error-dark hover:underline"
+                      >
+                        <ExternalLink className="w-3 h-3" /> Crucible Scenario:{' '}
+                        {selectedMetric.linkedCrucibleId}
                       </button>
                     ) : (
                       <p className="text-error-dark/70">No Crucible scenario analysing this</p>
@@ -567,21 +778,27 @@ export const HelmPage: React.FC = () => {
 
               {/* Action Buttons */}
               <div className="pt-4 border-t border-neutral-200 space-y-2">
-                <button 
+                <button
                   onClick={() => navigate(`/cortex/pillars/lineage?metric=${selectedMetric.id}`)}
                   className="w-full px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   View Lineage
                 </button>
-                <button 
-                  onClick={() => navigate(`/cortex/intelligence/chronos?metric=${selectedMetric.id}`)}
+                <button
+                  onClick={() =>
+                    navigate(`/cortex/intelligence/chronos?metric=${selectedMetric.id}`)
+                  }
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   <Clock className="w-4 h-4" />
                   Open in Chronos
                 </button>
-                <button 
-                  onClick={() => navigate(`/cortex/intelligence/council?question=What+is+driving+${encodeURIComponent(selectedMetric.name)}?`)}
+                <button
+                  onClick={() =>
+                    navigate(
+                      `/cortex/intelligence/council?question=What+is+driving+${encodeURIComponent(selectedMetric.name)}?`
+                    )
+                  }
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   <Play className="w-4 h-4" />
@@ -633,8 +850,12 @@ export const LineagePage: React.FC = () => {
           api.get<QualityOverview>('/pillars/lineage/quality', { organizationId: 'demo' }),
         ]);
 
-        if (entitiesRes.success && entitiesRes.data) {setEntities(entitiesRes.data || []);}
-        if (qualityRes.success && qualityRes.data) {setQualityOverview(qualityRes.data);}
+        if (entitiesRes.success && entitiesRes.data) {
+          setEntities(entitiesRes.data || []);
+        }
+        if (qualityRes.success && qualityRes.data) {
+          setQualityOverview(qualityRes.data);
+        }
       } catch (err) {
         console.error('Failed to load lineage data:', err);
       } finally {
@@ -650,15 +871,24 @@ export const LineagePage: React.FC = () => {
     const diffMs = now.getTime() - date.getTime();
     const diffMins = Math.floor(diffMs / 60000);
     const diffHours = Math.floor(diffMs / 3600000);
-    if (diffMins < 60) {return `${diffMins} min ago`;}
-    if (diffHours < 24) {return `${diffHours} hours ago`;}
+    if (diffMins < 60) {
+      return `${diffMins} min ago`;
+    }
+    if (diffHours < 24) {
+      return `${diffHours} hours ago`;
+    }
     return `${Math.floor(diffMs / 86400000)} days ago`;
   };
 
   if (isLoading) {
     return (
       <div className="p-6">
-        <PillarHeader icon="🔗" name="The Lineage" tagline="Complete data provenance and dependency tracking" color="#10B981" />
+        <PillarHeader
+          icon="🔗"
+          name="The Lineage"
+          tagline="Complete data provenance and dependency tracking"
+          color="#10B981"
+        />
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-emerald-500"></div>
           <span className="ml-3 text-neutral-500">Loading lineage data...</span>
@@ -669,43 +899,72 @@ export const LineagePage: React.FC = () => {
 
   return (
     <div className="p-6">
-      <PillarHeader icon="🔗" name="The Lineage" tagline="Complete data provenance and dependency tracking" color="#10B981" />
+      <PillarHeader
+        icon="🔗"
+        name="The Lineage"
+        tagline="Complete data provenance and dependency tracking"
+        color="#10B981"
+      />
 
       {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Tracked Entities" value={qualityOverview?.totalEntities ?? entities.length} />
+        <MetricCard
+          label="Tracked Entities"
+          value={qualityOverview?.totalEntities ?? entities.length}
+        />
         <MetricCard label="Data Sources" value={qualityOverview?.totalSources ?? 0} />
         <MetricCard label="Relationships" value={qualityOverview?.totalRelationships ?? 0} />
-        <MetricCard label="Quality Score" value={Math.round(qualityOverview?.avgQualityScore ?? 0)} unit="%" />
+        <MetricCard
+          label="Quality Score"
+          value={Math.round(qualityOverview?.avgQualityScore ?? 0)}
+          unit="%"
+        />
       </div>
 
       {/* Lineage Explorer - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-neutral-900">Recent Lineage Views</h3>
-          <button onClick={() => navigate('/cortex/graph')} className="text-sm text-primary-600 hover:text-primary-700">
+          <button
+            onClick={() => navigate('/cortex/graph')}
+            className="text-sm text-primary-600 hover:text-primary-700"
+          >
             Open Graph Explorer →
           </button>
         </div>
         <div className="space-y-3">
-          {entities.length > 0 ? entities.slice(0, 6).map(entity => (
-            <div
-              key={entity.id}
-              className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg hover:bg-neutral-100 cursor-pointer"
-              onClick={() => navigate(`/cortex/graph?entity=${entity.id}`)}
-            >
-              <div className="flex items-center gap-3">
-                <span className="text-xl">
-                  {entity.type === 'report' ? '📄' : entity.type === 'dataset' ? '📊' : entity.type === 'metric' ? '📈' : entity.type === 'model' ? '🤖' : '📁'}
-                </span>
-                <div>
-                  <p className="font-medium text-neutral-900">{entity.name}</p>
-                  <p className="text-sm text-neutral-500">{entity.upstreamCount} upstream sources</p>
+          {entities.length > 0 ? (
+            entities.slice(0, 6).map((entity) => (
+              <div
+                key={entity.id}
+                className="flex items-center justify-between p-4 bg-neutral-50 rounded-lg hover:bg-neutral-100 cursor-pointer"
+                onClick={() => navigate(`/cortex/graph?entity=${entity.id}`)}
+              >
+                <div className="flex items-center gap-3">
+                  <span className="text-xl">
+                    {entity.type === 'report'
+                      ? '📄'
+                      : entity.type === 'dataset'
+                        ? '📊'
+                        : entity.type === 'metric'
+                          ? '📈'
+                          : entity.type === 'model'
+                            ? '🤖'
+                            : '📁'}
+                  </span>
+                  <div>
+                    <p className="font-medium text-neutral-900">{entity.name}</p>
+                    <p className="text-sm text-neutral-500">
+                      {entity.upstreamCount} upstream sources
+                    </p>
+                  </div>
                 </div>
+                <span className="text-sm text-neutral-500">
+                  {formatRelativeTime(entity.lastUpdated)}
+                </span>
               </div>
-              <span className="text-sm text-neutral-500">{formatRelativeTime(entity.lastUpdated)}</span>
-            </div>
-          )) : (
+            ))
+          ) : (
             <p className="text-neutral-500 text-center py-4">No entities tracked yet</p>
           )}
         </div>
@@ -720,12 +979,21 @@ export const LineagePage: React.FC = () => {
               <span className="w-32 text-neutral-700">{source.name}</span>
               <div className="flex-1 h-2 bg-neutral-200 rounded-full overflow-hidden">
                 <div
-                  className={cn('h-full rounded-full', source.quality >= 95 ? 'bg-success-main' : source.quality >= 85 ? 'bg-warning-main' : 'bg-error-main')}
+                  className={cn(
+                    'h-full rounded-full',
+                    source.quality >= 95
+                      ? 'bg-success-main'
+                      : source.quality >= 85
+                        ? 'bg-warning-main'
+                        : 'bg-error-main'
+                  )}
                   style={{ width: `${source.quality}%` }}
                 />
               </div>
               <span className="w-12 text-sm font-medium text-neutral-900">{source.quality}%</span>
-              <span className="w-20 text-sm text-neutral-500">{source.recordCount.toLocaleString()}</span>
+              <span className="w-20 text-sm text-neutral-500">
+                {source.recordCount.toLocaleString()}
+              </span>
             </div>
           ))}
           {(!qualityOverview?.sourceQuality || qualityOverview.sourceQuality.length === 0) && (
@@ -767,18 +1035,48 @@ export const PredictPage: React.FC = () => {
         setIsLoading(true);
         const [modelsRes, insightsRes] = await Promise.all([
           api.get<PredictModel[]>('/pillars/predict/models', { organizationId: 'demo' }),
-          api.get<{ features: PredictInsight[] }>('/pillars/predict/insights', { organizationId: 'demo' }),
+          api.get<{ features: PredictInsight[] }>('/pillars/predict/insights', {
+            organizationId: 'demo',
+          }),
         ]);
 
-        if (modelsRes.success && modelsRes.data) {setModels(modelsRes.data || []);}
-        if (insightsRes.success && insightsRes.data) {setInsights(insightsRes.data.features || []);}
+        if (modelsRes.success && modelsRes.data) {
+          setModels(modelsRes.data || []);
+        }
+        if (insightsRes.success && insightsRes.data) {
+          setInsights(insightsRes.data.features || []);
+        }
       } catch (err) {
         console.error('Failed to load predict data:', err);
         // Use demo data when API is unavailable
         setModels([
-          { id: 'pm1', name: 'Revenue Forecast', type: 'regression', accuracy: 94.2, status: 'active', predictions: 1247, lastTrained: new Date().toISOString() },
-          { id: 'pm2', name: 'Churn Predictor', type: 'classification', accuracy: 89.7, status: 'active', predictions: 856, lastTrained: new Date().toISOString() },
-          { id: 'pm3', name: 'Demand Planning', type: 'time-series', accuracy: 91.3, status: 'active', predictions: 2103, lastTrained: new Date().toISOString() },
+          {
+            id: 'pm1',
+            name: 'Revenue Forecast',
+            type: 'regression',
+            accuracy: 94.2,
+            status: 'active',
+            predictions: 1247,
+            lastTrained: new Date().toISOString(),
+          },
+          {
+            id: 'pm2',
+            name: 'Churn Predictor',
+            type: 'classification',
+            accuracy: 89.7,
+            status: 'active',
+            predictions: 856,
+            lastTrained: new Date().toISOString(),
+          },
+          {
+            id: 'pm3',
+            name: 'Demand Planning',
+            type: 'time-series',
+            accuracy: 91.3,
+            status: 'active',
+            predictions: 2103,
+            lastTrained: new Date().toISOString(),
+          },
         ]);
         setInsights([
           { feature: 'Customer Lifetime Value', importance: 0.85 },
@@ -792,14 +1090,20 @@ export const PredictPage: React.FC = () => {
     loadPredictData();
   }, []);
 
-  const activeModels = models.filter(m => m.status === 'active').length;
-  const avgAccuracy = models.length > 0 ? models.reduce((sum, m) => sum + m.accuracy, 0) / models.length : 0;
+  const activeModels = models.filter((m) => m.status === 'active').length;
+  const avgAccuracy =
+    models.length > 0 ? models.reduce((sum, m) => sum + m.accuracy, 0) / models.length : 0;
   const totalPredictions = models.reduce((sum, m) => sum + (m.predictions || 0), 0);
 
   if (isLoading) {
     return (
       <div className="p-6">
-        <PillarHeader icon="🔮" name="The Predict" tagline="AI-powered forecasting and predictive analytics" color="#8B5CF6" />
+        <PillarHeader
+          icon="🔮"
+          name="The Predict"
+          tagline="AI-powered forecasting and predictive analytics"
+          color="#8B5CF6"
+        />
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-500"></div>
           <span className="ml-3 text-neutral-500">Loading prediction models...</span>
@@ -810,41 +1114,61 @@ export const PredictPage: React.FC = () => {
 
   return (
     <div className="p-6">
-      <PillarHeader icon="🔮" name="The Predict" tagline="AI-powered forecasting and predictive analytics" color="#8B5CF6" />
+      <PillarHeader
+        icon="🔮"
+        name="The Predict"
+        tagline="AI-powered forecasting and predictive analytics"
+        color="#8B5CF6"
+      />
 
       {/* Active Models - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <MetricCard label="Active Models" value={activeModels} />
         <MetricCard label="Avg Accuracy" value={avgAccuracy.toFixed(1)} unit="%" />
         <MetricCard label="Predictions Today" value={totalPredictions} />
-        <MetricCard label="Models Training" value={models.filter(m => m.status === 'training').length} />
+        <MetricCard
+          label="Models Training"
+          value={models.filter((m) => m.status === 'training').length}
+        />
       </div>
 
       {/* Forecast Models - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Forecast Models</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {models.length > 0 ? models.map((model) => (
-            <div key={model.id} className="p-4 bg-neutral-50 rounded-lg">
-              <div className="flex items-center justify-between mb-2">
-                <h4 className="font-medium text-neutral-900">{model.name}</h4>
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full',
-                  model.status === 'active' ? 'bg-success-light text-success-dark' : 
-                  model.status === 'training' ? 'bg-warning-light text-warning-dark' : 'bg-neutral-100 text-neutral-600'
-                )}>
-                  {model.status}
-                </span>
-              </div>
-              <p className="text-sm text-neutral-500 mb-2">{model.type}</p>
-              <div className="flex items-center gap-2">
-                <div className="flex-1 h-1.5 bg-neutral-200 rounded-full">
-                  <div className="h-full bg-primary-500 rounded-full" style={{ width: `${model.accuracy}%` }} />
+          {models.length > 0 ? (
+            models.map((model) => (
+              <div key={model.id} className="p-4 bg-neutral-50 rounded-lg">
+                <div className="flex items-center justify-between mb-2">
+                  <h4 className="font-medium text-neutral-900">{model.name}</h4>
+                  <span
+                    className={cn(
+                      'text-xs px-2 py-1 rounded-full',
+                      model.status === 'active'
+                        ? 'bg-success-light text-success-dark'
+                        : model.status === 'training'
+                          ? 'bg-warning-light text-warning-dark'
+                          : 'bg-neutral-100 text-neutral-600'
+                    )}
+                  >
+                    {model.status}
+                  </span>
                 </div>
-                <span className="text-sm font-medium text-neutral-900">{model.accuracy.toFixed(1)}%</span>
+                <p className="text-sm text-neutral-500 mb-2">{model.type}</p>
+                <div className="flex items-center gap-2">
+                  <div className="flex-1 h-1.5 bg-neutral-200 rounded-full">
+                    <div
+                      className="h-full bg-primary-500 rounded-full"
+                      style={{ width: `${model.accuracy}%` }}
+                    />
+                  </div>
+                  <span className="text-sm font-medium text-neutral-900">
+                    {model.accuracy.toFixed(1)}%
+                  </span>
+                </div>
               </div>
-            </div>
-          )) : (
+            ))
+          ) : (
             <p className="col-span-2 text-neutral-500 text-center py-4">No models configured</p>
           )}
         </div>
@@ -854,15 +1178,22 @@ export const PredictPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Top Predictive Features</h3>
         <div className="space-y-3">
-          {insights.length > 0 ? insights.slice(0, 5).map((f, idx) => (
-            <div key={idx} className="flex items-center gap-4">
-              <span className="w-40 text-neutral-700">{f.feature}</span>
-              <div className="flex-1 h-3 bg-neutral-100 rounded-full overflow-hidden">
-                <div className="h-full bg-primary-500 rounded-full" style={{ width: `${f.importance * 100}%` }} />
+          {insights.length > 0 ? (
+            insights.slice(0, 5).map((f, idx) => (
+              <div key={idx} className="flex items-center gap-4">
+                <span className="w-40 text-neutral-700">{f.feature}</span>
+                <div className="flex-1 h-3 bg-neutral-100 rounded-full overflow-hidden">
+                  <div
+                    className="h-full bg-primary-500 rounded-full"
+                    style={{ width: `${f.importance * 100}%` }}
+                  />
+                </div>
+                <span className="w-12 text-sm text-neutral-600">
+                  {(f.importance * 100).toFixed(0)}%
+                </span>
               </div>
-              <span className="w-12 text-sm text-neutral-600">{(f.importance * 100).toFixed(0)}%</span>
-            </div>
-          )) : (
+            ))
+          ) : (
             <p className="text-neutral-500 text-center py-4">No feature insights available</p>
           )}
         </div>
@@ -903,11 +1234,18 @@ export const FlowPage: React.FC = () => {
         setIsLoading(true);
         const [statsRes, execRes] = await Promise.all([
           api.get<FlowStats>('/pillars/flow/stats', { organizationId: 'demo' }),
-          api.get<FlowExecution[]>('/pillars/flow/executions', { organizationId: 'demo', limit: 10 }),
+          api.get<FlowExecution[]>('/pillars/flow/executions', {
+            organizationId: 'demo',
+            limit: 10,
+          }),
         ]);
 
-        if (statsRes.success && statsRes.data) {setStats(statsRes.data);}
-        if (execRes.success && execRes.data) {setExecutions(execRes.data || []);}
+        if (statsRes.success && statsRes.data) {
+          setStats(statsRes.data);
+        }
+        if (execRes.success && execRes.data) {
+          setExecutions(execRes.data || []);
+        }
       } catch (err) {
         console.error('Failed to load flow data:', err);
       } finally {
@@ -918,9 +1256,15 @@ export const FlowPage: React.FC = () => {
   }, []);
 
   const formatDuration = (ms: number | null) => {
-    if (ms === null) {return '—';}
-    if (ms < 1000) {return `${ms}ms`;}
-    if (ms < 60000) {return `${(ms / 1000).toFixed(0)}s`;}
+    if (ms === null) {
+      return '—';
+    }
+    if (ms < 1000) {
+      return `${ms}ms`;
+    }
+    if (ms < 60000) {
+      return `${(ms / 1000).toFixed(0)}s`;
+    }
     return `${Math.floor(ms / 60000)}m ${Math.floor((ms % 60000) / 1000)}s`;
   };
 
@@ -928,16 +1272,25 @@ export const FlowPage: React.FC = () => {
     const date = new Date(dateStr);
     const now = new Date();
     const diffMs = now.getTime() - date.getTime();
-    if (diffMs < 60000) {return 'Now';}
+    if (diffMs < 60000) {
+      return 'Now';
+    }
     const diffMins = Math.floor(diffMs / 60000);
-    if (diffMins < 60) {return `${diffMins} min ago`;}
+    if (diffMins < 60) {
+      return `${diffMins} min ago`;
+    }
     return `${Math.floor(diffMs / 3600000)} hours ago`;
   };
 
   if (isLoading) {
     return (
       <div className="p-6">
-        <PillarHeader icon="🌊" name="The Flow" tagline="Intelligent workflow automation and orchestration" color="#06B6D4" />
+        <PillarHeader
+          icon="🌊"
+          name="The Flow"
+          tagline="Intelligent workflow automation and orchestration"
+          color="#06B6D4"
+        />
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-cyan-500"></div>
           <span className="ml-3 text-neutral-500">Loading workflow data...</span>
@@ -948,7 +1301,12 @@ export const FlowPage: React.FC = () => {
 
   return (
     <div className="p-6">
-      <PillarHeader icon="🌊" name="The Flow" tagline="Intelligent workflow automation and orchestration" color="#06B6D4" />
+      <PillarHeader
+        icon="🌊"
+        name="The Flow"
+        tagline="Intelligent workflow automation and orchestration"
+        color="#06B6D4"
+      />
 
       {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -960,17 +1318,26 @@ export const FlowPage: React.FC = () => {
 
       {/* Quick Actions */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
-        <button onClick={() => navigate('/cortex/bridge')} className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left">
+        <button
+          onClick={() => navigate('/cortex/bridge')}
+          className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left"
+        >
           <span className="text-3xl mb-3 block">🔧</span>
           <h3 className="font-semibold text-neutral-900 mb-1">Workflow Builder</h3>
           <p className="text-sm text-neutral-500">Create and edit automation workflows</p>
         </button>
-        <button onClick={() => navigate('/cortex/bridge?tab=executions')} className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left">
+        <button
+          onClick={() => navigate('/cortex/bridge?tab=executions')}
+          className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left"
+        >
           <span className="text-3xl mb-3 block">📊</span>
           <h3 className="font-semibold text-neutral-900 mb-1">Execution History</h3>
           <p className="text-sm text-neutral-500">View past runs and logs</p>
         </button>
-        <button onClick={() => navigate('/cortex/bridge?tab=approvals')} className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left">
+        <button
+          onClick={() => navigate('/cortex/bridge?tab=approvals')}
+          className="p-6 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all text-left"
+        >
           <span className="text-3xl mb-3 block">✅</span>
           <h3 className="font-semibold text-neutral-900 mb-1">Pending Approvals</h3>
           <p className="text-sm text-neutral-500">Review human-in-the-loop tasks</p>
@@ -981,24 +1348,31 @@ export const FlowPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Recent Flow Executions</h3>
         <div className="space-y-3">
-          {executions.length > 0 ? executions.map((exec) => (
-            <div key={exec.id} className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg">
-              <div className="flex items-center gap-3">
-                <span className={cn(
-                  'w-2 h-2 rounded-full',
-                  exec.status === 'success' && 'bg-success-main',
-                  exec.status === 'running' && 'bg-primary-500 animate-pulse',
-                  exec.status === 'failed' && 'bg-error-main',
-                  exec.status === 'pending' && 'bg-warning-main'
-                )} />
-                <span className="font-medium text-neutral-900">{exec.workflowName}</span>
+          {executions.length > 0 ? (
+            executions.map((exec) => (
+              <div
+                key={exec.id}
+                className="flex items-center justify-between p-3 bg-neutral-50 rounded-lg"
+              >
+                <div className="flex items-center gap-3">
+                  <span
+                    className={cn(
+                      'w-2 h-2 rounded-full',
+                      exec.status === 'success' && 'bg-success-main',
+                      exec.status === 'running' && 'bg-primary-500 animate-pulse',
+                      exec.status === 'failed' && 'bg-error-main',
+                      exec.status === 'pending' && 'bg-warning-main'
+                    )}
+                  />
+                  <span className="font-medium text-neutral-900">{exec.workflowName}</span>
+                </div>
+                <div className="flex items-center gap-4 text-sm text-neutral-500">
+                  <span>{formatDuration(exec.duration)}</span>
+                  <span>{formatRelativeTime(exec.startedAt)}</span>
+                </div>
               </div>
-              <div className="flex items-center gap-4 text-sm text-neutral-500">
-                <span>{formatDuration(exec.duration)}</span>
-                <span>{formatRelativeTime(exec.startedAt)}</span>
-              </div>
-            </div>
-          )) : (
+            ))
+          ) : (
             <p className="text-neutral-500 text-center py-4">No recent executions</p>
           )}
         </div>
@@ -1032,9 +1406,10 @@ interface HealthAlert {
 
 // Mock alert details for demo
 const MOCK_ALERT_DETAILS: Record<string, Partial<HealthAlert>> = {
-  'default': {
+  default: {
     affectedSystems: ['API Gateway', 'Auth Service', 'Database Cluster'],
-    rootCause: 'Elevated latency detected in primary database connections, potentially due to connection pool exhaustion.',
+    rootCause:
+      'Elevated latency detected in primary database connections, potentially due to connection pool exhaustion.',
     linkedWorkflow: 'WF-2025-034',
   },
 };
@@ -1055,8 +1430,12 @@ export const HealthPage: React.FC = () => {
           api.get<HealthAlert[]>('/pillars/health/alerts', { organizationId: 'demo' }),
         ]);
 
-        if (healthRes.success && healthRes.data) {setHealth(healthRes.data);}
-        if (alertsRes.success && alertsRes.data) {setAlerts(alertsRes.data || []);}
+        if (healthRes.success && healthRes.data) {
+          setHealth(healthRes.data);
+        }
+        if (alertsRes.success && alertsRes.data) {
+          setAlerts(alertsRes.data || []);
+        }
       } catch (err) {
         console.error('Failed to load health data:', err);
       } finally {
@@ -1071,20 +1450,31 @@ export const HealthPage: React.FC = () => {
     const now = new Date();
     const diffMs = now.getTime() - date.getTime();
     const diffMins = Math.floor(diffMs / 60000);
-    if (diffMins < 60) {return `${diffMins} min ago`;}
+    if (diffMins < 60) {
+      return `${diffMins} min ago`;
+    }
     return `${Math.floor(diffMs / 3600000)} hours ago`;
   };
 
   const getScoreColor = (score: number) => {
-    if (score >= 90) {return '#10B981';}
-    if (score >= 70) {return '#F59E0B';}
+    if (score >= 90) {
+      return '#10B981';
+    }
+    if (score >= 70) {
+      return '#F59E0B';
+    }
     return '#EF4444';
   };
 
   if (isLoading) {
     return (
       <div className="p-6">
-        <PillarHeader icon="💓" name="The Health" tagline="Real-time organizational health monitoring" color="#EF4444" />
+        <PillarHeader
+          icon="💓"
+          name="The Health"
+          tagline="Real-time organizational health monitoring"
+          color="#EF4444"
+        />
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-red-500"></div>
           <span className="ml-3 text-neutral-500">Loading health data...</span>
@@ -1097,13 +1487,21 @@ export const HealthPage: React.FC = () => {
 
   return (
     <div className="p-6">
-      <PillarHeader icon="💓" name="The Health" tagline="Real-time organizational health monitoring" color="#EF4444" />
+      <PillarHeader
+        icon="💓"
+        name="The Health"
+        tagline="Real-time organizational health monitoring"
+        color="#EF4444"
+      />
 
       {/* Health Score - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <div className="flex items-center justify-between mb-6">
           <h3 className="text-lg font-semibold text-neutral-900">Overall Health Score</h3>
-          <button onClick={() => navigate('/cortex/pulse')} className="text-sm text-primary-600 hover:text-primary-700">
+          <button
+            onClick={() => navigate('/cortex/pulse')}
+            className="text-sm text-primary-600 hover:text-primary-700"
+          >
             View Details →
           </button>
         </div>
@@ -1112,21 +1510,33 @@ export const HealthPage: React.FC = () => {
             <svg className="w-full h-full transform -rotate-90">
               <circle cx="64" cy="64" r="56" fill="none" stroke="#E5E7EB" strokeWidth="12" />
               <circle
-                cx="64" cy="64" r="56" fill="none" stroke={getScoreColor(overallScore)} strokeWidth="12"
+                cx="64"
+                cy="64"
+                r="56"
+                fill="none"
+                stroke={getScoreColor(overallScore)}
+                strokeWidth="12"
                 strokeDasharray={`${overallScore * 3.52} 352`}
                 strokeLinecap="round"
               />
             </svg>
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-3xl font-bold text-neutral-900">{Math.round(overallScore)}</span>
+              <span className="text-3xl font-bold text-neutral-900">
+                {Math.round(overallScore)}
+              </span>
             </div>
           </div>
           <div className="flex-1 grid grid-cols-2 gap-4">
             {(health?.dimensions || []).map((dim, idx) => (
               <div key={idx} className="flex items-center gap-3">
-                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: dim.color || getScoreColor(dim.score) }} />
+                <div
+                  className="w-3 h-3 rounded-full"
+                  style={{ backgroundColor: dim.color || getScoreColor(dim.score) }}
+                />
                 <span className="text-neutral-600">{dim.name}</span>
-                <span className="font-medium text-neutral-900 ml-auto">{Math.round(dim.score)}</span>
+                <span className="font-medium text-neutral-900 ml-auto">
+                  {Math.round(dim.score)}
+                </span>
               </div>
             ))}
           </div>
@@ -1138,78 +1548,122 @@ export const HealthPage: React.FC = () => {
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-neutral-900">Active Alerts</h3>
           <div className="flex items-center gap-4 text-xs">
-            <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-error-main"></span> Critical</span>
-            <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-warning-main"></span> Warning</span>
-            <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-primary-500"></span> Info</span>
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 rounded-full bg-error-main"></span> Critical
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 rounded-full bg-warning-main"></span> Warning
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 rounded-full bg-primary-500"></span> Info
+            </span>
           </div>
         </div>
         <div className="space-y-3">
-          {alerts.length > 0 ? alerts.map((alert) => (
-            <button 
-              key={alert.id} 
-              onClick={() => setSelectedAlert(alert)}
-              className={cn(
-                'w-full p-4 rounded-lg border-l-4 text-left hover:opacity-80 transition-opacity cursor-pointer',
-                alert.severity === 'critical' && 'bg-error-light border-error-main',
-                alert.severity === 'warning' && 'bg-warning-light border-warning-main',
-                alert.severity === 'info' && 'bg-primary-50 border-primary-500'
-              )}
-            >
-              <div className="flex items-center justify-between">
-                <div>
-                  <span className="font-medium text-neutral-900">{alert.title}</span>
-                  {alert.description && <p className="text-sm text-neutral-600 mt-1 line-clamp-1">{alert.description}</p>}
+          {alerts.length > 0 ? (
+            alerts.map((alert) => (
+              <button
+                key={alert.id}
+                onClick={() => setSelectedAlert(alert)}
+                className={cn(
+                  'w-full p-4 rounded-lg border-l-4 text-left hover:opacity-80 transition-opacity cursor-pointer',
+                  alert.severity === 'critical' && 'bg-error-light border-error-main',
+                  alert.severity === 'warning' && 'bg-warning-light border-warning-main',
+                  alert.severity === 'info' && 'bg-primary-50 border-primary-500'
+                )}
+              >
+                <div className="flex items-center justify-between">
+                  <div>
+                    <span className="font-medium text-neutral-900">{alert.title}</span>
+                    {alert.description && (
+                      <p className="text-sm text-neutral-600 mt-1 line-clamp-1">
+                        {alert.description}
+                      </p>
+                    )}
+                  </div>
+                  <span className="text-sm text-neutral-500">
+                    {formatRelativeTime(alert.createdAt)}
+                  </span>
                 </div>
-                <span className="text-sm text-neutral-500">{formatRelativeTime(alert.createdAt)}</span>
-              </div>
-            </button>
-          )) : (
-            <p className="text-neutral-500 text-center py-4">No active alerts - all systems healthy</p>
+              </button>
+            ))
+          ) : (
+            <p className="text-neutral-500 text-center py-4">
+              No active alerts - all systems healthy
+            </p>
           )}
         </div>
       </div>
 
       {/* Alert Detail Modal */}
       {selectedAlert && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setSelectedAlert(null)}>
-          <div className="bg-white rounded-xl border border-neutral-200 w-[600px] max-h-[80vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+          onClick={() => setSelectedAlert(null)}
+        >
+          <div
+            className="bg-white rounded-xl border border-neutral-200 w-[600px] max-h-[80vh] overflow-y-auto shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="p-6 border-b border-neutral-200 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className={cn(
-                  'w-10 h-10 rounded-full flex items-center justify-center',
-                  selectedAlert.severity === 'critical' ? 'bg-error-light' : 
-                  selectedAlert.severity === 'warning' ? 'bg-warning-light' : 'bg-primary-50'
-                )}>
-                  <AlertTriangle className={cn(
-                    'w-5 h-5',
-                    selectedAlert.severity === 'critical' ? 'text-error-main' : 
-                    selectedAlert.severity === 'warning' ? 'text-warning-main' : 'text-primary-500'
-                  )} />
+                <div
+                  className={cn(
+                    'w-10 h-10 rounded-full flex items-center justify-center',
+                    selectedAlert.severity === 'critical'
+                      ? 'bg-error-light'
+                      : selectedAlert.severity === 'warning'
+                        ? 'bg-warning-light'
+                        : 'bg-primary-50'
+                  )}
+                >
+                  <AlertTriangle
+                    className={cn(
+                      'w-5 h-5',
+                      selectedAlert.severity === 'critical'
+                        ? 'text-error-main'
+                        : selectedAlert.severity === 'warning'
+                          ? 'text-warning-main'
+                          : 'text-primary-500'
+                    )}
+                  />
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-neutral-900">{selectedAlert.title}</h2>
-                  <p className="text-sm text-neutral-500">{selectedAlert.source || 'System Monitor'} • {formatRelativeTime(selectedAlert.createdAt)}</p>
+                  <p className="text-sm text-neutral-500">
+                    {selectedAlert.source || 'System Monitor'} •{' '}
+                    {formatRelativeTime(selectedAlert.createdAt)}
+                  </p>
                 </div>
               </div>
-              <button onClick={() => setSelectedAlert(null)} className="text-neutral-400 hover:text-neutral-600">
+              <button
+                onClick={() => setSelectedAlert(null)}
+                className="text-neutral-400 hover:text-neutral-600"
+              >
                 <X className="w-5 h-5" />
               </button>
             </div>
             <div className="p-6 space-y-4">
               <div className="flex items-center gap-4">
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full font-medium',
-                  selectedAlert.severity === 'critical' ? 'bg-error-light text-error-dark' :
-                  selectedAlert.severity === 'warning' ? 'bg-warning-light text-warning-dark' :
-                  'bg-primary-50 text-primary-700'
-                )}>
+                <span
+                  className={cn(
+                    'text-xs px-2 py-1 rounded-full font-medium',
+                    selectedAlert.severity === 'critical'
+                      ? 'bg-error-light text-error-dark'
+                      : selectedAlert.severity === 'warning'
+                        ? 'bg-warning-light text-warning-dark'
+                        : 'bg-primary-50 text-primary-700'
+                  )}
+                >
                   {selectedAlert.severity.toUpperCase()}
                 </span>
                 {selectedAlert.acknowledged && (
-                  <span className="text-xs px-2 py-1 bg-success-light text-success-dark rounded-full">Acknowledged</span>
+                  <span className="text-xs px-2 py-1 bg-success-light text-success-dark rounded-full">
+                    Acknowledged
+                  </span>
                 )}
               </div>
-              
+
               <div className="p-4 bg-neutral-50 rounded-lg">
                 <h4 className="font-medium text-neutral-900 mb-2">Description</h4>
                 <p className="text-sm text-neutral-600">
@@ -1227,8 +1681,14 @@ export const HealthPage: React.FC = () => {
               <div>
                 <h4 className="font-medium text-neutral-900 mb-2">Affected Systems</h4>
                 <div className="flex flex-wrap gap-2">
-                  {(selectedAlert.affectedSystems || MOCK_ALERT_DETAILS.default.affectedSystems || []).map((system, i) => (
-                    <span key={i} className="text-xs px-2 py-1 bg-neutral-100 rounded">{system}</span>
+                  {(
+                    selectedAlert.affectedSystems ||
+                    MOCK_ALERT_DETAILS.default.affectedSystems ||
+                    []
+                  ).map((system, i) => (
+                    <span key={i} className="text-xs px-2 py-1 bg-neutral-100 rounded">
+                      {system}
+                    </span>
                   ))}
                 </div>
               </div>
@@ -1236,32 +1696,38 @@ export const HealthPage: React.FC = () => {
               {(selectedAlert.linkedWorkflow || MOCK_ALERT_DETAILS.default.linkedWorkflow) && (
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-neutral-500">Linked Workflow:</span>
-                  <button 
+                  <button
                     onClick={() => navigate('/cortex/bridge')}
                     className="text-primary-600 hover:underline flex items-center gap-1"
                   >
-                    {selectedAlert.linkedWorkflow || MOCK_ALERT_DETAILS.default.linkedWorkflow} <ExternalLink className="w-3 h-3" />
+                    {selectedAlert.linkedWorkflow || MOCK_ALERT_DETAILS.default.linkedWorkflow}{' '}
+                    <ExternalLink className="w-3 h-3" />
                   </button>
                 </div>
               )}
 
               <div className="pt-4 border-t border-neutral-200 space-y-3">
-                <button 
-                  onClick={() => { setSelectedAlert(null); navigate('/cortex/intelligence/chronos'); }}
+                <button
+                  onClick={() => {
+                    setSelectedAlert(null);
+                    navigate('/cortex/intelligence/chronos');
+                  }}
                   className="w-full px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   <Clock className="w-4 h-4" />
                   View in Chronos Timeline
                 </button>
-                <button 
+                <button
                   onClick={() => window.open('/cortex/bridge?template=incident-response', '_blank')}
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   <Play className="w-4 h-4" />
                   Create Response Workflow in Bridge
                 </button>
-                <button 
-                  onClick={() => window.open('/cortex/intelligence/council?escalate=health', '_blank')}
+                <button
+                  onClick={() =>
+                    window.open('/cortex/intelligence/council?escalate=health', '_blank')
+                  }
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   Escalate to Council
@@ -1308,7 +1774,7 @@ interface SecurityThreat {
 
 // Mock threat details for demo
 const MOCK_THREAT_DETAILS: Record<string, Partial<SecurityThreat>> = {
-  'default': {
+  default: {
     description: 'Potential security event detected requiring investigation.',
     affectedAssets: ['Production Server', 'API Gateway'],
     cve: 'CVE-2024-1234',
@@ -1329,7 +1795,7 @@ export const GuardPage: React.FC = () => {
       try {
         setIsLoading(true);
         setError(null);
-        
+
         // Fetch security posture and threats from backend
         const [postureRes, threatsRes] = await Promise.all([
           api.get<SecurityPosture>('/pillars/guard/posture', { organizationId: 'demo' }),
@@ -1339,7 +1805,7 @@ export const GuardPage: React.FC = () => {
         if (postureRes.success && postureRes.data) {
           setPosture(postureRes.data);
         }
-        
+
         if (threatsRes.success && threatsRes.data) {
           setThreats(threatsRes.data);
         }
@@ -1350,7 +1816,7 @@ export const GuardPage: React.FC = () => {
         setIsLoading(false);
       }
     };
-    
+
     loadSecurityData();
   }, []);
 
@@ -1362,9 +1828,13 @@ export const GuardPage: React.FC = () => {
     const diffMins = Math.floor(diffMs / 60000);
     const diffHours = Math.floor(diffMs / 3600000);
     const diffDays = Math.floor(diffMs / 86400000);
-    
-    if (diffMins < 60) {return `${diffMins} minutes ago`;}
-    if (diffHours < 24) {return `${diffHours} hours ago`;}
+
+    if (diffMins < 60) {
+      return `${diffMins} minutes ago`;
+    }
+    if (diffHours < 24) {
+      return `${diffHours} hours ago`;
+    }
     return `${diffDays} days ago`;
   };
 
@@ -1417,32 +1887,22 @@ export const GuardPage: React.FC = () => {
         </div>
       </div>
 
-      {error && (
-        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">
-          {error}
-        </div>
-      )}
+      {error && <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">{error}</div>}
 
       {/* Security Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard 
-          label="Security Score" 
-          value={Math.round(posture?.securityScore ?? 0)} 
-          unit="/100" 
+        <MetricCard
+          label="Security Score"
+          value={Math.round(posture?.securityScore ?? 0)}
+          unit="/100"
         />
-        <MetricCard 
-          label="Open Vulnerabilities" 
-          value={posture?.openVulnerabilities ?? 0} 
+        <MetricCard label="Open Vulnerabilities" value={posture?.openVulnerabilities ?? 0} />
+        <MetricCard
+          label="Compliance Status"
+          value={Math.round(posture?.complianceScore ?? 0)}
+          unit="%"
         />
-        <MetricCard 
-          label="Compliance Status" 
-          value={Math.round(posture?.complianceScore ?? 0)} 
-          unit="%" 
-        />
-        <MetricCard 
-          label="Days Since Incident" 
-          value={posture?.daysSinceIncident ?? 0} 
-        />
+        <MetricCard label="Days Since Incident" value={posture?.daysSinceIncident ?? 0} />
       </div>
 
       {/* Compliance Frameworks - REAL DATA */}
@@ -1453,21 +1913,32 @@ export const GuardPage: React.FC = () => {
             <div key={idx} className="p-4 bg-neutral-50 rounded-lg">
               <div className="flex items-center justify-between mb-2">
                 <span className="font-semibold text-neutral-900">{fw.name}</span>
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full',
-                  fw.status === 'compliant' ? 'bg-success-light text-success-dark' : 
-                  fw.status === 'in_progress' ? 'bg-warning-light text-warning-dark' :
-                  'bg-error-light text-error-dark'
-                )}>
-                  {fw.status === 'compliant' ? 'Compliant' : 
-                   fw.status === 'in_progress' ? 'In Progress' : 'Non-Compliant'}
+                <span
+                  className={cn(
+                    'text-xs px-2 py-1 rounded-full',
+                    fw.status === 'compliant'
+                      ? 'bg-success-light text-success-dark'
+                      : fw.status === 'in_progress'
+                        ? 'bg-warning-light text-warning-dark'
+                        : 'bg-error-light text-error-dark'
+                  )}
+                >
+                  {fw.status === 'compliant'
+                    ? 'Compliant'
+                    : fw.status === 'in_progress'
+                      ? 'In Progress'
+                      : 'Non-Compliant'}
                 </span>
               </div>
-              <p className="text-sm text-neutral-500">{fw.implementedControls}/{fw.totalControls} controls</p>
+              <p className="text-sm text-neutral-500">
+                {fw.implementedControls}/{fw.totalControls} controls
+              </p>
             </div>
           ))}
           {(!posture?.frameworks || posture.frameworks.length === 0) && (
-            <p className="col-span-4 text-neutral-500 text-center py-4">No compliance frameworks configured</p>
+            <p className="col-span-4 text-neutral-500 text-center py-4">
+              No compliance frameworks configured
+            </p>
           )}
         </div>
       </div>
@@ -1477,44 +1948,60 @@ export const GuardPage: React.FC = () => {
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-neutral-900">Threat Detection</h3>
           <div className="flex items-center gap-4 text-xs">
-            <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-error-main"></span> Critical/High</span>
-            <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-warning-main"></span> Medium</span>
-            <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-neutral-400"></span> Low</span>
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 rounded-full bg-error-main"></span> Critical/High
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 rounded-full bg-warning-main"></span> Medium
+            </span>
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 rounded-full bg-neutral-400"></span> Low
+            </span>
           </div>
         </div>
         <div className="space-y-3">
-          {threats.length > 0 ? threats.map((threat) => (
-            <button 
-              key={threat.id} 
-              onClick={() => setSelectedThreat(threat)}
-              className="w-full flex items-center justify-between p-3 bg-neutral-50 rounded-lg hover:bg-neutral-100 hover:border-primary-500 border border-transparent transition-all text-left"
-            >
-              <div className="flex items-center gap-3">
-                <span className={cn(
-                  'w-2 h-2 rounded-full',
-                  threat.severity === 'critical' && 'bg-error-main',
-                  threat.severity === 'high' && 'bg-error-main',
-                  threat.severity === 'medium' && 'bg-warning-main',
-                  threat.severity === 'low' && 'bg-neutral-400'
-                )} />
-                <div>
-                  <p className="font-medium text-neutral-900">{threat.type}</p>
-                  <p className="text-sm text-neutral-500">{threat.source}</p>
+          {threats.length > 0 ? (
+            threats.map((threat) => (
+              <button
+                key={threat.id}
+                onClick={() => setSelectedThreat(threat)}
+                className="w-full flex items-center justify-between p-3 bg-neutral-50 rounded-lg hover:bg-neutral-100 hover:border-primary-500 border border-transparent transition-all text-left"
+              >
+                <div className="flex items-center gap-3">
+                  <span
+                    className={cn(
+                      'w-2 h-2 rounded-full',
+                      threat.severity === 'critical' && 'bg-error-main',
+                      threat.severity === 'high' && 'bg-error-main',
+                      threat.severity === 'medium' && 'bg-warning-main',
+                      threat.severity === 'low' && 'bg-neutral-400'
+                    )}
+                  />
+                  <div>
+                    <p className="font-medium text-neutral-900">{threat.type}</p>
+                    <p className="text-sm text-neutral-500">{threat.source}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="text-right">
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full',
-                  threat.status === 'resolved' || threat.status === 'mitigated' ? 'bg-success-light text-success-dark' :
-                  threat.status === 'investigating' ? 'bg-warning-light text-warning-dark' :
-                  'bg-neutral-100 text-neutral-600'
-                )}>
-                  {threat.status}
-                </span>
-                <p className="text-xs text-neutral-500 mt-1">{formatRelativeTime(threat.detectedAt)}</p>
-              </div>
-            </button>
-          )) : (
+                <div className="text-right">
+                  <span
+                    className={cn(
+                      'text-xs px-2 py-1 rounded-full',
+                      threat.status === 'resolved' || threat.status === 'mitigated'
+                        ? 'bg-success-light text-success-dark'
+                        : threat.status === 'investigating'
+                          ? 'bg-warning-light text-warning-dark'
+                          : 'bg-neutral-100 text-neutral-600'
+                    )}
+                  >
+                    {threat.status}
+                  </span>
+                  <p className="text-xs text-neutral-500 mt-1">
+                    {formatRelativeTime(threat.detectedAt)}
+                  </p>
+                </div>
+              </button>
+            ))
+          ) : (
             <p className="text-neutral-500 text-center py-4">No active threats detected</p>
           )}
         </div>
@@ -1522,45 +2009,73 @@ export const GuardPage: React.FC = () => {
 
       {/* Threat Detail Modal */}
       {selectedThreat && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setSelectedThreat(null)}>
-          <div className="bg-white rounded-xl border border-neutral-200 w-[600px] max-h-[80vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+          onClick={() => setSelectedThreat(null)}
+        >
+          <div
+            className="bg-white rounded-xl border border-neutral-200 w-[600px] max-h-[80vh] overflow-y-auto shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="p-6 border-b border-neutral-200 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className={cn(
-                  'w-10 h-10 rounded-full flex items-center justify-center',
-                  selectedThreat.severity === 'critical' || selectedThreat.severity === 'high' ? 'bg-error-light' : 'bg-warning-light'
-                )}>
-                  <AlertTriangle className={cn(
-                    'w-5 h-5',
-                    selectedThreat.severity === 'critical' || selectedThreat.severity === 'high' ? 'text-error-main' : 'text-warning-main'
-                  )} />
+                <div
+                  className={cn(
+                    'w-10 h-10 rounded-full flex items-center justify-center',
+                    selectedThreat.severity === 'critical' || selectedThreat.severity === 'high'
+                      ? 'bg-error-light'
+                      : 'bg-warning-light'
+                  )}
+                >
+                  <AlertTriangle
+                    className={cn(
+                      'w-5 h-5',
+                      selectedThreat.severity === 'critical' || selectedThreat.severity === 'high'
+                        ? 'text-error-main'
+                        : 'text-warning-main'
+                    )}
+                  />
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-neutral-900">{selectedThreat.type}</h2>
-                  <p className="text-sm text-neutral-500">{selectedThreat.source} • {formatRelativeTime(selectedThreat.detectedAt)}</p>
+                  <p className="text-sm text-neutral-500">
+                    {selectedThreat.source} • {formatRelativeTime(selectedThreat.detectedAt)}
+                  </p>
                 </div>
               </div>
-              <button onClick={() => setSelectedThreat(null)} className="text-neutral-400 hover:text-neutral-600">
+              <button
+                onClick={() => setSelectedThreat(null)}
+                className="text-neutral-400 hover:text-neutral-600"
+              >
                 <X className="w-5 h-5" />
               </button>
             </div>
             <div className="p-6 space-y-4">
               <div className="flex items-center gap-4">
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full font-medium',
-                  selectedThreat.severity === 'critical' ? 'bg-error-light text-error-dark' :
-                  selectedThreat.severity === 'high' ? 'bg-error-light text-error-dark' :
-                  selectedThreat.severity === 'medium' ? 'bg-warning-light text-warning-dark' :
-                  'bg-neutral-100 text-neutral-600'
-                )}>
+                <span
+                  className={cn(
+                    'text-xs px-2 py-1 rounded-full font-medium',
+                    selectedThreat.severity === 'critical'
+                      ? 'bg-error-light text-error-dark'
+                      : selectedThreat.severity === 'high'
+                        ? 'bg-error-light text-error-dark'
+                        : selectedThreat.severity === 'medium'
+                          ? 'bg-warning-light text-warning-dark'
+                          : 'bg-neutral-100 text-neutral-600'
+                  )}
+                >
                   {selectedThreat.severity.toUpperCase()}
                 </span>
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full',
-                  selectedThreat.status === 'resolved' || selectedThreat.status === 'mitigated' ? 'bg-success-light text-success-dark' :
-                  selectedThreat.status === 'investigating' ? 'bg-warning-light text-warning-dark' :
-                  'bg-neutral-100 text-neutral-600'
-                )}>
+                <span
+                  className={cn(
+                    'text-xs px-2 py-1 rounded-full',
+                    selectedThreat.status === 'resolved' || selectedThreat.status === 'mitigated'
+                      ? 'bg-success-light text-success-dark'
+                      : selectedThreat.status === 'investigating'
+                        ? 'bg-warning-light text-warning-dark'
+                        : 'bg-neutral-100 text-neutral-600'
+                  )}
+                >
                   {selectedThreat.status}
                 </span>
                 {MOCK_THREAT_DETAILS.default.cvss && (
@@ -1569,7 +2084,7 @@ export const GuardPage: React.FC = () => {
                   </span>
                 )}
               </div>
-              
+
               <div className="p-4 bg-neutral-50 rounded-lg">
                 <h4 className="font-medium text-neutral-900 mb-2">Description</h4>
                 <p className="text-sm text-neutral-600">
@@ -1580,7 +2095,12 @@ export const GuardPage: React.FC = () => {
               {MOCK_THREAT_DETAILS.default.cve && (
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-neutral-500">CVE:</span>
-                  <a href={`https://nvd.nist.gov/vuln/detail/${MOCK_THREAT_DETAILS.default.cve}`} target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline flex items-center gap-1">
+                  <a
+                    href={`https://nvd.nist.gov/vuln/detail/${MOCK_THREAT_DETAILS.default.cve}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-600 hover:underline flex items-center gap-1"
+                  >
                     {MOCK_THREAT_DETAILS.default.cve} <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
@@ -1589,28 +2109,39 @@ export const GuardPage: React.FC = () => {
               <div>
                 <h4 className="font-medium text-neutral-900 mb-2">Affected Assets</h4>
                 <div className="flex flex-wrap gap-2">
-                  {(selectedThreat.affectedAssets || MOCK_THREAT_DETAILS.default.affectedAssets || []).map((asset, i) => (
-                    <span key={i} className="text-xs px-2 py-1 bg-neutral-100 rounded">{asset}</span>
+                  {(
+                    selectedThreat.affectedAssets ||
+                    MOCK_THREAT_DETAILS.default.affectedAssets ||
+                    []
+                  ).map((asset, i) => (
+                    <span key={i} className="text-xs px-2 py-1 bg-neutral-100 rounded">
+                      {asset}
+                    </span>
                   ))}
                 </div>
               </div>
 
               <div className="pt-4 border-t border-neutral-200 space-y-3">
-                <button 
-                  onClick={() => { setSelectedThreat(null); navigate('/sovereign/panopticon'); }}
+                <button
+                  onClick={() => {
+                    setSelectedThreat(null);
+                    navigate('/sovereign/panopticon');
+                  }}
                   className="w-full px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   <Shield className="w-4 h-4" />
                   View in Panopticon
                 </button>
-                <button 
-                  onClick={() => window.open('/cortex/intelligence/council?escalate=security', '_blank')}
+                <button
+                  onClick={() =>
+                    window.open('/cortex/intelligence/council?escalate=security', '_blank')
+                  }
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   <Play className="w-4 h-4" />
                   Escalate to Council
                 </button>
-                <button 
+                <button
                   onClick={() => window.open('/cortex/bridge?template=incident-response', '_blank')}
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
@@ -1658,9 +2189,10 @@ interface EthicsReview {
 
 // Mock review details for demo
 const MOCK_REVIEW_DETAILS: Record<string, Partial<EthicsReview>> = {
-  'default': {
+  default: {
     principle: 'Fairness & Non-Discrimination',
-    rationale: 'Decision was reviewed for potential bias in outcome distribution across demographic groups. Analysis found no significant disparate impact.',
+    rationale:
+      'Decision was reviewed for potential bias in outcome distribution across demographic groups. Analysis found no significant disparate impact.',
     biasScore: 0.12,
     decisionId: 'DEC-2025-0042',
   },
@@ -1684,9 +2216,15 @@ export const EthicsPage: React.FC = () => {
           api.get<EthicsReview[]>('/pillars/ethics/reviews', { organizationId: 'demo' }),
         ]);
 
-        if (statsRes.success && statsRes.data) {setStats(statsRes.data);}
-        if (principlesRes.success && principlesRes.data) {setPrinciples(principlesRes.data || []);}
-        if (reviewsRes.success && reviewsRes.data) {setReviews(reviewsRes.data || []);}
+        if (statsRes.success && statsRes.data) {
+          setStats(statsRes.data);
+        }
+        if (principlesRes.success && principlesRes.data) {
+          setPrinciples(principlesRes.data || []);
+        }
+        if (reviewsRes.success && reviewsRes.data) {
+          setReviews(reviewsRes.data || []);
+        }
       } catch (err) {
         console.error('Failed to load ethics data:', err);
       } finally {
@@ -1703,7 +2241,12 @@ export const EthicsPage: React.FC = () => {
   if (isLoading) {
     return (
       <div className="p-6">
-        <PillarHeader icon="⚖️" name="The Ethics" tagline="Built-in ethical guardrails and governance" color="#EC4899" />
+        <PillarHeader
+          icon="⚖️"
+          name="The Ethics"
+          tagline="Built-in ethical guardrails and governance"
+          color="#EC4899"
+        />
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-pink-500"></div>
           <span className="ml-3 text-neutral-500">Loading ethics data...</span>
@@ -1714,11 +2257,20 @@ export const EthicsPage: React.FC = () => {
 
   return (
     <div className="p-6">
-      <PillarHeader icon="⚖️" name="The Ethics" tagline="Built-in ethical guardrails and governance" color="#EC4899" />
+      <PillarHeader
+        icon="⚖️"
+        name="The Ethics"
+        tagline="Built-in ethical guardrails and governance"
+        color="#EC4899"
+      />
 
       {/* Ethics Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Policy Compliance" value={(stats?.policyCompliance ?? 0).toFixed(1)} unit="%" />
+        <MetricCard
+          label="Policy Compliance"
+          value={(stats?.policyCompliance ?? 0).toFixed(1)}
+          unit="%"
+        />
         <MetricCard label="Bias Checks" value={stats?.biasChecks ?? 0} />
         <MetricCard label="Flagged Decisions" value={stats?.flaggedDecisions ?? 0} />
         <MetricCard label="Human Overrides" value={stats?.humanOverrides ?? 0} />
@@ -1728,22 +2280,32 @@ export const EthicsPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Active Ethical Principles</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {principles.length > 0 ? principles.map((principle) => (
-            <div key={principle.id} className="p-4 bg-neutral-50 rounded-lg">
-              <div className="flex items-center justify-between mb-2">
-                <h4 className="font-semibold text-neutral-900">{principle.name}</h4>
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full',
-                  principle.status === 'active' ? 'bg-success-light text-success-dark' : 'bg-neutral-100 text-neutral-600'
-                )}>
-                  {principle.status}
-                </span>
+          {principles.length > 0 ? (
+            principles.map((principle) => (
+              <div key={principle.id} className="p-4 bg-neutral-50 rounded-lg">
+                <div className="flex items-center justify-between mb-2">
+                  <h4 className="font-semibold text-neutral-900">{principle.name}</h4>
+                  <span
+                    className={cn(
+                      'text-xs px-2 py-1 rounded-full',
+                      principle.status === 'active'
+                        ? 'bg-success-light text-success-dark'
+                        : 'bg-neutral-100 text-neutral-600'
+                    )}
+                  >
+                    {principle.status}
+                  </span>
+                </div>
+                <p className="text-sm text-neutral-600 mb-2">{principle.description}</p>
+                <p className="text-xs text-neutral-500">
+                  {principle.checksThisWeek} checks this week
+                </p>
               </div>
-              <p className="text-sm text-neutral-600 mb-2">{principle.description}</p>
-              <p className="text-xs text-neutral-500">{principle.checksThisWeek} checks this week</p>
-            </div>
-          )) : (
-            <p className="col-span-2 text-neutral-500 text-center py-4">No ethical principles configured</p>
+            ))
+          ) : (
+            <p className="col-span-2 text-neutral-500 text-center py-4">
+              No ethical principles configured
+            </p>
           )}
         </div>
       </div>
@@ -1752,28 +2314,39 @@ export const EthicsPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Recent Ethics Reviews</h3>
         <div className="space-y-3">
-          {reviews.length > 0 ? reviews.map((review) => (
-            <button 
-              key={review.id} 
-              onClick={() => setSelectedReview(review)}
-              className="w-full flex items-center justify-between p-3 bg-neutral-50 rounded-lg hover:bg-neutral-100 transition-colors text-left"
-            >
-              <div>
-                <p className="font-medium text-neutral-900">{review.decisionName || 'Unnamed Decision'}</p>
-                <p className="text-sm text-neutral-500">Reviewed by {review.reviewedBy || 'Ethics Engine'}</p>
-              </div>
-              <div className="text-right">
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full',
-                  review.result === 'approved' ? 'bg-success-light text-success-dark' : 
-                  review.result === 'flagged' ? 'bg-warning-light text-warning-dark' : 'bg-error-light text-error-dark'
-                )}>
-                  {review.result}
-                </span>
-                <p className="text-xs text-neutral-500 mt-1">{formatDate(review.reviewedAt)}</p>
-              </div>
-            </button>
-          )) : (
+          {reviews.length > 0 ? (
+            reviews.map((review) => (
+              <button
+                key={review.id}
+                onClick={() => setSelectedReview(review)}
+                className="w-full flex items-center justify-between p-3 bg-neutral-50 rounded-lg hover:bg-neutral-100 transition-colors text-left"
+              >
+                <div>
+                  <p className="font-medium text-neutral-900">
+                    {review.decisionName || 'Unnamed Decision'}
+                  </p>
+                  <p className="text-sm text-neutral-500">
+                    Reviewed by {review.reviewedBy || 'Ethics Engine'}
+                  </p>
+                </div>
+                <div className="text-right">
+                  <span
+                    className={cn(
+                      'text-xs px-2 py-1 rounded-full',
+                      review.result === 'approved'
+                        ? 'bg-success-light text-success-dark'
+                        : review.result === 'flagged'
+                          ? 'bg-warning-light text-warning-dark'
+                          : 'bg-error-light text-error-dark'
+                    )}
+                  >
+                    {review.result}
+                  </span>
+                  <p className="text-xs text-neutral-500 mt-1">{formatDate(review.reviewedAt)}</p>
+                </div>
+              </button>
+            ))
+          ) : (
             <p className="text-neutral-500 text-center py-4">No recent reviews</p>
           )}
         </div>
@@ -1781,34 +2354,54 @@ export const EthicsPage: React.FC = () => {
 
       {/* Review Detail Modal */}
       {selectedReview && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={() => setSelectedReview(null)}>
-          <div className="bg-white rounded-xl border border-neutral-200 w-[600px] max-h-[80vh] overflow-y-auto shadow-xl" onClick={e => e.stopPropagation()}>
+        <div
+          className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+          onClick={() => setSelectedReview(null)}
+        >
+          <div
+            className="bg-white rounded-xl border border-neutral-200 w-[600px] max-h-[80vh] overflow-y-auto shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="p-6 border-b border-neutral-200 flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className={cn(
-                  'w-10 h-10 rounded-full flex items-center justify-center',
-                  selectedReview.result === 'approved' ? 'bg-success-light' : 
-                  selectedReview.result === 'flagged' ? 'bg-warning-light' : 'bg-error-light'
-                )}>
+                <div
+                  className={cn(
+                    'w-10 h-10 rounded-full flex items-center justify-center',
+                    selectedReview.result === 'approved'
+                      ? 'bg-success-light'
+                      : selectedReview.result === 'flagged'
+                        ? 'bg-warning-light'
+                        : 'bg-error-light'
+                  )}
+                >
                   <span className="text-xl">⚖️</span>
                 </div>
                 <div>
                   <h2 className="text-xl font-bold text-neutral-900">Ethics Review</h2>
-                  <p className="text-sm text-neutral-500">{selectedReview.decisionName || 'Unnamed Decision'}</p>
+                  <p className="text-sm text-neutral-500">
+                    {selectedReview.decisionName || 'Unnamed Decision'}
+                  </p>
                 </div>
               </div>
-              <button onClick={() => setSelectedReview(null)} className="text-neutral-400 hover:text-neutral-600">
+              <button
+                onClick={() => setSelectedReview(null)}
+                className="text-neutral-400 hover:text-neutral-600"
+              >
                 <X className="w-5 h-5" />
               </button>
             </div>
             <div className="p-6 space-y-4">
               <div className="flex items-center gap-4">
-                <span className={cn(
-                  'text-xs px-2 py-1 rounded-full font-medium',
-                  selectedReview.result === 'approved' ? 'bg-success-light text-success-dark' :
-                  selectedReview.result === 'flagged' ? 'bg-warning-light text-warning-dark' :
-                  'bg-error-light text-error-dark'
-                )}>
+                <span
+                  className={cn(
+                    'text-xs px-2 py-1 rounded-full font-medium',
+                    selectedReview.result === 'approved'
+                      ? 'bg-success-light text-success-dark'
+                      : selectedReview.result === 'flagged'
+                        ? 'bg-warning-light text-warning-dark'
+                        : 'bg-error-light text-error-dark'
+                  )}
+                >
                   {selectedReview.result.toUpperCase()}
                 </span>
                 <span className="text-xs text-neutral-500">
@@ -1819,42 +2412,65 @@ export const EthicsPage: React.FC = () => {
               <div className="grid grid-cols-2 gap-4 text-sm">
                 <div>
                   <span className="text-neutral-500">Reviewed By:</span>
-                  <span className="ml-2 font-medium text-neutral-900">{selectedReview.reviewedBy || 'Ethics Engine'}</span>
+                  <span className="ml-2 font-medium text-neutral-900">
+                    {selectedReview.reviewedBy || 'Ethics Engine'}
+                  </span>
                 </div>
                 <div>
                   <span className="text-neutral-500">Principle:</span>
-                  <span className="ml-2 font-medium text-neutral-900">{selectedReview.principle || MOCK_REVIEW_DETAILS.default.principle}</span>
+                  <span className="ml-2 font-medium text-neutral-900">
+                    {selectedReview.principle || MOCK_REVIEW_DETAILS.default.principle}
+                  </span>
                 </div>
               </div>
 
-              {(selectedReview.biasScore !== undefined || MOCK_REVIEW_DETAILS.default.biasScore !== undefined) && (
+              {(selectedReview.biasScore !== undefined ||
+                MOCK_REVIEW_DETAILS.default.biasScore !== undefined) && (
                 <div className="p-4 bg-neutral-50 rounded-lg">
                   <div className="flex items-center justify-between mb-2">
                     <h4 className="font-medium text-neutral-900">Bias Score</h4>
-                    <span className={cn(
-                      'text-sm font-medium',
-                      (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) < 0.3 ? 'text-success-dark' :
-                      (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) < 0.6 ? 'text-warning-dark' :
-                      'text-error-dark'
-                    )}>
-                      {((selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) * 100).toFixed(0)}%
+                    <span
+                      className={cn(
+                        'text-sm font-medium',
+                        (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) <
+                          0.3
+                          ? 'text-success-dark'
+                          : (selectedReview.biasScore ??
+                                MOCK_REVIEW_DETAILS.default.biasScore ??
+                                0) < 0.6
+                            ? 'text-warning-dark'
+                            : 'text-error-dark'
+                      )}
+                    >
+                      {(
+                        (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) *
+                        100
+                      ).toFixed(0)}
+                      %
                     </span>
                   </div>
                   <div className="h-2 bg-neutral-200 rounded-full overflow-hidden">
-                    <div 
+                    <div
                       className={cn(
                         'h-full rounded-full',
-                        (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) < 0.3 ? 'bg-success-main' :
-                        (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) < 0.6 ? 'bg-warning-main' :
-                        'bg-error-main'
+                        (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) <
+                          0.3
+                          ? 'bg-success-main'
+                          : (selectedReview.biasScore ??
+                                MOCK_REVIEW_DETAILS.default.biasScore ??
+                                0) < 0.6
+                            ? 'bg-warning-main'
+                            : 'bg-error-main'
                       )}
-                      style={{ width: `${(selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) * 100}%` }}
+                      style={{
+                        width: `${(selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) * 100}%`,
+                      }}
                     />
                   </div>
                   <p className="text-xs text-neutral-500 mt-1">Lower is better. Threshold: 30%</p>
                 </div>
               )}
-              
+
               <div className="p-4 bg-neutral-50 rounded-lg">
                 <h4 className="font-medium text-neutral-900 mb-2">Review Rationale</h4>
                 <p className="text-sm text-neutral-600">
@@ -1864,31 +2480,43 @@ export const EthicsPage: React.FC = () => {
 
               <div className="flex items-center gap-2 text-sm">
                 <span className="text-neutral-500">Decision ID:</span>
-                <button 
-                  onClick={() => navigate(`/cortex/intelligence/decision-dna?id=${selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId}`)}
+                <button
+                  onClick={() =>
+                    navigate(
+                      `/cortex/intelligence/decision-dna?id=${selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId}`
+                    )
+                  }
                   className="text-primary-600 hover:underline flex items-center gap-1"
                 >
-                  {selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId} <ExternalLink className="w-3 h-3" />
+                  {selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId}{' '}
+                  <ExternalLink className="w-3 h-3" />
                 </button>
               </div>
 
               <div className="pt-4 border-t border-neutral-200 space-y-3">
-                <button 
-                  onClick={() => { setSelectedReview(null); navigate(`/cortex/intelligence/decision-dna?id=${selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId}`); }}
+                <button
+                  onClick={() => {
+                    setSelectedReview(null);
+                    navigate(
+                      `/cortex/intelligence/decision-dna?id=${selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId}`
+                    );
+                  }}
                   className="w-full px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   View in Decision DNA
                 </button>
                 {selectedReview.result === 'rejected' && (
-                  <button 
-                    onClick={() => window.open('/cortex/intelligence/council?appeal=ethics', '_blank')}
+                  <button
+                    onClick={() =>
+                      window.open('/cortex/intelligence/council?appeal=ethics', '_blank')
+                    }
                     className="w-full px-4 py-2 bg-warning-light hover:bg-warning-main hover:text-white text-warning-dark rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                   >
                     <Play className="w-4 h-4" />
                     Appeal to Council
                   </button>
                 )}
-                <button 
+                <button
                   onClick={() => window.open('/sovereign/vox', '_blank')}
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
@@ -1940,8 +2568,12 @@ export const AgentsPage: React.FC = () => {
           api.get<Agent[]>('/pillars/agents', { organizationId: 'demo' }),
         ]);
 
-        if (statsRes.success && statsRes.data) {setStats(statsRes.data);}
-        if (agentsRes.success && agentsRes.data) {setAgents(agentsRes.data || []);}
+        if (statsRes.success && statsRes.data) {
+          setStats(statsRes.data);
+        }
+        if (agentsRes.success && agentsRes.data) {
+          setAgents(agentsRes.data || []);
+        }
       } catch (err) {
         console.error('Failed to load agents data:', err);
       } finally {
@@ -1953,9 +2585,20 @@ export const AgentsPage: React.FC = () => {
 
   const getAgentIcon = (code: string): string => {
     const icons: Record<string, string> = {
-      'chief': '👔', 'cfo': '💰', 'coo': '⚙️', 'ciso': '🔒', 'cto': '💻',
-      'cmo': '📢', 'cro': '📈', 'cdo': '📊', 'risk': '⚠️', 'clo': '⚖️',
-      'chro': '👥', 'cso': '🌍', 'cco': '📰', 'caio': '🤖',
+      chief: '👔',
+      cfo: '💰',
+      coo: '⚙️',
+      ciso: '🔒',
+      cto: '💻',
+      cmo: '📢',
+      cro: '📈',
+      cdo: '📊',
+      risk: '⚠️',
+      clo: '⚖️',
+      chro: '👥',
+      cso: '🌍',
+      cco: '📰',
+      caio: '🤖',
     };
     return icons[code.toLowerCase()] || '🤖';
   };
@@ -1963,7 +2606,12 @@ export const AgentsPage: React.FC = () => {
   if (isLoading) {
     return (
       <div className="p-6">
-        <PillarHeader icon="🤖" name="The Agents" tagline="AI advisors for every domain - The Pantheon" color="#6366F1" />
+        <PillarHeader
+          icon="🤖"
+          name="The Agents"
+          tagline="AI advisors for every domain - The Pantheon"
+          color="#6366F1"
+        />
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-500"></div>
           <span className="ml-3 text-neutral-500">Loading agents data...</span>
@@ -1974,38 +2622,57 @@ export const AgentsPage: React.FC = () => {
 
   return (
     <div className="p-6">
-      <PillarHeader icon="🤖" name="The Agents" tagline="AI advisors for every domain - The Pantheon" color="#6366F1" />
+      <PillarHeader
+        icon="🤖"
+        name="The Agents"
+        tagline="AI advisors for every domain - The Pantheon"
+        color="#6366F1"
+      />
 
       {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        <MetricCard label="Active Agents" value={stats?.activeAgents ?? agents.filter(a => a.status === 'online').length} />
-        <MetricCard label="Queries Today" value={stats?.queriesToday ?? agents.reduce((sum, a) => sum + a.queriesToday, 0)} />
-        <MetricCard label="Avg Response" value={(stats?.avgResponseTime ?? 0).toFixed(1)} unit="s" />
+        <MetricCard
+          label="Active Agents"
+          value={stats?.activeAgents ?? agents.filter((a) => a.status === 'online').length}
+        />
+        <MetricCard
+          label="Queries Today"
+          value={stats?.queriesToday ?? agents.reduce((sum, a) => sum + a.queriesToday, 0)}
+        />
+        <MetricCard
+          label="Avg Response"
+          value={(stats?.avgResponseTime ?? 0).toFixed(1)}
+          unit="s"
+        />
         <MetricCard label="Satisfaction" value={(stats?.satisfaction ?? 0).toFixed(1)} unit="/5" />
       </div>
 
       {/* Agent Grid - REAL DATA */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
-        {agents.length > 0 ? agents.map(agent => (
-          <div
-            key={agent.id}
-            onClick={() => navigate(`/cortex/council?agent=${agent.code}`)}
-            className="p-4 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all cursor-pointer"
-          >
-            <div className="flex items-center justify-between mb-3">
-              <span className="text-3xl">{agent.icon || getAgentIcon(agent.code)}</span>
-              <span className={cn(
-                'w-2 h-2 rounded-full',
-                agent.status === 'online' && 'bg-success-main',
-                agent.status === 'busy' && 'bg-warning-main',
-                agent.status === 'offline' && 'bg-neutral-300'
-              )} />
+        {agents.length > 0 ? (
+          agents.map((agent) => (
+            <div
+              key={agent.id}
+              onClick={() => navigate(`/cortex/council?agent=${agent.code}`)}
+              className="p-4 bg-white rounded-xl border border-neutral-200 hover:border-primary-500 hover:shadow-md transition-all cursor-pointer"
+            >
+              <div className="flex items-center justify-between mb-3">
+                <span className="text-3xl">{agent.icon || getAgentIcon(agent.code)}</span>
+                <span
+                  className={cn(
+                    'w-2 h-2 rounded-full',
+                    agent.status === 'online' && 'bg-success-main',
+                    agent.status === 'busy' && 'bg-warning-main',
+                    agent.status === 'offline' && 'bg-neutral-300'
+                  )}
+                />
+              </div>
+              <h4 className="font-semibold text-neutral-900">{agent.name}</h4>
+              <p className="text-sm text-neutral-500">{agent.role}</p>
+              <p className="text-xs text-neutral-400 mt-2">{agent.queriesToday} queries today</p>
             </div>
-            <h4 className="font-semibold text-neutral-900">{agent.name}</h4>
-            <p className="text-sm text-neutral-500">{agent.role}</p>
-            <p className="text-xs text-neutral-400 mt-2">{agent.queriesToday} queries today</p>
-          </div>
-        )) : (
+          ))
+        ) : (
           <p className="col-span-4 text-neutral-500 text-center py-8">No agents configured</p>
         )}
       </div>
@@ -2014,13 +2681,22 @@ export const AgentsPage: React.FC = () => {
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Quick Actions</h3>
         <div className="flex flex-wrap gap-3">
-          <button onClick={() => navigate('/cortex/council')} className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors">
+          <button
+            onClick={() => navigate('/cortex/council')}
+            className="px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors"
+          >
             Ask The Council
           </button>
-          <button onClick={() => navigate('/cortex/council?mode=deliberation')} className="px-4 py-2 bg-neutral-100 text-neutral-700 rounded-lg hover:bg-neutral-200 transition-colors">
+          <button
+            onClick={() => navigate('/cortex/council?mode=deliberation')}
+            className="px-4 py-2 bg-neutral-100 text-neutral-700 rounded-lg hover:bg-neutral-200 transition-colors"
+          >
             Start Deliberation
           </button>
-          <button onClick={() => navigate('/cortex/council?tab=history')} className="px-4 py-2 bg-neutral-100 text-neutral-700 rounded-lg hover:bg-neutral-200 transition-colors">
+          <button
+            onClick={() => navigate('/cortex/council?tab=history')}
+            className="px-4 py-2 bg-neutral-100 text-neutral-700 rounded-lg hover:bg-neutral-200 transition-colors"
+          >
             View Decision History
           </button>
         </div>

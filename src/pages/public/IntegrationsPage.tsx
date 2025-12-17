@@ -1,6 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Plug, Database, Cloud, MessageSquare, BarChart, Shield, Workflow, Code } from 'lucide-react';
+import {
+  Plug,
+  Database,
+  Cloud,
+  MessageSquare,
+  BarChart,
+  Shield,
+  Workflow,
+  Code,
+} from 'lucide-react';
 
 export const IntegrationsPage: React.FC = () => {
   const integrationCategories = [
@@ -81,9 +90,15 @@ export const IntegrationsPage: React.FC = () => {
             <span className="text-xl font-bold text-neutral-900">Datacendia</span>
           </Link>
           <nav className="flex items-center gap-4 text-sm">
-            <Link to="/product" className="text-neutral-600 hover:text-neutral-900">Product</Link>
-            <Link to="/docs" className="text-neutral-600 hover:text-neutral-900">Docs</Link>
-            <Link to="/contact" className="text-neutral-600 hover:text-neutral-900">Contact</Link>
+            <Link to="/product" className="text-neutral-600 hover:text-neutral-900">
+              Product
+            </Link>
+            <Link to="/docs" className="text-neutral-600 hover:text-neutral-900">
+              Docs
+            </Link>
+            <Link to="/contact" className="text-neutral-600 hover:text-neutral-900">
+              Contact
+            </Link>
           </nav>
         </div>
       </header>
@@ -111,8 +126,8 @@ export const IntegrationsPage: React.FC = () => {
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {category.integrations.map((integration, intIndex) => (
-                    <div 
-                      key={intIndex} 
+                    <div
+                      key={intIndex}
                       className="bg-white rounded-lg p-4 border border-neutral-200 flex items-center gap-4"
                     >
                       <div className="w-10 h-10 bg-neutral-100 rounded-lg flex items-center justify-center">
@@ -121,11 +136,13 @@ export const IntegrationsPage: React.FC = () => {
                       <div className="flex-1">
                         <div className="flex items-center gap-2">
                           <span className="font-medium">{integration.name}</span>
-                          <span className={`px-2 py-0.5 text-xs rounded ${
-                            integration.status === 'native' 
-                              ? 'bg-green-100 text-green-700' 
-                              : 'bg-neutral-100 text-neutral-600'
-                          }`}>
+                          <span
+                            className={`px-2 py-0.5 text-xs rounded ${
+                              integration.status === 'native'
+                                ? 'bg-green-100 text-green-700'
+                                : 'bg-neutral-100 text-neutral-600'
+                            }`}
+                          >
                             {integration.status === 'native' ? 'Native' : 'Available'}
                           </span>
                         </div>
@@ -148,14 +165,14 @@ export const IntegrationsPage: React.FC = () => {
             Our API supports custom integrations. Contact us to discuss your requirements.
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Link 
-              to="/docs" 
+            <Link
+              to="/docs"
               className="px-6 py-3 border border-neutral-300 text-neutral-700 rounded-lg hover:bg-neutral-50"
             >
               View API Docs
             </Link>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="px-6 py-3 bg-neutral-900 text-white rounded-lg hover:bg-neutral-800"
             >
               Request Integration

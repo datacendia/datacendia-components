@@ -3,9 +3,9 @@
  * CENDIA CASCADE PAGE (THE BUTTERFLY EFFECT)
  * =============================================================================
  * Second/Third-Order Consequence Analysis Dashboard
- * 
- * "Predict the unintended consequences of decisions before they become 
- * incidents—then generate the mitigations, approvals, and evidence to 
+ *
+ * "Predict the unintended consequences of decisions before they become
+ * incidents—then generate the mitigations, approvals, and evidence to
  * execute safely."
  */
 
@@ -102,7 +102,9 @@ const SeverityBadge: React.FC<{ severity: string }> = ({ severity }) => {
   };
 
   return (
-    <span className={`px-2 py-0.5 rounded text-xs font-medium border ${colors[severity] || colors.minimal}`}>
+    <span
+      className={`px-2 py-0.5 rounded text-xs font-medium border ${colors[severity] || colors.minimal}`}
+    >
       {severity.toUpperCase()}
     </span>
   );
@@ -110,9 +112,18 @@ const SeverityBadge: React.FC<{ severity: string }> = ({ severity }) => {
 
 const RecommendationBadge: React.FC<{ recommendation: string }> = ({ recommendation }) => {
   const config: Record<string, { color: string; icon: React.ReactNode }> = {
-    proceed: { color: 'bg-green-500/20 text-green-400', icon: <CheckCircle2 className="w-4 h-4" /> },
-    proceed_with_caution: { color: 'bg-yellow-500/20 text-yellow-400', icon: <AlertTriangle className="w-4 h-4" /> },
-    reconsider: { color: 'bg-orange-500/20 text-orange-400', icon: <RefreshCw className="w-4 h-4" /> },
+    proceed: {
+      color: 'bg-green-500/20 text-green-400',
+      icon: <CheckCircle2 className="w-4 h-4" />,
+    },
+    proceed_with_caution: {
+      color: 'bg-yellow-500/20 text-yellow-400',
+      icon: <AlertTriangle className="w-4 h-4" />,
+    },
+    reconsider: {
+      color: 'bg-orange-500/20 text-orange-400',
+      icon: <RefreshCw className="w-4 h-4" />,
+    },
     reject: { color: 'bg-red-500/20 text-red-400', icon: <XCircle className="w-4 h-4" /> },
   };
 
@@ -297,7 +308,9 @@ const CascadePage: React.FC = () => {
                 </div>
                 <div>
                   <h1 className="text-2xl font-bold">CendiaCascade™</h1>
-                  <p className="text-gray-400 text-sm">The Butterfly Effect — Second/Third-Order Consequence Analysis</p>
+                  <p className="text-gray-400 text-sm">
+                    The Butterfly Effect — Second/Third-Order Consequence Analysis
+                  </p>
                 </div>
               </div>
             </div>
@@ -356,7 +369,9 @@ const CascadePage: React.FC = () => {
                 <div className="space-y-4">
                   {/* Change Type */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-1">Change Type</label>
+                    <label className="block text-sm font-medium text-gray-300 mb-1">
+                      Change Type
+                    </label>
                     <select
                       value={changeForm.type}
                       onChange={(e) => setChangeForm({ ...changeForm, type: e.target.value })}
@@ -389,10 +404,14 @@ const CascadePage: React.FC = () => {
 
                   {/* Description */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-1">Description *</label>
+                    <label className="block text-sm font-medium text-gray-300 mb-1">
+                      Description *
+                    </label>
                     <textarea
                       value={changeForm.description}
-                      onChange={(e) => setChangeForm({ ...changeForm, description: e.target.value })}
+                      onChange={(e) =>
+                        setChangeForm({ ...changeForm, description: e.target.value })
+                      }
                       placeholder="Describe the proposed change in detail..."
                       rows={3}
                       className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
@@ -401,7 +420,9 @@ const CascadePage: React.FC = () => {
 
                   {/* Affected Assets */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-1">Affected Assets *</label>
+                    <label className="block text-sm font-medium text-gray-300 mb-1">
+                      Affected Assets *
+                    </label>
                     <div className="flex gap-2">
                       <input
                         type="text"
@@ -440,11 +461,15 @@ const CascadePage: React.FC = () => {
 
                   {/* Expected Benefit */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-1">Expected Benefit</label>
+                    <label className="block text-sm font-medium text-gray-300 mb-1">
+                      Expected Benefit
+                    </label>
                     <input
                       type="text"
                       value={changeForm.expectedBenefit}
-                      onChange={(e) => setChangeForm({ ...changeForm, expectedBenefit: e.target.value })}
+                      onChange={(e) =>
+                        setChangeForm({ ...changeForm, expectedBenefit: e.target.value })
+                      }
                       placeholder="e.g., Reduce operating costs by $2M annually"
                       className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
                     />
@@ -480,13 +505,14 @@ const CascadePage: React.FC = () => {
                   What is the Butterfly Effect?
                 </h3>
                 <p className="text-gray-300 text-sm mb-4">
-                  Most executives are good at <strong>first-order thinking</strong> ("If we fire 10% of staff, 
-                  costs go down"). They're terrible at <strong>second and third-order thinking</strong> 
-                  ("...which causes morale to drop, which causes our best engineer to quit, which causes 
-                  the server to crash, which loses our biggest client").
+                  Most executives are good at <strong>first-order thinking</strong> ("If we fire 10%
+                  of staff, costs go down"). They're terrible at{' '}
+                  <strong>second and third-order thinking</strong>
+                  ("...which causes morale to drop, which causes our best engineer to quit, which
+                  causes the server to crash, which loses our biggest client").
                 </p>
                 <p className="text-gray-400 text-sm">
-                  CendiaCascade™ traces your decisions through the Knowledge Graph to find the 
+                  CendiaCascade™ traces your decisions through the Knowledge Graph to find the
                   <strong className="text-purple-400"> Invisible Consequences</strong>.
                 </p>
               </div>
@@ -498,31 +524,47 @@ const CascadePage: React.FC = () => {
                 </h3>
                 <div className="space-y-3 text-sm">
                   <div className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 flex-shrink-0">1</div>
+                    <div className="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 flex-shrink-0">
+                      1
+                    </div>
                     <div>
                       <strong>Node Identification</strong>
-                      <p className="text-gray-400">You propose a change to Node A (e.g., "Engineering Team")</p>
+                      <p className="text-gray-400">
+                        You propose a change to Node A (e.g., "Engineering Team")
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 flex-shrink-0">2</div>
+                    <div className="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 flex-shrink-0">
+                      2
+                    </div>
                     <div>
                       <strong>Graph Traversal</strong>
-                      <p className="text-gray-400">System finds all connected nodes (Products, Revenue, Customers)</p>
+                      <p className="text-gray-400">
+                        System finds all connected nodes (Products, Revenue, Customers)
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 flex-shrink-0">3</div>
+                    <div className="w-6 h-6 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 flex-shrink-0">
+                      3
+                    </div>
                     <div>
                       <strong>Recursive Simulation</strong>
-                      <p className="text-gray-400">Impact propagates through the graph until probability drops</p>
+                      <p className="text-gray-400">
+                        Impact propagates through the graph until probability drops
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
-                    <div className="w-6 h-6 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 flex-shrink-0">4</div>
+                    <div className="w-6 h-6 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 flex-shrink-0">
+                      4
+                    </div>
                     <div>
                       <strong>Butterfly Detection</strong>
-                      <p className="text-gray-400">Find the unexpected 3rd-order consequence you didn't see coming</p>
+                      <p className="text-gray-400">
+                        Find the unexpected 3rd-order consequence you didn't see coming
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -578,22 +620,28 @@ const CascadePage: React.FC = () => {
                     <div className="flex items-start justify-between mb-4">
                       <div>
                         <h2 className="text-xl font-semibold">{selectedReport.changeSpec.title}</h2>
-                        <p className="text-gray-400 mt-1">{selectedReport.changeSpec.description}</p>
+                        <p className="text-gray-400 mt-1">
+                          {selectedReport.changeSpec.description}
+                        </p>
                       </div>
                       <RecommendationBadge recommendation={selectedReport.recommendation} />
                     </div>
                     <div className="grid grid-cols-3 gap-4 mt-4">
                       <div className="bg-gray-800/50 rounded-lg p-3">
-                        <div className="text-2xl font-bold">{selectedReport.consequences.length}</div>
+                        <div className="text-2xl font-bold">
+                          {selectedReport.consequences.length}
+                        </div>
                         <div className="text-sm text-gray-400">Total Consequences</div>
                       </div>
                       <div className="bg-gray-800/50 rounded-lg p-3">
-                        <div className="text-2xl font-bold text-red-400">{selectedReport.totalRiskScore}</div>
+                        <div className="text-2xl font-bold text-red-400">
+                          {selectedReport.totalRiskScore}
+                        </div>
                         <div className="text-sm text-gray-400">Risk Score</div>
                       </div>
                       <div className="bg-gray-800/50 rounded-lg p-3">
                         <div className="text-2xl font-bold text-purple-400">
-                          {selectedReport.consequences.filter(c => c.order >= 3).length}
+                          {selectedReport.consequences.filter((c) => c.order >= 3).length}
                         </div>
                         <div className="text-sm text-gray-400">Butterfly Effects</div>
                       </div>
@@ -613,14 +661,18 @@ const CascadePage: React.FC = () => {
                       <div className="text-lg font-medium text-purple-300">
                         {selectedReport.butterflyEffect.nodeName}
                       </div>
-                      <p className="text-gray-300 mt-2">{selectedReport.butterflyEffect.description}</p>
+                      <p className="text-gray-300 mt-2">
+                        {selectedReport.butterflyEffect.description}
+                      </p>
                       <div className="flex items-center gap-4 mt-3 text-sm">
                         <span className="text-gray-400">
                           <Clock className="w-4 h-4 inline mr-1" />
                           T+{selectedReport.butterflyEffect.latencyDays} days
                         </span>
                         <SeverityBadge severity={selectedReport.butterflyEffect.severity} />
-                        <span className="text-gray-400">Order: {selectedReport.butterflyEffect.order}</span>
+                        <span className="text-gray-400">
+                          Order: {selectedReport.butterflyEffect.order}
+                        </span>
                       </div>
                       <div className="mt-3 text-sm text-gray-400">
                         <strong>Path:</strong> {selectedReport.butterflyEffect.pathDescription}
@@ -637,21 +689,21 @@ const CascadePage: React.FC = () => {
                     <div className="space-y-3">
                       <TimelineWave
                         label="T+0: Direct Impacts (1st Order)"
-                        effects={selectedReport.consequences.filter(c => c.order === 1)}
+                        effects={selectedReport.consequences.filter((c) => c.order === 1)}
                         color="#3b82f6"
                         expanded={expandedWaves.has('T+0')}
                         onToggle={() => toggleWave('T+0')}
                       />
                       <TimelineWave
                         label="T+30: Ripple Effects (2nd Order)"
-                        effects={selectedReport.consequences.filter(c => c.order === 2)}
+                        effects={selectedReport.consequences.filter((c) => c.order === 2)}
                         color="#f59e0b"
                         expanded={expandedWaves.has('T+30')}
                         onToggle={() => toggleWave('T+30')}
                       />
                       <TimelineWave
                         label="T+90+: Butterfly Effects (3rd+ Order)"
-                        effects={selectedReport.consequences.filter(c => c.order >= 3)}
+                        effects={selectedReport.consequences.filter((c) => c.order >= 3)}
                         color="#8b5cf6"
                         expanded={expandedWaves.has('T+90')}
                         onToggle={() => toggleWave('T+90')}
@@ -670,12 +722,17 @@ const CascadePage: React.FC = () => {
                         {selectedReport.mitigations.slice(0, 5).map((m, idx) => (
                           <div key={idx} className="p-3 bg-gray-800/50 rounded-lg">
                             <div className="flex items-center gap-2 mb-1">
-                              <span className={`px-2 py-0.5 rounded text-xs ${
-                                m.type === 'prevent' ? 'bg-green-500/20 text-green-400' :
-                                m.type === 'detect' ? 'bg-blue-500/20 text-blue-400' :
-                                m.type === 'respond' ? 'bg-orange-500/20 text-orange-400' :
-                                'bg-gray-500/20 text-gray-400'
-                              }`}>
+                              <span
+                                className={`px-2 py-0.5 rounded text-xs ${
+                                  m.type === 'prevent'
+                                    ? 'bg-green-500/20 text-green-400'
+                                    : m.type === 'detect'
+                                      ? 'bg-blue-500/20 text-blue-400'
+                                      : m.type === 'respond'
+                                        ? 'bg-orange-500/20 text-orange-400'
+                                        : 'bg-gray-500/20 text-gray-400'
+                                }`}
+                              >
                                 {m.type.toUpperCase()}
                               </span>
                               <span className="font-medium">{m.description}</span>
@@ -751,20 +808,20 @@ const CascadePage: React.FC = () => {
                 About the Graph
               </h3>
               <p className="text-gray-300 text-sm mb-4">
-                The Organization Graph represents your company's structure, systems, processes, 
-                and relationships. CendiaCascade uses this graph to trace how changes propagate.
+                The Organization Graph represents your company's structure, systems, processes, and
+                relationships. CendiaCascade uses this graph to trace how changes propagate.
               </p>
               <div className="space-y-3 text-sm">
                 <div className="p-3 bg-gray-800/50 rounded-lg">
-                  <strong className="text-blue-400">Nodes</strong>: Departments, Teams, People, 
+                  <strong className="text-blue-400">Nodes</strong>: Departments, Teams, People,
                   Systems, Processes, Policies, Metrics, Vendors, Customers, Products
                 </div>
                 <div className="p-3 bg-gray-800/50 rounded-lg">
-                  <strong className="text-green-400">Edges</strong>: depends_on, manages, produces, 
+                  <strong className="text-green-400">Edges</strong>: depends_on, manages, produces,
                   consumes, influences, reports_to, funds, constrains, triggers, mitigates
                 </div>
                 <div className="p-3 bg-gray-800/50 rounded-lg">
-                  <strong className="text-purple-400">Attributes</strong>: weight (importance), 
+                  <strong className="text-purple-400">Attributes</strong>: weight (importance),
                   sensitivity (reactivity), inertia (resistance), strength, latencyDays
                 </div>
               </div>

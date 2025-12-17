@@ -6,7 +6,10 @@
 import React, { useState } from 'react';
 
 // Request Access Modal
-const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = ({ isOpen, onClose }) => {
+const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = ({
+  isOpen,
+  onClose,
+}) => {
   const [formData, setFormData] = useState({
     name: '',
     title: '',
@@ -19,7 +22,7 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    await new Promise(resolve => setTimeout(resolve, 1500));
+    await new Promise((resolve) => setTimeout(resolve, 1500));
     setIsSubmitting(false);
     setIsSubmitted(true);
   };
@@ -35,7 +38,7 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
         >
           CLOSE
         </button>
-        
+
         {isSubmitted ? (
           <div className="text-center py-16">
             <div className="w-16 h-16 border border-red-900/50 rounded-full flex items-center justify-center mx-auto mb-8">
@@ -43,8 +46,8 @@ const RequestAccessModal: React.FC<{ isOpen: boolean; onClose: () => void }> = (
             </div>
             <h3 className="text-2xl font-light text-white mb-4 tracking-wide">Access Requested</h3>
             <p className="text-gray-500 text-sm leading-relaxed max-w-sm mx-auto">
-              Your inquiry has been received. If approved, you will be contacted within 48 hours 
-              to schedule a secure demonstration.
+              Your inquiry has been received. If approved, you will be contacted within 48 hours to
+              schedule a secure demonstration.
             </p>
           </div>
         ) : (
@@ -113,7 +116,6 @@ export const ManifestoHomePage: React.FC = () => {
       {/* Main Content - Centered */}
       <main className="flex-1 flex flex-col items-center justify-center px-6 py-16 md:py-24">
         <div className="max-w-3xl mx-auto text-center">
-          
           {/* Brand */}
           <h1 className="text-3xl md:text-5xl font-extralight tracking-[0.3em] text-white mb-2">
             DATACENDIA
@@ -124,12 +126,11 @@ export const ManifestoHomePage: React.FC = () => {
 
           {/* The Manifesto */}
           <div className="space-y-8 md:space-y-12 text-left md:text-center">
-            
             {/* Opening */}
             <p className="text-lg md:text-xl lg:text-2xl font-light text-gray-300 leading-relaxed">
               Modern enterprises have surrendered their minds.
             </p>
-            
+
             <p className="text-base md:text-lg text-gray-400 leading-relaxed">
               They've traded ownership for convenience, and now they're tenants in their own house.
             </p>
@@ -154,7 +155,9 @@ export const ManifestoHomePage: React.FC = () => {
               <ol className="space-y-4 text-sm md:text-base text-gray-400 text-left max-w-xl mx-auto">
                 <li className="flex gap-4">
                   <span className="text-red-900 font-mono">1.</span>
-                  <span>Your intelligence should live on your infrastructure, under your control.</span>
+                  <span>
+                    Your intelligence should live on your infrastructure, under your control.
+                  </span>
                 </li>
                 <li className="flex gap-4">
                   <span className="text-red-900 font-mono">2.</span>
@@ -162,7 +165,9 @@ export const ManifestoHomePage: React.FC = () => {
                 </li>
                 <li className="flex gap-4">
                   <span className="text-red-900 font-mono">3.</span>
-                  <span>Disagreement is not disloyalty — it is the immune system of good judgment.</span>
+                  <span>
+                    Disagreement is not disloyalty — it is the immune system of good judgment.
+                  </span>
                 </li>
                 <li className="flex gap-4">
                   <span className="text-red-900 font-mono">4.</span>
@@ -179,9 +184,10 @@ export const ManifestoHomePage: React.FC = () => {
             <p className="text-lg md:text-xl text-gray-300 pt-8 md:pt-12 italic">
               The future belongs to those who can see it —
               <br />
-              <span className="text-white not-italic">and refuse to rent it from someone else.</span>
+              <span className="text-white not-italic">
+                and refuse to rent it from someone else.
+              </span>
             </p>
-
           </div>
 
           {/* Single CTA */}
@@ -195,7 +201,6 @@ export const ManifestoHomePage: React.FC = () => {
               </span>
             </button>
           </div>
-
         </div>
       </main>
 
