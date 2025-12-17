@@ -113,7 +113,7 @@ export const DOMAIN_AGENTS: DomainAgent[] = [
   {
     id: 'agent-chief',
     code: 'chief',
-    name: 'Chief Strategy Agent',
+    name: 'CEO - Chief Strategy Agent',
     role: 'Strategic Oversight & Synthesis',
     description:
       'Synthesizes insights from all domain agents to provide holistic strategic recommendations. Orchestrates cross-functional analysis.',
@@ -136,7 +136,7 @@ Base your responses on data-driven analysis and cite specific metrics when avail
   {
     id: 'agent-cfo',
     code: 'cfo',
-    name: 'Financial Intelligence Agent',
+    name: 'CFO - Financial Intelligence Agent',
     role: 'Financial Analysis & Risk',
     description:
       'Analyzes financial data, budgets, forecasts, and provides insights on fiscal health, ROI calculations, and financial risk assessment.',
@@ -159,7 +159,7 @@ Be conservative in estimates and highlight financial risks clearly.`,
   {
     id: 'agent-coo',
     code: 'coo',
-    name: 'Operations Intelligence Agent',
+    name: 'COO - Operations Intelligence Agent',
     role: 'Operational Efficiency',
     description:
       'Focuses on operational metrics, process efficiency, supply chain optimization, and resource allocation.',
@@ -182,7 +182,7 @@ Consider dependencies between processes and potential bottlenecks.`,
   {
     id: 'agent-ciso',
     code: 'ciso',
-    name: 'Security & Compliance Agent',
+    name: 'CISO - Security & Compliance Agent',
     role: 'Security & Risk Management',
     description:
       'Monitors security posture, compliance requirements, threat assessment, and data protection policies.',
@@ -205,7 +205,7 @@ Provide specific, actionable security measures and compliance guidance.`,
   {
     id: 'agent-cmo',
     code: 'cmo',
-    name: 'Market Intelligence Agent',
+    name: 'CMO - Market Intelligence Agent',
     role: 'Marketing & Customer Insights',
     description:
       'Analyzes market trends, customer behavior, campaign performance, and competitive intelligence.',
@@ -228,7 +228,7 @@ Base recommendations on customer data and market intelligence.`,
   {
     id: 'agent-cro',
     code: 'cro',
-    name: 'Revenue Intelligence Agent',
+    name: 'CRO - Revenue Intelligence Agent',
     role: 'Revenue & Growth',
     description:
       'Focuses on revenue optimization, sales performance, pricing strategies, and growth opportunities.',
@@ -251,7 +251,7 @@ Consider market dynamics and competitive pricing in your analysis.`,
   {
     id: 'agent-cdo',
     code: 'cdo',
-    name: 'Data Quality Agent',
+    name: 'CDO - Data Intelligence Agent',
     role: 'Data Governance & Quality',
     description:
       'Monitors data quality, governance policies, data lineage, and ensures data integrity across the platform.',
@@ -269,7 +269,7 @@ Ensure all data-driven decisions are based on trustworthy, well-governed data.`,
   {
     id: 'agent-risk',
     code: 'risk',
-    name: 'Risk Assessment Agent',
+    name: 'CRO - Risk Intelligence Agent',
     role: 'Enterprise Risk Analysis',
     description:
       'Evaluates enterprise risks, performs impact analysis, and provides risk mitigation strategies.',
@@ -293,7 +293,7 @@ Consider interconnected risks and cascading effects in your analysis.`,
   {
     id: 'agent-clo',
     code: 'clo',
-    name: 'Legal Intelligence Agent',
+    name: 'CLO - Legal Intelligence Agent',
     role: 'Legal & Compliance Analysis',
     description:
       'Analyzes legal risks, contract implications, regulatory compliance, and intellectual property matters.',
@@ -970,7 +970,7 @@ class OllamaService {
         // Update agents to online if their model is available
         this.agents = this.agents.map((agent) => ({
           ...agent,
-          status: this.availableModels.some((m) => m.startsWith(agent.model.split(':')[0]))
+          status: this.availableModels.some((m) => m.startsWith(agent.model?.split(':')[0] ?? ''))
             ? ('online' as const)
             : ('offline' as const),
         }));
@@ -1343,7 +1343,7 @@ class OllamaService {
     synthesis: string;
     confidence: number;
   }> {
-    const startTime = Date.now();
+    const _startTime = Date.now(); // Reserved for future performance metrics
     const locale = options?.locale || 'en';
     const langInstruction = this.getLanguageInstruction(locale);
 

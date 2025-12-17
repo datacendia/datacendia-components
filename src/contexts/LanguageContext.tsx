@@ -162,53 +162,53 @@ const DEFAULT_TRANSLATIONS: Record<string, string> = {
   'mode.execution': 'Execution',
 
   // Core Agent Names
-  'agent.chief.name': 'Chief Strategy Agent',
+  'agent.chief.name': 'CEO - Chief Strategy Agent',
   'agent.chief.role': 'Strategic Synthesis',
   'agent.chief.description': 'Synthesizes insights from all agents into strategic recommendations.',
 
-  'agent.cfo.name': 'Financial Intelligence Agent',
+  'agent.cfo.name': 'CFO - Financial Intelligence Agent',
   'agent.cfo.role': 'Financial Analysis & Risk',
   'agent.cfo.description':
     'Analyzes financial data, budgets, forecasts, and provides insights on fiscal health.',
 
-  'agent.coo.name': 'Operations Intelligence Agent',
+  'agent.coo.name': 'COO - Operations Intelligence Agent',
   'agent.coo.role': 'Operational Efficiency',
   'agent.coo.description': 'Optimizes workflows, resource allocation, and operational performance.',
 
-  'agent.ciso.name': 'Security & Compliance Agent',
+  'agent.ciso.name': 'CISO - Security & Compliance Agent',
   'agent.ciso.role': 'Security & Risk Management',
   'agent.ciso.description':
     'Monitors security posture, compliance requirements, and risk mitigation.',
 
-  'agent.cmo.name': 'Market Intelligence Agent',
+  'agent.cmo.name': 'CMO - Market Intelligence Agent',
   'agent.cmo.role': 'Marketing & Customer Insights',
   'agent.cmo.description':
     'Analyzes market trends, customer behavior, and marketing effectiveness.',
 
-  'agent.cto.name': 'Technology Intelligence Agent',
+  'agent.cto.name': 'CTO - Technology Intelligence Agent',
   'agent.cto.role': 'Technology Strategy',
   'agent.cto.description':
     'Evaluates technology decisions, architecture, and digital transformation.',
 
-  'agent.chro.name': 'People Intelligence Agent',
+  'agent.chro.name': 'CHRO - People Intelligence Agent',
   'agent.chro.role': 'Human Resources & Culture',
   'agent.chro.description':
     'Analyzes workforce dynamics, talent management, and organizational culture.',
 
-  'agent.cro.name': 'Revenue Intelligence Agent',
+  'agent.cro.name': 'CRO - Revenue Intelligence Agent',
   'agent.cro.role': 'Revenue & Growth',
   'agent.cro.description':
     'Optimizes revenue streams, pricing strategies, and growth opportunities.',
 
-  'agent.cdo.name': 'Data Intelligence Agent',
+  'agent.cdo.name': 'CDO - Data Intelligence Agent',
   'agent.cdo.role': 'Data Governance',
   'agent.cdo.description': 'Manages data quality, lineage, and governance across the organization.',
 
-  'agent.risk.name': 'Risk Intelligence Agent',
+  'agent.risk.name': 'CRO - Risk Intelligence Agent',
   'agent.risk.role': 'Risk Assessment',
   'agent.risk.description': 'Identifies, quantifies, and mitigates organizational risks.',
 
-  'agent.clo.name': 'Legal Intelligence Agent',
+  'agent.clo.name': 'CLO - Legal Intelligence Agent',
   'agent.clo.role': 'Legal & Compliance',
   'agent.clo.description': 'Analyzes legal risks, contracts, and regulatory compliance.',
 
@@ -873,7 +873,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   const [languages, setLanguages] = useState<Language[]>([]);
   const [translations, setTranslations] = useState<Record<string, string>>(DEFAULT_TRANSLATIONS);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, _setIsLoading] = useState(false);
   const [isInitialized, setIsInitialized] = useState(false);
   const loadingRef = useRef(false);
   const cacheRef = useRef<Map<string, Record<string, string>>>(new Map());
