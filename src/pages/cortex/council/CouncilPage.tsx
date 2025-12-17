@@ -1589,6 +1589,51 @@ export const CouncilPage: React.FC = () => {
                       </ul>
                     </div>
                   </div>
+
+                  {/* Example Scenarios for this Mode */}
+                  <div className="mt-4 pt-4 border-t border-neutral-200">
+                    <div className="flex items-center justify-between mb-2">
+                      <h4 className="text-sm font-semibold text-neutral-700">
+                        📋 Example Scenarios for {COUNCIL_MODES[selectedMode].name}:
+                      </h4>
+                      <button
+                        onClick={() => {
+                          setShowModesLibrary(false);
+                          setShowWorkflowPicker(true);
+                        }}
+                        className="text-xs text-primary-600 hover:text-primary-700 font-medium"
+                      >
+                        Browse All Scenarios →
+                      </button>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {(() => {
+                        const modeScenarios: Record<string, string[]> = {
+                          'war-room': ['Strategic M&A evaluation', 'Competitive response planning', 'Market entry decisions'],
+                          'due-diligence': ['Vendor contract review', 'Investment analysis', 'Partnership evaluation'],
+                          'innovation-lab': ['New product ideation', 'Technology exploration', 'Process innovation'],
+                          'compliance': ['Regulatory audit prep', 'Policy gap analysis', 'Risk assessment'],
+                          'crisis': ['Incident response', 'Reputation management', 'Emergency planning'],
+                          'execution': ['Project kickoff', 'Implementation planning', 'Resource allocation'],
+                          'research': ['Market research', 'Competitive analysis', 'Trend forecasting'],
+                          'investment': ['Budget allocation', 'Capital planning', 'ROI analysis'],
+                          'stakeholder': ['Change management', 'Communication planning', 'Alignment sessions'],
+                          'rapid': ['Quick decisions', 'Time-sensitive issues', 'Urgent approvals'],
+                          'advisory': ['Strategic consulting', 'Expert recommendations', 'Best practices'],
+                          'governance': ['Policy creation', 'Framework development', 'Standards setting'],
+                        };
+                        const scenarios = modeScenarios[selectedMode] || ['General deliberation'];
+                        return scenarios.map((scenario, i) => (
+                          <span
+                            key={i}
+                            className="inline-flex items-center px-3 py-1 bg-white border border-neutral-200 rounded-full text-xs text-neutral-600"
+                          >
+                            {scenario}
+                          </span>
+                        ));
+                      })()}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
