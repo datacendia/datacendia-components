@@ -10,7 +10,7 @@
 
 import axios from 'axios';
 
-const DRUID_URL = process.env.DRUID_ROUTER_URL || 'http://localhost:8888';
+const DRUID_URL = process.env['DRUID_ROUTER_URL'] || 'http://localhost:8888';
 
 // Datasource schemas
 const DATASOURCES = {
@@ -26,7 +26,6 @@ const DATASOURCES = {
 const DEPARTMENTS = ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal', 'HR', 'Product', 'Customer Success', 'Security'];
 const AGENTS = ['CendiaChief', 'CendiaCFO', 'CendiaCOO', 'CendiaCRO', 'CendiaRisk', 'CendiaLegal', 'CendiaHR', 'CendiaStrategy', 'CendiaCompliance', 'CendiaEthics'];
 const USERS = ['alice@acme.com', 'bob@acme.com', 'carol@acme.com', 'david@acme.com', 'eve@acme.com', 'frank@acme.com', 'grace@acme.com', 'henry@acme.com'];
-const RISK_LEVELS = ['low', 'medium', 'high', 'critical'];
 const MODELS = ['llama3.1:70b', 'qwen2.5:32b', 'mistral:7b', 'codellama:34b'];
 
 const DECISION_TEMPLATES = [
@@ -72,7 +71,7 @@ const AUDIT_ACTIONS = [
 
 // Helper functions
 function randomChoice<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)];
+  return arr[Math.floor(Math.random() * arr.length)] as T;
 }
 
 function randomInt(min: number, max: number): number {
@@ -247,13 +246,7 @@ function generateAlerts(count: number): any[] {
 }
 
 // Druid ingestion via SQL
-async function createDatasource(name: string, columns: string[]): Promise<boolean> {
-  console.log(`Creating datasource: ${name}`);
-  
-  // Druid auto-creates datasources on first insert
-  // We'll use MSQ (Multi-Stage Query) for batch ingestion
-  return true;
-}
+// Druid auto-creates datasources on first insert via MSQ
 
 async function ingestBatch(datasource: string, events: any[]): Promise<{ success: number; failed: number }> {
   if (events.length === 0) return { success: 0, failed: 0 };
@@ -268,7 +261,7 @@ async function ingestBatch(datasource: string, events: any[]): Promise<{ success
     
     try {
       // Use Druid's SQL-based ingestion (MSQ)
-      const response = await axios.post(`${DRUID_URL}/druid/v2/sql/task`, {
+      await axios.post(`${DRUID_URL}/druid/v2/sql/task`, {
         query: `
           INSERT INTO "${datasource}"
           SELECT *
