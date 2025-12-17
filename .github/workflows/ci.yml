@@ -66,7 +66,7 @@ jobs:
           fi
 
       - name: Upload coverage report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: frontend-coverage
           path: coverage/
@@ -81,7 +81,7 @@ jobs:
         run: npm run build
 
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: frontend-build
           path: dist/
@@ -163,7 +163,7 @@ jobs:
           fi
 
       - name: Upload backend coverage report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: backend-coverage
           path: backend/coverage/
@@ -256,7 +256,7 @@ jobs:
           API_URL: http://localhost:3001
 
       - name: Upload E2E test results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         if: always()
         with:
           name: playwright-report
@@ -379,7 +379,7 @@ jobs:
           BASE_URL: http://localhost:3001
 
       - name: Upload load test results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         if: always()
         with:
           name: k6-results
@@ -418,7 +418,7 @@ jobs:
           " || echo "OpenAPI generation requires running server"
 
       - name: Upload API documentation
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: api-documentation
           path: backend/docs/api/
@@ -483,7 +483,7 @@ jobs:
           fi
 
       - name: Upload critical coverage report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: critical-coverage
           path: coverage/critical/
@@ -515,7 +515,7 @@ jobs:
           CI: true
 
       - name: Upload pact files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         if: always()
         with:
           name: pact-contracts
@@ -549,7 +549,7 @@ jobs:
           CI: true
 
       - name: Upload mutation report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         if: always()
         with:
           name: mutation-report
