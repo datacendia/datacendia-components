@@ -500,18 +500,19 @@ const ComplianceDashboard: React.FC = () => {
       ]);
 
       if (ringsRes.success && ringsRes.data) {
-        const data = (ringsRes.data as any).data || ringsRes.data;
-        loadedRings = data.rings || [];
+        // API returns {success, data: {rings, summary}} - extract rings
+        const responseData = ringsRes.data as any;
+        loadedRings = responseData.rings || [];
       }
 
       if (fwRes.success && fwRes.data) {
-        const data = (fwRes.data as any).data || fwRes.data;
-        loadedFrameworks = Array.isArray(data) ? data : [];
+        // API returns {success, data: [...frameworks]} - data is the array
+        loadedFrameworks = Array.isArray(fwRes.data) ? fwRes.data : [];
       }
 
       if (assessRes.success && assessRes.data) {
-        const data = (assessRes.data as any).data || assessRes.data;
-        setAssessments(Array.isArray(data) ? data : []);
+        // API returns {success, data: [...assessments]}
+        setAssessments(Array.isArray(assessRes.data) ? assessRes.data : []);
       }
 
     } catch (err) {

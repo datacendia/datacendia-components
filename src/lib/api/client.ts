@@ -259,24 +259,21 @@ class ApiClient {
   }
 
   async post<T>(endpoint: string, body?: unknown): Promise<ApiResponse<T>> {
-    return this.request<T>(endpoint, {
-      method: 'POST',
-      body: body ? JSON.stringify(body) : undefined,
-    });
+    const options: RequestInit = { method: 'POST' };
+    if (body) options.body = JSON.stringify(body);
+    return this.request<T>(endpoint, options);
   }
 
   async put<T>(endpoint: string, body?: unknown): Promise<ApiResponse<T>> {
-    return this.request<T>(endpoint, {
-      method: 'PUT',
-      body: body ? JSON.stringify(body) : undefined,
-    });
+    const options: RequestInit = { method: 'PUT' };
+    if (body) options.body = JSON.stringify(body);
+    return this.request<T>(endpoint, options);
   }
 
   async patch<T>(endpoint: string, body?: unknown): Promise<ApiResponse<T>> {
-    return this.request<T>(endpoint, {
-      method: 'PATCH',
-      body: body ? JSON.stringify(body) : undefined,
-    });
+    const options: RequestInit = { method: 'PATCH' };
+    if (body) options.body = JSON.stringify(body);
+    return this.request<T>(endpoint, options);
   }
 
   async delete<T>(endpoint: string): Promise<ApiResponse<T>> {
