@@ -580,6 +580,15 @@ const sovereignFeatures = [
     impact: 'High',
     tier: 'Sovereign',
   },
+  {
+    id: 'oracle',
+    label: 'CendiaOracle™',
+    icon: '🔮',
+    path: '/cortex/sovereign/oracle',
+    description: 'Predictive Decision Intelligence - What If Time Machine',
+    impact: 'Critical',
+    tier: 'Sovereign',
+  },
 ];
 
 // Inner layout component that can use translations

@@ -296,6 +296,7 @@ const SymbiontPage = lazy(() =>
 const VoxPage = lazy(() =>
   import('./pages/sovereign/VoxPage').then((m) => ({ default: m.VoxPage }))
 );
+const OraclePage = lazy(() => import('./pages/sovereign/OraclePage'));
 
 // Crown Jewels - Premium Enterprise Services
 const EchoPage = lazy(() => import('./pages/cortex/crown').then((m) => ({ default: m.EchoPage })));
@@ -1591,6 +1592,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <VoxPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/oracle',
+        element: (
+          <SuspenseWrapper>
+            <OraclePage />
           </SuspenseWrapper>
         ),
       },
