@@ -16,10 +16,33 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 let workflowScenarios: any[] = [];
 try {
-  const scenariosPath = join(__dirname, '../data/workflow-scenarios.json');
-  const data = JSON.parse(readFileSync(scenariosPath, 'utf-8'));
-  workflowScenarios = data.scenarios || [];
-  logger.info(`Loaded ${workflowScenarios.length} workflow scenarios`);
+  const scenariosPath1 = join(__dirname, '../data/workflow-scenarios.json');
+  const scenariosPath2 = join(__dirname, '../data/workflow-scenarios-part2.json');
+
+  const file1 = JSON.parse(readFileSync(scenariosPath1, 'utf-8'));
+  const part1: any[] = Array.isArray(file1?.scenarios) ? file1.scenarios : [];
+
+  // Part2 is a raw array of scenario objects
+  const file2 = JSON.parse(readFileSync(scenariosPath2, 'utf-8'));
+  const part2: any[] = Array.isArray(file2) ? file2 : [];
+
+  const byId = new Map<string, any>();
+  for (const s of [...part1, ...part2]) {
+    if (s?.id) byId.set(String(s.id), s);
+  }
+
+  const parseIdNum = (id: string): number => {
+    const match = /WF-(\d+)/i.exec(id);
+    return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER;
+  };
+
+  workflowScenarios = Array.from(byId.values()).sort((a, b) =>
+    parseIdNum(String(a?.id)) - parseIdNum(String(b?.id))
+  );
+
+  logger.info(
+    `Loaded ${workflowScenarios.length} workflow scenarios (part1=${part1.length}, part2=${part2.length})`
+  );
 } catch (err) {
   logger.warn('Could not load workflow scenarios:', err);
 }

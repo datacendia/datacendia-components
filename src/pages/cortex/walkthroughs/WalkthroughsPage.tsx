@@ -502,6 +502,7 @@ const WalkthroughsPage: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(24);
 
   // Load scenarios from backend
   useEffect(() => {
@@ -528,17 +529,25 @@ const WalkthroughsPage: React.FC = () => {
     loadScenarios();
   }, []);
 
+  useEffect(() => {
+    setVisibleCount(24);
+  }, [searchQuery, selectedCategory]);
+
   // Get unique categories
-  const categories = [...new Set(scenarios.map(s => s.category))];
+  const categories = [
+    ...new Set(scenarios.map(s => s.category).filter((c): c is string => Boolean(c)))
+  ].sort();
 
   // Filter scenarios
   const filteredScenarios = scenarios.filter(s => {
     const matchesSearch = searchQuery === '' || 
       s.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      s.tags.some(t => t.toLowerCase().includes(searchQuery.toLowerCase()));
+      (s.tags?.some(t => t.toLowerCase().includes(searchQuery.toLowerCase())) ?? false);
     const matchesCategory = !selectedCategory || s.category === selectedCategory;
     return matchesSearch && matchesCategory;
   });
+
+  const visibleScenarios = filteredScenarios.slice(0, visibleCount);
 
   if (activeScenario) {
     return (
@@ -584,7 +593,7 @@ const WalkthroughsPage: React.FC = () => {
             className="w-full pl-10 pr-4 py-2.5 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500"
           />
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 overflow-x-auto max-w-full pb-1">
           <Filter className="w-5 h-5 text-gray-500" />
           <button
             onClick={() => setSelectedCategory(null)}
@@ -594,7 +603,7 @@ const WalkthroughsPage: React.FC = () => {
           >
             All
           </button>
-          {categories.slice(0, 5).map(cat => (
+          {categories.map(cat => (
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
@@ -615,15 +624,28 @@ const WalkthroughsPage: React.FC = () => {
           <p className="text-gray-400">Loading workflows...</p>
         </div>
       ) : (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredScenarios.map(scenario => (
-            <WalkthroughCard
-              key={scenario.id}
-              scenario={scenario}
-              onStart={() => setActiveScenario(scenario)}
-            />
-          ))}
-        </div>
+        <>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {visibleScenarios.map(scenario => (
+              <WalkthroughCard
+                key={scenario.id}
+                scenario={scenario}
+                onStart={() => setActiveScenario(scenario)}
+              />
+            ))}
+          </div>
+
+          {filteredScenarios.length > visibleCount && (
+            <div className="pt-4 flex justify-center">
+              <button
+                onClick={() => setVisibleCount((c) => Math.min(filteredScenarios.length, c + 24))}
+                className="px-6 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white font-medium"
+              >
+                Load more ({Math.min(filteredScenarios.length - visibleCount, 24)} more)
+              </button>
+            </div>
+          )}
+        </>
       )}
 
       {filteredScenarios.length === 0 && !loading && (
