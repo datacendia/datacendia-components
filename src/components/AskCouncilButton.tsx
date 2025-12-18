@@ -5,7 +5,7 @@
 import { useState } from 'react';
 import { MessageSquare, Sparkles, X, Send, Loader2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import { cn } from '../lib/utils';
+import { cn } from '../../lib/utils';
 
 interface AskCouncilButtonProps {
   // Pre-filled question (optional)

@@ -716,13 +716,13 @@ const generateEvents = (): TimelineEvent[] => {
   for (let i = 0; i < 80; i++) {
     const daysAgo = Math.floor(Math.random() * 730);
     const hoursAgo = Math.floor(Math.random() * 24);
-    const template = templates[Math.floor(Math.random() * templates.length)];
+    const template = templates[Math.floor(Math.random() * templates.length)]!;
 
     events.push({
       id: `evt-${i}`,
       timestamp: new Date(now.getTime() - (daysAgo * 24 + hoursAgo) * 60 * 60 * 1000),
       type: template.type,
-      title: template.titles[Math.floor(Math.random() * template.titles.length)],
+      title: template.titles[Math.floor(Math.random() * template.titles.length)]!,
       description: 'Full audit trail available. Click to replay Council deliberation.',
       impact: ['positive', 'negative', 'neutral'][Math.floor(Math.random() * 3)] as any,
       magnitude: Math.floor(Math.random() * 10) + 1,
@@ -1166,12 +1166,12 @@ const generateCRMEvents = (days: number = 90): CRMPipelineEvent[] => {
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: 'salesforce',
       opportunityId: `OPP-${100000 + i}`,
-      accountName: accounts[Math.floor(Math.random() * accounts.length)],
-      stage: stages[stageIdx],
+      accountName: accounts[Math.floor(Math.random() * accounts.length)]!,
+      stage: stages[stageIdx]!,
       previousStage: stageIdx > 0 ? stages[stageIdx - 1] : undefined,
       amount,
-      probability: [10, 25, 50, 75, 100, 0][stageIdx],
-      owner: owners[Math.floor(Math.random() * owners.length)],
+      probability: [10, 25, 50, 75, 100, 0][stageIdx]!,
+      owner: owners[Math.floor(Math.random() * owners.length)]!,
       closeDate: new Date(Date.now() + Math.floor(Math.random() * 90) * 24 * 60 * 60 * 1000),
       deltaAmount: Math.random() > 0.7 ? Math.floor((Math.random() - 0.5) * 50000) : undefined,
     });
@@ -1193,7 +1193,7 @@ const generateERPTransactions = (days: number = 90): ERPTransactionEvent[] => {
 
   for (let i = 0; i < 200; i++) {
     const daysAgo = Math.floor(Math.random() * days);
-    const type = types[Math.floor(Math.random() * types.length)];
+    const type = types[Math.floor(Math.random() * types.length)]!;
 
     events.push({
       id: `erp-${i}`,
@@ -1203,8 +1203,8 @@ const generateERPTransactions = (days: number = 90): ERPTransactionEvent[] => {
       documentNumber: `DOC-${200000 + i}`,
       amount: Math.floor(Math.random() * 100000) + 1000,
       currency: 'USD',
-      costCenter: costCenters[Math.floor(Math.random() * costCenters.length)],
-      glAccount: glAccounts[Math.floor(Math.random() * glAccounts.length)],
+      costCenter: costCenters[Math.floor(Math.random() * costCenters.length)]!,
+      glAccount: glAccounts[Math.floor(Math.random() * glAccounts.length)]!,
       description: `${type.replace('_', ' ')} - Auto generated`,
       approver: Math.random() > 0.5 ? 'CFO' : 'Controller',
     });
@@ -1237,17 +1237,17 @@ const generateHREvents = (days: number = 180): HREvent[] => {
 
   for (let i = 0; i < 100; i++) {
     const daysAgo = Math.floor(Math.random() * days);
-    const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)];
+    const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)]!;
 
     events.push({
       id: `hr-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: 'workday',
       eventType,
-      department: departments[Math.floor(Math.random() * departments.length)],
-      position: positions[Math.floor(Math.random() * positions.length)],
-      level: ['IC1', 'IC2', 'IC3', 'M1', 'M2', 'D1', 'VP'][Math.floor(Math.random() * 7)],
-      location: locations[Math.floor(Math.random() * locations.length)],
+      department: departments[Math.floor(Math.random() * departments.length)]!,
+      position: positions[Math.floor(Math.random() * positions.length)]!,
+      level: ['IC1', 'IC2', 'IC3', 'M1', 'M2', 'D1', 'VP'][Math.floor(Math.random() * 7)]!,
+      location: locations[Math.floor(Math.random() * locations.length)]!,
       headcountDelta: eventType === 'hire' ? 1 : eventType === 'termination' ? -1 : 0,
       compensationBand: ['$80k-100k', '$100k-130k', '$130k-160k', '$160k-200k', '$200k+'][
         Math.floor(Math.random() * 5)
@@ -1271,15 +1271,15 @@ const generateEngineeringEvents = (days: number = 90): EngineeringEvent[] => {
 
   for (let i = 0; i < 120; i++) {
     const daysAgo = Math.floor(Math.random() * days);
-    const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)];
+    const eventType = eventTypes[Math.floor(Math.random() * eventTypes.length)]!;
 
     events.push({
       id: `eng-${i}`,
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: Math.random() > 0.5 ? 'jira' : 'github',
       eventType,
-      project: projects[Math.floor(Math.random() * projects.length)],
-      team: teams[Math.floor(Math.random() * teams.length)],
+      project: projects[Math.floor(Math.random() * projects.length)]!,
+      team: teams[Math.floor(Math.random() * teams.length)]!,
       velocity: eventType === 'sprint_complete' ? Math.floor(Math.random() * 30) + 20 : undefined,
       storyPoints:
         eventType === 'sprint_complete' ? Math.floor(Math.random() * 50) + 30 : undefined,
@@ -1310,12 +1310,12 @@ const generateServiceTickets = (days: number = 60): ServiceTicketEvent[] => {
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: 'servicenow',
       ticketId: `INC${300000 + i}`,
-      category: categories[Math.floor(Math.random() * categories.length)],
-      priority: priorities[Math.floor(Math.random() * priorities.length)],
+      category: categories[Math.floor(Math.random() * categories.length)]!,
+      priority: priorities[Math.floor(Math.random() * priorities.length)]!,
       status: isResolved
         ? 'resolved'
         : (['open', 'in_progress'][Math.floor(Math.random() * 2)] as any),
-      assignee: assignees[Math.floor(Math.random() * assignees.length)],
+      assignee: assignees[Math.floor(Math.random() * assignees.length)]!,
       resolution: isResolved ? 'Issue resolved per standard procedure' : undefined,
       slaBreached: Math.random() > 0.85,
       responseTime: Math.floor(Math.random() * 60) + 5,
@@ -1361,12 +1361,12 @@ const generateDocumentRevisions = (days: number = 180): DocumentRevisionEvent[] 
       timestamp: new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000),
       source: 'sharepoint',
       documentId: `DOC-${400000 + i}`,
-      documentName: docs[Math.floor(Math.random() * docs.length)],
-      documentType: docTypes[Math.floor(Math.random() * docTypes.length)],
+      documentName: docs[Math.floor(Math.random() * docs.length)]!,
+      documentType: docTypes[Math.floor(Math.random() * docTypes.length)]!,
       version,
       previousVersion: parseFloat(version) > 1 ? `${parseFloat(version) - 0.1}` : undefined,
-      author: authors[Math.floor(Math.random() * authors.length)],
-      changeType: changeTypes[Math.floor(Math.random() * changeTypes.length)],
+      author: authors[Math.floor(Math.random() * authors.length)]!,
+      changeType: changeTypes[Math.floor(Math.random() * changeTypes.length)]!,
       approvers: Math.random() > 0.5 ? ['CFO', 'General Counsel'] : undefined,
     });
   }
