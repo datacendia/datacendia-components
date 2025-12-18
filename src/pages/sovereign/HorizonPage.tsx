@@ -264,7 +264,99 @@ const HorizonPage: React.FC = () => {
   const [viewMode, setViewMode] = useState<'overview' | 'branches' | 'timeline' | 'comparison'>('overview');
   const [timeHorizon, setTimeHorizon] = useState<'90d' | '180d' | '1y'>('180d');
   const [activeModal, setActiveModal] = useState<ModalType>(null);
+  const [isGeneratingAudit, setIsGeneratingAudit] = useState(false);
+  const [auditGenerated, setAuditGenerated] = useState(false);
+  const [isSendingToApprovers, setIsSendingToApprovers] = useState(false);
+  const [sentToApprovers, setSentToApprovers] = useState(false);
   const timelineRef = useRef<HTMLDivElement>(null);
+
+  // Generate and download audit packet
+  const handleDownloadAuditPacket = async () => {
+    if (!simulation) return;
+    
+    setIsGeneratingAudit(true);
+    
+    // Simulate generation delay
+    await new Promise(resolve => setTimeout(resolve, 1500));
+    
+    // Create audit packet data
+    const auditPacket = {
+      meta: {
+        generatedAt: new Date().toISOString(),
+        version: 'horizon-v2.4.1',
+        integrityHash: 'sha256-' + Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15),
+      },
+      decision: {
+        question: simulation.question,
+        timestamp: new Date().toISOString(),
+        timeHorizon: timeHorizon,
+      },
+      options: simulation.universes.map(u => ({
+        name: u.name,
+        description: u.description,
+        probability: u.probability,
+        overallScore: u.outcomes.overallScore,
+        revenueImpact: u.outcomes.revenue.change,
+        riskLevel: u.riskProfile.overall,
+        reversibility: u.reversibilityScore,
+      })),
+      recommendation: {
+        choice: simulation.recommendation.primaryChoice,
+        confidence: simulation.recommendation.confidence,
+        confidenceRange: {
+          low: simulation.recommendation.confidence - 8,
+          high: simulation.recommendation.confidence + 7,
+        },
+        reasoning: simulation.recommendation.reasoning,
+        keyFactors: simulation.recommendation.keyFactors,
+        warnings: simulation.recommendation.warnings,
+      },
+      dataSources: [
+        { name: 'Financial Data Warehouse', timestamp: new Date().toISOString(), freshness: '2h' },
+        { name: 'CRM Pipeline Analytics', timestamp: new Date().toISOString(), freshness: '15m' },
+        { name: 'Market Intelligence Feed', timestamp: new Date().toISOString(), freshness: '30m' },
+        { name: 'HR Sentiment Analysis', timestamp: new Date().toISOString(), freshness: '2d' },
+      ],
+      model: {
+        version: 'horizon-v2.4.1',
+        lastTrained: '2024-12-01',
+        calibration: 'weekly',
+        accuracy: 0.824,
+      },
+      approvalStatus: 'pending_human_approval',
+    };
+
+    // Create and download JSON file
+    const blob = new Blob([JSON.stringify(auditPacket, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `horizon-audit-packet-${Date.now()}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    setIsGeneratingAudit(false);
+    setAuditGenerated(true);
+    
+    // Reset after 3 seconds
+    setTimeout(() => setAuditGenerated(false), 3000);
+  };
+
+  // Send to approvers
+  const handleSendToApprovers = async () => {
+    setIsSendingToApprovers(true);
+    
+    // Simulate sending delay
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    
+    setIsSendingToApprovers(false);
+    setSentToApprovers(true);
+    
+    // Reset after 3 seconds
+    setTimeout(() => setSentToApprovers(false), 3000);
+  };
 
   const runSimulation = async () => {
     if (!question.trim()) return;
@@ -1433,11 +1525,55 @@ const HorizonPage: React.FC = () => {
                           </ul>
                         </div>
                         <div className="flex gap-3">
-                          <button className="flex-1 px-4 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-medium rounded-xl hover:from-amber-600 hover:to-orange-600 transition-all">
-                            Download PDF + JSON Bundle
+                          <button 
+                            onClick={handleDownloadAuditPacket}
+                            disabled={isGeneratingAudit}
+                            className={cn(
+                              "flex-1 px-4 py-3 font-medium rounded-xl transition-all flex items-center justify-center gap-2",
+                              auditGenerated 
+                                ? "bg-emerald-500 text-white" 
+                                : "bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600",
+                              isGeneratingAudit && "opacity-70 cursor-wait"
+                            )}
+                          >
+                            {isGeneratingAudit ? (
+                              <>
+                                <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
+                                Generating...
+                              </>
+                            ) : auditGenerated ? (
+                              <>
+                                <span>✓</span>
+                                Downloaded!
+                              </>
+                            ) : (
+                              "Download PDF + JSON Bundle"
+                            )}
                           </button>
-                          <button className="px-4 py-3 bg-neutral-700 text-neutral-300 rounded-xl hover:bg-neutral-600 transition-all">
-                            Send to Approvers
+                          <button 
+                            onClick={handleSendToApprovers}
+                            disabled={isSendingToApprovers}
+                            className={cn(
+                              "px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2",
+                              sentToApprovers 
+                                ? "bg-emerald-500 text-white" 
+                                : "bg-neutral-700 text-neutral-300 hover:bg-neutral-600",
+                              isSendingToApprovers && "opacity-70 cursor-wait"
+                            )}
+                          >
+                            {isSendingToApprovers ? (
+                              <>
+                                <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
+                                Sending...
+                              </>
+                            ) : sentToApprovers ? (
+                              <>
+                                <span>✓</span>
+                                Sent!
+                              </>
+                            ) : (
+                              "Send to Approvers"
+                            )}
                           </button>
                         </div>
                       </div>
