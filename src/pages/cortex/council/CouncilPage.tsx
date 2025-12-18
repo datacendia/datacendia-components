@@ -765,6 +765,9 @@ export const CouncilPage: React.FC = () => {
   // Custom Agent Creator
   const [showAgentCreator, setShowAgentCreator] = useState(false);
   const [editingAgent, setEditingAgent] = useState<Agent | null>(null);
+  
+  // Interactive circular diagram - selected agent for personality display
+  const [highlightedAgent, setHighlightedAgent] = useState<Agent | null>(null);
 
   // Collapsible agent sections
   const [expandedAgentSections, setExpandedAgentSections] = useState<Record<string, boolean>>({
@@ -1921,23 +1924,46 @@ export const CouncilPage: React.FC = () => {
           </div>
         )}
 
-        {/* Custom Agents & Unlocked Industry Agents - Collapsible */}
+        {/* Custom Agents & Unlocked Industry Agents - Collapsible - Fix #5: More prominent */}
         <div className="mb-4">
           <button
             onClick={() => toggleAgentSection('custom')}
-            className="w-full flex items-center gap-2 p-3 bg-neutral-50 hover:bg-neutral-100 rounded-lg transition-colors"
+            className={cn(
+              "w-full flex items-center gap-2 p-3 rounded-lg transition-colors",
+              customAgents.length > 0 
+                ? "bg-gradient-to-r from-purple-50 to-indigo-50 hover:from-purple-100 hover:to-indigo-100 border border-purple-200" 
+                : "bg-neutral-50 hover:bg-neutral-100"
+            )}
           >
             <span className={cn(
-              'text-neutral-400 transition-transform',
+              'transition-transform',
+              customAgents.length > 0 ? 'text-purple-500' : 'text-neutral-400',
               expandedAgentSections.custom && 'rotate-90'
             )}>▶</span>
-            <span className="text-xs font-semibold text-neutral-600 uppercase tracking-wider">
+            <span className="text-lg">✨</span>
+            <span className={cn(
+              "text-xs font-semibold uppercase tracking-wider",
+              customAgents.length > 0 ? "text-purple-700" : "text-neutral-600"
+            )}>
               Custom Agents
             </span>
+            {/* Prominent count badge */}
+            {customAgents.length > 0 && (
+              <span className="px-2 py-0.5 bg-purple-500 text-white text-xs font-bold rounded-full animate-pulse">
+                {customAgents.length}
+              </span>
+            )}
             <span className="text-xs text-neutral-400">
-              ({allAgents.filter(a => a.isCustom || (a.premium && !a.premiumPackage?.includes('Audit') && !a.premiumPackage?.includes('Healthcare') && !a.premiumPackage?.includes('Clinical') && premium.hasAgentAccess(a.id))).length})
+              {allAgents.filter(a => a.isCustom || (a.premium && !a.premiumPackage?.includes('Audit') && !a.premiumPackage?.includes('Healthcare') && !a.premiumPackage?.includes('Clinical') && premium.hasAgentAccess(a.id))).length > customAgents.length && (
+                <>+ {allAgents.filter(a => !a.isCustom && a.premium && !a.premiumPackage?.includes('Audit') && !a.premiumPackage?.includes('Healthcare') && !a.premiumPackage?.includes('Clinical') && premium.hasAgentAccess(a.id)).length} unlocked</>
+              )}
             </span>
             <div className="flex-1" />
+            {customAgents.length === 0 && (
+              <span className="text-xs text-purple-500 font-medium">
+                + Create your first agent
+              </span>
+            )}
           </button>
           {expandedAgentSections.custom && (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-3 pl-6">
@@ -2158,29 +2184,33 @@ export const CouncilPage: React.FC = () => {
                 const x = Math.cos(angle) * radius + 160;
                 const y = Math.sin(angle) * radius + 100;
                 const activation = agentActivations[agent.code];
+                const isHighlighted = highlightedAgent?.id === agent.id;
 
                 return (
                   <div
                     key={agent.id}
                     className={cn(
-                      'absolute transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500',
-                      activation && 'scale-110 z-10'
+                      'absolute transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 cursor-pointer',
+                      (activation || isHighlighted) && 'scale-110 z-10'
                     )}
                     style={{ left: x, top: y }}
+                    onClick={() => setHighlightedAgent(isHighlighted ? null : agent)}
                   >
                     <div
                       className={cn(
                         'relative w-12 h-12 rounded-full flex items-center justify-center text-lg border-2 transition-all duration-300',
                         activation
                           ? 'shadow-lg animate-pulse'
-                          : selectedAgents.includes(agent.id)
-                            ? 'opacity-100'
-                            : 'opacity-50'
+                          : isHighlighted
+                            ? 'ring-2 ring-white ring-offset-2 ring-offset-neutral-900'
+                            : selectedAgents.includes(agent.id)
+                              ? 'opacity-100'
+                              : 'opacity-50 hover:opacity-80'
                       )}
                       style={{
                         backgroundColor: activation ? `${activation.color}30` : `${agent.color}20`,
                         borderColor: activation ? activation.color : agent.color,
-                        boxShadow: activation ? `0 0 20px ${activation.color}50` : undefined,
+                        boxShadow: activation ? `0 0 20px ${activation.color}50` : isHighlighted ? `0 0 15px ${agent.color}60` : undefined,
                       }}
                     >
                       {agent.avatar}
@@ -2202,7 +2232,7 @@ export const CouncilPage: React.FC = () => {
                       <div
                         className={cn(
                           'text-[10px] font-medium',
-                          activation ? 'text-white' : 'text-neutral-500'
+                          activation ? 'text-white' : isHighlighted ? 'text-white' : 'text-neutral-500'
                         )}
                       >
                         {agent.code.toUpperCase()}
@@ -2213,8 +2243,95 @@ export const CouncilPage: React.FC = () => {
               })}
           </div>
 
+          {/* Agent Personality Panel - Shows when agent is clicked */}
+          {highlightedAgent && (
+            <div 
+              className="mt-4 p-4 rounded-xl border transition-all animate-fade-in"
+              style={{ 
+                backgroundColor: `${highlightedAgent.color}15`,
+                borderColor: `${highlightedAgent.color}40`
+              }}
+            >
+              <div className="flex items-start gap-4">
+                <div 
+                  className="w-14 h-14 rounded-xl flex items-center justify-center text-2xl flex-shrink-0"
+                  style={{ backgroundColor: `${highlightedAgent.color}30` }}
+                >
+                  {highlightedAgent.avatar}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <h4 className="font-semibold text-white">{highlightedAgent.name}</h4>
+                    <span 
+                      className="text-[10px] px-2 py-0.5 rounded-full font-medium"
+                      style={{ backgroundColor: `${highlightedAgent.color}30`, color: highlightedAgent.color }}
+                    >
+                      {highlightedAgent.role}
+                    </span>
+                  </div>
+                  <p className="text-sm text-neutral-400 mb-2">{highlightedAgent.description}</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {highlightedAgent.capabilities?.slice(0, 4).map((cap, i) => (
+                      <span key={i} className="text-[10px] px-2 py-0.5 bg-neutral-800 text-neutral-300 rounded">
+                        {cap}
+                      </span>
+                    ))}
+                  </div>
+                  {/* Personality Traits */}
+                  <div className="mt-3 pt-3 border-t border-neutral-700/50">
+                    <div className="text-[10px] text-neutral-500 uppercase tracking-wider mb-1.5">Deliberation Style</div>
+                    <div className="flex flex-wrap gap-2">
+                      {highlightedAgent.code === 'chief' && (
+                        <>
+                          <span className="text-xs px-2 py-0.5 bg-indigo-900/50 text-indigo-300 rounded">🎯 Synthesizer</span>
+                          <span className="text-xs px-2 py-0.5 bg-indigo-900/50 text-indigo-300 rounded">⚖️ Balanced</span>
+                        </>
+                      )}
+                      {highlightedAgent.code === 'cfo' && (
+                        <>
+                          <span className="text-xs px-2 py-0.5 bg-emerald-900/50 text-emerald-300 rounded">📊 Data-Driven</span>
+                          <span className="text-xs px-2 py-0.5 bg-emerald-900/50 text-emerald-300 rounded">🔍 Skeptic</span>
+                        </>
+                      )}
+                      {highlightedAgent.code === 'coo' && (
+                        <>
+                          <span className="text-xs px-2 py-0.5 bg-blue-900/50 text-blue-300 rounded">⚡ Execution-Focused</span>
+                          <span className="text-xs px-2 py-0.5 bg-blue-900/50 text-blue-300 rounded">📋 Pragmatic</span>
+                        </>
+                      )}
+                      {highlightedAgent.code === 'ciso' && (
+                        <>
+                          <span className="text-xs px-2 py-0.5 bg-red-900/50 text-red-300 rounded">🛡️ Risk-Averse</span>
+                          <span className="text-xs px-2 py-0.5 bg-red-900/50 text-red-300 rounded">🔒 Compliance-First</span>
+                        </>
+                      )}
+                      {highlightedAgent.code === 'risk' && (
+                        <>
+                          <span className="text-xs px-2 py-0.5 bg-orange-900/50 text-orange-300 rounded">⚠️ Cautious</span>
+                          <span className="text-xs px-2 py-0.5 bg-orange-900/50 text-orange-300 rounded">🎲 Scenario Planner</span>
+                        </>
+                      )}
+                      {highlightedAgent.code === 'cdo' && (
+                        <>
+                          <span className="text-xs px-2 py-0.5 bg-cyan-900/50 text-cyan-300 rounded">📈 Evidence-Based</span>
+                          <span className="text-xs px-2 py-0.5 bg-cyan-900/50 text-cyan-300 rounded">🧪 Analytical</span>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                </div>
+                <button 
+                  onClick={() => setHighlightedAgent(null)}
+                  className="text-neutral-500 hover:text-white transition-colors"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+          )}
+
           {/* Drop Instructions */}
-          {!droppedFile && !isDragging && (
+          {!droppedFile && !isDragging && !highlightedAgent && (
             <div className="text-center mt-6">
               <p className="text-sm text-neutral-500">
                 Drag a <span className="text-amber-400">PDF</span>,{' '}
@@ -2223,6 +2340,9 @@ export const CouncilPage: React.FC = () => {
               </p>
               <p className="text-xs text-neutral-600 mt-1">
                 The Council will auto-detect the document type and wake relevant agents
+              </p>
+              <p className="text-xs text-neutral-600 mt-1">
+                💡 <span className="text-neutral-500">Click an agent above to see their personality</span>
               </p>
             </div>
           )}
@@ -2322,6 +2442,32 @@ export const CouncilPage: React.FC = () => {
             <div className="text-sm text-white/60">
               {language === 'es' ? 'Líder' : 'Lead'}:{' '}
               {COUNCIL_MODES[selectedMode]?.leadAgent.toUpperCase()}
+            </div>
+          </div>
+          
+          {/* Quick Mode Alternatives - Fix #4 */}
+          <div className="mt-3 pt-3 border-t border-white/10">
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="text-xs text-white/50">Quick switch:</span>
+              {Object.values(COUNCIL_MODES)
+                .filter((mode) => mode.isCore && mode.id !== selectedMode)
+                .slice(0, 3)
+                .map((mode) => (
+                  <button
+                    key={mode.id}
+                    onClick={() => setSelectedMode(mode.id)}
+                    className="flex items-center gap-1.5 px-2 py-1 bg-white/10 hover:bg-white/20 border border-white/20 rounded text-xs transition-colors"
+                  >
+                    <span>{mode.emoji}</span>
+                    <span>{getModeName(mode.id)}</span>
+                  </button>
+                ))}
+              <button
+                onClick={() => setShowModesLibrary(true)}
+                className="text-xs text-primary-300 hover:text-primary-200 underline"
+              >
+                +{Object.keys(COUNCIL_MODES).length - 4} more
+              </button>
             </div>
           </div>
         </div>
@@ -3187,9 +3333,34 @@ export const CouncilPage: React.FC = () => {
               </div>
             ))
           ) : (
-            <div className="text-center py-12 text-neutral-500">
-              <p className="text-4xl mb-2">💭</p>
-              <p>{t('council.no_decisions')}</p>
+            <div className="text-center py-8 text-neutral-500">
+              <p className="text-4xl mb-3">💭</p>
+              <p className="mb-4">{t('council.no_decisions')}</p>
+              
+              {/* Starter Prompts */}
+              <div className="mt-6 space-y-2">
+                <p className="text-xs text-neutral-400 uppercase tracking-wider mb-3">Try a sample question:</p>
+                <div className="flex flex-wrap justify-center gap-2">
+                  {[
+                    { emoji: '🌍', prompt: 'Should we expand into the EU market given current regulations?' },
+                    { emoji: '💰', prompt: 'Analyze the ROI of our AI investment over the next 3 years' },
+                    { emoji: '⚠️', prompt: 'What are the top 5 risks to our Q4 revenue targets?' },
+                    { emoji: '🤝', prompt: 'How should we respond to the competitor acquisition?' },
+                  ].map((starter, idx) => (
+                    <button
+                      key={idx}
+                      onClick={() => {
+                        setQueryInput(starter.prompt);
+                        queryInputRef.current?.focus();
+                      }}
+                      className="flex items-center gap-2 px-3 py-2 bg-neutral-800 hover:bg-neutral-700 border border-neutral-700 rounded-lg text-sm text-neutral-300 hover:text-white transition-colors"
+                    >
+                      <span>{starter.emoji}</span>
+                      <span className="max-w-[200px] truncate">{starter.prompt}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
             </div>
           )}
         </div>

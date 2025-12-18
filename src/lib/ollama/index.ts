@@ -271,7 +271,7 @@ Ensure all data-driven decisions are based on trustworthy, well-governed data.`,
   {
     id: 'agent-risk',
     code: 'risk',
-    name: 'CRO - Risk Intelligence Agent',
+    name: 'CRiskO - Chief Risk Officer',
     role: 'Enterprise Risk Analysis',
     description:
       'Evaluates enterprise risks, performs impact analysis, and provides risk mitigation strategies.',
