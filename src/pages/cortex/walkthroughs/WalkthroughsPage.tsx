@@ -500,6 +500,7 @@ const WalkthroughsPage: React.FC = () => {
   const [scenarios, setScenarios] = useState<WorkflowScenario[]>(DEMO_SCENARIOS);
   const [activeScenario, setActiveScenario] = useState<WorkflowScenario | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedGroup, setSelectedGroup] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [visibleCount, setVisibleCount] = useState(24);
@@ -531,20 +532,61 @@ const WalkthroughsPage: React.FC = () => {
 
   useEffect(() => {
     setVisibleCount(24);
-  }, [searchQuery, selectedCategory]);
+  }, [searchQuery, selectedGroup, selectedCategory]);
+
+  const getGroupForCategory = (category: string): string => {
+    const c = category.toLowerCase();
+    if (c.includes('security') || c.includes('risk') || c.includes('fraud')) return 'Security & Risk';
+    if (c.includes('compliance') || c.includes('legal') || c.includes('audit') || c.includes('governance'))
+      return 'Compliance & Legal';
+    if (c.includes('finance') || c.includes('investor') || c.includes('equity') || c.includes('tax'))
+      return 'Finance & Investor';
+    if (c.includes('human resources') || c.includes('hr') || c.includes('talent') || c.includes('workforce'))
+      return 'People & HR';
+    if (c.includes('manufacturing') || c.includes('facilities') || c.includes('procurement') || c.includes('operations') || c.includes('supply'))
+      return 'Operations';
+    if (c.includes('customer') || c.includes('support') || c.includes('customer experience')) return 'Customer';
+    if (c.includes('sales') || c.includes('marketing') || c.includes('business development')) return 'Sales & Growth';
+    if (c.includes('product') || c.includes('engineering') || c.includes('technology') || c.includes('ai') || c.includes('data') || c.includes('analytics'))
+      return 'Product & Tech';
+    if (c.includes('strategy') || c.includes('executive') || c.includes('mergers')) return 'Strategy & Executive';
+    return 'Other';
+  };
 
   // Get unique categories
-  const categories = [
-    ...new Set(scenarios.map(s => s.category).filter((c): c is string => Boolean(c)))
-  ].sort();
+  const categories = [...new Set(scenarios.map(s => s.category).filter((c): c is string => Boolean(c)))].sort();
+
+  const groupCounts = scenarios.reduce<Record<string, number>>((acc, s) => {
+    const group = getGroupForCategory(s.category);
+    acc[group] = (acc[group] ?? 0) + 1;
+    return acc;
+  }, {});
+
+  const groups = Object.keys(groupCounts).sort((a, b) => {
+    const diff = (groupCounts[b] ?? 0) - (groupCounts[a] ?? 0);
+    return diff !== 0 ? diff : a.localeCompare(b);
+  });
+
+  const categoriesInSelectedGroup = selectedGroup
+    ? categories.filter((cat) => getGroupForCategory(cat) === selectedGroup)
+    : categories;
+
+  useEffect(() => {
+    if (selectedCategory && selectedGroup) {
+      if (getGroupForCategory(selectedCategory) !== selectedGroup) {
+        setSelectedCategory(null);
+      }
+    }
+  }, [selectedCategory, selectedGroup]);
 
   // Filter scenarios
   const filteredScenarios = scenarios.filter(s => {
     const matchesSearch = searchQuery === '' || 
       s.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       (s.tags?.some(t => t.toLowerCase().includes(searchQuery.toLowerCase())) ?? false);
+    const matchesGroup = !selectedGroup || getGroupForCategory(s.category) === selectedGroup;
     const matchesCategory = !selectedCategory || s.category === selectedCategory;
-    return matchesSearch && matchesCategory;
+    return matchesSearch && matchesGroup && matchesCategory;
   });
 
   const visibleScenarios = filteredScenarios.slice(0, visibleCount);
@@ -593,27 +635,46 @@ const WalkthroughsPage: React.FC = () => {
             className="w-full pl-10 pr-4 py-2.5 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500"
           />
         </div>
-        <div className="flex items-center gap-2 overflow-x-auto max-w-full pb-1">
+        <div className="flex items-center gap-2 flex-wrap">
           <Filter className="w-5 h-5 text-gray-500" />
-          <button
-            onClick={() => setSelectedCategory(null)}
-            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-              !selectedCategory ? 'bg-cyan-600 text-white' : 'bg-slate-700 text-gray-300 hover:bg-slate-600'
-            }`}
+          <select
+            value={selectedGroup ?? ''}
+            onChange={(e) => setSelectedGroup(e.target.value ? e.target.value : null)}
+            className="px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white text-sm focus:outline-none focus:border-cyan-500"
           >
-            All
-          </button>
-          {categories.map(cat => (
+            <option value="">All Groups ({scenarios.length})</option>
+            {groups.map((g) => (
+              <option key={g} value={g}>
+                {g} ({groupCounts[g] ?? 0})
+              </option>
+            ))}
+          </select>
+
+          <select
+            value={selectedCategory ?? ''}
+            onChange={(e) => setSelectedCategory(e.target.value ? e.target.value : null)}
+            className="px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white text-sm focus:outline-none focus:border-cyan-500 min-w-[220px]"
+          >
+            <option value="">All Categories ({categoriesInSelectedGroup.length})</option>
+            {categoriesInSelectedGroup.map((cat) => (
+              <option key={cat} value={cat}>
+                {cat}
+              </option>
+            ))}
+          </select>
+
+          {(selectedGroup || selectedCategory || searchQuery) && (
             <button
-              key={cat}
-              onClick={() => setSelectedCategory(cat)}
-              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
-                selectedCategory === cat ? 'bg-cyan-600 text-white' : 'bg-slate-700 text-gray-300 hover:bg-slate-600'
-              }`}
+              onClick={() => {
+                setSearchQuery('');
+                setSelectedGroup(null);
+                setSelectedCategory(null);
+              }}
+              className="px-3 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white text-sm font-medium"
             >
-              {cat}
+              Clear
             </button>
-          ))}
+          )}
         </div>
       </div>
 
