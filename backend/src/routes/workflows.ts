@@ -7,8 +7,56 @@ import { pubsub } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
+import { readFileSync } from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+// Load workflow scenarios from JSON file
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+let workflowScenarios: any[] = [];
+try {
+  const scenariosPath = join(__dirname, '../data/workflow-scenarios.json');
+  const data = JSON.parse(readFileSync(scenariosPath, 'utf-8'));
+  workflowScenarios = data.scenarios || [];
+  logger.info(`Loaded ${workflowScenarios.length} workflow scenarios`);
+} catch (err) {
+  logger.warn('Could not load workflow scenarios:', err);
+}
 
 const router = Router();
+
+/**
+ * GET /api/v1/workflows/scenarios
+ * Get all workflow scenarios (walkthroughs) - no auth required for demo
+ */
+router.get('/scenarios', (req: Request, res: Response) => {
+  const category = req.query.category as string | undefined;
+  const search = req.query.search as string | undefined;
+  
+  let filtered = workflowScenarios;
+  
+  if (category) {
+    filtered = filtered.filter(s => s.category === category);
+  }
+  
+  if (search) {
+    const searchLower = search.toLowerCase();
+    filtered = filtered.filter(s => 
+      s.name.toLowerCase().includes(searchLower) ||
+      s.tags?.some((t: string) => t.toLowerCase().includes(searchLower))
+    );
+  }
+  
+  res.json({
+    success: true,
+    data: filtered,
+    meta: {
+      total: workflowScenarios.length,
+      filtered: filtered.length,
+    },
+  });
+});
 
 router.use(devAuth);
 

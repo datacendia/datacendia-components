@@ -511,12 +511,17 @@ const WalkthroughsPage: React.FC = () => {
         const response = await fetch('http://localhost:3000/api/v1/workflows/scenarios');
         if (response.ok) {
           const result = await response.json();
-          if (result.success && Array.isArray(result.data)) {
+          if (result.success && Array.isArray(result.data) && result.data.length > 0) {
             setScenarios(result.data);
+            console.log(`Loaded ${result.data.length} workflow scenarios from backend`);
+          } else {
+            console.log('Backend returned empty, using demo scenarios');
           }
+        } else {
+          console.log('Backend unavailable, using demo scenarios');
         }
       } catch (err) {
-        console.log('Using demo scenarios');
+        console.log('Using demo scenarios - backend error:', err);
       }
       setLoading(false);
     };
