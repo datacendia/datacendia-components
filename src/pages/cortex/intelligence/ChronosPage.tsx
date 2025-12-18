@@ -40,10 +40,10 @@ interface TimelineEvent {
   description: string;
   impact: 'positive' | 'negative' | 'neutral';
   magnitude: number;
-  department?: string;
-  actors?: string[];
-  deliberationId?: string;
-  snapshotId?: string;
+  department?: string | undefined;
+  actors?: string[] | undefined;
+  deliberationId?: string | undefined;
+  snapshotId?: string | undefined;
 }
 
 interface StateSnapshot {
@@ -190,12 +190,12 @@ interface CRMPipelineEvent {
   opportunityId: string;
   accountName: string;
   stage: string;
-  previousStage?: string;
+  previousStage?: string | undefined;
   amount: number;
   probability: number;
   owner: string;
   closeDate: Date;
-  deltaAmount?: number;
+  deltaAmount?: number | undefined;
 }
 
 interface ERPTransactionEvent {
@@ -225,10 +225,10 @@ interface HREvent {
     | 'performance_review';
   department: string;
   position: string;
-  level?: string;
+  level?: string | undefined;
   location: string;
   headcountDelta: number;
-  compensationBand?: string;
+  compensationBand?: string | undefined;
 }
 
 interface EngineeringEvent {
@@ -238,12 +238,12 @@ interface EngineeringEvent {
   eventType: 'sprint_complete' | 'release' | 'incident' | 'pr_merged' | 'deployment';
   project: string;
   team: string;
-  velocity?: number;
-  storyPoints?: number;
-  leadTime?: number;
-  cycleTime?: number;
-  deployFrequency?: number;
-  incidentSeverity?: 'critical' | 'high' | 'medium' | 'low';
+  velocity?: number | undefined;
+  storyPoints?: number | undefined;
+  leadTime?: number | undefined;
+  cycleTime?: number | undefined;
+  deployFrequency?: number | undefined;
+  incidentSeverity?: 'critical' | 'high' | 'medium' | 'low' | undefined;
 }
 
 interface ServiceTicketEvent {
@@ -255,10 +255,10 @@ interface ServiceTicketEvent {
   priority: 'critical' | 'high' | 'medium' | 'low';
   status: 'open' | 'in_progress' | 'resolved' | 'closed';
   assignee: string;
-  resolution?: string;
+  resolution?: string | undefined;
   slaBreached: boolean;
   responseTime: number;
-  resolutionTime?: number;
+  resolutionTime?: number | undefined;
 }
 
 interface DocumentRevisionEvent {
@@ -269,10 +269,10 @@ interface DocumentRevisionEvent {
   documentName: string;
   documentType: 'policy' | 'contract' | 'spec' | 'report' | 'presentation';
   version: string;
-  previousVersion?: string;
+  previousVersion?: string | undefined;
   author: string;
   changeType: 'created' | 'modified' | 'approved' | 'published' | 'archived';
-  approvers?: string[];
+  approvers?: string[] | undefined;
 }
 
 interface FinancialValidationEvent {
@@ -478,7 +478,7 @@ interface TraceabilityView {
     agentId: string;
     agentName: string;
     agentRole: string;
-    deliberationId?: string;
+    deliberationId?: string | undefined;
     reasoning: string;
   };
   serviceChain: Array<{
@@ -728,7 +728,7 @@ const generateEvents = (): TimelineEvent[] => {
       magnitude: Math.floor(Math.random() * 10) + 1,
       department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal'][
         Math.floor(Math.random() * 6)
-      ],
+      ]!,
       actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council'].slice(
         0,
         Math.floor(Math.random() * 3) + 1
@@ -1251,7 +1251,7 @@ const generateHREvents = (days: number = 180): HREvent[] => {
       headcountDelta: eventType === 'hire' ? 1 : eventType === 'termination' ? -1 : 0,
       compensationBand: ['$80k-100k', '$100k-130k', '$130k-160k', '$160k-200k', '$200k+'][
         Math.floor(Math.random() * 5)
-      ],
+      ]!,
     });
   }
   return events.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
@@ -1627,7 +1627,7 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
   return {
     eventId: event.id,
     originSource: {
-      dataset: datasets[Math.floor(Math.random() * datasets.length)],
+      dataset: datasets[Math.floor(Math.random() * datasets.length)]!,
       table: `${event.department?.toLowerCase() || 'core'}_events`,
       field: event.type === 'metric' ? 'value' : event.type === 'financial' ? 'amount' : 'status',
       timestamp: new Date(event.timestamp.getTime() - 3600000),
@@ -1635,8 +1635,8 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
     },
     intermediateTransforms: Array.from({ length: 3 + Math.floor(Math.random() * 3) }, (_, i) => ({
       step: i + 1,
-      service: services[i % services.length],
-      operation: ['Extract', 'Transform', 'Validate', 'Enrich', 'Aggregate', 'Normalize'][i % 6],
+      service: services[i % services.length]!,
+      operation: ['Extract', 'Transform', 'Validate', 'Enrich', 'Aggregate', 'Normalize'][i % 6]!,
       inputHash: generateHash(`input-${event.id}-${i}`),
       outputHash: generateHash(`output-${event.id}-${i}`),
       timestamp: new Date(event.timestamp.getTime() - (3600000 - i * 600000)),
@@ -1649,7 +1649,7 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
     },
     agentProvenance: {
       agentId: `agent-${Math.floor(Math.random() * 6)}`,
-      agentName: agents[Math.floor(Math.random() * agents.length)],
+      agentName: agents[Math.floor(Math.random() * agents.length)]!,
       agentRole: event.actors?.[0] || 'Analyst',
       deliberationId: event.deliberationId,
       reasoning: `Analysis based on ${event.type} data patterns and historical precedent. Confidence level determined by data quality and model accuracy.`,
@@ -1657,13 +1657,13 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
     serviceChain: services.slice(0, 3 + Math.floor(Math.random() * 2)).map((s, i) => ({
       serviceName: s,
       version: `v${Math.floor(Math.random() * 3) + 1}.${Math.floor(Math.random() * 10)}.${Math.floor(Math.random() * 20)}`,
-      method: ['process', 'analyze', 'validate', 'transform'][i % 4],
+      method: ['process', 'analyze', 'validate', 'transform'][i % 4]!,
       latency: 10 + Math.floor(Math.random() * 50),
     })),
     datasetLineage: datasets.slice(0, 2 + Math.floor(Math.random() * 2)).map((d) => ({
       datasetId: `ds-${generateHash(d).slice(0, 8)}`,
       datasetName: d,
-      source: ['Salesforce', 'SAP', 'Workday', 'Internal'][Math.floor(Math.random() * 4)],
+      source: ['Salesforce', 'SAP', 'Workday', 'Internal'][Math.floor(Math.random() * 4)]!,
       lastUpdated: new Date(event.timestamp.getTime() - Math.random() * 86400000),
       recordCount: Math.floor(Math.random() * 1000000),
       quality: 0.9 + Math.random() * 0.09,
@@ -1671,7 +1671,7 @@ const generateTraceabilityView = (event: TimelineEvent): TraceabilityView => {
     frameworkGovernance: {
       framework: ['NIST CSF', 'ISO 27001', 'SOC 2', 'GDPR', 'OECD AI'][
         Math.floor(Math.random() * 5)
-      ],
+      ]!,
       policy: `${event.department || 'Corporate'} Data Governance Policy v2.1`,
       controls: ['Access Control', 'Data Classification', 'Audit Logging', 'Encryption'].slice(
         0,
