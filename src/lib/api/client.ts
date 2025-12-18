@@ -190,11 +190,17 @@ class ApiClient {
       headers[DATA_SOURCE_HEADER] = dataSourceId;
     }
 
+    // Add timeout to prevent slow loading (5 seconds)
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 5000);
+
     try {
       let response = await fetch(url, {
         ...options,
         headers,
+        signal: controller.signal,
       });
+      clearTimeout(timeoutId);
 
       // Handle token expiration
       if (response.status === 401 && accessToken) {

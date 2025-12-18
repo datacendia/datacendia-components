@@ -482,7 +482,7 @@ const ComplianceDashboard: React.FC = () => {
   const [generating, setGenerating] = useState(false);
   const [runningAssessment, setRunningAssessment] = useState<ComplianceDomain | null>(null);
 
-  // Load initial data
+  // Load initial data - parallel requests for speed
   const loadData = useCallback(async () => {
     setLoading(true);
     setError(null);
@@ -492,22 +492,23 @@ const ComplianceDashboard: React.FC = () => {
     let loadedFrameworks: ComplianceFramework[] = [];
     
     try {
-      // Fetch Five Rings
-      const ringsRes = await apiClient.api.get<{ data: { rings: Ring[]; summary: any } }>('/compliance/five-rings');
+      // Fetch all data in parallel for faster loading
+      const [ringsRes, fwRes, assessRes] = await Promise.all([
+        apiClient.api.get<{ data: { rings: Ring[]; summary: any } }>('/compliance/five-rings'),
+        apiClient.api.get<{ data: ComplianceFramework[] }>('/compliance/frameworks'),
+        apiClient.api.get<{ data: Assessment[] }>('/compliance/assessments?organizationId=org-1'),
+      ]);
+
       if (ringsRes.success && ringsRes.data) {
         const data = (ringsRes.data as any).data || ringsRes.data;
         loadedRings = data.rings || [];
       }
 
-      // Fetch Frameworks
-      const fwRes = await apiClient.api.get<{ data: ComplianceFramework[] }>('/compliance/frameworks');
       if (fwRes.success && fwRes.data) {
         const data = (fwRes.data as any).data || fwRes.data;
         loadedFrameworks = Array.isArray(data) ? data : [];
       }
 
-      // Fetch Assessments
-      const assessRes = await apiClient.api.get<{ data: Assessment[] }>('/compliance/assessments?organizationId=org-1');
       if (assessRes.success && assessRes.data) {
         const data = (assessRes.data as any).data || assessRes.data;
         setAssessments(Array.isArray(data) ? data : []);
