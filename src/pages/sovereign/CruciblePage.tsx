@@ -768,6 +768,8 @@ export const CruciblePage: React.FC = () => {
 
   useEffect(() => {
     const loadData = async () => {
+      let loadedTemplates: SimulationTemplate[] = [];
+      
       try {
         const [
           templatesRes,
@@ -787,7 +789,7 @@ export const CruciblePage: React.FC = () => {
 
         if (templatesRes.success && templatesRes.data) {
           const data = (templatesRes.data as any).data || templatesRes.data;
-          setTemplates(Array.isArray(data) ? data : []);
+          loadedTemplates = Array.isArray(data) ? data : [];
         }
         if (simulationsRes.success && simulationsRes.data) {
           const data = (simulationsRes.data as any).data || simulationsRes.data;
@@ -811,7 +813,10 @@ export const CruciblePage: React.FC = () => {
         }
       } catch (error) {
         console.error('Failed to load Crucible data:', error);
-        // Load demo templates when backend unavailable
+      }
+      
+      // If no templates loaded from API, use demo data
+      if (loadedTemplates.length === 0) {
         setTemplates([
           { type: 'FINANCIAL_STRESS', name: 'Financial Stress Test', description: 'Simulate revenue decline, cost increases, or cash flow disruption', shockCount: 2, shocks: [] },
           { type: 'OPERATIONAL_SHOCK', name: 'Operational Disruption', description: 'Simulate major operational failures or supply chain breaks', shockCount: 2, shocks: [] },
@@ -827,9 +832,12 @@ export const CruciblePage: React.FC = () => {
           { type: 'BLACK_SWAN', name: 'Black Swan Event', description: 'Simulate extreme, unpredictable events with massive impact', shockCount: 2, shocks: [] },
         ]);
         setApiError('Backend unavailable - showing demo scenarios');
-      } finally {
-        setIsLoading(false);
+      } else {
+        setTemplates(loadedTemplates);
+        setApiError(null);
       }
+      
+      setIsLoading(false);
     };
     loadData();
   }, []);

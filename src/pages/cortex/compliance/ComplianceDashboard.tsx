@@ -486,20 +486,24 @@ const ComplianceDashboard: React.FC = () => {
   const loadData = useCallback(async () => {
     setLoading(true);
     setError(null);
+    setIsDemoMode(false);
+    
+    let loadedRings: Ring[] = [];
+    let loadedFrameworks: ComplianceFramework[] = [];
     
     try {
       // Fetch Five Rings
       const ringsRes = await apiClient.api.get<{ data: { rings: Ring[]; summary: any } }>('/compliance/five-rings');
       if (ringsRes.success && ringsRes.data) {
         const data = (ringsRes.data as any).data || ringsRes.data;
-        setRings(data.rings || []);
+        loadedRings = data.rings || [];
       }
 
       // Fetch Frameworks
       const fwRes = await apiClient.api.get<{ data: ComplianceFramework[] }>('/compliance/frameworks');
       if (fwRes.success && fwRes.data) {
         const data = (fwRes.data as any).data || fwRes.data;
-        setFrameworks(Array.isArray(data) ? data : []);
+        loadedFrameworks = Array.isArray(data) ? data : [];
       }
 
       // Fetch Assessments
@@ -511,14 +515,20 @@ const ComplianceDashboard: React.FC = () => {
 
     } catch (err) {
       console.error('Compliance data load error:', err);
-      // Load demo data when backend is unavailable
+    }
+    
+    // If no data loaded from API, use demo data
+    if (loadedRings.length === 0 || loadedFrameworks.length === 0) {
       setRings(DEMO_RINGS);
       setFrameworks(DEMO_FRAMEWORKS);
       setIsDemoMode(true);
       setError('Backend unavailable - showing demo data');
-    } finally {
-      setLoading(false);
+    } else {
+      setRings(loadedRings);
+      setFrameworks(loadedFrameworks);
     }
+    
+    setLoading(false);
   }, []);
 
   useEffect(() => {
