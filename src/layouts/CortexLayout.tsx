@@ -364,6 +364,13 @@ const premiumFeatures = [
     path: '/cortex/intelligence/regulatory',
     description: 'Instant compliance learning',
   },
+  {
+    id: 'walkthroughs',
+    label: 'Workflow Walkthroughs',
+    icon: '📖',
+    path: '/cortex/walkthroughs',
+    description: 'Step-by-step workflow guides',
+  },
 ];
 
 // Apex Products (Premium Standalone)

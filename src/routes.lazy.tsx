@@ -326,6 +326,9 @@ const ComplianceDashboard = lazy(() =>
   import('./pages/cortex/compliance/ComplianceDashboard').then((m) => ({ default: m.default }))
 );
 
+// Walkthroughs
+const WalkthroughsPage = lazy(() => import('./pages/cortex/walkthroughs/WalkthroughsPage'));
+
 // Security Pages
 const SecurityOverviewPage = lazy(() =>
   import('./pages/cortex/security').then((m) => ({ default: m.SecurityOverviewPage }))
@@ -1743,6 +1746,16 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <ComplianceDashboard />
+          </SuspenseWrapper>
+        ),
+      },
+
+      // Walkthroughs
+      {
+        path: 'walkthroughs',
+        element: (
+          <SuspenseWrapper>
+            <WalkthroughsPage />
           </SuspenseWrapper>
         ),
       },
