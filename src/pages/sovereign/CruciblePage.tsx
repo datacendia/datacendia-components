@@ -811,7 +811,22 @@ export const CruciblePage: React.FC = () => {
         }
       } catch (error) {
         console.error('Failed to load Crucible data:', error);
-        setApiError('Failed to connect to Crucible API. Please ensure the backend is running.');
+        // Load demo templates when backend unavailable
+        setTemplates([
+          { type: 'FINANCIAL_STRESS', name: 'Financial Stress Test', description: 'Simulate revenue decline, cost increases, or cash flow disruption', shockCount: 2, shocks: [] },
+          { type: 'OPERATIONAL_SHOCK', name: 'Operational Disruption', description: 'Simulate major operational failures or supply chain breaks', shockCount: 2, shocks: [] },
+          { type: 'CYBER_ATTACK', name: 'Cybersecurity Incident', description: 'Simulate ransomware, data breach, or system compromise', shockCount: 3, shocks: [] },
+          { type: 'REGULATORY_CHANGE', name: 'Regulatory Shock', description: 'Simulate new compliance requirements or enforcement actions', shockCount: 2, shocks: [] },
+          { type: 'CULTURAL_SHIFT', name: 'Cultural Disruption', description: 'Simulate morale collapse, talent exodus, or leadership failure', shockCount: 2, shocks: [] },
+          { type: 'ESG_EVENT', name: 'ESG Crisis', description: 'Simulate environmental, social, or governance failures', shockCount: 2, shocks: [] },
+          { type: 'MA_SCENARIO', name: 'M&A Event', description: 'Simulate acquisition, merger, or divestiture', shockCount: 2, shocks: [] },
+          { type: 'MARKET_DISRUPTION', name: 'Market Disruption', description: 'Simulate competitive threat, market shift, or demand collapse', shockCount: 2, shocks: [] },
+          { type: 'SUPPLY_CHAIN', name: 'Supply Chain Breakdown', description: 'Simulate supplier failure, logistics disruption, or material shortage', shockCount: 2, shocks: [] },
+          { type: 'TALENT_EXODUS', name: 'Talent Crisis', description: 'Simulate key person departures or mass resignation', shockCount: 2, shocks: [] },
+          { type: 'TECHNOLOGY_FAILURE', name: 'Technology Failure', description: 'Simulate critical system outage or technology obsolescence', shockCount: 2, shocks: [] },
+          { type: 'BLACK_SWAN', name: 'Black Swan Event', description: 'Simulate extreme, unpredictable events with massive impact', shockCount: 2, shocks: [] },
+        ]);
+        setApiError('Backend unavailable - showing demo scenarios');
       } finally {
         setIsLoading(false);
       }
@@ -1151,22 +1166,27 @@ export const CruciblePage: React.FC = () => {
               <p className="text-purple-300">Initializing Crucible Engine...</p>
             </div>
           </div>
-        ) : apiError && templates.length === 0 ? (
-          <div className="flex items-center justify-center h-96">
-            <div className="text-center max-w-md">
-              <AlertTriangle className="w-12 h-12 text-red-400 mx-auto mb-4" />
-              <h3 className="text-lg font-semibold text-white mb-2">Connection Error</h3>
-              <p className="text-gray-400 mb-4">{apiError}</p>
-              <button
-                onClick={() => window.location.reload()}
-                className="px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white font-medium flex items-center gap-2 mx-auto"
-              >
-                <RotateCcw className="w-4 h-4" />
-                Retry Connection
-              </button>
-            </div>
-          </div>
         ) : view === 'templates' ? (
+          <>
+            {/* Demo Mode Banner */}
+            {apiError && (
+              <div className="bg-amber-500/20 border border-amber-500/50 rounded-lg p-4 flex items-center justify-between mb-6">
+                <div className="flex items-center gap-3">
+                  <AlertTriangle className="w-5 h-5 text-amber-400" />
+                  <div>
+                    <span className="font-semibold text-amber-300">DEMO MODE</span>
+                    <span className="text-amber-200 ml-2">{apiError}</span>
+                  </div>
+                </div>
+                <button
+                  onClick={() => window.location.reload()}
+                  className="px-3 py-1.5 bg-amber-600 hover:bg-amber-500 rounded text-sm font-medium text-white flex items-center gap-2"
+                >
+                  <RotateCcw className="w-4 h-4" />
+                  Retry
+                </button>
+              </div>
+            )}
           <div>
             {/* Top Row: Resilience Radar + Benchmarks + Recommendations */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
@@ -1502,6 +1522,7 @@ export const CruciblePage: React.FC = () => {
               </div>
             )}
           </div>
+          </>
         ) : view === 'history' ? (
           <div>
             <div className="mb-8">

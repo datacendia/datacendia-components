@@ -434,11 +434,36 @@ const PillarMappingCard: React.FC<{
   );
 };
 
+// Demo data for when backend is unavailable
+const DEMO_RINGS: Ring[] = [
+  { ring: 1, domain: 'ethical_ai', name: 'Ethical AI Frameworks', description: 'NIST AI RMF, UNESCO, OECD, ISO 42001', frameworks: [], totalControls: 345 },
+  { ring: 2, domain: 'cybersecurity', name: 'Cybersecurity & Risk', description: 'NIST 800-53, Zero Trust, MITRE, SOC 2', frameworks: [], totalControls: 1887 },
+  { ring: 3, domain: 'privacy', name: 'Privacy & Data Rights', description: 'GDPR, CCPA, HIPAA, ISO 27701, PCI-DSS', frameworks: [], totalControls: 342 },
+  { ring: 4, domain: 'governance', name: 'Governance & Audit', description: 'COSO, COBIT, ITIL, SOX, ISO 9001', frameworks: [], totalControls: 262 },
+  { ring: 5, domain: 'industry', name: 'Industry Regulation', description: 'Banking, Healthcare, Government, Defense', frameworks: [], totalControls: 695 },
+];
+
+const DEMO_FRAMEWORKS: ComplianceFramework[] = [
+  { id: 'nist-ai-rmf', code: 'NIST AI RMF', name: 'AI Risk Management Framework', fullName: 'NIST AI Risk Management Framework', domain: 'ethical_ai', description: 'Framework for managing AI risks', version: '1.0', jurisdiction: ['US'], industries: ['All'], pillars: ['ethics', 'guard'], controlCount: 72, status: 'active' },
+  { id: 'iso-42001', code: 'ISO 42001', name: 'AI Management System', fullName: 'ISO/IEC 42001:2023', domain: 'ethical_ai', description: 'AI management system standard', version: '2023', jurisdiction: ['Global'], industries: ['All'], pillars: ['ethics', 'agents'], controlCount: 93, status: 'active' },
+  { id: 'nist-800-53', code: 'NIST 800-53', name: 'Security Controls', fullName: 'NIST SP 800-53 Rev 5', domain: 'cybersecurity', description: 'Security and privacy controls', version: 'Rev 5', jurisdiction: ['US'], industries: ['Government', 'All'], pillars: ['guard', 'health'], controlCount: 1189, status: 'active' },
+  { id: 'soc2', code: 'SOC 2', name: 'Service Organization Controls', fullName: 'SOC 2 Type II', domain: 'cybersecurity', description: 'Trust service criteria', version: 'Type II', jurisdiction: ['US'], industries: ['Technology', 'All'], pillars: ['guard', 'flow'], controlCount: 64, status: 'active' },
+  { id: 'gdpr', code: 'GDPR', name: 'General Data Protection', fullName: 'EU General Data Protection Regulation', domain: 'privacy', description: 'EU data protection regulation', version: '2018', jurisdiction: ['EU'], industries: ['All'], pillars: ['ethics', 'lineage'], controlCount: 99, status: 'active' },
+  { id: 'ccpa', code: 'CCPA', name: 'California Consumer Privacy', fullName: 'California Consumer Privacy Act', domain: 'privacy', description: 'California privacy law', version: '2020', jurisdiction: ['US-CA'], industries: ['All'], pillars: ['ethics', 'lineage'], controlCount: 45, status: 'active' },
+  { id: 'hipaa', code: 'HIPAA', name: 'Health Insurance Portability', fullName: 'Health Insurance Portability and Accountability Act', domain: 'privacy', description: 'Healthcare data protection', version: '1996', jurisdiction: ['US'], industries: ['Healthcare'], pillars: ['guard', 'health'], controlCount: 75, status: 'active' },
+  { id: 'sox', code: 'SOX', name: 'Sarbanes-Oxley', fullName: 'Sarbanes-Oxley Act', domain: 'governance', description: 'Financial reporting controls', version: '2002', jurisdiction: ['US'], industries: ['Public Companies'], pillars: ['helm', 'flow'], controlCount: 68, status: 'active' },
+  { id: 'cobit', code: 'COBIT', name: 'Control Objectives for IT', fullName: 'COBIT 2019', domain: 'governance', description: 'IT governance framework', version: '2019', jurisdiction: ['Global'], industries: ['All'], pillars: ['helm', 'predict'], controlCount: 40, status: 'active' },
+  { id: 'pci-dss', code: 'PCI-DSS', name: 'Payment Card Industry', fullName: 'Payment Card Industry Data Security Standard', domain: 'industry', description: 'Payment card security', version: '4.0', jurisdiction: ['Global'], industries: ['Finance', 'Retail'], pillars: ['guard', 'flow'], controlCount: 264, status: 'active' },
+  { id: 'fedramp', code: 'FedRAMP', name: 'Federal Risk Authorization', fullName: 'Federal Risk and Authorization Management Program', domain: 'industry', description: 'Cloud security for government', version: 'Rev 5', jurisdiction: ['US'], industries: ['Government'], pillars: ['guard', 'health'], controlCount: 325, status: 'active' },
+  { id: 'iso-27001', code: 'ISO 27001', name: 'Information Security', fullName: 'ISO/IEC 27001:2022', domain: 'cybersecurity', description: 'Information security management', version: '2022', jurisdiction: ['Global'], industries: ['All'], pillars: ['guard', 'health'], controlCount: 93, status: 'active' },
+];
+
 // Main Dashboard Component
 const ComplianceDashboard: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabId>('overview');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isDemoMode, setIsDemoMode] = useState(false);
   
   // Data state
   const [rings, setRings] = useState<Ring[]>([]);
@@ -485,8 +510,12 @@ const ComplianceDashboard: React.FC = () => {
       }
 
     } catch (err) {
-      setError('Failed to load compliance data. Please ensure the backend is running.');
       console.error('Compliance data load error:', err);
+      // Load demo data when backend is unavailable
+      setRings(DEMO_RINGS);
+      setFrameworks(DEMO_FRAMEWORKS);
+      setIsDemoMode(true);
+      setError('Backend unavailable - showing demo data');
     } finally {
       setLoading(false);
     }
@@ -639,12 +668,33 @@ const ComplianceDashboard: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto p-6 space-y-6">
+      {/* Demo Mode Banner */}
+      {isDemoMode && (
+        <div className="bg-amber-500/20 border border-amber-500/50 rounded-lg p-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <AlertTriangle className="w-5 h-5 text-amber-400" />
+            <div>
+              <span className="font-semibold text-amber-300">DEMO MODE</span>
+              <span className="text-amber-200 ml-2">Backend unavailable - showing sample compliance data</span>
+            </div>
+          </div>
+          <button
+            onClick={loadData}
+            className="px-3 py-1.5 bg-amber-600 hover:bg-amber-500 rounded text-sm font-medium text-white flex items-center gap-2"
+          >
+            <RefreshCw className="w-4 h-4" />
+            Retry Connection
+          </button>
+        </div>
+      )}
+
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
           <h1 className="text-2xl font-bold text-white flex items-center gap-3">
             <Shield className="w-8 h-8 text-cyan-400" />
             Five Rings of Sovereignty
+            {isDemoMode && <span className="text-xs px-2 py-1 bg-amber-500/30 text-amber-300 rounded-full">DEMO</span>}
           </h1>
           <p className="text-gray-400 mt-1">
             Complete compliance framework mapping across all 8 pillars
