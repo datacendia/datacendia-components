@@ -190,9 +190,9 @@ class ApiClient {
       headers[DATA_SOURCE_HEADER] = dataSourceId;
     }
 
-    // Add timeout to prevent slow loading (5 seconds)
+    // Add timeout to prevent slow loading (15 seconds)
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 5000);
+    const timeoutId = setTimeout(() => controller.abort(), 15000);
 
     try {
       let response = await fetch(url, {
