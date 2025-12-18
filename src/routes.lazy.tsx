@@ -321,6 +321,11 @@ const DataImportExportPage = lazy(() =>
   import('./pages/cortex/data').then((m) => ({ default: m.DataImportExportPage }))
 );
 
+// Compliance Pages
+const ComplianceDashboard = lazy(() =>
+  import('./pages/cortex/compliance/ComplianceDashboard').then((m) => ({ default: m.default }))
+);
+
 // Security Pages
 const SecurityOverviewPage = lazy(() =>
   import('./pages/cortex/security').then((m) => ({ default: m.SecurityOverviewPage }))
@@ -1728,6 +1733,16 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <DataImportExportPage />
+          </SuspenseWrapper>
+        ),
+      },
+
+      // Compliance
+      {
+        path: 'compliance',
+        element: (
+          <SuspenseWrapper>
+            <ComplianceDashboard />
           </SuspenseWrapper>
         ),
       },
