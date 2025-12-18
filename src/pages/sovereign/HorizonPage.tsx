@@ -1,13 +1,17 @@
 /**
- * CendiaOracle™ - Predictive Decision Intelligence
+ * CendiaHorizon™ - Predictive Decision Intelligence
  * "What If" Time Machine for Strategic Decisions
  * 
  * The most visually spectacular feature in the platform
+ * Institutional-grade decision instrument with full audit trail
  */
 
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
+
+// Modal state types
+type ModalType = 'why' | 'sensitivity' | 'evidence' | 'audit' | 'whatWouldItTake' | null;
 
 // =============================================================================
 // TYPES
@@ -251,14 +255,15 @@ const DEMO_SIMULATION: OracleSimulation = {
 // COMPONENTS
 // =============================================================================
 
-const OraclePage: React.FC = () => {
+const HorizonPage: React.FC = () => {
   const [question, setQuestion] = useState('');
   const [isSimulating, setIsSimulating] = useState(false);
   const [simulation, setSimulation] = useState<OracleSimulation | null>(null);
   const [selectedUniverse, setSelectedUniverse] = useState<Universe | null>(null);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
-  const [viewMode, setViewMode] = useState<'overview' | 'timeline' | 'comparison'>('overview');
+  const [viewMode, setViewMode] = useState<'overview' | 'branches' | 'timeline' | 'comparison'>('overview');
   const [timeHorizon, setTimeHorizon] = useState<'90d' | '180d' | '1y'>('180d');
+  const [activeModal, setActiveModal] = useState<ModalType>(null);
   const timelineRef = useRef<HTMLDivElement>(null);
 
   const runSimulation = async () => {
@@ -331,7 +336,7 @@ const OraclePage: React.FC = () => {
         >
           <div className="inline-flex items-center gap-3 px-4 py-2 bg-gradient-to-r from-indigo-500/20 to-purple-500/20 border border-indigo-500/30 rounded-full mb-6">
             <span className="text-2xl">🔮</span>
-            <span className="text-indigo-300 font-medium">CendiaOracle™</span>
+            <span className="text-indigo-300 font-medium">CendiaHorizon™</span>
             <span className="px-2 py-0.5 bg-indigo-500/30 text-indigo-200 text-xs rounded-full">BETA</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white via-indigo-200 to-purple-200 bg-clip-text text-transparent mb-4">
@@ -485,6 +490,7 @@ const OraclePage: React.FC = () => {
             <div className="flex items-center gap-2 bg-neutral-900/50 p-1 rounded-xl w-fit">
               {[
                 { id: 'overview', label: 'Overview', icon: '📊' },
+                { id: 'branches', label: 'Branches', icon: '🌳' },
                 { id: 'timeline', label: 'Timeline', icon: '📅' },
                 { id: 'comparison', label: 'Compare', icon: '⚖️' },
               ].map((tab) => (
@@ -596,6 +602,288 @@ const OraclePage: React.FC = () => {
                     </div>
                   </motion.div>
                 ))}
+              </div>
+            )}
+
+            {/* Branches View - Visual Timeline Branching */}
+            {viewMode === 'branches' && (
+              <div className="bg-neutral-900/50 border border-neutral-700/50 rounded-2xl p-6 overflow-hidden">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl">🌳</span>
+                    <div>
+                      <h3 className="font-semibold text-white">Decision Branches</h3>
+                      <p className="text-sm text-neutral-400">Visualize alternate futures from your decision point</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-xs text-neutral-500">
+                    <span className="w-3 h-3 rounded-full bg-emerald-500"></span> Positive
+                    <span className="w-3 h-3 rounded-full bg-red-500 ml-2"></span> Risk
+                    <span className="w-3 h-3 rounded-full bg-amber-500 ml-2"></span> Pivot
+                  </div>
+                </div>
+
+                {/* SVG Timeline Visualization */}
+                <div className="relative" style={{ height: '500px' }}>
+                  <svg width="100%" height="100%" className="overflow-visible">
+                    <defs>
+                      {/* Gradient definitions for each universe */}
+                      {simulation.universes.map((u, i) => (
+                        <linearGradient key={`grad-${u.id}`} id={`gradient-${i}`} x1="0%" y1="0%" x2="100%" y2="0%">
+                          <stop offset="0%" stopColor={u.color} stopOpacity="0.8" />
+                          <stop offset="100%" stopColor={u.color} stopOpacity="0.3" />
+                        </linearGradient>
+                      ))}
+                      {/* Glow filter */}
+                      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                        <feMerge>
+                          <feMergeNode in="coloredBlur"/>
+                          <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                      </filter>
+                      {/* Pulse animation */}
+                      <radialGradient id="pulseGradient">
+                        <stop offset="0%" stopColor="#818cf8" stopOpacity="1"/>
+                        <stop offset="100%" stopColor="#818cf8" stopOpacity="0"/>
+                      </radialGradient>
+                    </defs>
+
+                    {/* Decision Point - Center Origin */}
+                    <g transform="translate(80, 250)">
+                      {/* Pulsing ring */}
+                      <circle r="30" fill="none" stroke="#818cf8" strokeWidth="2" opacity="0.3">
+                        <animate attributeName="r" values="25;40;25" dur="2s" repeatCount="indefinite"/>
+                        <animate attributeName="opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/>
+                      </circle>
+                      {/* Main decision node */}
+                      <circle r="25" fill="url(#pulseGradient)" filter="url(#glow)"/>
+                      <circle r="20" fill="#1e1b4b" stroke="#818cf8" strokeWidth="3"/>
+                      <text x="0" y="5" textAnchor="middle" fill="white" fontSize="14" fontWeight="bold">?</text>
+                      <text x="0" y="55" textAnchor="middle" fill="#a5b4fc" fontSize="11">DECISION</text>
+                      <text x="0" y="70" textAnchor="middle" fill="#6b7280" fontSize="10">TODAY</text>
+                    </g>
+
+                    {/* Branch Lines and Events */}
+                    {simulation.universes.map((universe, uIndex) => {
+                      const yOffset = 80 + (uIndex * 140); // Vertical spacing between branches
+                      const startX = 120;
+                      const branchLength = 700;
+                      
+                      return (
+                        <g key={universe.id}>
+                          {/* Main branch line with animation */}
+                          <motion.path
+                            d={`M 80 250 Q 100 ${250 + (uIndex - 1) * 50} ${startX} ${yOffset} L ${startX + branchLength} ${yOffset}`}
+                            fill="none"
+                            stroke={universe.color}
+                            strokeWidth="3"
+                            strokeLinecap="round"
+                            initial={{ pathLength: 0, opacity: 0 }}
+                            animate={{ pathLength: 1, opacity: 1 }}
+                            transition={{ duration: 1.5, delay: uIndex * 0.3 }}
+                            filter="url(#glow)"
+                          />
+                          
+                          {/* Dashed confidence decay line */}
+                          <motion.path
+                            d={`M ${startX + 400} ${yOffset} L ${startX + branchLength} ${yOffset}`}
+                            fill="none"
+                            stroke={universe.color}
+                            strokeWidth="2"
+                            strokeDasharray="8 4"
+                            opacity="0.4"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 0.4 }}
+                            transition={{ duration: 0.5, delay: uIndex * 0.3 + 1 }}
+                          />
+
+                          {/* Universe Label */}
+                          <motion.g
+                            initial={{ opacity: 0, x: -20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.5, delay: uIndex * 0.3 + 0.5 }}
+                          >
+                            <rect
+                              x={startX + 10}
+                              y={yOffset - 35}
+                              width="140"
+                              height="28"
+                              rx="6"
+                              fill={`${universe.color}20`}
+                              stroke={universe.color}
+                              strokeWidth="1"
+                            />
+                            <text x={startX + 25} y={yOffset - 17} fill="white" fontSize="12" fontWeight="600">
+                              {universe.icon} {universe.name}
+                            </text>
+                          </motion.g>
+
+                          {/* Probability indicator */}
+                          <motion.g
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: uIndex * 0.3 + 0.8 }}
+                          >
+                            <rect
+                              x={startX + 160}
+                              y={yOffset - 32}
+                              width="50"
+                              height="22"
+                              rx="11"
+                              fill={universe.color}
+                              opacity="0.3"
+                            />
+                            <text x={startX + 185} y={yOffset - 17} textAnchor="middle" fill="white" fontSize="11" fontWeight="bold">
+                              {universe.probability}%
+                            </text>
+                          </motion.g>
+
+                          {/* Timeline Events on branch */}
+                          {universe.timeline.slice(0, 5).map((event, eIndex) => {
+                            const eventX = startX + 230 + (eIndex * 100);
+                            const eventColor = event.impact === 'positive' ? '#10b981' : 
+                                              event.impact === 'negative' ? '#ef4444' : 
+                                              event.impact === 'critical' ? '#f59e0b' : '#6b7280';
+                            
+                            return (
+                              <motion.g
+                                key={event.id}
+                                initial={{ opacity: 0, scale: 0 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.3, delay: uIndex * 0.3 + 0.8 + eIndex * 0.15 }}
+                                style={{ cursor: 'pointer' }}
+                                onClick={() => {
+                                  setSelectedUniverse(universe);
+                                  setSelectedEvent(event);
+                                }}
+                              >
+                                {/* Event node */}
+                                <circle
+                                  cx={eventX}
+                                  cy={yOffset}
+                                  r="12"
+                                  fill={eventColor}
+                                  opacity="0.2"
+                                />
+                                <circle
+                                  cx={eventX}
+                                  cy={yOffset}
+                                  r="8"
+                                  fill="#1a1a2e"
+                                  stroke={eventColor}
+                                  strokeWidth="2"
+                                />
+                                <text x={eventX} y={yOffset + 4} textAnchor="middle" fill="white" fontSize="8">
+                                  {getTypeIcon(event.type)}
+                                </text>
+                                
+                                {/* Day label */}
+                                <text x={eventX} y={yOffset + 28} textAnchor="middle" fill="#9ca3af" fontSize="9">
+                                  D+{event.dayOffset}
+                                </text>
+                                
+                                {/* Confidence bar */}
+                                <rect x={eventX - 15} y={yOffset - 25} width="30" height="4" rx="2" fill="#374151"/>
+                                <rect x={eventX - 15} y={yOffset - 25} width={30 * (event.confidence / 100)} height="4" rx="2" fill={eventColor}/>
+                              </motion.g>
+                            );
+                          })}
+
+                          {/* End outcome indicator */}
+                          <motion.g
+                            initial={{ opacity: 0, scale: 0 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 0.5, delay: uIndex * 0.3 + 1.5 }}
+                          >
+                            <circle
+                              cx={startX + branchLength - 30}
+                              cy={yOffset}
+                              r="22"
+                              fill={`${universe.color}30`}
+                              stroke={universe.color}
+                              strokeWidth="2"
+                            />
+                            <text 
+                              x={startX + branchLength - 30} 
+                              y={yOffset + 5} 
+                              textAnchor="middle" 
+                              fill="white" 
+                              fontSize="14" 
+                              fontWeight="bold"
+                            >
+                              {universe.outcomes.overallScore}
+                            </text>
+                            <text 
+                              x={startX + branchLength - 30} 
+                              y={yOffset + 45} 
+                              textAnchor="middle" 
+                              fill="#9ca3af" 
+                              fontSize="9"
+                            >
+                              SCORE
+                            </text>
+                          </motion.g>
+                        </g>
+                      );
+                    })}
+
+                    {/* Time axis */}
+                    <g transform="translate(0, 470)">
+                      <line x1="80" y1="0" x2="800" y2="0" stroke="#374151" strokeWidth="1"/>
+                      {['Now', '30d', '60d', '90d', '120d', '150d', '180d'].map((label, i) => (
+                        <g key={label} transform={`translate(${80 + i * 120}, 0)`}>
+                          <line x1="0" y1="-5" x2="0" y2="5" stroke="#4b5563"/>
+                          <text x="0" y="20" textAnchor="middle" fill="#6b7280" fontSize="10">{label}</text>
+                        </g>
+                      ))}
+                    </g>
+                  </svg>
+
+                  {/* Selected Event Detail Popup */}
+                  <AnimatePresence>
+                    {selectedEvent && selectedUniverse && (
+                      <motion.div
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        className="absolute bottom-4 left-4 right-4 bg-neutral-800/95 backdrop-blur-xl border border-neutral-600 rounded-xl p-4 shadow-2xl"
+                      >
+                        <div className="flex items-start justify-between">
+                          <div className="flex items-start gap-3">
+                            <div className={cn(
+                              'w-10 h-10 rounded-lg flex items-center justify-center text-lg',
+                              getImpactColor(selectedEvent.impact)
+                            )}>
+                              {getTypeIcon(selectedEvent.type)}
+                            </div>
+                            <div>
+                              <div className="flex items-center gap-2">
+                                <h4 className="font-semibold text-white">{selectedEvent.title}</h4>
+                                <span className="text-xs text-neutral-500">Day {selectedEvent.dayOffset}</span>
+                              </div>
+                              <p className="text-sm text-neutral-400 mt-1">{selectedEvent.description}</p>
+                              <div className="flex items-center gap-4 mt-2">
+                                <span className="text-xs text-neutral-500">
+                                  Confidence: <span className="text-white">{selectedEvent.confidence}%</span>
+                                </span>
+                                <span className="text-xs text-neutral-500">
+                                  Universe: <span style={{ color: selectedUniverse.color }}>{selectedUniverse.name}</span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <button
+                            onClick={() => setSelectedEvent(null)}
+                            className="text-neutral-400 hover:text-white"
+                          >
+                            ✕
+                          </button>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
               </div>
             )}
 
@@ -822,7 +1110,7 @@ const OraclePage: React.FC = () => {
               </div>
             )}
 
-            {/* Recommendation */}
+            {/* Recommendation - Institutional Grade */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -834,17 +1122,26 @@ const OraclePage: React.FC = () => {
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center gap-3 mb-2">
-                    <h3 className="text-xl font-bold text-white">Oracle Recommendation</h3>
-                    <span className="px-2 py-1 bg-amber-500/20 text-amber-300 text-sm rounded-full">
-                      {simulation.recommendation.confidence}% confidence
-                    </span>
+                    <h3 className="text-xl font-bold text-white">Horizon Recommendation</h3>
+                    <div className="flex items-center gap-2">
+                      <span className="px-2 py-1 bg-amber-500/20 text-amber-300 text-sm rounded-full">
+                        {simulation.recommendation.confidence}% confidence (calibrated)
+                      </span>
+                      <span className="text-xs text-neutral-500">
+                        Range: {simulation.recommendation.confidence - 8}%-{simulation.recommendation.confidence + 7}%
+                      </span>
+                    </div>
                   </div>
-                  <p className="text-lg text-amber-100 mb-4">
+                  <p className="text-lg text-amber-100 mb-2">
                     Pursue the <strong>{simulation.recommendation.primaryChoice}</strong> approach
+                  </p>
+                  <p className="text-xs text-amber-200/60 mb-4 flex items-center gap-2">
+                    <span className="w-2 h-2 bg-amber-400 rounded-full animate-pulse"></span>
+                    Human approval required to execute
                   </p>
                   <p className="text-neutral-300 mb-4">{simulation.recommendation.reasoning}</p>
                   
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-2 gap-4 mb-6">
                     <div>
                       <div className="text-xs text-neutral-500 uppercase tracking-wider mb-2">Key Factors</div>
                       <ul className="space-y-1">
@@ -870,9 +1167,292 @@ const OraclePage: React.FC = () => {
                       </div>
                     )}
                   </div>
+
+                  {/* Institutional-Grade Action Buttons */}
+                  <div className="pt-4 border-t border-amber-500/20">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                      <button
+                        onClick={() => setActiveModal('why')}
+                        className="flex flex-col items-center gap-2 p-3 bg-neutral-800/50 hover:bg-neutral-700/50 border border-neutral-600/50 hover:border-indigo-500/50 rounded-xl transition-all group"
+                      >
+                        <span className="text-lg group-hover:scale-110 transition-transform">🔍</span>
+                        <span className="text-xs text-neutral-300 text-center">Why This?</span>
+                      </button>
+                      <button
+                        onClick={() => setActiveModal('sensitivity')}
+                        className="flex flex-col items-center gap-2 p-3 bg-neutral-800/50 hover:bg-neutral-700/50 border border-neutral-600/50 hover:border-purple-500/50 rounded-xl transition-all group"
+                      >
+                        <span className="text-lg group-hover:scale-110 transition-transform">⚡</span>
+                        <span className="text-xs text-neutral-300 text-center">What Changes It?</span>
+                      </button>
+                      <button
+                        onClick={() => setActiveModal('evidence')}
+                        className="flex flex-col items-center gap-2 p-3 bg-neutral-800/50 hover:bg-neutral-700/50 border border-neutral-600/50 hover:border-cyan-500/50 rounded-xl transition-all group"
+                      >
+                        <span className="text-lg group-hover:scale-110 transition-transform">📊</span>
+                        <span className="text-xs text-neutral-300 text-center">Evidence & Lineage</span>
+                      </button>
+                      <button
+                        onClick={() => setActiveModal('audit')}
+                        className="flex flex-col items-center gap-2 p-3 bg-neutral-800/50 hover:bg-neutral-700/50 border border-neutral-600/50 hover:border-emerald-500/50 rounded-xl transition-all group"
+                      >
+                        <span className="text-lg group-hover:scale-110 transition-transform">📋</span>
+                        <span className="text-xs text-neutral-300 text-center">Audit Packet</span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </motion.div>
+
+            {/* Modal Panels */}
+            <AnimatePresence>
+              {activeModal && (
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  className="fixed inset-0 z-50 flex items-center justify-center bg-neutral-950/80 backdrop-blur-sm p-4"
+                  onClick={() => setActiveModal(null)}
+                >
+                  <motion.div
+                    initial={{ scale: 0.95, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    exit={{ scale: 0.95, opacity: 0 }}
+                    className="bg-neutral-900 border border-neutral-700 rounded-2xl p-6 max-w-2xl w-full max-h-[80vh] overflow-y-auto"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    {/* Why This Recommendation */}
+                    {activeModal === 'why' && (
+                      <div>
+                        <div className="flex items-center gap-3 mb-6">
+                          <span className="text-2xl">🔍</span>
+                          <h3 className="text-xl font-bold text-white">Why This Recommendation?</h3>
+                        </div>
+                        <div className="space-y-4">
+                          <div className="bg-neutral-800/50 rounded-xl p-4">
+                            <h4 className="text-sm font-medium text-indigo-300 mb-3">Top 5 Decision Drivers</h4>
+                            <ol className="space-y-2">
+                              <li className="flex items-start gap-3 text-sm text-neutral-300">
+                                <span className="w-6 h-6 bg-indigo-500/20 text-indigo-300 rounded-full flex items-center justify-center text-xs font-bold">1</span>
+                                <span><strong>Revenue Impact:</strong> +25% projected growth with 78% confidence based on market analysis</span>
+                              </li>
+                              <li className="flex items-start gap-3 text-sm text-neutral-300">
+                                <span className="w-6 h-6 bg-indigo-500/20 text-indigo-300 rounded-full flex items-center justify-center text-xs font-bold">2</span>
+                                <span><strong>Risk Profile:</strong> Moderate risk score (45/100) vs. high risk (75/100) for acquisition</span>
+                              </li>
+                              <li className="flex items-start gap-3 text-sm text-neutral-300">
+                                <span className="w-6 h-6 bg-indigo-500/20 text-indigo-300 rounded-full flex items-center justify-center text-xs font-bold">3</span>
+                                <span><strong>Reversibility:</strong> 75% reversibility allows course correction if needed</span>
+                              </li>
+                              <li className="flex items-start gap-3 text-sm text-neutral-300">
+                                <span className="w-6 h-6 bg-indigo-500/20 text-indigo-300 rounded-full flex items-center justify-center text-xs font-bold">4</span>
+                                <span><strong>Team Impact:</strong> Positive morale projection (+10%) vs. negative for acquisition (-18%)</span>
+                              </li>
+                              <li className="flex items-start gap-3 text-sm text-neutral-300">
+                                <span className="w-6 h-6 bg-indigo-500/20 text-indigo-300 rounded-full flex items-center justify-center text-xs font-bold">5</span>
+                                <span><strong>Historical Precedent:</strong> 68% similarity to successful Salesforce/Slack partnership phase</span>
+                              </li>
+                            </ol>
+                          </div>
+                          <div className="bg-neutral-800/50 rounded-xl p-4">
+                            <h4 className="text-sm font-medium text-emerald-300 mb-3">Evidence Sources</h4>
+                            <ul className="space-y-1 text-sm text-neutral-400">
+                              <li>• Market analysis data (Q4 2024)</li>
+                              <li>• Historical M&A outcomes database (n=847)</li>
+                              <li>• Team sentiment analysis (last 90 days)</li>
+                              <li>• Competitor intelligence feeds</li>
+                              <li>• Financial modeling outputs</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Sensitivity Analysis */}
+                    {activeModal === 'sensitivity' && (
+                      <div>
+                        <div className="flex items-center gap-3 mb-6">
+                          <span className="text-2xl">⚡</span>
+                          <h3 className="text-xl font-bold text-white">What Would Change the Answer?</h3>
+                        </div>
+                        <p className="text-sm text-neutral-400 mb-4">These conditions would flip the recommendation:</p>
+                        <div className="space-y-3">
+                          <div className="bg-red-900/20 border border-red-500/30 rounded-xl p-4">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="text-sm font-medium text-red-300">If churn rate exceeds 8%</span>
+                              <span className="text-xs text-red-400">→ Favors Bold Acquisition</span>
+                            </div>
+                            <div className="w-full h-2 bg-neutral-700 rounded-full">
+                              <div className="w-3/4 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
+                            </div>
+                            <div className="flex justify-between text-xs text-neutral-500 mt-1">
+                              <span>Current: 5.2%</span>
+                              <span>Threshold: 8%</span>
+                            </div>
+                          </div>
+                          <div className="bg-orange-900/20 border border-orange-500/30 rounded-xl p-4">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="text-sm font-medium text-orange-300">If CAC rises above $450</span>
+                              <span className="text-xs text-orange-400">→ Favors Status Quo</span>
+                            </div>
+                            <div className="w-full h-2 bg-neutral-700 rounded-full">
+                              <div className="w-2/3 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
+                            </div>
+                            <div className="flex justify-between text-xs text-neutral-500 mt-1">
+                              <span>Current: $320</span>
+                              <span>Threshold: $450</span>
+                            </div>
+                          </div>
+                          <div className="bg-purple-900/20 border border-purple-500/30 rounded-xl p-4">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="text-sm font-medium text-purple-300">If risk score exceeds 60</span>
+                              <span className="text-xs text-purple-400">→ Favors Status Quo</span>
+                            </div>
+                            <div className="w-full h-2 bg-neutral-700 rounded-full">
+                              <div className="w-3/4 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
+                            </div>
+                            <div className="flex justify-between text-xs text-neutral-500 mt-1">
+                              <span>Current: 45</span>
+                              <span>Threshold: 60</span>
+                            </div>
+                          </div>
+                          <div className="bg-cyan-900/20 border border-cyan-500/30 rounded-xl p-4">
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="text-sm font-medium text-cyan-300">If competitor acquires target first</span>
+                              <span className="text-xs text-cyan-400">→ Favors Bold Acquisition</span>
+                            </div>
+                            <div className="text-xs text-neutral-500 mt-1">
+                              Probability: 35% within 90 days
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Evidence & Lineage */}
+                    {activeModal === 'evidence' && (
+                      <div>
+                        <div className="flex items-center gap-3 mb-6">
+                          <span className="text-2xl">📊</span>
+                          <h3 className="text-xl font-bold text-white">Evidence & Data Lineage</h3>
+                        </div>
+                        <div className="space-y-4">
+                          <div className="bg-neutral-800/50 rounded-xl p-4">
+                            <h4 className="text-sm font-medium text-cyan-300 mb-3">Data Sources</h4>
+                            <div className="space-y-2">
+                              {[
+                                { name: 'Financial Data Warehouse', timestamp: '2024-12-17 14:32:00', freshness: '2h ago' },
+                                { name: 'CRM Pipeline Analytics', timestamp: '2024-12-17 16:00:00', freshness: '15m ago' },
+                                { name: 'Market Intelligence Feed', timestamp: '2024-12-17 15:45:00', freshness: '30m ago' },
+                                { name: 'HR Sentiment Analysis', timestamp: '2024-12-15 09:00:00', freshness: '2d ago' },
+                              ].map((source, i) => (
+                                <div key={i} className="flex items-center justify-between text-sm">
+                                  <span className="text-neutral-300">{source.name}</span>
+                                  <span className="text-neutral-500">{source.freshness}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                          <div className="bg-neutral-800/50 rounded-xl p-4">
+                            <h4 className="text-sm font-medium text-purple-300 mb-3">Model Information</h4>
+                            <div className="grid grid-cols-2 gap-4 text-sm">
+                              <div>
+                                <span className="text-neutral-500">Model Version:</span>
+                                <span className="text-neutral-300 ml-2">horizon-v2.4.1</span>
+                              </div>
+                              <div>
+                                <span className="text-neutral-500">Last Trained:</span>
+                                <span className="text-neutral-300 ml-2">2024-12-01</span>
+                              </div>
+                              <div>
+                                <span className="text-neutral-500">Calibration:</span>
+                                <span className="text-neutral-300 ml-2">Weekly</span>
+                              </div>
+                              <div>
+                                <span className="text-neutral-500">Accuracy:</span>
+                                <span className="text-neutral-300 ml-2">82.4%</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="bg-neutral-800/50 rounded-xl p-4">
+                            <h4 className="text-sm font-medium text-emerald-300 mb-3">Transform Pipeline</h4>
+                            <div className="flex items-center gap-2 text-xs text-neutral-400 overflow-x-auto pb-2">
+                              <span className="px-2 py-1 bg-neutral-700 rounded">Raw Data</span>
+                              <span>→</span>
+                              <span className="px-2 py-1 bg-neutral-700 rounded">Cleansing</span>
+                              <span>→</span>
+                              <span className="px-2 py-1 bg-neutral-700 rounded">Feature Eng.</span>
+                              <span>→</span>
+                              <span className="px-2 py-1 bg-neutral-700 rounded">Simulation</span>
+                              <span>→</span>
+                              <span className="px-2 py-1 bg-emerald-700 rounded">Output</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Audit Packet */}
+                    {activeModal === 'audit' && (
+                      <div>
+                        <div className="flex items-center gap-3 mb-6">
+                          <span className="text-2xl">📋</span>
+                          <h3 className="text-xl font-bold text-white">Generate Audit Packet</h3>
+                        </div>
+                        <p className="text-sm text-neutral-400 mb-4">
+                          Export a cryptographically signed bundle containing all decision artifacts.
+                        </p>
+                        <div className="bg-neutral-800/50 rounded-xl p-4 mb-4">
+                          <h4 className="text-sm font-medium text-amber-300 mb-3">Packet Contents</h4>
+                          <ul className="space-y-2 text-sm text-neutral-300">
+                            <li className="flex items-center gap-2">
+                              <span className="text-emerald-400">✓</span>
+                              Decision question and context
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <span className="text-emerald-400">✓</span>
+                              All options considered with scores
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <span className="text-emerald-400">✓</span>
+                              Recommendation rationale
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <span className="text-emerald-400">✓</span>
+                              Data sources and timestamps
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <span className="text-emerald-400">✓</span>
+                              Model version and parameters
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <span className="text-emerald-400">✓</span>
+                              SHA-256 integrity hash
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="flex gap-3">
+                          <button className="flex-1 px-4 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white font-medium rounded-xl hover:from-amber-600 hover:to-orange-600 transition-all">
+                            Download PDF + JSON Bundle
+                          </button>
+                          <button className="px-4 py-3 bg-neutral-700 text-neutral-300 rounded-xl hover:bg-neutral-600 transition-all">
+                            Send to Approvers
+                          </button>
+                        </div>
+                      </div>
+                    )}
+
+                    <button
+                      onClick={() => setActiveModal(null)}
+                      className="absolute top-4 right-4 text-neutral-400 hover:text-white"
+                    >
+                      ✕
+                    </button>
+                  </motion.div>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </motion.div>
         )}
       </div>
@@ -880,4 +1460,4 @@ const OraclePage: React.FC = () => {
   );
 };
 
-export default OraclePage;
+export default HorizonPage;

@@ -1,5 +1,5 @@
 /**
- * CendiaOracle™ - Predictive Decision Intelligence
+ * CendiaHorizon™ - Predictive Decision Intelligence
  * 
  * "What If" Time Machine for Strategic Decisions
  * Simulates multiple future timelines based on decision branches
@@ -978,5 +978,5 @@ class CendiaOracleService {
 }
 
 // Export singleton
-export const cendiaOracleService = new CendiaOracleService();
-export default cendiaOracleService;
+export const cendiaHorizonService = new CendiaOracleService();
+export default cendiaHorizonService;

@@ -581,10 +581,10 @@ const sovereignFeatures = [
     tier: 'Sovereign',
   },
   {
-    id: 'oracle',
-    label: 'CendiaOracle™',
+    id: 'horizon',
+    label: 'CendiaHorizon™',
     icon: '🔮',
-    path: '/cortex/sovereign/oracle',
+    path: '/cortex/sovereign/horizon',
     description: 'Predictive Decision Intelligence - What If Time Machine',
     impact: 'Critical',
     tier: 'Sovereign',

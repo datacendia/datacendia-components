@@ -106,7 +106,7 @@ import adaptersRoutes from './routes/adapters.js';
 import strategicRoutes from './routes/strategic.js';
 import sampleDataRoutes from './routes/sample-data.js';
 import druidRoutes from './routes/druid.js';
-import oracleRoutes from './routes/oracle.js';
+import horizonRoutes from './routes/horizon.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -309,8 +309,8 @@ app.use('/api/v1/sample-data', sampleDataRoutes);
 // Druid Analytics - CendiaChronos™, CendiaWitness™, CendiaPulse™
 app.use('/api/v1/druid', druidRoutes);
 
-// CendiaOracle™ - Predictive Decision Intelligence
-app.use('/api/v1/oracle', oracleRoutes);
+// CendiaHorizon™ - Predictive Decision Intelligence
+app.use('/api/v1/horizon', horizonRoutes);
 
 // 404 handler
 app.use((_req, res) => {

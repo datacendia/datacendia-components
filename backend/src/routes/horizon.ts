@@ -1,10 +1,10 @@
 /**
- * CendiaOracle™ API Routes
+ * CendiaHorizon™ API Routes
  * Predictive Decision Intelligence - "What If" Time Machine
  */
 
 import { Router, Request, Response } from 'express';
-import { cendiaOracleService, TimeHorizon } from '../services/CendiaOracleService.js';
+import { cendiaHorizonService, TimeHorizon } from '../services/CendiaHorizonService.js';
 import { logger } from '../utils/logger.js';
 
 const router = Router();
@@ -24,21 +24,21 @@ router.post('/simulate', async (req: Request, res: Response) => {
       });
     }
 
-    const simulation = await cendiaOracleService.createSimulation({
+    const simulation = await cendiaHorizonService.createSimulation({
       question,
       context,
       timeHorizon: timeHorizon as TimeHorizon,
       branchCount: Math.min(Math.max(branchCount, 2), 5),
     });
 
-    logger.info(`[Oracle API] Created simulation ${simulation.id}`);
+    logger.info(`[Horizon API] Created simulation ${simulation.id}`);
 
     res.json({
       success: true,
       data: simulation,
     });
   } catch (error) {
-    logger.error('[Oracle API] Failed to create simulation:', error);
+    logger.error('[Horizon API] Failed to create simulation:', error);
     res.status(500).json({
       success: false,
       error: { code: 'SIMULATION_FAILED', message: 'Failed to create simulation' },
@@ -53,7 +53,7 @@ router.post('/simulate', async (req: Request, res: Response) => {
 router.get('/simulation/:id', async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    const simulation = cendiaOracleService.getSimulation(id);
+    const simulation = cendiaHorizonService.getSimulation(id);
 
     if (!simulation) {
       return res.status(404).json({
@@ -67,7 +67,7 @@ router.get('/simulation/:id', async (req: Request, res: Response) => {
       data: simulation,
     });
   } catch (error) {
-    logger.error('[Oracle API] Failed to get simulation:', error);
+    logger.error('[Horizon API] Failed to get simulation:', error);
     res.status(500).json({
       success: false,
       error: { code: 'FETCH_FAILED', message: 'Failed to fetch simulation' },
@@ -81,7 +81,7 @@ router.get('/simulation/:id', async (req: Request, res: Response) => {
  */
 router.get('/simulations', async (_req: Request, res: Response) => {
   try {
-    const simulations = cendiaOracleService.getAllSimulations();
+    const simulations = cendiaHorizonService.getAllSimulations();
 
     res.json({
       success: true,
@@ -89,7 +89,7 @@ router.get('/simulations', async (_req: Request, res: Response) => {
       count: simulations.length,
     });
   } catch (error) {
-    logger.error('[Oracle API] Failed to list simulations:', error);
+    logger.error('[Horizon API] Failed to list simulations:', error);
     res.status(500).json({
       success: false,
       error: { code: 'LIST_FAILED', message: 'Failed to list simulations' },
@@ -103,13 +103,13 @@ router.get('/simulations', async (_req: Request, res: Response) => {
  */
 router.get('/status', async (_req: Request, res: Response) => {
   try {
-    const status = cendiaOracleService.getStatus();
+    const status = cendiaHorizonService.getStatus();
 
     res.json({
       success: true,
       data: {
         ...status,
-        service: 'CendiaOracle',
+        service: 'CendiaHorizon',
         version: '1.0.0',
         features: [
           'Multi-universe simulation',
@@ -122,7 +122,7 @@ router.get('/status', async (_req: Request, res: Response) => {
       },
     });
   } catch (error) {
-    logger.error('[Oracle API] Failed to get status:', error);
+    logger.error('[Horizon API] Failed to get status:', error);
     res.status(500).json({
       success: false,
       error: { code: 'STATUS_FAILED', message: 'Failed to get status' },
@@ -163,7 +163,7 @@ router.post('/demo', async (req: Request, res: Response) => {
 
     const selected = demoScenarios[scenario] || demoScenarios.acquisition;
 
-    const simulation = await cendiaOracleService.createSimulation({
+    const simulation = await cendiaHorizonService.createSimulation({
       question: selected.question,
       context: selected.context,
       timeHorizon: '180d',
@@ -173,7 +173,7 @@ router.post('/demo', async (req: Request, res: Response) => {
     // Wait a bit for simulation to complete
     await new Promise((resolve) => setTimeout(resolve, 500));
 
-    const result = cendiaOracleService.getSimulation(simulation.id);
+    const result = cendiaHorizonService.getSimulation(simulation.id);
 
     res.json({
       success: true,
@@ -181,7 +181,7 @@ router.post('/demo', async (req: Request, res: Response) => {
       scenario,
     });
   } catch (error) {
-    logger.error('[Oracle API] Failed to run demo:', error);
+    logger.error('[Horizon API] Failed to run demo:', error);
     res.status(500).json({
       success: false,
       error: { code: 'DEMO_FAILED', message: 'Failed to run demo simulation' },
