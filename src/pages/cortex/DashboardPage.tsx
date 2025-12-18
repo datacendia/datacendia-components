@@ -334,11 +334,37 @@ export const DashboardPage: React.FC = () => {
       {/* ================================================================= */}
       {/* HEADER */}
       {/* ================================================================= */}
-      <div className="mb-8">
-        <h1 className="text-2xl font-bold text-neutral-900">
-          {getGreeting()}, {userName}
-        </h1>
-        <p className="text-neutral-500 mt-1">{t('dashboard.subtitle', { company: orgName })}</p>
+      <div className="mb-8 flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-bold text-neutral-900">
+            {getGreeting()}, {userName}
+          </h1>
+          <p className="text-neutral-500 mt-1">{t('dashboard.subtitle', { company: orgName })}</p>
+        </div>
+        <button
+          onClick={() => {
+            const ctx = {
+              question: 'Provide a strategic briefing on the current state of the organization',
+              sourcePage: 'Dashboard',
+              contextSummary: `Health: ${healthScore.overall}%, ${alerts.filter(a => a.severity === 'critical').length} critical alerts`,
+              contextData: {
+                healthScore: healthScore.overall,
+                dataScore: healthScore.dimensions.data.score,
+                operationsScore: healthScore.dimensions.operations.score,
+                securityScore: healthScore.dimensions.security.score,
+                peopleScore: healthScore.dimensions.people.score,
+                criticalAlerts: alerts.filter(a => a.severity === 'critical').length,
+                pendingApprovals: approvals.length,
+              },
+              suggestedMode: 'executive',
+            };
+            sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+            navigate('/cortex/council?fromContext=true');
+          }}
+          className="px-4 py-2 bg-primary-600 hover:bg-primary-500 text-white rounded-lg font-medium transition-colors flex items-center gap-2"
+        >
+          💬 Ask Council
+        </button>
       </div>
 
       {/* ================================================================= */}

@@ -151,14 +151,38 @@ export const DecisionsPage: React.FC = () => {
               </p>
             </div>
           </div>
-          <button
-            onClick={loadDecisions}
-            disabled={isLoading}
-            className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors"
-          >
-            <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
-            Refresh
-          </button>
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => {
+                const ctx = {
+                  question: 'Analyze the patterns in our recent decisions and identify any areas of concern or improvement',
+                  sourcePage: 'Decisions',
+                  contextSummary: `${decisions.length} decisions, ${decisions.filter(d => d.status === 'completed').length} completed`,
+                  contextData: {
+                    totalDecisions: decisions.length,
+                    completedDecisions: decisions.filter(d => d.status === 'completed').length,
+                    avgConfidence: decisions.filter(d => d.confidence).reduce((sum, d) => sum + (d.confidence || 0), 0) / decisions.filter(d => d.confidence).length || 0,
+                    quickDecisions: decisions.filter(d => d.mode === 'quick').length,
+                    deliberations: decisions.filter(d => d.mode === 'deliberation').length,
+                  },
+                  suggestedMode: 'advisory',
+                };
+                sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+                navigate('/cortex/council?fromContext=true');
+              }}
+              className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg transition-colors"
+            >
+              💬 Ask Council
+            </button>
+            <button
+              onClick={loadDecisions}
+              disabled={isLoading}
+              className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors"
+            >
+              <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
+              Refresh
+            </button>
+          </div>
         </div>
 
         {/* Filters */}

@@ -589,6 +589,30 @@ export const GovernPage: React.FC = () => {
             </div>
 
             <div className="flex items-center gap-6">
+              <button
+                onClick={() => {
+                  const ctx = {
+                    question: `Review our compliance posture (${metrics.overallScore}% score) and identify priority remediation actions`,
+                    sourcePage: 'CendiaGovern',
+                    contextSummary: `Compliance: ${metrics.overallScore}%, ${metrics.criticalFindings} critical findings`,
+                    contextData: {
+                      complianceScore: metrics.overallScore,
+                      totalControls: metrics.controlsTotal,
+                      compliantControls: metrics.controlsCompliant,
+                      nonCompliantControls: metrics.controlsNonCompliant,
+                      criticalFindings: metrics.criticalFindings,
+                      openFindings: metrics.openFindings,
+                      overdueRemediations: metrics.overdueRemediations,
+                    },
+                    suggestedMode: metrics.criticalFindings > 0 ? 'compliance' : 'advisory',
+                  };
+                  sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+                  navigate('/cortex/council?fromContext=true');
+                }}
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
+              >
+                💬 Ask Council
+              </button>
               <div className="text-right">
                 <div className="text-sm text-white/60">Compliance Score</div>
                 <div

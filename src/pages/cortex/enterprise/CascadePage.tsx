@@ -321,6 +321,35 @@ const CascadePage: React.FC = () => {
                 </div>
               )}
               <button
+                onClick={() => {
+                  const ctx = {
+                    question: selectedReport 
+                      ? `Review this cascade analysis and advise on the recommended action: "${selectedReport.changeSpec.title}"`
+                      : 'What organizational changes should we analyze for potential cascade effects?',
+                    sourcePage: 'CendiaCascade',
+                    contextSummary: selectedReport 
+                      ? `Analysis: ${selectedReport.changeSpec.title} - Risk Score: ${selectedReport.totalRiskScore}`
+                      : `${reports.length} cascade reports, Graph: ${graphStats?.nodeCount || 0} nodes`,
+                    contextData: selectedReport ? {
+                      changeTitle: selectedReport.changeSpec.title,
+                      totalRiskScore: selectedReport.totalRiskScore,
+                      consequenceCount: selectedReport.consequences.length,
+                      recommendation: selectedReport.recommendation,
+                    } : {
+                      reportsCount: reports.length,
+                      graphNodes: graphStats?.nodeCount || 0,
+                      graphEdges: graphStats?.edgeCount || 0,
+                    },
+                    suggestedMode: selectedReport?.totalRiskScore > 70 ? 'crisis' : 'due-diligence',
+                  };
+                  sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+                  window.location.href = '/cortex/council?fromContext=true';
+                }}
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm transition-colors flex items-center gap-2"
+              >
+                💬 Ask Council
+              </button>
+              <button
                 onClick={loadSampleGraph}
                 className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors"
               >

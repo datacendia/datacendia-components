@@ -221,6 +221,28 @@ export const LedgerPage: React.FC = () => {
                 </div>
               )}
               <button
+                onClick={() => {
+                  const ctx = {
+                    question: 'Analyze the decision ledger and identify any patterns, risks, or compliance concerns',
+                    sourcePage: 'CendiaLedger',
+                    contextSummary: `Ledger: ${entries.length} entries, ${decisions.length} decisions`,
+                    contextData: {
+                      totalEntries: entries.length,
+                      totalDecisions: decisions.length,
+                      chainValid: chainStatus?.valid,
+                      approvalRate: metrics?.approvalRate,
+                      vetoRate: metrics?.vetoRate,
+                    },
+                    suggestedMode: 'compliance',
+                  };
+                  sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+                  navigate('/cortex/council?fromContext=true');
+                }}
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg font-medium transition-colors flex items-center gap-2"
+              >
+                💬 Ask Council
+              </button>
+              <button
                 onClick={() => setShowNewDecision(true)}
                 className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 rounded-lg font-medium transition-colors"
               >

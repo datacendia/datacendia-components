@@ -515,6 +515,29 @@ export const DefenseStackPage: React.FC = () => {
             </div>
 
             <div className="flex items-center gap-4">
+              <button
+                onClick={() => {
+                  const ctx = {
+                    question: 'Assess our defense posture and identify any security gaps or improvement opportunities',
+                    sourcePage: 'CendiaDefenseStack',
+                    contextSummary: `Security: ${securityPosture.overallScore}%, ${activeThreats.length} active threats`,
+                    contextData: {
+                      securityScore: securityPosture.overallScore,
+                      zeroTrustCompliance: securityPosture.zeroTrustCompliance,
+                      encryptionCoverage: securityPosture.encryptionCoverage,
+                      activeThreats: activeThreats.length,
+                      activeWarGames: warGames.filter(w => w.status === 'active').length,
+                      classifiedDocs: classifiedDocs.length,
+                    },
+                    suggestedMode: activeThreats.length > 2 ? 'crisis' : 'war-room',
+                  };
+                  sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+                  navigate('/cortex/council?fromContext=true');
+                }}
+                className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
+              >
+                💬 Ask Council
+              </button>
               {securityPosture.certifications.slice(0, 3).map((cert) => (
                 <span
                   key={cert}

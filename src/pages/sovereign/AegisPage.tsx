@@ -273,6 +273,28 @@ export const AegisPage: React.FC = () => {
           </div>
           <div className="flex items-center gap-3">
             <button
+              onClick={() => {
+                const ctx = {
+                  question: `Assess the current threat landscape and recommend priority countermeasures`,
+                  sourcePage: 'CendiaAegis',
+                  contextSummary: `${dashboard?.activeThreats || 0} active threats, ${dashboard?.criticalThreats || 0} critical`,
+                  contextData: {
+                    activeThreats: dashboard?.activeThreats || 0,
+                    criticalThreats: dashboard?.criticalThreats || 0,
+                    signalsLast24h: dashboard?.signalsLast24h || 0,
+                    pendingCountermeasures: dashboard?.pendingCountermeasures || 0,
+                    threatTypes: [...new Set(threats.map(t => t.threatType))].join(', '),
+                  },
+                  suggestedMode: (dashboard?.criticalThreats || 0) > 0 ? 'crisis' : 'war-room',
+                };
+                sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+                window.location.href = '/cortex/council?fromContext=true';
+              }}
+              className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium flex items-center gap-2"
+            >
+              💬 Ask Council
+            </button>
+            <button
               onClick={() => window.open('/sovereign/crucible?preset=cyber-attack', '_blank')}
               className="px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-sm font-medium flex items-center gap-2"
             >

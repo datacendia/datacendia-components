@@ -555,9 +555,33 @@ export const PulsePage: React.FC = () => {
             <p className="text-xs text-neutral-400 uppercase tracking-wider">
               ORGANIZATIONAL HEALTH
             </p>
-            <span className="text-sm text-green-400 font-medium">
-              +{weeklyChange.toFixed(1)}% this week
-            </span>
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => {
+                  const ctx = {
+                    question: `Analyze the organization's health score of ${healthScore?.toFixed(1)}% and recommend improvements`,
+                    sourcePage: 'CendiaPulse',
+                    contextSummary: `Health: ${healthScore?.toFixed(1)}% (${weeklyChange > 0 ? '+' : ''}${weeklyChange.toFixed(1)}% this week)`,
+                    contextData: {
+                      healthScore,
+                      weeklyChange,
+                      anomaliesCount: anomalies.filter(a => a.type !== 'resolved').length,
+                      systemsOnline: systems.filter(s => s.status === 'online').length,
+                      systemsTotal: systems.length,
+                    },
+                    suggestedMode: anomalies.some(a => a.type === 'detected') ? 'crisis' : 'operational',
+                  };
+                  sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+                  navigate('/cortex/council?fromContext=true');
+                }}
+                className="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
+              >
+                💬 Ask Council
+              </button>
+              <span className="text-sm text-green-400 font-medium">
+                +{weeklyChange.toFixed(1)}% this week
+              </span>
+            </div>
           </div>
 
           {/* Big Score */}
