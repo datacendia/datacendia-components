@@ -1,6 +1,7 @@
 // =============================================================================
 // DATACENDIA PLATFORM - HOLY SHIT FEATURES
 // The 5 features that close deals
+// Updated: December 2024 - Integrated with 312 workflow scenarios
 // =============================================================================
 
 // Feature exports
@@ -16,6 +17,21 @@ export { ghostBoardService } from './GhostBoard.js';
 export { decisionDebtService } from './DecisionDebt.js';
 export { liveDemoModeService } from './LiveDemoMode.js';
 export { regulatoryAbsorbService } from './RegulatoryAbsorb.js';
+
+// Workflow scenario integration - 312 pre-built enterprise workflows
+// See: backend/src/data/WORKFLOW-REFERENCE.md for complete listing
+export const WORKFLOW_INTEGRATION = {
+  totalScenarios: 312,
+  scenariosByFeature: {
+    preMortem: ['WF-032', 'WF-280', 'WF-282'], // Butterfly Effect, Cascade Analysis
+    ghostBoard: ['WF-007', 'WF-019', 'WF-021', 'WF-095'], // Board prep, Investor defense
+    decisionDebt: ['WF-147', 'WF-250', 'WF-309'], // Roadmap, Decision Intelligence
+    liveDemo: ['WF-262', 'WF-267', 'WF-308'], // Real-time execution workflows
+    regulatoryAbsorb: ['WF-015', 'WF-076', 'WF-106', 'WF-248', 'WF-281'], // Compliance workflows
+  },
+  councilModes: 12,
+  categories: 45,
+};
 
 // Feature metadata
 export const HOLY_SHIT_FEATURES = {

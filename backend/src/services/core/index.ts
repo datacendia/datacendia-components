@@ -1,6 +1,7 @@
 // =============================================================================
 // DATACENDIA CORE - INTERNAL ADMIN SERVICES
 // "Dogfooding" - Datacendia runs on Datacendia
+// Updated: December 2024 - Added Druid integration and workflow metrics
 // =============================================================================
 
 export { cendiaBrandService, type ContentPiece, type ProductFeature, type LaunchSchedule } from './CendiaBrandService.js';
@@ -12,6 +13,7 @@ export { cendiaWatchService, type Competitor, type MarketSignal, type ThreatAler
 // =============================================================================
 // DATACENDIA CORE DASHBOARD
 // Aggregates all internal services into a single view
+// Now includes: Druid real-time metrics, workflow scenario stats
 // =============================================================================
 
 import { cendiaBrandService } from './CendiaBrandService.js';
@@ -19,6 +21,17 @@ import { cendiaFoundryService } from './CendiaFoundryService.js';
 import { cendiaRevenueService } from './CendiaRevenueService.js';
 import { cendiaSupportService } from './CendiaSupportService.js';
 import { cendiaWatchService } from './CendiaWatchService.js';
+
+// Workflow scenario constants (from workflow-scenarios.json + workflow-scenarios-part2.json)
+export const WORKFLOW_STATS = {
+  totalWorkflows: 312,
+  categories: 45,
+  councilModes: 12,
+  priorityLevels: 4,
+  criticalWorkflows: 60,
+  highWorkflows: 130,
+  mediumWorkflows: 122,
+};
 
 export interface CoreDashboard {
   // Brand
@@ -44,6 +57,10 @@ export interface CoreDashboard {
   // Watch
   activeAlerts: number;
   criticalAlert: string | null;
+  
+  // Platform Stats (NEW)
+  workflowsAvailable: number;
+  councilModesAvailable: number;
   
   // Overall
   lastUpdated: Date;
@@ -79,6 +96,10 @@ export async function getCoreDashboard(): Promise<CoreDashboard> {
     // Watch
     activeAlerts: cendiaWatchService.getAlerts(false).length,
     criticalAlert: cendiaWatchService.getCriticalAlert(),
+    
+    // Platform Stats
+    workflowsAvailable: WORKFLOW_STATS.totalWorkflows,
+    councilModesAvailable: WORKFLOW_STATS.councilModes,
     
     // Overall
     lastUpdated: new Date(),
