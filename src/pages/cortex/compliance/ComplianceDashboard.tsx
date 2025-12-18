@@ -805,7 +805,7 @@ const ComplianceDashboard: React.FC = () => {
                             </div>
                           </div>
                           <div className="text-right">
-                            <div className="text-xl font-bold text-white">{ring.frameworks.length}</div>
+                            <div className="text-xl font-bold text-white">{frameworks.filter(f => f.domain === ring.domain).length}</div>
                             <div className="text-xs text-white/70">frameworks</div>
                           </div>
                         </div>
