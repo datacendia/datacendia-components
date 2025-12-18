@@ -5,7 +5,7 @@
  * The most visually spectacular feature in the platform
  */
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
 
@@ -274,7 +274,7 @@ const OraclePage: React.FC = () => {
       ...DEMO_SIMULATION,
       question: question,
     });
-    setSelectedUniverse(DEMO_SIMULATION.universes[0]);
+    setSelectedUniverse(DEMO_SIMULATION.universes[0] || null);
     setIsSimulating(false);
   };
 
