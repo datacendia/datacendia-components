@@ -3234,6 +3234,28 @@ export const ChronosPage: React.FC = () => {
                         🎬 Replay Council Deliberation
                       </button>
                     )}
+                    {/* Ask Council about current view */}
+                    <button
+                      onClick={() => {
+                        const ctx = {
+                          question: `Analyze the organization's state on ${currentDate.toLocaleDateString()} and provide strategic insights`,
+                          sourcePage: 'CendiaChronos',
+                          contextSummary: `Timeline view: ${currentDate.toLocaleDateString()} - ${selectedDepartment === 'all' ? 'All Departments' : selectedDepartment}`,
+                          contextData: {
+                            date: currentDate.toISOString(),
+                            department: selectedDepartment,
+                            mode: mode,
+                            eventsVisible: events.length,
+                          },
+                          suggestedMode: 'executive',
+                        };
+                        sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
+                        navigate('/cortex/council?fromContext=true');
+                      }}
+                      className="px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
+                    >
+                      💬 Ask Council
+                    </button>
                   </div>
                 </div>
 

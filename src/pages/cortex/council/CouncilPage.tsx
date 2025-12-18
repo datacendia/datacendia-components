@@ -740,6 +740,11 @@ export const CouncilPage: React.FC = () => {
   const [isProcessing, setIsProcessing] = useState(false);
   const [queryMode, setQueryMode] = useState<'quick' | 'deliberation'>('quick');
   const [selectedMode, setSelectedMode] = useState<string>('war-room');
+  const [contextFromPage, setContextFromPage] = useState<{
+    sourcePage: string;
+    contextSummary: string;
+    contextData?: Record<string, any>;
+  } | null>(null);
   const [showModesLibrary, setShowModesLibrary] = useState(false);
   const [showWorkflowPicker, setShowWorkflowPicker] = useState(false);
 
@@ -803,6 +808,41 @@ export const CouncilPage: React.FC = () => {
     };
     checkPermissions();
   }, []);
+
+  // Pick up context from other pages (e.g., Chronos, Ledger, Witness)
+  useEffect(() => {
+    const fromContext = searchParams.get('fromContext');
+    if (fromContext === 'true') {
+      try {
+        const storedContext = sessionStorage.getItem('councilQueryContext');
+        if (storedContext) {
+          const ctx = JSON.parse(storedContext);
+          // Pre-fill the question
+          if (ctx.question) {
+            setQueryInput(ctx.question);
+          }
+          // Set suggested mode if provided
+          if (ctx.suggestedMode && COUNCIL_MODES[ctx.suggestedMode]) {
+            setSelectedMode(ctx.suggestedMode);
+          }
+          // Store context for display
+          if (ctx.contextSummary || ctx.sourcePage) {
+            setContextFromPage({
+              sourcePage: ctx.sourcePage || 'Unknown',
+              contextSummary: ctx.contextSummary || '',
+              contextData: ctx.contextData,
+            });
+          }
+          // Clear the stored context
+          sessionStorage.removeItem('councilQueryContext');
+          // Focus the input
+          setTimeout(() => queryInputRef.current?.focus(), 100);
+        }
+      } catch (e) {
+        console.warn('Failed to parse council query context:', e);
+      }
+    }
+  }, [searchParams]);
 
   // Handle premium purchase (simulated - would integrate with Stripe in production)
   const handlePremiumPurchase = (itemId: string, type: 'feature' | 'bundle') => {
@@ -2285,6 +2325,42 @@ export const CouncilPage: React.FC = () => {
             </div>
           </div>
         </div>
+
+        {/* Context from another page (Chronos, Ledger, etc.) */}
+        {contextFromPage && (
+          <div className="mb-4 px-4 py-3 rounded-lg bg-blue-500/20 border border-blue-500/40">
+            <div className="flex items-start justify-between">
+              <div className="flex items-start gap-3">
+                <span className="text-xl">📊</span>
+                <div>
+                  <div className="text-sm font-medium text-blue-300">
+                    Context from {contextFromPage.sourcePage}
+                  </div>
+                  {contextFromPage.contextSummary && (
+                    <div className="text-sm text-white/80 mt-1">
+                      {contextFromPage.contextSummary}
+                    </div>
+                  )}
+                  {contextFromPage.contextData && Object.keys(contextFromPage.contextData).length > 0 && (
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {Object.entries(contextFromPage.contextData).slice(0, 5).map(([key, value]) => (
+                        <span key={key} className="text-xs bg-blue-500/30 px-2 py-0.5 rounded">
+                          {key}: {String(value).substring(0, 30)}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+              <button
+                onClick={() => setContextFromPage(null)}
+                className="text-white/60 hover:text-white text-sm"
+              >
+                ✕
+              </button>
+            </div>
+          </div>
+        )}
 
         <div className="mb-4">
           <textarea
