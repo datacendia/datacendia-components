@@ -23,6 +23,10 @@ const configSchema = z.object({
   nodeEnv: z.enum(['development', 'production', 'test']).default('development'),
   port: z.coerce.number().default(3001),
   
+  // Authentication mode
+  requireAuth: z.coerce.boolean().default(false),
+  demoMode: z.coerce.boolean().default(false),
+  
   // Database
   databaseUrl: z.string().url(),
   
@@ -56,6 +60,8 @@ const configSchema = z.object({
 const envVars = {
   nodeEnv: process.env.NODE_ENV,
   port: process.env.PORT,
+  requireAuth: process.env.REQUIRE_AUTH,
+  demoMode: process.env.DEMO_MODE,
   databaseUrl: process.env.DATABASE_URL,
   redisUrl: process.env.REDIS_URL,
   neo4jUri: process.env.NEO4J_URI,
