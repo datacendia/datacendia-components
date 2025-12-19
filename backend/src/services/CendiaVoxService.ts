@@ -749,6 +749,69 @@ Respond as JSON:
   }
 
   // ===========================================================================
+  // ORGANIZATION-WIDE QUERIES
+  // ===========================================================================
+
+  /**
+   * Get all signals for an organization
+   */
+  async getAllSignals(organizationId: string, limit: number = 50): Promise<any[]> {
+    const signals = await prisma.vox_signals.findMany({
+      where: {
+        stakeholder: { organization_id: organizationId },
+      },
+      orderBy: { created_at: 'desc' },
+      take: limit,
+      include: {
+        stakeholder: {
+          select: { stakeholder_type: true, name: true },
+        },
+      },
+    });
+
+    return signals.map(s => ({
+      id: s.id,
+      timestamp: s.created_at,
+      stakeholder: s.stakeholder?.stakeholder_type || 'UNKNOWN',
+      stakeholderName: s.stakeholder?.name || 'Unknown',
+      signalType: s.signal_type,
+      content: s.content,
+      sentiment: s.sentiment,
+      urgency: s.urgency,
+      source: s.source,
+    }));
+  }
+
+  /**
+   * Get all vetoes for an organization
+   */
+  async getAllVetoes(organizationId: string, limit: number = 50): Promise<any[]> {
+    const vetoes = await prisma.vox_votes.findMany({
+      where: {
+        organization_id: organizationId,
+        veto_exercised: true,
+      },
+      orderBy: { created_at: 'desc' },
+      take: limit,
+      include: {
+        stakeholder: {
+          select: { stakeholder_type: true, name: true },
+        },
+      },
+    });
+
+    return vetoes.map(v => ({
+      id: v.id,
+      timestamp: v.created_at,
+      stakeholder: v.stakeholder?.stakeholder_type || 'UNKNOWN',
+      stakeholderName: v.stakeholder?.name || 'Unknown',
+      decisionId: v.decision_id,
+      reason: v.reasoning,
+      status: 'ACTIVE',
+    }));
+  }
+
+  // ===========================================================================
   // DASHBOARD
   // ===========================================================================
 

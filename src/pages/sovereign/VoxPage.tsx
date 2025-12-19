@@ -320,15 +320,20 @@ export const VoxPage: React.FC = () => {
     SHAREHOLDERS: 3,
   };
 
+  const [signals, setSignals] = useState<Signal[]>([]);
+  const [vetoes, setVetoes] = useState<VetoRecord[]>([]);
+
   useEffect(() => {
     loadData();
   }, []);
 
   const loadData = async () => {
     try {
-      const [stkRes, dashRes] = await Promise.all([
+      const [stkRes, dashRes, sigRes, vetRes] = await Promise.all([
         apiClient.api.get<{ data: Stakeholder[] }>('/vox/stakeholders'),
         apiClient.api.get<{ data: Dashboard }>('/vox/dashboard'),
+        apiClient.api.get<{ data: Signal[] }>('/vox/signals?limit=50'),
+        apiClient.api.get<{ data: VetoRecord[] }>('/vox/vetoes?limit=50'),
       ]);
       if (stkRes.success) {
         setStakeholders((stkRes.data as any)?.data || stkRes.data || []);
@@ -336,8 +341,18 @@ export const VoxPage: React.FC = () => {
       if (dashRes.success) {
         setDashboard((dashRes.data as any)?.data || dashRes.data || null);
       }
+      if (sigRes.success) {
+        const realSignals = (sigRes.data as any)?.data || sigRes.data || [];
+        setSignals(realSignals.length > 0 ? realSignals : MOCK_SIGNALS);
+      }
+      if (vetRes.success) {
+        const realVetoes = (vetRes.data as any)?.data || vetRes.data || [];
+        setVetoes(realVetoes.length > 0 ? realVetoes : MOCK_VETOES);
+      }
     } catch (error) {
       console.error('Failed to load Vox data:', error);
+      setSignals(MOCK_SIGNALS);
+      setVetoes(MOCK_VETOES);
     } finally {
       setIsLoading(false);
     }
@@ -501,7 +516,7 @@ export const VoxPage: React.FC = () => {
               <MessageSquare className="w-4 h-4" /> Signals (7d)
             </div>
             <div className="text-3xl font-bold text-cyan-400">
-              {dashboard.signalsLast7Days || MOCK_SIGNALS.length}
+              {dashboard.signalsLast7Days || signals.length}
             </div>
             <div className="text-xs text-cyan-400/60 mt-1">Click to view stream →</div>
           </button>
@@ -519,7 +534,7 @@ export const VoxPage: React.FC = () => {
               <AlertTriangle className="w-4 h-4" /> Vetoes (30d)
             </div>
             <div className="text-3xl font-bold text-red-400">
-              {dashboard.vetoesLast30Days || MOCK_VETOES.length}
+              {dashboard.vetoesLast30Days || vetoes.length}
             </div>
             <div className="text-xs text-red-400/60 mt-1">Click to view history →</div>
           </button>
@@ -577,10 +592,10 @@ export const VoxPage: React.FC = () => {
       {stakeholders.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {stakeholders.map((s) => {
-            const stakeholderSignals = MOCK_SIGNALS.filter(
+            const stakeholderSignals = signals.filter(
               (sig) => sig.stakeholder === s.stakeholderType
             ).length;
-            const stakeholderVetoes = MOCK_VETOES.filter(
+            const stakeholderVetoes = vetoes.filter(
               (v) => v.stakeholder === s.stakeholderType
             ).length;
 
@@ -906,7 +921,7 @@ export const VoxPage: React.FC = () => {
               </button>
             </div>
             <div className="p-4 space-y-3">
-              {MOCK_SIGNALS.map((signal) => (
+              {signals.map((signal) => (
                 <div
                   key={signal.id}
                   className="p-4 bg-slate-800 rounded-lg border border-slate-700"
@@ -969,7 +984,7 @@ export const VoxPage: React.FC = () => {
               </button>
             </div>
             <div className="p-4 space-y-3">
-              {MOCK_VETOES.map((veto) => (
+              {vetoes.map((veto) => (
                 <div key={veto.id} className="p-4 bg-slate-800 rounded-lg border border-red-500/30">
                   <div className="flex items-center justify-between mb-2">
                     <span
@@ -1009,7 +1024,7 @@ export const VoxPage: React.FC = () => {
                   </div>
                 </div>
               ))}
-              {MOCK_VETOES.length === 0 && (
+              {vetoes.length === 0 && (
                 <div className="text-center py-8 text-slate-500">No vetoes in last 30 days</div>
               )}
             </div>

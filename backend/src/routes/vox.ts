@@ -143,6 +143,36 @@ router.get('/assemblies', async (req: Request, res: Response) => {
 });
 
 // ===========================================================================
+// ALL SIGNALS (organization-wide)
+// ===========================================================================
+
+router.get('/signals', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const limit = req.query.limit ? parseInt(req.query.limit as string) : 50;
+    const signals = await cendiaVoxService.getAllSignals(orgId, limit);
+    res.json({ success: true, data: signals });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
+// ALL VETOES (organization-wide)
+// ===========================================================================
+
+router.get('/vetoes', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    const limit = req.query.limit ? parseInt(req.query.limit as string) : 50;
+    const vetoes = await cendiaVoxService.getAllVetoes(orgId, limit);
+    res.json({ success: true, data: vetoes });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
 // DASHBOARD
 // ===========================================================================
 
