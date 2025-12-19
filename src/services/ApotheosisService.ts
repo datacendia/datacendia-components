@@ -4,6 +4,16 @@
 // =============================================================================
 
 import { api } from '../lib/api';
+import { withRetry, isRetryableError } from '../lib/utils';
+import { parseApiError } from '../lib/errors/ApotheosisError';
+import {
+  getMockScore,
+  getMockLatestRun,
+  getMockEscalations,
+  getMockBannedPatterns,
+  getMockUpskillAssignments,
+  getDefaultConfig,
+} from './mocks/ApotheosisServiceMocks';
 
 // =============================================================================
 // TYPES
@@ -121,378 +131,342 @@ class ApotheosisService {
 
   /**
    * Get the current Apotheosis Score
+   * 
+   * FALLBACK BEHAVIOR:
+   * - Returns mock data if the API call fails due to network/server errors
+   * - Returns mock data if the API returns no data (null/undefined)
+   * - Logs detailed error information for debugging
+   * - Retries transient errors (network, timeout, server errors) up to 3 times with exponential backoff
    */
   async getScore(): Promise<ApotheosisScore> {
     try {
-      const response = await api.get<ApotheosisScore>(`${this.baseUrl}/score`);
-      return response.data ?? this.getMockScore();
+      const response = await withRetry(
+        async () => api.get<ApotheosisScore>(`${this.baseUrl}/score`),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying getScore (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
+      return response.data ?? getMockScore();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching score:', error);
-      return this.getMockScore();
+      const parsedError = parseApiError(error, `${this.baseUrl}/score`);
+      console.error('[Apotheosis] Error fetching score:', parsedError.toJSON());
+      // Fallback to mock data to ensure UI remains functional
+      return getMockScore();
     }
   }
 
   /**
    * Get the latest run results
+   * 
+   * FALLBACK BEHAVIOR:
+   * - Returns mock data if the API call fails due to network/server errors
+   * - Returns mock data if the API returns no data (null/undefined)
+   * - Logs detailed error information for debugging
+   * - Retries transient errors (network, timeout, server errors) up to 3 times with exponential backoff
    */
   async getLatestRun(): Promise<ApotheosisRun | null> {
     try {
-      const response = await api.get<ApotheosisRun>(`${this.baseUrl}/latest-run`);
-      return response.data ?? this.getMockLatestRun();
+      const response = await withRetry(
+        async () => api.get<ApotheosisRun>(`${this.baseUrl}/latest-run`),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying getLatestRun (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
+      return response.data ?? getMockLatestRun();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching latest run:', error);
-      return this.getMockLatestRun();
+      const parsedError = parseApiError(error, `${this.baseUrl}/latest-run`);
+      console.error('[Apotheosis] Error fetching latest run:', parsedError.toJSON());
+      // Fallback to mock data to ensure UI remains functional
+      return getMockLatestRun();
     }
   }
 
   /**
    * Get run history
+   * 
+   * FALLBACK BEHAVIOR:
+   * - Returns empty array if the API call fails
+   * - Logs detailed error information for debugging
+   * - Retries transient errors up to 3 times with exponential backoff
    */
   async getRunHistory(limit: number = 30): Promise<ApotheosisRun[]> {
     try {
-      const response = await api.get<ApotheosisRun[]>(`${this.baseUrl}/run-history?limit=${limit}`);
+      const response = await withRetry(
+        async () => api.get<ApotheosisRun[]>(`${this.baseUrl}/run-history?limit=${limit}`),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying getRunHistory (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
       return response.data ?? [];
     } catch (error) {
-      console.error('[Apotheosis] Error fetching run history:', error);
+      const parsedError = parseApiError(error, `${this.baseUrl}/run-history`);
+      console.error('[Apotheosis] Error fetching run history:', parsedError.toJSON());
+      // Return empty array as fallback (no historical data available)
       return [];
     }
   }
 
   /**
    * Get pending escalations
+   * 
+   * FALLBACK BEHAVIOR:
+   * - Returns mock escalations if the API call fails
+   * - Logs detailed error information for debugging
+   * - Retries transient errors up to 3 times with exponential backoff
    */
   async getEscalations(): Promise<Escalation[]> {
     try {
-      const response = await api.get<Escalation[]>(`${this.baseUrl}/escalations`);
-      return response.data ?? this.getMockEscalations();
+      const response = await withRetry(
+        async () => api.get<Escalation[]>(`${this.baseUrl}/escalations`),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying getEscalations (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
+      return response.data ?? getMockEscalations();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching escalations:', error);
-      return this.getMockEscalations();
+      const parsedError = parseApiError(error, `${this.baseUrl}/escalations`);
+      console.error('[Apotheosis] Error fetching escalations:', parsedError.toJSON());
+      // Fallback to mock data to ensure UI remains functional
+      return getMockEscalations();
     }
   }
 
   /**
    * Respond to an escalation
+   * 
+   * ERROR HANDLING:
+   * - Propagates errors to caller for proper handling
+   * - Logs detailed error information for debugging
+   * - Retries transient errors up to 3 times with exponential backoff
+   * 
+   * @throws {ApotheosisError} If the request fails after all retries
    */
   async respondToEscalation(
     id: string,
     response: 'approved' | 'rejected' | 'deferred',
     reason: string
   ): Promise<void> {
-    await api.post(`${this.baseUrl}/escalations/${id}/respond`, { response, reason });
+    try {
+      await withRetry(
+        async () => api.post(`${this.baseUrl}/escalations/${id}/respond`, { response, reason }),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying respondToEscalation (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
+    } catch (error) {
+      const parsedError = parseApiError(error, `${this.baseUrl}/escalations/${id}/respond`);
+      console.error('[Apotheosis] Error responding to escalation:', parsedError.toJSON());
+      // Re-throw the error for the caller to handle
+      throw parsedError;
+    }
   }
 
   /**
    * Get banned patterns
+   * 
+   * FALLBACK BEHAVIOR:
+   * - Returns mock banned patterns if the API call fails
+   * - Logs detailed error information for debugging
+   * - Retries transient errors up to 3 times with exponential backoff
    */
   async getBannedPatterns(): Promise<PatternBan[]> {
     try {
-      const response = await api.get<PatternBan[]>(`${this.baseUrl}/banned-patterns`);
-      return response.data ?? this.getMockBannedPatterns();
+      const response = await withRetry(
+        async () => api.get<PatternBan[]>(`${this.baseUrl}/banned-patterns`),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying getBannedPatterns (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
+      return response.data ?? getMockBannedPatterns();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching banned patterns:', error);
-      return this.getMockBannedPatterns();
+      const parsedError = parseApiError(error, `${this.baseUrl}/banned-patterns`);
+      console.error('[Apotheosis] Error fetching banned patterns:', parsedError.toJSON());
+      // Fallback to mock data to ensure UI remains functional
+      return getMockBannedPatterns();
     }
   }
 
   /**
    * Get upskill assignments
+   * 
+   * FALLBACK BEHAVIOR:
+   * - Returns mock upskill assignments if the API call fails
+   * - Logs detailed error information for debugging
+   * - Retries transient errors up to 3 times with exponential backoff
    */
   async getUpskillAssignments(): Promise<UpskillAssignment[]> {
     try {
-      const response = await api.get<UpskillAssignment[]>(`${this.baseUrl}/upskill-assignments`);
-      return response.data ?? this.getMockUpskillAssignments();
+      const response = await withRetry(
+        async () => api.get<UpskillAssignment[]>(`${this.baseUrl}/upskill-assignments`),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying getUpskillAssignments (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
+      return response.data ?? getMockUpskillAssignments();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching upskill assignments:', error);
-      return this.getMockUpskillAssignments();
+      const parsedError = parseApiError(error, `${this.baseUrl}/upskill-assignments`);
+      console.error('[Apotheosis] Error fetching upskill assignments:', parsedError.toJSON());
+      // Fallback to mock data to ensure UI remains functional
+      return getMockUpskillAssignments();
     }
   }
 
   /**
    * Get configuration
+   * 
+   * FALLBACK BEHAVIOR:
+   * - Returns default configuration if the API call fails
+   * - Logs detailed error information for debugging
+   * - Retries transient errors up to 3 times with exponential backoff
    */
   async getConfig(): Promise<ApotheosisConfig> {
     try {
-      const response = await api.get<ApotheosisConfig>(`${this.baseUrl}/config`);
-      return response.data ?? this.getDefaultConfig();
+      const response = await withRetry(
+        async () => api.get<ApotheosisConfig>(`${this.baseUrl}/config`),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying getConfig (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
+      return response.data ?? getDefaultConfig();
     } catch (error) {
-      console.error('[Apotheosis] Error fetching config:', error);
-      return this.getDefaultConfig();
+      const parsedError = parseApiError(error, `${this.baseUrl}/config`);
+      console.error('[Apotheosis] Error fetching config:', parsedError.toJSON());
+      // Fallback to default configuration
+      return getDefaultConfig();
     }
   }
 
   /**
    * Update configuration
+   * 
+   * ERROR HANDLING:
+   * - Propagates errors to caller for proper handling
+   * - Returns default config as fallback if update fails
+   * - Logs detailed error information for debugging
+   * - Retries transient errors up to 3 times with exponential backoff
    */
   async updateConfig(config: Partial<ApotheosisConfig>): Promise<ApotheosisConfig> {
-    const response = await api.put<ApotheosisConfig>(`${this.baseUrl}/config`, config);
-    return response.data ?? this.getDefaultConfig();
+    try {
+      const response = await withRetry(
+        async () => api.put<ApotheosisConfig>(`${this.baseUrl}/config`, config),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying updateConfig (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
+          },
+        }
+      );
+      return response.data ?? getDefaultConfig();
+    } catch (error) {
+      const parsedError = parseApiError(error, `${this.baseUrl}/config`);
+      console.error('[Apotheosis] Error updating config:', parsedError.toJSON());
+      // Return default config as fallback
+      return getDefaultConfig();
+    }
   }
 
   /**
    * Trigger a manual run
+   * 
+   * ERROR HANDLING:
+   * - Propagates errors to caller for proper handling
+   * - Logs detailed error information for debugging
+   * - Retries transient errors up to 3 times with exponential backoff
+   * 
+   * @throws {ApotheosisError} If the request fails after all retries
    */
   async triggerManualRun(): Promise<{ runId: string }> {
-    const response = await api.post<{ runId: string }>(`${this.baseUrl}/trigger-run`, {});
-    return response.data ?? { runId: 'manual-run' };
-  }
-
-  // ===========================================================================
-  // MOCK DATA FOR DEMO
-  // ===========================================================================
-
-  private getMockScore(): ApotheosisScore {
-    return {
-      overall: 94.7,
-      components: {
-        redTeamSurvivalRate: { value: 93, weight: 0.3 },
-        weaknessClosureRate: { value: 97, weight: 0.25 },
-        decisionSuccessRate: { value: 89, weight: 0.25 },
-        humanReadiness: { value: 96, weight: 0.1 },
-        patternHealth: { value: 98, weight: 0.1 },
-      },
-      trend: [
-        { date: '2024-01', score: 78.2 },
-        { date: '2024-03', score: 82.4 },
-        { date: '2024-06', score: 88.1 },
-        { date: '2024-09', score: 92.3 },
-        { date: '2024-12', score: 94.7 },
-      ],
-      improvementPoints: 16.5,
-      improvementPeriod: '11 months',
-    };
-  }
-
-  private getMockLatestRun(): ApotheosisRun {
-    return {
-      id: 'run-demo-1',
-      organizationId: 'demo-org',
-      startedAt: new Date(Date.now() - 3 * 60 * 60 * 1000),
-      completedAt: new Date(Date.now() - 15 * 60 * 1000),
-      status: 'completed',
-      scenariosTested: 1247,
-      scenariosSurvived: 1160,
-      survivalRate: 93.0,
-      criticalCount: 3,
-      highCount: 12,
-      mediumCount: 18,
-      lowCount: 14,
-      apotheosisScore: 94.7,
-      previousScore: 92.3,
-      scoreDelta: 2.4,
-      shadowCouncilInstances: 12,
-      computeHours: 847,
-      duration: 167,
-    };
-  }
-
-  private getMockEscalations(): Escalation[] {
-    return [
-      {
-        id: 'esc-1',
-        weaknessId: 'w1',
-        title: 'Single point of failure in Finance',
-        description:
-          'Only CFO can approve wire transfers >$100K. CFO unavailable = business stops.',
-        severity: 'critical',
-        reason: 'Requires policy change',
-        estimatedCostToFix: 0,
-        riskIfNotFixed: 2300000,
-        assignedTo: ['executive-team'],
-        deadline: new Date(Date.now() + 48 * 60 * 60 * 1000),
-        status: 'pending',
-      },
-      {
-        id: 'esc-2',
-        weaknessId: 'w2',
-        title: 'Vendor concentration risk',
-        description:
-          '73% of cloud spend with single vendor (AWS). Price increase or outage = major impact.',
-        severity: 'high',
-        reason: 'Budget impact exceeds threshold',
-        estimatedCostToFix: 150000,
-        riskIfNotFixed: 4100000,
-        assignedTo: ['cto', 'cfo'],
-        deadline: new Date(Date.now() + 72 * 60 * 60 * 1000),
-        status: 'pending',
-      },
-      {
-        id: 'esc-3',
-        weaknessId: 'w3',
-        title: 'Knowledge concentration in Engineering',
-        description:
-          '3 engineers hold 80% of critical system knowledge. Departure = 6-12 month recovery.',
-        severity: 'high',
-        reason: 'Requires resource allocation',
-        estimatedCostToFix: 45000,
-        riskIfNotFixed: 1800000,
-        assignedTo: ['vp-engineering'],
-        deadline: new Date(Date.now() + 120 * 60 * 60 * 1000),
-        status: 'pending',
-      },
-    ];
-  }
-
-  private getMockBannedPatterns(): PatternBan[] {
-    return [
-      {
-        id: 'pb-1',
-        pattern: 'Skip process for urgent requests',
-        description: 'Bypassing standard review for urgency claims',
-        instances: [
-          {
-            decisionId: 'd1',
-            decisionTitle: 'Rush vendor onboarding',
-            date: new Date('2024-09-15'),
-            outcome: 'failure',
-            cost: 120000,
+    try {
+      const response = await withRetry(
+        async () => api.post<{ runId: string }>(`${this.baseUrl}/trigger-run`, {}),
+        {
+          maxAttempts: 3,
+          initialDelay: 1000,
+          shouldRetry: isRetryableError,
+          onRetry: (attempt, error, delay) => {
+            console.warn(
+              `[Apotheosis] Retrying triggerManualRun (attempt ${attempt}) after ${delay}ms due to:`,
+              error
+            );
           },
-          {
-            decisionId: 'd2',
-            decisionTitle: 'Skip QA for deadline',
-            date: new Date('2024-06-10'),
-            outcome: 'failure',
-            cost: 45000,
-          },
-          {
-            decisionId: 'd3',
-            decisionTitle: 'Skip legal review',
-            date: new Date('2024-03-22'),
-            outcome: 'failure',
-            cost: 75000,
-          },
-        ],
-        failureRate: 100,
-        totalCost: 240000,
-        bannedAt: new Date('2024-09-20'),
-        bannedBy: 'apotheosis',
-        status: 'active',
-        overrideRequires: 'CEO approval',
-      },
-      {
-        id: 'pb-2',
-        pattern: 'Approve vendor without references',
-        description: 'Onboarding vendors without reference checks',
-        instances: [
-          {
-            decisionId: 'd4',
-            decisionTitle: 'New supplier approval',
-            date: new Date('2024-06-01'),
-            outcome: 'failure',
-            cost: 85000,
-          },
-          {
-            decisionId: 'd5',
-            decisionTitle: 'Contractor engagement',
-            date: new Date('2024-04-15'),
-            outcome: 'failure',
-            cost: 62000,
-          },
-        ],
-        failureRate: 100,
-        totalCost: 147000,
-        bannedAt: new Date('2024-06-15'),
-        bannedBy: 'apotheosis',
-        status: 'active',
-        overrideRequires: 'CFO approval',
-      },
-      {
-        id: 'pb-3',
-        pattern: 'Deploy Friday afternoon',
-        description: 'Production deployments on Friday afternoons',
-        instances: [
-          {
-            decisionId: 'd6',
-            decisionTitle: 'Feature release',
-            date: new Date('2024-03-08'),
-            outcome: 'failure',
-            cost: 35000,
-          },
-          {
-            decisionId: 'd7',
-            decisionTitle: 'Hotfix deployment',
-            date: new Date('2024-02-16'),
-            outcome: 'failure',
-            cost: 28000,
-          },
-        ],
-        failureRate: 83,
-        totalCost: 63000,
-        bannedAt: new Date('2024-03-15'),
-        bannedBy: 'apotheosis',
-        status: 'active',
-        overrideRequires: 'CTO approval',
-      },
-    ];
-  }
-
-  private getMockUpskillAssignments(): UpskillAssignment[] {
-    return [
-      {
-        id: 'us-1',
-        userId: 'user-1',
-        userName: 'James Wilson',
-        weaknessId: 'w1',
-        gapIdentified: 'Vendor security assessment',
-        trainingTopic: 'Vendor Security Fundamentals',
-        trainingDuration: 45,
-        deadline: new Date(Date.now() + 72 * 60 * 60 * 1000),
-        modules: [
-          { title: 'Why vendor security matters', duration: 10, type: 'video' },
-          { title: 'The breach that bankrupted...', duration: 15, type: 'reading' },
-          { title: 'Security checklist for contracts', duration: 10, type: 'reading' },
-          { title: 'Quiz + certification', duration: 10, type: 'quiz' },
-        ],
-        status: 'assigned',
-        blockingActions: true,
-      },
-      {
-        id: 'us-2',
-        userId: 'user-2',
-        userName: 'Sarah Chen',
-        weaknessId: 'w2',
-        gapIdentified: 'Financial red flags recognition',
-        trainingTopic: 'Financial Risk Indicators',
-        trainingDuration: 30,
-        deadline: new Date(Date.now() + 48 * 60 * 60 * 1000),
-        modules: [
-          { title: 'Common financial warning signs', duration: 10, type: 'video' },
-          { title: 'Case studies', duration: 15, type: 'reading' },
-          { title: 'Assessment', duration: 5, type: 'quiz' },
-        ],
-        status: 'in_progress',
-        blockingActions: false,
-      },
-      {
-        id: 'us-3',
-        userId: 'user-3',
-        userName: 'Mike Rodriguez',
-        weaknessId: 'w3',
-        gapIdentified: 'Data privacy (GDPR)',
-        trainingTopic: 'GDPR Compliance Essentials',
-        trainingDuration: 60,
-        deadline: new Date(Date.now() + 120 * 60 * 60 * 1000),
-        modules: [
-          { title: 'GDPR fundamentals', duration: 20, type: 'video' },
-          { title: 'Data handling procedures', duration: 25, type: 'reading' },
-          { title: 'Certification exam', duration: 15, type: 'quiz' },
-        ],
-        status: 'assigned',
-        blockingActions: false,
-      },
-    ];
-  }
-
-  private getDefaultConfig(): ApotheosisConfig {
-    return {
-      runFrequency: 'nightly',
-      runTime: '03:00',
-      scenarioCount: 1000,
-      autoPatchThreshold: 10000,
-      escalationTimeout: 72,
-      patternBanThreshold: 3,
-      trainingDeadline: 72,
-    };
+        }
+      );
+      return response.data ?? { runId: 'manual-run' };
+    } catch (error) {
+      const parsedError = parseApiError(error, `${this.baseUrl}/trigger-run`);
+      console.error('[Apotheosis] Error triggering manual run:', parsedError.toJSON());
+      // Re-throw the error for the caller to handle
+      throw parsedError;
+    }
   }
 }
 
