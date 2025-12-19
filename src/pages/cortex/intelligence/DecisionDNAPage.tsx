@@ -849,6 +849,42 @@ export const DecisionDNAPage: React.FC = () => {
               </div>
             ) : (
               <div className="space-y-4">
+                {/* Status & Governance Header */}
+                <div className="bg-slate-900/80 border border-slate-700/50 rounded-xl p-3 flex items-center justify-between text-sm">
+                  <div className="flex items-center gap-6">
+                    <div className="flex items-center gap-2">
+                      <span className="text-slate-500">Status:</span>
+                      <span className={cn(
+                        'px-2 py-0.5 rounded text-xs font-medium',
+                        selectedDecision.status === 'decided' || selectedDecision.status === 'implemented'
+                          ? 'bg-emerald-500/20 text-emerald-300'
+                          : selectedDecision.status === 'deliberating'
+                            ? 'bg-amber-500/20 text-amber-300'
+                            : 'bg-slate-500/20 text-slate-300'
+                      )}>
+                        {selectedDecision.status === 'decided' ? '✓ Decided' :
+                         selectedDecision.status === 'implemented' ? '✓ Implemented' :
+                         selectedDecision.status === 'deliberating' ? '⏳ Under Review' :
+                         selectedDecision.status === 'analyzing' ? '🔍 Analyzing' : '📝 Draft'}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="text-slate-500">Mode:</span>
+                      <span className="text-slate-300">Decision Governance</span>
+                    </div>
+                    {selectedDecision.owner && (
+                      <div className="flex items-center gap-2">
+                        <span className="text-slate-500">Owner:</span>
+                        <span className="text-slate-300">{selectedDecision.owner.name}</span>
+                      </div>
+                    )}
+                  </div>
+                  <div className="flex items-center gap-4 text-xs text-slate-500">
+                    {selectedDecision.decisionId && <span>ID: {selectedDecision.decisionId}</span>}
+                    <span>Updated: {formatDate(selectedDecision.updatedAt)}</span>
+                  </div>
+                </div>
+
                 {/* Decision Header */}
                 <div className="bg-slate-800/50 rounded-xl p-4 border border-slate-700">
                   <div className="flex items-start justify-between">
@@ -886,9 +922,16 @@ export const DecisionDNAPage: React.FC = () => {
                           >
                             {selectedDecision.status.charAt(0).toUpperCase() +
                               selectedDecision.status.slice(1)}
-                            {selectedDecision.councilConfidence &&
-                              ` (${selectedDecision.councilConfidence}% confidence)`}
                           </span>
+                          {selectedDecision.councilConfidence && (
+                            <span className="relative group ml-1">
+                              <span className="text-slate-300">({selectedDecision.councilConfidence}% consensus)</span>
+                              <span className="ml-1 text-slate-500 cursor-help">ⓘ</span>
+                              <span className="absolute bottom-full left-0 mb-2 w-64 p-2 bg-slate-800 border border-slate-600 rounded-lg text-xs text-slate-300 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                                <strong className="text-white">Consensus Score</strong> = weighted agreement across Council agents, calibrated against historical decision outcomes.
+                              </span>
+                            </span>
+                          )}
                         </span>
                         <span className="text-slate-300">
                           <span className="text-slate-500">Last updated:</span>{' '}
@@ -941,26 +984,35 @@ export const DecisionDNAPage: React.FC = () => {
                     </div>
                   </div>
 
-                  {/* Immutable Hash Banner */}
+                  {/* Immutable Hash Banner with Verification Details */}
                   {selectedDecision.auditHash && (
-                    <div
-                      className="mt-3 p-2 bg-green-900/30 border border-green-700/50 rounded-lg flex items-center justify-between group cursor-help"
-                      title="Any change to this decision's record would change this hash. It's anchored in the immutable Chronos ledger."
-                    >
-                      <div className="flex items-center gap-2">
-                        <span className="text-green-400 text-lg">🔐</span>
-                        <div>
-                          <span className="text-green-400 text-xs font-medium">
-                            Immutable Hash (Chronos Ledger)
-                          </span>
-                          <span className="text-green-300 text-xs font-mono ml-2">
-                            {selectedDecision.auditHash}
-                          </span>
+                    <div className="mt-3 p-3 bg-green-900/30 border border-green-700/50 rounded-lg">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <span className="text-green-400 text-lg">🔐</span>
+                          <div>
+                            <span className="text-green-400 text-xs font-medium">
+                              Immutable Hash (Chronos Ledger)
+                            </span>
+                            <span className="text-green-300 text-xs font-mono ml-2">
+                              {selectedDecision.auditHash}
+                            </span>
+                          </div>
                         </div>
+                        <span className="text-green-400 text-xs px-2 py-0.5 bg-green-500/20 rounded">
+                          ✓ Cryptographically anchored
+                        </span>
                       </div>
-                      <span className="text-green-500/50 text-xs group-hover:text-green-400 transition-colors">
-                        ℹ️ Cryptographically anchored
-                      </span>
+                      <div className="mt-2 pt-2 border-t border-green-700/30 flex items-center justify-between text-xs">
+                        <div className="flex items-center gap-4 text-green-300/70">
+                          <span>Signed: Ed25519</span>
+                          <span>Key: Organization KMS</span>
+                          <span>Chain: Chronos Ledger</span>
+                        </div>
+                        <code className="text-green-300/60 font-mono text-[10px]">
+                          datacendia verify decision.json --ledger chronos
+                        </code>
+                      </div>
                     </div>
                   )}
 

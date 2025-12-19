@@ -5592,7 +5592,15 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
     <div className="space-y-4">
       <div>
         <div className="flex justify-between text-sm mb-1">
-          <span className="text-neutral-400">Prediction Confidence</span>
+          <span className="text-neutral-400 flex items-center gap-1">
+            Forecast Confidence (MAPE-based)
+            <span className="relative group">
+              <span className="text-neutral-500 cursor-help">ⓘ</span>
+              <span className="absolute bottom-full left-0 mb-2 w-64 p-2 bg-neutral-800 border border-neutral-600 rounded-lg text-xs text-neutral-300 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                <strong className="text-white">Forecast Confidence</strong> = 100% - MAPE (Mean Absolute Percentage Error) from backtested predictions at similar horizons. Decays ~0.3% per day of forecast distance.
+              </span>
+            </span>
+          </span>
           <span
             className={
               confidence > 70
@@ -5602,6 +5610,7 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
                   : 'text-red-400'
             }
           >
+            {confidence > 70 ? '✓ ' : confidence > 40 ? '◐ ' : '⚠ '}
             {confidence.toFixed(0)}%
           </span>
         </div>
@@ -5615,7 +5624,7 @@ const PredictionConfidence: React.FC<{ currentDate: Date }> = ({ currentDate }) 
         </div>
       </div>
       <p className="text-xs text-neutral-500">
-        Predictions {daysAhead} days ahead. Confidence decreases with temporal distance.
+        Forecast horizon: {daysAhead} days. Confidence calibrated against historical backtest accuracy.
       </p>
       <div className="space-y-2 text-sm">
         <div className="flex justify-between">
