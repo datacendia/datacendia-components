@@ -126,6 +126,33 @@ export interface ApotheosisConfig {
 // SERVICE CLASS
 // =============================================================================
 
+/**
+ * Default retry configuration for all API calls
+ * - Retries up to 3 times with exponential backoff
+ * - Only retries transient errors (network, timeout, server errors)
+ * - Logs retry attempts for debugging
+ */
+const DEFAULT_RETRY_CONFIG = {
+  maxAttempts: 3,
+  initialDelay: 1000,
+  shouldRetry: isRetryableError,
+};
+
+/**
+ * Create retry callback for logging retry attempts
+ * @param operation - The operation being retried (for logging)
+ */
+const createRetryCallback = (operation: string) => (
+  attempt: number,
+  error: unknown,
+  delay: number
+) => {
+  console.warn(
+    `[Apotheosis] Retrying ${operation} (attempt ${attempt}) after ${delay}ms due to:`,
+    error
+  );
+};
+
 class ApotheosisService {
   private baseUrl = '/api/v1/apotheosis';
 
@@ -143,15 +170,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.get<ApotheosisScore>(`${this.baseUrl}/score`),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying getScore (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('getScore'),
         }
       );
       return response.data ?? getMockScore();
@@ -177,15 +197,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.get<ApotheosisRun>(`${this.baseUrl}/latest-run`),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying getLatestRun (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('getLatestRun'),
         }
       );
       return response.data ?? getMockLatestRun();
@@ -210,15 +223,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.get<ApotheosisRun[]>(`${this.baseUrl}/run-history?limit=${limit}`),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying getRunHistory (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('getRunHistory'),
         }
       );
       return response.data ?? [];
@@ -243,15 +249,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.get<Escalation[]>(`${this.baseUrl}/escalations`),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying getEscalations (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('getEscalations'),
         }
       );
       return response.data ?? getMockEscalations();
@@ -282,15 +281,8 @@ class ApotheosisService {
       await withRetry(
         async () => api.post(`${this.baseUrl}/escalations/${id}/respond`, { response, reason }),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying respondToEscalation (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('respondToEscalation'),
         }
       );
     } catch (error) {
@@ -314,15 +306,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.get<PatternBan[]>(`${this.baseUrl}/banned-patterns`),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying getBannedPatterns (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('getBannedPatterns'),
         }
       );
       return response.data ?? getMockBannedPatterns();
@@ -347,15 +332,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.get<UpskillAssignment[]>(`${this.baseUrl}/upskill-assignments`),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying getUpskillAssignments (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('getUpskillAssignments'),
         }
       );
       return response.data ?? getMockUpskillAssignments();
@@ -380,15 +358,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.get<ApotheosisConfig>(`${this.baseUrl}/config`),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying getConfig (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('getConfig'),
         }
       );
       return response.data ?? getDefaultConfig();
@@ -414,15 +385,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.put<ApotheosisConfig>(`${this.baseUrl}/config`, config),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying updateConfig (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('updateConfig'),
         }
       );
       return response.data ?? getDefaultConfig();
@@ -449,15 +413,8 @@ class ApotheosisService {
       const response = await withRetry(
         async () => api.post<{ runId: string }>(`${this.baseUrl}/trigger-run`, {}),
         {
-          maxAttempts: 3,
-          initialDelay: 1000,
-          shouldRetry: isRetryableError,
-          onRetry: (attempt, error, delay) => {
-            console.warn(
-              `[Apotheosis] Retrying triggerManualRun (attempt ${attempt}) after ${delay}ms due to:`,
-              error
-            );
-          },
+          ...DEFAULT_RETRY_CONFIG,
+          onRetry: createRetryCallback('triggerManualRun'),
         }
       );
       return response.data ?? { runId: 'manual-run' };

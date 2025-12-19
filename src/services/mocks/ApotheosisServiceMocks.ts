@@ -18,6 +18,16 @@ import type {
   ApotheosisConfig,
 } from '../ApotheosisService';
 
+// =============================================================================
+// TIME CONSTANTS
+// =============================================================================
+
+const FIFTEEN_MINUTES_MS = 15 * 60 * 1000;
+const THREE_HOURS_MS = 3 * 60 * 60 * 1000;
+const FORTY_EIGHT_HOURS_MS = 48 * 60 * 60 * 1000;
+const SEVENTY_TWO_HOURS_MS = 72 * 60 * 60 * 1000;
+const ONE_HUNDRED_TWENTY_HOURS_MS = 120 * 60 * 60 * 1000;
+
 /**
  * Mock Apotheosis Score data
  * Represents a high-performing organization with good improvement trends
@@ -52,8 +62,8 @@ export function getMockLatestRun(): ApotheosisRun {
   return {
     id: 'run-demo-1',
     organizationId: 'demo-org',
-    startedAt: new Date(Date.now() - 3 * 60 * 60 * 1000), // 3 hours ago
-    completedAt: new Date(Date.now() - 15 * 60 * 1000), // 15 minutes ago
+    startedAt: new Date(Date.now() - THREE_HOURS_MS), // 3 hours ago
+    completedAt: new Date(Date.now() - FIFTEEN_MINUTES_MS), // 15 minutes ago
     status: 'completed',
     scenariosTested: 1247,
     scenariosSurvived: 1160,
@@ -88,7 +98,7 @@ export function getMockEscalations(): Escalation[] {
       estimatedCostToFix: 0,
       riskIfNotFixed: 2300000,
       assignedTo: ['executive-team'],
-      deadline: new Date(Date.now() + 48 * 60 * 60 * 1000), // 48 hours from now
+      deadline: new Date(Date.now() + FORTY_EIGHT_HOURS_MS), // 48 hours from now
       status: 'pending',
     },
     {
@@ -102,7 +112,7 @@ export function getMockEscalations(): Escalation[] {
       estimatedCostToFix: 150000,
       riskIfNotFixed: 4100000,
       assignedTo: ['cto', 'cfo'],
-      deadline: new Date(Date.now() + 72 * 60 * 60 * 1000), // 72 hours from now
+      deadline: new Date(Date.now() + SEVENTY_TWO_HOURS_MS), // 72 hours from now
       status: 'pending',
     },
     {
@@ -116,7 +126,7 @@ export function getMockEscalations(): Escalation[] {
       estimatedCostToFix: 45000,
       riskIfNotFixed: 1800000,
       assignedTo: ['vp-engineering'],
-      deadline: new Date(Date.now() + 120 * 60 * 60 * 1000), // 120 hours from now
+      deadline: new Date(Date.now() + ONE_HUNDRED_TWENTY_HOURS_MS), // 120 hours from now
       status: 'pending',
     },
   ];
@@ -233,7 +243,7 @@ export function getMockUpskillAssignments(): UpskillAssignment[] {
       gapIdentified: 'Vendor security assessment',
       trainingTopic: 'Vendor Security Fundamentals',
       trainingDuration: 45,
-      deadline: new Date(Date.now() + 72 * 60 * 60 * 1000), // 72 hours from now
+      deadline: new Date(Date.now() + SEVENTY_TWO_HOURS_MS), // 72 hours from now
       modules: [
         { title: 'Why vendor security matters', duration: 10, type: 'video' },
         { title: 'The breach that bankrupted...', duration: 15, type: 'reading' },
@@ -251,7 +261,7 @@ export function getMockUpskillAssignments(): UpskillAssignment[] {
       gapIdentified: 'Financial red flags recognition',
       trainingTopic: 'Financial Risk Indicators',
       trainingDuration: 30,
-      deadline: new Date(Date.now() + 48 * 60 * 60 * 1000), // 48 hours from now
+      deadline: new Date(Date.now() + FORTY_EIGHT_HOURS_MS), // 48 hours from now
       modules: [
         { title: 'Common financial warning signs', duration: 10, type: 'video' },
         { title: 'Case studies', duration: 15, type: 'reading' },
@@ -268,7 +278,7 @@ export function getMockUpskillAssignments(): UpskillAssignment[] {
       gapIdentified: 'Data privacy (GDPR)',
       trainingTopic: 'GDPR Compliance Essentials',
       trainingDuration: 60,
-      deadline: new Date(Date.now() + 120 * 60 * 60 * 1000), // 120 hours from now
+      deadline: new Date(Date.now() + ONE_HUNDRED_TWENTY_HOURS_MS), // 120 hours from now
       modules: [
         { title: 'GDPR fundamentals', duration: 20, type: 'video' },
         { title: 'Data handling procedures', duration: 25, type: 'reading' },
