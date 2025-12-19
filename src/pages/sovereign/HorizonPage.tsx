@@ -321,7 +321,10 @@ const HorizonPage: React.FC = () => {
         version: 'horizon-v2.4.1',
         lastTrained: '2024-12-01',
         calibration: 'weekly',
-        accuracy: 0.824,
+        backtestScore: 0.824,
+        backtestHorizon: '12 months',
+        backtestBaseline: 'seasonal naive',
+        calibrationError: 0.04,
       },
       approvalStatus: 'pending_human_approval',
     };
@@ -613,6 +616,30 @@ const HorizonPage: React.FC = () => {
             animate={{ opacity: 1 }}
             className="space-y-8"
           >
+            {/* Status & Governance Header */}
+            <div className="bg-neutral-900/80 border border-neutral-700/50 rounded-xl p-3 flex items-center justify-between text-sm">
+              <div className="flex items-center gap-6">
+                <div className="flex items-center gap-2">
+                  <span className="text-neutral-500">Status:</span>
+                  <span className="px-2 py-0.5 bg-amber-500/20 text-amber-300 rounded text-xs font-medium">
+                    ⏳ Draft — Pending Review
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-neutral-500">Mode:</span>
+                  <span className="text-neutral-300">Due Diligence</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-neutral-500">Owner:</span>
+                  <span className="text-neutral-300">Current User</span>
+                </div>
+              </div>
+              <div className="flex items-center gap-4 text-xs text-neutral-500">
+                <span>Run ID: {simulation.id}</span>
+                <span>Generated: {new Date().toLocaleString()}</span>
+              </div>
+            </div>
+
             {/* Question Banner */}
             <div className="bg-gradient-to-r from-indigo-900/50 to-purple-900/50 border border-indigo-500/30 rounded-2xl p-6">
               <div className="flex items-start justify-between">
@@ -760,9 +787,10 @@ const HorizonPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-2 text-xs text-neutral-500">
-                    <span className="w-3 h-3 rounded-full bg-emerald-500"></span> Positive
-                    <span className="w-3 h-3 rounded-full bg-red-500 ml-2"></span> Risk
-                    <span className="w-3 h-3 rounded-full bg-amber-500 ml-2"></span> Pivot
+                    <span className="w-3 h-3 rounded-full bg-emerald-500"></span> <span>Positive</span>
+                    <span className="w-3 h-3 rounded-full bg-red-500 ml-2"></span> <span>Risk</span>
+                    <span className="w-3 h-3 rounded-full bg-amber-500 ml-2"></span> <span>Pivot</span>
+                    <span className="w-3 h-3 rounded-full bg-neutral-500 ml-2"></span> <span>Neutral</span>
                   </div>
                 </div>
 
@@ -1426,11 +1454,16 @@ const HorizonPage: React.FC = () => {
                               <span className="text-sm font-medium text-red-300">If churn rate exceeds 8%</span>
                               <span className="text-xs text-red-400">→ Favors Bold Acquisition</span>
                             </div>
+                            <div className="flex gap-1.5 mb-2">
+                              <span className="text-xs px-1.5 py-0.5 bg-blue-500/20 text-blue-300 rounded">Observable</span>
+                              <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">CRM + Finance</span>
+                              <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">30d horizon</span>
+                            </div>
                             <div className="w-full h-2 bg-neutral-700 rounded-full">
                               <div className="w-3/4 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
                             </div>
                             <div className="flex justify-between text-xs text-neutral-500 mt-1">
-                              <span>Current: 5.2%</span>
+                              <span>Current: 5.2% • <span className="text-emerald-400">Within threshold</span></span>
                               <span>Threshold: 8%</span>
                             </div>
                           </div>
@@ -1439,11 +1472,16 @@ const HorizonPage: React.FC = () => {
                               <span className="text-sm font-medium text-orange-300">If CAC rises above $450</span>
                               <span className="text-xs text-orange-400">→ Favors Status Quo</span>
                             </div>
+                            <div className="flex gap-1.5 mb-2">
+                              <span className="text-xs px-1.5 py-0.5 bg-blue-500/20 text-blue-300 rounded">Observable</span>
+                              <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">CRM + Finance</span>
+                              <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">30d horizon</span>
+                            </div>
                             <div className="w-full h-2 bg-neutral-700 rounded-full">
                               <div className="w-2/3 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
                             </div>
                             <div className="flex justify-between text-xs text-neutral-500 mt-1">
-                              <span>Current: $320</span>
+                              <span>Current: $320 • <span className="text-emerald-400">Within threshold</span></span>
                               <span>Threshold: $450</span>
                             </div>
                           </div>
@@ -1452,11 +1490,16 @@ const HorizonPage: React.FC = () => {
                               <span className="text-sm font-medium text-purple-300">If risk score exceeds 60</span>
                               <span className="text-xs text-purple-400">→ Favors Status Quo</span>
                             </div>
+                            <div className="flex gap-1.5 mb-2">
+                              <span className="text-xs px-1.5 py-0.5 bg-purple-500/20 text-purple-300 rounded">Model-derived</span>
+                              <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">RiskModel v3.1</span>
+                              <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">Real-time</span>
+                            </div>
                             <div className="w-full h-2 bg-neutral-700 rounded-full">
                               <div className="w-3/4 h-full bg-gradient-to-r from-emerald-500 to-yellow-500 rounded-full"></div>
                             </div>
                             <div className="flex justify-between text-xs text-neutral-500 mt-1">
-                              <span>Current: 45</span>
+                              <span>Current: 45 • <span className="text-emerald-400">Within threshold</span></span>
                               <span>Threshold: 60</span>
                             </div>
                           </div>
@@ -1465,8 +1508,13 @@ const HorizonPage: React.FC = () => {
                               <span className="text-sm font-medium text-cyan-300">If competitor acquires target first</span>
                               <span className="text-xs text-cyan-400">→ Favors Bold Acquisition</span>
                             </div>
+                            <div className="flex gap-1.5 mb-2">
+                              <span className="text-xs px-1.5 py-0.5 bg-red-500/20 text-red-300 rounded">External</span>
+                              <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">Market Intel</span>
+                              <span className="text-xs px-1.5 py-0.5 bg-neutral-700 text-neutral-400 rounded">90d horizon</span>
+                            </div>
                             <div className="text-xs text-neutral-500 mt-1">
-                              Probability: 35% within 90 days
+                              Probability: 35% within 90 days • <span className="text-amber-400">Approaching threshold</span>
                             </div>
                           </div>
                         </div>
@@ -1485,14 +1533,24 @@ const HorizonPage: React.FC = () => {
                             <h4 className="text-sm font-medium text-cyan-300 mb-3">Data Sources</h4>
                             <div className="space-y-2">
                               {[
-                                { name: 'Financial Data Warehouse', timestamp: '2024-12-17 14:32:00', freshness: '2h ago' },
-                                { name: 'CRM Pipeline Analytics', timestamp: '2024-12-17 16:00:00', freshness: '15m ago' },
-                                { name: 'Market Intelligence Feed', timestamp: '2024-12-17 15:45:00', freshness: '30m ago' },
-                                { name: 'HR Sentiment Analysis', timestamp: '2024-12-15 09:00:00', freshness: '2d ago' },
+                                { name: 'Financial Data Warehouse', freshness: '2h ago', policy: '≤24h', status: 'fresh' },
+                                { name: 'CRM Pipeline Analytics', freshness: '15m ago', policy: '≤6h', status: 'fresh' },
+                                { name: 'Market Intelligence Feed', freshness: '30m ago', policy: '≤1h', status: 'fresh' },
+                                { name: 'HR Sentiment Analysis', freshness: '2d ago', policy: '≤7d', status: 'fresh' },
                               ].map((source, i) => (
-                                <div key={i} className="flex items-center justify-between text-sm">
+                                <div key={i} className="flex items-center justify-between text-sm py-1">
                                   <span className="text-neutral-300">{source.name}</span>
-                                  <span className="text-neutral-500">{source.freshness}</span>
+                                  <div className="flex items-center gap-2">
+                                    <span className="text-neutral-500">{source.freshness}</span>
+                                    <span className={`text-xs px-1.5 py-0.5 rounded ${
+                                      source.status === 'fresh' 
+                                        ? 'bg-emerald-500/20 text-emerald-300' 
+                                        : 'bg-amber-500/20 text-amber-300'
+                                    }`}>
+                                      {source.status === 'fresh' ? '✓ Within policy' : '⚠ Stale'}
+                                    </span>
+                                    <span className="text-xs text-neutral-600">(TTL: {source.policy})</span>
+                                  </div>
                                 </div>
                               ))}
                             </div>
@@ -1512,9 +1570,17 @@ const HorizonPage: React.FC = () => {
                                 <span className="text-neutral-500">Calibration:</span>
                                 <span className="text-neutral-300 ml-2">Weekly</span>
                               </div>
-                              <div>
-                                <span className="text-neutral-500">Accuracy:</span>
+                              <div className="relative group">
+                                <span className="text-neutral-500">Backtest Score (12mo):</span>
                                 <span className="text-neutral-300 ml-2">82.4%</span>
+                                <span className="ml-1 text-neutral-500 cursor-help">ⓘ</span>
+                                <div className="absolute bottom-full left-0 mb-2 w-72 p-3 bg-neutral-800 border border-neutral-600 rounded-lg text-xs text-neutral-300 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-10">
+                                  <strong className="text-white">Backtest Score</strong> = % of periods where prediction was within ±10% tolerance vs actual, across 52 weekly periods. Baseline: seasonal naive forecast.
+                                </div>
+                              </div>
+                              <div>
+                                <span className="text-neutral-500">Calibration Error (ECE):</span>
+                                <span className="text-neutral-300 ml-2">0.04</span>
                               </div>
                             </div>
                           </div>
@@ -1573,7 +1639,24 @@ const HorizonPage: React.FC = () => {
                               <span className="text-emerald-400">✓</span>
                               SHA-256 integrity hash
                             </li>
+                            <li className="flex items-center gap-2">
+                              <span className="text-emerald-400">✓</span>
+                              Ed25519 digital signature
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <span className="text-emerald-400">✓</span>
+                              manifest.json + verification instructions
+                            </li>
                           </ul>
+                          <div className="mt-3 pt-3 border-t border-neutral-700">
+                            <p className="text-xs text-neutral-400 mb-2">Signature verification:</p>
+                            <code className="block text-xs bg-neutral-900 p-2 rounded text-cyan-300 font-mono">
+                              datacendia verify packet.zip --key customer.pub
+                            </code>
+                            <p className="text-xs text-neutral-500 mt-2">
+                              Signed with: Customer key (KMS/HSM) • Algorithm: Ed25519
+                            </p>
+                          </div>
                         </div>
                         <div className="flex gap-3">
                           <button 
