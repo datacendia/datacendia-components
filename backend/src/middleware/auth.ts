@@ -160,8 +160,13 @@ export const devAuth = async (
     return authenticate(req, res, next);
   }
   
-  // In development, use real seeded organization
-  if (process.env.NODE_ENV !== 'production') {
+  // If REQUIRE_AUTH is set, don't allow bypass
+  if (config.requireAuth) {
+    throw errors.unauthorized('Authentication required');
+  }
+  
+  // In development without REQUIRE_AUTH, use real seeded organization
+  if (config.nodeEnv === 'development' || config.nodeEnv === 'test') {
     logger.warn('⚠️  DEV AUTH BYPASS ACTIVE - Request authenticated without token', {
       path: req.path,
       method: req.method,
