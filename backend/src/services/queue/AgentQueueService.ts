@@ -8,13 +8,47 @@
 
 import { Queue, Worker, Job, QueueEvents } from 'bullmq';
 import { EventEmitter } from 'events';
+import Redis from 'ioredis';
+import { config } from '../../config/index.js';
 
-// Redis connection for BullMQ
-const REDIS_CONFIG = {
-  host: process.env.REDIS_HOST || 'localhost',
-  port: parseInt(process.env.REDIS_PORT || '6379'),
-  maxRetriesPerRequest: null,
-};
+function attachRedisEventHandlers(client: Redis, label: string) {
+  client.on('error', (err) => {
+    console.error(`[AgentQueue] ${label} Redis error:`, err);
+  });
+
+  client.on('close', () => {
+    console.warn(`[AgentQueue] ${label} Redis connection closed`);
+  });
+}
+
+function createBullMqRedisConnection(label: string): Redis {
+  const redisUrl = config.redisUrl || process.env.REDIS_URL;
+
+  const baseOptions = {
+    maxRetriesPerRequest: null as null,
+    enableReadyCheck: true,
+    lazyConnect: true,
+  };
+
+  const client = redisUrl
+    ? new Redis(redisUrl, baseOptions)
+    : new Redis({
+        ...baseOptions,
+        host: process.env.REDIS_HOST || 'localhost',
+        port: parseInt(process.env.REDIS_PORT || '6379', 10),
+      });
+
+  attachRedisEventHandlers(client, label);
+
+  const originalDuplicate = client.duplicate.bind(client);
+  (client as any).duplicate = (...args: any[]) => {
+    const dup = originalDuplicate(...args);
+    attachRedisEventHandlers(dup, `${label} (duplicate)`);
+    return dup;
+  };
+
+  return client;
+}
 
 // Queue names
 export const QUEUE_NAMES = {
@@ -122,6 +156,8 @@ class AgentQueueService extends EventEmitter {
   private workers: Map<string, Worker> = new Map();
   private queueEvents: Map<string, QueueEvents> = new Map();
   private isInitialized = false;
+  private isEnabled = false;
+  private connection: Redis | null = null;
 
   /**
    * Initialize all queues
@@ -131,13 +167,36 @@ class AgentQueueService extends EventEmitter {
 
     console.log('[AgentQueue] Initializing BullMQ queues...');
 
+    const timeout = <T>(ms: number, promise: Promise<T>, name: string) =>
+      Promise.race([
+        promise,
+        new Promise<T>((_, reject) => setTimeout(() => reject(new Error(`${name} timeout`)), ms)),
+      ]);
+
+    const connection = createBullMqRedisConnection('BullMQ');
+    try {
+      await timeout(1500, connection.connect(), 'Redis connect');
+      await timeout(1500, connection.ping(), 'Redis ping');
+    } catch (err) {
+      console.warn('[AgentQueue] Redis unavailable; BullMQ queues disabled:', err);
+      try {
+        connection.disconnect();
+      } catch {}
+      this.isInitialized = true;
+      this.isEnabled = false;
+      this.connection = null;
+      return;
+    }
+
+    this.connection = connection;
+
     // Create queues
     for (const [name, queueName] of Object.entries(QUEUE_NAMES)) {
-      const queue = new Queue(queueName, { connection: REDIS_CONFIG });
+      const queue = new Queue(queueName, { connection });
       this.queues.set(queueName, queue);
 
       // Create queue events for monitoring
-      const events = new QueueEvents(queueName, { connection: REDIS_CONFIG });
+      const events = new QueueEvents(queueName, { connection });
       this.queueEvents.set(queueName, events);
 
       // Set up event listeners
@@ -158,6 +217,7 @@ class AgentQueueService extends EventEmitter {
     }
 
     this.isInitialized = true;
+    this.isEnabled = true;
     console.log('[AgentQueue] All queues initialized');
   }
 
@@ -292,8 +352,12 @@ class AgentQueueService extends EventEmitter {
     processor: (job: Job) => Promise<any>,
     options?: { concurrency?: number }
   ): Worker {
+    if (!this.isEnabled || !this.connection) {
+      throw new Error('BullMQ is disabled (Redis unavailable)');
+    }
+
     const worker = new Worker(queueName, processor, {
-      connection: REDIS_CONFIG,
+      connection: this.connection,
       concurrency: options?.concurrency ?? 1, // Default to 1 for AI workloads
       limiter: {
         max: 10,
@@ -405,7 +469,19 @@ class AgentQueueService extends EventEmitter {
       console.log(`[AgentQueue] Queue ${name} closed`);
     }
 
+    if (this.connection) {
+      try {
+        await this.connection.quit();
+      } catch {
+        try {
+          this.connection.disconnect();
+        } catch {}
+      }
+      this.connection = null;
+    }
+
     this.isInitialized = false;
+    this.isEnabled = false;
     console.log('[AgentQueue] Shutdown complete');
   }
 }

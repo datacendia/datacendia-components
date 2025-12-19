@@ -363,6 +363,15 @@ process.on('SIGINT', () => shutdown('SIGINT'));
 // Start server
 const startServer = async () => {
   try {
+    const listenHost = config.nodeEnv === 'development' && process.platform === 'win32'
+      ? '127.0.0.1'
+      : undefined;
+
+    httpServer.listen(config.port, listenHost, () => {
+      logger.info(`🚀 Datacendia API running on port ${config.port}`);
+      logger.info(`📊 Environment: ${config.nodeEnv}`);
+    });
+
     // Test database connections with timeouts
     const timeout = (ms: number, promise: Promise<any>, name: string) =>
       Promise.race([
@@ -413,11 +422,6 @@ const startServer = async () => {
     } catch (e) {
       logger.warn('Policy engine initialization failed:', e);
     }
-
-    httpServer.listen(config.port, () => {
-      logger.info(`🚀 Datacendia API running on port ${config.port}`);
-      logger.info(`📊 Environment: ${config.nodeEnv}`);
-    });
   } catch (error) {
     logger.error('Failed to start server:', error);
     process.exit(1);

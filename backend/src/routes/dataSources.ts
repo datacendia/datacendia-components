@@ -11,6 +11,22 @@ import { ingestPostgresDataSourceToGraph } from '../services/graphIngestion.js';
 
 const router = Router();
 
+const dbTimeout = <T>(promise: Promise<T>, ms: number = 2500): Promise<T> =>
+  Promise.race([
+    promise,
+    new Promise<T>((_, reject) => setTimeout(() => reject(new Error('DB_TIMEOUT')), ms)),
+  ]);
+
+const isDatabaseUnavailableError = (err: unknown): boolean => {
+  if (!err || typeof err !== 'object') return false;
+  const message = err instanceof Error ? err.message : String(err);
+  return (
+    message.includes("Can't reach database server") ||
+    message.includes('ECONNREFUSED') ||
+    message.includes('DB_TIMEOUT')
+  );
+};
+
 router.use(devAuth);
 
 const dataSourceSchema = z.object({
@@ -37,10 +53,12 @@ const updateDataSourceSchema = z.object({
  */
 router.get('/', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const dataSources = await prisma.data_sources.findMany({
-      where: { organization_id: req.organizationId! },
-      orderBy: { name: 'asc' },
-    });
+    const dataSources = await dbTimeout(
+      prisma.data_sources.findMany({
+        where: { organization_id: req.organizationId! },
+        orderBy: { name: 'asc' },
+      })
+    );
 
     // Remove sensitive credentials from response
     const sanitized = dataSources.map(ds => ({
@@ -59,6 +77,16 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
       data: sanitized,
     });
   } catch (error) {
+    if (isDatabaseUnavailableError(error)) {
+      res.status(503).json({
+        success: false,
+        error: {
+          code: 'DATABASE_UNAVAILABLE',
+          message: 'Database is unavailable. Please start Postgres and try again.',
+        },
+      });
+      return;
+    }
     next(error);
   }
 });
@@ -69,8 +97,13 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.put('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const id = req.params['id'];
+    if (!id) {
+      throw errors.badRequest('Data source id is required');
+    }
+
     const dataSource = await prisma.data_sources.findUnique({
-      where: { id: req.params.id },
+      where: { id },
     });
 
     if (!dataSource) {
@@ -86,16 +119,18 @@ router.put('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res
     const rawCredentials = (credentials || {}) as Record<string, unknown>;
     const { password, apiKey, secret, ...safeConfig } = (config || dataSource.config || {}) as Record<string, unknown>;
 
+    const existingCredentials = (dataSource.credentials || {}) as Record<string, unknown>;
+
     const mergedCredentials = {
-      ...(dataSource.credentials as Record<string, unknown> | null | undefined),
+      ...existingCredentials,
       ...rawCredentials,
-      password: (rawCredentials.password as unknown) ?? (dataSource.credentials as any)?.password ?? password,
-      apiKey: (rawCredentials.apiKey as unknown) ?? (dataSource.credentials as any)?.apiKey ?? apiKey,
-      secret: (rawCredentials.secret as unknown) ?? (dataSource.credentials as any)?.secret ?? secret,
+      password: rawCredentials['password'] ?? existingCredentials['password'] ?? password,
+      apiKey: rawCredentials['apiKey'] ?? existingCredentials['apiKey'] ?? apiKey,
+      secret: rawCredentials['secret'] ?? existingCredentials['secret'] ?? secret,
     };
 
     const updated = await prisma.data_sources.update({
-      where: { id: req.params.id },
+      where: { id },
       data: {
         name: name ?? dataSource.name,
         config: (config ? safeConfig : dataSource.config) as Prisma.InputJsonValue,
@@ -134,8 +169,12 @@ router.put('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res
  */
 router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const id = req.params['id'];
+    if (!id) {
+      throw errors.badRequest('Data source id is required');
+    }
     const dataSource = await prisma.data_sources.findUnique({
-      where: { id: req.params.id },
+      where: { id },
     });
 
     if (!dataSource) {
@@ -175,9 +214,9 @@ router.post('/', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: 
 
     const credentials = {
       ...rawCredentials,
-      password: (rawCredentials.password as unknown) ?? password,
-      apiKey: (rawCredentials.apiKey as unknown) ?? apiKey,
-      secret: (rawCredentials.secret as unknown) ?? secret,
+      password: rawCredentials['password'] ?? password,
+      apiKey: rawCredentials['apiKey'] ?? apiKey,
+      secret: rawCredentials['secret'] ?? secret,
     };
 
     const dataSource = await prisma.data_sources.create({
@@ -188,7 +227,7 @@ router.post('/', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: 
         type,
         config: safeConfig as Prisma.InputJsonValue,
         credentials: credentials as Prisma.InputJsonValue,
-        sync_schedule: syncSchedule,
+        sync_schedule: syncSchedule ?? null,
         status: 'PENDING',
         updated_at: new Date(),
       },
@@ -228,10 +267,11 @@ router.post('/test', async (req: Request, res: Response, next: NextFunction) => 
     const { type, config, credentials } = req.body;
     
     if (!type) {
-      return res.status(400).json({
+      res.status(400).json({
         success: false,
         error: 'Type is required',
       });
+      return;
     }
     
     const result = await testDataSourceConnection(
@@ -246,6 +286,7 @@ router.post('/test', async (req: Request, res: Response, next: NextFunction) => 
     });
   } catch (error) {
     next(error);
+    return;
   }
 });
 
@@ -255,8 +296,12 @@ router.post('/test', async (req: Request, res: Response, next: NextFunction) => 
  */
 router.post('/:id/test', async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const id = req.params['id'];
+    if (!id) {
+      throw errors.badRequest('Data source id is required');
+    }
     const dataSource = await prisma.data_sources.findUnique({
-      where: { id: req.params.id },
+      where: { id },
     });
 
     if (!dataSource) {
@@ -287,8 +332,12 @@ router.post('/:id/test', async (req: Request, res: Response, next: NextFunction)
  */
 router.post('/:id/sync', async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const id = req.params['id'];
+    if (!id) {
+      throw errors.badRequest('Data source id is required');
+    }
     const dataSource = await prisma.data_sources.findUnique({
-      where: { id: req.params.id },
+      where: { id },
     });
 
     if (!dataSource) {
@@ -301,7 +350,7 @@ router.post('/:id/sync', async (req: Request, res: Response, next: NextFunction)
 
     // Update status
     await prisma.data_sources.update({
-      where: { id: req.params.id },
+      where: { id },
       data: { status: 'SYNCING' },
     });
 
@@ -325,8 +374,12 @@ router.post('/:id/sync', async (req: Request, res: Response, next: NextFunction)
  */
 router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const id = req.params['id'];
+    if (!id) {
+      throw errors.badRequest('Data source id is required');
+    }
     const dataSource = await prisma.data_sources.findUnique({
-      where: { id: req.params.id },
+      where: { id },
     });
 
     if (!dataSource) {
@@ -338,7 +391,7 @@ router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
     }
 
     await prisma.data_sources.delete({
-      where: { id: req.params.id },
+      where: { id },
     });
 
     // Audit log
@@ -349,7 +402,7 @@ router.delete('/:id', requireRole('ADMIN', 'SUPER_ADMIN'), async (req: Request, 
         user_id: req.user!.id,
         action: 'data_source.delete',
         resource_type: 'data_source',
-        resource_id: req.params.id,
+        resource_id: id,
       },
     });
 
@@ -397,8 +450,7 @@ async function syncDataSource(dataSource: {
         throw ingestError;
       }
     } else {
-      // Non-Postgres sources currently perform a lightweight simulated sync
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      throw new Error(`Sync not implemented for data source type: ${dataSource.type}`);
     }
 
     await prisma.data_sources.update({

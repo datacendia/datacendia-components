@@ -2,10 +2,11 @@
 // DATACENDIA - PILLARS PAGES (The 8 Foundational Data Layers)
 // =============================================================================
 
-import React, { useState, useEffect, useCallback } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
+import { useUser } from '../../../contexts/AuthContext';
 import {
   X,
   ExternalLink,
@@ -117,14 +118,16 @@ interface HelmDashboard {
 }
 
 // Category icons and colors
-const CATEGORY_CONFIG: Record<string, { icon: string; color: string; bg: string }> = {
+type CategoryConfig = { icon: string; color: string; bg: string };
+const DEFAULT_CATEGORY_CONFIG: CategoryConfig = { icon: '📊', color: '#64748B', bg: 'bg-slate-50' };
+const CATEGORY_CONFIG: Record<string, CategoryConfig> = {
   financial: { icon: '💰', color: '#10B981', bg: 'bg-emerald-50' },
   operational: { icon: '⚙️', color: '#6366F1', bg: 'bg-indigo-50' },
   customer: { icon: '❤️', color: '#EC4899', bg: 'bg-pink-50' },
   people: { icon: '👥', color: '#F59E0B', bg: 'bg-amber-50' },
   strategic: { icon: '🎯', color: '#8B5CF6', bg: 'bg-purple-50' },
   compliance: { icon: '⚖️', color: '#06B6D4', bg: 'bg-cyan-50' },
-  default: { icon: '📊', color: '#64748B', bg: 'bg-slate-50' },
+  default: DEFAULT_CATEGORY_CONFIG,
 };
 
 // Pre-built metric packs
@@ -162,8 +165,11 @@ const OWNER_AVATARS: Record<string, string> = {
 
 export const HelmPage: React.FC = () => {
   const navigate = useNavigate();
+  const user = useUser();
+  const organizationId = user?.organizationId;
   const [dashboard, setDashboard] = useState<HelmDashboard | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [timeframe, setTimeframe] = useState<'7d' | '30d' | 'quarter'>('30d');
   const [selectedCategory, setSelectedCategory] = useState<HelmCategory | null>(null);
   const [selectedMetric, setSelectedMetric] = useState<HelmMetric | null>(null);
@@ -173,14 +179,21 @@ export const HelmPage: React.FC = () => {
     const loadHelmData = async () => {
       try {
         setIsLoading(true);
-        const res = await api.get<HelmDashboard>('/pillars/helm/dashboard', {
-          organizationId: 'demo',
-        });
+        setError(null);
+        const res = await api.get<HelmDashboard>(
+          '/pillars/helm/dashboard',
+          organizationId ? { organizationId } : undefined
+        );
         if (res.success && res.data) {
           setDashboard(res.data);
+          return;
         }
+        setDashboard(null);
+        setError(res.error?.message || 'Failed to load helm data');
       } catch (err) {
         console.error('Failed to load helm data:', err);
+        setDashboard(null);
+        setError(err instanceof Error ? err.message : 'Failed to load helm data');
       } finally {
         setIsLoading(false);
       }
@@ -214,10 +227,10 @@ export const HelmPage: React.FC = () => {
     }
   };
 
-  const getCategoryConfig = (name: string | undefined) => {
-    if (!name) return CATEGORY_CONFIG['default'];
+  const getCategoryConfig = (name: string | undefined): CategoryConfig => {
+    if (!name) return DEFAULT_CATEGORY_CONFIG;
     const key = name.toLowerCase();
-    return CATEGORY_CONFIG[key] || CATEGORY_CONFIG['default'];
+    return CATEGORY_CONFIG[key] ?? DEFAULT_CATEGORY_CONFIG;
   };
 
   const getCategoryStats = (cat: HelmCategory | null | undefined) => {
@@ -264,6 +277,9 @@ export const HelmPage: React.FC = () => {
 
   return (
     <div className="p-6">
+      {error && (
+        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">{error}</div>
+      )}
       {/* Header with last updated */}
       <div className="flex items-start justify-between mb-6">
         <div>
@@ -796,7 +812,7 @@ export const HelmPage: React.FC = () => {
                 <button
                   onClick={() =>
                     navigate(
-                      `/cortex/intelligence/council?question=What+is+driving+${encodeURIComponent(selectedMetric.name)}?`
+                      `/cortex/council?q=${encodeURIComponent(`What is driving ${selectedMetric.name}?`)}`
                     )
                   }
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
@@ -837,17 +853,27 @@ interface QualityOverview {
 
 export const LineagePage: React.FC = () => {
   const navigate = useNavigate();
+  const user = useUser();
+  const organizationId = user?.organizationId;
   const [entities, setEntities] = useState<LineageEntity[]>([]);
   const [qualityOverview, setQualityOverview] = useState<QualityOverview | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadLineageData = async () => {
       try {
         setIsLoading(true);
+        setError(null);
         const [entitiesRes, qualityRes] = await Promise.all([
-          api.get<LineageEntity[]>('/pillars/lineage/entities', { organizationId: 'demo' }),
-          api.get<QualityOverview>('/pillars/lineage/quality', { organizationId: 'demo' }),
+          api.get<LineageEntity[]>(
+            '/pillars/lineage/entities',
+            organizationId ? { organizationId } : undefined
+          ),
+          api.get<QualityOverview>(
+            '/pillars/lineage/quality',
+            organizationId ? { organizationId } : undefined
+          ),
         ]);
 
         if (entitiesRes.success && entitiesRes.data) {
@@ -856,8 +882,15 @@ export const LineagePage: React.FC = () => {
         if (qualityRes.success && qualityRes.data) {
           setQualityOverview(qualityRes.data);
         }
+
+        if (!entitiesRes.success || !qualityRes.success) {
+          setError(
+            entitiesRes.error?.message || qualityRes.error?.message || 'Failed to load lineage data'
+          );
+        }
       } catch (err) {
         console.error('Failed to load lineage data:', err);
+        setError(err instanceof Error ? err.message : 'Failed to load lineage data');
       } finally {
         setIsLoading(false);
       }
@@ -905,6 +938,10 @@ export const LineagePage: React.FC = () => {
         tagline="Complete data provenance and dependency tracking"
         color="#10B981"
       />
+
+      {error && (
+        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">{error}</div>
+      )}
 
       {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -979,14 +1016,7 @@ export const LineagePage: React.FC = () => {
               <span className="w-32 text-neutral-700">{source.name}</span>
               <div className="flex-1 h-2 bg-neutral-200 rounded-full overflow-hidden">
                 <div
-                  className={cn(
-                    'h-full rounded-full',
-                    source.quality >= 95
-                      ? 'bg-success-main'
-                      : source.quality >= 85
-                        ? 'bg-warning-main'
-                        : 'bg-error-main'
-                  )}
+                  className="h-full bg-primary-500 rounded-full"
                   style={{ width: `${source.quality}%` }}
                 />
               </div>
@@ -1025,19 +1055,27 @@ interface PredictInsight {
 }
 
 export const PredictPage: React.FC = () => {
+  const user = useUser();
+  const organizationId = user?.organizationId;
   const [models, setModels] = useState<PredictModel[]>([]);
   const [insights, setInsights] = useState<PredictInsight[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadPredictData = async () => {
       try {
         setIsLoading(true);
+        setError(null);
         const [modelsRes, insightsRes] = await Promise.all([
-          api.get<PredictModel[]>('/pillars/predict/models', { organizationId: 'demo' }),
-          api.get<{ features: PredictInsight[] }>('/pillars/predict/insights', {
-            organizationId: 'demo',
-          }),
+          api.get<PredictModel[]>(
+            '/pillars/predict/models',
+            organizationId ? { organizationId } : undefined
+          ),
+          api.get<{ features: PredictInsight[] }>(
+            '/pillars/predict/insights',
+            organizationId ? { organizationId } : undefined
+          ),
         ]);
 
         if (modelsRes.success && modelsRes.data) {
@@ -1046,43 +1084,17 @@ export const PredictPage: React.FC = () => {
         if (insightsRes.success && insightsRes.data) {
           setInsights(insightsRes.data.features || []);
         }
+
+        if (!modelsRes.success || !insightsRes.success) {
+          setError(
+            modelsRes.error?.message ||
+              insightsRes.error?.message ||
+              'Failed to load prediction models'
+          );
+        }
       } catch (err) {
         console.error('Failed to load predict data:', err);
-        // Use demo data when API is unavailable
-        setModels([
-          {
-            id: 'pm1',
-            name: 'Revenue Forecast',
-            type: 'regression',
-            accuracy: 94.2,
-            status: 'active',
-            predictions: 1247,
-            lastTrained: new Date().toISOString(),
-          },
-          {
-            id: 'pm2',
-            name: 'Churn Predictor',
-            type: 'classification',
-            accuracy: 89.7,
-            status: 'active',
-            predictions: 856,
-            lastTrained: new Date().toISOString(),
-          },
-          {
-            id: 'pm3',
-            name: 'Demand Planning',
-            type: 'time-series',
-            accuracy: 91.3,
-            status: 'active',
-            predictions: 2103,
-            lastTrained: new Date().toISOString(),
-          },
-        ]);
-        setInsights([
-          { feature: 'Customer Lifetime Value', importance: 0.85 },
-          { feature: 'Engagement Score', importance: 0.72 },
-          { feature: 'Purchase Frequency', importance: 0.68 },
-        ]);
+        setError(err instanceof Error ? err.message : 'Failed to load prediction models');
       } finally {
         setIsLoading(false);
       }
@@ -1120,6 +1132,10 @@ export const PredictPage: React.FC = () => {
         tagline="AI-powered forecasting and predictive analytics"
         color="#8B5CF6"
       />
+
+      {error && (
+        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">{error}</div>
+      )}
 
       {/* Active Models - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -1224,18 +1240,22 @@ interface FlowExecution {
 
 export const FlowPage: React.FC = () => {
   const navigate = useNavigate();
+  const user = useUser();
+  const organizationId = user?.organizationId;
   const [stats, setStats] = useState<FlowStats | null>(null);
   const [executions, setExecutions] = useState<FlowExecution[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadFlowData = async () => {
       try {
         setIsLoading(true);
+        setError(null);
         const [statsRes, execRes] = await Promise.all([
-          api.get<FlowStats>('/pillars/flow/stats', { organizationId: 'demo' }),
+          api.get<FlowStats>('/pillars/flow/stats', organizationId ? { organizationId } : undefined),
           api.get<FlowExecution[]>('/pillars/flow/executions', {
-            organizationId: 'demo',
+            ...(organizationId ? { organizationId } : {}),
             limit: 10,
           }),
         ]);
@@ -1246,8 +1266,13 @@ export const FlowPage: React.FC = () => {
         if (execRes.success && execRes.data) {
           setExecutions(execRes.data || []);
         }
+
+        if (!statsRes.success || !execRes.success) {
+          setError(statsRes.error?.message || execRes.error?.message || 'Failed to load flow data');
+        }
       } catch (err) {
         console.error('Failed to load flow data:', err);
+        setError(err instanceof Error ? err.message : 'Failed to load flow data');
       } finally {
         setIsLoading(false);
       }
@@ -1307,6 +1332,10 @@ export const FlowPage: React.FC = () => {
         tagline="Intelligent workflow automation and orchestration"
         color="#06B6D4"
       />
+
+      {error && (
+        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">{error}</div>
+      )}
 
       {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -1404,30 +1433,24 @@ interface HealthAlert {
   linkedWorkflow?: string;
 }
 
-// Mock alert details for demo
-const MOCK_ALERT_DETAILS: Record<string, Partial<HealthAlert>> = {
-  default: {
-    affectedSystems: ['API Gateway', 'Auth Service', 'Database Cluster'],
-    rootCause:
-      'Elevated latency detected in primary database connections, potentially due to connection pool exhaustion.',
-    linkedWorkflow: 'WF-2025-034',
-  },
-};
-
 export const HealthPage: React.FC = () => {
   const navigate = useNavigate();
+  const user = useUser();
+  const organizationId = user?.organizationId;
   const [health, setHealth] = useState<SystemHealth | null>(null);
   const [alerts, setAlerts] = useState<HealthAlert[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [selectedAlert, setSelectedAlert] = useState<HealthAlert | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadHealthData = async () => {
       try {
         setIsLoading(true);
+        setError(null);
         const [healthRes, alertsRes] = await Promise.all([
-          api.get<SystemHealth>('/pillars/health/status', { organizationId: 'demo' }),
-          api.get<HealthAlert[]>('/pillars/health/alerts', { organizationId: 'demo' }),
+          api.get<SystemHealth>('/pillars/health/status', organizationId ? { organizationId } : undefined),
+          api.get<HealthAlert[]>('/pillars/health/alerts', organizationId ? { organizationId } : undefined),
         ]);
 
         if (healthRes.success && healthRes.data) {
@@ -1436,8 +1459,15 @@ export const HealthPage: React.FC = () => {
         if (alertsRes.success && alertsRes.data) {
           setAlerts(alertsRes.data || []);
         }
+
+        if (!healthRes.success || !alertsRes.success) {
+          setError(
+            healthRes.error?.message || alertsRes.error?.message || 'Failed to load health data'
+          );
+        }
       } catch (err) {
         console.error('Failed to load health data:', err);
+        setError(err instanceof Error ? err.message : 'Failed to load health data');
       } finally {
         setIsLoading(false);
       }
@@ -1450,10 +1480,14 @@ export const HealthPage: React.FC = () => {
     const now = new Date();
     const diffMs = now.getTime() - date.getTime();
     const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMs / 3600000);
     if (diffMins < 60) {
       return `${diffMins} min ago`;
     }
-    return `${Math.floor(diffMs / 3600000)} hours ago`;
+    if (diffHours < 24) {
+      return `${diffHours} hours ago`;
+    }
+    return `${Math.floor(diffMs / 86400000)} days ago`;
   };
 
   const getScoreColor = (score: number) => {
@@ -1493,6 +1527,10 @@ export const HealthPage: React.FC = () => {
         tagline="Real-time organizational health monitoring"
         color="#EF4444"
       />
+
+      {error && (
+        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">{error}</div>
+      )}
 
       {/* Health Score - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6 mb-6">
@@ -1543,7 +1581,7 @@ export const HealthPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Active Alerts - REAL DATA - Now clickable */}
+      {/* Active Alerts - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-neutral-900">Active Alerts</h3>
@@ -1674,18 +1712,14 @@ export const HealthPage: React.FC = () => {
               <div className="p-4 bg-neutral-50 rounded-lg">
                 <h4 className="font-medium text-neutral-900 mb-2">Root Cause Analysis</h4>
                 <p className="text-sm text-neutral-600">
-                  {selectedAlert.rootCause || MOCK_ALERT_DETAILS.default.rootCause}
+                  {selectedAlert.rootCause || 'No root cause analysis available.'}
                 </p>
               </div>
 
               <div>
                 <h4 className="font-medium text-neutral-900 mb-2">Affected Systems</h4>
                 <div className="flex flex-wrap gap-2">
-                  {(
-                    selectedAlert.affectedSystems ||
-                    MOCK_ALERT_DETAILS.default.affectedSystems ||
-                    []
-                  ).map((system, i) => (
+                  {(selectedAlert.affectedSystems || []).map((system, i) => (
                     <span key={i} className="text-xs px-2 py-1 bg-neutral-100 rounded">
                       {system}
                     </span>
@@ -1693,14 +1727,14 @@ export const HealthPage: React.FC = () => {
                 </div>
               </div>
 
-              {(selectedAlert.linkedWorkflow || MOCK_ALERT_DETAILS.default.linkedWorkflow) && (
+              {selectedAlert.linkedWorkflow && (
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-neutral-500">Linked Workflow:</span>
                   <button
                     onClick={() => navigate('/cortex/bridge')}
                     className="text-primary-600 hover:underline flex items-center gap-1"
                   >
-                    {selectedAlert.linkedWorkflow || MOCK_ALERT_DETAILS.default.linkedWorkflow}{' '}
+                    {selectedAlert.linkedWorkflow}{' '}
                     <ExternalLink className="w-3 h-3" />
                   </button>
                 </div>
@@ -1718,7 +1752,9 @@ export const HealthPage: React.FC = () => {
                   View in Chronos Timeline
                 </button>
                 <button
-                  onClick={() => window.open('/cortex/bridge?template=incident-response', '_blank')}
+                  onClick={() =>
+                    window.open('/cortex/bridge?template=incident-response', '_blank')
+                  }
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   <Play className="w-4 h-4" />
@@ -1726,7 +1762,7 @@ export const HealthPage: React.FC = () => {
                 </button>
                 <button
                   onClick={() =>
-                    window.open('/cortex/intelligence/council?escalate=health', '_blank')
+                    window.open('/cortex/council?escalate=health', '_blank')
                   }
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
@@ -1772,18 +1808,10 @@ interface SecurityThreat {
   cvss?: number;
 }
 
-// Mock threat details for demo
-const MOCK_THREAT_DETAILS: Record<string, Partial<SecurityThreat>> = {
-  default: {
-    description: 'Potential security event detected requiring investigation.',
-    affectedAssets: ['Production Server', 'API Gateway'],
-    cve: 'CVE-2024-1234',
-    cvss: 7.5,
-  },
-};
-
 export const GuardPage: React.FC = () => {
   const navigate = useNavigate();
+  const user = useUser();
+  const organizationId = user?.organizationId;
   const [posture, setPosture] = useState<SecurityPosture | null>(null);
   const [threats, setThreats] = useState<SecurityThreat[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -1798,8 +1826,8 @@ export const GuardPage: React.FC = () => {
 
         // Fetch security posture and threats from backend
         const [postureRes, threatsRes] = await Promise.all([
-          api.get<SecurityPosture>('/pillars/guard/posture', { organizationId: 'demo' }),
-          api.get<SecurityThreat[]>('/pillars/guard/threats', { organizationId: 'demo' }),
+          api.get<SecurityPosture>('/pillars/guard/posture', organizationId ? { organizationId } : undefined),
+          api.get<SecurityThreat[]>('/pillars/guard/threats', organizationId ? { organizationId } : undefined),
         ]);
 
         if (postureRes.success && postureRes.data) {
@@ -1943,7 +1971,7 @@ export const GuardPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Threats - REAL DATA - Now clickable */}
+      {/* Threats - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-neutral-900">Threat Detection</h3>
@@ -2078,9 +2106,9 @@ export const GuardPage: React.FC = () => {
                 >
                   {selectedThreat.status}
                 </span>
-                {MOCK_THREAT_DETAILS.default.cvss && (
+                {selectedThreat.cvss !== undefined && (
                   <span className="text-xs px-2 py-1 bg-neutral-100 rounded-full">
-                    CVSS: {MOCK_THREAT_DETAILS.default.cvss}
+                    CVSS: {selectedThreat.cvss}
                   </span>
                 )}
               </div>
@@ -2088,20 +2116,20 @@ export const GuardPage: React.FC = () => {
               <div className="p-4 bg-neutral-50 rounded-lg">
                 <h4 className="font-medium text-neutral-900 mb-2">Description</h4>
                 <p className="text-sm text-neutral-600">
-                  {selectedThreat.description || MOCK_THREAT_DETAILS.default.description}
+                  {selectedThreat.description || 'No description available.'}
                 </p>
               </div>
 
-              {MOCK_THREAT_DETAILS.default.cve && (
+              {selectedThreat.cve && (
                 <div className="flex items-center gap-2 text-sm">
                   <span className="text-neutral-500">CVE:</span>
                   <a
-                    href={`https://nvd.nist.gov/vuln/detail/${MOCK_THREAT_DETAILS.default.cve}`}
+                    href={`https://nvd.nist.gov/vuln/detail/${selectedThreat.cve}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:underline flex items-center gap-1"
                   >
-                    {MOCK_THREAT_DETAILS.default.cve} <ExternalLink className="w-3 h-3" />
+                    {selectedThreat.cve} <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               )}
@@ -2109,11 +2137,7 @@ export const GuardPage: React.FC = () => {
               <div>
                 <h4 className="font-medium text-neutral-900 mb-2">Affected Assets</h4>
                 <div className="flex flex-wrap gap-2">
-                  {(
-                    selectedThreat.affectedAssets ||
-                    MOCK_THREAT_DETAILS.default.affectedAssets ||
-                    []
-                  ).map((asset, i) => (
+                  {(selectedThreat.affectedAssets || []).map((asset, i) => (
                     <span key={i} className="text-xs px-2 py-1 bg-neutral-100 rounded">
                       {asset}
                     </span>
@@ -2134,7 +2158,7 @@ export const GuardPage: React.FC = () => {
                 </button>
                 <button
                   onClick={() =>
-                    window.open('/cortex/intelligence/council?escalate=security', '_blank')
+                    window.open('/cortex/council?escalate=security', '_blank')
                   }
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
@@ -2187,33 +2211,26 @@ interface EthicsReview {
   biasScore?: number;
 }
 
-// Mock review details for demo
-const MOCK_REVIEW_DETAILS: Record<string, Partial<EthicsReview>> = {
-  default: {
-    principle: 'Fairness & Non-Discrimination',
-    rationale:
-      'Decision was reviewed for potential bias in outcome distribution across demographic groups. Analysis found no significant disparate impact.',
-    biasScore: 0.12,
-    decisionId: 'DEC-2025-0042',
-  },
-};
-
 export const EthicsPage: React.FC = () => {
   const navigate = useNavigate();
+  const user = useUser();
+  const organizationId = user?.organizationId;
   const [stats, setStats] = useState<EthicsStats | null>(null);
   const [principles, setPrinciples] = useState<EthicsPrinciple[]>([]);
   const [reviews, setReviews] = useState<EthicsReview[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [selectedReview, setSelectedReview] = useState<EthicsReview | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadEthicsData = async () => {
       try {
         setIsLoading(true);
+        setError(null);
         const [statsRes, principlesRes, reviewsRes] = await Promise.all([
-          api.get<EthicsStats>('/pillars/ethics/stats', { organizationId: 'demo' }),
-          api.get<EthicsPrinciple[]>('/pillars/ethics/principles', { organizationId: 'demo' }),
-          api.get<EthicsReview[]>('/pillars/ethics/reviews', { organizationId: 'demo' }),
+          api.get<EthicsStats>('/pillars/ethics/stats', organizationId ? { organizationId } : undefined),
+          api.get<EthicsPrinciple[]>('/pillars/ethics/principles', organizationId ? { organizationId } : undefined),
+          api.get<EthicsReview[]>('/pillars/ethics/reviews', organizationId ? { organizationId } : undefined),
         ]);
 
         if (statsRes.success && statsRes.data) {
@@ -2225,8 +2242,18 @@ export const EthicsPage: React.FC = () => {
         if (reviewsRes.success && reviewsRes.data) {
           setReviews(reviewsRes.data || []);
         }
+
+        if (!statsRes.success || !principlesRes.success || !reviewsRes.success) {
+          setError(
+            statsRes.error?.message ||
+              principlesRes.error?.message ||
+              reviewsRes.error?.message ||
+              'Failed to load ethics data'
+          );
+        }
       } catch (err) {
         console.error('Failed to load ethics data:', err);
+        setError(err instanceof Error ? err.message : 'Failed to load ethics data');
       } finally {
         setIsLoading(false);
       }
@@ -2263,6 +2290,10 @@ export const EthicsPage: React.FC = () => {
         tagline="Built-in ethical guardrails and governance"
         color="#EC4899"
       />
+
+      {error && (
+        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">{error}</div>
+      )}
 
       {/* Ethics Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -2310,7 +2341,7 @@ export const EthicsPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Recent Reviews - REAL DATA - Now clickable */}
+      {/* Recent Reviews - REAL DATA */}
       <div className="bg-white rounded-xl border border-neutral-200 p-6">
         <h3 className="text-lg font-semibold text-neutral-900 mb-4">Recent Ethics Reviews</h3>
         <div className="space-y-3">
@@ -2419,33 +2450,27 @@ export const EthicsPage: React.FC = () => {
                 <div>
                   <span className="text-neutral-500">Principle:</span>
                   <span className="ml-2 font-medium text-neutral-900">
-                    {selectedReview.principle || MOCK_REVIEW_DETAILS.default.principle}
+                    {selectedReview.principle || '—'}
                   </span>
                 </div>
               </div>
 
-              {(selectedReview.biasScore !== undefined ||
-                MOCK_REVIEW_DETAILS.default.biasScore !== undefined) && (
+              {selectedReview.biasScore !== undefined && (
                 <div className="p-4 bg-neutral-50 rounded-lg">
                   <div className="flex items-center justify-between mb-2">
                     <h4 className="font-medium text-neutral-900">Bias Score</h4>
                     <span
                       className={cn(
                         'text-sm font-medium',
-                        (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) <
+                        (selectedReview.biasScore ?? 0) <
                           0.3
                           ? 'text-success-dark'
-                          : (selectedReview.biasScore ??
-                                MOCK_REVIEW_DETAILS.default.biasScore ??
-                                0) < 0.6
+                          : (selectedReview.biasScore ?? 0) < 0.6
                             ? 'text-warning-dark'
                             : 'text-error-dark'
                       )}
                     >
-                      {(
-                        (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) *
-                        100
-                      ).toFixed(0)}
+                      {((selectedReview.biasScore ?? 0) * 100).toFixed(0)}
                       %
                     </span>
                   </div>
@@ -2453,17 +2478,15 @@ export const EthicsPage: React.FC = () => {
                     <div
                       className={cn(
                         'h-full rounded-full',
-                        (selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) <
+                        (selectedReview.biasScore ?? 0) <
                           0.3
                           ? 'bg-success-main'
-                          : (selectedReview.biasScore ??
-                                MOCK_REVIEW_DETAILS.default.biasScore ??
-                                0) < 0.6
+                          : (selectedReview.biasScore ?? 0) < 0.6
                             ? 'bg-warning-main'
                             : 'bg-error-main'
                       )}
                       style={{
-                        width: `${(selectedReview.biasScore ?? MOCK_REVIEW_DETAILS.default.biasScore ?? 0) * 100}%`,
+                        width: `${(selectedReview.biasScore ?? 0) * 100}%`,
                       }}
                     />
                   </div>
@@ -2474,31 +2497,30 @@ export const EthicsPage: React.FC = () => {
               <div className="p-4 bg-neutral-50 rounded-lg">
                 <h4 className="font-medium text-neutral-900 mb-2">Review Rationale</h4>
                 <p className="text-sm text-neutral-600">
-                  {selectedReview.rationale || MOCK_REVIEW_DETAILS.default.rationale}
+                  {selectedReview.rationale || 'No rationale provided.'}
                 </p>
               </div>
 
-              <div className="flex items-center gap-2 text-sm">
-                <span className="text-neutral-500">Decision ID:</span>
-                <button
-                  onClick={() =>
-                    navigate(
-                      `/cortex/intelligence/decision-dna?id=${selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId}`
-                    )
-                  }
-                  className="text-primary-600 hover:underline flex items-center gap-1"
-                >
-                  {selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId}{' '}
-                  <ExternalLink className="w-3 h-3" />
-                </button>
-              </div>
+              {selectedReview.decisionId && (
+                <div className="flex items-center gap-2 text-sm">
+                  <span className="text-neutral-500">Decision ID:</span>
+                  <button
+                    onClick={() =>
+                      navigate(`/cortex/intelligence/decision-dna?id=${selectedReview.decisionId}`)
+                    }
+                    className="text-primary-600 hover:underline flex items-center gap-1"
+                  >
+                    {selectedReview.decisionId} <ExternalLink className="w-3 h-3" />
+                  </button>
+                </div>
+              )}
 
               <div className="pt-4 border-t border-neutral-200 space-y-3">
                 <button
                   onClick={() => {
                     setSelectedReview(null);
                     navigate(
-                      `/cortex/intelligence/decision-dna?id=${selectedReview.decisionId || MOCK_REVIEW_DETAILS.default.decisionId}`
+                      `/cortex/intelligence/decision-dna?id=${selectedReview.decisionId}`
                     );
                   }}
                   className="w-full px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
@@ -2508,7 +2530,7 @@ export const EthicsPage: React.FC = () => {
                 {selectedReview.result === 'rejected' && (
                   <button
                     onClick={() =>
-                      window.open('/cortex/intelligence/council?appeal=ethics', '_blank')
+                      window.open('/cortex/council?appeal=ethics', '_blank')
                     }
                     className="w-full px-4 py-2 bg-warning-light hover:bg-warning-main hover:text-white text-warning-dark rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                   >
@@ -2555,17 +2577,21 @@ interface Agent {
 
 export const AgentsPage: React.FC = () => {
   const navigate = useNavigate();
+  const user = useUser();
+  const organizationId = user?.organizationId;
   const [stats, setStats] = useState<AgentStats | null>(null);
   const [agents, setAgents] = useState<Agent[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadAgentsData = async () => {
       try {
         setIsLoading(true);
+        setError(null);
         const [statsRes, agentsRes] = await Promise.all([
-          api.get<AgentStats>('/pillars/agents/stats', { organizationId: 'demo' }),
-          api.get<Agent[]>('/pillars/agents', { organizationId: 'demo' }),
+          api.get<AgentStats>('/pillars/agents/stats', organizationId ? { organizationId } : undefined),
+          api.get<Agent[]>('/pillars/agents', organizationId ? { organizationId } : undefined),
         ]);
 
         if (statsRes.success && statsRes.data) {
@@ -2574,8 +2600,15 @@ export const AgentsPage: React.FC = () => {
         if (agentsRes.success && agentsRes.data) {
           setAgents(agentsRes.data || []);
         }
+
+        if (!statsRes.success || !agentsRes.success) {
+          setError(
+            statsRes.error?.message || agentsRes.error?.message || 'Failed to load agents data'
+          );
+        }
       } catch (err) {
         console.error('Failed to load agents data:', err);
+        setError(err instanceof Error ? err.message : 'Failed to load agents data');
       } finally {
         setIsLoading(false);
       }
@@ -2628,6 +2661,10 @@ export const AgentsPage: React.FC = () => {
         tagline="AI advisors for every domain - The Pantheon"
         color="#6366F1"
       />
+
+      {error && (
+        <div className="mb-6 p-4 bg-error-light text-error-dark rounded-lg">{error}</div>
+      )}
 
       {/* Stats - REAL DATA */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">

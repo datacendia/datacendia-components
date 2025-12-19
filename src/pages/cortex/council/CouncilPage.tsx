@@ -847,6 +847,78 @@ export const CouncilPage: React.FC = () => {
     }
   }, [searchParams]);
 
+  // Support direct URL prefill (e.g., /cortex/council?q=...&mode=crisis)
+  useEffect(() => {
+    const fromContext = searchParams.get('fromContext');
+    if (fromContext === 'true') {
+      return;
+    }
+
+    const q = searchParams.get('q') || searchParams.get('question');
+    const mode = searchParams.get('mode');
+
+    // Legacy params coming from older links (/cortex/intelligence/council?...) and deep links
+    const briefing = searchParams.get('briefing');
+    const context = searchParams.get('context');
+    const escalate = searchParams.get('escalate');
+    const appeal = searchParams.get('appeal');
+    const assembly = searchParams.get('assembly');
+
+    if (mode && COUNCIL_MODES[mode]) {
+      setSelectedMode(mode);
+    }
+
+    if (q) {
+      setQueryInput(q);
+      setTimeout(() => queryInputRef.current?.focus(), 100);
+      return;
+    }
+
+    // If q/question not provided, derive a reasonable prompt from legacy params
+    if (escalate) {
+      if (!mode && COUNCIL_MODES['crisis']) {
+        setSelectedMode('crisis');
+      }
+      setQueryInput(
+        `Escalation request (${escalate}). Assess severity, likely root causes, immediate containment actions, and a 24-hour plan.`
+      );
+      setTimeout(() => queryInputRef.current?.focus(), 100);
+      return;
+    }
+
+    if (appeal) {
+      if (!mode && COUNCIL_MODES['due-diligence']) {
+        setSelectedMode('due-diligence');
+      }
+      setQueryInput(
+        `Appeal request (${appeal}). Re-evaluate the decision with explicit pros/cons, risk posture, and recommended next steps.`
+      );
+      setTimeout(() => queryInputRef.current?.focus(), 100);
+      return;
+    }
+
+    if (briefing) {
+      if (!mode && COUNCIL_MODES['executive']) {
+        setSelectedMode('executive');
+      }
+      setQueryInput(`Provide an executive briefing on: ${briefing}`);
+      setTimeout(() => queryInputRef.current?.focus(), 100);
+      return;
+    }
+
+    if (context) {
+      setQueryInput(`Deliberate on this context: ${context}. Provide analysis and recommended actions.`);
+      setTimeout(() => queryInputRef.current?.focus(), 100);
+      return;
+    }
+
+    if (assembly === 'true') {
+      setQueryInput('Assemble the Council for a full deliberation. Propose the agenda, key questions, and decision criteria.');
+      setTimeout(() => queryInputRef.current?.focus(), 100);
+      return;
+    }
+  }, [searchParams]);
+
   // Handle premium purchase (simulated - would integrate with Stripe in production)
   const handlePremiumPurchase = (itemId: string, type: 'feature' | 'bundle') => {
     if (type === 'feature') {

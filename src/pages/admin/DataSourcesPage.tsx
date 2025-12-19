@@ -16,107 +16,8 @@ import {
   Trash2,
   TestTube,
   Settings,
-  Sparkles,
 } from 'lucide-react';
 import { api } from '../../lib/api';
-
-// =============================================================================
-// DEMO DATA CONFIGURATIONS
-// Pre-filled credentials for testing without real database connections
-// =============================================================================
-
-const DEMO_CONFIGS: Record<string, Record<string, string>> = {
-  POSTGRESQL: {
-    name: 'Demo PostgreSQL',
-    host: 'demo.datacendia.com',
-    port: '5432',
-    database: 'enterprise_erp',
-    schema: 'public',
-    username: 'demo_user',
-    password: 'demo_password_123',
-  },
-  MYSQL: {
-    name: 'Demo MySQL',
-    host: 'demo.datacendia.com',
-    port: '3306',
-    database: 'retail_ecommerce',
-    username: 'demo_user',
-    password: 'demo_password_123',
-  },
-  MONGODB: {
-    name: 'Demo MongoDB',
-    connectionString: 'mongodb://demo_user:demo_password@demo.datacendia.com:27017/healthcare_ehr',
-    database: 'healthcare_ehr',
-  },
-  REDIS: {
-    name: 'Demo Redis',
-    host: 'demo.datacendia.com',
-    port: '6379',
-    password: 'demo_redis_123',
-  },
-  NEO4J: {
-    name: 'Demo Neo4j',
-    uri: 'bolt://demo.datacendia.com:7687',
-    username: 'neo4j',
-    password: 'demo_password_123',
-  },
-  SNOWFLAKE: {
-    name: 'Demo Snowflake',
-    account: 'datacendia-demo.us-east-1',
-    warehouse: 'DEMO_WH',
-    database: 'FINANCIAL_TRADING',
-    schema: 'PUBLIC',
-    username: 'demo_user',
-    password: 'demo_password_123',
-  },
-  BIGQUERY: {
-    name: 'Demo BigQuery',
-    projectId: 'datacendia-demo-project',
-    serviceAccountKey: JSON.stringify({
-      type: 'service_account',
-      project_id: 'datacendia-demo-project',
-      private_key_id: 'demo-key-id',
-      private_key: '-----BEGIN PRIVATE KEY-----\nDEMO_KEY\n-----END PRIVATE KEY-----\n',
-      client_email: 'demo@datacendia-demo-project.iam.gserviceaccount.com',
-      client_id: '123456789',
-    }, null, 2),
-  },
-  SALESFORCE: {
-    name: 'Demo Salesforce',
-    sandbox: 'true',
-    username: 'demo@datacendia.com.sandbox',
-    password: 'demo_password_123',
-    securityToken: 'DEMO_TOKEN_ABC123',
-  },
-  HUBSPOT: {
-    name: 'Demo HubSpot',
-    accessToken: 'pat-demo-12345678-abcd-1234-efgh-123456789abc',
-  },
-  SAP: {
-    name: 'Demo SAP',
-    host: 'demo-sap.datacendia.com',
-    systemNumber: '00',
-    client: '100',
-    username: 'DEMO_USER',
-    password: 'demo_password_123',
-  },
-  ORACLE: {
-    name: 'Demo Oracle',
-    host: 'demo.datacendia.com',
-    port: '1521',
-    serviceName: 'DEMODB',
-    username: 'demo_user',
-    password: 'demo_password_123',
-  },
-  SQLSERVER: {
-    name: 'Demo SQL Server',
-    host: 'demo.datacendia.com',
-    port: '1433',
-    database: 'manufacturing_ops',
-    username: 'demo_user',
-    password: 'demo_password_123',
-  },
-};
 
 // =============================================================================
 // TYPES
@@ -425,6 +326,7 @@ const CONNECTOR_CONFIGS: Record<
 export const DataSourcesPage: React.FC = () => {
   const [dataSources, setDataSources] = useState<DataSource[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [selectedSource, setSelectedSource] = useState<DataSource | null>(null);
   const [isEditing, setIsEditing] = useState(false);
   const [isAddingNew, setIsAddingNew] = useState(false);
@@ -442,13 +344,19 @@ export const DataSourcesPage: React.FC = () => {
 
   const loadDataSources = async () => {
     setIsLoading(true);
+    setLoadError(null);
     try {
       const res = await api.get<DataSource[]>('/data-sources');
       if (res.success && res.data) {
         setDataSources(res.data);
+      } else {
+        setDataSources([]);
+        setLoadError(res.error?.message || 'Failed to load data sources');
       }
     } catch (error) {
       console.error('Failed to load data sources:', error);
+      setDataSources([]);
+      setLoadError(error instanceof Error ? error.message : 'Failed to load data sources');
     } finally {
       setIsLoading(false);
     }
@@ -480,38 +388,6 @@ export const DataSourcesPage: React.FC = () => {
     setIsTesting(true);
     setTestResult(null);
 
-    // Check if using demo data - simulate successful connection
-    const type = selectedSource?.type || newSourceType;
-    const demoConfig = type ? DEMO_CONFIGS[type] : null;
-    const isDemoData = demoConfig && (
-      formData.host === demoConfig.host ||
-      formData.account === demoConfig.account ||
-      formData.connectionString === demoConfig.connectionString ||
-      formData.projectId === demoConfig.projectId
-    );
-
-    if (isDemoData) {
-      // Simulate connection test for demo data
-      await new Promise(resolve => setTimeout(resolve, 1500)); // Fake delay
-      setTestResult({
-        success: true,
-        message: 'Demo connection successful! Ready to explore sample data.',
-        metadata: {
-          mode: 'demo',
-          tables: type === 'SNOWFLAKE' ? ['trades', 'portfolios', 'positions', 'market_data'] :
-                  type === 'POSTGRESQL' ? ['customers', 'orders', 'products', 'employees'] :
-                  type === 'MONGODB' ? ['patients', 'encounters', 'diagnoses', 'medications'] :
-                  type === 'MYSQL' ? ['products', 'customers', 'orders', 'reviews'] :
-                  ['demo_table_1', 'demo_table_2', 'demo_table_3'],
-          recordCount: type === 'SNOWFLAKE' ? 100000 : 
-                       type === 'POSTGRESQL' ? 50000 :
-                       type === 'MONGODB' ? 25000 : 75000,
-        },
-      });
-      setIsTesting(false);
-      return;
-    }
-
     try {
       const sourceId = selectedSource?.id;
       if (sourceId) {
@@ -526,8 +402,13 @@ export const DataSourcesPage: React.FC = () => {
         }
       } else {
         // Test new configuration
+        const dataSourceType = newSourceType;
+        if (!dataSourceType) {
+          setTestResult({ success: false, message: 'Select a data source type to test' });
+          return;
+        }
         const res = await api.post<ConnectionTestResult>('/data-sources/test', {
-          type,
+          type: dataSourceType,
           config: formData,
           credentials: formData,
         });
@@ -620,18 +501,6 @@ export const DataSourcesPage: React.FC = () => {
       }
     } catch (error) {
       console.error('Failed to start sync:', error);
-    }
-  };
-
-  // Fill form with demo data for the current connector type
-  const handleUseDemoData = () => {
-    const type = selectedSource?.type || newSourceType;
-    if (type && DEMO_CONFIGS[type]) {
-      setFormData(DEMO_CONFIGS[type]);
-      setTestResult({
-        success: true,
-        message: 'Demo credentials loaded! These will simulate a connected data source.',
-      });
     }
   };
 
@@ -730,10 +599,17 @@ export const DataSourcesPage: React.FC = () => {
                   <RefreshCw className="w-6 h-6 text-gray-500 animate-spin mx-auto" />
                   <p className="text-gray-500 mt-2">Loading...</p>
                 </div>
+              ) : loadError ? (
+                <div className="p-6">
+                  <div className="rounded-lg border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-200">
+                    {loadError}
+                  </div>
+                </div>
               ) : dataSources.length === 0 ? (
                 <div className="p-8 text-center">
-                  <Database className="w-10 h-10 text-gray-600 mx-auto" />
-                  <p className="text-gray-500 mt-2">No data sources configured</p>
+                  <Database className="w-12 h-12 text-gray-600 mx-auto" />
+                  <p className="text-gray-400 mt-4">No data sources configured</p>
+                  <p className="text-gray-500 mt-2 text-sm">Add a data source to begin</p>
                   <button
                     onClick={() => setIsAddingNew(true)}
                     className="mt-4 text-indigo-400 hover:text-indigo-300 text-sm"
@@ -989,16 +865,6 @@ export const DataSourcesPage: React.FC = () => {
 
                       {/* Actions */}
                       <div className="flex items-center gap-3 pt-4 flex-wrap">
-                        {/* Demo Data Button - Only show if demo config exists for this type */}
-                        {DEMO_CONFIGS[selectedSource?.type || newSourceType || ''] && (
-                          <button
-                            onClick={handleUseDemoData}
-                            className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-lg transition-all shadow-lg"
-                          >
-                            <Sparkles className="w-4 h-4" />
-                            Use Demo Data
-                          </button>
-                        )}
                         <button
                           onClick={handleTestConnection}
                           disabled={isTesting}

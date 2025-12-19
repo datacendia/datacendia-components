@@ -599,7 +599,7 @@ export const PanopticonPage: React.FC = () => {
             <div className="mt-4 pt-4 border-t border-slate-700 space-y-2">
               <button
                 onClick={() =>
-                  window.open('/cortex/intelligence/council?briefing=regulatory-q4-2025', '_blank')
+                  window.open('/cortex/council?briefing=regulatory-q4-2025', '_blank')
                 }
                 className="w-full px-3 py-2 bg-cyan-600/30 hover:bg-cyan-600/50 border border-cyan-500/50 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors"
               >
@@ -1148,7 +1148,7 @@ export const PanopticonPage: React.FC = () => {
                     <div className="pt-4 border-t border-slate-700 space-y-3">
                       <button
                         onClick={() =>
-                          window.open('/cortex/intelligence/council?escalate=violation', '_blank')
+                          window.open('/cortex/council?escalate=violation', '_blank')
                         }
                         className="w-full px-4 py-2 bg-cyan-600 hover:bg-cyan-500 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                       >

@@ -3,7 +3,7 @@
  * Interactive walkthroughs that guide users through enterprise decision workflows
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   BookOpen,
@@ -21,6 +21,8 @@ import {
   Lightbulb,
   MessageSquare,
 } from 'lucide-react';
+import { AskCouncilButton } from '../../../components/AskCouncilButton';
+import apiClient from '../../../lib/api/client';
 
 // Types
 interface WorkflowStep {
@@ -87,124 +89,6 @@ const SERVICE_DESCRIPTIONS: Record<string, string> = {
   'CendiaEternal': 'Succession planning and institutional memory',
   'CendiaCouncil': 'Multi-agent decision synthesis and governance',
 };
-
-// Demo scenarios (subset for initial load)
-const DEMO_SCENARIOS: WorkflowScenario[] = [
-  {
-    id: 'WF-001',
-    name: 'Quarterly Vendor Contract Renegotiation',
-    category: 'Procurement',
-    councilMode: 'investment',
-    services: ['CendiaProcure', 'CendiaChronos', 'CendiaEquity'],
-    steps: [
-      { order: 1, action: 'Identify expiring contracts in next 90 days', service: 'CendiaProcure', output: 'contract_list' },
-      { order: 2, action: 'Analyze historical spending patterns', service: 'CendiaChronos', output: 'spending_trends' },
-      { order: 3, action: 'Calculate potential savings opportunities', service: 'CendiaProcure', output: 'savings_analysis' },
-      { order: 4, action: 'Generate negotiation leverage points', service: 'CendiaProcure', output: 'leverage_points' },
-      { order: 5, action: 'Present to council for approval', service: 'CendiaCouncil', output: 'decision' },
-    ],
-    councilQuestion: 'We have 12 vendor contracts expiring in Q2 with a combined annual value of $4.2M. Our analysis shows potential savings of $380K through renegotiation. Should we proceed with aggressive renegotiation tactics, or maintain relationships with moderate asks?',
-    expectedOutcome: 'Approved negotiation strategy with prioritized vendor list',
-    priority: 'high',
-    estimatedDuration: '2 weeks',
-    tags: ['procurement', 'cost-savings', 'vendor-management'],
-  },
-  {
-    id: 'WF-002',
-    name: 'Customer Churn Risk Intervention',
-    category: 'Customer Success',
-    councilMode: 'crisis',
-    services: ['CendiaGuardian', 'CendiaChronos', 'CendiaResonance'],
-    steps: [
-      { order: 1, action: 'Identify at-risk customers with health score < 50', service: 'CendiaGuardian', output: 'at_risk_list' },
-      { order: 2, action: 'Analyze engagement decline patterns', service: 'CendiaChronos', output: 'decline_analysis' },
-      { order: 3, action: 'Generate personalized care packages', service: 'CendiaGuardian', output: 'care_packages' },
-      { order: 4, action: 'Draft intervention communications', service: 'CendiaResonance', output: 'communications' },
-      { order: 5, action: 'Council approval for executive escalation', service: 'CendiaCouncil', output: 'decision' },
-    ],
-    councilQuestion: 'We have identified 8 enterprise customers representing $2.1M ARR with rapidly declining health scores. Three have already initiated RFPs with competitors. What level of intervention and executive involvement should we authorize?',
-    expectedOutcome: 'Approved intervention plan with executive sponsor assignments',
-    priority: 'critical',
-    estimatedDuration: '48 hours',
-    tags: ['customer-success', 'churn-prevention', 'retention'],
-  },
-  {
-    id: 'WF-003',
-    name: 'Production Line Failure Prevention',
-    category: 'Manufacturing',
-    councilMode: 'execution',
-    services: ['CendiaFactory', 'CendiaNerve', 'CendiaChronos'],
-    steps: [
-      { order: 1, action: 'Run predictive failure analysis on all lines', service: 'CendiaFactory', output: 'failure_predictions' },
-      { order: 2, action: 'Cross-reference with IT infrastructure health', service: 'CendiaNerve', output: 'infra_health' },
-      { order: 3, action: 'Analyze historical failure patterns', service: 'CendiaChronos', output: 'pattern_analysis' },
-      { order: 4, action: 'Schedule preventive maintenance windows', service: 'CendiaFactory', output: 'maintenance_schedule' },
-      { order: 5, action: 'Council approval for production impact', service: 'CendiaCouncil', output: 'decision' },
-    ],
-    councilQuestion: 'Predictive analysis indicates 3 production lines have >70% probability of critical failure within 30 days. Preventive maintenance requires 48-hour shutdown per line. How should we sequence the maintenance to minimize production impact during peak season?',
-    expectedOutcome: 'Approved maintenance schedule with contingency plans',
-    priority: 'high',
-    estimatedDuration: '1 week',
-    tags: ['manufacturing', 'predictive-maintenance', 'operations'],
-  },
-  {
-    id: 'WF-004',
-    name: 'M&A Culture Integration Assessment',
-    category: 'Mergers & Acquisitions',
-    councilMode: 'due-diligence',
-    services: ['CendiaNetMesh', 'CendiaAcademy', 'CendiaResonance'],
-    steps: [
-      { order: 1, action: 'Assess target company culture profile', service: 'CendiaNetMesh', output: 'culture_profile' },
-      { order: 2, action: 'Compare with acquirer culture dimensions', service: 'CendiaNetMesh', output: 'culture_comparison' },
-      { order: 3, action: 'Identify skill gaps in combined workforce', service: 'CendiaAcademy', output: 'skill_gaps' },
-      { order: 4, action: 'Develop integration communication strategy', service: 'CendiaResonance', output: 'comm_strategy' },
-      { order: 5, action: 'Council review of integration roadmap', service: 'CendiaCouncil', output: 'decision' },
-    ],
-    councilQuestion: 'Our culture compatibility analysis shows a 62% alignment score with the acquisition target. Key friction points include decision-making speed (they\'re consensus-driven, we\'re top-down) and work-life balance expectations. Should we proceed with the acquisition given these cultural risks?',
-    expectedOutcome: 'Go/No-Go decision with integration risk mitigation plan',
-    priority: 'critical',
-    estimatedDuration: '2 weeks',
-    tags: ['m&a', 'culture', 'integration'],
-  },
-  {
-    id: 'WF-005',
-    name: 'Executive Travel Security Assessment',
-    category: 'Security',
-    councilMode: 'compliance',
-    services: ['CendiaTransit', 'CendiaAegis', 'CendiaNerve'],
-    steps: [
-      { order: 1, action: 'Assess destination risk profile', service: 'CendiaTransit', output: 'risk_assessment' },
-      { order: 2, action: 'Check for active threats in region', service: 'CendiaAegis', output: 'threat_intel' },
-      { order: 3, action: 'Verify secure communication channels', service: 'CendiaNerve', output: 'comm_security' },
-      { order: 4, action: 'Generate security plan with extraction options', service: 'CendiaTransit', output: 'security_plan' },
-      { order: 5, action: 'Council approval for high-risk travel', service: 'CendiaCouncil', output: 'decision' },
-    ],
-    councilQuestion: 'The CEO has requested travel to a region with elevated security risk (Level 3) for a critical partnership meeting. Our security assessment recommends enhanced protection measures costing $45K. Should we approve the travel with full security protocol, suggest virtual meeting, or postpone?',
-    expectedOutcome: 'Travel decision with approved security measures',
-    priority: 'high',
-    estimatedDuration: '24 hours',
-    tags: ['security', 'executive-protection', 'travel'],
-  },
-  {
-    id: 'WF-010',
-    name: 'IT Incident Response Activation',
-    category: 'IT Operations',
-    councilMode: 'crisis',
-    services: ['CendiaNerve', 'CendiaAegis', 'CendiaResonance'],
-    steps: [
-      { order: 1, action: 'Detect and classify incident severity', service: 'CendiaNerve', output: 'incident_classification' },
-      { order: 2, action: 'Assess security threat indicators', service: 'CendiaAegis', output: 'threat_assessment' },
-      { order: 3, action: 'Activate Lazarus Protocol if needed', service: 'CendiaNerve', output: 'recovery_protocol' },
-      { order: 4, action: 'Prepare stakeholder communications', service: 'CendiaResonance', output: 'communications' },
-      { order: 5, action: 'Council authorization for escalation', service: 'CendiaCouncil', output: 'decision' },
-    ],
-    councilQuestion: 'We have detected a P1 incident affecting our payment processing system. Initial analysis suggests potential data exfiltration. Customer impact is growing. Should we activate full Lazarus Protocol (2-hour recovery, $50K cost) or attempt targeted remediation (4-6 hours, lower cost but higher risk)?',
-    expectedOutcome: 'Authorized incident response with communication plan',
-    priority: 'critical',
-    estimatedDuration: '2 hours',
-    tags: ['incident-response', 'security', 'operations'],
-  },
-];
 
 // Walkthrough Step Component
 const WalkthroughStep: React.FC<{
@@ -457,10 +341,22 @@ const ActiveWalkthrough: React.FC<{
             <p className="text-sm text-gray-300 leading-relaxed">
               {scenario.councilQuestion}
             </p>
-            <button className="mt-4 w-full py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-white font-medium flex items-center justify-center gap-2">
-              <Users className="w-4 h-4" />
-              Ask the Council
-            </button>
+            <AskCouncilButton
+              sourcePage="Workflow Walkthroughs"
+              defaultQuestion={scenario.councilQuestion}
+              contextSummary={`${scenario.id}: ${scenario.name}`}
+              contextData={{
+                workflowId: scenario.id,
+                workflowName: scenario.name,
+                category: scenario.category,
+                expectedOutcome: scenario.expectedOutcome,
+                steps: scenario.steps,
+                tags: scenario.tags,
+              }}
+              suggestedMode={scenario.councilMode}
+              priority={scenario.priority as any}
+              className="mt-4 w-full justify-center"
+            />
           </div>
 
           {/* Expected Outcome */}
@@ -497,38 +393,43 @@ const ActiveWalkthrough: React.FC<{
 
 // Main Page Component
 const WalkthroughsPage: React.FC = () => {
-  const [scenarios, setScenarios] = useState<WorkflowScenario[]>(DEMO_SCENARIOS);
+  const [scenarios, setScenarios] = useState<WorkflowScenario[]>([]);
   const [activeScenario, setActiveScenario] = useState<WorkflowScenario | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGroup, setSelectedGroup] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(24);
 
   // Load scenarios from backend
-  useEffect(() => {
-    const loadScenarios = async () => {
-      setLoading(true);
-      try {
-        const response = await fetch('http://localhost:3000/api/v1/workflows/scenarios');
-        if (response.ok) {
-          const result = await response.json();
-          if (result.success && Array.isArray(result.data) && result.data.length > 0) {
-            setScenarios(result.data);
-            console.log(`Loaded ${result.data.length} workflow scenarios from backend`);
-          } else {
-            console.log('Backend returned empty, using demo scenarios');
-          }
-        } else {
-          console.log('Backend unavailable, using demo scenarios');
-        }
-      } catch (err) {
-        console.log('Using demo scenarios - backend error:', err);
+  const loadScenarios = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+
+    try {
+      const res = await apiClient.api.get<WorkflowScenario[]>('/workflows/scenarios');
+      if (!res.success) {
+        throw new Error(res.error?.message || 'Failed to load workflows');
       }
+
+      const loaded = Array.isArray(res.data) ? res.data : [];
+      setScenarios(loaded);
+
+      if (loaded.length === 0) {
+        setError('No workflow scenarios returned from backend');
+      }
+    } catch (e) {
+      setScenarios([]);
+      setError(e instanceof Error ? e.message : 'Failed to load workflows');
+    } finally {
       setLoading(false);
-    };
-    loadScenarios();
+    }
   }, []);
+
+  useEffect(() => {
+    void loadScenarios();
+  }, [loadScenarios]);
 
   useEffect(() => {
     setVisibleCount(24);
@@ -684,6 +585,24 @@ const WalkthroughsPage: React.FC = () => {
           <div className="animate-spin w-8 h-8 border-2 border-cyan-500 border-t-transparent rounded-full mx-auto mb-4" />
           <p className="text-gray-400">Loading workflows...</p>
         </div>
+      ) : error && scenarios.length === 0 ? (
+        <div className="text-center py-12">
+          <BookOpen className="w-12 h-12 text-amber-400 mx-auto mb-4" />
+          <h3 className="text-lg font-semibold text-white mb-2">Workflows Unavailable</h3>
+          <p className="text-gray-400 mb-4">{error}</p>
+          <button
+            onClick={() => void loadScenarios()}
+            className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 rounded-lg text-white font-medium"
+          >
+            Retry
+          </button>
+        </div>
+      ) : scenarios.length === 0 ? (
+        <div className="text-center py-12">
+          <BookOpen className="w-12 h-12 text-gray-600 mx-auto mb-4" />
+          <h3 className="text-lg font-semibold text-white mb-2">No Workflows Available</h3>
+          <p className="text-gray-400">Configure the backend for the selected data source and retry.</p>
+        </div>
       ) : (
         <>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -709,7 +628,7 @@ const WalkthroughsPage: React.FC = () => {
         </>
       )}
 
-      {filteredScenarios.length === 0 && !loading && (
+      {filteredScenarios.length === 0 && !loading && scenarios.length > 0 && (
         <div className="text-center py-12">
           <BookOpen className="w-12 h-12 text-gray-600 mx-auto mb-4" />
           <h3 className="text-lg font-semibold text-white mb-2">No Workflows Found</h3>

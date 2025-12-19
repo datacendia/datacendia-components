@@ -149,6 +149,11 @@ export const devAuth = async (
   next: NextFunction
 ): Promise<void> => {
   const authHeader = req.headers.authorization;
+  const timeout = <T>(ms: number, promise: Promise<T>) =>
+    Promise.race([
+      promise,
+      new Promise<T>((_, reject) => setTimeout(() => reject(new Error('devAuth timeout')), ms)),
+    ]);
   
   // If token provided, use real auth
   if (authHeader?.startsWith('Bearer ')) {
@@ -165,69 +170,62 @@ export const devAuth = async (
       warning: 'This should NEVER appear in production logs',
     });
     
-    // Try to get the seeded admin user
-    const adminUser = await prisma.users.findUnique({
-      where: { email: 'admin@datacendia.com' },
-      include: { organizations: true },
-    });
-    
-    if (adminUser) {
-      req.user = {
-        id: adminUser.id,
-        email: adminUser.email,
-        name: adminUser.name,
-        role: adminUser.role,
-        organizationId: adminUser.organization_id,
-        status: adminUser.status,
-        createdAt: adminUser.created_at,
-        updatedAt: adminUser.updated_at,
-        organization: adminUser.organizations,
-        preferences: adminUser.preferences,
-      } as any;
-      req.organizationId = adminUser.organization_id;
-    } else {
-      const demoOrg = await prisma.organizations.upsert({
-        where: { slug: 'demo' },
-        update: {},
-        create: {
-          id: 'demo-org-id',
-          name: 'Demo Organization',
-          slug: 'demo',
-          settings: {},
-          updated_at: new Date(),
-        },
-      });
+    try {
+      const primaryAdminUser = await timeout(
+        1500,
+        prisma.users.findUnique({
+          where: { email: 'admin@datacendia.com' },
+          include: { organizations: true },
+        })
+      );
 
-      const demoUser = await prisma.users.upsert({
-        where: { email: 'demo@datacendia.com' },
-        update: {},
-        create: {
-          id: 'demo-user-id',
-          organization_id: demoOrg.id,
-          email: 'demo@datacendia.com',
-          password_hash: null,
-          name: 'Demo User',
-          role: 'ADMIN',
-          status: 'ACTIVE',
-          preferences: {},
-          updated_at: new Date(),
-        },
-      });
+      const adminUser =
+        primaryAdminUser ??
+        (await timeout(
+          1500,
+          prisma.users.findFirst({
+            where: { role: 'SUPER_ADMIN' },
+            orderBy: { created_at: 'asc' },
+            include: { organizations: true },
+          })
+        ));
 
-      req.user = {
-        id: demoUser.id,
-        email: demoUser.email,
-        name: demoUser.name,
-        role: demoUser.role,
-        organizationId: demoUser.organization_id,
-        status: demoUser.status,
-        createdAt: demoUser.created_at,
-        updatedAt: demoUser.updated_at,
-        organization: demoOrg,
-        preferences: demoUser.preferences,
-      } as any;
-      req.organizationId = demoOrg.id;
+      if (adminUser) {
+        req.user = {
+          id: adminUser.id,
+          email: adminUser.email,
+          name: adminUser.name,
+          role: adminUser.role,
+          organizationId: adminUser.organization_id,
+          status: adminUser.status,
+          createdAt: adminUser.created_at,
+          updatedAt: adminUser.updated_at,
+          organization: adminUser.organizations,
+          preferences: adminUser.preferences,
+        } as any;
+        req.organizationId = adminUser.organization_id;
+        return next();
+      }
+    } catch {
     }
+
+    req.user = {
+      id: 'dev-user-id',
+      email: 'dev@datacendia.com',
+      name: 'Dev User',
+      role: 'ADMIN',
+      organizationId: 'dev-org-id',
+      status: 'ACTIVE',
+      createdAt: null,
+      updatedAt: null,
+      organization: {
+        id: 'dev-org-id',
+        name: 'Dev Organization',
+        slug: 'dev',
+      },
+      preferences: {},
+    } as any;
+    req.organizationId = 'dev-org-id';
     return next();
   }
   

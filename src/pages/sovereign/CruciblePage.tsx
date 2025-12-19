@@ -4,7 +4,7 @@
  * "Synthetic Reality. Infinite Stress Testing. Failure Before It Happens."
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
   Flame,
   Play,
@@ -766,81 +766,95 @@ export const CruciblePage: React.FC = () => {
     3: 'Higher severity thresholds, focus on existential risks only',
   };
 
-  useEffect(() => {
-    const loadData = async () => {
-      let loadedTemplates: SimulationTemplate[] = [];
-      
-      try {
-        const [
-          templatesRes,
-          simulationsRes,
-          resilienceRes,
-          benchmarksRes,
-          recommendationsRes,
-          recentRes,
-        ] = await Promise.all([
-          apiClient.api.get<{ data: SimulationTemplate[] }>('/crucible/templates'),
-          apiClient.api.get<{ data: Simulation[] }>('/crucible/simulations'),
-          apiClient.api.get<{ data: ResilienceData }>('/crucible/resilience'),
-          apiClient.api.get<{ data: BenchmarkData }>('/crucible/benchmarks'),
-          apiClient.api.get<{ data: RecommendationData[] }>('/crucible/recommendations'),
-          apiClient.api.get<{ data: RecentSimulationData[] }>('/crucible/recent'),
-        ]);
+  const loadCrucibleData = useCallback(async () => {
+    setIsLoading(true);
 
-        if (templatesRes.success && templatesRes.data) {
-          const data = (templatesRes.data as any).data || templatesRes.data;
-          loadedTemplates = Array.isArray(data) ? data : [];
-        }
-        if (simulationsRes.success && simulationsRes.data) {
-          const data = (simulationsRes.data as any).data || simulationsRes.data;
-          setSimulations(Array.isArray(data) ? data : []);
-        }
-        if (resilienceRes.success && resilienceRes.data) {
-          const data = (resilienceRes.data as any).data || resilienceRes.data;
-          setResilienceData(data);
-        }
-        if (benchmarksRes.success && benchmarksRes.data) {
-          const data = (benchmarksRes.data as any).data || benchmarksRes.data;
-          setBenchmarkData(data);
-        }
-        if (recommendationsRes.success && recommendationsRes.data) {
-          const data = (recommendationsRes.data as any).data || recommendationsRes.data;
-          setRecommendations(Array.isArray(data) ? data : []);
-        }
-        if (recentRes.success && recentRes.data) {
-          const data = (recentRes.data as any).data || recentRes.data;
-          setRecentSimulations(Array.isArray(data) ? data : []);
-        }
-      } catch (error) {
-        console.error('Failed to load Crucible data:', error);
-      }
-      
-      // If no templates loaded from API, use demo data
-      if (loadedTemplates.length === 0) {
-        setTemplates([
-          { type: 'FINANCIAL_STRESS', name: 'Financial Stress Test', description: 'Simulate revenue decline, cost increases, or cash flow disruption', shockCount: 2, shocks: [] },
-          { type: 'OPERATIONAL_SHOCK', name: 'Operational Disruption', description: 'Simulate major operational failures or supply chain breaks', shockCount: 2, shocks: [] },
-          { type: 'CYBER_ATTACK', name: 'Cybersecurity Incident', description: 'Simulate ransomware, data breach, or system compromise', shockCount: 3, shocks: [] },
-          { type: 'REGULATORY_CHANGE', name: 'Regulatory Shock', description: 'Simulate new compliance requirements or enforcement actions', shockCount: 2, shocks: [] },
-          { type: 'CULTURAL_SHIFT', name: 'Cultural Disruption', description: 'Simulate morale collapse, talent exodus, or leadership failure', shockCount: 2, shocks: [] },
-          { type: 'ESG_EVENT', name: 'ESG Crisis', description: 'Simulate environmental, social, or governance failures', shockCount: 2, shocks: [] },
-          { type: 'MA_SCENARIO', name: 'M&A Event', description: 'Simulate acquisition, merger, or divestiture', shockCount: 2, shocks: [] },
-          { type: 'MARKET_DISRUPTION', name: 'Market Disruption', description: 'Simulate competitive threat, market shift, or demand collapse', shockCount: 2, shocks: [] },
-          { type: 'SUPPLY_CHAIN', name: 'Supply Chain Breakdown', description: 'Simulate supplier failure, logistics disruption, or material shortage', shockCount: 2, shocks: [] },
-          { type: 'TALENT_EXODUS', name: 'Talent Crisis', description: 'Simulate key person departures or mass resignation', shockCount: 2, shocks: [] },
-          { type: 'TECHNOLOGY_FAILURE', name: 'Technology Failure', description: 'Simulate critical system outage or technology obsolescence', shockCount: 2, shocks: [] },
-          { type: 'BLACK_SWAN', name: 'Black Swan Event', description: 'Simulate extreme, unpredictable events with massive impact', shockCount: 2, shocks: [] },
-        ]);
-        setApiError('Backend unavailable - showing demo scenarios');
+    let loadedTemplates: SimulationTemplate[] = [];
+    let nextError: string | null = null;
+
+    try {
+      const [
+        templatesRes,
+        simulationsRes,
+        resilienceRes,
+        benchmarksRes,
+        recommendationsRes,
+        recentRes,
+      ] = await Promise.all([
+        apiClient.api.get<{ data: SimulationTemplate[] }>('/crucible/templates'),
+        apiClient.api.get<{ data: Simulation[] }>('/crucible/simulations'),
+        apiClient.api.get<{ data: ResilienceData }>('/crucible/resilience'),
+        apiClient.api.get<{ data: BenchmarkData }>('/crucible/benchmarks'),
+        apiClient.api.get<{ data: RecommendationData[] }>('/crucible/recommendations'),
+        apiClient.api.get<{ data: RecentSimulationData[] }>('/crucible/recent'),
+      ]);
+
+      if (templatesRes.success && templatesRes.data) {
+        const data = (templatesRes.data as any).data || templatesRes.data;
+        loadedTemplates = Array.isArray(data) ? data : [];
       } else {
-        setTemplates(loadedTemplates);
-        setApiError(null);
+        nextError = templatesRes.error?.message || 'Failed to load simulation templates';
       }
-      
-      setIsLoading(false);
-    };
-    loadData();
+
+      if (simulationsRes.success && simulationsRes.data) {
+        const data = (simulationsRes.data as any).data || simulationsRes.data;
+        setSimulations(Array.isArray(data) ? data : []);
+      } else {
+        setSimulations([]);
+      }
+
+      if (resilienceRes.success && resilienceRes.data) {
+        const data = (resilienceRes.data as any).data || resilienceRes.data;
+        setResilienceData(data);
+      } else {
+        setResilienceData(null);
+      }
+
+      if (benchmarksRes.success && benchmarksRes.data) {
+        const data = (benchmarksRes.data as any).data || benchmarksRes.data;
+        setBenchmarkData(data);
+      } else {
+        setBenchmarkData(null);
+      }
+
+      if (recommendationsRes.success && recommendationsRes.data) {
+        const data = (recommendationsRes.data as any).data || recommendationsRes.data;
+        setRecommendations(Array.isArray(data) ? data : []);
+      } else {
+        setRecommendations([]);
+      }
+
+      if (recentRes.success && recentRes.data) {
+        const data = (recentRes.data as any).data || recentRes.data;
+        setRecentSimulations(Array.isArray(data) ? data : []);
+      } else {
+        setRecentSimulations([]);
+      }
+    } catch (error) {
+      console.error('Failed to load Crucible data:', error);
+      loadedTemplates = [];
+      nextError = error instanceof Error ? error.message : 'Failed to load Crucible data';
+      setSimulations([]);
+      setResilienceData(null);
+      setBenchmarkData(null);
+      setRecommendations([]);
+      setRecentSimulations([]);
+    }
+
+    if (loadedTemplates.length === 0) {
+      setTemplates([]);
+      setApiError(nextError || 'No simulation templates returned from backend');
+    } else {
+      setTemplates(loadedTemplates);
+      setApiError(null);
+    }
+
+    setIsLoading(false);
   }, []);
+
+  useEffect(() => {
+    void loadCrucibleData();
+  }, [loadCrucibleData]);
 
   const runSimulation = async (templateType: string, customParams?: typeof customScenario) => {
     setIsRunning(true);
@@ -1182,12 +1196,12 @@ export const CruciblePage: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <AlertTriangle className="w-5 h-5 text-amber-400" />
                   <div>
-                    <span className="font-semibold text-amber-300">DEMO MODE</span>
+                    <span className="font-semibold text-amber-300">API ERROR</span>
                     <span className="text-amber-200 ml-2">{apiError}</span>
                   </div>
                 </div>
                 <button
-                  onClick={() => window.location.reload()}
+                  onClick={() => void loadCrucibleData()}
                   className="px-3 py-1.5 bg-amber-600 hover:bg-amber-500 rounded text-sm font-medium text-white flex items-center gap-2"
                 >
                   <RotateCcw className="w-4 h-4" />
@@ -1408,8 +1422,24 @@ export const CruciblePage: React.FC = () => {
               </button>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {templates.map((template) => {
+            {templates.length === 0 ? (
+              <div className="text-center py-16 bg-white/5 rounded-xl border border-white/10">
+                <XCircle className="w-12 h-12 text-amber-400 mx-auto mb-4 opacity-70" />
+                <p className="text-gray-300">No simulation templates available.</p>
+                <p className="text-gray-500 text-sm mt-2">
+                  Configure the backend for the selected data source and retry.
+                </p>
+                <button
+                  onClick={() => void loadCrucibleData()}
+                  className="mt-6 px-4 py-2 bg-amber-600 hover:bg-amber-500 rounded-lg text-sm font-medium text-white inline-flex items-center gap-2"
+                >
+                  <RotateCcw className="w-4 h-4" />
+                  Retry
+                </button>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {templates.map((template) => {
                 const severity = scenarioSeverity[template.type] || 'MODERATE';
                 const colors = severityColors[severity];
                 const lastRun = simulations.find((s) => s.simulation_type === template.type);
@@ -1502,8 +1532,9 @@ export const CruciblePage: React.FC = () => {
                     </div>
                   </div>
                 );
-              })}
-            </div>
+                })}
+              </div>
+            )}
 
             {selectedTemplate && (
               <div className="mt-8 flex justify-center">

@@ -45,7 +45,7 @@ const LIFECYCLE_STAGES = [
       'Dissent registry',
       'Cross-examination log',
     ],
-    link: '/cortex/intelligence/council',
+    link: '/cortex/council',
   },
   {
     id: 'dna',
@@ -436,7 +436,7 @@ export const DecisionLifecycle: React.FC<DecisionLifecycleProps> = ({
           Every decision creates a permanent, auditable record across the Sovereign Stack
         </p>
         <button
-          onClick={() => onStageClick?.('council', '/cortex/intelligence/council')}
+          onClick={() => onStageClick?.('council', '/cortex/council')}
           className="px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-sm font-medium flex items-center gap-2"
         >
           <Play className="w-4 h-4" /> Start New Decision

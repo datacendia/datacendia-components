@@ -36,6 +36,7 @@ import {
   BarChart3,
 } from 'lucide-react';
 import apiClient from '../../../lib/api/client';
+import { useUser } from '../../../contexts';
 
 // Types
 type ComplianceDomain = 'ethical_ai' | 'cybersecurity' | 'privacy' | 'governance' | 'industry';
@@ -493,36 +494,15 @@ const PillarMappingCard: React.FC<{
   );
 };
 
-// Demo data for when backend is unavailable
-const DEMO_RINGS: Ring[] = [
-  { ring: 1, domain: 'ethical_ai', name: 'Ethical AI Frameworks', description: 'NIST AI RMF, UNESCO, OECD, ISO 42001', frameworks: [], totalControls: 345 },
-  { ring: 2, domain: 'cybersecurity', name: 'Cybersecurity & Risk', description: 'NIST 800-53, Zero Trust, MITRE, SOC 2', frameworks: [], totalControls: 1887 },
-  { ring: 3, domain: 'privacy', name: 'Privacy & Data Rights', description: 'GDPR, CCPA, HIPAA, ISO 27701, PCI-DSS', frameworks: [], totalControls: 342 },
-  { ring: 4, domain: 'governance', name: 'Governance & Audit', description: 'COSO, COBIT, ITIL, SOX, ISO 9001', frameworks: [], totalControls: 262 },
-  { ring: 5, domain: 'industry', name: 'Industry Regulation', description: 'Banking, Healthcare, Government, Defense', frameworks: [], totalControls: 695 },
-];
-
-const DEMO_FRAMEWORKS: ComplianceFramework[] = [
-  { id: 'nist-ai-rmf', code: 'NIST AI RMF', name: 'AI Risk Management Framework', fullName: 'NIST AI Risk Management Framework', domain: 'ethical_ai', description: 'Framework for managing AI risks', version: '1.0', jurisdiction: ['US'], industries: ['All'], pillars: ['ethics', 'guard'], controlCount: 72, status: 'active' },
-  { id: 'iso-42001', code: 'ISO 42001', name: 'AI Management System', fullName: 'ISO/IEC 42001:2023', domain: 'ethical_ai', description: 'AI management system standard', version: '2023', jurisdiction: ['Global'], industries: ['All'], pillars: ['ethics', 'agents'], controlCount: 93, status: 'active' },
-  { id: 'nist-800-53', code: 'NIST 800-53', name: 'Security Controls', fullName: 'NIST SP 800-53 Rev 5', domain: 'cybersecurity', description: 'Security and privacy controls', version: 'Rev 5', jurisdiction: ['US'], industries: ['Government', 'All'], pillars: ['guard', 'health'], controlCount: 1189, status: 'active' },
-  { id: 'soc2', code: 'SOC 2', name: 'Service Organization Controls', fullName: 'SOC 2 Type II', domain: 'cybersecurity', description: 'Trust service criteria', version: 'Type II', jurisdiction: ['US'], industries: ['Technology', 'All'], pillars: ['guard', 'flow'], controlCount: 64, status: 'active' },
-  { id: 'gdpr', code: 'GDPR', name: 'General Data Protection', fullName: 'EU General Data Protection Regulation', domain: 'privacy', description: 'EU data protection regulation', version: '2018', jurisdiction: ['EU'], industries: ['All'], pillars: ['ethics', 'lineage'], controlCount: 99, status: 'active' },
-  { id: 'ccpa', code: 'CCPA', name: 'California Consumer Privacy', fullName: 'California Consumer Privacy Act', domain: 'privacy', description: 'California privacy law', version: '2020', jurisdiction: ['US-CA'], industries: ['All'], pillars: ['ethics', 'lineage'], controlCount: 45, status: 'active' },
-  { id: 'hipaa', code: 'HIPAA', name: 'Health Insurance Portability', fullName: 'Health Insurance Portability and Accountability Act', domain: 'privacy', description: 'Healthcare data protection', version: '1996', jurisdiction: ['US'], industries: ['Healthcare'], pillars: ['guard', 'health'], controlCount: 75, status: 'active' },
-  { id: 'sox', code: 'SOX', name: 'Sarbanes-Oxley', fullName: 'Sarbanes-Oxley Act', domain: 'governance', description: 'Financial reporting controls', version: '2002', jurisdiction: ['US'], industries: ['Public Companies'], pillars: ['helm', 'flow'], controlCount: 68, status: 'active' },
-  { id: 'cobit', code: 'COBIT', name: 'Control Objectives for IT', fullName: 'COBIT 2019', domain: 'governance', description: 'IT governance framework', version: '2019', jurisdiction: ['Global'], industries: ['All'], pillars: ['helm', 'predict'], controlCount: 40, status: 'active' },
-  { id: 'pci-dss', code: 'PCI-DSS', name: 'Payment Card Industry', fullName: 'Payment Card Industry Data Security Standard', domain: 'industry', description: 'Payment card security', version: '4.0', jurisdiction: ['Global'], industries: ['Finance', 'Retail'], pillars: ['guard', 'flow'], controlCount: 264, status: 'active' },
-  { id: 'fedramp', code: 'FedRAMP', name: 'Federal Risk Authorization', fullName: 'Federal Risk and Authorization Management Program', domain: 'industry', description: 'Cloud security for government', version: 'Rev 5', jurisdiction: ['US'], industries: ['Government'], pillars: ['guard', 'health'], controlCount: 325, status: 'active' },
-  { id: 'iso-27001', code: 'ISO 27001', name: 'Information Security', fullName: 'ISO/IEC 27001:2022', domain: 'cybersecurity', description: 'Information security management', version: '2022', jurisdiction: ['Global'], industries: ['All'], pillars: ['guard', 'health'], controlCount: 93, status: 'active' },
-];
-
 // Main Dashboard Component
 const ComplianceDashboard: React.FC = () => {
+  const user = useUser();
+  const organizationId = user?.organizationId;
+  const generatedBy = user?.name || user?.email || 'Unknown';
+
   const [activeTab, setActiveTab] = useState<TabId>('overview');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [isDemoMode, setIsDemoMode] = useState(false);
   
   // Data state
   const [rings, setRings] = useState<Ring[]>([]);
@@ -541,63 +521,115 @@ const ComplianceDashboard: React.FC = () => {
   const [generating, setGenerating] = useState(false);
   const [runningAssessment, setRunningAssessment] = useState<ComplianceDomain | null>(null);
 
+  const loadAssessments = useCallback(
+    async (loadedFrameworks: ComplianceFramework[]) => {
+      if (!organizationId) {
+        setAssessments([]);
+        return;
+      }
+
+      const fwById = new Map(loadedFrameworks.map((f) => [f.id, f] as const));
+      const res = await apiClient.api.get<
+        Array<{
+          id: string;
+          organizationId: string;
+          frameworkId: string;
+          pillarId: PillarId;
+          domain: ComplianceDomain;
+          assessmentDate: string;
+          assessor: string;
+          overallScore: number;
+          findings: Array<{
+            id: string;
+            controlId: string;
+            severity: Finding['severity'];
+            title: string;
+            status: Finding['status'];
+          }>;
+        }>
+      >('/compliance/assessments', { organizationId });
+
+      if (!res.success) {
+        throw new Error(res.error?.message || 'Failed to load assessments');
+      }
+
+      const raw = Array.isArray(res.data) ? res.data : [];
+      const normalized: Assessment[] = raw.map((a) => {
+        const fw = fwById.get(a.frameworkId);
+        return {
+          id: a.id,
+          frameworkId: a.frameworkId,
+          frameworkCode: fw?.code || a.frameworkId,
+          pillarId: a.pillarId,
+          domain: a.domain,
+          overallScore: a.overallScore,
+          findings: (a.findings || []).map((f) => ({
+            id: f.id,
+            severity: f.severity,
+            title: f.title,
+            frameworkId: a.frameworkId,
+            controlId: f.controlId,
+            status: f.status,
+          })),
+          assessedAt: a.assessmentDate,
+          assessedBy: a.assessor,
+        };
+      });
+
+      setAssessments(normalized);
+    },
+    [organizationId]
+  );
+
   // Load initial data - parallel requests for speed
   const loadData = useCallback(async () => {
     setLoading(true);
     setError(null);
-    setIsDemoMode(false);
-    
-    let loadedRings: Ring[] = [];
-    let loadedFrameworks: ComplianceFramework[] = [];
-    
+
     try {
-      // Direct fetch to backend - bypass apiClient which has issues
-      const [ringsResponse, fwResponse, assessResponse] = await Promise.all([
-        fetch('http://localhost:3000/api/v1/compliance/five-rings'),
-        fetch('http://localhost:3000/api/v1/compliance/frameworks'),
-        fetch('http://localhost:3000/api/v1/compliance/assessments?organizationId=org-1'),
+      const [ringsRes, frameworksRes] = await Promise.all([
+        apiClient.api.get<{ rings: Ring[] }>('/compliance/five-rings'),
+        apiClient.api.get<ComplianceFramework[]>('/compliance/frameworks'),
       ]);
 
-      if (ringsResponse.ok) {
-        const ringsData = await ringsResponse.json();
-        if (ringsData.success && ringsData.data) {
-          loadedRings = ringsData.data.rings || [];
-        }
+      if (!ringsRes.success) {
+        throw new Error(ringsRes.error?.message || 'Failed to load Five Rings overview');
       }
 
-      if (fwResponse.ok) {
-        const fwData = await fwResponse.json();
-        if (fwData.success && fwData.data) {
-          loadedFrameworks = Array.isArray(fwData.data) ? fwData.data : [];
-        }
+      if (!frameworksRes.success) {
+        throw new Error(frameworksRes.error?.message || 'Failed to load frameworks');
       }
 
-      if (assessResponse.ok) {
-        const assessData = await assessResponse.json();
-        if (assessData.success && assessData.data) {
-          setAssessments(Array.isArray(assessData.data) ? assessData.data : []);
-        }
+      const loadedRings = ringsRes.data?.rings || [];
+      const loadedFrameworks = Array.isArray(frameworksRes.data) ? frameworksRes.data : [];
+
+      if (loadedRings.length === 0 || loadedFrameworks.length === 0) {
+        setRings([]);
+        setFrameworks([]);
+        setAssessments([]);
+        setError('No compliance data returned from API');
+        return;
       }
 
-      console.log('Loaded:', loadedRings.length, 'rings,', loadedFrameworks.length, 'frameworks');
-
-    } catch (err) {
-      console.error('Compliance data load error:', err);
-    }
-    
-    // If no data loaded from API, use demo data
-    if (loadedRings.length === 0 || loadedFrameworks.length === 0) {
-      setRings(DEMO_RINGS);
-      setFrameworks(DEMO_FRAMEWORKS);
-      setIsDemoMode(true);
-      setError('Backend unavailable - showing demo data');
-    } else {
       setRings(loadedRings);
       setFrameworks(loadedFrameworks);
+
+      try {
+        await loadAssessments(loadedFrameworks);
+      } catch (e) {
+        setAssessments([]);
+        setError(e instanceof Error ? e.message : 'Failed to load assessments');
+      }
+    } catch (err) {
+      console.error('Compliance data load error:', err);
+      setRings([]);
+      setFrameworks([]);
+      setAssessments([]);
+      setError(err instanceof Error ? err.message : 'Failed to load compliance data');
+    } finally {
+      setLoading(false);
     }
-    
-    setLoading(false);
-  }, []);
+  }, [loadAssessments]);
 
   useEffect(() => {
     loadData();
@@ -619,111 +651,65 @@ const ComplianceDashboard: React.FC = () => {
     }
   };
 
-  // Generate compliance bundle - creates a demo bundle locally since backend may not persist
+  // Generate compliance bundle
   const generateBundle = async () => {
     setGenerating(true);
     try {
-      // Try backend first
-      const response = await fetch('http://localhost:3000/api/v1/compliance/bundles/generate', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          organizationId: 'org-1',
-          generatedBy: 'Current User',
-          domains: ['ethical_ai', 'cybersecurity', 'privacy', 'governance', 'industry'],
-          pillars: ['helm', 'lineage', 'predict', 'flow', 'health', 'guard', 'ethics', 'agents'],
-        }),
-      });
-      
-      if (response.ok) {
-        const result = await response.json();
-        if (result.success && result.data) {
-          setBundles(prev => [result.data, ...prev]);
-          setActiveTab('bundles');
-          return;
-        }
+      if (!organizationId) {
+        throw new Error('Organization is required to generate bundles');
       }
-      
-      // Fallback: Generate demo bundle locally
-      const demoBundle: Bundle = {
-        id: `bundle-${Date.now()}`,
-        organizationId: 'org-1',
-        generatedAt: new Date().toISOString(),
-        generatedBy: 'Current User',
-        frameworks: frameworks.map(f => f.id),
-        pillars: ['helm', 'lineage', 'predict', 'flow', 'health', 'guard', 'ethics', 'agents'],
+
+      const res = await apiClient.api.post<Bundle>('/compliance/bundles/generate', {
+        organizationId,
+        generatedBy,
         domains: ['ethical_ai', 'cybersecurity', 'privacy', 'governance', 'industry'],
-        fileCount: frameworks.length + 5,
-        files: [
-          { path: '/compliance/executive-summary.pdf', type: 'report', size: 245000 },
-          { path: '/compliance/control-matrix.xlsx', type: 'matrix', size: 128000 },
-          { path: '/compliance/audit-trail.json', type: 'audit', size: 89000 },
-          { path: '/compliance/risk-assessment.pdf', type: 'report', size: 312000 },
-          { path: '/compliance/remediation-plan.docx', type: 'plan', size: 156000 },
-          ...frameworks.map(f => ({ path: `/frameworks/${f.code}-controls.json`, type: 'controls' as const, size: Math.floor(Math.random() * 50000) + 10000 })),
-        ],
-      };
-      setBundles(prev => [demoBundle, ...prev]);
+        pillars: ['helm', 'lineage', 'predict', 'flow', 'health', 'guard', 'ethics', 'agents'],
+      });
+
+      if (!res.success || !res.data) {
+        throw new Error(res.error?.message || 'Failed to generate compliance bundle');
+      }
+
+      setBundles((prev) => [res.data as Bundle, ...prev]);
       setActiveTab('bundles');
     } catch (err) {
       console.error('Failed to generate bundle:', err);
-      setError('Failed to generate compliance bundle');
+      setError(err instanceof Error ? err.message : 'Failed to generate compliance bundle');
     } finally {
       setGenerating(false);
     }
   };
 
-  // Run domain assessment - creates demo assessment data
+  // Run domain assessment
   const runDomainAssessment = async (domain: ComplianceDomain) => {
     setRunningAssessment(domain);
     try {
-      // Try backend first
-      const pillarIds: PillarId[] = ['helm', 'lineage', 'predict', 'flow', 'health', 'guard', 'ethics', 'agents'];
-      
-      for (const pillarId of pillarIds.slice(0, 2)) {
-        await fetch('http://localhost:3000/api/v1/compliance/assessments/pillar', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            organizationId: 'org-1',
-            pillarId,
-            assessor: 'Current User',
-          }),
-        }).catch(() => {});
+      if (!organizationId) {
+        throw new Error('Organization is required to run assessments');
       }
-      
-      // Reload assessments from backend
-      const assessResponse = await fetch('http://localhost:3000/api/v1/compliance/assessments?organizationId=org-1');
-      if (assessResponse.ok) {
-        const result = await assessResponse.json();
-        if (result.success && Array.isArray(result.data) && result.data.length > 0) {
-          setAssessments(result.data);
-          setActiveTab('assessments');
-          return;
+
+      const assessor = generatedBy;
+      const domainFrameworks = frameworks.filter((f) => f.domain === domain);
+
+      for (const fw of domainFrameworks) {
+        const pillarId = fw.pillars?.[0] || 'guard';
+        const res = await apiClient.api.post('/compliance/assessments/framework', {
+          organizationId,
+          frameworkId: fw.id,
+          pillarId,
+          assessor,
+        });
+
+        if (!res.success) {
+          throw new Error(res.error?.message || `Failed to assess framework ${fw.code}`);
         }
       }
-      
-      // Fallback: Generate demo assessments locally
-      const domainFrameworks = frameworks.filter(f => f.domain === domain);
-      const demoAssessments: Assessment[] = domainFrameworks.slice(0, 3).map((fw, idx) => ({
-        id: `assess-${domain}-${Date.now()}-${idx}`,
-        frameworkId: fw.id,
-        frameworkCode: fw.code,
-        pillarId: pillarIds[idx % pillarIds.length],
-        domain,
-        overallScore: Math.floor(Math.random() * 30) + 65,
-        findings: [
-          { id: `f-${Date.now()}-1`, severity: 'high' as const, title: `${fw.code} control gap identified`, frameworkId: fw.id, controlId: 'ctrl-1', status: 'open' as const },
-          { id: `f-${Date.now()}-2`, severity: 'medium' as const, title: `Documentation incomplete for ${fw.code}`, frameworkId: fw.id, controlId: 'ctrl-2', status: 'in_progress' as const },
-        ],
-        assessedAt: new Date().toISOString(),
-        assessedBy: 'Current User',
-      }));
-      
-      setAssessments(prev => [...demoAssessments, ...prev]);
+
+      await loadAssessments(frameworks);
       setActiveTab('assessments');
     } catch (err) {
       console.error('Failed to run assessment:', err);
+      setError(err instanceof Error ? err.message : 'Failed to run assessment');
     } finally {
       setRunningAssessment(null);
     }
@@ -732,46 +718,30 @@ const ComplianceDashboard: React.FC = () => {
   // Download bundle
   const downloadBundle = async (bundleId: string) => {
     try {
-      // Find bundle in local state first
-      const localBundle = bundles.find(b => b.id === bundleId);
-      if (localBundle) {
-        const blob = new Blob([JSON.stringify(localBundle, null, 2)], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `compliance-bundle-${bundleId}.json`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-        return;
+      const res = await apiClient.api.get<unknown>(`/compliance/bundles/${bundleId}/download`);
+      if (!res.success || !res.data) {
+        throw new Error(res.error?.message || 'Failed to download bundle');
       }
-      
-      // Try backend
-      const response = await fetch(`http://localhost:3000/api/v1/compliance/bundles/${bundleId}`);
-      if (response.ok) {
-        const result = await response.json();
-        if (result.success && result.data) {
-          const blob = new Blob([JSON.stringify(result.data, null, 2)], { type: 'application/json' });
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = url;
-          a.download = `compliance-bundle-${bundleId}.json`;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          URL.revokeObjectURL(url);
-        }
-      }
+
+      const blob = new Blob([JSON.stringify(res.data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `compliance-bundle-${bundleId}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
     } catch (err) {
       console.error('Failed to download bundle:', err);
+      setError(err instanceof Error ? err.message : 'Failed to download bundle');
     }
   };
 
   // Calculate overall score
   const overallScore = assessments.length > 0
     ? Math.round(assessments.reduce((sum, a) => sum + a.overallScore, 0) / assessments.length)
-    : rings.length > 0 ? 87 : 0;
+    : 0;
 
   // Filter frameworks by selected domain
   const filteredFrameworks = selectedDomain
@@ -819,33 +789,12 @@ const ComplianceDashboard: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto p-6 space-y-6">
-      {/* Demo Mode Banner */}
-      {isDemoMode && (
-        <div className="bg-amber-500/20 border border-amber-500/50 rounded-lg p-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <AlertTriangle className="w-5 h-5 text-amber-400" />
-            <div>
-              <span className="font-semibold text-amber-300">DEMO MODE</span>
-              <span className="text-amber-200 ml-2">Backend unavailable - showing sample compliance data</span>
-            </div>
-          </div>
-          <button
-            onClick={loadData}
-            className="px-3 py-1.5 bg-amber-600 hover:bg-amber-500 rounded text-sm font-medium text-white flex items-center gap-2"
-          >
-            <RefreshCw className="w-4 h-4" />
-            Retry Connection
-          </button>
-        </div>
-      )}
-
       {/* Header */}
       <div className="flex items-start justify-between">
         <div>
           <h1 className="text-2xl font-bold text-white flex items-center gap-3">
             <Shield className="w-8 h-8 text-cyan-400" />
             Five Rings of Sovereignty
-            {isDemoMode && <span className="text-xs px-2 py-1 bg-amber-500/30 text-amber-300 rounded-full">DEMO</span>}
           </h1>
           <p className="text-gray-400 mt-1">
             Complete compliance framework mapping across all 8 pillars

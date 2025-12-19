@@ -11,6 +11,12 @@ const router = Router();
 
 router.use(devAuth);
 
+function getSelectedDataSourceId(req: Request): string | undefined {
+  const raw = req.get('X-Data-Source-Id') || req.get('x-data-source-id');
+  const trimmed = raw?.trim();
+  return trimmed ? trimmed : undefined;
+}
+
 const entityQuerySchema = z.object({
   type: z.string().optional(),
   search: z.string().optional(),
@@ -50,12 +56,18 @@ router.get('/entities', async (req: Request, res: Response, next: NextFunction) 
   try {
     const { type, search, page, pageSize } = entityQuerySchema.parse(req.query);
     const orgId = req.organizationId!;
+    const dataSourceId = getSelectedDataSourceId(req);
 
     let cypher = `
       MATCH (e)
       WHERE e.organizationId = $orgId
     `;
     const params: Record<string, unknown> = { orgId };
+
+    if (dataSourceId) {
+      cypher += ` AND e.dataSourceId = $dataSourceId`;
+      params.dataSourceId = dataSourceId;
+    }
 
     if (type) {
       cypher += ` AND e:${type}`;
@@ -112,6 +124,7 @@ router.get('/entities', async (req: Request, res: Response, next: NextFunction) 
  */
 router.get('/entities/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
+    const dataSourceId = getSelectedDataSourceId(req);
     const result = await graph.read<{ e: Record<string, unknown> }>(
       'MATCH (e {id: $id}) RETURN e',
       { id: req.params.id }
@@ -123,6 +136,10 @@ router.get('/entities/:id', async (req: Request, res: Response, next: NextFuncti
 
     const entity = result[0].e;
     if (entity.organizationId !== req.organizationId) {
+      throw errors.forbidden();
+    }
+
+    if (dataSourceId && entity.dataSourceId !== dataSourceId) {
       throw errors.forbidden();
     }
 
@@ -155,6 +172,7 @@ router.post('/entities', async (req: Request, res: Response, next: NextFunction)
   try {
     const { type, name, properties } = createEntitySchema.parse(req.body);
     const orgId = req.organizationId!;
+    const dataSourceId = getSelectedDataSourceId(req);
 
     const id = `ent_${Date.now().toString(36)}_${Math.random().toString(36).substr(2, 9)}`;
 
@@ -162,6 +180,7 @@ router.post('/entities', async (req: Request, res: Response, next: NextFunction)
       id,
       name,
       organizationId: orgId,
+      ...(dataSourceId ? { dataSourceId } : {}),
       ...properties,
     });
 
@@ -286,6 +305,8 @@ router.get('/entities/:id/neighbors', async (req: Request, res: Response, next: 
   try {
     const { direction, relationshipType, depth } = neighborQuerySchema.parse(req.query);
 
+    const dataSourceId = getSelectedDataSourceId(req);
+
     const neighbors = await graph.getNeighbors(
       req.params.id,
       direction,
@@ -293,9 +314,13 @@ router.get('/entities/:id/neighbors', async (req: Request, res: Response, next: 
       depth
     );
 
+    const filtered = dataSourceId
+      ? neighbors.filter((n) => n.node?.dataSourceId === dataSourceId)
+      : neighbors;
+
     res.json({
       success: true,
-      data: neighbors,
+      data: filtered,
     });
   } catch (error) {
     next(error);
@@ -383,17 +408,39 @@ router.get('/search', async (req: Request, res: Response, next: NextFunction) =>
     const q = req.query.q as string;
     const type = req.query.type as string | undefined;
     const limit = parseInt(req.query.limit as string) || 20;
+    const orgId = req.organizationId!;
+    const dataSourceId = getSelectedDataSourceId(req);
 
     if (!q || q.length < 2) {
       throw errors.badRequest('Search query must be at least 2 characters');
     }
 
-    const entities = await graph.searchEntities(q, type, limit);
+    const pattern = `(?i).*${q}.*`;
+    let cypher = `
+      MATCH (n)
+      WHERE n.organizationId = $orgId
+        AND (n.name =~ $pattern OR n.description =~ $pattern)
+    `;
 
-    // Filter by organization
-    const filtered = entities.filter(
-      (e: Record<string, unknown>) => e.organizationId === req.organizationId
-    );
+    const params: Record<string, unknown> = {
+      orgId,
+      pattern,
+      limit,
+    };
+
+    if (type) {
+      cypher += ` AND n:${type}`;
+    }
+
+    if (dataSourceId) {
+      cypher += ` AND n.dataSourceId = $dataSourceId`;
+      params.dataSourceId = dataSourceId;
+    }
+
+    cypher += ` RETURN n LIMIT $limit`;
+
+    const results = await graph.read<{ n: Record<string, unknown> }>(cypher, params);
+    const filtered = results.map((r) => r.n);
 
     res.json({
       success: true,
@@ -411,22 +458,33 @@ router.get('/search', async (req: Request, res: Response, next: NextFunction) =>
 router.get('/stats', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const orgId = req.organizationId;
+    const dataSourceId = getSelectedDataSourceId(req);
+
+    const baseNodeFilterParts: string[] = [];
+    if (orgId) baseNodeFilterParts.push('n.organizationId = $orgId');
+    if (dataSourceId) baseNodeFilterParts.push('n.dataSourceId = $dataSourceId');
+
+    const baseNodeWhere = baseNodeFilterParts.length > 0 ? `WHERE ${baseNodeFilterParts.join(' AND ')}` : '';
+
+    const relFilterParts: string[] = [];
+    if (orgId) relFilterParts.push('n.organizationId = $orgId', 'm.organizationId = $orgId');
+    if (dataSourceId) relFilterParts.push('n.dataSourceId = $dataSourceId', 'm.dataSourceId = $dataSourceId');
+
+    const relWhere = relFilterParts.length > 0 ? `WHERE ${relFilterParts.join(' AND ')}` : '';
+
+    const params: Record<string, unknown> = { orgId, dataSourceId };
     
     // Query Neo4j for real statistics
     const [entitiesResult, relationshipsResult, labelsResult, propertiesResult] = await Promise.all([
       // Count all entities
       graph.read<{ count: unknown }>(
-        orgId 
-          ? 'MATCH (n) WHERE n.organizationId = $orgId RETURN count(n) as count'
-          : 'MATCH (n) RETURN count(n) as count',
-        { orgId }
+        `MATCH (n) ${baseNodeWhere} RETURN count(n) as count`,
+        params
       ),
       // Count all relationships
       graph.read<{ count: unknown }>(
-        orgId
-          ? 'MATCH (n)-[r]->(m) WHERE n.organizationId = $orgId OR m.organizationId = $orgId RETURN count(r) as count'
-          : 'MATCH ()-[r]->() RETURN count(r) as count',
-        { orgId }
+        `MATCH (n)-[r]->(m) ${relWhere} RETURN count(r) as count`,
+        params
       ),
       // Get distinct labels (entity types)
       graph.read<{ labels: string[] }>(
@@ -435,10 +493,8 @@ router.get('/stats', async (req: Request, res: Response, next: NextFunction) => 
       ),
       // Count total properties (data points)
       graph.read<{ count: unknown }>(
-        orgId
-          ? 'MATCH (n) WHERE n.organizationId = $orgId RETURN sum(size(keys(n))) as count'
-          : 'MATCH (n) RETURN sum(size(keys(n))) as count',
-        { orgId }
+        `MATCH (n) ${baseNodeWhere} RETURN sum(size(keys(n))) as count`,
+        params
       ),
     ]);
 

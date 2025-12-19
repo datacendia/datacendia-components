@@ -209,8 +209,9 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       setActiveWorkflow(workflow);
 
       // Navigate to first step
-      if (steps.length > 0) {
-        navigate(`/cortex/${steps[0].page}`);
+      const firstStep = steps[0];
+      if (firstStep?.page) {
+        navigate(`/cortex/${firstStep.page}`);
       }
     },
     [navigate]
@@ -224,8 +225,12 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       }
 
       const updatedSteps = [...activeWorkflow.steps];
-      updatedSteps[activeWorkflow.currentStep].completed = true;
-      updatedSteps[activeWorkflow.currentStep].result = result;
+      const currentIndex = activeWorkflow.currentStep;
+      const current = updatedSteps[currentIndex];
+      if (current) {
+        current.completed = true;
+        current.result = result;
+      }
 
       const nextStep = activeWorkflow.currentStep + 1;
 
@@ -244,7 +249,10 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
           steps: updatedSteps,
           currentStep: nextStep,
         });
-        navigate(`/cortex/${activeWorkflow.steps[nextStep].page}`);
+        const next = activeWorkflow.steps[nextStep];
+        if (next?.page) {
+          navigate(`/cortex/${next.page}`);
+        }
       }
     },
     [activeWorkflow, navigate]
@@ -281,6 +289,19 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       }
 
       setSharedContextState((prev) => ({ ...prev, councilContext }));
+      if (question?.trim()) {
+        const queryContext = {
+          question: question.trim(),
+          sourcePage: 'Data Source Context',
+          contextSummary: '',
+          contextData: councilContext,
+          timestamp: new Date().toISOString(),
+        };
+        sessionStorage.setItem('councilQueryContext', JSON.stringify(queryContext));
+        navigate('/cortex/council?fromContext=true');
+        return;
+      }
+
       navigate('/cortex/council');
     },
     [navigate, selectedDataSource, selectedEntity]

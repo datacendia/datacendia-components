@@ -5205,10 +5205,13 @@ const EventsList: React.FC<{
           <div className="text-center text-neutral-500 py-8">No events matching filter</div>
         ) : (
           visibleEvents.map((event) => (
-            <button
+            <div
               key={event.id}
+              role="button"
+              tabIndex={0}
               onClick={() => onSelect(event)}
-              className={`w-full text-left p-3 rounded-lg transition-colors ${
+              onKeyDown={(e) => e.key === 'Enter' && onSelect(event)}
+              className={`w-full text-left p-3 rounded-lg transition-colors cursor-pointer ${
                 selectedId === event.id
                   ? 'bg-white/10 ring-1 ring-white/30'
                   : event.impact === 'positive'
@@ -5249,7 +5252,7 @@ const EventsList: React.FC<{
                   )}
                 </div>
               </div>
-            </button>
+            </div>
           ))
         )}
       </div>

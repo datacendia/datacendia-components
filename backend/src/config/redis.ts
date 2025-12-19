@@ -71,9 +71,36 @@ export const cache = {
 };
 
 // Pub/Sub for real-time events
+const pubsubSubscriber = new Redis(config.redisUrl);
+const pubsubPublisher = new Redis(config.redisUrl);
+
+pubsubSubscriber.on('connect', () => {
+  logger.info('Redis pubsub subscriber connected');
+});
+
+pubsubSubscriber.on('error', (err) => {
+  logger.error('Redis pubsub subscriber error:', err);
+});
+
+pubsubSubscriber.on('close', () => {
+  logger.warn('Redis pubsub subscriber connection closed');
+});
+
+pubsubPublisher.on('connect', () => {
+  logger.info('Redis pubsub publisher connected');
+});
+
+pubsubPublisher.on('error', (err) => {
+  logger.error('Redis pubsub publisher error:', err);
+});
+
+pubsubPublisher.on('close', () => {
+  logger.warn('Redis pubsub publisher connection closed');
+});
+
 export const pubsub = {
-  subscriber: new Redis(config.redisUrl),
-  publisher: new Redis(config.redisUrl),
+  subscriber: pubsubSubscriber,
+  publisher: pubsubPublisher,
 
   async publish(channel: string, message: unknown): Promise<void> {
     const payload = typeof message === 'string' ? message : JSON.stringify(message);

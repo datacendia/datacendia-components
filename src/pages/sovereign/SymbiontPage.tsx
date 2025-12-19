@@ -261,7 +261,7 @@ export const SymbiontPage: React.FC = () => {
           </div>
           <div className="flex items-center gap-3">
             <a
-              href="/cortex/intelligence/council?context=partnership"
+              href="/cortex/council?context=partnership"
               className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 rounded-lg text-sm font-medium flex items-center gap-2"
             >
               <Play className="w-4 h-4" /> Deliberate in Council

@@ -22,13 +22,37 @@ const router = Router();
 // Use devAuth so requests have req.organizationId in development
 router.use(devAuth);
 
+ function requireOrganizationId(req: Request, res: Response): string | undefined {
+   const organizationId = req.organizationId;
+   if (!organizationId) {
+     res.status(401).json({ success: false, error: 'Missing organizationId' });
+     return;
+   }
+   return organizationId;
+ }
+
+ function requireParam(req: Request, res: Response, key: string): string | undefined {
+   const value = req.params[key];
+   if (!value) {
+     res.status(400).json({ success: false, error: `Missing ${key}` });
+     return;
+   }
+   return value;
+ }
+
+ function getQueryString(req: Request, key: string): string | undefined {
+   const value = req.query[key];
+   return typeof value === 'string' ? value : undefined;
+ }
+
 // =============================================================================
 // INITIALIZATION
 // =============================================================================
 
 router.post('/initialize', async (req: Request, res: Response) => {
   try {
-    const { organizationId = 'demo' } = req.body;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     await initializePillarsForOrg(organizationId);
     res.json({ success: true, message: 'Pillars initialized' });
   } catch (error: any) {
@@ -42,7 +66,8 @@ router.post('/initialize', async (req: Request, res: Response) => {
 
 router.get('/helm/dashboard', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     // Enterprise Platinum: No auto-seeding - data comes only from real operations
     const dashboard = await helmService.getKPIDashboard(organizationId);
     res.json({ success: true, data: dashboard });
@@ -53,8 +78,9 @@ router.get('/helm/dashboard', async (req: Request, res: Response) => {
 
 router.get('/helm/metrics', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const category = req.query.category as string | undefined;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const category = getQueryString(req, 'category');
     const metrics = await helmService.getOrgMetrics(organizationId, category as any);
     res.json({ success: true, data: metrics });
   } catch (error: any) {
@@ -64,9 +90,12 @@ router.get('/helm/metrics', async (req: Request, res: Response) => {
 
 router.get('/helm/metrics/:id', async (req: Request, res: Response) => {
   try {
-    const metric = await helmService.getMetric(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const metric = await helmService.getMetric(id);
     if (!metric) {
-      return res.status(404).json({ success: false, error: 'Metric not found' });
+      res.status(404).json({ success: false, error: 'Metric not found' });
+      return;
     }
     res.json({ success: true, data: metric });
   } catch (error: any) {
@@ -76,8 +105,11 @@ router.get('/helm/metrics/:id', async (req: Request, res: Response) => {
 
 router.get('/helm/metrics/:id/history', async (req: Request, res: Response) => {
   try {
-    const days = parseInt(req.query.days as string) || 30;
-    const history = await helmService.getMetricHistory(req.params.id, days);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const daysRaw = getQueryString(req, 'days');
+    const days = (daysRaw ? parseInt(daysRaw) : 30) || 30;
+    const history = await helmService.getMetricHistory(id, days);
     res.json({ success: true, data: history });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -87,9 +119,12 @@ router.get('/helm/metrics/:id/history', async (req: Request, res: Response) => {
 router.patch('/helm/metrics/:id', async (req: Request, res: Response) => {
   try {
     const { value } = req.body;
-    const metric = await helmService.updateMetricValue(req.params.id, value);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const metric = await helmService.updateMetricValue(id, value);
     if (!metric) {
-      return res.status(404).json({ success: false, error: 'Metric not found' });
+      res.status(404).json({ success: false, error: 'Metric not found' });
+      return;
     }
     res.json({ success: true, data: metric });
   } catch (error: any) {
@@ -99,7 +134,8 @@ router.patch('/helm/metrics/:id', async (req: Request, res: Response) => {
 
 router.get('/helm/alerts', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const alerts = await helmService.getActiveAlerts(organizationId);
     res.json({ success: true, data: alerts });
   } catch (error: any) {
@@ -109,7 +145,9 @@ router.get('/helm/alerts', async (req: Request, res: Response) => {
 
 router.post('/helm/alerts/:id/acknowledge', async (req: Request, res: Response) => {
   try {
-    await helmService.acknowledgeAlert(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    await helmService.acknowledgeAlert(id);
     res.json({ success: true });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -122,7 +160,8 @@ router.post('/helm/alerts/:id/acknowledge', async (req: Request, res: Response) 
 
 router.get('/lineage/graph', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     // Enterprise Platinum: No auto-seeding
     const graph = await lineageService.getLineageGraph(organizationId);
     res.json({ success: true, data: graph });
@@ -133,8 +172,9 @@ router.get('/lineage/graph', async (req: Request, res: Response) => {
 
 router.get('/lineage/entities', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const type = req.query.type as string | undefined;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const type = getQueryString(req, 'type');
     const entities = await lineageService.getEntities(organizationId, type as any);
     res.json({ success: true, data: entities });
   } catch (error: any) {
@@ -144,8 +184,10 @@ router.get('/lineage/entities', async (req: Request, res: Response) => {
 
 router.get('/lineage/entities/:id/trace', async (req: Request, res: Response) => {
   try {
-    const direction = (req.query.direction as string) || 'both';
-    const graph = await lineageService.traceLineage(req.params.id, direction as any);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const direction = getQueryString(req, 'direction') || 'both';
+    const graph = await lineageService.traceLineage(id, direction as any);
     res.json({ success: true, data: graph });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -154,7 +196,8 @@ router.get('/lineage/entities/:id/trace', async (req: Request, res: Response) =>
 
 router.get('/lineage/quality', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const overview = await lineageService.getQualityOverview(organizationId);
     res.json({ success: true, data: overview });
   } catch (error: any) {
@@ -164,7 +207,9 @@ router.get('/lineage/quality', async (req: Request, res: Response) => {
 
 router.post('/lineage/entities/:id/quality-check', async (req: Request, res: Response) => {
   try {
-    const report = await lineageService.checkDataQuality(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const report = await lineageService.checkDataQuality(id);
     res.json({ success: true, data: report });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -177,7 +222,8 @@ router.post('/lineage/entities/:id/quality-check', async (req: Request, res: Res
 
 router.get('/predict/models', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     // Enterprise Platinum: No auto-seeding
     const models = await predictService.getModels(organizationId);
     res.json({ success: true, data: models });
@@ -188,9 +234,12 @@ router.get('/predict/models', async (req: Request, res: Response) => {
 
 router.get('/predict/models/:id', async (req: Request, res: Response) => {
   try {
-    const model = await predictService.getModel(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const model = await predictService.getModel(id);
     if (!model) {
-      return res.status(404).json({ success: false, error: 'Model not found' });
+      res.status(404).json({ success: false, error: 'Model not found' });
+      return;
     }
     res.json({ success: true, data: model });
   } catch (error: any) {
@@ -200,7 +249,9 @@ router.get('/predict/models/:id', async (req: Request, res: Response) => {
 
 router.get('/predict/models/:id/features', async (req: Request, res: Response) => {
   try {
-    const features = await predictService.getFeatureImportance(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const features = await predictService.getFeatureImportance(id);
     res.json({ success: true, data: features });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -209,7 +260,9 @@ router.get('/predict/models/:id/features', async (req: Request, res: Response) =
 
 router.post('/predict/models/:id/predict', async (req: Request, res: Response) => {
   try {
-    const prediction = await predictService.predict(req.params.id, req.body.input || {});
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const prediction = await predictService.predict(id, req.body.input || {});
     res.json({ success: true, data: prediction });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -218,7 +271,9 @@ router.post('/predict/models/:id/predict', async (req: Request, res: Response) =
 
 router.post('/predict/models/:id/train', async (req: Request, res: Response) => {
   try {
-    const model = await predictService.trainModel(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const model = await predictService.trainModel(id);
     res.json({ success: true, data: model });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -227,7 +282,8 @@ router.post('/predict/models/:id/train', async (req: Request, res: Response) => 
 
 router.get('/predict/forecasts', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const forecasts = await predictService.getForecasts(organizationId);
     res.json({ success: true, data: forecasts });
   } catch (error: any) {
@@ -237,7 +293,8 @@ router.get('/predict/forecasts', async (req: Request, res: Response) => {
 
 router.get('/predict/insights', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const insights = await predictService.generateInsights(organizationId);
     res.json({ success: true, data: insights });
   } catch (error: any) {
@@ -251,7 +308,8 @@ router.get('/predict/insights', async (req: Request, res: Response) => {
 
 router.get('/flow/stats', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     // Enterprise Platinum: No auto-seeding
     const stats = await flowService.getFlowStats(organizationId);
     res.json({ success: true, data: stats });
@@ -262,8 +320,9 @@ router.get('/flow/stats', async (req: Request, res: Response) => {
 
 router.get('/flow/workflows', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const status = req.query.status as string | undefined;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const status = getQueryString(req, 'status');
     const workflows = await flowService.getWorkflows(organizationId, status as any);
     res.json({ success: true, data: workflows });
   } catch (error: any) {
@@ -273,9 +332,12 @@ router.get('/flow/workflows', async (req: Request, res: Response) => {
 
 router.get('/flow/workflows/:id', async (req: Request, res: Response) => {
   try {
-    const workflow = await flowService.getWorkflow(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const workflow = await flowService.getWorkflow(id);
     if (!workflow) {
-      return res.status(404).json({ success: false, error: 'Workflow not found' });
+      res.status(404).json({ success: false, error: 'Workflow not found' });
+      return;
     }
     res.json({ success: true, data: workflow });
   } catch (error: any) {
@@ -286,7 +348,9 @@ router.get('/flow/workflows/:id', async (req: Request, res: Response) => {
 router.post('/flow/workflows/:id/execute', async (req: Request, res: Response) => {
   try {
     const { triggeredBy = 'api', input } = req.body;
-    const execution = await flowService.executeWorkflow(req.params.id, triggeredBy, input);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const execution = await flowService.executeWorkflow(id, triggeredBy, input);
     res.json({ success: true, data: execution });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -295,8 +359,10 @@ router.post('/flow/workflows/:id/execute', async (req: Request, res: Response) =
 
 router.get('/flow/executions', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const limit = parseInt(req.query.limit as string) || 50;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const limitRaw = getQueryString(req, 'limit');
+    const limit = (limitRaw ? parseInt(limitRaw) : 50) || 50;
     const executions = await flowService.getExecutions(organizationId, limit);
     res.json({ success: true, data: executions });
   } catch (error: any) {
@@ -306,7 +372,8 @@ router.get('/flow/executions', async (req: Request, res: Response) => {
 
 router.get('/flow/approvals', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const approvals = await flowService.getPendingApprovals(organizationId);
     res.json({ success: true, data: approvals });
   } catch (error: any) {
@@ -317,7 +384,9 @@ router.get('/flow/approvals', async (req: Request, res: Response) => {
 router.post('/flow/approvals/:id', async (req: Request, res: Response) => {
   try {
     const { approved, decidedBy, reason } = req.body;
-    const approval = await flowService.processApproval(req.params.id, approved, decidedBy, reason);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const approval = await flowService.processApproval(id, approved, decidedBy, reason);
     res.json({ success: true, data: approval });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -330,7 +399,8 @@ router.post('/flow/approvals/:id', async (req: Request, res: Response) => {
 
 router.get('/health/status', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const health = await healthService.getSystemHealth(organizationId);
     res.json({ success: true, data: health });
   } catch (error: any) {
@@ -340,8 +410,9 @@ router.get('/health/status', async (req: Request, res: Response) => {
 
 router.get('/health/alerts', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const includeResolved = req.query.includeResolved === 'true';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const includeResolved = getQueryString(req, 'includeResolved') === 'true';
     const alerts = await healthService.getAlerts(organizationId, includeResolved);
     res.json({ success: true, data: alerts });
   } catch (error: any) {
@@ -351,7 +422,9 @@ router.get('/health/alerts', async (req: Request, res: Response) => {
 
 router.post('/health/alerts/:id/acknowledge', async (req: Request, res: Response) => {
   try {
-    const alert = await healthService.acknowledgeAlert(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const alert = await healthService.acknowledgeAlert(id);
     res.json({ success: true, data: alert });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -360,7 +433,9 @@ router.post('/health/alerts/:id/acknowledge', async (req: Request, res: Response
 
 router.post('/health/alerts/:id/resolve', async (req: Request, res: Response) => {
   try {
-    const alert = await healthService.resolveAlert(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const alert = await healthService.resolveAlert(id);
     res.json({ success: true, data: alert });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -369,8 +444,10 @@ router.post('/health/alerts/:id/resolve', async (req: Request, res: Response) =>
 
 router.get('/health/trends', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const hours = parseInt(req.query.hours as string) || 24;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const hoursRaw = getQueryString(req, 'hours');
+    const hours = (hoursRaw ? parseInt(hoursRaw) : 24) || 24;
     const trends = await healthService.getHealthTrends(organizationId, hours);
     res.json({ success: true, data: trends });
   } catch (error: any) {
@@ -384,7 +461,8 @@ router.get('/health/trends', async (req: Request, res: Response) => {
 
 router.get('/guard/posture', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const posture = await guardService.getSecurityPosture(organizationId);
     res.json({ success: true, data: posture });
   } catch (error: any) {
@@ -394,8 +472,9 @@ router.get('/guard/posture', async (req: Request, res: Response) => {
 
 router.get('/guard/threats', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const includeResolved = req.query.includeResolved === 'true';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const includeResolved = getQueryString(req, 'includeResolved') === 'true';
     // Enterprise Platinum: No auto-seeding
     const threats = await guardService.getThreats(organizationId, includeResolved);
     res.json({ success: true, data: threats });
@@ -407,7 +486,9 @@ router.get('/guard/threats', async (req: Request, res: Response) => {
 router.patch('/guard/threats/:id', async (req: Request, res: Response) => {
   try {
     const { status } = req.body;
-    const threat = await guardService.updateThreatStatus(req.params.id, status);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const threat = await guardService.updateThreatStatus(id, status);
     res.json({ success: true, data: threat });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -416,7 +497,8 @@ router.patch('/guard/threats/:id', async (req: Request, res: Response) => {
 
 router.get('/guard/policies', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const policies = await guardService.getPolicies(organizationId);
     res.json({ success: true, data: policies });
   } catch (error: any) {
@@ -427,7 +509,9 @@ router.get('/guard/policies', async (req: Request, res: Response) => {
 router.patch('/guard/policies/:id', async (req: Request, res: Response) => {
   try {
     const { enabled } = req.body;
-    const policy = await guardService.togglePolicy(req.params.id, enabled);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const policy = await guardService.togglePolicy(id, enabled);
     res.json({ success: true, data: policy });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -436,8 +520,10 @@ router.patch('/guard/policies/:id', async (req: Request, res: Response) => {
 
 router.get('/guard/audit', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const limit = parseInt(req.query.limit as string) || 100;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const limitRaw = getQueryString(req, 'limit');
+    const limit = (limitRaw ? parseInt(limitRaw) : 100) || 100;
     const logs = await guardService.getAuditLogs(organizationId, limit);
     res.json({ success: true, data: logs });
   } catch (error: any) {
@@ -451,7 +537,8 @@ router.get('/guard/audit', async (req: Request, res: Response) => {
 
 router.get('/ethics/stats', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     // Enterprise Platinum: No auto-seeding
     const stats = await ethicsService.getEthicsStats(organizationId);
     res.json({ success: true, data: stats });
@@ -462,8 +549,9 @@ router.get('/ethics/stats', async (req: Request, res: Response) => {
 
 router.get('/ethics/principles', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const status = req.query.status as string | undefined;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const status = getQueryString(req, 'status');
     const principles = await ethicsService.getPrinciples(organizationId, status as any);
     res.json({ success: true, data: principles });
   } catch (error: any) {
@@ -473,8 +561,9 @@ router.get('/ethics/principles', async (req: Request, res: Response) => {
 
 router.get('/ethics/reviews', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
-    const result = req.query.result as string | undefined;
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const result = getQueryString(req, 'result');
     const reviews = await ethicsService.getReviews(organizationId, result as any);
     res.json({ success: true, data: reviews });
   } catch (error: any) {
@@ -494,7 +583,9 @@ router.post('/ethics/reviews', async (req: Request, res: Response) => {
 router.post('/ethics/reviews/:id/decide', async (req: Request, res: Response) => {
   try {
     const { result, notes, violations } = req.body;
-    const review = await ethicsService.submitReviewDecision(req.params.id, result, notes, violations);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const review = await ethicsService.submitReviewDecision(id, result, notes, violations);
     res.json({ success: true, data: review });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -503,7 +594,8 @@ router.post('/ethics/reviews/:id/decide', async (req: Request, res: Response) =>
 
 router.get('/ethics/bias-checks', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     const checks = await ethicsService.getBiasChecks(organizationId);
     res.json({ success: true, data: checks });
   } catch (error: any) {
@@ -513,9 +605,10 @@ router.get('/ethics/bias-checks', async (req: Request, res: Response) => {
 
 router.post('/ethics/bias-check', async (req: Request, res: Response) => {
   try {
-    const { organizationId = 'demo', modelId, modelName } = req.body;
-    const orgId = req.organizationId || organizationId || 'demo';
-    const check = await ethicsService.performBiasCheck(orgId, modelId, modelName);
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
+    const { modelId, modelName } = req.body;
+    const check = await ethicsService.performBiasCheck(organizationId, modelId, modelName);
     res.json({ success: true, data: check });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -528,7 +621,8 @@ router.post('/ethics/bias-check', async (req: Request, res: Response) => {
 
 router.get('/agents/stats', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     // Enterprise Platinum: No auto-seeding
     const stats = await agentsService.getAgentStats(organizationId);
     res.json({ success: true, data: stats });
@@ -539,7 +633,8 @@ router.get('/agents/stats', async (req: Request, res: Response) => {
 
 router.get('/agents', async (req: Request, res: Response) => {
   try {
-    const organizationId = req.organizationId || (req.query.organizationId as string) || 'demo';
+    const organizationId = requireOrganizationId(req, res);
+    if (!organizationId) return;
     // Enterprise Platinum: No auto-seeding
     const agents = await agentsService.getAgents(organizationId);
     res.json({ success: true, data: agents });
@@ -550,9 +645,12 @@ router.get('/agents', async (req: Request, res: Response) => {
 
 router.get('/agents/:id', async (req: Request, res: Response) => {
   try {
-    const agent = await agentsService.getAgent(req.params.id);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const agent = await agentsService.getAgent(id);
     if (!agent) {
-      return res.status(404).json({ success: false, error: 'Agent not found' });
+      res.status(404).json({ success: false, error: 'Agent not found' });
+      return;
     }
     res.json({ success: true, data: agent });
   } catch (error: any) {
@@ -563,7 +661,9 @@ router.get('/agents/:id', async (req: Request, res: Response) => {
 router.patch('/agents/:id/status', async (req: Request, res: Response) => {
   try {
     const { status } = req.body;
-    const agent = await agentsService.updateAgentStatus(req.params.id, status);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const agent = await agentsService.updateAgentStatus(id, status);
     res.json({ success: true, data: agent });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -572,7 +672,9 @@ router.patch('/agents/:id/status', async (req: Request, res: Response) => {
 
 router.patch('/agents/:id/config', async (req: Request, res: Response) => {
   try {
-    const agent = await agentsService.updateAgentConfig(req.params.id, req.body);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const agent = await agentsService.updateAgentConfig(id, req.body);
     res.json({ success: true, data: agent });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -581,8 +683,11 @@ router.patch('/agents/:id/config', async (req: Request, res: Response) => {
 
 router.get('/agents/:id/interactions', async (req: Request, res: Response) => {
   try {
-    const limit = parseInt(req.query.limit as string) || 50;
-    const interactions = await agentsService.getInteractions(req.params.id, limit);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const limitRaw = getQueryString(req, 'limit');
+    const limit = (limitRaw ? parseInt(limitRaw) : 50) || 50;
+    const interactions = await agentsService.getInteractions(id, limit);
     res.json({ success: true, data: interactions });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
@@ -591,9 +696,11 @@ router.get('/agents/:id/interactions', async (req: Request, res: Response) => {
 
 router.post('/agents/:id/interactions', async (req: Request, res: Response) => {
   try {
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
     const interaction = await agentsService.recordInteraction({
       ...req.body,
-      agentId: req.params.id,
+      agentId: id,
     });
     res.json({ success: true, data: interaction });
   } catch (error: any) {
@@ -604,7 +711,9 @@ router.post('/agents/:id/interactions', async (req: Request, res: Response) => {
 router.post('/agents/interactions/:id/rate', async (req: Request, res: Response) => {
   try {
     const { rating, feedback } = req.body;
-    const interaction = await agentsService.rateInteraction(req.params.id, rating, feedback);
+    const id = requireParam(req, res, 'id');
+    if (!id) return;
+    const interaction = await agentsService.rateInteraction(id, rating, feedback);
     res.json({ success: true, data: interaction });
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });

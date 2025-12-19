@@ -471,7 +471,7 @@ export const VoxPage: React.FC = () => {
         </div>
         <div className="flex items-center gap-4">
           <a
-            href="/cortex/intelligence/council"
+            href="/cortex/council"
             className="px-3 py-1.5 bg-purple-600/20 hover:bg-purple-600/30 border border-purple-500/30 rounded-lg text-sm text-purple-300 flex items-center gap-2"
           >
             <Link2 className="w-4 h-4" /> Link to Council Deliberation
@@ -1129,7 +1129,7 @@ export const VoxPage: React.FC = () => {
                 <button
                   onClick={() => {
                     setShowAssemblyModal(false);
-                    window.open('/cortex/intelligence/council?assembly=true', '_blank');
+                    window.open('/cortex/council?assembly=true', '_blank');
                   }}
                   className="px-4 py-2 bg-cyan-600 hover:bg-cyan-500 rounded-lg font-medium"
                 >
