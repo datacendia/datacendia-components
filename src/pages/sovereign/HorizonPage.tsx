@@ -363,16 +363,67 @@ const HorizonPage: React.FC = () => {
     
     setIsSimulating(true);
     
-    // Simulate API call delay
-    await new Promise(resolve => setTimeout(resolve, 2500));
-    
-    // Use demo data with the user's question
-    setSimulation({
-      ...DEMO_SIMULATION,
-      question: question,
-    });
-    setSelectedUniverse(DEMO_SIMULATION.universes[0] || null);
-    setIsSimulating(false);
+    try {
+      // Call real backend API
+      const response = await fetch('/api/v1/oracle/simulate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          question: question.trim(),
+          timeHorizon: '180d',
+          branchCount: 4,
+        }),
+      });
+      
+      const result = await response.json();
+      
+      if (result.success && result.data) {
+        // Map backend response to frontend format
+        const sim = result.data;
+        setSimulation({
+          id: sim.id,
+          question: sim.question,
+          status: sim.status,
+          universes: sim.universes?.map((u: any) => ({
+            ...u,
+            timeline: u.timeline?.map((t: any) => ({
+              ...t,
+              timestamp: typeof t.timestamp === 'string' ? t.timestamp : new Date(t.timestamp).toISOString(),
+            })) || [],
+          })) || [],
+          historicalEchoes: sim.historicalEchoes || [],
+          recommendation: sim.recommendation || {
+            primaryChoice: '',
+            universeId: '',
+            confidence: 0,
+            reasoning: 'Analysis in progress...',
+            keyFactors: [],
+            warnings: [],
+          },
+        });
+        setSelectedUniverse(sim.universes?.[0] || null);
+      } else {
+        console.error('[Horizon] Simulation failed:', result.error);
+        // Fallback to demo data on error
+        setSimulation({
+          ...DEMO_SIMULATION,
+          question: question,
+        });
+        setSelectedUniverse(DEMO_SIMULATION.universes[0] || null);
+      }
+    } catch (error) {
+      console.error('[Horizon] API error:', error);
+      // Fallback to demo data on network error
+      setSimulation({
+        ...DEMO_SIMULATION,
+        question: question,
+      });
+      setSelectedUniverse(DEMO_SIMULATION.universes[0] || null);
+    } finally {
+      setIsSimulating(false);
+    }
   };
 
   const loadDemoScenario = () => {
