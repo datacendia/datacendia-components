@@ -420,22 +420,32 @@ export const OmniTranslatePage: React.FC = () => {
     }
     setIsTranslating(true);
 
-    // Simulate translation
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      const response = await fetch('/api/v1/omnitranslate/translate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          text: sourceText.trim(),
+          sourceLanguage: sourceLang || 'auto',
+          targetLanguage: targetLang,
+          context: 'enterprise',
+        }),
+      });
 
-    const translations: Record<string, string> = {
-      es: 'Este es un texto de ejemplo traducido al español. La traducción mantiene el significado original mientras se adapta a las convenciones del idioma de destino.',
-      zh: '这是翻译成中文的示例文本。翻译保持原意，同时适应目标语言的惯例。',
-      fr: "Ceci est un exemple de texte traduit en français. La traduction conserve le sens original tout en s'adaptant aux conventions de la langue cible.",
-      de: 'Dies ist ein Beispieltext, der ins Deutsche übersetzt wurde. Die Übersetzung behält die ursprüngliche Bedeutung bei und passt sich den Konventionen der Zielsprache an.',
-      ja: 'これは日本語に翻訳されたサンプルテキストです。翻訳は元の意味を維持しながら、ターゲット言語の慣習に適応しています。',
-    };
+      const result = await response.json();
 
-    setTranslatedText(
-      translations[targetLang] ||
-        'Translation complete. Your text has been translated while preserving the original meaning and adapting to target language conventions.'
-    );
-    setIsTranslating(false);
+      if (result.success && result.data?.translatedText) {
+        setTranslatedText(result.data.translatedText);
+      } else {
+        console.error('[OmniTranslate] Translation failed:', result.error);
+        setTranslatedText('Translation failed. Please try again.');
+      }
+    } catch (error) {
+      console.error('[OmniTranslate] API error:', error);
+      setTranslatedText('Translation service unavailable. Please try again later.');
+    } finally {
+      setIsTranslating(false);
+    }
   };
 
   const activeJobs = translationJobs.filter(

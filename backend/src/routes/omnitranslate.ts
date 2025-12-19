@@ -20,12 +20,31 @@ router.post('/detect', (req: Request, res: Response) => {
   res.json({ success: true, data: { detectedLanguage: 'en', confidence: 0.95, text: req.body.text } });
 });
 
-router.post('/translate', (req: Request, res: Response) => {
-  res.json({ success: true, data: { 
-    translatedText: req.body.text, 
-    sourceLanguage: req.body.sourceLanguage || 'en',
-    targetLanguage: req.body.targetLanguage || 'es'
-  }});
+router.post('/translate', async (req: Request, res: Response) => {
+  try {
+    const { text, sourceLanguage, targetLanguage, context, glossaryId, organizationId } = req.body;
+    
+    if (!text) {
+      return res.status(400).json({ success: false, error: 'Text is required' });
+    }
+    if (!targetLanguage) {
+      return res.status(400).json({ success: false, error: 'Target language is required' });
+    }
+    
+    const result = await omniTranslateService.translate({
+      text,
+      sourceLanguage: sourceLanguage || 'auto',
+      targetLanguage,
+      context,
+      glossaryId,
+      organizationId,
+    });
+    
+    res.json({ success: true, data: result });
+  } catch (error) {
+    logger.error('[OmniTranslate] Translation failed:', error);
+    res.status(500).json({ success: false, error: String(error) });
+  }
 });
 
 // =============================================================================
