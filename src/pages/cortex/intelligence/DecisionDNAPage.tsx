@@ -529,7 +529,7 @@ export const DecisionDNAPage: React.FC = () => {
   const [decisions, setDecisions] = useState<DecisionSummary[]>(SAMPLE_DECISIONS);
   const [selectedDecision, setSelectedDecision] = useState<Decision | null>(null);
   const [isLoading, setIsLoading] = useState(false);
-  const [preMortemError, setPreMortemError] = useState<string | null>(null);
+  const [_preMortemError, setPreMortemError] = useState<string | null>(null);
   const [isCreating, setIsCreating] = useState(false);
   const [replayMode, setReplayMode] = useState(false);
   const [replayStep, setReplayStep] = useState(0);

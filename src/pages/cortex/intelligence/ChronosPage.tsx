@@ -275,7 +275,7 @@ interface DocumentRevisionEvent {
   approvers?: string[] | undefined;
 }
 
-interface FinancialValidationEvent {
+interface _FinancialValidationEvent {
   id: string;
   timestamp: Date;
   source: 'sap' | 'netsuite' | 'oracle' | 'workday';
@@ -425,7 +425,7 @@ interface RedactionRule {
   preserveFinancialTruth: boolean;
 }
 
-interface RedactedExport {
+interface _RedactedExport {
   originalHash: string;
   redactedHash: string;
   redactionLog: Array<{
@@ -1885,7 +1885,7 @@ const generateZKProof = (
 
 export const ChronosPage: React.FC = () => {
   const navigate = useNavigate();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams, _setSearchParams] = useSearchParams();
 
   // Core State
   const [mode, setMode] = useState<ChronosMode>('rewind');
@@ -1898,7 +1898,7 @@ export const ChronosPage: React.FC = () => {
   );
   const [realMetrics, setRealMetrics] = useState<any[]>([]);
   const [realDeliberations, setRealDeliberations] = useState<any[]>([]);
-  const [isLoadingData, setIsLoadingData] = useState(true);
+  const [_isLoadingData, setIsLoadingData] = useState(true);
 
   // Department Filter State
   const [selectedDepartment, setSelectedDepartment] = useState<string>('all');
@@ -1938,7 +1938,7 @@ export const ChronosPage: React.FC = () => {
   const playIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // Enterprise Compliance State (The Undefeatable 5%)
-  const [ledger, setLedger] = useState<ChronosLedger>(() => generateLedger());
+  const [ledger, _setLedger] = useState<ChronosLedger>(() => generateLedger());
   const [liveSyncStatus, setLiveSyncStatus] = useState<LiveSyncStatus>(() =>
     generateLiveSyncStatus()
   );
@@ -1957,12 +1957,12 @@ export const ChronosPage: React.FC = () => {
   const [erpSnapshot, setErpSnapshot] = useState<ERPStateSnapshot>(() =>
     generateERPSnapshot(new Date())
   );
-  const [crmEvents] = useState(() => generateCRMEvents());
-  const [erpTransactions] = useState(() => generateERPTransactions());
-  const [hrEvents] = useState(() => generateHREvents());
-  const [engineeringEvents] = useState(() => generateEngineeringEvents());
-  const [serviceTickets] = useState(() => generateServiceTickets());
-  const [documentRevisions] = useState(() => generateDocumentRevisions());
+  const [_crmEvents] = useState(() => generateCRMEvents());
+  const [_erpTransactions] = useState(() => generateERPTransactions());
+  const [_hrEvents] = useState(() => generateHREvents());
+  const [_engineeringEvents] = useState(() => generateEngineeringEvents());
+  const [_serviceTickets] = useState(() => generateServiceTickets());
+  const [_documentRevisions] = useState(() => generateDocumentRevisions());
 
   // =========================================================================
   // NEW FEATURE STATES - The 5 Power Features
@@ -2396,7 +2396,7 @@ export const ChronosPage: React.FC = () => {
       id: `bm-${Date.now()}`,
       timestamp: currentDate,
       label,
-      notes,
+      ...(notes !== undefined && { notes }),
       createdAt: new Date(),
       sharedUrl: `${window.location.origin}/cortex/intelligence/chronos?t=${currentDate.getTime()}`,
     };
@@ -2654,7 +2654,7 @@ export const ChronosPage: React.FC = () => {
   // Generate court-admissible export
   const generateExport = async (
     format: CourtAdmissibleExport['format'],
-    withRedaction: boolean
+    _withRedaction: boolean
   ) => {
     setExportInProgress(true);
     // Simulate export generation
@@ -2674,14 +2674,14 @@ export const ChronosPage: React.FC = () => {
   // ==========================================================================
 
   // (1) Full Traceability - Show origin → intermediate → final causality
-  const openTraceability = (event: TimelineEvent) => {
+  const _openTraceability = (event: TimelineEvent) => {
     const traceability = generateTraceabilityView(event);
     setTraceabilityView(traceability);
     setShowTraceability(true);
   };
 
   // (2) Per-Event Compliance Snapshot
-  const openComplianceSnapshot = (event: TimelineEvent) => {
+  const _openComplianceSnapshot = (event: TimelineEvent) => {
     const snapshot = generateEventComplianceSnapshot(event);
     setEventComplianceSnapshot(snapshot);
     setShowComplianceSnapshot(true);
@@ -4019,7 +4019,8 @@ const TimelineScrubber: React.FC<{
     if (!jumpDate) return;
     const [year, month, day] = jumpDate.split('-').map(Number);
     const [hours, minutes] = jumpTime.split(':').map(Number);
-    const targetDate = new Date(year, month - 1, day, hours, minutes);
+    if (year === undefined || month === undefined || day === undefined) return;
+    const targetDate = new Date(year, month - 1, day, hours || 0, minutes || 0);
 
     // Clamp to valid range
     if (targetDate < minDate) {
@@ -4049,7 +4050,7 @@ const TimelineScrubber: React.FC<{
     [minDate, totalMs]
   );
 
-  const handleTrackClick = (e: React.MouseEvent) => {
+  const _handleTrackClick = (e: React.MouseEvent) => {
     const newDate = getDateFromPosition(e.clientX);
     if (newDate) {
       onDateChange(newDate);
@@ -4151,7 +4152,7 @@ const TimelineScrubber: React.FC<{
             0,
             Math.min(100, ((nowMs - minDate.getTime()) / totalMs) * 100)
           );
-          const isFuture = currentDate > new Date();
+          const _isFuture = currentDate > new Date();
 
           return (
             <>
@@ -4973,7 +4974,7 @@ const MetricsGrid: React.FC<{
 
 const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosMode }> = ({
   council,
-  mode,
+  mode: _mode,
 }) => {
   // Helper to display zeros elegantly
   const displayValue = (value: number, suffix?: string) => {
@@ -5014,7 +5015,7 @@ const CouncilState: React.FC<{ council: StateSnapshot['council']; mode: ChronosM
 
 const GraphState: React.FC<{ graph: StateSnapshot['graph']; mode: ChronosMode }> = ({
   graph,
-  mode,
+  mode: _mode,
 }) => {
   // Format data points - show "—" if zero, otherwise format nicely
   const formatDataPoints = (value: number) => {
@@ -5050,9 +5051,9 @@ const EventsList: React.FC<{
   events: TimelineEvent[];
   currentDate: Date;
   onSelect: (event: TimelineEvent) => void;
-  selectedId?: string;
-  mode?: ChronosMode;
-  onOpenWitness?: (event: TimelineEvent) => void;
+  selectedId?: string | undefined;
+  mode?: ChronosMode | undefined;
+  onOpenWitness?: ((event: TimelineEvent) => void) | undefined;
 }> = ({ events, currentDate, onSelect, selectedId, mode = 'rewind', onOpenWitness }) => {
   const [filter, setFilter] = useState<
     'all' | 'compliance' | 'financial' | 'operational' | 'people' | 'security'
@@ -5285,7 +5286,7 @@ const EventWitnessModal: React.FC<{
     : eventSources[Math.floor(Math.random() * 3)];
 
   // Calculate timing for each approver
-  const eventCreatedAt = new Date(event.timestamp.getTime() - 4 * 3600000); // 4 hours before
+  const _eventCreatedAt = new Date(event.timestamp.getTime() - 4 * 3600000); // 4 hours before
   const approvers = [
     {
       name: 'Sarah Chen',
@@ -6072,6 +6073,7 @@ const CouncilTheater: React.FC<{
     } else if (currentPhase >= (replay?.phases.length || 0) - 1) {
       setIsPlaying(false);
     }
+    return undefined;
   }, [isPlaying, currentPhase, replay]);
 
   if (!replay) {
@@ -6302,10 +6304,8 @@ const ImpactTraceView: React.FC<{
             <span>{causalChain.rootCause.timestamp.toLocaleDateString()}</span>
             <span className="text-neutral-500">Causal Chain Timeline</span>
             <span>
-              {causalChain.effects.length > 0
-                ? causalChain.effects[
-                    causalChain.effects.length - 1
-                  ].event.timestamp.toLocaleDateString()
+              {causalChain.effects.length > 0 && causalChain.effects[causalChain.effects.length - 1]
+                ? causalChain.effects[causalChain.effects.length - 1]!.event.timestamp.toLocaleDateString()
                 : causalChain.rootCause.timestamp.toLocaleDateString()}
             </span>
           </div>
@@ -7268,7 +7268,7 @@ const ERPPanel: React.FC<{
   currentDate: Date;
   onClose: () => void;
 }> = ({ connectors, erpSnapshot, selectedSource, onSourceChange, currentDate, onClose }) => {
-  const activeConnectors = connectors.filter(
+  const _activeConnectors = connectors.filter(
     (c) => c.status === 'connected' || c.status === 'syncing'
   );
   const totalRecords = connectors.reduce((sum, c) => sum + c.recordCount, 0);
