@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 2.0** | **January 2026 Launch**
+**Version 3.0** | **December 2024 Update**
 
 ---
 
@@ -919,6 +919,92 @@ Map organizational policies to regulatory requirements, identify gaps, generate 
 
 ---
 
+## Evidence Vault
+**Global Decision Packet Management**
+
+### Purpose
+Provides universal access to decision packets with role-based access controls. Centralizes all decision documentation for compliance, audit, and legal discovery.
+
+### Key Capabilities
+
+| Capability | Description |
+|------------|-------------|
+| **Packet Management** | View, generate, lock, and export decision packets |
+| **Send to Approvers** | Multi-approver workflow with tracking and deadlines |
+| **Attach Evidence** | File upload with categorization (evidence/supporting/reference/legal) |
+| **Lock & Finalize** | Cryptographic signature on finalization |
+| **Break-glass Export** | Emergency access with dual admin approval and audit |
+| **Related Decisions** | Query related packets by entity (KPI, model, incident, etc.) |
+
+### RBAC Roles
+
+| Role | Permissions |
+|------|-------------|
+| `viewer` | View-only access to approved packets |
+| `decision_owner` | Create and manage own packets |
+| `council_operator` | Operate council sessions, generate packets |
+| `approver` | Approve/reject packets sent for approval |
+| `risk_compliance` | Compliance oversight, view all packets |
+| `auditor` | Audit access to locked packets, export |
+| `admin` | Full administrative access, break-glass export |
+
+### API Endpoints
+
+```http
+GET  /evidence-vault/packets
+POST /evidence-vault/packets/generate
+POST /evidence-vault/packets/:id/send-to-approvers
+POST /evidence-vault/packets/:id/attach-evidence
+POST /evidence-vault/packets/:id/lock
+POST /evidence-vault/packets/:id/export
+POST /evidence-vault/packets/:id/break-glass-export
+GET  /evidence-vault/decisions/related
+```
+
+---
+
+## CendiaDissent™
+**Protected Whistleblower Channels**
+
+### Purpose
+Formal dissent filing system with retaliation protection. Allows employees to voice concerns about decisions without fear of reprisal.
+
+### Key Capabilities
+- Anonymous or attributed dissent filing
+- Retaliation detection and protection
+- Outcome verification and tracking
+- Escalation workflows
+
+---
+
+## CendiaCascade™
+**Decision Consequence Engineering**
+
+### Purpose
+Models the downstream effects of decisions across the organization. Identifies second and third-order consequences before they occur.
+
+### Key Capabilities
+- Butterfly effect simulation
+- Impact propagation modeling
+- Stakeholder ripple analysis
+- Risk amplification detection
+
+---
+
+## CendiaApotheosis™
+**Self-Improving AI with Safety Rails**
+
+### Purpose
+Continuous AI improvement through nightly red-teaming, auto-patching, and upskilling, with human oversight at every step.
+
+### Key Capabilities
+- Nightly adversarial testing (red-team)
+- Pattern banning for problematic outputs
+- Auto-patching with human approval
+- Agent upskilling recommendations
+
+---
+
 # Data Architecture
 
 ## Schema Philosophy
@@ -1832,17 +1918,66 @@ These 4 verticals represent **90% of vertical AI spend**.^[1] Full sales, market
 | 🏭 **Manufacturing** | GA | 23% inventory reduction ($1.4M freed) | Tier 1 auto supplier, Q2 2025^[2] |
 | ⚡ **Energy & Utilities** | GA | 45% faster rate case prep | IOU (Midwest), Q3 2025^[2] |
 
-## Roadmap Verticals (H1 2026)
+## All Supported Verticals (24)
 
-*Note: Original Q1-Q2 2025 targets shifted to 2026 to prioritize depth in Priority Verticals.*
+Datacendia now supports **24 industry verticals** with pre-configured service bundles. Organizations can toggle services on/off via the Vertical Configuration page.
 
-| Vertical | Target GA | Design Partners | Status |
-|----------|-----------|-----------------|--------|
-| 💻 Technology / SaaS | Q1 2026 | 4 active | Core agents complete, overlays in dev |
-| 🛒 Retail & Hospitality | Q1 2026 | 2 active | Pricing agents complete |
-| 📡 Telecommunications | Q2 2026 | 3 active | Network optimization in design |
-| 🌾 Agriculture & Food | Q2 2026 | 2 active | Supply chain agents in design |
-| 💳 Consumer Fintech | Q2 2026 | 4 active | Lending agents in beta |
+### Core Verticals (7) - Full GTM
+| Icon | Vertical | Default Services | Status |
+|------|----------|------------------|--------|
+| 🏦 | Financial Services | 11 services | ✅ GA |
+| 🏥 | Healthcare / Life Sciences | 11 services | ✅ GA |
+| 🏭 | Manufacturing / Supply Chain | 12 services | ✅ GA |
+| 💻 | Technology / SaaS | 11 services | ✅ GA |
+| ⚡ | Energy / Utilities | 10 services | ✅ GA |
+| 🏛️ | Government / Public Sector | 12 services | ✅ GA |
+| ⚖️ | Legal / Professional Services | 10 services | ✅ GA |
+
+### High-Value Verticals (10) - Platform Available
+| Icon | Vertical | Default Services | Status |
+|------|----------|------------------|--------|
+| 🛒 | Retail / E-Commerce | 10 services | ✅ GA |
+| 🏠 | Real Estate / PropTech | 9 services | ✅ GA |
+| 📡 | Telecommunications | 10 services | ✅ GA |
+| ✈️ | Hospitality / Travel | 10 services | ✅ GA |
+| 📚 | Education / EdTech | 10 services | ✅ GA |
+| 🎬 | Media / Entertainment | 10 services | ✅ GA |
+| 🌾 | Agriculture / AgTech | 10 services | ✅ GA |
+| 🚚 | Logistics / Transportation | 10 services | ✅ GA |
+| 🛡️ | Insurance (Specialized) | 10 services | ✅ GA |
+| 🤝 | Non-Profit / NGO | 10 services | ✅ GA |
+
+### Specialized / Niche Verticals (6)
+| Icon | Vertical | Default Services | Status |
+|------|----------|------------------|--------|
+| 🏗️ | Construction / Engineering | 10 services | ✅ GA |
+| ⛏️ | Mining / Resources | 10 services | ✅ GA |
+| 🚀 | Aerospace / Defense | 12 services | ✅ GA |
+| 💊 | Pharmaceuticals | 11 services | ✅ GA |
+| 🚗 | Automotive | 11 services | ✅ GA |
+| 🏆 | Sports / Entertainment | 10 services | ✅ GA |
+
+### Custom Configuration
+| Icon | Vertical | Description |
+|------|----------|-------------|
+| ⚙️ | Custom | Build your own bundle (3 core services always on) |
+
+## Vertical Configuration Feature
+
+Organizations can customize their service access via the **Vertical Configuration** page (`/cortex/admin/vertical-config`).
+
+**Key Capabilities:**
+- **Service Catalog** — 35+ toggleable services with tier/category metadata
+- **Vertical Templates** — Pre-configured bundles for each industry
+- **Toggle Services** — Enable/disable individual services per organization
+- **Bulk Toggle** — Enable/disable all services in a category
+- **Navigation Gating** — Disabled services are hidden from navigation
+- **Core Services** — Council, Ledger, Evidence Vault are always on
+
+**Core Services (Cannot be Disabled):**
+- 🏛️ **CendiaCouncil™** — AI-powered multi-agent deliberation
+- 📒 **CendiaLedger™** — Immutable decision blockchain
+- 🗄️ **Evidence Vault** — Global decision packet management
 
 ## Vertical Pricing
 
@@ -2060,6 +2195,36 @@ ENABLE_CUSTOM_AGENTS=true
 ---
 
 ## Appendix E: Changelog
+
+### Version 3.0.0 (December 2024)
+
+#### Evidence Vault
+- **Global Decision Packet Access** — Universal access to decision packets with RBAC
+- **7 RBAC Roles** — viewer, decision_owner, council_operator, approver, risk_compliance, auditor, admin
+- **Send to Approvers** — Multi-approver workflow with tracking and deadlines
+- **Attach Evidence** — File upload with categorization
+- **Lock & Finalize** — Cryptographic signature on finalization
+- **Break-glass Export** — Emergency access with dual admin approval
+
+#### Vertical Configuration
+- **24 Industry Verticals** — Pre-configured service bundles for each industry
+- **35+ Toggleable Services** — Enable/disable services per organization
+- **Navigation Gating** — Disabled services hidden from navigation
+- **Core Services Always On** — Council, Ledger, Evidence Vault cannot be disabled
+- **Vertical Switching** — Switch verticals with option to preserve customizations
+
+#### New Enterprise Services
+- **CendiaDissent™** — Protected whistleblower channels with retaliation protection
+- **CendiaCascade™** — Decision consequence engineering (butterfly effect simulation)
+- **CendiaApotheosis™** — Self-improving AI with nightly red-teaming
+
+#### Industry Verticals (24 Total)
+- **Core (7):** Financial, Healthcare, Manufacturing, Technology, Energy, Government, Legal
+- **High-Value (10):** Retail, Real Estate, Telecom, Hospitality, Education, Media, Agriculture, Logistics, Insurance, Non-Profit
+- **Specialized (6):** Construction, Mining, Aerospace, Pharmaceuticals, Automotive, Sports
+- **Custom:** Build your own service bundle
+
+---
 
 ### Version 2.0.0 (January 2026)
 
