@@ -16,3 +16,8 @@ export {
   type UserIntervention,
 } from './UserInterventionPanel';
 export { default as PostDeliberationPanel } from './PostDeliberationPanel';
+
+// Video Simulation & Governance
+export { CouncilVideoSimulation } from './CouncilVideoSimulation';
+export { RealTimePolicyEnforcement } from './RealTimePolicyEnforcement';
+export { LoadOptimizationDashboard } from './LoadOptimizationDashboard';

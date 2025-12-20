@@ -107,6 +107,7 @@ import strategicRoutes from './routes/strategic.js';
 import sampleDataRoutes from './routes/sample-data.js';
 import druidRoutes from './routes/druid.js';
 import horizonRoutes from './routes/horizon.js';
+import verticalAgentsRoutes from './routes/vertical-agents.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -311,6 +312,9 @@ app.use('/api/v1/druid', druidRoutes);
 
 // CendiaHorizon™ - Predictive Decision Intelligence
 app.use('/api/v1/horizon', horizonRoutes);
+
+// Vertical AI Agents - Industry-Specific Intelligence
+app.use('/api/v1/vertical-agents', verticalAgentsRoutes);
 
 // 404 handler
 app.use((_req, res) => {

@@ -437,6 +437,34 @@ async function seedDefaultOrganization() {
   
   console.log(`  ✓ Organization: ${org.name}`);
   
+  // Create owner user (Stuart Rainey - Platform Owner)
+  const ownerPasswordHash = await bcrypt.hash('DatacendiaOwner2024!', 12);
+  
+  const owner = await prisma.users.upsert({
+    where: { email: 'stuart@datacendia.com' },
+    update: {
+      name: 'Stuart Rainey',
+      role: UserRole.OWNER,
+    },
+    create: {
+      id: crypto.randomUUID(),
+      email: 'stuart@datacendia.com',
+      password_hash: ownerPasswordHash,
+      name: 'Stuart Rainey',
+      role: UserRole.OWNER,
+      organization_id: org.id,
+      status: 'ACTIVE',
+      updated_at: new Date(),
+      preferences: {
+        theme: 'dark',
+        language: 'en',
+        notifications: true,
+      },
+    },
+  });
+  
+  console.log(`  ✓ Owner User: ${owner.email} (Stuart Rainey)`);
+
   // Create admin user
   const passwordHash = await bcrypt.hash('DatacendiaAdmin2024!', 12);
   

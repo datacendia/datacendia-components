@@ -186,12 +186,46 @@
 
 ---
 
-## ✅ NEWLY ADDED
+## ✅ NEWLY ADDED (December 2025)
 
 | Item | Priority | Status | Endpoint |
 |------|----------|--------|----------|
 | **HR Integration Service** | Low | ✅ COMPLETE | `/api/v1/hr` |
 | **Market Salary API** | Medium | ✅ COMPLETE | `/api/v1/salary` |
+| **Vertical AI Agents** | High | ✅ COMPLETE | `/api/v1/vertical-agents` |
+| **Vertical Dashboards** | High | ✅ COMPLETE | 15 dashboard components |
+| **Council Video Simulation** | Medium | ✅ COMPLETE | Component |
+| **Real-Time Policy Enforcement** | Medium | ✅ COMPLETE | Component |
+| **Load Optimization Dashboard** | Medium | ✅ COMPLETE | Component |
+
+### Vertical AI Agents (`/api/v1/vertical-agents`)
+- **48+ Industry-Specific Agents** across 12 verticals
+- Financial, Healthcare, Manufacturing, Technology, Energy, Government
+- Logistics, Retail, Education, Legal, Real Estate, Insurance
+- Full backend service + REST API + React Query hooks
+- Integrated with Model Zoo for optimal model selection
+
+### Vertical Dashboards (15 Components)
+- **FleetTrackingMap** - Logistics tracking
+- **MarketPulse** - Financial markets
+- **HospitalFloorMap** - Healthcare operations
+- **ProductionLineStatus** - Manufacturing OEE
+- **SystemHealthMatrix** - Technology infrastructure
+- **CivicSimulation** - Government policy
+- **PowerGridVisualization** - Energy grid
+- **RetailStoreDashboard** - Retail analytics
+- **StudentSuccessDashboard** - Education metrics
+- **PropertyPortfolio** - Real estate management
+- **LegalCaseManagement** - Legal matters
+- **InsuranceClaimsDashboard** - Claims processing
+- **TelecomNetworkDashboard** - Network operations
+- **HospitalityDashboard** - RevPAR & occupancy
+- **AgricultureDashboard** - Crop & yield management
+
+### Council Components (3 New)
+- **CouncilVideoSimulation** - Human-like avatar deliberations
+- **RealTimePolicyEnforcement** - Veto-based governance
+- **LoadOptimizationDashboard** - Air-gapped scaling
 
 ### HR Integrations (`/api/v1/hr`)
 - **Workday Connector** - Full SOAP/REST integration

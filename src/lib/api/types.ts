@@ -51,7 +51,7 @@ export interface User {
   id: string;
   email: string;
   name: string;
-  role: 'VIEWER' | 'ANALYST' | 'ADMIN' | 'SUPER_ADMIN';
+  role: 'VIEWER' | 'ANALYST' | 'ADMIN' | 'SUPER_ADMIN' | 'OWNER';
   organizationId: string;
   avatarUrl?: string;
   status: 'ACTIVE' | 'INVITED' | 'DISABLED';

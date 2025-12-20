@@ -846,6 +846,7 @@ enum SummaryType {
 }
 
 enum UserRole {
+  OWNER
   SUPER_ADMIN
   ADMIN
   ANALYST

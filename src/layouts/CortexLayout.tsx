@@ -686,8 +686,15 @@ const CortexLayoutInner: React.FC = () => {
   const { user, logout } = useAuth();
   const { isServiceEnabled, isInitialized } = useVerticalConfig();
 
+  // Check if user is owner/admin (bypass all service filtering)
+  const isOwnerOrAdmin = useMemo(() => {
+    return user?.role === 'OWNER' || user?.role === 'SUPER_ADMIN' || user?.role === 'ADMIN';
+  }, [user?.role]);
+
   // Filter enterprise features based on enabled services
   const filteredEnterpriseFeatures = useMemo(() => {
+    // Owners and admins see ALL services
+    if (isOwnerOrAdmin) return enterpriseFeatures;
     if (!isInitialized) return enterpriseFeatures;
     
     // Map nav item IDs to service IDs
@@ -722,10 +729,12 @@ const CortexLayoutInner: React.FC = () => {
       if (!serviceId || feature.id === 'vertical-config') return true;
       return isServiceEnabled(serviceId);
     });
-  }, [isInitialized, isServiceEnabled]);
+  }, [isInitialized, isServiceEnabled, isOwnerOrAdmin]);
 
   // Filter sovereign features based on enabled services
   const filteredSovereignFeatures = useMemo(() => {
+    // Owners and admins see ALL services
+    if (isOwnerOrAdmin) return sovereignFeatures;
     if (!isInitialized) return sovereignFeatures;
     
     const serviceIdMap: Record<string, string> = {
@@ -742,7 +751,7 @@ const CortexLayoutInner: React.FC = () => {
       if (!serviceId) return true;
       return isServiceEnabled(serviceId);
     });
-  }, [isInitialized, isServiceEnabled]);
+  }, [isInitialized, isServiceEnabled, isOwnerOrAdmin]);
 
   const isActive = (path: string) => {
     if (path === '/cortex/dashboard') {
@@ -760,7 +769,7 @@ const CortexLayoutInner: React.FC = () => {
         .join('')
         .slice(0, 2)
         .toUpperCase()
-    : 'JS';
+    : 'SR';
 
   return (
     <DataSourceProvider>
@@ -918,11 +927,11 @@ const CortexLayoutInner: React.FC = () => {
             <div className="p-4 border-t border-sovereign-border-subtle">
               <div className="flex items-center gap-3">
                 <div className="w-9 h-9 bg-crimson-900/30 rounded-full flex items-center justify-center">
-                  <span className="text-crimson-400 font-medium text-sm">JS</span>
+                  <span className="text-crimson-400 font-medium text-sm">{userInitials}</span>
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="text-sm font-medium text-white truncate">John Smith</p>
-                  <p className="text-xs text-gray-500 truncate">{t('label.admin')}</p>
+                  <p className="text-sm font-medium text-white truncate">{user?.name || 'Stuart Rainey'}</p>
+                  <p className="text-xs text-gray-500 truncate">{user?.role === 'OWNER' ? t('label.owner') : t('label.admin')}</p>
                 </div>
               </div>
             </div>
@@ -932,9 +941,9 @@ const CortexLayoutInner: React.FC = () => {
         {/* ================================================================= */}
         {/* MAIN CONTENT AREA */}
         {/* ================================================================= */}
-        <div className="flex-1 flex flex-col overflow-hidden">
+        <div className="flex-1 flex flex-col min-h-0">
           {/* Header */}
-          <header className="h-16 flex items-center justify-between px-4 lg:px-6 bg-sovereign-elevated border-b border-sovereign-border-subtle">
+          <header className="h-16 flex items-center justify-between px-4 lg:px-6 bg-sovereign-elevated border-b border-sovereign-border-subtle overflow-visible">
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMobileMenuOpen(true)}
@@ -1024,12 +1033,12 @@ const CortexLayoutInner: React.FC = () => {
                       className="fixed inset-0 z-40"
                       onClick={() => setIsPremiumDropdownOpen(false)}
                     />
-                    <div className="absolute right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 overflow-hidden">
-                      <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle">
+                    <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
+                      <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle rounded-t-xl">
                         <h3 className="font-semibold text-white">Decision Intelligence Suite</h3>
                         <p className="text-xs text-gray-500">Premium executive decision tools</p>
                       </div>
-                      <div className="py-2">
+                      <div className="py-2 max-h-80 overflow-y-auto">
                         {premiumFeatures.map((feature) => (
                           <button
                             key={feature.id}
@@ -1121,14 +1130,14 @@ const CortexLayoutInner: React.FC = () => {
                       className="fixed inset-0 z-40"
                       onClick={() => setIsEnterpriseDropdownOpen(false)}
                     />
-                    <div className="absolute right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 overflow-hidden">
-                      <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle">
+                    <div className="absolute top-full right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
+                      <div className="p-3 bg-sovereign-elevated border-b border-sovereign-border-subtle rounded-t-xl">
                         <h3 className="font-semibold text-white">Enterprise Suite</h3>
                         <p className="text-xs text-gray-500">
                           High-impact features for maximum valuation
                         </p>
                       </div>
-                      <div className="py-2 max-h-96 overflow-y-auto">
+                      <div className="py-2 max-h-80 overflow-y-auto">
                         {filteredEnterpriseFeatures.map((feature) => (
                           <button
                             key={feature.id}
@@ -1203,14 +1212,14 @@ const CortexLayoutInner: React.FC = () => {
                       className="fixed inset-0 z-40"
                       onClick={() => setIsSovereignDropdownOpen(false)}
                     />
-                    <div className="absolute right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-crimson-900/50 z-50 overflow-hidden">
-                      <div className="p-3 bg-crimson-950/50 border-b border-crimson-900/30">
+                    <div className="absolute top-full right-0 mt-2 w-96 bg-sovereign-card rounded-xl shadow-2xl border border-crimson-900/50 z-50">
+                      <div className="p-3 bg-crimson-950/50 border-b border-crimson-900/30 rounded-t-xl">
                         <h3 className="font-semibold text-crimson-400">Sovereign Tier</h3>
                         <p className="text-xs text-gray-500">
                           Regulation, Defense & Long-Horizon Strategy
                         </p>
                       </div>
-                      <div className="py-2 max-h-96 overflow-y-auto">
+                      <div className="py-2 max-h-80 overflow-y-auto">
                         {filteredSovereignFeatures.map((feature) => (
                           <button
                             key={feature.id}
@@ -1282,7 +1291,7 @@ const CortexLayoutInner: React.FC = () => {
                 {isUserMenuOpen && (
                   <>
                     <div className="fixed inset-0 z-40" onClick={() => setIsUserMenuOpen(false)} />
-                    <div className="absolute right-0 mt-2 w-56 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 overflow-hidden">
+                    <div className="absolute top-full right-0 mt-2 w-56 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
                       <div className="p-4 border-b border-sovereign-border-subtle">
                         <p className="text-sm font-semibold text-white">
                           {user?.name || 'John Smith'}
@@ -1320,7 +1329,7 @@ const CortexLayoutInner: React.FC = () => {
           </header>
 
           {/* Page Content */}
-          <main className="flex-1 overflow-y-auto bg-sovereign-base">
+          <main className="flex-1 overflow-y-auto overflow-x-hidden bg-sovereign-base">
             <Outlet />
           </main>
 

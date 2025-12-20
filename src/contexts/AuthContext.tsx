@@ -254,12 +254,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (!state.user) {
         return false;
       }
-      // Admins and Super Admins have all permissions
-      if (state.user.role === 'ADMIN' || state.user.role === 'SUPER_ADMIN') {
+      // Owners, Admins and Super Admins have all permissions
+      if (state.user.role === 'OWNER' || state.user.role === 'ADMIN' || state.user.role === 'SUPER_ADMIN') {
         return true;
       }
       // Role-based permission mapping
       const rolePermissions: Record<string, string[]> = {
+        OWNER: ['*'],
         SUPER_ADMIN: ['*'],
         ADMIN: ['*'],
         ANALYST: ['read', 'write', 'analyze', 'council', 'graph', 'pulse', 'lens', 'bridge'],

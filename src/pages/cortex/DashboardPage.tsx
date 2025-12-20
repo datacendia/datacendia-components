@@ -4,15 +4,15 @@
 
 // File: src/pages/cortex/DashboardPage.tsx
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn, formatNumber, formatCurrency, formatRelativeTime } from '../../../lib/utils';
 import { healthApi, alertsApi, metricsApi, organizationsApi, authApi } from '../../lib/api';
-import { wsClient } from '../../lib/api/websocket';
-import type { HealthScore as ApiHealthScore, Alert as ApiAlert } from '../../lib/api/types';
+import type { Alert as ApiAlert } from '../../lib/api/types';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { NarrativeGuide, NarrativeSelector } from '../../components/ui';
 import { Compass, X } from 'lucide-react';
+import { VerticalDashboard } from '../../components/dashboard';
 
 // =============================================================================
 // TYPES
@@ -329,8 +329,20 @@ export const DashboardPage: React.FC = () => {
     setShowJourneySelector(false);
   };
 
+  // Show loading state
+  if (isLoading) {
+    return (
+      <div className="p-6 lg:p-8 max-w-7xl mx-auto flex items-center justify-center min-h-[400px]">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-4 border-primary-500 border-t-transparent mx-auto mb-4" />
+          <p className="text-neutral-500">{t('common.loading')}</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="p-6 lg:p-8 max-w-7xl mx-auto">
+    <div className="p-6 lg:p-8 max-w-7xl mx-auto" lang={language}>
       {/* ================================================================= */}
       {/* HEADER */}
       {/* ================================================================= */}
@@ -340,6 +352,11 @@ export const DashboardPage: React.FC = () => {
             {getGreeting()}, {userName}
           </h1>
           <p className="text-neutral-500 mt-1">{t('dashboard.subtitle', { company: orgName })}</p>
+          {journeyCompleted && (
+            <span className="inline-flex items-center mt-2 px-2 py-0.5 rounded-full text-xs font-medium bg-success-light text-success-dark">
+              ✓ {t('dashboard.journeyComplete') || 'Journey Complete'}
+            </span>
+          )}
         </div>
         <button
           onClick={() => {
@@ -354,7 +371,7 @@ export const DashboardPage: React.FC = () => {
                 securityScore: healthScore.dimensions.security.score,
                 peopleScore: healthScore.dimensions.people.score,
                 criticalAlerts: alerts.filter(a => a.severity === 'critical').length,
-                pendingApprovals: approvals.length,
+                pendingApprovals: fallbackApprovals.length,
               },
               suggestedMode: 'executive',
             };
@@ -365,6 +382,13 @@ export const DashboardPage: React.FC = () => {
         >
           💬 Ask Council
         </button>
+      </div>
+
+      {/* ================================================================= */}
+      {/* VERTICAL-SPECIFIC DASHBOARD */}
+      {/* ================================================================= */}
+      <div className="mb-8">
+        <VerticalDashboard />
       </div>
 
       {/* ================================================================= */}

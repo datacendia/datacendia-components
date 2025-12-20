@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 3.1** | **December 2024 Update**
+**Version 3.2** | **December 2024 Update**
 
 ---
 
@@ -487,6 +487,28 @@ This approach addresses fundamental limitations of single-model AI:
 | Customer Voice | Customer perspective | Product decisions, service changes |
 | Sustainability | Environmental impact | Operations, supply chain |
 
+### Vertical Industry Agents (48 Agents)
+
+Industry-specific AI agents optimized for each vertical's unique terminology, workflows, and KPIs. Four agents per vertical across 12 industries:
+
+| Vertical | Agents | Example Capabilities |
+|----------|--------|---------------------|
+| **Financial Services** | RiskSentinel, AlphaHunter, ComplianceGuardian, MarketPulse | VaR analysis, trading signals, regulatory compliance |
+| **Healthcare** | CareCoordinator, ClinicalAdvisor, CapacityOracle, QualitySentinel | Patient flow, clinical decisions, HIPAA compliance |
+| **Manufacturing** | ProductionMaster, PredictMaintain, QualityVision, SupplySync | OEE optimization, predictive maintenance, defect detection |
+| **Technology** | SiteReliability, SecurityFortress, DevVelocity, DataArchitect | SRE, cybersecurity, engineering productivity |
+| **Energy** | GridBalancer, RenewableOptimizer, AssetGuardian, DemandResponse | Grid optimization, renewable forecasting, load management |
+| **Government** | PolicyAdvisor, CitizenEngage, BudgetOptimizer, TransparencyEngine | Policy analysis, citizen services, fiscal management |
+| **Logistics** | RouteOptimizer, WarehouseBrain, DemandPredictor, CarrierManager | Fleet routing, warehouse ops, demand planning |
+| **Retail** | MerchandisingAI, PricingEngine, CustomerInsight, OmniSync | Assortment planning, dynamic pricing, omnichannel |
+| **Education** | StudentSuccess, LearningAdvisor, EnrollmentOptimizer, WorkforceConnector | Student retention, adaptive learning, career services |
+| **Legal** | CaseStrategist, ContractAnalyzer, DiscoveryEngine, ComplianceTracker | Litigation strategy, contract intelligence, e-discovery |
+| **Real Estate** | ValuationEngine, LeaseOptimizer, PropertyManager, InvestmentAnalyst | Property valuation, lease management, investment analysis |
+| **Insurance** | UnderwritingAI, ClaimsProcessor, FraudDetector, ActuarialEngine | Risk assessment, claims management, fraud detection |
+
+**API Endpoint:** `/api/v1/vertical-agents`  
+**Documentation:** See `docs/VERTICAL_AI_AGENTS.md` for complete agent catalog
+
 ## Deliberation Process
 
 ### Phase 1: Initial Analysis
@@ -775,10 +797,77 @@ Everything in Sovereign, plus:
 | CendiaVox™ | Stakeholder voice aggregation |
 | CendiaGovern™ | Compliance automation |
 | CendiaUnion™ | Workforce intelligence |
+| CendiaVerticalAgents™ | 48+ industry-specific AI agents |
+| CendiaVideoSimulation™ | Human-like council deliberation |
+| CendiaPolicyEnforce™ | Real-time governance & veto |
+| CendiaLoadOptimizer™ | Air-gapped scaling & resources |
+| Vertical Dashboards | 15 industry-specific visualizations |
 | Custom Development | Tailored solutions |
 | Executive Advisory | Strategic guidance |
 
 **Ideal For:** Fortune 500, global enterprises, complex multi-stakeholder environments
+
+---
+
+### New Enterprise Components (December 2025)
+
+#### CendiaVideoSimulation™
+**Human-Like Council Deliberation Visualization**
+
+Transform abstract AI deliberations into intuitive, human-relatable experiences with realistic avatar-based video simulations.
+
+**Key Capabilities:**
+- 10 Human-like C-Suite avatars (CEO, CFO, COO, CISO, CMO, CLO, CHRO, CRO, Ethics, Devil's Advocate)
+- Video conference-style layout (Zoom/Teams familiar)
+- Animated speaking indicators and speech bubbles
+- Confidence meters per agent
+- Voting phase with visual results
+- Consensus tracking progress bar
+
+#### CendiaPolicyEnforce™
+**Real-Time Policy Enforcement**
+
+Proactive governance that monitors decisions as they're proposed, automatically applying governance rules before execution.
+
+**Key Capabilities:**
+- 8 Policy categories (Budget, Risk, Compliance, Security, Ethics, Operational)
+- 4 Severity levels (Info, Warning, Critical, Block)
+- Automatic actions (Hold, Veto, Escalate, Notify)
+- 4 Governance AI agents (PolicyGuardian, ComplianceWatcher, RiskSentinel, EthicsAdvisor)
+- Live decision stream with risk scores
+
+#### CendiaLoadOptimizer™
+**Air-Gapped Scaling Dashboard**
+
+Resource management for sovereign, air-gapped deployments where cloud auto-scaling is unavailable.
+
+**Key Capabilities:**
+- Cluster node monitoring (CPU, Memory, Disk)
+- Model instance management with memory usage
+- Request queue optimization
+- 4 Optimization agents (LoadBalancer, ModelSwapper, QueueManager, CapacityPlanner)
+- Graceful degradation under load
+
+#### Vertical Dashboards (15 Components)
+**Industry-Specific Interactive Visualizations**
+
+| Dashboard | Vertical | Key Features |
+|-----------|----------|--------------|
+| FleetTrackingMap | Logistics | Live vehicles, routes, delivery status |
+| MarketPulse | Financial | Ticker tape, portfolio, trading signals |
+| HospitalFloorMap | Healthcare | Bed occupancy, patient flow |
+| ProductionLineStatus | Manufacturing | Machine status, OEE |
+| SystemHealthMatrix | Technology | Service health, uptime |
+| CivicSimulation | Government | Policy simulation |
+| PowerGridVisualization | Energy | Generation, demand/supply |
+| RetailStoreDashboard | Retail | Store heatmap, sales |
+| StudentSuccessDashboard | Education | At-risk students |
+| PropertyPortfolio | Real Estate | Occupancy, NOI |
+| LegalCaseManagement | Legal | Matters, deadlines |
+| InsuranceClaimsDashboard | Insurance | Claims, fraud |
+| TelecomNetworkDashboard | Telecom | Cell sites, 5G |
+| HospitalityDashboard | Hospitality | RevPAR, occupancy |
+| AgricultureDashboard | Agriculture | Crop health, weather |
 
 ---
 
@@ -2195,6 +2284,15 @@ ENABLE_CUSTOM_AGENTS=true
 ---
 
 ## Appendix E: Changelog
+
+### Version 3.2.0 (December 2024)
+
+#### Language Architecture Clarification
+- Clarified UI Localizations (26 static JSON files) vs OmniTranslate (98 runtime AI languages)
+- Added architecture note: numbers differ by design—UI covers major languages, OmniTranslate uses LLMs for dynamic content translation
+- OmniTranslate powered by Qwen 2.5 models (32b/14b/7b) via Ollama for runtime translation
+
+---
 
 ### Version 3.1.0 (December 2024)
 

@@ -59,9 +59,10 @@
 
 ## Overview
 
-Datacendia features **30 specialized AI agents** across 4 tiers:
-- **14 Core Agents** (Included in all plans)
+Datacendia features **78+ specialized AI agents** across multiple tiers:
+- **14 Core C-Suite Agents** (Included in all plans)
 - **16 Premium Agents** (Industry packs)
+- **48 Vertical Industry Agents** (12 verticals × 4 agents each)
 
 ## Core Agents (14)
 
@@ -113,6 +114,106 @@ Datacendia features **30 specialized AI agents** across 4 tiers:
 | `ip` | Intellectual Property Counsel | Patent & trademark analysis |
 | `litigation` | Litigation Expert | Legal dispute strategy |
 | `regulatory` | Regulatory Affairs Counsel | Regulatory compliance |
+
+## Vertical Industry Agents (48 Agents)
+
+Industry-specific AI agents optimized for each vertical's unique terminology, workflows, and KPIs.
+
+### 💹 Financial Services (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `fin-risk-sentinel` | RiskSentinel | Chief Risk Officer AI | qwq:32b |
+| `fin-alpha-hunter` | AlphaHunter | Investment Strategy AI | qwen2.5:7b |
+| `fin-compliance-guardian` | ComplianceGuardian | Regulatory Compliance AI | qwen2.5:7b |
+| `fin-market-pulse` | MarketPulse | Market Intelligence AI | llama3.2:3b |
+
+### 🏥 Healthcare (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `hc-care-coordinator` | CareCoordinator | Patient Journey Optimizer | qwen2.5:7b |
+| `hc-clinical-advisor` | ClinicalAdvisor | Clinical Decision Support | qwq:32b |
+| `hc-capacity-oracle` | CapacityOracle | Hospital Operations AI | llama3.2:3b |
+| `hc-quality-sentinel` | QualitySentinel | Quality & Safety AI | qwen2.5:7b |
+
+### 🏭 Manufacturing (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `mfg-production-master` | ProductionMaster | Production Optimization AI | qwen2.5:7b |
+| `mfg-predict-maintain` | PredictMaintain | Predictive Maintenance AI | qwq:32b |
+| `mfg-quality-vision` | QualityVision | Quality Inspection AI | llava:34b |
+| `mfg-supply-sync` | SupplySync | Supply Chain AI | qwen2.5:7b |
+
+### 💻 Technology (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `tech-site-reliability` | SiteReliability | SRE Intelligence AI | qwen2.5-coder:32b |
+| `tech-security-fortress` | SecurityFortress | Cybersecurity AI | qwq:32b |
+| `tech-dev-velocity` | DevVelocity | Engineering Productivity AI | qwen2.5-coder:32b |
+| `tech-data-architect` | DataArchitect | Data Platform AI | qwen2.5-coder:32b |
+
+### ⚡ Energy (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `eng-grid-balancer` | GridBalancer | Grid Optimization AI | qwq:32b |
+| `eng-renewable-optimizer` | RenewableOptimizer | Clean Energy AI | qwen2.5:7b |
+| `eng-asset-guardian` | AssetGuardian | Infrastructure AI | qwen2.5:7b |
+| `eng-demand-response` | DemandResponse | Load Management AI | llama3.2:3b |
+
+### 🏛️ Government (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `gov-policy-advisor` | PolicyAdvisor | Policy Analysis AI | qwq:32b |
+| `gov-citizen-engage` | CitizenEngage | Public Services AI | qwen2.5:7b |
+| `gov-budget-optimizer` | BudgetOptimizer | Fiscal Management AI | qwen2.5:7b |
+| `gov-transparency-engine` | TransparencyEngine | Open Government AI | qwen2.5:7b |
+
+### 🚚 Logistics (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `log-route-optimizer` | RouteOptimizer | Fleet Routing AI | qwen2.5:7b |
+| `log-warehouse-brain` | WarehouseBrain | Warehouse Operations AI | qwen2.5:7b |
+| `log-demand-predictor` | DemandPredictor | Demand Planning AI | qwq:32b |
+| `log-carrier-manager` | CarrierManager | Transportation AI | qwen2.5:7b |
+
+### 🛒 Retail (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `ret-merchandising-ai` | MerchandisingAI | Assortment Planning AI | qwen2.5:7b |
+| `ret-pricing-engine` | PricingEngine | Dynamic Pricing AI | qwq:32b |
+| `ret-customer-insight` | CustomerInsight | Customer Intelligence AI | qwen2.5:7b |
+| `ret-omni-sync` | OmniSync | Omnichannel AI | llama3.2:3b |
+
+### 🎓 Education (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `edu-student-success` | StudentSuccess | Student Retention AI | qwen2.5:7b |
+| `edu-learning-advisor` | LearningAdvisor | Adaptive Learning AI | qwen2.5:7b |
+| `edu-enrollment-optimizer` | EnrollmentOptimizer | Enrollment Management AI | qwq:32b |
+| `edu-workforce-connector` | WorkforceConnector | Career Services AI | qwen2.5:7b |
+
+### ⚖️ Legal (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `leg-case-strategist` | CaseStrategist | Litigation Strategy AI | qwq:32b |
+| `leg-contract-analyzer` | ContractAnalyzer | Contract Intelligence AI | qwen2.5:7b |
+| `leg-discovery-engine` | DiscoveryEngine | E-Discovery AI | qwen2.5:7b |
+| `leg-compliance-tracker` | ComplianceTracker | Regulatory Compliance AI | qwen2.5:7b |
+
+### 🏢 Real Estate (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `re-valuation-engine` | ValuationEngine | Property Valuation AI | qwq:32b |
+| `re-lease-optimizer` | LeaseOptimizer | Lease Management AI | qwen2.5:7b |
+| `re-property-manager` | PropertyManager | Property Operations AI | llama3.2:3b |
+| `re-investment-analyst` | InvestmentAnalyst | Real Estate Investment AI | qwq:32b |
+
+### 🛡️ Insurance (4 agents)
+| Code | Name | Role | Model |
+|------|------|------|-------|
+| `ins-underwriting-ai` | UnderwritingAI | Risk Assessment AI | qwq:32b |
+| `ins-claims-processor` | ClaimsProcessor | Claims Management AI | qwen2.5:7b |
+| `ins-fraud-detector` | FraudDetector | Fraud Detection AI | qwq:32b |
+| `ins-actuarial-engine` | ActuarialEngine | Actuarial AI | qwq:32b |
 
 ---
 
@@ -287,6 +388,69 @@ All AI agents support **easy model switching** with 35+ Ollama models available.
 | **Cascade** | Decision consequence engineering |
 | **Crisis Management** | Incident response coordination |
 | **Apotheosis** | Self-improving AI with safety rails |
+| **Vertical Agents** | 48+ industry-specific AI agents |
+| **Video Simulation** | Human-like council deliberation visualization |
+| **Policy Enforce** | Real-time policy monitoring & automatic holds |
+| **Load Optimizer** | Air-gapped scaling & resource management |
+
+## Vertical Dashboards (15 Components)
+
+Interactive, industry-specific visualizations for each vertical.
+
+| Vertical | Dashboard | Key Features |
+|----------|-----------|--------------|
+| 🚚 Logistics | FleetTrackingMap | Live vehicle positions, routes, delivery status |
+| 💹 Financial | MarketPulse | Ticker tape, portfolio chart, trading signals |
+| 🏥 Healthcare | HospitalFloorMap | Bed occupancy, patient flow, department status |
+| 🏭 Manufacturing | ProductionLineStatus | Machine status, OEE, production metrics |
+| 💻 Technology | SystemHealthMatrix | Service health grid, uptime, incidents |
+| 🏛️ Government | CivicSimulation | Policy simulation, budget visualization |
+| ⚡ Energy | PowerGridVisualization | Generation, transmission, demand/supply |
+| 🛒 Retail | RetailStoreDashboard | Store heatmap, sales by category |
+| 🎓 Education | StudentSuccessDashboard | At-risk students, cohort performance |
+| 🏢 Real Estate | PropertyPortfolio | Property map, occupancy, NOI |
+| ⚖️ Legal | LegalCaseManagement | Matter tracking, deadlines, risk scoring |
+| 🛡️ Insurance | InsuranceClaimsDashboard | Claims pipeline, fraud detection |
+| 📡 Telecom | TelecomNetworkDashboard | Cell sites, 5G coverage, subscribers |
+| 🏨 Hospitality | HospitalityDashboard | RevPAR, occupancy, booking channels |
+| 🌾 Agriculture | AgricultureDashboard | Crop health, weather, yield forecasting |
+
+## Council Video Simulation
+
+Human-like avatar deliberations with realistic C-Suite executives.
+
+| Feature | Description |
+|---------|-------------|
+| **10 Human-Like Avatars** | Realistic executives via DiceBear Personas API |
+| **Video Conference Layout** | Grid layout similar to Zoom/Teams |
+| **Speaking Indicators** | Animated sound wave bars when speaking |
+| **Speech Bubbles** | Real-time statement display |
+| **Confidence Meters** | Per-agent confidence percentage |
+| **Voting Phase** | Approve/Reject/Abstain with visual indicators |
+| **Consensus Tracking** | Real-time alignment progress bar |
+
+## Real-Time Policy Enforcement
+
+Veto-based proactive governance with automatic holds.
+
+| Feature | Description |
+|---------|-------------|
+| **8 Policy Categories** | Budget, Risk, Compliance, Security, Ethics, Operational |
+| **4 Severity Levels** | Info, Warning, Critical, Block |
+| **Automatic Actions** | Hold, Veto, Escalate, Notify |
+| **4 Governance Agents** | PolicyGuardian, ComplianceWatcher, RiskSentinel, EthicsAdvisor |
+| **Live Decision Stream** | Monitor pending decisions with risk scores |
+
+## Load Optimization Dashboard
+
+Air-gapped scaling for sovereign deployments.
+
+| Feature | Description |
+|---------|-------------|
+| **Cluster Monitoring** | CPU, Memory, Disk across all nodes |
+| **Model Management** | Loaded models with memory usage |
+| **Queue Optimization** | Request queues and throughput |
+| **4 Optimization Agents** | LoadBalancer, ModelSwapper, QueueManager, CapacityPlanner |
 
 ## Evidence Vault
 
@@ -812,19 +976,23 @@ Full in-product translations for 20+ languages:
 | ms | Malay | ✅ Complete |
 | tr | Turkish | ✅ Complete |
 
-### CendiaOmniTranslate™ (100+ Languages)
-Runtime translation capability for decision content, documents, and communications:
+### CendiaOmniTranslate™ (98 Languages)
+Runtime AI translation via Qwen 2.5 LLMs for decision content, documents, and communications:
 
 | Feature | Description |
-|---------|-------------|
-| **Languages** | 100+ languages including low-resource languages |
+|---------|--------------|
+| **Languages** | 98 languages including low-resource languages |
 | **RTL Support** | Arabic, Hebrew, Urdu, Persian, and others |
 | **Auto-Detection** | Automatic source language identification |
 | **Glossary** | Enterprise glossary management for consistency |
 | **Translation Memory** | Caching for consistent terminology |
 | **Document Translation** | Decisions, summaries, and reports |
 
-*Note: UI Localizations (20+) = fully translated interface. OmniTranslate (100+) = runtime translation of content.*
+**Architecture Note:** These are intentionally different systems:
+- **UI Localizations (26)** = Static JSON files for interface strings (buttons, labels, navigation)
+- **OmniTranslate (98)** = Runtime AI translation via LLMs for user content (decisions, documents, reports)
+
+The numbers differ by design—UI localization covers major world languages, while OmniTranslate dynamically translates any content to 98 languages on-demand.
 
 ---
 
@@ -872,8 +1040,8 @@ Runtime translation capability for decision content, documents, and communicatio
 | Backend Services | 50+ (37 core + 13 enterprise) |
 | API Endpoints | 150+ |
 | Frontend Routes | 120+ |
-| UI Localizations | 20+ |
-| OmniTranslate Languages | 100+ |
+| UI Localizations | 26 (static interface) |
+| OmniTranslate Languages | 98 (runtime AI translation) |
 | Database Tables | 60+ |
 | Industry Verticals | 24 |
 | Toggleable Services | 35+ |
@@ -903,7 +1071,7 @@ datacendia-components/
 │   │   └── ...
 │   ├── lib/
 │   │   ├── agents/          # Agent Configuration
-│   │   ├── i18n/            # Internationalization (100+ languages)
+│   │   ├── i18n/            # UI Localization (26 languages)
 │   │   ├── api/             # API Client
 │   │   └── ollama/          # AI Integration
 │   ├── layouts/             # Layout Components
@@ -932,9 +1100,13 @@ datacendia-components/
 
 ---
 
-**Document Version:** 3.1  
-**Last Updated:** December 19, 2024  
+**Document Version:** 3.2  
+**Last Updated:** December 20, 2024  
 **Classification:** Internal / Confidential
+
+### Changelog v3.2
+- Clarified language architecture: UI Localizations (26 static) vs OmniTranslate (98 runtime AI)
+- Added architecture note explaining intentional difference between static UI files and runtime LLM translation
 
 ### Changelog v3.1
 - Fixed language claims: UI Localizations (20+) vs OmniTranslate (100+) now explicit
