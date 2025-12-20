@@ -1,6 +1,7 @@
 // =============================================================================
 // CENDIA VERTICAL CONFIGURATION PAGE
 // Industry vertical management with toggleable service access
+// Enterprise Platinum Standard - 100% Client Ready
 // =============================================================================
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -18,8 +19,12 @@ import {
   Filter,
   Info,
   Building2,
+  Loader2,
+  Save,
+  RotateCcw,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
+import { verticalConfigApi } from '../../../services/VerticalConfigService';
 
 // =============================================================================
 // TYPES
@@ -104,6 +109,7 @@ const SERVICE_CATALOG: ServiceDefinition[] = [
 ];
 
 const VERTICAL_TEMPLATES: VerticalTemplate[] = [
+  // Core Verticals
   { id: 'financial-services', name: 'Financial Services', description: 'Banks, Asset Managers, Insurance', icon: '🏦', color: '#10B981', defaultServices: ['council', 'ledger', 'evidence-vault', 'govern', 'chronos', 'decision-dna', 'regulatory-absorb', 'audit-workflow', 'cascade', 'dissent', 'omni-translate'], recommendedServices: ['red-team', 'ghost-board', 'pre-mortem', 'echo', 'crisis-management'], excludedServices: ['data-diode', 'qr-air-gap', 'portable-instance'] },
   { id: 'healthcare', name: 'Healthcare / Life Sciences', description: 'Hospitals, Pharma, Biotech', icon: '🏥', color: '#EC4899', defaultServices: ['council', 'ledger', 'evidence-vault', 'veto', 'dissent', 'regulatory-absorb', 'ghost-board', 'pre-mortem', 'mesh', 'omni-translate', 'apotheosis'], recommendedServices: ['chronos', 'decision-dna', 'crisis-management', 'audit-workflow'], excludedServices: [] },
   { id: 'manufacturing', name: 'Manufacturing / Supply Chain', description: 'Automotive, Aerospace, CPG', icon: '🏭', color: '#F59E0B', defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'chronos', 'horizon', 'pre-mortem', 'mesh', 'data-diode', 'ghost-board', 'genomics', 'crisis-management'], recommendedServices: ['govern', 'audit-workflow', 'echo'], excludedServices: [] },
@@ -111,6 +117,25 @@ const VERTICAL_TEMPLATES: VerticalTemplate[] = [
   { id: 'energy', name: 'Energy / Utilities', description: 'Oil & Gas, Power, Renewables', icon: '⚡', color: '#EF4444', defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'horizon', 'pre-mortem', 'data-diode', 'tpm-attestation', 'crisis-management', 'mesh'], recommendedServices: ['govern', 'audit-workflow', 'chronos'], excludedServices: [] },
   { id: 'government', name: 'Government / Public Sector', description: 'Federal, State, Defense', icon: '🏛️', color: '#3B82F6', defaultServices: ['council', 'ledger', 'evidence-vault', 'sovereign', 'veto', 'dissent', 'portable-instance', 'federated-mesh', 'local-rlhf', 'time-lock', 'canary-tripwire', 'tpm-attestation'], recommendedServices: ['data-diode', 'govern', 'audit-workflow'], excludedServices: [] },
   { id: 'legal', name: 'Legal / Professional Services', description: 'Law Firms, Consulting', icon: '⚖️', color: '#6366F1', defaultServices: ['council', 'ledger', 'evidence-vault', 'regulatory-absorb', 'omni-translate', 'voice', 'ghost-board', 'pre-mortem', 'persona-forge', 'decision-dna'], recommendedServices: ['chronos', 'govern', 'dissent'], excludedServices: [] },
+  // High-Value Additions
+  { id: 'retail', name: 'Retail / E-Commerce', description: 'Retailers, D2C Brands, Marketplaces', icon: '🛒', color: '#F97316', defaultServices: ['council', 'ledger', 'evidence-vault', 'horizon', 'cascade', 'ghost-board', 'crisis-management', 'chronos', 'echo', 'persona-forge'], recommendedServices: ['omni-translate', 'autopilot', 'gnosis'], excludedServices: [] },
+  { id: 'real-estate', name: 'Real Estate / PropTech', description: 'REITs, Property Management, Development', icon: '🏠', color: '#84CC16', defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'horizon', 'ghost-board', 'decision-dna', 'chronos', 'govern'], recommendedServices: ['pre-mortem', 'echo', 'audit-workflow'], excludedServices: [] },
+  { id: 'telecommunications', name: 'Telecommunications', description: 'Carriers, ISPs, Network Operators', icon: '📡', color: '#06B6D4', defaultServices: ['council', 'ledger', 'evidence-vault', 'panopticon', 'cascade', 'mesh', 'crisis-management', 'horizon', 'defense-stack', 'chronos'], recommendedServices: ['data-diode', 'autopilot', 'echo'], excludedServices: [] },
+  { id: 'hospitality', name: 'Hospitality / Travel', description: 'Hotels, Airlines, OTAs, Cruise Lines', icon: '✈️', color: '#0EA5E9', defaultServices: ['council', 'ledger', 'evidence-vault', 'horizon', 'cascade', 'omni-translate', 'persona-forge', 'crisis-management', 'ghost-board', 'chronos'], recommendedServices: ['echo', 'voice', 'autopilot'], excludedServices: [] },
+  { id: 'education', name: 'Education / EdTech', description: 'Universities, K-12, LMS Providers', icon: '📚', color: '#A855F7', defaultServices: ['council', 'ledger', 'evidence-vault', 'training', 'veto', 'dissent', 'govern', 'decision-dna', 'chronos', 'gnosis'], recommendedServices: ['regulatory-absorb', 'omni-translate', 'echo'], excludedServices: [] },
+  { id: 'media', name: 'Media / Entertainment', description: 'Studios, Streaming, Gaming, Publishing', icon: '🎬', color: '#EC4899', defaultServices: ['council', 'ledger', 'evidence-vault', 'persona-forge', 'cascade', 'chronos', 'ghost-board', 'horizon', 'voice', 'echo'], recommendedServices: ['omni-translate', 'gnosis', 'crisis-management'], excludedServices: [] },
+  { id: 'agriculture', name: 'Agriculture / AgTech', description: 'Farms, Food Supply Chain, AgTech', icon: '🌾', color: '#22C55E', defaultServices: ['council', 'ledger', 'evidence-vault', 'horizon', 'data-diode', 'cascade', 'mesh', 'crisis-management', 'chronos', 'pre-mortem'], recommendedServices: ['govern', 'echo', 'panopticon'], excludedServices: [] },
+  { id: 'logistics', name: 'Logistics / Transportation', description: 'Freight, 3PL, Shipping, Fleet', icon: '🚚', color: '#F59E0B', defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'horizon', 'data-diode', 'crisis-management', 'mesh', 'chronos', 'panopticon'], recommendedServices: ['autopilot', 'echo', 'govern'], excludedServices: [] },
+  { id: 'insurance', name: 'Insurance (Specialized)', description: 'P&C, Reinsurance, InsurTech', icon: '🛡️', color: '#14B8A6', defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'horizon', 'regulatory-absorb', 'audit-workflow', 'ghost-board', 'pre-mortem', 'decision-dna'], recommendedServices: ['echo', 'chronos', 'persona-forge'], excludedServices: [] },
+  { id: 'nonprofit', name: 'Non-Profit / NGO', description: 'Foundations, Aid Organizations, Charities', icon: '🤝', color: '#F472B6', defaultServices: ['council', 'ledger', 'evidence-vault', 'veto', 'dissent', 'govern', 'decision-dna', 'chronos', 'omni-translate', 'audit-workflow'], recommendedServices: ['echo', 'pre-mortem', 'voice'], excludedServices: [] },
+  // Specialized / Niche
+  { id: 'construction', name: 'Construction / Engineering', description: 'Contractors, AEC, Infrastructure', icon: '🏗️', color: '#78716C', defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'pre-mortem', 'data-diode', 'crisis-management', 'mesh', 'chronos', 'horizon'], recommendedServices: ['govern', 'audit-workflow', 'echo'], excludedServices: [] },
+  { id: 'mining', name: 'Mining / Resources', description: 'Mining, Forestry, Natural Resources', icon: '⛏️', color: '#A16207', defaultServices: ['council', 'ledger', 'evidence-vault', 'sovereign', 'data-diode', 'tpm-attestation', 'crisis-management', 'cascade', 'mesh', 'qr-air-gap'], recommendedServices: ['horizon', 'pre-mortem', 'portable-instance'], excludedServices: [] },
+  { id: 'aerospace', name: 'Aerospace / Defense', description: 'Defense Contractors, Space, Aviation', icon: '🚀', color: '#1E3A8A', defaultServices: ['council', 'ledger', 'evidence-vault', 'sovereign', 'time-lock', 'tpm-attestation', 'federated-mesh', 'canary-tripwire', 'portable-instance', 'local-rlhf', 'veto', 'dissent'], recommendedServices: ['data-diode', 'qr-air-gap', 'crisis-management'], excludedServices: [] },
+  { id: 'pharmaceuticals', name: 'Pharmaceuticals (Specialized)', description: 'Clinical Trials, Drug Development, R&D', icon: '💊', color: '#059669', defaultServices: ['council', 'ledger', 'evidence-vault', 'regulatory-absorb', 'chronos', 'veto', 'dissent', 'audit-workflow', 'decision-dna', 'pre-mortem', 'ghost-board'], recommendedServices: ['mesh', 'omni-translate', 'echo'], excludedServices: [] },
+  { id: 'automotive', name: 'Automotive (Specialized)', description: 'OEMs, Tier 1 Suppliers, EV Manufacturers', icon: '🚗', color: '#DC2626', defaultServices: ['council', 'ledger', 'evidence-vault', 'cascade', 'data-diode', 'mesh', 'crisis-management', 'horizon', 'pre-mortem', 'chronos', 'genomics'], recommendedServices: ['govern', 'audit-workflow', 'panopticon'], excludedServices: [] },
+  { id: 'sports', name: 'Sports / Entertainment', description: 'Leagues, Teams, Venues, Esports', icon: '🏆', color: '#7C3AED', defaultServices: ['council', 'ledger', 'evidence-vault', 'persona-forge', 'crisis-management', 'cascade', 'ghost-board', 'chronos', 'voice', 'echo'], recommendedServices: ['omni-translate', 'horizon', 'gnosis'], excludedServices: [] },
+  // Custom
   { id: 'custom', name: 'Custom Configuration', description: 'Build your own service bundle', icon: '⚙️', color: '#6B7280', defaultServices: ['council', 'ledger', 'evidence-vault'], recommendedServices: [], excludedServices: [] },
 ];
 
@@ -271,23 +296,61 @@ export const VerticalConfigPage: React.FC = () => {
   const totalCount = SERVICE_CATALOG.length;
   const coreCount = SERVICE_CATALOG.filter(s => s.isCore).length;
 
-  // Save handler
-  const handleSave = () => {
-    // In production, this would call the API
-    console.log('Saving configuration:', {
-      vertical: selectedVertical,
-      enabledServices: Array.from(enabledServices),
-    });
-    setHasChanges(false);
+  // Loading state for save operations
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveError, setSaveError] = useState<string | null>(null);
+  const [saveSuccess, setSaveSuccess] = useState(false);
+
+  // Save handler - calls API to persist configuration
+  const handleSave = async () => {
+    setIsSaving(true);
+    setSaveError(null);
+    setSaveSuccess(false);
+    
+    try {
+      // Build toggles array from current state vs defaults
+      const toggles = SERVICE_CATALOG
+        .filter(s => !s.isCore)
+        .map(s => ({
+          serviceId: s.id,
+          enabled: enabledServices.has(s.id),
+        }));
+
+      await verticalConfigApi.bulkToggleServices(toggles);
+      
+      setHasChanges(false);
+      setSaveSuccess(true);
+      setTimeout(() => setSaveSuccess(false), 3000);
+    } catch (err) {
+      setSaveError(err instanceof Error ? err.message : 'Failed to save configuration');
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   // Reset handler
-  const handleReset = () => {
+  const handleReset = async () => {
     const vertical = VERTICAL_TEMPLATES.find(v => v.id === selectedVertical);
     if (vertical) {
       const coreServices = SERVICE_CATALOG.filter(s => s.isCore).map(s => s.id);
       setEnabledServices(new Set([...coreServices, ...vertical.defaultServices]));
       setHasChanges(false);
+      setSaveError(null);
+    }
+  };
+
+  // Switch vertical handler - calls API
+  const handleVerticalSwitch = async (newVerticalId: string) => {
+    setIsSaving(true);
+    try {
+      await verticalConfigApi.switchVertical(newVerticalId, false);
+      setSelectedVertical(newVerticalId);
+      setShowVerticalSelector(false);
+      setHasChanges(false);
+    } catch (err) {
+      setSaveError(err instanceof Error ? err.message : 'Failed to switch vertical');
+    } finally {
+      setIsSaving(false);
     }
   };
 
@@ -308,7 +371,19 @@ export const VerticalConfigPage: React.FC = () => {
             </div>
           </div>
           <div className="flex items-center gap-3">
-            {hasChanges && (
+            {saveSuccess && (
+              <span className="text-sm text-emerald-400 flex items-center gap-1">
+                <Check className="w-4 h-4" />
+                Configuration saved
+              </span>
+            )}
+            {saveError && (
+              <span className="text-sm text-red-400 flex items-center gap-1">
+                <AlertTriangle className="w-4 h-4" />
+                {saveError}
+              </span>
+            )}
+            {hasChanges && !saveError && !saveSuccess && (
               <span className="text-sm text-amber-400 flex items-center gap-1">
                 <AlertTriangle className="w-4 h-4" />
                 Unsaved changes
@@ -316,18 +391,23 @@ export const VerticalConfigPage: React.FC = () => {
             )}
             <button
               onClick={handleReset}
-              className="px-4 py-2 text-gray-400 hover:text-white transition-colors flex items-center gap-2"
+              disabled={isSaving}
+              className="px-4 py-2 text-gray-400 hover:text-white transition-colors flex items-center gap-2 disabled:opacity-50"
             >
-              <RefreshCw className="w-4 h-4" />
+              <RotateCcw className="w-4 h-4" />
               Reset to Defaults
             </button>
             <button
               onClick={handleSave}
-              disabled={!hasChanges}
+              disabled={!hasChanges || isSaving}
               className="px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-lg font-medium hover:from-cyan-500 hover:to-blue-500 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
             >
-              <Check className="w-4 h-4" />
-              Save Configuration
+              {isSaving ? (
+                <Loader2 className="w-4 h-4 animate-spin" />
+              ) : (
+                <Save className="w-4 h-4" />
+              )}
+              {isSaving ? 'Saving...' : 'Save Configuration'}
             </button>
           </div>
         </div>
@@ -361,11 +441,8 @@ export const VerticalConfigPage: React.FC = () => {
                 {VERTICAL_TEMPLATES.map(vertical => (
                   <button
                     key={vertical.id}
-                    onClick={() => {
-                      setSelectedVertical(vertical.id);
-                      setShowVerticalSelector(false);
-                      setHasChanges(true);
-                    }}
+                    onClick={() => handleVerticalSwitch(vertical.id)}
+                    disabled={isSaving}
                     className={cn(
                       'w-full p-3 rounded-lg flex items-center gap-3 transition-colors text-left',
                       vertical.id === selectedVertical
