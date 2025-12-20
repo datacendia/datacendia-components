@@ -4,7 +4,7 @@
 // Enterprise-grade RBAC: Executives pull in 10s, Audit has one canonical store
 // =============================================================================
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Search,
@@ -25,8 +25,16 @@ import {
   FileCheck,
   Archive,
   RefreshCw,
+  Send,
+  Paperclip,
+  AlertOctagon,
+  X,
+  Upload,
 } from 'lucide-react';
 import { cn } from '../../../../lib/utils';
+import { useDataSource } from '../../../contexts/DataSourceContext';
+import { DataSourceSelector } from '../../../components/cortex/DataSourceSelector';
+import { evidenceVaultApi, DecisionPacket as APIPacket, ApprovalWorkflow, Attachment } from '../../../services/EvidenceVaultService';
 
 // =============================================================================
 // TYPES
@@ -303,11 +311,29 @@ const getModeConfig = (mode: DecisionMode) => {
 
 export const EvidenceVaultPage: React.FC = () => {
   const navigate = useNavigate();
-  const [packets] = useState<DecisionPacket[]>(MOCK_PACKETS);
+  const { selectedDataSource } = useDataSource();
+  
+  // Data state
+  const [packets, setPackets] = useState<DecisionPacket[]>(MOCK_PACKETS);
+  const [isLoading, setIsLoading] = useState(false);
   const [selectedPacket, setSelectedPacket] = useState<DecisionPacket | null>(null);
   const [showFilters, setShowFilters] = useState(false);
   const [sortField] = useState<'generatedAt' | 'status' | 'accessCount'>('generatedAt');
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
+  
+  // Modal states
+  const [showSendToApprovers, setShowSendToApprovers] = useState(false);
+  const [showAttachEvidence, setShowAttachEvidence] = useState(false);
+  const [showBreakGlass, setShowBreakGlass] = useState(false);
+  const [actionPacketId, setActionPacketId] = useState<string | null>(null);
+  
+  // Form states
+  const [approverEmail, setApproverEmail] = useState('');
+  const [approverMessage, setApproverMessage] = useState('');
+  const [attachmentFile, setAttachmentFile] = useState<File | null>(null);
+  const [attachmentCategory, setAttachmentCategory] = useState<'evidence' | 'supporting' | 'reference' | 'legal'>('evidence');
+  const [breakGlassJustification, setBreakGlassJustification] = useState('');
+  const [breakGlassUrgency, setBreakGlassUrgency] = useState<'high' | 'critical' | 'emergency'>('high');
   
   // Simulated current user role - in production, this comes from auth context
   const [currentUserRole] = useState<UserRole>('approver');
@@ -320,6 +346,88 @@ export const EvidenceVaultPage: React.FC = () => {
     owner: '',
     framework: 'All Frameworks',
   });
+
+  // Fetch packets when data source changes
+  const fetchPackets = useCallback(async () => {
+    setIsLoading(true);
+    try {
+      // In production, this would call the API with the selected data source
+      // const result = await evidenceVaultApi.getPackets({ dataSourceId: selectedDataSource?.id });
+      // setPackets(result.packets);
+      
+      // For now, use mock data filtered by data source
+      setPackets(MOCK_PACKETS);
+    } catch (error) {
+      console.error('Failed to fetch packets:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [selectedDataSource]);
+
+  useEffect(() => {
+    fetchPackets();
+  }, [fetchPackets]);
+
+  // Action handlers
+  const handleSendToApprovers = async () => {
+    if (!actionPacketId || !approverEmail) return;
+    try {
+      // await evidenceVaultApi.sendToApprovers(actionPacketId, [{ userId: 'usr-new', email: approverEmail, name: approverEmail.split('@')[0], role: 'Approver' }], approverMessage);
+      setShowSendToApprovers(false);
+      setApproverEmail('');
+      setApproverMessage('');
+      fetchPackets();
+    } catch (error) {
+      console.error('Failed to send to approvers:', error);
+    }
+  };
+
+  const handleAttachEvidence = async () => {
+    if (!actionPacketId || !attachmentFile) return;
+    try {
+      // await evidenceVaultApi.attachEvidence(actionPacketId, attachmentFile, '', attachmentCategory);
+      setShowAttachEvidence(false);
+      setAttachmentFile(null);
+      fetchPackets();
+    } catch (error) {
+      console.error('Failed to attach evidence:', error);
+    }
+  };
+
+  const handleBreakGlassRequest = async () => {
+    if (!actionPacketId || !breakGlassJustification) return;
+    try {
+      // await evidenceVaultApi.requestBreakGlassExport(actionPacketId, breakGlassJustification, breakGlassUrgency);
+      setShowBreakGlass(false);
+      setBreakGlassJustification('');
+      fetchPackets();
+    } catch (error) {
+      console.error('Failed to request break-glass export:', error);
+    }
+  };
+
+  const handleLockPacket = async (packetId: string) => {
+    try {
+      // await evidenceVaultApi.lockPacket(packetId);
+      fetchPackets();
+    } catch (error) {
+      console.error('Failed to lock packet:', error);
+    }
+  };
+
+  const handleExportPacket = async (packetId: string) => {
+    try {
+      // const blob = await evidenceVaultApi.exportPacket(packetId);
+      // const url = window.URL.createObjectURL(blob);
+      // const a = document.createElement('a');
+      // a.href = url;
+      // a.download = `decision-packet-${packetId}.zip`;
+      // a.click();
+      console.log('Export packet:', packetId);
+    } catch (error) {
+      console.error('Failed to export packet:', error);
+    }
+  };
 
   // Filter and sort packets
   const filteredPackets = useMemo(() => {
@@ -401,15 +509,20 @@ export const EvidenceVaultPage: React.FC = () => {
     <div className="min-h-screen bg-sovereign-base text-white p-6">
       {/* Header */}
       <div className="mb-8">
-        <div className="flex items-center gap-3 mb-2">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center">
-            <Archive className="w-6 h-6 text-cyan-400" />
+        <div className="flex items-center justify-between mb-2">
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center">
+              <Archive className="w-6 h-6 text-cyan-400" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-bold">Evidence Vault</h1>
+              <p className="text-sm text-gray-400">
+                Universal access to decision packets • Read anywhere, generate in context
+              </p>
+            </div>
           </div>
-          <div>
-            <h1 className="text-2xl font-bold">Evidence Vault</h1>
-            <p className="text-sm text-gray-400">
-              Universal access to decision packets • Read anywhere, generate in context
-            </p>
+          <div className="w-72">
+            <DataSourceSelector showStatus />
           </div>
         </div>
 
@@ -958,18 +1071,63 @@ export const EvidenceVaultPage: React.FC = () => {
                     Edit in Context
                   </button>
                 )}
+                {/* Send to Approvers */}
+                {(selectedPacket.status === 'draft' || selectedPacket.status === 'under_review') && 
+                  ['decision_owner', 'council_operator'].includes(currentUserRole) && (
+                  <button
+                    onClick={() => {
+                      setActionPacketId(selectedPacket.id);
+                      setShowSendToApprovers(true);
+                    }}
+                    className="px-4 py-2 bg-blue-500/20 text-blue-400 border border-blue-500/30 rounded-lg text-sm font-medium hover:bg-blue-500/30 transition-colors flex items-center gap-2"
+                  >
+                    <Send className="w-4 h-4" />
+                    Send to Approvers
+                  </button>
+                )}
+                {/* Attach Evidence */}
+                {(selectedPacket.status !== 'locked' && selectedPacket.status !== 'superseded') &&
+                  ['decision_owner', 'council_operator', 'approver', 'risk_compliance'].includes(currentUserRole) && (
+                  <button
+                    onClick={() => {
+                      setActionPacketId(selectedPacket.id);
+                      setShowAttachEvidence(true);
+                    }}
+                    className="px-4 py-2 bg-purple-500/20 text-purple-400 border border-purple-500/30 rounded-lg text-sm font-medium hover:bg-purple-500/30 transition-colors flex items-center gap-2"
+                  >
+                    <Paperclip className="w-4 h-4" />
+                    Attach Evidence
+                  </button>
+                )}
                 {canLockPacket(selectedPacket) && (
-                  <button className="px-4 py-2 bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 rounded-lg text-sm font-medium hover:bg-cyan-500/30 transition-colors flex items-center gap-2">
+                  <button 
+                    onClick={() => handleLockPacket(selectedPacket.id)}
+                    className="px-4 py-2 bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 rounded-lg text-sm font-medium hover:bg-cyan-500/30 transition-colors flex items-center gap-2"
+                  >
                     <Lock className="w-4 h-4" />
                     Lock & Finalize
                   </button>
                 )}
                 {canExportPacket(selectedPacket) && (
-                  <button className="px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-lg text-sm font-medium hover:from-cyan-500 hover:to-blue-500 transition-colors flex items-center gap-2">
+                  <button 
+                    onClick={() => handleExportPacket(selectedPacket.id)}
+                    className="px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 text-white rounded-lg text-sm font-medium hover:from-cyan-500 hover:to-blue-500 transition-colors flex items-center gap-2"
+                  >
                     <Download className="w-4 h-4" />
                     Export PDF + JSON
                   </button>
                 )}
+                {/* Break-glass Export */}
+                <button
+                  onClick={() => {
+                    setActionPacketId(selectedPacket.id);
+                    setShowBreakGlass(true);
+                  }}
+                  className="px-4 py-2 text-red-400 hover:bg-red-500/10 border border-transparent hover:border-red-500/30 rounded-lg text-sm transition-colors flex items-center gap-2"
+                >
+                  <AlertOctagon className="w-4 h-4" />
+                  Break-glass
+                </button>
                 <button
                   onClick={() => navigate(`/cortex/intelligence/decision-dna?id=${selectedPacket.decisionId}`)}
                   className="px-4 py-2 text-gray-400 hover:text-white transition-colors flex items-center gap-2"
@@ -978,6 +1136,186 @@ export const EvidenceVaultPage: React.FC = () => {
                   View Decision
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Send to Approvers Modal */}
+      {showSendToApprovers && (
+        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
+          <div className="bg-sovereign-card border border-sovereign-border rounded-2xl w-full max-w-lg">
+            <div className="p-6 border-b border-sovereign-border flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <Send className="w-6 h-6 text-blue-400" />
+                <h2 className="text-lg font-bold">Send to Approvers</h2>
+              </div>
+              <button onClick={() => setShowSendToApprovers(false)} className="p-2 text-gray-400 hover:text-white">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6 space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-400 mb-2">Approver Email</label>
+                <input
+                  type="email"
+                  value={approverEmail}
+                  onChange={(e) => setApproverEmail(e.target.value)}
+                  placeholder="approver@company.com"
+                  className="w-full px-4 py-3 bg-sovereign-base border border-sovereign-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-400 mb-2">Message (optional)</label>
+                <textarea
+                  value={approverMessage}
+                  onChange={(e) => setApproverMessage(e.target.value)}
+                  placeholder="Please review this decision packet..."
+                  rows={3}
+                  className="w-full px-4 py-3 bg-sovereign-base border border-sovereign-border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500/50 resize-none"
+                />
+              </div>
+            </div>
+            <div className="p-4 border-t border-sovereign-border flex justify-end gap-3">
+              <button onClick={() => setShowSendToApprovers(false)} className="px-4 py-2 text-gray-400 hover:text-white">
+                Cancel
+              </button>
+              <button
+                onClick={handleSendToApprovers}
+                disabled={!approverEmail}
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-500 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+              >
+                <Send className="w-4 h-4" />
+                Send for Approval
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Attach Evidence Modal */}
+      {showAttachEvidence && (
+        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
+          <div className="bg-sovereign-card border border-sovereign-border rounded-2xl w-full max-w-lg">
+            <div className="p-6 border-b border-sovereign-border flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <Paperclip className="w-6 h-6 text-purple-400" />
+                <h2 className="text-lg font-bold">Attach Evidence</h2>
+              </div>
+              <button onClick={() => setShowAttachEvidence(false)} className="p-2 text-gray-400 hover:text-white">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6 space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-400 mb-2">Category</label>
+                <select
+                  value={attachmentCategory}
+                  onChange={(e) => setAttachmentCategory(e.target.value as any)}
+                  className="w-full px-4 py-3 bg-sovereign-base border border-sovereign-border rounded-lg"
+                >
+                  <option value="evidence">Evidence</option>
+                  <option value="supporting">Supporting Document</option>
+                  <option value="reference">Reference</option>
+                  <option value="legal">Legal</option>
+                </select>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-400 mb-2">File</label>
+                <div
+                  className="border-2 border-dashed border-sovereign-border rounded-lg p-8 text-center hover:border-purple-500/50 transition-colors cursor-pointer"
+                  onClick={() => document.getElementById('evidence-file-input')?.click()}
+                >
+                  <Upload className="w-8 h-8 text-gray-500 mx-auto mb-2" />
+                  <p className="text-sm text-gray-400">
+                    {attachmentFile ? attachmentFile.name : 'Click to select or drag and drop'}
+                  </p>
+                  <p className="text-xs text-gray-500 mt-1">PDF, DOCX, XLSX up to 50MB</p>
+                  <input
+                    id="evidence-file-input"
+                    type="file"
+                    onChange={(e) => setAttachmentFile(e.target.files?.[0] || null)}
+                    className="hidden"
+                    accept=".pdf,.docx,.xlsx,.doc,.xls,.csv,.txt"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="p-4 border-t border-sovereign-border flex justify-end gap-3">
+              <button onClick={() => setShowAttachEvidence(false)} className="px-4 py-2 text-gray-400 hover:text-white">
+                Cancel
+              </button>
+              <button
+                onClick={handleAttachEvidence}
+                disabled={!attachmentFile}
+                className="px-4 py-2 bg-purple-600 text-white rounded-lg font-medium hover:bg-purple-500 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+              >
+                <Paperclip className="w-4 h-4" />
+                Attach File
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Break-glass Export Modal */}
+      {showBreakGlass && (
+        <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
+          <div className="bg-sovereign-card border border-red-500/30 rounded-2xl w-full max-w-lg">
+            <div className="p-6 border-b border-red-500/30 bg-red-500/10 flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <AlertOctagon className="w-6 h-6 text-red-400" />
+                <div>
+                  <h2 className="text-lg font-bold text-red-400">Break-glass Export</h2>
+                  <p className="text-xs text-red-400/70">Emergency access - requires dual admin approval</p>
+                </div>
+              </div>
+              <button onClick={() => setShowBreakGlass(false)} className="p-2 text-gray-400 hover:text-white">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-6 space-y-4">
+              <div className="p-4 bg-red-500/10 border border-red-500/30 rounded-lg">
+                <p className="text-sm text-red-300">
+                  <strong>Warning:</strong> Break-glass exports are logged, audited, and require approval from 
+                  two separate administrators. Use only in genuine emergencies.
+                </p>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-400 mb-2">Urgency Level</label>
+                <select
+                  value={breakGlassUrgency}
+                  onChange={(e) => setBreakGlassUrgency(e.target.value as any)}
+                  className="w-full px-4 py-3 bg-sovereign-base border border-sovereign-border rounded-lg"
+                >
+                  <option value="high">High - Response within 4 hours</option>
+                  <option value="critical">Critical - Response within 1 hour</option>
+                  <option value="emergency">Emergency - Immediate response required</option>
+                </select>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-400 mb-2">Justification (required)</label>
+                <textarea
+                  value={breakGlassJustification}
+                  onChange={(e) => setBreakGlassJustification(e.target.value)}
+                  placeholder="Explain why emergency access is required..."
+                  rows={4}
+                  className="w-full px-4 py-3 bg-sovereign-base border border-sovereign-border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500/50 resize-none"
+                />
+              </div>
+            </div>
+            <div className="p-4 border-t border-sovereign-border flex justify-end gap-3">
+              <button onClick={() => setShowBreakGlass(false)} className="px-4 py-2 text-gray-400 hover:text-white">
+                Cancel
+              </button>
+              <button
+                onClick={handleBreakGlassRequest}
+                disabled={!breakGlassJustification}
+                className="px-4 py-2 bg-red-600 text-white rounded-lg font-medium hover:bg-red-500 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+              >
+                <AlertOctagon className="w-4 h-4" />
+                Request Break-glass Export
+              </button>
             </div>
           </div>
         </div>

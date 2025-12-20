@@ -9,6 +9,7 @@ export { TestEvidenceLedgerService } from './TestEvidenceLedgerService.js';
 export { SignedTestReportService } from './SignedTestReportService.js';
 export { ComplianceDashboardService } from './ComplianceDashboardService.js';
 export { EvidenceExportService } from './EvidenceExportService.js';
+export { evidenceVaultService } from './EvidenceVaultService.js';
 
 // Types from TestEvidenceLedgerService
 export type {
