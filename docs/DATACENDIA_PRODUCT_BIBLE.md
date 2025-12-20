@@ -276,10 +276,101 @@ All AI agents support **easy model switching** with 35+ Ollama models available.
 | **Autopilot** | Autonomous operations mode |
 | **Genomics** | Data lineage at the field level |
 | **Defense Stack** | Enterprise security hardening |
-| **OmniTranslate** | Real-time translation (20+ languages) |
+| **OmniTranslate** | Real-time translation (100+ languages) |
 | **Veto** | Decision override controls |
 | **Union** | Cross-org collaboration |
-| **Ledger** | Immutable audit trail |
+| **Ledger** | Immutable decision blockchain |
+| **Evidence Vault** | Global decision packet management |
+| **Dissent** | Protected whistleblower channels |
+| **Cascade** | Decision consequence engineering |
+| **Crisis Management** | Incident response coordination |
+| **Apotheosis** | Self-improving AI with safety rails |
+
+## Evidence Vault
+
+Universal access to decision packets with RBAC controls. Features include:
+
+| Capability | Description |
+|------------|-------------|
+| **Packet Management** | View, generate, lock, export decision packets |
+| **Send to Approvers** | Multi-approver workflow with tracking |
+| **Attach Evidence** | File upload with categorization (evidence/supporting/reference/legal) |
+| **Lock & Finalize** | Cryptographic signature on finalization |
+| **Break-glass Export** | Emergency access with dual admin approval |
+| **Related Decisions** | Query related packets by entity |
+| **RBAC Enforcement** | 7 roles with granular permissions |
+
+### RBAC Roles
+- `viewer` - View-only access to approved packets
+- `decision_owner` - Create and manage own packets
+- `council_operator` - Operate council sessions
+- `approver` - Approve/reject packets
+- `risk_compliance` - Compliance oversight
+- `auditor` - Audit access to locked packets
+- `admin` - Full administrative access
+
+## Vertical Configuration
+
+Industry-specific service bundles with toggleable access. Organizations can select their vertical and customize which services are enabled.
+
+### Features
+| Feature | Description |
+|---------|-------------|
+| **Service Catalog** | 35+ services with metadata (tier, category, isCore) |
+| **Vertical Templates** | 24 pre-configured industry verticals |
+| **Toggle Services** | Enable/disable individual services per organization |
+| **Bulk Toggle** | Enable/disable multiple services at once |
+| **Vertical Switching** | Switch verticals with option to preserve customizations |
+| **Navigation Gating** | Automatically hide disabled services from navigation |
+| **Access Checks** | Runtime `isServiceEnabled()` for feature gating |
+
+### Industry Verticals (24)
+
+#### Core Verticals (7)
+| Icon | Vertical | Description | Default Services |
+|------|----------|-------------|------------------|
+| 🏦 | Financial Services | Banks, Asset Managers, Insurance | 11 services |
+| 🏥 | Healthcare / Life Sciences | Hospitals, Pharma, Biotech | 11 services |
+| 🏭 | Manufacturing / Supply Chain | Automotive, Aerospace, CPG | 12 services |
+| 💻 | Technology / SaaS | Software Companies, Cloud Providers | 11 services |
+| ⚡ | Energy / Utilities | Oil & Gas, Power, Renewables | 10 services |
+| 🏛️ | Government / Public Sector | Federal, State, Defense | 12 services |
+| ⚖️ | Legal / Professional Services | Law Firms, Consulting | 10 services |
+
+#### High-Value Verticals (10)
+| Icon | Vertical | Description | Default Services |
+|------|----------|-------------|------------------|
+| 🛒 | Retail / E-Commerce | Retailers, D2C Brands, Marketplaces | 10 services |
+| 🏠 | Real Estate / PropTech | REITs, Property Management | 9 services |
+| 📡 | Telecommunications | Carriers, ISPs, Network Operators | 10 services |
+| ✈️ | Hospitality / Travel | Hotels, Airlines, OTAs | 10 services |
+| 📚 | Education / EdTech | Universities, K-12, LMS Providers | 10 services |
+| 🎬 | Media / Entertainment | Studios, Streaming, Gaming | 10 services |
+| 🌾 | Agriculture / AgTech | Farms, Food Supply Chain | 10 services |
+| 🚚 | Logistics / Transportation | Freight, 3PL, Shipping | 10 services |
+| 🛡️ | Insurance (Specialized) | P&C, Reinsurance, InsurTech | 10 services |
+| 🤝 | Non-Profit / NGO | Foundations, Aid Organizations | 10 services |
+
+#### Specialized / Niche Verticals (6)
+| Icon | Vertical | Description | Default Services |
+|------|----------|-------------|------------------|
+| 🏗️ | Construction / Engineering | Contractors, AEC, Infrastructure | 10 services |
+| ⛏️ | Mining / Resources | Mining, Forestry, Natural Resources | 10 services |
+| 🚀 | Aerospace / Defense | Defense Contractors, Space, Aviation | 12 services |
+| 💊 | Pharmaceuticals | Clinical Trials, Drug Development | 11 services |
+| 🚗 | Automotive | OEMs, Tier 1 Suppliers, EV Manufacturers | 11 services |
+| 🏆 | Sports / Entertainment | Leagues, Teams, Venues, Esports | 10 services |
+
+#### Custom
+| Icon | Vertical | Description |
+|------|----------|-------------|
+| ⚙️ | Custom Configuration | Build your own service bundle (3 core services) |
+
+### Core Services (Always On)
+These services cannot be disabled:
+- 🏛️ **CendiaCouncil™** - AI-powered multi-agent deliberation
+- 📒 **CendiaLedger™** - Immutable decision blockchain
+- 🗄️ **Evidence Vault** - Global decision packet management
 
 ## Sovereign Tier
 
@@ -288,9 +379,15 @@ All AI agents support **easy model switching** with 35+ Ollama models available.
 | **Crucible** | Advanced model training |
 | **Panopticon** | Enterprise-wide visibility |
 | **Aegis** | Advanced threat protection |
-| **Eternal** | Long-term data preservation |
-| **Symbiont** | Human-AI collaboration |
+| **Eternal** | Long-term data preservation (Time-Lock) |
+| **Symbiont** | Human-AI collaboration (Local RLHF) |
 | **Vox** | Enterprise voice assistant |
+| **Data Diode** | Unidirectional secure data ingest |
+| **TPM Attestation** | Hardware-signed decisions |
+| **Federated Mesh** | Multi-org learning without data sharing |
+| **QR Air-Gap Bridge** | Animated QR for disconnected operations |
+| **Canary Tripwire** | Exfiltration detection |
+| **Portable Instance** | USB-bootable deployment |
 
 ---
 
@@ -441,6 +538,75 @@ GET  /pillars/ethics/assessments
 GET  /pillars/health/status
 ```
 
+## Evidence Vault
+```http
+GET  /evidence-vault/packets
+POST /evidence-vault/packets/generate
+POST /evidence-vault/packets/:id/send-to-approvers
+POST /evidence-vault/packets/:id/attach-evidence
+POST /evidence-vault/packets/:id/lock
+POST /evidence-vault/packets/:id/export
+POST /evidence-vault/packets/:id/break-glass-export
+GET  /evidence-vault/decisions/related
+```
+
+## Vertical Configuration
+```http
+GET  /vertical-config/services
+GET  /vertical-config/services/:id
+GET  /vertical-config/verticals
+GET  /vertical-config/verticals/:id
+GET  /vertical-config/verticals/:id/recommended
+GET  /vertical-config/organization
+POST /vertical-config/organization
+PUT  /vertical-config/organization
+POST /vertical-config/organization/switch-vertical
+POST /vertical-config/toggle/:serviceId
+POST /vertical-config/toggle-bulk
+GET  /vertical-config/enabled
+GET  /vertical-config/disabled
+GET  /vertical-config/check/:serviceId
+```
+
+## Sovereign Architecture
+```http
+POST /sovereign-arch/diode/ingest
+GET  /sovereign-arch/diode/queue
+POST /sovereign-arch/rlhf/feedback
+GET  /sovereign-arch/rlhf/datasets
+POST /sovereign-arch/dna/export
+GET  /sovereign-arch/shadow/sessions
+POST /sovereign-arch/replay/capture
+POST /sovereign-arch/qr/encode
+GET  /sovereign-arch/canary/tripwires
+POST /sovereign-arch/tpm/sign
+POST /sovereign-arch/timelock/create
+GET  /sovereign-arch/mesh/models
+POST /sovereign-arch/portable/generate
+```
+
+## OmniTranslate
+```http
+POST /omnitranslate/translate
+POST /omnitranslate/detect
+POST /omnitranslate/batch
+GET  /omnitranslate/languages
+POST /omnitranslate/glossary
+GET  /omnitranslate/memory
+```
+
+## Apotheosis & Dissent
+```http
+GET  /apotheosis/dashboard
+GET  /apotheosis/escalations
+POST /apotheosis/patterns/ban
+GET  /apotheosis/upskilling
+POST /dissent/file
+GET  /dissent/cases
+POST /dissent/:id/respond
+GET  /dissent/analytics
+```
+
 ---
 
 # SECURITY & COMPLIANCE
@@ -538,11 +704,14 @@ GET  /pillars/health/status
 | Total AI Agents | 30 |
 | Personality Traits | 60 |
 | Available Models | 35+ |
-| Backend Services | 37+ |
-| API Endpoints | 100+ |
-| Frontend Routes | 100+ |
-| Supported Languages | 20+ |
-| Database Tables | 50+ |
+| Backend Services | 50+ |
+| API Endpoints | 150+ |
+| Frontend Routes | 120+ |
+| Supported Languages | 100+ |
+| Database Tables | 60+ |
+| Industry Verticals | 24 |
+| Toggleable Services | 35+ |
+| RBAC Roles | 7 |
 
 ## File Structure
 
@@ -550,29 +719,64 @@ GET  /pillars/health/status
 datacendia-components/
 ├── src/
 │   ├── components/          # React Components
+│   ├── contexts/            # React Context Providers
+│   │   ├── AuthContext.tsx
+│   │   ├── DataSourceContext.tsx
+│   │   ├── LanguageContext.tsx
+│   │   └── VerticalConfigContext.tsx
 │   ├── pages/               # Page Components
+│   │   └── cortex/
+│   │       ├── admin/       # Admin Pages (Vertical Config)
+│   │       ├── council/     # Council Pages
+│   │       ├── crown/       # Crown Jewels (Echo, RedTeam, Gnosis)
+│   │       ├── enterprise/  # Enterprise Features
+│   │       └── intelligence/ # Decision Intelligence
+│   ├── services/            # Frontend API Services
+│   │   ├── EvidenceVaultService.ts
+│   │   ├── VerticalConfigService.ts
+│   │   └── ...
 │   ├── lib/
 │   │   ├── agents/          # Agent Configuration
-│   │   ├── i18n/            # Internationalization
+│   │   ├── i18n/            # Internationalization (100+ languages)
+│   │   ├── api/             # API Client
 │   │   └── ollama/          # AI Integration
 │   ├── layouts/             # Layout Components
 │   └── routes.tsx           # Route Definitions
 ├── backend/
 │   ├── src/
 │   │   ├── routes/          # API Routes
+│   │   │   ├── evidence-vault.ts
+│   │   │   ├── vertical-config.ts
+│   │   │   ├── sovereign-arch.ts
+│   │   │   └── ...
 │   │   ├── services/        # Business Logic
+│   │   │   ├── evidence/    # Evidence Vault
+│   │   │   ├── enterprise/  # Enterprise (Vertical Config)
+│   │   │   ├── sovereign/   # Sovereign Tier
+│   │   │   └── ...
+│   │   ├── security/        # Keycloak, PolicyEngine
 │   │   ├── middleware/      # Express Middleware
 │   │   └── config/          # Configuration
 │   └── prisma/              # Database Schema
+├── infrastructure/          # Docker, Tempo, Falco configs
+├── scripts/                 # SBOM generation, deployment
 ├── tests/                   # Test Suite
 └── docs/                    # Documentation
 ```
 
 ---
 
-**Document Version:** 2.0  
-**Last Updated:** December 2024  
+**Document Version:** 3.0  
+**Last Updated:** December 19, 2024  
 **Classification:** Internal / Confidential
+
+### Changelog v3.0
+- Added Evidence Vault with RBAC controls
+- Added Vertical Configuration with 24 industry verticals
+- Added Navigation Gating based on enabled services
+- Expanded Sovereign Tier with 12 features
+- Updated API Reference with 60+ new endpoints
+- Updated Quick Stats with current metrics
 
 ---
 
