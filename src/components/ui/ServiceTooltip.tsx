@@ -77,7 +77,7 @@ export const ServiceTooltip: React.FC<ServiceTooltipProps> = ({
   }
 
   // Handle click outside to close
-  useEffect(() => {
+  useEffect((): (() => void) | undefined => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
         tooltipRef.current &&
@@ -93,6 +93,7 @@ export const ServiceTooltip: React.FC<ServiceTooltipProps> = ({
       document.addEventListener('mousedown', handleClickOutside);
       return () => document.removeEventListener('mousedown', handleClickOutside);
     }
+    return undefined;
   }, [isOpen, variant]);
 
   // Position classes

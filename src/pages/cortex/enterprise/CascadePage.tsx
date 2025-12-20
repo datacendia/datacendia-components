@@ -340,7 +340,7 @@ const CascadePage: React.FC = () => {
                       graphNodes: graphStats?.nodeCount || 0,
                       graphEdges: graphStats?.edgeCount || 0,
                     },
-                    suggestedMode: selectedReport?.totalRiskScore > 70 ? 'crisis' : 'due-diligence',
+                    suggestedMode: (selectedReport?.totalRiskScore ?? 0) > 70 ? 'crisis' : 'due-diligence',
                   };
                   sessionStorage.setItem('councilQueryContext', JSON.stringify(ctx));
                   window.location.href = '/cortex/council?fromContext=true';
@@ -627,9 +627,9 @@ const CascadePage: React.FC = () => {
                           : 'bg-gray-900 border-gray-800 hover:border-gray-700'
                       }`}
                     >
-                      <div className="font-medium">{report.title}</div>
+                      <div className="font-medium">{report.changeSpec?.title || 'Untitled Report'}</div>
                       <div className="text-sm text-gray-400 mt-1">
-                        {report.consequenceCount} consequences • Risk: {report.totalRiskScore}
+                        {report.consequences?.length || 0} consequences • Risk: {report.totalRiskScore}
                       </div>
                       <div className="mt-2">
                         <RecommendationBadge recommendation={report.recommendation} />

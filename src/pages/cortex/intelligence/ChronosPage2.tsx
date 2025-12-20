@@ -4099,6 +4099,7 @@ const CouncilTheater: React.FC<{
     } else if (currentPhase >= (replay?.phases.length || 0) - 1) {
       setIsPlaying(false);
     }
+    return undefined;
   }, [isPlaying, currentPhase, replay]);
 
   if (!replay) {

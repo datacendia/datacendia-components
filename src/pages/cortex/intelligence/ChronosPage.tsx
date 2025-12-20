@@ -2135,7 +2135,7 @@ const generateRedactedExport = (
     },
   ];
 
-  const originalHash = generateHash(JSON.stringify(originalData));
+  const originalHash = generateHash(JSON.stringify(_originalData));
   const redactedHash = generateHash(originalHash + '-redacted-' + Date.now());
   
   const chainOfCustody: RedactedExport['chainOfCustody'] = [

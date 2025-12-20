@@ -521,7 +521,7 @@ export const CouncilVideoSimulation: React.FC<CouncilVideoSimulationProps> = ({
           )}>
             <div className="flex items-center justify-between mb-3">
               <span className="text-sm font-semibold text-white">
-                {simulation.phase === 'voting' ? 'Voting in Progress...' : 'Decision Reached'}
+                {(simulation.phase as string) === 'voting' ? 'Voting in Progress...' : 'Decision Reached'}
               </span>
               {simulation.phase === 'concluded' && (
                 <span className={cn(

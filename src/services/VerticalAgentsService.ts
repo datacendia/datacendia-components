@@ -67,6 +67,11 @@ export interface GlobalMetrics {
 // API SERVICE
 // =============================================================================
 
+interface ApiResponse<T> {
+  data: T;
+  success: boolean;
+}
+
 class VerticalAgentsApiService {
   private baseUrl = '/api/v1/vertical-agents';
 
@@ -75,14 +80,14 @@ class VerticalAgentsApiService {
   // ===========================================================================
 
   async getAllVerticals(): Promise<string[]> {
-    const response = await api.get(`${this.baseUrl}/verticals`);
-    return response.data.data;
+    const response = await api.get<ApiResponse<string[]>>(`${this.baseUrl}/verticals`);
+    return response.data?.data ?? [];
   }
 
   async getVerticalConfig(verticalId: string): Promise<VerticalAgentConfig | null> {
     try {
-      const response = await api.get(`${this.baseUrl}/verticals/${verticalId}`);
-      return response.data.data;
+      const response = await api.get<ApiResponse<VerticalAgentConfig>>(`${this.baseUrl}/verticals/${verticalId}`);
+      return response.data?.data ?? null;
     } catch (error) {
       console.error('Error fetching vertical config:', error);
       return null;
@@ -90,13 +95,13 @@ class VerticalAgentsApiService {
   }
 
   async getAgentsForVertical(verticalId: string): Promise<VerticalAgent[]> {
-    const response = await api.get(`${this.baseUrl}/verticals/${verticalId}/agents`);
-    return response.data.data;
+    const response = await api.get<ApiResponse<VerticalAgent[]>>(`${this.baseUrl}/verticals/${verticalId}/agents`);
+    return response.data?.data ?? [];
   }
 
   async getVerticalMetrics(verticalId: string): Promise<VerticalMetrics> {
-    const response = await api.get(`${this.baseUrl}/verticals/${verticalId}/metrics`);
-    return response.data.data;
+    const response = await api.get<ApiResponse<VerticalMetrics>>(`${this.baseUrl}/verticals/${verticalId}/metrics`);
+    return response.data?.data ?? { totalAgents: 0, activeAgents: 0, totalDecisionsToday: 0, avgResponseTime: 0, avgSuccessRate: 0 };
   }
 
   // ===========================================================================
@@ -104,19 +109,19 @@ class VerticalAgentsApiService {
   // ===========================================================================
 
   async getAllAgents(): Promise<{ verticalId: string; agents: VerticalAgent[] }[]> {
-    const response = await api.get(`${this.baseUrl}/agents`);
-    return response.data.data;
+    const response = await api.get<ApiResponse<{ verticalId: string; agents: VerticalAgent[] }[]>>(`${this.baseUrl}/agents`);
+    return response.data?.data ?? [];
   }
 
   async searchAgents(query: string): Promise<VerticalAgent[]> {
-    const response = await api.get(`${this.baseUrl}/agents/search`, { params: { q: query } });
-    return response.data.data;
+    const response = await api.get<ApiResponse<VerticalAgent[]>>(`${this.baseUrl}/agents/search?q=${encodeURIComponent(query)}`);
+    return response.data?.data ?? [];
   }
 
   async getAgent(agentId: string): Promise<VerticalAgent | null> {
     try {
-      const response = await api.get(`${this.baseUrl}/agents/${agentId}`);
-      return response.data.data;
+      const response = await api.get<ApiResponse<VerticalAgent>>(`${this.baseUrl}/agents/${agentId}`);
+      return response.data?.data ?? null;
     } catch (error) {
       console.error('Error fetching agent:', error);
       return null;
@@ -125,8 +130,8 @@ class VerticalAgentsApiService {
 
   async getAgentMetrics(agentId: string): Promise<AgentMetrics | null> {
     try {
-      const response = await api.get(`${this.baseUrl}/agents/${agentId}/metrics`);
-      return response.data.data;
+      const response = await api.get<ApiResponse<AgentMetrics>>(`${this.baseUrl}/agents/${agentId}/metrics`);
+      return response.data?.data ?? null;
     } catch (error) {
       console.error('Error fetching agent metrics:', error);
       return null;
@@ -134,8 +139,8 @@ class VerticalAgentsApiService {
   }
 
   async getAgentActivity(agentId: string, limit: number = 50): Promise<AgentActivity[]> {
-    const response = await api.get(`${this.baseUrl}/agents/${agentId}/activity`, { params: { limit } });
-    return response.data.data;
+    const response = await api.get<ApiResponse<AgentActivity[]>>(`${this.baseUrl}/agents/${agentId}/activity?limit=${limit}`);
+    return response.data?.data ?? [];
   }
 
   // ===========================================================================
@@ -143,13 +148,13 @@ class VerticalAgentsApiService {
   // ===========================================================================
 
   async getGlobalMetrics(): Promise<GlobalMetrics> {
-    const response = await api.get(`${this.baseUrl}/metrics`);
-    return response.data.data;
+    const response = await api.get<ApiResponse<GlobalMetrics>>(`${this.baseUrl}/metrics`);
+    return response.data?.data ?? { totalVerticals: 0, totalAgents: 0, totalDecisionsToday: 0, topAgents: [] };
   }
 
   async getRecentActivity(limit: number = 50): Promise<AgentActivity[]> {
-    const response = await api.get(`${this.baseUrl}/activity`, { params: { limit } });
-    return response.data.data;
+    const response = await api.get<ApiResponse<AgentActivity[]>>(`${this.baseUrl}/activity?limit=${limit}`);
+    return response.data?.data ?? [];
   }
 
   async recordActivity(activity: {
@@ -160,8 +165,8 @@ class VerticalAgentsApiService {
     duration?: number;
     success?: boolean;
   }): Promise<AgentActivity> {
-    const response = await api.post(`${this.baseUrl}/activity`, activity);
-    return response.data.data;
+    const response = await api.post<ApiResponse<AgentActivity>>(`${this.baseUrl}/activity`, activity);
+    return response.data?.data as AgentActivity;
   }
 
   // ===========================================================================
@@ -169,8 +174,8 @@ class VerticalAgentsApiService {
   // ===========================================================================
 
   async healthCheck(): Promise<{ status: string; details: Record<string, unknown> }> {
-    const response = await api.get(`${this.baseUrl}/health`);
-    return response.data.data;
+    const response = await api.get<ApiResponse<{ status: string; details: Record<string, unknown> }>>(`${this.baseUrl}/health`);
+    return response.data?.data ?? { status: 'unknown', details: {} };
   }
 }
 
@@ -179,8 +184,10 @@ export const verticalAgentsApi = new VerticalAgentsApiService();
 
 // =============================================================================
 // REACT HOOKS (for convenience)
+// Requires @tanstack/react-query to be installed
 // =============================================================================
 
+// @ts-ignore - Optional dependency
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 
 export const useVerticals = () => {

@@ -3,13 +3,13 @@
 // =============================================================================
 
 import React, { useState, useRef, useEffect, createContext, useContext } from 'react';
-import { cn, generateId } from '../lib/utils';
+import { cn } from '../lib/utils';
 import type {
   SidebarProps,
   SidebarItemProps,
   SidebarSectionProps,
   HeaderProps,
-  Tab,
+  Tab as _Tab,
   TabsProps,
   BreadcrumbProps,
   PaginationProps,
@@ -33,7 +33,7 @@ const SidebarContext = createContext<SidebarContextValue>({ isCollapsed: false }
 
 export const Sidebar: React.FC<SidebarProps> = ({
   isCollapsed = false,
-  onToggle,
+  onToggle: _onToggle,
   width = 256,
   collapsedWidth = 64,
   children,
@@ -571,7 +571,7 @@ export const Menu: React.FC<MenuProps> = ({
     right: 'left-full ml-1',
   };
 
-  const renderMenuItem = (item: MenuItem, index: number) => {
+  const renderMenuItem = (item: MenuItem, _index: number) => {
     if (item.children) {
       return (
         <Menu

@@ -3,7 +3,7 @@
 // =============================================================================
 
 import React, { forwardRef, useState } from 'react';
-import { cn, formatNumber, formatRelativeTime, formatPercent } from '../lib/utils';
+import { cn, formatRelativeTime, formatPercent } from '../lib/utils';
 import type {
   TableProps,
   TableColumn,
@@ -17,7 +17,7 @@ import type {
   ProgressProps,
   CircularProgressProps,
   TimelineProps,
-  TimelineItem,
+  TimelineItem as _TimelineItem,
   TreeProps,
   TreeNode,
 } from '../lib/types';
@@ -603,7 +603,7 @@ export const Timeline: React.FC<TimelineProps> = ({
               {index > 0 && (
                 <div className={cn(
                   'flex-1 h-0.5',
-                  items[index - 1].status === 'completed' ? 'bg-success-main' : 'bg-neutral-200'
+                  items[index - 1]?.status === 'completed' ? 'bg-success-main' : 'bg-neutral-200'
                 )} />
               )}
               <div className={cn(

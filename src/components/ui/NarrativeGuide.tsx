@@ -197,6 +197,7 @@ export const NarrativeGuide: React.FC<NarrativeGuideProps> = ({
     } else if (isPlaying && currentStep === narrative.steps.length - 1) {
       setIsPlaying(false);
     }
+    return undefined;
   }, [isPlaying, currentStep, narrative.steps.length, autoPlayDelay]);
 
   // Notify parent of step changes
