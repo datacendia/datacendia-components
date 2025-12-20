@@ -6,7 +6,7 @@
 
 # EXECUTIVE SUMMARY
 
-**Datacendia** is an enterprise-grade AI intelligence platform that provides organizations with a unified nervous system for decision-making. Built on a foundation of 30 specialized AI agents, 8 foundational pillars, and 37+ backend services, Datacendia transforms how enterprises understand, predict, and act on their data.
+**Datacendia** is an enterprise-grade AI intelligence platform that provides organizations with a unified nervous system for decision-making. Built on a foundation of 30 specialized AI agents, 8 foundational pillars, and 50+ backend services (37 core + 13 enterprise modules), Datacendia transforms how enterprises understand, predict, and act on their data.
 
 **Platform Vision:** "The Thinking Enterprise" - An organization that learns, adapts, and decides with intelligence at every level.
 
@@ -47,9 +47,11 @@
 
 | Environment | Specification |
 |-------------|---------------|
-| **Minimum** | 8 CPU cores, 32GB RAM, 100GB SSD |
+| **Minimum (CPU-only)** | 8 CPU cores, 32GB RAM, 100GB SSD (supports 1B-3B models) |
 | **Recommended** | 16 CPU cores, 64GB RAM, 500GB NVMe |
-| **Enterprise** | 32+ CPU cores, 128GB+ RAM, GPU (NVIDIA RTX 4090 or better) |
+| **Enterprise (GPU)** | 32+ CPU cores, 128GB+ RAM, 24GB+ VRAM GPU (L40S, A100, or equivalent) |
+
+*Note: CPU-only deployments are fully supported with smaller models (1B-7B). GPU acceleration recommended for 32B+ models and high-throughput workloads.*
 
 ---
 
@@ -279,7 +281,7 @@ All AI agents support **easy model switching** with 35+ Ollama models available.
 | **OmniTranslate** | Real-time translation (100+ languages) |
 | **Veto** | Decision override controls |
 | **Union** | Cross-org collaboration |
-| **Ledger** | Immutable decision blockchain |
+| **Ledger** | Immutable decision record (hash chain) |
 | **Evidence Vault** | Global decision packet management |
 | **Dissent** | Protected whistleblower channels |
 | **Cascade** | Decision consequence engineering |
@@ -308,6 +310,146 @@ Universal access to decision packets with RBAC controls. Features include:
 - `risk_compliance` - Compliance oversight
 - `auditor` - Audit access to locked packets
 - `admin` - Full administrative access
+
+## CendiaLedger™ Design
+
+The Ledger provides tamper-evident decision records using an append-only hash chain architecture.
+
+### Architecture
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  LEDGER ENTRY STRUCTURE                                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  Entry N-1          Entry N              Entry N+1              │
+│  ┌─────────┐       ┌─────────┐          ┌─────────┐            │
+│  │ data    │       │ data    │          │ data    │            │
+│  │ hash    │──────▶│ prev    │─────────▶│ prev    │            │
+│  │ sig     │       │ hash    │          │ hash    │            │
+│  └─────────┘       │ sig     │          │ sig     │            │
+│                    └─────────┘          └─────────┘            │
+│                                                                 │
+│  Each entry contains:                                           │
+│  • SHA-256 hash of entry content                                │
+│  • Reference to previous entry hash (chain linkage)             │
+│  • Digital signature (Ed25519 or RSA-2048)                      │
+│  • Timestamp with cryptographic attestation                     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Tamper-Evidence Guarantees
+| Mechanism | Description |
+|-----------|-------------|
+| **Hash Chain** | Each entry references previous hash; any modification breaks chain |
+| **Digital Signatures** | Entries signed by originating user/system |
+| **Timestamp Attestation** | RFC 3161-compatible timestamping |
+| **Merkle Tree Anchoring** | Optional anchoring to external systems (blockchain, notary) |
+| **Witness Nodes** | Optional distributed witnesses for high-assurance environments |
+
+### Verification
+Auditors can verify ledger integrity by:
+1. Recomputing hash chain from genesis entry
+2. Validating signatures against known keys
+3. Checking timestamps against attestation service
+4. Comparing Merkle roots with external anchors (if configured)
+
+## Decision Lifecycle
+
+Decision packets progress through defined states with specific allowed actions at each stage.
+
+### States
+
+```
+┌─────────┐    ┌──────────────┐    ┌──────────┐    ┌────────┐
+│  DRAFT  │───▶│ UNDER_REVIEW │───▶│ APPROVED │───▶│ LOCKED │
+└─────────┘    └──────────────┘    └──────────┘    └────────┘
+     │                │                  │              │
+     ▼                ▼                  ▼              ▼
+ ┌────────┐      ┌────────┐        ┌──────────┐   ┌────────────┐
+ │REJECTED│      │REJECTED│        │SUPERSEDED│   │BREAK-GLASS │
+ └────────┘      └────────┘        └──────────┘   └────────────┘
+```
+
+### State Transitions & Allowed Actions
+
+| State | Allowed Actions | Who Can Act |
+|-------|-----------------|-------------|
+| **Draft** | Edit, Delete, Send to Approvers, Attach Evidence | decision_owner, admin |
+| **Under Review** | Approve, Reject, Request Changes, View | approver, risk_compliance, admin |
+| **Approved** | Lock, Export, Re-run Deliberation, Supersede | decision_owner, admin |
+| **Locked** | Export, View, Break-glass Export | auditor, admin (break-glass requires dual approval) |
+| **Rejected** | View, Clone to New Draft | decision_owner, admin |
+| **Superseded** | View (read-only historical record) | viewer, auditor |
+
+### Lock & Finalize Process
+1. Owner triggers "Lock" action
+2. System generates Merkle tree of all packet contents
+3. Hash chain entry created with packet manifest
+4. Digital signature applied (user key or HSM)
+5. Timestamp attestation obtained
+6. Packet state transitions to LOCKED
+7. No further modifications allowed (except break-glass)
+
+## Verification Workflow
+
+How an auditor verifies a decision packet's integrity and authenticity.
+
+### Verification Steps
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  PACKET VERIFICATION WORKFLOW                                   │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  1. MANIFEST CHECK                                              │
+│     └─▶ Verify packet manifest lists all artifacts              │
+│         • Deliberation transcript                               │
+│         • Agent contributions                                   │
+│         • Attached evidence files                               │
+│         • Approval chain                                        │
+│                                                                 │
+│  2. HASH VERIFICATION                                           │
+│     └─▶ Recompute SHA-256 of each artifact                      │
+│     └─▶ Compare against manifest hashes                         │
+│     └─▶ Verify Merkle root matches ledger entry                 │
+│                                                                 │
+│  3. SIGNATURE VALIDATION                                        │
+│     └─▶ Extract signer public key from certificate              │
+│     └─▶ Verify signature over Merkle root                       │
+│     └─▶ Validate certificate chain to trusted root              │
+│                                                                 │
+│  4. TIMESTAMP VERIFICATION                                      │
+│     └─▶ Verify RFC 3161 timestamp token                         │
+│     └─▶ Confirm timestamp predates any claimed decision date    │
+│                                                                 │
+│  5. CHAIN INTEGRITY                                             │
+│     └─▶ Traverse hash chain from this entry to genesis          │
+│     └─▶ Verify no broken links or modified entries              │
+│                                                                 │
+│  ✅ VERIFICATION COMPLETE                                       │
+│     └─▶ Generate verification report with all checks            │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### Verification Report Contents
+
+| Section | Contents |
+|---------|----------|
+| **Packet Identity** | Packet ID, title, decision owner, creation date |
+| **Manifest** | List of all artifacts with individual hash status |
+| **Signature** | Signer identity, certificate validity, signature status |
+| **Timestamp** | Attestation timestamp, TSA identity, validity |
+| **Chain Position** | Entry number, previous/next hashes, chain integrity |
+| **Overall Status** | VERIFIED / FAILED with detailed failure reasons |
+
+### API for Verification
+```http
+GET  /evidence-vault/packets/:id/verify
+POST /evidence-vault/packets/:id/verify-external
+GET  /evidence-vault/packets/:id/verification-report
+```
 
 ## Vertical Configuration
 
@@ -624,19 +766,28 @@ GET  /dissent/analytics
 | **Audit Logging** | Complete activity trail |
 | **Encryption** | TLS 1.3, AES-256 at rest |
 
-## Compliance Ready
+## Compliance Architecture
 
-- SOC 2 Type II
-- GDPR
-- HIPAA
-- CCPA
-- ISO 27001
+Datacendia is architected for enterprise compliance with control mapping and evidence generation capabilities.
+
+| Framework | Status | Description |
+|-----------|--------|-------------|
+| **SOC 2 Type II** | 🟡 Control-mapped | Architecture supports all controls; evidence-ready |
+| **GDPR** | ✅ Compliant | Data residency, right-to-erasure, consent management |
+| **HIPAA** | 🟡 Control-mapped | BAA-ready; PHI encryption and audit controls |
+| **CCPA** | ✅ Compliant | Consumer data rights and opt-out mechanisms |
+| **ISO 27001** | 🟡 Control-mapped | ISMS controls implemented; certification in planning |
+
+*Note: "Control-mapped" indicates architecture implements required controls with evidence generation. Formal certification available upon request for Enterprise customers.*
 
 ---
 
 # INTERNATIONALIZATION
 
-## Supported Languages (20+)
+## Language Support
+
+### UI Localizations (20+)
+Full in-product translations for 20+ languages:
 
 | Code | Language | Status |
 |------|----------|--------|
@@ -660,6 +811,20 @@ GET  /dissent/analytics
 | id | Indonesian | ✅ Complete |
 | ms | Malay | ✅ Complete |
 | tr | Turkish | ✅ Complete |
+
+### CendiaOmniTranslate™ (100+ Languages)
+Runtime translation capability for decision content, documents, and communications:
+
+| Feature | Description |
+|---------|-------------|
+| **Languages** | 100+ languages including low-resource languages |
+| **RTL Support** | Arabic, Hebrew, Urdu, Persian, and others |
+| **Auto-Detection** | Automatic source language identification |
+| **Glossary** | Enterprise glossary management for consistency |
+| **Translation Memory** | Caching for consistent terminology |
+| **Document Translation** | Decisions, summaries, and reports |
+
+*Note: UI Localizations (20+) = fully translated interface. OmniTranslate (100+) = runtime translation of content.*
 
 ---
 
@@ -704,10 +869,11 @@ GET  /dissent/analytics
 | Total AI Agents | 30 |
 | Personality Traits | 60 |
 | Available Models | 35+ |
-| Backend Services | 50+ |
+| Backend Services | 50+ (37 core + 13 enterprise) |
 | API Endpoints | 150+ |
 | Frontend Routes | 120+ |
-| Supported Languages | 100+ |
+| UI Localizations | 20+ |
+| OmniTranslate Languages | 100+ |
 | Database Tables | 60+ |
 | Industry Verticals | 24 |
 | Toggleable Services | 35+ |
@@ -766,9 +932,19 @@ datacendia-components/
 
 ---
 
-**Document Version:** 3.0  
+**Document Version:** 3.1  
 **Last Updated:** December 19, 2024  
 **Classification:** Internal / Confidential
+
+### Changelog v3.1
+- Fixed language claims: UI Localizations (20+) vs OmniTranslate (100+) now explicit
+- Fixed backend services count: 50+ (37 core + 13 enterprise modules)
+- Fixed compliance phrasing: "Control-mapped" with evidence-ready, not certified claims
+- Fixed hardware requirements: Datacenter GPU language (L40S, A100), CPU-only supported
+- Added CendiaLedger™ Design section with hash chain architecture
+- Added Decision Lifecycle section with state machine and RBAC actions
+- Added Verification Workflow section for auditor packet verification
+- Added verification API endpoints
 
 ### Changelog v3.0
 - Added Evidence Vault with RBAC controls

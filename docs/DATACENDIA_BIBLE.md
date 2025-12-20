@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 3.0** | **December 2024 Update**
+**Version 3.1** | **December 2024 Update**
 
 ---
 
@@ -2195,6 +2195,19 @@ ENABLE_CUSTOM_AGENTS=true
 ---
 
 ## Appendix E: Changelog
+
+### Version 3.1.0 (December 2024)
+
+#### Documentation Fixes
+- Fixed language claims: UI Localizations (20+) vs OmniTranslate (100+) now explicit
+- Fixed backend services count: 50+ (37 core + 13 enterprise modules)
+- Fixed compliance phrasing: "Control-mapped" with evidence-ready, not certified claims
+- Fixed hardware requirements: Datacenter GPU language (L40S, A100), CPU-only supported
+- Added CendiaLedger™ Design section with hash chain architecture
+- Added Decision Lifecycle section with state machine and RBAC actions
+- Added Verification Workflow section for auditor packet verification
+
+---
 
 ### Version 3.0.0 (December 2024)
 
