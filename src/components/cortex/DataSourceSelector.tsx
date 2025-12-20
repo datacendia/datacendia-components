@@ -241,8 +241,8 @@ export const DataSourceSelector: React.FC<DataSourceSelectorProps> = ({
       {/* Dropdown */}
       {isOpen && (
         <>
-          <div className="fixed inset-0 z-40" onClick={() => setIsOpen(false)} />
-          <div className="absolute top-full left-0 right-0 mt-1 bg-sovereign-card border border-sovereign-border rounded-xl shadow-2xl z-50 max-h-96 overflow-y-auto min-w-[320px]">
+          <div className="fixed inset-0 z-[9998]" onClick={() => setIsOpen(false)} />
+          <div className="absolute top-full left-0 right-0 mt-1 bg-sovereign-card border border-sovereign-border rounded-xl shadow-2xl z-[9999] max-h-96 overflow-y-auto min-w-[320px]">
             {/* Configured Sources Section */}
             {dataSources.length > 0 && (
               <>
