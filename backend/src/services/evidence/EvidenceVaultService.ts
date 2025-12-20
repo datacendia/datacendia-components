@@ -191,7 +191,6 @@ export interface RelatedDecision {
 // =============================================================================
 
 const generateSamplePackets = (): DecisionPacket[] => {
-  const now = new Date();
   const retentionDate = new Date();
   retentionDate.setFullYear(retentionDate.getFullYear() + 7);
 

@@ -5,7 +5,7 @@
  * Integrates with selected data source from DataSourceContext
  */
 
-import { apiClient } from '../lib/api';
+import { api } from '../lib/api/client';
 
 // =============================================================================
 // TYPES
@@ -204,21 +204,21 @@ export const evidenceVaultApi = {
     if (params.limit) queryParams.set('limit', params.limit.toString());
     if (params.offset) queryParams.set('offset', params.offset.toString());
 
-    const response = await apiClient.get(`${BASE_URL}/packets?${queryParams}`);
-    return response.data;
+    const response = await api.get<{ packets: DecisionPacket[]; total: number }>(`${BASE_URL}/packets?${queryParams}`);
+    return response.data as { packets: DecisionPacket[]; total: number };
   },
 
   async getPacketById(id: string): Promise<DecisionPacket> {
-    const response = await apiClient.get(`${BASE_URL}/packets/${id}`);
-    return response.data;
+    const response = await api.get<DecisionPacket>(`${BASE_URL}/packets/${id}`);
+    return response.data as DecisionPacket;
   },
 
   async getStats(dataSourceId?: string): Promise<PacketStats> {
     const url = dataSourceId 
       ? `${BASE_URL}/stats?dataSourceId=${dataSourceId}`
       : `${BASE_URL}/stats`;
-    const response = await apiClient.get(url);
-    return response.data;
+    const response = await api.get<PacketStats>(url);
+    return response.data as PacketStats;
   },
 
   // Packet generation
@@ -232,8 +232,8 @@ export const evidenceVaultApi = {
     complianceFrameworks: string[];
     policyPackVersion?: string;
   }): Promise<DecisionPacket> {
-    const response = await apiClient.post(`${BASE_URL}/packets/generate`, params);
-    return response.data;
+    const response = await api.post<DecisionPacket>(`${BASE_URL}/packets/generate`, params);
+    return response.data as DecisionPacket;
   },
 
   // Approval workflow
@@ -243,20 +243,20 @@ export const evidenceVaultApi = {
     message?: string,
     dueDate?: Date
   ): Promise<ApprovalWorkflow> {
-    const response = await apiClient.post(`${BASE_URL}/packets/${packetId}/send-to-approvers`, {
+    const response = await api.post<ApprovalWorkflow>(`${BASE_URL}/packets/${packetId}/send-to-approvers`, {
       approvers,
       message,
       dueDate: dueDate?.toISOString(),
     });
-    return response.data;
+    return response.data as ApprovalWorkflow;
   },
 
   async respondToApproval(
     packetId: string,
-    response: 'approved' | 'rejected',
+    responseVal: 'approved' | 'rejected',
     comment?: string
   ): Promise<void> {
-    await apiClient.post(`${BASE_URL}/workflows/${packetId}/respond`, { response, comment });
+    await api.post(`${BASE_URL}/workflows/${packetId}/respond`, { response: responseVal, comment });
   },
 
   // Attach evidence
@@ -271,16 +271,14 @@ export const evidenceVaultApi = {
     if (description) formData.append('description', description);
     formData.append('category', category);
 
-    const response = await apiClient.post(`${BASE_URL}/packets/${packetId}/attachments`, formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    });
-    return response.data;
+    const response = await api.post<Attachment>(`${BASE_URL}/packets/${packetId}/attachments`, formData);
+    return response.data as Attachment;
   },
 
   // Lock packet
   async lockPacket(packetId: string): Promise<DecisionPacket> {
-    const response = await apiClient.post(`${BASE_URL}/packets/${packetId}/lock`);
-    return response.data;
+    const response = await api.post<DecisionPacket>(`${BASE_URL}/packets/${packetId}/lock`);
+    return response.data as DecisionPacket;
   },
 
   // Break-glass export
@@ -289,37 +287,33 @@ export const evidenceVaultApi = {
     justification: string,
     urgencyLevel: BreakGlassExport['urgencyLevel']
   ): Promise<BreakGlassExport> {
-    const response = await apiClient.post(`${BASE_URL}/packets/${packetId}/break-glass`, {
+    const response = await api.post<BreakGlassExport>(`${BASE_URL}/packets/${packetId}/break-glass`, {
       justification,
       urgencyLevel,
     });
-    return response.data;
+    return response.data as BreakGlassExport;
   },
 
   async approveBreakGlassExport(breakGlassId: string): Promise<BreakGlassExport> {
-    const response = await apiClient.post(`${BASE_URL}/break-glass/${breakGlassId}/approve`);
-    return response.data;
+    const response = await api.post<BreakGlassExport>(`${BASE_URL}/break-glass/${breakGlassId}/approve`);
+    return response.data as BreakGlassExport;
   },
 
   async executeBreakGlassExport(breakGlassId: string): Promise<Blob> {
-    const response = await apiClient.get(`${BASE_URL}/break-glass/${breakGlassId}/execute`, {
-      responseType: 'blob',
-    });
-    return response.data;
+    const response = await api.get<Blob>(`${BASE_URL}/break-glass/${breakGlassId}/execute`);
+    return response.data as Blob;
   },
 
   // Export
   async exportPacket(packetId: string, format: 'pdf' | 'json' | 'bundle' = 'bundle'): Promise<Blob> {
-    const response = await apiClient.get(`${BASE_URL}/packets/${packetId}/export?format=${format}`, {
-      responseType: 'blob',
-    });
-    return response.data;
+    const response = await api.get<Blob>(`${BASE_URL}/packets/${packetId}/export?format=${format}`);
+    return response.data as Blob;
   },
 
   // Related decisions
   async getRelatedDecisions(entityType: string, entityId: string): Promise<RelatedDecision[]> {
-    const response = await apiClient.get(`${BASE_URL}/related/${entityType}/${entityId}`);
-    return response.data;
+    const response = await api.get<RelatedDecision[]>(`${BASE_URL}/related/${entityType}/${entityId}`);
+    return response.data as RelatedDecision[];
   },
 };
 
