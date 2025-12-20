@@ -17,6 +17,7 @@ export { OmniTranslatePage } from './OmniTranslatePage';
 export { VetoPage } from './VetoPage';
 export { UnionPage } from './UnionPage';
 export { LedgerPage } from './LedgerPage';
+export { EvidenceVaultPage } from './EvidenceVaultPage';
 export { ApotheosisPage } from './ApotheosisPage';
 export { DissentPage } from './DissentPage';
 

@@ -502,6 +502,15 @@ const enterpriseFeatures = [
     tier: 'Apex',
   },
   {
+    id: 'evidence-vault',
+    label: 'Evidence Vault',
+    icon: '🗄️',
+    path: '/cortex/enterprise/evidence-vault',
+    description: 'Global Decision Packet Access',
+    impact: 'High',
+    tier: 'Enterprise',
+  },
+  {
     id: 'apotheosis',
     label: 'CendiaApotheosis™',
     icon: '🦋',

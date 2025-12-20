@@ -261,6 +261,9 @@ const UnionPage = lazy(() =>
 const LedgerPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.LedgerPage }))
 );
+const EvidenceVaultPage = lazy(() =>
+  import('./pages/cortex/enterprise').then((m) => ({ default: m.EvidenceVaultPage }))
+);
 const ApotheosisPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.ApotheosisPage }))
 );
@@ -1510,6 +1513,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <LedgerPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'enterprise/evidence-vault',
+        element: (
+          <SuspenseWrapper>
+            <EvidenceVaultPage />
           </SuspenseWrapper>
         ),
       },

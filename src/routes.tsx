@@ -138,6 +138,7 @@ import {
   VetoPage,
   UnionPage,
   LedgerPage,
+  EvidenceVaultPage,
 } from './pages/cortex/enterprise';
 
 // Decision Consequence Engineering
@@ -566,6 +567,10 @@ export const router = createBrowserRouter([
       {
         path: 'enterprise/ledger',
         element: <LedgerPage />,
+      },
+      {
+        path: 'enterprise/evidence-vault',
+        element: <EvidenceVaultPage />,
       },
 
       // Decision Consequence Engineering
