@@ -4,11 +4,12 @@
 
 // File: src/layouts/CortexLayout.tsx
 
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { cn } from '../../lib/utils';
 import { DataSourceProvider } from '../contexts/DataSourceContext';
 import { LanguageProvider, LanguageSelector, useLanguage } from '../contexts/LanguageContext';
+import { useVerticalConfig } from '../contexts/VerticalConfigContext';
 import {
   DataSourceSelector,
   WorkflowIndicator,
@@ -683,6 +684,65 @@ const CortexLayoutInner: React.FC = () => {
   const navigate = useNavigate();
   const { t } = useLanguage();
   const { user, logout } = useAuth();
+  const { isServiceEnabled, isInitialized } = useVerticalConfig();
+
+  // Filter enterprise features based on enabled services
+  const filteredEnterpriseFeatures = useMemo(() => {
+    if (!isInitialized) return enterpriseFeatures;
+    
+    // Map nav item IDs to service IDs
+    const serviceIdMap: Record<string, string> = {
+      'govern': 'govern',
+      'autopilot': 'autopilot',
+      'voice': 'voice',
+      'mesh': 'mesh',
+      'sovereign': 'sovereign',
+      'genomics': 'genomics',
+      'defense-stack': 'defense-stack',
+      'omni-translate': 'omni-translate',
+      'veto': 'veto',
+      'union': 'union',
+      'ledger': 'ledger',
+      'evidence-vault': 'evidence-vault',
+      'apotheosis': 'apotheosis',
+      'dissent': 'dissent',
+      'cascade': 'cascade',
+      'crisis': 'crisis-management',
+      'audit-workflow': 'audit-workflow',
+      'training': 'training',
+      'vertical-config': 'vertical-config', // Admin always visible
+      'echo': 'echo',
+      'redteam': 'red-team',
+      'gnosis': 'gnosis',
+    };
+
+    return enterpriseFeatures.filter(feature => {
+      const serviceId = serviceIdMap[feature.id];
+      // Always show admin items and items without service mapping
+      if (!serviceId || feature.id === 'vertical-config') return true;
+      return isServiceEnabled(serviceId);
+    });
+  }, [isInitialized, isServiceEnabled]);
+
+  // Filter sovereign features based on enabled services
+  const filteredSovereignFeatures = useMemo(() => {
+    if (!isInitialized) return sovereignFeatures;
+    
+    const serviceIdMap: Record<string, string> = {
+      'crucible': 'sovereign',
+      'panopticon': 'panopticon',
+      'aegis': 'defense-stack',
+      'eternal': 'time-lock',
+      'symbiont': 'local-rlhf',
+      'vox': 'voice',
+    };
+
+    return sovereignFeatures.filter(feature => {
+      const serviceId = serviceIdMap[feature.id];
+      if (!serviceId) return true;
+      return isServiceEnabled(serviceId);
+    });
+  }, [isInitialized, isServiceEnabled]);
 
   const isActive = (path: string) => {
     if (path === '/cortex/dashboard') {
@@ -1069,7 +1129,7 @@ const CortexLayoutInner: React.FC = () => {
                         </p>
                       </div>
                       <div className="py-2 max-h-96 overflow-y-auto">
-                        {enterpriseFeatures.map((feature) => (
+                        {filteredEnterpriseFeatures.map((feature) => (
                           <button
                             key={feature.id}
                             onClick={() => {
@@ -1151,7 +1211,7 @@ const CortexLayoutInner: React.FC = () => {
                         </p>
                       </div>
                       <div className="py-2 max-h-96 overflow-y-auto">
-                        {sovereignFeatures.map((feature) => (
+                        {filteredSovereignFeatures.map((feature) => (
                           <button
                             key={feature.id}
                             onClick={() => {

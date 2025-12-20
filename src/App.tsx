@@ -7,6 +7,7 @@ import { RouterProvider } from 'react-router-dom';
 import { ToastProvider } from '../components/feedback';
 import { I18nProvider } from './lib/i18n';
 import { AuthProvider } from './contexts/AuthContext';
+import { VerticalConfigProvider } from './contexts/VerticalConfigContext';
 // Use lazy-loaded routes for better performance (code splitting)
 import { router } from './routes.lazy';
 import ErrorBoundary from './components/ErrorBoundary';
@@ -17,11 +18,13 @@ export const App: React.FC = () => {
     <ErrorBoundary>
       <I18nProvider>
         <AuthProvider>
-          <ToastProvider>
-            <RouterProvider router={router} />
-            {/* AI Tech Team - Auto-Heal Panel */}
-            <TechTeamPanel />
-          </ToastProvider>
+          <VerticalConfigProvider>
+            <ToastProvider>
+              <RouterProvider router={router} />
+              {/* AI Tech Team - Auto-Heal Panel */}
+              <TechTeamPanel />
+            </ToastProvider>
+          </VerticalConfigProvider>
         </AuthProvider>
       </I18nProvider>
     </ErrorBoundary>
