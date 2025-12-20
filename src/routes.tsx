@@ -2,12 +2,10 @@
 // DATACENDIA - APPLICATION ROUTES
 // =============================================================================
 
-import React from 'react';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 
 // Layouts
 import { CortexLayout } from './layouts/CortexLayout';
-import { PublicLayout } from './layouts/PublicLayout';
 import { SettingsLayout } from './pages/settings';
 import { AdminLayout } from './pages/admin';
 

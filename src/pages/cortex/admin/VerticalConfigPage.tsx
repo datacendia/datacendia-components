@@ -7,7 +7,6 @@ import React, { useState, useEffect, useCallback } from 'react';
 import {
   Settings,
   Check,
-  X,
   ChevronDown,
   ChevronRight,
   Shield,
@@ -45,17 +44,6 @@ interface VerticalTemplate {
   defaultServices: string[];
   recommendedServices: string[];
   excludedServices: string[];
-}
-
-interface OrganizationConfig {
-  id: string;
-  organizationId: string;
-  verticalId: string;
-  enabledServices: string[];
-  disabledServices: string[];
-  customizations: Record<string, any>;
-  createdAt: Date;
-  updatedAt: Date;
 }
 
 // =============================================================================
