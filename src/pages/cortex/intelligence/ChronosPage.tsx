@@ -275,19 +275,20 @@ interface DocumentRevisionEvent {
   approvers?: string[] | undefined;
 }
 
-interface _FinancialValidationEvent {
-  id: string;
-  timestamp: Date;
-  source: 'sap' | 'netsuite' | 'oracle' | 'workday';
-  validationType: 'reconciliation' | 'audit' | 'close' | 'compliance_check';
-  period: string;
-  entity: string;
-  status: 'passed' | 'failed' | 'warning' | 'pending';
-  discrepancyAmount?: number;
-  controlId?: string;
-  auditor?: string;
-  findings?: string;
-}
+// FinancialValidationEvent - reserved for future ERP validation integration
+// interface FinancialValidationEvent {
+//   id: string;
+//   timestamp: Date;
+//   source: 'sap' | 'netsuite' | 'oracle' | 'workday';
+//   validationType: 'reconciliation' | 'audit' | 'close' | 'compliance_check';
+//   period: string;
+//   entity: string;
+//   status: 'passed' | 'failed' | 'warning' | 'pending';
+//   discrepancyAmount?: number;
+//   controlId?: string;
+//   auditor?: string;
+//   findings?: string;
+// }
 
 // Aggregate ERP snapshot at a point in time
 interface ERPStateSnapshot {
@@ -425,17 +426,18 @@ interface RedactionRule {
   preserveFinancialTruth: boolean;
 }
 
-interface _RedactedExport {
-  originalHash: string;
-  redactedHash: string;
-  redactionLog: Array<{
-    field: string;
-    category: string;
-    count: number;
-  }>;
-  financialIntegrityPreserved: boolean;
-  redactionCertificate: string;
-}
+// RedactedExport - reserved for future court-admissible redacted export
+// interface RedactedExport {
+//   originalHash: string;
+//   redactedHash: string;
+//   redactionLog: Array<{
+//     field: string;
+//     category: string;
+//     count: number;
+//   }>;
+//   financialIntegrityPreserved: boolean;
+//   redactionCertificate: string;
+// }
 
 interface LiveSyncStatus {
   isConnected: boolean;
@@ -2674,18 +2676,20 @@ export const ChronosPage: React.FC = () => {
   // ==========================================================================
 
   // (1) Full Traceability - Show origin → intermediate → final causality
-  const _openTraceability = (event: TimelineEvent) => {
-    const traceability = generateTraceabilityView(event);
-    setTraceabilityView(traceability);
-    setShowTraceability(true);
-  };
+  // Reserved for future feature: wire to event context menu
+  // const openTraceability = (event: TimelineEvent) => {
+  //   const traceability = generateTraceabilityView(event);
+  //   setTraceabilityView(traceability);
+  //   setShowTraceability(true);
+  // };
 
   // (2) Per-Event Compliance Snapshot
-  const _openComplianceSnapshot = (event: TimelineEvent) => {
-    const snapshot = generateEventComplianceSnapshot(event);
-    setEventComplianceSnapshot(snapshot);
-    setShowComplianceSnapshot(true);
-  };
+  // Reserved for future feature: wire to event context menu
+  // const openComplianceSnapshot = (event: TimelineEvent) => {
+  //   const snapshot = generateEventComplianceSnapshot(event);
+  //   setEventComplianceSnapshot(snapshot);
+  //   setShowComplianceSnapshot(true);
+  // };
 
   // (3) Reverse Time Check - Rebuild company state at any date
   const runReverseTimeCheck = async (targetDate: Date) => {
@@ -4050,13 +4054,6 @@ const TimelineScrubber: React.FC<{
     [minDate, totalMs]
   );
 
-  const _handleTrackClick = (e: React.MouseEvent) => {
-    const newDate = getDateFromPosition(e.clientX);
-    if (newDate) {
-      onDateChange(newDate);
-    }
-  };
-
   // Handle drag start
   const handleMouseDown = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -4152,7 +4149,7 @@ const TimelineScrubber: React.FC<{
             0,
             Math.min(100, ((nowMs - minDate.getTime()) / totalMs) * 100)
           );
-          const _isFuture = currentDate > new Date();
+          const isFuture = currentDate > new Date();
 
           return (
             <>
@@ -4163,7 +4160,7 @@ const TimelineScrubber: React.FC<{
               />
 
               {/* Future: Dotted/striped pattern (Cone of Uncertainty) */}
-              {mode === 'fastforward' && (
+              {(mode === 'fastforward' || isFuture) && (
                 <div
                   className="absolute inset-y-0"
                   style={{
@@ -5286,7 +5283,7 @@ const EventWitnessModal: React.FC<{
     : eventSources[Math.floor(Math.random() * 3)];
 
   // Calculate timing for each approver
-  const _eventCreatedAt = new Date(event.timestamp.getTime() - 4 * 3600000); // 4 hours before
+  const eventCreatedAt = new Date(event.timestamp.getTime() - 4 * 3600000); // 4 hours before
   const approvers = [
     {
       name: 'Sarah Chen',
@@ -5368,7 +5365,11 @@ const EventWitnessModal: React.FC<{
                 <p className="text-white font-medium">{event.title}</p>
               </div>
               <div>
-                <span className="text-neutral-500">Timestamp</span>
+                <span className="text-neutral-500">Created</span>
+                <p className="text-neutral-300">{eventCreatedAt.toLocaleString()}</p>
+              </div>
+              <div>
+                <span className="text-neutral-500">Finalized</span>
                 <p className="text-neutral-300">{event.timestamp.toLocaleString()}</p>
               </div>
               <div>
@@ -7268,7 +7269,7 @@ const ERPPanel: React.FC<{
   currentDate: Date;
   onClose: () => void;
 }> = ({ connectors, erpSnapshot, selectedSource, onSourceChange, currentDate, onClose }) => {
-  const _activeConnectors = connectors.filter(
+  const activeConnectors = connectors.filter(
     (c) => c.status === 'connected' || c.status === 'syncing'
   );
   const totalRecords = connectors.reduce((sum, c) => sum + c.recordCount, 0);
@@ -7286,8 +7287,7 @@ const ERPPanel: React.FC<{
               </span>
             </h2>
             <p className="text-sm text-neutral-400 mt-1">
-              Replay SAP, Workday, Salesforce, and more • {totalRecords.toLocaleString()} total
-              records indexed
+              {activeConnectors.length} systems connected • {totalRecords.toLocaleString()} total records indexed
             </p>
           </div>
           <button onClick={onClose} className="text-white/60 hover:text-white text-xl">
