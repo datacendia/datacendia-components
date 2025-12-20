@@ -155,6 +155,9 @@ import { VoxPage } from './pages/sovereign/VoxPage';
 // Crown Jewels - Premium Enterprise Services
 import { EchoPage, RedTeamPage, GnosisPage } from './pages/cortex/crown';
 
+// Admin Pages
+import { VerticalConfigPage } from './pages/cortex/admin';
+
 // Data Pages
 import {
   DataSourcesPage,
@@ -603,6 +606,12 @@ export const router = createBrowserRouter([
       {
         path: 'sovereign/vox',
         element: <VoxPage />,
+      },
+
+      // Admin Pages
+      {
+        path: 'admin/vertical-config',
+        element: <VerticalConfigPage />,
       },
 
       // Crown Jewels - Premium Enterprise Services ($5M-$150M tier)

@@ -564,6 +564,16 @@ const enterpriseFeatures = [
     impact: 'High',
     tier: 'Enterprise',
   },
+  // Admin & Configuration
+  {
+    id: 'vertical-config',
+    label: 'Vertical Config',
+    icon: '⚙️',
+    path: '/cortex/admin/vertical-config',
+    description: 'Industry Vertical & Service Toggles',
+    impact: 'High',
+    tier: 'Admin',
+  },
   // Strategic Intelligence Services
   {
     id: 'echo',
