@@ -2676,20 +2676,18 @@ export const ChronosPage: React.FC = () => {
   // ==========================================================================
 
   // (1) Full Traceability - Show origin → intermediate → final causality
-  // Reserved for future feature: wire to event context menu
-  // const openTraceability = (event: TimelineEvent) => {
-  //   const traceability = generateTraceabilityView(event);
-  //   setTraceabilityView(traceability);
-  //   setShowTraceability(true);
-  // };
+  const openTraceability = (event: TimelineEvent) => {
+    const traceability = generateTraceabilityView(event);
+    setTraceabilityView(traceability);
+    setShowTraceability(true);
+  };
 
   // (2) Per-Event Compliance Snapshot
-  // Reserved for future feature: wire to event context menu
-  // const openComplianceSnapshot = (event: TimelineEvent) => {
-  //   const snapshot = generateEventComplianceSnapshot(event);
-  //   setEventComplianceSnapshot(snapshot);
-  //   setShowComplianceSnapshot(true);
-  // };
+  const openComplianceSnapshot = (event: TimelineEvent) => {
+    const snapshot = generateEventComplianceSnapshot(event);
+    setEventComplianceSnapshot(snapshot);
+    setShowComplianceSnapshot(true);
+  };
 
   // (3) Reverse Time Check - Rebuild company state at any date
   const runReverseTimeCheck = async (targetDate: Date) => {
@@ -3521,6 +3519,16 @@ export const ChronosPage: React.FC = () => {
           onOpenInChronos={(timestamp) => {
             setCurrentDate(timestamp);
             setMode('rewind');
+            setShowWitnessModal(false);
+            setWitnessEvent(null);
+          }}
+          onOpenTraceability={(event) => {
+            openTraceability(event);
+            setShowWitnessModal(false);
+            setWitnessEvent(null);
+          }}
+          onOpenComplianceSnapshot={(event) => {
+            openComplianceSnapshot(event);
             setShowWitnessModal(false);
             setWitnessEvent(null);
           }}
@@ -5265,7 +5273,9 @@ const EventWitnessModal: React.FC<{
   event: TimelineEvent;
   onClose: () => void;
   onOpenInChronos: (timestamp: Date) => void;
-}> = ({ event, onClose, onOpenInChronos }) => {
+  onOpenTraceability?: (event: TimelineEvent) => void;
+  onOpenComplianceSnapshot?: (event: TimelineEvent) => void;
+}> = ({ event, onClose, onOpenInChronos, onOpenTraceability, onOpenComplianceSnapshot }) => {
   // Generate mock witness data
   const decisionId = `DC-${event.timestamp.getFullYear()}-${String(event.timestamp.getMonth() + 1).padStart(2, '0')}-${event.id.slice(0, 8).toUpperCase()}`;
 
@@ -5498,19 +5508,39 @@ const EventWitnessModal: React.FC<{
         </div>
 
         {/* Footer Actions */}
-        <div className="p-4 border-t border-neutral-700 bg-neutral-800/50 flex gap-3">
-          <button
-            onClick={() => onOpenInChronos(event.timestamp)}
-            className="flex-1 px-4 py-3 bg-gradient-to-r from-amber-600 to-orange-600 rounded-lg font-medium hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
-          >
-            ⏪ Open this moment in Chronos Replay
-          </button>
-          <button
-            onClick={onClose}
-            className="px-4 py-3 bg-neutral-700 rounded-lg font-medium hover:bg-neutral-600 transition-colors"
-          >
-            Close
-          </button>
+        <div className="p-4 border-t border-neutral-700 bg-neutral-800/50 space-y-3">
+          <div className="flex gap-2">
+            {onOpenTraceability && (
+              <button
+                onClick={() => onOpenTraceability(event)}
+                className="flex-1 px-3 py-2 bg-indigo-600/30 border border-indigo-500/50 text-indigo-300 rounded-lg text-sm font-medium hover:bg-indigo-600/50 transition-colors flex items-center justify-center gap-2"
+              >
+                🔗 Full Traceability
+              </button>
+            )}
+            {onOpenComplianceSnapshot && (
+              <button
+                onClick={() => onOpenComplianceSnapshot(event)}
+                className="flex-1 px-3 py-2 bg-emerald-600/30 border border-emerald-500/50 text-emerald-300 rounded-lg text-sm font-medium hover:bg-emerald-600/50 transition-colors flex items-center justify-center gap-2"
+              >
+                ✓ Compliance Snapshot
+              </button>
+            )}
+          </div>
+          <div className="flex gap-3">
+            <button
+              onClick={() => onOpenInChronos(event.timestamp)}
+              className="flex-1 px-4 py-3 bg-gradient-to-r from-amber-600 to-orange-600 rounded-lg font-medium hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
+            >
+              ⏪ Open this moment in Chronos Replay
+            </button>
+            <button
+              onClick={onClose}
+              className="px-4 py-3 bg-neutral-700 rounded-lg font-medium hover:bg-neutral-600 transition-colors"
+            >
+              Close
+            </button>
+          </div>
         </div>
       </div>
     </div>
