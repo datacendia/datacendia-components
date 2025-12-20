@@ -4,7 +4,7 @@
 // Enterprise-grade RBAC: Executives pull in 10s, Audit has one canonical store
 // =============================================================================
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Search,
@@ -14,7 +14,6 @@ import {
   Lock,
   Shield,
   FileText,
-  Calendar,
   User,
   Building2,
   CheckCircle2,
@@ -22,10 +21,7 @@ import {
   Clock,
   ExternalLink,
   ChevronDown,
-  ChevronRight,
   Fingerprint,
-  Hash,
-  AlertOctagon,
   FileCheck,
   Archive,
   RefreshCw,
@@ -307,11 +303,10 @@ const getModeConfig = (mode: DecisionMode) => {
 
 export const EvidenceVaultPage: React.FC = () => {
   const navigate = useNavigate();
-  const [packets, setPackets] = useState<DecisionPacket[]>(MOCK_PACKETS);
+  const [packets] = useState<DecisionPacket[]>(MOCK_PACKETS);
   const [selectedPacket, setSelectedPacket] = useState<DecisionPacket | null>(null);
   const [showFilters, setShowFilters] = useState(false);
-  const [viewMode, setViewMode] = useState<'table' | 'cards'>('table');
-  const [sortField, setSortField] = useState<'generatedAt' | 'status' | 'accessCount'>('generatedAt');
+  const [sortField] = useState<'generatedAt' | 'status' | 'accessCount'>('generatedAt');
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
   
   // Simulated current user role - in production, this comes from auth context
