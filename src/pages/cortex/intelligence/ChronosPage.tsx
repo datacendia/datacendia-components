@@ -288,8 +288,8 @@ interface FinancialValidationEvent {
   status: 'passed' | 'failed' | 'warning' | 'pending' | 'remediated';
   
   // Financial specifics
-  discrepancyAmount?: number;
-  discrepancyPercentage?: number;
+  discrepancyAmount?: number | undefined;
+  discrepancyPercentage?: number | undefined;
   materialityThreshold: number;
   isMaterial: boolean;
   
@@ -302,9 +302,9 @@ interface FinancialValidationEvent {
   // Audit trail
   auditor: string;
   auditorTitle: string;
-  auditorCertification?: string; // e.g., "CPA", "CIA", "CISA"
-  reviewedBy?: string;
-  reviewedAt?: Date;
+  auditorCertification?: string | undefined; // e.g., "CPA", "CIA", "CISA"
+  reviewedBy?: string | undefined;
+  reviewedAt?: Date | undefined;
   
   // Evidence
   supportingDocuments: Array<{
@@ -316,11 +316,11 @@ interface FinancialValidationEvent {
   }>;
   
   // Findings and remediation
-  findings?: string;
-  rootCause?: string;
-  remediationPlan?: string;
-  remediationDeadline?: Date;
-  remediationStatus?: 'not_started' | 'in_progress' | 'completed' | 'verified';
+  findings?: string | undefined;
+  rootCause?: string | undefined;
+  remediationPlan?: string | undefined;
+  remediationDeadline?: Date | undefined;
+  remediationStatus?: 'not_started' | 'in_progress' | 'completed' | 'verified' | undefined;
   
   // Legal/regulatory
   regulatoryFramework: ('SOX' | 'SEC' | 'GAAP' | 'IFRS' | 'PCAOB')[];
@@ -525,11 +525,11 @@ interface RedactedExport {
   };
   
   // Court metadata
-  caseReference?: string;
-  discoveryRequestId?: string;
-  productionNumber?: string;
-  batesRangeStart?: string;
-  batesRangeEnd?: string;
+  caseReference?: string | undefined;
+  discoveryRequestId?: string | undefined;
+  productionNumber?: string | undefined;
+  batesRangeStart?: string | undefined;
+  batesRangeEnd?: string | undefined;
   
   // Verification
   verificationUrl: string;
@@ -2044,8 +2044,8 @@ const generateFinancialValidationEvents = (count: number = 10): FinancialValidat
       auditor: auditor.name,
       auditorTitle: auditor.title,
       auditorCertification: auditor.cert,
-      reviewedBy: status !== 'pending' ? auditors[Math.floor(Math.random() * auditors.length)]!.name : undefined,
-      reviewedAt: status !== 'pending' ? new Date(timestamp.getTime() + 24 * 60 * 60 * 1000) : undefined,
+      reviewedBy: auditors[Math.floor(Math.random() * auditors.length)]!.name,
+      reviewedAt: new Date(timestamp.getTime() + 24 * 60 * 60 * 1000),
       supportingDocuments: Array.from({ length: Math.floor(Math.random() * 3) + 1 }, (_, j) => ({
         id: `DOC-${i}-${j}`,
         name: ['Invoice-2024-001.pdf', 'Bank Statement Dec 2024.pdf', 'Journal Entry JE-4521.pdf', 'Approval Email.msg'][j % 4]!,
@@ -2076,12 +2076,10 @@ const generateFinancialValidationEvents = (count: number = 10): FinancialValidat
 // =============================================================================
 
 const generateRedactedExport = (
-  originalData: { events: TimelineEvent[]; snapshot: StateSnapshot },
-  options: { caseReference?: string; discoveryRequestId?: string }
+  _originalData: { events: TimelineEvent[]; snapshot: StateSnapshot },
+  options: { caseReference?: string | undefined; discoveryRequestId?: string | undefined }
 ): RedactedExport => {
   const now = new Date();
-  const redactionCategories: Array<'pii' | 'phi' | 'personnel' | 'confidential' | 'trade-secret' | 'attorney-client'> = 
-    ['pii', 'personnel', 'confidential'];
   
   // Generate redaction log
   const redactionLog: RedactedExport['redactionLog'] = [
