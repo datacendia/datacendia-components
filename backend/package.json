@@ -25,9 +25,9 @@
   },
   "dependencies": {
     "@apollo/server": "^5.2.0",
-    "@aws-sdk/client-redshift": "^3.940.0",
-    "@aws-sdk/client-s3": "^3.940.0",
-    "@aws-sdk/client-sts": "^3.940.0",
+    "@aws-sdk/client-redshift": "^3.956.0",
+    "@aws-sdk/client-s3": "^3.956.0",
+    "@aws-sdk/client-sts": "^3.956.0",
     "@azure/data-tables": "^13.3.2",
     "@azure/identity": "^4.13.0",
     "@azure/storage-blob": "^12.29.1",
