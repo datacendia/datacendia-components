@@ -80,7 +80,7 @@ interface HealthDashboard {
 // API CALLS
 // =============================================================================
 
-const API_BASE = '/api/v1/admin';
+const API_BASE = '/admin';
 
 async function fetchHealthDashboard(): Promise<HealthDashboard> {
   try {
@@ -140,23 +140,27 @@ function getDefaultDashboard(): HealthDashboard {
 // =============================================================================
 
 const StatusIcon: React.FC<{ status: ServiceHealth['status']; size?: number }> = ({ status, size = 16 }) => {
-  const config = {
+  const statusLower = (status || 'healthy').toLowerCase();
+  const configs: Record<string, { icon: React.ElementType; color: string }> = {
     healthy: { icon: CheckCircle2, color: 'text-green-400' },
     degraded: { icon: AlertTriangle, color: 'text-yellow-400' },
     down: { icon: XCircle, color: 'text-red-400' },
     maintenance: { icon: Clock, color: 'text-blue-400' },
-  }[status];
+  };
+  const config = configs[statusLower] || configs.healthy;
   const Icon = config.icon;
   return <Icon className={`${config.color}`} style={{ width: size, height: size }} />;
 };
 
 const StatusBadge: React.FC<{ status: ServiceHealth['status'] }> = ({ status }) => {
-  const config = {
+  const statusLower = (status || 'healthy').toLowerCase();
+  const configs: Record<string, { bg: string; text: string; label: string }> = {
     healthy: { bg: 'bg-green-500/20', text: 'text-green-400', label: 'Healthy' },
     degraded: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', label: 'Degraded' },
     down: { bg: 'bg-red-500/20', text: 'text-red-400', label: 'Down' },
     maintenance: { bg: 'bg-blue-500/20', text: 'text-blue-400', label: 'Maintenance' },
-  }[status];
+  };
+  const config = configs[statusLower] || configs.healthy;
 
   return (
     <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium ${config.bg} ${config.text}`}>
@@ -167,11 +171,13 @@ const StatusBadge: React.FC<{ status: ServiceHealth['status'] }> = ({ status }) 
 };
 
 const OverallStatusBanner: React.FC<{ status: HealthDashboard['overallStatus'] }> = ({ status }) => {
-  const config = {
+  const statusLower = (status || 'healthy').toLowerCase();
+  const configs: Record<string, { bg: string; icon: React.ElementType; label: string; sub: string }> = {
     healthy: { bg: 'from-green-600 to-green-700', icon: CheckCircle2, label: 'All Systems Operational', sub: 'All services are running normally' },
     degraded: { bg: 'from-yellow-600 to-yellow-700', icon: AlertTriangle, label: 'Partial System Degradation', sub: 'Some services are experiencing issues' },
     critical: { bg: 'from-red-600 to-red-700', icon: XCircle, label: 'Critical System Issues', sub: 'Multiple services are down or unavailable' },
-  }[status];
+  };
+  const config = configs[statusLower] || configs.healthy;
   const Icon = config.icon;
 
   return (
@@ -212,11 +218,13 @@ const MetricGauge: React.FC<{ label: string; value: number; max: number; unit?: 
 };
 
 const AlertCard: React.FC<{ alert: Alert; onAcknowledge: (id: string) => void }> = ({ alert, onAcknowledge }) => {
-  const config = {
+  const severityLower = (alert.severity || 'info').toLowerCase();
+  const configs: Record<string, { bg: string; border: string; icon: React.ElementType; color: string }> = {
     critical: { bg: 'bg-red-500/10', border: 'border-red-500/30', icon: XCircle, color: 'text-red-400' },
     warning: { bg: 'bg-yellow-500/10', border: 'border-yellow-500/30', icon: AlertTriangle, color: 'text-yellow-400' },
     info: { bg: 'bg-blue-500/10', border: 'border-blue-500/30', icon: Bell, color: 'text-blue-400' },
-  }[alert.severity];
+  };
+  const config = configs[severityLower] || configs.info;
   const Icon = config.icon;
 
   return (
@@ -275,6 +283,7 @@ export const SystemHealthPage: React.FC = () => {
       const interval = setInterval(loadData, 10000);
       return () => clearInterval(interval);
     }
+    return undefined;
   }, [loadData, autoRefresh]);
 
   const handleAcknowledge = async (alertId: string) => {

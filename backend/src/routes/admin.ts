@@ -56,6 +56,17 @@ router.get('/tenants', async (req: Request, res: Response) => {
   }
 });
 
+// NOTE: /tenants/metrics must be defined BEFORE /tenants/:id to avoid route collision
+router.get('/tenants/metrics', async (_req: Request, res: Response) => {
+  try {
+    const metrics = await tenantService.getMetrics();
+    res.json(metrics);
+  } catch (error) {
+    logger.error('Admin API: Tenant metrics error', error);
+    res.status(500).json({ error: 'Failed to get tenant metrics' });
+  }
+});
+
 router.post('/tenants', async (req: Request, res: Response) => {
   try {
     const { name, slug, plan, metadata } = req.body;
@@ -118,16 +129,6 @@ router.post('/tenants/:id/suspend', async (req: Request, res: Response) => {
   } catch (error) {
     logger.error('Admin API: Suspend tenant error', error);
     res.status(500).json({ error: 'Failed to suspend tenant' });
-  }
-});
-
-router.get('/tenants/metrics', async (_req: Request, res: Response) => {
-  try {
-    const metrics = tenantService.getMetrics();
-    res.json(metrics);
-  } catch (error) {
-    logger.error('Admin API: Tenant metrics error', error);
-    res.status(500).json({ error: 'Failed to get tenant metrics' });
   }
 });
 

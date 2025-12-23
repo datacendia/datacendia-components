@@ -875,6 +875,16 @@ router.get('/deliberations', async (req: Request, res: Response, next: NextFunct
         completed_at: d.completed_at,
         agents: [...new Set(d.deliberation_messages.map(m => m.agents?.name).filter(Boolean))],
         message_count: d.deliberation_messages.length,
+        // Include full responses for audit package export
+        responses: d.deliberation_messages.map(m => ({
+          agent_id: m.agent_id,
+          agentCode: m.agents?.code || 'AGENT',
+          agentName: m.agents?.name || 'Agent',
+          phase: m.phase,
+          content: m.content,
+          confidence: m.confidence,
+          created_at: m.created_at,
+        })),
       })),
     });
   } catch (error) {

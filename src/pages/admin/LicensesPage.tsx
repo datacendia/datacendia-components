@@ -38,17 +38,17 @@ interface License {
   id: string;
   key: string;
   tenantId: string;
-  tenantName: string;
-  type: 'starter' | 'professional' | 'enterprise' | 'sovereign' | 'trial';
-  status: 'active' | 'expired' | 'suspended' | 'pending';
-  seats: number;
-  seatsUsed: number;
-  features: string[];
+  tenantName?: string;
+  type: string;
+  status: string;
+  seats?: number;
+  seatsUsed?: number;
+  features?: string[];
   createdAt: string;
-  expiresAt: string;
-  lastValidatedAt: string;
-  revenue: number;
-  billingCycle: 'monthly' | 'annual';
+  expiresAt?: string;
+  lastValidatedAt?: string;
+  revenue?: number;
+  billingCycle?: string;
 }
 
 interface LicenseMetrics {
@@ -67,7 +67,7 @@ interface LicenseMetrics {
 // API CALLS
 // =============================================================================
 
-const API_BASE = '/api/v1/admin';
+const API_BASE = '/admin';
 
 async function fetchLicenses(filters?: { status?: string; type?: string }): Promise<License[]> {
   try {
@@ -227,12 +227,15 @@ function getDefaultMetrics(): LicenseMetrics {
 // =============================================================================
 
 const StatusBadge: React.FC<{ status: License['status'] }> = ({ status }) => {
-  const config = {
+  const statusLower = (status || 'pending').toLowerCase();
+  const configs: Record<string, { bg: string; text: string; icon: React.ElementType; label: string }> = {
     active: { bg: 'bg-green-500/20', text: 'text-green-400', icon: CheckCircle2, label: 'Active' },
     expired: { bg: 'bg-red-500/20', text: 'text-red-400', icon: XCircle, label: 'Expired' },
+    expiring: { bg: 'bg-orange-500/20', text: 'text-orange-400', icon: AlertTriangle, label: 'Expiring' },
     suspended: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', icon: AlertTriangle, label: 'Suspended' },
     pending: { bg: 'bg-blue-500/20', text: 'text-blue-400', icon: Clock, label: 'Pending' },
-  }[status];
+  };
+  const config = configs[statusLower] || configs.pending;
 
   const Icon = config.icon;
   return (
@@ -244,17 +247,22 @@ const StatusBadge: React.FC<{ status: License['status'] }> = ({ status }) => {
 };
 
 const TypeBadge: React.FC<{ type: License['type'] }> = ({ type }) => {
-  const config = {
+  const typeLower = (type || 'trial').toLowerCase();
+  const configs: Record<string, { bg: string; text: string }> = {
     trial: { bg: 'bg-neutral-700', text: 'text-neutral-300' },
     starter: { bg: 'bg-blue-900/50', text: 'text-blue-300' },
     professional: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
     enterprise: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
     sovereign: { bg: 'bg-gradient-to-r from-amber-600 to-orange-600', text: 'text-white' },
-  }[type];
+    foundation: { bg: 'bg-blue-900/50', text: 'text-blue-300' },
+    intelligence: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
+    governance: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
+  };
+  const config = configs[typeLower] || configs.trial;
 
   return (
     <span className={`px-2.5 py-1 rounded-full text-xs font-bold uppercase ${config.bg} ${config.text}`}>
-      {type}
+      {type || 'Trial'}
     </span>
   );
 };
@@ -392,7 +400,9 @@ export const LicensesPage: React.FC = () => {
   };
 
   const isExpiringSoon = (license: License) => {
-    const days = getDaysUntilExpiry(license.expiresAt);
+    const expiresAt = license.expiresAt;
+    if (!expiresAt) return false;
+    const days = getDaysUntilExpiry(expiresAt);
     return days > 0 && days <= 30;
   };
 
@@ -560,20 +570,20 @@ export const LicensesPage: React.FC = () => {
                     <td className="px-6 py-4">
                       <div>
                         <span className={`${isExpiringSoon(license) ? 'text-yellow-400' : 'text-neutral-300'}`}>
-                          {formatDate(license.expiresAt)}
+                          {license.expiresAt ? formatDate(license.expiresAt) : 'N/A'}
                         </span>
-                        {isExpiringSoon(license) && (
+                        {license.expiresAt && isExpiringSoon(license) && (
                           <p className="text-xs text-yellow-400 flex items-center gap-1 mt-1">
                             <AlertTriangle className="w-3 h-3" />
-                            {getDaysUntilExpiry(license.expiresAt)} days left
+                            {getDaysUntilExpiry(license.expiresAt!)} days left
                           </p>
                         )}
                       </div>
                     </td>
                     <td className="px-6 py-4">
                       <div>
-                        <span className="text-white font-medium">{formatCurrency(license.revenue)}</span>
-                        <p className="text-xs text-neutral-400 capitalize">{license.billingCycle}</p>
+                        <span className="text-white font-medium">{formatCurrency(license.revenue ?? 0)}</span>
+                        <p className="text-xs text-neutral-400 capitalize">{license.billingCycle || 'N/A'}</p>
                       </div>
                     </td>
                     <td className="px-6 py-4">

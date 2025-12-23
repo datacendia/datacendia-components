@@ -69,7 +69,7 @@ interface FlagMetrics {
 // API CALLS
 // =============================================================================
 
-const API_BASE = '/api/v1/admin';
+const API_BASE = '/admin';
 
 async function fetchFeatureFlags(filters?: { category?: string; enabled?: boolean }): Promise<FeatureFlag[]> {
   try {
@@ -247,13 +247,22 @@ function getDefaultMetrics(): FlagMetrics {
 // =============================================================================
 
 const CategoryBadge: React.FC<{ category: FeatureFlag['category'] }> = ({ category }) => {
-  const config = {
+  const categoryLower = (category || 'core').toLowerCase();
+  const configs: Record<string, { bg: string; text: string; icon: React.ElementType }> = {
     core: { bg: 'bg-blue-500/20', text: 'text-blue-400', icon: Shield },
     ai: { bg: 'bg-purple-500/20', text: 'text-purple-400', icon: Zap },
     ui: { bg: 'bg-green-500/20', text: 'text-green-400', icon: Layers },
     experimental: { bg: 'bg-amber-500/20', text: 'text-amber-400', icon: AlertTriangle },
     deprecated: { bg: 'bg-red-500/20', text: 'text-red-400', icon: XCircle },
-  }[category];
+    enterprise: { bg: 'bg-amber-500/20', text: 'text-amber-400', icon: Shield },
+    sovereign: { bg: 'bg-orange-500/20', text: 'text-orange-400', icon: Shield },
+    analytics: { bg: 'bg-cyan-500/20', text: 'text-cyan-400', icon: Zap },
+    integration: { bg: 'bg-indigo-500/20', text: 'text-indigo-400', icon: Layers },
+    security: { bg: 'bg-red-500/20', text: 'text-red-400', icon: Shield },
+    compliance: { bg: 'bg-green-500/20', text: 'text-green-400', icon: Shield },
+    beta: { bg: 'bg-purple-500/20', text: 'text-purple-400', icon: AlertTriangle },
+  };
+  const config = configs[categoryLower] || configs.core;
   const Icon = config.icon;
 
   return (

@@ -831,9 +831,11 @@ class DocumentExportService {
   // HELPERS
   // ===========================================================================
   
-  private escapeHtml(text: string): string {
-    if (!text) return '';
-    return text
+  private escapeHtml(text: any): string {
+    if (text === null || text === undefined) return '';
+    // Convert to string if not already a string
+    const str = typeof text === 'string' ? text : String(text);
+    return str
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')

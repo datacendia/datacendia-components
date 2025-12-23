@@ -91,7 +91,7 @@ interface TopConsumer {
 // API CALLS
 // =============================================================================
 
-const API_BASE = '/api/v1/admin';
+const API_BASE = '/admin';
 
 async function fetchUsageMetrics(): Promise<UsageMetrics> {
   try {

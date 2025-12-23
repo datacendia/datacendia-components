@@ -41,38 +41,49 @@ interface Tenant {
   id: string;
   name: string;
   slug: string;
-  plan: 'free' | 'starter' | 'professional' | 'enterprise' | 'sovereign';
-  status: 'active' | 'trial' | 'suspended' | 'churned' | 'pending';
-  users: number;
-  maxUsers: number;
-  deliberations: number;
-  apiCalls: number;
-  storageUsedMB: number;
-  storageMaxMB: number;
+  plan: string;
+  status: string;
+  users?: number;
+  maxUsers?: number;
+  userCount?: number;
+  userLimit?: number;
+  deliberations?: number;
+  apiCalls?: number;
+  storageUsedMB?: number;
+  storageMaxMB?: number;
+  mrr?: number;
   createdAt: string;
-  lastActiveAt: string;
+  updatedAt?: string;
+  lastActiveAt?: string;
   billingEmail?: string;
   metadata?: Record<string, any>;
+  settings?: Record<string, any>;
 }
 
 interface TenantMetrics {
-  total: number;
-  active: number;
-  trial: number;
-  suspended: number;
-  churned: number;
-  byPlan: Record<string, number>;
-  totalUsers: number;
-  totalDeliberations: number;
-  totalApiCalls: number;
-  mrr: number;
+  total?: number;
+  totalTenants?: number;
+  active?: number;
+  activeTenants?: number;
+  trial?: number;
+  trialTenants?: number;
+  suspended?: number;
+  churned?: number;
+  churnedTenants?: number;
+  byPlan?: Record<string, number>;
+  totalUsers?: number;
+  totalDeliberations?: number;
+  totalApiCalls?: number;
+  mrr?: number;
+  totalMrr?: number;
+  avgRevenuePerTenant?: number;
 }
 
 // =============================================================================
 // API CALLS
 // =============================================================================
 
-const API_BASE = '/api/v1/admin';
+const API_BASE = '/admin';
 
 async function fetchTenants(filters?: { status?: string; plan?: string; search?: string }): Promise<Tenant[]> {
   try {
@@ -82,7 +93,8 @@ async function fetchTenants(filters?: { status?: string; plan?: string; search?:
     if (filters?.search) params.set('search', filters.search);
     
     const res = await api.get<any>(`${API_BASE}/tenants?${params.toString()}`);
-    return res?.tenants || res?.data?.tenants || [];
+    const data = res as any;
+    return data?.tenants || data?.data?.tenants || [];
   } catch (error) {
     console.error('Failed to fetch tenants:', error);
     return getMockTenants();
@@ -243,13 +255,15 @@ function getDefaultMetrics(): TenantMetrics {
 // =============================================================================
 
 const StatusBadge: React.FC<{ status: Tenant['status'] }> = ({ status }) => {
-  const config = {
+  const statusLower = (status || 'pending').toLowerCase();
+  const configs: Record<string, { bg: string; text: string; icon: React.ElementType; label: string }> = {
     active: { bg: 'bg-green-500/20', text: 'text-green-400', icon: CheckCircle2, label: 'Active' },
     trial: { bg: 'bg-blue-500/20', text: 'text-blue-400', icon: Clock, label: 'Trial' },
     suspended: { bg: 'bg-red-500/20', text: 'text-red-400', icon: XCircle, label: 'Suspended' },
     churned: { bg: 'bg-neutral-500/20', text: 'text-neutral-400', icon: AlertTriangle, label: 'Churned' },
     pending: { bg: 'bg-yellow-500/20', text: 'text-yellow-400', icon: Clock, label: 'Pending' },
-  }[status];
+  };
+  const config = configs[statusLower] || configs.pending;
 
   const Icon = config.icon;
   return (
@@ -261,17 +275,23 @@ const StatusBadge: React.FC<{ status: Tenant['status'] }> = ({ status }) => {
 };
 
 const PlanBadge: React.FC<{ plan: Tenant['plan'] }> = ({ plan }) => {
-  const config = {
+  const planLower = (plan || 'free').toLowerCase();
+  const configs: Record<string, { bg: string; text: string }> = {
     free: { bg: 'bg-neutral-700', text: 'text-neutral-300' },
     starter: { bg: 'bg-blue-900/50', text: 'text-blue-300' },
     professional: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
     enterprise: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
     sovereign: { bg: 'bg-gradient-to-r from-amber-600 to-orange-600', text: 'text-white' },
-  }[plan];
+    trial: { bg: 'bg-cyan-900/50', text: 'text-cyan-300' },
+    foundation: { bg: 'bg-blue-900/50', text: 'text-blue-300' },
+    intelligence: { bg: 'bg-purple-900/50', text: 'text-purple-300' },
+    governance: { bg: 'bg-amber-900/50', text: 'text-amber-300' },
+  };
+  const config = configs[planLower] || configs.free;
 
   return (
     <span className={`px-2.5 py-1 rounded-full text-xs font-bold uppercase ${config.bg} ${config.text}`}>
-      {plan}
+      {plan || 'Free'}
     </span>
   );
 };
@@ -415,28 +435,28 @@ export const TenantsPage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <MetricCard
             label="Total Tenants"
-            value={metrics.total}
+            value={metrics.totalTenants ?? metrics.total ?? 0}
             change={5}
             icon={Building2}
             color="bg-blue-600"
           />
           <MetricCard
             label="Active Users"
-            value={metrics.totalUsers}
+            value={metrics.totalUsers ?? 0}
             change={12}
             icon={Users}
             color="bg-green-600"
           />
           <MetricCard
             label="Monthly Revenue"
-            value={`$${(metrics.mrr / 1000).toFixed(0)}K`}
+            value={`$${((metrics.totalMrr ?? metrics.mrr ?? 0) / 1000).toFixed(0)}K`}
             change={8}
             icon={CreditCard}
             color="bg-purple-600"
           />
           <MetricCard
             label="API Calls (24h)"
-            value={`${(metrics.totalApiCalls / 1000000).toFixed(1)}M`}
+            value={`${((metrics.totalApiCalls ?? 0) / 1000000).toFixed(1)}M`}
             change={15}
             icon={Activity}
             color="bg-amber-600"
@@ -542,24 +562,24 @@ export const TenantsPage: React.FC = () => {
                     <td className="px-6 py-4">
                       <div className="flex items-center gap-2">
                         <Users className="w-4 h-4 text-neutral-400" />
-                        <span className="text-white">{tenant.users}</span>
-                        <span className="text-neutral-500">/ {tenant.maxUsers}</span>
+                        <span className="text-white">{tenant.userCount ?? tenant.users ?? 0}</span>
+                        <span className="text-neutral-500">/ {tenant.userLimit ?? tenant.maxUsers ?? 0}</span>
                       </div>
                     </td>
                     <td className="px-6 py-4">
                       <div className="space-y-1">
                         <div className="flex items-center gap-2 text-sm">
                           <Database className="w-3 h-3 text-neutral-400" />
-                          <span className="text-neutral-300">{formatBytes(tenant.storageUsedMB)}</span>
+                          <span className="text-neutral-300">{formatBytes(tenant.storageUsedMB ?? 0)}</span>
                         </div>
                         <div className="flex items-center gap-2 text-sm">
                           <Zap className="w-3 h-3 text-neutral-400" />
-                          <span className="text-neutral-300">{tenant.apiCalls.toLocaleString()} calls</span>
+                          <span className="text-neutral-300">{(tenant.apiCalls ?? 0).toLocaleString()} calls</span>
                         </div>
                       </div>
                     </td>
                     <td className="px-6 py-4 text-neutral-300">
-                      {formatDate(tenant.lastActiveAt)}
+                      {tenant.lastActiveAt ? formatDate(tenant.lastActiveAt) : (tenant.updatedAt ? formatDate(tenant.updatedAt) : 'N/A')}
                     </td>
                     <td className="px-6 py-4">
                       <div className="flex items-center justify-end gap-2 relative">
@@ -641,14 +661,14 @@ export const TenantsPage: React.FC = () => {
           <div className="bg-neutral-800 rounded-xl p-6 border border-neutral-700">
             <h3 className="text-lg font-semibold text-white mb-4">Plan Distribution</h3>
             <div className="space-y-3">
-              {Object.entries(metrics.byPlan).map(([plan, count]) => (
+              {Object.entries(metrics.byPlan || {}).map(([plan, count]) => (
                 <div key={plan} className="flex items-center gap-3">
                   <PlanBadge plan={plan as Tenant['plan']} />
                   <div className="flex-1">
                     <div className="h-2 bg-neutral-700 rounded-full overflow-hidden">
                       <div
                         className="h-full bg-amber-500 rounded-full"
-                        style={{ width: `${(count / metrics.total) * 100}%` }}
+                        style={{ width: `${(count / (metrics.totalTenants ?? metrics.total ?? 1)) * 100}%` }}
                       />
                     </div>
                   </div>

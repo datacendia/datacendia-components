@@ -2305,6 +2305,7 @@ export const ChronosPage: React.FC = () => {
   const [branches, setBranches] = useState<BranchTimeline[]>([]);
   const [selectedBranch, setSelectedBranch] = useState<string | null>(null);
   const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
+  const [highlightedEventId, setHighlightedEventId] = useState<string | null>(null); // Cross-highlighting state
   const [showBranchModal, setShowBranchModal] = useState(false);
   const playIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -2376,12 +2377,26 @@ export const ChronosPage: React.FC = () => {
   const [redactedExport, setRedactedExport] = useState<RedactedExport | null>(null);
   const [isGeneratingRedactedExport, setIsGeneratingRedactedExport] = useState(false);
 
-  // Time range based on mode
+  // Time range based on mode - auto-fit to actual event data
   const timeRange = useMemo(() => {
     const now = new Date();
+    
+    // Find actual event date range
+    const eventDates = events.map(e => e.timestamp.getTime()).filter(t => !isNaN(t));
+    const hasEvents = eventDates.length > 0;
+    const minEventDate = hasEvents ? Math.min(...eventDates) : now.getTime();
+    const maxEventDate = hasEvents ? Math.max(...eventDates) : now.getTime();
+    
+    // Add padding (7 days before earliest, current date as max)
+    const paddingMs = 7 * 24 * 60 * 60 * 1000;
+    
     if (mode === 'rewind') {
+      // For rewind: show from earliest event (with padding) to now
+      const rangeMin = hasEvents 
+        ? new Date(Math.min(minEventDate - paddingMs, now.getTime() - 90 * 24 * 60 * 60 * 1000)) // At least 90 days back
+        : new Date(now.getTime() - 90 * 24 * 60 * 60 * 1000);
       return {
-        min: new Date(now.getTime() - 730 * 24 * 60 * 60 * 1000), // 2 years ago
+        min: rangeMin,
         max: now,
       };
     } else if (mode === 'fastforward') {
@@ -2390,12 +2405,16 @@ export const ChronosPage: React.FC = () => {
         max: new Date(now.getTime() + 365 * 24 * 60 * 60 * 1000), // 1 year ahead
       };
     } else {
+      // Replay: fit to actual data
+      const rangeMin = hasEvents 
+        ? new Date(minEventDate - paddingMs)
+        : new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
       return {
-        min: new Date(now.getTime() - 365 * 24 * 60 * 60 * 1000),
-        max: now,
+        min: rangeMin,
+        max: new Date(Math.max(maxEventDate + paddingMs, now.getTime())),
       };
     }
-  }, [mode]);
+  }, [mode, events]);
 
   // Update snapshot when date changes - apply time-based projection to metrics
   useEffect(() => {
@@ -2724,13 +2743,29 @@ export const ChronosPage: React.FC = () => {
           );
         }
 
+        // Deduplicate events by ID and similar title (to avoid deliberation + decision dupes)
+        const seenIds = new Set<string>();
+        const seenTitles = new Set<string>();
+        const deduped = realEvents.filter(e => {
+          // Skip if we've seen this exact ID
+          if (seenIds.has(e.id)) return false;
+          seenIds.add(e.id);
+          
+          // Skip if we've seen a very similar title (first 50 chars normalized)
+          const titleKey = (e.title || '').substring(0, 50).toLowerCase().replace(/\s+/g, ' ').trim();
+          if (titleKey && seenTitles.has(titleKey)) return false;
+          if (titleKey) seenTitles.add(titleKey);
+          
+          return true;
+        });
+
         // Sort by timestamp and set
-        realEvents.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+        deduped.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
 
         // If we have real events, use them; otherwise fall back to generated
-        if (realEvents.length > 0) {
-          setEvents(realEvents);
-          console.log('[Chronos] Using', realEvents.length, 'real events');
+        if (deduped.length > 0) {
+          setEvents(deduped);
+          console.log('[Chronos] Using', deduped.length, 'real events (deduped from', realEvents.length, ')');
         } else {
           setEvents(generateEvents());
           console.log('[Chronos] No real events, using generated fallback');
@@ -2883,11 +2918,30 @@ export const ChronosPage: React.FC = () => {
           const transcript = response.data as any;
           // Build replay from real data
           // Map transcript phases to replay format
+          // Extract agent display name from various possible fields
+          const getAgentDisplayName = (msg: any): string => {
+            // Try agentCode first (e.g., "CTO", "CFO", "Strategic Oversight")
+            if (msg.agentCode && msg.agentCode !== 'Agent') return msg.agentCode;
+            // Try agents.code if nested
+            if (msg.agents?.code) return msg.agents.code;
+            // Try agents.name if nested
+            if (msg.agents?.name && msg.agents.name !== 'Agent') return msg.agents.name;
+            // Try agentName
+            if (msg.agentName && msg.agentName !== 'Agent') return msg.agentName;
+            // Try to extract from content if it starts with [RoleName]
+            if (msg.content) {
+              const roleMatch = msg.content.match(/^\[([^\]]+)\]/);
+              if (roleMatch) return roleMatch[1];
+            }
+            // Final fallback
+            return msg.agent_id || 'Council Member';
+          };
+
           const replayPhases =
             transcript.phases?.flatMap((phase: any) =>
               (phase.messages || []).map((msg: any, idx: number) => ({
-                agent: msg.agentName || 'Agent',
-                statement: msg.content || '',
+                agent: getAgentDisplayName(msg),
+                statement: msg.content?.replace(/^\[[^\]]+\]\s*/, '') || '', // Remove [Role] prefix from content
                 sentiment: msg.sentiment || ('neutral' as const),
                 timestamp: idx * 15, // Approximate timing
               }))
@@ -2895,7 +2949,7 @@ export const ChronosPage: React.FC = () => {
 
           const participants =
             transcript.phases
-              ?.flatMap((p: any) => p.messages?.map((m: any) => m.agentName) || [])
+              ?.flatMap((p: any) => p.messages?.map((m: any) => getAgentDisplayName(m)) || [])
               .filter((v: string, i: number, a: string[]) => a.indexOf(v) === i) || [];
 
           // Only use real data if we have actual phases and participants
@@ -3583,6 +3637,8 @@ export const ChronosPage: React.FC = () => {
                 startImpactTrace(event);
               }
             }}
+            highlightedEventId={highlightedEventId}
+            onEventHover={setHighlightedEventId}
           />
           {/* Replay Status Caption */}
           {isPlaying && (
@@ -3874,6 +3930,8 @@ export const ChronosPage: React.FC = () => {
                   selectedId={selectedEvent?.id}
                   mode={mode}
                   onOpenWitness={openEventWitness}
+                  highlightedEventId={highlightedEventId}
+                  onEventHover={setHighlightedEventId}
                 />
               </div>
 
@@ -3911,6 +3969,8 @@ export const ChronosPage: React.FC = () => {
                 moments={pivotalMoments}
                 onJumpTo={setCurrentDate}
                 onStartImpactTrace={startImpactTrace}
+                highlightedEventId={highlightedEventId}
+                onEventHover={setHighlightedEventId}
               />
             </div>
           </div>
@@ -4476,6 +4536,8 @@ const TimelineScrubber: React.FC<{
   playbackSpeed: number;
   onSpeedChange: (speed: number) => void;
   onEventClick?: (event: TimelineEvent) => void;
+  highlightedEventId?: string | null;
+  onEventHover?: (eventId: string | null) => void;
 }> = ({
   currentDate,
   minDate,
@@ -4488,6 +4550,8 @@ const TimelineScrubber: React.FC<{
   playbackSpeed,
   onSpeedChange,
   onEventClick,
+  highlightedEventId,
+  onEventHover,
 }) => {
   const trackRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
@@ -4715,24 +4779,36 @@ const TimelineScrubber: React.FC<{
         })()}
 
         {/* Event Markers */}
-        {markers.map((m, i) => (
-          <div
-            key={i}
-            className={`absolute top-2 bottom-2 w-0.5 rounded-full cursor-pointer hover:w-1.5 hover:opacity-100 transition-all ${
-              m.event.impact === 'positive'
-                ? 'bg-green-500'
-                : m.event.impact === 'negative'
-                  ? 'bg-red-500'
-                  : 'bg-neutral-600'
-            } ${Math.abs(m.position - position) < 1 ? 'opacity-100 w-1' : 'opacity-40'}`}
-            style={{ left: `${m.position}%` }}
-            title={`${m.event.title} - Click to trace impact`}
-            onClick={(e) => {
-              e.stopPropagation();
-              onEventClick?.(m.event);
-            }}
-          />
-        ))}
+        {markers.map((m, i) => {
+          const isHighlighted = highlightedEventId === m.event.id;
+          return (
+            <div
+              key={i}
+              className={`absolute top-1 bottom-1 rounded-full cursor-pointer transition-all z-10 ${
+                m.event.impact === 'positive'
+                  ? 'bg-green-400'
+                  : m.event.impact === 'negative'
+                    ? 'bg-red-400'
+                    : m.event.type === 'decision'
+                      ? 'bg-amber-400'
+                      : 'bg-blue-400'
+              } ${isHighlighted 
+                ? 'w-3 opacity-100 scale-125 shadow-[0_0_12px_rgba(255,255,255,0.8)] ring-2 ring-white' 
+                : Math.abs(m.position - position) < 2 
+                  ? 'w-1.5 opacity-100 scale-110 shadow-[0_0_6px_rgba(255,255,255,0.4)]' 
+                  : 'w-1 opacity-70 hover:w-2 hover:opacity-100'
+              }`}
+              style={{ left: `${m.position}%` }}
+              title={`${m.event.title} (${m.event.type}) - ${m.event.timestamp.toLocaleDateString()}`}
+              onClick={(e) => {
+                e.stopPropagation();
+                onEventClick?.(m.event);
+              }}
+              onMouseEnter={() => onEventHover?.(m.event.id)}
+              onMouseLeave={() => onEventHover?.(null)}
+            />
+          );
+        })}
 
         {/* Now Marker */}
         {mode === 'fastforward' && (
@@ -4755,6 +4831,30 @@ const TimelineScrubber: React.FC<{
             className={`absolute -top-2 left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-gradient-to-br ${getGradient()} border-2 border-white shadow-lg`}
           />
         </div>
+      </div>
+
+      {/* Event Legend */}
+      <div className="flex items-center justify-between mt-2 text-xs">
+        <div className="flex items-center gap-4">
+          <span className="text-neutral-500">{markers.length} events on timeline:</span>
+          <div className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full bg-green-400" />
+            <span className="text-neutral-400">Positive</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full bg-red-400" />
+            <span className="text-neutral-400">Negative</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full bg-amber-400" />
+            <span className="text-neutral-400">Decision</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <div className="w-2 h-2 rounded-full bg-blue-400" />
+            <span className="text-neutral-400">Other</span>
+          </div>
+        </div>
+        <span className="text-neutral-500">Click markers to trace impact</span>
       </div>
 
       {/* Controls */}
@@ -5528,7 +5628,9 @@ const EventsList: React.FC<{
   selectedId?: string | undefined;
   mode?: ChronosMode | undefined;
   onOpenWitness?: ((event: TimelineEvent) => void) | undefined;
-}> = ({ events, currentDate, onSelect, selectedId, mode = 'rewind', onOpenWitness }) => {
+  highlightedEventId?: string | null;
+  onEventHover?: (eventId: string | null) => void;
+}> = ({ events, currentDate, onSelect, selectedId, mode = 'rewind', onOpenWitness, highlightedEventId, onEventHover }) => {
   const [filter, setFilter] = useState<
     'all' | 'compliance' | 'financial' | 'operational' | 'people' | 'security'
   >('all');
@@ -5679,21 +5781,27 @@ const EventsList: React.FC<{
         {visibleEvents.length === 0 ? (
           <div className="text-center text-neutral-500 py-8">No events matching filter</div>
         ) : (
-          visibleEvents.map((event) => (
+          visibleEvents.map((event) => {
+            const isHighlighted = highlightedEventId === event.id;
+            return (
             <div
               key={event.id}
               role="button"
               tabIndex={0}
               onClick={() => onSelect(event)}
               onKeyDown={(e) => e.key === 'Enter' && onSelect(event)}
-              className={`w-full text-left p-3 rounded-lg transition-colors cursor-pointer ${
-                selectedId === event.id
-                  ? 'bg-white/10 ring-1 ring-white/30'
-                  : event.impact === 'positive'
-                    ? 'bg-green-900/20 hover:bg-green-900/30'
-                    : event.impact === 'negative'
-                      ? 'bg-red-900/20 hover:bg-red-900/30'
-                      : 'bg-neutral-800/50 hover:bg-neutral-800'
+              onMouseEnter={() => onEventHover?.(event.id)}
+              onMouseLeave={() => onEventHover?.(null)}
+              className={`w-full text-left p-3 rounded-lg transition-all cursor-pointer ${
+                isHighlighted
+                  ? 'bg-white/20 ring-2 ring-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)] scale-[1.02]'
+                  : selectedId === event.id
+                    ? 'bg-white/10 ring-1 ring-white/30'
+                    : event.impact === 'positive'
+                      ? 'bg-green-900/20 hover:bg-green-900/30'
+                      : event.impact === 'negative'
+                        ? 'bg-red-900/20 hover:bg-red-900/30'
+                        : 'bg-neutral-800/50 hover:bg-neutral-800'
               }`}
             >
               <div className="flex items-start gap-3">
@@ -5728,7 +5836,8 @@ const EventsList: React.FC<{
                 </div>
               </div>
             </div>
-          ))
+          );
+          })
         )}
       </div>
     </div>
@@ -6159,6 +6268,60 @@ const AuditExport: React.FC<{
     try {
       const hash = `sha256:${Date.now().toString(16)}`;
       const timestamp = new Date().toISOString();
+      const snapshotEvents = events.filter((e: any) => e.timestamp <= currentDate);
+
+      // Build deliberations HTML with full transcripts
+      const deliberationsHTML = realDeliberations.map((d: any, idx: number) => {
+        const transcriptHTML = (d.responses || d.deliberation_messages || []).map((r: any) => `
+          <div style="margin: 10px 0; padding: 10px; background: #f8f9fa; border-left: 3px solid #f59e0b; border-radius: 4px;">
+            <div style="display: flex; gap: 10px; margin-bottom: 5px;">
+              <strong style="color: #f59e0b;">${r.agentCode || r.agents?.code || 'AGENT'}</strong>
+              <span style="color: #666;">${r.agentName || r.agents?.name || 'Agent'}</span>
+              <span style="color: #999; font-size: 11px;">${r.phase || 'response'}</span>
+            </div>
+            <p style="margin: 0; white-space: pre-wrap;">${(r.content || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+            ${r.confidence ? `<div style="margin-top: 5px; font-size: 11px; color: #666;">Confidence: ${(r.confidence * 100).toFixed(0)}%</div>` : ''}
+          </div>
+        `).join('');
+
+        return `
+          <div style="margin-bottom: 30px; border: 1px solid #dee2e6; border-radius: 8px; overflow: hidden;">
+            <div style="background: #f59e0b; color: white; padding: 15px;">
+              <h3 style="margin: 0;">Deliberation #${idx + 1}: ${(d.question || '').substring(0, 80)}${(d.question || '').length > 80 ? '...' : ''}</h3>
+              <div style="margin-top: 5px; font-size: 12px; opacity: 0.9;">
+                Status: ${d.status || 'N/A'} | Confidence: ${d.confidence ? `${d.confidence}%` : 'N/A'} | Messages: ${(d.responses || d.deliberation_messages || []).length}
+              </div>
+            </div>
+            <div style="padding: 15px;">
+              <div style="margin-bottom: 15px;">
+                <strong>Question:</strong>
+                <p style="margin: 5px 0;">${(d.question || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+              </div>
+              ${d.decision ? `
+              <div style="margin-bottom: 15px; padding: 10px; background: #d4edda; border-radius: 4px;">
+                <strong>Decision:</strong>
+                <p style="margin: 5px 0;">${(typeof d.decision === 'string' ? d.decision : JSON.stringify(d.decision)).replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+              </div>
+              ` : ''}
+              <div>
+                <strong>Full Transcript (${(d.responses || d.deliberation_messages || []).length} entries):</strong>
+                ${transcriptHTML || '<p style="color: #666;">No transcript available</p>'}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Build timeline HTML
+      const timelineHTML = snapshotEvents.slice(0, 50).map((e: any) => `
+        <tr>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;">${new Date(e.timestamp).toLocaleString()}</td>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;"><span style="background: #e3f2fd; color: #1976d2; padding: 2px 8px; border-radius: 4px; font-size: 11px;">${e.type}</span></td>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;">${(e.title || '').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</td>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;">${((e.description || '').substring(0, 100)).replace(/</g, '&lt;').replace(/>/g, '&gt;')}${(e.description || '').length > 100 ? '...' : ''}</td>
+          <td style="padding: 8px; border-bottom: 1px solid #eee;">${e.department || '-'}</td>
+        </tr>
+      `).join('');
 
       // Create HTML content for PDF
       const htmlContent = `
@@ -6167,17 +6330,24 @@ const AuditExport: React.FC<{
 <head>
   <title>Datacendia Audit Package</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 40px; color: #333; }
+    body { font-family: Arial, sans-serif; padding: 40px; color: #333; line-height: 1.6; }
     .header { text-align: center; border-bottom: 2px solid #f59e0b; padding-bottom: 20px; margin-bottom: 30px; }
     .logo { font-size: 28px; font-weight: bold; color: #f59e0b; }
     .subtitle { color: #666; margin-top: 5px; }
-    h2 { color: #f59e0b; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+    h2 { color: #f59e0b; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 30px; }
     .section { margin-bottom: 30px; }
     .proof-box { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 15px; font-family: monospace; font-size: 12px; }
     .metadata { display: grid; grid-template-columns: 150px 1fr; gap: 10px; }
     .label { font-weight: bold; color: #666; }
     .footer { margin-top: 40px; text-align: center; font-size: 11px; color: #999; border-top: 1px solid #eee; padding-top: 20px; }
     .stamp { display: inline-block; border: 2px solid #22c55e; color: #22c55e; padding: 5px 15px; border-radius: 4px; font-weight: bold; margin-top: 20px; }
+    .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 20px 0; }
+    .summary-card { background: #f8f9fa; padding: 15px; border-radius: 8px; text-align: center; }
+    .summary-card .number { font-size: 24px; font-weight: bold; color: #f59e0b; }
+    .summary-card .label { font-size: 12px; color: #666; }
+    table { width: 100%; border-collapse: collapse; }
+    th { background: #f8f9fa; padding: 10px; text-align: left; border-bottom: 2px solid #dee2e6; }
+    @media print { .page-break { page-break-before: always; } }
   </style>
 </head>
 <body>
@@ -6205,21 +6375,48 @@ const AuditExport: React.FC<{
       <div><strong>Signer:</strong> CendiaChronos™</div>
     </div>
   </div>
-  
-  <div class="section">
-    <h2>📜 Chain of Custody</h2>
-    <p>This audit package was generated by CendiaChronos™ and includes cryptographic proof of authenticity. All Council deliberations, decisions, and supporting data from the specified point in time are included.</p>
-    <p>The integrity of this document can be verified using the cryptographic hash above.</p>
+
+  <div class="summary-grid">
+    <div class="summary-card">
+      <div class="number">${realDeliberations.length}</div>
+      <div class="label">Deliberations</div>
+    </div>
+    <div class="summary-card">
+      <div class="number">${realDeliberations.filter((d: any) => d.decision).length}</div>
+      <div class="label">Decisions</div>
+    </div>
+    <div class="summary-card">
+      <div class="number">${snapshotEvents.length}</div>
+      <div class="label">Timeline Events</div>
+    </div>
+    <div class="summary-card">
+      <div class="number">${realMetrics.length}</div>
+      <div class="label">Metrics</div>
+    </div>
   </div>
   
-  <div class="section">
-    <h2>📊 Contents Summary</h2>
-    <ul>
-      <li>Council Deliberations</li>
-      <li>Decision Records</li>
-      <li>Timeline Events</li>
-      <li>Supporting Documentation</li>
-    </ul>
+  <div class="section page-break">
+    <h2>🤖 Council Deliberations (${realDeliberations.length})</h2>
+    ${deliberationsHTML || '<p>No deliberations in this audit package.</p>'}
+  </div>
+  
+  <div class="section page-break">
+    <h2>📅 Timeline Events (${snapshotEvents.length})</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Timestamp</th>
+          <th>Type</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Department</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${timelineHTML || '<tr><td colspan="5">No timeline events</td></tr>'}
+      </tbody>
+    </table>
+    ${snapshotEvents.length > 50 ? `<p style="margin-top:10px;color:#666;">Showing 50 of ${snapshotEvents.length} events</p>` : ''}
   </div>
   
   <div class="footer">
@@ -6805,11 +7002,35 @@ const CouncilTheater: React.FC<{
   }
 
   const agentColors: Record<string, string> = {
+    // Full names
     'Chief Strategic Agent': 'from-blue-600 to-indigo-700',
     'CFO Agent': 'from-green-600 to-emerald-700',
     'COO Agent': 'from-orange-600 to-amber-700',
     'CISO Agent': 'from-red-600 to-rose-700',
     'CMO Agent': 'from-purple-600 to-pink-700',
+    // Short codes (from real deliberation data)
+    'CTO': 'from-blue-600 to-indigo-700',
+    'CFO': 'from-green-600 to-emerald-700',
+    'COO': 'from-orange-600 to-amber-700',
+    'CISO': 'from-red-600 to-rose-700',
+    'CMO': 'from-purple-600 to-pink-700',
+    'CEO': 'from-amber-600 to-yellow-700',
+    'CLO': 'from-slate-600 to-gray-700',
+    'CHRO': 'from-pink-600 to-rose-700',
+    'CRO': 'from-teal-600 to-cyan-700',
+    'CPO': 'from-violet-600 to-purple-700',
+    // Role-based names
+    'Strategic Oversight & Synthesis': 'from-amber-600 to-orange-700',
+    'Strategic Oversight': 'from-amber-600 to-orange-700',
+    'Financial Analysis': 'from-green-600 to-emerald-700',
+    'Operations': 'from-orange-600 to-amber-700',
+    'Security': 'from-red-600 to-rose-700',
+    'Marketing': 'from-purple-600 to-pink-700',
+    'Legal': 'from-slate-600 to-gray-700',
+    'Ethics': 'from-indigo-600 to-blue-700',
+    'Risk': 'from-red-600 to-rose-700',
+    'Compliance': 'from-teal-600 to-cyan-700',
+    'Council Member': 'from-neutral-600 to-neutral-700',
   };
 
   return (
@@ -6831,12 +7052,12 @@ const CouncilTheater: React.FC<{
       <div className="p-4 border-b border-neutral-800">
         <div className="flex items-center gap-2">
           <span className="text-sm text-neutral-500">Participants:</span>
-          {replay.participants.map((p) => (
+          {(replay.participants || []).filter(Boolean).map((p) => (
             <span
               key={p}
               className={`px-2 py-1 text-xs rounded-full bg-gradient-to-r ${agentColors[p] || 'from-neutral-600 to-neutral-700'}`}
             >
-              {p.replace(' Agent', '')}
+              {(p || '').replace(' Agent', '')}
             </span>
           ))}
         </div>
@@ -6844,7 +7065,9 @@ const CouncilTheater: React.FC<{
 
       {/* Deliberation Phases */}
       <div className="p-6 space-y-4 max-h-96 overflow-y-auto">
-        {replay.phases.map((phase, idx) => (
+        {(replay.phases || []).map((phase, idx) => {
+          const agentName = phase?.agent || 'Unknown';
+          return (
           <div
             key={idx}
             className={`p-4 rounded-xl transition-all duration-500 ${
@@ -6853,30 +7076,31 @@ const CouncilTheater: React.FC<{
           >
             <div className="flex items-start gap-3">
               <div
-                className={`w-10 h-10 rounded-full bg-gradient-to-br ${agentColors[phase.agent] || 'from-neutral-600 to-neutral-700'} flex items-center justify-center text-lg`}
+                className={`w-10 h-10 rounded-full bg-gradient-to-br ${agentColors[agentName] || 'from-neutral-600 to-neutral-700'} flex items-center justify-center text-lg`}
               >
-                {phase.agent.charAt(0)}
+                {agentName.charAt(0)}
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="font-semibold">{phase.agent}</span>
+                  <span className="font-semibold">{agentName}</span>
                   <span
                     className={`px-2 py-0.5 text-xs rounded-full ${
-                      phase.sentiment === 'positive'
+                      phase?.sentiment === 'positive'
                         ? 'bg-green-900 text-green-300'
-                        : phase.sentiment === 'negative'
+                        : phase?.sentiment === 'negative'
                           ? 'bg-red-900 text-red-300'
                           : 'bg-neutral-700 text-neutral-300'
                     }`}
                   >
-                    {phase.sentiment}
+                    {phase?.sentiment || 'neutral'}
                   </span>
                 </div>
-                <p className="text-neutral-300">{phase.statement}</p>
+                <p className="text-neutral-300">{phase?.statement || ''}</p>
               </div>
             </div>
           </div>
-        ))}
+        );
+        })}
       </div>
 
       {/* Controls */}
@@ -7382,7 +7606,9 @@ const PivotalMomentsPanel: React.FC<{
   moments: PivotalMoment[];
   onJumpTo: (date: Date) => void;
   onStartImpactTrace: (event: TimelineEvent) => void;
-}> = ({ moments, onJumpTo, onStartImpactTrace }) => {
+  highlightedEventId?: string | null;
+  onEventHover?: (eventId: string | null) => void;
+}> = ({ moments, onJumpTo, onStartImpactTrace, highlightedEventId, onEventHover }) => {
   // Convert significance score to human-readable label
   const getSignificanceLabel = (significance: number) => {
     // Cap at 100 for display purposes
@@ -7404,10 +7630,17 @@ const PivotalMomentsPanel: React.FC<{
       <div className="space-y-2 max-h-64 overflow-y-auto">
         {moments.map((moment) => {
           const sig = getSignificanceLabel(moment.significance);
+          const isHighlighted = highlightedEventId === moment.event.id;
           return (
             <div
               key={moment.id}
-              className="p-3 bg-neutral-800/50 rounded-lg hover:bg-neutral-800 transition-colors"
+              className={`p-3 rounded-lg transition-all cursor-pointer ${
+                isHighlighted 
+                  ? 'bg-white/20 ring-2 ring-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)] scale-[1.02]'
+                  : 'bg-neutral-800/50 hover:bg-neutral-800'
+              }`}
+              onMouseEnter={() => onEventHover?.(moment.event.id)}
+              onMouseLeave={() => onEventHover?.(null)}
             >
               <div className="flex items-center justify-between mb-1">
                 <span className="font-medium text-sm">{moment.event.title}</span>
@@ -9393,7 +9626,7 @@ const FinancialValidationsPanel: React.FC<{
                     </div>
                     <div>
                       <span className="text-neutral-500">Validation Type</span>
-                      <p className="text-white font-medium capitalize">{selectedValidation.validationType.replace('_', ' ')}</p>
+                      <p className="text-white font-medium capitalize">{(selectedValidation.validationType || '').replace('_', ' ')}</p>
                     </div>
                   </div>
                 </div>
@@ -9468,7 +9701,7 @@ const FinancialValidationsPanel: React.FC<{
                         <div className="flex items-center gap-4">
                           <div>
                             <span className="text-neutral-500">Status</span>
-                            <p className="text-white capitalize">{selectedValidation.remediationStatus.replace('_', ' ')}</p>
+                            <p className="text-white capitalize">{(selectedValidation.remediationStatus || '').replace('_', ' ')}</p>
                           </div>
                           {selectedValidation.remediationDeadline && (
                             <div>
