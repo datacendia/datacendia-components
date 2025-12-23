@@ -319,6 +319,22 @@ BLOCKING CONCERNS - Raise these firmly:
 // CENDIA CHIEF - The Synthesizer
 // =============================================================================
 
+const CHIEF_AGENT = {
+  code: 'chief',
+  name: 'CEO - Chief Strategy Agent',
+  role: 'Strategic Oversight & Synthesis',
+  description: 'Synthesizes insights from all domain agents to provide holistic strategic recommendations. Orchestrates cross-functional analysis.',
+  avatarUrl: '/avatars/chief.png',
+  systemPrompt: `You are the Chief Strategy Agent for Datacendia, an enterprise intelligence platform. 
+Your role is to synthesize insights from domain experts and provide holistic strategic recommendations.
+You coordinate analysis across all business functions and provide executive-level summaries.
+Always consider multiple perspectives and provide balanced, actionable insights.
+Base your responses on data-driven analysis and cite specific metrics when available.`,
+  capabilities: ['strategic_planning', 'cross_domain_synthesis', 'executive_summaries', 'decision_orchestration'],
+  constraints: ['Must consider all perspectives', 'Must be balanced and actionable'],
+  modelConfig: { model: 'qwen2.5:7b', temperature: 0.3, maxTokens: 2000 },
+};
+
 const CENDIA_CHIEF = {
   code: 'cendia_chief',
   name: 'CendiaChief',
@@ -374,7 +390,7 @@ You speak as the unified voice of executive leadership, not as an individual. Yo
 async function seedAgents() {
   console.log('🤖 Seeding Council Agents...');
   
-  for (const agent of [...COUNCIL_AGENTS, CENDIA_CHIEF]) {
+  for (const agent of [...COUNCIL_AGENTS, CHIEF_AGENT, CENDIA_CHIEF]) {
     await prisma.agents.upsert({
       where: { code: agent.code },
       update: {
@@ -441,14 +457,14 @@ async function seedDefaultOrganization() {
   const ownerPasswordHash = await bcrypt.hash('DatacendiaOwner2024!', 12);
   
   const owner = await prisma.users.upsert({
-    where: { email: 'stuart@datacendia.com' },
+    where: { email: 'stuart.rainey@datacendia.com' },
     update: {
       name: 'Stuart Rainey',
       role: UserRole.OWNER,
     },
     create: {
       id: crypto.randomUUID(),
-      email: 'stuart@datacendia.com',
+      email: 'stuart.rainey@datacendia.com',
       password_hash: ownerPasswordHash,
       name: 'Stuart Rainey',
       role: UserRole.OWNER,
@@ -1136,6 +1152,513 @@ async function seedEthicsData(organizationId: string) {
 }
 
 // =============================================================================
+// DECISIONS & DELIBERATIONS - Demo Data for Chronos/DecisionDNA/Cascade
+// =============================================================================
+
+async function seedDecisionsAndDeliberations(organizationId: string, userId: string) {
+  console.log('📊 Seeding Decisions & Deliberations for Demo...');
+  
+  const now = new Date();
+  const daysAgo = (days: number) => {
+    const d = new Date(now);
+    d.setDate(d.getDate() - days);
+    return d;
+  };
+  
+  // Decision 1: Q2 Market Expansion (DECIDED - full lifecycle)
+  const decision1Id = crypto.randomUUID();
+  await prisma.decisions.create({
+    data: {
+      id: decision1Id,
+      organization_id: organizationId,
+      user_id: userId,
+      title: 'Q2 Market Expansion into APAC Region',
+      description: 'Evaluate and execute expansion into Asia-Pacific markets including Singapore, Japan, and Australia. Initial investment of $2.5M with projected 18-month ROI.',
+      category: 'Strategic',
+      priority: 'HIGH',
+      status: 'APPROVED',
+      department: 'Executive',
+      owner_name: 'Sarah Chen',
+      owner_email: 'sarah.chen@company.com',
+      budget: 2500000,
+      timeframe: '18 months',
+      deadline: daysAgo(-180),
+      stakeholders: ['CEO', 'CFO', 'VP Sales', 'VP Marketing', 'Legal'],
+      created_at: daysAgo(45),
+      updated_at: daysAgo(2),
+      resolved_at: daysAgo(5),
+    },
+  });
+  
+  // Decision 1 Activities (timeline events)
+  const decision1Activities = [
+    { action: 'created', title: 'Decision Created', description: 'Initial proposal submitted by VP Strategy', daysAgo: 45 },
+    { action: 'context_added', title: 'Market Research Added', description: 'Competitive analysis and TAM/SAM/SOM for APAC markets attached', daysAgo: 42 },
+    { action: 'context_added', title: 'Financial Projections Added', description: 'CFO team provided 5-year financial model with sensitivity analysis', daysAgo: 40 },
+    { action: 'premortem_run', title: 'Pre-Mortem Analysis', description: 'Identified 12 potential failure modes, 3 rated as high-risk', daysAgo: 35 },
+    { action: 'council_session', title: 'Council Deliberation #1', description: 'Initial council review - CFO raised concerns about currency risk', daysAgo: 30 },
+    { action: 'ghost_board', title: 'Ghost Board Simulation', description: 'Ran 3 scenarios: aggressive, moderate, conservative expansion', daysAgo: 25 },
+    { action: 'council_session', title: 'Council Deliberation #2', description: 'Revised proposal with hedging strategy - achieved consensus', daysAgo: 15 },
+    { action: 'decision_made', title: 'Decision Approved', description: 'Council approved with 5/6 votes, CFO conditional approval with quarterly reviews', daysAgo: 5 },
+  ];
+  
+  for (const activity of decision1Activities) {
+    await prisma.decision_activities.create({
+      data: {
+        id: crypto.randomUUID(),
+        decision_id: decision1Id,
+        actor: 'Stuart Rainey',
+        action: activity.action,
+        details: { title: activity.title, description: activity.description },
+        timestamp: daysAgo(activity.daysAgo),
+      },
+    });
+  }
+  console.log('  ✓ Decision 1: Q2 Market Expansion (DECIDED with 8 events)');
+  
+  // Deliberation for Decision 1
+  const deliberation1Id = crypto.randomUUID();
+  await prisma.deliberations.create({
+    data: {
+      id: deliberation1Id,
+      organization_id: organizationId,
+      question: 'Should we expand into the APAC region with an initial investment of $2.5M?',
+      config: { agents: ['cfo', 'coo', 'cmo', 'cto', 'chro', 'clo'], rounds: 3 },
+      context: { decision_id: decision1Id, budget: 2500000, timeline: '18 months' },
+      mode: 'STANDARD',
+      status: 'COMPLETED',
+      current_phase: 'CONSENSUS',
+      progress: 100,
+      decision: { approved: true, confidence: 0.87, dissenting: ['CFO'], conditions: ['Quarterly budget reviews', 'Currency hedging required'] },
+      confidence: 0.87,
+      started_at: daysAgo(30),
+      completed_at: daysAgo(15),
+      created_at: daysAgo(30),
+    },
+  });
+  
+  // Add deliberation messages
+  const agents = await prisma.agents.findMany({ take: 6 });
+  const phases = ['ANALYSIS', 'DEBATE', 'SYNTHESIS', 'CONSENSUS'];
+  for (const agent of agents) {
+    for (const phase of phases) {
+      await prisma.deliberation_messages.create({
+        data: {
+          id: crypto.randomUUID(),
+          deliberation_id: deliberation1Id,
+          agent_id: agent.id,
+          phase,
+          content: `[${agent.role}] ${phase} phase analysis for APAC expansion. Considering ${agent.role === 'CFO' ? 'financial risks and currency exposure' : agent.role === 'COO' ? 'operational complexity and supply chain' : agent.role === 'CMO' ? 'market positioning and brand localization' : 'strategic implications'}.`,
+          confidence: 0.75 + Math.random() * 0.2,
+          created_at: daysAgo(30 - phases.indexOf(phase) * 3),
+        },
+      });
+    }
+  }
+  
+  // Decision 2: Enterprise Pricing Model (DELIBERATING)
+  const decision2Id = crypto.randomUUID();
+  await prisma.decisions.create({
+    data: {
+      id: decision2Id,
+      organization_id: organizationId,
+      user_id: userId,
+      title: 'Enterprise Pricing Model Revision',
+      description: 'Restructure enterprise pricing tiers based on usage-based model vs. current seat-based licensing. Analysis shows potential 23% revenue uplift.',
+      category: 'Revenue',
+      priority: 'HIGH',
+      status: 'PENDING',
+      department: 'Product',
+      owner_name: 'Michael Torres',
+      owner_email: 'michael.torres@company.com',
+      budget: 150000,
+      timeframe: '6 months',
+      stakeholders: ['CFO', 'VP Sales', 'VP Product', 'Customer Success'],
+      created_at: daysAgo(20),
+      updated_at: daysAgo(1),
+    },
+  });
+  
+  const decision2Activities = [
+    { action: 'created', title: 'Decision Created', description: 'Pricing strategy review initiated by Product team', daysAgo: 20 },
+    { action: 'context_added', title: 'Competitive Analysis', description: 'Benchmarking against 15 competitors completed', daysAgo: 18 },
+    { action: 'context_added', title: 'Customer Survey Results', description: '500 enterprise customers surveyed on pricing preferences', daysAgo: 15 },
+    { action: 'premortem_run', title: 'Pre-Mortem Analysis', description: 'Risk analysis: churn risk identified for legacy customers', daysAgo: 10 },
+    { action: 'council_session', title: 'Council Deliberation In Progress', description: 'Active discussion on transition strategy and grandfathering', daysAgo: 1 },
+  ];
+  
+  for (const activity of decision2Activities) {
+    await prisma.decision_activities.create({
+      data: {
+        id: crypto.randomUUID(),
+        decision_id: decision2Id,
+        actor: 'Michael Torres',
+        action: activity.action,
+        details: { title: activity.title, description: activity.description },
+        timestamp: daysAgo(activity.daysAgo),
+      },
+    });
+  }
+  console.log('  ✓ Decision 2: Enterprise Pricing (IN PROGRESS with 5 events)');
+  
+  // Decision 3: Engineering Restructure (ANALYZING)
+  const decision3Id = crypto.randomUUID();
+  await prisma.decisions.create({
+    data: {
+      id: decision3Id,
+      organization_id: organizationId,
+      user_id: userId,
+      title: 'Engineering Team Restructure to Product Squads',
+      description: 'Evaluate reorganizing 120-person engineering team from functional teams to product-aligned squads. Goal: reduce handoffs by 40% and improve velocity.',
+      category: 'Organizational',
+      priority: 'MEDIUM',
+      status: 'DEFERRED',
+      department: 'Engineering',
+      owner_name: 'David Kim',
+      owner_email: 'david.kim@company.com',
+      budget: 75000,
+      timeframe: '9 months',
+      stakeholders: ['CTO', 'VP Engineering', 'CHRO', 'Product Leads'],
+      created_at: daysAgo(12),
+      updated_at: daysAgo(2),
+    },
+  });
+  
+  const decision3Activities = [
+    { action: 'created', title: 'Decision Created', description: 'CTO proposed restructure based on Spotify model', daysAgo: 12 },
+    { action: 'context_added', title: 'Current State Analysis', description: 'Mapped existing team structure and dependencies', daysAgo: 10 },
+    { action: 'context_added', title: 'Industry Research', description: 'Case studies from 8 similar-sized tech companies added', daysAgo: 7 },
+  ];
+  
+  for (const activity of decision3Activities) {
+    await prisma.decision_activities.create({
+      data: {
+        id: crypto.randomUUID(),
+        decision_id: decision3Id,
+        actor: 'David Kim',
+        action: activity.action,
+        details: { title: activity.title, description: activity.description },
+        timestamp: daysAgo(activity.daysAgo),
+      },
+    });
+  }
+  console.log('  ✓ Decision 3: Engineering Restructure (ANALYZING with 3 events)');
+  
+  // Decision 4: Data Center Migration (DECIDED)
+  const decision4Id = crypto.randomUUID();
+  await prisma.decisions.create({
+    data: {
+      id: decision4Id,
+      organization_id: organizationId,
+      user_id: userId,
+      title: 'Cloud Migration - AWS to Multi-Cloud Strategy',
+      description: 'Migrate from single AWS deployment to multi-cloud architecture (AWS + GCP) for redundancy and cost optimization. Projected 18% cost reduction.',
+      category: 'Technology',
+      priority: 'HIGH',
+      status: 'APPROVED',
+      department: 'IT',
+      owner_name: 'Jennifer Walsh',
+      owner_email: 'jennifer.walsh@company.com',
+      budget: 1200000,
+      timeframe: '12 months',
+      stakeholders: ['CTO', 'VP Infrastructure', 'Security', 'Finance'],
+      created_at: daysAgo(60),
+      updated_at: daysAgo(10),
+      resolved_at: daysAgo(15),
+    },
+  });
+  
+  const decision4Activities = [
+    { action: 'created', title: 'Decision Created', description: 'Infrastructure team proposed multi-cloud strategy', daysAgo: 60 },
+    { action: 'context_added', title: 'Cost Analysis', description: 'TCO comparison across cloud providers completed', daysAgo: 55 },
+    { action: 'context_added', title: 'Security Assessment', description: 'Security team approved multi-cloud architecture', daysAgo: 50 },
+    { action: 'premortem_run', title: 'Pre-Mortem Analysis', description: 'Migration risks identified: data transfer, vendor lock-in, team skills', daysAgo: 45 },
+    { action: 'ghost_board', title: 'Scenario Simulation', description: 'Simulated phased vs. big-bang migration approaches', daysAgo: 40 },
+    { action: 'council_session', title: 'Council Deliberation', description: 'Full council review with technical deep-dive', daysAgo: 30 },
+    { action: 'decision_made', title: 'Migration Approved', description: 'Phased approach approved with 3 pilot workloads first', daysAgo: 15 },
+    { action: 'outcome_recorded', title: 'Phase 1 Complete', description: 'First 3 workloads migrated successfully, 22% cost savings achieved', daysAgo: 5 },
+  ];
+  
+  for (const activity of decision4Activities) {
+    await prisma.decision_activities.create({
+      data: {
+        id: crypto.randomUUID(),
+        decision_id: decision4Id,
+        actor: 'Jennifer Walsh',
+        action: activity.action,
+        details: { title: activity.title, description: activity.description },
+        timestamp: daysAgo(activity.daysAgo),
+      },
+    });
+  }
+  console.log('  ✓ Decision 4: Cloud Migration (DECIDED with 8 events)');
+  
+  // Decision 5: Vendor Contract Renewal (DECIDED)
+  const decision5Id = crypto.randomUUID();
+  await prisma.decisions.create({
+    data: {
+      id: decision5Id,
+      organization_id: organizationId,
+      user_id: userId,
+      title: 'Salesforce Enterprise Agreement Renewal',
+      description: 'Negotiate 3-year enterprise agreement renewal with Salesforce. Current spend $1.8M/year, targeting 15% reduction through consolidation.',
+      category: 'Procurement',
+      priority: 'HIGH',
+      status: 'APPROVED',
+      department: 'IT',
+      owner_name: 'Robert Chen',
+      owner_email: 'robert.chen@company.com',
+      budget: 4860000,
+      timeframe: '36 months',
+      stakeholders: ['CFO', 'VP Sales', 'VP IT', 'Procurement', 'Legal'],
+      created_at: daysAgo(90),
+      updated_at: daysAgo(30),
+      resolved_at: daysAgo(35),
+    },
+  });
+  console.log('  ✓ Decision 5: Salesforce Renewal (DECIDED)');
+  
+  console.log('  ✅ Seeded 5 decisions with 27+ timeline events');
+}
+
+// =============================================================================
+// ADMIN PLATFORM DATA - Tenants, Licenses, Feature Flags
+// =============================================================================
+
+async function seedAdminPlatformData() {
+  console.log('🏢 Seeding Admin Platform Data...');
+
+  // Seed Tenants
+  const tenants = [
+    {
+      id: 'tenant_acme_2024',
+      name: 'Acme Corporation',
+      slug: 'acme',
+      plan: 'SOVEREIGN' as const,
+      status: 'ACTIVE' as const,
+      user_count: 145,
+      user_limit: 200,
+      mrr: 35000,
+      billing_email: 'billing@acme.com',
+      primary_contact: 'John Smith',
+      industry: 'technology',
+      company_size: '501-1000',
+      country: 'US',
+      timezone: 'America/New_York',
+    },
+    {
+      id: 'tenant_techstart_2024',
+      name: 'TechStart Inc',
+      slug: 'techstart',
+      plan: 'PROFESSIONAL' as const,
+      status: 'ACTIVE' as const,
+      user_count: 32,
+      user_limit: 50,
+      mrr: 7500,
+      billing_email: 'billing@techstart.io',
+      primary_contact: 'Sarah Chen',
+      industry: 'software',
+      company_size: '51-200',
+      country: 'US',
+      timezone: 'America/Los_Angeles',
+    },
+    {
+      id: 'tenant_globalco_2024',
+      name: 'GlobalCo',
+      slug: 'globalco',
+      plan: 'ENTERPRISE' as const,
+      status: 'ACTIVE' as const,
+      user_count: 89,
+      user_limit: 100,
+      mrr: 15000,
+      billing_email: 'accounts@globalco.com',
+      primary_contact: 'James Wilson',
+      industry: 'finance',
+      company_size: '1001-5000',
+      country: 'UK',
+      timezone: 'Europe/London',
+    },
+    {
+      id: 'tenant_healthtech_2024',
+      name: 'HealthTech Labs',
+      slug: 'healthtech',
+      plan: 'TRIAL' as const,
+      status: 'TRIAL' as const,
+      user_count: 12,
+      user_limit: 25,
+      mrr: 0,
+      billing_email: 'emily@healthtechlabs.com',
+      primary_contact: 'Dr. Emily Davis',
+      industry: 'healthcare',
+      company_size: '11-50',
+      country: 'US',
+      timezone: 'America/Chicago',
+      trial_ends_at: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+    },
+    {
+      id: 'tenant_financefirst_2024',
+      name: 'FinanceFirst',
+      slug: 'financefirst',
+      plan: 'PROFESSIONAL' as const,
+      status: 'ACTIVE' as const,
+      user_count: 54,
+      user_limit: 75,
+      mrr: 7500,
+      billing_email: 'ap@financefirst.com',
+      primary_contact: 'Mike Thompson',
+      industry: 'financial_services',
+      company_size: '201-500',
+      country: 'US',
+      timezone: 'America/New_York',
+    },
+  ];
+
+  for (const tenant of tenants) {
+    await prisma.tenants.upsert({
+      where: { slug: tenant.slug },
+      update: tenant,
+      create: tenant,
+    });
+  }
+  console.log(`  ✓ Seeded ${tenants.length} tenants`);
+
+  // Seed Licenses
+  const licenses = [
+    {
+      id: 'lic_acme_001',
+      tenant_id: 'tenant_acme_2024',
+      license_key: 'DC-SOV-ACME2024-XYZW1234',
+      type: 'SOVEREIGN' as const,
+      status: 'ACTIVE' as const,
+      seats: 200,
+      seats_used: 145,
+      billing_cycle: 'ANNUAL' as const,
+      revenue: 420000,
+      start_date: new Date('2024-01-15'),
+      expires_at: new Date('2025-12-31'),
+      auto_renew: true,
+      renewal_price: 420000,
+    },
+    {
+      id: 'lic_techstart_001',
+      tenant_id: 'tenant_techstart_2024',
+      license_key: 'DC-PRO-TECH2024-ABCD5678',
+      type: 'PROFESSIONAL' as const,
+      status: 'ACTIVE' as const,
+      seats: 50,
+      seats_used: 32,
+      billing_cycle: 'ANNUAL' as const,
+      revenue: 90000,
+      start_date: new Date('2024-02-03'),
+      expires_at: new Date('2026-01-15'),
+      auto_renew: true,
+      renewal_price: 90000,
+    },
+    {
+      id: 'lic_globalco_001',
+      tenant_id: 'tenant_globalco_2024',
+      license_key: 'DC-ENT-GLOB2024-QRST9012',
+      type: 'ENTERPRISE' as const,
+      status: 'EXPIRING' as const,
+      seats: 100,
+      seats_used: 89,
+      billing_cycle: 'ANNUAL' as const,
+      revenue: 180000,
+      start_date: new Date('2024-03-22'),
+      expires_at: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),
+      auto_renew: false,
+      renewal_price: 180000,
+      notes: 'Customer reviewing renewal options',
+    },
+    {
+      id: 'lic_healthtech_001',
+      tenant_id: 'tenant_healthtech_2024',
+      license_key: 'DC-TRL-HLTH2024-UVWX3456',
+      type: 'TRIAL' as const,
+      status: 'ACTIVE' as const,
+      seats: 25,
+      seats_used: 12,
+      billing_cycle: 'MONTHLY' as const,
+      revenue: 0,
+      start_date: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000),
+      expires_at: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+      auto_renew: false,
+    },
+    {
+      id: 'lic_financefirst_001',
+      tenant_id: 'tenant_financefirst_2024',
+      license_key: 'DC-PRO-FINF2024-MNOP7890',
+      type: 'PROFESSIONAL' as const,
+      status: 'ACTIVE' as const,
+      seats: 75,
+      seats_used: 54,
+      billing_cycle: 'ANNUAL' as const,
+      revenue: 90000,
+      start_date: new Date('2024-04-08'),
+      expires_at: new Date('2025-04-08'),
+      auto_renew: true,
+      renewal_price: 90000,
+    },
+  ];
+
+  for (const license of licenses) {
+    await prisma.licenses.upsert({
+      where: { license_key: license.license_key },
+      update: license,
+      create: license,
+    });
+  }
+  console.log(`  ✓ Seeded ${licenses.length} licenses`);
+
+  // Seed Feature Flags
+  const featureFlags = [
+    { key: 'council_ai', name: 'Council AI', description: 'AI Executive Council deliberation', enabled: true, category: 'core' },
+    { key: 'enterprise_suite', name: 'Enterprise Suite', description: 'Full enterprise features', enabled: true, category: 'enterprise' },
+    { key: 'sovereign_deployment', name: 'Sovereign Deployment', description: 'On-premise sovereign deployment', enabled: true, category: 'sovereign' },
+    { key: 'advanced_analytics', name: 'Advanced Analytics', description: 'Advanced analytics and reporting', enabled: true, category: 'analytics' },
+    { key: 'api_access', name: 'API Access', description: 'REST API access', enabled: true, category: 'integration' },
+    { key: 'sso_integration', name: 'SSO Integration', description: 'Single sign-on via SAML/OIDC', enabled: true, category: 'security' },
+    { key: 'audit_logging', name: 'Audit Logging', description: 'Comprehensive audit trail', enabled: true, category: 'compliance' },
+    { key: 'custom_branding', name: 'Custom Branding', description: 'White-label branding options', enabled: true, category: 'enterprise' },
+    { key: 'beta_features', name: 'Beta Features', description: 'Early access to beta features', enabled: false, category: 'beta', rollout_percentage: 10 },
+    { key: 'new_dashboard', name: 'New Dashboard', description: 'Redesigned dashboard experience', enabled: false, category: 'beta', rollout_percentage: 25 },
+  ];
+
+  for (const flag of featureFlags) {
+    await prisma.feature_flags.upsert({
+      where: { key: flag.key },
+      update: flag,
+      create: { ...flag, type: 'BOOLEAN' as const },
+    });
+  }
+  console.log(`  ✓ Seeded ${featureFlags.length} feature flags`);
+
+  // Seed some usage data
+  const currentPeriod = new Date().toISOString().slice(0, 7);
+  const lastMonth = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 7);
+
+  const usageData = [
+    { tenant_id: 'tenant_acme_2024', period: currentPeriod, api_calls: 125000, deliberations: 450, active_users: 142, storage_used_mb: 45000, agent_invocations: 2800 },
+    { tenant_id: 'tenant_acme_2024', period: lastMonth, api_calls: 118000, deliberations: 420, active_users: 138, storage_used_mb: 42000, agent_invocations: 2650 },
+    { tenant_id: 'tenant_techstart_2024', period: currentPeriod, api_calls: 28000, deliberations: 85, active_users: 30, storage_used_mb: 8500, agent_invocations: 540 },
+    { tenant_id: 'tenant_globalco_2024', period: currentPeriod, api_calls: 65000, deliberations: 180, active_users: 85, storage_used_mb: 22000, agent_invocations: 1200 },
+    { tenant_id: 'tenant_healthtech_2024', period: currentPeriod, api_calls: 5200, deliberations: 15, active_users: 10, storage_used_mb: 1200, agent_invocations: 95 },
+    { tenant_id: 'tenant_financefirst_2024', period: currentPeriod, api_calls: 42000, deliberations: 120, active_users: 52, storage_used_mb: 15000, agent_invocations: 780 },
+  ];
+
+  for (const usage of usageData) {
+    await prisma.tenant_usage.upsert({
+      where: { tenant_id_period: { tenant_id: usage.tenant_id, period: usage.period } },
+      update: usage,
+      create: usage,
+    });
+  }
+  console.log(`  ✓ Seeded ${usageData.length} usage records`);
+
+  console.log('  ✅ Admin platform data seeded successfully');
+}
+
+// =============================================================================
 // MAIN SEED FUNCTION
 // =============================================================================
 
@@ -1149,6 +1672,10 @@ async function main() {
     
     // Seed organization and admin
     const { org, admin } = await seedDefaultOrganization();
+    console.log('');
+    
+    // Seed admin platform data (tenants, licenses, feature flags)
+    await seedAdminPlatformData();
     console.log('');
     
     // Seed health scores
@@ -1181,6 +1708,10 @@ async function main() {
     
     // Seed ethics data
     await seedEthicsData(org.id);
+    console.log('');
+    
+    // Seed decisions and deliberations for demo
+    await seedDecisionsAndDeliberations(org.id, admin.id);
     console.log('');
     
     console.log('✅ Database seeding completed successfully!\n');

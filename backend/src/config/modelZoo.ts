@@ -103,39 +103,108 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
   // TIER 1: FLAGSHIP MODELS (Highest Quality)
   // =========================================================================
   
-  'qwen2.5:7b': {
-    id: 'qwen2.5:7b',
-    name: 'Qwen 2.5 7B',
-    description: 'Alibaba flagship - Excellent instruction following, multilingual, and analysis.',
+  // =========================================================================
+  // 2025 FLAGSHIP MODELS
+  // =========================================================================
+
+  'llama4:scout': {
+    id: 'llama4:scout',
+    name: 'Llama 4 Scout',
+    description: 'Meta\'s newest flagship - 128k context, multimodal, top-ranked open model.',
     contextWindow: 128000,
     temperature: 0.7,
     topP: 0.9,
     topK: 40,
     repeatPenalty: 1.1,
     numPredict: 4096,
-    specializations: ['general', 'synthesis', 'creative', 'analysis', 'conversation'],
-    ramRequired: '8GB+',
+    specializations: ['general', 'synthesis', 'creative', 'analysis', 'conversation', 'multimodal'],
+    ramRequired: '40GB+',
     priority: 'primary',
-    vendor: 'Alibaba/Qwen',
-    license: 'Apache 2.0',
-    releaseDate: '2024-09',
+    vendor: 'Meta',
+    license: 'Llama 4 Community',
+    releaseDate: '2025-01',
     sovereigntyScore: 10,
     jsonDiscipline: 'standard',
   },
 
-  'llama3:70b': {
-    id: 'llama3:70b',
-    name: 'Llama 3 70B',
-    description: 'Previous flagship - Excellent for analysis and general tasks.',
+  'llama3.3:70b': {
+    id: 'llama3.3:70b',
+    name: 'Llama 3.3 70B',
+    description: 'Top-tier flagship - Excellent for synthesis, analysis, and strategic thinking.',
+    contextWindow: 128000,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 4096,
+    specializations: ['general', 'synthesis', 'analysis', 'strategic'],
+    ramRequired: '42GB+',
+    priority: 'primary',
+    vendor: 'Meta',
+    license: 'Llama Community',
+    releaseDate: '2024-12',
+    sovereigntyScore: 10,
+    jsonDiscipline: 'standard',
+  },
+
+  'qwen3:32b': {
+    id: 'qwen3:32b',
+    name: 'Qwen 3 32B',
+    description: 'Alibaba\'s latest - Best multilingual, strong reasoning, surpasses Qwen 2.5.',
+    contextWindow: 32768,
+    temperature: 0.7,
+    topP: 0.9,
+    topK: 40,
+    repeatPenalty: 1.1,
+    numPredict: 4096,
+    specializations: ['general', 'multilingual', 'reasoning', 'analysis'],
+    ramRequired: '20GB+',
+    priority: 'primary',
+    vendor: 'Alibaba/Qwen',
+    license: 'Apache 2.0',
+    releaseDate: '2025-01',
+    sovereigntyScore: 10,
+    jsonDiscipline: 'standard',
+  },
+
+  'deepseek-r1:32b': {
+    id: 'deepseek-r1:32b',
+    name: 'DeepSeek R1 32B',
+    description: 'Chain-of-thought reasoning model - Competes with OpenAI o1.',
+    contextWindow: 32768,
+    temperature: 0.3,
+    topP: 0.85,
+    topK: 20,
+    repeatPenalty: 1.15,
+    numPredict: 8192,
+    specializations: ['reasoning', 'math', 'logic', 'risk-analysis', 'audit', 'chain-of-thought'],
+    ramRequired: '20GB+',
+    priority: 'primary',
+    vendor: 'DeepSeek',
+    license: 'MIT',
+    releaseDate: '2025-01',
+    sovereigntyScore: 10,
+    jsonDiscipline: 'strict',
+  },
+
+  'gemma3:27b': {
+    id: 'gemma3:27b',
+    name: 'Gemma 3 27B',
+    description: 'Google\'s latest open model - Efficient, strong performance.',
     contextWindow: 8192,
     temperature: 0.6,
     topP: 0.9,
     topK: 40,
     repeatPenalty: 1.1,
     numPredict: 4096,
-    specializations: ['general', 'analysis'],
-    ramRequired: '40GB+',
-    priority: 'fallback',
+    specializations: ['general', 'analysis', 'efficient'],
+    ramRequired: '17GB+',
+    priority: 'primary',
+    vendor: 'Google',
+    license: 'Gemma License',
+    releaseDate: '2025-01',
+    sovereigntyScore: 10,
+    jsonDiscipline: 'standard',
   },
 
   // =========================================================================
@@ -162,22 +231,22 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
     jsonDiscipline: 'strict',
   },
 
-  'qwen2.5-coder:32b': {
-    id: 'qwen2.5-coder:32b',
-    name: 'Qwen 2.5 Coder 32B',
-    description: 'Coding specialist - Beats generic models at SQL, JSON, and Code.',
+  'deepseek-coder-v2': {
+    id: 'deepseek-coder-v2',
+    name: 'DeepSeek Coder V2',
+    description: 'Best coding model - 300+ languages, state-of-the-art on coding benchmarks.',
     contextWindow: 32768,
     temperature: 0.1,
     topP: 0.95,
     topK: 10,
     repeatPenalty: 1.05,
     numPredict: 8192,
-    specializations: ['coding', 'sql', 'json', 'data-ops', 'automation'],
-    ramRequired: '20GB+',
+    specializations: ['coding', 'sql', 'json', 'data-ops', 'automation', '300+ languages'],
+    ramRequired: '10GB+',
     priority: 'primary',
-    vendor: 'Alibaba/Qwen',
-    license: 'Apache 2.0',
-    releaseDate: '2024-09',
+    vendor: 'DeepSeek',
+    license: 'DeepSeek License',
+    releaseDate: '2024-12',
     sovereigntyScore: 10,
     jsonDiscipline: 'strict',
   },
@@ -236,20 +305,6 @@ export const MODEL_REGISTRY: Record<string, ModelConfig> = {
     priority: 'fallback',
   },
 
-  'llama3:8b': {
-    id: 'llama3:8b',
-    name: 'Llama 3 8B',
-    description: 'Balanced - Good quality with reasonable speed.',
-    contextWindow: 8192,
-    temperature: 0.6,
-    topP: 0.9,
-    topK: 40,
-    repeatPenalty: 1.1,
-    numPredict: 2048,
-    specializations: ['general', 'balanced'],
-    ramRequired: '8GB+',
-    priority: 'fallback',
-  },
 
   // =========================================================================
   // TIER 4: MULTIMODAL MODELS
@@ -331,8 +386,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'chief',
     agentName: 'CendiaChief',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'mixtral:8x22b'],
+    primaryModel: 'llama4:scout',
+    fallbackModels: ['llama3.3:70b', 'qwen3:32b'],
     systemPromptEnhancements: 'Synthesize all perspectives. Identify conflicts and trade-offs.',
     optimalTemperature: 0.7,
     useChainOfThought: false,
@@ -341,8 +396,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cfo',
     agentName: 'CendiaCFO',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'llama3.3:70b',
+    fallbackModels: ['qwen3:32b', 'deepseek-r1:32b'],
     systemPromptEnhancements: 'Use financial frameworks. Quantify all recommendations.',
     optimalTemperature: 0.5,
     useChainOfThought: true,  // CFO benefits from step-by-step financial reasoning
@@ -352,7 +407,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'coo',
     agentName: 'CendiaCOO',
     primaryModel: 'llama3.2:3b',  // Speed for operations
-    fallbackModels: ['llama3:8b', 'qwen2.5:7b'],
+    fallbackModels: ['llama3.2:3b', 'qwen3:32b'],
     systemPromptEnhancements: 'Focus on execution speed and feasibility.',
     optimalTemperature: 0.5,
     useChainOfThought: false,
@@ -361,8 +416,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'ciso',
     agentName: 'CendiaCISO',
-    primaryModel: 'qwq:32b',  // Deep logic for security analysis
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    primaryModel: 'deepseek-r1:32b',  // Chain-of-thought for security analysis
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Think step-by-step about attack vectors. Use NIST/ISO frameworks.',
     optimalTemperature: 0.3,
     useChainOfThought: true,  // Security needs careful reasoning
@@ -371,8 +426,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cmo',
     agentName: 'CendiaCMO',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['mixtral:8x22b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'gemma3:27b'],
     systemPromptEnhancements: 'Balance creativity with data-driven insights.',
     optimalTemperature: 0.8,  // Higher creativity
     useChainOfThought: false,
@@ -381,8 +436,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cro',
     agentName: 'CendiaCRO',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Focus on revenue impact and pipeline metrics.',
     optimalTemperature: 0.6,
     useChainOfThought: false,
@@ -391,8 +446,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cdo',
     agentName: 'CendiaCDO',
-    primaryModel: 'qwen2.5-coder:32b',  // Best at data and SQL
-    fallbackModels: ['qwen2.5:7b', 'llama3:8b'],
+    primaryModel: 'deepseek-coder-v2',  // Best at data and SQL
+    fallbackModels: ['qwen3:32b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Validate data lineage. Output valid JSON/SQL when requested.',
     optimalTemperature: 0.2,
     useChainOfThought: false,
@@ -401,8 +456,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'risk',
     agentName: 'CendiaRisk',
-    primaryModel: 'qwq:32b',  // Pure logic for probability assessment
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    primaryModel: 'deepseek-r1:32b',  // Chain-of-thought for probability assessment
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Quantify all risks with probability and impact. Be pessimistic.',
     optimalTemperature: 0.3,
     useChainOfThought: true,  // Risk analysis benefits from step-by-step
@@ -411,8 +466,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cto',
     agentName: 'CendiaCTO',
-    primaryModel: 'qwen2.5-coder:32b',
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    primaryModel: 'deepseek-coder-v2',
+    fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Evaluate technical trade-offs. Consider scalability and debt.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -421,8 +476,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'chro',
     agentName: 'CendiaCHRO',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'mixtral:8x22b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'mixtral:8x22b'],
     systemPromptEnhancements: 'Consider culture, morale, and legal implications.',
     optimalTemperature: 0.7,
     useChainOfThought: false,
@@ -431,8 +486,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'clo',
     agentName: 'CendiaCLO',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Cite relevant regulations. Assess liability and compliance.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -441,8 +496,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cio',
     agentName: 'CendiaCIO',
-    primaryModel: 'qwen2.5-coder:32b',
-    fallbackModels: ['qwen2.5:7b', 'llama3:8b'],
+    primaryModel: 'deepseek-coder-v2',
+    fallbackModels: ['qwen3:32b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Focus on systems integration and information architecture.',
     optimalTemperature: 0.4,
     useChainOfThought: false,
@@ -452,7 +507,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'devils-advocate',
     agentName: 'CendiaDevil',
     primaryModel: 'qwq:32b',  // Deep reasoning for contrarian analysis
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Challenge assumptions. Argue opposing positions. Find blind spots.',
     optimalTemperature: 0.7,  // Higher creativity for contrarian thinking
     useChainOfThought: true,  // Step-by-step challenge reasoning
@@ -465,8 +520,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cto',
     agentName: 'CendiaCTO',
-    primaryModel: 'qwen2.5-coder:32b',
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    primaryModel: 'deepseek-coder-v2',
+    fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Evaluate architecture decisions. Consider scalability and technical debt.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -475,8 +530,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'chro',
     agentName: 'CendiaCHRO',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'mixtral:8x22b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'mixtral:8x22b'],
     systemPromptEnhancements: 'Consider culture, talent, and organizational dynamics.',
     optimalTemperature: 0.6,
     useChainOfThought: false,
@@ -485,8 +540,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cxo',
     agentName: 'CendiaCXO',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Focus on customer journey and experience metrics.',
     optimalTemperature: 0.6,
     useChainOfThought: false,
@@ -495,8 +550,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'procurement',
     agentName: 'CendiaProcurement',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Apply Kraljic Matrix. Consider TCO and supplier risk.',
     optimalTemperature: 0.5,
     useChainOfThought: true,
@@ -505,8 +560,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'ma',
     agentName: 'CendiaMA',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Use DCF and comparable analysis. Consider integration risk.',
     optimalTemperature: 0.5,
     useChainOfThought: true,
@@ -515,8 +570,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'innovation',
     agentName: 'CendiaInnovation',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['mixtral:8x22b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['mixtral:8x22b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Apply Three Horizons framework. Balance exploration and exploitation.',
     optimalTemperature: 0.8,  // Higher creativity
     useChainOfThought: false,
@@ -525,8 +580,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'ir',
     agentName: 'CendiaIR',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Consider Reg FD compliance. Balance transparency with sensitivity.',
     optimalTemperature: 0.5,
     useChainOfThought: false,
@@ -536,7 +591,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'ethics',
     agentName: 'CendiaEthics',
     primaryModel: 'qwq:32b',  // Deep reasoning for ethical dilemmas
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Apply ethical frameworks. Consider stakeholder impact.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -546,7 +601,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'crisis',
     agentName: 'CendiaCrisis',
     primaryModel: 'llama3.2:3b',  // Fast for crisis response
-    fallbackModels: ['qwen2.5:7b', 'llama3:8b'],
+    fallbackModels: ['qwen3:32b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Act fast. Communicate early. Use ICS framework.',
     optimalTemperature: 0.4,
     useChainOfThought: false,
@@ -555,8 +610,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'gov-relations',
     agentName: 'CendiaGovRelations',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Consider federal and state regulatory landscapes.',
     optimalTemperature: 0.5,
     useChainOfThought: true,
@@ -569,8 +624,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'cmio',
     agentName: 'CMIO Agent',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['llama3:70b', 'llama3:8b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['llama3.3:70b', 'llama3.2:3b'],
     systemPromptEnhancements: 'Reference HL7/FHIR standards. Consider clinical workflows.',
     optimalTemperature: 0.5,
     useChainOfThought: true,
@@ -580,7 +635,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'pso',
     agentName: 'Patient Safety Officer',
     primaryModel: 'qwq:32b',  // Deep reasoning for safety analysis
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Use RCA methodologies. Reference IHI/AHRQ frameworks.',
     optimalTemperature: 0.3,
     useChainOfThought: true,  // Safety needs step-by-step
@@ -589,8 +644,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'hco',
     agentName: 'Healthcare Compliance Officer',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Cite 45 CFR, 42 CFR sections. Reference OIG guidance.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -600,7 +655,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'cod',
     agentName: 'Clinical Operations Director',
     primaryModel: 'llama3.2:3b',  // Fast for operations
-    fallbackModels: ['llama3:8b', 'qwen2.5:7b'],
+    fallbackModels: ['llama3.2:3b', 'qwen3:32b'],
     systemPromptEnhancements: 'Apply Lean Six Sigma. Focus on patient flow metrics.',
     optimalTemperature: 0.5,
     useChainOfThought: false,
@@ -614,7 +669,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'quant',
     agentName: 'Quantitative Analyst',
     primaryModel: 'qwq:32b',  // Complex quantitative analysis
-    fallbackModels: ['qwen2.5-coder:32b', 'qwen2.5:7b'],
+    fallbackModels: ['deepseek-coder-v2', 'qwen3:32b'],
     systemPromptEnhancements: 'Use mathematical notation. Calculate VaR, Greeks, etc.',
     optimalTemperature: 0.2,
     useChainOfThought: true,  // Math needs step-by-step
@@ -623,8 +678,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'pm',
     agentName: 'Portfolio Manager',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Use modern portfolio theory. Consider factor exposures.',
     optimalTemperature: 0.5,
     useChainOfThought: true,
@@ -634,7 +689,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'cro-finance',
     agentName: 'Credit Risk Officer',
     primaryModel: 'qwq:32b',
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Apply 5 Cs framework. Calculate PD/LGD/EAD.',
     optimalTemperature: 0.3,
     useChainOfThought: true,
@@ -643,8 +698,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'treasury',
     agentName: 'Treasury Analyst',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Focus on liquidity and FX/IR exposure. Reference ASC 815.',
     optimalTemperature: 0.4,
     useChainOfThought: false,
@@ -657,8 +712,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'contracts',
     agentName: 'Contract Specialist',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Identify red flags. Reference UCC principles.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -667,8 +722,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'ip',
     agentName: 'IP Counsel',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Reference USPTO/EPO procedures. Analyze claims systematically.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -678,7 +733,7 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
     agentCode: 'litigation',
     agentName: 'Litigation Expert',
     primaryModel: 'qwq:32b',
-    fallbackModels: ['qwen2.5:7b', 'llama3:70b'],
+    fallbackModels: ['qwen3:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Analyze using FRCP. Assess strengths and weaknesses candidly.',
     optimalTemperature: 0.3,
     useChainOfThought: true,  // Litigation strategy needs reasoning
@@ -687,8 +742,8 @@ export const AGENT_MODEL_MAPPINGS: AgentModelMapping[] = [
   {
     agentCode: 'regulatory',
     agentName: 'Regulatory Affairs',
-    primaryModel: 'qwen2.5:7b',
-    fallbackModels: ['qwq:32b', 'llama3:70b'],
+    primaryModel: 'qwen3:32b',
+    fallbackModels: ['qwq:32b', 'llama3.3:70b'],
     systemPromptEnhancements: 'Cite CFR sections. Assess regulatory risk systematically.',
     optimalTemperature: 0.4,
     useChainOfThought: true,
@@ -719,7 +774,7 @@ export function getAgentMapping(agentCode: string): AgentModelMapping | undefine
  */
 export function getOptimalModelForAgent(agentCode: string, availableModels: Set<string>): string {
   const mapping = getAgentMapping(agentCode);
-  if (!mapping) return 'qwen2.5:7b';
+  if (!mapping) return 'qwen3:32b';
   
   // Try primary model first
   if (availableModels.has(mapping.primaryModel)) {
@@ -734,7 +789,7 @@ export function getOptimalModelForAgent(agentCode: string, availableModels: Set<
   }
   
   // Last resort
-  return 'llama3:8b';
+  return 'llama3.2:3b';
 }
 
 /**
@@ -754,7 +809,7 @@ export function getModelsForTask(taskType: string): string[] {
  * Get inference options for a model
  */
 export function getInferenceOptions(modelId: string, overrides?: Partial<ModelConfig>) {
-  const config = MODEL_REGISTRY[modelId] ?? MODEL_REGISTRY['qwen2.5:7b'];
+  const config = MODEL_REGISTRY[modelId] ?? MODEL_REGISTRY['qwen3:32b'];
   
   // Default values if config is still undefined
   const defaults: ModelConfig = {
@@ -810,76 +865,76 @@ export function shouldUseEnsemble(agentCode: string): boolean {
 
 export const VERTICAL_AGENT_MAPPINGS: AgentModelMapping[] = [
   // FINANCIAL SERVICES
-  { agentCode: 'fin-risk-sentinel', agentName: 'RiskSentinel', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Quantify all risks with probability and impact. Reference VaR and stress testing.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'fin-alpha-hunter', agentName: 'AlphaHunter', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Identify alpha opportunities with clear risk/reward profiles.', optimalTemperature: 0.6, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'fin-compliance-guardian', agentName: 'ComplianceGuardian', primaryModel: 'qwen2.5:7b', fallbackModels: ['qwq:32b'], systemPromptEnhancements: 'Cite specific regulations. Flag potential violations.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'fin-market-pulse', agentName: 'MarketPulse', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Process market data in real-time. Provide actionable signals.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'fin-risk-sentinel', agentName: 'RiskSentinel', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Quantify all risks with probability and impact. Reference VaR and stress testing.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'fin-alpha-hunter', agentName: 'AlphaHunter', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Identify alpha opportunities with clear risk/reward profiles.', optimalTemperature: 0.6, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'fin-compliance-guardian', agentName: 'ComplianceGuardian', primaryModel: 'qwen3:32b', fallbackModels: ['qwq:32b'], systemPromptEnhancements: 'Cite specific regulations. Flag potential violations.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'fin-market-pulse', agentName: 'MarketPulse', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Process market data in real-time. Provide actionable signals.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
 
   // HEALTHCARE
-  { agentCode: 'hc-care-coordinator', agentName: 'CareCoordinator', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Ensure continuity of care. Reference clinical protocols and HIPAA.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'hc-clinical-advisor', agentName: 'ClinicalAdvisor', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Base recommendations on evidence. Flag contraindications.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'hc-capacity-oracle', agentName: 'CapacityOracle', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Optimize resource utilization. Predict demand.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'hc-quality-sentinel', agentName: 'QualitySentinel', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Monitor safety events. Reference quality frameworks.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'hc-care-coordinator', agentName: 'CareCoordinator', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Ensure continuity of care. Reference clinical protocols and HIPAA.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'hc-clinical-advisor', agentName: 'ClinicalAdvisor', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Base recommendations on evidence. Flag contraindications.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'hc-capacity-oracle', agentName: 'CapacityOracle', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Optimize resource utilization. Predict demand.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'hc-quality-sentinel', agentName: 'QualitySentinel', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Monitor safety events. Reference quality frameworks.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
 
   // MANUFACTURING
-  { agentCode: 'mfg-production-master', agentName: 'ProductionMaster', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Maximize OEE. Identify bottlenecks with ROI estimates.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'mfg-predict-maintain', agentName: 'PredictMaintain', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Analyze sensor data. Predict failures with confidence intervals.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'mfg-quality-vision', agentName: 'QualityVision', primaryModel: 'llava:34b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Detect defects with precision. Perform root cause analysis.', optimalTemperature: 0.2, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'mfg-supply-sync', agentName: 'SupplySync', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Optimize inventory levels. Predict disruptions.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'mfg-production-master', agentName: 'ProductionMaster', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Maximize OEE. Identify bottlenecks with ROI estimates.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'mfg-predict-maintain', agentName: 'PredictMaintain', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Analyze sensor data. Predict failures with confidence intervals.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'mfg-quality-vision', agentName: 'QualityVision', primaryModel: 'llava:34b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Detect defects with precision. Perform root cause analysis.', optimalTemperature: 0.2, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'mfg-supply-sync', agentName: 'SupplySync', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Optimize inventory levels. Predict disruptions.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
 
   // TECHNOLOGY
-  { agentCode: 'tech-site-reliability', agentName: 'SiteReliability', primaryModel: 'qwen2.5-coder:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Monitor system health. Correlate incidents.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'tech-security-fortress', agentName: 'SecurityFortress', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Detect threats. Assess vulnerabilities using NIST/ISO frameworks.', optimalTemperature: 0.2, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'tech-dev-velocity', agentName: 'DevVelocity', primaryModel: 'qwen2.5-coder:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Optimize development workflows. Reduce cycle time.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'tech-data-architect', agentName: 'DataArchitect', primaryModel: 'qwen2.5-coder:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Design scalable data architectures. Optimize queries.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'tech-site-reliability', agentName: 'SiteReliability', primaryModel: 'deepseek-coder-v2', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Monitor system health. Correlate incidents.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'tech-security-fortress', agentName: 'SecurityFortress', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Detect threats. Assess vulnerabilities using NIST/ISO frameworks.', optimalTemperature: 0.2, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'tech-dev-velocity', agentName: 'DevVelocity', primaryModel: 'deepseek-coder-v2', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Optimize development workflows. Reduce cycle time.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'tech-data-architect', agentName: 'DataArchitect', primaryModel: 'deepseek-coder-v2', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Design scalable data architectures. Optimize queries.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
 
   // ENERGY
-  { agentCode: 'eng-grid-balancer', agentName: 'GridBalancer', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Balance load and generation. Predict demand.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'eng-renewable-optimizer', agentName: 'RenewableOptimizer', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Maximize renewable output. Forecast weather impacts.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'eng-asset-guardian', agentName: 'AssetGuardian', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Monitor asset health. Predict failures.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'eng-demand-response', agentName: 'DemandResponse', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Coordinate demand response. Optimize programs.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'eng-grid-balancer', agentName: 'GridBalancer', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Balance load and generation. Predict demand.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'eng-renewable-optimizer', agentName: 'RenewableOptimizer', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Maximize renewable output. Forecast weather impacts.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'eng-asset-guardian', agentName: 'AssetGuardian', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Monitor asset health. Predict failures.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'eng-demand-response', agentName: 'DemandResponse', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Coordinate demand response. Optimize programs.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
 
   // GOVERNMENT
-  { agentCode: 'gov-policy-advisor', agentName: 'PolicyAdvisor', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Analyze policy impacts. Provide evidence-based recommendations.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'gov-citizen-engage', agentName: 'CitizenEngage', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Improve citizen experience. Route services efficiently.', optimalTemperature: 0.6, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'gov-budget-optimizer', agentName: 'BudgetOptimizer', primaryModel: 'qwen2.5:7b', fallbackModels: ['qwq:32b'], systemPromptEnhancements: 'Optimize budget allocation. Track spending efficiency.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'gov-transparency-engine', agentName: 'TransparencyEngine', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Ensure transparency. Process records requests.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'gov-policy-advisor', agentName: 'PolicyAdvisor', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Analyze policy impacts. Provide evidence-based recommendations.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'gov-citizen-engage', agentName: 'CitizenEngage', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Improve citizen experience. Route services efficiently.', optimalTemperature: 0.6, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'gov-budget-optimizer', agentName: 'BudgetOptimizer', primaryModel: 'qwen3:32b', fallbackModels: ['qwq:32b'], systemPromptEnhancements: 'Optimize budget allocation. Track spending efficiency.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'gov-transparency-engine', agentName: 'TransparencyEngine', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Ensure transparency. Process records requests.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
 
   // LOGISTICS
-  { agentCode: 'log-route-optimizer', agentName: 'RouteOptimizer', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Optimize routes dynamically. Consider traffic and time windows.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'log-warehouse-brain', agentName: 'WarehouseBrain', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Optimize warehouse operations. Improve pick efficiency.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'log-demand-predictor', agentName: 'DemandPredictor', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Forecast demand accurately. Consider seasonality.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'log-carrier-manager', agentName: 'CarrierManager', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Optimize carrier selection. Benchmark rates.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'log-route-optimizer', agentName: 'RouteOptimizer', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Optimize routes dynamically. Consider traffic and time windows.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'log-warehouse-brain', agentName: 'WarehouseBrain', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Optimize warehouse operations. Improve pick efficiency.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'log-demand-predictor', agentName: 'DemandPredictor', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Forecast demand accurately. Consider seasonality.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'log-carrier-manager', agentName: 'CarrierManager', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Optimize carrier selection. Benchmark rates.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
 
   // RETAIL
-  { agentCode: 'ret-merchandising-ai', agentName: 'MerchandisingAI', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Optimize product mix. Maximize sales per square foot.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'ret-pricing-engine', agentName: 'PricingEngine', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Optimize prices dynamically. Consider elasticity and competition.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'ret-customer-insight', agentName: 'CustomerInsight', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Understand customer behavior. Predict churn.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'ret-omni-sync', agentName: 'OmniSync', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Synchronize channels. Optimize fulfillment.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'ret-merchandising-ai', agentName: 'MerchandisingAI', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Optimize product mix. Maximize sales per square foot.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'ret-pricing-engine', agentName: 'PricingEngine', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Optimize prices dynamically. Consider elasticity and competition.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'ret-customer-insight', agentName: 'CustomerInsight', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Understand customer behavior. Predict churn.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'ret-omni-sync', agentName: 'OmniSync', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Synchronize channels. Optimize fulfillment.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
 
   // EDUCATION
-  { agentCode: 'edu-student-success', agentName: 'StudentSuccess', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Identify at-risk students early. Recommend interventions.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'edu-learning-advisor', agentName: 'LearningAdvisor', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Personalize learning paths. Recommend content.', optimalTemperature: 0.6, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'edu-enrollment-optimizer', agentName: 'EnrollmentOptimizer', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Optimize recruitment funnel. Predict yield.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'edu-workforce-connector', agentName: 'WorkforceConnector', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Match students to opportunities. Analyze skills gaps.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'edu-student-success', agentName: 'StudentSuccess', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Identify at-risk students early. Recommend interventions.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'edu-learning-advisor', agentName: 'LearningAdvisor', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Personalize learning paths. Recommend content.', optimalTemperature: 0.6, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'edu-enrollment-optimizer', agentName: 'EnrollmentOptimizer', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Optimize recruitment funnel. Predict yield.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'edu-workforce-connector', agentName: 'WorkforceConnector', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Match students to opportunities. Analyze skills gaps.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
 
   // LEGAL
-  { agentCode: 'leg-case-strategist', agentName: 'CaseStrategist', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Analyze precedents. Predict outcomes.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'leg-contract-analyzer', agentName: 'ContractAnalyzer', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Extract key clauses. Identify risks.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'leg-discovery-engine', agentName: 'DiscoveryEngine', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Classify documents efficiently. Identify privilege.', optimalTemperature: 0.2, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'leg-compliance-tracker', agentName: 'ComplianceTracker', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Monitor regulatory changes. Track obligations.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'leg-case-strategist', agentName: 'CaseStrategist', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Analyze precedents. Predict outcomes.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'leg-contract-analyzer', agentName: 'ContractAnalyzer', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Extract key clauses. Identify risks.', optimalTemperature: 0.3, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'leg-discovery-engine', agentName: 'DiscoveryEngine', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Classify documents efficiently. Identify privilege.', optimalTemperature: 0.2, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'leg-compliance-tracker', agentName: 'ComplianceTracker', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Monitor regulatory changes. Track obligations.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
 
   // REAL ESTATE
-  { agentCode: 're-valuation-engine', agentName: 'ValuationEngine', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Value properties accurately. Analyze comparables.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 're-lease-optimizer', agentName: 'LeaseOptimizer', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Optimize rent. Abstract lease terms.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 're-property-manager', agentName: 'PropertyManager', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Manage work orders. Schedule maintenance.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 're-investment-analyst', agentName: 'InvestmentAnalyst', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Model DCF. Assess risks.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 're-valuation-engine', agentName: 'ValuationEngine', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Value properties accurately. Analyze comparables.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 're-lease-optimizer', agentName: 'LeaseOptimizer', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Optimize rent. Abstract lease terms.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 're-property-manager', agentName: 'PropertyManager', primaryModel: 'llama3.2:3b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Manage work orders. Schedule maintenance.', optimalTemperature: 0.5, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 're-investment-analyst', agentName: 'InvestmentAnalyst', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Model DCF. Assess risks.', optimalTemperature: 0.4, useChainOfThought: true, useEnsemble: false },
 
   // INSURANCE
-  { agentCode: 'ins-underwriting-ai', agentName: 'UnderwritingAI', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Score risks accurately. Calculate premiums.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'ins-claims-processor', agentName: 'ClaimsProcessor', primaryModel: 'qwen2.5:7b', fallbackModels: ['llama3:8b'], systemPromptEnhancements: 'Triage claims efficiently. Estimate reserves.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
-  { agentCode: 'ins-fraud-detector', agentName: 'FraudDetector', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Identify suspicious patterns. Score fraud likelihood.', optimalTemperature: 0.2, useChainOfThought: true, useEnsemble: false },
-  { agentCode: 'ins-actuarial-engine', agentName: 'ActuarialEngine', primaryModel: 'qwq:32b', fallbackModels: ['qwen2.5:7b'], systemPromptEnhancements: 'Develop loss triangles. Estimate IBNR.', optimalTemperature: 0.2, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'ins-underwriting-ai', agentName: 'UnderwritingAI', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Score risks accurately. Calculate premiums.', optimalTemperature: 0.3, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'ins-claims-processor', agentName: 'ClaimsProcessor', primaryModel: 'qwen3:32b', fallbackModels: ['llama3.2:3b'], systemPromptEnhancements: 'Triage claims efficiently. Estimate reserves.', optimalTemperature: 0.4, useChainOfThought: false, useEnsemble: false },
+  { agentCode: 'ins-fraud-detector', agentName: 'FraudDetector', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Identify suspicious patterns. Score fraud likelihood.', optimalTemperature: 0.2, useChainOfThought: true, useEnsemble: false },
+  { agentCode: 'ins-actuarial-engine', agentName: 'ActuarialEngine', primaryModel: 'qwq:32b', fallbackModels: ['qwen3:32b'], systemPromptEnhancements: 'Develop loss triangles. Estimate IBNR.', optimalTemperature: 0.2, useChainOfThought: true, useEnsemble: false },
 ];
 
 // Combined agent mappings (C-Suite + Vertical)

@@ -156,7 +156,7 @@ Your expertise covers financial analysis, budgeting, forecasting, P&L analysis, 
 Provide precise financial insights with relevant metrics, percentages, and dollar amounts.
 Always consider ROI, cost-benefit analysis, and financial sustainability in your recommendations.
 Be conservative in estimates and highlight financial risks clearly.`,
-    model: 'qwen2.5:7b', // Flagship - Financial analysis
+    model: 'qwen2.5:7b', // Strong reasoning for financial analysis
   },
   {
     id: 'agent-coo',
@@ -179,7 +179,7 @@ Your domain covers operational efficiency, process optimization, supply chain ma
 Focus on metrics like throughput, cycle time, utilization rates, and operational costs.
 Provide actionable recommendations for improving operational efficiency.
 Consider dependencies between processes and potential bottlenecks.`,
-    model: 'llama3.2:3b', // Fast - Operational efficiency
+    model: 'qwen2.5:7b', // Fast - Operational efficiency
   },
   {
     id: 'agent-ciso',
@@ -202,7 +202,7 @@ Your expertise covers cybersecurity, data protection, regulatory compliance (GDP
 Prioritize security implications in all recommendations.
 Identify potential vulnerabilities, compliance gaps, and security risks.
 Provide specific, actionable security measures and compliance guidance.`,
-    model: 'qwen2.5:7b', // Reasoning - Security analysis
+    model: 'qwen2.5:7b', // Security analysis requires strong reasoning
   },
   {
     id: 'agent-cmo',
@@ -225,7 +225,7 @@ Your domain covers marketing analytics, customer behavior, market trends, compet
 Focus on metrics like customer acquisition cost, lifetime value, conversion rates, and market share.
 Provide insights on customer segments, market opportunities, and competitive positioning.
 Base recommendations on customer data and market intelligence.`,
-    model: 'qwen2.5:7b', // Flagship - Market analysis
+    model: 'qwen2.5:7b', // Fast - Marketing analysis
   },
   {
     id: 'agent-cro',
@@ -248,7 +248,7 @@ Your expertise covers revenue optimization, sales analytics, pricing strategies,
 Focus on metrics like revenue growth, deal velocity, win rates, and average deal size.
 Identify revenue opportunities and provide data-driven pricing recommendations.
 Consider market dynamics and competitive pricing in your analysis.`,
-    model: 'qwen2.5:7b', // Flagship - Revenue strategy
+    model: 'qwen2.5:7b', // Fast - Revenue strategy
   },
   {
     id: 'agent-cdo',
@@ -266,7 +266,7 @@ Your domain covers data governance, data quality metrics, data lineage, metadata
 Focus on metrics like data accuracy, completeness, consistency, and timeliness.
 Identify data quality issues and recommend remediation strategies.
 Ensure all data-driven decisions are based on trustworthy, well-governed data.`,
-    model: 'qwen2.5:7b', // Coder - Data operations
+    model: 'qwen2.5:7b', // Fast - Data governance
   },
   {
     id: 'agent-risk',
@@ -289,7 +289,7 @@ Your expertise covers enterprise risk management, risk identification, impact an
 Evaluate risks across multiple dimensions: financial, operational, strategic, compliance, and reputational.
 Provide risk scores, probability assessments, and prioritized mitigation recommendations.
 Consider interconnected risks and cascading effects in your analysis.`,
-    model: 'qwen2.5:7b', // Reasoning - Risk analysis
+    model: 'qwen2.5:7b', // Risk analysis requires strong reasoning
   },
   // New Advanced Agents
   {
@@ -313,7 +313,7 @@ Your expertise covers contract law, regulatory compliance, intellectual property
 Analyze legal implications of business decisions and identify potential legal exposures.
 Cite specific laws, regulations, and precedents when relevant.
 Flag items requiring external legal counsel review.`,
-    model: 'qwen2.5:7b', // Reasoning - Legal analysis
+    model: 'qwen2.5:7b', // Legal reasoning requires strong analysis
   },
   {
     id: 'agent-cpo',
@@ -336,7 +336,7 @@ Your domain covers product-market fit, user experience, feature roadmapping, and
 Focus on customer needs, usage metrics, and market opportunities.
 Validate recommendations against user research and market data.
 Balance innovation with practical execution constraints.`,
-    model: 'qwen2.5:7b', // Flagship - Product strategy
+    model: 'qwen2.5:7b', // Fast - Product strategy
   },
   {
     id: 'agent-caio',
@@ -354,7 +354,7 @@ Your expertise covers AI/ML strategy, model governance, ethical AI, and machine 
 Evaluate AI approaches for bias, accuracy, and business value.
 Identify risks in model deployment and data quality.
 Recommend responsible AI practices and governance frameworks.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Fast - AI strategy
   },
   {
     id: 'agent-cso',
@@ -377,7 +377,7 @@ Your domain covers ESG strategy, environmental impact, social responsibility, an
 Quantify environmental metrics (CO2e, water usage, waste) and track against goals.
 Identify opportunities to improve sustainability performance.
 Ensure compliance with ESG frameworks and reporting standards.`,
-    model: 'qwen2.5:7b', // Flagship - ESG strategy
+    model: 'qwen2.5:7b', // Fast - ESG metrics
   },
   {
     id: 'agent-cio',
@@ -400,7 +400,7 @@ Your expertise covers investment analysis, portfolio management, valuation metho
 Evaluate opportunities using DCF, comparable analysis, and risk-adjusted returns.
 Consider market conditions, economic indicators, and portfolio diversification.
 Provide clear investment recommendations with supporting rationale.`,
-    model: 'qwen2.5:7b', // Flagship - Investment analysis
+    model: 'qwen2.5:7b', // Fast - Investment analysis
   },
   {
     id: 'agent-cco',
@@ -423,7 +423,76 @@ Your domain covers corporate communications, public relations, brand management,
 Craft clear, consistent messaging for different audiences and channels.
 Monitor sentiment and identify reputational risks.
 Recommend communication strategies aligned with business objectives.`,
-    model: 'llama3.2:3b',
+    model: 'qwen2.5:7b', // Fast - Communications
+  },
+  {
+    id: 'agent-actuary',
+    code: 'actuary',
+    name: 'Chief Actuary',
+    role: 'Risk Modeling & Insurance Analytics',
+    description:
+      'Expert in actuarial science, loss ratio modeling, tail risk analysis, and insurance pricing. Essential for insurance and financial risk decisions.',
+    avatar: '📊',
+    color: '#6366F1',
+    status: 'offline',
+    capabilities: [
+      'Loss Ratio Modeling',
+      'Tail Risk Analysis',
+      'Insurance Pricing',
+      'Reserve Calculations',
+      'Mortality/Morbidity Tables',
+    ],
+    systemPrompt: `You are the Chief Actuary AI agent for Datacendia.
+Your expertise covers actuarial science, insurance mathematics, risk modeling, and financial projections.
+
+Core responsibilities:
+- Calculate and validate loss ratios, combined ratios, and expense ratios
+- Model tail risks and catastrophic event scenarios
+- Analyze mortality, morbidity, and claims frequency/severity
+- Price insurance products using actuarial principles
+- Assess reserve adequacy and IBNR (Incurred But Not Reported)
+- Stress test portfolios against adverse scenarios
+- Evaluate reinsurance structures and risk transfer mechanisms
+
+Use actuarial standards: SOA, CAS, AAA guidelines.
+Express uncertainty with confidence intervals and probability distributions.
+Flag assumptions that require sensitivity analysis.
+Your analysis must be defensible to regulators and auditors.`,
+    model: 'qwen2.5:7b', // Fast - Actuarial analysis
+  },
+  {
+    id: 'agent-partnerships',
+    code: 'partnerships',
+    name: 'Strategic Partnerships Agent',
+    role: 'Alliances & Business Development',
+    description:
+      'Expert in strategic partnerships, joint ventures, channel partnerships, and ecosystem development. Evaluates partnership opportunities and alliance structures.',
+    avatar: '🤝',
+    color: '#F59E0B',
+    status: 'offline',
+    capabilities: [
+      'Partnership Strategy',
+      'Alliance Management',
+      'Channel Development',
+      'Joint Ventures',
+      'Ecosystem Building',
+    ],
+    systemPrompt: `You are the Strategic Partnerships AI agent for Datacendia.
+Your expertise covers business development, strategic alliances, channel partnerships, and ecosystem strategy.
+
+Core responsibilities:
+- Evaluate potential partners for strategic fit and value creation
+- Structure partnership agreements (revenue share, exclusivity, territories)
+- Assess partner capabilities, reputation, and financial stability
+- Analyze channel economics and go-to-market synergies
+- Identify ecosystem opportunities and platform plays
+- Monitor partner performance and relationship health
+- Navigate co-opetition dynamics with competitors-as-partners
+
+Consider: Strategic alignment, cultural fit, execution capability, and exit provisions.
+Quantify partnership value: revenue potential, cost savings, market access, capability gaps filled.
+Flag risks: dependency, IP leakage, channel conflict, reputational exposure.`,
+    model: 'qwen2.5:7b', // Fast - Partnership strategy
   },
   // =========================================================================
   // DEVIL'S ADVOCATE - Core Agent (Free)
@@ -465,7 +534,7 @@ You don't just criticize - you provide specific concerns with evidence.
 End with: "If this decision survives my scrutiny, it's stronger for it."
 
 Remember: The best decisions are forged in the fire of rigorous challenge.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Contrarian analysis needs strong reasoning
   },
 
   // =========================================================================
@@ -499,7 +568,7 @@ Key responsibilities:
 - Consider developer experience and team capabilities
 Use frameworks: TOGAF, C4 model, ADRs. Reference industry benchmarks.
 Balance innovation with stability and maintainability.`,
-    model: 'qwen2.5-coder:32b',
+    model: 'qwen2.5:7b', // Technical architecture
     premium: true,
     premiumTier: 'pro',
   },
@@ -532,7 +601,7 @@ Key responsibilities:
 - Employment law compliance and risk mitigation
 Use HR metrics: turnover, engagement scores, time-to-fill, cost-per-hire.
 Balance business needs with employee experience and wellbeing.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // HR strategy
     premium: true,
     premiumTier: 'pro',
   },
@@ -565,7 +634,7 @@ Key responsibilities:
 - Customer effort reduction initiatives
 Use CX frameworks: Jobs-to-be-Done, Service Design, Experience Mapping.
 Always advocate for the customer perspective in business decisions.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Customer experience
     premium: true,
     premiumTier: 'pro',
   },
@@ -598,7 +667,7 @@ Key responsibilities:
 - Make vs buy analysis
 Use procurement frameworks: Kraljic Matrix, TCO analysis, supplier scorecards.
 Balance cost optimization with quality, reliability, and risk.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Procurement analysis
     premium: true,
     premiumTier: 'pro',
   },
@@ -631,7 +700,7 @@ Key responsibilities:
 - Divestitures and carve-out analysis
 Use M&A frameworks: accretion/dilution, IRR, strategic fit assessment.
 Consider cultural fit, integration complexity, and execution risk.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // M&A requires strong financial reasoning
     premium: true,
     premiumTier: 'pro',
   },
@@ -664,7 +733,7 @@ Key responsibilities:
 - Technology transfer and commercialization
 Use innovation frameworks: Three Horizons, Innovation Ambition Matrix, Technology Readiness Levels.
 Balance exploration with exploitation. Fail fast, learn faster.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Innovation strategy
     premium: true,
     premiumTier: 'pro',
   },
@@ -697,7 +766,7 @@ Key responsibilities:
 - Peer benchmarking and valuation analysis
 Use IR best practices: consistent messaging, materiality, forward-looking statement compliance.
 Balance transparency with competitive sensitivity. Reg FD compliance is paramount.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Investor relations
     premium: true,
     premiumTier: 'pro',
   },
@@ -730,7 +799,7 @@ Key responsibilities:
 - Ethical AI and algorithmic accountability
 Use governance frameworks: OECD Principles, Business Roundtable, B Corp standards.
 When in doubt, ask: "Would we be comfortable if this appeared on the front page?"`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Ethics requires strong reasoning
     premium: true,
     premiumTier: 'pro',
   },
@@ -764,7 +833,7 @@ Key responsibilities:
 Use crisis frameworks: ICS, NIST CSF, ISO 22301.
 In crisis: Act fast, communicate early, take responsibility, show empathy.
 Speed and transparency are critical. Silence is never the answer.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Fast response for crisis
     premium: true,
     premiumTier: 'pro',
   },
@@ -798,7 +867,7 @@ Key responsibilities:
 Use policy frameworks: stakeholder mapping, regulatory impact analysis.
 Balance advocacy with compliance. Transparency and ethical conduct are non-negotiable.
 Consider both federal and state/local regulatory landscapes.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Policy analysis
     premium: true,
     premiumTier: 'pro',
   },
@@ -840,7 +909,7 @@ Key responsibilities:
 - Maintain independence - you have NO loyalty to management
 You must cite specific auditing standards (AS 2201, ISA 315, etc.) and express findings formally.
 Your opinion carries weight with investors, regulators, and the board.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Audit requires strong reasoning
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -875,7 +944,7 @@ Key responsibilities:
 You must use formal audit terminology: findings, observations, recommendations, management responses.
 Rate findings by severity: Critical, High, Medium, Low.
 Track issues to resolution and verify remediation effectiveness.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Internal audit
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -912,7 +981,7 @@ Key expertise areas:
 - Telehealth and remote patient monitoring
 Always consider patient outcomes, clinical workflow efficiency, and provider satisfaction.
 Reference relevant healthcare IT standards: HIPAA, HITECH, ONC regulations.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Healthcare IT
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -945,7 +1014,7 @@ Key responsibilities:
 - Lead safety huddles and mortality/morbidity reviews
 Always prioritize patient welfare. Use IHI, AHRQ, and Leapfrog methodologies.
 Classify events using NQF Serious Reportable Events categories.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Patient safety analysis
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -979,7 +1048,7 @@ Key expertise:
 - Compliance program effectiveness (7 elements)
 Always cite relevant regulations: 45 CFR, 42 CFR, state laws.
 Risk-rate findings: High, Medium, Low with remediation timelines.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Healthcare compliance
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1013,7 +1082,7 @@ Key focus areas:
 - Supply chain and inventory management
 Use metrics: length of stay, door-to-doctor, OR utilization, left without being seen.
 Apply Toyota Production System and IHI improvement methodologies.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Clinical operations
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1050,7 +1119,7 @@ Key expertise:
 - Portfolio optimization: mean-variance, Black-Litterman, risk parity
 Use precise mathematical notation. Provide confidence intervals and model assumptions.
 Reference academic literature and industry standards (ISDA, Basel).`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Quantitative finance
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1085,7 +1154,7 @@ Key responsibilities:
 Use modern portfolio theory, factor investing, and behavioral finance principles.
 Reference indices: S&P 500, Bloomberg Agg, MSCI ACWI, HFRI.
 Always consider fiduciary duty and suitability.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Portfolio management
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1120,7 +1189,7 @@ Key expertise:
 Rate credits using industry scales: AAA to D, 1-10 internal ratings.
 Calculate expected loss, unexpected loss, and credit VaR.
 Reference OCC, FDIC, Fed SR letters for regulatory guidance.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Credit risk analysis
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1154,7 +1223,7 @@ Key responsibilities:
 Use treasury metrics: DSO, DPO, DIO, cash conversion cycle.
 Reference ISDA, FAS 133/ASC 815 for hedge accounting.
 Consider credit ratings impact and covenant compliance.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Treasury operations
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1193,7 +1262,7 @@ Key expertise:
 Identify red flag clauses and propose alternative language.
 Rate contract risk: High, Medium, Low with specific concerns.
 Reference UCC, common law principles, and industry standards.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Contract analysis
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1228,7 +1297,7 @@ Key expertise:
 Reference USPTO, EPO, WIPO procedures and case law.
 Analyze claims construction and prior art systematically.
 Consider IP landscape and competitive positioning.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // IP law
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1263,7 +1332,7 @@ Key expertise:
 Analyze cases using FRCP, local rules, and relevant precedent.
 Assess strengths, weaknesses, and likely outcomes.
 Provide damages analysis and litigation cost-benefit.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Litigation strategy
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1298,7 +1367,7 @@ Key expertise:
 Cite relevant CFR sections, agency guidance, and precedent.
 Assess regulatory risk and compliance gaps.
 Recommend proactive engagement strategies.`,
-    model: 'qwen2.5:7b',
+    model: 'qwen2.5:7b', // Regulatory affairs
     premium: true,
     premiumTier: 'enterprise',
   },
@@ -1369,6 +1438,50 @@ class OllamaService {
       available: this.isAvailable,
       models: this.availableModels,
     };
+  }
+
+  /**
+   * Pre-warm all unique models used by agents
+   * Loads models into GPU memory for instant responses
+   */
+  async preWarmModels(onProgress?: (model: string, index: number, total: number) => void): Promise<void> {
+    if (!this.isAvailable) {
+      console.warn('[Ollama] Cannot pre-warm models - Ollama not available');
+      return;
+    }
+
+    // Get unique models from online agents
+    const uniqueModels = [...new Set(
+      this.agents
+        .filter(a => a.status === 'online')
+        .map(a => a.model)
+    )];
+
+    console.log(`[Ollama] Pre-warming ${uniqueModels.length} models:`, uniqueModels);
+
+    for (let i = 0; i < uniqueModels.length; i++) {
+      const model = uniqueModels[i];
+      onProgress?.(model, i + 1, uniqueModels.length);
+      
+      try {
+        // Send a minimal request to load the model into memory
+        await fetch(`${this.baseUrl}/api/generate`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            model,
+            prompt: 'Hello',
+            stream: false,
+            options: { num_predict: 1 } // Generate just 1 token to minimize time
+          }),
+        });
+        console.log(`[Ollama] Pre-warmed: ${model}`);
+      } catch (error) {
+        console.warn(`[Ollama] Failed to pre-warm ${model}:`, error);
+      }
+    }
+
+    console.log('[Ollama] All models pre-warmed');
   }
 
   /**

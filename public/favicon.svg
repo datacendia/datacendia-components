@@ -1,10 +1,7 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#2563EB"/>
-      <stop offset="100%" style="stop-color:#7C3AED"/>
-    </linearGradient>
-  </defs>
-  <rect width="32" height="32" rx="8" fill="url(#logoGradient)"/>
-  <text x="16" y="23" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="bold">D</text>
+  <!-- DATACENDIA Favicon - Minimalist "D" matching brand -->
+  <rect width="32" height="32" rx="6" fill="#0a0a0a"/>
+  <text x="16" y="22" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#e8e4e0" text-anchor="middle" font-weight="300" letter-spacing="0.05em">D</text>
+  <!-- Subtle cyan accent line -->
+  <rect x="6" y="26" width="20" height="1" rx="0.5" fill="#06b6d4" opacity="0.8"/>
 </svg>

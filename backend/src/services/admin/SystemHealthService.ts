@@ -1,10 +1,14 @@
 // =============================================================================
 // SYSTEM HEALTH SERVICE
 // Platform-wide system monitoring and health checks
+// ENTERPRISE PLATINUM STANDARD - Real database alerts + real health checks
 // =============================================================================
 
 import { logger } from '../../utils/logger.js';
+import { PrismaClient, AlertSeverity } from '@prisma/client';
 import os from 'os';
+
+const prisma = new PrismaClient();
 
 // =============================================================================
 // TYPES
@@ -16,7 +20,7 @@ export interface ServiceHealth {
   latency: number; // ms
   uptime: number; // percentage
   lastCheck: Date;
-  details?: string;
+  details?: string | undefined;
 }
 
 export interface SystemMetrics {
@@ -317,45 +321,115 @@ class SystemHealthService {
   }
 
   // ---------------------------------------------------------------------------
-  // ALERTS
+  // ALERTS - DATABASE-BACKED
   // ---------------------------------------------------------------------------
 
-  createAlert(severity: HealthAlert['severity'], service: string, message: string): HealthAlert {
-    const alert: HealthAlert = {
-      id: `alert_${Date.now()}`,
-      severity,
-      service,
-      message,
-      createdAt: new Date(),
-    };
+  async createAlert(severity: HealthAlert['severity'], service: string, message: string): Promise<HealthAlert> {
+    try {
+      const severityMap: Record<string, AlertSeverity> = {
+        info: 'INFO',
+        warning: 'WARNING',
+        critical: 'CRITICAL',
+      };
 
-    this.alerts.set(alert.id, alert);
-    logger.warn(`SystemHealth Alert [${severity}]: ${service} - ${message}`);
-    
-    return alert;
-  }
-
-  acknowledgeAlert(alertId: string): boolean {
-    const alert = this.alerts.get(alertId);
-    if (!alert) return false;
-    alert.acknowledgedAt = new Date();
-    return true;
-  }
-
-  resolveAlert(alertId: string): boolean {
-    const alert = this.alerts.get(alertId);
-    if (!alert) return false;
-    alert.resolvedAt = new Date();
-    return true;
-  }
-
-  getActiveAlerts(): HealthAlert[] {
-    return Array.from(this.alerts.values())
-      .filter(a => !a.resolvedAt)
-      .sort((a, b) => {
-        const severityOrder = { critical: 0, warning: 1, info: 2 };
-        return severityOrder[a.severity] - severityOrder[b.severity];
+      const dbAlert = await prisma.system_alerts.create({
+        data: {
+          severity: severityMap[severity] || 'INFO',
+          service,
+          title: `${service} Alert`,
+          message,
+        },
       });
+
+      logger.warn(`SystemHealth Alert [${severity}]: ${service} - ${message}`);
+
+      return {
+        id: dbAlert.id,
+        severity,
+        service: dbAlert.service,
+        message: dbAlert.message,
+        createdAt: dbAlert.created_at,
+        acknowledgedAt: dbAlert.acknowledged_at || undefined,
+        resolvedAt: dbAlert.resolved_at || undefined,
+      };
+    } catch (error) {
+      logger.error('SystemHealthService: Failed to create alert in DB', error);
+      // Fallback to in-memory
+      const alert: HealthAlert = {
+        id: `alert_${Date.now()}`,
+        severity,
+        service,
+        message,
+        createdAt: new Date(),
+      };
+      this.alerts.set(alert.id, alert);
+      return alert;
+    }
+  }
+
+  async acknowledgeAlert(alertId: string): Promise<boolean> {
+    try {
+      await prisma.system_alerts.update({
+        where: { id: alertId },
+        data: { acknowledged: true, acknowledged_at: new Date() },
+      });
+      return true;
+    } catch (error) {
+      // Try in-memory fallback
+      const alert = this.alerts.get(alertId);
+      if (!alert) return false;
+      alert.acknowledgedAt = new Date();
+      return true;
+    }
+  }
+
+  async resolveAlert(alertId: string): Promise<boolean> {
+    try {
+      await prisma.system_alerts.update({
+        where: { id: alertId },
+        data: { resolved: true, resolved_at: new Date() },
+      });
+      return true;
+    } catch (error) {
+      // Try in-memory fallback
+      const alert = this.alerts.get(alertId);
+      if (!alert) return false;
+      alert.resolvedAt = new Date();
+      return true;
+    }
+  }
+
+  async getActiveAlerts(): Promise<HealthAlert[]> {
+    try {
+      const dbAlerts = await prisma.system_alerts.findMany({
+        where: { resolved: false },
+        orderBy: [{ severity: 'desc' }, { created_at: 'desc' }],
+      });
+
+      const severityMap: Record<string, HealthAlert['severity']> = {
+        INFO: 'info',
+        WARNING: 'warning',
+        CRITICAL: 'critical',
+      };
+
+      return dbAlerts.map((a: any) => ({
+        id: a.id,
+        severity: severityMap[a.severity] || 'info',
+        service: a.service,
+        message: a.message,
+        createdAt: a.created_at,
+        acknowledgedAt: a.acknowledged_at || undefined,
+        resolvedAt: a.resolved_at || undefined,
+      }));
+    } catch (error) {
+      // Fallback to in-memory
+      return Array.from(this.alerts.values())
+        .filter(a => !a.resolvedAt)
+        .sort((a, b) => {
+          const severityOrder = { critical: 0, warning: 1, info: 2 };
+          return severityOrder[a.severity] - severityOrder[b.severity];
+        });
+    }
   }
 
   // ---------------------------------------------------------------------------
@@ -366,13 +440,13 @@ class SystemHealthService {
     const services = await this.checkAllServices();
     const system = this.getSystemMetrics();
     const api = this.getApiMetrics();
-    const alerts = this.getActiveAlerts();
+    const alerts = await this.getActiveAlerts();
 
     // Determine overall status
     let overallStatus: 'healthy' | 'degraded' | 'critical' = 'healthy';
     if (services.some(s => s.status === 'down')) {
       overallStatus = 'critical';
-    } else if (services.some(s => s.status === 'degraded') || alerts.some(a => a.severity === 'warning')) {
+    } else if (services.some(s => s.status === 'degraded') || alerts.some((a: HealthAlert) => a.severity === 'warning')) {
       overallStatus = 'degraded';
     }
 

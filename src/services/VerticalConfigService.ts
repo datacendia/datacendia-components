@@ -59,7 +59,7 @@ export interface ServiceToggle {
 // API SERVICE
 // =============================================================================
 
-const BASE_URL = '/api/v1/vertical-config';
+const BASE_URL = '/vertical-config';
 
 export const verticalConfigApi = {
   // ===========================================================================

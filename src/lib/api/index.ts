@@ -342,7 +342,7 @@ export const councilApi = {
     synthesis: string;
     confidence: number;
   }) {
-    return api.post<any>('/council/deliberations', data);
+    return api.post<any>('/council/deliberations/save', data);
   },
 
   async generateExecutiveSummary(deliberationId: string) {
@@ -372,7 +372,7 @@ const mapMetricDefinition = (m: any): Types.MetricDefinition => ({
 });
 
 export const metricsApi = {
-  async getMetrics(params?: { category?: string; search?: string; page?: number }) {
+  async getMetrics(params?: { organizationId?: string; category?: string; search?: string; page?: number }) {
     const response = await api.get<any[]>('/metrics', params);
 
     if (response.success && response.data) {
@@ -1390,6 +1390,23 @@ export const druidApi = {
   },
 };
 
+// ============================================================================
+// CORTEX CORE API (Intelligence Gateway)
+// ============================================================================
+export { cortexApi } from './cortex';
+export type {
+  PillarName,
+  QueryParams,
+  QueryResponse,
+  AnalyzeParams,
+  AnalyzeResponse,
+  SimulateParams,
+  SimulateResponse,
+  GovernParams,
+  GovernResponse,
+  ContextResponse,
+} from './cortex';
+
 // Default export with all APIs
 export default {
   auth: authApi,
@@ -1414,4 +1431,5 @@ export default {
   redteam: redteamApi,
   gnosis: gnosisApi,
   druid: druidApi,
+  cortex: {} as typeof import('./cortex').cortexApi, // Lazy reference
 };

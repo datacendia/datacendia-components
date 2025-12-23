@@ -105,7 +105,7 @@ export class DeliberationService extends BaseService {
       dependencies: ['database'],
       ...config,
     });
-    this.ollamaEndpoint = process.env.OLLAMA_HOST || 'http://localhost:11434';
+    this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://localhost:11434';
   }
 
   async initialize(): Promise<void> {
@@ -174,27 +174,103 @@ export class DeliberationService extends BaseService {
   // ---------------------------------------------------------------------------
 
   async getDeliberations(
-    organizationId: string,
+    organizationId?: string,
     options?: { limit?: number; offset?: number; status?: string }
-  ): Promise<Deliberation[]> {
-    // Get from cache
-    let cached = this.deliberationCache.get(organizationId) || [];
-    
-    // Filter by status if provided
-    if (options?.status) {
-      cached = cached.filter(d => d.status === options.status);
+  ): Promise<any[]> {
+    // Query database directly for reliability
+    const where: any = {};
+    if (organizationId) {
+      where.organization_id = organizationId;
     }
-    
-    return cached.slice(options?.offset || 0, (options?.offset || 0) + (options?.limit || 50));
+    if (options?.status) {
+      where.status = options.status.toUpperCase();
+    }
+
+    const dbResults = await prisma!.deliberations.findMany({
+      where,
+      orderBy: { created_at: 'desc' },
+      skip: options?.offset || 0,
+      take: options?.limit || 50,
+      include: {
+        deliberation_messages: {
+          include: { agents: true },
+          orderBy: { created_at: 'asc' },
+        },
+      },
+    });
+
+    // Map to Deliberation format
+    return dbResults.map(d => ({
+      id: d.id,
+      organizationId: d.organization_id,
+      question: d.question || '',
+      status: d.status as any,
+      mode: (d.mode as any) || 'council',
+      config: (d.config as any) || {},
+      context: (d.context as any) || {},
+      currentPhase: d.current_phase || undefined,
+      progress: d.progress || 0,
+      decision: d.decision || undefined,
+      confidence: d.confidence || undefined,
+      startedAt: d.started_at || undefined,
+      completedAt: d.completed_at || undefined,
+      createdAt: d.created_at,
+      responses: d.deliberation_messages.map(m => ({
+        agentId: m.agent_id,
+        agentCode: m.agents?.code || 'unknown',
+        agentName: m.agents?.name || 'Unknown Agent',
+        content: m.content,
+        timestamp: m.created_at,
+        phase: m.phase || 'response',
+      })),
+      crossExaminations: [],
+      synthesis: d.decision || undefined,
+    }));
   }
 
-  async getDeliberation(deliberationId: string): Promise<Deliberation | null> {
-    // Search cache
-    for (const deliberations of this.deliberationCache.values()) {
-      const found = deliberations.find(d => d.id === deliberationId);
-      if (found) return found;
-    }
-    return null;
+  async getDeliberation(deliberationId: string): Promise<any | null> {
+    // Query database directly for reliability
+    const d = await prisma!.deliberations.findUnique({
+      where: { id: deliberationId },
+      include: {
+        deliberation_messages: {
+          include: { agents: true },
+          orderBy: { created_at: 'asc' },
+        },
+      },
+    });
+
+    if (!d) return null;
+
+    return {
+      id: d.id,
+      organizationId: d.organization_id,
+      question: d.question || '',
+      status: d.status,
+      mode: d.mode || 'council',
+      config: d.config || {},
+      context: d.context || {},
+      currentPhase: d.current_phase || undefined,
+      progress: d.progress || 0,
+      decision: d.decision || undefined,
+      confidence: d.confidence || undefined,
+      startedAt: d.started_at || undefined,
+      completedAt: d.completed_at || undefined,
+      createdAt: d.created_at,
+      created_at: d.created_at,
+      completed_at: d.completed_at,
+      deliberation_messages: d.deliberation_messages,
+      responses: d.deliberation_messages.map(m => ({
+        agentId: m.agent_id,
+        agentCode: (m as any).agents?.code || 'unknown',
+        agentName: (m as any).agents?.name || 'Unknown Agent',
+        content: m.content,
+        timestamp: m.created_at,
+        phase: m.phase || 'response',
+      })),
+      crossExaminations: [],
+      synthesis: d.decision || undefined,
+    };
   }
 
   // ---------------------------------------------------------------------------

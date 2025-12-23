@@ -68,6 +68,7 @@ import {
 import ModeAnalytics from './pages/admin/ModeAnalytics';
 import { RDLabPage } from './pages/admin/RDLabPage';
 import CorePage from './pages/admin/CorePage';
+import SchemaMappingPage from './pages/admin/SchemaMappingPage';
 import { ControlCenterPage } from './pages/admin/ControlCenterPage';
 import { AdminAIPage } from './pages/admin/AdminAIPage';
 
@@ -122,6 +123,9 @@ import {
   ChronosPage,
 } from './pages/cortex/intelligence';
 
+// Walkthroughs
+import WalkthroughsPage from './pages/cortex/walkthroughs/WalkthroughsPage';
+
 // Enterprise Suite Pages (High-Value Features)
 import {
   SovereignPage,
@@ -149,6 +153,7 @@ import { AegisPage } from './pages/sovereign/AegisPage';
 import { EternalPage } from './pages/sovereign/EternalPage';
 import { SymbiontPage } from './pages/sovereign/SymbiontPage';
 import { VoxPage } from './pages/sovereign/VoxPage';
+import HorizonPage from './pages/sovereign/HorizonPage';
 
 // Crown Jewels - Premium Enterprise Services
 import { EchoPage, RedTeamPage, GnosisPage } from './pages/cortex/crown';
@@ -520,6 +525,12 @@ export const router = createBrowserRouter([
         element: <ChronosPage />,
       },
 
+      // Walkthroughs
+      {
+        path: 'walkthroughs',
+        element: <WalkthroughsPage />,
+      },
+
       // Enterprise Suite (High-Value Features)
       {
         path: 'enterprise/sovereign',
@@ -604,6 +615,10 @@ export const router = createBrowserRouter([
       {
         path: 'sovereign/vox',
         element: <VoxPage />,
+      },
+      {
+        path: 'sovereign/horizon',
+        element: <HorizonPage />,
       },
 
       // Admin Pages
@@ -704,6 +719,12 @@ export const router = createBrowserRouter([
         element: <SecurityPoliciesPage />,
       },
 
+      // Help redirect to docs
+      {
+        path: 'help',
+        element: <Navigate to="/docs" replace />,
+      },
+
       // Settings (nested under Cortex)
       {
         path: 'settings',
@@ -792,6 +813,10 @@ export const router = createBrowserRouter([
       {
         path: 'data-sources',
         element: <AdminDataSourcesPage />,
+      },
+      {
+        path: 'schema-mapping',
+        element: <SchemaMappingPage />,
       },
       {
         path: 'mode-analytics',

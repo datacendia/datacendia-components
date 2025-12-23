@@ -3,8 +3,8 @@ import { z } from 'zod';
 import { prisma } from '../config/database.js';
 import { Prisma } from '@prisma/client';
 import crypto from 'crypto';
-import { cache } from '../config/redis.js';
-import { logger } from '../utils/logger.js';
+// import { cache } from '../config/redis.js';
+// import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
 
@@ -97,55 +97,51 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.get('/key', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const orgId = req.organizationId!;
-    const cacheKey = `metrics:key:${orgId}`;
+    const orgId = (req.organizationId as string) || (req.query['organizationId'] as string);
+    
+    // Skip cache for now to ensure fresh data
+    // Get ALL metrics for this org (no category filter)
+    const metrics = await prisma.metric_definitions.findMany({
+      where: {
+        organization_id: orgId,
+      },
+      take: 6,
+    });
+    
+    // If no org-specific metrics, get any metrics
+    const finalMetrics = metrics.length > 0 ? metrics : await prisma.metric_definitions.findMany({ take: 6 });
+    
+    const keyMetrics = await Promise.all(
+      finalMetrics.map(async (metric) => {
+        // Get latest and previous values
+        const [latest, previous] = await Promise.all([
+          prisma.metric_values.findFirst({
+            where: { metric_id: metric.id },
+            orderBy: { timestamp: 'desc' },
+          }),
+          prisma.metric_values.findFirst({
+            where: { metric_id: metric.id },
+            orderBy: { timestamp: 'desc' },
+            skip: 1,
+          }),
+        ]);
 
-    let keyMetrics = await cache.get<unknown[]>(cacheKey);
+        const value = latest?.value || 0;
+        const prevValue = previous?.value || value;
+        const change = prevValue !== 0 ? ((value - prevValue) / prevValue) * 100 : 0;
 
-    if (!keyMetrics) {
-      // Get predefined key metrics with latest values
-      const metrics = await prisma.metric_definitions.findMany({
-        where: {
-          organization_id: orgId,
-          category: { in: ['revenue', 'sales', 'operations', 'customer'] },
-        },
-        take: 6,
-      });
-
-      keyMetrics = await Promise.all(
-        metrics.map(async (metric) => {
-          // Get latest and previous values
-          const [latest, previous] = await Promise.all([
-            prisma.metric_values.findFirst({
-              where: { metric_id: metric.id },
-              orderBy: { timestamp: 'desc' },
-            }),
-            prisma.metric_values.findFirst({
-              where: { metric_id: metric.id },
-              orderBy: { timestamp: 'desc' },
-              skip: 1,
-            }),
-          ]);
-
-          const value = latest?.value || 0;
-          const prevValue = previous?.value || value;
-          const change = prevValue !== 0 ? ((value - prevValue) / prevValue) * 100 : 0;
-
-          return {
-            id: metric.id,
-            name: metric.name,
-            code: metric.code,
-            value,
-            unit: metric.unit,
-            change: Math.round(change * 10) / 10,
-            trend: change > 0 ? 'up' : change < 0 ? 'down' : 'stable',
-            updatedAt: latest?.timestamp,
-          };
-        })
-      );
-
-      await cache.set(cacheKey, keyMetrics, 300); // 5 minutes
-    }
+        return {
+          id: metric.id,
+          name: metric.name,
+          code: metric.code,
+          value,
+          unit: metric.unit,
+          change: Math.round(change * 10) / 10,
+          trend: change > 0 ? 'up' : change < 0 ? 'down' : 'stable',
+          updatedAt: latest?.timestamp,
+        };
+      })
+    );
 
     res.json({
       success: true,
@@ -163,7 +159,7 @@ router.get('/key', async (req: Request, res: Response, next: NextFunction) => {
 router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const metric = await prisma.metric_definitions.findUnique({
-      where: { id: req.params.id },
+      where: { id: req.params['id'] as string },
       include: {
         users: { select: { id: true, name: true } },
       },
@@ -211,7 +207,7 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
         organization_id: orgId,
         name: data.name,
         code: data.code,
-        description: data.description,
+        description: data.description ?? null,
         formula: data.formula as Prisma.InputJsonValue,
         unit: data.unit,
         category: data.category,
@@ -250,10 +246,10 @@ router.post('/', async (req: Request, res: Response, next: NextFunction) => {
  */
 router.get('/:id/calculate', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { startDate, endDate, granularity, dimensions } = calculateQuerySchema.parse(req.query);
+    const { startDate, endDate } = calculateQuerySchema.parse(req.query);
 
     const metric = await prisma.metric_definitions.findUnique({
-      where: { id: req.params.id },
+      where: { id: req.params['id'] as string },
     });
 
     if (!metric) {
@@ -278,8 +274,8 @@ router.get('/:id/calculate', async (req: Request, res: Response, next: NextFunct
     });
 
     // Calculate summary
-    const currentValue = values.length > 0 ? values[values.length - 1].value : 0;
-    const previousValue = values.length > 1 ? values[0].value : currentValue;
+    const currentValue = values.length > 0 ? values[values.length - 1]!.value : 0;
+    const previousValue = values.length > 1 ? values[0]!.value : currentValue;
     const change = previousValue !== 0 ? ((currentValue - previousValue) / previousValue) * 100 : 0;
 
     res.json({
@@ -313,10 +309,10 @@ router.get('/:id/calculate', async (req: Request, res: Response, next: NextFunct
  */
 router.get('/:id/history', async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const { startDate, endDate, granularity } = calculateQuerySchema.parse(req.query);
+    const { startDate, endDate } = calculateQuerySchema.parse(req.query);
 
     const metric = await prisma.metric_definitions.findUnique({
-      where: { id: req.params.id },
+      where: { id: req.params['id'] as string },
     });
 
     if (!metric) {

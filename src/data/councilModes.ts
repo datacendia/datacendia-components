@@ -65,7 +65,7 @@ export const COUNCIL_MODES: Record<string, CouncilMode> = {
       'Annual planning',
     ],
     leadAgent: 'chief',
-    defaultAgents: ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cto', 'risk'], // Full council for strategic debates
+    defaultAgents: ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cto', 'risk', 'devils-advocate'], // Full council for strategic debates
     agentBehaviors: [
       "Security MUST attack Revenue's risky proposals",
       "Finance MUST challenge Growth's optimistic projections",

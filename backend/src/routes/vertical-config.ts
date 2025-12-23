@@ -24,7 +24,7 @@ const extractContext = (req: Request) => ({
  * GET /api/v1/vertical-config/services
  * Get full service catalog
  */
-router.get('/services', async (_req: Request, res: Response) => {
+router.get('/services', async (_req: Request, res: Response): Promise<void> => {
   try {
     const services = verticalConfigService.getServiceCatalog();
     res.json({ services });
@@ -38,11 +38,13 @@ router.get('/services', async (_req: Request, res: Response) => {
  * GET /api/v1/vertical-config/services/:id
  * Get specific service
  */
-router.get('/services/:id', async (req: Request, res: Response) => {
+router.get('/services/:id', async (req: Request, res: Response): Promise<void> => {
   try {
-    const service = verticalConfigService.getServiceById(req.params.id);
+    const serviceId = req.params['id'] as string;
+    const service = verticalConfigService.getServiceById(serviceId);
     if (!service) {
-      return res.status(404).json({ error: 'Service not found' });
+      res.status(404).json({ error: 'Service not found' });
+      return;
     }
     res.json(service);
   } catch (error: any) {
@@ -55,9 +57,10 @@ router.get('/services/:id', async (req: Request, res: Response) => {
  * GET /api/v1/vertical-config/services/category/:category
  * Get services by category
  */
-router.get('/services/category/:category', async (req: Request, res: Response) => {
+router.get('/services/category/:category', async (req: Request, res: Response): Promise<void> => {
   try {
-    const services = verticalConfigService.getServicesByCategory(req.params.category as any);
+    const category = req.params['category'] as string;
+    const services = verticalConfigService.getServicesByCategory(category as any);
     res.json({ services });
   } catch (error: any) {
     logger.error('[VerticalConfig API] Error getting services by category:', error);
@@ -69,7 +72,7 @@ router.get('/services/category/:category', async (req: Request, res: Response) =
  * GET /api/v1/vertical-config/verticals
  * Get all vertical templates
  */
-router.get('/verticals', async (_req: Request, res: Response) => {
+router.get('/verticals', async (_req: Request, res: Response): Promise<void> => {
   try {
     const verticals = verticalConfigService.getVerticalTemplates();
     res.json({ verticals });
@@ -83,11 +86,13 @@ router.get('/verticals', async (_req: Request, res: Response) => {
  * GET /api/v1/vertical-config/verticals/:id
  * Get specific vertical template
  */
-router.get('/verticals/:id', async (req: Request, res: Response) => {
+router.get('/verticals/:id', async (req: Request, res: Response): Promise<void> => {
   try {
-    const vertical = verticalConfigService.getVerticalById(req.params.id);
+    const verticalId = req.params['id'] as string;
+    const vertical = verticalConfigService.getVerticalById(verticalId);
     if (!vertical) {
-      return res.status(404).json({ error: 'Vertical not found' });
+      res.status(404).json({ error: 'Vertical not found' });
+      return;
     }
     res.json(vertical);
   } catch (error: any) {
@@ -100,9 +105,10 @@ router.get('/verticals/:id', async (req: Request, res: Response) => {
  * GET /api/v1/vertical-config/verticals/:id/recommended
  * Get recommended services for a vertical
  */
-router.get('/verticals/:id/recommended', async (req: Request, res: Response) => {
+router.get('/verticals/:id/recommended', async (req: Request, res: Response): Promise<void> => {
   try {
-    const services = verticalConfigService.getRecommendedServices(req.params.id);
+    const verticalId = req.params['id'] as string;
+    const services = verticalConfigService.getRecommendedServices(verticalId);
     res.json({ services });
   } catch (error: any) {
     logger.error('[VerticalConfig API] Error getting recommended services:', error);
@@ -114,9 +120,11 @@ router.get('/verticals/:id/recommended', async (req: Request, res: Response) => 
  * GET /api/v1/vertical-config/verticals/compare/:id1/:id2
  * Compare two verticals
  */
-router.get('/verticals/compare/:id1/:id2', async (req: Request, res: Response) => {
+router.get('/verticals/compare/:id1/:id2', async (req: Request, res: Response): Promise<void> => {
   try {
-    const comparison = verticalConfigService.compareVerticals(req.params.id1, req.params.id2);
+    const id1 = req.params['id1'] as string;
+    const id2 = req.params['id2'] as string;
+    const comparison = verticalConfigService.compareVerticals(id1, id2);
     res.json(comparison);
   } catch (error: any) {
     logger.error('[VerticalConfig API] Error comparing verticals:', error);
@@ -132,13 +140,23 @@ router.get('/verticals/compare/:id1/:id2', async (req: Request, res: Response) =
  * GET /api/v1/vertical-config/organization
  * Get organization's current configuration
  */
-router.get('/organization', async (req: Request, res: Response) => {
+router.get('/organization', async (req: Request, res: Response): Promise<void> => {
   try {
     const { organizationId } = extractContext(req);
     const config = await verticalConfigService.getOrganizationConfig(organizationId);
     
     if (!config) {
-      return res.status(404).json({ error: 'No configuration found', needsSetup: true });
+      // Return default config for new organizations instead of 404
+      res.json({
+        id: 'default',
+        organizationId,
+        verticalId: 'general',
+        enabledServices: ['council', 'ledger', 'graph', 'pulse', 'lens', 'bridge'],
+        disabledServices: [],
+        customizations: {},
+        needsSetup: true,
+      });
+      return;
     }
     
     res.json(config);
@@ -152,13 +170,14 @@ router.get('/organization', async (req: Request, res: Response) => {
  * POST /api/v1/vertical-config/organization
  * Create organization configuration
  */
-router.post('/organization', async (req: Request, res: Response) => {
+router.post('/organization', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const { verticalId, customEnabledServices } = req.body;
 
     if (!verticalId) {
-      return res.status(400).json({ error: 'verticalId is required' });
+      res.status(400).json({ error: 'verticalId is required' });
+      return;
     }
 
     const config = await verticalConfigService.createOrganizationConfig(
@@ -179,7 +198,7 @@ router.post('/organization', async (req: Request, res: Response) => {
  * PUT /api/v1/vertical-config/organization
  * Update organization configuration
  */
-router.put('/organization', async (req: Request, res: Response) => {
+router.put('/organization', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const updates = req.body;
@@ -201,13 +220,14 @@ router.put('/organization', async (req: Request, res: Response) => {
  * POST /api/v1/vertical-config/organization/switch-vertical
  * Switch to a different vertical
  */
-router.post('/organization/switch-vertical', async (req: Request, res: Response) => {
+router.post('/organization/switch-vertical', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const { verticalId, preserveCustomizations = true } = req.body;
 
     if (!verticalId) {
-      return res.status(400).json({ error: 'verticalId is required' });
+      res.status(400).json({ error: 'verticalId is required' });
+      return;
     }
 
     const config = await verticalConfigService.switchVertical(
@@ -232,18 +252,20 @@ router.post('/organization/switch-vertical', async (req: Request, res: Response)
  * POST /api/v1/vertical-config/toggle/:serviceId
  * Toggle a single service
  */
-router.post('/toggle/:serviceId', async (req: Request, res: Response) => {
+router.post('/toggle/:serviceId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
+    const serviceId = req.params['serviceId'] as string;
     const { enabled, reason } = req.body;
 
     if (typeof enabled !== 'boolean') {
-      return res.status(400).json({ error: 'enabled (boolean) is required' });
+      res.status(400).json({ error: 'enabled (boolean) is required' });
+      return;
     }
 
     const toggle = await verticalConfigService.toggleService(
       organizationId,
-      req.params.serviceId,
+      serviceId,
       enabled,
       userId,
       reason
@@ -260,13 +282,14 @@ router.post('/toggle/:serviceId', async (req: Request, res: Response) => {
  * POST /api/v1/vertical-config/toggle-bulk
  * Toggle multiple services at once
  */
-router.post('/toggle-bulk', async (req: Request, res: Response) => {
+router.post('/toggle-bulk', async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, organizationId } = extractContext(req);
     const { toggles } = req.body;
 
     if (!Array.isArray(toggles)) {
-      return res.status(400).json({ error: 'toggles array is required' });
+      res.status(400).json({ error: 'toggles array is required' });
+      return;
     }
 
     const results = await verticalConfigService.bulkToggleServices(
@@ -286,7 +309,7 @@ router.post('/toggle-bulk', async (req: Request, res: Response) => {
  * GET /api/v1/vertical-config/enabled
  * Get all enabled services for organization
  */
-router.get('/enabled', async (req: Request, res: Response) => {
+router.get('/enabled', async (req: Request, res: Response): Promise<void> => {
   try {
     const { organizationId } = extractContext(req);
     const services = await verticalConfigService.getEnabledServices(organizationId);
@@ -301,7 +324,7 @@ router.get('/enabled', async (req: Request, res: Response) => {
  * GET /api/v1/vertical-config/disabled
  * Get all disabled services for organization
  */
-router.get('/disabled', async (req: Request, res: Response) => {
+router.get('/disabled', async (req: Request, res: Response): Promise<void> => {
   try {
     const { organizationId } = extractContext(req);
     const services = await verticalConfigService.getDisabledServices(organizationId);
@@ -316,11 +339,12 @@ router.get('/disabled', async (req: Request, res: Response) => {
  * GET /api/v1/vertical-config/check/:serviceId
  * Check if a specific service is enabled
  */
-router.get('/check/:serviceId', async (req: Request, res: Response) => {
+router.get('/check/:serviceId', async (req: Request, res: Response): Promise<void> => {
   try {
     const { organizationId } = extractContext(req);
-    const enabled = await verticalConfigService.isServiceEnabled(organizationId, req.params.serviceId);
-    res.json({ serviceId: req.params.serviceId, enabled });
+    const serviceId = req.params['serviceId'] as string;
+    const enabled = await verticalConfigService.isServiceEnabled(organizationId, serviceId);
+    res.json({ serviceId, enabled });
   } catch (error: any) {
     logger.error('[VerticalConfig API] Error checking service:', error);
     res.status(500).json({ error: error.message });

@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
 import { api } from '../../../lib/api';
 import { PageGuide, GUIDES } from '../../../components/PageGuide';
+import { useAuth } from '../../../contexts/AuthContext';
 
 interface DecisionEvent {
   id: string;
@@ -526,7 +527,9 @@ const SAMPLE_DECISIONS_DETAIL: Record<string, Decision> = {
 
 export const DecisionDNAPage: React.FC = () => {
   const navigate = useNavigate();
-  const [decisions, setDecisions] = useState<DecisionSummary[]>(SAMPLE_DECISIONS);
+  const { user } = useAuth();
+  const [decisions, setDecisions] = useState<DecisionSummary[]>([]);
+  const [isLoadingList, setIsLoadingList] = useState(true);
   const [selectedDecision, setSelectedDecision] = useState<Decision | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [_preMortemError, setPreMortemError] = useState<string | null>(null);
@@ -555,42 +558,121 @@ export const DecisionDNAPage: React.FC = () => {
     return true;
   });
 
-  // Load decisions
+  // Load decisions when user changes
   useEffect(() => {
     loadDecisions();
-  }, []);
+  }, [user?.organizationId]);
 
   const loadDecisions = async () => {
+    setIsLoadingList(true);
     try {
-      const res = await api.get<any>('/decisions', { organizationId: 'demo-org-id' });
+      const orgId = user?.organizationId || 'demo-org-id';
+      const allDecisions: DecisionSummary[] = [];
+      
+      // Load formal decisions
+      const res = await api.get<any>('/decisions', { organizationId: orgId });
       const payload = res as any;
-      if (payload.success && payload.decisions && payload.decisions.length > 0) {
-        // Merge API decisions with samples
-        setDecisions([...SAMPLE_DECISIONS, ...(payload.decisions as DecisionSummary[])]);
+      if (payload.success && payload.decisions) {
+        allDecisions.push(...(payload.decisions as DecisionSummary[]));
       }
+      
+      // Also load deliberations and convert to decision format
+      const delibRes = await api.get<any>('/council/deliberations', { limit: 100 });
+      const delibPayload = delibRes as any;
+      if (delibPayload.success && delibPayload.deliberations) {
+        const deliberationDecisions = delibPayload.deliberations.map((d: any) => ({
+          id: d.id,
+          title: d.question?.substring(0, 100) || 'Council Deliberation',
+          status: d.status === 'COMPLETED' ? 'decided' : 'deliberating',
+          priority: 'high',
+          createdAt: d.createdAt || d.created_at || new Date().toISOString(),
+          riskScore: d.confidence ? Math.round(100 - d.confidence) : 30,
+          eventCount: d.responses?.length || 1,
+        }));
+        allDecisions.push(...deliberationDecisions);
+      }
+      
+      // Sort by date descending
+      allDecisions.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+      setDecisions(allDecisions);
     } catch (error) {
-      // Keep sample decisions on error
-      console.log('Using sample decisions');
+      console.error('Failed to load decisions:', error);
+      setDecisions([]);
+    } finally {
+      setIsLoadingList(false);
     }
   };
 
   const loadDecision = async (id: string) => {
     setIsLoading(true);
-
-    // Use sample data for demo decisions
-    if (id.startsWith('sample-') && SAMPLE_DECISIONS_DETAIL[id]) {
-      setSelectedDecision(SAMPLE_DECISIONS_DETAIL[id]);
-      setReplayStep(0);
-      setReplayMode(false);
-      setIsLoading(false);
-      return;
-    }
-
     try {
+      // First try loading from decisions endpoint
       const res = await api.get<any>(`/decisions/${id}`);
       const payload = res as any;
       if (payload.success && payload.decision) {
         setSelectedDecision(payload.decision as Decision);
+        setReplayStep(0);
+        setReplayMode(false);
+        setIsLoading(false);
+        return;
+      }
+      
+      // If not found, try loading as a deliberation
+      const delibRes = await api.get<any>(`/council/deliberations/${id}`);
+      const delibPayload = delibRes as any;
+      if (delibPayload.success && delibPayload.deliberation) {
+        const d = delibPayload.deliberation;
+        // Get messages from deliberation_messages field (from backend)
+        const messages = d.deliberation_messages || d.responses || [];
+        // Convert deliberation to Decision format
+        const decision: Decision = {
+          id: d.id,
+          decisionId: `DELIB-${d.id.substring(0, 8).toUpperCase()}`,
+          title: d.question || 'Council Deliberation',
+          description: d.question || '',
+          status: d.status === 'COMPLETED' ? 'decided' : 'deliberating',
+          priority: 'high',
+          category: 'council',
+          createdAt: d.createdAt || d.created_at || new Date().toISOString(),
+          updatedAt: d.completedAt || d.completed_at || d.createdAt || new Date().toISOString(),
+          councilConfidence: d.confidence,
+          timeline: [
+            {
+              id: 'e1',
+              timestamp: d.createdAt || d.created_at || new Date().toISOString(),
+              type: 'created',
+              title: 'Deliberation Started',
+              summary: 'AI Council deliberation initiated',
+              data: {},
+              userId: 'council',
+            },
+            ...messages.map((r: any, i: number) => ({
+              id: `r${i}`,
+              timestamp: r.created_at || r.timestamp || d.created_at || new Date().toISOString(),
+              type: 'council_session' as const,
+              title: `${r.agents?.name || r.agentName || r.agentCode || 'Agent'} Response`,
+              summary: r.content?.substring(0, 200) || 'Agent analysis',
+              data: { agentCode: r.agents?.code || r.agentCode, phase: r.phase },
+              userId: 'council',
+              agentsInvolved: [r.agents?.name || r.agentName || r.agentCode],
+            })),
+            ...(d.status === 'COMPLETED' ? [{
+              id: 'final',
+              timestamp: d.completedAt || d.completed_at || new Date().toISOString(),
+              type: 'decision_made' as const,
+              title: 'Decision Reached',
+              summary: d.decision || d.synthesis || 'Council reached consensus',
+              data: { confidence: d.confidence },
+              userId: 'council',
+            }] : []),
+          ],
+          preMortems: [],
+          councilSessions: [{ id: d.id, confidence: d.confidence || 0 }],
+          ghostBoardSimulations: [],
+          finalDecision: d.decision || d.synthesis,
+          auditHash: `sha256:${d.id.substring(0, 16)}...`,
+        };
+        setSelectedDecision(decision);
         setReplayStep(0);
         setReplayMode(false);
       }
@@ -634,14 +716,6 @@ export const DecisionDNAPage: React.FC = () => {
     }
     setPreMortemError(null);
 
-    // For sample decisions or if backend unavailable, navigate to Pre-Mortem page
-    if (selectedDecision.id.startsWith('sample-')) {
-      // Navigate to Pre-Mortem page with decision context
-      navigate(
-        `/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`
-      );
-      return;
-    }
 
     setIsLoading(true);
     try {
@@ -1168,7 +1242,7 @@ export const DecisionDNAPage: React.FC = () => {
                                       e.stopPropagation();
                                       // Navigate to the appropriate artefact
                                       if (event.type === 'premortem_run') {
-                                        window.open('/cortex/intelligence/crucible', '_blank');
+                                        window.open('/cortex/sovereign/crucible', '_blank');
                                       } else if (event.type === 'council_session') {
                                         window.open('/cortex/council', '_blank');
                                       } else if (event.type === 'ghost_board') {

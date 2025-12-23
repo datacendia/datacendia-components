@@ -405,6 +405,9 @@ const AdminAIPage = lazy(() =>
   import('./pages/admin/AdminAIPage').then((m) => ({ default: m.AdminAIPage }))
 );
 const SovereignStackPage = lazy(() => import('./pages/admin/SovereignStackPage'));
+const VerticalConfigPage = lazy(() =>
+  import('./pages/cortex/admin').then((m) => ({ default: m.VerticalConfigPage }))
+);
 
 // Tools
 const ROICalculator = lazy(() =>
@@ -639,6 +642,14 @@ export const router = createBrowserRouter([
     element: (
       <SuspenseWrapper>
         <PackagesPage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/sovereign',
+    element: (
+      <SuspenseWrapper>
+        <SovereignEnterpriseIntelligencePage />
       </SuspenseWrapper>
     ),
   },
@@ -1619,6 +1630,16 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <HorizonPage />
+          </SuspenseWrapper>
+        ),
+      },
+
+      // Admin Pages
+      {
+        path: 'admin/vertical-config',
+        element: (
+          <SuspenseWrapper>
+            <VerticalConfigPage />
           </SuspenseWrapper>
         ),
       },

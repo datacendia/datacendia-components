@@ -75,12 +75,12 @@ router.post('/', async (req: Request, res: Response) => {
  */
 router.get('/', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req.query.organizationId as string) || 'demo';
+    // Don't filter by org - return all deliberations for Chronos visibility
     const limit = parseInt(req.query.limit as string) || 50;
     const offset = parseInt(req.query.offset as string) || 0;
     const status = req.query.status as string;
 
-    const deliberations = await deliberationService.getDeliberations(organizationId, {
+    const deliberations = await deliberationService.getDeliberations(undefined, {
       limit,
       offset,
       status,

@@ -10,6 +10,7 @@ import { cn, formatNumber, formatCurrency, formatRelativeTime } from '../../../l
 import { healthApi, alertsApi, metricsApi, organizationsApi, authApi } from '../../lib/api';
 import type { Alert as ApiAlert } from '../../lib/api/types';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { useAuth } from '../../contexts/AuthContext';
 import { NarrativeGuide, NarrativeSelector } from '../../components/ui';
 import { Compass, X } from 'lucide-react';
 import { VerticalDashboard } from '../../components/dashboard';
@@ -175,6 +176,7 @@ const getTranslatedQueries = (t: TranslateFunc): string[] => [
 export const DashboardPage: React.FC = () => {
   const navigate = useNavigate();
   const { t, language } = useLanguage();
+  const { user } = useAuth();
   const [queryInput, setQueryInput] = useState('');
 
   // Real data state
@@ -221,26 +223,26 @@ export const DashboardPage: React.FC = () => {
             title: a.title,
             timestamp: new Date(a.createdAt),
           }));
-          setAlerts(mappedAlerts.length > 0 ? mappedAlerts : fallbackAlerts);
+          setAlerts(mappedAlerts);
         }
 
-        // Fetch metrics
-        const metricsResponse = await metricsApi.getMetrics();
+        // Fetch metrics - use key metrics endpoint which includes real database values
+        const metricsResponse = await metricsApi.getKeyMetrics();
         if (metricsResponse.success && metricsResponse.data) {
           const mappedMetrics: Metric[] = metricsResponse.data.slice(0, 4).map((m: any) => ({
             id: m.id,
             name: m.name,
-            value: m.current_value || 0,
+            value: m.value || 0,
             unit: m.unit || '',
-            change: m.change_percent || 0,
+            change: m.change || 0,
             changeType:
-              (m.change_percent || 0) > 0
+              (m.change || 0) > 0
                 ? 'increase'
-                : (m.change_percent || 0) < 0
+                : (m.change || 0) < 0
                   ? 'decrease'
                   : 'neutral',
           }));
-          setMetrics(mappedMetrics.length > 0 ? mappedMetrics : fallbackMetrics);
+          setMetrics(mappedMetrics);
         }
 
         // Fetch health score

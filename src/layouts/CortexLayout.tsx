@@ -21,6 +21,7 @@ import { Logo, LogoSimple } from '../components/brand/Logo';
 import { SimpleTooltip } from '../components/ui';
 import { ThemeToggle } from '../components/ui/ThemeToggle';
 import { useAuth } from '../contexts';
+import { NavigationLoader, Breadcrumbs, HealthIndicator, ConnectionBanner } from '../components/navigation';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
 const Icons = {
@@ -688,70 +689,25 @@ const CortexLayoutInner: React.FC = () => {
 
   // Check if user is owner/admin (bypass all service filtering)
   const isOwnerOrAdmin = useMemo(() => {
-    return user?.role === 'OWNER' || user?.role === 'SUPER_ADMIN' || user?.role === 'ADMIN';
+    const role = user?.role?.toUpperCase();
+    const result = role === 'OWNER' || role === 'SUPER_ADMIN' || role === 'ADMIN';
+    console.log('[CortexLayout] User role:', user?.role, 'isOwnerOrAdmin:', result);
+    return result;
   }, [user?.role]);
 
   // Filter enterprise features based on enabled services
   const filteredEnterpriseFeatures = useMemo(() => {
-    // Owners and admins see ALL services
-    if (isOwnerOrAdmin) return enterpriseFeatures;
-    if (!isInitialized) return enterpriseFeatures;
-    
-    // Map nav item IDs to service IDs
-    const serviceIdMap: Record<string, string> = {
-      'govern': 'govern',
-      'autopilot': 'autopilot',
-      'voice': 'voice',
-      'mesh': 'mesh',
-      'sovereign': 'sovereign',
-      'genomics': 'genomics',
-      'defense-stack': 'defense-stack',
-      'omni-translate': 'omni-translate',
-      'veto': 'veto',
-      'union': 'union',
-      'ledger': 'ledger',
-      'evidence-vault': 'evidence-vault',
-      'apotheosis': 'apotheosis',
-      'dissent': 'dissent',
-      'cascade': 'cascade',
-      'crisis': 'crisis-management',
-      'audit-workflow': 'audit-workflow',
-      'training': 'training',
-      'vertical-config': 'vertical-config', // Admin always visible
-      'echo': 'echo',
-      'redteam': 'red-team',
-      'gnosis': 'gnosis',
-    };
+    // ALWAYS show ALL enterprise features - filtering disabled for now
+    console.log('[CortexLayout] Enterprise: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', enterpriseFeatures.length, 'features');
+    return enterpriseFeatures;
+  }, [isOwnerOrAdmin]);
 
-    return enterpriseFeatures.filter(feature => {
-      const serviceId = serviceIdMap[feature.id];
-      // Always show admin items and items without service mapping
-      if (!serviceId || feature.id === 'vertical-config') return true;
-      return isServiceEnabled(serviceId);
-    });
-  }, [isInitialized, isServiceEnabled, isOwnerOrAdmin]);
-
-  // Filter sovereign features based on enabled services
+  // Filter sovereign features - show ALL for owner
   const filteredSovereignFeatures = useMemo(() => {
-    // Owners and admins see ALL services
-    if (isOwnerOrAdmin) return sovereignFeatures;
-    if (!isInitialized) return sovereignFeatures;
-    
-    const serviceIdMap: Record<string, string> = {
-      'crucible': 'sovereign',
-      'panopticon': 'panopticon',
-      'aegis': 'defense-stack',
-      'eternal': 'time-lock',
-      'symbiont': 'local-rlhf',
-      'vox': 'voice',
-    };
-
-    return sovereignFeatures.filter(feature => {
-      const serviceId = serviceIdMap[feature.id];
-      if (!serviceId) return true;
-      return isServiceEnabled(serviceId);
-    });
-  }, [isInitialized, isServiceEnabled, isOwnerOrAdmin]);
+    // ALWAYS show ALL sovereign features - filtering disabled for now
+    console.log('[CortexLayout] Sovereign: isOwnerOrAdmin=', isOwnerOrAdmin, 'returning all', sovereignFeatures.length, 'features');
+    return sovereignFeatures;
+  }, [isOwnerOrAdmin]);
 
   const isActive = (path: string) => {
     if (path === '/cortex/dashboard') {
@@ -775,6 +731,12 @@ const CortexLayoutInner: React.FC = () => {
     <DataSourceProvider>
       {/* SEO - Dynamic page titles and meta tags */}
       <SEO />
+
+      {/* Navigation loading indicator */}
+      <NavigationLoader />
+
+      {/* Connection status banner */}
+      <ConnectionBanner />
 
       {/* Command Palette - Global search and actions (Cmd+K) */}
       <CommandPalette />
@@ -997,6 +959,9 @@ const CortexLayoutInner: React.FC = () => {
 
             {/* Right side */}
             <div className="flex items-center gap-3">
+              {/* API Health Status */}
+              <HealthIndicator className="hidden sm:flex" />
+
               {/* Decision Intelligence Dropdown */}
               <div className="relative">
                 <button
@@ -1330,6 +1295,10 @@ const CortexLayoutInner: React.FC = () => {
 
           {/* Page Content */}
           <main className="flex-1 overflow-y-auto overflow-x-hidden bg-sovereign-base">
+            {/* Breadcrumbs for deep navigation */}
+            <div className="px-4 lg:px-6 py-2 border-b border-sovereign-border-subtle bg-sovereign-elevated/50">
+              <Breadcrumbs className="text-slate-400" />
+            </div>
             <Outlet />
           </main>
 

@@ -11,6 +11,7 @@ import { councilApi } from '../../../lib/api';
 import { ollamaService, type DomainAgent } from '../../../lib/ollama';
 import { sovereignApi, enterpriseApi, vaultApi } from '../../../lib/sovereignApi';
 import { COUNCIL_MODES } from '../../../data/councilModes';
+import { ledgerService } from '../../../services/LedgerService';
 import { useLanguage } from '@/contexts/LanguageContext';
 import PremiumFeaturesModal from '../../../components/premium/PremiumFeaturesModal';
 import { usePremiumFeatures } from '../../../hooks/usePremiumFeatures';
@@ -982,6 +983,14 @@ export const CouncilPage: React.FC = () => {
           setError(
             'Ollama is not running. Please start Ollama to enable AI agents. Run: ollama serve'
           );
+        } else {
+          // Pre-warm all models in background for instant deliberations
+          console.log('[Council] Pre-warming models in background...');
+          ollamaService.preWarmModels((model, index, total) => {
+            console.log(`[Council] Warming model ${index}/${total}: ${model}`);
+          }).then(() => {
+            console.log('[Council] All models pre-warmed - deliberations will be instant');
+          });
         }
       } catch (err) {
         setError('Failed to connect to Ollama. Please ensure Ollama is running on localhost:11434');
@@ -1460,7 +1469,7 @@ export const CouncilPage: React.FC = () => {
               prev.map((d) => (d.id === decisionId ? { ...d, response: d.response + token } : d))
             );
           },
-          onComplete: (synthesis, confidence) => {
+          onComplete: async (synthesis, confidence) => {
             setCurrentStreamingAgent(null);
             setCurrentPhase('');
             setStreamingDecision(null);
@@ -1477,11 +1486,66 @@ export const CouncilPage: React.FC = () => {
                 ? { ...d, status: 'completed', completedAt: new Date(), confidence }
                 : d
             ));
+            
           },
         });
 
         // Log result for debugging/analytics
         console.log('[Council] Deliberation completed:', { decisionId, result });
+
+        // Save to backend for Chronos timeline integration (after await returns)
+        const agentResponses = result.responses || [];
+        const crossExams = result.crossExaminations || [];
+        
+        // Save deliberation to backend database
+        councilApi.saveDeliberation({
+          question: questionAsked,
+          mode: selectedMode,
+          agentResponses,
+          crossExaminations: crossExams,
+          synthesis: result.synthesis,
+          confidence: result.confidence,
+        }).then(() => {
+          console.log('[Council] Deliberation saved to backend for Chronos');
+        }).catch(err => {
+          console.warn('[Council] Failed to save deliberation to backend:', err);
+        });
+
+        // Store in Vector DB for agent memory
+        sovereignApi.vector.storeDecisionContext({
+          decisionId,
+          title: questionAsked.slice(0, 100),
+          context: questionAsked,
+          outcome: result.synthesis,
+          confidence: result.confidence,
+          participants: agentResponses.map((ar: any) => ar.agentId || ar.agentCode || 'agent'),
+        }).then(() => {
+          console.log('[Council] Decision context stored in Vector DB');
+        }).catch(err => {
+          console.warn('[Council] Failed to store decision context:', err);
+        });
+
+        // Record to CendiaLedger for immutable audit trail
+        try {
+          const ledgerDecision = ledgerService.createDecision(
+            questionAsked.slice(0, 100),
+            questionAsked,
+            'AI Council',
+            agentResponses.map((ar: any) => ar.agentId || ar.agentCode || 'agent')
+          );
+          agentResponses.forEach((ar: any) => {
+            ledgerService.recordDeliberation(
+              ledgerDecision.id,
+              ar.agentId || ar.agentCode || 'agent',
+              (ar.response || ar.content || '').slice(0, 500),
+              result.confidence
+            );
+          });
+          ledgerService.finalizeDecision(ledgerDecision.id, 'approved', result.confidence);
+          console.log('[Council] Decision recorded to CendiaLedger:', ledgerDecision.id);
+        } catch (ledgerErr) {
+          console.warn('[Council] Failed to record to Ledger:', ledgerErr);
+        }
       } else {
         // Quick query - use first online agent or Chief Strategy Agent
         const targetAgent =
@@ -1526,21 +1590,7 @@ export const CouncilPage: React.FC = () => {
       console.error('Query error:', err);
     } finally {
       setIsProcessing(false);
-
-      // Store decision context in vector DB for agent memory (async, non-blocking)
-      const latestDecision = recentDecisions[0];
-      if (latestDecision && latestDecision.response) {
-        sovereignApi.vector
-          .storeDecisionContext({
-            decisionId: latestDecision.id,
-            title: latestDecision.query.slice(0, 100),
-            context: latestDecision.query,
-            outcome: latestDecision.response,
-            confidence: latestDecision.confidence || 0,
-            participants: latestDecision.agents?.map((a) => a.name) || [],
-          })
-          .catch((err) => console.warn('[Council] Failed to store decision context:', err));
-      }
+      // Note: Decision context storage moved to onComplete callback for accurate data
     }
   };
 
@@ -1886,7 +1936,7 @@ export const CouncilPage: React.FC = () => {
                 (a) =>
                   !a.premium &&
                   !a.isCustom &&
-                  ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cro', 'cdo', 'risk'].includes(a.code)
+                  ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cro', 'cdo', 'risk', 'clo', 'cpo', 'caio', 'cso', 'cio', 'cco', 'actuary', 'partnerships', 'devils-advocate'].includes(a.code)
               )
               .map((agent) => (
                 <AgentCard

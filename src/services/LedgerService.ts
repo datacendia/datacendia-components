@@ -193,6 +193,219 @@ class LedgerService {
 
   constructor() {
     this.loadFromStorage();
+    // Seed demo data if empty
+    if (this.entries.size === 0 && this.decisions.size === 0) {
+      this.seedMarketingDemoData();
+    }
+  }
+
+  // ---------------------------------------------------------------------------
+  // MARKETING DEMO DATA
+  // ---------------------------------------------------------------------------
+
+  private seedMarketingDemoData(): void {
+    const now = new Date();
+    const day = 24 * 60 * 60 * 1000;
+
+    // Create marketing demo decisions
+    const demoDecisions: Array<{
+      id: string;
+      title: string;
+      description: string;
+      company: string;
+      agents: string[];
+      status: DecisionRecord['status'];
+      finalConfidence: number;
+      daysAgo: number;
+    }> = [
+      {
+        id: 'decision-sterling-cyber',
+        title: 'Sterling Insurance - Cyber Market Entry',
+        description: 'Strategic decision to enter cyber insurance market with $180M capital allocation',
+        company: 'Sterling Insurance',
+        agents: ['cfo-agent', 'risk-agent', 'strategy-agent', 'compliance-agent', 'actuary-agent'],
+        status: 'approved',
+        finalConfidence: 87,
+        daysAgo: 2,
+      },
+      {
+        id: 'decision-nordic-sovereign',
+        title: 'Nordic Financial - Sovereign Deployment',
+        description: 'Air-gapped on-premise deployment decision for regulatory compliance',
+        company: 'Nordic Financial',
+        agents: ['cto-agent', 'security-agent', 'compliance-agent', 'legal-agent'],
+        status: 'approved',
+        finalConfidence: 92,
+        daysAgo: 5,
+      },
+      {
+        id: 'decision-atlas-acquisition',
+        title: 'Atlas Manufacturing - Vertex Acquisition',
+        description: '$412M acquisition of Vertex Technology Solutions for IoT capabilities',
+        company: 'Atlas Manufacturing',
+        agents: ['ceo-agent', 'cfo-agent', 'strategy-agent', 'legal-agent', 'hr-agent'],
+        status: 'approved',
+        finalConfidence: 78,
+        daysAgo: 8,
+      },
+      {
+        id: 'decision-quantum-transition',
+        title: 'Quantum Energy - Grid Transition',
+        description: 'Accelerated renewable energy transition with $500M investment',
+        company: 'Quantum Energy',
+        agents: ['ceo-agent', 'cfo-agent', 'operations-agent', 'esg-agent', 'risk-agent'],
+        status: 'approved',
+        finalConfidence: 76,
+        daysAgo: 12,
+      },
+      {
+        id: 'decision-nexus-pricing',
+        title: 'Nexus Retail - Tiered Pricing Model',
+        description: 'Implementation of Good/Better/Best pricing structure',
+        company: 'Nexus Retail',
+        agents: ['cmo-agent', 'cfo-agent', 'sales-agent', 'analytics-agent'],
+        status: 'approved',
+        finalConfidence: 84,
+        daysAgo: 15,
+      },
+      {
+        id: 'decision-meridian-pipeline',
+        title: 'Meridian Healthcare - Talent Pipeline',
+        description: 'Partnership with nursing schools for 2-year talent pipeline development',
+        company: 'Meridian Healthcare',
+        agents: ['chro-agent', 'cfo-agent', 'operations-agent', 'compliance-agent'],
+        status: 'approved',
+        finalConfidence: 89,
+        daysAgo: 18,
+      },
+      {
+        id: 'decision-pacific-vietnam',
+        title: 'Pacific Logistics - Vietnam Hub',
+        description: '$45M investment in Ho Chi Minh City distribution hub',
+        company: 'Pacific Logistics',
+        agents: ['coo-agent', 'cfo-agent', 'strategy-agent', 'legal-agent', 'risk-agent'],
+        status: 'approved',
+        finalConfidence: 74,
+        daysAgo: 22,
+      },
+      {
+        id: 'decision-review-pending',
+        title: 'Sentinel Corp - Data Center Migration',
+        description: 'Proposed migration of primary data center to cloud infrastructure',
+        company: 'Sentinel Corp',
+        agents: ['cto-agent', 'ciso-agent', 'cfo-agent', 'operations-agent'],
+        status: 'deliberating',
+        finalConfidence: 68,
+        daysAgo: 1,
+      },
+    ];
+
+    // Create decisions and their ledger entries
+    demoDecisions.forEach((dd, idx) => {
+      const proposedAt = new Date(now.getTime() - dd.daysAgo * day);
+
+      const decision: DecisionRecord = {
+        id: dd.id,
+        title: dd.title,
+        description: dd.description,
+        proposedBy: 'AI Council',
+        proposedAt,
+        status: dd.status,
+        agents: dd.agents,
+        voters: dd.agents.map((agentId, vIdx) => ({
+          agentId,
+          vote: vIdx === 0 && dd.status === 'deliberating' ? 'abstain' : 'approve',
+          confidence: dd.finalConfidence + Math.floor(Math.random() * 10) - 5,
+          timestamp: new Date(proposedAt.getTime() + vIdx * 3600000),
+        })),
+        finalConfidence: dd.finalConfidence,
+        ledgerEntries: [],
+        firstEntryHash: '',
+        latestEntryHash: '',
+        complianceStatus: dd.status === 'approved' ? 'compliant' : 'pending',
+        auditHistory: dd.status === 'approved' ? [{
+          id: `audit-${dd.id}`,
+          requestedAt: new Date(proposedAt.getTime() + day),
+          requestedBy: 'Compliance Officer',
+          reason: 'Regulatory compliance verification',
+          framework: idx % 2 === 0 ? 'SOX' : 'SOC2',
+          status: 'completed',
+          findings: [],
+          completedAt: new Date(proposedAt.getTime() + 2 * day),
+          report: 'All compliance requirements met. No findings.',
+        }] : [],
+      };
+
+      this.decisions.set(dd.id, decision);
+
+      // Create ledger entries for each decision
+      const eventSequence: Array<{
+        type: LedgerEventType;
+        title: string;
+        desc: string;
+        hoursAfter: number;
+        confidence?: number;
+        vote?: LedgerEntry['vote'];
+        frameworks: ComplianceFramework[];
+      }> = [
+        { type: 'decision.proposed', title: 'Decision Proposed', desc: `${dd.title} submitted for Council deliberation`, hoursAfter: 0, frameworks: ['SOX', 'SOC2'] },
+        { type: 'agent.joined', title: 'Council Convened', desc: `${dd.agents.length} agents joined deliberation`, hoursAfter: 1, frameworks: [] },
+        { type: 'decision.deliberated', title: 'Deliberation Complete', desc: 'Multi-agent analysis and debate concluded', hoursAfter: 4, confidence: dd.finalConfidence - 5, frameworks: ['SOX'] },
+        { type: 'agent.voted', title: 'CFO Agent Vote', desc: 'Financial impact assessment: Favorable', hoursAfter: 5, vote: 'approve', confidence: dd.finalConfidence + 2, frameworks: ['SOX'] },
+        { type: 'agent.voted', title: 'Risk Agent Vote', desc: 'Risk profile assessment: Acceptable', hoursAfter: 6, vote: 'approve', confidence: dd.finalConfidence - 3, frameworks: ['SOC2'] },
+        { type: 'confidence.updated', title: 'Confidence Consolidated', desc: `Final confidence: ${dd.finalConfidence}%`, hoursAfter: 7, confidence: dd.finalConfidence, frameworks: [] },
+        { type: 'decision.approved', title: 'Decision Approved', desc: 'Council unanimously approved with conditions', hoursAfter: 8, vote: 'approve', confidence: dd.finalConfidence, frameworks: ['SOX', 'SOC2'] },
+        { type: 'audit.completed', title: 'Compliance Audit', desc: 'Regulatory audit completed successfully', hoursAfter: 32, frameworks: ['SOX', 'SOC2'] },
+      ];
+
+      if (dd.status === 'deliberating') {
+        // Only first 3 events for pending decisions
+        eventSequence.splice(3);
+      }
+
+      eventSequence.forEach((evt, evtIdx) => {
+        this.sequence++;
+        const entryId = `entry-demo-${dd.id}-${evtIdx}`;
+        const timestamp = new Date(proposedAt.getTime() + evt.hoursAfter * 3600000);
+
+        const entryWithoutHash: Omit<LedgerEntry, 'hash'> = {
+          id: entryId,
+          sequence: this.sequence,
+          timestamp,
+          eventType: evt.type,
+          decisionId: dd.id,
+          organizationId: dd.company.toLowerCase().replace(/\s+/g, '-'),
+          title: evt.title,
+          description: evt.desc,
+          data: { company: dd.company, agents: dd.agents },
+          confidenceScore: evt.confidence,
+          vote: evt.vote,
+          previousHash: this.getLastHash(),
+          complianceFrameworks: evt.frameworks,
+          retentionPeriodDays: 2555,
+          sensitivityLevel: 'confidential',
+          piiInvolved: false,
+          verified: true,
+          verifiedAt: timestamp,
+        };
+
+        const entry: LedgerEntry = {
+          ...entryWithoutHash,
+          hash: createEntryHash(entryWithoutHash),
+        };
+
+        this.entries.set(entryId, entry);
+        decision.ledgerEntries.push(entryId);
+
+        if (evtIdx === 0) {
+          decision.firstEntryHash = entry.hash;
+        }
+        decision.latestEntryHash = entry.hash;
+      });
+    });
+
+    this.saveToStorage();
+    console.log('[Ledger] Seeded marketing demo data:', this.entries.size, 'entries,', this.decisions.size, 'decisions');
   }
 
   private loadFromStorage(): void {

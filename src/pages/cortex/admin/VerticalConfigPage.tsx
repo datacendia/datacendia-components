@@ -539,11 +539,13 @@ export const VerticalConfigPage: React.FC = () => {
             {servicesByCategory.map(category => (
               <div key={category.id} className="bg-sovereign-card border border-sovereign-border rounded-xl overflow-hidden">
                 {/* Category Header */}
-                <button
-                  onClick={() => toggleCategory(category.id)}
-                  className="w-full p-4 flex items-center justify-between bg-sovereign-elevated hover:bg-sovereign-hover transition-colors"
+                <div
+                  className="w-full p-4 flex items-center justify-between bg-sovereign-elevated hover:bg-sovereign-hover transition-colors cursor-pointer"
                 >
-                  <div className="flex items-center gap-3">
+                  <div 
+                    className="flex items-center gap-3 flex-1"
+                    onClick={() => toggleCategory(category.id)}
+                  >
                     <span className="text-xl">{category.icon}</span>
                     <div className="text-left">
                       <h3 className="font-semibold text-white">{category.name}</h3>
@@ -555,25 +557,27 @@ export const VerticalConfigPage: React.FC = () => {
                   <div className="flex items-center gap-3">
                     <div className="flex items-center gap-1">
                       <button
-                        onClick={(e) => { e.stopPropagation(); enableAllInCategory(category.id); }}
+                        onClick={() => enableAllInCategory(category.id)}
                         className="px-2 py-1 text-xs text-emerald-400 hover:bg-emerald-500/10 rounded"
                       >
                         Enable All
                       </button>
                       <button
-                        onClick={(e) => { e.stopPropagation(); disableAllInCategory(category.id); }}
+                        onClick={() => disableAllInCategory(category.id)}
                         className="px-2 py-1 text-xs text-red-400 hover:bg-red-500/10 rounded"
                       >
                         Disable All
                       </button>
                     </div>
-                    {expandedCategories.has(category.id) ? (
-                      <ChevronDown className="w-5 h-5 text-gray-400" />
-                    ) : (
-                      <ChevronRight className="w-5 h-5 text-gray-400" />
-                    )}
+                    <div onClick={() => toggleCategory(category.id)} className="cursor-pointer">
+                      {expandedCategories.has(category.id) ? (
+                        <ChevronDown className="w-5 h-5 text-gray-400" />
+                      ) : (
+                        <ChevronRight className="w-5 h-5 text-gray-400" />
+                      )}
+                    </div>
                   </div>
-                </button>
+                </div>
 
                 {/* Service List */}
                 {expandedCategories.has(category.id) && (

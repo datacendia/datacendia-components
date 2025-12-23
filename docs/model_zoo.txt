@@ -1,80 +1,119 @@
 /**
- * DATACENDIA SOVEREIGN MODEL ZOO
+ * DATACENDIA SOVEREIGN MODEL ZOO - 2025 EDITION
  * Configuration for Local Inference (Ollama)
- * Optimized for: 128GB RAM Workstation (Intel i9-12900KF)
+ * Optimized for: 128GB RAM Workstation
  * Architecture: Specialized Expert Team (Heterogeneous Models)
+ * Last Updated: December 2024
  */
 
 export const AI_CONFIG = {
   defaultProvider: 'ollama',
   
-  // The Model Registry (The Special Ops Team)
+  // The Model Registry (The Special Ops Team) - 2025 Best-in-Class
   models: {
     // THE CHIEF (General Intelligence King)
-    // Upgraded to Llama 3.3 for peak instruction following and synthesis.
-    // Equivalent to GPT-4o class performance locally.
+    // Llama 4 Scout - Meta's newest flagship with 128k context
+    // Top-ranked open model for general tasks
     flagship: {
-      id: 'llama3.3:70b', 
+      id: 'llama4:scout', 
+      contextWindow: 128000,
+      temp: 0.7
+    },
+
+    // THE STRATEGIST (High-Quality Analysis)
+    // Llama 3.3 70B - Still top-tier for synthesis and analysis
+    strategist: {
+      id: 'llama3.3:70b',
       contextWindow: 128000,
       temp: 0.7
     },
 
     // THE PHILOSOPHER (Reasoning Engine)
-    // QwQ is trained for "Chain of Thought" reasoning. It thinks deeper.
-    // Use for Risk, Audit, and finding logical fallacies.
+    // DeepSeek-R1 - Chain-of-thought reasoning, competes with OpenAI o1
+    // Use for complex reasoning, risk analysis, and logic
     reasoning: {
+      id: 'deepseek-r1:32b',
+      contextWindow: 32768,
+      temp: 0.3 // Lower temp for logic
+    },
+
+    // THE THINKER (Deep Analysis)
+    // QwQ 32B - Alibaba's reasoning model for deep analysis
+    thinker: {
       id: 'qwq:32b',
       contextWindow: 32768,
-      temp: 0.6 // Lower temp for logic
+      temp: 0.4
+    },
+
+    // THE POLYGLOT (Multilingual & General)
+    // Qwen3 32B - Best multilingual, strong reasoning
+    polyglot: {
+      id: 'qwen3:32b',
+      contextWindow: 32768,
+      temp: 0.7
     },
 
     // THE ENGINEER (Coding Specialist)
-    // Qwen 2.5 Coder beats generic models at SQL, JSON, and Code.
-    // Use for Data ops and Workflow execution.
+    // DeepSeek Coder V2 - Best coding model, 300+ languages
+    // Use for SQL, JSON, Code, and automation
     coder: {
-      id: 'qwen2.5-coder:32b',
+      id: 'deepseek-coder-v2',
       contextWindow: 32768,
       temp: 0.2 // Very low temp for precision
     },
 
+    // THE SCIENTIST (Google's Latest)
+    // Gemma3 27B - Efficient, strong performance
+    scientist: {
+      id: 'gemma3:27b',
+      contextWindow: 8192,
+      temp: 0.6
+    },
+
     // THE SPEEDSTER (UI & Operations)
-    // Instant responses for the interface.
-    // Keeps the dashboard feeling snappy.
+    // Instant responses for the interface
     fast: {
       id: 'llama3.2:3b',
       contextWindow: 8192,
       temp: 0.5
     },
 
-    // THE EYES (Vision - Optional)
-    // For The Lens to "see" charts and PDFs.
-    vision: {
-      id: 'qwen3-vl:30b', // Ensure you pull this if using vision features
-      contextWindow: 16384,
-      temp: 0.5
+    // THE ENSEMBLE (MoE for diverse tasks)
+    // Mixtral 8x22B - Mixture of Experts, efficient for variety
+    ensemble: {
+      id: 'mixtral:8x22b',
+      contextWindow: 65536,
+      temp: 0.7
+    },
+
+    // EMBEDDINGS (Vector Search)
+    embedding: {
+      id: 'nomic-embed-text',
+      contextWindow: 8192,
+      temp: 0
     }
   },
 
-  // The Council: Mapping Personas to Their Ideal Brain
+  // The Council: Mapping Personas to Their Ideal Brain (2025 Edition)
   agents: {
     chief: {
       name: 'CendiaChief',
-      model: 'flagship', // Llama 3.3: Best at synthesizing everyone else.
+      model: 'flagship', // Llama 4: Best at synthesizing everyone else.
       systemPrompt: 'You are the Chief of Staff. Synthesize all perspectives into a coherent strategy.'
     },
     cfo: {
       name: 'CendiaCFO',
-      model: 'flagship', // Llama 3.3: Excellent at financial nuance.
+      model: 'strategist', // Llama 3.3: Excellent at financial nuance.
       systemPrompt: 'You are the CFO. Focus on ROI, cash flow, and margin. Be conservative.'
     },
     ciso: {
       name: 'CendiaCISO',
-      model: 'reasoning', // QwQ: Needs deep logic to find security loopholes others miss.
+      model: 'reasoning', // DeepSeek-R1: Chain-of-thought for security analysis.
       systemPrompt: 'You are the CISO. Scrutinize plans for ANY compliance or security risk. Think step-by-step.'
     },
     cmo: {
       name: 'CendiaCMO',
-      model: 'flagship', // Llama 3.3: Good creative/strategic balance.
+      model: 'polyglot', // Qwen3: Good creative/strategic balance, multilingual.
       systemPrompt: 'You are the CMO. Focus on brand voice, customer perception, and market fit.'
     },
     coo: {
@@ -84,18 +123,28 @@ export const AI_CONFIG = {
     },
     risk: {
       name: 'CendiaRisk',
-      model: 'reasoning', // QwQ: Pure logic engine for probability assessment.
+      model: 'reasoning', // DeepSeek-R1: Pure logic engine for probability assessment.
       systemPrompt: 'You are the Risk Officer. Calculate probability and impact. Be pessimistic and validate assumptions.'
     },
     data: {
       name: 'CendiaCDO',
-      model: 'coder', // Qwen Coder: Best at understanding schemas and SQL.
+      model: 'coder', // DeepSeek Coder V2: Best at understanding schemas and SQL.
       systemPrompt: 'You are the Chief Data Officer. Validate data lineage and quality. Output valid JSON or SQL when requested.'
     },
     flow: {
       name: 'CendiaFlow',
-      model: 'coder', // Qwen Coder: Best at writing the JSON/Code to execute actions.
+      model: 'coder', // DeepSeek Coder V2: Best at writing the JSON/Code to execute actions.
       systemPrompt: 'You are the Automation Engine. Output executable workflows and code snippets.'
+    },
+    ethics: {
+      name: 'CendiaEthics',
+      model: 'thinker', // QwQ: Deep reasoning for ethical analysis.
+      systemPrompt: 'You are the Ethics Officer. Apply ethical frameworks. Consider stakeholder impact.'
+    },
+    strategy: {
+      name: 'CendiaStrategy',
+      model: 'scientist', // Gemma3: Strong analytical capabilities.
+      systemPrompt: 'You are the Strategy Analyst. Evaluate long-term implications and competitive dynamics.'
     }
   }
 };
@@ -110,3 +159,28 @@ export function getModelForAgent(agentId: string): string {
   const modelType = agent.model as keyof typeof AI_CONFIG.models;
   return AI_CONFIG.models[modelType].id;
 }
+
+/**
+ * MODEL INVENTORY (December 2024)
+ * ================================
+ * 
+ * INSTALLED:
+ * - llama4:scout (67GB) - Flagship, general intelligence
+ * - llama3.3:70b (42GB) - Strategic analysis
+ * - deepseek-r1:32b (19GB) - Chain-of-thought reasoning
+ * - qwen3:32b (20GB) - Multilingual, general
+ * - deepseek-coder-v2 (8.9GB) - Coding specialist
+ * - gemma3:27b (17GB) - Google's latest
+ * - qwq:32b (19GB) - Deep reasoning
+ * - mixtral:8x22b (79GB) - MoE ensemble
+ * - llama3.2:3b (2GB) - Fast/UI
+ * - nomic-embed-text (274MB) - Embeddings
+ * 
+ * REMOVED (superseded):
+ * - qwen2.5:32b → replaced by qwen3:32b
+ * - qwen2.5:7b → replaced by qwen3
+ * - qwen2.5-coder:32b → replaced by deepseek-coder-v2
+ * - llama3:70b → replaced by llama4:scout
+ * - llama3:8b → redundant
+ * - llama2:latest → outdated
+ */

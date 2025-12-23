@@ -7,6 +7,7 @@ import { pubsub } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth } from '../middleware/auth.js';
+import { druidEventStream } from '../services/DruidEventStream.js';
 
 const router = Router();
 
@@ -231,6 +232,20 @@ router.post('/:id/acknowledge', async (req: Request, res: Response, next: NextFu
       },
     });
 
+    // Log to Druid for Chronos analytics
+    druidEventStream.logAudit({
+      organizationId: req.organizationId!,
+      eventType: 'alert_acknowledged',
+      actorId: userId,
+      actorType: 'user',
+      resourceType: 'alert',
+      resourceId: alert.id,
+      action: 'acknowledge',
+      outcome: 'success',
+      riskScore: alert.severity === 'CRITICAL' ? 90 : alert.severity === 'WARNING' ? 60 : 30,
+      metadata: { severity: alert.severity, title: alert.title },
+    });
+
     res.json({
       success: true,
       data: updated,
@@ -297,6 +312,20 @@ router.post('/:id/resolve', async (req: Request, res: Response, next: NextFuncti
         resource_id: alert.id,
         details: { resolution, rootCause } as Prisma.InputJsonValue,
       },
+    });
+
+    // Log to Druid for Chronos analytics
+    druidEventStream.logAudit({
+      organizationId: req.organizationId!,
+      eventType: 'alert_resolved',
+      actorId: userId,
+      actorType: 'user',
+      resourceType: 'alert',
+      resourceId: alert.id,
+      action: 'resolve',
+      outcome: 'success',
+      riskScore: alert.severity === 'CRITICAL' ? 90 : alert.severity === 'WARNING' ? 60 : 30,
+      metadata: { severity: alert.severity, title: alert.title, resolution, rootCause },
     });
 
     res.json({

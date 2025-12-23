@@ -295,7 +295,7 @@ export const AegisPage: React.FC = () => {
               💬 Ask Council
             </button>
             <button
-              onClick={() => window.open('/sovereign/crucible?preset=cyber-attack', '_blank')}
+              onClick={() => window.open('/cortex/sovereign/crucible?preset=cyber-attack', '_blank')}
               className="px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-sm font-medium flex items-center gap-2"
             >
               <FlaskConical className="w-4 h-4" /> Stress Test in Crucible
@@ -646,7 +646,7 @@ export const AegisPage: React.FC = () => {
                   <Database className="w-4 h-4" /> Import Signals
                 </button>
                 <button
-                  onClick={() => window.open('/sovereign/crucible?preset=cyber-attack', '_blank')}
+                  onClick={() => window.open('/cortex/sovereign/crucible?preset=cyber-attack', '_blank')}
                   className="px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-sm font-medium flex items-center gap-2"
                 >
                   <FlaskConical className="w-4 h-4" /> Simulate Incident

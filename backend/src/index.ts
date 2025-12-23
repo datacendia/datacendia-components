@@ -19,8 +19,8 @@ import { requestLogger } from './middleware/requestLogger.js';
 // Security Hardening
 import { 
   threatDetectionMiddleware,
-  advancedRateLimitMiddleware,
-  createAuditLog 
+  // advancedRateLimitMiddleware, // Available for future use
+  // createAuditLog // Available for future use
 } from './security/SecurityHardening.js';
 import { customSecurityHeaders } from './security/headers.js';
 import { 
@@ -108,6 +108,9 @@ import sampleDataRoutes from './routes/sample-data.js';
 import druidRoutes from './routes/druid.js';
 import horizonRoutes from './routes/horizon.js';
 import verticalAgentsRoutes from './routes/vertical-agents.js';
+import verticalConfigRoutes from './routes/vertical-config.js';
+import schemaRoutes from './routes/schema.js';
+import cortexCoreRoutes from './routes/cortex-core.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -315,6 +318,15 @@ app.use('/api/v1/horizon', horizonRoutes);
 
 // Vertical AI Agents - Industry-Specific Intelligence
 app.use('/api/v1/vertical-agents', verticalAgentsRoutes);
+
+// Vertical Configuration - Service toggles and organization settings
+app.use('/api/v1/vertical-config', verticalConfigRoutes);
+
+// Schema Mapping - Client database schema abstraction
+app.use('/api/v1/schema', schemaRoutes);
+
+// Cortex Core API - Single gateway for all Services
+app.use('/api/v1/cortex', cortexCoreRoutes);
 
 // 404 handler
 app.use((_req, res) => {

@@ -777,7 +777,7 @@ export const HelmPage: React.FC = () => {
                       <button
                         onClick={() =>
                           navigate(
-                            `/cortex/intelligence/crucible?id=${selectedMetric.linkedCrucibleId}`
+                            `/cortex/sovereign/crucible?id=${selectedMetric.linkedCrucibleId}`
                           )
                         }
                         className="flex items-center gap-2 text-error-dark hover:underline"
@@ -2149,7 +2149,7 @@ export const GuardPage: React.FC = () => {
                 <button
                   onClick={() => {
                     setSelectedThreat(null);
-                    navigate('/sovereign/panopticon');
+                    navigate('/cortex/sovereign/panopticon');
                   }}
                   className="w-full px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
@@ -2539,7 +2539,7 @@ export const EthicsPage: React.FC = () => {
                   </button>
                 )}
                 <button
-                  onClick={() => window.open('/sovereign/vox', '_blank')}
+                  onClick={() => window.open('/cortex/sovereign/vox', '_blank')}
                   className="w-full px-4 py-2 bg-neutral-100 hover:bg-neutral-200 text-neutral-700 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 >
                   View Stakeholder Impact in CendiaVox
