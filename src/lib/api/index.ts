@@ -765,6 +765,112 @@ export const forecastsApi = {
 };
 
 // ============================================================================
+// FRED FORECASTING API (Real Economic Data)
+// ============================================================================
+export interface FREDSeries {
+  key: string;
+  id: string;
+  name: string;
+  frequency: string;
+  unit: string;
+}
+
+export interface FREDDataPoint {
+  date: string;
+  value: number;
+}
+
+export interface ForecastPoint {
+  date: string;
+  predicted: number;
+  lowerBound: number;
+  upperBound: number;
+  confidence: number;
+}
+
+export interface AccuracyMetrics {
+  mape: number;
+  rmse: number;
+  mae: number;
+  r2: number;
+  trainSize: number;
+  testSize: number;
+}
+
+export interface ForecastResult {
+  seriesId: string;
+  seriesName: string;
+  historicalData: FREDDataPoint[];
+  predictions: ForecastPoint[];
+  accuracy: AccuracyMetrics;
+  model: {
+    type: string;
+    parameters: Record<string, number>;
+    trainedOn: string;
+    dataSource: string;
+  };
+  generatedAt: string;
+}
+
+export const fredForecastingApi = {
+  async getSeries() {
+    return api.get<{ series: FREDSeries[]; count: number; source: string }>('/forecasting/series');
+  },
+
+  async getSeriesData(seriesId: string) {
+    return api.get<{
+      seriesId: string;
+      name: string;
+      observations: FREDDataPoint[];
+    }>(`/forecasting/series/${seriesId}/data`);
+  },
+
+  async forecast(seriesId: string, periodsAhead: number = 12, confidenceLevel: number = 0.95) {
+    return api.post<ForecastResult>('/forecasting/forecast', {
+      seriesId,
+      periodsAhead,
+      confidenceLevel,
+    });
+  },
+
+  async forecastBatch(seriesIds: string[], periodsAhead: number = 12) {
+    return api.post<{ forecasts: Record<string, ForecastResult>; count: number }>('/forecasting/forecast/batch', {
+      seriesIds,
+      periodsAhead,
+    });
+  },
+
+  async getAccuracy() {
+    return api.get<{
+      summary: {
+        averageMAPE: number;
+        averageAccuracy: number;
+        modelType: string;
+        dataSource: string;
+        disclaimer: string;
+      };
+      byIndicator: Array<{
+        seriesId: string;
+        seriesName: string;
+        mape: number;
+        rmse: number;
+        r2: number;
+      }>;
+    }>('/forecasting/accuracy');
+  },
+
+  async getStatus() {
+    return api.get<{
+      status: string;
+      dataSource: string;
+      hasApiKey: boolean;
+      availableSeries: number;
+      modelType: string;
+    }>('/forecasting/status');
+  },
+};
+
+// ============================================================================
 // USERS API
 // ============================================================================
 export const usersApi = {

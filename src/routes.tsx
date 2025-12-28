@@ -161,6 +161,9 @@ import { EchoPage, RedTeamPage, GnosisPage } from './pages/cortex/crown';
 // Admin Pages
 import { VerticalConfigPage } from './pages/cortex/admin';
 
+// Demo Pages
+import { DemoLauncherPage } from './pages/cortex/demo/DemoLauncherPage';
+
 // Data Pages
 import {
   DataSourcesPage,
@@ -625,6 +628,12 @@ export const router = createBrowserRouter([
       {
         path: 'admin/vertical-config',
         element: <VerticalConfigPage />,
+      },
+
+      // Demo Studio
+      {
+        path: 'demo',
+        element: <DemoLauncherPage />,
       },
 
       // Crown Jewels - Premium Enterprise Services ($5M-$150M tier)

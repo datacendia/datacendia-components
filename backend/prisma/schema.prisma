@@ -278,6 +278,46 @@ model deliberations {
   @@index([organization_id, status])
 }
 
+model decision_packets {
+  id                   String    @id @default(uuid())
+  run_id               String    @unique
+  version              Int       @default(1)
+  organization_id      String
+  session_id           String
+  user_id              String?
+  deliberation_id      String?
+  question             String
+  context              String?
+  recommendation       String
+  confidence           Decimal   @db.Decimal(5, 4)
+  confidence_bounds    Json      @default("{}")
+  key_assumptions      Json      @default("[]")
+  thresholds           Json      @default("{}")
+  conditions_for_change Json     @default("[]")
+  citations            Json      @default("[]")
+  agent_contributions  Json      @default("[]")
+  dissents             Json      @default("[]")
+  consensus_reached    Boolean   @default(false)
+  tool_calls           Json      @default("[]")
+  approvals            Json      @default("[]")
+  policy_gates         Json      @default("[]")
+  artifact_hashes      Json      @default("{}")
+  merkle_root          String
+  signature            Json?
+  signed_at            DateTime?
+  regulatory_frameworks Json     @default("[]")
+  retention_until      DateTime
+  duration_ms          Int?
+  created_at           DateTime  @default(now())
+  completed_at         DateTime?
+  exported_at          DateTime?
+
+  @@index([organization_id])
+  @@index([session_id])
+  @@index([deliberation_id])
+  @@index([run_id])
+}
+
 model demo_requests {
   id                String   @id
   first_name        String

@@ -111,6 +111,11 @@ import verticalAgentsRoutes from './routes/vertical-agents.js';
 import verticalConfigRoutes from './routes/vertical-config.js';
 import schemaRoutes from './routes/schema.js';
 import cortexCoreRoutes from './routes/cortex-core.js';
+import kmsRoutes from './routes/kms.js';
+import councilPacketsRoutes from './routes/council-packets.js';
+import auditPackagesRoutes from './routes/audit-packages.js';
+import forecastingRoutes from './routes/forecasting.js';
+import roiMetricsRoutes from './routes/roi-metrics.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -299,6 +304,11 @@ app.use('/api/v1/sovereign-arch', sovereignArchRoutes);
 app.use('/api/v1/evidence', evidenceRoutes);
 app.use('/api/v1/omnitranslate', omnitranslateRoutes);
 app.use('/api/v1/connectors', connectorsRoutes);
+app.use('/api/v1/kms', kmsRoutes);
+app.use('/api/v1/council-packets', councilPacketsRoutes);
+app.use('/api/v1/audit-packages', auditPackagesRoutes);
+app.use('/api/v1/forecasting', forecastingRoutes);
+app.use('/api/v1/roi-metrics', roiMetricsRoutes);
 
 // Decision Consequence Engineering
 app.use('/api/v1/cascade', cascadeRoutes);

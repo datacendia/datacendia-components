@@ -25,9 +25,25 @@
 
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi } from '../../../lib/api';
+import { decisionIntelApi, metricsApi, councilApi, alertsApi, graphApi, api } from '../../../lib/api';
 import { sovereignApi } from '../../../lib/sovereignApi';
 import { documentExportService, type AuditPackageData } from '../../../services/DocumentExportService';
+
+// Audit package signing API
+const auditPackageApi = {
+  async sign(snapshotDate: string, contents: any): Promise<any> {
+    const response = await api.post('/audit-packages/sign', { snapshotDate, contents });
+    return response.data?.data;
+  },
+  async verify(pkg: any): Promise<any> {
+    const response = await api.post('/audit-packages/verify', { package: pkg });
+    return response.data?.data;
+  },
+  async store(pkg: any): Promise<any> {
+    const response = await api.post('/audit-packages/store', { package: pkg });
+    return response.data?.data;
+  },
+};
 
 // =============================================================================
 // TYPES
@@ -6509,50 +6525,62 @@ const AuditExport: React.FC<{
           status: d.status,
         }));
 
-      // Calculate hash from actual content
-      const contentHash = await crypto.subtle.digest(
-        'SHA-256',
-        new TextEncoder().encode(JSON.stringify({ deliberationsData, timelineData, decisionsData }))
-      );
-      const hashArray = Array.from(new Uint8Array(contentHash));
-      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-
-      const auditData = {
-        exportDate: new Date().toISOString(),
-        snapshotDate: currentDate.toISOString(),
-        type: 'audit-package',
-        version: '1.0',
-        contents: {
-          deliberations: deliberationsData,
-          decisions: decisionsData,
-          timeline: timelineData,
-          metrics: realMetrics.slice(0, 50).map((m: any) => ({
-            id: m.id,
-            name: m.name,
-            code: m.code,
-            category: m.category,
-            value: m.currentValue,
-          })),
-          metadata: {
-            totalEvents: snapshotEvents.length,
-            totalDeliberations: deliberationsData.length,
-            totalDecisions: decisionsData.length,
-            dateRange: {
-              start: snapshotEvents.length > 0 
-                ? snapshotEvents[snapshotEvents.length - 1].timestamp.toISOString()
-                : currentDate.toISOString(),
-              end: currentDate.toISOString(),
-            },
+      // Build contents for signing
+      const contents = {
+        deliberations: deliberationsData,
+        decisions: decisionsData,
+        timeline: timelineData,
+        metrics: realMetrics.slice(0, 50).map((m: any) => ({
+          id: m.id,
+          name: m.name,
+          code: m.code,
+          category: m.category,
+          value: m.currentValue,
+        })),
+        metadata: {
+          totalEvents: snapshotEvents.length,
+          totalDeliberations: deliberationsData.length,
+          totalDecisions: decisionsData.length,
+          dateRange: {
+            start: snapshotEvents.length > 0 
+              ? snapshotEvents[snapshotEvents.length - 1].timestamp.toISOString()
+              : currentDate.toISOString(),
+            end: currentDate.toISOString(),
           },
         },
-        cryptographicProof: {
-          hash: `sha256:${hashHex.slice(0, 16)}`,
-          fullHash: hashHex,
-          timestamp: new Date().toISOString(),
-          signer: 'CendiaChronos™',
-          algorithm: 'SHA-256',
-        },
       };
+
+      // Call backend API for real KMS signing with Merkle tree
+      let auditData;
+      try {
+        const signedPackage = await auditPackageApi.sign(currentDate.toISOString(), contents);
+        auditData = signedPackage;
+        console.log('[Chronos] Package signed with KMS:', signedPackage.cryptographicProof?.algorithm);
+      } catch (apiError) {
+        console.warn('[Chronos] KMS signing failed, falling back to client-side hash:', apiError);
+        // Fallback to client-side hash if backend unavailable
+        const contentHash = await crypto.subtle.digest(
+          'SHA-256',
+          new TextEncoder().encode(JSON.stringify(contents))
+        );
+        const hashArray = Array.from(new Uint8Array(contentHash));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        
+        auditData = {
+          exportDate: new Date().toISOString(),
+          snapshotDate: currentDate.toISOString(),
+          type: 'audit-package',
+          version: '1.0',
+          contents,
+          cryptographicProof: {
+            hash: `sha256:${hashHex.slice(0, 16)}`,
+            fullHash: hashHex,
+            timestamp: new Date().toISOString(),
+            signer: 'CendiaChronos™ (client-side)',
+            algorithm: 'SHA-256',
+          },
+        };
+      }
 
       // Store for viewer/export
       setAuditData(auditData as AuditPackageData);

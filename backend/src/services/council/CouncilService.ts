@@ -6,6 +6,11 @@
 import { Pool, PoolClient } from 'pg';
 import { EventEmitter } from 'events';
 import { config } from '../../config/index.js';
+import { 
+  councilDecisionPacketService, 
+  ToolCallTracer,
+  ToolCall,
+} from './CouncilDecisionPacketService.js';
 
 // =============================================================================
 // TYPES
@@ -146,8 +151,16 @@ const OLLAMA_URL = process.env.OLLAMA_URL || 'http://localhost:11434';
 async function* streamOllamaResponse(
   model: string,
   messages: Array<{ role: string; content: string }>,
-  options: { temperature?: number; maxTokens?: number } = {}
+  options: { temperature?: number; maxTokens?: number; tracer?: ToolCallTracer; agentId?: string } = {}
 ): AsyncGenerator<string, void, unknown> {
+  // Start tracing the LLM call
+  const callId = options.tracer?.startCall('ollama_chat', {
+    model,
+    messageCount: messages.length,
+    agentId: options.agentId,
+    temperature: options.temperature,
+  });
+  const startTime = Date.now();
   const response = await fetch(`${OLLAMA_URL}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -163,7 +176,11 @@ async function* streamOllamaResponse(
   });
 
   if (!response.ok) {
-    throw new Error(`Ollama request failed: ${response.statusText}`);
+    const errorMsg = `Ollama request failed: ${response.statusText}`;
+    if (callId && options.tracer) {
+      options.tracer.endCall(callId, { error: errorMsg }, false, errorMsg);
+    }
+    throw new Error(errorMsg);
   }
 
   const reader = response.body?.getReader();
@@ -172,6 +189,9 @@ async function* streamOllamaResponse(
   const decoder = new TextDecoder();
   let buffer = '';
 
+  let totalTokens = 0;
+  let fullResponse = '';
+  
   while (true) {
     const { done, value } = await reader.read();
     if (done) break;
@@ -185,6 +205,8 @@ async function* streamOllamaResponse(
         try {
           const data = JSON.parse(line);
           if (data.message?.content) {
+            fullResponse += data.message.content;
+            totalTokens++;
             yield data.message.content;
           }
         } catch {
@@ -192,6 +214,15 @@ async function* streamOllamaResponse(
         }
       }
     }
+  }
+  
+  // End the trace with success
+  if (callId && options.tracer) {
+    options.tracer.endCall(callId, {
+      responseLength: fullResponse.length,
+      tokenCount: totalTokens,
+      durationMs: Date.now() - startTime,
+    }, true);
   }
 }
 
@@ -202,6 +233,7 @@ async function* streamOllamaResponse(
 export class CouncilService extends EventEmitter {
   private pool: Pool;
   private agents: Map<string, Agent> = new Map();
+  private deliberationTracers: Map<string, ToolCallTracer> = new Map();
 
   constructor(pool: Pool) {
     super();
@@ -332,8 +364,12 @@ export class CouncilService extends EventEmitter {
 
     const deliberationId = result.rows[0].id;
 
+    // Create tracer for this deliberation
+    const tracer = councilDecisionPacketService.createTracer();
+    this.deliberationTracers.set(deliberationId, tracer);
+
     // Start async deliberation process
-    this.runDeliberation(deliberationId, question, agentIds, config, options.context)
+    this.runDeliberation(deliberationId, question, agentIds, config, options.context, tracer)
       .catch(err => {
         console.error(`[Deliberation ${deliberationId}] Error:`, err);
         this.updateDeliberationStatus(deliberationId, 'error');
@@ -347,7 +383,8 @@ export class CouncilService extends EventEmitter {
     question: string,
     agentIds: string[],
     config: DeliberationConfig,
-    context?: string
+    context?: string,
+    tracer?: ToolCallTracer
   ): Promise<void> {
     const startTime = Date.now();
 
@@ -362,7 +399,7 @@ export class CouncilService extends EventEmitter {
       });
 
       const initialResponses = await this.runInitialAnalysis(
-        deliberationId, question, agentIds, context
+        deliberationId, question, agentIds, context, tracer
       );
 
       // Phase 2: Cross-Examination (if enabled and multiple agents)
@@ -425,7 +462,8 @@ export class CouncilService extends EventEmitter {
     deliberationId: string,
     question: string,
     agentIds: string[],
-    context?: string
+    context?: string,
+    tracer?: ToolCallTracer
   ): Promise<AgentResponse[]> {
     // Retrieve relevant memories for each agent
     const memories = await this.retrieveRelevantMemories(agentIds, question);
@@ -464,10 +502,14 @@ export class CouncilService extends EventEmitter {
       let fullResponse = '';
       
       try {
-        for await (const token of streamOllamaResponse(agent.model, messages, {
+        const streamOptions: { temperature?: number; maxTokens?: number; tracer?: ToolCallTracer; agentId?: string } = {
           temperature: agent.temperature,
           maxTokens: agent.maxTokens,
-        })) {
+          agentId,
+        };
+        if (tracer) streamOptions.tracer = tracer;
+        
+        for await (const token of streamOllamaResponse(agent.model, messages, streamOptions)) {
           fullResponse += token;
           this.emitEvent({ 
             type: 'token', 
@@ -892,7 +934,7 @@ export class CouncilService extends EventEmitter {
       UPDATE deliberations SET
         status = 'completed',
         synthesis = $1,
-        confidence_score = $2,
+        confidence = $2,
         key_insights = $3,
         recommendations = $4,
         completed_at = NOW(),
@@ -977,18 +1019,49 @@ export class CouncilService extends EventEmitter {
   }
 
   private calculateConfidence(response: string): number {
-    // Simple heuristic - could be enhanced with ML
-    const length = response.length;
-    const hasNumbers = /\d+/.test(response);
+    // Enhanced heuristic analysis
+    let confidence = 0.7; // Base confidence
+
+    const text = response.toLowerCase();
+    
+    // Positive indicators (Strength of conviction)
+    const strongIndicators = [
+      'certainly', 'definitely', 'conclusive', 'evidence shows', 
+      'highly likely', 'proven', 'verified', 'critical', 'essential',
+      'recommend strongly', 'clear path'
+    ];
+    
+    // Negative indicators (Uncertainty/Hedging)
+    const weakIndicators = [
+      'maybe', 'perhaps', 'possibly', 'unclear', 'unknown', 
+      'further research', 'insufficient data', 'speculative',
+      'hard to say', 'it depends'
+    ];
+
+    // Check structure/depth
     const hasStructure = /\d+\.|[-*]/.test(response);
-    
-    let confidence = 0.6;
-    if (length > 500) confidence += 0.1;
-    if (length > 1000) confidence += 0.1;
-    if (hasNumbers) confidence += 0.05;
+    const hasData = /\d+%|\$\d+|\d+ (year|month|day)/.test(response);
+    const hasCitations = /\[\d+\]|source:|according to/i.test(response);
+
+    // Adjust score
+    strongIndicators.forEach(word => {
+      if (text.includes(word)) confidence += 0.02;
+    });
+
+    weakIndicators.forEach(word => {
+      if (text.includes(word)) confidence -= 0.03;
+    });
+
     if (hasStructure) confidence += 0.05;
+    if (hasData) confidence += 0.08;
+    if (hasCitations) confidence += 0.07;
     
-    return Math.min(0.95, confidence);
+    // Length check (too short = low confidence)
+    if (response.length < 200) confidence -= 0.2;
+    if (response.length > 1000) confidence += 0.05;
+
+    // Cap between 0.1 and 0.98
+    return Math.max(0.1, Math.min(0.98, confidence));
   }
 
   private extractKeyInsights(text: string): string[] {

@@ -8,10 +8,12 @@ import { ToastProvider } from '../components/feedback';
 import { I18nProvider } from './lib/i18n';
 import { AuthProvider } from './contexts/AuthContext';
 import { VerticalConfigProvider } from './contexts/VerticalConfigContext';
+import { DemoModeProvider } from './contexts/DemoModeContext';
 // Use lazy-loaded routes for better performance (code splitting)
 import { router } from './routes.lazy';
 import ErrorBoundary from './components/ErrorBoundary';
 import { TechTeamPanel } from './components/dev/TechTeamPanel';
+import { DemoOverlay } from './components/demo/DemoOverlay';
 
 export const App: React.FC = () => {
   return (
@@ -19,11 +21,15 @@ export const App: React.FC = () => {
       <I18nProvider>
         <AuthProvider>
           <VerticalConfigProvider>
-            <ToastProvider>
-              <RouterProvider router={router} />
-              {/* AI Tech Team - Auto-Heal Panel */}
-              <TechTeamPanel />
-            </ToastProvider>
+            <DemoModeProvider>
+              <ToastProvider>
+                <RouterProvider router={router} />
+                {/* AI Tech Team - Auto-Heal Panel */}
+                <TechTeamPanel />
+                {/* Demo Recording Overlay */}
+                <DemoOverlay />
+              </ToastProvider>
+            </DemoModeProvider>
           </VerticalConfigProvider>
         </AuthProvider>
       </I18nProvider>

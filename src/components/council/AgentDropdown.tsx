@@ -99,8 +99,12 @@ function categorizeAgents(agents: Agent[]): Record<string, Agent[]> {
       category = 'Operations';
     } else if (['cto', 'cio', 'ciso', 'tech', 'data'].includes(agent.code.toLowerCase())) {
       category = 'Technology';
-    } else if (['risk', 'compliance', 'legal', 'clo'].includes(agent.code.toLowerCase())) {
+    } else if (['risk', 'compliance', 'legal', 'clo', 'redteam', 'devils-advocate'].includes(agent.code.toLowerCase())) {
       category = 'Risk & Compliance';
+    } else if (['analyst', 'arbiter'].includes(agent.code.toLowerCase())) {
+      category = 'Executive';
+    } else if (['union', 'chro'].includes(agent.code.toLowerCase())) {
+      category = 'Operations';
     } else {
       category = 'Executive';
     }

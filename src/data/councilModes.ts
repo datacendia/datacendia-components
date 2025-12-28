@@ -65,7 +65,7 @@ export const COUNCIL_MODES: Record<string, CouncilMode> = {
       'Annual planning',
     ],
     leadAgent: 'chief',
-    defaultAgents: ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cto', 'risk', 'devils-advocate'], // Full council for strategic debates
+    defaultAgents: ['chief', 'cfo', 'coo', 'ciso', 'cmo', 'cto', 'chro', 'clo', 'risk', 'analyst', 'arbiter', 'redteam', 'union', 'devils-advocate'], // Full 14-agent council for strategic debates
     agentBehaviors: [
       "Security MUST attack Revenue's risky proposals",
       "Finance MUST challenge Growth's optimistic projections",
@@ -75,7 +75,7 @@ export const COUNCIL_MODES: Record<string, CouncilMode> = {
     ],
     systemPrompt: `### ROLE: The Council Orchestrator
 
-### OBJECTIVE: Simulate a high-stakes executive board meeting to answer the user's query. You are not a single assistant; you are an orchestration of 10 distinct executive personas.
+### OBJECTIVE: Simulate a high-stakes executive board meeting to answer the user's query. You are not a single assistant; you are an orchestration of 14 distinct executive personas.
 
 ### THE PRIME DIRECTIVE: "Conflict before Consensus."
 Do not agree for the sake of politeness. Each agent must vigorously defend their specific domain.
@@ -98,7 +98,7 @@ Do not agree for the sake of politeness. Each agent must vigorously defend their
 - Use hard actions ("encrypt database," "allocate $20k," "hire 2 FTEs")
 - Each agent should have a distinct personality that matches their domain
 
-### AGENTS ACTIVE: Chief, CFO, COO, CISO, CMO, CTO, CHRO, CRO, CDO, Risk
+### AGENTS ACTIVE: Chief, CFO, COO, CISO, CMO, CTO, CHRO, CLO, Risk, Analyst, Arbiter, Red Team, Union, Devil's Advocate
 
 Execute Deliberation.`,
   },
@@ -122,7 +122,7 @@ Execute Deliberation.`,
       'Contract review',
     ],
     leadAgent: 'cfo',
-    defaultAgents: ['cfo', 'clo', 'risk', 'ciso', 'cio'], // Financial, legal, risk focus
+    defaultAgents: ['cfo', 'clo', 'risk', 'ciso', 'cio', 'analyst', 'redteam'], // Financial, legal, risk focus with deep analysis
     agentBehaviors: [
       'Every claim requires a source or calculation',
       'Agents must explicitly state confidence levels (High/Medium/Low)',
@@ -320,7 +320,7 @@ Execute Compliance Review.`,
       'Competitive threats requiring immediate response',
     ],
     leadAgent: 'chief',
-    defaultAgents: ['chief', 'coo', 'ciso', 'cco', 'cto'], // Crisis response team
+    defaultAgents: ['chief', 'coo', 'ciso', 'cco', 'cto', 'redteam', 'risk'], // Crisis response team with adversarial analysis
     agentBehaviors: [
       "Decisions must be made within the session - no 'we'll discuss later'",
       'Clear ownership assigned for every action item',
@@ -477,7 +477,7 @@ Execute Planning Session.`,
       'Trend identification',
     ],
     leadAgent: 'cdo',
-    defaultAgents: ['cdo', 'caio', 'cfo', 'cmo'], // Data & analytics focus
+    defaultAgents: ['cdo', 'caio', 'cfo', 'cmo', 'analyst'], // Data & analytics focus with deep analysis
     agentBehaviors: [
       'CDO leads the discussion',
       'Distinguish facts from interpretations',
@@ -637,7 +637,7 @@ Execute Investment Analysis.`,
       'Cultural initiatives',
     ],
     leadAgent: 'chro',
-    defaultAgents: ['chro', 'cco', 'coo', 'clo'], // People & change focus
+    defaultAgents: ['chro', 'cco', 'coo', 'clo', 'union', 'arbiter'], // People & change focus with workforce advocacy
     agentBehaviors: [
       'CHRO leads the discussion',
       'Map all affected stakeholders',
@@ -870,7 +870,7 @@ Execute Advisory Session.`,
       'Governance framework design',
     ],
     leadAgent: 'chief',
-    defaultAgents: ['chief', 'clo', 'ciso', 'risk', 'chro'], // Governance focus
+    defaultAgents: ['chief', 'clo', 'ciso', 'risk', 'chro', 'arbiter', 'union'], // Governance focus with mediation and workforce perspective
     agentBehaviors: [
       'Review historical precedents',
       'Consider long-term implications',

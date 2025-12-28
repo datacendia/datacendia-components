@@ -882,6 +882,86 @@ class EvidenceVaultService extends EventEmitter {
     };
     return Buffer.from(JSON.stringify(exportData, null, 2));
   }
+
+  // ===========================================================================
+  // COUNCIL DECISION PACKET INTEGRATION
+  // ===========================================================================
+
+  /**
+   * Store a council decision packet in the Evidence Vault
+   * Called after a deliberation is completed and packet is built
+   */
+  async storeCouncilDecisionPacket(params: {
+    runId: string;
+    deliberationId: string;
+    organizationId: string;
+    userId: string;
+    question: string;
+    recommendation: string;
+    confidence: number;
+    merkleRoot: string;
+    signature?: { signature: string; algorithm: string; keyId: string } | undefined;
+    regulatoryFrameworks: string[];
+    retentionUntil: Date;
+  }): Promise<DecisionPacket> {
+    const packet: DecisionPacket = {
+      id: `PKT-${params.runId}`,
+      decisionId: params.deliberationId,
+      decisionTitle: params.question.substring(0, 100),
+      status: params.signature ? 'locked' : 'draft',
+      mode: 'due_diligence',
+      owner: {
+        id: params.userId || 'system',
+        name: 'Council System',
+        email: 'council@datacendia.local',
+        role: 'Council Operator',
+        department: 'AI Operations',
+      },
+      businessUnit: 'AI Council',
+      organizationId: params.organizationId,
+      generatedAt: new Date(),
+      signedAt: params.signature ? new Date() : undefined,
+      lockedAt: params.signature ? new Date() : undefined,
+      policyPackVersion: '1.0.0',
+      signatureValid: !!params.signature,
+      integrityHash: params.merkleRoot,
+      version: 1,
+      attachments: [],
+      dissents: [],
+      vetoes: [],
+      overrides: [],
+      systemsImpacted: ['CendiaCouncil™'],
+      complianceFrameworks: params.regulatoryFrameworks,
+      retentionUntil: params.retentionUntil,
+      accessLog: [{
+        id: `log-${Date.now()}`,
+        userId: params.userId || 'system',
+        userName: 'Council System',
+        action: 'generate',
+        timestamp: new Date(),
+        details: `Council deliberation completed with ${Math.round(params.confidence * 100)}% confidence`,
+      }],
+    };
+
+    this.packets.set(packet.id, packet);
+    this.emit('packet:council_stored', { packetId: packet.id, runId: params.runId });
+    
+    logger.info('[EvidenceVault] Stored council decision packet', { 
+      packetId: packet.id, 
+      runId: params.runId,
+      signed: !!params.signature,
+    });
+
+    return packet;
+  }
+
+  /**
+   * Get council decision packet by run ID
+   */
+  async getCouncilPacketByRunId(runId: string): Promise<DecisionPacket | null> {
+    const packetId = `PKT-${runId}`;
+    return this.packets.get(packetId) || null;
+  }
 }
 
 export const evidenceVaultService = EvidenceVaultService.getInstance();

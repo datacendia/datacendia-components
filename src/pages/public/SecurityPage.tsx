@@ -108,11 +108,11 @@ export const SecurityPage: React.FC = () => {
   ];
 
   const certifications = [
-    { name: 'SOC 2 Type II', status: 'Ready' },
-    { name: 'ISO 27001', status: 'Ready' },
-    { name: 'HIPAA', status: 'Ready' },
-    { name: 'GDPR', status: 'Compliant' },
-    { name: 'FedRAMP', status: 'In Progress' },
+    { name: 'SOC 2 Type II', status: 'Awaiting Audit' },
+    { name: 'ISO 27001', status: 'Awaiting Audit' },
+    { name: 'HIPAA', status: 'Controls Ready' },
+    { name: 'GDPR', status: 'Controls Ready' },
+    { name: 'FedRAMP', status: 'Future Goal' },
   ];
 
   return (

@@ -2,17 +2,29 @@
  * =============================================================================
  * SOVEREIGN ADAPTER ARCHITECTURE - INDEX
  * =============================================================================
- * 5 Universal Adapters instead of 156 vendor-specific connectors.
+ * 16 Connector Suites: 6 Universal Adapters + 10 Pre-configured Suites
  * 
  * Key Principle: "We provide the socket; the client brings the plug."
  * 
- * Adapters:
+ * UNIVERSAL ADAPTERS (6):
  * 1. File Watcher - Avionics, Defense, Legacy (file-based ingest)
  * 2. Webhook Ingest - SaaS, Financial gateways (push events)
  * 3. Database - ERP, Supply Chain (SQL/ODBC polling)
  * 4. FHIR - Healthcare standard (NOT Epic/Cerner proprietary)
  * 5. FIX - Financial standard (NOT Bloomberg/Refinitiv)
  * 6. MQTT - IoT/Energy grids
+ * 
+ * PRE-CONFIGURED SUITES (10):
+ * 7. Salesforce Suite - CRM
+ * 8. SAP Suite - ERP
+ * 9. Workday Suite - HR
+ * 10. ServiceNow Suite - ITSM
+ * 11. Microsoft 365 Suite - Productivity
+ * 12. Oracle Suite - ERP/Database
+ * 13. Snowflake Suite - Data Warehouse
+ * 14. Atlassian Suite - Jira/Confluence
+ * 15. HubSpot Suite - Marketing/CRM
+ * 16. Zendesk Suite - Support
  * 
  * NOT included (liability traps):
  * - Bloomberg Terminal API (licensing $24k/user/year)
@@ -53,6 +65,24 @@ export {
   MQTTAdapterConfig,
   MQTTMessage,
 } from './ProtocolAdapters.js';
+
+// Connector Suites (pre-configured adapter templates)
+export {
+  ConnectorSuiteConfig,
+  ConnectorSuiteInstance,
+  ConnectorSuites,
+  connectorSuiteManager,
+  SalesforceSuite,
+  SAPSuite,
+  WorkdaySuite,
+  ServiceNowSuite,
+  Microsoft365Suite,
+  OracleSuite,
+  SnowflakeSuite,
+  AtlassianSuite,
+  HubSpotSuite,
+  ZendeskSuite,
+} from './ConnectorSuites.js';
 
 // =============================================================================
 // ADAPTER MANAGER

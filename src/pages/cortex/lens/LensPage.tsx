@@ -6,7 +6,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../../../lib/utils';
-import { forecastsApi } from '../../../lib/api';
+import { forecastsApi, fredForecastingApi, ForecastResult } from '../../../lib/api';
 import { useLanguage } from '../../../contexts/LanguageContext';
 
 // =============================================================================
@@ -307,6 +307,11 @@ export const LensPage: React.FC = () => {
   const [predictiveMode, setPredictiveMode] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [timeHorizon, setTimeHorizon] = useState(90);
+  
+  // Real Economic Forecasts from FRED
+  const [economicForecasts, setEconomicForecasts] = useState<Record<string, ForecastResult>>({});
+  const [forecastAccuracy, setForecastAccuracy] = useState<{ averageAccuracy: number; modelType: string } | null>(null);
+  const [showEconomicPanel, setShowEconomicPanel] = useState(true);
 
   // Simulation parameters
   const [parameters, setParameters] = useState<SimulationParameter[]>([
@@ -361,6 +366,25 @@ export const LensPage: React.FC = () => {
     const loadData = async () => {
       try {
         setIsLoading(true);
+        
+        // Load FRED economic forecasts
+        const [accuracyRes, forecastRes] = await Promise.all([
+          fredForecastingApi.getAccuracy(),
+          fredForecastingApi.forecastBatch(['GDP', 'UNRATE', 'CPIAUCSL', 'FEDFUNDS'], 6),
+        ]);
+        
+        if (accuracyRes.success && accuracyRes.data) {
+          setForecastAccuracy({
+            averageAccuracy: accuracyRes.data.summary.averageAccuracy,
+            modelType: accuracyRes.data.summary.modelType,
+          });
+        }
+        
+        if (forecastRes.success && forecastRes.data) {
+          setEconomicForecasts(forecastRes.data.forecasts);
+        }
+        
+        // Also load scenario forecasts
         await forecastsApi.getForecasts();
       } catch (err) {
         console.error('Lens load error:', err);
@@ -440,6 +464,74 @@ export const LensPage: React.FC = () => {
           {/* Key Drivers */}
           <KeyDriversPanel drivers={drivers} />
         </div>
+
+        {/* ================================================================= */}
+        {/* REAL ECONOMIC INDICATORS (FRED DATA) */}
+        {/* ================================================================= */}
+        {showEconomicPanel && (
+          <div className="bg-neutral-800/50 rounded-xl border border-neutral-700 p-6 mb-6">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h3 className="text-white font-semibold flex items-center gap-2">
+                  📊 Economic Indicators
+                  <span className="text-xs bg-green-500/20 text-green-400 px-2 py-0.5 rounded">LIVE DATA</span>
+                </h3>
+                <p className="text-xs text-neutral-400 mt-1">
+                  Real forecasts from Federal Reserve Economic Data (FRED) • {forecastAccuracy ? `${forecastAccuracy.averageAccuracy.toFixed(1)}% avg accuracy` : 'Loading...'}
+                </p>
+              </div>
+              <button 
+                onClick={() => setShowEconomicPanel(false)}
+                className="text-neutral-500 hover:text-white"
+              >
+                ✕
+              </button>
+            </div>
+            
+            {isLoading ? (
+              <div className="text-center py-8 text-neutral-400">Loading economic forecasts...</div>
+            ) : (
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                {Object.entries(economicForecasts).map(([key, forecast]) => {
+                  const latestValue = forecast.historicalData[forecast.historicalData.length - 1]?.value ?? 0;
+                  const nextPrediction = forecast.predictions[0]?.predicted ?? 0;
+                  const change = latestValue > 0 ? ((nextPrediction - latestValue) / latestValue) * 100 : 0;
+                  const isPositive = change > 0;
+                  
+                  return (
+                    <div key={key} className="bg-neutral-900/50 rounded-lg p-4 border border-neutral-700">
+                      <p className="text-xs text-neutral-400 uppercase tracking-wider mb-1">{forecast.seriesName}</p>
+                      <p className="text-xl font-bold text-white">
+                        {key === 'GDP' ? `$${(latestValue / 1000).toFixed(1)}T` : 
+                         key === 'UNRATE' || key === 'FEDFUNDS' ? `${latestValue.toFixed(1)}%` :
+                         latestValue.toFixed(1)}
+                      </p>
+                      <div className="flex items-center gap-2 mt-1">
+                        <span className={cn(
+                          'text-xs font-medium',
+                          key === 'UNRATE' ? (isPositive ? 'text-red-400' : 'text-green-400') :
+                          isPositive ? 'text-green-400' : 'text-red-400'
+                        )}>
+                          {isPositive ? '↑' : '↓'} {Math.abs(change).toFixed(1)}%
+                        </span>
+                        <span className="text-xs text-neutral-500">next month</span>
+                      </div>
+                      <div className="mt-2 text-xs text-neutral-500">
+                        MAPE: {forecast.accuracy.mape.toFixed(2)}%
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+            
+            {forecastAccuracy && (
+              <p className="text-xs text-neutral-500 mt-4 text-center">
+                Model: {forecastAccuracy.modelType} • Source: Federal Reserve Bank of St. Louis
+              </p>
+            )}
+          </div>
+        )}
 
         {/* ================================================================= */}
         {/* QUICK ACTIONS */}

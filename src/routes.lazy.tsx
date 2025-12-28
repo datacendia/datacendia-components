@@ -85,6 +85,10 @@ const SovereignEnterpriseIntelligencePage = lazy(
   () => import('./pages/public/SovereignEnterpriseIntelligencePage')
 );
 
+// Demos
+const RegulatorsReceiptPage = lazy(() => import('./pages/demos/RegulatorsReceiptPage'));
+const DemoLauncherPage = lazy(() => import('./pages/cortex/demo/DemoLauncherPage'));
+
 // Legal
 const PrivacyPolicyPage = lazy(() =>
   import('./pages/legal').then((m) => ({ default: m.PrivacyPolicyPage }))
@@ -237,6 +241,9 @@ const MeshPage = lazy(() =>
 const GovernPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.GovernPage }))
 );
+const DecisionPacketsPage = lazy(() =>
+  import('./pages/cortex/governance/DecisionPacketsPage').then((m) => ({ default: m.DecisionPacketsPage }))
+);
 const VoicePage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.VoicePage }))
 );
@@ -269,6 +276,9 @@ const ApotheosisPage = lazy(() =>
 );
 const DissentPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.DissentPage }))
+);
+const ROIMetricsPage = lazy(() =>
+  import('./pages/cortex/enterprise/ROIMetricsPage').then((m) => ({ default: m.ROIMetricsPage }))
 );
 const CrisisManagementPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.CrisisManagementPage }))
@@ -706,6 +716,14 @@ export const router = createBrowserRouter([
     element: (
       <SuspenseWrapper>
         <ShowcasesPage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/demos/regulators-receipt',
+    element: (
+      <SuspenseWrapper>
+        <RegulatorsReceiptPage />
       </SuspenseWrapper>
     ),
   },
@@ -1464,6 +1482,14 @@ export const router = createBrowserRouter([
         ),
       },
       {
+        path: 'governance/decision-packets',
+        element: (
+          <SuspenseWrapper>
+            <DecisionPacketsPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
         path: 'enterprise/voice',
         element: (
           <SuspenseWrapper>
@@ -1548,6 +1574,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <DissentPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'enterprise/roi-metrics',
+        element: (
+          <SuspenseWrapper>
+            <ROIMetricsPage />
           </SuspenseWrapper>
         ),
       },
@@ -1640,6 +1674,16 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <VerticalConfigPage />
+          </SuspenseWrapper>
+        ),
+      },
+
+      // Demo Studio
+      {
+        path: 'demo',
+        element: (
+          <SuspenseWrapper>
+            <DemoLauncherPage />
           </SuspenseWrapper>
         ),
       },

@@ -1,10 +1,31 @@
 // =============================================================================
-// CENDIA TIME-LOCK™ - CRYPTOGRAPHIC EMBARGOED DECISIONS
-// "Impossible to leak early - cryptographically guaranteed."
+// CENDIA TIME-LOCK™ - CRYPTOGRAPHIC TIME-LOCK FOR EMBARGOED DECISIONS
+// "Enforcing earliest-access under defined compute assumptions."
 //
-// Encrypts sensitive decisions with time-lock cryptography that is mathematically
-// impossible to decrypt before a specified time. Even root admins cannot peek.
-// Perfect for M&A announcements, earnings, board decisions.
+// Encrypts sensitive decisions with time-lock cryptography (RSA time-lock puzzles).
+// Decryption requires sequential computation that cannot be parallelized.
+// Suitable for M&A announcements, earnings, board decisions.
+//
+// SECURITY ASSUMPTIONS (operators must understand these):
+// 1. Sequential Work: The puzzle requires T sequential squarings that cannot
+//    be parallelized. Security depends on this property of modular squaring.
+// 2. Adversary Compute: We assume adversary hardware performs at most
+//    CALIBRATED_IPS squarings per second. Hardware improvements may reduce delay.
+// 3. Modulus Security: RSA modulus factorization is assumed hard. If factored,
+//    the puzzle can be solved instantly using phi(n).
+// 4. No Time Travel: The puzzle enforces MINIMUM delay, not exact time.
+//    It may be solved AFTER the target time if insufficient compute is applied.
+//
+// THIS IS NOT "UNBREAKABLE":
+// - A sufficiently powerful adversary with faster hardware could solve earlier
+// - Quantum computers would break RSA-based time-locks entirely
+// - The guarantee is: "under stated assumptions, earliest access is T seconds"
+//
+// PARAMETER POLICY:
+// - Modulus Size: 1024-bit (minimum), 2048-bit (recommended for >1 week delays)
+// - Squaring Count: Calibrated to target hardware at deployment time
+// - Calibration Method: Benchmark repeated squarings, measure IPS, derive T
+// - Re-calibrate: After hardware upgrades or annually
 // =============================================================================
 
 import { EventEmitter } from 'events';
@@ -28,6 +49,48 @@ export interface TimeLockConfig {
   // Verification
   enableWitnesses: boolean;
   minWitnesses: number;
+  
+  // Enterprise hardening: policy versioning
+  policyVersion: string;         // e.g., "1.0.0"
+  modulusBits: number;           // RSA modulus size
+  calibrationDate: Date;         // When IPS was calibrated
+  calibrationHardware: string;   // Hardware description for audit
+}
+
+/**
+ * Time-lock envelope format for enterprise audit trail.
+ * Contains all metadata needed to verify and reproduce the time-lock.
+ */
+export interface TimeLockEnvelope {
+  version: string;               // Envelope format version
+  policyVersion: string;         // Policy under which this was created
+  
+  // Vault reference
+  vaultId: string;
+  
+  // Calibration metadata
+  calibration: {
+    iterationsPerSecond: number;
+    calibrationDate: string;     // ISO date
+    calibrationHardware: string;
+    modulusBits: number;
+  };
+  
+  // Puzzle parameters (for verification)
+  puzzleParams: {
+    modulusHash: string;         // SHA-256 of modulus (not the modulus itself)
+    iterations: number;
+    expectedDelaySeconds: number;
+    releaseTimestamp: string;    // ISO date
+  };
+  
+  // Cryptographic proof
+  signature: string;             // Signature over envelope contents
+  signedBy: string;              // Signing key identifier
+  signedAt: string;              // ISO date
+  
+  // Warnings (transparent about limitations)
+  warnings: string[];
 }
 
 export interface TimeLockVault {
@@ -75,6 +138,11 @@ export interface TimeLockPuzzle {
   // Progress (if unlocking)
   progress?: number;            // 0-100
   currentIteration?: bigint;
+  
+  // Enterprise hardening: calibration metadata
+  modulusBits: number;          // Size of RSA modulus
+  calibratedIPS: number;        // Iterations/second at creation time
+  expectedDelaySeconds: number; // Expected delay based on calibration
 }
 
 export interface Witness {
@@ -149,6 +217,10 @@ class TimeLockPuzzleGenerator {
       puzzleHash: crypto.createHash('sha256')
         .update(`${n.toString(16)}:${t}:${a.toString(16)}`)
         .digest('hex'),
+      // Enterprise hardening: calibration metadata
+      modulusBits: 1024,
+      calibratedIPS: params.iterationsPerSecond,
+      expectedDelaySeconds: params.seconds,
     };
   }
 
@@ -287,9 +359,14 @@ class TimeLockService extends EventEmitter {
     this.config = {
       defaultDifficulty: 60,         // 60 seconds default
       iterationsPerSecond: 100000,   // Calibrate based on hardware
-      storagePath: process.env.TIMELOCK_STORAGE_PATH || '/var/datacendia/timelock',
+      storagePath: process.env['TIMELOCK_STORAGE_PATH'] || '/var/datacendia/timelock',
       enableWitnesses: true,
       minWitnesses: 2,
+      // Enterprise hardening: policy versioning
+      policyVersion: '1.0.0',
+      modulusBits: 1024,             // Minimum secure size
+      calibrationDate: new Date(),   // Should be updated after benchmark
+      calibrationHardware: 'default-uncalibrated',  // Should be set after benchmark
     };
     
     this.storagePath = this.config.storagePath;

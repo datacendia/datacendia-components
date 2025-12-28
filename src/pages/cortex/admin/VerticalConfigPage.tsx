@@ -5,6 +5,7 @@
 // =============================================================================
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   Settings,
   Check,
@@ -22,6 +23,8 @@ import {
   Loader2,
   Save,
   RotateCcw,
+  LayoutDashboard,
+  ArrowRight,
 } from 'lucide-react';
 import { cn } from '../../../lib/utils';
 import { verticalConfigApi } from '../../../services/VerticalConfigService';
@@ -202,6 +205,8 @@ const ToggleSwitch: React.FC<ToggleSwitchProps> = ({ enabled, onChange, disabled
 // =============================================================================
 
 export const VerticalConfigPage: React.FC = () => {
+  const navigate = useNavigate();
+  
   // State
   const [selectedVertical, setSelectedVertical] = useState<string>('financial-services');
   const [enabledServices, setEnabledServices] = useState<Set<string>>(new Set(['council', 'ledger', 'evidence-vault']));
@@ -485,6 +490,25 @@ export const VerticalConfigPage: React.FC = () => {
               </div>
             </div>
           </div>
+
+          {/* View Dashboard Link */}
+          <button
+            onClick={() => navigate('/cortex/dashboard')}
+            className="w-full bg-gradient-to-r from-cyan-600/20 to-blue-600/20 border border-cyan-500/30 rounded-xl p-4 hover:border-cyan-500/50 transition-all group"
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-lg bg-cyan-500/20 flex items-center justify-center">
+                  <LayoutDashboard className="w-5 h-5 text-cyan-400" />
+                </div>
+                <div className="text-left">
+                  <div className="font-medium text-white">View Dashboard</div>
+                  <div className="text-xs text-gray-400">See your {currentVertical?.name} dashboard</div>
+                </div>
+              </div>
+              <ArrowRight className="w-5 h-5 text-cyan-400 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </button>
 
           {/* Legend */}
           <div className="bg-sovereign-card border border-sovereign-border rounded-xl p-4">
