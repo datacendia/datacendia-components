@@ -32,16 +32,16 @@ import { documentExportService, type AuditPackageData } from '../../../services/
 // Audit package signing API
 const auditPackageApi = {
   async sign(snapshotDate: string, contents: any): Promise<any> {
-    const response = await api.post('/audit-packages/sign', { snapshotDate, contents });
-    return response.data?.data;
+    const response = await api.post<any>('/audit-packages/sign', { snapshotDate, contents });
+    return response.data;
   },
   async verify(pkg: any): Promise<any> {
-    const response = await api.post('/audit-packages/verify', { package: pkg });
-    return response.data?.data;
+    const response = await api.post<any>('/audit-packages/verify', { package: pkg });
+    return response.data;
   },
   async store(pkg: any): Promise<any> {
-    const response = await api.post('/audit-packages/store', { package: pkg });
-    return response.data?.data;
+    const response = await api.post<any>('/audit-packages/store', { package: pkg });
+    return response.data;
   },
 };
 
