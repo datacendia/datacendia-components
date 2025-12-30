@@ -21,9 +21,15 @@ export { MediaEntertainmentPage } from './MediaEntertainmentPage';
 export { ProfessionalServicesPage } from './ProfessionalServicesPage';
 export { HigherEducationPage } from './HigherEducationPage';
 export { SportsPage } from './SportsPage';
-
-// Tier 3: Coming Soon
 export { TelecommunicationsPage } from './TelecommunicationsPage';
+
+// Tier 3: Specialized Verticals
+export { AerospacePage } from './AerospacePage';
+export { AgriculturePage } from './AgriculturePage';
+export { AutomotivePage } from './AutomotivePage';
+export { ConstructionPage } from './ConstructionPage';
+export { HospitalityPage } from './HospitalityPage';
+export { NonProfitPage } from './NonProfitPage';
 
 // Verticals Hub
 export { VerticalsHubPage } from './VerticalsHubPage';

@@ -11,9 +11,39 @@ import { healthApi, alertsApi, metricsApi, organizationsApi, authApi } from '../
 import type { Alert as ApiAlert } from '../../lib/api/types';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { useAuth } from '../../contexts/AuthContext';
+import { useVerticalConfig } from '../../contexts/VerticalConfigContext';
 import { NarrativeGuide, NarrativeSelector } from '../../components/ui';
-import { Compass, X } from 'lucide-react';
+import { Compass, X, ChevronDown, Building2 } from 'lucide-react';
 import { VerticalDashboard } from '../../components/dashboard';
+import { VERTICAL_DASHBOARDS } from '../../config/verticalDashboards';
+import { EXTENDED_DASHBOARDS } from '../../config/verticalDashboardsExtended';
+
+// All available verticals from dashboard configs
+const ALL_VERTICALS = [
+  { id: 'financial', name: 'Financial Services', icon: '💹', description: 'Banking, investment, trading' },
+  { id: 'healthcare', name: 'Healthcare', icon: '🏥', description: 'Hospitals, clinics, patient care' },
+  { id: 'manufacturing', name: 'Manufacturing', icon: '🏭', description: 'Production, supply chain' },
+  { id: 'technology', name: 'Technology', icon: '🚀', description: 'Software, platforms, SaaS' },
+  { id: 'energy', name: 'Energy & Utilities', icon: '⚡', description: 'Power, grid, renewables' },
+  { id: 'government', name: 'Government', icon: '🏛️', description: 'Public sector, agencies' },
+  { id: 'legal', name: 'Legal', icon: '⚖️', description: 'Law firms, compliance' },
+  { id: 'retail', name: 'Retail', icon: '🛒', description: 'Stores, e-commerce' },
+  { id: 'real-estate', name: 'Real Estate', icon: '🏢', description: 'Property, construction' },
+  { id: 'telecom', name: 'Telecommunications', icon: '📡', description: 'Networks, connectivity' },
+  { id: 'hospitality', name: 'Hospitality & Travel', icon: '🏨', description: 'Hotels, tourism' },
+  { id: 'education', name: 'Education', icon: '🎓', description: 'Universities, schools' },
+  { id: 'media', name: 'Media & Entertainment', icon: '🎬', description: 'Content, streaming' },
+  { id: 'agriculture', name: 'Agriculture', icon: '🌾', description: 'Farming, agtech' },
+  { id: 'logistics', name: 'Transportation & Logistics', icon: '🚚', description: 'Fleet, supply chain' },
+  { id: 'insurance', name: 'Insurance', icon: '🛡️', description: 'Claims, underwriting' },
+  { id: 'non-profit', name: 'Non-Profit', icon: '💚', description: 'NGOs, foundations' },
+  { id: 'construction', name: 'Construction', icon: '🏗️', description: 'Building, infrastructure' },
+  { id: 'mining', name: 'Mining & Resources', icon: '⛏️', description: 'Extraction, minerals' },
+  { id: 'aerospace', name: 'Aerospace & Defense', icon: '✈️', description: 'Aviation, defense' },
+  { id: 'pharmaceuticals', name: 'Pharmaceuticals', icon: '💊', description: 'Drug development, trials' },
+  { id: 'automotive', name: 'Automotive', icon: '🚗', description: 'Vehicles, EV, mobility' },
+  { id: 'sports', name: 'Sports & Entertainment', icon: '🏆', description: 'Teams, leagues, events' },
+];
 
 // =============================================================================
 // TYPES
@@ -177,7 +207,16 @@ export const DashboardPage: React.FC = () => {
   const navigate = useNavigate();
   const { t, language } = useLanguage();
   const { user } = useAuth();
+  const { currentVertical, selectVertical, isLoading: verticalLoading } = useVerticalConfig();
   const [queryInput, setQueryInput] = useState('');
+  const [showVerticalSelector, setShowVerticalSelector] = useState(false);
+  const [selectedVerticalId, setSelectedVerticalId] = useState<string>(currentVertical?.id || 'technology');
+
+  // Check if user is admin/owner
+  const isAdminOrOwner = user?.role === 'OWNER' || user?.role === 'SUPER_ADMIN' || user?.role === 'ADMIN';
+
+  // Get current vertical info from ALL_VERTICALS
+  const selectedVerticalInfo = ALL_VERTICALS.find(v => v.id === selectedVerticalId) || ALL_VERTICALS[3]; // Default to technology
 
   // Real data state
   const [alerts, setAlerts] = useState<Alert[]>([]);
@@ -193,6 +232,17 @@ export const DashboardPage: React.FC = () => {
   const fallbackActivity = getTranslatedActivity(t);
   const recentQueries = getTranslatedQueries(t);
   const [isLoading, setIsLoading] = useState(true);
+
+  // Handle vertical change for admin users
+  const handleVerticalChange = async (verticalId: string) => {
+    setSelectedVerticalId(verticalId);
+    setShowVerticalSelector(false);
+    try {
+      await selectVertical(verticalId);
+    } catch (err) {
+      console.error('Failed to switch vertical:', err);
+    }
+  };
 
   // User Journey State
   const [showJourneySelector, setShowJourneySelector] = useState(false);
@@ -387,10 +437,74 @@ export const DashboardPage: React.FC = () => {
       </div>
 
       {/* ================================================================= */}
+      {/* ADMIN VERTICAL SELECTOR */}
+      {/* ================================================================= */}
+      {isAdminOrOwner && (
+        <div className="mb-6 bg-gradient-to-r from-primary-50 to-violet-50 rounded-xl border border-primary-200 p-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center">
+                <Building2 className="w-5 h-5 text-primary-600" />
+              </div>
+              <div>
+                <p className="text-sm font-medium text-neutral-700">Industry Vertical</p>
+                <p className="text-xs text-neutral-500">Admin: Switch verticals to preview different industry dashboards</p>
+              </div>
+            </div>
+            <div className="relative">
+              <button
+                onClick={() => setShowVerticalSelector(!showVerticalSelector)}
+                className="flex items-center gap-2 px-4 py-2 bg-white border border-primary-300 rounded-lg hover:bg-primary-50 transition-colors"
+              >
+                <span className="text-lg">{selectedVerticalInfo.icon}</span>
+                <span className="font-medium text-neutral-900">{selectedVerticalInfo.name}</span>
+                <ChevronDown className={cn('w-4 h-4 text-neutral-500 transition-transform', showVerticalSelector && 'rotate-180')} />
+              </button>
+              
+              {showVerticalSelector && (
+                <div className="absolute right-0 top-full mt-2 w-80 max-h-96 overflow-y-auto bg-white rounded-xl border border-neutral-200 shadow-xl z-50">
+                  <div className="p-2">
+                    <p className="px-3 py-2 text-xs font-semibold text-neutral-500 uppercase tracking-wider">Select Industry ({ALL_VERTICALS.length} verticals)</p>
+                    {ALL_VERTICALS.map((vertical) => (
+                      <button
+                        key={vertical.id}
+                        onClick={() => handleVerticalChange(vertical.id)}
+                        className={cn(
+                          'w-full flex items-center gap-3 px-3 py-2 rounded-lg text-left transition-colors',
+                          selectedVerticalId === vertical.id
+                            ? 'bg-primary-100 text-primary-900'
+                            : 'hover:bg-neutral-50 text-neutral-700'
+                        )}
+                      >
+                        <span className="text-xl">{vertical.icon}</span>
+                        <div className="flex-1 min-w-0">
+                          <p className="font-medium truncate">{vertical.name}</p>
+                          <p className="text-xs text-neutral-500 truncate">{vertical.description}</p>
+                        </div>
+                        {selectedVerticalId === vertical.id && (
+                          <span className="text-primary-600">✓</span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+          {verticalLoading && (
+            <div className="mt-3 flex items-center gap-2 text-sm text-primary-600">
+              <div className="animate-spin w-4 h-4 border-2 border-primary-600 border-t-transparent rounded-full" />
+              <span>Updating dashboard...</span>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* ================================================================= */}
       {/* VERTICAL-SPECIFIC DASHBOARD */}
       {/* ================================================================= */}
       <div className="mb-8">
-        <VerticalDashboard />
+        <VerticalDashboard overrideVerticalId={selectedVerticalId} />
       </div>
 
       {/* ================================================================= */}

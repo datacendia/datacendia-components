@@ -493,7 +493,36 @@ export const VerticalConfigPage: React.FC = () => {
 
           {/* View Dashboard Link */}
           <button
-            onClick={() => navigate('/cortex/dashboard')}
+            onClick={() => {
+              // Map vertical IDs to their dashboard routes
+              const verticalRoutes: Record<string, string> = {
+                'financial-services': '/verticals/financial-services',
+                'healthcare': '/verticals/healthcare',
+                'manufacturing': '/verticals/manufacturing',
+                'technology': '/verticals/technology',
+                'energy': '/verticals/energy-utilities',
+                'government': '/verticals/government-legal',
+                'legal': '/verticals/government-legal',
+                'retail': '/verticals/retail-hospitality',
+                'real-estate': '/verticals/real-estate',
+                'telecommunications': '/verticals/telecommunications',
+                'hospitality': '/verticals/hospitality',
+                'education': '/verticals/higher-education',
+                'media': '/verticals/media-entertainment',
+                'agriculture': '/verticals/agriculture',
+                'logistics': '/verticals/transportation',
+                'insurance': '/verticals/insurance',
+                'nonprofit': '/verticals/nonprofit',
+                'construction': '/verticals/construction',
+                'mining': '/verticals/energy-utilities',
+                'aerospace': '/verticals/aerospace',
+                'pharmaceuticals': '/verticals/pharmaceutical',
+                'automotive': '/verticals/automotive',
+                'sports': '/verticals/sports',
+              };
+              const route = verticalRoutes[selectedVertical] || '/verticals';
+              navigate(route);
+            }}
             className="w-full bg-gradient-to-r from-cyan-600/20 to-blue-600/20 border border-cyan-500/30 rounded-xl p-4 hover:border-cyan-500/50 transition-all group"
           >
             <div className="flex items-center justify-between">

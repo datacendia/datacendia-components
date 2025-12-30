@@ -141,6 +141,9 @@ import {
   UnionPage,
   LedgerPage,
   EvidenceVaultPage,
+  DissentPage,
+  ApotheosisPage,
+  ROIMetricsPage,
 } from './pages/cortex/enterprise';
 
 // Decision Consequence Engineering
@@ -592,6 +595,20 @@ export const router = createBrowserRouter([
       {
         path: 'enterprise/cascade',
         element: <CascadePage />,
+      },
+
+      // Governance & Accountability
+      {
+        path: 'enterprise/dissent',
+        element: <DissentPage />,
+      },
+      {
+        path: 'enterprise/apotheosis',
+        element: <ApotheosisPage />,
+      },
+      {
+        path: 'enterprise/roi-metrics',
+        element: <ROIMetricsPage />,
       },
 
       // Sovereign Tier (Premium Enterprise)

@@ -280,6 +280,9 @@ const DissentPage = lazy(() =>
 const ROIMetricsPage = lazy(() =>
   import('./pages/cortex/enterprise/ROIMetricsPage').then((m) => ({ default: m.ROIMetricsPage }))
 );
+const CascadePage = lazy(() =>
+  import('./pages/cortex/enterprise/CascadePage').then((m) => ({ default: m.default }))
+);
 const CrisisManagementPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.CrisisManagementPage }))
 );
@@ -478,6 +481,24 @@ const HigherEducationPage = lazy(() =>
 const SportsPage = lazy(() => import('./pages/verticals').then((m) => ({ default: m.SportsPage })));
 const TelecommunicationsPage = lazy(() =>
   import('./pages/verticals').then((m) => ({ default: m.TelecommunicationsPage }))
+);
+const AerospacePage = lazy(() =>
+  import('./pages/verticals').then((m) => ({ default: m.AerospacePage }))
+);
+const AgriculturePage = lazy(() =>
+  import('./pages/verticals').then((m) => ({ default: m.AgriculturePage }))
+);
+const AutomotivePage = lazy(() =>
+  import('./pages/verticals').then((m) => ({ default: m.AutomotivePage }))
+);
+const ConstructionPage = lazy(() =>
+  import('./pages/verticals').then((m) => ({ default: m.ConstructionPage }))
+);
+const HospitalityPage = lazy(() =>
+  import('./pages/verticals').then((m) => ({ default: m.HospitalityPage }))
+);
+const NonProfitPage = lazy(() =>
+  import('./pages/verticals').then((m) => ({ default: m.NonProfitPage }))
 );
 
 // Apex Package
@@ -1112,6 +1133,54 @@ export const router = createBrowserRouter([
     ),
   },
   {
+    path: '/verticals/aerospace',
+    element: (
+      <SuspenseWrapper>
+        <AerospacePage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/verticals/agriculture',
+    element: (
+      <SuspenseWrapper>
+        <AgriculturePage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/verticals/automotive',
+    element: (
+      <SuspenseWrapper>
+        <AutomotivePage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/verticals/construction',
+    element: (
+      <SuspenseWrapper>
+        <ConstructionPage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/verticals/hospitality',
+    element: (
+      <SuspenseWrapper>
+        <HospitalityPage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/verticals/nonprofit',
+    element: (
+      <SuspenseWrapper>
+        <NonProfitPage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
     path: '/industries',
     element: (
       <SuspenseWrapper>
@@ -1582,6 +1651,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <ROIMetricsPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'enterprise/cascade',
+        element: (
+          <SuspenseWrapper>
+            <CascadePage />
           </SuspenseWrapper>
         ),
       },

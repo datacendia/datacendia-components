@@ -325,12 +325,16 @@ const CreativeElement: React.FC<{ config: VerticalDashboardConfig['creativeEleme
 // MAIN COMPONENT
 // =============================================================================
 
-export const VerticalDashboard: React.FC = () => {
+interface VerticalDashboardProps {
+  overrideVerticalId?: string;
+}
+
+export const VerticalDashboard: React.FC<VerticalDashboardProps> = ({ overrideVerticalId }) => {
   const navigate = useNavigate();
   const { currentVertical, isInitialized } = useVerticalConfig();
 
-  // Get dashboard config for current vertical
-  const verticalId = currentVertical?.id || 'technology';
+  // Get dashboard config for current vertical (or override)
+  const verticalId = overrideVerticalId || currentVertical?.id || 'technology';
   const dashboardConfig = ALL_DASHBOARDS[verticalId] ?? ALL_DASHBOARDS['technology'];
 
   if (!isInitialized || !dashboardConfig) {

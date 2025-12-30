@@ -20,6 +20,7 @@ export { LedgerPage } from './LedgerPage';
 export { EvidenceVaultPage } from './EvidenceVaultPage';
 export { ApotheosisPage } from './ApotheosisPage';
 export { DissentPage } from './DissentPage';
+export { ROIMetricsPage } from './ROIMetricsPage';
 
 // Workflow Completion Pages
 export { CrisisManagementPage } from './CrisisManagementPage';

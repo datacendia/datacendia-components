@@ -6,6 +6,7 @@
  */
 
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, Shield } from 'lucide-react';
 
 // Floating particles background
@@ -317,6 +318,27 @@ const SovereignLandingPage: React.FC = () => {
           background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%)',
         }}
       />
+
+      {/* Fixed Nav with Sign In */}
+      <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex justify-between items-center">
+        <Link to="/" className="text-xs tracking-[0.3em] text-gray-500 hover:text-white transition-colors">
+          DATACENDIA
+        </Link>
+        <div className="flex items-center gap-4">
+          <Link 
+            to="/login" 
+            className="px-4 py-2 text-xs tracking-[0.2em] border border-white/30 hover:border-white hover:bg-white/10 text-white transition-all"
+          >
+            SIGN IN
+          </Link>
+          <Link 
+            to="/demo" 
+            className="px-4 py-2 text-xs tracking-[0.2em] bg-red-900/80 hover:bg-red-800 text-white transition-all"
+          >
+            REQUEST ACCESS
+          </Link>
+        </div>
+      </nav>
 
       {/* Hero Section - Full Screen */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6 relative">

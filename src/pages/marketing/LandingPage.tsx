@@ -114,8 +114,11 @@ const LandingPage = () => {
             </div>
 
             <div className="hidden md:flex items-center gap-4">
-              <Link to="/login" className="text-sm font-medium hover:text-white">
-                Login
+              <Link 
+                to="/login" 
+                className="text-sm font-medium hover:text-white border border-white/30 hover:border-white/60 px-4 py-2 rounded transition-all"
+              >
+                Sign In
               </Link>
               <Link
                 to="/demo"
