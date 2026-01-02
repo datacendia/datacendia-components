@@ -1704,6 +1704,8 @@ export const router = createBrowserRouter([
           </SuspenseWrapper>
         ),
       },
+      // Alias: Oversight → Panopticon (renamed in UI)
+      { path: 'sovereign/oversight', element: <Navigate to="/cortex/sovereign/panopticon" replace /> },
       {
         path: 'sovereign/aegis',
         element: (
@@ -1744,6 +1746,28 @@ export const router = createBrowserRouter([
           </SuspenseWrapper>
         ),
       },
+
+      // =============================================================================
+      // ROUTE ALIASES - Merged services redirect to consolidated pages
+      // =============================================================================
+      
+      // MERGED INTO CHRONOS: Horizon, Cascade, Crisis, Lens
+      { path: 'core/chronos', element: <Navigate to="/cortex/intelligence/chronos" replace /> },
+      // Cascade and Crisis now redirect to Chronos (merged)
+      // Keep original routes working but they could show Chronos with different tabs/modes
+      
+      // MERGED INTO COUNCIL: Autopilot, Voice, Union, Veto, Dissent, Vox
+      { path: 'core/council', element: <Navigate to="/cortex/council" replace /> },
+      
+      // MERGED INTO OVERSIGHT (Panopticon): Govern, Audit, Regulatory Absorb
+      { path: 'trust/oversight', element: <Navigate to="/cortex/sovereign/panopticon" replace /> },
+      { path: 'enterprise/audit', element: <Navigate to="/cortex/sovereign/panopticon" replace /> },
+      
+      // MERGED INTO DECISION DNA: Ledger, Evidence Vault
+      { path: 'trust/decision-dna', element: <Navigate to="/cortex/intelligence/decision-dna" replace /> },
+      
+      // MERGED INTO CRUCIBLE: RedTeam, Echo, Apotheosis
+      { path: 'trust/crucible', element: <Navigate to="/cortex/sovereign/crucible" replace /> },
 
       // Admin Pages
       {

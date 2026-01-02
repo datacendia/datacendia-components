@@ -116,6 +116,7 @@ import councilPacketsRoutes from './routes/council-packets.js';
 import auditPackagesRoutes from './routes/audit-packages.js';
 import forecastingRoutes from './routes/forecasting.js';
 import roiMetricsRoutes from './routes/roi-metrics.js';
+import consolidatedRoutes from './routes/consolidated.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -337,6 +338,14 @@ app.use('/api/v1/schema', schemaRoutes);
 
 // Cortex Core API - Single gateway for all Services
 app.use('/api/v1/cortex', cortexCoreRoutes);
+
+// Consolidated API - Unified endpoints for merged services (Jan 2026 restructure)
+// Council (merged: Autopilot, Voice, Union, Veto, Dissent, Vox)
+// Chronos (merged: Horizon, Cascade, Crisis, Lens)
+// Oversight (merged: Panopticon, Govern, Audit, Regulatory)
+// Decision DNA (merged: Ledger, Evidence Vault)
+// Crucible (merged: RedTeam, Echo, Apotheosis)
+app.use('/api/v1/consolidated', consolidatedRoutes);
 
 // 404 handler
 app.use((_req, res) => {
