@@ -1518,6 +1518,7 @@ export const router = createBrowserRouter([
       },
 
       // Enterprise
+      { path: 'enterprise', element: <Navigate to="/cortex/enterprise/genomics" replace /> },
       {
         path: 'enterprise/sovereign',
         element: (
@@ -1550,6 +1551,7 @@ export const router = createBrowserRouter([
           </SuspenseWrapper>
         ),
       },
+      { path: 'governance', element: <Navigate to="/cortex/governance/decision-packets" replace /> },
       {
         path: 'governance/decision-packets',
         element: (
@@ -1688,6 +1690,7 @@ export const router = createBrowserRouter([
       },
 
       // Sovereign
+      { path: 'sovereign', element: <Navigate to="/cortex/sovereign/panopticon" replace /> },
       {
         path: 'sovereign/crucible',
         element: (
@@ -1770,6 +1773,7 @@ export const router = createBrowserRouter([
       { path: 'trust/crucible', element: <Navigate to="/cortex/sovereign/crucible" replace /> },
 
       // Admin Pages
+      { path: 'admin', element: <Navigate to="/cortex/admin/vertical-config" replace /> },
       {
         path: 'admin/vertical-config',
         element: (
@@ -1790,6 +1794,7 @@ export const router = createBrowserRouter([
       },
 
       // Crown Jewels - Premium Enterprise Services ($5M-$150M tier)
+      { path: 'crown', element: <Navigate to="/cortex/crown/echo" replace /> },
       {
         path: 'crown/echo',
         element: (
