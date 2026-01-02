@@ -256,6 +256,9 @@ const GenomicsPage = lazy(() =>
 const DefenseStackPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.DefenseStackPage }))
 );
+const FinancialPage = lazy(() =>
+  import('./pages/cortex/enterprise').then((m) => ({ default: m.FinancialPage }))
+);
 const OmniTranslatePage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.OmniTranslatePage }))
 );
@@ -1589,6 +1592,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <DefenseStackPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'enterprise/financial',
+        element: (
+          <SuspenseWrapper>
+            <FinancialPage />
           </SuspenseWrapper>
         ),
       },

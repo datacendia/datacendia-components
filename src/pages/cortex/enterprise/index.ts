@@ -12,6 +12,7 @@ export { AutopilotPage } from './AutopilotPage';
 export { GenomicsPage } from './GenomicsPage';
 export { DefenseStackPage } from './DefenseStackPage';
 export { OmniTranslatePage } from './OmniTranslatePage';
+export { FinancialPage } from './FinancialPage';
 
 // New Premium Products
 export { VetoPage } from './VetoPage';
