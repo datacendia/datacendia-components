@@ -723,17 +723,25 @@ export const DecisionDNAPage: React.FC = () => {
       if (res.success) {
         loadDecision(selectedDecision.id);
       } else {
-        // Fallback: navigate to Pre-Mortem page
-        navigate(
-          `/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`
-        );
+        // Fallback: navigate to Pre-Mortem page with full decision context
+        const params = new URLSearchParams({
+          decision: selectedDecision.title,
+          context: selectedDecision.description,
+          ...(selectedDecision.budget && { budget: selectedDecision.budget.toString() }),
+          ...(selectedDecision.timeframe && { timeframe: selectedDecision.timeframe }),
+        });
+        navigate(`/cortex/intelligence/pre-mortem?${params.toString()}`);
       }
     } catch (error) {
       console.error('Failed to run pre-mortem:', error);
-      // Fallback: navigate to Pre-Mortem page with decision context
-      navigate(
-        `/cortex/intelligence/pre-mortem?decision=${encodeURIComponent(selectedDecision.title)}&context=${encodeURIComponent(selectedDecision.description)}`
-      );
+      // Fallback: navigate to Pre-Mortem page with full decision context
+      const params = new URLSearchParams({
+        decision: selectedDecision.title,
+        context: selectedDecision.description,
+        ...(selectedDecision.budget && { budget: selectedDecision.budget.toString() }),
+        ...(selectedDecision.timeframe && { timeframe: selectedDecision.timeframe }),
+      });
+      navigate(`/cortex/intelligence/pre-mortem?${params.toString()}`);
     }
     setIsLoading(false);
   };

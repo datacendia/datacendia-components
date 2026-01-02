@@ -48,8 +48,12 @@ export const PreMortemPage: React.FC = () => {
   useEffect(() => {
     const decisionParam = searchParams.get('decision');
     const contextParam = searchParams.get('context');
+    const timeframeParam = searchParams.get('timeframe');
+    const budgetParam = searchParams.get('budget');
     if (decisionParam) setDecision(decisionParam);
     if (contextParam) setContext(contextParam);
+    if (timeframeParam) setTimeframe(timeframeParam);
+    if (budgetParam) setBudget(budgetParam);
   }, [searchParams]);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [result, setResult] = useState<PreMortemResult | null>(null);
