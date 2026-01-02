@@ -88,6 +88,7 @@ const SovereignEnterpriseIntelligencePage = lazy(
 // Demos
 const RegulatorsReceiptPage = lazy(() => import('./pages/demos/RegulatorsReceiptPage'));
 const DemoLauncherPage = lazy(() => import('./pages/cortex/demo/DemoLauncherPage'));
+const ShowcaseDashboard = lazy(() => import('./components/showcase/ShowcaseDashboard'));
 
 // Legal
 const PrivacyPolicyPage = lazy(() =>
@@ -1827,6 +1828,15 @@ export const router = createBrowserRouter([
         ),
       },
 
+      // Showcase Dashboard - All verticals and services
+      {
+        path: 'showcase',
+        element: (
+          <SuspenseWrapper>
+            <ShowcaseDashboard />
+          </SuspenseWrapper>
+        ),
+      },
       // Demo Studio
       {
         path: 'demo',
