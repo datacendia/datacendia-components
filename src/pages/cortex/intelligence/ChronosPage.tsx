@@ -818,80 +818,228 @@ const generateEvents = (): TimelineEvent[] => {
   const events: TimelineEvent[] = [];
   const now = new Date();
 
+  // Comprehensive event templates with more variety
   const templates = [
     {
       type: 'decision' as const,
       titles: [
-        'Board Approved Q3 Budget',
-        'Council Greenlit Acquisition',
-        'Authorized Series C Terms',
-        'Approved Hiring Freeze Lift',
-        'Sanctioned Market Expansion',
+        'Board Approved Q3 Budget Allocation',
+        'Council Greenlit Strategic Acquisition',
+        'Authorized Series C Terms Sheet',
+        'Approved Hiring Freeze Lift for Engineering',
+        'Sanctioned APAC Market Expansion',
+        'Should Sterling enter the Canadian market?',
+        'What are the expected Q4 revenue projections?',
+        'Approved vendor contract renewal - Salesforce',
+        'Council approved new pricing strategy',
+        'Board ratified executive compensation plan',
+        'Authorized $2M R&D investment',
+        'Approved partnership with Microsoft Azure',
+        'Council greenlit product roadmap Q1 2026',
+        'Sanctioned remote work policy update',
+        'Approved cybersecurity budget increase',
+        'Board approved dividend distribution',
+        'Council authorized new office lease',
+        'Approved customer success team expansion',
+        'Sanctioned AI ethics policy adoption',
+        'Board approved ESG reporting framework',
       ],
     },
     {
       type: 'metric' as const,
       titles: [
-        'Revenue Milestone: $10M ARR',
-        'Churn Spike Detected',
-        'NPS Score Jump to 72',
-        'CAC Reduced by 23%',
-        'LTV:CAC Hit 4.2x',
+        'Revenue Milestone: $12.6M ARR achieved',
+        'Churn Rate Spike: 4.2% detected',
+        'NPS Score improved to 72 (+8)',
+        'Customer Acquisition Cost reduced 23%',
+        'LTV:CAC ratio hit 4.2x target',
+        'Monthly Active Users exceeded 50K',
+        'Pipeline coverage reached 3.8x',
+        'Employee satisfaction score: 82%',
+        'Support ticket resolution: 94% SLA',
+        'Product uptime: 99.97% achieved',
+        'Conversion rate improved to 3.4%',
+        'Average deal size increased 18%',
+        'Customer retention hit 94%',
+        'Gross margin improved to 78%',
+        'Sales cycle reduced to 42 days',
       ],
     },
     {
       type: 'personnel' as const,
       titles: [
-        'VP Sales Departure',
-        'CTO Transition',
-        'Engineering +12 Headcount',
-        'CFO Hired from Goldman',
-        'Sales Team Restructure',
+        'VP Sales Sarah Chen departure announced',
+        'CTO Robert Williams transition to advisory',
+        'Engineering team +12 headcount approved',
+        'CFO Margaret Chen hired from Goldman',
+        'Sales team restructure completed',
+        'New CISO David Kim onboarded',
+        'VP Marketing Jennifer Park promoted',
+        'Board member Gen. Mitchell joined',
+        'Chief People Officer Emily Zhang hired',
+        'VP Product Michael Torres promoted',
+        'Engineering Director Lisa Anderson hired',
+        'Head of Legal Frank Martinez onboarded',
+        'VP Customer Success role created',
+        'Chief Revenue Officer search initiated',
+        'Board diversity initiative launched',
       ],
     },
     {
       type: 'financial' as const,
       titles: [
-        'Series B Close: $45M',
-        'Q2 Earnings Beat',
-        'Debt Facility Secured',
-        'Tax Credit Realized',
-        'Bridge Round Complete',
+        'Series B Close: $45M at $180M valuation',
+        'Q2 Earnings Beat: +12% vs forecast',
+        'Debt Facility: $20M secured at 6.5%',
+        'R&D Tax Credit: $1.2M realized',
+        'Bridge Round: $8M completed',
+        'Revenue recognition policy updated',
+        'Accounts receivable: 98% collection rate',
+        'Operating expenses optimized -8%',
+        'Cash runway extended to 24 months',
+        'Gross burn reduced to $780K/month',
+        'Customer prepayments: $3.2M received',
+        'Vendor payment terms extended to Net 60',
+        'Insurance coverage expanded',
+        'Audit completed - clean opinion',
+        'Tax strategy review completed',
       ],
     },
     {
       type: 'milestone' as const,
       titles: [
-        '1,000th Enterprise Customer',
-        'SOC2 Type II Certified',
-        'GDPR Compliance Achieved',
-        'Product Hunt Launch',
-        'First $1M Contract',
+        '1,000th Enterprise Customer signed',
+        'SOC2 Type II Certification achieved',
+        'GDPR Compliance audit passed',
+        'Product Hunt #1 Launch Day',
+        'First $1M ARR Contract closed',
+        'ISO 27001 Certification obtained',
+        'HIPAA Compliance verified',
+        'FedRAMP Authorization initiated',
+        '100th Fortune 500 customer',
+        'Platform 2.0 general availability',
+        'Mobile app launched on iOS/Android',
+        'API v3 released to partners',
+        'First international office opened',
+        '10,000 daily active users milestone',
+        'Strategic partnership announced',
+      ],
+    },
+    {
+      type: 'system' as const,
+      titles: [
+        'Production deployment v2.4.1 completed',
+        'Database migration to Aurora successful',
+        'CDN optimization reduced latency 40%',
+        'Security patch CVE-2025-1234 applied',
+        'Kubernetes cluster scaled to 50 nodes',
+        'Backup recovery test passed',
+        'SSL certificates renewed',
+        'API rate limiting implemented',
+        'Monitoring alerts configured',
+        'Disaster recovery drill completed',
       ],
     },
   ];
 
-  for (let i = 0; i < 80; i++) {
-    const daysAgo = Math.floor(Math.random() * 730);
+  // Generate more events with weighted distribution toward recent dates
+  // 40% in last 7 days, 30% in last 30 days, 20% in last 90 days, 10% older
+  const totalEvents = 200;
+  
+  for (let i = 0; i < totalEvents; i++) {
+    let daysAgo: number;
+    const rand = Math.random();
+    if (rand < 0.40) {
+      daysAgo = Math.floor(Math.random() * 7); // Last 7 days
+    } else if (rand < 0.70) {
+      daysAgo = 7 + Math.floor(Math.random() * 23); // 7-30 days
+    } else if (rand < 0.90) {
+      daysAgo = 30 + Math.floor(Math.random() * 60); // 30-90 days
+    } else {
+      daysAgo = 90 + Math.floor(Math.random() * 275); // 90-365 days
+    }
+    
     const hoursAgo = Math.floor(Math.random() * 24);
+    const minutesAgo = Math.floor(Math.random() * 60);
     const template = templates[Math.floor(Math.random() * templates.length)]!;
+    const title = template.titles[Math.floor(Math.random() * template.titles.length)]!;
+    
+    // Generate contextual description based on event type
+    const descriptions: Record<string, string[]> = {
+      decision: [
+        'Council deliberation completed with 87% consensus. Full audit trail available.',
+        'Executive decision ratified by board. Click to replay deliberation.',
+        'Strategic decision approved after 3-day review period.',
+        'Council reached unanimous agreement. Impact analysis attached.',
+        'Decision approved with 2 dissenting opinions documented.',
+      ],
+      metric: [
+        'Automated threshold alert triggered. Trend analysis available.',
+        'KPI milestone achieved ahead of schedule.',
+        'Metric deviation detected - root cause analysis initiated.',
+        'Performance indicator updated from connected data sources.',
+        'Real-time metric sync from Salesforce/SAP integration.',
+      ],
+      personnel: [
+        'HR event logged. Succession planning impact assessed.',
+        'Organizational change recorded. Knowledge transfer initiated.',
+        'Talent movement tracked. Team capacity updated.',
+        'Leadership transition documented. Stakeholder notifications sent.',
+        'Headcount change reflected in runway calculations.',
+      ],
+      financial: [
+        'Financial event recorded. Audit packet generated.',
+        'Treasury update logged. Cash flow projections revised.',
+        'Investment milestone achieved. Board notified.',
+        'Financial metric updated from NetSuite integration.',
+        'Compliance documentation auto-generated.',
+      ],
+      milestone: [
+        'Strategic milestone achieved. Press release drafted.',
+        'Certification obtained. Customer communications prepared.',
+        'Product milestone reached. Roadmap updated.',
+        'Business milestone logged. Investor update scheduled.',
+        'Compliance milestone verified. Audit evidence preserved.',
+      ],
+      system: [
+        'Infrastructure event logged. SLA metrics updated.',
+        'System change recorded. Rollback point created.',
+        'Technical milestone achieved. Documentation updated.',
+        'Platform update deployed. Monitoring alerts configured.',
+        'Security event logged. Incident response documented.',
+      ],
+    };
+    
+    const typeDescriptions = descriptions[template.type] || descriptions.decision;
+    const description = typeDescriptions[Math.floor(Math.random() * typeDescriptions.length)]!;
+    
+    // Weighted impact based on event type
+    let impact: 'positive' | 'negative' | 'neutral';
+    if (template.type === 'milestone') {
+      impact = Math.random() > 0.1 ? 'positive' : 'neutral';
+    } else if (template.type === 'metric' && title.includes('Spike') || title.includes('reduced')) {
+      impact = Math.random() > 0.5 ? 'negative' : 'neutral';
+    } else {
+      const impactRand = Math.random();
+      impact = impactRand < 0.5 ? 'positive' : impactRand < 0.8 ? 'neutral' : 'negative';
+    }
 
     events.push({
       id: `evt-${i}`,
-      timestamp: new Date(now.getTime() - (daysAgo * 24 + hoursAgo) * 60 * 60 * 1000),
+      timestamp: new Date(now.getTime() - (daysAgo * 24 * 60 + hoursAgo * 60 + minutesAgo) * 60 * 1000),
       type: template.type,
-      title: template.titles[Math.floor(Math.random() * template.titles.length)]!,
-      description: 'Full audit trail available. Click to replay Council deliberation.',
-      impact: ['positive', 'negative', 'neutral'][Math.floor(Math.random() * 3)] as any,
+      title,
+      description,
+      impact,
       magnitude: Math.floor(Math.random() * 10) + 1,
-      department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal'][
-        Math.floor(Math.random() * 6)
+      department: ['Engineering', 'Sales', 'Marketing', 'Finance', 'Operations', 'Legal', 'HR', 'Product', 'Security', 'Executive'][
+        Math.floor(Math.random() * 10)
       ]!,
-      actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council'].slice(
+      actors: ['CEO', 'CFO', 'CTO', 'COO', 'Board', 'Council', 'VP Sales', 'VP Engineering', 'CISO', 'CPO'].slice(
         0,
         Math.floor(Math.random() * 3) + 1
       ),
-      deliberationId: Math.random() > 0.5 ? `dlb-${i}` : undefined,
+      deliberationId: template.type === 'decision' ? `dlb-${i}` : (Math.random() > 0.7 ? `dlb-${i}` : undefined),
     });
   }
 
