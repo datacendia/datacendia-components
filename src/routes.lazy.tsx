@@ -309,6 +309,15 @@ const AegisPage = lazy(() =>
 const EternalPage = lazy(() =>
   import('./pages/sovereign/EternalPage').then((m) => ({ default: m.EternalPage }))
 );
+const ShadowOpsPage = lazy(() =>
+  import('./pages/cortex/sovereign/ShadowOpsPage').then((m) => ({ default: m.ShadowOpsPage }))
+);
+const SuccessionPage = lazy(() =>
+  import('./pages/cortex/sovereign/SuccessionPage').then((m) => ({ default: m.SuccessionPage }))
+);
+const SanctuaryPage = lazy(() =>
+  import('./pages/cortex/sovereign/SanctuaryPage').then((m) => ({ default: m.SanctuaryPage }))
+);
 const SymbiontPage = lazy(() =>
   import('./pages/sovereign/SymbiontPage').then((m) => ({ default: m.SymbiontPage }))
 );
@@ -1733,6 +1742,30 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <EternalPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/shadow-ops',
+        element: (
+          <SuspenseWrapper>
+            <ShadowOpsPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/succession',
+        element: (
+          <SuspenseWrapper>
+            <SuccessionPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/sanctuary',
+        element: (
+          <SuspenseWrapper>
+            <SanctuaryPage />
           </SuspenseWrapper>
         ),
       },

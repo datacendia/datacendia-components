@@ -455,6 +455,33 @@ const sovereignFeatures = [
     impact: 'High',
     tier: 'Sovereign',
   },
+  {
+    id: 'shadow-ops',
+    label: 'CendiaShadowOps™',
+    icon: '🕵️',
+    path: '/cortex/sovereign/shadow-ops',
+    description: 'Competitive Intelligence & Counter-Intelligence - Monitor competitor moves, detect when you\'re being analyzed',
+    impact: 'Critical',
+    tier: 'Sovereign',
+  },
+  {
+    id: 'succession',
+    label: 'CendiaSuccession™',
+    icon: '👔',
+    path: '/cortex/sovereign/succession',
+    description: 'Leadership Continuity - AI-powered succession planning & tacit knowledge capture from departing executives',
+    impact: 'Strategic',
+    tier: 'Sovereign',
+  },
+  {
+    id: 'sanctuary',
+    label: 'CendiaSanctuary™',
+    icon: '🏰',
+    path: '/cortex/sovereign/sanctuary',
+    description: 'Crisis Bunker - Air-gapped decision-making during cyber attacks with offline deliberation',
+    impact: 'Critical',
+    tier: 'Sovereign',
+  },
 ];
 
 // MOVED TO VISION ROADMAP: Aegis (Strategic Defense Intelligence)
