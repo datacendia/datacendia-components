@@ -2927,25 +2927,17 @@ export const ChronosPage: React.FC = () => {
         deduped.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
 
         // Always combine real events with generated demo data for a rich timeline
-        // This ensures the demo always looks populated even with sparse real data
         const generatedEvents = generateEvents();
-        
-        // Merge real events with generated, prioritizing real events
         const realIds = new Set(deduped.map(e => e.id));
         const realTitles = new Set(deduped.map(e => (e.title || '').substring(0, 30).toLowerCase()));
-        
-        // Filter generated events to avoid duplicates with real data
         const uniqueGenerated = generatedEvents.filter(e => {
           if (realIds.has(e.id)) return false;
           const titleKey = (e.title || '').substring(0, 30).toLowerCase();
           if (realTitles.has(titleKey)) return false;
           return true;
         });
-        
-        // Combine: real events first, then generated
         const combined = [...deduped, ...uniqueGenerated];
         combined.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
-        
         setEvents(combined);
         console.log('[Chronos] Using', combined.length, 'total events (', deduped.length, 'real +', uniqueGenerated.length, 'generated)');
       } catch (error) {
