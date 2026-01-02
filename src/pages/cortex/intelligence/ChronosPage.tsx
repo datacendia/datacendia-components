@@ -2926,14 +2926,28 @@ export const ChronosPage: React.FC = () => {
         // Sort by timestamp and set
         deduped.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
 
-        // If we have real events, use them; otherwise fall back to generated
-        if (deduped.length > 0) {
-          setEvents(deduped);
-          console.log('[Chronos] Using', deduped.length, 'real events (deduped from', realEvents.length, ')');
-        } else {
-          setEvents(generateEvents());
-          console.log('[Chronos] No real events, using generated fallback');
-        }
+        // Always combine real events with generated demo data for a rich timeline
+        // This ensures the demo always looks populated even with sparse real data
+        const generatedEvents = generateEvents();
+        
+        // Merge real events with generated, prioritizing real events
+        const realIds = new Set(deduped.map(e => e.id));
+        const realTitles = new Set(deduped.map(e => (e.title || '').substring(0, 30).toLowerCase()));
+        
+        // Filter generated events to avoid duplicates with real data
+        const uniqueGenerated = generatedEvents.filter(e => {
+          if (realIds.has(e.id)) return false;
+          const titleKey = (e.title || '').substring(0, 30).toLowerCase();
+          if (realTitles.has(titleKey)) return false;
+          return true;
+        });
+        
+        // Combine: real events first, then generated
+        const combined = [...deduped, ...uniqueGenerated];
+        combined.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+        
+        setEvents(combined);
+        console.log('[Chronos] Using', combined.length, 'total events (', deduped.length, 'real +', uniqueGenerated.length, 'generated)');
       } catch (error) {
         console.log('[Chronos] API error, using generated fallback:', error);
         setEvents(generateEvents());
