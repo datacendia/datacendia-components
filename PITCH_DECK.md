@@ -1,55 +1,52 @@
 # Datacendia Pitch Deck
-## Pre-Seed | Decision Intelligence Platform
+## Decision Intelligence Platform | Pre-Seed
 
 ---
 
-## 1. 🎯 Hook Slide
+## 1. 💰 THE PROBLEM: $3.1 Trillion Lost Annually
 
-**"AI that thinks before your company acts."**
+### Who Feels This Pain?
+**Chief Strategy Officers, CFOs, and Boards** at enterprises making high-stakes decisions.
 
-Datacendia is building a Decision Intelligence platform that gives enterprises an AI-powered board of advisors—catching blind spots, stress-testing choices, and creating audit trails before critical decisions are made.
+### How Often?
+- Fortune 500 companies make **~50 major strategic decisions per year**
+- Each decision involves 6-12 executives, 2-4 weeks of analysis
+- **67% of well-formulated strategies fail** due to poor execution (Harvard Business Review)
 
-**Stage:** Pre-seed | **Raising:** $500K-$1M | **Solo Founder**
+### What It's Costing Them Right Now
+| Cost | Source |
+|------|--------|
+| **$3.1 Trillion/year** | Lost by US businesses due to poor data quality (IBM, 2020) |
+| **$250M/year** | Spent on decision-making processes at a typical F500 (McKinsey) |
+| **6-18 months** | Before realizing a strategic decision was wrong |
+
+### Why Existing Solutions Fail
+| Current Approach | Why It Fails |
+|------------------|--------------|
+| **BI Dashboards** | Show data, don't recommend actions |
+| **Management Consultants** | $500K+ per engagement, 3-6 month timelines |
+| **Internal Strategy Teams** | Echo chambers, confirmation bias |
+| **Board Meetings** | 4x/year, reactive not proactive |
+| **Gut Instinct** | No audit trail, no stress-testing |
+
+**The gap:** No tool exists that *thinks through* decisions with multi-perspective rigor before they're made.
 
 ---
 
-## 2. 💰 Problem Clarity
-
-### The Cost of Poor Decision-Making
-
-- **$3.1 Trillion** lost annually by US businesses due to poor data quality (IBM, 2020)
-- **67%** of well-formulated strategies fail due to poor execution (Harvard Business Review)
-- **$250M/year** spent on decision-making processes at a typical Fortune 500 company (McKinsey)
-
-### The Hidden Problem
-Executives make decisions based on:
-- Incomplete data scattered across 15+ systems
-- Gut instinct under time pressure
-- Echo chambers that confirm existing biases
-- No systematic way to stress-test assumptions
-
-**Result:** Costly mistakes that could have been prevented with better decision frameworks.
-
----
-
-## 3. ✨ Clear Solution
-
-**"Your AI Board of Directors—available 24/7"**
-
-Datacendia deploys specialized AI agents (CFO, CTO, CISO, Legal, etc.) that:
-1. **Deliberate** on every major decision with multi-perspective analysis
-2. **Stress-test** assumptions through Pre-Mortem failure analysis
-3. **Track** every decision with audit trails
-4. **Learn** from outcomes to improve future recommendations
+## 2. ✨ THE SOLUTION: AI Board of Directors
 
 **One line:** *"We give every company access to Fortune 10-level decision rigor."*
 
----
+Datacendia deploys specialized AI agents (CFO, CTO, CISO, Legal, etc.) that:
 
-## 4. ⏰ Market Timing
+| Capability | What It Does |
+|------------|--------------|
+| **Deliberate** | 9 AI agents analyze every decision from different perspectives |
+| **Stress-Test** | Pre-Mortem analysis assumes failure, works backward to find risks |
+| **Track** | Full audit trail for compliance and learning |
+| **Learn** | Outcomes feed back to improve future recommendations |
 
-### Why Now?
-
+### Why This Works Now
 | Trend | Impact |
 |-------|--------|
 | **LLM Maturity** | GPT-4/Claude can now reason at expert level across domains |
@@ -57,36 +54,35 @@ Datacendia deploys specialized AI agents (CFO, CTO, CISO, Legal, etc.) that:
 | **Remote/Hybrid Work** | Distributed teams need asynchronous decision frameworks |
 | **Board Liability** | Increasing scrutiny on AI governance |
 
-**The shift is happening:** Enterprises are moving from "AI for automation" to "AI for judgment."
+---
+
+## 3. 📈 TRACTION: What's Built
+
+### Working Prototype (Live Demo Available)
+
+| Feature | Status |
+|---------|--------|
+| **CendiaCouncil™** | ✅ 9 AI agents deliberating in real-time |
+| **CendiaChronos™** | ✅ Time-travel through decision history |
+| **Pre-Mortem Analysis** | ✅ Failure mode identification |
+| **Decision DNA** | ✅ Full lifecycle audit trails |
+
+### Current Status (Being Honest)
+| Item | Status |
+|------|--------|
+| **Product** | Working prototype (demo-ready) |
+| **Revenue** | $0 (pre-revenue) |
+| **Customers** | 0 (seeking design partners) |
+| **Team** | Solo founder (seeking technical co-founder) |
+
+### Next Milestones
+- [ ] 3 design partner conversations
+- [ ] 1 paid pilot ($5K-$10K)
+- [ ] Technical co-founder
 
 ---
 
-## 5. 🖥️ Product Demo
-
-### What's Built (Working Prototype)
-
-**CendiaCouncil™** - Multi-agent AI deliberation on strategic decisions
-- ✅ Working prototype with 9 specialized AI agents
-- ✅ Real-time deliberation visualization
-- ✅ Consensus scoring and dissent tracking
-
-**CendiaChronos™** - Decision timeline and replay
-- ✅ Time-travel interface for decision history
-- ✅ State snapshots at any point in time
-
-**Pre-Mortem Analysis** - AI stress-tests decisions before commitment
-- ✅ Failure mode identification
-- ✅ Risk scoring and mitigation suggestions
-
-**Decision DNA** - Full lifecycle tracking
-- ✅ Decision audit trails
-- ✅ Outcome tracking
-
-*[Live demo available]*
-
----
-
-## 5b. 🧠 Technical Architecture: Advanced AI Techniques
+## 4. 🧠 Technical Architecture: Advanced AI Techniques
 
 ### Context Engineering
 The platform orchestrates complex context windows for each AI agent:
@@ -173,7 +169,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 6. 📊 Market Size
+## 5. 📊 Market Size
 
 ### TAM / SAM / SOM
 
@@ -190,7 +186,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 7. 💵 Proposed Business Model
+## 6. 💵 Proposed Business Model
 
 ### Revenue Model: Tiered SaaS
 
@@ -207,26 +203,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 8. 📈 Current Status
-
-### What's Real Today
-
-| Item | Status |
-|------|--------|
-| **Product** | Working prototype (demo-ready) |
-| **Revenue** | $0 (pre-revenue) |
-| **Customers** | 0 (seeking design partners) |
-| **Team** | Solo founder |
-| **Funding** | Bootstrapped to date |
-
-### Next Milestones
-- [ ] 3 design partner conversations
-- [ ] 1 paid pilot ($5K-$10K)
-- [ ] Technical co-founder
-
----
-
-## 9. 🏆 Competitive Landscape
+## 7. 🏆 Competitive Landscape
 
 ### How We're Different
 
@@ -244,7 +221,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 10. 🚀 Go-to-Market Plan
+## 8. 🚀 Go-to-Market Plan
 
 ### Phase 1: Design Partners (Now - 6 months)
 - Target: 3-5 mid-market companies willing to co-develop
@@ -262,7 +239,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 11. � Founder
+## 9. 👤 Founder
 
 ### [Your Name]
 *Solo Founder*
@@ -279,7 +256,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 12. � Funding Ask
+## 10. 💸 Funding Ask
 
 ### Raising: $500K - $1M Pre-Seed
 
@@ -298,7 +275,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 13. 🎯 Why Invest Now
+## 11. 🎯 Why Invest Now
 
 ### The Opportunity
 1. **Timing** - AI capabilities just reached the threshold for this to work
@@ -314,7 +291,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 14. 📚 Sources & Verification
+## 12. 📚 Sources & Verification
 
 ### Market Statistics Used
 
@@ -332,7 +309,7 @@ These aren't buzzwords—they're **shipping features** in the prototype:
 
 ---
 
-## 15. 📞 Contact
+## 13. 📞 Contact
 
 **[Your Name]**
 - Email: [your email]
