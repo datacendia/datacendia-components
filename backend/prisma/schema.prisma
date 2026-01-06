@@ -579,6 +579,9 @@ model organizations {
   
   // Schema Mappings
   schema_mappings                schema_mappings[]
+  
+  // Regulatory Absorb V2
+  regulatory_documents           regulatory_documents[]
 }
 
 // Deliberation Votes for Echo tracking
@@ -4921,4 +4924,282 @@ model system_alerts {
   @@index([severity])
   @@index([acknowledged])
   @@index([created_at])
+}
+
+// -----------------------------------------------------------------------------
+// REGULATORY ABSORB V2 - Enterprise Compliance Ingestion
+// -----------------------------------------------------------------------------
+
+model regulatory_documents {
+  id                  String    @id @default(uuid())
+  organization_id     String
+  
+  // Document metadata
+  name                String
+  filename            String
+  mime_type           String
+  jurisdiction        String?   // e.g., "US", "EU", "UK", "GDPR"
+  regulation_type     String?   // e.g., "privacy", "financial", "healthcare", "security"
+  effective_date      DateTime?
+  
+  // Provenance - cryptographic proof
+  content_hash        String    // SHA-256 of original document
+  content_size        Int       // bytes
+  original_content    String    @db.Text  // stored for verification
+  
+  // Versioning
+  version             Int       @default(1)
+  parent_version_id   String?   // previous version of same regulation
+  changelog           String?   @db.Text  // what changed from previous version
+  
+  // Processing status
+  status              RegulatoryDocStatus @default(PENDING)
+  processing_started  DateTime?
+  processing_completed DateTime?
+  processing_error    String?   @db.Text
+  
+  // Review workflow
+  review_status       RegulatoryReviewStatus @default(DRAFT)
+  reviewed_by         String?
+  reviewed_at         DateTime?
+  review_comments     String?   @db.Text
+  
+  // Language detection
+  detected_language   String?   // ISO 639-1 code
+  
+  // Metadata
+  uploaded_by         String
+  created_at          DateTime  @default(now())
+  updated_at          DateTime  @default(now()) @updatedAt
+  
+  // Relations
+  organization        organizations @relation(fields: [organization_id], references: [id], onDelete: Cascade)
+  requirements        regulatory_requirements[]
+  triggers            regulatory_triggers[]
+  constraints         regulatory_constraints[]
+  conflicts_as_doc1   regulatory_conflicts[] @relation("ConflictDoc1")
+  conflicts_as_doc2   regulatory_conflicts[] @relation("ConflictDoc2")
+  audit_logs          regulatory_audit_logs[]
+  
+  @@index([organization_id])
+  @@index([status])
+  @@index([review_status])
+  @@index([jurisdiction])
+  @@index([content_hash])
+}
+
+model regulatory_requirements {
+  id                  String    @id @default(uuid())
+  document_id         String
+  
+  // Requirement details
+  title               String
+  description         String    @db.Text
+  original_text       String    @db.Text  // exact text from source
+  original_text_hash  String    // SHA-256 for verification
+  
+  // Classification
+  category            String    // e.g., "data_protection", "reporting", "consent"
+  severity            RegulatorySeverity @default(MEDIUM)
+  
+  // Verification scores (anti-hallucination)
+  verification_score  Float     @default(0)  // 0-1, how well original_text matches source
+  verification_method String?   // "exact", "fuzzy", "semantic"
+  is_verified         Boolean   @default(false)
+  
+  // Compliance details
+  deadline            DateTime?
+  penalty_amount      Float?
+  penalty_currency    String?
+  penalty_description String?   @db.Text
+  
+  // Process mapping
+  affected_processes  Json      @default("[]")  // ["Customer Data Handling", "Financial Reporting"]
+  affected_agents     Json      @default("[]")  // ["CISO", "Legal", "CFO"]
+  
+  // Status
+  is_active           Boolean   @default(true)
+  
+  created_at          DateTime  @default(now())
+  updated_at          DateTime  @default(now()) @updatedAt
+  
+  document            regulatory_documents @relation(fields: [document_id], references: [id], onDelete: Cascade)
+  triggers            regulatory_triggers[]
+  
+  @@index([document_id])
+  @@index([category])
+  @@index([severity])
+  @@index([is_verified])
+}
+
+model regulatory_triggers {
+  id                  String    @id @default(uuid())
+  document_id         String
+  requirement_id      String?
+  
+  // Trigger details
+  name                String
+  description         String    @db.Text
+  trigger_type        TriggerType @default(MANUAL)
+  
+  // Conditions
+  condition_expression String?  @db.Text  // e.g., "data.contains_pii && jurisdiction == 'EU'"
+  
+  // Actions
+  action_type         String    // "alert", "block", "require_approval", "log"
+  action_config       Json      @default("{}")
+  
+  is_active           Boolean   @default(true)
+  
+  created_at          DateTime  @default(now())
+  updated_at          DateTime  @default(now()) @updatedAt
+  
+  document            regulatory_documents @relation(fields: [document_id], references: [id], onDelete: Cascade)
+  requirement         regulatory_requirements? @relation(fields: [requirement_id], references: [id], onDelete: SetNull)
+  
+  @@index([document_id])
+  @@index([trigger_type])
+  @@index([is_active])
+}
+
+model regulatory_constraints {
+  id                  String    @id @default(uuid())
+  document_id         String
+  
+  // Constraint details
+  name                String
+  description         String    @db.Text
+  constraint_type     ConstraintType @default(ADVISORY)
+  
+  // Rule definition
+  rule_expression     String    @db.Text  // e.g., "BLOCK if data_transfer_outside_eu && !adequacy_decision"
+  
+  // Scope
+  applies_to_agents   Json      @default("[]")  // which Council agents this affects
+  applies_to_decisions Json     @default("[]")  // decision types this affects
+  
+  // Status - constraints are INACTIVE until document is approved
+  is_active           Boolean   @default(false)
+  activated_at        DateTime?
+  activated_by        String?
+  
+  created_at          DateTime  @default(now())
+  updated_at          DateTime  @default(now()) @updatedAt
+  
+  document            regulatory_documents @relation(fields: [document_id], references: [id], onDelete: Cascade)
+  
+  @@index([document_id])
+  @@index([is_active])
+  @@index([constraint_type])
+}
+
+model regulatory_conflicts {
+  id                  String    @id @default(uuid())
+  organization_id     String
+  
+  document1_id        String
+  document2_id        String
+  
+  // Conflict details
+  conflict_type       ConflictType @default(POTENTIAL)
+  description         String    @db.Text
+  
+  // Which requirements conflict
+  requirement1_summary String?  @db.Text
+  requirement2_summary String?  @db.Text
+  
+  // Resolution
+  resolution_status   ConflictResolution @default(UNRESOLVED)
+  resolution_notes    String?   @db.Text
+  resolved_by         String?
+  resolved_at         DateTime?
+  
+  // AI analysis
+  ai_recommendation   String?   @db.Text
+  confidence_score    Float?
+  
+  created_at          DateTime  @default(now())
+  updated_at          DateTime  @default(now()) @updatedAt
+  
+  document1           regulatory_documents @relation("ConflictDoc1", fields: [document1_id], references: [id], onDelete: Cascade)
+  document2           regulatory_documents @relation("ConflictDoc2", fields: [document2_id], references: [id], onDelete: Cascade)
+  
+  @@index([organization_id])
+  @@index([resolution_status])
+}
+
+model regulatory_audit_logs {
+  id                  String    @id @default(uuid())
+  document_id         String
+  
+  // Audit entry
+  action              String    // "uploaded", "processed", "approved", "rejected", "constraint_activated"
+  actor_id            String?
+  actor_type          String    @default("user")  // "user", "system", "ai"
+  
+  // Details
+  details             Json      @default("{}")
+  
+  // Tamper-evident chain
+  previous_hash       String?   // hash of previous audit entry
+  entry_hash          String    // SHA-256(previous_hash + action + timestamp + details)
+  
+  created_at          DateTime  @default(now())
+  
+  document            regulatory_documents @relation(fields: [document_id], references: [id], onDelete: Cascade)
+  
+  @@index([document_id])
+  @@index([action])
+  @@index([created_at])
+}
+
+// Enums for Regulatory Absorb V2
+
+enum RegulatoryDocStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+enum RegulatoryReviewStatus {
+  DRAFT
+  PENDING_REVIEW
+  APPROVED
+  REJECTED
+  CHANGES_REQUESTED
+}
+
+enum RegulatorySeverity {
+  CRITICAL
+  HIGH
+  MEDIUM
+  LOW
+  INFO
+}
+
+enum TriggerType {
+  AUTOMATIC
+  MANUAL
+  SCHEDULED
+}
+
+enum ConstraintType {
+  MANDATORY    // Must be followed, blocks decisions if violated
+  ADVISORY     // Warns but doesn't block
+  CONDITIONAL  // Applies only under certain conditions
+}
+
+enum ConflictType {
+  DIRECT       // Regulations directly contradict
+  POTENTIAL    // May conflict depending on interpretation
+  SUPERSEDED   // One regulation replaces another
+}
+
+enum ConflictResolution {
+  UNRESOLVED
+  RESOLVED_PRIORITY  // One takes priority
+  RESOLVED_MERGED    // Combined into unified rule
+  RESOLVED_EXCEPTION // Exception granted
+  FALSE_POSITIVE     // Not actually a conflict
 }

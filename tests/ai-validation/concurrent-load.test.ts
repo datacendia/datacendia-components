@@ -124,7 +124,7 @@ async function directOllamaRequest(
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'llama3.3:latest',
+        model: 'qwen2.5:14b',
         prompt,
         stream: false,
         options: { num_predict: 256 },

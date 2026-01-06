@@ -2,6 +2,19 @@
  * =============================================================================
  * CENDIA CASCADE SERVICE (THE BUTTERFLY EFFECT)
  * =============================================================================
+ * @deprecated This service has been MERGED into CendiaHorizonService.
+ * Use `import { cendiaHorizonService, cascadeService } from './CendiaHorizonService.js'` instead.
+ * 
+ * The cascade functionality is now available via:
+ * - cendiaHorizonService.analyzeChange(changeSpec)
+ * - cendiaHorizonService.getCascadeReport(id)
+ * - cendiaHorizonService.listCascadeReports()
+ * - cendiaHorizonService.signCascadeReport(id, signerId)
+ * - cendiaHorizonService.updateCascadeReportStatus(id, status)
+ * 
+ * CendiaOrbit remains the internal graph traversal engine.
+ * =============================================================================
+ * 
  * Second/Third-Order Consequence Engine
  * 
  * "Your competitors play chess thinking one move ahead. CendiaCascade™ 

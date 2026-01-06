@@ -22,17 +22,45 @@ import {
   Clock,
   FileText,
   GitBranch,
+  HelpCircle,
   Layers,
   Network,
   Play,
   Plus,
   RefreshCw,
+  Settings2,
   Shield,
   Target,
   TrendingUp,
   XCircle,
   Zap,
 } from 'lucide-react';
+import { CASCADE_MODES, getCoreModes, getModeForChangeType, type CascadeMode } from '../../../data/cascadeModes';
+
+// Tooltip component for mode-aware field help
+const FieldTooltip: React.FC<{ content: string }> = ({ content }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  
+  return (
+    <div className="relative inline-block ml-1">
+      <button
+        type="button"
+        onMouseEnter={() => setIsVisible(true)}
+        onMouseLeave={() => setIsVisible(false)}
+        onClick={() => setIsVisible(!isVisible)}
+        className="text-gray-500 hover:text-gray-300 transition-colors"
+      >
+        <HelpCircle className="w-4 h-4" />
+      </button>
+      {isVisible && (
+        <div className="absolute z-50 bottom-full left-1/2 -translate-x-1/2 mb-2 w-72 p-3 bg-gray-800 border border-gray-600 rounded-lg shadow-xl text-sm text-gray-200">
+          {content}
+          <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1 border-4 border-transparent border-t-gray-800" />
+        </div>
+      )}
+    </div>
+  );
+};
 
 // =============================================================================
 // TYPES
@@ -205,6 +233,11 @@ const CascadePage: React.FC = () => {
   const [availableNodes, setAvailableNodes] = useState<GraphNode[]>([]);
   const [nodeSearchQuery, setNodeSearchQuery] = useState('');
   const [showNodePicker, setShowNodePicker] = useState(false);
+  const [showModeSelector, setShowModeSelector] = useState(false);
+
+  // Analysis mode
+  const [selectedMode, setSelectedMode] = useState<string>('due-diligence');
+  const currentMode = CASCADE_MODES[selectedMode];
 
   // Form state
   const [changeForm, setChangeForm] = useState<ChangeSpec>({
@@ -220,11 +253,28 @@ const CascadePage: React.FC = () => {
 
   const [assetInput, setAssetInput] = useState('');
 
-  // Load initial data
+  // Auto-select mode based on change type
   useEffect(() => {
-    loadReports();
-    loadGraphStats();
-    loadAvailableNodes();
+    const suggestedMode = getModeForChangeType(changeForm.type);
+    if (suggestedMode && CASCADE_MODES[suggestedMode]) {
+      setSelectedMode(suggestedMode);
+    }
+  }, [changeForm.type]);
+
+  // Load initial data and auto-load sample graph if empty
+  useEffect(() => {
+    const initializePage = async () => {
+      await loadReports();
+      const stats = await loadGraphStats();
+      await loadAvailableNodes();
+      
+      // Auto-load sample graph if no nodes exist (for demo purposes)
+      if (!stats || stats.nodeCount === 0) {
+        console.log('[Cascade] No graph loaded, auto-loading sample graph for demo...');
+        await loadSampleGraph();
+      }
+    };
+    initializePage();
   }, []);
 
   const loadReports = async () => {
@@ -239,15 +289,18 @@ const CascadePage: React.FC = () => {
     }
   };
 
-  const loadGraphStats = async () => {
+  const loadGraphStats = async (): Promise<GraphStats | null> => {
     try {
       const res = await fetch('/api/v1/cascade/graph/stats');
       if (res.ok) {
         const data = await res.json();
         setGraphStats(data);
+        return data;
       }
+      return null;
     } catch (error) {
       console.error('Failed to load graph stats:', error);
+      return null;
     }
   };
 
@@ -297,12 +350,15 @@ const CascadePage: React.FC = () => {
         node.type.toLowerCase().includes(nodeSearchQuery.toLowerCase()))
   );
 
-  const loadSampleGraph = async () => {
+  const loadSampleGraph = async (silent = false) => {
     try {
       const res = await fetch('/api/v1/cascade/demo/load-sample', { method: 'POST' });
       if (res.ok) {
         await loadGraphStats();
-        alert('Sample organization graph loaded!');
+        await loadAvailableNodes();
+        if (!silent) {
+          console.log('[Cascade] Sample organization graph loaded');
+        }
       }
     } catch (error) {
       console.error('Failed to load sample graph:', error);
@@ -723,11 +779,85 @@ const CascadePage: React.FC = () => {
                 💬 Ask Council
               </button>
               <button
-                onClick={loadSampleGraph}
+                onClick={() => loadSampleGraph()}
                 className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg text-sm transition-colors"
               >
                 Load Sample Graph
               </button>
+            </div>
+          </div>
+
+          {/* Mode Selector Bar */}
+          <div className="mt-4 flex items-center gap-4">
+            <span className="text-sm text-gray-400">Analysis Mode:</span>
+            <div className="relative">
+              <button
+                onClick={() => setShowModeSelector(!showModeSelector)}
+                className="flex items-center gap-2 px-4 py-2 rounded-lg border transition-colors"
+                style={{ 
+                  backgroundColor: `${currentMode?.color}20`,
+                  borderColor: `${currentMode?.color}40`,
+                }}
+              >
+                <span className="text-xl">{currentMode?.emoji}</span>
+                <span className="font-medium">{currentMode?.name}</span>
+                <ChevronDown className="w-4 h-4 text-gray-400" />
+              </button>
+              
+              {showModeSelector && (
+                <div className="absolute top-full left-0 mt-2 w-80 bg-gray-900 border border-gray-700 rounded-xl shadow-2xl z-50 overflow-hidden">
+                  <div className="p-2 border-b border-gray-800">
+                    <div className="text-xs text-gray-500 uppercase tracking-wider px-2 py-1">Core Modes</div>
+                  </div>
+                  <div className="max-h-80 overflow-y-auto">
+                    {getCoreModes().map((mode) => (
+                      <button
+                        key={mode.id}
+                        onClick={() => {
+                          setSelectedMode(mode.id);
+                          setShowModeSelector(false);
+                          // Apply mode's default constraints
+                          if (mode.defaultConstraints.length > 0) {
+                            setChangeForm(prev => ({
+                              ...prev,
+                              constraints: {
+                                ...prev.constraints,
+                                noGoLines: [...new Set([...(prev.constraints?.noGoLines || []), ...mode.defaultConstraints])],
+                              },
+                            }));
+                          }
+                        }}
+                        className={`w-full text-left px-3 py-2 hover:bg-gray-800 flex items-center gap-3 transition-colors ${
+                          selectedMode === mode.id ? 'bg-gray-800' : ''
+                        }`}
+                      >
+                        <span className="text-2xl">{mode.emoji}</span>
+                        <div className="flex-1 min-w-0">
+                          <div className="font-medium">{mode.name}</div>
+                          <div className="text-xs text-gray-500 truncate">{mode.shortDesc}</div>
+                        </div>
+                        {selectedMode === mode.id && (
+                          <CheckCircle2 className="w-4 h-4 text-green-400" />
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                  <div className="p-2 border-t border-gray-800">
+                    <button
+                      onClick={() => setShowModeSelector(false)}
+                      className="w-full text-center text-xs text-gray-500 hover:text-gray-300 py-1"
+                    >
+                      {Object.keys(CASCADE_MODES).length} modes available
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+            
+            {/* Mode Info */}
+            <div className="flex-1 text-sm">
+              <span className="text-gray-500 italic">"{currentMode?.primeDirective}"</span>
+              <span className="text-gray-600 ml-2">• Depth: {currentMode?.analysisDepth} orders • {currentMode?.timeHorizon} horizon</span>
             </div>
           </div>
 
@@ -762,6 +892,83 @@ const CascadePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Change Specification Form */}
             <div className="space-y-6">
+              {/* Quick Demo Scenarios */}
+              <div className="bg-gradient-to-r from-purple-900/30 to-blue-900/30 border border-purple-500/30 rounded-xl p-4">
+                <h3 className="text-sm font-semibold text-purple-300 mb-3 flex items-center gap-2">
+                  <Play className="w-4 h-4" />
+                  Try a Demo Scenario (One Click)
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  <button
+                    onClick={() => {
+                      setChangeForm({
+                        type: 'staffing',
+                        title: 'Reduce engineering headcount by 15%',
+                        description: 'Layoff 15% of engineering staff to reduce operating costs. Targeting senior engineers with highest salaries first to maximize savings.',
+                        affectedAssets: ['eng-team', 'product-alpha', 'data-pipeline'],
+                        expectedBenefit: 'Reduce operating costs by $2.4M annually',
+                        constraints: { noGoLines: ['Cannot impact production stability'] },
+                      });
+                    }}
+                    className="px-3 py-2 bg-red-900/30 hover:bg-red-900/50 border border-red-500/30 rounded-lg text-left transition-colors"
+                  >
+                    <div className="font-medium text-red-300 text-sm">🔥 Layoff Scenario</div>
+                    <div className="text-xs text-gray-400">15% engineering reduction</div>
+                  </button>
+                  <button
+                    onClick={() => {
+                      setChangeForm({
+                        type: 'pricing',
+                        title: 'Increase enterprise pricing by 20%',
+                        description: 'Raise enterprise tier pricing by 20% for all new contracts and renewals. Current contracts will be grandfathered for 6 months.',
+                        affectedAssets: ['customer-revenue', 'sales-team', 'product-alpha'],
+                        expectedBenefit: 'Increase ARR by $1.8M',
+                        constraints: { noGoLines: ['Cannot lose top 10 accounts'] },
+                      });
+                    }}
+                    className="px-3 py-2 bg-yellow-900/30 hover:bg-yellow-900/50 border border-yellow-500/30 rounded-lg text-left transition-colors"
+                  >
+                    <div className="font-medium text-yellow-300 text-sm">💰 Price Increase</div>
+                    <div className="text-xs text-gray-400">20% enterprise pricing hike</div>
+                  </button>
+                  <button
+                    onClick={() => {
+                      setChangeForm({
+                        type: 'vendor',
+                        title: 'Migrate from AWS to Azure',
+                        description: 'Complete cloud infrastructure migration from AWS to Microsoft Azure within 6 months. Includes all production workloads, databases, and CI/CD pipelines.',
+                        affectedAssets: ['cloud-infrastructure', 'data-pipeline', 'eng-team', 'vendor-aws'],
+                        expectedBenefit: 'Reduce cloud costs by 30% via Microsoft partnership',
+                        constraints: { noGoLines: ['Zero downtime during migration', 'No data loss'] },
+                      });
+                    }}
+                    className="px-3 py-2 bg-blue-900/30 hover:bg-blue-900/50 border border-blue-500/30 rounded-lg text-left transition-colors"
+                  >
+                    <div className="font-medium text-blue-300 text-sm">☁️ Cloud Migration</div>
+                    <div className="text-xs text-gray-400">AWS to Azure switch</div>
+                  </button>
+                  <button
+                    onClick={() => {
+                      setChangeForm({
+                        type: 'policy',
+                        title: 'Mandate return-to-office 5 days/week',
+                        description: 'End remote work policy and require all employees to return to office full-time starting next quarter. No exceptions for any role.',
+                        affectedAssets: ['eng-team', 'sales-team', 'hiring-freeze'],
+                        expectedBenefit: 'Improve collaboration and company culture',
+                        constraints: { noGoLines: ['Cannot violate employment contracts'] },
+                      });
+                    }}
+                    className="px-3 py-2 bg-orange-900/30 hover:bg-orange-900/50 border border-orange-500/30 rounded-lg text-left transition-colors"
+                  >
+                    <div className="font-medium text-orange-300 text-sm">🏢 RTO Mandate</div>
+                    <div className="text-xs text-gray-400">End remote work policy</div>
+                  </button>
+                </div>
+                <p className="text-xs text-gray-500 mt-3">
+                  Click any scenario to pre-fill the form, then hit "Analyze Butterfly Effect" to see the cascade.
+                </p>
+              </div>
+
               <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
                 <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
                   <Target className="w-5 h-5 text-purple-400" />
@@ -794,27 +1001,31 @@ const CascadePage: React.FC = () => {
 
                   {/* Title */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-1">Title *</label>
+                    <label className="block text-sm font-medium text-gray-300 mb-1 flex items-center">
+                      Title *
+                      <FieldTooltip content={currentMode?.fieldTooltips?.title || 'Name the proposed change clearly and specifically.'} />
+                    </label>
                     <input
                       type="text"
                       value={changeForm.title}
                       onChange={(e) => setChangeForm({ ...changeForm, title: e.target.value })}
-                      placeholder="e.g., Reduce engineering headcount by 10%"
+                      placeholder={currentMode?.placeholders?.title || 'e.g., Reduce engineering headcount by 10%'}
                       className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
                     />
                   </div>
 
                   {/* Description */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-1">
+                    <label className="block text-sm font-medium text-gray-300 mb-1 flex items-center">
                       Description *
+                      <FieldTooltip content={currentMode?.fieldTooltips?.description || 'Describe the proposed change in detail.'} />
                     </label>
                     <textarea
                       value={changeForm.description}
                       onChange={(e) =>
                         setChangeForm({ ...changeForm, description: e.target.value })
                       }
-                      placeholder="Describe the proposed change in detail..."
+                      placeholder={currentMode?.placeholders?.description || 'Describe the proposed change in detail...'}
                       rows={3}
                       className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
                     />
@@ -822,8 +1033,10 @@ const CascadePage: React.FC = () => {
 
                   {/* Affected Assets */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-1">
-                      Affected Assets * <span className="text-gray-500 font-normal">(click to browse or type to search)</span>
+                    <label className="block text-sm font-medium text-gray-300 mb-1 flex items-center">
+                      Affected Assets *
+                      <FieldTooltip content={currentMode?.fieldTooltips?.affectedAssets || 'Select all business units, systems, and processes that will be impacted.'} />
+                      <span className="text-gray-500 font-normal ml-2">(click to browse or type to search)</span>
                     </label>
                     <div className="relative">
                       <div className="flex gap-2">
@@ -929,8 +1142,9 @@ const CascadePage: React.FC = () => {
 
                   {/* Expected Benefit */}
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-1">
+                    <label className="block text-sm font-medium text-gray-300 mb-1 flex items-center">
                       Expected Benefit
+                      <FieldTooltip content={currentMode?.fieldTooltips?.expectedBenefit || 'Quantify the expected value: cost savings, revenue growth, or strategic benefit.'} />
                     </label>
                     <input
                       type="text"
@@ -938,10 +1152,47 @@ const CascadePage: React.FC = () => {
                       onChange={(e) =>
                         setChangeForm({ ...changeForm, expectedBenefit: e.target.value })
                       }
-                      placeholder="e.g., Reduce operating costs by $2M annually"
+                      placeholder={currentMode?.placeholders?.expectedBenefit || 'e.g., Reduce operating costs by $2M annually'}
                       className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500"
                     />
                   </div>
+
+                  {/* Constraints (No-Go Lines) - Mode-aware */}
+                  {currentMode?.defaultConstraints && currentMode.defaultConstraints.length > 0 && (
+                    <div className="p-3 bg-gray-800/50 border border-gray-700 rounded-lg">
+                      <label className="block text-sm font-medium text-gray-300 mb-2 flex items-center">
+                        <Shield className="w-4 h-4 mr-2 text-yellow-400" />
+                        Active Constraints
+                        <FieldTooltip content={currentMode?.fieldTooltips?.constraints || 'Define boundaries that cannot be crossed. These are auto-applied based on your selected mode.'} />
+                      </label>
+                      <div className="flex flex-wrap gap-2">
+                        {changeForm.constraints?.noGoLines?.map((constraint, idx) => (
+                          <span
+                            key={idx}
+                            className="px-2 py-1 bg-yellow-900/30 border border-yellow-600/30 rounded text-xs text-yellow-300 flex items-center gap-1"
+                          >
+                            🚫 {constraint}
+                            <button
+                              onClick={() => {
+                                const newConstraints = [...(changeForm.constraints?.noGoLines || [])];
+                                newConstraints.splice(idx, 1);
+                                setChangeForm({
+                                  ...changeForm,
+                                  constraints: { ...changeForm.constraints, noGoLines: newConstraints },
+                                });
+                              }}
+                              className="text-yellow-400 hover:text-white ml-1"
+                            >
+                              <XCircle className="w-3 h-3" />
+                            </button>
+                          </span>
+                        ))}
+                      </div>
+                      <p className="text-xs text-gray-500 mt-2">
+                        These constraints are auto-applied from {currentMode?.name} mode. Remove any that don't apply.
+                      </p>
+                    </div>
+                  )}
 
                   {/* Analyze Button */}
                   <button
@@ -1261,7 +1512,7 @@ const CascadePage: React.FC = () => {
                   <Network className="w-12 h-12 mx-auto mb-3 opacity-50" />
                   <p>No graph loaded</p>
                   <button
-                    onClick={loadSampleGraph}
+                    onClick={() => loadSampleGraph()}
                     className="mt-4 px-4 py-2 bg-purple-600 hover:bg-purple-500 rounded-lg text-sm transition-colors"
                   >
                     Load Sample Graph

@@ -119,6 +119,7 @@ import {
   DecisionDebtPage,
   LiveDemoPage,
   RegulatoryAbsorbPage,
+  RegulatoryAbsorbPageV2,
   DecisionDNAPage,
   ChronosPage,
 } from './pages/cortex/intelligence';
@@ -521,6 +522,10 @@ export const router = createBrowserRouter([
       {
         path: 'intelligence/regulatory',
         element: <RegulatoryAbsorbPage />,
+      },
+      {
+        path: 'intelligence/regulatory-v2',
+        element: <RegulatoryAbsorbPageV2 />,
       },
       {
         path: 'intelligence/decision-dna',

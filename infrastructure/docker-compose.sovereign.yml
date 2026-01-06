@@ -379,7 +379,7 @@ services:
       KC_DB_USERNAME: ${POSTGRES_USER:-cendia}
       KC_DB_PASSWORD: ${POSTGRES_PASSWORD:-cendia_sovereign_2025}
     ports:
-      - "8080:8080"
+      - "8180:8080"   # Using 8180 externally since 8080 is often in use
     depends_on:
       - postgres
     networks:

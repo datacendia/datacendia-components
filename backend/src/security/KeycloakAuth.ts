@@ -10,7 +10,7 @@ import session from 'express-session';
 // Keycloak configuration
 const KEYCLOAK_CONFIG = {
   realm: process.env.KEYCLOAK_REALM || 'cendia',
-  authServerUrl: process.env.KEYCLOAK_URL || 'http://localhost:8080',
+  authServerUrl: process.env.KEYCLOAK_URL || 'http://localhost:8180',
   clientId: process.env.KEYCLOAK_CLIENT_ID || 'cendia-api',
   clientSecret: process.env.KEYCLOAK_CLIENT_SECRET || '',
   bearerOnly: true, // API-only mode (no browser redirects)

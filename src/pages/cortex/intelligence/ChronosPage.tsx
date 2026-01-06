@@ -2768,16 +2768,29 @@ export const ChronosPage: React.FC = () => {
   useEffect(() => {
     const fetchAllChronosData = async () => {
       setIsLoadingData(true);
+      
+      // Helper to add timeout to promises
+      const withTimeout = <T,>(promise: Promise<T>, ms: number, fallback: T): Promise<T> => {
+        return Promise.race([
+          promise,
+          new Promise<T>((resolve) => setTimeout(() => resolve(fallback), ms))
+        ]);
+      };
+      
+      // Default fallback responses
+      const emptyResponse = { success: true, data: [] };
+      const emptyGraphStats = { success: true, data: { entities: 0, relationships: 0, dataPoints: 0, freshness: 0 } };
+      
       try {
-        // Fetch all data sources in parallel
+        // Fetch all data sources in parallel with 5s timeout each
         const [snapshotsRes, metricsRes, deliberationsRes, alertsRes, decisionsRes, graphStatsRes] =
           await Promise.all([
-            decisionIntelApi.getChronosSnapshots(),
-            metricsApi.getMetrics(),
-            councilApi.getAllDeliberations(100), // Get ALL deliberations, not just active
-            alertsApi.getAlerts(),
-            councilApi.getRecentDecisions(50),
-            graphApi.getStats(),
+            withTimeout(decisionIntelApi.getChronosSnapshots(), 5000, emptyResponse),
+            withTimeout(metricsApi.getMetrics(), 5000, emptyResponse),
+            withTimeout(councilApi.getAllDeliberations(100), 5000, { success: true, deliberations: [] }), // Get ALL deliberations, not just active
+            withTimeout(alertsApi.getAlerts(), 5000, emptyResponse),
+            withTimeout(councilApi.getRecentDecisions(50), 5000, emptyResponse),
+            withTimeout(graphApi.getStats(), 5000, emptyGraphStats),
           ]);
 
         // Process snapshots

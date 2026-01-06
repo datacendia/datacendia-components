@@ -22,6 +22,7 @@ import { SimpleTooltip } from '../components/ui';
 import { ThemeToggle } from '../components/ui/ThemeToggle';
 import { useAuth } from '../contexts';
 import { NavigationLoader, Breadcrumbs, HealthIndicator, ConnectionBanner } from '../components/navigation';
+import { DemoModeToggle, DemoIndicatorBadge } from '../components/demo';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
 const Icons = {
@@ -282,6 +283,22 @@ const trustLayerFeatures = [
     path: '/cortex/sovereign/panopticon',
     description: 'Real-time Regulatory Radar - FDA, GDPR, DORA frameworks with policy gates',
     merged: ['Govern', 'Audit', 'Veto', 'Regulatory Absorb', 'Panopticon'],
+  },
+  {
+    id: 'notary',
+    label: 'CendiaNotary™',
+    icon: '✍️',
+    path: '/cortex/sovereign/notary',
+    description: 'Cryptographic Signing Authority - Signs and authenticates all decisions with customer-owned keys',
+    merged: ['Key Management', 'Digital Signatures', 'Non-Repudiation'],
+  },
+  {
+    id: 'vault',
+    label: 'CendiaVault™',
+    icon: '🏛️',
+    path: '/cortex/sovereign/vault',
+    description: 'Unified Evidence Storage - Decision packets, audit ledger, evidence bundles, signed reports',
+    merged: ['Decision Packets', 'Audit Ledger', 'Evidence Bundles', 'Signed Reports'],
   },
   {
     id: 'decision-dna',
@@ -1086,6 +1103,9 @@ const CortexLayoutInner: React.FC = () => {
                   aria-hidden="true"
                 />
               </button>
+
+              {/* Demo Mode Toggle */}
+              <DemoModeToggle />
 
               {/* Theme Toggle */}
               <ThemeToggle />

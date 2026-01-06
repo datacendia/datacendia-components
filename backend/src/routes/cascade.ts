@@ -29,15 +29,15 @@
 
 import { Router, Request, Response } from 'express';
 import {
-  cascadeService,
+  cendiaHorizonService as cascadeService,
   ChangeSpec,
   ChangeType,
-} from '../services/CendiaCascadeService.js';
-import {
-  orbitService,
   NodeType,
   EdgeType,
-} from '../services/CendiaOrbitService.js';
+} from '../services/CendiaHorizonService.js';
+
+// Get orbit service from the merged horizon service
+const orbitService = cascadeService.getOrbitService();
 
 const router = Router();
 
@@ -49,9 +49,9 @@ const router = Router();
  * Get Cascade service status
  * GET /api/v1/cascade/status
  */
-router.get('/status', (req: Request, res: Response) => {
+router.get('/status', (_req: Request, res: Response) => {
   const stats = cascadeService.getGraphStats();
-  const reports = cascadeService.listReports();
+  const reports = cascadeService.listCascadeReports();
   const runs = orbitService.listRuns();
 
   res.json({
@@ -157,8 +157,8 @@ router.post('/analyze', async (req: Request, res: Response) => {
  * List all cascade reports
  * GET /api/v1/cascade/reports
  */
-router.get('/reports', (req: Request, res: Response) => {
-  const reports = cascadeService.listReports();
+router.get('/reports', (_req: Request, res: Response) => {
+  const reports = cascadeService.listCascadeReports();
   
   res.json({
     count: reports.length,
@@ -180,7 +180,7 @@ router.get('/reports', (req: Request, res: Response) => {
  * GET /api/v1/cascade/reports/:id
  */
 router.get('/reports/:id', (req: Request, res: Response) => {
-  const report = cascadeService.getReport(req.params.id);
+  const report = cascadeService.getCascadeReport(req.params['id']);
   
   if (!report) {
     res.status(404).json({ error: 'Report not found' });
@@ -207,7 +207,7 @@ router.patch('/reports/:id/status', (req: Request, res: Response) => {
   }
 
   try {
-    cascadeService.updateReportStatus(req.params.id, status);
+    cascadeService.updateCascadeReportStatus(req.params['id'], status);
     res.json({ success: true, status });
   } catch (error) {
     res.status(404).json({ error: (error as Error).message });
@@ -227,7 +227,7 @@ router.post('/reports/:id/sign', async (req: Request, res: Response) => {
   }
 
   try {
-    await cascadeService.signReport(req.params.id, signerId);
+    await cascadeService.signCascadeReport(req.params['id'], signerId);
     res.json({ success: true, signedBy: signerId, signedAt: new Date() });
   } catch (error) {
     res.status(404).json({ error: (error as Error).message });
@@ -239,7 +239,7 @@ router.post('/reports/:id/sign', async (req: Request, res: Response) => {
  * GET /api/v1/cascade/reports/:id/timeline
  */
 router.get('/reports/:id/timeline', (req: Request, res: Response) => {
-  const report = cascadeService.getReport(req.params.id);
+  const report = cascadeService.getCascadeReport(req.params['id']);
   
   if (!report) {
     res.status(404).json({ error: 'Report not found' });
@@ -306,7 +306,7 @@ router.get('/reports/:id/timeline', (req: Request, res: Response) => {
  * GET /api/v1/cascade/reports/:id/evidence
  */
 router.get('/reports/:id/evidence', (req: Request, res: Response) => {
-  const report = cascadeService.getReport(req.params.id);
+  const report = cascadeService.getCascadeReport(req.params['id']);
   
   if (!report) {
     res.status(404).json({ error: 'Report not found' });
@@ -367,7 +367,7 @@ router.get('/reports/:id/evidence', (req: Request, res: Response) => {
  * GET /api/v1/cascade/reports/:id/export/executive
  */
 router.get('/reports/:id/export/executive', (req: Request, res: Response) => {
-  const report = cascadeService.getReport(req.params.id);
+  const report = cascadeService.getCascadeReport(req.params['id']);
   
   if (!report) {
     res.status(404).json({ error: 'Report not found' });
@@ -537,7 +537,7 @@ router.get('/reports/:id/export/executive', (req: Request, res: Response) => {
  * GET /api/v1/cascade/reports/:id/explain/:nodeId
  */
 router.get('/reports/:id/explain/:nodeId', (req: Request, res: Response) => {
-  const report = cascadeService.getReport(req.params.id);
+  const report = cascadeService.getCascadeReport(req.params['id']);
   
   if (!report) {
     res.status(404).json({ error: 'Report not found' });
@@ -615,7 +615,7 @@ router.get('/reports/:id/explain/:nodeId', (req: Request, res: Response) => {
  * POST /api/v1/cascade/reports/:id/validate-constraints
  */
 router.post('/reports/:id/validate-constraints', (req: Request, res: Response) => {
-  const report = cascadeService.getReport(req.params.id);
+  const report = cascadeService.getCascadeReport(req.params['id']);
   
   if (!report) {
     res.status(404).json({ error: 'Report not found' });
@@ -661,7 +661,7 @@ router.post('/reports/:id/validate-constraints', (req: Request, res: Response) =
  * GET /api/v1/cascade/reports/:id/governance
  */
 router.get('/reports/:id/governance', (req: Request, res: Response) => {
-  const report = cascadeService.getReport(req.params.id);
+  const report = cascadeService.getCascadeReport(req.params['id']);
   
   if (!report) {
     res.status(404).json({ error: 'Report not found' });

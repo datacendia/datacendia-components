@@ -9,6 +9,23 @@
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '../../lib/utils';
+import {
+  HORIZON_MODES,
+  INDUSTRY_BENCHMARKS,
+  CORE_HORIZON_MODES,
+  calculateAdjustedProbability,
+  getIndustryInsight,
+} from '../../data/horizonModes';
+import {
+  CASCADE_MODES,
+  getCoreModes as getCascadeCoreModes,
+} from '../../data/cascadeModes';
+import {
+  ModeSelector,
+  IndustrySelector,
+  ModeInfoBanner,
+  IndustryInsight,
+} from '../../components/modes';
 
 // Modal state types
 type ModalType = 'why' | 'sensitivity' | 'evidence' | 'audit' | 'whatWouldItTake' | null;
@@ -269,6 +286,25 @@ const HorizonPage: React.FC = () => {
   const [isSendingToApprovers, setIsSendingToApprovers] = useState(false);
   const [sentToApprovers, setSentToApprovers] = useState(false);
   const timelineRef = useRef<HTMLDivElement>(null);
+  
+  // Dual mode selectors: Cascade Mode (consequence analysis) + Simulation Mode (what-if)
+  const [cascadeModeId, setCascadeModeId] = useState<string>('due-diligence');
+  const [simulationModeId, setSimulationModeId] = useState<string>('balanced');
+  const [selectedIndustryId, setSelectedIndustryId] = useState<string>('general');
+  
+  const currentCascadeMode = CASCADE_MODES[cascadeModeId];
+  const currentSimulationMode = HORIZON_MODES[simulationModeId];
+  const currentIndustry = INDUSTRY_BENCHMARKS[selectedIndustryId];
+  
+  // Calculate adjusted probability based on simulation mode and industry
+  const getAdjustedProbability = (baseProbability: number) => {
+    if (!currentSimulationMode || !currentIndustry) return { probability: baseProbability, confidence: 0.7, range: [baseProbability - 0.1, baseProbability + 0.1] as [number, number] };
+    return calculateAdjustedProbability(baseProbability, currentSimulationMode, currentIndustry);
+  };
+  
+  const industryInsight = currentSimulationMode && currentIndustry
+    ? getIndustryInsight('growth', currentSimulationMode, currentIndustry)
+    : '';
 
   // Generate and download audit packet
   const handleDownloadAuditPacket = async () => {
@@ -491,6 +527,71 @@ const HorizonPage: React.FC = () => {
           <p className="text-xl text-neutral-400 max-w-2xl mx-auto">
             See the future before you commit. Explore alternate timelines and make decisions with confidence.
           </p>
+          
+          {/* Dual Mode Selectors */}
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-indigo-300">Cascade Mode:</span>
+              <ModeSelector
+                label=""
+                modes={CASCADE_MODES}
+                selectedModeId={cascadeModeId}
+                onModeChange={setCascadeModeId}
+                coreModeIds={getCascadeCoreModes().map(m => m.id)}
+                className="w-56"
+              />
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-purple-300">Simulation Mode:</span>
+              <ModeSelector
+                label=""
+                modes={HORIZON_MODES}
+                selectedModeId={simulationModeId}
+                onModeChange={setSimulationModeId}
+                coreModeIds={[...CORE_HORIZON_MODES]}
+                className="w-56"
+              />
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-cyan-300">Industry:</span>
+              <IndustrySelector
+                label=""
+                industries={INDUSTRY_BENCHMARKS}
+                selectedIndustryId={selectedIndustryId}
+                onIndustryChange={setSelectedIndustryId}
+                className="w-48"
+              />
+            </div>
+          </div>
+          
+          {/* Mode Info Banners */}
+          <div className="mt-6 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+            {currentCascadeMode && (
+              <div className="text-left">
+                <div className="text-xs text-indigo-400 mb-1">Consequence Analysis</div>
+                <ModeInfoBanner 
+                  mode={currentCascadeMode} 
+                  primeDirective={currentCascadeMode.primeDirective} 
+                />
+              </div>
+            )}
+            {currentSimulationMode && (
+              <div className="text-left">
+                <div className="text-xs text-purple-400 mb-1">Simulation Perspective</div>
+                <ModeInfoBanner 
+                  mode={currentSimulationMode} 
+                  primeDirective={currentSimulationMode.primeDirective} 
+                />
+              </div>
+            )}
+          </div>
+          
+          {/* Industry Insight */}
+          {industryInsight && (
+            <div className="mt-4 max-w-2xl mx-auto">
+              <IndustryInsight insight={industryInsight} />
+            </div>
+          )}
         </motion.div>
 
         {/* Query Input */}

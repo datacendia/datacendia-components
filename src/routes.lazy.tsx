@@ -319,6 +319,8 @@ const SuccessionPage = lazy(() =>
 const SanctuaryPage = lazy(() =>
   import('./pages/cortex/sovereign/SanctuaryPage').then((m) => ({ default: m.SanctuaryPage }))
 );
+const NotaryPage = lazy(() => import('./pages/cortex/sovereign/NotaryPage'));
+const VaultPage = lazy(() => import('./pages/cortex/sovereign/VaultPage'));
 const SymbiontPage = lazy(() =>
   import('./pages/sovereign/SymbiontPage').then((m) => ({ default: m.SymbiontPage }))
 );
@@ -1767,6 +1769,22 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <SanctuaryPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/notary',
+        element: (
+          <SuspenseWrapper>
+            <NotaryPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/vault',
+        element: (
+          <SuspenseWrapper>
+            <VaultPage />
           </SuspenseWrapper>
         ),
       },

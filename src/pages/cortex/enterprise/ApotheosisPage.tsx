@@ -14,6 +14,20 @@ import {
   PatternBan,
   UpskillAssignment,
 } from '../../../services/ApotheosisService';
+import {
+  APOTHEOSIS_MODES,
+  INDUSTRY_THREAT_PROFILES,
+  CORE_APOTHEOSIS_MODES,
+  calculateThreatScore,
+  getIndustryThreatInsight,
+  type ApotheosisMode,
+} from '../../../data/apotheosisModes';
+import {
+  ModeSelector,
+  IndustrySelector,
+  ModeInfoBanner,
+  IndustryInsight,
+} from '../../../components/modes';
 
 // =============================================================================
 // HELPER FUNCTIONS
@@ -62,6 +76,17 @@ export const ApotheosisPage: React.FC = () => {
     'dashboard' | 'escalations' | 'patterns' | 'upskill' | 'history'
   >('dashboard');
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedModeId, setSelectedModeId] = useState<string>('red-team');
+  const [selectedIndustryId, setSelectedIndustryId] = useState<string>('general');
+  
+  const currentMode = APOTHEOSIS_MODES[selectedModeId];
+  const currentIndustry = INDUSTRY_THREAT_PROFILES[selectedIndustryId];
+  const threatScore = currentMode && currentIndustry 
+    ? calculateThreatScore(currentMode, currentIndustry) 
+    : null;
+  const industryInsight = currentMode && currentIndustry
+    ? getIndustryThreatInsight(currentMode, currentIndustry)
+    : '';
 
   const loadData = useCallback(async () => {
     setIsLoading(true);
@@ -125,6 +150,23 @@ export const ApotheosisPage: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2">
+                <ModeSelector
+                  label=""
+                  modes={APOTHEOSIS_MODES}
+                  selectedModeId={selectedModeId}
+                  onModeChange={setSelectedModeId}
+                  coreModeIds={[...CORE_APOTHEOSIS_MODES]}
+                  className="w-64"
+                />
+                <IndustrySelector
+                  label=""
+                  industries={INDUSTRY_THREAT_PROFILES}
+                  selectedIndustryId={selectedIndustryId}
+                  onIndustryChange={setSelectedIndustryId}
+                  className="w-48"
+                />
+              </div>
               <button
                 onClick={() => apotheosisService.triggerManualRun()}
                 className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg font-medium transition-colors"
@@ -176,6 +218,47 @@ export const ApotheosisPage: React.FC = () => {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-6 py-8">
+        {/* Mode Info Banner */}
+        {currentMode && (
+          <ModeInfoBanner 
+            mode={currentMode} 
+            primeDirective={currentMode.primeDirective} 
+          />
+        )}
+        
+        {/* Industry Insight */}
+        {industryInsight && <IndustryInsight insight={industryInsight} />}
+        
+        {/* Threat Score Summary */}
+        {threatScore && (
+          <div className="mt-4 mb-6 p-4 bg-gray-800/50 border border-gray-700 rounded-lg">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold" style={{ color: currentMode?.color }}>
+                    {threatScore.score}
+                  </div>
+                  <div className="text-xs text-gray-500">Threat Score</div>
+                </div>
+                <div className="h-8 w-px bg-gray-700" />
+                <div>
+                  <div className="text-sm text-gray-300">Top Threats for {currentIndustry?.name}:</div>
+                  <div className="flex gap-2 mt-1">
+                    {threatScore.topThreats.map((threat, i) => (
+                      <span key={i} className="px-2 py-0.5 bg-red-500/20 text-red-400 text-xs rounded">
+                        {threat}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="text-sm text-gray-400">Confidence: {(threatScore.confidence * 100).toFixed(0)}%</div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {isLoading ? (
           <div className="flex items-center justify-center h-64">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-500" />
