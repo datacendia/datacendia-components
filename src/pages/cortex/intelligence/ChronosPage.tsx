@@ -2779,7 +2779,8 @@ export const ChronosPage: React.FC = () => {
       
       // Default fallback responses
       const emptyResponse = { success: true, data: [] };
-      const emptyGraphStats = { success: true, data: { entities: 0, relationships: 0, dataPoints: 0, freshness: 0 } };
+      const emptyGraphStats = { success: true, data: { entities: 0, relationships: 0, dataPoints: 0, freshness: 0, labels: [], entityTypes: [], timestamp: new Date().toISOString() } };
+      const emptyDeliberationsResponse = { success: true, data: [], deliberations: [] };
       
       try {
         // Fetch all data sources in parallel with 5s timeout each
@@ -2787,7 +2788,7 @@ export const ChronosPage: React.FC = () => {
           await Promise.all([
             withTimeout(decisionIntelApi.getChronosSnapshots(), 5000, emptyResponse),
             withTimeout(metricsApi.getMetrics(), 5000, emptyResponse),
-            withTimeout(councilApi.getAllDeliberations(100), 5000, { success: true, deliberations: [] }), // Get ALL deliberations, not just active
+            withTimeout(councilApi.getAllDeliberations(100), 5000, emptyDeliberationsResponse), // Get ALL deliberations, not just active
             withTimeout(alertsApi.getAlerts(), 5000, emptyResponse),
             withTimeout(councilApi.getRecentDecisions(50), 5000, emptyResponse),
             withTimeout(graphApi.getStats(), 5000, emptyGraphStats),

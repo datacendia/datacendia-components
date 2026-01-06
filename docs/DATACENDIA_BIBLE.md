@@ -1,7 +1,7 @@
 # THE DATACENDIA BIBLE
 ## The Definitive Guide to Enterprise AI Decision Intelligence
 
-**Version 3.2** | **December 2024 Update**
+**Version 4.0** | **January 2026 Update**
 
 ---
 
@@ -21,24 +21,27 @@
 2. [Core Philosophy](#core-philosophy)
 3. [Platform Architecture](#platform-architecture)
 4. [The Council of Agents](#the-council-of-agents)
-5. [The Three Pillars](#the-three-pillars)
-6. [Product Ecosystem](#product-ecosystem)
-7. [Enterprise Services](#enterprise-services)
-8. [Data Architecture](#data-architecture)
-9. [Security & Compliance](#security--compliance)
-10. [Deployment Models](#deployment-models)
-11. [Integration Capabilities](#integration-capabilities)
-12. [The Immutable Ledger](#the-immutable-ledger)
-13. [Sovereignty Matrix](#sovereignty-matrix) ⭐ **New**
-14. [AI Model Strategy](#ai-model-strategy)
-15. [Governance Framework](#governance-framework)
-16. [Technical Specifications](#technical-specifications)
-17. [Pricing & Packaging](#pricing--packaging) ⭐ **New**
-18. [Industry Verticals](#industry-verticals)
-19. [Appendices](#appendices)
-    - [Appendix F: 2026 Product Roadmap](#appendix-f-2026-product-roadmap) ⭐ **New**
-    - [Appendix G: Compliance Status Matrix](#appendix-g-compliance-status-matrix) ⭐ **New**
-    - [Appendix H: Performance Benchmarks](#appendix-h-performance-benchmarks) ⭐ **New**
+5. [The Core Suite](#the-core-suite) ⭐ **Restructured**
+6. [The Trust Layer](#the-trust-layer) ⭐ **Restructured**
+7. [Vertical Packs](#vertical-packs)
+8. [Additional Services](#additional-services)
+9. [Sovereign Services](#sovereign-services) ⭐ **New**
+10. [Data Architecture](#data-architecture)
+11. [Security & Compliance](#security--compliance)
+12. [Deployment Models](#deployment-models)
+13. [Integration Capabilities](#integration-capabilities)
+14. [The Immutable Ledger](#the-immutable-ledger)
+15. [Sovereignty Matrix](#sovereignty-matrix)
+16. [AI Model Strategy](#ai-model-strategy)
+17. [Governance Framework](#governance-framework)
+18. [Technical Specifications](#technical-specifications)
+19. [Pricing & Packaging](#pricing--packaging)
+20. [Industry Verticals](#industry-verticals)
+21. [Appendices](#appendices)
+    - [Appendix F: 2026 Product Roadmap](#appendix-f-2026-product-roadmap)
+    - [Appendix G: Compliance Status Matrix](#appendix-g-compliance-status-matrix)
+    - [Appendix H: Performance Benchmarks](#appendix-h-performance-benchmarks)
+    - [Appendix I: Service Logo & Description Reference](#appendix-i-service-logo--description-reference) ⭐ **New**
 
 ---
 
@@ -566,35 +569,33 @@ interface AgentConfig {
 
 ---
 
-# The Three Pillars
+# The Core Suite
 
-Datacendia organizes enterprise intelligence into three fundamental domains, each addressing a critical dimension of organizational health.
+*The "Brain" — User-facing decision tools that solve immediate business problems*
 
-## Pillar I: Strategy
+The Core Suite contains Datacendia's flagship products that executives interact with daily. These are the tools that transform how organizations make decisions.
 
-*"Know where you're going before you take the next step."*
+---
 
-### Purpose
-The Strategy Pillar focuses on long-term positioning, competitive advantage, and navigating an uncertain future. It answers the fundamental question: **Where should we go?**
+## The Council™
 
-### Components
+**Multi-Agent AI Deliberation System**
 
-#### CendiaForecast™
-**AI-Powered Predictive Analytics**
-
-Revenue forecasting, demand prediction, market trend analysis. Uses ensemble ML models combining:
-- Time series analysis (ARIMA, Prophet)
-- Machine learning (XGBoost, LSTM)
-- External signal integration
-- Scenario modeling
+The Council™ is Datacendia's flagship multi-agent deliberation engine where specialized AI agents collaborate on complex decisions. Each agent brings domain expertise—legal, financial, operational, ethical—while human stakeholders retain veto authority.
 
 **Key Capabilities:**
-- Multi-horizon forecasting (daily to 5-year)
-- Confidence intervals and uncertainty quantification
-- What-if scenario simulation
-- Anomaly detection and alerting
+- 14+ specialized AI agents with distinct perspectives
+- Worker representation via Union integration
+- Protected whistleblower channels via Dissent
+- Cryptographically signed decision packets
+- Full audit trail with evidence citations
 
-#### CendiaChronos™
+**Merged Services:** Autopilot, Voice, Union, Veto
+
+---
+
+## CendiaChronos™
+
 **Enterprise Time Machine**
 
 Navigate your organization's past and future. Every metric, every decision, every state—accessible at any point in time.
@@ -606,130 +607,317 @@ Navigate your organization's past and future. Every metric, every decision, ever
 - Monte Carlo future simulation
 - Alternate timeline comparison
 
-#### CendiaGhostBoard™
+## Ghost Board™
+
 **AI Board Rehearsal**
 
-Practice high-stakes presentations with AI-simulated board members who challenge, question, and probe—before the real meeting.
+Rehearse high-stakes board meetings against AI avatars of investors, regulators, and skeptical directors.
 
 **Key Capabilities:**
-- Customizable board personas
-- Realistic Q&A simulation
-- Weakness identification
-- Presentation scoring and feedback
+- Customizable board personas (activist investors, skeptical directors, hostile regulators)
+- Realistic Q&A simulation with personality calibration
+- Performance analytics and feedback
+- Session recording and review
 
-#### CendiaPreMortem™
+---
+
+## Pre-Mortem Engine
+
 **Structured Failure Analysis**
 
-Before executing a plan, systematically imagine it has failed. Work backward to identify what could go wrong.
+AI analyzes why your decision will fail before you execute it—surface blind spots and hidden risks.
 
 **Key Capabilities:**
-- Failure mode enumeration
-- Risk factor quantification
-- Mitigation strategy development
-- Success probability estimation
+- AI agents role-play as future historians documenting your failure
+- Cognitive bias identification
+- Ranked failure modes with mitigation strategies
+- Hidden dependency discovery
 
 ---
 
-## Pillar II: Operations
+## Decision Debt™
 
-*"Excellence in execution separates vision from reality."*
+**Real-Time Cost of Delay Dashboard**
 
-### Purpose
-The Operations Pillar focuses on day-to-day execution, efficiency, and resilience. It answers: **How do we run effectively?**
-
-### Components
-
-#### CendiaSentinel™
-**Intelligent Monitoring & Alerting**
-
-Goes beyond simple threshold alerts. Understands context, correlates signals, and provides actionable intelligence.
+Track stuck decisions and calculate the financial cost of organizational delay.
 
 **Key Capabilities:**
-- Anomaly detection with context
-- Alert correlation and deduplication
-- Root cause suggestion
-- Predictive alerting (before problems occur)
-
-#### CendiaAutopilot™
-**Self-Driving Enterprise Mode**
-
-For routine decisions within defined parameters, let AI propose and (optionally) execute actions. Humans approve or override.
-
-**Key Capabilities:**
-- Rule-based automation triggers
-- AI-recommended actions
-- Human-in-the-loop approval
-- Automatic execution with audit trail
-
-#### CendiaMesh™
-**Anonymized Industry Benchmarking**
-
-Compare your metrics against industry peers without exposing confidential data. Differential privacy ensures anonymity.
-
-**Key Capabilities:**
-- Privacy-preserving benchmarking
-- Percentile rankings by industry
-- Gap analysis and recommendations
-- Trend identification across sectors
-
-#### CendiaProcure™
-**Intelligent Procurement**
-
-AI-assisted vendor selection, contract analysis, and spend optimization.
-
-**Key Capabilities:**
-- Vendor risk scoring
-- Contract clause analysis
-- Spend pattern detection
-- Savings opportunity identification
+- Daily carrying cost calculation (opportunity cost, resource idle time)
+- Escalation triggers at debt thresholds
+- Decision aging and bottleneck identification
+- Concrete dollar figures for abstract delays
 
 ---
 
-## Pillar III: People
+# The Trust Layer
 
-*"Organizations don't decide—people do."*
+*The "Shield" — Compliance & Proof for regulated environments*
 
-### Purpose
-The People Pillar focuses on the human element: workforce intelligence, stakeholder management, and organizational culture. It answers: **Who makes this work?**
-
-### Components
-
-#### CendiaUnion™
-**Workforce Intelligence**
-
-Understand workforce dynamics, engagement, and capacity without surveillance. Aggregate insights that respect privacy.
-
-**Key Capabilities:**
-- Engagement trend analysis
-- Capacity and utilization modeling
-- Flight risk identification
-- Skills gap analysis
-
-#### CendiaPersonaForge™
-**AI Digital Twins**
-
-Create AI representations of key roles or individuals for scenario testing, training, and decision support.
-
-**Key Capabilities:**
-- Role-based persona creation
-- Realistic conversation simulation
-- Training and onboarding scenarios
-- Decision delegation testing
-
-#### CendiaVox™
-**Stakeholder Voice Aggregation**
-
-Capture and analyze stakeholder sentiment—employees, customers, partners, investors—without manual surveys.
-
-**Key Capabilities:**
-- Multi-channel sentiment collection
-- Theme and topic extraction
-- Trend analysis over time
-- Impact simulation for decisions
+The Trust Layer provides the cryptographic backbone and compliance infrastructure that makes Datacendia auditor-ready and regulator-friendly.
 
 ---
 
-# Product Ecosystem
+## CendiaOversight™
+
+**Real-Time Regulatory Radar**
+
+Monitors FDA, GDPR, DORA, and 50+ frameworks with automated policy gates.
+
+**Key Capabilities:**
+- Continuous regulatory body monitoring
+- Automatic requirement extraction from new regulations
+- Impact mapping to your operations
+- Policy gates that prevent non-compliant actions
+- Human review workflow for extracted requirements
+
+**Merged Services:** Govern, Audit, Veto, Regulatory Absorb, Panopticon
+
+---
+
+## CendiaNotary™
+
+**Cryptographic Signing Authority**
+
+Signs and authenticates all decisions with customer-owned keys.
+
+**Key Capabilities:**
+- Integration with AWS KMS, HashiCorp Vault, Azure Key Vault, or air-gapped HSMs
+- Non-repudiation (prove who decided what)
+- Tamper evidence (detect any modification)
+- Regulatory attestation for auditor signature requirements
+- Keys never leave customer infrastructure
+
+---
+
+## CendiaVault™
+
+**Unified Evidence Storage**
+
+Decision packets, audit ledgers, evidence bundles, and signed reports in one secure repository.
+
+**Key Capabilities:**
+- Tamper-evident archive with hash-chain verification
+- One-click audit package export for regulators
+- Role-based access controls (7 RBAC roles)
+- Break-glass emergency access with dual admin approval
+- Immutable storage ensuring retrieval integrity decades later
+
+---
+
+## Decision DNA™
+
+**Immutable Decision Lineage**
+
+Cryptographically signed audit packets proving who decided what, when, and why.
+
+**Key Capabilities:**
+- Complete decision context capture (participants, evidence, alternatives, dissents)
+- Merkle tree integrity verification
+- Trusted timestamp sources
+- Participant signatures
+- Irrefutable proof for auditors and regulators
+
+**Merged Services:** Ledger, Evidence Vault
+
+---
+
+## CendiaCrucible™
+
+**Adversarial Stress Testing**
+
+Attack your decisions with red teams, chaos engineering, and simulated threats.
+
+**Key Capabilities:**
+- Red team AI agents actively try to break your strategy
+- Chaos engineering simulates infrastructure failures and market shocks
+- Regulatory attack vectors test compliance posture
+- Detailed vulnerability reports with severity ratings
+- Remediation guidance for each finding
+
+**Merged Services:** RedTeam, Echo, Apotheosis
+
+---
+
+# Vertical Packs
+
+*The "Specialist" — Industry-specific configurations*
+
+Vertical Packs provide pre-configured service bundles optimized for specific industries with specialized agents, compliance frameworks, and terminology.
+
+---
+
+## CendiaGenomics™
+
+**Healthcare & Life Sciences Pack**
+
+HIPAA-compliant decisions for clinical trials, patient data, and FDA submissions.
+
+**Key Capabilities:**
+- Pre-configured for HIPAA, FDA 21 CFR Part 11, GxP
+- Specialized agents for IRB protocols, adverse event reporting
+- Decision packets meeting FDA submission requirements
+- Clinical trial optimization
+
+---
+
+## CendiaDefense™
+
+**Government & Defense Edition**
+
+FedRAMP, ITAR, and classified environment support with air-gap deployment.
+
+**Key Capabilities:**
+- Air-gapped SCIF deployment with no external dependencies
+- Pre-configured for FedRAMP High, ITAR, CMMC
+- CAC/PIV authentication support
+- Mandatory access controls and need-to-know compartmentalization
+- Classification markings and dissemination controls
+
+---
+
+## CendiaFinancial™
+
+**Banking & Financial Services Pack**
+
+Basel III, SOX, DORA compliance with trading desk integration.
+
+**Key Capabilities:**
+- Pre-configured for Basel III, Sarbanes-Oxley, DORA, MiFID II
+- Specialized agents for trading risk, credit decisions, AML/KYC
+- Integration adapters for Bloomberg, Reuters via customer credentials
+- Regulatory-ready audit trails
+
+---
+
+# Additional Services
+
+*Extended capabilities for enterprise deployments*
+
+---
+
+## CendiaOmniTranslate™
+
+**100-Language Enterprise Translator**
+
+AI-powered translation with glossary management and translation memory.
+
+**Key Capabilities:**
+- 100+ languages including RTL scripts (Arabic, Hebrew, Urdu)
+- Enterprise glossaries for consistent terminology
+- Translation memory that learns your organization's voice
+- Powered by Qwen 2.5 models via Ollama
+
+---
+
+## CendiaDissent™
+
+**Protected Whistleblower Channel**
+
+File formal dissent with retaliation monitoring and outcome tracking.
+
+**Key Capabilities:**
+- Anonymous or attributed dissent filing
+- Cryptographic anonymity options
+- Automatic retaliation monitoring
+- Outcome verification (was the dissenter right?)
+- Pattern surfacing when dissents predict failures
+
+---
+
+## Regulatory Absorb V2
+
+**Instant Regulatory Document Ingestion**
+
+Upload PDFs, extract requirements, detect conflicts automatically.
+
+**Key Capabilities:**
+- SHA-256 document provenance hashing
+- Anti-hallucination verification (confirms extracted text exists in source)
+- OCR for scanned documents via Tesseract
+- Smart chunking for 500+ page documents
+- Conflict detection between regulations
+- Human review workflow before activation
+
+---
+
+# Sovereign Services
+
+*Ultra-high-security capabilities for the most sensitive environments*
+
+---
+
+## CendiaEternal™
+
+**Ultra-Long Horizon Archive**
+
+Preserve decisions and context for 100+ years with format migration.
+
+**Key Capabilities:**
+- Full context preservation (market conditions, competitive landscape, culture)
+- Automatic format migration as technology evolves
+- Century-scale retention planning
+- Future-proof storage architecture
+
+---
+
+## CendiaSymbiont™
+
+**Partnership & Ecosystem Engine**
+
+Manage joint ventures, supplier relationships, and alliance decisions.
+
+**Key Capabilities:**
+- Shared deliberation spaces with confidentiality boundaries
+- Cross-organization commitment tracking
+- Misaligned incentive detection
+- Trust infrastructure for complex partnerships
+
+---
+
+## CendiaShadowOps™
+
+**Competitive Intelligence & Counter-Intelligence**
+
+Monitor competitor moves and detect when you're being analyzed.
+
+**Key Capabilities:**
+- Competitor patent filings, executive movements, regulatory submissions
+- Detection of intelligence gathering against your organization
+- Counter-intelligence capabilities
+- Information leak detection and channel identification
+
+---
+
+## CendiaSuccession™
+
+**Leadership Continuity**
+
+AI-powered succession planning and tacit knowledge capture from departing executives.
+
+**Key Capabilities:**
+- Structured knowledge extraction sessions
+- Decision-making heuristics capture
+- Stakeholder insights and "things I wish I'd known" wisdom
+- Succession candidate identification and development gap analysis
+
+---
+
+## CendiaSanctuary™
+
+**Crisis Bunker**
+
+Air-gapped decision-making during cyber attacks with offline deliberation.
+
+**Key Capabilities:**
+- Completely air-gapped environment for worst-case scenarios
+- Pre-staged on hardened hardware with no network interfaces
+- Local AI models for offline operation
+- QR code bridges for one-way data transfer when necessary
+- Keeps leadership functional when everything else is compromised
+
+---
+
+# Legacy Product Ecosystem
 
 ## Product Tiers
 
@@ -2285,6 +2473,59 @@ ENABLE_CUSTOM_AGENTS=true
 
 ## Appendix E: Changelog
 
+### Version 4.0.0 (January 2026)
+
+#### Major Service Consolidation
+The entire product structure has been reorganized into four clear categories:
+
+**The Core Suite (The "Brain")** — User-facing decision tools
+- **The Council™** — Multi-agent deliberation (merged: Autopilot, Voice, Union, Veto)
+- **CendiaChronos™** — Enterprise Time Machine (merged: Horizon, Cascade, Crisis, Lens)
+- **Ghost Board™** — AI board rehearsal
+- **Pre-Mortem Engine** — Failure analysis before execution
+- **Decision Debt™** — Cost of delay tracking
+
+**The Trust Layer (The "Shield")** — Compliance & Proof
+- **CendiaOversight™** — Regulatory radar (merged: Govern, Audit, Veto, Regulatory Absorb, Panopticon)
+- **CendiaNotary™** — Cryptographic signing authority (NEW)
+- **CendiaVault™** — Unified evidence storage (NEW)
+- **Decision DNA™** — Immutable lineage (merged: Ledger, Evidence Vault)
+- **CendiaCrucible™** — Adversarial stress testing (merged: RedTeam, Echo, Apotheosis)
+
+**Vertical Packs (The "Specialist")** — Industry-specific
+- **CendiaGenomics™** — Healthcare & Life Sciences
+- **CendiaDefense™** — Government & Defense
+- **CendiaFinancial™** — Banking & Financial Services
+
+**Sovereign Services** — Ultra-high-security
+- **CendiaEternal™** — 100+ year archive
+- **CendiaSymbiont™** — Partnership engine
+- **CendiaShadowOps™** — Competitive intelligence (NEW)
+- **CendiaSuccession™** — Leadership continuity (NEW)
+- **CendiaSanctuary™** — Crisis bunker (NEW)
+
+#### New Services
+- **CendiaNotary™** — KMS/HSM integration for customer-owned cryptographic signing
+- **CendiaVault™** — MinIO-based unified evidence storage with hash-chain verification
+- **CendiaShadowOps™** — Competitive intelligence and counter-intelligence
+- **CendiaSuccession™** — Tacit knowledge capture from departing executives
+- **CendiaSanctuary™** — Air-gapped crisis bunker for cyber attack scenarios
+- **Regulatory Absorb V2** — OCR support, document chunking, conflict detection
+
+#### Technical Improvements
+- Real PDF generation using pdfkit (PDF/A-3 compliant)
+- KMS integration (AWS KMS, HashiCorp Vault, Azure Key Vault, local)
+- Tesseract.js OCR for scanned regulatory documents
+- Smart document chunking for 500+ page documents
+- LLM model recommendation based on document complexity
+
+#### Documentation
+- Service logo design prompts for Runway AI (see `docs/SERVICE_LOGOS_AND_DESCRIPTIONS.md`)
+- Short and long descriptions for all 23 services
+- Brand color palette: Black (#0A0A0A), Gold (#F5A623), White (#FFFFFF)
+
+---
+
 ### Version 3.2.0 (December 2024)
 
 #### Language Architecture Clarification
@@ -2511,3 +2752,22 @@ ENABLE_CUSTOM_AGENTS=true
 ---
 
 </div>
+
+---
+
+## Appendix I: Service Logo & Description Reference
+
+For complete logo design prompts (Runway AI compatible) and marketing descriptions for all 23 services, see:
+
+**[SERVICE_LOGOS_AND_DESCRIPTIONS.md](./SERVICE_LOGOS_AND_DESCRIPTIONS.md)**
+
+This document includes:
+- Runway AI prompts for each service logo (black/gold/white theme)
+- Short descriptions (one-liner for UI/marketing)
+- Long descriptions (full paragraph for landing pages)
+- Quick reference table mapping services to visual elements
+
+**Brand Colors:**
+- Black: `#0A0A0A`
+- Gold/Yellow: `#F5A623` / `#FFD700`
+- White: `#FFFFFF`
