@@ -2684,21 +2684,38 @@ The entire product structure has been reorganized into four clear categories:
 
 ## Appendix G: Compliance Status Matrix
 
-> ⚠️ **Important:** This matrix reflects current certification status. "Designed for" indicates architecture supports compliance but certification not yet obtained.
+> ⚠️ **Important:** This matrix reflects architecture alignment, not formal certifications. Datacendia's architecture follows industry-standard security controls. **Formal certifications are available upon enterprise contract** when customer requirements justify the investment.
 
 | Framework | Status | Notes |
 |-----------|--------|-------|
-| **SOC 2 Type II** | 🟡 Designed for | Architecture compliant; audit scheduled Q2 2026 |
-| **FedRAMP Moderate** | 🟡 Designed for | SCIF-ready architecture; authorization in progress |
-| **FedRAMP High** | 🔴 Roadmap | Requires Moderate first; target Q4 2026 |
-| **HIPAA** | 🟡 Designed for | BAA template available; technical controls implemented |
-| **ITAR** | 🔴 Roadmap | Requires State Dept registration; target 2027 |
-| **21 CFR Part 11** | 🟡 Designed for | Audit trail, e-signatures, access controls implemented |
-| **GDPR** | 🟢 Compliant | Data residency, right to deletion, consent management |
-| **ISO 27001** | 🟡 In Progress | Certification expected Q1 2026 |
-| **PCI DSS** | 🟡 Designed for | No card data stored; architecture supports if needed |
+| **SOC 2 Type II** | 🟡 Architecture Aligned | Controls implemented; formal audit available on enterprise contract |
+| **ISO 27001** | 🟡 Architecture Aligned | ISMS controls in place; certification available on contract |
+| **HIPAA** | 🟡 Architecture Aligned | BAA available; technical safeguards implemented |
+| **GDPR** | 🟢 Compliant | DPA available; data residency controls; right to deletion |
+| **FedRAMP** | 🟡 Architecture Supports | Available for government contracts that fund authorization |
+| **21 CFR Part 11** | 🟡 Architecture Aligned | Audit trail, e-signatures, access controls implemented |
+| **PCI DSS** | ⚪ Not Applicable | No payment card data processed |
+| **ITAR** | 🔴 Future | Requires State Dept registration; available on defense contract |
 
-**Legend:** 🟢 Certified | 🟡 Designed for / In Progress | 🔴 Roadmap
+**Legend:** 🟢 Compliant | 🟡 Architecture Aligned (certification on contract) | 🔴 Future | ⚪ N/A
+
+### Compliance Documentation Available
+
+| Document | Description | Access |
+|----------|-------------|--------|
+| [Security Whitepaper](./compliance/SECURITY_WHITEPAPER.md) | Architecture, encryption, access controls | Public |
+| [SOC 2 Self-Assessment](./compliance/SOC2_READINESS_SELF_ASSESSMENT.md) | Trust Service Criteria alignment | On request |
+| [HIPAA Self-Assessment](./compliance/HIPAA_SELF_ASSESSMENT.md) | Security Rule alignment | On request |
+| [CIS Controls Assessment](./compliance/CIS_CONTROLS_SELF_ASSESSMENT.md) | CIS v8 implementation status | On request |
+| [Data Processing Agreement](./compliance/DATA_PROCESSING_AGREEMENT.md) | GDPR-compliant DPA template | On request |
+| [Vulnerability Disclosure Policy](./compliance/VULNERABILITY_DISCLOSURE_POLICY.md) | Responsible disclosure guidelines | Public |
+
+### Our Approach to Compliance
+
+1. **Architecture First**: We implement security controls that align with major frameworks
+2. **Documentation Ready**: Self-assessments and control mappings available for customer review
+3. **Certification on Demand**: Formal audits (SOC 2, ISO 27001) available when enterprise contracts justify the investment
+4. **Customer Security Reviews**: We support customer-led security assessments and penetration tests
 
 ---
 
