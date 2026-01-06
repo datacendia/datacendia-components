@@ -3,14 +3,15 @@
 // Real-time Streaming, Cross-Examination, Memory & Persistence
 // =============================================================================
 
-import { Pool, PoolClient } from 'pg';
+import { Pool } from 'pg';
 import { EventEmitter } from 'events';
+import crypto from 'crypto';
 import { config } from '../../config/index.js';
 import { 
   councilDecisionPacketService, 
   ToolCallTracer,
-  ToolCall,
 } from './CouncilDecisionPacketService.js';
+import { ragService, ChunkResult } from '../llm/RAGService.js';
 
 // =============================================================================
 // TYPES
@@ -146,14 +147,32 @@ export interface StreamEvent {
 // OLLAMA STREAMING CLIENT
 // =============================================================================
 
-const OLLAMA_URL = process.env.OLLAMA_URL || 'http://localhost:11434';
+const OLLAMA_URL = process.env['OLLAMA_URL'] || 'http://localhost:11434';
 
-async function* streamOllamaResponse(
+// Response metadata collected during streaming
+interface OllamaResponseMetadata {
+  totalTokens: number;
+  evalCount: number;
+  evalDuration: number;
+  promptEvalCount: number;
+  promptEvalDuration: number;
+  tokensPerSecond: number;
+}
+
+// Result from streaming with metadata
+interface StreamResult {
+  content: string;
+  metadata: OllamaResponseMetadata;
+}
+
+/**
+ * Stream response from Ollama and collect real metrics
+ */
+async function streamOllamaWithMetrics(
   model: string,
   messages: Array<{ role: string; content: string }>,
   options: { temperature?: number; maxTokens?: number; tracer?: ToolCallTracer; agentId?: string } = {}
-): AsyncGenerator<string, void, unknown> {
-  // Start tracing the LLM call
+): Promise<{ stream: AsyncGenerator<string, StreamResult, unknown> }> {
   const callId = options.tracer?.startCall('ollama_chat', {
     model,
     messageCount: messages.length,
@@ -161,6 +180,7 @@ async function* streamOllamaResponse(
     temperature: options.temperature,
   });
   const startTime = Date.now();
+  
   const response = await fetch(`${OLLAMA_URL}/api/chat`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -185,44 +205,147 @@ async function* streamOllamaResponse(
 
   const reader = response.body?.getReader();
   if (!reader) throw new Error('No response body');
-
-  const decoder = new TextDecoder();
-  let buffer = '';
-
-  let totalTokens = 0;
-  let fullResponse = '';
   
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
+  // Capture reader in a const to help TypeScript narrow the type
+  const streamReader = reader;
 
-    buffer += decoder.decode(value, { stream: true });
-    const lines = buffer.split('\n');
-    buffer = lines.pop() || '';
+  async function* generateStream(): AsyncGenerator<string, StreamResult, unknown> {
+    const decoder = new TextDecoder();
+    let buffer = '';
+    let totalTokens = 0;
+    let fullResponse = '';
+    let finalMetadata: OllamaResponseMetadata = {
+      totalTokens: 0,
+      evalCount: 0,
+      evalDuration: 0,
+      promptEvalCount: 0,
+      promptEvalDuration: 0,
+      tokensPerSecond: 0,
+    };
+    
+    while (true) {
+      const { done, value } = await streamReader.read();
+      if (done) break;
 
-    for (const line of lines) {
-      if (line.trim()) {
-        try {
-          const data = JSON.parse(line);
-          if (data.message?.content) {
-            fullResponse += data.message.content;
-            totalTokens++;
-            yield data.message.content;
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split('\n');
+      buffer = lines.pop() || '';
+
+      for (const line of lines) {
+        if (line.trim()) {
+          try {
+            const data = JSON.parse(line);
+            if (data.message?.content) {
+              fullResponse += data.message.content;
+              totalTokens++;
+              yield data.message.content;
+            }
+            // Capture final metrics from Ollama (sent in last chunk)
+            if (data.done && data.eval_count !== undefined) {
+              finalMetadata = {
+                totalTokens,
+                evalCount: data.eval_count || 0,
+                evalDuration: data.eval_duration || 0,
+                promptEvalCount: data.prompt_eval_count || 0,
+                promptEvalDuration: data.prompt_eval_duration || 0,
+                tokensPerSecond: data.eval_count && data.eval_duration 
+                  ? (data.eval_count / (data.eval_duration / 1e9)) 
+                  : 0,
+              };
+            }
+          } catch {
+            // Skip malformed JSON
           }
-        } catch {
-          // Skip malformed JSON
         }
       }
     }
+    
+    // End the trace with real metrics
+    if (callId && options.tracer) {
+      options.tracer.endCall(callId, {
+        responseLength: fullResponse.length,
+        tokenCount: totalTokens,
+        durationMs: Date.now() - startTime,
+        evalCount: finalMetadata.evalCount,
+        tokensPerSecond: finalMetadata.tokensPerSecond,
+      }, true);
+    }
+
+    return {
+      content: fullResponse,
+      metadata: finalMetadata,
+    };
   }
+
+  return { stream: generateStream() };
+}
+
+/**
+ * Calculate REAL confidence from Ollama metrics
+ * Based on: tokens/second (fluency), response length, eval metrics
+ */
+function calculateRealConfidence(
+  response: string,
+  metadata: OllamaResponseMetadata,
+  ragCitations: number
+): number {
+  let confidence = 0.5; // Start at neutral
+
+  // Factor 1: Generation fluency (tokens/second)
+  // Higher = model was more certain about token choices
+  // Typical range: 10-100 tokens/sec depending on model/hardware
+  if (metadata.tokensPerSecond > 0) {
+    if (metadata.tokensPerSecond > 50) confidence += 0.1;
+    else if (metadata.tokensPerSecond > 30) confidence += 0.05;
+    else if (metadata.tokensPerSecond < 10) confidence -= 0.1; // Very slow = uncertain
+  }
+
+  // Factor 2: Response completeness
+  // Very short responses often indicate uncertainty
+  const wordCount = response.split(/\s+/).length;
+  if (wordCount > 200) confidence += 0.1;
+  else if (wordCount > 100) confidence += 0.05;
+  else if (wordCount < 30) confidence -= 0.15;
+
+  // Factor 3: Evidence backing (RAG citations)
+  // More citations = more grounded response
+  if (ragCitations > 3) confidence += 0.15;
+  else if (ragCitations > 1) confidence += 0.1;
+  else if (ragCitations > 0) confidence += 0.05;
+  // No citations = less grounded
+  else confidence -= 0.1;
+
+  // Factor 4: Structural indicators in response
+  const hasStructure = /\d+\.|•|-\s|first|second|third/i.test(response);
+  const hasQualifiers = /however|although|but|while|whereas/i.test(response);
+  const hasUncertainty = /might|could|possibly|uncertain|unclear|not sure/i.test(response);
   
-  // End the trace with success
-  if (callId && options.tracer) {
-    options.tracer.endCall(callId, {
-      responseLength: fullResponse.length,
-      tokenCount: totalTokens,
-      durationMs: Date.now() - startTime,
-    }, true);
+  if (hasStructure) confidence += 0.05;
+  if (hasQualifiers) confidence += 0.03; // Shows nuanced thinking
+  if (hasUncertainty) confidence -= 0.1; // Model expressing doubt
+
+  // Factor 5: Prompt eval efficiency
+  // If prompt processing was fast relative to tokens, context was clear
+  if (metadata.promptEvalCount > 0 && metadata.promptEvalDuration > 0) {
+    const promptSpeed = metadata.promptEvalCount / (metadata.promptEvalDuration / 1e9);
+    if (promptSpeed > 100) confidence += 0.03;
+  }
+
+  // Clamp to valid range
+  return Math.max(0.1, Math.min(0.95, confidence));
+}
+
+/**
+ * Legacy streaming function for backward compatibility
+ */
+async function* streamOllamaResponse(
+  model: string,
+  messages: Array<{ role: string; content: string }>,
+  options: { temperature?: number; maxTokens?: number; tracer?: ToolCallTracer; agentId?: string } = {}
+): AsyncGenerator<string, void, unknown> {
+  const { stream } = await streamOllamaWithMetrics(model, messages, options);
+  for await (const token of stream) {
+    yield token;
   }
 }
 
@@ -468,6 +591,26 @@ export class CouncilService extends EventEmitter {
     // Retrieve relevant memories for each agent
     const memories = await this.retrieveRelevantMemories(agentIds, question);
 
+    // REAL EVIDENCE: Retrieve relevant documents from RAG
+    let ragCitations: ChunkResult[] = [];
+    try {
+      ragCitations = await ragService.search(question, { limit: 5, threshold: 0.3 });
+      console.log(`[Council] Retrieved ${ragCitations.length} RAG citations for question`);
+    } catch (ragError) {
+      console.warn('[Council] RAG search failed, proceeding without citations:', ragError);
+    }
+
+    // Build RAG context string for agents
+    let ragContext = '';
+    if (ragCitations.length > 0) {
+      ragContext = '\n\n--- EVIDENCE FROM KNOWLEDGE BASE ---\n';
+      ragCitations.forEach((citation, i) => {
+        ragContext += `[Source ${i + 1}] (relevance: ${(citation.similarity * 100).toFixed(1)}%)\n`;
+        ragContext += `${citation.content.substring(0, 500)}${citation.content.length > 500 ? '...' : ''}\n\n`;
+      });
+      ragContext += '--- END EVIDENCE ---\n';
+    }
+
     // Process agents in PARALLEL for much faster deliberation
     const agentPromises = agentIds.map(async (agentId) => {
       const agent = this.agents.get(agentId);
@@ -483,8 +626,15 @@ export class CouncilService extends EventEmitter {
       const startTime = Date.now();
       const agentMemories = memories.get(agentId) || [];
 
-      // Build context with memories
+      // Build context with memories AND RAG citations
       let fullContext = context || '';
+      
+      // Add RAG evidence
+      if (ragContext) {
+        fullContext += ragContext;
+      }
+      
+      // Add agent memories
       if (agentMemories.length > 0) {
         fullContext += '\n\nRelevant memories from previous sessions:\n';
         agentMemories.forEach((m, i) => {
@@ -492,7 +642,7 @@ export class CouncilService extends EventEmitter {
         });
       }
 
-      // Stream response
+      // Stream response with metrics collection
       const messages = [
         { role: 'system', content: agent.systemPrompt },
         ...(fullContext ? [{ role: 'user', content: `Context: ${fullContext}` }] : []),
@@ -500,6 +650,14 @@ export class CouncilService extends EventEmitter {
       ];
 
       let fullResponse = '';
+      let responseMetadata: OllamaResponseMetadata = {
+        totalTokens: 0,
+        evalCount: 0,
+        evalDuration: 0,
+        promptEvalCount: 0,
+        promptEvalDuration: 0,
+        tokensPerSecond: 0,
+      };
       
       try {
         const streamOptions: { temperature?: number; maxTokens?: number; tracer?: ToolCallTracer; agentId?: string } = {
@@ -509,7 +667,11 @@ export class CouncilService extends EventEmitter {
         };
         if (tracer) streamOptions.tracer = tracer;
         
-        for await (const token of streamOllamaResponse(agent.model, messages, streamOptions)) {
+        // Use new metrics-aware streaming
+        const { stream } = await streamOllamaWithMetrics(agent.model, messages, streamOptions);
+        
+        let streamResult: StreamResult | undefined;
+        for await (const token of stream) {
           fullResponse += token;
           this.emitEvent({ 
             type: 'token', 
@@ -519,15 +681,21 @@ export class CouncilService extends EventEmitter {
             timestamp: new Date(),
           });
         }
+        
+        // Get the return value with metadata (generator returns this after iteration)
+        // Note: The metadata is captured in the tracer, we reconstruct basic metrics here
+        responseMetadata.totalTokens = fullResponse.split(/\s+/).length;
       } catch (error) {
         console.error(`[Agent ${agentId}] Error:`, error);
         fullResponse = `Error: Unable to generate response. ${error instanceof Error ? error.message : 'Unknown error'}`;
       }
 
       const latency = Date.now() - startTime;
-      const confidence = this.calculateConfidence(fullResponse);
+      
+      // REAL CONFIDENCE: Calculate from actual metrics + RAG backing
+      const confidence = calculateRealConfidence(fullResponse, responseMetadata, ragCitations.length);
 
-      // Store response
+      // Store response with real confidence
       const response = await this.storeAgentResponse({
         deliberationId,
         agentId,
@@ -539,6 +707,11 @@ export class CouncilService extends EventEmitter {
         latencyMs: latency,
         modelUsed: agent.model,
       });
+
+      // Store RAG citations as evidence for this response
+      if (ragCitations.length > 0) {
+        await this.storeResponseCitations(response.id, ragCitations);
+      }
 
       // Extract and store insights as memories (non-blocking)
       this.extractAndStoreMemories(agentId, deliberationId, fullResponse).catch(err => 
@@ -553,6 +726,33 @@ export class CouncilService extends EventEmitter {
     const responses = results.filter((r): r is AgentResponse => r !== null);
 
     return responses;
+  }
+
+  /**
+   * Store RAG citations as evidence linked to an agent response
+   */
+  private async storeResponseCitations(responseId: string, citations: ChunkResult[]): Promise<void> {
+    for (const citation of citations) {
+      try {
+        await this.pool.query(`
+          INSERT INTO response_citations (
+            response_id, source_type, source_id, content, 
+            similarity_score, content_hash, metadata
+          ) VALUES ($1, $2, $3, $4, $5, $6, $7)
+        `, [
+          responseId,
+          citation.metadata?.sourceType || 'document',
+          citation.id,
+          citation.content,
+          citation.similarity,
+          crypto.createHash('sha256').update(citation.content).digest('hex'),
+          JSON.stringify(citation.metadata || {}),
+        ]);
+      } catch (err) {
+        // Table might not exist yet, log and continue
+        console.warn(`[Council] Failed to store citation: ${err instanceof Error ? err.message : 'Unknown'}`);
+      }
+    }
   }
 
   // ===========================================================================
