@@ -2184,7 +2184,8 @@ These 4 verticals represent **90% of vertical AI spend**.^[1] Full sales, market
 |----------|-------------|---------|---------------|--------|
 | 🏥 **Healthcare** | 43% ($1.5B)^[1] | HIPAA sovereignty, CMS AI rules | 34% faster discharge decisions | Methodist Health pilot, Q3 2025^[2] |
 | 💰 **Financial Services** | 16% ($560M)^[1] | Basel III, CFPB 1071 deadline | 40% fraud reduction | Regional bank ($2B assets), Q2 2025^[2] |
-| 🏛️ **Government & Legal** | 19% ($665M)^[1] | EU AI Act, FedRAMP mandates | 60% faster contract review | Federal agency pilot, Q3 2025^[2] |
+| ⚖️ **Legal / Law Firms** | 10% ($350M)^[1] | ABA Model Rules, privilege preservation | 40% faster due diligence | AmLaw 100 pilot, Q1 2026^[2] |
+| 🏛️ **Government** | 9% ($315M)^[1] | EU AI Act, FedRAMP mandates | 60% faster contract review | Federal agency pilot, Q3 2025^[2] |
 | 💊 **Pharmaceutical** | 12% ($420M)^[1] | FDA AI guidance, 21 CFR Part 11 | 31% faster Phase II decisions | Mid-cap biotech, Q2 2025^[2] |
 
 ## Growth Verticals (Platform Available)
@@ -2571,7 +2572,7 @@ The entire product structure has been reorganized into four clear categories:
 - **CendiaApotheosis™** — Self-improving AI with nightly red-teaming
 
 #### Industry Verticals (24 Total)
-- **Core (7):** Financial, Healthcare, Manufacturing, Technology, Energy, Government, Legal
+- **Core (7):** Financial, Healthcare, Legal, Government, Manufacturing, Technology, Energy
 - **High-Value (10):** Retail, Real Estate, Telecom, Hospitality, Education, Media, Agriculture, Logistics, Insurance, Non-Profit
 - **Specialized (6):** Construction, Mining, Aerospace, Pharmaceuticals, Automotive, Sports
 - **Custom:** Build your own service bundle

@@ -14,7 +14,8 @@ We orchestrate multi-agent deliberations, ensure regulatory compliance, and crea
 
 ---
 
-**Document Info:** Generated December 13, 2025 | Platform v2.0 | Auto-updated via CendiaEternal™
+**Document Info:** Generated January 7, 2026 | Platform v2.2 | Auto-updated via CendiaEternal™  
+**Total Council Modes:** 400+ | **Total AI Agents:** 200+ | **Verticals:** 17 GA
 
 ---
 
@@ -24,7 +25,7 @@ We orchestrate multi-agent deliberations, ensure regulatory compliance, and crea
 
 | Question | Answer |
 |----------|--------|
-| **What is it?** | AI platform where 14+ specialized agents deliberate on business decisions |
+| **What is it?** | AI platform where 200+ specialized agents deliberate on business decisions across 400+ council modes |
 | **What problem?** | Enterprises can't defend AI-assisted decisions to regulators, boards, or auditors |
 | **How different?** | Runs air-gapped on your infrastructure; creates immutable audit trail |
 | **Who buys?** | Regulated industries: Healthcare, Banking, Insurance, Pharma, Government |
@@ -36,7 +37,7 @@ We orchestrate multi-agent deliberations, ensure regulatory compliance, and crea
 | Dimension | AI Copilots | Datacendia |
 |-----------|-------------|------------|
 | **Purpose** | Draft emails, answer questions | Make $10M decisions with audit trail |
-| **Architecture** | Single model | 14+ agents deliberating |
+| **Architecture** | Single model | 200+ agents deliberating across 400+ council modes |
 | **Compliance** | You verify manually | 50+ frameworks auto-tracked |
 | **Data** | Cloud-required | Air-gapped sovereign |
 | **Accountability** | "AI said so" | Full chain-of-thought ledger |
@@ -70,14 +71,15 @@ Healthcare alone represents **43% of vertical AI spend**. We focus where budgets
 
 ## 🎯 PRIORITY VERTICALS (Full GTM — Now)
 
-**These 4 verticals represent 90% of vertical AI spend.** Full sales, marketing, and product resources allocated.
+**These 5 verticals represent 90% of vertical AI spend.** Full sales, marketing, and product resources allocated.
 
 | # | Vertical | Market Share | Why Now | Pilot Metrics |
 |---|----------|-------------|---------|---------------|
 | 1 | 🏥 **Healthcare** | 43% ($1.5B) | HIPAA sovereignty, CMS AI rules | **34% faster discharge decisions** — Methodist Health pilot  |
 | 2 | 💰 **Financial Services** | 16% ($560M) | Basel III, CFPB 1071 deadline | **40% fraud reduction** — Regional bank  |
-| 3 | 🏛️ **Government & Legal** | 19% ($665M) | EU AI Act, FedRAMP mandates | **60% faster contract review** — Federal agency |
-| 4 | 💊 **Pharmaceutical** | 12% ($420M) | FDA AI guidance, 21 CFR Part 11 | **31% faster Phase II decisions** — Biotech  |
+| 3 | ⚖️ **Legal / Law Firms** | 10% ($350M) | ABA Model Rules, privilege preservation | **40% faster due diligence** — AmLaw 100 pilot ⭐ **NEW** |
+| 4 | 🏛️ **Government** | 9% ($315M) | EU AI Act, FedRAMP mandates | **60% faster contract review** — Federal agency |
+| 5 | 💊 **Pharmaceutical** | 12% ($420M) | FDA AI guidance, 21 CFR Part 11 | **31% faster Phase II decisions** — Biotech  |
 
 ## 📈 GROWTH VERTICALS (Platform Available — Limited GTM)
 
@@ -85,9 +87,9 @@ Healthcare alone represents **43% of vertical AI spend**. We focus where budgets
 
 | # | Vertical | Status | Early Results |
 |---|----------|--------|---------------|
-| 5 | 🛡️ **Insurance** | GA | 29% loss ratio improvement — P&C carrier pilot |
-| 6 | 🏭 **Manufacturing** | GA | 23% inventory reduction ($1.4M freed) — Auto supplier |
-| 7 | ⚡ **Energy & Utilities** | GA | 45% faster rate case prep — IOU  |
+| 6 | 🛡️ **Insurance** | GA | 29% loss ratio improvement — P&C carrier pilot |
+| 7 | 🏭 **Manufacturing** | GA | 23% inventory reduction ($1.4M freed) — Auto supplier |
+| 8 | ⚡ **Energy & Utilities** | GA | 45% faster rate case prep — IOU  |
 
 ## 🔜 ROADMAP VERTICALS (H1 2026)
 
@@ -97,11 +99,11 @@ Healthcare alone represents **43% of vertical AI spend**. We focus where budgets
 
 | # | Vertical | Target GA | Design Partners | Status |
 |---|----------|-----------|-----------------|--------|
-| 8 | 💻 Technology / SaaS | Q1 2026 | 4 active | Core agents complete, overlays in dev |
-| 9 | 🛒 Retail & Hospitality | Q1 2026 | 2 active | Pricing agents complete |
-| 10 | 📡 Telecommunications | Q2 2026 | 3 active | Network optimization in design |
-| 11 | 🌾 Agriculture & Food | Q2 2026 | 2 active | Supply chain agents in design |
-| 12 | 💳 Consumer Fintech | Q2 2026 | 4 active | Lending agents in beta |
+| 9 | 💻 Technology / SaaS | Q1 2026 | 4 active | Core agents complete, overlays in dev |
+| 10 | 🛒 Retail & Hospitality | Q1 2026 | 2 active | Pricing agents complete |
+| 11 | 📡 Telecommunications | Q2 2026 | 3 active | Network optimization in design |
+| 12 | 🌾 Agriculture & Food | Q2 2026 | 2 active | Supply chain agents in design |
+| 13 | 💳 Consumer Fintech | Q2 2026 | 4 active | Lending agents in beta |
 
 *Want early access to a roadmap vertical? Join design partner program: partners@datacendia.com*
 
@@ -154,9 +156,10 @@ Industries with highest vertical AI spend, regulatory urgency, and proven ROI:
 |---|----------|-------------------|--------------|
 | 1 | 🏥 **Healthcare** | $650M+ vertical AI spend | HIPAA sovereignty mandate, CMS AI transparency rules |
 | 2 | 💰 **Financial Services** | Basel III Endgame, CFPB 1071 | Highest regulatory pressure, fastest compliance ROI |
-| 3 | 🏛️ **Government / Legal** | EU AI Act, FedRAMP mandates | Sovereign AI requirements, $650M legal AI market |
-| 4 | 🛡️ **Insurance** | State-by-state complexity | 50+ regulatory jurisdictions, underwriting speed critical |
-| 5 | 💊 **Pharmaceutical** | 21 CFR Part 11, FDA AI guidance | Pipeline decisions = $4M+/month at stake |
+| 3 | ⚖️ **Legal / Law Firms** | $350M legal AI market | ABA Model Rules, privilege preservation, 14 specialized agents ⭐ **NEW** |
+| 4 | 🏛️ **Government** | EU AI Act, FedRAMP mandates | Sovereign AI requirements, air-gapped deployment |
+| 5 | 🛡️ **Insurance** | State-by-state complexity | 50+ regulatory jurisdictions, underwriting speed critical |
+| 6 | 💊 **Pharmaceutical** | 21 CFR Part 11, FDA AI guidance | Pipeline decisions = $4M+/month at stake |
 
 ## 📈 TIER 2: GROWTH MARKETS (GA Now)
 
@@ -164,20 +167,20 @@ Strong adoption with clear ROI, full platform available:
 
 | # | Vertical | Status |
 |---|----------|--------|
-| 6 | 🏭 **Manufacturing** | Supply chain + OT security demand |
-| 7 | ⚡ **Energy & Utilities** | NERC CIP + renewable transition |
-| 8 | 💻 **Technology / SaaS** | Product velocity, AI governance |
-| 9 | 🛒 **Retail & Hospitality** | Pricing velocity, RevPAR optimization |
+| 7 | 🏭 **Manufacturing** | Supply chain + OT security demand |
+| 8 | ⚡ **Energy & Utilities** | NERC CIP + renewable transition |
+| 9 | 💻 **Technology / SaaS** | Product velocity, AI governance |
+| 10 | 🛒 **Retail & Hospitality** | Pricing velocity, RevPAR optimization |
 
-## 🔜 TIER 3: COMING SOON (Q2 2025)
+## 🔜 TIER 3: COMING SOON (Q2 2026)
 
 Vertical agents in development, platform available with core capabilities:
 
 | # | Vertical | Target GA | Notes |
 |---|----------|-----------|-------|
-| 10 | 📡 **Telecommunications** | Q2 2025 | Network optimization, churn prediction |
-| 11 | 🌾 **Agriculture & Food** | Q2 2025 | Supply chain, commodity decisions |
-| 12 | 💳 **Consumer Finance / Fintech** | Q2 2025 | Distinct from enterprise banking |
+| 11 | 📡 **Telecommunications** | Q2 2026 | Network optimization, churn prediction |
+| 12 | 🌾 **Agriculture & Food** | Q2 2026 | Supply chain, commodity decisions |
+| 13 | 💳 **Consumer Finance / Fintech** | Q2 2026 | Distinct from enterprise banking |
 
 *Interested in a Coming Soon vertical? Contact us for early access program.*
 
@@ -188,28 +191,29 @@ Vertical agents in development, platform available with core capabilities:
 ## Tier 1: Priority Focus
 1. [🏥 Healthcare / Health Systems](#1--healthcare--health-systems) ⭐ **Priority**
 2. [💰 Financial Services / Banking](#2--financial-services--banking) ⭐ **Priority**
-3. [🏛️ Government & Legal Services](#3--government--legal-services) ⭐ **Priority**
-4. [🛡️ Insurance](#4--insurance) ⭐ **Priority**
-5. [💊 Pharmaceutical / Biotech](#5--pharmaceutical--biotech) ⭐ **Priority**
+3. [⚖️ Legal / Law Firms](#3--legal--law-firms) ⭐ **Priority** ⭐ **NEW**
+4. [🏛️ Government](#4--government) ⭐ **Priority**
+5. [🛡️ Insurance](#5--insurance) ⭐ **Priority**
+6. [💊 Pharmaceutical / Biotech](#6--pharmaceutical--biotech) ⭐ **Priority**
 
 ## Tier 2: Growth Markets
-6. [🏭 Manufacturing](#6--manufacturing)
-7. [⚡ Energy & Utilities](#7--energy--utilities)
-8. [💻 Technology / SaaS](#8--technology--saas)
-9. [🛒 Retail & Hospitality](#9--retail--hospitality)
+7. [🏭 Manufacturing](#7--manufacturing)
+8. [⚡ Energy & Utilities](#8--energy--utilities)
+9. [💻 Technology / SaaS](#9--technology--saas)
+10. [🛒 Retail & Hospitality](#10--retail--hospitality)
 
 ## Tier 2: Growth Markets (Continued)
-10. [🏗️ Real Estate / Construction](#10--real-estate--construction)
-11. [🚚 Transportation / Logistics](#11--transportation--logistics)
-12. [🎬 Media / Entertainment](#12--media--entertainment)
-13. [💼 Professional Services](#13--professional-services)
-14. [🎓 Higher Education](#14--higher-education)
-15. [🏟️ Sports / Athletics](#15--sports--athletics)
+11. [🏗️ Real Estate / Construction](#11--real-estate--construction)
+12. [🚚 Transportation / Logistics](#12--transportation--logistics)
+13. [🎬 Media / Entertainment](#13--media--entertainment)
+14. [💼 Professional Services](#14--professional-services)
+15. [🎓 Higher Education](#15--higher-education)
+16. [🏟️ Sports / Athletics](#16--sports--athletics)
 
 ## Tier 3: Coming Soon
-16. [📡 Telecommunications](#16--telecommunications) 🔜
-17. [🌾 Agriculture & Food](#17--agriculture--food) 🔜
-18. [💳 Consumer Finance / Fintech](#18--consumer-finance--fintech) 🔜
+17. [📡 Telecommunications](#17--telecommunications) 🔜
+18. [🌾 Agriculture & Food](#18--agriculture--food) 🔜
+19. [💳 Consumer Finance / Fintech](#19--consumer-finance--fintech) 🔜
 
 ---
 
@@ -238,7 +242,7 @@ Vertical agents in development, platform available with core capabilities:
 | **Entry Price** | $60k–$150k | $100k–$500k+ | $200k–$1M+ |
 | **Time to Value** | 2–4 weeks | 3–6 months | 6–18 months |
 | **Sovereignty** | ✅ Full air-gap | ❌ Cloud-dependent | ❌ Data leaves premises |
-| **AI Council** | ✅ 14+ agents included | ❌ Single-model | ❌ Human consultants |
+| **AI Council** | ✅ 200+ agents, 400+ modes | ❌ Single-model | ❌ Human consultants |
 | **Compliance Built-In** | ✅ 50+ frameworks | ⚠️ Add-on modules | ❌ Manual process |
 
 **Key Differentiator:** *No competitor offers air-gapped sovereign AI at this price point. Our SCIF-ready deployment meets 2025 EU AI Act sovereignty mandates that others cannot.*
@@ -253,9 +257,10 @@ Vertical agents in development, platform available with core capabilities:
 |---|----------|--------------|------------|-----------|------------|-------------|
 | 1 | 🏥 **Healthcare** | $100k–$12M | $10M+ revenue | HIPAA-ready clinical decisions | **27% cost reduction** | 🔒 100% |
 | 2 | 💰 **Financial Services** | $120k–$8M | $25M+ revenue | Fraud & regulatory intelligence | **34% efficiency gain** | 🔒 98% |
-| 3 | 🏛️ **Government & Legal** | $150k–$25M | Agency/State | Policy, procurement, contracts | **38% acceleration** | 🔒 100% |
-| 4 | 🛡️ **Insurance** | $100k–$10M | $20M+ premium | Underwriting & claims optimization | **29% loss ratio** | 🔒 92% |
-| 5 | 💊 **Pharmaceutical** | $150k–$15M | $50M+ revenue | Pipeline & regulatory acceleration | **31% faster trials** | 🔒 95% |
+| 3 | ⚖️ **Legal / Law Firms** | $35k–$750k | AmLaw 200 | Privilege-preserving AI, case law | **40% faster DD** | 🔒 100% |
+| 4 | 🏛️ **Government** | $150k–$25M | Agency/State | Policy, procurement, contracts | **38% acceleration** | 🔒 100% |
+| 5 | 🛡️ **Insurance** | $100k–$10M | $20M+ premium | Underwriting & claims optimization | **29% loss ratio** | 🔒 92% |
+| 6 | 💊 **Pharmaceutical** | $150k–$15M | $50M+ revenue | Pipeline & regulatory acceleration | **31% faster trials** | 🔒 95% |
 
 ## Tier 2: Growth Verticals
 
@@ -1598,7 +1603,8 @@ For nation-scale requirements:
 |------|----------|---------|------------|------------|-------------|
 | ⭐ 1 | 🏥 Healthcare | $100k | $12M+ | 27% cost reduction | 🔒 100% |
 | ⭐ 1 | 💰 Financial Services | $120k | $8M+ | 34% efficiency | 🔒 98% |
-| ⭐ 1 | 🏛️ Government & Legal | $150k | $25M+ | 38% acceleration | 🔒 100% |
+| ⭐ 1 | ⚖️ Legal / Law Firms | $35k | $750k+ | 40% faster DD | 🔒 100% |
+| ⭐ 1 | 🏛️ Government | $150k | $25M+ | 38% acceleration | 🔒 100% |
 | ⭐ 1 | 🛡️ Insurance | $100k | $10M+ | 29% loss ratio | 🔒 92% |
 | ⭐ 1 | 💊 Pharmaceutical | $150k | $15M+ | 31% faster trials | 🔒 95% |
 | 2 | 🏭 Manufacturing | $80k | $8M+ | 23% inventory | 🔒 88% |
@@ -1735,7 +1741,7 @@ Need a formal proposal? Download our RFP template: [datacendia.com/rfp-template]
 │                                                                             │
 │  2024 Q4 ════════════════════════════════════════════════════════════════  │
 │  ✅ WAVE 1 (GA) — Priority Verticals                                        │
-│     Healthcare • Financial Services • Government/Legal                      │
+│     Healthcare • Financial Services • Legal • Government                    │
 │     Insurance • Pharmaceutical                                              │
 │                                                                             │
 │  2025 Q1 ════════════════════════════════════════════════════════════════  │
@@ -1771,7 +1777,8 @@ Need a formal proposal? Download our RFP template: [datacendia.com/rfp-template]
 |----------|---------|------------|-------------|-------------------|
 | 🏥 **Healthcare** | $100k–$12M | 27% cost reduction | 🔒 100% | HIPAA-native, clinical AI |
 | 💰 **Financial Services** | $120k–$8M | 34% efficiency | 🔒 98% | Basel III, CFPB 1071 ready |
-| 🏛️ **Government & Legal** | $150k–$25M | 38% acceleration | 🔒 100% | FedRAMP, SCIF-ready |
+| ⚖️ **Legal / Law Firms** | $35k–$750k | 40% faster DD | 🔒 100% | ABA Model Rules, privilege |
+| 🏛️ **Government** | $150k–$25M | 38% acceleration | 🔒 100% | FedRAMP, SCIF-ready |
 | 🛡️ **Insurance** | $100k–$10M | 29% loss ratio | 🔒 92% | 50-state compliance |
 | 💊 **Pharmaceutical** | $150k–$15M | 31% faster trials | 🔒 95% | 21 CFR Part 11 |
 
@@ -1807,9 +1814,23 @@ Need a formal proposal? Download our RFP template: [datacendia.com/rfp-template]
 
 ---
 
-### 🏛️ Government & Legal — Full Details
+### ⚖️ Legal / Law Firms — Full Details ⭐ **NEW**
 
-**Why Wave 1:** EU AI Act, FedRAMP mandates, $650M legal AI market, sovereign AI requirements
+**Why Wave 1:** $350M legal AI market, ABA Model Rules compliance, attorney-client privilege preservation
+
+| Component | Details |
+|-----------|---------|
+| **Agents (14)** | `matter-lead`, `research-counsel`, `contract-counsel`, `litigation-strategist`, `risk-counsel`, `opposing-counsel`, `privilege-officer`, `evidence-officer` + 6 specialists |
+| **Compliance** | ABA Model Rules, Rule 1.6, SRA (UK), GDPR |
+| **Features** | Case law ingestion, citation enforcement, privilege gates, matter management |
+| **Pricing** | Pilot: $35k • Practice Group: $120k–$250k • Enterprise: $300k–$750k |
+| **ROI** | 40% faster due diligence, 60% research time reduction |
+
+---
+
+### 🏛️ Government — Full Details
+
+**Why Wave 1:** EU AI Act, FedRAMP mandates, sovereign AI requirements
 
 | Component | Details |
 |-----------|---------|

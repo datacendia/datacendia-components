@@ -373,7 +373,31 @@ class VerticalConfigService extends EventEmitter {
 
   private constructor() {
     super();
+    // Auto-initialize default organization with Legal vertical (most comprehensive)
+    this.initializeDefaultOrg();
     logger.info('[VerticalConfig] Service initialized');
+  }
+
+  private initializeDefaultOrg(): void {
+    const defaultOrgId = 'default-org';
+    const legalVertical = VERTICAL_TEMPLATES.find(v => v.id === 'legal');
+    if (legalVertical) {
+      const coreServiceIds = SERVICE_CATALOG.filter(s => s.isCore).map(s => s.id);
+      const config: OrganizationVerticalConfig = {
+        id: `vc-default`,
+        organizationId: defaultOrgId,
+        verticalId: 'legal',
+        enabledServices: [...new Set([...coreServiceIds, ...legalVertical.defaultServices])],
+        disabledServices: [],
+        customizations: {},
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        createdBy: 'system',
+        updatedBy: 'system',
+      };
+      this.orgConfigs.set(defaultOrgId, config);
+      logger.info('[VerticalConfig] Default organization initialized with Legal vertical');
+    }
   }
 
   static getInstance(): VerticalConfigService {

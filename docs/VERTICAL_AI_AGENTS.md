@@ -1,9 +1,10 @@
 # DATACENDIA VERTICAL AI AGENTS
 ## Industry-Specific AI Agent System - Enterprise Platinum Standard
 
-**Version:** 1.0.0  
-**Generated:** December 20, 2025  
-**Total Agents:** 48+ across 12 verticals
+**Version:** 2.0.0  
+**Generated:** January 7, 2026  
+**Total Agents:** 200+ across 17 verticals  
+**Total Council Modes:** 400+ specialized deliberation modes
 
 ---
 
@@ -22,15 +23,38 @@
 
 # 1. OVERVIEW
 
-The Vertical AI Agents system provides **industry-specific AI intelligence** for 12 major verticals. Each vertical has 4 specialized agents tailored to that industry's unique needs, terminology, and workflows.
+The Vertical AI Agents system provides **industry-specific AI intelligence** for 17 major verticals. Each vertical has 8-25+ specialized agents tailored to that industry's unique needs, terminology, and workflows. Legal leads with 49 council modes and 14 agents.
 
 ## Key Features
 
-- **48+ Specialized Agents** across 12 industry verticals
-- **Model-Optimized** - Each agent uses the most appropriate LLM model
+- **200+ Specialized Agents** across 17 industry verticals
+- **400+ Council Modes** - Specialized deliberation scenarios per vertical
+- **Model-Optimized** - Each agent uses the most appropriate LLM model (qwq:32b, deepseek-r1:32b, qwen3:32b)
 - **Enterprise Platinum Standards** - Sovereignty, auditability, no black boxes
 - **Full Stack Integration** - Backend service + REST API + Frontend hooks
 - **Real-time Metrics** - Track agent decisions, success rates, latency
+
+## Vertical Coverage Summary
+
+| Vertical | Council Modes | AI Agents | Status |
+|----------|---------------|-----------|--------|
+| Legal | 49 | 14 | ✅ GA |
+| Healthcare | 27 | 8 | ✅ GA |
+| Finance | 25 | 8 | ✅ GA |
+| Government | 27 | 8 | ✅ GA |
+| Insurance | 25 | 8 | ✅ GA |
+| Pharmaceutical | 25 | 8 | ✅ GA |
+| Manufacturing | 25 | 8 | ✅ GA |
+| Energy & Utilities | 25 | 8 | ✅ GA |
+| Technology / SaaS | 25 | 8 | ✅ GA |
+| Retail & Hospitality | 25 | 22 | ✅ GA |
+| Real Estate / Construction | 25 | 23 | ✅ GA |
+| Transportation / Logistics | 25 | 19 | ✅ GA |
+| Media & Entertainment | 25 | 22 | ✅ GA |
+| Professional Services | 25 | 23 | ✅ GA |
+| Higher Education | 25 | 21 | ✅ GA |
+| Sports / Athletics | 25 | 24 | ✅ GA |
+| Pharmaceutical | 25 | 8 | ✅ GA |
 
 ---
 
@@ -332,14 +356,41 @@ function MyComponent() {
 | `edu-enrollment-optimizer` | EnrollmentOptimizer | Enrollment Management AI | qwq:32b |
 | `edu-workforce-connector` | WorkforceConnector | Career Services AI | qwen2.5:7b |
 
-## Legal (`legal`)
+## Legal / Law Firms (`legal`) ⭐ **NEW - Enterprise Platinum**
+
+**14 Specialized Agents** (8 Default + 6 Optional Specialists)
+
+### Default Agents (8)
 
 | Agent ID | Name | Role | Model |
 |----------|------|------|-------|
-| `leg-case-strategist` | CaseStrategist | Litigation Strategy AI | qwq:32b |
-| `leg-contract-analyzer` | ContractAnalyzer | Contract Intelligence AI | qwen2.5:7b |
-| `leg-discovery-engine` | DiscoveryEngine | E-Discovery AI | qwen2.5:7b |
-| `leg-compliance-tracker` | ComplianceTracker | Regulatory Compliance AI | qwen2.5:7b |
+| `leg-matter-lead` | MatterLead | Matter Management & Strategy AI | deepseek-r1:32b |
+| `leg-research-counsel` | ResearchCounsel | Legal Research & Citation AI | qwq:32b |
+| `leg-contract-counsel` | ContractCounsel | Contract Analysis & Drafting AI | qwen3:32b |
+| `leg-litigation-strategist` | LitigationStrategist | Case Strategy & Trial Prep AI | deepseek-r1:32b |
+| `leg-risk-counsel` | RiskCounsel | Risk Assessment & Mitigation AI | qwq:32b |
+| `leg-opposing-counsel` | OpposingCounsel | Red Team / Adversarial Testing AI | deepseek-r1:32b |
+| `leg-privilege-officer` | PrivilegeOfficer | Privilege Review & Protection AI | qwen3:32b |
+| `leg-evidence-officer` | EvidenceOfficer | Evidence Management & Chain of Custody AI | qwen3:32b |
+
+### Optional Specialist Agents (6)
+
+| Agent ID | Name | Role | Model |
+|----------|------|------|-------|
+| `leg-ip-specialist` | IPSpecialist | Intellectual Property AI | qwq:32b |
+| `leg-ma-specialist` | MASpecialist | M&A Due Diligence AI | deepseek-r1:32b |
+| `leg-regulatory-specialist` | RegulatorySpecialist | Regulatory Compliance AI | qwen3:32b |
+| `leg-employment-specialist` | EmploymentSpecialist | Employment Law AI | qwen3:32b |
+| `leg-tax-specialist` | TaxSpecialist | Tax Law AI | qwq:32b |
+| `leg-international-specialist` | InternationalSpecialist | Cross-Border & International Law AI | qwen3:32b |
+
+### Legal-Specific Features
+
+- **Case Law Ingestion**: Ingest prior cases, statutes, regulations, firm precedent
+- **Citation Enforcement**: No-source-no-claim — every assertion must cite ingested authority
+- **Privilege Gates**: Attorney-client privilege preservation with audit trail
+- **Matter Management**: Full matter lifecycle tracking with billing integration
+- **Compliance Frameworks**: ABA Model Rules, Rule 1.6, SRA (UK), GDPR
 
 ## Real Estate (`real-estate`)
 
@@ -355,9 +406,88 @@ function MyComponent() {
 | Agent ID | Name | Role | Model |
 |----------|------|------|-------|
 | `ins-underwriting-ai` | UnderwritingAI | Risk Assessment AI | qwq:32b |
-| `ins-claims-processor` | ClaimsProcessor | Claims Management AI | qwen2.5:7b |
+| `ins-claims-processor` | ClaimsProcessor | Claims Management AI | qwen3:32b |
 | `ins-fraud-detector` | FraudDetector | Fraud Detection AI | qwq:32b |
 | `ins-actuarial-engine` | ActuarialEngine | Actuarial AI | qwq:32b |
+
+## Sports / Athletics (`sports`) ⭐ **NEW**
+
+**24 Specialized Agents** for professional and collegiate sports organizations.
+
+| Agent ID | Name | Role | Model |
+|----------|------|------|-------|
+| `sports-gm` | GeneralManager | Roster & Salary Cap AI | deepseek-r1:32b |
+| `sports-analytics` | SportsAnalytics | Performance Analytics AI | qwq:32b |
+| `sports-coaching` | CoachingStrategy | Game Strategy AI | deepseek-r1:32b |
+| `sports-medical` | SportsMedicine | Athlete Health AI | qwen3:32b |
+| `sports-business` | BusinessOperations | Revenue Optimization AI | qwen3:32b |
+| `sports-scouting` | ScoutingDirector | Talent Evaluation AI | qwq:32b |
+| `sports-fan-experience` | FanExperience | Fan Engagement AI | qwen3:32b |
+| `sports-venue` | VenueOperations | Stadium Operations AI | qwen3:32b |
+| `sports-contracts` | ContractNegotiator | Contract Strategy AI | qwen3:32b |
+| `sports-marketing` | SportsMarketing | Brand & Marketing AI | qwen3:32b |
+| `sports-player-dev` | PlayerDevelopment | Talent Pipeline AI | qwen3:32b |
+| `sports-cfo` | SportsFinance | Team Finance AI | qwq:32b |
+
+## Media & Entertainment (`media`) ⭐ **NEW**
+
+**22 Specialized Agents** for studios, streaming, and content companies.
+
+| Agent ID | Name | Role | Model |
+|----------|------|------|-------|
+| `media-content` | ContentStrategy | Programming AI | qwen3:32b |
+| `media-streaming` | StreamingStrategy | Subscriber Growth AI | qwq:32b |
+| `media-analytics` | AudienceAnalytics | Viewership AI | qwq:32b |
+| `media-rights` | RightsManagement | IP & Licensing AI | qwen3:32b |
+| `media-ad-ops` | AdOperations | Advertising Revenue AI | qwen3:32b |
+| `media-production` | ProductionManager | Content Delivery AI | qwen3:32b |
+| `media-talent` | TalentManagement | Creative Talent AI | qwen3:32b |
+| `media-social` | SocialMedia | Social Engagement AI | qwen3:32b |
+
+## Professional Services (`professional-services`) ⭐ **NEW**
+
+**23 Specialized Agents** for consulting, accounting, and advisory firms.
+
+| Agent ID | Name | Role | Model |
+|----------|------|------|-------|
+| `ps-engagement` | EngagementManager | Project Delivery AI | qwen3:32b |
+| `ps-quality-risk` | QualityRisk | Quality & Independence AI | qwq:32b |
+| `ps-practice` | PracticeDevelopment | Business Development AI | qwen3:32b |
+| `ps-talent` | TalentManager | Professional Development AI | qwen3:32b |
+| `ps-audit` | AuditAssurance | Audit & Assurance AI | qwq:32b |
+| `ps-tax` | TaxAdvisory | Tax Strategy AI | qwq:32b |
+| `ps-transaction` | TransactionAdvisory | M&A Due Diligence AI | deepseek-r1:32b |
+| `ps-methodology` | Methodology | Consulting Frameworks AI | qwen3:32b |
+
+## Transportation / Logistics (`transportation`) ⭐ **NEW**
+
+**19 Specialized Agents** for freight, fleet, and supply chain operations.
+
+| Agent ID | Name | Role | Model |
+|----------|------|------|-------|
+| `trans-fleet` | FleetManager | Fleet Optimization AI | qwen3:32b |
+| `trans-routing` | RouteOptimizer | Route Planning AI | qwq:32b |
+| `trans-supply-chain` | SupplyChainStrategy | Network Optimization AI | qwq:32b |
+| `trans-safety` | TransSafety | Safety & Compliance AI | qwen3:32b |
+| `trans-freight` | FreightManager | Carrier Management AI | qwen3:32b |
+| `trans-international` | InternationalLogistics | Global Trade AI | qwen3:32b |
+| `trans-last-mile` | LastMile | Delivery Excellence AI | qwen3:32b |
+| `trans-analytics` | TransAnalytics | Logistics Analytics AI | qwq:32b |
+
+## Pharmaceutical (`pharmaceutical`) ⭐ **EXPANDED**
+
+**8 Specialized Agents** for drug discovery through commercialization.
+
+| Agent ID | Name | Role | Model |
+|----------|------|------|-------|
+| `pharma-discovery` | DrugDiscovery | Drug Discovery AI | qwq:32b |
+| `pharma-clinical` | ClinicalDevelopment | Clinical Trials AI | qwq:32b |
+| `pharma-regulatory` | RegulatoryAffairs | FDA/EMA Submissions AI | qwen3:32b |
+| `pharma-commercial` | CommercialPharma | Launch Strategy AI | qwen3:32b |
+| `pharma-medical` | MedicalAffairs | Medical Science AI | qwen3:32b |
+| `pharma-safety` | Pharmacovigilance | Drug Safety AI | qwen3:32b |
+| `pharma-supply` | PharmaSupplyChain | Pharma Supply Chain AI | qwen3:32b |
+| `pharma-market-access` | MarketAccess | Payer Strategy AI | qwq:32b |
 
 ---
 
@@ -438,6 +568,8 @@ function AgentActionButton({ agentId, verticalId }) {
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 2.0.0 | 2026-01-07 | **Major Expansion:** 200+ agents across 17 verticals, 400+ council modes. Added Sports (24 agents), Media (22), Professional Services (23), Transportation (19), Pharmaceutical (8). Expanded Retail (22), Real Estate (23), Education (21). All verticals now have 25+ council modes. |
+| 1.1.0 | 2026-01-07 | Legal vertical expanded to 14 agents (8 default + 6 specialists), added case law ingestion, privilege gates, citation enforcement |
 | 1.0.0 | 2025-12-20 | Initial release with 48 agents across 12 verticals |
 
 ---

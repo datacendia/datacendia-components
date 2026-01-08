@@ -7,6 +7,7 @@
 export { HealthcarePage } from './HealthcarePage';
 export { FinancialServicesPage } from './FinancialServicesPage';
 export { GovernmentLegalPage } from './GovernmentLegalPage';
+export { LegalPage } from './LegalPage';
 export { InsurancePage } from './InsurancePage';
 export { PharmaceuticalPage } from './PharmaceuticalPage';
 

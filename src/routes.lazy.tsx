@@ -460,6 +460,9 @@ const FinancialServicesPage = lazy(() =>
 const GovernmentLegalPage = lazy(() =>
   import('./pages/verticals').then((m) => ({ default: m.GovernmentLegalPage }))
 );
+const LegalPage = lazy(() =>
+  import('./pages/verticals').then((m) => ({ default: m.LegalPage }))
+);
 const InsurancePage = lazy(() =>
   import('./pages/verticals').then((m) => ({ default: m.InsurancePage }))
 );
@@ -1040,6 +1043,14 @@ export const router = createBrowserRouter([
     element: (
       <SuspenseWrapper>
         <GovernmentLegalPage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/verticals/legal',
+    element: (
+      <SuspenseWrapper>
+        <LegalPage />
       </SuspenseWrapper>
     ),
   },

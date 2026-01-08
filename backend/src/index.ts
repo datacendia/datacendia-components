@@ -119,6 +119,7 @@ import forecastingRoutes from './routes/forecasting.js';
 import roiMetricsRoutes from './routes/roi-metrics.js';
 import consolidatedRoutes from './routes/consolidated.js';
 import demoSeedRoutes from './routes/demo-seed.js';
+import legalRoutes from './routes/legal.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -351,6 +352,9 @@ app.use('/api/v1/vertical-agents', verticalAgentsRoutes);
 
 // Vertical Configuration - Service toggles and organization settings
 app.use('/api/v1/vertical-config', verticalConfigRoutes);
+
+// Legal Vertical - Case law, matters, privilege gates, citation enforcement
+app.use('/api/v1/legal', legalRoutes);
 
 // Schema Mapping - Client database schema abstraction
 app.use('/api/v1/schema', schemaRoutes);
