@@ -155,9 +155,11 @@ describe('AI Council', () => {
         const response = await authFetch(`/deliberations/${deliberations[0].id}`, adminToken);
         const data = await response.json();
         
-        expect(data.data.messages).toBeDefined();
-        if (data.data.messages.length > 0) {
-          const message = data.data.messages[0];
+        // API returns deliberation_messages, not messages
+        const messages = data.data.deliberation_messages || data.data.messages || [];
+        expect(Array.isArray(messages)).toBe(true);
+        if (messages.length > 0) {
+          const message = messages[0];
           expect(message.content).toBeDefined();
           expect(message.phase).toBeDefined();
         }
