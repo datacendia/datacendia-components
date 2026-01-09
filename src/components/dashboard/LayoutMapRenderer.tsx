@@ -1,13 +1,83 @@
 /**
  * LAYOUT MAP RENDERER
  * Renders interactive visual maps for vertical-specific dashboards
+ * Enhanced with AI Agent discussion and Core Suite / Trust Layer services
  */
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { cn } from '../../lib/utils';
 import type { LayoutMap, LayoutMapZone } from '../../config/verticalLayoutMaps';
-import { ChevronRight, Zap, AlertTriangle, CheckCircle, Clock } from 'lucide-react';
+import { ChevronRight, Zap, AlertTriangle, CheckCircle, Clock, MessageSquare, Shield, FileText, Brain, Users, History, Target, Lock, FlaskConical } from 'lucide-react';
+
+// Vertical-specific AI agents for discussion
+const VERTICAL_AGENTS: Record<string, { id: string; name: string; icon: string; role: string }[]> = {
+  legal: [
+    { id: 'matter-lead', name: 'Matter Lead', icon: '⚖️', role: 'Case strategy and coordination' },
+    { id: 'research-counsel', name: 'Research Counsel', icon: '📚', role: 'Legal research and precedents' },
+    { id: 'contract-counsel', name: 'Contract Counsel', icon: '📝', role: 'Contract analysis' },
+    { id: 'litigation-strategist', name: 'Litigation Strategist', icon: '🎯', role: 'Trial strategy' },
+  ],
+  healthcare: [
+    { id: 'cmio', name: 'CMIO', icon: '👨‍⚕️', role: 'Clinical informatics' },
+    { id: 'patient-safety', name: 'Patient Safety', icon: '🛡️', role: 'Safety protocols' },
+    { id: 'care-coordinator', name: 'Care Coordinator', icon: '🏥', role: 'Care coordination' },
+    { id: 'quality-officer', name: 'Quality Officer', icon: '✅', role: 'Quality metrics' },
+  ],
+  financial: [
+    { id: 'risk-sentinel', name: 'Risk Sentinel', icon: '🛡️', role: 'Risk assessment' },
+    { id: 'alpha-hunter', name: 'Alpha Hunter', icon: '📈', role: 'Investment analysis' },
+    { id: 'compliance-guardian', name: 'Compliance Guardian', icon: '⚖️', role: 'Regulatory compliance' },
+    { id: 'market-pulse', name: 'Market Pulse', icon: '💹', role: 'Market intelligence' },
+  ],
+  manufacturing: [
+    { id: 'production-master', name: 'Production Master', icon: '🏭', role: 'Production optimization' },
+    { id: 'quality-vision', name: 'Quality Vision', icon: '🔍', role: 'Quality control' },
+    { id: 'supply-sync', name: 'Supply Sync', icon: '📦', role: 'Supply chain' },
+    { id: 'predict-maintain', name: 'Predict Maintain', icon: '🔧', role: 'Predictive maintenance' },
+  ],
+  government: [
+    { id: 'policy-advisor', name: 'Policy Advisor', icon: '📋', role: 'Policy analysis' },
+    { id: 'citizen-engage', name: 'Citizen Engage', icon: '👥', role: 'Public engagement' },
+    { id: 'budget-optimizer', name: 'Budget Optimizer', icon: '💰', role: 'Budget planning' },
+    { id: 'security-officer', name: 'Security Officer', icon: '🔒', role: 'Security protocols' },
+  ],
+  technology: [
+    { id: 'site-reliability', name: 'Site Reliability', icon: '🖥️', role: 'System reliability' },
+    { id: 'security-fortress', name: 'Security Fortress', icon: '🛡️', role: 'Security posture' },
+    { id: 'dev-velocity', name: 'Dev Velocity', icon: '🚀', role: 'Development speed' },
+    { id: 'product-vision', name: 'Product Vision', icon: '🎯', role: 'Product strategy' },
+  ],
+  energy: [
+    { id: 'grid-balancer', name: 'Grid Balancer', icon: '⚡', role: 'Grid optimization' },
+    { id: 'renewable-optimizer', name: 'Renewable Optimizer', icon: '🌱', role: 'Renewable integration' },
+    { id: 'asset-guardian', name: 'Asset Guardian', icon: '🔧', role: 'Asset management' },
+    { id: 'demand-forecaster', name: 'Demand Forecaster', icon: '📊', role: 'Demand prediction' },
+  ],
+  retail: [
+    { id: 'merchandising-ai', name: 'Merchandising AI', icon: '🏷️', role: 'Product placement' },
+    { id: 'pricing-engine', name: 'Pricing Engine', icon: '💲', role: 'Dynamic pricing' },
+    { id: 'customer-insight', name: 'Customer Insight', icon: '👤', role: 'Customer analytics' },
+    { id: 'inventory-oracle', name: 'Inventory Oracle', icon: '📦', role: 'Inventory optimization' },
+  ],
+};
+
+// Core Suite services
+const CORE_SUITE_SERVICES = [
+  { id: 'council', name: 'The Council', icon: '🧠', path: '/cortex/council', description: 'Multi-agent deliberation' },
+  { id: 'chronos', name: 'CendiaChronos', icon: '⏰', path: '/cortex/intelligence/chronos', description: 'Replay past decisions' },
+  { id: 'ghost-board', name: 'Ghost Board', icon: '👻', path: '/cortex/intelligence/ghost-board', description: 'Rehearse board meetings' },
+  { id: 'pre-mortem', name: 'Pre-Mortem', icon: '💀', path: '/cortex/intelligence/pre-mortem', description: 'Analyze failure modes' },
+  { id: 'decision-debt', name: 'Decision Debt', icon: '📊', path: '/cortex/intelligence/decision-debt', description: 'Track stuck decisions' },
+];
+
+// Trust Layer services
+const TRUST_LAYER_SERVICES = [
+  { id: 'oversight', name: 'CendiaOversight', icon: '👁️', path: '/cortex/governance/oversight', description: 'Compliance & audit' },
+  { id: 'vault', name: 'CendiaVault', icon: '🔐', path: '/cortex/sovereign/vault', description: 'Evidence storage' },
+  { id: 'decision-dna', name: 'Decision DNA', icon: '🧬', path: '/cortex/enterprise/ledger', description: 'Immutable lineage' },
+  { id: 'crucible', name: 'CendiaCrucible', icon: '🔥', path: '/cortex/intelligence/red-team', description: 'Adversarial testing' },
+];
 
 interface LayoutMapRendererProps {
   layout: LayoutMap;
@@ -210,7 +280,7 @@ export const LayoutMapRenderer: React.FC<LayoutMapRendererProps> = ({
         ))}
       </div>
 
-      {/* Selected Zone Detail Panel */}
+      {/* Selected Zone Detail Panel - Enhanced with Services */}
       {selectedZone && (
         <div className="mt-4 p-4 rounded-xl bg-sovereign-card border border-sovereign-border">
           <div className="flex items-center justify-between mb-3">
@@ -227,8 +297,9 @@ export const LayoutMapRenderer: React.FC<LayoutMapRendererProps> = ({
             </button>
           </div>
           
+          {/* Metrics */}
           {selectedZone.metrics && selectedZone.metrics.length > 0 && (
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
               {selectedZone.metrics.map((metric, idx) => (
                 <div key={idx} className="p-2 rounded-lg bg-sovereign-base border border-sovereign-border-subtle">
                   <p className="text-xs text-gray-500">{metric.label}</p>
@@ -237,14 +308,78 @@ export const LayoutMapRenderer: React.FC<LayoutMapRendererProps> = ({
               ))}
             </div>
           )}
-          
-          <div className="mt-3 flex gap-2">
-            <button
-              onClick={() => navigate(`/cortex/council?vertical=${verticalId}&zone=${selectedZone.id}`)}
-              className="flex-1 px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors"
-            >
-              Launch Council for {selectedZone.name}
-            </button>
+
+          {/* Primary Action - Launch Council */}
+          <button
+            onClick={() => navigate(`/cortex/council?vertical=${verticalId}&zone=${selectedZone.id}&context=${selectedZone.name}`)}
+            className="w-full px-4 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors mb-4"
+          >
+            🧠 Launch Council for {selectedZone.name}
+          </button>
+
+          {/* AI Agents for Discussion */}
+          <div className="mb-4">
+            <h5 className="text-xs font-medium text-gray-400 mb-2 flex items-center gap-1">
+              <MessageSquare className="w-3 h-3" />
+              Discuss with AI Agents
+            </h5>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+              {(VERTICAL_AGENTS[verticalId] || VERTICAL_AGENTS.legal).map((agent) => (
+                <button
+                  key={agent.id}
+                  onClick={() => navigate(`/cortex/council?vertical=${verticalId}&zone=${selectedZone.id}&agent=${agent.id}`)}
+                  className="flex items-center gap-2 p-2 rounded-lg bg-sovereign-base border border-sovereign-border-subtle hover:border-primary-500/50 hover:bg-primary-500/10 transition-all text-left"
+                >
+                  <span className="text-lg">{agent.icon}</span>
+                  <div className="min-w-0">
+                    <p className="text-xs font-medium text-white truncate">{agent.name}</p>
+                    <p className="text-[10px] text-gray-500 truncate">{agent.role}</p>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Core Suite Services */}
+          <div className="mb-4">
+            <h5 className="text-xs font-medium text-cyan-400 mb-2 flex items-center gap-1">
+              <Brain className="w-3 h-3" />
+              The Core Suite
+            </h5>
+            <div className="flex flex-wrap gap-2">
+              {CORE_SUITE_SERVICES.map((service) => (
+                <button
+                  key={service.id}
+                  onClick={() => navigate(`${service.path}?vertical=${verticalId}&zone=${selectedZone.id}`)}
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-900/20 border border-cyan-500/30 hover:border-cyan-400 hover:bg-cyan-500/20 transition-all text-xs"
+                  title={service.description}
+                >
+                  <span>{service.icon}</span>
+                  <span className="text-cyan-300">{service.name}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Trust Layer Services */}
+          <div>
+            <h5 className="text-xs font-medium text-amber-400 mb-2 flex items-center gap-1">
+              <Shield className="w-3 h-3" />
+              The Trust Layer
+            </h5>
+            <div className="flex flex-wrap gap-2">
+              {TRUST_LAYER_SERVICES.map((service) => (
+                <button
+                  key={service.id}
+                  onClick={() => navigate(`${service.path}?vertical=${verticalId}&zone=${selectedZone.id}`)}
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-900/20 border border-amber-500/30 hover:border-amber-400 hover:bg-amber-500/20 transition-all text-xs"
+                  title={service.description}
+                >
+                  <span>{service.icon}</span>
+                  <span className="text-amber-300">{service.name}</span>
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       )}
