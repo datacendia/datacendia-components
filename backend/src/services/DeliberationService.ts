@@ -6,7 +6,7 @@
 import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';
 import { druidEventStream } from './DruidEventStream.js';
-// Note: Database persistence can be added later when Prisma model is created
+import { prisma } from '../config/database.js';
 
 // =============================================================================
 // TYPES

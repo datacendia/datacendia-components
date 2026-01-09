@@ -436,6 +436,37 @@ function getLanguageInstruction(langCode: string): string {
 }
 
 /**
+ * GET /api/v1/council/modes
+ * List all available council deliberation modes
+ */
+router.get('/modes', async (_req: Request, res: Response, next: NextFunction) => {
+  try {
+    const modes = [
+      { id: 'executive', name: 'Executive Council', description: 'C-suite strategic deliberation', agents: ['chief', 'cfo', 'coo', 'ciso'], icon: '👔' },
+      { id: 'strategic', name: 'Strategic Planning', description: 'Long-term strategy and vision', agents: ['chief', 'analyst', 'cmo', 'cro'], icon: '🎯' },
+      { id: 'crisis', name: 'Crisis Response', description: 'Rapid response to urgent situations', agents: ['chief', 'ciso', 'coo', 'risk'], icon: '🚨' },
+      { id: 'innovation', name: 'Innovation Council', description: 'New product and technology decisions', agents: ['cto', 'caio', 'analyst', 'redteam'], icon: '💡' },
+      { id: 'compliance', name: 'Compliance Review', description: 'Regulatory and legal compliance', agents: ['clo', 'ciso', 'ext-auditor', 'regulatory'], icon: '⚖️' },
+      { id: 'financial', name: 'Financial Review', description: 'Budget, investment, and financial decisions', agents: ['cfo', 'treasury', 'quant', 'risk'], icon: '💰' },
+      { id: 'operational', name: 'Operational Excellence', description: 'Process improvement and efficiency', agents: ['coo', 'analyst', 'union', 'cdo'], icon: '⚙️' },
+      { id: 'risk', name: 'Risk Assessment', description: 'Comprehensive risk analysis', agents: ['risk', 'ciso', 'redteam', 'arbiter'], icon: '🛡️' },
+      { id: 'hiring', name: 'Hiring Committee', description: 'Talent acquisition decisions', agents: ['chro', 'chief', 'union', 'analyst'], icon: '👥' },
+      { id: 'legal', name: 'Legal Strategy', description: 'Legal matters and litigation', agents: ['clo', 'contracts', 'litigation', 'ip'], icon: '⚖️' },
+      { id: 'healthcare', name: 'Clinical Council', description: 'Healthcare-specific deliberation', agents: ['cmio', 'pso', 'hco', 'cod'], icon: '🏥' },
+      { id: 'audit', name: 'Audit Committee', description: 'Internal and external audit review', agents: ['ext-auditor', 'int-auditor', 'cfo', 'ciso'], icon: '📋' },
+    ];
+
+    res.json({
+      success: true,
+      modes,
+      total: modes.length,
+    });
+  } catch (error) {
+    next(error);
+  }
+});
+
+/**
  * GET /api/v1/council/agents
  * List all available AI agents
  */
