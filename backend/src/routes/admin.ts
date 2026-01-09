@@ -21,7 +21,7 @@ const router = Router();
 
 // All platform admin routes require authentication and admin-level role
 router.use(devAuth);
-router.use(requireRole('ADMIN', 'SUPER_ADMIN'));
+router.use(requireRole('OWNER', 'ADMIN', 'SUPER_ADMIN'));
 
 // =============================================================================
 // DASHBOARD

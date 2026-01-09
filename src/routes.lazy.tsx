@@ -433,6 +433,7 @@ const AdminAIPage = lazy(() =>
   import('./pages/admin/AdminAIPage').then((m) => ({ default: m.AdminAIPage }))
 );
 const SovereignStackPage = lazy(() => import('./pages/admin/SovereignStackPage'));
+const MarketingCMSPage = lazy(() => import('./pages/admin/MarketingCMSPage'));
 const VerticalConfigPage = lazy(() =>
   import('./pages/cortex/admin').then((m) => ({ default: m.VerticalConfigPage }))
 );
@@ -2264,6 +2265,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <SovereignStackPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'marketing',
+        element: (
+          <SuspenseWrapper>
+            <MarketingCMSPage />
           </SuspenseWrapper>
         ),
       },
