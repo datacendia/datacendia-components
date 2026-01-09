@@ -381,12 +381,12 @@ class ImmutableAuditLedger {
    */
   private calculateMerkleRoot(hashes: string[]): string {
     if (hashes.length === 0) return '0'.repeat(64);
-    if (hashes.length === 1) return hashes[0];
+    if (hashes.length === 1) return hashes[0] ?? '0'.repeat(64);
 
     const nextLevel: string[] = [];
     for (let i = 0; i < hashes.length; i += 2) {
-      const left = hashes[i];
-      const right = hashes[i + 1] || left; // Duplicate last if odd
+      const left = hashes[i] ?? '0'.repeat(64);
+      const right = hashes[i + 1] ?? left; // Duplicate last if odd
       const combined = crypto.createHash('sha256')
         .update(left + right)
         .digest('hex');
@@ -414,7 +414,7 @@ class ImmutableAuditLedger {
       index: this.entries.length,
       timestamp: new Date(),
       event,
-      previousHash: previousEntry.hash,
+      previousHash: previousEntry?.hash ?? '0'.repeat(64),
       hash: '', // Will be calculated
     };
 
@@ -441,9 +441,8 @@ class ImmutableAuditLedger {
     const hashes = blockEntries.map(e => e.hash);
     const merkleRoot = this.calculateMerkleRoot(hashes);
 
-    const previousBlockHash = this.blocks.length > 0 
-      ? this.blocks[this.blocks.length - 1].blockHash 
-      : '0'.repeat(64);
+    const lastBlock = this.blocks[this.blocks.length - 1];
+    const previousBlockHash = lastBlock?.blockHash ?? '0'.repeat(64);
 
     const block: LedgerBlock = {
       entries: blockEntries,
@@ -477,6 +476,9 @@ class ImmutableAuditLedger {
     for (let i = 1; i < this.entries.length; i++) {
       const entry = this.entries[i];
       const previousEntry = this.entries[i - 1];
+
+      // Skip if entries are undefined (shouldn't happen but TypeScript requires check)
+      if (!entry || !previousEntry) continue;
 
       // Verify chain link
       if (entry.previousHash !== previousEntry.hash) {
@@ -529,6 +531,13 @@ class ImmutableAuditLedger {
       entriesVerified: this.entries.length,
       details: `All ${this.entries.length} entries verified in ${duration}ms`,
     };
+  }
+
+  /**
+   * Get all entries in the ledger (for testing/debugging)
+   */
+  getEntries(): LedgerEntry[] {
+    return [...this.entries];
   }
 
   /**

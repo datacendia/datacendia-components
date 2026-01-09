@@ -377,19 +377,23 @@ describe('ImmutableAuditLedger - Compliance Scenarios', () => {
   });
 
   it('should support auditor export workflow', async () => {
-    // Simulate audit period
+    // Simulate audit period - use current time range since ledger uses entry timestamp
+    const now = new Date();
+    const startDate = new Date(now.getTime() - 60000); // 1 minute ago
+    const endDate = new Date(now.getTime() + 60000); // 1 minute from now
+    
     for (let i = 0; i < 10; i++) {
       await ledger.append({
         ...mockAuditEvent,
         id: `audit-event-${i}`,
-        timestamp: new Date(`2025-06-${(i + 1).toString().padStart(2, '0')}`),
+        timestamp: new Date(),
       });
     }
 
     const exportData = await ledger.exportWithProof({
       organizationId: 'org-123',
-      startDate: new Date('2025-06-01'),
-      endDate: new Date('2025-06-30'),
+      startDate,
+      endDate,
       exportedBy: 'external-auditor@kpmg.com',
     });
 
