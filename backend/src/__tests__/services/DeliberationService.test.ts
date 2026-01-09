@@ -32,7 +32,7 @@ vi.mock('../../config/database.js', () => ({
         };
         return Promise.resolve(result);
       }),
-      findMany: vi.fn().mockImplementation(({ where, orderBy, skip, take }) => {
+      findMany: vi.fn().mockImplementation(({ where, skip, take }: { where?: any; skip?: number; take?: number }) => {
         let results = Array.from(mockDeliberationsStore.values());
         
         // Filter by organization_id
