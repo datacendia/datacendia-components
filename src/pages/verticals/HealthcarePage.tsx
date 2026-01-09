@@ -214,11 +214,25 @@ export const HealthcarePage: React.FC = () => {
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-4">Healthcare / Health Systems</h1>
-              <p className="text-xl text-neutral-300 max-w-3xl">
+              <p className="text-xl text-neutral-300 max-w-3xl mb-6">
                 HIPAA-compliant AI decision intelligence with full data sovereignty. Accelerate
                 clinical operations while maintaining complete audit trails for CMS AI transparency
                 rules.
               </p>
+              <div className="flex gap-4">
+                <button
+                  onClick={() => navigate('/cortex/council?vertical=healthcare')}
+                  className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                >
+                  <span>🏛️</span> Launch Healthcare Council
+                </button>
+                <button
+                  onClick={() => navigate('/cortex/enterprise/genomics')}
+                  className="px-6 py-3 border border-blue-500/50 text-blue-400 hover:bg-blue-500/10 rounded-lg font-medium transition-colors"
+                >
+                  🧬 CendiaGenomics™
+                </button>
+              </div>
             </div>
             <div className="text-right">
               <p className="text-sm text-neutral-400">Pilot Result</p>

@@ -98,10 +98,18 @@ export const RealEstateConstructionPage: React.FC = () => {
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-4">Real Estate / Construction</h1>
-              <p className="text-xl text-neutral-300 max-w-3xl">
+              <p className="text-xl text-neutral-300 max-w-3xl mb-6">
                 Development decisions, project intelligence, and property portfolio optimization.
                 From site selection to construction management to asset disposition.
               </p>
+              <div className="flex gap-4">
+                <button
+                  onClick={() => navigate('/cortex/council?vertical=real-estate')}
+                  className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                >
+                  <span>🏛️</span> Launch Real Estate Council
+                </button>
+              </div>
             </div>
             <div className="text-right">
               <p className="text-sm text-neutral-400">Pilot Result</p>

@@ -322,29 +322,144 @@ const trustLayerFeatures = [
 // 3. VERTICAL PACKS (The "Specialist") - Show based on audience
 // =============================================================================
 const verticalPacks = [
+  // Hub - All Verticals
   {
-    id: 'genomics',
-    label: 'CendiaGenomics™',
-    icon: '🧬',
-    path: '/cortex/enterprise/genomics',
-    description: 'Healthcare & Life Sciences Pack',
+    id: 'hub',
+    label: '🏭 All Verticals',
+    icon: '🏭',
+    path: '/verticals',
+    description: 'Browse all 17 industry verticals',
+    industry: 'All',
+  },
+  // Priority Tier
+  {
+    id: 'legal',
+    label: 'Legal / Law Firms',
+    icon: '⚖️',
+    path: '/verticals/legal',
+    description: '49 council modes, 14 AI agents',
+    industry: 'Legal',
+  },
+  {
+    id: 'healthcare',
+    label: 'Healthcare',
+    icon: '🏥',
+    path: '/verticals/healthcare',
+    description: 'HIPAA-compliant clinical intelligence',
     industry: 'Healthcare',
   },
   {
-    id: 'defense-stack',
-    label: 'CendiaDefense™',
-    icon: '🛡️',
-    path: '/cortex/enterprise/defense-stack',
-    description: 'Government/Defense Edition',
+    id: 'financial',
+    label: 'Financial Services',
+    icon: '💰',
+    path: '/verticals/financial-services',
+    description: 'Fraud detection & regulatory intel',
+    industry: 'Finance',
+  },
+  {
+    id: 'government',
+    label: 'Government',
+    icon: '🏛️',
+    path: '/verticals/government-legal',
+    description: 'Sovereign AI for public sector',
     industry: 'Government',
   },
   {
-    id: 'financial',
-    label: 'CendiaFinancial™',
-    icon: '🏦',
-    path: '/cortex/enterprise/financial',
-    description: 'Banking & Financial Services Pack',
-    industry: 'Finance',
+    id: 'insurance',
+    label: 'Insurance',
+    icon: '🛡️',
+    path: '/verticals/insurance',
+    description: 'Underwriting & claims intelligence',
+    industry: 'Insurance',
+  },
+  {
+    id: 'pharmaceutical',
+    label: 'Pharmaceutical',
+    icon: '💊',
+    path: '/verticals/pharmaceutical',
+    description: 'Pipeline & regulatory acceleration',
+    industry: 'Pharma',
+  },
+  // Growth Tier
+  {
+    id: 'manufacturing',
+    label: 'Manufacturing',
+    icon: '🏭',
+    path: '/verticals/manufacturing',
+    description: 'Supply chain & operations',
+    industry: 'Manufacturing',
+  },
+  {
+    id: 'energy',
+    label: 'Energy & Utilities',
+    icon: '⚡',
+    path: '/verticals/energy-utilities',
+    description: 'Grid intelligence & compliance',
+    industry: 'Energy',
+  },
+  {
+    id: 'technology',
+    label: 'Technology / SaaS',
+    icon: '💻',
+    path: '/verticals/technology',
+    description: 'Product velocity & AI governance',
+    industry: 'Tech',
+  },
+  {
+    id: 'retail',
+    label: 'Retail & Hospitality',
+    icon: '🛒',
+    path: '/verticals/retail-hospitality',
+    description: 'Pricing & revenue optimization',
+    industry: 'Retail',
+  },
+  {
+    id: 'real-estate',
+    label: 'Real Estate',
+    icon: '🏗️',
+    path: '/verticals/real-estate',
+    description: 'Development & property analytics',
+    industry: 'Real Estate',
+  },
+  {
+    id: 'transportation',
+    label: 'Transportation',
+    icon: '🚚',
+    path: '/verticals/transportation',
+    description: 'Fleet & logistics optimization',
+    industry: 'Logistics',
+  },
+  {
+    id: 'media',
+    label: 'Media & Entertainment',
+    icon: '🎬',
+    path: '/verticals/media-entertainment',
+    description: 'Content & audience intelligence',
+    industry: 'Media',
+  },
+  {
+    id: 'professional-services',
+    label: 'Professional Services',
+    icon: '💼',
+    path: '/verticals/professional-services',
+    description: 'Consulting & advisory firms',
+    industry: 'Services',
+  },
+  {
+    id: 'education',
+    label: 'Higher Education',
+    icon: '🎓',
+    path: '/verticals/higher-education',
+    description: 'Academic & research institutions',
+    industry: 'Education',
+  },
+  {
+    id: 'sports',
+    label: 'Sports / Athletics',
+    icon: '🏆',
+    path: '/verticals/sports',
+    description: '24 agents for sports orgs',
+    industry: 'Sports',
   },
 ];
 
@@ -954,14 +1069,14 @@ const CortexLayoutInner: React.FC = () => {
                       className="fixed inset-0 z-40"
                       onClick={() => setIsEnterpriseDropdownOpen(false)}
                     />
-                    <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50">
-                      <div className="p-3 bg-gradient-to-r from-purple-900/30 to-violet-900/30 border-b border-sovereign-border-subtle rounded-t-xl">
-                        <h3 className="font-semibold text-white">🏭 Vertical Packs</h3>
+                    <div className="absolute top-full right-0 mt-2 w-80 bg-sovereign-card rounded-xl shadow-2xl border border-sovereign-border z-50 max-h-[70vh] flex flex-col">
+                      <div className="p-3 bg-gradient-to-r from-purple-900/30 to-violet-900/30 border-b border-sovereign-border-subtle rounded-t-xl flex-shrink-0">
+                        <h3 className="font-semibold text-white">🏭 Industry Verticals</h3>
                         <p className="text-xs text-purple-400">
-                          Industry-specific solutions
+                          17 verticals • 400+ council modes • 200+ AI agents
                         </p>
                       </div>
-                      <div className="py-2">
+                      <div className="py-2 overflow-y-auto flex-1">
                         {verticalPacks.map((pack) => (
                           <button
                             key={pack.id}
@@ -970,16 +1085,16 @@ const CortexLayoutInner: React.FC = () => {
                               setIsEnterpriseDropdownOpen(false);
                             }}
                             className={cn(
-                              'w-full flex items-start gap-3 px-4 py-3 hover:bg-sovereign-hover transition-colors',
+                              'w-full flex items-start gap-3 px-4 py-2 hover:bg-sovereign-hover transition-colors',
                               location.pathname === pack.path &&
                                 'bg-sovereign-active border-l-2 border-purple-500'
                             )}
                           >
-                            <span className="text-xl">{pack.icon}</span>
+                            <span className="text-lg">{pack.icon}</span>
                             <div className="text-left flex-1">
                               <div className="flex items-center justify-between">
                                 <p className="font-medium text-white text-sm">{pack.label}</p>
-                                <span className="text-xs px-2 py-0.5 rounded-full bg-purple-900/30 text-purple-400">
+                                <span className="text-xs px-1.5 py-0.5 rounded-full bg-purple-900/30 text-purple-400">
                                   {pack.industry}
                                 </span>
                               </div>
@@ -988,10 +1103,16 @@ const CortexLayoutInner: React.FC = () => {
                           </button>
                         ))}
                       </div>
-                      <div className="p-3 bg-sovereign-elevated border-t border-sovereign-border-subtle">
-                        <p className="text-xs text-gray-500 text-center">
-                          Show based on your industry
-                        </p>
+                      <div className="p-2 bg-sovereign-elevated border-t border-sovereign-border-subtle rounded-b-xl flex-shrink-0">
+                        <button
+                          onClick={() => {
+                            navigate('/cortex/admin/vertical-config');
+                            setIsEnterpriseDropdownOpen(false);
+                          }}
+                          className="w-full text-xs text-purple-400 hover:text-purple-300 text-center"
+                        >
+                          ⚙️ Configure Vertical Services
+                        </button>
                       </div>
                     </div>
                   </>

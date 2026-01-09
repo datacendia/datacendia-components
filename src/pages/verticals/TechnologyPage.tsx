@@ -90,10 +90,18 @@ export const TechnologyPage: React.FC = () => {
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-4">Technology / SaaS</h1>
-              <p className="text-xl text-neutral-300 max-w-3xl">
+              <p className="text-xl text-neutral-300 max-w-3xl mb-6">
                 Product decision velocity and AI governance for tech companies. Ship faster with
                 defensible decisions and clear audit trails.
               </p>
+              <div className="flex gap-4">
+                <button
+                  onClick={() => navigate('/cortex/council?vertical=technology')}
+                  className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                >
+                  <span>🏛️</span> Launch Tech Council
+                </button>
+              </div>
             </div>
             <div className="text-right">
               <p className="text-sm text-neutral-400">Pilot Result</p>

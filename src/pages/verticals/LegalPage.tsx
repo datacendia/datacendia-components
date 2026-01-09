@@ -487,11 +487,25 @@ export const LegalPage: React.FC = () => {
                 </span>
               </div>
               <h1 className="text-4xl font-bold mb-4">Legal / Law Firms</h1>
-              <p className="text-xl text-neutral-300 max-w-3xl">
+              <p className="text-xl text-neutral-300 max-w-3xl mb-6">
                 Privilege-preserving AI with audit-grade decision packets. The only legal AI your
                 General Counsel will approve—because data never leaves your infrastructure and every
                 output has a defensible evidence trail.
               </p>
+              <div className="flex gap-4">
+                <button
+                  onClick={() => navigate('/cortex/council?vertical=legal')}
+                  className="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-colors flex items-center gap-2"
+                >
+                  <span>🏛️</span> Launch Legal Council
+                </button>
+                <button
+                  onClick={() => setActiveTab('usecases')}
+                  className="px-6 py-3 border border-amber-500/50 text-amber-400 hover:bg-amber-500/10 rounded-lg font-medium transition-colors"
+                >
+                  View 20 Use Cases
+                </button>
+              </div>
             </div>
             <div className="text-right">
               <p className="text-sm text-neutral-400">Pilot Result</p>
@@ -893,7 +907,7 @@ export const LegalPage: React.FC = () => {
               {filteredUseCases.map((uc, idx) => (
                 <div
                   key={uc.name}
-                  className={`rounded-xl p-6 border ${packColors[uc.pack]}`}
+                  className={`rounded-xl p-6 border ${packColors[uc.pack]} hover:border-primary-500/50 transition-all`}
                 >
                   <div className="flex items-start justify-between mb-3">
                     <h3 className="font-semibold text-lg">{uc.name}</h3>
@@ -902,15 +916,28 @@ export const LegalPage: React.FC = () => {
                     </span>
                   </div>
                   <p className="text-neutral-300 mb-4">{uc.description}</p>
-                  <div className="flex flex-wrap gap-1">
-                    {uc.services.map((service) => (
-                      <span
-                        key={service}
-                        className="px-2 py-0.5 bg-neutral-800 rounded text-xs text-neutral-400"
-                      >
-                        {service}
-                      </span>
-                    ))}
+                  <div className="flex items-center justify-between">
+                    <div className="flex flex-wrap gap-1">
+                      {uc.services.slice(0, 3).map((service) => (
+                        <span
+                          key={service}
+                          className="px-2 py-0.5 bg-neutral-800 rounded text-xs text-neutral-400"
+                        >
+                          {service}
+                        </span>
+                      ))}
+                      {uc.services.length > 3 && (
+                        <span className="px-2 py-0.5 bg-neutral-800 rounded text-xs text-neutral-400">
+                          +{uc.services.length - 3}
+                        </span>
+                      )}
+                    </div>
+                    <button
+                      onClick={() => navigate(`/cortex/council?vertical=legal&mode=${uc.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)}
+                      className="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
+                    >
+                      <span>▶</span> Start
+                    </button>
                   </div>
                 </div>
               ))}
