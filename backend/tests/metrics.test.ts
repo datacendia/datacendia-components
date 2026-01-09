@@ -128,7 +128,8 @@ describe('System Health', () => {
 
       if (response.status === 200) {
         const data = await response.json();
-        expect(data.status).toBeDefined();
+        // API returns { success: true, data: { status: 'healthy' } }
+        expect(data.data?.status || data.status).toBeDefined();
       }
     });
   });

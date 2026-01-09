@@ -135,14 +135,41 @@ export class DeliberationService extends BaseService {
 
   async saveDeliberation(deliberation: Omit<Deliberation, 'id' | 'createdAt'>): Promise<Deliberation> {
     const id = `delib-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    const createdAt = new Date();
     
+    // Save to database for persistence
+    try {
+      await prisma!.deliberations.create({
+        data: {
+          id,
+          organization_id: deliberation.organizationId,
+          question: deliberation.question,
+          mode: (deliberation.mode?.toUpperCase() || 'STANDARD') as any,
+          status: (deliberation.status?.toUpperCase() || 'COMPLETED') as any,
+          confidence: deliberation.confidence,
+          decision: deliberation.synthesis,
+          context: {
+            councilMode: deliberation.councilMode,
+            userId: deliberation.userId,
+            tags: deliberation.tags,
+            agentResponses: JSON.parse(JSON.stringify(deliberation.agentResponses)),
+          } as any,
+          created_at: createdAt,
+        },
+      });
+
+      this.logger.info(`Saved deliberation ${id} to database`);
+    } catch (error) {
+      this.logger.warn(`Failed to save deliberation to database, using cache only: ${error}`);
+    }
+
     const saved: Deliberation = {
       ...deliberation,
       id,
-      createdAt: new Date(),
+      createdAt,
     };
 
-    // Save to cache
+    // Also save to cache for fast access
     const orgDeliberations = this.deliberationCache.get(deliberation.organizationId) || [];
     orgDeliberations.unshift(saved);
     this.deliberationCache.set(deliberation.organizationId, orgDeliberations.slice(0, 100));

@@ -17,10 +17,10 @@ setupTestHooks();
 describe('Infrastructure Health', () => {
   describe('Server Availability', () => {
     it('should respond to basic health check', async () => {
-      const response = await fetch('http://localhost:3001/health');
+      const response = await fetch('http://localhost:3000/api/v1/health');
       expect(response.ok).toBe(true);
       const data = await response.json();
-      expect(data.status).toBe('healthy');
+      expect(data.data.status).toBe('healthy');
     });
 
     it('should return 404 for unknown routes', async () => {
@@ -383,7 +383,7 @@ describe('Security', () => {
 
   describe('Content Security', () => {
     it('should have security headers', async () => {
-      const response = await fetch('http://localhost:3001/health');
+      const response = await fetch('http://localhost:3000/api/v1/health');
       
       // Helmet sets these headers
       expect(response.headers.get('x-content-type-options')).toBe('nosniff');
